@@ -1279,441 +1279,441 @@
       "error": null
     },
     "2026-05-25-214-Karpathy 刚说「代码不是 AI 最大的价值」——OPC 创业会死在哪｜23 分钟拆解产品经理.skill.md": {
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T21:58:31.930873",
+      "error": null
+    },
+    "2026-05-25-215-深度体验Codex操控鼠标写代码验收和做PPT！.md": {
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T21:59:24.102838",
+      "error": null
+    },
+    "2026-05-25-216-太强了！网页竟然可以一键转 Figma，还自适应？.md": {
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:01:18.299606",
+      "error": null
+    },
+    "2026-05-25-217-一行命令装1431个AI编程技能——你还在每次重新教AI？.md": {
+      "status": "done",
+      "cards_count": 9,
+      "processed_at": "2026-05-25T22:02:23.195780",
+      "error": null
+    },
+    "2026-05-25-218-AI进阶教程｜用AI完成从插画风设计图到ppt全流程！.md": {
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:03:04.304159",
+      "error": null
+    },
+    "2026-05-25-219-科研绘图这都能画？用 PPT VBA 手搓立方体、高斯椭球！.md": {
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:03:42.384462",
+      "error": null
+    },
+    "2026-05-25-220-Claude + PPT Skill一键制作高级感html.md": {
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:04:23.571507",
+      "error": null
+    },
+    "2026-05-25-221-“幽灵外卖”：暴力抗法内幕【晚点LatePost】.md": {
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:05:04.525727",
+      "error": null
+    },
+    "2026-05-25-222-PM必看🔥一次讲清，做产品原型的完整流程.md": {
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:05:43.360015",
+      "error": null
+    },
+    "2026-05-25-223-AI做PPT别再乱选工具了！.md": {
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:06:29.073833",
+      "error": null
+    },
+    "2026-05-25-224-分享一个超硬核极简的 UI  视觉设计排版 Skill.md": {
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:07:13.245818",
+      "error": null
+    },
+    "2026-05-25-225-【AI实战】73.使用交接skill，一句话完成新前端页面.md": {
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:07:54.959588",
+      "error": null
+    },
+    "2026-05-25-226-Affinity-AI脚本和MCP（第42期）.md": {
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:08:52.021649",
+      "error": null
+    },
+    "2026-05-25-227-我的 AI 视频动画制作流程完整公开.md": {
       "status": "processing",
       "cards_count": 0,
       "processed_at": null,
       "error": null
     },
-    "2026-05-25-215-深度体验Codex操控鼠标写代码验收和做PPT！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-216-太强了！网页竟然可以一键转 Figma，还自适应？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-217-一行命令装1431个AI编程技能——你还在每次重新教AI？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-218-AI进阶教程｜用AI完成从插画风设计图到ppt全流程！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-219-科研绘图这都能画？用 PPT VBA 手搓立方体、高斯椭球！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-220-Claude + PPT Skill一键制作高级感html.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-221-“幽灵外卖”：暴力抗法内幕【晚点LatePost】.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-222-PM必看🔥一次讲清，做产品原型的完整流程.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-223-AI做PPT别再乱选工具了！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-224-分享一个超硬核极简的 UI  视觉设计排版 Skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-225-【AI实战】73.使用交接skill，一句话完成新前端页面.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-226-Affinity-AI脚本和MCP（第42期）.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
-    "2026-05-25-227-我的 AI 视频动画制作流程完整公开.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
-      "error": null
-    },
     "2026-05-25-228-我开源了一个插件，让飞书群的Agent机器人学会互相艾特和协作，实现完整交付一个产品！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:10:08.357585",
       "error": null
     },
     "2026-05-25-229-抖音+obsidian，构建全网大V最强本地知识库！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:11:29.350205",
       "error": null
     },
     "2026-05-25-230-设计师如何让 Claude 接管重复工作.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:12:20.528064",
       "error": null
     },
     "2026-05-25-231-如何用 Agent Skill 赋能你的教与学？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:13:44.063564",
       "error": null
     },
     "2026-05-25-232-需求文档V1.0→V2.0：4大能力升级，合格文档造就靠谱人设.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:14:44.231360",
       "error": null
     },
     "2026-05-25-233-为什么RPA工具更擅长操作浏览器网页？影刀蓝印RPA软件原理一次讲清.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T22:15:24.605050",
       "error": null
     },
     "2026-05-25-234-2026产品经理硬核能力地图｜10大行业+AI能力+常用200名词+必会24个系统.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:16:24.432799",
       "error": null
     },
     "2026-05-25-235-看 完 就 能 落 地 的 方  法  论 - 【需求分析穿透系列 02 - 全局概览】.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:17:26.452807",
       "error": null
     },
     "2026-05-25-236-让Vibecoding做的产品动起来！3个网站+2个保姆技巧.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:18:10.825520",
       "error": null
     },
     "2026-05-25-237-辅导班收费大几万的“产品思维”，我5分钟内帮你捋清楚！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:19:12.652658",
       "error": null
     },
     "2026-05-25-238-分享自用的视频剪辑工作流App的使用演示.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:20:17.542644",
       "error": null
     },
     "2026-05-25-239-Obsidian Web Clipper 全网最准用法！解决你的一切问题！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 2,
+      "processed_at": "2026-05-25T22:21:14.373063",
       "error": null
     },
     "2026-05-25-240-神器推荐  PyWord Skills：Word 文档自动排版一键搞定！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T22:22:00.165305",
       "error": null
     },
     "2026-05-25-241-从夯到拉，前端网页设计skills，4款模型十个skills做首页小程序后台UI.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:22:46.500298",
       "error": null
     },
     "2026-05-25-242-一眼看透人的功夫是如何练就的？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:23:36.908420",
       "error": null
     },
     "2026-05-25-243-3步用「Claudian+Skill」打造专属你的选题助手！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:24:38.364644",
       "error": null
     },
     "2026-05-25-244-产品视角如何简单理解skill，像写论文一样学习skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 1,
+      "processed_at": "2026-05-25T22:25:20.970379",
       "error": null
     },
     "2026-05-25-245-我把泄露的ClaudeCode源代码做成了桌面端！开源免费！手机控制+自定义模型+Computer use + 多Ses.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:26:03.744212",
       "error": null
     },
     "2026-05-25-246-又做了一年独立游戏。【我在B站做游戏-玩法设计赛道】.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:26:42.944104",
       "error": null
     },
     "2026-05-25-247-AI产品经理听劝！2026年只会写Prompt已经没机会了，五大能力才是新门槛！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:27:21.102771",
       "error": null
     },
     "2026-05-25-248-“你连Redis限流阈值都算好了？”当产品经理懂技术，开发根本没有还嘴的机会 #技术流 #后端开发 #前端开发 #产品经.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:28:10.357497",
       "error": null
     },
     "2026-05-25-249-5 个 skill 覆盖所有绘图表场景.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:28:59.654067",
       "error": null
     },
     "2026-05-25-250-Obsidian 同步飞书｜实操记录 + 踩坑总结.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:29:58.020669",
       "error": null
     },
     "2026-05-25-251-别被同事发现...1分钟搞定高颜值动效网站.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:30:44.271765",
       "error": null
     },
     "2026-05-25-252-相亲避坑指南，普通孩子如何识别家庭风险？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:31:45.362470",
       "error": null
     },
     "2026-05-25-253-指挥 Claude 让 figma 自己制作组件.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:32:48.243724",
       "error": null
     },
     "2026-05-25-254-粘贴一个链接，自动生成 Obsidian 笔记？Claude Code Skill 演示.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:33:31.491396",
       "error": null
     },
     "2026-05-25-255-🔥skills全能反推小白都可以做设计.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:34:47.238983",
       "error": null
     },
     "2026-05-25-256-深入Claude Agent Teams：配置创建Sub Agent调用改代码，原理与实战一次讲透、Claude 教程、.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:35:32.554397",
       "error": null
     },
     "2026-05-25-257-PPT-Master 做的ppt没有设计感？再花6毛钱展示一个Keynote风的示例.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:36:23.556554",
       "error": null
     },
     "2026-05-25-258-🦞完美取代OpenClaw：Hermes Agent自主进化+安全防御+无缝迁移！GitHub登顶第一的AI智能体深度实.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:37:20.342713",
       "error": null
     },
     "2026-05-25-259-做了一个生成2026最潮流风格PPT的skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:38:03.484365",
       "error": null
     },
     "2026-05-25-260-Obsidian进化！我手搓了一套「AI 工作流系统」.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:39:17.638219",
       "error": null
     },
     "2026-05-25-261-12周计划到底有沒有效？姜饼资.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T22:40:30.174622",
       "error": null
     },
     "2026-05-25-262-MemFlow一键总结B站视频.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:41:13.715296",
       "error": null
     },
     "2026-05-25-263-什么样的vibecoding 能力，求职才有含金量❓.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:42:55.430865",
       "error": null
     },
     "2026-05-25-264-Google Stitch 动态设计图保姆级教程.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T22:43:34.054674",
       "error": null
     },
     "2026-05-25-265-[中配]使用Remotion和提示词动画化任何Nano Banana图形 - Lukas Margerie.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:44:19.482799",
       "error": null
     },
     "2026-05-25-266-Awesome-design-md  我开发了可以直接预览设计风格的站点，祝你玩的愉快～.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:45:09.589257",
       "error": null
     },
     "2026-05-25-267-亲测有效！一个Skill让Claude秒变产品经理.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:46:57.958799",
       "error": null
     },
     "2026-05-25-268-面试官逼问1小时AI产品面试项目会问到多深.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:47:41.294193",
       "error": null
     },
     "2026-05-25-269-不用想选题、真实有活人感，3分钟出一条视频.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 9,
+      "processed_at": "2026-05-25T22:48:36.591586",
       "error": null
     },
     "2026-05-25-270-语音填报小程序｜0-1总共分几步？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T22:49:31.698151",
       "error": null
     },
     "2026-05-25-271-pencil 给 Agent 使用的 Figma.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:50:20.559089",
       "error": null
     },
     "2026-05-25-272-超强浏览器插件：视频图片一键反向分析，秒出精准 AI 提示词.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T22:51:23.662542",
       "error": null
     },
     "2026-05-25-273-全自动 AI 视频剪辑神器AIcut安装使用教程.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T22:52:31.235471",
       "error": null
     },
     "2026-05-25-274-obsidian笔记管理.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T23:01:33.194066",
       "error": null
     },
     "2026-05-25-275-分享最近常用的25款Obsidian插件（第三期）.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:02:25.040069",
       "error": null
     },
     "2026-05-25-276-想转行当AI产品经理，我改怎么办？（1）.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 11,
+      "processed_at": "2026-05-25T23:03:12.933667",
       "error": null
     },
     "2026-05-25-277-seedance不擅长做的科普动画，我花了720个小时用AI彻底攻克，并开源了所有代码！不是api也不烧token，却能.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:04:06.767031",
       "error": null
     },
     "2026-05-25-278-【超简单】本地化AI视频总结（支持点击跳转）.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:04:46.772109",
       "error": null
     },
     "2026-05-25-279-我做了个全网最省钱的AI画布-永久免费.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:05:39.001975",
       "error": null
     },
     "2026-05-25-280-vibecoding 一星期, 我上线了一个能够把任何学习材料转化成一系列小游戏的网站.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T23:06:16.643879",
       "error": null
     },
     "2026-05-25-281-5个 Claude Code 高性价比技巧，让你 Vibe Coding 效率翻倍！ AI 实战.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:06:58.451104",
       "error": null
     },
     "2026-05-25-282-awesome-design-md   一键复刻大厂设计规范 ｜ 咱设计界的事情，能叫偷吗？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:08:01.376163",
       "error": null
     },
     "2026-05-25-283-【讲解版】做视频神器！进度条一键生成.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:09:00.916262",
       "error": null
     },
     "2026-05-25-284-【预览版】做视频神器！进度条一键生成.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T23:09:48.102162",
       "error": null
     },
     "2026-05-25-285-obsidian笔记自动管理技能.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:10:29.303859",
       "error": null
     },
     "2026-05-25-286-Calicat 上线全新 AI 编辑.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:11:05.602398",
       "error": null
     },
     "2026-05-25-287-免费分享本牛马自制的终极工作记录系统，也许老板更希望我使用....md": {
@@ -1723,7 +1723,7 @@
       "error": null
     },
     "2026-05-25-288-为什么Vibe Coding 做的原型总不像自家产品.md": {
-      "status": "pending",
+      "status": "processing",
       "cards_count": 0,
       "processed_at": null,
       "error": null
@@ -1735,333 +1735,333 @@
       "error": null
     },
     "2026-05-25-290-一键制作「小Lin说」那样的数据图表动画，Ai整理数据+剪映制作数据图表，全流程教程！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:11:57.945209",
       "error": null
     },
     "2026-05-25-291-怎样让网站摆脱AI生成感，充满高级感？答案在这里！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:12:42.878309",
       "error": null
     },
     "2026-05-25-292-职业 Skill，一个 skill 包揽你的工作，顺便开源 我的 100+个 skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:13:34.712392",
       "error": null
     },
     "2026-05-25-293-试用期保命法则.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:14:34.639517",
       "error": null
     },
     "2026-05-25-294-搭建本地知识库，视频链接转笔记，支持本地视频，笔记可导入知识库，生成Anki记忆笔记、思维导图，生成题目测试，支持ai提.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:15:26.342944",
       "error": null
     },
     "2026-05-25-295-【AI案例篇】Ai自动剪辑的skills来了，完整的文档sop、踩坑都有了。 #ai剪辑 #ai踩坑.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T23:16:18.663005",
       "error": null
     },
     "2026-05-25-296-AI产品经理面试  怎么埋钩子.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:17:01.800505",
       "error": null
     },
     "2026-05-25-297-天呐！这几步竟让AI味APP瞬间“起死回生”，灵魂满满！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 9,
+      "processed_at": "2026-05-25T23:18:03.866685",
       "error": null
     },
     "2026-05-25-298-AI产品经理面试校招反复看.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:19:38.546925",
       "error": null
     },
     "2026-05-25-299-当流程较长和流程巨大时，如何通过打印指令快速定位？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T23:20:22.849997",
       "error": null
     },
     "2026-05-25-300-Google Stitch对比Pencil，谁生成的UI更好.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:21:20.133515",
       "error": null
     },
     "2026-05-25-301-花一天整理了 140 个 skill，开始享受 AI 复利.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 9,
+      "processed_at": "2026-05-25T23:22:12.487680",
       "error": null
     },
     "2026-05-25-302-LangExtract-小而美的结构化数据提取工具.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:23:05.676853",
       "error": null
     },
     "2026-05-25-303-heretic是高效的代码搜索和分析工具，支持大规模代码库的快速检索，提供正则表达式搜索和代码结构分析功能。 #代码搜索.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:23:41.623014",
       "error": null
     },
     "2026-05-25-304-deepseek的AI搜索是怎么做的？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:24:19.503939",
       "error": null
     },
     "2026-05-25-305-008-🚀OpenClaw多Agent实战保姆级教程.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:25:04.399698",
       "error": null
     },
     "2026-05-25-306-肝了30天！7分钟彻底学会AI动效！告别AE！  Claude+Remotion新手实战教程【vibe motion】.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:25:55.822507",
       "error": null
     },
     "2026-05-25-307-【AI】NanoBanana2 最强图像模型开放，超详细的测试案例分享，超简单的部署安装，任何人都能轻松享受AI的快乐.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:26:51.974274",
       "error": null
     },
     "2026-05-25-308-Paperclip Routines - 让“零人公司”每天自动干活.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:27:55.148877",
       "error": null
     },
     "2026-05-25-309-Karpathy的Obsidian RAG + Claude Code = 作弊代码.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:28:57.081241",
       "error": null
     },
     "2026-05-25-310-2026｜祛除文章AI味有效方法：打造1套Skill！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:30:00.815036",
       "error": null
     },
     "2026-05-25-311-【一飞冲天】如何跟上 AI 时代的快速发展？不掉队.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T23:30:40.310686",
       "error": null
     },
     "2026-05-25-312-【品牌全案】2026终于有一套品牌全案系统课程，从0到1搭建品牌，带你搞懂品牌策划全流程！拔高设计师天花板，做设计大咖！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T23:31:48.919806",
       "error": null
     },
     "2026-05-25-313-如何让你的ui设计更高级？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:32:40.041450",
       "error": null
     },
     "2026-05-25-314-16个开源agent项目教我如何设计agent系统.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 13,
+      "processed_at": "2026-05-25T23:34:12.312472",
       "error": null
     },
     "2026-05-25-315-一人公司OPC在财务上不能不知道的习惯.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:35:21.124633",
       "error": null
     },
     "2026-05-25-316-【新手必看】QuickAdd插件Obsidian自动化的神！模板捕获宏功能全解析.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:36:17.029818",
       "error": null
     },
     "2026-05-25-317-蓝印RPA对标影刀，新增控制台调用agent，手机微信可操控.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:37:11.302392",
       "error": null
     },
     "2026-05-25-318-产品经理必看！Google Stitch开源DESIGN.md.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:38:10.197910",
       "error": null
     },
     "2026-05-25-319-我如何管理 Skills？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:38:56.690133",
       "error": null
     },
     "2026-05-25-320-四种方法把工作 skill 化.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:40:56.874948",
       "error": null
     },
     "2026-05-25-321-skills多了应该怎么做？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:41:44.065904",
       "error": null
     },
     "2026-05-25-322-配图 skill，一个 skill 搞定所有设计.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T23:42:51.004676",
       "error": null
     },
     "2026-05-25-323-RPA魔法指令！小红书关键词笔记自动抓取.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T23:43:39.652006",
       "error": null
     },
     "2026-05-25-324-AI+RPA自动化.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T23:44:33.406698",
       "error": null
     },
     "2026-05-25-325-我做了一个自动调整公文格式的skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:45:11.602692",
       "error": null
     },
     "2026-05-25-326-🚀Claude Code 50万行源代码泄露！深度分析封号机制、模型偷换真相、揭示四层上下文压缩算法和三层记忆架构和18.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:46:19.762712",
       "error": null
     },
     "2026-05-25-327-PENCIL实战.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:47:13.711346",
       "error": null
     },
     "2026-05-25-328-用 AI 画了一年原型后，我做了这个 Skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:48:04.745074",
       "error": null
     },
     "2026-05-25-329-【Obsidian】2026年最惊艳我的一个Obsidian插件Notebook Navigator.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:48:43.543170",
       "error": null
     },
     "2026-05-25-330-10分钟讲解所有UIUX概念.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 16,
+      "processed_at": "2026-05-25T23:50:14.939790",
       "error": null
     },
     "2026-05-25-331-Design Skill 到底用哪个？设计师测评.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-25T23:51:13.792261",
       "error": null
     },
     "2026-05-25-332-【Skill 评测02】毛选心法变skills-做重大决策前，你需要一面镜子.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-25T23:52:19.912076",
       "error": null
     },
     "2026-05-25-333-用 AI 画了一年原型图后，我做了这个 Skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:53:06.706682",
       "error": null
     },
     "2026-05-25-334-【AI 剪辑】小白一句话出视觉大片？积木 + Skills 太强了 ，remotion手把手教你如何落地！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 8,
+      "processed_at": "2026-05-25T23:54:35.240442",
       "error": null
     },
     "2026-05-25-335-人精，如何分析一个人？【原生家庭04】成年后的行为模式，是童年的生存策略延续.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-25T23:55:20.065393",
       "error": null
     },
     "2026-05-25-336-如何用skill高效搭建灵感知识库并自动写入飞书多维表格.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:56:17.698108",
       "error": null
     },
     "2026-05-25-337-我们做了一个自动剪辑的工具🔨（附教程）.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:57:01.969351",
       "error": null
     },
     "2026-05-25-338-Claude Code 更新太快跟不上？我做了个自动追踪系统帮你解决.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:58:04.104960",
       "error": null
     },
     "2026-05-25-339-Figma MCP 真变强了：AI 已经能直接在画布里做设计了，我跑了 4 个真实案例.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-25T23:59:05.327780",
       "error": null
     },
     "2026-05-25-340-Superpowers 从头脑风暴、方案设计，到拆任务、写代码、系统化调试、测试驱动开发，子智能体协作、分支交付，全流程.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-26T00:00:17.507958",
       "error": null
     },
     "2026-05-25-341-[Modern Agent] 13 Superpowers Skills，Vibe Coding 时代的软件开发圣经.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:01:16.650701",
       "error": null
     },
     "2026-05-25-342-Obsidian无感任务拆解.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:02:29.154955",
       "error": null
     },
     "2026-05-25-343-n8n自动化工作流：别做PPT了！文字一键生成酷炫动态演示稿，效果炸裂！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:03:23.246822",
       "error": null
     },
     "2026-05-25-344-昨天和做AI很多年的业内人士PK了很久AI的观点和未来发展.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:04:10.870031",
       "error": null
     },
     "2026-05-25-345-小米 MiMo-V2-Pro 编程能力实测：前端UI对标Claude Opus4.6.md": {
@@ -2071,179 +2071,347 @@
       "error": null
     },
     "2026-05-25-346-深度解析：如何让 OpenClaw Multi-Agent 系统实现自我发现、自修复与持续进化？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:05:06.805908",
       "error": null
     },
     "2026-05-25-347-阿里人才出走，林俊旸离职内幕【晚点LatePost】.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:06:11.580730",
       "error": null
     },
     "2026-05-25-348-一行命令做视频！跟随AI指导！从话题到4K成片只需10分钟｜Video Podcast Maker.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:06:59.973773",
       "error": null
     },
     "2026-05-25-349-🔥找、学、用、做，轻松玩转所有Skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:08:00.644537",
       "error": null
     },
     "2026-05-25-350-05后女生的实习作品集.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:08:43.344553",
       "error": null
     },
     "2026-05-25-351-【自动化软件自学记录】MacroDroid自制基础教学.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:09:39.809126",
       "error": null
     },
     "2026-05-25-352-【番外】安卓手机自动化神器：Automate vs MacroDroid，彻底解放你的双手！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:10:38.433798",
       "error": null
     },
     "2026-05-25-353-AI时代的自适应爬虫：Scrapling自动绕过Cloudflare，内置MCP协议让AI有了眼睛.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:13:01.168807",
       "error": null
     },
     "2026-05-25-354-SKILLS 网页-图片-txt转Remotion视频.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:13:45.282638",
       "error": null
     },
     "2026-05-25-355-学术Word场景，哪个Ofifice Agent能打？ ClaudeGPTMiniMAXKimiGLM横评.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:14:41.072883",
       "error": null
     },
     "2026-05-25-356-10分钟vibe coding学术ppt.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:15:37.811340",
       "error": null
     },
     "2026-05-25-357-从小白到科普博主，我总结了一套AI自学指南.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 11,
+      "processed_at": "2026-05-26T00:16:43.501847",
       "error": null
     },
     "2026-05-25-358-视频教程太多，一键整理成文档，打造个人知识库！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:17:27.341881",
       "error": null
     },
     "2026-05-25-359-一行命令从话题到4K成片：Video Podcast Maker 全新功能介绍 (V2 Update).md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:18:16.740738",
       "error": null
     },
     "2026-05-25-360-一个CLI干掉所有MCP工具，省99%的token mcp2cli.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:19:01.468238",
       "error": null
     },
     "2026-05-25-361-实测video-podcast-maker视频制作流程！是真行！.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:19:37.107332",
       "error": null
     },
     "2026-05-25-362-SKILL-将公众号文章下载为网页或者PDF--李升泽COZE体系课.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-26T00:20:14.306944",
       "error": null
     },
     "2026-05-25-363-一张图讲清前端架构.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:21:04.651008",
       "error": null
     },
     "2026-05-25-364-Dankoe 用一天改变一生，流程图如何制作？.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:22:03.425695",
       "error": null
     },
     "2026-05-25-365-【中配】我不敢相信居然没人这么做过 OpenAI API的重大变革 - Theo - t3․gg.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:22:51.411544",
       "error": null
     },
     "2026-05-25-366-发现宝藏！目前超好用的生图Skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:23:40.242608",
       "error": null
     },
     "2026-05-25-367-打造自己的AI公司，AI经理指挥AI员工。新增openclaw。CLI都兼容的AI应用.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 1,
+      "processed_at": "2026-05-26T00:24:26.823213",
       "error": null
     },
     "2026-05-25-368-装好OpenClaw后，我花几天时间从这1700多个Skill里筛出真正有用的15个.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 5,
+      "processed_at": "2026-05-26T00:25:30.912530",
       "error": null
     },
     "2026-05-25-369-孤独在我心里杀死了一条蛟龙【B站AI创作大赛-开放赛道】.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 4,
+      "processed_at": "2026-05-26T00:26:50.884224",
       "error": null
     },
     "2026-05-25-370-【2026最新版】Dify实战项目案例，手把手带你练完7个企业级Ai大模型应用开发：聊天助手、代码转换、Agent、RA.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-26T00:27:42.053413",
       "error": null
     },
     "2026-05-25-371-B站首推！2025最新版AIGC从入门到精通教程(Midjourney+StableDiffusion+ChatGPT).md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 7,
+      "processed_at": "2026-05-26T00:28:32.506207",
       "error": null
     },
     "2026-05-25-372-别再手撸PRD了？我做了一个逆向工程Skill.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 6,
+      "processed_at": "2026-05-26T00:29:23.311718",
       "error": null
     },
     "2026-05-25-373-两小时python速成课程.md": {
-      "status": "pending",
-      "cards_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "cards_count": 3,
+      "processed_at": "2026-05-26T00:30:06.362887",
       "error": null
     },
     "2026-05-25-374-阿里桌面AI助手QoderWork，帮我假期收尾，丝滑开工.md": {
-      "status": "pending",
+      "status": "error",
       "cards_count": 0,
       "processed_at": null,
-      "error": null
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl."
+    },
+    "2026-05-25-375-传统剪辑正在被淘汰，cc+remotion全流程趟坑指南（纯小白也适用）.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-376-我给自己造了个 70 人 AI 团队  回到Axton.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-377-🚀【OpenClaw教程】OpenClaw高级玩法：记忆蒸馏+Skill固化+模型降级！Token成本直降40%，效率倍.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-378-找 Agent Skills 的正确姿势：发现-安装-管理.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-379-【零基础保姆教程】OpenClaw浏览器自动化：从API抓取到 247 完全接管.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-380-小白必看！三步玩转海量开源模型.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-381-一句话做出杂志级PPT：我的Claude Code Skill是怎么做到的？.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-382-NanoClaw飞书集成手把手教程 - Andrej都觉得有趣的轻量级安全优先AI助手.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-383-卸载 OpenClaw！拥抱NanoClaw.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-384-成功使用Skill实现智能分析小说并生成分镜网站.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-385-【小白教程】手把手教你用Cursor+Skills+云开发，做个小程序  全程实操，不写代码，一气呵成.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-386-openclaw剪辑处理视频.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-387-perplexity和Notebooklm的组合，快速搜索资料，整理，并且输出各思维导图,问答，知识卡片，音频播客.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-388-Obsidian自动整理插件：实现笔记文件夹自动归档.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-389-“视记STT播放器”（obsidian插件）字幕生成编辑+视频笔记合2为1.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-390-GPT-SoVITS V2 Pro 完整教学：复刻自己的声音！结合 OpenClaw 实现 AI 自动化短影音口播.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-391-[中配]NotebookLM 新增超能力 (反重力) - Jack Roberts.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-392-如何3分钟批量出片电商UGC视频？n8n + 飞书 + Gemini + Veo3 一键成片！.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-393-🚀网页原型标注神器，原型沟通效率翻倍！.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-394-原型没法加注释？我手搓了个浏览器插件！.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-395-text-to-video — 将 Markdown 课件一键生成高质量讲解视频.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-396-05.OpenCLaw网页自然动化.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-397-神级Skill + 谷歌Gemini，直出多种风格PPT。.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-398-ClaudeCode创始人Boris的编程方法，一天跑5个项目.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-399-【手把手教程】Openclaw AI专家团队手把手搭建教程，带你搭建自己的专家团队.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-400-PM必看！产品经理AI全流程提效工具箱大公开.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-401-把 AI 变成你的全能助理，OpenClaw 的 5 种高效用法.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
+    },
+    "2026-05-25-402-从重度拖延症到高效工作狂，只因为我做了这个AI Agent.md": {
+      "status": "error",
+      "cards_count": 0,
+      "processed_at": null,
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
     }
   },
-  "updated_at": "2026-05-25T21:57:25.696041"
+  "updated_at": "2026-05-26T05:07:19.850224"
 }
