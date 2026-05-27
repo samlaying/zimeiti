@@ -703,46 +703,46 @@
       "error": null
     },
     "2026-05-25-118-我想做一个B站-第一期梳理整体需求.md": {
-      "status": "processing",
-      "notes_count": 0,
-      "processed_at": null,
+      "status": "done",
+      "notes_count": 7,
+      "processed_at": "2026-05-26T22:10:03.605936",
       "error": null
     },
     "2026-05-25-119-012-🚀ClaudeCode桌面端接入国产模型，用上最强代码助手和cowork！.md": {
-      "status": "pending",
-      "cards_count": 6,
-      "processed_at": null,
+      "status": "done",
+      "notes_count": 5,
+      "processed_at": "2026-05-26T22:10:41.639595",
       "error": null
     },
     "2026-05-25-120-Project任务管理：把混乱变成可控的核心方法.md": {
-      "status": "pending",
-      "cards_count": 8,
-      "processed_at": null,
+      "status": "done",
+      "notes_count": 7,
+      "processed_at": "2026-05-26T22:11:39.325042",
       "error": null
     },
     "2026-05-25-121-即梦CLI一发不可收拾，竟手搓出了Vibe Workflow全能型无限画布，实现SeeDance2.0自由.md": {
-      "status": "pending",
-      "cards_count": 5,
-      "processed_at": null,
+      "status": "done",
+      "notes_count": 5,
+      "processed_at": "2026-05-26T22:12:19.816823",
       "error": null
     },
     "2026-05-25-122-放弃写文档吧，这个Skill让原型自带说明书.md": {
-      "status": "pending",
-      "cards_count": 5,
-      "processed_at": null,
+      "status": "done",
+      "notes_count": 7,
+      "processed_at": "2026-05-26T22:13:48.515198",
       "error": null
     },
     "2026-05-25-123-还把skills当提示词来用？5个skills使用层级从初级到高级的使用方式skill的使用方法和技巧.md": {
-      "status": "pending",
-      "cards_count": 6,
-      "processed_at": null,
+      "status": "done",
+      "notes_count": 5,
+      "processed_at": "2026-05-26T22:14:21.329569",
       "error": null
     },
     "2026-05-25-124-Codex、Obsidian、Zotero联动的论文库工作流.md": {
-      "status": "pending",
-      "cards_count": 7,
+      "status": "error",
+      "notes_count": 0,
       "processed_at": null,
-      "error": null
+      "error": "HTTPSConnectionPool(host='token-plan-cn.xiaomimimo.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(\"HTTPSConnection(host='token-plan-cn.xiaomimimo.c"
     },
     "2026-05-25-125-用AI做视频系列：Codex 动效.md": {
       "status": "pending",
@@ -3379,5 +3379,5 @@
       "error": null
     }
   },
-  "updated_at": "2026-05-26T22:09:13.701621"
+  "updated_at": "2026-05-26T22:14:27.373907"
 }
