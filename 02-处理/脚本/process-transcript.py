@@ -33,6 +33,15 @@
     # 更新选题池（从已处理的原子笔记中汇总）
     python3 process-transcript.py --update-pool
 
+    # 分析素材库领域分布
+    python3 process-transcript.py --analyze-materials
+
+    # 让素材长成"选题胚胎"（默认优先读卡片，卡片为空时读原始素材）
+    python3 process-transcript.py --incubate 10
+
+    # 直接从原始素材孵化，并生成发布草稿骨架
+    python3 process-transcript.py --incubate 10 --incubate-source raw --draft
+
 状态文件: 02-处理/state.json
 """
 
@@ -40,16 +49,17 @@ import re
 import sys
 import json
 import time
+import hashlib
 import argparse
+import urllib.error
+import urllib.request
 from pathlib import Path
 from datetime import datetime
 
 try:
     import requests
 except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "requests", "-q"])
-    import requests
+    requests = None
 
 
 # ── 配置 ────────────────────────────────────────────────────────
@@ -62,6 +72,8 @@ VAULT_ROOT = Path(__file__).resolve().parent.parent.parent       # 自媒体/
 TRANSCRIPT_DIR = VAULT_ROOT / "01-输入" / "素材"
 CARD_DIR = VAULT_ROOT / "02-处理" / "卡片"
 POOL_DIR = VAULT_ROOT / "02-处理" / "选题池"
+EMBRYO_DIR = VAULT_ROOT / "02-处理" / "选题胚胎"
+MATERIAL_REPORT = VAULT_ROOT / "02-处理" / "素材分析.md"
 STATE_FILE = VAULT_ROOT / "02-处理" / "state.json"
 
 # 9大领域
@@ -87,6 +99,28 @@ DEFORMATIONS = {
     "信息差/对比测评": "N个同类东西的横向对比 → 我的推荐 → 适用场景",
     "复盘/思考": "我做了什么 → 结果是什么 → 我学到了什么",
 }
+
+# 2026 内容增长信号：用于把"素材摘要"加工成更像可发表内容的选题胚胎。
+# 这些不是硬编码结论，而是给模型的编辑约束：少做工具搬运，多做观点、证据和人味。
+CONTENT_SIGNALS = [
+    "用户越来越排斥没有人味、未标注、缺少证据的 AI 生成内容；AI 应该做后台编辑部，不应该替代前台人格。",
+    "短视频和图文开头都要前置价值：3 秒内给冲突、结果、反常识问题或强视觉变化。",
+    "工具教程必须升级成场景教程：谁遇到什么痛点，用这个方法节省了什么，踩坑是什么。",
+    "爆款素材通常同时具备：强痛点、新鲜观点、可演示结果、可信证据、可收藏模板。",
+    "长尾流量越来越依赖结构化、可引用、可检索的内容：标题、关键词、清单和原始证据要清楚。",
+]
+
+# 标题级领域归类规则。比用 frontmatter 的 bilibili/笔记 标签更准。
+DOMAIN_RULES = [
+    ("AI编程/Vibe Coding/开发实战", r"vibe|vibecoding|coding|codex|claude\s*code|opencode|cursor|lovable|trae|代码|编程|开发|前端|后端|web3|ios|python|react|html|css|javascript|github|git|code review|登录|数据库|小程序|网站|网页"),
+    ("Agent/Skills/MCP/OpenClaw", r"agent|智能体|skills?|skill|openclaw|claw|clawdbot|mcp|tool use|multi-agent|多agent|多智能体|hermes|symphony|qoder|memory|记忆|context|上下文|agent teams"),
+    ("设计/UI/PPT/文档/可视化", r"设计|ui|ux|figma|ppt|幻灯片|海报|审美|动效|组件|material|hig|word|docx|排版|图标|配色|原型|流程图|excalidraw|图表|canva|affinity|pencil|stitch|画布|交互|导航|毛玻璃|时间轴"),
+    ("视频/剪辑/生图/多模态创作", r"视频|剪辑|字幕|口播|短剧|生图|图片|seedance|veo|remotion|tts|asr|b站|抖音|小红书|youtube|vlog|影视|成片|播客|nano|banana|gpt image|image2|即梦|midjourney|stable"),
+    ("产品经理/职场/商业/个人IP", r"产品经理|产品|pm|prd|需求|roadmap|面试|职场|汇报|一人公司|创业|商业|个人ip|公众号|自媒体|老板|跳槽|简历|试用期|性格|相亲|信任|协作|项目"),
+    ("知识管理/Obsidian/信息整理", r"obsidian|笔记|知识库|信息|收藏|notebooklm|youmind|memos|zotero|大纲|整理|阅读|研报|复习|学习材料|文件夹|论文"),
+    ("自动化/RPA/n8n/飞书/工作流", r"自动化|rpa|n8n|工作流|部署|cloudflare|docker|服务器|浏览器自动化|api|cli|飞书|微信|qq|tasker|macrodroid|make|监控|上传|采集|爬虫|scrapling|coze"),
+    ("AI模型/行业观察/基础教程", r"模型|openai|anthropic|gemini|kimi|deepseek|glm|minimax|qwen|claude opus|gpt|ai时代|焦虑|底层|原理|教程|入门|趋势|geo|langchain|rag|向量|多模态|提示词"),
+]
 
 
 # ── 系统提示词 ─────────────────────────────────────────────────
@@ -226,6 +260,122 @@ def parse_frontmatter(content):
     return fm, body
 
 
+def clean_text(text):
+    """压缩空白，保留中文内容可读性。"""
+    return re.sub(r'\s+', ' ', text or '').strip()
+
+
+def get_title_from_file(filepath):
+    content = filepath.read_text(encoding='utf-8')
+    fm, body = parse_frontmatter(content)
+    return fm.get('title', filepath.stem), fm, body
+
+
+def classify_domain(title, body=''):
+    """按标题为主、正文为辅做主领域归类。"""
+    haystack = f"{title}\n{clean_text(body[:1000])}".lower()
+    best_domain = "其他/泛主题"
+    best_score = 0
+    for domain, pattern in DOMAIN_RULES:
+        matches = re.findall(pattern, haystack, flags=re.IGNORECASE)
+        score = len(matches)
+        if score > best_score:
+            best_score = score
+            best_domain = domain
+    return best_domain
+
+
+def canonical_domain(domain, fallback="其他/泛主题"):
+    names = [name for name, _ in DOMAIN_RULES] + ["其他/泛主题"]
+    if domain in names:
+        return domain
+    guessed = classify_domain(domain or "", "")
+    return guessed if guessed != "其他/泛主题" else fallback
+
+
+def infer_audience(title, domain):
+    """用轻量规则给选题胚胎补一个默认读者。"""
+    text = title.lower()
+    if re.search(r"产品经理|pm|prd|需求|roadmap|面试", text):
+        return "产品经理/想转 AI 产品的人"
+    if re.search(r"设计|ui|figma|ppt|审美|原型", text):
+        return "设计师/需要做视觉表达的知识工作者"
+    if re.search(r"剪辑|视频|b站|抖音|小红书|口播|自媒体", text):
+        return "自媒体创作者/视频创作者"
+    if re.search(r"代码|编程|开发|前端|后端|github|codex|cursor", text):
+        return "独立开发者/AI 编程学习者"
+    if re.search(r"obsidian|笔记|知识库|notebooklm|信息", text):
+        return "知识管理重度用户/内容创作者"
+    if "Agent" in domain or "Skills" in domain:
+        return "AI 工具玩家/想把工作流产品化的人"
+    return "想用 AI 放大生产力的普通创作者"
+
+
+def local_material_score(title, domain, body=''):
+    """不调用模型的粗评分，方便筛选值得孵化的素材。"""
+    text = f"{title}\n{body[:1500]}"
+    score = 0
+    reasons = []
+    if re.search(r"保姆级|手把手|实战|教程|从0|零基础|完整|一键|模板|开源", text, re.IGNORECASE):
+        score += 2
+        reasons.append("可教程化")
+    if re.search(r"最强|爆火|神器|彻底|全网|重磅|颠覆|改变|封神|上限", text, re.IGNORECASE):
+        score += 1
+        reasons.append("标题冲突强")
+    if re.search(r"复盘|踩坑|经验|失败|死了|总结|真实|实测", text, re.IGNORECASE):
+        score += 2
+        reasons.append("可信度/人味强")
+    if re.search(r"产品经理|设计|剪辑|自媒体|Obsidian|Claude Code|Codex|OpenClaw|Skills|PPT", text, re.IGNORECASE):
+        score += 1
+        reasons.append("垂直受众明确")
+    if domain != "其他/泛主题":
+        score += 1
+        reasons.append("领域清晰")
+    return min(score, 10), reasons
+
+
+def extract_tags(fm):
+    tags = fm.get("tags", [])
+    if isinstance(tags, str):
+        return [tags]
+    return tags if isinstance(tags, list) else []
+
+
+def call_mimo_chat(system_prompt, user_msg, temperature=0.3, max_tokens=8000):
+    headers = {
+        "Authorization": f"Bearer {MIMO_API_KEY}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": MIMO_MODEL,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_msg},
+        ],
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+    }
+    url = f"{MIMO_BASE_URL}/chat/completions"
+    if requests:
+        resp = requests.post(url, headers=headers, json=payload, timeout=120)
+        resp.raise_for_status()
+        data = resp.json()
+    else:
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers=headers,
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", errors="ignore")
+            raise RuntimeError(f"HTTP {e.code}: {detail[:500]}") from e
+    return data["choices"][0]["message"]["content"]
+
+
 def call_mimo(title, body, source_filename):
     user_msg = f"""请分析以下逐字稿，提取原子笔记。
 
@@ -236,27 +386,7 @@ def call_mimo(title, body, source_filename):
 {body}
 --- 正文结束 ---
 """
-    headers = {
-        "Authorization": f"Bearer {MIMO_API_KEY}",
-        "Content-Type": "application/json",
-    }
-    payload = {
-        "model": MIMO_MODEL,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_msg},
-        ],
-        "temperature": 0.3,
-        "max_tokens": 8000,
-    }
-    resp = requests.post(
-        f"{MIMO_BASE_URL}/chat/completions",
-        headers=headers,
-        json=payload,
-        timeout=120,
-    )
-    resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"]
+    return call_mimo_chat(SYSTEM_PROMPT, user_msg, temperature=0.3, max_tokens=8000)
 
 
 def parse_notes_from_reply(reply):
@@ -468,6 +598,345 @@ def process_one(filepath, out_dir, dry_run=False, force=False, max_retries=2):
     return False, 0, last_error
 
 
+# ── 素材分析与孵化 ─────────────────────────────────────────────
+
+def analyze_materials():
+    """扫描原始素材，生成领域分布报告。"""
+    files = scan_transcripts()
+    by_domain = {}
+    tag_counts = {}
+    scored = []
+
+    for f in files:
+        title, fm, body = get_title_from_file(f)
+        domain = classify_domain(title, body)
+        score, reasons = local_material_score(title, domain, body)
+        by_domain.setdefault(domain, []).append((title, f.name, score, reasons))
+        scored.append((score, title, domain, f.name, reasons))
+        for tag in extract_tags(fm):
+            tag_counts[tag] = tag_counts.get(tag, 0) + 1
+
+    lines = [
+        "# 素材领域分析",
+        "",
+        f"> 自动生成于 {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        f"> 扫描素材：{len(files)} 篇",
+        "",
+        "## 领域分布",
+        "",
+        "| 领域 | 数量 | 适合长出的内容 |",
+        "|---|---:|---|",
+    ]
+
+    growth_map = {
+        "AI编程/Vibe Coding/开发实战": "实测教程、失败复盘、工具横评、普通人上手路线",
+        "Agent/Skills/MCP/OpenClaw": "架构拆解、工作流案例、未来趋势判断、系统提示词分析",
+        "设计/UI/PPT/文档/可视化": "高级感改造、模板、审美训练、AI 设计工作流",
+        "视频/剪辑/生图/多模态创作": "AI 视频流程、自动剪辑、脚本模板、工具链复盘",
+        "产品经理/职场/商业/个人IP": "AI 产品经理、职场提效、面试、个人品牌观点文",
+        "知识管理/Obsidian/信息整理": "第二大脑、素材库、自动写作系统、笔记工作流",
+        "AI模型/行业观察/基础教程": "模型更新解读、趋势判断、反常识观点、基础科普",
+        "自动化/RPA/n8n/飞书/工作流": "一人公司、自动化运营、无人后台任务、低成本部署",
+        "其他/泛主题": "观点文、人物/商业案例、跨领域联想",
+    }
+
+    for domain, items in sorted(by_domain.items(), key=lambda x: len(x[1]), reverse=True):
+        lines.append(f"| {domain} | {len(items)} | {growth_map.get(domain, '选题组合、观点加工')} |")
+
+    lines.extend([
+        "",
+        "## 最值得优先孵化的素材",
+        "",
+    ])
+    for score, title, domain, fname, reasons in sorted(scored, reverse=True)[:40]:
+        reason_text = "、".join(reasons) if reasons else "待人工判断"
+        lines.append(f"- **{score}/10** `{domain}` [[{fname}]]")
+        lines.append(f"  - {title}")
+        lines.append(f"  - 理由：{reason_text}")
+
+    lines.extend([
+        "",
+        "## 高频标签",
+        "",
+    ])
+    for tag, count in sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)[:60]:
+        lines.append(f"- `{tag}`：{count}")
+
+    lines.extend([
+        "",
+        "## 孵化原则",
+        "",
+        "1. 不把素材直接洗成文章，先补上你的判断、实测、反常识和场景。",
+        "2. 工具素材优先改造成场景素材：谁卡住了、用什么方法、节省什么、踩了什么坑。",
+        "3. 每个选题胚胎必须至少带 3 个钩子、1 个观点、1 个证据缺口、1 个可演示结果。",
+        "4. AI 做后台编辑部，人做前台人格；最终发布前必须写入你的立场和经验。",
+    ])
+
+    MATERIAL_REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"已生成素材分析: {MATERIAL_REPORT}")
+
+
+INCUBATION_PROMPT = """你是一个自媒体总编辑，负责把原始素材孵化成可发表、有新鲜观点、可能爆款的选题胚胎。
+
+你不是洗稿助手。你的目标是帮作者从素材里长出"血肉"：
+- 补出读者痛点
+- 提出新鲜观点
+- 设计开头钩子
+- 找到需要补证据/实测的位置
+- 给出适合不同平台的发布形态
+
+必须遵守：
+1. 不要虚构已发生的数据、报告、亲身经历；没有证据就写到 evidence_to_add。
+2. 不要只写工具介绍，要把工具放进具体人群和具体任务。
+3. 每个选题必须有人味：作者应该补哪段个人判断、踩坑或实测。
+4. 标题和钩子要有冲突，但不要标题党到承诺无法兑现。
+5. 输出严格是 JSON 对象，不要输出 Markdown 代码块。
+
+JSON 字段：
+{
+  "title": "选题胚胎标题",
+  "domain": "领域",
+  "audience": "目标读者",
+  "pain": "读者痛点",
+  "fresh_angle": "新鲜观点/反常识角度",
+  "core_pov": "作者可以站住的核心立场",
+  "hooks": ["3-5个开头钩子"],
+  "evidence_to_add": ["还需要补的证据/实测/截图/案例"],
+  "demo_or_result": "最适合展示的结果画面或成果",
+  "outline": ["发布内容结构，5-7步"],
+  "platform_versions": {
+    "小红书": "标题/图文角度",
+    "B站": "视频标题/脚本角度",
+    "公众号": "长文角度"
+  },
+  "draft_skeleton": "如果要求生成草稿，用 600-1000 字给出可继续改写的草稿骨架；否则给简短骨架",
+  "publishability_score": 1,
+  "score_reason": "为什么给这个分数",
+  "risk": "可能翻车/同质化/证据不足的地方",
+  "next_action": "作者下一步最该补什么"
+}
+"""
+
+
+def parse_json_object(reply):
+    raw = reply.strip()
+    m = re.search(r'```json\s*(.*?)\s*```', raw, re.DOTALL)
+    if m:
+        raw = m.group(1).strip()
+    else:
+        m = re.search(r'(\{.*\})', raw, re.DOTALL)
+        if m:
+            raw = m.group(1).strip()
+    raw = re.sub(r',\s*([\]}])', r'\1', raw)
+    return json.loads(raw)
+
+
+def material_payload(filepath, source_kind):
+    title, fm, body = get_title_from_file(filepath)
+    domain = fm.get("domain") or classify_domain(title, body)
+    audience = infer_audience(title, domain)
+    score, reasons = local_material_score(title, domain, body)
+
+    if source_kind == "card":
+        excerpt = body[:3500]
+    else:
+        # 优先保留视频笔记摘要，原始字幕只截一段，避免把模型带成逐字稿复述。
+        body_without_subtitle = body.split("## 原始字幕")[0]
+        excerpt = body_without_subtitle[:3500] if body_without_subtitle.strip() else body[:3500]
+
+    return {
+        "source_file": filepath.name,
+        "title": title,
+        "domain": domain,
+        "audience": audience,
+        "local_score": score,
+        "score_reasons": reasons,
+        "tags": extract_tags(fm),
+        "date": fm.get("date", datetime.now().strftime("%Y-%m-%d")),
+        "excerpt": clean_text(excerpt),
+    }
+
+
+def call_incubator(payload, draft=False):
+    user_msg = {
+        "content_signals": CONTENT_SIGNALS,
+        "draft_required": draft,
+        "material": payload,
+        "editorial_goal": "把这条素材加工成可发表选题，不做搬运；优先生成有判断、有证据缺口、有钩子的内容胚胎。",
+    }
+    reply = call_mimo_chat(
+        INCUBATION_PROMPT,
+        json.dumps(user_msg, ensure_ascii=False, indent=2),
+        temperature=0.45,
+        max_tokens=6000,
+    )
+    return parse_json_object(reply)
+
+
+def build_embryo_md(embryo, payload):
+    hooks = embryo.get("hooks", [])
+    evidence = embryo.get("evidence_to_add", [])
+    outline = embryo.get("outline", [])
+    platforms = embryo.get("platform_versions", {})
+    score = embryo.get("publishability_score", "")
+    domain = canonical_domain(embryo.get("domain", ""), payload["domain"])
+
+    lines = [
+        "---",
+        f'title: "{embryo.get("title", payload["title"])}"',
+        "type: 选题胚胎",
+        f'domain: "{domain}"',
+        f'audience: "{embryo.get("audience", payload["audience"])}"',
+        f'source: "[[{payload["source_file"]}]]"',
+        f'publishability_score: {score}',
+        f'created: {datetime.now().strftime("%Y-%m-%d %H:%M")}',
+        "status: incubated",
+        "tags:",
+        "  - 选题胚胎",
+        f'  - 领域/{domain}',
+        "---",
+        "",
+        f"# {embryo.get('title', payload['title'])}",
+        "",
+        f"> 来源：[[{payload['source_file']}]]",
+        "",
+        "## 读者与痛点",
+        f"- 目标读者：{embryo.get('audience', payload['audience'])}",
+        f"- 痛点：{embryo.get('pain', '')}",
+        "",
+        "## 新鲜观点",
+        embryo.get("fresh_angle", ""),
+        "",
+        "## 核心立场",
+        embryo.get("core_pov", ""),
+        "",
+        "## 钩子",
+    ]
+    for hook in hooks:
+        lines.append(f"- {hook}")
+
+    lines.extend(["", "## 还需要补的证据/实测"])
+    for item in evidence:
+        lines.append(f"- [ ] {item}")
+
+    lines.extend([
+        "",
+        "## 最适合展示的结果",
+        embryo.get("demo_or_result", ""),
+        "",
+        "## 内容结构",
+    ])
+    for i, item in enumerate(outline, 1):
+        lines.append(f"{i}. {item}")
+
+    lines.extend(["", "## 平台版本"])
+    for platform, version in platforms.items():
+        lines.append(f"- **{platform}**：{version}")
+
+    lines.extend([
+        "",
+        "## 草稿骨架",
+        embryo.get("draft_skeleton", ""),
+        "",
+        "## 爆款评分",
+        f"- 分数：{score}",
+        f"- 理由：{embryo.get('score_reason', '')}",
+        f"- 风险：{embryo.get('risk', '')}",
+        f"- 下一步：{embryo.get('next_action', '')}",
+        "",
+        "## 原素材摘录",
+        payload.get("excerpt", "")[:1200],
+    ])
+    return "\n".join(lines) + "\n"
+
+
+def select_incubation_sources(source, limit, from_idx=None, to_idx=None):
+    if source == "auto":
+        card_files = sorted([f for f in CARD_DIR.glob("*.md") if not f.name.startswith("_")])
+        source = "cards" if card_files else "raw"
+
+    if source == "cards":
+        files = sorted([f for f in CARD_DIR.glob("*.md") if not f.name.startswith("_")])
+        kind = "card"
+    else:
+        files = scan_transcripts()
+        kind = "raw"
+
+    selected = []
+    for f in files:
+        idx = extract_index(f.name)
+        if from_idx and idx and idx < from_idx:
+            continue
+        if to_idx and idx and idx > to_idx:
+            continue
+        selected.append(f)
+
+    # 原始素材默认按本地评分优先，卡片保持文件顺序。
+    if kind == "raw":
+        ranked = []
+        for f in selected:
+            title, _, body = get_title_from_file(f)
+            domain = classify_domain(title, body)
+            score, _ = local_material_score(title, domain, body)
+            ranked.append((score, f))
+        selected = [f for _, f in sorted(ranked, key=lambda x: x[0], reverse=True)]
+
+    if limit and limit > 0:
+        selected = selected[:limit]
+    return kind, selected
+
+
+def incubate_topics(limit=-1, source="auto", draft=False, force=False, from_idx=None, to_idx=None, dry_run=False):
+    EMBRYO_DIR.mkdir(parents=True, exist_ok=True)
+    kind, files = select_incubation_sources(source, limit, from_idx, to_idx)
+    if not files:
+        print("没有可孵化的素材")
+        return
+
+    print(f"孵化来源: {kind}")
+    print(f"孵化数量: {len(files)}")
+    print(f"输出目录: {EMBRYO_DIR}")
+    if draft:
+        print("模式: 生成草稿骨架")
+    if dry_run:
+        print("模式: dry-run（不调用模型，不写文件）")
+
+    success = 0
+    fail = 0
+    for i, f in enumerate(files, 1):
+        payload = material_payload(f, kind)
+        source_hash = hashlib.md5(f.name.encode("utf-8")).hexdigest()[:8]
+        safe = safe_filename(payload["title"])
+        out_path = EMBRYO_DIR / f"{payload['date']}-选题胚胎-{safe}-{source_hash}.md"
+
+        print(f"\n[{i}/{len(files)}] {payload['title']}")
+        print(f"      领域: {payload['domain']}｜本地评分: {payload['local_score']}/10")
+
+        if out_path.exists() and not force:
+            print(f"      已存在，跳过: {out_path.name}")
+            continue
+
+        if dry_run:
+            print(f"      目标读者: {payload['audience']}")
+            print(f"      理由: {'、'.join(payload['score_reasons'])}")
+            continue
+
+        try:
+            embryo = call_incubator(payload, draft=draft)
+            md = build_embryo_md(embryo, payload)
+            out_path.write_text(md, encoding="utf-8")
+            print(f"      ✓ {out_path.name}")
+            success += 1
+        except Exception as e:
+            print(f"      ✗ 失败: {e}")
+            fail += 1
+
+        if i < len(files) and not dry_run:
+            time.sleep(1.5)
+
+    print(f"\n孵化完成: 成功 {success}，失败 {fail}")
+
+
 # ── 选题池更新 ─────────────────────────────────────────────────
 
 def update_topic_pool():
@@ -619,6 +1088,10 @@ def main():
   %(prog)s "01-输入/素材/xxx.md"             单篇处理
   %(prog)s "01-输入/素材/xxx.md" --force     强制重新处理
   %(prog)s --update-pool                     更新选题池
+  %(prog)s --analyze-materials               分析素材领域分布
+  %(prog)s --incubate 10                     生成10条选题胚胎
+  %(prog)s --incubate 10 --draft             生成选题胚胎，并带发布草稿骨架
+  %(prog)s --incubate-source raw --incubate 5 从原始素材孵化5条
   %(prog)s --reset "xxx.md"                  重置单篇状态
   %(prog)s --reset-all                       重置全部状态
         """,
@@ -635,6 +1108,10 @@ def main():
     parser.add_argument('--reset-all', action='store_true', help='重置全部状态为 pending')
     parser.add_argument('--delay', type=float, default=2.0, help='批量处理间隔秒数（默认2）')
     parser.add_argument('--update-pool', action='store_true', help='更新选题池')
+    parser.add_argument('--analyze-materials', action='store_true', help='分析原始素材的领域分布')
+    parser.add_argument('--incubate', nargs='?', const=-1, type=int, help='生成选题胚胎（可指定数量）')
+    parser.add_argument('--incubate-source', choices=['auto', 'raw', 'cards'], default='auto', help='孵化来源：auto/cards/raw（默认auto）')
+    parser.add_argument('--draft', action='store_true', help='孵化时生成更完整的发布草稿骨架')
     args = parser.parse_args()
 
     # 输出目录
@@ -647,6 +1124,24 @@ def main():
     # ── 选题池更新 ──
     if args.update_pool:
         update_topic_pool()
+        return
+
+    # ── 素材分析 ──
+    if args.analyze_materials:
+        analyze_materials()
+        return
+
+    # ── 选题孵化 ──
+    if args.incubate is not None:
+        incubate_topics(
+            limit=args.incubate,
+            source=args.incubate_source,
+            draft=args.draft,
+            force=args.force,
+            from_idx=args.from_idx,
+            to_idx=args.to_idx,
+            dry_run=args.dry_run,
+        )
         return
 
     # ── 状态查看 ──
