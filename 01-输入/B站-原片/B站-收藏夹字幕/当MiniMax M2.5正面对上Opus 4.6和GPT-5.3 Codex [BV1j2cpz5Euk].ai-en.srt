@@ -1,0 +1,2420 @@
+1
+00:00:00,000 --> 00:00:00,240
+Hello
+
+2
+00:00:00,240 --> 00:00:00,600
+hello friends
+
+3
+00:00:00,600 --> 00:00:02,500
+If you still remember around the Spring Festival in 2025
+
+4
+00:00:02,500 --> 00:00:04,120
+the scene when DeepSeek R1 was launched
+
+5
+00:00:04,120 --> 00:00:05,700
+I think everyone probably has an idea in their minds
+
+6
+00:00:05,700 --> 00:00:08,039
+The Spring Festival of 2026 is bound to be anything but calm
+
+7
+00:00:08,039 --> 00:00:10,360
+And the reason I'm recording this video is to tell you one thing
+
+8
+00:00:10,360 --> 00:00:11,740
+The battle has begun
+
+9
+00:00:11,740 --> 00:00:13,480
+In this video, we'll focus on just one thing
+
+10
+00:00:13,480 --> 00:00:14,400
+Coding large models
+
+11
+00:00:14,400 --> 00:00:15,300
+Ignore the Benchmark
+
+12
+00:00:15,300 --> 00:00:15,980
+no demo
+
+13
+00:00:15,980 --> 00:00:16,740
+no multimodal discussion
+
+14
+00:00:16,740 --> 00:00:18,420
+We only conduct real-world development tests
+
+15
+00:00:18,420 --> 00:00:19,020
+On February 5th, Anthropic released Claude Opus 4.6
+
+16
+00:00:19,020 --> 00:00:20,860
+AOPPIC released cloud opp s
+
+17
+00:00:20,860 --> 00:00:22,440
+fired the first shot
+
+18
+00:00:22,440 --> 00:00:23,200
+less than an hour
+
+19
+00:00:23,200 --> 00:00:26,180
+OpenAI's GPT 5.3 Codex launched a direct counterattack
+
+20
+00:00:26,180 --> 00:00:27,160
+the evening of February 11th
+
+21
+00:00:27,160 --> 00:00:29,540
+the domestic large model GLM5 has also started to follow suit
+
+22
+00:00:29,540 --> 00:00:30,220
+And today
+
+23
+00:00:30,220 --> 00:00:31,680
+the entry of MiniMax M2.5
+
+24
+00:00:31,680 --> 00:00:33,680
+also signifies that the competition in this round of coding large models
+
+25
+00:00:33,680 --> 00:00:35,100
+has officially entered the white-hot stage
+
+26
+00:00:35,100 --> 00:00:37,300
+So why did I choose the release timing of MiniMax M2.5
+
+27
+00:00:37,300 --> 00:00:39,680
+to record such an evaluation video
+
+28
+00:00:39,680 --> 00:00:40,340
+a month ago
+
+29
+00:00:40,340 --> 00:00:42,660
+The landscape of top-tier coding models was actually very clear
+
+30
+00:00:42,660 --> 00:00:44,660
+Claude firmly holds the top position in the Coding domain
+
+31
+00:00:44,660 --> 00:00:46,920
+As for the previous generation Claude Opus 4.5
+
+32
+00:00:46,920 --> 00:00:48,560
+OpenAI released GPT 5.2
+
+33
+00:00:48,560 --> 00:00:49,240
+but to be honest
+
+34
+00:00:49,240 --> 00:00:49,800
+In actual testing,
+
+35
+00:00:49,800 --> 00:00:52,320
+except for showing some highlights in solving fancy, complex bugs
+
+36
+00:00:52,320 --> 00:00:53,660
+Performance in other areas is not very good
+
+37
+00:00:53,660 --> 00:00:55,540
+especially its inference speed is simply too slow
+
+38
+00:00:55,540 --> 00:00:57,680
+This is the point that most people criticize about GPT 5.2
+
+39
+00:00:57,680 --> 00:00:59,240
+So I threw it away after just two days of use.
+
+40
+00:00:59,240 --> 00:01:00,320
+After all, time is life
+
+41
+00:01:00,320 --> 00:01:01,900
+Running so slowly leaves no time for slacking off
+
+42
+00:01:01,900 --> 00:01:04,280
+In the same batch, Google released Gemini 3 Pro
+
+43
+00:01:04,280 --> 00:01:06,440
+The official claims that it has made significant improvements in the programming domain
+
+44
+00:01:06,440 --> 00:01:07,160
+but in actual testing
+
+45
+00:01:07,160 --> 00:01:09,480
+Gemini 3 Pro's instruction following is extremely poor
+
+46
+00:01:09,480 --> 00:01:10,100
+In this regard
+
+47
+00:01:10,100 --> 00:01:12,280
+not even as good as their own previous generation Gemini 2.5
+
+48
+00:01:12,280 --> 00:01:13,300
+Of course, this generation of Gemini
+
+49
+00:01:13,300 --> 00:01:14,900
+claimed the top position in the field of image processing
+
+50
+00:01:14,900 --> 00:01:17,080
+also known as the well-known Nano Banana Pro
+
+51
+00:01:17,080 --> 00:01:18,600
+but this has nothing to do with coding
+
+52
+00:01:18,600 --> 00:01:20,100
+So you'll see a situation like this
+
+53
+00:01:20,100 --> 00:01:22,740
+Claude still leads the way, with Google and OpenAI close behind
+
+54
+00:01:22,740 --> 00:01:24,960
+Domestic large models have also been making progress in the field of coding
+
+55
+00:01:24,960 --> 00:01:26,300
+but consistently failed to break into the top tier
+
+56
+00:01:26,300 --> 00:01:27,140
+At this very moment
+
+57
+00:01:27,140 --> 00:01:29,780
+MiniMax 2.1 was quietly released, with benchmark scores
+
+58
+00:01:29,780 --> 00:01:32,120
+directly surged into the top tier's leaderboard
+
+59
+00:01:32,120 --> 00:01:33,200
+directly challenging Claude
+
+60
+00:01:33,200 --> 00:01:34,460
+Of course, I have to be honest
+
+61
+00:01:34,460 --> 00:01:36,200
+In actual testing, the performance wasn't as exaggerated as the benchmarks suggested.
+
+62
+00:01:36,200 --> 00:01:37,220
+there are still many issues
+
+63
+00:01:37,220 --> 00:01:38,200
+But it cannot be denied that
+
+64
+00:01:38,200 --> 00:01:41,060
+The overall improvement of M2.1 in multilingual tasks is very noticeable.
+
+65
+00:01:41,060 --> 00:01:42,760
+because many large models have significant biases in programming languages
+
+66
+00:01:42,760 --> 00:01:44,420
+suffers from severe bias issues
+
+67
+00:01:44,420 --> 00:01:45,400
+
+
+68
+00:01:45,400 --> 00:01:48,260
+but when it comes to Javascript, Go, or Rust, its performance noticeably drops off
+
+69
+00:01:48,260 --> 00:01:50,340
+And an important change in M2.1 at that time was
+
+70
+00:01:50,340 --> 00:01:52,760
+The overall performance across multiple programming languages is quite good.
+
+71
+00:01:52,760 --> 00:01:54,100
+You might say it surpasses Claude
+
+72
+00:01:54,100 --> 00:01:54,980
+that's not the case yet
+
+73
+00:01:54,980 --> 00:01:57,740
+but it has indeed given us developers, who have been scrambling for channels and paying high prices to use Claude,
+
+74
+00:01:57,740 --> 00:01:59,460
+a sense of confidence for developers who pay premium prices
+
+75
+00:01:59,460 --> 00:02:01,860
+It seems that domestic coding models are really starting to show promise.
+
+76
+00:02:01,860 --> 00:02:03,380
+So among all the domestic large models
+
+77
+00:02:03,380 --> 00:02:05,000
+I'm genuinely very optimistic about MiniMax
+
+78
+00:02:05,000 --> 00:02:07,140
+Absolutely not because the boss of MiniMax is my hometown fellow
+
+79
+00:02:07,140 --> 00:02:09,020
+So now, M2.5! It's here
+
+80
+00:02:09,020 --> 00:02:10,180
+Folks in this video
+
+81
+00:02:10,180 --> 00:02:11,680
+You won't see flashy visualization examples
+
+82
+00:02:11,680 --> 00:02:13,700
+But as you can see, in real business development
+
+83
+00:02:13,700 --> 00:02:14,500
+with different scenarios and varying requirements
+
+84
+00:02:14,500 --> 00:02:15,220
+different requirements
+
+85
+00:02:15,220 --> 00:02:16,280
+under the same prompts
+
+86
+00:02:16,280 --> 00:02:19,120
+the process and results of getting these models to work directly, with absolute fidelity
+
+87
+00:02:19,120 --> 00:02:20,560
+The three aspects I personally focus on the most
+
+88
+00:02:20,560 --> 00:02:21,860
+The first is the one-time pass rate
+
+89
+00:02:21,860 --> 00:02:22,640
+given requirements
+
+90
+00:02:22,640 --> 00:02:24,760
+the probability of the first-round output being runnable and mergeable
+
+91
+00:02:24,760 --> 00:02:25,880
+Second, iteration cost
+
+92
+00:02:25,880 --> 00:02:27,180
+how many iterations are needed to make it usable
+
+93
+00:02:27,180 --> 00:02:28,600
+How large are the modifications in each round?
+
+94
+00:02:28,600 --> 00:02:31,920
+Third, engineering capability - whether it can properly handle cross-file operations, dependencies,
+
+95
+00:02:31,920 --> 00:02:33,900
+testing, logging, and boundary conditions
+
+96
+00:02:33,900 --> 00:02:35,660
+In order to ensure fairness as much as possible
+
+97
+00:02:35,660 --> 00:02:38,860
+We uniformly use Claude Code to map and compare across different models
+
+98
+00:02:38,860 --> 00:02:40,500
+You can directly use CC Switch
+
+99
+00:02:40,500 --> 00:02:42,060
+or directly use our evaluation project
+
+100
+00:02:42,060 --> 00:02:43,860
+Amux client for proxy mapping
+
+101
+00:02:43,860 --> 00:02:46,380
+The models participating in this comparison include MiniMax M2.5
+
+102
+00:02:46,380 --> 00:02:47,580
+Claude Opus 4.6
+
+103
+00:02:47,580 --> 00:02:50,090
+GPT 5.3 Codex, one additional note
+
+104
+00:02:50,090 --> 00:02:52,710
+I attempted to use Claude Code to map to GPT 5.3 Codex
+
+105
+00:02:52,710 --> 00:02:53,840
+The results were very poor
+
+106
+00:02:53,840 --> 00:02:56,960
+so in the end we had to use the native Codex to collaborate with GPT 5.3 Codex
+
+107
+00:02:56,960 --> 00:02:57,920
+Codex collaborates
+
+108
+00:02:57,920 --> 00:03:00,100
+to restore its true capability ceiling as much as possible
+
+109
+00:03:00,100 --> 00:03:02,480
+The test project Amux was something I previously created through pure Vibe Coding,
+
+110
+00:03:02,480 --> 00:03:04,520
+created an open-source project without writing a single line of code
+
+111
+00:03:04,520 --> 00:03:06,220
+It is a project with a Monorepo architecture
+
+112
+00:03:06,220 --> 00:03:07,340
+contains three core modules
+
+113
+00:03:07,340 --> 00:03:09,100
+Part 1: LLM Bridge
+
+114
+00:03:09,100 --> 00:03:11,940
+This is a developer-oriented, bidirectional large model API adapter
+
+115
+00:03:11,940 --> 00:03:14,580
+Its function is to seamlessly convert between API formats of different large model vendors
+
+116
+00:03:14,580 --> 00:03:15,940
+achieve seamless bidirectional conversion
+
+117
+00:03:15,940 --> 00:03:16,460
+Structurally, it consists of a core package
+
+118
+00:03:16,460 --> 00:03:19,620
+and 8 upper adapter packages from different manufacturers
+
+119
+00:03:19,620 --> 00:03:21,060
+Part 2: Amux Client
+
+120
+00:03:21,060 --> 00:03:24,080
+This is a high-level proxy client software based on LLM Bridge.
+
+121
+00:03:24,080 --> 00:03:25,720
+Users can uniformly configure API Keys for multiple major model vendors here.
+
+122
+00:03:25,720 --> 00:03:27,160
+API keys from multiple major model vendors
+
+123
+00:03:27,160 --> 00:03:28,920
+and then convert the API formats from different vendors
+
+124
+00:03:28,920 --> 00:03:31,480
+route to different Agents for use, or distribute externally
+
+125
+00:03:31,480 --> 00:03:32,680
+Part III Website
+
+126
+00:03:32,680 --> 00:03:34,840
+
+
+127
+00:03:34,840 --> 00:03:35,760
+for feature introduction,
+
+128
+00:03:35,760 --> 00:03:37,610
+
+
+129
+00:03:37,610 --> 00:03:40,130
+Open source, new project, numerous issues, substantial workload
+
+130
+00:03:40,130 --> 00:03:41,010
+front-end, back-end, web-end, desktop-end
+
+131
+00:03:41,010 --> 00:03:41,450
+web client
+
+132
+00:03:41,450 --> 00:03:42,470
+are all involved
+
+133
+00:03:42,470 --> 00:03:44,220
+So it's very suitable for test cases
+
+134
+00:03:44,220 --> 00:03:46,420
+Next, I will base it on the feature iterations of this open-source project,
+
+135
+00:03:46,420 --> 00:03:46,980
+bug fixing
+
+136
+00:03:46,980 --> 00:03:48,220
+Bug fixes, architectural adjustments, and other aspects
+
+137
+00:03:48,220 --> 00:03:49,540
+on different branch baselines
+
+138
+00:03:49,540 --> 00:03:51,460
+using different large models to handle the same problem
+
+139
+00:03:51,460 --> 00:03:52,500
+then compare the final results
+
+140
+00:03:52,500 --> 00:03:54,700
+Each requirement corresponds to an independent branch baseline
+
+141
+00:03:54,700 --> 00:03:56,680
+I will also keep the diff of each round of conversation
+
+142
+00:03:56,680 --> 00:03:58,180
+ensuring traceability and reproducibility
+
+143
+00:03:58,180 --> 00:03:59,500
+OK, the rules are clear
+
+144
+00:03:59,500 --> 00:04:00,280
+Let's start the actual test
+
+145
+00:04:00,280 --> 00:04:02,100
+The first test group does not allow the model to write code
+
+146
+00:04:02,100 --> 00:04:04,220
+The main focus is to see whether the model can truly understand the project
+
+147
+00:04:04,220 --> 00:04:05,180
+Because in real-world development
+
+148
+00:04:05,180 --> 00:04:06,800
+If a model cannot even grasp the project structure,
+
+149
+00:04:06,800 --> 00:04:08,220
+fail to grasp the core constraints
+
+150
+00:04:08,220 --> 00:04:11,020
+the code generated later, no matter how fast or abundant, still poses risks
+
+151
+00:04:11,020 --> 00:04:12,900
+Because the project is quite large with numerous files
+
+152
+00:04:12,900 --> 00:04:14,980
+so it also tests the contextual comprehension ability quite a bit
+
+153
+00:04:14,980 --> 00:04:17,209
+The prompts I provided to the model for this group are as follows
+
+154
+00:04:17,209 --> 00:04:18,249
+After the output is completed
+
+155
+00:04:18,249 --> 00:04:20,589
+
+
+156
+00:04:20,589 --> 00:04:22,140
+The second prompt is as follows
+
+157
+00:04:22,140 --> 00:04:24,140
+In this round, we will focus on three key aspects
+
+158
+00:04:24,140 --> 00:04:25,040
+Is there any hallucination
+
+159
+00:04:25,040 --> 00:04:26,480
+Is the architectural understanding accurate
+
+160
+00:04:26,480 --> 00:04:28,220
+
+
+161
+00:04:28,220 --> 00:04:29,880
+This round of tasks is not easy in itself
+
+162
+00:04:29,880 --> 00:04:31,220
+Because the project structure is quite complex
+
+163
+00:04:31,220 --> 00:04:33,460
+to truly understand all the implementation details of the overall architecture
+
+164
+00:04:33,460 --> 00:04:36,240
+
+
+165
+00:04:36,240 --> 00:04:38,280
+involves the model's processing in long-context scenarios
+
+166
+00:04:38,280 --> 00:04:39,360
+Under these premises
+
+167
+00:04:39,360 --> 00:04:40,760
+Let's take a look at the performance of the three models
+
+168
+00:04:40,760 --> 00:04:42,240
+First, let's talk about MiniMax M2.5
+
+169
+00:04:42,240 --> 00:04:44,640
+The overall performance of M2.5 in this round of actual testing
+
+170
+00:04:44,640 --> 00:04:46,080
+Me evaluation is quite good
+
+171
+00:04:46,080 --> 00:04:46,760
+and very stable
+
+172
+00:04:46,760 --> 00:04:48,160
+During the execution, there was a detail
+
+173
+00:04:48,160 --> 00:04:49,340
+Due to the extremely long context
+
+174
+00:04:49,340 --> 00:04:52,080
+The model actually triggered automatic context compression midway through.
+
+175
+00:04:52,080 --> 00:04:53,580
+
+
+176
+00:04:53,580 --> 00:04:56,500
+
+
+177
+00:04:56,500 --> 00:04:58,160
+no significant comprehension errors were found
+
+178
+00:04:58,160 --> 00:04:59,040
+This demonstrates one thing
+
+179
+00:04:59,040 --> 00:05:01,620
+M2.5 performs stably in long-context processing
+
+180
+00:05:01,620 --> 00:05:03,460
+is up to par, especially for the second segment of the task
+
+181
+00:05:03,460 --> 00:05:06,160
+
+
+182
+00:05:06,160 --> 00:05:07,520
+there are quite a few very detailed
+
+183
+00:05:07,520 --> 00:05:08,800
+details that are very easily overlooked
+
+184
+00:05:08,800 --> 00:05:11,180
+M2.5 has supplemented all these contents
+
+185
+00:05:11,180 --> 00:05:12,100
+More importantly,
+
+186
+00:05:12,100 --> 00:05:14,020
+When encountering potential risks
+
+187
+00:05:14,020 --> 00:05:16,200
+or when additional confirmation is required
+
+188
+00:05:16,200 --> 00:05:17,980
+did not arbitrarily make decisions and modify on my behalf
+
+189
+00:05:17,980 --> 00:05:19,440
+but clearly pointed out the issues
+
+190
+00:05:19,440 --> 00:05:20,700
+provide feedback and suggestions
+
+191
+00:05:20,700 --> 00:05:23,200
+This is quite important in engineering scenarios, I think.
+
+192
+00:05:23,200 --> 00:05:24,460
+From the final results
+
+193
+00:05:24,460 --> 00:05:27,400
+The overall orientation of M2.5 is inclined to be steady and convergent
+
+194
+00:05:27,400 --> 00:05:28,720
+The scope of changes is well controlled
+
+195
+00:05:28,720 --> 00:05:29,900
+The number of files is also relatively small.
+
+196
+00:05:29,900 --> 00:05:30,820
+The content is quite focused
+
+197
+00:05:30,820 --> 00:05:32,080
+The reviewability is also acceptable
+
+198
+00:05:32,080 --> 00:05:34,380
+The risk of introducing new inconsistencies is relatively low
+
+199
+00:05:34,380 --> 00:05:35,420
+There are also shortcomings
+
+200
+00:05:35,420 --> 00:05:37,080
+It is relatively conservative in coverage
+
+201
+00:05:37,080 --> 00:05:39,880
+For example, systematic patching of Website parameters and editing conditions
+
+202
+00:05:39,880 --> 00:05:41,400
+not as aggressive as the other two models
+
+203
+00:05:41,400 --> 00:05:43,820
+some sections may contain somewhat conclusion-oriented descriptions
+
+204
+00:05:43,820 --> 00:05:45,140
+requires manual verification again
+
+205
+00:05:45,140 --> 00:05:48,140
+But overall, it meets the usage expectations within engineering safety boundaries.
+
+206
+00:05:48,140 --> 00:05:49,560
+Now let's talk about Opus 4.6
+
+207
+00:05:49,560 --> 00:05:52,320
+The style of Opus 4.6 is noticeably different from that of M2.5.
+
+208
+00:05:52,320 --> 00:05:53,820
+To put it in one sentence
+
+209
+00:05:53,820 --> 00:05:57,020
+It leans more towards a product manual-style output.
+
+210
+00:05:57,020 --> 00:05:57,800
+In Task 1, it provided a more comprehensive introduction to the client
+
+211
+00:05:57,800 --> 00:05:59,640
+It provides a more comprehensive introduction to the client
+
+212
+00:05:59,640 --> 00:06:00,840
+The information density is extremely high
+
+213
+00:06:00,840 --> 00:06:02,720
+In task two, it has broader coverage
+
+214
+00:06:02,720 --> 00:06:05,200
+
+
+215
+00:06:05,200 --> 00:06:06,960
+all FAQ content is covered
+
+216
+00:06:06,960 --> 00:06:09,100
+In terms of reading experience and information completeness
+
+217
+00:06:09,100 --> 00:06:10,900
+Opus's advantage is very obvious
+
+218
+00:06:10,900 --> 00:06:12,260
+but the cost is also very clear
+
+219
+00:06:12,260 --> 00:06:14,420
+it tends to generate a large amount of highly specific,
+
+220
+00:06:14,420 --> 00:06:15,920
+very specific and definitive details
+
+221
+00:06:15,920 --> 00:06:18,060
+If these contents are not strictly aligned with the actual implementation
+
+222
+00:06:18,060 --> 00:06:19,540
+subsequent lack of strict alignment
+
+223
+00:06:19,540 --> 00:06:21,880
+
+
+224
+00:06:21,880 --> 00:06:24,660
+Additionally, there's actually a hidden pitfall in this round of prompts.
+
+225
+00:06:24,660 --> 00:06:28,220
+The prompt mentions the need to rewrite CLAUSE.md and AGENTS.md
+
+226
+00:06:28,220 --> 00:06:29,840
+and emphasize that this is for AI use
+
+227
+00:06:29,840 --> 00:06:31,580
+From the context of Claude Code
+
+228
+00:06:31,580 --> 00:06:33,360
+Just modifying CLAUDE.md is sufficient
+
+229
+00:06:33,360 --> 00:06:35,400
+AGENTS.md is the specification for Codex
+
+230
+00:06:35,400 --> 00:06:37,640
+and this file does not originally exist in the project
+
+231
+00:06:37,640 --> 00:06:39,860
+but after Opus modified CLAUDE.md
+
+232
+00:06:39,860 --> 00:06:42,080
+additionally created an AGENTS.md file
+
+233
+00:06:42,080 --> 00:06:44,000
+This behavior cannot be simply judged as right or wrong
+
+234
+00:06:44,000 --> 00:06:45,360
+But from my personal preference,
+
+235
+00:06:45,360 --> 00:06:46,600
+I prefer the M2.5 approach
+
+236
+00:06:46,600 --> 00:06:50,000
+the approach of operating strictly within the actual semantic boundaries of the project
+
+237
+00:06:50,000 --> 00:06:51,200
+However, this point is somewhat subjective.
+
+238
+00:06:51,200 --> 00:06:53,280
+so it is not included in the final scoring factors
+
+239
+00:06:53,280 --> 00:06:54,560
+Finally, let's talk about GPT 5.3 Codex
+
+240
+00:06:54,560 --> 00:06:57,780
+is highly engineering-oriented
+
+241
+00:06:57,780 --> 00:07:00,840
+
+
+242
+00:07:00,840 --> 00:07:03,060
+a highly standardized and strongly constrained structure
+
+243
+00:07:03,060 --> 00:07:03,820
+In Task 2,
+
+244
+00:07:03,820 --> 00:07:06,880
+
+
+245
+00:07:06,880 --> 00:07:08,940
+It has the best overall consistency among the three
+
+246
+00:07:08,940 --> 00:07:10,340
+but the cost is also very obvious
+
+247
+00:07:10,340 --> 00:07:11,620
+The scale of changes is extremely large
+
+248
+00:07:11,620 --> 00:07:14,560
+affects the most files, with the highest regression verification and maintenance costs
+
+249
+00:07:14,560 --> 00:07:16,540
+Moreover, when Codex writes with high specificity,
+
+250
+00:07:16,540 --> 00:07:18,980
+extremely high accuracy requirements for implementation details
+
+251
+00:07:18,980 --> 00:07:20,660
+once a few key points deviate
+
+252
+00:07:20,660 --> 00:07:22,240
+it can directly introduce misleading risks
+
+253
+00:07:22,240 --> 00:07:23,460
+Regarding cost and speed
+
+254
+00:07:23,460 --> 00:07:24,500
+This round is quite interesting
+
+255
+00:07:24,500 --> 00:07:25,660
+Due to the lengthy context
+
+256
+00:07:25,660 --> 00:07:27,760
+Token consumption and time consumption are both considerable
+
+257
+00:07:27,760 --> 00:07:28,900
+Let me briefly summarize the results
+
+258
+00:07:28,900 --> 00:07:31,160
+M2.5 consumed approximately 3.1 RMB in this round
+
+259
+00:07:31,160 --> 00:07:34,000
+Opus 4.6 consumed approximately $7.6 in this round
+
+260
+00:07:34,000 --> 00:07:35,160
+That's right, it's in US dollars
+
+261
+00:07:35,160 --> 00:07:37,080
+I'm using the full-powered Opus 4.6
+
+262
+00:07:37,080 --> 00:07:40,950
+GPT 5.3 Codex consumed approximately $4.3 in this round
+
+263
+00:07:40,950 --> 00:07:41,850
+It should be noted that
+
+264
+00:07:41,850 --> 00:07:44,570
+Because GPT 5.3 Codex currently has no official pricing
+
+265
+00:07:44,570 --> 00:07:47,630
+This is calculated based on the official API pricing of version 5.2.
+
+266
+00:07:47,630 --> 00:07:48,520
+not entirely accurate
+
+267
+00:07:48,520 --> 00:07:50,000
+but the actual price will only increase
+
+268
+00:07:50,000 --> 00:07:51,960
+But what really surprised me was the speed
+
+269
+00:07:51,960 --> 00:07:54,480
+As a long-term heavy user of Claude Opus
+
+270
+00:07:54,480 --> 00:07:55,380
+I have to say
+
+271
+00:07:55,380 --> 00:07:57,160
+M2.5 in such long-context
+
+272
+00:07:57,160 --> 00:07:59,240
+The response speed in heavy comprehension tasks is truly impressive
+
+273
+00:07:59,240 --> 00:08:01,160
+even when considering the impact of proxy links
+
+274
+00:08:01,160 --> 00:08:02,180
+In this round of actual testing
+
+275
+00:08:02,180 --> 00:08:04,580
+M2.5 is approximately 4-5 times faster than Opus
+
+276
+00:08:04,580 --> 00:08:07,040
+approximately 4 times faster than GPT 5.3 Codex
+
+277
+00:08:07,040 --> 00:08:07,780
+second round of actual testing
+
+278
+00:08:07,780 --> 00:08:09,300
+I started having the model modify frontend code
+
+279
+00:08:09,300 --> 00:08:11,260
+but all are very minor and detailed requirements
+
+280
+00:08:11,260 --> 00:08:13,220
+This part is not about testing the model's maximum capabilities
+
+281
+00:08:13,220 --> 00:08:16,180
+but the model's ability to follow instructions, observing how steadily the model modifies the code
+
+282
+00:08:16,180 --> 00:08:17,620
+This batch contains 4 small tasks
+
+283
+00:08:17,620 --> 00:08:20,260
+some modification items corresponding to the Provider and Proxy pages
+
+284
+00:08:20,260 --> 00:08:21,420
+are all simple tasks
+
+285
+00:08:21,420 --> 00:08:23,900
+So I will provide them to the model all at once, with the following prompt:
+
+286
+00:08:23,900 --> 00:08:26,060
+This round we're mainly focusing on whether the changes can be made correctly in one attempt
+
+287
+00:08:26,060 --> 00:08:27,500
+whether the diff will scatter wildly
+
+288
+00:08:27,500 --> 00:08:29,140
+Are there any meaningless incidental optimizations
+
+289
+00:08:29,140 --> 00:08:30,940
+while fixing A, inadvertently break B
+
+290
+00:08:30,940 --> 00:08:32,640
+Let's take a look at the performance of the three models.
+
+291
+00:08:32,640 --> 00:08:35,320
+First, let's talk about MiniMax M2.5. The M2.5 completed the aggregation task in one go
+
+292
+00:08:35,320 --> 00:08:37,080
+The time and cost are both very low.
+
+293
+00:08:37,080 --> 00:08:39,539
+It took 5 minutes and cost approximately 1.4 RMB
+
+294
+00:08:39,539 --> 00:08:40,259
+Provider page
+
+295
+00:08:40,259 --> 00:08:41,779
+It is located on the right side of the model list query button
+
+296
+00:08:41,779 --> 00:08:44,078
+Added two small buttons for Select All and Clear All
+
+297
+00:08:44,078 --> 00:08:46,660
+Features, multilingual support, and light/dark mode switching all function properly
+
+298
+00:08:46,660 --> 00:08:48,380
+Proxy page, the direct proxy panel is collapsed by default
+
+299
+00:08:48,380 --> 00:08:51,960
+
+
+300
+00:08:51,960 --> 00:08:55,260
+The display distinction between Base URL and Path is completely consistent across both pages.
+
+301
+00:08:55,260 --> 00:08:57,060
+The overall modification scope is small and focused.
+
+302
+00:08:57,060 --> 00:08:58,960
+also reuses existing components and state management
+
+303
+00:08:58,960 --> 00:09:00,180
+If we were to point out a boundary case
+
+304
+00:09:00,180 --> 00:09:01,800
+its select-all feature performs an overwrite assignment
+
+305
+00:09:01,800 --> 00:09:04,960
+Theoretically, it can overwrite the custom models selected by users themselves.
+
+306
+00:09:04,960 --> 00:09:07,620
+This will be compared with other models later, as a more conservative approach
+
+307
+00:09:07,620 --> 00:09:08,720
+Now let's look at Claude Opus 4.6
+
+308
+00:09:08,720 --> 00:09:11,020
+Opus also succeeded in one go this round
+
+309
+00:09:11,020 --> 00:09:12,300
+The overall approach is very clear
+
+310
+00:09:12,300 --> 00:09:13,760
+The modification scope must be minimized
+
+311
+00:09:13,760 --> 00:09:15,780
+The select all and clear buttons are placed below the input box
+
+312
+00:09:15,780 --> 00:09:16,760
+The buttons are also made smaller
+
+313
+00:09:16,760 --> 00:09:18,540
+minimize impact on the upper layout
+
+314
+00:09:18,540 --> 00:09:20,800
+The total code churn is the lowest among the three.
+
+315
+00:09:20,800 --> 00:09:22,800
+churn can be simply understood as the scale of code changes
+
+316
+00:09:22,800 --> 00:09:24,080
+The button position is slightly lower
+
+317
+00:09:24,080 --> 00:09:25,660
+but it does not affect functionality and consistency
+
+318
+00:09:25,660 --> 00:09:27,720
+In terms of time and cost, it took approximately 13 minutes
+
+319
+00:09:27,720 --> 00:09:29,220
+costing around $1.1
+
+320
+00:09:29,220 --> 00:09:31,940
+Finally, GPT 5.3 Codex completed the functionality
+
+321
+00:09:31,940 --> 00:09:34,100
+but in terms of minimal changes and one-shot success
+
+322
+00:09:34,100 --> 00:09:35,540
+is the weakest in this group
+
+323
+00:09:35,540 --> 00:09:36,200
+In the first round
+
+324
+00:09:36,200 --> 00:09:38,820
+The clear button was directly displayed as an I18N key
+
+325
+00:09:38,820 --> 00:09:40,000
+introduced a UI Bug
+
+326
+00:09:40,000 --> 00:09:41,140
+so another round of fixes is necessary
+
+327
+00:09:41,140 --> 00:09:44,020
+The final result was 14 minutes for the first round, costing $1.2
+
+328
+00:09:44,020 --> 00:09:46,220
+The two rounds took a total of 17 minutes and cost around $1.5.
+
+329
+00:09:46,220 --> 00:09:47,660
+Another noticeable feature is
+
+330
+00:09:47,660 --> 00:09:50,360
+The modifications he made on the Provider page were significantly more extensive
+
+331
+00:09:50,360 --> 00:09:51,940
+has a tendency to casually tidy up code
+
+332
+00:09:51,940 --> 00:09:53,380
+under our current evaluation criteria
+
+333
+00:09:53,380 --> 00:09:54,740
+is definitely going to lose significant points
+
+334
+00:09:54,740 --> 00:09:56,300
+The third group is a very important one
+
+335
+00:09:56,300 --> 00:09:57,080
+which is fixing bugs
+
+336
+00:09:57,080 --> 00:09:59,800
+Every bug must go through the mechanisms of identification, verification, and fixing.
+
+337
+00:09:59,800 --> 00:10:00,720
+The prompt is as follows
+
+338
+00:10:00,720 --> 00:10:02,560
+Because in the current C/S module
+
+339
+00:10:02,560 --> 00:10:03,660
+after switching model mappings
+
+340
+00:10:03,660 --> 00:10:05,120
+The configuration was not saved and applied
+
+341
+00:10:05,120 --> 00:10:07,780
+
+
+342
+00:10:07,780 --> 00:10:09,520
+Switching model mappings should be saved
+
+343
+00:10:09,520 --> 00:10:12,280
+The difference is that in the enabled state of the proxy service, it saves and applies, while in the disabled state it only saves.
+
+344
+00:10:12,280 --> 00:10:13,660
+Only saved when disabled
+
+345
+00:10:13,660 --> 00:10:15,060
+Then I asked it to check the code first
+
+346
+00:10:15,060 --> 00:10:16,720
+and then add logs at critical locations
+
+347
+00:10:16,720 --> 00:10:18,360
+after I paste the logs to the model
+
+348
+00:10:18,360 --> 00:10:19,520
+will provide the second prompt
+
+349
+00:10:19,520 --> 00:10:21,940
+instruct the model to locate and fix the issue based on the logs
+
+350
+00:10:21,940 --> 00:10:24,320
+For the bug fixing group, the key focus is actually on
+
+351
+00:10:24,320 --> 00:10:25,000
+Is the problem identification based on guesswork
+
+352
+00:10:25,000 --> 00:10:26,760
+Is there clear evidence chain
+
+353
+00:10:26,760 --> 00:10:27,820
+Does the fix address the root cause
+
+354
+00:10:27,820 --> 00:10:28,920
+Will fixing A break B
+
+355
+00:10:28,920 --> 00:10:31,300
+Actually, solving this round of issues is not particularly complex in itself.
+
+356
+00:10:31,300 --> 00:10:33,300
+It tests the ability to pinpoint issues in engineering.
+
+357
+00:10:33,300 --> 00:10:34,500
+the configuration changes do not take effect,
+
+358
+00:10:34,500 --> 00:10:37,580
+Abnormal service status, a typical cross-state and cross-module issue
+
+359
+00:10:37,580 --> 00:10:39,780
+Let's start with MiniMax M2.5. In this round, M2.5
+
+360
+00:10:39,780 --> 00:10:42,480
+adopted a very typical incremental troubleshooting strategy
+
+361
+00:10:42,480 --> 00:10:44,100
+did not flood the logs all at once
+
+362
+00:10:44,100 --> 00:10:47,680
+but first added a small number of logs at key nodes in the Catch and IPC pages
+
+363
+00:10:47,680 --> 00:10:49,340
+then based on the log results I provided
+
+364
+00:10:49,340 --> 00:10:50,560
+gradually narrowing down the problem scope
+
+365
+00:10:50,560 --> 00:10:52,360
+The entire process involved a total of 8 rounds of interaction
+
+366
+00:10:52,360 --> 00:10:55,300
+Ultimately, the issue was precisely narrowed down to several state synchronizations
+
+367
+00:10:55,300 --> 00:10:57,520
+and successfully fixed it, taking about 20 minutes
+
+368
+00:10:57,520 --> 00:10:59,100
+The total cost was two yuan RMB
+
+369
+00:10:59,100 --> 00:11:00,260
+From an engineering perspective
+
+370
+00:11:00,260 --> 00:11:01,740
+Its characteristics are very obvious
+
+371
+00:11:01,740 --> 00:11:02,600
+strategic restraint
+
+372
+00:11:03,400 --> 00:11:06,520
+The final net changes that actually remain are concentrated in just 3 files
+
+373
+00:11:06,520 --> 00:11:08,060
+and the logic changes are highly focused
+
+374
+00:11:08,060 --> 00:11:09,780
+This is a reliability-first trade-off
+
+375
+00:11:09,780 --> 00:11:10,480
+sacrificed a bit of the sophistication in state change detection
+
+376
+00:11:10,480 --> 00:11:11,700
+its precision in change detection
+
+377
+00:11:11,700 --> 00:11:13,800
+in exchange for ensuring the save operation will definitely succeed
+
+378
+00:11:13,800 --> 00:11:15,400
+Let's look at Claude Opus 4.6
+
+379
+00:11:15,400 --> 00:11:17,700
+Opus's style is completely different from M2.5
+
+380
+00:11:17,700 --> 00:11:18,800
+It immediately laid out all possible log points at once
+
+381
+00:11:18,800 --> 00:11:20,980
+fully deployed
+
+382
+00:11:20,980 --> 00:11:22,060
+After I provided the logs
+
+383
+00:11:22,060 --> 00:11:24,120
+It almost pinpointed the root cause in one round.
+
+384
+00:11:24,120 --> 00:11:25,500
+then asked me if I wanted to fix it
+
+385
+00:11:25,500 --> 00:11:27,340
+After my confirmation, it directly completed the repair
+
+386
+00:11:27,340 --> 00:11:29,540
+and automatically cleaned up all the logs used for troubleshooting
+
+387
+00:11:29,540 --> 00:11:31,840
+The entire process completed both locating and fixing in two rounds.
+
+388
+00:11:31,840 --> 00:11:33,660
+The time taken was also around 20 minutes.
+
+389
+00:11:33,660 --> 00:11:35,180
+but the cost was $2.2
+
+390
+00:11:35,180 --> 00:11:36,520
+From the perspective of the repair approach
+
+391
+00:11:36,520 --> 00:11:38,860
+Opus follows a very orthodox React approach
+
+392
+00:11:38,860 --> 00:11:40,020
+preserve the original design
+
+393
+00:11:40,020 --> 00:11:42,640
+fixed the issues of reference sharing and mutable updates
+
+394
+00:11:42,640 --> 00:11:43,660
+with minimal side effects
+
+395
+00:11:43,660 --> 00:11:45,040
+The code quality is very clean
+
+396
+00:11:45,040 --> 00:11:47,460
+To be honest, in this round, Opus 4.6 has no major flaws except for its poor cost-effectiveness
+
+397
+00:11:47,460 --> 00:11:48,600
+no major drawbacks
+
+398
+00:11:48,600 --> 00:11:50,880
+It's just that the one-time log injection is a bit aggressive.
+
+399
+00:11:50,880 --> 00:11:52,040
+This depends on personal preference
+
+400
+00:11:52,040 --> 00:11:54,100
+I pay more attention to the final results and cost-performance ratio.
+
+401
+00:11:54,100 --> 00:11:56,080
+Finally, there's GPT 5.3 Codex
+
+402
+00:11:56,080 --> 00:11:58,300
+Its positioning and overall strategy are similar to Opus.
+
+403
+00:11:58,300 --> 00:12:00,120
+also provides all log points at once
+
+404
+00:12:00,120 --> 00:12:01,220
+with even broader coverage
+
+405
+00:12:01,220 --> 00:12:02,080
+after receiving log feedback
+
+406
+00:12:02,080 --> 00:12:04,140
+It can also quickly locate the issue and complete the repair
+
+407
+00:12:04,140 --> 00:12:06,200
+But in this round, GPT 5.3 Codex
+
+408
+00:12:06,200 --> 00:12:08,160
+some operations that made me quite nervous
+
+409
+00:12:08,160 --> 00:12:09,280
+when cleaning logs
+
+410
+00:12:09,280 --> 00:12:11,820
+He chose to use git rollback to handle the troubleshooting code
+
+411
+00:12:11,820 --> 00:12:13,200
+instead of directly modifying the file
+
+412
+00:12:13,200 --> 00:12:14,440
+Sure enough, something went wrong
+
+413
+00:12:14,440 --> 00:12:17,600
+Then he switched to using a script to modify by batch removing logs
+
+414
+00:12:17,600 --> 00:12:18,720
+The final result was OK
+
+415
+00:12:18,720 --> 00:12:19,660
+The fix quality is also up to standard
+
+416
+00:12:19,660 --> 00:12:20,980
+
+
+417
+00:12:20,980 --> 00:12:23,440
+The entire three-round interaction took approximately 25 minutes
+
+418
+00:12:23,440 --> 00:12:24,640
+costing around $5
+
+419
+00:12:24,640 --> 00:12:27,100
+was the highest in terms of both cost and time in this group
+
+420
+00:12:27,100 --> 00:12:29,340
+In this round regarding the orthodoxy of bug fixes
+
+421
+00:12:29,340 --> 00:12:31,220
+Simply put, it's the approach adopted to fix the bug
+
+422
+00:12:31,220 --> 00:12:32,860
+Opus and GPT did a better job
+
+423
+00:12:32,860 --> 00:12:34,860
+but the M2.5's fix is also acceptable
+
+424
+00:12:34,860 --> 00:12:36,460
+I can only say that if I were to make the changes manually
+
+425
+00:12:36,460 --> 00:12:38,320
+I would definitely use Opus's fix
+
+426
+00:12:38,320 --> 00:12:39,540
+because it has fewer side effects
+
+427
+00:12:39,540 --> 00:12:42,500
+In the fourth group, we asked the model to perform from the perspective of a senior engineer
+
+428
+00:12:42,500 --> 00:12:43,520
+conduct a health check for the project
+
+429
+00:12:43,520 --> 00:12:44,380
+The prompt is as follows
+
+430
+00:12:44,380 --> 00:12:47,540
+This group actually evaluates whether the large models possess genuine engineering intuition
+
+431
+00:12:47,540 --> 00:12:48,800
+whether the suggestions can be implemented
+
+432
+00:12:48,800 --> 00:12:50,580
+whether it respects the existing project constraints
+
+433
+00:12:50,580 --> 00:12:51,720
+Let's take a look at the results
+
+434
+00:12:51,720 --> 00:12:53,240
+Let's start with MiniMax M2.5
+
+435
+00:12:53,240 --> 00:12:56,140
+In this round, my evaluation of M2.5 is: fast and stable
+
+436
+00:12:56,140 --> 00:12:57,520
+but the chain of evidence is somewhat loose
+
+437
+00:12:57,520 --> 00:12:58,880
+The total time taken was approximately 2 minutes
+
+438
+00:12:58,880 --> 00:13:00,800
+costing approximately 0.75 RMB
+
+439
+00:13:00,800 --> 00:13:01,820
+Its advantages are very clear
+
+440
+00:13:01,820 --> 00:13:03,440
+Fast and well-structured
+
+441
+00:13:03,440 --> 00:13:06,260
+The audit results are basically presented in the format of identifying the issue
+
+442
+00:13:06,260 --> 00:13:08,200
+potential impact, risk cause
+
+443
+00:13:08,200 --> 00:13:09,260
+modification suggestions, verification methods
+
+444
+00:13:09,260 --> 00:13:11,620
+This engineering logic is clearly laid out and easy to understand at a glance
+
+445
+00:13:11,620 --> 00:13:14,360
+At the same time, it also identified some real engineering issues
+
+446
+00:13:14,360 --> 00:13:16,060
+such as the robustness of stream processing and the absence of retry mechanisms
+
+447
+00:13:16,060 --> 00:13:17,040
+missing retry
+
+448
+00:13:17,040 --> 00:13:18,400
+silent parsing failures etc.
+
+449
+00:13:18,400 --> 00:13:19,240
+The direction is correct
+
+450
+00:13:19,240 --> 00:13:20,380
+but the issues are equally apparent
+
+451
+00:13:20,380 --> 00:13:23,340
+Some judgments are not entirely derived from code implementation
+
+452
+00:13:23,340 --> 00:13:24,700
+more like based on common patterns of engineering experience
+
+453
+00:13:24,700 --> 00:13:27,760
+
+
+454
+00:13:27,760 --> 00:13:29,960
+This can also be observed from the execution time and token consumption
+
+455
+00:13:29,960 --> 00:13:32,400
+It did not perform an in-depth exhaustive code analysis
+
+456
+00:13:32,400 --> 00:13:34,120
+This makes M2.5 appear more like a rapid engineering checklist in this round
+
+457
+00:13:34,120 --> 00:13:35,880
+more like a quick engineering experience checklist
+
+458
+00:13:35,880 --> 00:13:37,960
+rather than a rigorous deep code audit
+
+459
+00:13:37,960 --> 00:13:40,580
+Another drawback is that, despite clearly stating not to undertake major refactoring,
+
+460
+00:13:40,580 --> 00:13:42,340
+without introducing additional dependencies
+
+461
+00:13:42,340 --> 00:13:44,260
+M2.5 occasionally still provides some
+
+462
+00:13:44,260 --> 00:13:46,780
+Directional suggestions for potentially introducing a certain system can be considered
+
+463
+00:13:46,780 --> 00:13:47,920
+even if marked as optional
+
+464
+00:13:47,920 --> 00:13:49,400
+From an evaluation perspective
+
+465
+00:13:49,400 --> 00:13:52,080
+This still falls short of fully respecting the constraints.
+
+466
+00:13:52,080 --> 00:13:54,020
+Next is Claude Opus 4.6
+
+467
+00:13:54,020 --> 00:13:56,580
+Opus in this round is more like a senior engineer
+
+468
+00:13:56,580 --> 00:13:57,660
+a complete audit report
+
+469
+00:13:57,660 --> 00:13:59,020
+Total time taken approximately 15 minutes
+
+470
+00:13:59,020 --> 00:14:00,900
+costing approximately $3.16
+
+471
+00:14:00,900 --> 00:14:02,660
+Its coverage is the most comprehensive among the three.
+
+472
+00:14:02,660 --> 00:14:05,640
+architecture boundaries, utility functions, state design, test coverage
+
+473
+00:14:05,640 --> 00:14:07,320
+long-term maintenance costs
+
+474
+00:14:07,320 --> 00:14:08,740
+and most issues are accompanied by
+
+475
+00:14:08,740 --> 00:14:09,840
+Why is this the issue
+
+476
+00:14:09,840 --> 00:14:12,500
+plus how to verify it, the overall engineering intuition is correct
+
+477
+00:14:12,500 --> 00:14:14,640
+there are indeed quite a few points that can be directly implemented
+
+478
+00:14:14,640 --> 00:14:16,820
+But there is a very serious issue with Opus in this round
+
+479
+00:14:16,820 --> 00:14:17,740
+There are a few misjudgments
+
+480
+00:14:17,740 --> 00:14:21,140
+In the main branch implementation, I spot-checked at least several instances that appear reasonable
+
+481
+00:14:21,140 --> 00:14:23,220
+but the code has actually already handled these cases
+
+482
+00:14:23,220 --> 00:14:24,920
+This could lead to a very serious impact
+
+483
+00:14:24,920 --> 00:14:26,180
+If you treat Opus's output
+
+484
+00:14:26,180 --> 00:14:28,100
+directly schedule it as a to-do list
+
+485
+00:14:28,100 --> 00:14:29,260
+before actually getting started
+
+486
+00:14:29,260 --> 00:14:30,500
+it's best to first conduct a round of misjudgment screening,
+
+487
+00:14:30,500 --> 00:14:31,820
+filter out broad suggestions
+
+488
+00:14:31,820 --> 00:14:34,080
+Otherwise, it's easy to waste time and effort on areas that don't actually require changes
+
+489
+00:14:34,080 --> 00:14:35,140
+waste time and energy
+
+490
+00:14:35,140 --> 00:14:36,940
+Finally, let's talk about GPT 5.3 Codex
+
+491
+00:14:36,940 --> 00:14:37,680
+In this round
+
+492
+00:14:37,680 --> 00:14:40,360
+GPT 5.3 Codex is the one with the strongest engineering intuition
+
+493
+00:14:40,360 --> 00:14:42,060
+took approximately 17 minutes
+
+494
+00:14:42,060 --> 00:14:43,440
+The cost was $11
+
+495
+00:14:43,440 --> 00:14:44,240
+Compared to the other two
+
+496
+00:14:44,240 --> 00:14:45,980
+This time GPT's consumption is ridiculously high
+
+497
+00:14:45,980 --> 00:14:47,240
+The points it provided were few
+
+498
+00:14:47,240 --> 00:14:48,660
+but the hit rate is quite high
+
+499
+00:14:48,660 --> 00:14:51,220
+and almost all of them are the kind of weird issues that could genuinely occur in production
+
+500
+00:14:51,220 --> 00:14:52,540
+and are extremely difficult to troubleshoot
+
+501
+00:14:52,540 --> 00:14:54,020
+These issues all share a common characteristic
+
+502
+00:14:54,020 --> 00:14:55,420
+Not making changes won't necessarily cause immediate issues
+
+503
+00:14:55,420 --> 00:14:57,120
+but once triggered, the cost is extremely high
+
+504
+00:14:57,120 --> 00:14:58,320
+Another very important point is
+
+505
+00:14:58,320 --> 00:15:00,300
+GPT was very restrained in this round
+
+506
+00:15:00,300 --> 00:15:03,120
+Most of the suggestions it provided were ready for PR submission, involving small-step modifications
+
+507
+00:15:03,120 --> 00:15:06,000
+and completely avoids introducing any new dependencies
+
+508
+00:15:06,000 --> 00:15:07,580
+The shortcomings are also evident, with insufficient coverage
+
+509
+00:15:07,580 --> 00:15:10,400
+It doesn't conduct a comprehensive health check on the entire project architecture like Opus does.
+
+510
+00:15:10,400 --> 00:15:12,680
+more like helping us identify the most critical issues at hand
+
+511
+00:15:12,680 --> 00:15:13,780
+the most critical points to fix
+
+512
+00:15:13,780 --> 00:15:16,140
+However, it did scan a significant amount of code into the context
+
+513
+00:15:16,140 --> 00:15:18,560
+This can also be seen from the execution time and token consumption.
+
+514
+00:15:18,560 --> 00:15:20,120
+The final group is a comprehensive capability test
+
+515
+00:15:20,120 --> 00:15:22,380
+I provided the model with a real new module requirement
+
+516
+00:15:22,380 --> 00:15:24,080
+Unfortunately, due to the overly large requirements
+
+517
+00:15:24,080 --> 00:15:25,100
+My personal time was also limited
+
+518
+00:15:25,100 --> 00:15:27,280
+None of the three models fully completed this module.
+
+519
+00:15:27,280 --> 00:15:28,580
+but note that it's not a matter of being unable to complete
+
+520
+00:15:28,580 --> 00:15:29,560
+but I'm too busy
+
+521
+00:15:29,560 --> 00:15:30,940
+so this part will be temporarily ignored
+
+522
+00:15:30,940 --> 00:15:32,180
+Leave it to friends to test
+
+523
+00:15:32,180 --> 00:15:33,440
+OK, to briefly summarize in the end
+
+524
+00:15:33,440 --> 00:15:34,720
+Opus 4.6
+
+525
+00:15:34,720 --> 00:15:37,100
+remains the model with the highest current ceiling for engineering quality
+
+526
+00:15:37,100 --> 00:15:38,560
+complex bug fixes, architectural judgment, completeness of engineering solutions
+
+527
+00:15:38,560 --> 00:15:41,340
+still ranks first in the top tier
+
+528
+00:15:41,340 --> 00:15:42,540
+but the issues are also clear
+
+529
+00:15:42,540 --> 00:15:43,200
+slow and expensive
+
+530
+00:15:43,200 --> 00:15:45,540
+and the cost-performance ratio is not suitable for long-term intensive use
+
+531
+00:15:45,540 --> 00:15:48,240
+I don't believe many people would use 4.6 at full capacity on a daily basis
+
+532
+00:15:48,240 --> 00:15:49,760
+In reality, more people still opt for reverse proxies
+
+533
+00:15:49,760 --> 00:15:51,400
+or fall back to Opus 4.5, Sonnet 4.5
+
+534
+00:15:51,400 --> 00:15:52,220
+Snet4.5
+
+535
+00:15:52,220 --> 00:15:54,180
+As for the official high-speed channel
+
+536
+00:15:54,180 --> 00:15:55,220
+Yes, but it requires 6 times the price
+
+537
+00:15:55,220 --> 00:15:57,760
+GPT 5.3 Codex receives high praise online
+
+538
+00:15:57,760 --> 00:16:00,200
+but in actual development, the conclusion is quite clear
+
+539
+00:16:00,200 --> 00:16:01,480
+except for engineering architecture capabilities
+
+540
+00:16:01,480 --> 00:16:02,820
+Other aspects are generally mediocre overall
+
+541
+00:16:02,820 --> 00:16:05,320
+even though the official claims it's 25% faster than 5.2
+
+542
+00:16:05,320 --> 00:16:07,560
+In actual testing, it still isn't as fast as Opus 4.6
+
+543
+00:16:07,560 --> 00:16:09,220
+Moreover, my Opus here went through a proxy
+
+544
+00:16:09,220 --> 00:16:10,140
+with network overhead
+
+545
+00:16:10,140 --> 00:16:11,820
+The pricing structure is currently not transparent
+
+546
+00:16:11,820 --> 00:16:14,320
+This test can only provide an estimate based on the price of 5.2
+
+547
+00:16:14,320 --> 00:16:15,100
+can only serve as a reference
+
+548
+00:16:15,100 --> 00:16:16,440
+But it has an unexpected advantage
+
+549
+00:16:16,440 --> 00:16:17,360
+among the three models
+
+550
+00:16:17,360 --> 00:16:19,980
+Surprisingly, GPT 5.3 Codex has the best Chinese language support
+
+551
+00:16:19,980 --> 00:16:21,300
+Ask in Chinese, answer in Chinese
+
+552
+00:16:21,300 --> 00:16:23,360
+After the tool is called, it also provides explanations in Chinese
+
+553
+00:16:23,360 --> 00:16:24,960
+and the expression is very human-like
+
+554
+00:16:24,960 --> 00:16:27,220
+Overall, GPT remains more of a general-purpose model
+
+555
+00:16:27,220 --> 00:16:28,140
+occasionally delivers surprises
+
+556
+00:16:28,140 --> 00:16:29,640
+but it's not suitable for long-term coding
+
+557
+00:16:29,640 --> 00:16:31,820
+So my current situation is, I have a lot of GPT credits
+
+558
+00:16:31,820 --> 00:16:32,880
+but can't be bothered to use it
+
+559
+00:16:32,880 --> 00:16:34,440
+Finally, let's talk about MiniMax M2.5
+
+560
+00:16:34,440 --> 00:16:37,940
+Personally, I think it's currently the strongest coding model among domestic models.
+
+561
+00:16:37,940 --> 00:16:40,840
+If I had to choose only between M2.5 and GPT 5.3 Codex
+
+562
+00:16:40,840 --> 00:16:42,240
+I would directly choose M2.5
+
+563
+00:16:42,240 --> 00:16:44,600
+It may not be the pinnacle of engineering aesthetics
+
+564
+00:16:44,600 --> 00:16:47,680
+But the problem is, most real-world development doesn't require极致美感
+
+565
+00:16:47,680 --> 00:16:49,320
+shortcomings or areas for improvement
+
+566
+00:16:49,320 --> 00:16:50,360
+mainly in the context window
+
+567
+00:16:50,360 --> 00:16:54,100
+Currently it's still 200K, and occasional hallucinations may occur when the context window exceeds 70%
+
+568
+00:16:54,100 --> 00:16:55,940
+but this can be mitigated through context compression
+
+569
+00:16:55,940 --> 00:16:57,700
+I actually got it a few days before the M2.5 release
+
+570
+00:16:57,700 --> 00:16:58,820
+was granted early access
+
+571
+00:16:58,820 --> 00:17:01,040
+I first used it for real development work for some time
+
+572
+00:17:01,040 --> 00:17:02,640
+conducted a complete evaluation process
+
+573
+00:17:02,640 --> 00:17:04,660
+I also subscribed to MiniMax's Coding Plan
+
+574
+00:17:04,660 --> 00:17:07,680
+In subsequent development, we plan to gradually replace a portion of Claude's workload.
+
+575
+00:17:07,680 --> 00:17:10,140
+If in the past domestic models were still far behind Claude
+
+576
+00:17:10,140 --> 00:17:12,380
+the M2.5 can already achieve comparable results through engineering techniques
+
+577
+00:17:12,380 --> 00:17:13,740
+approaching Claude's actual performance
+
+578
+00:17:13,740 --> 00:17:14,780
+Its output tends to be restrained
+
+579
+00:17:14,780 --> 00:17:15,740
+but it's fast enough
+
+580
+00:17:15,740 --> 00:17:16,660
+even if it takes a few more rounds
+
+581
+00:17:16,660 --> 00:17:18,220
+The overall efficiency is still higher than Opus
+
+582
+00:17:18,220 --> 00:17:19,579
+as long as the final results are consistent
+
+583
+00:17:19,579 --> 00:17:21,419
+it can be integrated into real development workflows
+
+584
+00:17:21,419 --> 00:17:22,019
+
+
+585
+00:17:22,019 --> 00:17:23,279
+Claude is expensive and troublesome
+
+586
+00:17:23,279 --> 00:17:26,319
+I sincerely hope that domestic coding large models can stand up as soon as possible.
+
+587
+00:17:26,319 --> 00:17:27,659
+One last thing about the billing
+
+588
+00:17:27,659 --> 00:17:29,439
+This test was conducted using the official API billing
+
+589
+00:17:29,439 --> 00:17:32,180
+But for daily development, the Coding Plan subscription is more cost-effective.
+
+590
+00:17:32,180 --> 00:17:34,580
+This subscription is based on a fixed-time refresh frequency
+
+591
+00:17:34,580 --> 00:17:37,120
+You can choose different tiers based on your usage intensity.
+
+592
+00:17:37,120 --> 00:17:38,100
+Even the Max tier is much cheaper than Cursor and Claude
+
+593
+00:17:38,100 --> 00:17:40,060
+It's also much cheaper than cursor cloud
+
+594
+00:17:40,060 --> 00:17:41,120
+Domestic products are truly impressive.
+
+595
+00:17:41,120 --> 00:17:43,480
+Friends in need can subscribe through my invitation link
+
+596
+00:17:43,480 --> 00:17:45,220
+can get a 12% discount
+
+597
+00:17:45,220 --> 00:17:46,260
+The promotion ends in April.
+
+598
+00:17:46,260 --> 00:17:47,620
+The link is placed in the comment section
+
+599
+00:17:47,620 --> 00:17:47,900
+OK
+
+600
+00:17:47,900 --> 00:17:50,980
+That concludes my genuine personal experience with MiniMax 2.5.
+
+601
+00:17:50,980 --> 00:17:52,260
+If you disagree with anything
+
+602
+00:17:52,260 --> 00:17:52,860
+Feel free to debate
+
+603
+00:17:52,860 --> 00:17:54,160
+This is the Unprofessional Frontend
+
+604
+00:17:54,160 --> 00:17:55,580
+Thank you for watching and the Triple Combo
+
+605
+00:17:55,580 --> 00:17:56,480
+See you next time～
+

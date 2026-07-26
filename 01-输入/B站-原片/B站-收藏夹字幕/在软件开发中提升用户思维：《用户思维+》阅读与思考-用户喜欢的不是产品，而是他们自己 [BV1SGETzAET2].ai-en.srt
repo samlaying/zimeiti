@@ -1,0 +1,2452 @@
+1
+00:00:00,000 --> 00:00:00,440
+Hello everyone
+
+2
+00:00:00,440 --> 00:00:01,000
+This is Ayue
+
+3
+00:00:01,000 --> 00:00:01,520
+This video
+
+4
+00:00:01,520 --> 00:00:03,680
+Let's engage in some reflective thinking and sharing about our reading.
+
+5
+00:00:03,680 --> 00:00:07,139
+the book I recently read is 'User Thinking Plus'
+
+6
+00:00:07,139 --> 00:00:08,138
+and I found it really insightful
+
+7
+00:00:08,138 --> 00:00:09,610
+So, I thought about making a video
+
+8
+00:00:09,610 --> 00:00:12,870
+to outline the key ideas and takeaways from the book
+
+9
+00:00:12,870 --> 00:00:14,330
+I'll also share how I came across this book
+
+10
+00:00:14,330 --> 00:00:14,490
+The
+
+11
+00:00:14,490 --> 00:00:16,940
+reason is that recently I've been doing a lot of software work
+
+12
+00:00:16,940 --> 00:00:18,220
+and I've had some thoughts and insights
+
+13
+00:00:18,220 --> 00:00:20,600
+so I shared these thoughts and insights with Deep Seek
+
+14
+00:00:20,600 --> 00:00:23,240
+and asked him how to improve my user-centric thinking
+
+15
+00:00:23,240 --> 00:00:24,960
+Are there any really good books you can recommend?
+
+16
+00:00:24,960 --> 00:00:26,200
+In his For You list
+
+17
+00:00:26,200 --> 00:00:27,000
+I found a book
+
+18
+00:00:27,000 --> 00:00:28,320
+and after taking a look, it really was quite good
+
+19
+00:00:28,320 --> 00:00:31,480
+I have to force myself to share the content of these books.
+
+20
+00:00:31,480 --> 00:00:33,600
+And that's how this video came to be.
+
+21
+00:00:33,600 --> 00:00:35,140
+The book assumes that
+
+22
+00:00:35,140 --> 00:00:37,860
+people tend to focus their attention on themselves
+
+23
+00:00:37,860 --> 00:00:39,000
+rather than on others.
+
+24
+00:00:39,000 --> 00:00:40,920
+This leads to a conclusion:
+
+25
+00:00:40,920 --> 00:00:43,040
+when people like something,
+
+26
+00:00:43,040 --> 00:00:45,680
+they often like more than just the thing itself,
+
+27
+00:00:45,680 --> 00:00:48,540
+they like what it reflects about themselves.
+
+28
+00:00:48,540 --> 00:00:51,880
+So, this introduces a rather novel conclusion
+
+29
+00:00:51,880 --> 00:00:55,000
+that when users say they like a product
+
+30
+00:00:55,000 --> 00:00:57,860
+they are actually expressing their fondness for themselves
+
+31
+00:00:57,860 --> 00:00:59,760
+Developers might imagine
+
+32
+00:00:59,760 --> 00:01:01,700
+that users, while using the product, would say to others
+
+33
+00:01:01,700 --> 00:01:02,980
+that this product is amazing
+
+34
+00:01:02,980 --> 00:01:04,500
+and you should see how well it works
+
+35
+00:01:04,500 --> 00:01:05,760
+But in reality, it often plays out differently
+
+36
+00:01:08,860 --> 00:01:10,140
+He said you should come and take a look
+
+37
+00:01:10,140 --> 00:01:11,340
+After using this product
+
+38
+00:01:11,340 --> 00:01:12,980
+I feel absolutely great
+
+39
+00:01:12,980 --> 00:01:14,980
+So this is a shift in perspective
+
+40
+00:01:14,980 --> 00:01:17,640
+Another scene we think is real goes like this
+
+41
+00:01:17,640 --> 00:01:18,100
+A person
+
+42
+00:01:18,100 --> 00:01:20,040
+He saw a piece of software or an app
+
+43
+00:01:20,040 --> 00:01:21,080
+His eyes lit up
+
+44
+00:01:21,080 --> 00:01:23,040
+This is the most incredible product I've ever seen
+
+45
+00:01:23,040 --> 00:01:24,920
+Actually, the real scenario is like this.
+
+46
+00:01:24,920 --> 00:01:26,820
+This man is the user of the product.
+
+47
+00:01:26,820 --> 00:01:28,520
+The other person is very impressed by him.
+
+48
+00:01:28,520 --> 00:01:29,979
+Saying you're really amazing.
+
+49
+00:01:29,979 --> 00:01:31,399
+How did you manage to do that?
+
+50
+00:01:31,399 --> 00:01:32,219
+In this situation,
+
+51
+00:01:32,219 --> 00:01:33,579
+the man who uses the product,
+
+52
+00:01:33,579 --> 00:01:37,810
+This guy just recommended the product he's been using.
+
+53
+00:01:37,810 --> 00:01:42,050
+So, there's a rather perplexing Venn diagram here.
+
+54
+00:01:42,050 --> 00:01:44,820
+The goal of developers and development teams
+
+55
+00:01:44,820 --> 00:01:47,180
+is to have users think the product is great
+
+56
+00:01:47,180 --> 00:01:49,320
+but in reality, the user's goal is
+
+57
+00:01:49,320 --> 00:01:51,100
+that after using the product
+
+58
+00:01:51,100 --> 00:01:53,440
+I feel incredibly powerful
+
+59
+00:01:53,440 --> 00:01:54,600
+in short, I feel great
+
+60
+00:01:54,600 --> 00:01:56,940
+some might say these are the same thing
+
+61
+00:01:56,940 --> 00:01:58,360
+when I feel really capable
+
+62
+00:01:58,360 --> 00:02:00,840
+I also think the product developed by the developers is fantastic
+
+63
+00:02:00,840 --> 00:02:03,360
+When developers think their product is great
+
+64
+00:02:03,360 --> 00:02:05,400
+users will feel they are pretty capable
+
+65
+00:02:05,400 --> 00:02:06,900
+In fact, these are two different perspectives
+
+66
+00:02:06,900 --> 00:02:07,920
+At the root of it
+
+67
+00:02:07,920 --> 00:02:10,380
+people tend to focus on themselves
+
+68
+00:02:10,380 --> 00:02:11,720
+when they are using the software
+
+69
+00:02:11,720 --> 00:02:14,780
+they aren’t particularly concerned about who you are
+
+70
+00:02:14,780 --> 00:02:15,980
+what you have developed
+
+71
+00:02:15,980 --> 00:02:17,260
+who created the software
+
+72
+00:02:17,260 --> 00:02:20,380
+They only care about how it feels when they use it
+
+73
+00:02:20,380 --> 00:02:21,740
+and whether using this software
+
+74
+00:02:21,740 --> 00:02:24,260
+can help them become a better version of themselves
+
+75
+00:02:24,260 --> 00:02:26,540
+This is a relatively novel perspective in the book
+
+76
+00:02:26,540 --> 00:02:27,540
+I gave it a title
+
+77
+00:02:27,540 --> 00:02:30,260
+called 'Users Liking the Product and Liking Themselves'
+
+78
+00:02:30,260 --> 00:02:31,800
+Next, with the software in place
+
+79
+00:02:31,800 --> 00:02:32,700
+and users on board
+
+80
+00:02:32,700 --> 00:02:35,940
+you might start thinking about how to spread it
+
+81
+00:02:35,940 --> 00:02:37,560
+How to increase the user base
+
+82
+00:02:37,560 --> 00:02:39,420
+At this point, your first reaction might be
+
+83
+00:02:39,420 --> 00:02:41,000
+What can I do for myself
+
+84
+00:02:41,000 --> 00:02:42,300
+To promote myself
+
+85
+00:02:42,300 --> 00:02:43,800
+How to publish in various places
+
+86
+00:02:43,800 --> 00:02:44,560
+In this book
+
+87
+00:02:44,560 --> 00:02:46,980
+Leverage the user's points of interest from earlier
+
+88
+00:02:46,980 --> 00:02:49,790
+Usually, a conclusion about oneself
+
+89
+00:02:49,790 --> 00:02:51,890
+A better way to spread the word was introduced
+
+90
+00:02:51,890 --> 00:02:53,930
+It leverages superior communication
+
+91
+00:02:53,930 --> 00:02:56,810
+Here, users are categorized into two types
+
+92
+00:02:56,810 --> 00:02:59,590
+One type is the users with a fixed mindset
+
+93
+00:02:59,590 --> 00:03:01,650
+The other type is the users with a growth mindset
+
+94
+00:03:01,650 --> 00:03:03,850
+For users with a growth mindset
+
+95
+00:03:03,850 --> 00:03:06,370
+Their learning capabilities tend to be stronger
+
+96
+00:03:06,530 --> 00:03:09,010
+Typically, when they use software
+
+97
+00:03:09,010 --> 00:03:11,570
+They can tap into their creativity
+
+98
+00:03:11,570 --> 00:03:16,390
+Thus, they create products that are quite impressive
+
+99
+00:03:16,390 --> 00:03:18,300
+or some works of derivative creation
+
+100
+00:03:18,300 --> 00:03:21,420
+and then people will start to envy them
+
+101
+00:03:21,420 --> 00:03:23,240
+asking how they achieved success
+
+102
+00:03:23,240 --> 00:03:26,070
+such users are referred to as outstanding users in the book
+
+103
+00:03:26,070 --> 00:03:29,590
+and these outstanding users will become the envy of others
+
+104
+00:03:29,590 --> 00:03:32,290
+people admire their output or their works
+
+105
+00:03:32,290 --> 00:03:33,710
+when they seek advice from them
+
+106
+00:03:33,710 --> 00:03:36,230
+they naturally mention your product
+
+107
+00:03:36,230 --> 00:03:38,110
+so the book presents a viewpoint
+
+108
+00:03:38,110 --> 00:03:40,450
+The best way to promote this product
+
+109
+00:03:40,450 --> 00:03:42,340
+is to help a small group of users
+
+110
+00:03:42,340 --> 00:03:44,090
+become power users
+
+111
+00:03:44,090 --> 00:03:44,990
+In this way
+
+112
+00:03:44,990 --> 00:03:48,530
+these power users will want their colleagues
+
+113
+00:03:48,530 --> 00:03:50,850
+or friends to improve as well
+
+114
+00:03:50,850 --> 00:03:54,209
+and use the same tools or products
+
+115
+00:03:54,209 --> 00:03:56,289
+This is how your product spreads
+
+116
+00:03:56,289 --> 00:03:57,449
+as mentioned in the book
+
+117
+00:03:57,449 --> 00:04:00,660
+Users don't recommend products to friends because they like the product
+
+118
+00:04:00,660 --> 00:04:02,760
+but because they care about their friends
+
+119
+00:04:02,760 --> 00:04:06,190
+That's why he recommended this product to his friends
+
+120
+00:04:06,190 --> 00:04:07,870
+So we can think about it this way
+
+121
+00:04:07,870 --> 00:04:09,810
+If a user
+
+122
+00:04:09,810 --> 00:04:11,820
+or let's say this user is a student
+
+123
+00:04:11,820 --> 00:04:13,460
+the environment they're in
+
+124
+00:04:13,460 --> 00:04:16,220
+is highly competitive
+
+125
+00:04:16,220 --> 00:04:18,060
+He dislikes everyone around him
+
+126
+00:04:18,060 --> 00:04:20,820
+So he encounters a product that makes him feel good about himself
+
+127
+00:04:20,820 --> 00:04:22,260
+a product that leaves him with a very positive impression
+
+128
+00:04:22,260 --> 00:04:23,820
+What would he definitely do?
+
+129
+00:04:23,820 --> 00:04:26,260
+He definitely won't recommend it to any of his classmates.
+
+130
+00:04:26,260 --> 00:04:27,780
+Because any of his classmates
+
+131
+00:04:27,780 --> 00:04:30,160
+in such a cutthroat competitive environment
+
+132
+00:04:30,160 --> 00:04:32,980
+would be perceived as a threat to him
+
+133
+00:04:32,980 --> 00:04:34,480
+So his thought is
+
+134
+00:04:34,480 --> 00:04:37,730
+I need to keep this product to myself and hide it
+
+135
+00:04:37,730 --> 00:04:38,730
+I'll use it secretly
+
+136
+00:04:38,730 --> 00:04:39,650
+Don't tell anyone
+
+137
+00:04:39,650 --> 00:04:41,330
+So the spread of this product
+
+138
+00:04:41,330 --> 00:04:43,730
+is also somewhat related to the environment
+
+139
+00:04:43,730 --> 00:04:44,920
+This is one of my inferences.
+
+140
+00:04:44,920 --> 00:04:47,120
+The book also mentions a very interesting point
+
+141
+00:04:47,120 --> 00:04:49,000
+When you're developing software or a product
+
+142
+00:04:49,000 --> 00:04:51,000
+you need to design not only for your users
+
+143
+00:04:51,000 --> 00:04:53,560
+but also for your users' users
+
+144
+00:04:53,560 --> 00:04:54,520
+This user
+
+145
+00:04:54,520 --> 00:04:57,790
+Whenever I encounter this kind of suspicious nesting logic terms
+
+146
+00:04:57,790 --> 00:04:59,690
+That immediately piqued my interest
+
+147
+00:04:59,690 --> 00:05:01,890
+So I took some time to think about it
+
+148
+00:05:01,890 --> 00:05:03,610
+And found something quite intriguing
+
+149
+00:05:03,610 --> 00:05:05,100
+The user transmission chain of a product
+
+150
+00:05:05,100 --> 00:05:06,800
+Now, if you create a product
+
+151
+00:05:06,800 --> 00:05:08,560
+There will be all sorts of users
+
+152
+00:05:08,560 --> 00:05:10,740
+Users with different roles using your product
+
+153
+00:05:10,740 --> 00:05:13,000
+When they use your product,
+
+154
+00:05:13,000 --> 00:05:15,530
+they can create some by-products,
+
+155
+00:05:15,530 --> 00:05:18,560
+or works created using your product.
+
+156
+00:05:18,560 --> 00:05:20,720
+Your product is typically a tool,
+
+157
+00:05:20,720 --> 00:05:21,760
+or something similar.
+
+158
+00:05:21,760 --> 00:05:24,970
+The by-products or works they create
+
+159
+00:05:24,970 --> 00:05:27,650
+can be referred to as user-generated content,
+
+160
+00:05:27,650 --> 00:05:29,570
+or user products.
+
+161
+00:05:29,570 --> 00:05:32,170
+We are looking at this from the user's perspective.
+
+162
+00:05:32,170 --> 00:05:33,610
+Let's look at the user again
+
+163
+00:05:33,610 --> 00:05:35,650
+who generates secondary products
+
+164
+00:05:35,650 --> 00:05:37,850
+which in turn will have its own users
+
+165
+00:05:37,850 --> 00:05:41,210
+This forms a tree-like, radiating model
+
+166
+00:05:41,210 --> 00:05:43,050
+Now that we have users of users
+
+167
+00:05:43,050 --> 00:05:47,560
+it's possible for the users of users to use the product
+
+168
+00:05:47,560 --> 00:05:50,380
+a tool generated by the higher-level user
+
+169
+00:05:50,380 --> 00:05:53,900
+to create outputs for their own users
+
+170
+00:05:53,900 --> 00:05:56,360
+and thus generate users of users of users
+
+171
+00:05:56,360 --> 00:05:58,620
+This can cascade down through multiple layers
+
+172
+00:05:58,620 --> 00:06:00,420
+making it very complex and abstract
+
+173
+00:06:00,420 --> 00:06:01,560
+Let's take a concrete example
+
+174
+00:06:01,560 --> 00:06:05,290
+Let's say there's a team working on an AI tool for enhancing productive force.
+
+175
+00:06:05,290 --> 00:06:08,870
+Its users might be front-end developers
+
+176
+00:06:08,870 --> 00:06:09,870
+or back-end developers
+
+177
+00:06:09,870 --> 00:06:10,910
+or embedded system developers
+
+178
+00:06:10,910 --> 00:06:12,030
+or game developers
+
+179
+00:06:12,030 --> 00:06:14,890
+These developers are using productivity tools
+
+180
+00:06:14,890 --> 00:06:16,560
+Improving your work efficiency
+
+181
+00:06:16,560 --> 00:06:20,889
+Front-end developers might use this AI-powered productivity tool to write code.
+
+182
+00:06:20,889 --> 00:06:21,529
+and write it faster
+
+183
+00:06:21,529 --> 00:06:25,369
+which could speed up the development of the website or product they're working on
+
+184
+00:06:25,369 --> 00:06:27,409
+or accelerate the creation of desktop applications
+
+185
+00:06:27,409 --> 00:06:29,289
+or speed up the development of mobile apps
+
+186
+00:06:29,289 --> 00:06:32,090
+For front-end developers
+
+187
+00:06:32,090 --> 00:06:36,610
+the audience and users of their websites might be math teachers
+
+188
+00:06:36,610 --> 00:06:42,260
+For instance, if their website is for writing and recognizing LaTeX
+
+189
+00:06:42,260 --> 00:06:43,440
+a website for math formulas
+
+190
+00:06:43,440 --> 00:06:44,730
+a small tool website
+
+191
+00:06:44,730 --> 00:06:47,050
+so his users definitely include math teachers
+
+192
+00:06:47,050 --> 00:06:49,870
+math teachers often use his website to write math formulas
+
+193
+00:06:49,870 --> 00:06:50,970
+and prepare lesson plans
+
+194
+00:06:50,970 --> 00:06:52,810
+for the math teacher
+
+195
+00:06:52,810 --> 00:06:54,330
+he definitely has his students
+
+196
+00:06:54,330 --> 00:06:58,480
+his students are a large group of math majors
+
+197
+00:06:58,480 --> 00:07:00,960
+what's the use of understanding this radiating model?
+
+198
+00:07:00,960 --> 00:07:04,840
+By thinking step by step and looking ahead
+
+199
+00:07:04,840 --> 00:07:08,580
+you can identify potential secondary user groups
+
+200
+00:07:08,580 --> 00:07:11,700
+and the size of these secondary user groups could be substantial
+
+201
+00:07:11,700 --> 00:07:13,680
+Once you understand the secondary user groups
+
+202
+00:07:13,680 --> 00:07:15,540
+such as students in the mathematics department
+
+203
+00:07:15,540 --> 00:07:19,250
+you might influence the direction of your product
+
+204
+00:07:19,250 --> 00:07:20,190
+in terms of its orientation
+
+205
+00:07:20,190 --> 00:07:21,670
+you might start
+
+206
+00:07:21,670 --> 00:07:24,270
+For your AI tool that boosts productive force
+
+207
+00:07:24,270 --> 00:07:28,050
+You might want to increase the training on LUTEXT's grammar.
+
+208
+00:07:28,050 --> 00:07:28,950
+After the training is completed,
+
+209
+00:07:28,950 --> 00:07:30,610
+for a front-end developer,
+
+210
+00:07:30,610 --> 00:07:31,650
+once they start building a website,
+
+211
+00:07:31,650 --> 00:07:34,550
+when they get to the part of writing a small module for mathematical formulas,
+
+212
+00:07:34,550 --> 00:07:36,490
+they will find that the website they can build
+
+213
+00:07:36,490 --> 00:07:38,650
+seems to have better support for mathematical formulas.
+
+214
+00:07:38,650 --> 00:07:41,590
+As a result, the math teacher also finds it more useful.
+
+215
+00:07:41,590 --> 00:07:43,770
+They start using the website more smoothly.
+
+216
+00:07:43,770 --> 00:07:47,660
+As a result, the students became even more satisfied with the teacher.
+
+217
+00:07:47,660 --> 00:07:50,280
+The math teacher also felt very satisfied.
+
+218
+00:07:50,280 --> 00:07:52,909
+He provided feedback to the front-end developer.
+
+219
+00:07:52,909 --> 00:07:55,829
+Consequently, the front-end developer also felt very satisfied.
+
+220
+00:07:55,829 --> 00:07:58,329
+He might even become exceptionally outstanding.
+
+221
+00:07:58,329 --> 00:07:59,189
+In this situation,
+
+222
+00:07:59,189 --> 00:08:01,640
+the front-end developer would become an excellent user.
+
+223
+00:08:01,640 --> 00:08:05,520
+As a result, he will be more willing to share AI productive force tools.
+
+224
+00:08:05,520 --> 00:08:07,060
+That's the logic, right.
+
+225
+00:08:07,060 --> 00:08:08,580
+So, this user
+
+226
+00:08:08,580 --> 00:08:10,480
+has a very innovative mindset
+
+227
+00:08:10,480 --> 00:08:11,620
+As we mentioned earlier
+
+228
+00:08:11,620 --> 00:08:12,740
+users are not fond of the product
+
+229
+00:08:12,740 --> 00:08:14,350
+but they love themselves
+
+230
+00:08:14,350 --> 00:08:17,210
+and their own excellence
+
+231
+00:08:17,210 --> 00:08:20,240
+and the desire to show off, which drives them to spread it
+
+232
+00:08:20,240 --> 00:08:21,240
+which might be the most effective approach
+
+233
+00:08:21,240 --> 00:08:22,120
+though we shouldn’t call it showing off
+
+234
+00:08:22,120 --> 00:08:24,620
+It's about the psychology of wanting to help others
+
+235
+00:08:24,620 --> 00:08:27,250
+The book then mentions a new
+
+236
+00:08:27,250 --> 00:08:28,350
+point worth pondering
+
+237
+00:08:28,350 --> 00:08:30,570
+It's crucial to create an outstanding product
+
+238
+00:08:30,570 --> 00:08:34,500
+but it's equally important that the users themselves are capable
+
+239
+00:08:34,500 --> 00:08:35,659
+This is a user-centric mindset
+
+240
+00:08:35,659 --> 00:08:37,860
+So in the title, I wrote product
+
+241
+00:08:37,860 --> 00:08:39,568
+outstanding vs. user capability
+
+242
+00:08:39,568 --> 00:08:42,369
+Sometimes we might observe certain products
+
+243
+00:08:42,369 --> 00:08:44,569
+It's a sustainable success.
+
+244
+00:08:44,569 --> 00:08:47,640
+The book mentions this kind of sustainable success.
+
+245
+00:08:47,640 --> 00:08:50,040
+It's not crucial in the product itself.
+
+246
+00:08:50,040 --> 00:08:53,240
+But the key lies in their users.
+
+247
+00:08:53,240 --> 00:08:57,190
+So sometimes when we want to study this product,
+
+248
+00:08:57,190 --> 00:08:58,550
+or similar products,
+
+249
+00:08:58,550 --> 00:08:59,530
+why they succeed,
+
+250
+00:08:59,530 --> 00:09:00,940
+we might think about
+
+251
+00:09:00,940 --> 00:09:02,260
+breaking down its features.
+
+252
+00:09:02,260 --> 00:09:04,040
+to analyze the functionality it provides
+
+253
+00:09:04,040 --> 00:09:06,020
+and identify exactly what needs it addresses
+
+254
+00:09:06,020 --> 00:09:10,300
+This is a very objective and conventional approach
+
+255
+00:09:10,300 --> 00:09:12,360
+However, we might overlook one aspect
+
+256
+00:09:12,360 --> 00:09:15,160
+The users of this product are themselves very capable
+
+257
+00:09:15,160 --> 00:09:16,060
+Just like some schools
+
+258
+00:09:16,060 --> 00:09:18,420
+which cherry-pick their students
+
+259
+00:09:18,420 --> 00:09:21,520
+may not have the most outstanding educational resources
+
+260
+00:09:21,520 --> 00:09:24,140
+and the reason they excel is
+
+261
+00:09:24,140 --> 00:09:26,880
+The students at these schools are already very capable.
+
+262
+00:09:26,880 --> 00:09:28,180
+So we can infer that
+
+263
+00:09:28,180 --> 00:09:30,560
+when you want to create a software or a product,
+
+264
+00:09:30,560 --> 00:09:33,400
+you need to clearly define your user base,
+
+265
+00:09:33,400 --> 00:09:35,600
+what your core user group looks like,
+
+266
+00:09:35,600 --> 00:09:36,980
+your secondary
+
+267
+00:09:36,980 --> 00:09:40,470
+and the next layer of user profiles look like,
+
+268
+00:09:40,470 --> 00:09:43,430
+and what the outer layer looks like.
+
+269
+00:09:43,430 --> 00:09:46,230
+If my user isn't as capable as you
+
+270
+00:09:46,230 --> 00:09:47,430
+What should we do?
+
+271
+00:09:47,430 --> 00:09:49,870
+The book even mentions a new approach
+
+272
+00:09:49,870 --> 00:09:51,210
+called upgrading users
+
+273
+00:09:51,210 --> 00:09:53,630
+The term 'upgrading users' might sound a bit off
+
+274
+00:09:53,630 --> 00:09:57,230
+as if people are being objectified like parts
+
+275
+00:09:57,230 --> 00:09:58,470
+and treated as something to be upgraded
+
+276
+00:09:58,470 --> 00:10:01,650
+Actually, what it means is that we should empower our users
+
+277
+00:10:01,650 --> 00:10:03,850
+to build and upgrade the product
+
+278
+00:10:03,850 --> 00:10:06,490
+Continuously iterating the software is crucial
+
+279
+00:10:06,490 --> 00:10:08,930
+But we still need to have users upgrade.
+
+280
+00:10:08,930 --> 00:10:10,370
+I mean, this so-called upgrade.
+
+281
+00:10:10,370 --> 00:10:12,370
+This upgrade sounds quite abstract.
+
+282
+00:10:12,370 --> 00:10:13,770
+So what exactly does it entail?
+
+283
+00:10:13,770 --> 00:10:16,620
+It means we should make users more powerful.
+
+284
+00:10:16,620 --> 00:10:18,720
+We want them to feel like they’re getting stronger.
+
+285
+00:10:18,720 --> 00:10:21,130
+Not by forcing them,
+
+286
+00:10:21,130 --> 00:10:21,950
+or compelling them,
+
+287
+00:10:23,250 --> 00:10:24,610
+which would ultimately make them more capable.
+
+288
+00:10:24,610 --> 00:10:27,440
+It should create a variety of attractions.
+
+289
+00:10:27,440 --> 00:10:28,980
+Give him a vision.
+
+290
+00:10:28,980 --> 00:10:32,589
+This way, he will follow this vision on his own.
+
+291
+00:10:32,589 --> 00:10:34,809
+Gradually, he will become very powerful.
+
+292
+00:10:34,809 --> 00:10:37,649
+So, this is where the distinction between external rewards and internal motivation lies.
+
+293
+00:10:37,649 --> 00:10:38,220
+Rewards.
+
+294
+00:10:38,220 --> 00:10:41,740
+The book mentions that external rewards are often unsustainable.
+
+295
+00:10:41,740 --> 00:10:43,860
+They require an expenditure of energy.
+
+296
+00:10:43,860 --> 00:10:45,900
+But internal motivation is very enduring.
+
+297
+00:10:45,900 --> 00:10:48,500
+So, the next major section is all about
+
+298
+00:10:48,500 --> 00:10:51,800
+how to effectively foster internal motivation
+
+299
+00:10:51,800 --> 00:10:53,890
+and introduce the concept of the flow model
+
+300
+00:10:53,890 --> 00:10:55,930
+The thinking in this part might seem a bit abrupt
+
+301
+00:10:55,930 --> 00:10:58,210
+the relationship between users and products
+
+302
+00:10:58,210 --> 00:11:00,440
+is not just about products influencing users
+
+303
+00:11:00,440 --> 00:11:04,089
+users can also impact products through their feedback
+
+304
+00:11:04,089 --> 00:11:07,289
+which is why the book mentions
+
+305
+00:11:07,289 --> 00:11:08,529
+it’s crucial to upgrade products
+
+306
+00:11:08,529 --> 00:11:09,829
+We need to upgrade the user.
+
+307
+00:11:09,829 --> 00:11:12,929
+A way to make the user a better version of themselves.
+
+308
+00:11:12,929 --> 00:11:15,589
+You can visualize this as a graph.
+
+309
+00:11:15,589 --> 00:11:16,709
+This massive magnet.
+
+310
+00:11:16,709 --> 00:11:18,110
+Represents the user.
+
+311
+00:11:18,110 --> 00:11:19,890
+The person they aspire to be.
+
+312
+00:11:19,890 --> 00:11:23,860
+Of course, as the magnet pulls them towards the upper right corner,
+
+313
+00:11:23,860 --> 00:11:25,220
+They might encounter distractions.
+
+314
+00:11:25,220 --> 00:11:26,860
+What exactly are these distractions?
+
+315
+00:11:26,860 --> 00:11:28,940
+These distractions are what he encounters when facing setbacks.
+
+316
+00:11:28,940 --> 00:11:30,460
+He doesn't know how to use this feature.
+
+317
+00:11:30,460 --> 00:11:31,800
+So he gives up.
+
+318
+00:11:31,800 --> 00:11:34,080
+Therefore, there are two crucial elements in this diagram.
+
+319
+00:11:34,080 --> 00:11:36,500
+One is the grand vision in the upper right corner.
+
+320
+00:11:36,500 --> 00:11:38,460
+The self the user wants to become.
+
+321
+00:11:38,460 --> 00:11:42,210
+The other element is the distraction in the lower right corner.
+
+322
+00:11:42,210 --> 00:11:44,670
+We marked the distraction in yellow.
+
+323
+00:11:44,670 --> 00:11:46,210
+And the vision in purple.
+
+324
+00:11:46,210 --> 00:11:49,399
+So, on the right side of this image, there's a purple element.
+
+325
+00:11:49,399 --> 00:11:52,130
+Let me elaborate on what this vision is all about.
+
+326
+00:11:52,130 --> 00:11:55,090
+The yellow line on the left represents the interference.
+
+327
+00:11:55,090 --> 00:11:57,270
+The large section on the left is all about introducing
+
+328
+00:11:57,270 --> 00:11:59,650
+how to avoid these interferences.
+
+329
+00:11:59,650 --> 00:12:02,470
+This entire process moving towards the upper right corner
+
+330
+00:12:02,470 --> 00:12:06,930
+naturally overlaps with the flow model in game design.
+
+331
+00:12:06,930 --> 00:12:08,190
+overlaps with it.
+
+332
+00:12:08,190 --> 00:12:09,470
+What is the flow model?
+
+333
+00:12:09,470 --> 00:12:11,290
+Let's go over this a bit more.
+
+334
+00:12:11,290 --> 00:12:12,790
+There's a coordinate axis.
+
+335
+00:12:12,790 --> 00:12:13,890
+The horizontal axis represents time.
+
+336
+00:12:13,890 --> 00:12:18,660
+The vertical axis represents the player's or user's skill or ability.
+
+337
+00:12:18,660 --> 00:12:20,340
+As time progresses,
+
+338
+00:12:20,340 --> 00:12:22,420
+the user's skill or ability
+
+339
+00:12:22,420 --> 00:12:23,900
+should gradually increase.
+
+340
+00:12:23,900 --> 00:12:26,400
+If the curve suddenly changes like this,
+
+341
+00:12:26,400 --> 00:12:28,220
+it indicates that over time,
+
+342
+00:12:28,220 --> 00:12:30,520
+Users quickly mastered a large number of techniques
+
+343
+00:12:30,520 --> 00:12:32,300
+That suggests this game is too simple
+
+344
+00:12:32,300 --> 00:12:33,430
+There's no challenge
+
+345
+00:12:33,430 --> 00:12:36,470
+Or you set the goal to be very easy
+
+346
+00:12:36,470 --> 00:12:40,680
+We refer to the shaded area above as boring and monotonous
+
+347
+00:12:40,680 --> 00:12:43,769
+Another scenario is that over time
+
+348
+00:12:43,769 --> 00:12:45,949
+Your skills become very hard to improve further
+
+349
+00:12:45,949 --> 00:12:47,649
+Eventually, it seems like you hit a plateau
+
+350
+00:12:47,649 --> 00:12:49,729
+It's difficult to enhance your skills any further
+
+351
+00:12:49,729 --> 00:12:50,730
+We can consider
+
+352
+00:12:50,730 --> 00:12:53,370
+that this user or player is facing a challenge
+
+353
+00:12:53,370 --> 00:12:56,210
+so we refer to the yellow shaded area below
+
+354
+00:12:56,210 --> 00:12:58,100
+as difficulty
+
+355
+00:12:58,100 --> 00:12:59,260
+boredom is above
+
+356
+00:12:59,260 --> 00:13:00,280
+and difficulty is below
+
+357
+00:13:00,280 --> 00:13:04,780
+the middle channel is often referred to as the flow channel
+
+358
+00:13:04,780 --> 00:13:06,300
+If you are a game designer
+
+359
+00:13:06,300 --> 00:13:09,840
+you need to balance the user's skill growth and level progression
+
+360
+00:13:09,840 --> 00:13:12,100
+a gradually increasing difficulty curve
+
+361
+00:13:12,100 --> 00:13:15,240
+keeps the user's skill growth within the flow channel
+
+362
+00:13:15,240 --> 00:13:16,989
+don't let it appear suddenly
+
+363
+00:13:16,989 --> 00:13:17,989
+feeling bored
+
+364
+00:13:17,989 --> 00:13:20,029
+or suddenly finding it too challenging
+
+365
+00:13:20,029 --> 00:13:20,709
+making it impossible to continue
+
+366
+00:13:20,709 --> 00:13:22,030
+such a scenario
+
+367
+00:13:22,030 --> 00:13:25,210
+the book describes the flow channel in this way
+
+368
+00:13:25,210 --> 00:13:26,870
+at the beginning when beginners are learning
+
+369
+00:13:26,870 --> 00:13:27,910
+He might say
+
+370
+00:13:27,910 --> 00:13:28,990
+I hate this so much
+
+371
+00:13:28,990 --> 00:13:29,930
+things like that
+
+372
+00:13:29,930 --> 00:13:33,550
+He also divided his skills into a baseline and an excellence line
+
+373
+00:13:33,550 --> 00:13:35,450
+Between the baseline and the excellence line
+
+374
+00:13:35,450 --> 00:13:36,870
+The user might say
+
+375
+00:13:36,870 --> 00:13:40,450
+I can only complete basic tasks, and that’s not too bad
+
+376
+00:13:40,450 --> 00:13:43,060
+and I feel like I’m improving in this area
+
+377
+00:13:43,060 --> 00:13:45,280
+So when he moves beyond the excellence line
+
+378
+00:13:45,280 --> 00:13:46,740
+He might then say
+
+379
+00:13:46,740 --> 00:13:47,900
+Oh, I'm so awesome
+
+380
+00:13:47,900 --> 00:13:49,600
+I feel incredibly strong
+
+381
+00:13:49,600 --> 00:13:53,540
+This book elaborates on these two diagrams based on this figure
+
+382
+00:13:53,540 --> 00:13:57,240
+One is an explanation of why users typically dislike upgrading
+
+383
+00:13:57,240 --> 00:13:58,520
+For example, after upgrading software
+
+384
+00:13:58,520 --> 00:14:01,040
+They suddenly have a lot of new learning costs
+
+385
+00:14:01,040 --> 00:14:03,060
+Which leads to them not being able to learn it
+
+386
+00:14:03,060 --> 00:14:04,880
+And feeling like they can't do anything
+
+387
+00:14:04,880 --> 00:14:06,800
+This ability suddenly dropped again.
+
+388
+00:14:06,800 --> 00:14:09,280
+It makes them feel really bad.
+
+389
+00:14:09,280 --> 00:14:11,000
+So when upgrading the software,
+
+390
+00:14:11,000 --> 00:14:13,600
+we must take care of the old users.
+
+391
+00:14:13,600 --> 00:14:15,200
+We should ensure that after the upgrade,
+
+392
+00:14:15,200 --> 00:14:19,220
+the appearance is as logically consistent as possible with the pre-upgrade version.
+
+393
+00:14:19,220 --> 00:14:20,940
+This is something we, as developers,
+
+394
+00:14:20,940 --> 00:14:23,210
+can learn from this book.
+
+395
+00:14:23,210 --> 00:14:24,210
+There's another perspective.
+
+396
+00:14:24,210 --> 00:14:27,170
+Often, most people fail at the very beginning.
+
+397
+00:14:27,170 --> 00:14:28,830
+I have an intuitive guess about this.
+
+398
+00:14:28,830 --> 00:14:31,980
+It's that the source of users also follows the 80/20 rule.
+
+399
+00:14:31,980 --> 00:14:33,500
+What exactly is the 80/20 rule?
+
+400
+00:14:33,500 --> 00:14:36,020
+When applied here, it means that over time,
+
+401
+00:14:36,020 --> 00:14:38,290
+the user retention rate will gradually decline.
+
+402
+00:14:38,290 --> 00:14:41,450
+And the rate of decline is extremely fast at first,
+
+403
+00:14:41,450 --> 00:14:42,830
+but slows down significantly later on.
+
+404
+00:14:42,830 --> 00:14:45,579
+The shape of this curve looks very much like the 80/20 distribution.
+
+405
+00:14:45,579 --> 00:14:46,659
+The 80-20 distribution
+
+406
+00:14:46,659 --> 00:14:49,760
+which means in the first 20% of the time
+
+407
+00:14:49,760 --> 00:14:52,820
+80% of users have already dropped off
+
+408
+00:14:52,820 --> 00:14:55,440
+and during the remaining 80% of the time
+
+409
+00:14:55,440 --> 00:14:58,710
+it's the remaining 20% of users who are still using it
+
+410
+00:14:58,710 --> 00:15:00,350
+Including when you post a video
+
+411
+00:15:00,350 --> 00:15:03,560
+Check the video's completion rate curve in the backend.
+
+412
+00:15:03,560 --> 00:15:05,200
+and it also follows this rule
+
+413
+00:15:05,200 --> 00:15:07,200
+users might say it's too painful
+
+414
+00:15:07,200 --> 00:15:08,080
+It's not worth it
+
+415
+00:15:08,080 --> 00:15:11,400
+He will feel very uncomfortable at the beginning
+
+416
+00:15:11,400 --> 00:15:15,169
+But if some users get used to breaking this barrier
+
+417
+00:15:15,169 --> 00:15:17,629
+Then their skills will start to grow rapidly
+
+418
+00:15:17,629 --> 00:15:20,369
+So, this offers an insight for developers
+
+419
+00:15:20,369 --> 00:15:24,040
+Which is to make the onboarding and interactive prompts excellent
+
+420
+00:15:24,040 --> 00:15:25,240
+This is also crucial
+
+421
+00:15:25,240 --> 00:15:28,620
+It can help during the first 20% of the time
+
+422
+00:15:28,620 --> 00:15:30,709
+To benefit the 80% of users
+
+423
+00:15:30,709 --> 00:15:33,569
+This is the introduction to the part about the flow model.
+
+424
+00:15:33,569 --> 00:15:33,749
+Alright.
+
+425
+00:15:33,749 --> 00:15:34,749
+Next, let's move on to introduce
+
+426
+00:15:34,749 --> 00:15:38,580
+how the large magnet in the top right corner is set up.
+
+427
+00:15:38,580 --> 00:15:40,660
+What exactly is this vision?
+
+428
+00:15:40,660 --> 00:15:42,440
+The book gives an example of
+
+429
+00:15:42,440 --> 00:15:47,030
+if you are a staff member producing tripod products,
+
+430
+00:15:47,030 --> 00:15:50,150
+your users certainly wouldn't be thinking about
+
+431
+00:15:50,150 --> 00:15:51,880
+becoming tripod experts.
+
+432
+00:15:51,880 --> 00:15:52,600
+The user
+
+433
+00:15:52,600 --> 00:15:55,740
+The idea is to use a tripod to hold the camera.
+
+434
+00:15:55,740 --> 00:15:59,490
+to create this even more spectacular video masterpiece
+
+435
+00:15:59,490 --> 00:16:01,990
+Furthermore, we can say
+
+436
+00:16:01,990 --> 00:16:05,110
+people don't want to excel in using tools
+
+437
+00:16:05,110 --> 00:16:07,080
+they want to excel in the results
+
+438
+00:16:07,080 --> 00:16:10,360
+that the tools help them achieve
+
+439
+00:16:10,360 --> 00:16:11,460
+That's the situation
+
+440
+00:16:11,460 --> 00:16:13,140
+the axiom behind this
+
+441
+00:16:13,140 --> 00:16:15,010
+Everyone yearns for success.
+
+442
+00:16:15,010 --> 00:16:18,470
+So, we can draw circles to help us visualize.
+
+443
+00:16:18,470 --> 00:16:21,910
+These nested circles can aid our thinking.
+
+444
+00:16:21,910 --> 00:16:24,390
+For example, there's a product called Photoshop.
+
+445
+00:16:24,390 --> 00:16:26,530
+Another product is called Adobe Lightroom.
+
+446
+00:16:26,530 --> 00:16:29,250
+And there's another one like this.
+
+447
+00:16:29,250 --> 00:16:33,040
+Their features all revolve around photo editing.
+
+448
+00:16:33,040 --> 00:16:34,640
+Expanding the circle further,
+
+449
+00:16:34,640 --> 00:16:37,480
+the users are engaged in photo editing.
+
+450
+00:16:37,480 --> 00:16:40,969
+He is in a photography setting.
+
+451
+00:16:40,969 --> 00:16:44,240
+Working in the field of videography.
+
+452
+00:16:44,240 --> 00:16:46,140
+Let's broaden this scope a bit.
+
+453
+00:16:46,140 --> 00:16:46,980
+And we will find that
+
+454
+00:16:46,980 --> 00:16:50,920
+he is working in the realm of art.
+
+455
+00:16:50,920 --> 00:16:52,720
+From this, we can infer that
+
+456
+00:16:52,720 --> 00:16:59,020
+users who excel with Photoshop, Lightroom, and similar products
+
+457
+00:16:59,020 --> 00:17:01,290
+all have artistic aspirations.
+
+458
+00:17:01,290 --> 00:17:03,410
+So, the grand vision of the magnet in the upper right corner
+
+459
+00:17:03,410 --> 00:17:06,319
+It should be set so that the user aspires to become an artist.
+
+460
+00:17:06,319 --> 00:17:09,280
+or the user aspiring to work in the field of art
+
+461
+00:17:09,280 --> 00:17:11,869
+or the user aspiring to become a director
+
+462
+00:17:11,869 --> 00:17:13,270
+and so on
+
+463
+00:17:13,270 --> 00:17:15,589
+It should be a very appealing
+
+464
+00:17:15,589 --> 00:17:18,770
+and irresistible major goal
+
+465
+00:17:18,890 --> 00:17:22,849
+As the user progresses step by step toward this major goal
+
+466
+00:17:22,849 --> 00:17:24,829
+they complete themselves
+
+467
+00:17:24,829 --> 00:17:26,420
+they realize their potential
+
+468
+00:17:26,420 --> 00:17:29,960
+He might recommend your product to his friends
+
+469
+00:17:29,960 --> 00:17:33,020
+At the same time, you can also place some of these grand vision-related
+
+470
+00:17:33,020 --> 00:17:36,610
+application scenarios on the launch screen of your app.
+
+471
+00:17:36,610 --> 00:17:38,490
+For example, the launch screen of Photoshop
+
+472
+00:17:38,490 --> 00:17:40,410
+often features artistic
+
+473
+00:17:40,410 --> 00:17:43,730
+photographic images and the like.
+
+474
+00:17:43,730 --> 00:17:46,199
+Users of the software will see these grand visions.
+
+475
+00:17:46,199 --> 00:17:48,859
+These users of the software
+
+476
+00:17:48,859 --> 00:17:50,899
+will get to see these grand visions.
+
+477
+00:17:50,899 --> 00:17:52,350
+it builds confidence
+
+478
+00:17:52,350 --> 00:17:54,210
+the reason why
+
+479
+00:17:54,210 --> 00:17:56,950
+you shouldn't just place this one large magnet
+
+480
+00:17:56,950 --> 00:17:59,590
+and also along the growth path in the upper right corner
+
+481
+00:17:59,590 --> 00:18:01,820
+place many smaller magnets step by step
+
+482
+00:18:01,820 --> 00:18:04,620
+because there are often such disturbances
+
+483
+00:18:04,620 --> 00:18:07,660
+if you only place one grand large magnet
+
+484
+00:18:07,660 --> 00:18:09,940
+users would have to grope their way forward on their own
+
+485
+00:18:09,940 --> 00:18:11,380
+the attraction isn't strong enough
+
+486
+00:18:11,380 --> 00:18:14,140
+You need to sprinkle a little bit of guidance throughout the process.
+
+487
+00:18:14,140 --> 00:18:15,740
+These small hints are there to
+
+488
+00:18:15,740 --> 00:18:18,000
+Tell the user what to do at this point.
+
+489
+00:18:18,000 --> 00:18:19,440
+And what to do next.
+
+490
+00:18:19,440 --> 00:18:21,160
+Next, I recommend you consider how to proceed.
+
+491
+00:18:21,160 --> 00:18:23,900
+This way, the user can grow more easily.
+
+492
+00:18:23,900 --> 00:18:26,740
+For example, in some software tools,
+
+493
+00:18:26,740 --> 00:18:30,880
+It might check the complexity of your current stage.
+
+494
+00:18:30,880 --> 00:18:31,900
+Right now, you have nothing at all.
+
+495
+00:18:31,900 --> 00:18:34,520
+The prompts it gives are quite basic.
+
+496
+00:18:34,520 --> 00:18:36,880
+But as your content becomes more complex,
+
+497
+00:18:36,880 --> 00:18:38,840
+it starts to provide more advanced suggestions.
+
+498
+00:18:38,840 --> 00:18:41,909
+Gradually guiding you to become more proficient.
+
+499
+00:18:41,909 --> 00:18:44,969
+This is about how to set user visions for your product.
+
+500
+00:18:44,969 --> 00:18:47,149
+Set the content of user vision
+
+501
+00:18:47,149 --> 00:18:49,309
+Next, we need to look at how to avoid these off-center magnets.
+
+502
+00:18:49,309 --> 00:18:52,960
+In other words, how to avoid distractions.
+
+503
+00:18:54,760 --> 00:18:56,280
+What exactly is interference?
+
+504
+00:18:56,280 --> 00:18:59,460
+That is, when users are using the software we have developed,
+
+505
+00:18:59,460 --> 00:19:02,300
+they may need to spend time and memory,
+
+506
+00:19:02,300 --> 00:19:05,279
+and various kinds of attention to think about
+
+507
+00:19:05,279 --> 00:19:06,239
+how to use this feature,
+
+508
+00:19:06,239 --> 00:19:07,199
+how to use that feature.
+
+509
+00:19:07,199 --> 00:19:11,300
+These cognitive resources in their brains are very precious.
+
+510
+00:19:11,300 --> 00:19:12,640
+The book mentions
+
+511
+00:19:12,640 --> 00:19:15,860
+we should try to save the user's brainpower.
+
+512
+00:19:15,860 --> 00:19:16,900
+This cognitive resource
+
+513
+00:19:16,900 --> 00:19:19,520
+We can't afford any leakage of resources
+
+514
+00:19:19,520 --> 00:19:21,020
+Sometimes there's a scenario like this
+
+515
+00:19:21,020 --> 00:19:22,960
+We might assume that users see
+
+516
+00:19:22,960 --> 00:19:25,940
+The settings in our file interface are very comprehensive.
+
+517
+00:19:25,940 --> 00:19:29,880
+We would think users would feel incredibly powerful
+
+518
+00:19:29,880 --> 00:19:31,820
+That they have a great deal of freedom
+
+519
+00:19:31,820 --> 00:19:33,920
+You have a high degree of maneuverability in your own space.
+
+520
+00:19:33,920 --> 00:19:36,620
+However, in reality, users see a multitude of operations
+
+521
+00:19:36,620 --> 00:19:39,040
+When it comes to switches and various buttons,
+
+522
+00:19:39,040 --> 00:19:40,940
+they might feel overwhelmed,
+
+523
+00:19:40,940 --> 00:19:42,320
+as if they're drowning in water.
+
+524
+00:19:42,320 --> 00:19:46,760
+This can create a psychological learning burden for users,
+
+525
+00:19:46,760 --> 00:19:49,020
+which in turn hinders their skill improvement.
+
+526
+00:19:49,020 --> 00:19:51,780
+After a while, they might not want to use the software anymore.
+
+527
+00:19:51,780 --> 00:19:55,880
+Their skills will then decline over time as they forget.
+
+528
+00:19:56,280 --> 00:19:58,880
+So, I've come up with four solutions to address this issue.
+
+529
+00:19:58,880 --> 00:20:02,190
+One is to make the design as intuitive as possible.
+
+530
+00:20:02,190 --> 00:20:05,950
+This way, users don't need to figure out what the function does.
+
+531
+00:20:05,950 --> 00:20:08,430
+They can see at a glance what the function is for.
+
+532
+00:20:08,430 --> 00:20:12,170
+This includes the left-click drag, which is a widely recognized selection operation.
+
+533
+00:20:12,170 --> 00:20:14,520
+Look, the user can just give it a try with their hand.
+
+534
+00:20:14,520 --> 00:20:16,920
+They learn as they go, figuring it out along the way.
+
+535
+00:20:16,920 --> 00:20:17,920
+A 4U solution
+
+536
+00:20:17,920 --> 00:20:20,750
+It's about providing all the settings options and configuration buttons
+
+537
+00:20:20,750 --> 00:20:23,530
+to make the best default choices.
+
+538
+00:20:23,530 --> 00:20:26,870
+minimizing the need for users to make adjustments after installing the software.
+
+539
+00:20:26,870 --> 00:20:28,350
+It needs to be adjusted separately.
+
+540
+00:20:28,350 --> 00:20:31,740
+The third option is information hiding.
+
+541
+00:20:31,740 --> 00:20:35,850
+Just fold up the collapsible settings panels
+
+542
+00:20:35,850 --> 00:20:37,730
+They expand when the user needs them.
+
+543
+00:20:37,730 --> 00:20:39,770
+For example, this display interface.
+
+544
+00:20:39,770 --> 00:20:41,770
+The control panel is initially collapsed.
+
+545
+00:20:41,770 --> 00:20:43,760
+Click to reveal more content.
+
+546
+00:20:43,760 --> 00:20:45,240
+Click again to collapse it.
+
+547
+00:20:45,240 --> 00:20:46,880
+Click once more to view other content.
+
+548
+00:20:46,880 --> 00:20:47,680
+There's another method
+
+549
+00:20:47,680 --> 00:20:48,380
+It can't be folded
+
+550
+00:20:48,380 --> 00:20:50,640
+Using information sorting also works
+
+551
+00:20:50,640 --> 00:20:53,680
+For example, on the left side of this interface, there are various sections
+
+552
+00:20:53,680 --> 00:20:57,150
+The placement of these sections is also important
+
+553
+00:20:57,150 --> 00:20:58,980
+The more frequently used settings
+
+554
+00:20:58,980 --> 00:21:00,580
+Should be placed at the top
+
+555
+00:21:00,580 --> 00:21:01,760
+The less frequently used ones
+
+556
+00:21:01,760 --> 00:21:03,140
+Should be placed at the bottom
+
+557
+00:21:03,140 --> 00:21:06,170
+These are the four solutions I came up with
+
+558
+00:21:06,170 --> 00:21:06,850
+Overall
+
+559
+00:21:06,850 --> 00:21:08,090
+This section is about
+
+560
+00:21:08,090 --> 00:21:11,310
+How to focus users' attention on
+
+561
+00:21:11,310 --> 00:21:13,590
+What they consider important
+
+562
+00:21:13,590 --> 00:21:18,080
+However, the underlying issue is the study of human cognition
+
+563
+00:21:18,080 --> 00:21:20,560
+What typically captures a person's attention and focus?
+
+564
+00:21:20,560 --> 00:21:22,080
+Let's break it down
+
+565
+00:21:22,080 --> 00:21:23,080
+The book mentions
+
+566
+00:21:23,080 --> 00:21:26,219
+The human brain focuses on things that trigger emotions.
+
+567
+00:21:26,219 --> 00:21:29,940
+This makes people usually pay attention to others' facial expressions
+
+568
+00:21:29,940 --> 00:21:31,460
+Including those of small animals
+
+569
+00:21:31,460 --> 00:21:34,820
+And the brain typically focuses on more unusual thoughts
+
+570
+00:21:34,820 --> 00:21:36,620
+Or unexpected events
+
+571
+00:21:36,620 --> 00:21:38,700
+Also, the brain is naturally curious
+
+572
+00:21:38,700 --> 00:21:41,400
+It wonders what will happen next
+
+573
+00:21:41,400 --> 00:21:43,480
+Another thing is that the brain typically focuses on
+
+574
+00:21:43,480 --> 00:21:45,060
+Things that are threatening
+
+575
+00:21:45,060 --> 00:21:49,450
+For example, when you're explaining a design pattern to a classmate
+
+576
+00:21:49,450 --> 00:21:50,750
+Try not to overuse it
+
+577
+00:21:50,750 --> 00:21:52,690
+When discussing the consequences of overuse
+
+578
+00:21:52,690 --> 00:21:55,210
+You can send them a scary image
+
+579
+00:21:55,210 --> 00:21:58,909
+This will make a lasting impression on their brain
+
+580
+00:21:58,909 --> 00:22:02,269
+The brain also prefers learning by doing
+
+581
+00:22:02,269 --> 00:22:04,730
+Rather than rote memorization
+
+582
+00:22:04,730 --> 00:22:07,730
+Because memorization is very energy-consuming
+
+583
+00:22:07,730 --> 00:22:09,940
+Based on this, we can infer that
+
+584
+00:22:09,940 --> 00:22:14,180
+We need to make the software documentation as concise as possible
+
+585
+00:22:14,180 --> 00:22:16,690
+And it's best to have a search function
+
+586
+00:22:16,690 --> 00:22:18,130
+With a search function
+
+587
+00:22:18,130 --> 00:22:21,930
+Users can directly ask about what they need
+
+588
+00:22:21,930 --> 00:22:23,920
+Without having to read through everything
+
+589
+00:22:23,920 --> 00:22:27,740
+So that's how we can save users' attention
+
+590
+00:22:27,740 --> 00:22:32,200
+The book's logic is centered around user-centric thinking
+
+591
+00:22:32,200 --> 00:22:33,800
+How to design products
+
+592
+00:22:33,800 --> 00:22:35,880
+That's the entire content of the book
+
+593
+00:22:35,880 --> 00:22:37,960
+I've reorganized it
+
+594
+00:22:37,960 --> 00:22:39,600
+If you read it again yourself
+
+595
+00:22:39,600 --> 00:22:42,750
+Your summary might be different from mine
+
+596
+00:22:42,750 --> 00:22:44,390
+Because your background knowledge
+
+597
+00:22:44,390 --> 00:22:46,950
+It might also differ from my background knowledge.
+
+598
+00:22:46,950 --> 00:22:48,290
+So, this video series
+
+599
+00:22:48,290 --> 00:22:51,520
+I'm planning to start a series on book sharing and reflections.
+
+600
+00:22:51,520 --> 00:22:53,120
+The content in the lower left corner
+
+601
+00:22:53,120 --> 00:22:57,780
+Is the user-centric thinking plus the summary and reflection of this book
+
+602
+00:22:57,780 --> 00:22:59,160
+There are other parts as well
+
+603
+00:22:59,160 --> 00:23:03,200
+For example, this section is about a classic in the computer world
+
+604
+00:23:03,200 --> 00:23:06,100
+Called 'Hackers and Painters'—a reading and reflection
+
+605
+00:23:06,100 --> 00:23:08,340
+This section is where I'm exploring
+
+606
+00:23:08,340 --> 00:23:11,500
+The connection between object-oriented programming and metaphysics
+
+607
+00:23:11,500 --> 00:23:14,280
+And the section below is about my insights while developing software
+
+608
+00:23:14,280 --> 00:23:14,880
+In the future
+
+609
+00:23:14,880 --> 00:23:17,120
+There might be more in this series
+
+610
+00:23:17,120 --> 00:23:18,300
+interspersed with sharing
+
+611
+00:23:18,300 --> 00:23:20,000
+If you find this series useful
+
+612
+00:23:20,000 --> 00:23:21,240
+You can give a follow.
+
+613
+00:23:21,240 --> 00:23:22,640
+Thanks for watching
+

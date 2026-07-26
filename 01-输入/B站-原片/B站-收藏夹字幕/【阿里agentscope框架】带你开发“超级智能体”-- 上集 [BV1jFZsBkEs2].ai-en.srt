@@ -1,0 +1,2820 @@
+1
+00:00:00,100 --> 00:00:00,960
+Hello everyone
+
+2
+00:00:00,960 --> 00:00:04,900
+Today we are going to share an open-source agent development framework
+
+3
+00:00:04,900 --> 00:00:06,250
+AgentScope
+
+4
+00:00:06,250 --> 00:00:08,029
+It is open-sourced by Alibaba Cloud.
+
+5
+00:00:08,029 --> 00:00:11,010
+
+
+6
+00:00:11,010 --> 00:00:13,590
+Its core technology is
+
+7
+00:00:13,590 --> 00:00:17,310
+The core is the reactor pattern.
+
+8
+00:00:17,310 --> 00:00:20,070
+reasoning acting is about selecting tools
+
+9
+00:00:20,070 --> 00:00:23,000
+a cyclic process of selecting and invoking tools
+
+10
+00:00:23,000 --> 00:00:24,920
+it encapsulates this process
+
+11
+00:00:24,920 --> 00:00:29,910
+Then you can attach many, many tools to it
+
+12
+00:00:29,910 --> 00:00:32,770
+In fact, it corresponds to the function call at the underlying level of the large model.
+
+13
+00:00:32,770 --> 00:00:34,070
+mount many tools
+
+14
+00:00:34,070 --> 00:00:39,750
+Then, add some descriptions for the scale skills
+
+15
+00:00:39,750 --> 00:00:42,250
+combine all of these together
+
+16
+00:00:42,250 --> 00:00:45,270
+The large model will then autonomously select and load skills
+
+17
+00:00:45,270 --> 00:00:47,780
+and then select tools to invoke
+
+18
+00:00:47,780 --> 00:00:50,340
+complete some very complex long-chain tasks
+
+19
+00:00:51,420 --> 00:00:52,260
+So I created
+
+20
+00:00:52,260 --> 00:00:56,099
+encapsulated a simple chat assistant with Eden Scope
+
+21
+00:00:56,379 --> 00:00:58,039
+can incorporate concepts like scale
+
+22
+00:00:58,039 --> 00:00:58,939
+Ah two ah
+
+23
+00:00:58,939 --> 00:01:03,419
+The concept of MCP is reflected here.
+
+24
+00:01:03,809 --> 00:01:07,830
+in interscope basically takes all these into consideration
+
+25
+00:01:07,990 --> 00:01:11,390
+And, uh, the effect is this kind of interface
+
+26
+00:01:11,390 --> 00:01:14,240
+Let me show you
+
+27
+00:01:19,600 --> 00:01:21,760
+Yes, it's just a chat box.
+
+28
+00:01:21,760 --> 00:01:23,000
+Then you can chat
+
+29
+00:01:23,000 --> 00:01:25,450
+can also invoke skills
+
+30
+00:01:25,610 --> 00:01:30,230
+The entire frontend page is written by the large model coder itself.
+
+31
+00:01:30,230 --> 00:01:35,130
+The backend code was handwritten by me.
+
+32
+00:01:35,130 --> 00:01:39,980
+And then, regarding the source code of this project,
+
+33
+00:01:39,980 --> 00:01:41,780
+We will share it today
+
+34
+00:01:41,780 --> 00:01:46,750
+Now let me briefly introduce the AgentScope framework
+
+35
+00:01:46,750 --> 00:01:50,370
+You can open the framework at acent scope dot IO
+
+36
+00:01:51,410 --> 00:01:54,770
+Then, how should I put it, Alibaba Cloud has open-sourced this framework
+
+37
+00:01:54,770 --> 00:01:58,190
+It is positioned as the counterpart to overseas solutions like LangGraph.
+
+38
+00:01:58,190 --> 00:02:02,000
+Then you can simply
+
+39
+00:02:02,000 --> 00:02:05,800
+Simply install this package and you're good to go
+
+40
+00:02:05,800 --> 00:02:09,030
+Java also has its own package.
+
+41
+00:02:09,530 --> 00:02:13,970
+Next, here are some of its features
+
+42
+00:02:13,970 --> 00:02:18,950
+that is to say, it encapsulates this React Agent reasoning-acting pattern
+
+43
+00:02:18,950 --> 00:02:21,190
+Everything is already encapsulated for you to write
+
+44
+00:02:21,190 --> 00:02:24,730
+You just need to register some hooks
+
+45
+00:02:24,730 --> 00:02:27,430
+for example, hooks before answering or after replying
+
+46
+00:02:27,430 --> 00:02:29,890
+You can add some hooks
+
+47
+00:02:29,890 --> 00:02:34,530
+Then there's the concept of tools with a 'to keep it' notion
+
+48
+00:02:34,530 --> 00:02:36,880
+You can register skills in it
+
+49
+00:02:36,880 --> 00:02:38,680
+point to the directory of a certain skill
+
+50
+00:02:38,680 --> 00:02:41,240
+allow it to load incrementally
+
+51
+00:02:41,240 --> 00:02:44,850
+then some local tools
+
+52
+00:02:44,850 --> 00:02:46,930
+
+
+53
+00:02:46,930 --> 00:02:48,990
+read and write to the file system
+
+54
+00:02:49,230 --> 00:02:52,310
+It can also mount some MCP graphs.
+
+55
+00:02:52,310 --> 00:02:56,360
+It is possible to call remote MCP.
+
+56
+00:02:56,360 --> 00:02:58,060
+Multi-agent is also available
+
+57
+00:02:58,060 --> 00:02:59,420
+but it's rarely used
+
+58
+00:02:59,420 --> 00:03:01,840
+evaluation and fine-tuning
+
+59
+00:03:01,840 --> 00:03:03,080
+conduct reinforcement learning
+
+60
+00:03:03,080 --> 00:03:06,330
+It actually has dedicated features for agent scenarios.
+
+61
+00:03:06,330 --> 00:03:08,870
+from time is to start it as a server
+
+62
+00:03:08,870 --> 00:03:10,810
+the react agent you wrote earlier
+
+63
+00:03:10,810 --> 00:03:14,930
+It can be relatively simple to set it up to listen for services.
+
+64
+00:03:14,930 --> 00:03:17,330
+In fact, the runtime also has sandboxes
+
+65
+00:03:17,330 --> 00:03:20,170
+can help you launch some browser sandboxes
+
+66
+00:03:20,170 --> 00:03:20,530
+code
+
+67
+00:03:20,530 --> 00:03:25,080
+The sandbox is encapsulated within this wrong time module.
+
+68
+00:03:25,320 --> 00:03:28,700
+We are not using the sandbox here for now.
+
+69
+00:03:28,700 --> 00:03:33,000
+Then studio is a backend management page
+
+70
+00:03:33,000 --> 00:03:38,620
+For debugging purposes, the entire program can be monitored by OpenTelemetry
+
+71
+00:03:38,620 --> 00:03:42,480
+The trace link monitoring has already been instrumented with metrics.
+
+72
+00:03:42,480 --> 00:03:43,970
+very convenient
+
+73
+00:03:44,250 --> 00:03:46,110
+Then, if you want to check it out,
+
+74
+00:03:46,110 --> 00:03:50,200
+Basically, there are these two approaches.
+
+75
+00:03:50,200 --> 00:03:51,420
+
+
+76
+00:03:51,420 --> 00:03:52,940
+and the Java version as well
+
+77
+00:03:52,940 --> 00:03:56,400
+
+
+78
+00:03:56,400 --> 00:03:57,940
+
+
+79
+00:03:57,940 --> 00:04:02,340
+
+
+80
+00:04:02,770 --> 00:04:04,250
+create react agent
+
+81
+00:04:04,250 --> 00:04:07,070
+Then have a conversation, right?
+
+82
+00:04:07,070 --> 00:04:07,790
+dialogue
+
+83
+00:04:07,790 --> 00:04:09,090
+Then how to use the model
+
+84
+00:04:09,090 --> 00:04:10,950
+how to use tools
+
+85
+00:04:11,150 --> 00:04:12,650
+and some hooks
+
+86
+00:04:12,650 --> 00:04:14,310
+including your short-term memory
+
+87
+00:04:14,310 --> 00:04:16,709
+how to use the units of long-term memory
+
+88
+00:04:16,709 --> 00:04:21,950
+and then how to expose this agent through different protocols
+
+89
+00:04:21,950 --> 00:04:24,270
+for example, exposing it through the A to A protocol
+
+90
+00:04:24,270 --> 00:04:27,759
+or expose the data using OpenAI's chat protocol
+
+91
+00:04:27,759 --> 00:04:32,990
+All these adaptation layers are included in this project.
+
+92
+00:04:32,990 --> 00:04:34,390
+such as scale and so on
+
+93
+00:04:34,390 --> 00:04:36,690
+MCP has already been encapsulated.
+
+94
+00:04:36,690 --> 00:04:37,950
+The principle is actually quite simple
+
+95
+00:04:37,950 --> 00:04:39,390
+I'll demonstrate the process later
+
+96
+00:04:39,390 --> 00:04:41,270
+You can feel it
+
+97
+00:04:44,140 --> 00:04:44,640
+Okay
+
+98
+00:04:44,640 --> 00:04:46,810
+Then let's take a look at the architecture.
+
+99
+00:04:46,810 --> 00:04:48,410
+Just now we saw this front-end page
+
+100
+00:04:48,410 --> 00:04:49,770
+Its architecture is as follows
+
+101
+00:04:49,770 --> 00:04:51,930
+The frontend is written by a large model
+
+102
+00:04:51,930 --> 00:04:54,930
+a React JS frontend single-page application
+
+103
+00:04:55,250 --> 00:04:58,540
+Then during the conversation
+
+104
+00:04:58,540 --> 00:05:00,860
+it sends a GET request
+
+105
+00:05:00,860 --> 00:05:03,770
+Then the server side is FastAPI
+
+106
+00:05:03,770 --> 00:05:04,510
+Uh
+
+107
+00:05:04,510 --> 00:05:08,770
+it would use the SSE method to stream the results
+
+108
+00:05:08,770 --> 00:05:11,670
+The frontend continuously receives the streamed push
+
+109
+00:05:11,670 --> 00:05:13,564
+render and refresh the page
+
+110
+00:05:14,140 --> 00:05:16,600
+Achieve this refreshing effect
+
+111
+00:05:16,600 --> 00:05:20,360
+Then in the backend FastAPI, this interface dialogue
+
+112
+00:05:20,360 --> 00:05:23,600
+the underlying interface is written using react agent
+
+113
+00:05:23,600 --> 00:05:27,820
+So some skills called agent scale were attached to it
+
+114
+00:05:27,820 --> 00:05:29,740
+we have placed on this disk
+
+115
+00:05:29,740 --> 00:05:33,280
+Three scales are placed under the second agent scale directory
+
+116
+00:05:33,280 --> 00:05:35,420
+a skill called find scale
+
+117
+00:05:35,420 --> 00:05:37,420
+
+
+118
+00:05:37,420 --> 00:05:41,850
+There is also a skill for processing Excel files
+
+119
+00:05:41,850 --> 00:05:45,969
+These skills are highly exemplary.
+
+120
+00:05:45,969 --> 00:05:47,449
+especially this final skill
+
+121
+00:05:47,449 --> 00:05:48,909
+Actually, it's a universal skill.
+
+122
+00:05:48,909 --> 00:05:51,829
+This skill is specifically designed for installing skills.
+
+123
+00:05:51,829 --> 00:05:54,410
+This is also a very popular skill
+
+124
+00:05:54,410 --> 00:05:58,110
+Everyone can download such skills online
+
+125
+00:05:59,100 --> 00:06:00,780
+Okay, back to the readme here
+
+126
+00:06:01,900 --> 00:06:05,580
+In short, I have added some skills to the project.
+
+127
+00:06:06,309 --> 00:06:08,989
+Then, during the execution process of scale
+
+128
+00:06:08,989 --> 00:06:13,610
+In addition to running some of its built-in reading functions
+
+129
+00:06:13,610 --> 00:06:15,610
+
+
+130
+00:06:15,610 --> 00:06:17,390
+It may also have some built-in code
+
+131
+00:06:17,390 --> 00:06:20,990
+
+
+132
+00:06:21,150 --> 00:06:23,970
+or it relies on some other tools
+
+133
+00:06:23,970 --> 00:06:26,890
+Because skills are essentially a procedural description
+
+134
+00:06:26,890 --> 00:06:30,879
+Ultimately, some atomic capabilities still rely on tools.
+
+135
+00:06:30,879 --> 00:06:32,799
+a local file system tool
+
+136
+00:06:32,799 --> 00:06:34,359
+shell-executing tool
+
+137
+00:06:34,359 --> 00:06:38,670
+and also some remote to
+
+138
+00:06:38,670 --> 00:06:41,410
+for example, remote sandboxes based on the MCP protocol
+
+139
+00:06:41,410 --> 00:06:43,450
+browser, etc.
+
+140
+00:06:44,460 --> 00:06:47,140
+then these skills can
+
+141
+00:06:47,140 --> 00:06:49,500
+In short, it's the large model that makes its own choices.
+
+142
+00:06:49,500 --> 00:06:50,980
+He saw some skills
+
+143
+00:06:50,980 --> 00:06:54,780
+can use the file system to load these scale file descriptions
+
+144
+00:06:54,780 --> 00:06:58,810
+then call some atomic tools based on the scale description
+
+145
+00:06:58,810 --> 00:07:00,050
+ultimately complete the task
+
+146
+00:07:00,050 --> 00:07:03,050
+In short, this entire process is all about React
+
+147
+00:07:03,050 --> 00:07:07,340
+It's essentially an infinite loop of reasoning-acting function calls.
+
+148
+00:07:07,340 --> 00:07:10,440
+Then the short-term memory of the conversation is stored on disk
+
+149
+00:07:10,440 --> 00:07:13,000
+a JSON session
+
+150
+00:07:13,920 --> 00:07:17,980
+Then the model invoked Alibaba Cloud's large model platform
+
+151
+00:07:17,980 --> 00:07:20,510
+the Bailian API
+
+152
+00:07:20,510 --> 00:07:22,290
+We are using Chain3's Max
+
+153
+00:07:22,290 --> 00:07:25,430
+is the latest model in the Qianwen series
+
+154
+00:07:25,430 --> 00:07:29,130
+It's quite intelligent when it comes to functioning as an agent.
+
+155
+00:07:29,130 --> 00:07:31,450
+And flash will also be used
+
+156
+00:07:31,450 --> 00:07:35,780
+Flash is used in a search tool
+
+157
+00:07:36,700 --> 00:07:39,020
+Then let's just chat casually
+
+158
+00:07:39,020 --> 00:07:43,090
+Here, for example, let's take this for me
+
+159
+00:07:45,070 --> 00:07:46,890
+Let's demonstrate the first one first
+
+160
+00:07:46,890 --> 00:07:48,430
+Let's search for the weather.
+
+161
+00:07:48,430 --> 00:07:51,230
+The weather in Qingdao today
+
+162
+00:07:53,460 --> 00:07:57,350
+Ah, this answer came back directly, right?
+
+163
+00:07:57,350 --> 00:08:01,510
+Then it knows today is February 15, 2026
+
+164
+00:08:01,510 --> 00:08:03,170
+then what's the weather forecast
+
+165
+00:08:03,170 --> 00:08:05,400
+Then it returned a piece of text
+
+166
+00:08:05,400 --> 00:08:06,980
+There's also a to call, right?
+
+167
+00:08:06,980 --> 00:08:10,200
+There is a tool call that I encapsulated into this small tab.
+
+168
+00:08:10,200 --> 00:08:12,020
+he invoked a search image
+
+169
+00:08:12,020 --> 00:08:14,560
+This tool actually doesn't exist
+
+170
+00:08:14,560 --> 00:08:15,600
+This is a hallucination of the model
+
+171
+00:08:15,600 --> 00:08:20,060
+so the AgentScope framework cannot find such a function
+
+172
+00:08:20,060 --> 00:08:22,980
+so it gives such a result to the large model
+
+173
+00:08:22,980 --> 00:08:25,860
+In the end, that's the reply we got.
+
+174
+00:08:25,860 --> 00:08:31,100
+The data source behind this actually called the chain3's max API
+
+175
+00:08:31,100 --> 00:08:33,799
+and it has an option called search
+
+176
+00:08:33,799 --> 00:08:36,679
+It has built-in internet search capabilities
+
+177
+00:08:36,679 --> 00:08:39,120
+This is quite common in large model APIs.
+
+178
+00:08:39,480 --> 00:08:42,039
+So when you send a message to the large model
+
+179
+00:08:42,039 --> 00:08:44,440
+It is in the remote API of the large model
+
+180
+00:08:44,440 --> 00:08:46,140
+It will first perform a search
+
+181
+00:08:46,140 --> 00:08:49,700
+then feed the search results as RAG to the large model
+
+182
+00:08:49,700 --> 00:08:51,230
+Then the large model starts to respond
+
+183
+00:08:51,230 --> 00:08:52,150
+the results are obtained
+
+184
+00:08:52,150 --> 00:08:54,550
+It directly provides answers with some real-time information.
+
+185
+00:08:54,550 --> 00:08:55,750
+This is very common
+
+186
+00:08:55,750 --> 00:08:58,829
+The corresponding latency in such cases is relatively low.
+
+187
+00:08:59,389 --> 00:09:02,769
+There is another way where I actively register a to
+
+188
+00:09:02,769 --> 00:09:04,069
+called the search tool
+
+189
+00:09:04,069 --> 00:09:10,670
+For example, search for photos of Qingdao's May Fourth Square
+
+190
+00:09:10,670 --> 00:09:13,270
+When I ask in this way
+
+191
+00:09:13,270 --> 00:09:17,490
+the large language model will generate a web search tool call
+
+192
+00:09:17,490 --> 00:09:18,870
+then generated a query
+
+193
+00:09:18,870 --> 00:09:20,265
+like this
+
+194
+00:09:20,319 --> 00:09:22,359
+Then we click on this small tab
+
+195
+00:09:22,359 --> 00:09:26,240
+you can see it's getting the tool's response in real-time
+
+196
+00:09:26,240 --> 00:09:29,250
+This tool has actually removed the 'qianwan'
+
+197
+00:09:29,250 --> 00:09:31,030
+It should be flash uh
+
+198
+00:09:31,030 --> 00:09:32,670
+activated the search function
+
+199
+00:09:32,670 --> 00:09:36,569
+so the previous flash will lose and return some results
+
+200
+00:09:36,569 --> 00:09:40,049
+In the search results returned by the cut-in flash
+
+201
+00:09:40,049 --> 00:09:43,040
+there is an image tag
+
+202
+00:09:43,040 --> 00:09:44,620
+an image, right?
+
+203
+00:09:44,620 --> 00:09:49,070
+Then this image, uh, when the web service responds to us
+
+204
+00:09:49,070 --> 00:09:50,530
+when the web service responds to us
+
+205
+00:09:50,530 --> 00:09:53,560
+Then the large model will further proceed to
+
+206
+00:09:53,560 --> 00:09:55,000
+react reasoning acting, right
+
+207
+00:09:55,000 --> 00:09:57,620
+He will further decide how to respond
+
+208
+00:09:57,620 --> 00:09:59,500
+Then it will resume the main text
+
+209
+00:09:59,500 --> 00:10:01,990
+the tool invocation is completed
+
+210
+00:10:02,230 --> 00:10:04,130
+and rendered this image
+
+211
+00:10:04,130 --> 00:10:06,110
+There is an issue with the style of this image.
+
+212
+00:10:06,110 --> 00:10:08,329
+He rendered it beyond the boundary.
+
+213
+00:10:08,329 --> 00:10:10,089
+the link to the image was retrieved again
+
+214
+00:10:10,089 --> 00:10:11,689
+and then rendered it out
+
+215
+00:10:11,689 --> 00:10:15,170
+This is calling a search tool
+
+216
+00:10:15,170 --> 00:10:17,370
+Next, we can also invoke the skills
+
+217
+00:10:17,370 --> 00:10:19,410
+We also simulated the skill invocation
+
+218
+00:10:19,410 --> 00:10:21,110
+for example, this cloud code
+
+219
+00:10:21,110 --> 00:10:24,800
+What, you have a fishing method called the slash fishing method?
+
+220
+00:10:24,800 --> 00:10:26,000
+you directly wake it up
+
+221
+00:10:26,000 --> 00:10:29,100
+will fetch from the server to see which skills are supported
+
+222
+00:10:29,100 --> 00:10:32,200
+These skills are essentially our server-side interfaces
+
+223
+00:10:32,200 --> 00:10:34,120
+will go to the disk's scale directory
+
+224
+00:10:34,120 --> 00:10:38,310
+to load these skill's scale md
+
+225
+00:10:38,310 --> 00:10:41,630
+find the name and description in the description
+
+226
+00:10:41,630 --> 00:10:44,930
+In this way, they are returned to the frontend through an interface
+
+227
+00:10:44,930 --> 00:10:45,790
+return to the frontend
+
+228
+00:10:45,790 --> 00:10:48,339
+The frontend gives you a search-like feeling, right?
+
+229
+00:10:48,339 --> 00:10:50,399
+you can filter them
+
+230
+00:10:50,399 --> 00:10:53,370
+We can even find a skill
+
+231
+00:10:53,370 --> 00:10:54,390
+to find an SGO
+
+232
+00:10:54,390 --> 00:10:57,010
+Find a what kind of skill
+
+233
+00:10:57,010 --> 00:11:04,180
+It's the skill of compressing files, compressing multiple files.
+
+234
+00:11:04,180 --> 00:11:07,080
+the skill of compressing multiple files
+
+235
+00:11:09,700 --> 00:11:15,220
+So when the large language model sees such a statement
+
+236
+00:11:15,540 --> 00:11:19,120
+Oh here it triggered a subsub agent's two ah
+
+237
+00:11:19,120 --> 00:11:20,620
+beyond Me expectation
+
+238
+00:11:20,620 --> 00:11:23,780
+that is, uh, you sent over
+
+239
+00:11:23,780 --> 00:11:25,300
+This command for the large model
+
+240
+00:11:25,300 --> 00:11:27,540
+just an ordinary piece of text
+
+241
+00:11:27,540 --> 00:11:31,600
+but the large model knows which skills are available on the disk
+
+242
+00:11:31,840 --> 00:11:33,140
+also knows what Tools are available
+
+243
+00:11:33,140 --> 00:11:34,480
+In short, it can make decisions on its own.
+
+244
+00:11:34,480 --> 00:11:38,120
+Then it made a decision using a sub-agent, a sub-intelligent agent.
+
+245
+00:11:38,120 --> 00:11:40,740
+I created a sub-agent with capabilities
+
+246
+00:11:40,740 --> 00:11:42,580
+this sub-agent
+
+247
+00:11:42,580 --> 00:11:44,990
+Actually, it's just assigning him a relatively heavy task.
+
+248
+00:11:44,990 --> 00:11:48,390
+The user hopes to find a skill for compressing multiple file formats
+
+249
+00:11:48,390 --> 00:11:50,770
+Please check if the system has the relevant skill
+
+250
+00:11:50,770 --> 00:11:54,490
+Focus on checking whether it exists in the agent skills directory.
+
+251
+00:11:54,490 --> 00:11:55,910
+and analyze applicability
+
+252
+00:11:55,910 --> 00:11:58,890
+What about this subagent skill now?
+
+253
+00:11:58,890 --> 00:12:00,290
+Then what about SUV1?
+
+254
+00:12:00,290 --> 00:12:01,810
+It is also an agent
+
+255
+00:12:01,810 --> 00:12:04,370
+It will execute this task within a separate agent context
+
+256
+00:12:04,370 --> 00:12:05,930
+execute within the context
+
+257
+00:12:05,930 --> 00:12:07,520
+because it is itself a tool
+
+258
+00:12:07,520 --> 00:12:10,560
+Then my main agent is waiting for its response
+
+259
+00:12:10,560 --> 00:12:11,800
+He is currently working inside
+
+260
+00:12:11,800 --> 00:12:16,290
+Actually, the agent is performing a task here.
+
+261
+00:12:16,810 --> 00:12:18,610
+You see, the reason it's taking longer to execute
+
+262
+00:12:18,610 --> 00:12:21,030
+because it actually removed the final scale
+
+263
+00:12:21,030 --> 00:12:25,530
+We can see that it executed the shell command
+
+264
+00:12:25,530 --> 00:12:29,170
+So in the shell command, it goes to find agent scale
+
+265
+00:12:29,170 --> 00:12:31,760
+Are there any, uh, under the directory
+
+266
+00:12:31,760 --> 00:12:32,780
+markdown, right
+
+267
+00:12:32,780 --> 00:12:34,980
+find some markdown files
+
+268
+00:12:35,300 --> 00:12:36,360
+and searched around for a while
+
+269
+00:12:36,360 --> 00:12:38,460
+After searching for a long, long time
+
+270
+00:12:38,460 --> 00:12:40,560
+It probably means that nothing was found
+
+271
+00:12:40,560 --> 00:12:41,200
+Not found
+
+272
+00:12:41,200 --> 00:12:43,440
+including his attempt to view text file
+
+273
+00:12:43,440 --> 00:12:46,499
+to use some tools to read the file system
+
+274
+00:12:46,499 --> 00:12:48,919
+No such skill was found to read any file
+
+275
+00:12:48,919 --> 00:12:51,790
+then it will proceed with the installation
+
+276
+00:12:52,430 --> 00:12:56,650
+So eventually it should go ahead with the installation at this point.
+
+277
+00:12:56,650 --> 00:13:00,610
+NP x skill find zip compress arch
+
+278
+00:13:00,610 --> 00:13:03,639
+he then proceeds to execute this command
+
+279
+00:13:03,639 --> 00:13:06,819
+to search for such a compression tool
+
+280
+00:13:06,819 --> 00:13:08,380
+It's all automated.
+
+281
+00:13:08,380 --> 00:13:13,300
+Then eventually it keeps running and running
+
+282
+00:13:13,300 --> 00:13:14,580
+still in progress
+
+283
+00:13:20,660 --> 00:13:22,860
+Let him handle it first
+
+284
+00:13:22,860 --> 00:13:25,570
+how does it find this uh
+
+285
+00:13:25,570 --> 00:13:28,550
+how to listen to my find skill thing
+
+286
+00:13:28,550 --> 00:13:29,530
+just find the skill
+
+287
+00:13:29,530 --> 00:13:32,240
+Actually, there's also markdown in this find skill
+
+288
+00:13:32,240 --> 00:13:34,880
+It will tell you how to invoke an NP fork
+
+289
+00:13:34,880 --> 00:13:35,840
+find command
+
+290
+00:13:35,840 --> 00:13:37,350
+can go uh
+
+291
+00:13:37,350 --> 00:13:40,030
+on this skills.sh platform
+
+292
+00:13:40,030 --> 00:13:42,310
+This is a scale marketplace
+
+293
+00:13:42,310 --> 00:13:44,910
+It will call this command to search the marketplace
+
+294
+00:13:44,910 --> 00:13:46,750
+Are there any compression-related skills
+
+295
+00:13:46,750 --> 00:13:47,350
+if found
+
+296
+00:13:47,350 --> 00:13:48,510
+It will automatically ADD
+
+297
+00:13:48,510 --> 00:13:50,600
+download it locally
+
+298
+00:13:50,600 --> 00:13:53,400
+That's the logic behind it.
+
+299
+00:13:54,740 --> 00:13:56,500
+Maybe he didn't find it
+
+300
+00:13:56,500 --> 00:13:58,500
+or maybe it's still searching
+
+301
+00:13:58,500 --> 00:14:02,620
+Let's take a look at his reply—there's nothing readily available in the system.
+
+302
+00:14:02,620 --> 00:14:05,600
+This is the final sasave agent
+
+303
+00:14:05,600 --> 00:14:06,640
+All done
+
+304
+00:14:06,640 --> 00:14:11,360
+Then the main agent received a response from the sub-agent, uh,
+
+305
+00:14:11,360 --> 00:14:12,380
+how to put it
+
+306
+00:14:12,380 --> 00:14:15,260
+a complete reply
+
+307
+00:14:16,260 --> 00:14:20,700
+Then after checking, there is no such Z Pu
+
+308
+00:14:20,700 --> 00:14:23,410
+Then it just said something like
+
+309
+00:14:23,410 --> 00:14:25,010
+Probably not found
+
+310
+00:14:25,010 --> 00:14:25,730
+Not found
+
+311
+00:14:25,730 --> 00:14:26,730
+Then just give up
+
+312
+00:14:26,730 --> 00:14:28,070
+He didn't install it here for me either
+
+313
+00:14:28,070 --> 00:14:30,170
+As for things like code review
+
+314
+00:14:30,170 --> 00:14:34,090
+It was all triggered by my natural language commands to install it automatically.
+
+315
+00:14:34,090 --> 00:14:35,890
+He is still very smart
+
+316
+00:14:35,890 --> 00:14:37,610
+Alright, forget it then.
+
+317
+00:14:37,610 --> 00:14:38,130
+We told him
+
+318
+00:14:38,130 --> 00:14:40,290
+Never mind then
+
+319
+00:14:49,860 --> 00:14:52,180
+Okay, he said if you still need it
+
+320
+00:14:52,180 --> 00:14:54,500
+You can seek help at any time.
+
+321
+00:14:55,500 --> 00:14:59,260
+Alright, let's demonstrate another feature then.
+
+322
+00:14:59,260 --> 00:15:02,500
+we can check the files on the disk
+
+323
+00:15:02,500 --> 00:15:03,960
+then execute the shell command
+
+324
+00:15:03,960 --> 00:15:06,740
+For example, let's say
+
+325
+00:15:08,380 --> 00:15:15,820
+Is there a requirements.txt file in the current project
+
+326
+00:15:15,820 --> 00:15:17,730
+if it exists, check its content
+
+327
+00:15:17,730 --> 00:15:20,030
+This is calling the local tool
+
+328
+00:15:20,030 --> 00:15:23,790
+This Reactison supports some filesystem tools, uh
+
+329
+00:15:23,790 --> 00:15:25,270
+read files write files
+
+330
+00:15:25,270 --> 00:15:26,990
+it can even execute shell commands
+
+331
+00:15:26,990 --> 00:15:28,610
+These basic capabilities
+
+332
+00:15:28,610 --> 00:15:31,380
+This is actually very important for personal assistants
+
+333
+00:15:31,380 --> 00:15:33,760
+Let everyone see him execute 'ls -s'
+
+334
+00:15:33,760 --> 00:15:36,400
+Then this is executing the shell to
+
+335
+00:15:36,400 --> 00:15:37,820
+Then when it returns
+
+336
+00:15:37,820 --> 00:15:40,680
+we can see that the file has indeed been listed
+
+337
+00:15:40,680 --> 00:15:42,040
+Then he proceeded to call
+
+338
+00:15:42,040 --> 00:15:43,160
+View text file
+
+339
+00:15:43,160 --> 00:15:46,880
+this diagram reads the requirements.txt file on the disk
+
+340
+00:15:46,880 --> 00:15:47,920
+and then retrieve the content
+
+341
+00:15:47,920 --> 00:15:49,880
+then the large model summarizes it
+
+342
+00:15:49,880 --> 00:15:50,600
+In this case
+
+343
+00:15:50,600 --> 00:15:53,000
+we can have it install other packages or something
+
+344
+00:15:53,000 --> 00:15:53,760
+all are possible
+
+345
+00:15:53,760 --> 00:15:59,209
+For example, installing a
+
+346
+00:16:00,170 --> 00:16:03,810
+Request h
+
+347
+00:16:03,980 --> 00:16:09,700
+then it may edit the requirements.txt file
+
+348
+00:16:09,700 --> 00:16:11,970
+modify this file uh
+
+349
+00:16:11,970 --> 00:16:15,370
+and even execute a pip install command
+
+350
+00:16:15,370 --> 00:16:18,430
+You'll find all these actions being performed automatically
+
+351
+00:16:20,460 --> 00:16:22,900
+automatically do it
+
+352
+00:16:24,499 --> 00:16:27,439
+Okay, he said it's already installed
+
+353
+00:16:27,439 --> 00:16:29,459
+Then you can directly execute this code
+
+354
+00:16:29,459 --> 00:16:30,539
+Now we can tell it
+
+355
+00:16:30,539 --> 00:16:32,579
+Execute it for me
+
+356
+00:16:33,750 --> 00:16:39,230
+This is just like when we write a programming tool, right?
+
+357
+00:16:39,800 --> 00:16:43,500
+
+
+358
+00:16:43,500 --> 00:16:45,880
+Of course, he didn't choose that; instead, he opted to directly execute the shell
+
+359
+00:16:45,880 --> 00:16:48,880
+
+
+360
+00:16:48,880 --> 00:16:52,140
+and got a response 200
+
+361
+00:16:52,140 --> 00:16:56,730
+He just made a request to HTTPN.YG and it's done.
+
+362
+00:16:57,850 --> 00:17:03,930
+Okay, this is the personal assistant we've built.
+
+363
+00:17:03,930 --> 00:17:04,329
+Um
+
+364
+00:17:04,329 --> 00:17:05,690
+Actually, it doesn't require much code
+
+365
+00:17:05,690 --> 00:17:08,010
+You'll find it's already a super agent
+
+366
+00:17:08,010 --> 00:17:10,410
+As long as it has file read-write capabilities and so on
+
+367
+00:17:10,410 --> 00:17:13,250
+it can accomplish many tasks
+
+368
+00:17:15,699 --> 00:17:18,459
+Then in the requirements.txt file
+
+369
+00:17:18,459 --> 00:17:21,439
+Look, it doesn't even have the requests library.
+
+370
+00:17:21,439 --> 00:17:24,339
+We can have it add it for us
+
+371
+00:17:30,140 --> 00:17:32,580
+Oh, you can just mention it like this
+
+372
+00:17:32,580 --> 00:17:35,780
+And you'll notice that the context keeps getting longer and longer, right?
+
+373
+00:17:35,780 --> 00:17:37,020
+It will reach a certain point
+
+374
+00:17:37,020 --> 00:17:38,900
+It will automatically compress the context.
+
+375
+00:17:38,900 --> 00:17:44,550
+Well, we've also enabled this feature in Eden Scope.
+
+376
+00:17:44,550 --> 00:17:47,990
+Then he chose to execute a shell pip command first
+
+377
+00:17:47,990 --> 00:17:51,170
+then it went to grp version and got two
+
+378
+00:17:51,170 --> 00:17:53,630
+I don't know what version this is trying to check either
+
+379
+00:17:53,630 --> 00:17:55,670
+then insert text file
+
+380
+00:17:55,670 --> 00:17:58,409
+This is a file insertion function
+
+381
+00:17:58,649 --> 00:17:59,749
+is a to
+
+382
+00:17:59,749 --> 00:18:02,829
+He inserted it into the requirements file
+
+383
+00:18:02,829 --> 00:18:07,200
+inserted such a request content at line 4
+
+384
+00:18:07,200 --> 00:18:09,540
+And then it's written in.
+
+385
+00:18:09,540 --> 00:18:11,580
+Now let's take a look
+
+386
+00:18:11,580 --> 00:18:13,590
+It's written right here
+
+387
+00:18:14,030 --> 00:18:17,179
+It's just so amazing
+
+388
+00:18:17,619 --> 00:18:18,939
+What if we regret it
+
+389
+00:18:18,939 --> 00:18:19,919
+say delete
+
+390
+00:18:19,919 --> 00:18:23,550
+Delete this, I said it wrong
+
+391
+00:18:23,550 --> 00:18:25,670
+Then the large model under this understanding
+
+392
+00:18:25,670 --> 00:18:27,830
+it will then proceed to perform file read and write operations
+
+393
+00:18:27,830 --> 00:18:29,300
+to um
+
+394
+00:18:29,300 --> 00:18:30,440
+then go do some things
+
+395
+00:18:31,520 --> 00:18:32,660
+I'll let him handle it first
+
+396
+00:18:32,660 --> 00:18:35,650
+
+
+397
+00:18:35,650 --> 00:18:36,930
+that was our conversation just now
+
+398
+00:18:36,930 --> 00:18:40,890
+This agent is built with a total of 488 lines of code
+
+399
+00:18:40,890 --> 00:18:42,889
+In fact, there are only a few lines of core code.
+
+400
+00:18:42,889 --> 00:18:45,749
+And there are some features in it
+
+401
+00:18:45,749 --> 00:18:49,580
+For example, the browser MCP has been turned off
+
+402
+00:18:49,580 --> 00:18:51,620
+but most of the MCPs are enabled
+
+403
+00:18:51,620 --> 00:18:53,100
+such as the sub-agent concept
+
+404
+00:18:53,100 --> 00:18:54,500
+We opened such a diagram
+
+405
+00:18:54,500 --> 00:18:56,360
+and shell uh
+
+406
+00:18:56,360 --> 00:18:58,120
+file insertion and writing
+
+407
+00:18:58,120 --> 00:19:01,380
+We have also opened the diagram of these three file systems.
+
+408
+00:19:01,380 --> 00:19:03,860
+and a diagram of internet search
+
+409
+00:19:03,860 --> 00:19:05,180
+then calculate the BaZi
+
+410
+00:19:05,180 --> 00:19:06,900
+This is a demo of Me to close
+
+411
+00:19:06,900 --> 00:19:11,010
+Then we can also open the browser tool
+
+412
+00:19:11,010 --> 00:19:16,330
+This will invoke an MCP service from Alibaba Cloud.
+
+413
+00:19:16,330 --> 00:19:17,790
+a browser sandbox
+
+414
+00:19:17,790 --> 00:19:20,910
+and then we can invoke this remote browser sandbox
+
+415
+00:19:20,910 --> 00:19:24,640
+to perform some stateful tasks
+
+416
+00:19:24,640 --> 00:19:25,800
+Let's demonstrate it again for everyone
+
+417
+00:19:27,040 --> 00:19:30,740
+Let's open it first and kill this program.
+
+418
+00:19:30,740 --> 00:19:34,260
+Ah, he should have already reverted this change just now.
+
+419
+00:19:34,260 --> 00:19:36,100
+Oops, half changed
+
+420
+00:19:36,100 --> 00:19:38,850
+I killed this for him
+
+421
+00:19:40,600 --> 00:19:43,160
+The actions behind it might involve multiple consecutive steps.
+
+422
+00:19:43,160 --> 00:19:43,920
+I killed it
+
+423
+00:19:43,920 --> 00:19:45,700
+This is quite difficult
+
+424
+00:19:45,700 --> 00:19:47,960
+We'll have it restored later
+
+425
+00:19:49,100 --> 00:19:52,890
+Then we will restart this super agent
+
+426
+00:19:52,890 --> 00:19:54,310
+this server 8000 port
+
+427
+00:19:54,310 --> 00:19:56,410
+Then we won't change this session ID
+
+428
+00:19:56,410 --> 00:20:00,080
+This corresponds to the one on our disk, uh,
+
+429
+00:20:00,080 --> 00:20:03,900
+this short-term memory
+
+430
+00:20:03,900 --> 00:20:06,320
+And here is the short-term memory
+
+431
+00:20:06,320 --> 00:20:08,000
+but in this session
+
+432
+00:20:08,000 --> 00:20:10,920
+it records all the dialogue flows here
+
+433
+00:20:10,920 --> 00:20:12,480
+When it gets too long
+
+434
+00:20:12,480 --> 00:20:14,360
+It will perform compression
+
+435
+00:20:14,360 --> 00:20:16,960
+And because the Drawing memory is all there
+
+436
+00:20:16,960 --> 00:20:20,629
+I can tell it to restore this
+
+437
+00:20:20,629 --> 00:20:24,300
+restore require is
+
+438
+00:20:26,260 --> 00:20:27,700
+He should do it
+
+439
+00:20:27,700 --> 00:20:30,080
+Then we can listen to some Music
+
+440
+00:20:30,080 --> 00:20:31,940
+Wait a moment
+
+441
+00:20:35,560 --> 00:20:37,120
+OK he will write the file
+
+442
+00:20:37,120 --> 00:20:40,400
+You'll notice the content he wrote is agent school fast uv CORE
+
+443
+00:20:40,400 --> 00:20:41,440
+Then it's rewritten and done
+
+444
+00:20:41,440 --> 00:20:44,520
+Let's take a look at this, it's already written and done.
+
+445
+00:20:44,520 --> 00:20:46,320
+Now that we have the browser sandbox
+
+446
+00:20:46,320 --> 00:20:50,030
+We can control a remote browser again
+
+447
+00:20:50,030 --> 00:20:53,110
+This browser comes with a GUI desktop
+
+448
+00:20:53,110 --> 00:20:56,160
+Of course, we didn't implement that browser
+
+449
+00:20:56,160 --> 00:20:57,420
+desktop streaming display
+
+450
+00:20:57,420 --> 00:21:01,680
+Actually, you can see how to click and switch between windows on the desktop.
+
+451
+00:21:05,830 --> 00:21:09,550
+Now let's have it open baidu.com
+
+452
+00:21:09,550 --> 00:21:15,520
+then fetch today's trending news
+
+453
+00:21:22,760 --> 00:21:24,520
+OK he dropped it
+
+454
+00:21:24,520 --> 00:21:26,260
+Brother navigate
+
+455
+00:21:26,260 --> 00:21:28,400
+this to
+
+456
+00:21:30,240 --> 00:21:31,340
+this to
+
+457
+00:21:31,340 --> 00:21:35,920
+This 'to' actually calls a remote MCP service at the underlying level
+
+458
+00:21:41,200 --> 00:21:43,160
+Oh, this is quite slow.
+
+459
+00:21:43,160 --> 00:21:46,320
+because the remote end is a real virtual machine
+
+460
+00:21:46,320 --> 00:21:46,840
+sandbox
+
+461
+00:21:46,840 --> 00:21:48,679
+or container sandbox
+
+462
+00:21:48,679 --> 00:21:52,079
+then its brother navigated over
+
+463
+00:21:52,079 --> 00:21:56,260
+probably got the response content from this website, right?
+
+464
+00:21:57,260 --> 00:21:59,440
+and then the news was obtained
+
+465
+00:21:59,440 --> 00:22:01,490
+and then it displayed
+
+466
+00:22:01,690 --> 00:22:08,250
+So we can say, uh, Baidu 'AgentScope' uh
+
+467
+00:22:08,250 --> 00:22:15,870
+the latest special feature in the eighth edition
+
+468
+00:22:36,600 --> 00:22:38,420
+Oh, this will be more obvious
+
+469
+00:22:38,420 --> 00:22:40,440
+he called two tools twice
+
+470
+00:22:40,440 --> 00:22:43,560
+one called brother fell form
+
+471
+00:22:46,300 --> 00:22:48,800
+Of course, this could have happened sequentially.
+
+472
+00:22:48,800 --> 00:22:49,980
+The first time it was called
+
+473
+00:22:49,980 --> 00:22:54,270
+He was trying to fill in the search box
+
+474
+00:22:54,270 --> 00:22:57,990
+Then he filled in the search box with, uh,
+
+475
+00:22:57,990 --> 00:23:00,110
+the latest features of AgentScope
+
+476
+00:23:00,110 --> 00:23:02,790
+Then the current search box should have a phrase like this
+
+477
+00:23:02,790 --> 00:23:04,230
+Then fill in like this
+
+478
+00:23:04,230 --> 00:23:05,110
+After filling it out
+
+479
+00:23:05,110 --> 00:23:06,390
+it then proceeded to call
+
+480
+00:23:06,390 --> 00:23:07,430
+Brother click
+
+481
+00:23:07,430 --> 00:23:09,590
+All are decisions made by the model itself.
+
+482
+00:23:09,590 --> 00:23:12,659
+Click on the Baidu button
+
+483
+00:23:12,899 --> 00:23:17,499
+Then after clicking, the search results list should appear.
+
+484
+00:23:17,980 --> 00:23:20,280
+Then based on these search results
+
+485
+00:23:20,280 --> 00:23:23,340
+then you'll see all the responses
+
+486
+00:23:30,040 --> 00:23:37,240
+Search again for the release information of the Qianwan 3.5 large model
+
+487
+00:23:38,640 --> 00:23:43,360
+Not sure if it's calling brother or a web search
+
+488
+00:23:43,640 --> 00:23:45,500
+This is selected by the large model itself
+
+489
+00:23:45,500 --> 00:23:48,920
+Logically, if it keeps calling Baidu
+
+490
+00:23:48,920 --> 00:23:51,640
+He should still use the browser.
+
+491
+00:23:54,020 --> 00:23:56,540
+Then this process would be quite troublesome
+
+492
+00:23:56,540 --> 00:23:58,860
+probably
+
+493
+00:24:00,100 --> 00:24:02,860
+Ah, he should have just searched directly and called it up
+
+494
+00:24:02,860 --> 00:24:07,880
+The large model is calling the search function of the large model API itself
+
+495
+00:24:11,840 --> 00:24:16,340
+He probably found some information about it
+
+496
+00:24:16,340 --> 00:24:17,880
+take a look
+
+497
+00:24:18,189 --> 00:24:21,789
+It has already been submitted to Hugging Face's transformer library.
+
+498
+00:24:21,789 --> 00:24:23,869
+It will be released soon
+
+499
+00:24:27,340 --> 00:24:31,100
+Crazy February, okay
+
+500
+00:24:32,030 --> 00:24:35,650
+So these should be the core features
+
+501
+00:24:35,650 --> 00:24:38,570
+And it comes with chat history
+
+502
+00:24:38,570 --> 00:24:42,800
+Then, uh, oh right, I missed two demo features
+
+503
+00:24:42,800 --> 00:24:44,140
+one is called deep search
+
+504
+00:24:44,140 --> 00:24:45,220
+one is called interruption
+
+505
+00:24:45,220 --> 00:24:47,460
+Let's demonstrate the interruption first
+
+506
+00:24:48,870 --> 00:24:51,090
+Oh, let him search again
+
+507
+00:24:51,090 --> 00:24:57,030
+Search for news about GM 5.0 km 2.5
+
+508
+00:25:01,060 --> 00:25:04,420
+Then it might be waiting for the large model to respond now
+
+509
+00:25:04,420 --> 00:25:09,630
+Or this one is about to start streaming the output
+
+510
+00:25:09,630 --> 00:25:11,550
+Now it's still waiting for the response from the adventure.
+
+511
+00:25:11,550 --> 00:25:14,889
+As the context grows longer, it should become progressively slower.
+
+512
+00:25:14,889 --> 00:25:16,249
+reaches a certain critical point
+
+513
+00:25:16,249 --> 00:25:17,969
+will compress the context a bit
+
+514
+00:25:17,969 --> 00:25:19,289
+then just a bit of interruption
+
+515
+00:25:19,289 --> 00:25:23,040
+You'll notice it stops immediately, ah
+
+516
+00:25:23,040 --> 00:25:25,680
+This is precisely the core
+
+517
+00:25:25,680 --> 00:25:28,200
+That is the interruption capability
+
+518
+00:25:28,940 --> 00:25:31,180
+This also calls an interface to stop
+
+519
+00:25:31,180 --> 00:25:36,720
+and then terminate the coroutine that's currently outputting text
+
+520
+00:25:36,920 --> 00:25:39,740
+Then initiate the deep search again
+
+521
+00:25:39,740 --> 00:25:42,520
+plan a trip during the Spring Festival in Qingdao
+
+522
+00:25:42,520 --> 00:25:44,869
+Qingdao, Qingdao natives, right?
+
+523
+00:25:44,869 --> 00:25:52,010
+A three-day self-driving trip around Qingdao for locals
+
+524
+00:25:55,180 --> 00:25:57,820
+with my wife and kids
+
+525
+00:25:57,820 --> 00:26:00,620
+So after you enable the deep search
+
+526
+00:26:00,620 --> 00:26:03,680
+it will then enter the planning capability
+
+527
+00:26:03,680 --> 00:26:06,640
+If you don't enable this deep search feature
+
+528
+00:26:06,640 --> 00:26:09,100
+planning will not be activated
+
+529
+00:26:09,740 --> 00:26:11,360
+planning refers to the so-called planning
+
+530
+00:26:11,360 --> 00:26:15,370
+it has a tool called create plan
+
+531
+00:26:15,370 --> 00:26:18,810
+It will decide on its own whether to remove this planning two
+
+532
+00:26:19,970 --> 00:26:23,450
+Once it calls this create plan
+
+533
+00:26:23,450 --> 00:26:24,410
+this tool
+
+534
+00:26:24,410 --> 00:26:28,770
+it will pass some parameters to this tool
+
+535
+00:26:28,770 --> 00:26:33,420
+including that he also needs to create several sub-agents
+
+536
+00:26:33,420 --> 00:26:34,880
+sub task
+
+537
+00:26:34,880 --> 00:26:36,060
+what to do first and what to do next
+
+538
+00:26:36,060 --> 00:26:37,590
+what to do next
+
+539
+00:26:37,990 --> 00:26:40,990
+But here it seems to have reported an error
+
+540
+00:26:43,560 --> 00:26:44,920
+It should be the large model
+
+541
+00:26:44,920 --> 00:26:46,520
+after the context becomes too long
+
+542
+00:26:46,520 --> 00:26:51,130
+Probably there was some error with the input parameters when calling the create plan
+
+543
+00:26:51,130 --> 00:26:52,930
+it then recreates the plan
+
+544
+00:26:52,930 --> 00:26:55,750
+based on the error from the create plan function
+
+545
+00:26:55,750 --> 00:26:59,050
+call the quit plan again
+
+546
+00:26:59,050 --> 00:27:02,600
+Then the quit plan succeeded.
+
+547
+00:27:02,600 --> 00:27:03,880
+created a planning
+
+548
+00:27:03,880 --> 00:27:05,980
+This planning information is the quit plan
+
+549
+00:27:05,980 --> 00:27:10,540
+an object created by this 'to' in memory
+
+550
+00:27:10,900 --> 00:27:14,120
+Once such an object exists in memory
+
+551
+00:27:14,120 --> 00:27:16,740
+our React agent
+
+552
+00:27:16,740 --> 00:27:18,700
+it will return in the subsequent flow
+
+553
+00:27:18,700 --> 00:27:20,540
+directly gives us this plan to
+
+554
+00:27:20,540 --> 00:27:23,900
+We'll just render it directly on the right side.
+
+555
+00:27:23,900 --> 00:27:25,480
+There are a total of four steps
+
+556
+00:27:25,480 --> 00:27:31,099
+Then, the large model will proceed based on this planning
+
+557
+00:27:31,099 --> 00:27:32,619
+an injected prompt
+
+558
+00:27:32,619 --> 00:27:34,939
+these planning steps
+
+559
+00:27:34,939 --> 00:27:35,599
+Sub task
+
+560
+00:27:35,599 --> 00:27:37,710
+and which task is currently being executed
+
+561
+00:27:37,710 --> 00:27:40,690
+All these will be injected into the prompts
+
+562
+00:27:41,090 --> 00:27:43,590
+so the large model knows which step I'm currently on
+
+563
+00:27:43,590 --> 00:27:45,850
+then it will focus on completing this step
+
+564
+00:27:45,850 --> 00:27:49,639
+The status of this step is also an ING state
+
+565
+00:27:49,799 --> 00:27:51,699
+So it will first analyze the requirements
+
+566
+00:27:51,699 --> 00:27:54,139
+then search for attractions around Qingdao
+
+567
+00:27:54,139 --> 00:27:55,359
+plan a three-day itinerary
+
+568
+00:27:55,359 --> 00:27:56,919
+step by step
+
+569
+00:27:56,919 --> 00:28:02,280
+You'll notice that it will first update the sub-task
+
+570
+00:28:02,280 --> 00:28:06,090
+change task 0 to progress
+
+571
+00:28:06,090 --> 00:28:07,210
+in progress
+
+572
+00:28:08,370 --> 00:28:09,730
+Then
+
+573
+00:28:11,120 --> 00:28:13,460
+he starts analyzing or something
+
+574
+00:28:13,460 --> 00:28:15,560
+after spitting out some words
+
+575
+00:28:15,560 --> 00:28:19,030
+He then thought it necessary to call
+
+576
+00:28:19,030 --> 00:28:20,750
+he then calls the finished task
+
+577
+00:28:20,750 --> 00:28:22,590
+complete this task
+
+578
+00:28:22,590 --> 00:28:25,810
+After completing this task, a response confirming the task completion was received.
+
+579
+00:28:25,810 --> 00:28:29,159
+then the second task is activated by the finished sub task
+
+580
+00:28:29,159 --> 00:28:29,819
+activated
+
+581
+00:28:29,819 --> 00:28:30,739
+the status has changed
+
+582
+00:28:30,739 --> 00:28:36,490
+So the model will then proceed to the second task.
+
+583
+00:28:36,490 --> 00:28:37,810
+Then when performing the second task
+
+584
+00:28:37,810 --> 00:28:39,570
+he feels the need to invoke web search again
+
+585
+00:28:39,570 --> 00:28:43,270
+search for recommendations of Parenting travel attractions around Qingdao in February
+
+586
+00:28:43,270 --> 00:28:44,610
+winter
+
+587
+00:28:44,610 --> 00:28:46,730
+he obtained some search results
+
+588
+00:28:46,730 --> 00:28:48,090
+The search results are also flowing
+
+589
+00:28:48,090 --> 00:28:49,850
+continuously retrieving
+
+590
+00:28:53,900 --> 00:28:54,920
+listen to songs
+
+591
+00:28:54,920 --> 00:28:56,360
+wait a moment
+
+592
+00:29:26,100 --> 00:29:27,600
+Huaye Bu Mantian
+
+593
+00:29:30,920 --> 00:29:32,420
+After searching for the results
+
+594
+00:29:32,420 --> 00:29:35,560
+He believes the second task has also been completed
+
+595
+00:29:35,560 --> 00:29:37,660
+then he will finish scasc
+
+596
+00:29:37,660 --> 00:29:40,850
+This concludes and enters the large model
+
+597
+00:29:40,850 --> 00:29:42,190
+the next time it sees the prompt
+
+598
+00:29:42,190 --> 00:29:44,350
+he would then focus on this point
+
+599
+00:29:44,350 --> 00:29:48,460
+so it will start to take the next step with the wind
+
+600
+00:29:54,990 --> 00:29:57,460
+One step, two steps, three steps, four
+
+601
+00:29:57,460 --> 00:30:00,420
+Because planning is a grand magic fairy's own plan
+
+602
+00:30:00,420 --> 00:30:01,980
+but based on the search results from the previous step
+
+603
+00:30:01,980 --> 00:30:06,370
+it can just finish this class by itself
+
+604
+00:30:11,199 --> 00:30:13,139
+Hmph, these are all the model's context.
+
+605
+00:30:13,139 --> 00:30:17,620
+So ultimately it can see everything and summarize the count
+
+606
+00:30:21,980 --> 00:30:27,730
+One, two, three, thoughts connected like a pen's back
+
+607
+00:30:37,050 --> 00:30:38,530
+This is the final step, right?
+
+608
+00:30:38,530 --> 00:30:40,830
+Organize practical information and precautions
+
+609
+00:30:40,830 --> 00:30:42,170
+including scenic spot tickets
+
+610
+00:30:42,170 --> 00:30:42,930
+Opening hours
+
+611
+00:30:42,930 --> 00:30:44,190
+Accommodation suggestions
+
+612
+00:30:44,190 --> 00:30:46,450
+So he started collecting admission fees.
+
+613
+00:30:46,450 --> 00:30:48,190
+According to the account, regarding the last task or something like that
+
+614
+00:30:48,190 --> 00:30:50,610
+he started searching for tickets
+
+615
+00:30:50,610 --> 00:30:52,630
+accommodation and so on
+
+616
+00:30:53,110 --> 00:30:57,060
+Now this is also the current loss of Damo
+
+617
+00:30:57,060 --> 00:30:59,820
+went back and searched for images again
+
+618
+00:30:59,820 --> 00:31:02,540
+I wonder if it will eventually render the image for me as well.
+
+619
+00:31:02,540 --> 00:31:04,280
+All of these are in the conversation history
+
+620
+00:31:04,280 --> 00:31:10,600
+Logically speaking, it should be sunny everywhere on that day.
+
+621
+00:31:10,720 --> 00:31:13,040
+After the search is completed
+
+622
+00:31:13,040 --> 00:31:15,600
+He is summarizing the search results again
+
+623
+00:31:15,600 --> 00:31:17,780
+Check if we need to retrieve other images
+
+624
+00:31:17,780 --> 00:31:19,730
+or is it over
+
+625
+00:31:20,250 --> 00:31:24,130
+Who said it's a pity with affection
+
+626
+00:31:24,130 --> 00:31:32,840
+Time didn't disturb the flowers before my eyes as they bloomed naturally.
+
+627
+00:31:42,940 --> 00:31:47,260
+An assistant is capable of helping you complete tasks over extended periods of time.
+
+628
+00:31:47,260 --> 00:31:48,420
+no need for stars
+
+629
+00:31:50,460 --> 00:31:53,080
+that's still
+
+630
+00:31:55,500 --> 00:31:56,380
+or the future
+
+631
+00:31:56,380 --> 00:32:01,340
+is this a role that replaces some human tasks
+
+632
+00:32:02,270 --> 00:32:06,430
+We don't have to stay up late organizing and collecting all kinds of information, right?
+
+633
+00:32:06,430 --> 00:32:08,440
+As an administrative staff
+
+634
+00:32:08,440 --> 00:32:12,320
+You can just let the large model compile the report for you.
+
+635
+00:32:12,320 --> 00:32:16,320
+In the past, you had to search on Baidu and look up various things yourself for these tasks.
+
+636
+00:32:16,320 --> 00:32:17,740
+booking tickets, etc.
+
+637
+00:32:17,740 --> 00:32:21,660
+Once we register some ticket booking function interfaces
+
+638
+00:32:21,660 --> 00:32:23,680
+register as an MCP on TO
+
+639
+00:32:23,680 --> 00:32:27,170
+then it even helps you purchase the tickets
+
+640
+00:32:29,460 --> 00:32:32,280
+Okay, the final step is to finish the subtask.
+
+641
+00:32:32,280 --> 00:32:33,980
+finish this
+
+642
+00:32:33,980 --> 00:32:36,940
+Once this is finished
+
+643
+00:32:37,400 --> 00:32:39,720
+the large model will notice
+
+644
+00:32:39,720 --> 00:32:40,800
+Everything is completed
+
+645
+00:32:40,800 --> 00:32:43,199
+then the entire planning process is concluded
+
+646
+00:32:43,199 --> 00:32:45,079
+So now he sees the last
+
+647
+00:32:45,079 --> 00:32:47,539
+the result of this finish task
+
+648
+00:32:47,539 --> 00:32:51,469
+Summarized the research findings of this fourth task
+
+649
+00:32:51,469 --> 00:32:53,889
+Let's fold it up
+
+650
+00:32:56,160 --> 00:33:01,240
+OK, the final step has also been marked as done and completed.
+
+651
+00:33:01,240 --> 00:33:04,120
+The large model is now making the final deliberation
+
+652
+00:33:04,120 --> 00:33:05,960
+which is to finish the plan
+
+653
+00:33:06,360 --> 00:33:09,380
+the entire planning process is now closed
+
+654
+00:33:09,380 --> 00:33:11,180
+All the above context
+
+655
+00:33:11,180 --> 00:33:16,070
+All serve as the final dependencies for the master agent's ultimate summary.
+
+656
+00:33:16,070 --> 00:33:17,990
+a dependent item for the summary
+
+657
+00:33:17,990 --> 00:33:22,230
+Now it's time to take the final step.
+
+658
+00:33:23,100 --> 00:33:25,220
+He shouldn't need to call any more tools
+
+659
+00:33:25,220 --> 00:33:26,560
+starts to output
+
+660
+00:33:26,560 --> 00:33:29,140
+Let's see the quality of its output
+
+661
+00:33:34,440 --> 00:33:37,360
+Day 1: Zhanqiao Pier and Church
+
+662
+00:33:37,360 --> 00:33:38,580
+lunch
+
+663
+00:33:38,580 --> 00:33:41,520
+In the afternoon, Eight Great Passes
+
+664
+00:33:41,520 --> 00:33:44,200
+Keep some of those Bala Pass
+
+665
+00:33:44,200 --> 00:33:47,040
+Keep the tickets to the Princess Building safe, right?
+
+666
+00:33:47,040 --> 00:33:48,840
+Signal Hill
+
+667
+00:33:49,240 --> 00:33:51,120
+Go to Taidong Pedestrian Street in the evening
+
+668
+00:33:52,720 --> 00:33:57,080
+The second day is marine science exploration
+
+669
+00:33:57,080 --> 00:33:58,620
+Polar Ocean World
+
+670
+00:33:58,620 --> 00:34:01,920
+Olympic Sailing Center Lover's Dam for three days
+
+671
+00:34:01,920 --> 00:34:04,160
+and the budget has been calculated for me
+
+672
+00:34:04,160 --> 00:34:04,880
+No
+
+673
+00:34:04,880 --> 00:34:09,920
+This Foods list is also ready for me
+
+674
+00:34:12,559 --> 00:34:13,259
+Okay
+
+675
+00:34:13,259 --> 00:34:15,219
+We can add some more scale
+
+676
+00:34:15,219 --> 00:34:18,529
+For example, the planning skill needs to be formed
+
+677
+00:34:18,529 --> 00:34:21,750
+Then it will read the markdown of those skills as needed
+
+678
+00:34:21,750 --> 00:34:24,770
+guide it to generate a travel itinerary that meets our requirements
+
+679
+00:34:24,770 --> 00:34:26,130
+travel guide, right
+
+680
+00:34:26,130 --> 00:34:27,190
+Currently, the large model
+
+681
+00:34:27,190 --> 00:34:29,188
+generated in a disorganized manner
+
+682
+00:34:29,188 --> 00:34:30,228
+once there is a skill
+
+683
+00:34:30,228 --> 00:34:33,029
+That would be different
+
+684
+00:34:34,840 --> 00:34:37,620
+Kid, this is in-depth research
+
+685
+00:34:37,620 --> 00:34:38,639
+Then you can turn it off
+
+686
+00:34:38,639 --> 00:34:39,679
+Next time during the conversation
+
+687
+00:34:39,679 --> 00:34:43,120
+you won't inject these planning tools
+
+688
+00:34:43,120 --> 00:34:44,440
+so he won't plan
+
+689
+00:34:44,440 --> 00:34:47,120
+He will just chat normally.
+
+690
+00:34:48,719 --> 00:34:51,030
+Okay, okay
+
+691
+00:34:51,030 --> 00:34:52,030
+About the demo
+
+692
+00:34:52,030 --> 00:34:52,949
+that's it
+
+693
+00:34:52,949 --> 00:34:58,180
+In the next video, we will briefly explain the code behind this.
+
+694
+00:34:58,180 --> 00:35:02,260
+take a look at this super event that can accomplish so many things
+
+695
+00:35:02,260 --> 00:35:04,420
+Why is there so little code behind it
+
+696
+00:35:04,420 --> 00:35:07,510
+Indeed, he is very impressed
+
+697
+00:35:07,510 --> 00:35:09,270
+like foreign cloud, right
+
+698
+00:35:09,270 --> 00:35:10,810
+propose this concept of skills
+
+699
+00:35:10,810 --> 00:35:14,890
+Ah, concepts like MCP are really very clever.
+
+700
+00:35:14,890 --> 00:35:16,370
+He turned a very complex matter
+
+701
+00:35:16,370 --> 00:35:18,770
+turned into a very simple matter
+
+702
+00:35:19,170 --> 00:35:24,690
+It's all thanks to these large models and tools that we can accomplish such things
+
+703
+00:35:24,690 --> 00:35:26,290
+all sorts of things
+
+704
+00:35:26,290 --> 00:35:28,295
+There are absolutely no limitations
+
+705
+00:35:28,800 --> 00:35:31,260
+We'll talk more about it in the next video
+

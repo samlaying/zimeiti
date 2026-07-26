@@ -1,0 +1,280 @@
+1
+00:00:00,000 --> 00:00:01,280
+Challenging AI to do 100 things
+
+2
+00:00:01,280 --> 00:00:02,000
+Episode 56
+
+3
+00:00:02,000 --> 00:00:03,020
+Make the most of it
+
+4
+00:00:03,020 --> 00:00:04,400
+Let me ask you a question first
+
+5
+00:00:04,400 --> 00:00:05,780
+Students who use AI for design
+
+6
+00:00:05,780 --> 00:00:08,000
+How do you use the images you create?
+
+7
+00:00:08,000 --> 00:00:10,900
+such as this logo, this poster, this illustration
+
+8
+00:00:10,900 --> 00:00:13,260
+Do you also, like me, just zoom in for high-definition?
+
+9
+00:00:13,260 --> 00:00:15,260
+and then just send it directly to the boss or the client
+
+10
+00:00:15,260 --> 00:00:16,360
+Let me tell you
+
+11
+00:00:16,360 --> 00:00:17,360
+You need to step up your game
+
+12
+00:00:17,360 --> 00:00:19,610
+You should send the logo like this
+
+13
+00:00:19,610 --> 00:00:21,850
+This poster needs to be placed in these locations
+
+14
+00:00:21,850 --> 00:00:22,770
+and then send it
+
+15
+00:00:22,770 --> 00:00:24,810
+The same goes for this illustration
+
+16
+00:00:24,810 --> 00:00:26,210
+like this with practical effects
+
+17
+00:00:26,210 --> 00:00:27,470
+design images with application effects
+
+18
+00:00:27,470 --> 00:00:29,070
+whether it's directly packaging and sending to the client
+
+19
+00:00:29,070 --> 00:00:30,490
+or create a presentation PPT for the proposal
+
+20
+00:00:30,490 --> 00:00:31,460
+you'll find it useful
+
+21
+00:00:31,460 --> 00:00:33,300
+And this is no simple mock-up.
+
+22
+00:00:33,300 --> 00:00:35,500
+Look at how well this logo fits on the product surface.
+
+23
+00:00:35,500 --> 00:00:37,080
+the back of this bag
+
+24
+00:00:37,080 --> 00:00:38,390
+the back of this bottle
+
+25
+00:00:38,390 --> 00:00:40,450
+There is also a backpack partially obscured by hands and accessories.
+
+26
+00:00:40,450 --> 00:00:41,790
+Everything is perfectly presented.
+
+27
+00:00:41,790 --> 00:00:43,150
+Some students might ask,
+
+28
+00:00:43,150 --> 00:00:44,910
+I can also do it with Photoshop
+
+29
+00:00:44,910 --> 00:00:47,330
+Indeed, but you will still encounter some issues.
+
+30
+00:00:47,330 --> 00:00:49,190
+Not to mention whether everyone can do it with PS
+
+31
+00:00:49,190 --> 00:00:51,570
+Can the product's surface decal be done this well
+
+32
+00:00:51,570 --> 00:00:53,220
+The key point is it's troublesome.
+
+33
+00:00:53,220 --> 00:00:54,580
+After you send this set over
+
+34
+00:00:54,580 --> 00:00:56,220
+the client asks you to make more changes
+
+35
+00:00:56,220 --> 00:00:57,320
+Aren't you screwed?
+
+36
+00:00:57,320 --> 00:00:58,660
+Not to mention the previous visuals being done in vain
+
+37
+00:00:58,660 --> 00:01:00,780
+This set of decals was also done in vain
+
+38
+00:01:00,780 --> 00:01:03,300
+You have to redo everything all over again or many times over
+
+39
+00:01:03,300 --> 00:01:04,690
+This is truly top-tier torment.
+
+40
+00:01:04,690 --> 00:01:06,110
+Now with the help of AI
+
+41
+00:01:06,110 --> 00:01:07,810
+Everything has become incredibly simple.
+
+42
+00:01:07,810 --> 00:01:10,180
+Just use this, the photo editing software everyone is very familiar with
+
+43
+00:01:10,180 --> 00:01:12,080
+Open the AI mapping function on the Home page
+
+44
+00:01:12,080 --> 00:01:14,100
+First, upload a product image or an environment image
+
+45
+00:01:14,100 --> 00:01:15,840
+Then upload your design here
+
+46
+00:01:15,840 --> 00:01:16,920
+If it's a logo
+
+47
+00:01:16,920 --> 00:01:18,000
+You can also remove the background with one click
+
+48
+00:01:18,000 --> 00:01:19,740
+After uploading all the images, at this point,
+
+49
+00:01:19,740 --> 00:01:21,880
+AI will automatically recognize the product for you
+
+50
+00:01:21,880 --> 00:01:23,200
+or the 3D information of the environment
+
+51
+00:01:23,200 --> 00:01:24,400
+can also help your design
+
+52
+00:01:24,400 --> 00:01:26,160
+It can naturally fit from any angle.
+
+53
+00:01:26,160 --> 00:01:26,680
+Then you can freely adjust your decal
+
+54
+00:01:26,680 --> 00:01:28,980
+on the surface of the product
+
+55
+00:01:28,980 --> 00:01:30,060
+freely drag the position
+
+56
+00:01:30,060 --> 00:01:31,340
+adjust the size or angle
+
+57
+00:01:31,340 --> 00:01:33,360
+Look how smoothly I can drag it around
+
+58
+00:01:33,360 --> 00:01:35,800
+Your design will also tightly adhere to the product's surface.
+
+59
+00:01:35,800 --> 00:01:37,320
+You don't need to think about it yourself
+
+60
+00:01:37,320 --> 00:01:39,120
+perspective or surface logic
+
+61
+00:01:39,120 --> 00:01:39,900
+Once the position is set
+
+62
+00:01:39,900 --> 00:01:41,560
+Just click save directly
+
+63
+00:01:41,560 --> 00:01:43,880
+This simple and highly efficient mapping method
+
+64
+00:01:43,880 --> 00:01:45,780
+Isn't this much more convenient than using Photoshop?
+
+65
+00:01:45,780 --> 00:01:48,100
+No matter how many times the client asks you to redo the work in the future
+
+66
+00:01:48,100 --> 00:01:51,000
+you can easily handle it. Alright, that's all for this video.
+
+67
+00:01:51,000 --> 00:01:52,040
+If you also like my videos
+
+68
+00:01:52,040 --> 00:01:53,000
+Remember to like, follow and favorite
+
+69
+00:01:53,000 --> 00:01:53,760
+I'm Bob
+
+70
+00:01:53,760 --> 00:01:54,760
+See you in the next episode
+

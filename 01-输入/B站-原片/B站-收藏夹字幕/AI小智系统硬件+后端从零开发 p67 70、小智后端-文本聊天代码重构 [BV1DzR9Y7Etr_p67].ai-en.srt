@@ -1,0 +1,548 @@
+1
+00:00:00,900 --> 00:00:01,060
+Alright.
+
+2
+00:00:01,060 --> 00:00:01,660
+In this lesson,
+
+3
+00:00:01,660 --> 00:00:04,660
+we're going to talk about refactoring the code for text chat.
+
+4
+00:00:04,660 --> 00:00:06,500
+Currently, for our text chat,
+
+5
+00:00:06,500 --> 00:00:07,320
+let's take a look.
+
+6
+00:00:07,320 --> 00:00:12,670
+Let's see our text here.
+
+7
+00:00:12,670 --> 00:00:14,830
+Where is the chat happening now?
+
+8
+00:00:17,020 --> 00:00:19,780
+Here, this is still our previous code, right?
+
+9
+00:00:19,780 --> 00:00:21,300
+This code definitely won't work anymore.
+
+10
+00:00:21,300 --> 00:00:24,400
+This kind of text chat won't work for us right now.
+
+11
+00:00:24,400 --> 00:00:27,220
+Let's take a look.
+
+12
+00:00:27,220 --> 00:00:28,940
+And let's run it.
+
+13
+00:00:35,960 --> 00:00:38,320
+Then we'll send a text message.
+
+14
+00:00:40,720 --> 00:00:42,860
+You've been disconnected directly.
+
+15
+00:00:42,860 --> 00:00:44,959
+It's because there's an error here.
+
+16
+00:00:44,959 --> 00:00:45,839
+You can see the error.
+
+17
+00:00:45,839 --> 00:00:46,519
+Even if there's an error,
+
+18
+00:00:46,519 --> 00:00:48,919
+you can see that the connection resources are released here.
+
+19
+00:00:48,919 --> 00:00:50,650
+It also releases resources, right?
+
+20
+00:00:50,650 --> 00:00:52,930
+Let's take a look at this part, shall we?
+
+21
+00:00:52,930 --> 00:00:55,050
+Why can't we use this section?
+
+22
+00:00:55,050 --> 00:00:56,490
+Because this is our previous code.
+
+23
+00:00:56,490 --> 00:00:57,810
+None of these are correct.
+
+24
+00:00:57,810 --> 00:01:00,530
+Look at these calls, the ones we made before.
+
+25
+00:01:00,530 --> 00:01:03,340
+Is this supposed to be text?
+
+26
+00:01:03,340 --> 00:01:05,360
+It's a conversation, right?
+
+27
+00:01:05,360 --> 00:01:06,980
+So we can't pass it like this.
+
+28
+00:01:06,980 --> 00:01:08,160
+So, how do we do that?
+
+29
+00:01:08,160 --> 00:01:10,830
+First, we should refactor this code.
+
+30
+00:01:10,830 --> 00:01:11,710
+Regarding this code,
+
+31
+00:01:11,710 --> 00:01:13,210
+We currently write it like this, right?
+
+32
+00:01:13,210 --> 00:01:15,949
+We should modify this part for the chat function,
+
+33
+00:01:15,949 --> 00:01:18,549
+We pass in the chat question,
+
+34
+00:01:18,549 --> 00:01:21,809
+This question is the message, the message,
+
+35
+00:01:21,809 --> 00:01:25,180
+Since we need to reuse this method here,
+
+36
+00:01:25,180 --> 00:01:27,100
+One is for this kind of audio,
+
+37
+00:01:27,100 --> 00:01:28,940
+We need to use this as well
+
+38
+00:01:28,940 --> 00:01:31,900
+And for the text, we need to use this too
+
+39
+00:01:31,900 --> 00:01:34,640
+Here, we just pass it through
+
+40
+00:01:34,640 --> 00:01:35,640
+When passing it through
+
+41
+00:01:35,640 --> 00:01:37,260
+What exactly are we passing here?
+
+42
+00:01:37,260 --> 00:01:39,560
+Are we passing this audio?
+
+43
+00:01:39,560 --> 00:01:41,240
+Because we're capturing audio here
+
+44
+00:01:41,240 --> 00:01:42,780
+We just need to push the audio in
+
+45
+00:01:42,780 --> 00:01:45,680
+So here, do we need to process the audio as well?
+
+46
+00:01:45,680 --> 00:01:48,260
+We need to handle this again.
+
+47
+00:01:48,260 --> 00:01:49,380
+It's about the text.
+
+48
+00:01:49,380 --> 00:01:51,600
+It's the same as before in this part.
+
+49
+00:01:51,600 --> 00:01:52,800
+We use these two conditions, right?
+
+50
+00:01:52,800 --> 00:01:53,840
+One is for strings.
+
+51
+00:01:53,840 --> 00:01:54,680
+The other is for binary data.
+
+52
+00:01:54,680 --> 00:01:56,020
+Let's use this condition to check.
+
+53
+00:01:56,020 --> 00:01:56,860
+I'll rewrite it.
+
+54
+00:01:56,860 --> 00:01:58,140
+This method
+
+55
+00:01:59,640 --> 00:02:01,720
+Let's refactor this method.
+
+56
+00:02:01,720 --> 00:02:03,280
+This message
+
+57
+00:02:03,280 --> 00:02:04,080
+We'll handle it later.
+
+58
+00:02:04,080 --> 00:02:08,539
+Now, let's put this here.
+
+59
+00:02:08,539 --> 00:02:10,199
+That is, if it's binary,
+
+60
+00:02:10,199 --> 00:02:12,020
+we'll process it accordingly.
+
+61
+00:02:12,020 --> 00:02:14,000
+If it's not binary,
+
+62
+00:02:14,000 --> 00:02:16,929
+we'll use it directly.
+
+63
+00:02:16,929 --> 00:02:17,869
+How do we use it?
+
+64
+00:02:17,869 --> 00:02:23,090
+So, are we going to use this test?
+
+65
+00:02:23,090 --> 00:02:28,450
+Let's set this test equal to message.
+
+66
+00:02:28,450 --> 00:02:29,670
+Would that work?
+
+67
+00:02:29,670 --> 00:02:31,610
+That is, if the input is text,
+
+68
+00:02:31,610 --> 00:02:32,730
+we don't need to process it at all.
+
+69
+00:02:32,730 --> 00:02:35,670
+We don't need to perform speech recognition on this text, right?
+
+70
+00:02:35,670 --> 00:02:37,730
+and just pass the text to the next step.
+
+71
+00:02:37,730 --> 00:02:39,730
+Then it will send this text, right?
+
+72
+00:02:39,730 --> 00:02:43,150
+And if it's a voice chat, the text is also passed in.
+
+73
+00:02:43,150 --> 00:02:45,190
+Let's work on this text.
+
+74
+00:02:45,190 --> 00:02:48,350
+This is for getting the conversation, right?
+
+75
+00:02:48,350 --> 00:02:51,030
+So, moving forward here,
+
+76
+00:02:51,030 --> 00:02:53,079
+let's change this part.
+
+77
+00:02:53,079 --> 00:02:56,319
+We don't need to do it this way anymore.
+
+78
+00:02:56,319 --> 00:02:57,899
+Because before we were accumulating this,
+
+79
+00:02:57,899 --> 00:03:00,639
+we can just get it directly here.
+
+80
+00:03:01,020 --> 00:03:04,700
+Just get the speech recognition result
+
+81
+00:03:04,700 --> 00:03:06,780
+and just pass it to this test.
+
+82
+00:03:06,780 --> 00:03:07,860
+That's it.
+
+83
+00:03:07,860 --> 00:03:08,740
+Then, in this case,
+
+84
+00:03:08,740 --> 00:03:12,460
+Are we creating it in the binary format?
+
+85
+00:03:12,460 --> 00:03:14,780
+We create it through,
+
+86
+00:03:14,780 --> 00:03:17,320
+This thread pool submits a task, right?
+
+87
+00:03:17,320 --> 00:03:21,699
+Similarly, when we're dealing with this text,
+
+88
+00:03:21,699 --> 00:03:23,259
+We submit it in the same way.
+
+89
+00:03:23,259 --> 00:03:25,030
+How do we do that?
+
+90
+00:03:25,030 --> 00:03:27,210
+We get rid of this, right?
+
+91
+00:03:27,210 --> 00:03:28,450
+We don't need any of this.
+
+92
+00:03:28,450 --> 00:03:30,310
+Then we'll do the same with this.
+
+93
+00:03:30,310 --> 00:03:31,870
+It's essentially a text chat, after all.
+
+94
+00:03:31,870 --> 00:03:34,350
+So we can just pass this text in.
+
+95
+00:03:34,650 --> 00:03:35,650
+Is that right?
+
+96
+00:03:35,650 --> 00:03:37,480
+When we pass it in, it’s like this.
+
+97
+00:03:37,480 --> 00:03:40,160
+The client sent a text message.
+
+98
+00:03:40,160 --> 00:03:42,040
+It’s asking us to submit this chat.
+
+99
+00:03:42,040 --> 00:03:43,820
+And it passed in this test.
+
+100
+00:03:43,820 --> 00:03:45,220
+Anyway, he's only here.
+
+101
+00:03:45,220 --> 00:03:48,020
+It detects that it's a text string.
+
+102
+00:03:48,020 --> 00:03:50,640
+Then he can directly get this string.
+
+103
+00:03:50,640 --> 00:03:52,680
+Let's verify it.
+
+104
+00:03:56,360 --> 00:03:57,880
+The error we had just now.
+
+105
+00:03:57,880 --> 00:03:59,360
+Now let's try again.
+
+106
+00:03:59,360 --> 00:04:01,240
+Test this text connection.
+
+107
+00:04:02,400 --> 00:04:03,520
+And there's a send option here.
+
+108
+00:04:03,520 --> 00:04:04,720
+Hello.
+
+109
+00:04:05,490 --> 00:04:06,950
+It's sent, no issue.
+
+110
+00:04:06,950 --> 00:04:07,510
+No problem.
+
+111
+00:04:07,510 --> 00:04:10,990
+When it comes to speech recognition, I will adhere to your requirements.
+
+112
+00:04:10,990 --> 00:04:13,210
+I won’t use emojis to reply.
+
+113
+00:04:13,210 --> 00:04:16,880
+It’s fine even if the connection is broken.
+
+114
+00:04:16,880 --> 00:04:18,380
+Regarding this part,
+
+115
+00:04:18,380 --> 00:04:20,670
+It will also return a speech recognition
+
+116
+00:04:20,670 --> 00:04:23,910
+This is essentially what you send, and this can be left unprinted.
+
+117
+00:04:23,910 --> 00:04:26,540
+This speech recognition is like it processes the input
+
+118
+00:04:26,540 --> 00:04:27,420
+Even though it didn’t recognize it
+
+119
+00:04:27,420 --> 00:04:29,240
+but the messages it sends are still the same
+
+120
+00:04:29,240 --> 00:04:30,160
+it doesn’t matter
+
+121
+00:04:30,160 --> 00:04:32,120
+the text is basically like this
+
+122
+00:04:32,120 --> 00:04:33,540
+our text is good to go
+
+123
+00:04:33,540 --> 00:04:38,620
+So, the current focus is on the backend speech recognition.
+
+124
+00:04:38,620 --> 00:04:40,800
+the chat session has come to a close
+
+125
+00:04:40,800 --> 00:04:42,690
+we’ve optimized it pretty well
+
+126
+00:04:42,690 --> 00:04:44,350
+there are still some other features to come
+
+127
+00:04:44,350 --> 00:04:46,390
+we’ll optimize those later
+
+128
+00:04:46,390 --> 00:04:47,370
+and add them in
+
+129
+00:04:47,370 --> 00:04:50,370
+we’ve basically got the core of the backend
+
+130
+00:04:50,370 --> 00:04:51,910
+conversation functionality nailed down
+
+131
+00:04:51,910 --> 00:04:52,730
+and moving forward
+
+132
+00:04:52,730 --> 00:04:56,670
+we’ll cover the ESP32 hardware
+
+133
+00:04:56,670 --> 00:04:59,330
+for setting up the WiFi connection
+
+134
+00:04:59,330 --> 00:05:03,049
+then the WebSocket connection for transmitting the conversation data
+
+135
+00:05:03,049 --> 00:05:04,709
+and then it will return and play back
+
+136
+00:05:04,709 --> 00:05:07,649
+basically implementing the most basic conversation function
+
+137
+00:05:07,649 --> 00:05:09,300
+okay, that’s it for this lesson
+

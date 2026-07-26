@@ -1,0 +1,1164 @@
+1
+00:00:00,020 --> 00:00:03,140
+In the previous video, we introduced Cloud Skills to everyone
+
+2
+00:00:03,140 --> 00:00:05,780
+as well as the types of tasks it can assist us with
+
+3
+00:00:05,780 --> 00:00:08,500
+In today's video, I will guide you step by step
+
+4
+00:00:08,500 --> 00:00:10,860
+how to start from scratch and go from 0 to 1
+
+5
+00:00:10,860 --> 00:00:13,360
+create your first complete skills
+
+6
+00:00:13,360 --> 00:00:15,640
+Additionally, the approach we're demonstrating today
+
+7
+00:00:15,640 --> 00:00:17,880
+No programming background is required
+
+8
+00:00:17,880 --> 00:00:19,160
+you just need to follow my video
+
+9
+00:00:19,160 --> 00:00:19,680
+you do it once
+
+10
+00:00:19,680 --> 00:00:21,680
+you can then summarize your own methodology from this hands-on process
+
+11
+00:00:21,680 --> 00:00:23,620
+summarize your own methodology
+
+12
+00:00:23,620 --> 00:00:25,120
+Additionally, I'll also provide you with some
+
+13
+00:00:25,120 --> 00:00:26,960
+my completed cases as reference
+
+14
+00:00:26,960 --> 00:00:28,240
+For example, give it a report
+
+15
+00:00:28,240 --> 00:00:30,600
+It can help us convert it into web page information
+
+16
+00:00:30,600 --> 00:00:31,940
+just input the text into it
+
+17
+00:00:31,940 --> 00:00:34,860
+it can help us fit the content into the company's template
+
+18
+00:00:34,860 --> 00:00:36,880
+help us produce the finished slides
+
+19
+00:00:36,880 --> 00:00:38,840
+Or simply input the topic
+
+20
+00:00:38,840 --> 00:00:40,580
+
+
+21
+00:00:40,580 --> 00:00:42,880
+It can help us draft the script in just 5 minutes.
+
+22
+00:00:42,880 --> 00:00:43,860
+Without further ado
+
+23
+00:00:43,860 --> 00:00:44,740
+Let's get started
+
+24
+00:00:44,740 --> 00:00:46,560
+For viewers who are not familiar with skills,
+
+25
+00:00:46,560 --> 00:00:48,720
+Let me summarize it in one sentence for everyone
+
+26
+00:00:48,720 --> 00:00:52,620
+Skills are folders in Cloud for storing workflows and data.
+
+27
+00:00:52,620 --> 00:00:55,000
+Then you can use it to build your workflow
+
+28
+00:00:55,000 --> 00:00:57,220
+So you just need to tell it your task
+
+29
+00:00:57,220 --> 00:00:58,420
+it can go to the backend and
+
+30
+00:00:58,420 --> 00:01:02,040
+invoke all relevant skill packages and data related to this task
+
+31
+00:01:02,040 --> 00:01:03,020
+help you get things done
+
+32
+00:01:03,020 --> 00:01:04,640
+Does it sound a bit confusing?
+
+33
+00:01:04,640 --> 00:01:06,620
+Perhaps many friends might say at this point
+
+34
+00:01:06,620 --> 00:01:09,800
+Are there any ready-to-use skills available?
+
+35
+00:01:09,800 --> 00:01:10,680
+You know what
+
+36
+00:01:10,680 --> 00:01:11,960
+There really is aerobic
+
+37
+00:01:11,960 --> 00:01:14,640
+The official team has open-sourced a skills repository themselves.
+
+38
+00:01:14,640 --> 00:01:18,080
+In this folder are the official Skills created by Cloud themselves.
+
+39
+00:01:18,080 --> 00:01:20,860
+I've also briefly organized their uses for everyone
+
+40
+00:01:20,860 --> 00:01:23,560
+The ones that are more recommended for installation are these few on the screen
+
+41
+00:01:23,560 --> 00:01:26,140
+These are almost universally useful for everyone.
+
+42
+00:01:26,140 --> 00:01:26,980
+First of all
+
+43
+00:01:26,980 --> 00:01:29,080
+Whether you're using Windows or Mac systems
+
+44
+00:01:29,080 --> 00:01:30,820
+cloud skills are compatible with both
+
+45
+00:01:30,820 --> 00:01:33,760
+Today, I will use the web version of Cloud to demonstrate for everyone.
+
+46
+00:01:33,760 --> 00:01:36,300
+Let's start with a simple example first.
+
+47
+00:01:36,300 --> 00:01:38,680
+This time, we'll use the preset skills in Cloud.
+
+48
+00:01:38,680 --> 00:01:41,580
+Suppose I am an employee working in the real estate industry
+
+49
+00:01:41,580 --> 00:01:44,800
+Now I have a report about the Reserve Bank of Australia
+
+50
+00:01:44,800 --> 00:01:47,580
+research report on the interest rate forecast for next week
+
+51
+00:01:47,580 --> 00:01:49,800
+Now I need to quickly organize this content
+
+52
+00:01:49,800 --> 00:01:52,740
+compile it into a webpage suitable for teaching my clients
+
+53
+00:01:52,740 --> 00:01:54,910
+allowing them to view it by clicking the link
+
+54
+00:01:54,910 --> 00:01:55,910
+get straight to the point
+
+55
+00:01:55,910 --> 00:01:57,450
+So we come to the Settings
+
+56
+00:01:57,450 --> 00:01:58,790
+Select the function here
+
+57
+00:01:58,790 --> 00:01:59,510
+scroll down
+
+58
+00:01:59,510 --> 00:02:02,720
+enable the preset theme same factory skills
+
+59
+00:02:02,720 --> 00:02:04,080
+By the way, let me mention
+
+60
+00:02:04,080 --> 00:02:07,620
+This skill is suitable for helping us create slide reports and webpages.
+
+61
+00:02:07,620 --> 00:02:09,580
+Now let's go back to the chat box
+
+62
+00:02:09,580 --> 00:02:11,680
+upload this research report
+
+63
+00:02:11,680 --> 00:02:14,280
+
+
+64
+00:02:14,280 --> 00:02:16,440
+help us create a visually intuitive webpage
+
+65
+00:02:16,440 --> 00:02:17,200
+Look here
+
+66
+00:02:17,200 --> 00:02:18,840
+I didn't specifically specify
+
+67
+00:02:18,840 --> 00:02:21,580
+which of the ten preset themes it needs to use
+
+68
+00:02:21,580 --> 00:02:23,140
+but once it starts working
+
+69
+00:02:23,140 --> 00:02:26,500
+You can see ACLOUD automatically checks which skills
+
+70
+00:02:26,500 --> 00:02:28,140
+suitable for assisting us with this task
+
+71
+00:02:28,140 --> 00:02:31,100
+This is because we've already set it in the custom preferences here
+
+72
+00:02:31,100 --> 00:02:32,960
+have Cloud evaluate before each task
+
+73
+00:02:32,960 --> 00:02:35,660
+must evaluate which skills are most suitable
+
+74
+00:02:35,660 --> 00:02:37,200
+Similarly, this custom instruction
+
+75
+00:02:37,200 --> 00:02:40,240
+You can go to the Settings general section here in personal preferences
+
+76
+00:02:40,240 --> 00:02:41,300
+paste it here for him
+
+77
+00:02:41,300 --> 00:02:42,440
+It only took 2 minutes.
+
+78
+00:02:42,440 --> 00:02:43,600
+The webpage is now done.
+
+79
+00:02:43,600 --> 00:02:46,480
+Look, compared to those plain text webpages
+
+80
+00:02:46,480 --> 00:02:48,160
+Doesn't it look much easier to read?
+
+81
+00:02:48,160 --> 00:02:50,920
+Moreover, the theme color selected by Cloud for the webpage
+
+82
+00:02:50,920 --> 00:02:52,880
+It looks very professional
+
+83
+00:02:52,880 --> 00:02:55,960
+The key content has also been bolded and color-highlighted for us.
+
+84
+00:02:55,960 --> 00:02:59,340
+Finally, it also addresses potential interest rate hikes by the Reserve Bank
+
+85
+00:02:59,340 --> 00:03:01,500
+provided relevant strategy adjustments
+
+86
+00:03:01,500 --> 00:03:03,560
+I think as long as you master this technique
+
+87
+00:03:03,560 --> 00:03:06,980
+
+
+88
+00:03:06,980 --> 00:03:09,700
+such as sales webpages or presentation slides
+
+89
+00:03:09,700 --> 00:03:11,420
+Now, let's try another example based on this.
+
+90
+00:03:11,420 --> 00:03:12,380
+Try another example
+
+91
+00:03:12,380 --> 00:03:14,400
+This time I'm asking it to help me draft
+
+92
+00:03:14,400 --> 00:03:18,420
+20 common questions list for this research report
+
+93
+00:03:18,420 --> 00:03:20,420
+Here are some requirements I put forward
+
+94
+00:03:20,420 --> 00:03:23,980
+
+
+95
+00:03:23,980 --> 00:03:26,420
+Then, regarding all the details in the report,
+
+96
+00:03:26,420 --> 00:03:28,800
+generated potential questions that might be asked for us
+
+97
+00:03:28,800 --> 00:03:30,140
+very detailed response
+
+98
+00:03:30,140 --> 00:03:32,500
+In addition to being able to download it in markdown format
+
+99
+00:03:32,500 --> 00:03:34,060
+can also be exported as PDF
+
+100
+00:03:34,060 --> 00:03:36,820
+This way, it can also be shared with other team members.
+
+101
+00:03:36,820 --> 00:03:38,900
+We just gave you two examples
+
+102
+00:03:38,900 --> 00:03:42,120
+is to use the built-in skills of Cloud to assist with our work
+
+103
+00:03:42,120 --> 00:03:44,960
+you just need to provide Cloud with the relevant context
+
+104
+00:03:44,960 --> 00:03:46,160
+context and your requirements
+
+105
+00:03:46,160 --> 00:03:49,260
+it can then apply the corresponding skills to your workflow
+
+106
+00:03:49,260 --> 00:03:52,140
+Now you already know how to use the built-in skills in Cloud
+
+107
+00:03:52,140 --> 00:03:53,720
+However, if you haven't found
+
+108
+00:03:53,720 --> 00:03:55,280
+skills that suit your needs
+
+109
+00:03:55,280 --> 00:03:57,600
+You can also create new skills yourself
+
+110
+00:03:57,600 --> 00:04:00,360
+There are mainly two methods to create custom Skills
+
+111
+00:04:00,360 --> 00:04:03,120
+The first method is to extend existing official Skills
+
+112
+00:04:03,120 --> 00:04:05,960
+and then repackage it into a new Skills
+
+113
+00:04:05,960 --> 00:04:08,880
+For example, here I have a work-related PowerPoint template
+
+114
+00:04:08,880 --> 00:04:11,240
+I want to create a similar template in Cloud
+
+115
+00:04:11,240 --> 00:04:13,540
+so that it can be used directly for future work
+
+116
+00:04:13,540 --> 00:04:15,680
+without me having to input it repeatedly every time
+
+117
+00:04:15,680 --> 00:04:18,060
+Here we first upload the template to Cloud
+
+118
+00:04:18,060 --> 00:04:20,959
+First, let them read the official PowerPoint-making skills
+
+119
+00:04:20,959 --> 00:04:24,439
+Then create a new skill called SRLPPT
+
+120
+00:04:24,439 --> 00:04:27,740
+Here I strongly recommend that when creating new skills
+
+121
+00:04:27,740 --> 00:04:30,920
+provide Cloud with as much contextual information as possible
+
+122
+00:04:30,920 --> 00:04:32,760
+for example when to trigger the skills
+
+123
+00:04:32,760 --> 00:04:34,240
+What are the use cases
+
+124
+00:04:34,240 --> 00:04:35,900
+Which information remains unchanged
+
+125
+00:04:35,900 --> 00:04:37,420
+specific workflow
+
+126
+00:04:37,420 --> 00:04:41,560
+The most important thing is to ask him to refer to the original skills provided by the official.
+
+127
+00:04:41,560 --> 00:04:44,280
+avoid having our skills overlap with the official ones
+
+128
+00:04:44,280 --> 00:04:48,020
+Then output it into a directly usable file format
+
+129
+00:04:48,020 --> 00:04:48,840
+As you can see
+
+130
+00:04:48,840 --> 00:04:51,440
+Now CLAUA is reading the official PPT
+
+131
+00:04:51,440 --> 00:04:53,160
+Skills and Skill Creator
+
+132
+00:04:53,160 --> 00:04:55,760
+skill creator to understand the entire structure
+
+133
+00:04:55,760 --> 00:04:59,740
+Also, take a look at the PPT template I uploaded to extract visual elements from it
+
+134
+00:04:59,740 --> 00:05:01,100
+such as colors and fonts
+
+135
+00:05:01,100 --> 00:05:03,020
+It took about 5 minutes.
+
+136
+00:05:03,020 --> 00:05:04,620
+The new skills are now ready.
+
+137
+00:05:04,620 --> 00:05:06,580
+then we can download it
+
+138
+00:05:06,580 --> 00:05:09,380
+If we want to activate these newly created custom skills
+
+139
+00:05:09,380 --> 00:05:11,600
+simply go back to the Settings function
+
+140
+00:05:11,600 --> 00:05:12,620
+find your skills
+
+141
+00:05:12,620 --> 00:05:15,620
+then upload the skills we just created here
+
+142
+00:05:15,620 --> 00:05:17,620
+Now this custom Skill of ours
+
+143
+00:05:17,620 --> 00:05:18,840
+has been set up
+
+144
+00:05:18,840 --> 00:05:21,440
+we can then invoke it anytime in the chat
+
+145
+00:05:21,440 --> 00:05:23,180
+For example, I'm currently working on a
+
+146
+00:05:23,180 --> 00:05:25,460
+workflow-related slides
+
+147
+00:05:25,460 --> 00:05:28,460
+
+
+148
+00:05:28,460 --> 00:05:32,240
+Then let Cloud extract key information from these materials for me
+
+149
+00:05:32,240 --> 00:05:34,600
+using the PPT skills I previously uploaded to it
+
+150
+00:05:34,600 --> 00:05:37,560
+Generate a 10-12 page slideshow for me
+
+151
+00:05:37,560 --> 00:05:38,980
+for internal training
+
+152
+00:05:38,980 --> 00:05:40,940
+You see here I specifically emphasized
+
+153
+00:05:40,940 --> 00:05:42,760
+using the Skills I created myself
+
+154
+00:05:42,760 --> 00:05:45,800
+to ensure that Cloud uses the template I just created
+
+155
+00:05:45,800 --> 00:05:48,300
+Now it's starting to invoke the skills I created
+
+156
+00:05:48,300 --> 00:05:50,000
+Analyze the structure of the PPT for me
+
+157
+00:05:50,000 --> 00:05:51,440
+design-generated content
+
+158
+00:05:51,440 --> 00:05:54,440
+At the same time, it will also refer to the official PPT design tips.
+
+159
+00:05:54,440 --> 00:05:56,800
+Now it starts creating the slides.
+
+160
+00:05:56,800 --> 00:05:58,200
+In just a few minutes, it's done for me.
+
+161
+00:05:58,200 --> 00:06:00,520
+We can download this slideshow
+
+162
+00:06:00,520 --> 00:06:02,880
+can also upload to Google Drive
+
+163
+00:06:02,880 --> 00:06:04,560
+Overall, it looks pretty good.
+
+164
+00:06:04,560 --> 00:06:06,920
+All the slides have a unified style
+
+165
+00:06:06,920 --> 00:06:10,140
+The theme and colors are exactly the same as the company's presentation template.
+
+166
+00:06:10,140 --> 00:06:13,100
+Although there are still some minor scripting and formatting issues
+
+167
+00:06:13,100 --> 00:06:15,040
+I have to make some minor adjustments myself
+
+168
+00:06:15,040 --> 00:06:17,240
+but most of the content is correct
+
+169
+00:06:17,240 --> 00:06:18,700
+The layout is also quite reasonable.
+
+170
+00:06:18,700 --> 00:06:21,040
+If you notice that Cloud is having issues with this task
+
+171
+00:06:21,040 --> 00:06:21,980
+encounter problems
+
+172
+00:06:21,980 --> 00:06:24,420
+or if you want to improve its output quality
+
+173
+00:06:24,420 --> 00:06:27,240
+you can continue to let cloud help you adjust the skills
+
+174
+00:06:27,240 --> 00:06:28,620
+and make updates
+
+175
+00:06:28,620 --> 00:06:31,900
+Although this feature is not yet 100% perfect
+
+176
+00:06:31,900 --> 00:06:34,840
+but to be honest, I think the sorting quality is quite good
+
+177
+00:06:34,840 --> 00:06:38,240
+After all, this is a task involving images and complex formatting.
+
+178
+00:06:38,240 --> 00:06:40,460
+Moreover, this method is not only suitable for presentations
+
+179
+00:06:40,460 --> 00:06:41,620
+
+
+180
+00:06:41,620 --> 00:06:42,620
+Excel spreadsheets
+
+181
+00:06:42,620 --> 00:06:45,280
+landing pages and various other scenarios
+
+182
+00:06:45,280 --> 00:06:48,400
+So you don't need to build new skills from scratch
+
+183
+00:06:48,400 --> 00:06:51,500
+You can first try to utilize existing official Skills
+
+184
+00:06:51,500 --> 00:06:53,520
+expanding on its foundation
+
+185
+00:06:53,520 --> 00:06:55,140
+Next, let's take it a step further
+
+186
+00:06:55,140 --> 00:06:56,780
+that is, the second method
+
+187
+00:06:56,780 --> 00:06:59,010
+create new skills from scratch
+
+188
+00:06:59,010 --> 00:07:01,650
+and then integrate it with MCP
+
+189
+00:07:01,650 --> 00:07:03,330
+use it in a Cloud project
+
+190
+00:07:03,330 --> 00:07:04,570
+Let me give you an example
+
+191
+00:07:04,570 --> 00:07:07,240
+For example, I want to improve the efficiency of writing video scripts
+
+192
+00:07:07,240 --> 00:07:08,000
+improve
+
+193
+00:07:08,000 --> 00:07:10,240
+because over the past two years, I've been updating AI videos for everyone
+
+194
+00:07:10,240 --> 00:07:12,640
+
+
+195
+00:07:12,640 --> 00:07:14,600
+So here I can use the connector to
+
+196
+00:07:14,600 --> 00:07:17,340
+connect Cloud to Me Google Drive
+
+197
+00:07:17,340 --> 00:07:19,020
+then in the middle dialog box
+
+198
+00:07:19,020 --> 00:07:21,220
+ask it to create a new skills for me
+
+199
+00:07:21,220 --> 00:07:24,260
+Here I will provide all the background information to it
+
+200
+00:07:24,260 --> 00:07:26,800
+have it incorporate the style of my previous verbatim scripts
+
+201
+00:07:26,800 --> 00:07:30,660
+
+
+202
+00:07:30,660 --> 00:07:31,140
+At the same time,
+
+203
+00:07:31,140 --> 00:07:34,140
+I also specified the detailed writing instructions in the command
+
+204
+00:07:34,140 --> 00:07:35,240
+such as trigger mechanisms
+
+205
+00:07:35,240 --> 00:07:37,280
+how to retrieve content from the Knowledge base
+
+206
+00:07:37,280 --> 00:07:40,000
+Also refer to the presentation style in my video
+
+207
+00:07:40,000 --> 00:07:43,440
+Additionally, I have included the entire workflow in the instructions.
+
+208
+00:07:43,440 --> 00:07:45,100
+also includes the output format
+
+209
+00:07:45,100 --> 00:07:46,880
+because besides the video transcript,
+
+210
+00:07:46,880 --> 00:07:49,640
+I also want it to help generate corresponding titles for me
+
+211
+00:07:49,640 --> 00:07:51,220
+About and tags
+
+212
+00:07:51,220 --> 00:07:53,440
+This time it took quite a while
+
+213
+00:07:53,440 --> 00:07:54,780
+It took 7 minutes
+
+214
+00:07:54,780 --> 00:07:56,220
+generated this skills for us
+
+215
+00:07:56,220 --> 00:07:57,560
+We will download it
+
+216
+00:07:57,560 --> 00:07:59,100
+then upload it to the cloud
+
+217
+00:07:59,100 --> 00:08:01,540
+Now, let's assume that I want to, within the Cloud project,
+
+218
+00:08:01,540 --> 00:08:04,000
+
+
+219
+00:08:04,000 --> 00:08:07,560
+Here we can tell him in the personal instructions at the top right corner
+
+220
+00:08:07,560 --> 00:08:09,440
+the output format I want
+
+221
+00:08:09,440 --> 00:08:11,700
+If you previously when customizing skills
+
+222
+00:08:11,700 --> 00:08:12,520
+some requirements
+
+223
+00:08:12,520 --> 00:08:13,280
+did not expect
+
+224
+00:08:13,280 --> 00:08:16,560
+You can also include those requirements that you didn't have time to mention earlier
+
+225
+00:08:16,560 --> 00:08:17,600
+put them all here
+
+226
+00:08:17,600 --> 00:08:20,380
+Additionally, we can also upload the previous video transcripts
+
+227
+00:08:20,380 --> 00:08:21,160
+upload to it
+
+228
+00:08:21,160 --> 00:08:23,220
+This way, it can also refer to it in real time
+
+229
+00:08:23,220 --> 00:08:26,160
+
+
+230
+00:08:26,160 --> 00:08:28,880
+including the perspectives I want him to output content from
+
+231
+00:08:28,880 --> 00:08:31,700
+Note that I'm not limiting Cloud's ideas here
+
+232
+00:08:31,700 --> 00:08:32,640
+So I want to see
+
+233
+00:08:32,640 --> 00:08:36,360
+Can he extend additional content based on Me
+
+234
+00:08:36,360 --> 00:08:37,799
+You see here I also noted
+
+235
+00:08:37,799 --> 00:08:40,460
+Let it reference the skills I just designed
+
+236
+00:08:40,460 --> 00:08:43,039
+Here you don't need to write specific process details
+
+237
+00:08:43,039 --> 00:08:46,479
+Just specify which skills to use for what tasks.
+
+238
+00:08:46,479 --> 00:08:49,360
+At this point, CLAUDIA will first read the skills I designed
+
+239
+00:08:49,360 --> 00:08:50,840
+workflow and specifications
+
+240
+00:08:50,840 --> 00:08:53,300
+then analyze my speaking style characteristics
+
+241
+00:08:53,300 --> 00:08:57,140
+Then it organizes the key information and core functionalities of the moto bot
+
+242
+00:08:57,140 --> 00:08:59,440
+Then it started to help me draft the verbatim script.
+
+243
+00:08:59,440 --> 00:09:01,540
+Finally, it took just 5 minutes
+
+244
+00:09:01,540 --> 00:09:03,880
+wrote a 6,800-word script
+
+245
+00:09:03,880 --> 00:09:04,580
+As you can see
+
+246
+00:09:04,580 --> 00:09:07,340
+Cloud strictly followed the workflow I provided
+
+247
+00:09:07,340 --> 00:09:08,660
+helped me generate an upload
+
+248
+00:09:08,660 --> 00:09:11,030
+from the opening citation to the conclusion output
+
+249
+00:09:11,030 --> 00:09:13,370
+to introduce what MOTBT is
+
+250
+00:09:13,370 --> 00:09:14,410
+What can it do
+
+251
+00:09:14,410 --> 00:09:15,770
+how to deploy from scratch
+
+252
+00:09:15,770 --> 00:09:17,630
+other advanced configuration techniques
+
+253
+00:09:17,630 --> 00:09:19,720
+What are the potential risks and precautions
+
+254
+00:09:19,720 --> 00:09:21,420
+Finally, it's the summary and outlook
+
+255
+00:09:21,420 --> 00:09:23,360
+To be honest, seeing this output result
+
+256
+00:09:23,360 --> 00:09:24,780
+I was quite surprised
+
+257
+00:09:24,780 --> 00:09:26,400
+The content is very comprehensive.
+
+258
+00:09:26,400 --> 00:09:29,140
+In addition, we can also download this solution
+
+259
+00:09:29,140 --> 00:09:30,380
+or add it to the project
+
+260
+00:09:30,380 --> 00:09:32,040
+can also be downloaded in PDF format
+
+261
+00:09:32,040 --> 00:09:34,460
+If you have any additional content you'd like to add
+
+262
+00:09:34,460 --> 00:09:37,760
+You can also ask Cloud to help you make modifications in the dialog box at any time
+
+263
+00:09:37,760 --> 00:09:39,320
+Finally, I'd like to remind everyone
+
+264
+00:09:39,320 --> 00:09:43,080
+When we need to call the project and MCP tools
+
+265
+00:09:43,080 --> 00:09:43,840
+You'll notice that
+
+266
+00:09:43,840 --> 00:09:46,720
+skills often require adjustments and modifications
+
+267
+00:09:46,720 --> 00:09:48,880
+So whenever you invoke the tool
+
+268
+00:09:48,880 --> 00:09:50,480
+try not to use too many in a single workflow
+
+269
+00:09:50,480 --> 00:09:52,360
+use too many MCP tools
+
+270
+00:09:52,360 --> 00:09:53,940
+Keep it as simple as possible
+
+271
+00:09:53,940 --> 00:09:56,320
+So today you can follow the steps I just mentioned
+
+272
+00:09:56,320 --> 00:09:58,100
+open the Skill Creator together
+
+273
+00:09:58,100 --> 00:10:01,460
+then solidify the most repetitive task in your daily work
+
+274
+00:10:01,460 --> 00:10:03,180
+such as filtering hot news
+
+275
+00:10:03,180 --> 00:10:06,180
+or turn a bunch of links into summaries and insights
+
+276
+00:10:06,180 --> 00:10:07,620
+When you complete this CUSE
+
+277
+00:10:07,620 --> 00:10:09,480
+and the moment it starts running
+
+278
+00:10:09,480 --> 00:10:10,380
+you will understand
+
+279
+00:10:10,380 --> 00:10:13,380
+The value of skills lies in continuous invocation and adjustment
+
+280
+00:10:13,380 --> 00:10:14,080
+Starting tomorrow
+
+281
+00:10:14,080 --> 00:10:15,920
+you'll start wanting to do a second one
+
+282
+00:10:15,920 --> 00:10:19,640
+the day after tomorrow, you'll want to migrate all your workflows into it
+
+283
+00:10:19,640 --> 00:10:21,200
+If you're not yet familiar with Skills
+
+284
+00:10:21,200 --> 00:10:25,060
+want to understand what Cloud Skills really is in just 10 minutes
+
+285
+00:10:25,060 --> 00:10:26,100
+I have a video
+
+286
+00:10:26,100 --> 00:10:28,900
+has been organized for you in the simplest plain language
+
+287
+00:10:28,900 --> 00:10:30,360
+You can click here to view
+
+288
+00:10:30,360 --> 00:10:32,700
+OK that's all for this video
+
+289
+00:10:32,700 --> 00:10:34,860
+If you found this video helpful
+
+290
+00:10:34,860 --> 00:10:36,100
+Welcome to like and subscribe to the channel
+
+291
+00:10:36,100 --> 00:10:37,270
+See you in the next video
+

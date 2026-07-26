@@ -1,0 +1,2852 @@
+1
+00:00:00,320 --> 00:00:02,440
+Welcome back to continue sharing papers with everyone
+
+2
+00:00:02,440 --> 00:00:03,920
+This year's first paper share
+
+3
+00:00:03,920 --> 00:00:05,140
+Let's try something different
+
+4
+00:00:05,140 --> 00:00:06,449
+What's different this time?
+
+5
+00:00:06,449 --> 00:00:09,009
+This time, we will focus on a specific topic
+
+6
+00:00:09,009 --> 00:00:12,650
+For example, there were roughly over 5,000 papers in January.
+
+7
+00:00:12,650 --> 00:00:14,570
+From these 5,000-plus papers
+
+8
+00:00:14,570 --> 00:00:18,650
+carefully selected papers focused on a specific topic to delve into
+
+9
+00:00:18,650 --> 00:00:19,850
+let's talk about
+
+10
+00:00:19,850 --> 00:00:22,230
+So what topic have we chosen for today?
+
+11
+00:00:22,230 --> 00:00:25,470
+agent planning and orchestration
+
+12
+00:00:25,470 --> 00:00:29,080
+When it comes to planning, perhaps everyone thinks of ReAct first.
+
+13
+00:00:29,080 --> 00:00:31,920
+then you probably can't think of anything else
+
+14
+00:00:31,920 --> 00:00:35,640
+Today, we're going to cover everything beyond just ReAct
+
+15
+00:00:35,640 --> 00:00:37,390
+let's go through them together
+
+16
+00:00:37,390 --> 00:00:39,570
+we will establish a systematic understanding
+
+17
+00:00:39,570 --> 00:00:43,290
+Also, this year's papers
+
+18
+00:00:43,290 --> 00:00:45,310
+Because some friends previously mentioned that
+
+19
+00:00:45,310 --> 00:00:47,610
+The share link for this paper always fails to open
+
+20
+00:00:47,610 --> 00:00:51,860
+so I've also moved it to a Feishu Knowledge base
+
+21
+00:00:51,860 --> 00:00:56,000
+And then every month, a new knowledge base will be added like this.
+
+22
+00:00:56,000 --> 00:00:57,820
+and see if this method
+
+23
+00:00:57,820 --> 00:01:00,930
+This makes it easier for more friends to access
+
+24
+00:01:00,930 --> 00:01:04,910
+Then, I will put the link to the knowledge base in the video's About section. Alright,
+
+25
+00:01:04,910 --> 00:01:06,330
+Let's get back to the topic
+
+26
+00:01:06,330 --> 00:01:06,990
+Let's begin
+
+27
+00:01:06,990 --> 00:01:11,580
+Today's topic is the planning and orchestration of agents
+
+28
+00:01:11,980 --> 00:01:13,460
+Let's start by discussing the classification.
+
+29
+00:01:13,460 --> 00:01:16,240
+Generally speaking, we refer to this, uh, agent
+
+30
+00:01:16,240 --> 00:01:19,070
+its entire execution process
+
+31
+00:01:19,070 --> 00:01:20,390
+Let's categorize this
+
+32
+00:01:20,390 --> 00:01:21,310
+How can we categorize them?
+
+33
+00:01:21,310 --> 00:01:23,110
+First, the simplest way is to categorize by quantity, right
+
+34
+00:01:23,110 --> 00:01:25,050
+a single-agent execution mode
+
+35
+00:01:25,050 --> 00:01:28,500
+and a collaborative execution mode for multi-agent systems
+
+36
+00:01:28,500 --> 00:01:30,820
+Also, we have another classification method
+
+37
+00:01:30,820 --> 00:01:33,020
+is based on its execution mode
+
+38
+00:01:33,020 --> 00:01:36,190
+We can divide them into dynamic and static
+
+39
+00:01:36,230 --> 00:01:38,190
+This static mode is quite straightforward to understand
+
+40
+00:01:38,190 --> 00:01:40,670
+simply put, I have this predefined
+
+41
+00:01:40,670 --> 00:01:44,289
+an execution flowchart of an agent
+
+42
+00:01:44,289 --> 00:01:49,010
+For example, like the Coze Define we discussed earlier
+
+43
+00:01:49,010 --> 00:01:51,150
+Then through this static diagram approach
+
+44
+00:01:51,150 --> 00:01:54,330
+the execution path of the agent has been pre-planned
+
+45
+00:01:54,330 --> 00:01:56,850
+This approach is called static.
+
+46
+00:01:56,850 --> 00:01:58,630
+Now that we have static
+
+47
+00:01:58,630 --> 00:01:59,670
+there must be dynamic
+
+48
+00:01:59,670 --> 00:02:00,710
+Now, as for dynamic execution
+
+49
+00:02:00,710 --> 00:02:02,910
+As we just mentioned
+
+50
+00:02:02,910 --> 00:02:04,830
+The most typical example is the ReAct mode
+
+51
+00:02:04,830 --> 00:02:06,900
+What is the ReAct model?
+
+52
+00:02:06,900 --> 00:02:11,390
+That is, I will first give it a series of execution principles
+
+53
+00:02:11,390 --> 00:02:13,150
+What is your ultimate goal
+
+54
+00:02:13,150 --> 00:02:13,890
+I will tell you
+
+55
+00:02:13,890 --> 00:02:15,750
+and then your usage path
+
+56
+00:02:15,750 --> 00:02:18,930
+Actually, I won't predefine this definition for you
+
+57
+00:02:18,930 --> 00:02:23,370
+but by having you first think about what needs to be done in the current step
+
+58
+00:02:23,370 --> 00:02:24,890
+and then execute an action
+
+59
+00:02:24,890 --> 00:02:26,970
+for example, calling an MCP interface
+
+60
+00:02:26,970 --> 00:02:28,110
+to collect some data
+
+61
+00:02:28,110 --> 00:02:29,170
+after the collection is complete
+
+62
+00:02:29,170 --> 00:02:30,390
+rethink again
+
+63
+00:02:30,390 --> 00:02:34,350
+After finishing the thinking process, then proceed to make the next plan
+
+64
+00:02:34,350 --> 00:02:38,050
+It's like drawing a circle, constantly thinking and acting.
+
+65
+00:02:38,050 --> 00:02:38,890
+Think Act
+
+66
+00:02:38,890 --> 00:02:39,570
+Think Act
+
+67
+00:02:39,570 --> 00:02:39,790
+Hey
+
+68
+00:02:39,790 --> 00:02:41,070
+This is ReAct
+
+69
+00:02:41,070 --> 00:02:43,070
+Apart from the ReAct approach
+
+70
+00:02:43,070 --> 00:02:46,079
+there are many other dynamic modes
+
+71
+00:02:46,079 --> 00:02:47,659
+for example, reflection
+
+72
+00:02:47,659 --> 00:02:48,919
+is this reflection mode
+
+73
+00:02:48,919 --> 00:02:52,279
+that is, after I perform each action,
+
+74
+00:02:52,279 --> 00:02:53,940
+I'll reflect once again
+
+75
+00:02:53,940 --> 00:02:56,340
+How am I doing with this current step?
+
+76
+00:02:56,340 --> 00:02:57,230
+conduct an evaluation
+
+77
+00:02:57,230 --> 00:02:58,710
+then proceed to the next step of planning
+
+78
+00:02:58,710 --> 00:03:00,530
+that is reflect reflection
+
+79
+00:03:00,530 --> 00:03:02,450
+whether it's react or reflection
+
+80
+00:03:02,450 --> 00:03:05,490
+You can imagine its execution chain as being linear
+
+81
+00:03:05,490 --> 00:03:07,410
+that is to say, one point after another
+
+82
+00:03:07,410 --> 00:03:08,290
+one point after another
+
+83
+00:03:08,290 --> 00:03:09,470
+This is a line.
+
+84
+00:03:09,470 --> 00:03:11,210
+What about non-linear approaches?
+
+85
+00:03:11,210 --> 00:03:12,350
+and columnar
+
+86
+00:03:12,350 --> 00:03:14,440
+like TOT
+
+87
+00:03:14,440 --> 00:03:16,200
+The execution process is no longer linear.
+
+88
+00:03:16,200 --> 00:03:20,440
+but at the beginning, uh, when I'm designing or making a plan
+
+89
+00:03:20,440 --> 00:03:23,360
+I will create multiple branches
+
+90
+00:03:23,940 --> 00:03:27,360
+Then for each step, uh, I might try it out
+
+91
+00:03:27,360 --> 00:03:28,500
+or I first evaluate
+
+92
+00:03:28,500 --> 00:03:29,900
+which steps to try
+
+93
+00:03:29,900 --> 00:03:32,000
+Then after trying it out
+
+94
+00:03:32,000 --> 00:03:33,740
+Then under this specific branch
+
+95
+00:03:33,740 --> 00:03:35,680
+I may further establish branches
+
+96
+00:03:35,680 --> 00:03:36,420
+try again
+
+97
+00:03:36,420 --> 00:03:37,900
+this unfolded type
+
+98
+00:03:37,900 --> 00:03:40,680
+That is no longer linear then
+
+99
+00:03:40,680 --> 00:03:41,380
+Compared to ReAct
+
+100
+00:03:41,380 --> 00:03:44,720
+It can be seen that this execution path is significantly broader
+
+101
+00:03:44,720 --> 00:03:45,620
+or much broader
+
+102
+00:03:45,620 --> 00:03:49,550
+That is to say, it will adopt a more divergent way of thinking
+
+103
+00:03:49,550 --> 00:03:52,300
+to find the potentially correct execution path
+
+104
+00:03:52,300 --> 00:03:55,200
+so its success probability is higher than that of ReAct
+
+105
+00:03:55,200 --> 00:03:57,240
+At the same time, the time consumed
+
+106
+00:03:57,240 --> 00:03:58,780
+or the consumption of tokens
+
+107
+00:03:58,780 --> 00:04:01,240
+will be much higher than ReAct
+
+108
+00:04:01,240 --> 00:04:02,680
+each has its pros and cons
+
+109
+00:04:02,680 --> 00:04:05,480
+So there are also many options in dynamic execution paths.
+
+110
+00:04:05,480 --> 00:04:06,720
+but there are also many other approaches
+
+111
+00:04:06,720 --> 00:04:08,490
+we will see today uh
+
+112
+00:04:08,490 --> 00:04:11,270
+Clearly, when considering the quantity, ReAct
+
+113
+00:04:11,270 --> 00:04:15,160
+it is this dynamic single-agent
+
+114
+00:04:15,160 --> 00:04:16,800
+such an execution mode
+
+115
+00:04:16,800 --> 00:04:19,740
+As for the tree mode mentioned earlier
+
+116
+00:04:19,740 --> 00:04:24,620
+It is a dynamic multi-agent execution mode.
+
+117
+00:04:24,620 --> 00:04:27,040
+as mentioned earlier, define or
+
+118
+00:04:27,040 --> 00:04:27,680
+or CoS
+
+119
+00:04:27,680 --> 00:04:31,289
+It is a static multi-agent execution mode.
+
+120
+00:04:31,289 --> 00:04:32,969
+So now, whether we're talking about single-agent
+
+121
+00:04:32,969 --> 00:04:33,709
+multi-agent systems
+
+122
+00:04:33,709 --> 00:04:36,469
+Multi-agent systems are being discussed more and more frequently.
+
+123
+00:04:36,469 --> 00:04:39,550
+We'll talk about single-agent in a moment
+
+124
+00:04:39,550 --> 00:04:41,190
+It does have some limitations.
+
+125
+00:04:41,190 --> 00:04:42,710
+multi-agent systems
+
+126
+00:04:42,710 --> 00:04:44,570
+It can now be considered mainstream
+
+127
+00:04:44,570 --> 00:04:47,050
+Okay, we just talked about some background knowledge.
+
+128
+00:04:47,050 --> 00:04:50,010
+Now let's dive into today's papers
+
+129
+00:04:50,010 --> 00:04:52,070
+Now let's go through them one by one
+
+130
+00:04:52,070 --> 00:04:54,330
+The first paper is
+
+131
+00:04:54,330 --> 00:04:57,650
+It's about the architecture of multi-agent systems.
+
+132
+00:04:57,650 --> 00:05:03,680
+This paper, 13671, discusses the concept from a conceptual perspective.
+
+133
+00:05:03,680 --> 00:05:06,660
+The title of this paper discusses intelligent agents
+
+134
+00:05:06,660 --> 00:05:08,660
+multi-agent orchestration system
+
+135
+00:05:08,660 --> 00:05:10,000
+from the architecture
+
+136
+00:05:10,000 --> 00:05:14,600
+This communication protocol and enterprise applications are discussed from multiple perspectives.
+
+137
+00:05:14,600 --> 00:05:18,860
+The paper adopts an evolutionary approach to unfold its discussion.
+
+138
+00:05:18,860 --> 00:05:22,280
+It's about starting from a single-agent system and step by step
+
+139
+00:05:22,280 --> 00:05:24,180
+evolved into the current multi-agent
+
+140
+00:05:24,180 --> 00:05:25,140
+this process
+
+141
+00:05:25,140 --> 00:05:26,640
+we won't delve into this in detail
+
+142
+00:05:26,640 --> 00:05:30,930
+Let's just look at this final evolved architecture diagram.
+
+143
+00:05:30,930 --> 00:05:32,410
+Help us systematically organize
+
+144
+00:05:32,410 --> 00:05:35,950
+Now in multi-agent systems
+
+145
+00:05:35,950 --> 00:05:37,350
+should include
+
+146
+00:05:37,350 --> 00:05:40,450
+or what its overall architecture should look like
+
+147
+00:05:40,450 --> 00:05:42,130
+what components should it include
+
+148
+00:05:42,130 --> 00:05:46,150
+Let's first systematically categorize and break this down
+
+149
+00:05:46,150 --> 00:05:48,390
+In a multi-agent system
+
+150
+00:05:48,390 --> 00:05:50,670
+First of all, there must be multiple agents, right?
+
+151
+00:05:50,670 --> 00:05:52,870
+Here, the agents are divided into several categories
+
+152
+00:05:52,870 --> 00:05:56,160
+including these so-called worker agents
+
+153
+00:05:56,160 --> 00:05:57,220
+abstract-type
+
+154
+00:05:57,220 --> 00:05:58,260
+service-oriented agent
+
+155
+00:05:58,260 --> 00:06:00,260
+and supportive agents
+
+156
+00:06:00,260 --> 00:06:01,100
+No matter how you categorize it
+
+157
+00:06:01,100 --> 00:06:03,780
+Anyway, there are many agents there among the agents
+
+158
+00:06:03,780 --> 00:06:06,000
+The communication protocol can be A to A
+
+159
+00:06:06,000 --> 00:06:07,720
+In addition to the agents
+
+160
+00:06:07,720 --> 00:06:11,360
+There are also some tools or external interface data
+
+161
+00:06:11,360 --> 00:06:14,760
+The agent calls external tools
+
+162
+00:06:14,760 --> 00:06:15,440
+interfaces or
+
+163
+00:06:15,440 --> 00:06:17,020
+The MCP protocol is used.
+
+164
+00:06:17,020 --> 00:06:20,600
+These two protocols are basically the mainstream options currently.
+
+165
+00:06:20,600 --> 00:06:22,880
+Apart from these two parts
+
+166
+00:06:22,880 --> 00:06:25,760
+The most important thing we're going to discuss today is
+
+167
+00:06:25,760 --> 00:06:27,940
+the agent orchestration layer
+
+168
+00:06:27,940 --> 00:06:30,940
+He abstracts this into a separate layer for discussion.
+
+169
+00:06:30,940 --> 00:06:34,820
+This part is about the orchestration and planning of agents
+
+170
+00:06:34,940 --> 00:06:38,540
+Within agent orchestration and planning, it is further divided into
+
+171
+00:06:38,540 --> 00:06:41,480
+He believes it consists of many components or modules.
+
+172
+00:06:41,480 --> 00:06:45,110
+That is also during the process of orchestration or planning by this agent
+
+173
+00:06:45,110 --> 00:06:47,210
+what you need to consider
+
+174
+00:06:47,210 --> 00:06:49,990
+The first part is definitely to consider the plan
+
+175
+00:06:49,990 --> 00:06:51,490
+or your policy part
+
+176
+00:06:51,490 --> 00:06:54,680
+what principles do you follow to proceed
+
+177
+00:06:54,680 --> 00:06:57,270
+the planning of your agent
+
+178
+00:06:57,270 --> 00:06:58,510
+With these principles in place
+
+179
+00:06:58,510 --> 00:07:01,750
+It is also necessary to control the entire execution process.
+
+180
+00:07:01,750 --> 00:07:04,820
+control the execution process of the agent
+
+181
+00:07:04,820 --> 00:07:06,440
+For example, which is the first agent
+
+182
+00:07:06,440 --> 00:07:07,180
+it has completed execution
+
+183
+00:07:07,180 --> 00:07:10,220
+I need to transfer this control to the second agent, right?
+
+184
+00:07:10,220 --> 00:07:13,440
+The transfer of control rights is considered in this part.
+
+185
+00:07:13,440 --> 00:07:17,400
+Then each agent needs to determine which resources to use
+
+186
+00:07:17,400 --> 00:07:20,720
+This is also an issue that orchestration planning needs to consider.
+
+187
+00:07:20,720 --> 00:07:21,520
+The third aspect is
+
+188
+00:07:21,520 --> 00:07:25,240
+the overall execution process of your
+
+189
+00:07:25,240 --> 00:07:27,100
+the transition of a state
+
+190
+00:07:27,100 --> 00:07:30,880
+What has the system's state or context changed into?
+
+191
+00:07:30,880 --> 00:07:34,020
+The fourth aspect is the overall quality control
+
+192
+00:07:34,020 --> 00:07:35,940
+For example, to which step has the execution progressed?
+
+193
+00:07:35,940 --> 00:07:37,900
+The current response is already very poor.
+
+194
+00:07:37,900 --> 00:07:39,260
+Should I terminate early
+
+195
+00:07:39,260 --> 00:07:40,620
+Do not proceed any further
+
+196
+00:07:40,620 --> 00:07:44,430
+This is all about controlling the quality of the response.
+
+197
+00:07:44,430 --> 00:07:46,570
+Finally, there are also some observation tools
+
+198
+00:07:46,570 --> 00:07:48,570
+monitor the entire execution process
+
+199
+00:07:48,570 --> 00:07:52,070
+This is the entire orchestration and planning layer.
+
+200
+00:07:52,070 --> 00:07:54,690
+some issues to consider
+
+201
+00:07:54,690 --> 00:07:57,210
+Next, let's look at some practical cases
+
+202
+00:07:57,210 --> 00:08:00,600
+let's see how they are applied in this orchestration and planning layer
+
+203
+00:08:00,600 --> 00:08:04,750
+how to apply it in actual production
+
+204
+00:08:04,990 --> 00:08:08,230
+In practical applications within multi-agent systems
+
+205
+00:08:08,230 --> 00:08:11,159
+a concept called routing is frequently used
+
+206
+00:08:11,159 --> 00:08:14,439
+This is most profoundly reflected in this paper 742.
+
+207
+00:08:14,439 --> 00:08:21,350
+This paper is titled Adaptive Orchestration
+
+208
+00:08:21,350 --> 00:08:24,980
+this self-evolving multi-agent system
+
+209
+00:08:24,980 --> 00:08:26,900
+Then let's take a look at the front part, which we'll skip for now
+
+210
+00:08:26,900 --> 00:08:29,600
+Let's look directly at its core architectural diagram
+
+211
+00:08:29,600 --> 00:08:33,700
+As we just mentioned, in a multi-agent system
+
+212
+00:08:33,700 --> 00:08:37,740
+each agent or each agent expert
+
+213
+00:08:37,740 --> 00:08:39,100
+each has its own expertise
+
+214
+00:08:39,100 --> 00:08:41,240
+and the tools they can utilize
+
+215
+00:08:41,240 --> 00:08:43,240
+Then when a request comes in
+
+216
+00:08:43,240 --> 00:08:44,800
+the first problem I need to solve
+
+217
+00:08:44,800 --> 00:08:49,010
+which expert should handle this current request
+
+218
+00:08:49,010 --> 00:08:51,370
+This is the first thing I need to consider
+
+219
+00:08:51,370 --> 00:08:53,410
+So in practice, we often
+
+220
+00:08:53,410 --> 00:08:55,839
+we will introduce a router role
+
+221
+00:08:55,839 --> 00:08:57,739
+this routing decides
+
+222
+00:08:57,739 --> 00:09:00,679
+I need to assign the current request to which expert
+
+223
+00:09:00,679 --> 00:09:04,579
+This routing is typically also implemented by a large language model.
+
+224
+00:09:04,579 --> 00:09:06,039
+In this paper,
+
+225
+00:09:06,039 --> 00:09:08,719
+He refers to this routing as a front desk.
+
+226
+00:09:08,719 --> 00:09:09,659
+You can also understand it this way
+
+227
+00:09:09,659 --> 00:09:10,239
+very vivid
+
+228
+00:09:10,239 --> 00:09:11,099
+a request comes in
+
+229
+00:09:11,099 --> 00:09:12,849
+first assign it to a front desk for processing
+
+230
+00:09:12,849 --> 00:09:15,809
+But if we use a large language model to do this
+
+231
+00:09:15,809 --> 00:09:17,429
+what problem will there be
+
+232
+00:09:17,429 --> 00:09:18,609
+is a very obvious
+
+233
+00:09:18,609 --> 00:09:22,040
+For example, when I have 100 experts behind me
+
+234
+00:09:22,040 --> 00:09:25,980
+I need to inform the front-end or the large language model
+
+235
+00:09:25,980 --> 00:09:28,980
+what are the capabilities of each expert
+
+236
+00:09:28,980 --> 00:09:30,100
+What is this expert good at?
+
+237
+00:09:30,100 --> 00:09:31,220
+what that expert is good at
+
+238
+00:09:31,220 --> 00:09:32,890
+But when I have 100 experts
+
+239
+00:09:32,890 --> 00:09:37,030
+This set of prompts describing the experts' capabilities would become very lengthy
+
+240
+00:09:37,030 --> 00:09:40,100
+occupies a very large chunk of my context
+
+241
+00:09:40,100 --> 00:09:43,640
+For example, describing each expert
+
+242
+00:09:43,640 --> 00:09:45,040
+I use 500 tokens
+
+243
+00:09:45,040 --> 00:09:48,280
+Just describing these 100 experts alone takes up 50,000 tokens
+
+244
+00:09:48,280 --> 00:09:50,380
+plus there might be historical conversations
+
+245
+00:09:50,380 --> 00:09:52,050
+The context has become very lengthy
+
+246
+00:09:52,050 --> 00:09:54,850
+At this point, the foreground is very prone to losing focus
+
+247
+00:09:54,850 --> 00:09:56,220
+he wouldn't know
+
+248
+00:09:56,220 --> 00:09:57,620
+What should I answer you
+
+249
+00:09:57,620 --> 00:09:58,660
+or what to talk about
+
+250
+00:09:58,660 --> 00:10:01,220
+then the process of routing to a certain expert
+
+251
+00:10:01,220 --> 00:10:02,589
+will also be inaccurate
+
+252
+00:10:02,589 --> 00:10:05,029
+To address this issue
+
+253
+00:10:05,029 --> 00:10:09,410
+this paper then proposes a series of various solutions
+
+254
+00:10:09,410 --> 00:10:13,050
+This paper proposes a self-evolving
+
+255
+00:10:13,050 --> 00:10:15,130
+the architecture of mixture-of-experts routing
+
+256
+00:10:15,130 --> 00:10:16,210
+It sounds quite mysterious
+
+257
+00:10:16,210 --> 00:10:17,790
+Actually, it's quite easy to understand once explained.
+
+258
+00:10:17,790 --> 00:10:18,770
+How exactly is it done?
+
+259
+00:10:18,770 --> 00:10:22,230
+First, he has an expert registry
+
+260
+00:10:22,230 --> 00:10:26,050
+that is, all experts will register in this registry
+
+261
+00:10:26,050 --> 00:10:27,150
+What do I do?
+
+262
+00:10:27,150 --> 00:10:29,490
+I have registered my expertise in there
+
+263
+00:10:29,490 --> 00:10:33,680
+Then, not all experts are active.
+
+264
+00:10:33,680 --> 00:10:36,080
+maybe only about ten experts or so
+
+265
+00:10:36,080 --> 00:10:37,440
+The most commonly used ones are placed inside first.
+
+266
+00:10:37,440 --> 00:10:39,240
+These ten experts are highly active.
+
+267
+00:10:39,240 --> 00:10:42,130
+The other 90 experts are inactive.
+
+268
+00:10:42,130 --> 00:10:45,470
+Those inactive ones will not be injected into the foreground context.
+
+269
+00:10:45,470 --> 00:10:47,810
+For example, the frontend temporarily cannot see them.
+
+270
+00:10:47,810 --> 00:10:49,170
+Then a request comes in
+
+271
+00:10:49,170 --> 00:10:50,130
+
+
+272
+00:10:50,130 --> 00:10:51,930
+If it hits one of these ten experts
+
+273
+00:10:51,930 --> 00:10:52,970
+That would of course be the best
+
+274
+00:10:52,970 --> 00:10:55,140
+directly assign it to a certain expert for processing
+
+275
+00:10:55,140 --> 00:10:57,380
+Then after this is processed
+
+276
+00:10:57,380 --> 00:10:58,080
+return the result
+
+277
+00:10:58,080 --> 00:10:59,420
+This is the best case scenario
+
+278
+00:10:59,420 --> 00:11:02,140
+What if the capability I hit
+
+279
+00:11:02,140 --> 00:11:04,020
+not one of these ten experts
+
+280
+00:11:04,020 --> 00:11:05,340
+What should I do then
+
+281
+00:11:05,490 --> 00:11:09,810
+It adopts an asynchronous compensation mechanism
+
+282
+00:11:09,810 --> 00:11:12,930
+Well, I can't answer you this time.
+
+283
+00:11:12,930 --> 00:11:13,810
+OK no problem
+
+284
+00:11:13,810 --> 00:11:16,590
+However, it establishes an asynchronous queue below
+
+285
+00:11:16,590 --> 00:11:18,850
+and then take this failed
+
+286
+00:11:18,850 --> 00:11:23,450
+This part is matched with the list of all experts
+
+287
+00:11:23,450 --> 00:11:24,890
+and then match it
+
+288
+00:11:24,890 --> 00:11:27,590
+my current capability
+
+289
+00:11:27,590 --> 00:11:30,430
+in which aspect is it lacking
+
+290
+00:11:30,430 --> 00:11:31,970
+Then, regarding this deficient part
+
+291
+00:11:31,970 --> 00:11:33,620
+which expert happens to provide
+
+292
+00:11:33,620 --> 00:11:37,420
+Then, I will register this expert back.
+
+293
+00:11:37,420 --> 00:11:38,560
+become active
+
+294
+00:11:38,560 --> 00:11:42,600
+That means the number of active experts increases
+
+295
+00:11:42,600 --> 00:11:45,060
+combined with an elimination mechanism
+
+296
+00:11:45,060 --> 00:11:47,120
+for example, some experts are not frequently used
+
+297
+00:11:47,120 --> 00:11:49,849
+I will change it from an active state to an inactive state
+
+298
+00:11:49,849 --> 00:11:51,529
+Through this mode
+
+299
+00:11:51,529 --> 00:11:53,950
+continuous activation and elimination
+
+300
+00:11:53,950 --> 00:11:57,950
+What remains in the end are the ones most frequently used by the user
+
+301
+00:11:57,950 --> 00:11:59,329
+those experts
+
+302
+00:11:59,329 --> 00:12:01,649
+This can prevent the context from becoming too lengthy
+
+303
+00:12:01,649 --> 00:12:05,269
+and avoid selecting the wrong tools, among other core issues
+
+304
+00:12:05,269 --> 00:12:08,240
+It also avoids enormous resource consumption
+
+305
+00:12:08,240 --> 00:12:10,160
+that's the advantage of this system
+
+306
+00:12:10,160 --> 00:12:11,400
+To summarize
+
+307
+00:12:11,400 --> 00:12:14,940
+Such a self-evolving system
+
+308
+00:12:14,940 --> 00:12:18,150
+can achieve dynamic loading
+
+309
+00:12:18,150 --> 00:12:21,689
+unload this specific agent
+
+310
+00:12:21,689 --> 00:12:23,049
+rather than static deployment
+
+311
+00:12:23,049 --> 00:12:26,489
+The entire agent system is no longer a static execution process
+
+312
+00:12:26,489 --> 00:12:29,069
+but rather a dynamic runtime process
+
+313
+00:12:29,069 --> 00:12:33,689
+and then based on the actual situation and the user's practical usage needs
+
+314
+00:12:33,689 --> 00:12:36,630
+to dynamically combine these expert modules in real-time
+
+315
+00:12:36,630 --> 00:12:40,230
+thereby enabling on-demand and continuous evolution
+
+316
+00:12:40,230 --> 00:12:42,650
+control resource consumption
+
+317
+00:12:42,650 --> 00:12:44,850
+This is the first paper we share today
+
+318
+00:12:44,850 --> 00:12:49,380
+this self-evolving multi-agent system
+
+319
+00:12:49,380 --> 00:12:52,960
+As just mentioned, a large language model is used as the front-end
+
+320
+00:12:52,960 --> 00:12:54,250
+as a router
+
+321
+00:12:54,250 --> 00:12:56,890
+As mentioned earlier, this approach
+
+322
+00:12:56,890 --> 00:12:58,260
+It has its shortcomings
+
+323
+00:12:58,260 --> 00:13:02,200
+Now, more often, what is actually being used is
+
+324
+00:13:02,200 --> 00:13:04,820
+using vector-based methods for routing
+
+325
+00:13:04,820 --> 00:13:07,310
+Let's take a look at this paper
+
+326
+00:13:07,310 --> 00:13:11,920
+This paper, titled 'Beyond gm3pro'
+
+327
+00:13:11,920 --> 00:13:13,980
+Revisiting Large Language Models
+
+328
+00:13:13,980 --> 00:13:17,000
+a paper on routing and integration
+
+329
+00:13:18,080 --> 00:13:20,940
+Well, it's actually about
+
+330
+00:13:20,940 --> 00:13:25,810
+an improvement to the current mainstream vector routing approach
+
+331
+00:13:25,810 --> 00:13:27,910
+But before we dive into it
+
+332
+00:13:27,910 --> 00:13:28,930
+we need to talk about
+
+333
+00:13:28,930 --> 00:13:32,490
+What is the current mainstream vector routing approach?
+
+334
+00:13:32,490 --> 00:13:34,550
+and then talk about its improvements
+
+335
+00:13:34,550 --> 00:13:37,870
+So what is the current mainstream approach to vector routing?
+
+336
+00:13:37,870 --> 00:13:39,610
+Let's take a look at this diagram
+
+337
+00:13:39,610 --> 00:13:44,680
+Look at the figure in the top right corner, it's roughly like this
+
+338
+00:13:44,680 --> 00:13:48,050
+After the user inputs a query statement
+
+339
+00:13:48,050 --> 00:13:50,070
+Ah, for example, if you want to do something like help me with something
+
+340
+00:13:50,070 --> 00:13:52,030
+then it is sent to the rou
+
+341
+00:13:52,030 --> 00:13:53,330
+routing large language model
+
+342
+00:13:53,330 --> 00:13:54,710
+or the frontend
+
+343
+00:13:54,710 --> 00:13:57,900
+It will first perform a vector matching
+
+344
+00:13:57,900 --> 00:14:01,220
+that is, I also have many expert models or agents behind me
+
+345
+00:14:01,220 --> 00:14:02,700
+Then during the training process
+
+346
+00:14:02,700 --> 00:14:06,700
+I will assign an, uh,
+
+347
+00:14:06,700 --> 00:14:09,320
+something like a capability vector
+
+348
+00:14:09,320 --> 00:14:11,030
+what it can do
+
+349
+00:14:11,030 --> 00:14:12,310
+or what questions he answers
+
+350
+00:14:12,310 --> 00:14:13,790
+has a relatively high success rate
+
+351
+00:14:13,790 --> 00:14:15,710
+such a vector
+
+352
+00:14:15,710 --> 00:14:18,319
+as an identifier vector for its model
+
+353
+00:14:18,319 --> 00:14:21,659
+Then we will simultaneously vectorize the user's input
+
+354
+00:14:21,659 --> 00:14:23,359
+also perform embedding
+
+355
+00:14:23,359 --> 00:14:24,119
+vectorization
+
+356
+00:14:24,119 --> 00:14:26,750
+Then the two vectors undergo cosine similarity matching
+
+357
+00:14:26,750 --> 00:14:28,230
+this way we can find
+
+358
+00:14:28,230 --> 00:14:32,030
+What is the most suitable expert model to answer this question?
+
+359
+00:14:32,030 --> 00:14:33,400
+you've identified it
+
+360
+00:14:33,400 --> 00:14:35,640
+Then through this vector matching
+
+361
+00:14:35,640 --> 00:14:38,120
+I'll have my front-end model
+
+362
+00:14:38,120 --> 00:14:40,750
+the authority to answer this question
+
+363
+00:14:40,750 --> 00:14:43,150
+pass it to the expert model
+
+364
+00:14:43,150 --> 00:14:44,750
+let him answer
+
+365
+00:14:44,919 --> 00:14:46,679
+At this point, sometimes one is selected
+
+366
+00:14:46,679 --> 00:14:47,919
+sometimes multiple will be selected
+
+367
+00:14:47,919 --> 00:14:49,159
+When multiple are selected
+
+368
+00:14:49,159 --> 00:14:51,519
+I also involve a final aggregation process
+
+369
+00:14:51,519 --> 00:14:55,999
+For example, I have selected three experts,
+
+370
+00:14:55,999 --> 00:15:00,510
+I will merge the results from your three experts
+
+371
+00:15:00,510 --> 00:15:02,930
+or make a selection or choice
+
+372
+00:15:02,930 --> 00:15:05,370
+can potentially address specific scenarios
+
+373
+00:15:05,370 --> 00:15:08,070
+and then return the final result to the frontend
+
+374
+00:15:08,070 --> 00:15:12,470
+which is currently the mainstream vector-based routing method
+
+375
+00:15:12,470 --> 00:15:15,630
+This vector-based routing method has many issues.
+
+376
+00:15:15,630 --> 00:15:18,550
+This paper begins to address these issues
+
+377
+00:15:18,550 --> 00:15:21,330
+The first improvement is that after a user inputs a statement,
+
+378
+00:15:21,330 --> 00:15:25,230
+I match the capabilities of this model
+
+379
+00:15:25,230 --> 00:15:26,330
+the model capability
+
+380
+00:15:26,330 --> 00:15:30,190
+no longer includes only the user's query vector
+
+381
+00:15:30,190 --> 00:15:34,480
+but also includes the vector of the model's historical responses
+
+382
+00:15:34,480 --> 00:15:37,140
+Then perform cosine similarity matching on these two parts
+
+383
+00:15:37,140 --> 00:15:39,940
+That is to say, when actually matching with the user
+
+384
+00:15:39,940 --> 00:15:42,840
+My model contains a bit more information.
+
+385
+00:15:42,840 --> 00:15:46,340
+This not only includes what he has processed in the past
+
+386
+00:15:46,340 --> 00:15:48,140
+those user questions
+
+387
+00:15:48,140 --> 00:15:51,980
+also includes the part where it previously answered users
+
+388
+00:15:51,980 --> 00:15:55,180
+may also include the length of his responses to users
+
+389
+00:15:55,180 --> 00:15:57,179
+the consumption of tokens, etc.
+
+390
+00:15:57,179 --> 00:15:59,459
+I take all these factors into consideration
+
+391
+00:15:59,459 --> 00:16:03,299
+This way, the matching results will be more accurate.
+
+392
+00:16:04,419 --> 00:16:07,679
+The second part of the improvement lies in the selection process.
+
+393
+00:16:07,679 --> 00:16:08,899
+In the past,
+
+394
+00:16:08,899 --> 00:16:12,560
+I just select the most suitable or the most capable one
+
+395
+00:16:12,560 --> 00:16:15,490
+this particular model to handle the task
+
+396
+00:16:15,490 --> 00:16:18,190
+Now, in this paper,
+
+397
+00:16:18,190 --> 00:16:22,080
+he did some filtering
+
+398
+00:16:22,080 --> 00:16:24,540
+Or I can perform filtering by domain
+
+399
+00:16:24,540 --> 00:16:26,520
+I'll first categorize this user's question
+
+400
+00:16:26,520 --> 00:16:27,940
+which field it belongs to
+
+401
+00:16:27,940 --> 00:16:30,660
+Then I'm not using all these models
+
+402
+00:16:30,660 --> 00:16:32,780
+filter within the expert-expert models
+
+403
+00:16:32,780 --> 00:16:36,750
+Instead, I need to first filter out the experts in this field
+
+404
+00:16:36,750 --> 00:16:40,920
+and then perform similarity judgment with the experts in this field
+
+405
+00:16:40,920 --> 00:16:42,400
+Finally, I'll apply weighting
+
+406
+00:16:42,400 --> 00:16:45,320
+that is, the factors I consider carry more weight, uh
+
+407
+00:16:45,320 --> 00:16:46,869
+more comprehensive
+
+408
+00:16:46,869 --> 00:16:50,120
+The third improvement is the combination method
+
+409
+00:16:50,120 --> 00:16:52,000
+For example, in the past, there would be a problem
+
+410
+00:16:52,000 --> 00:16:55,040
+when, for example, two out of three expert responses are good
+
+411
+00:16:55,040 --> 00:16:56,480
+when one is really bad
+
+412
+00:16:56,480 --> 00:16:58,280
+the previous integration result
+
+413
+00:16:58,280 --> 00:17:00,360
+will also include this terrible expert
+
+414
+00:17:00,360 --> 00:17:02,260
+And in his paper,
+
+415
+00:17:02,260 --> 00:17:05,319
+he would filter out those poorly answered ones
+
+416
+00:17:05,319 --> 00:17:06,730
+This is what we call self-adaptation
+
+417
+00:17:06,730 --> 00:17:09,450
+I discard some poor results first
+
+418
+00:17:09,450 --> 00:17:09,890
+I don't want it
+
+419
+00:17:09,890 --> 00:17:12,250
+I only want the answers from the best experts
+
+420
+00:17:12,250 --> 00:17:13,790
+and then integrate them
+
+421
+00:17:13,790 --> 00:17:17,270
+thereby improving the effectiveness of this response
+
+422
+00:17:17,270 --> 00:17:20,410
+This paper achieves through these three methods
+
+423
+00:17:20,410 --> 00:17:22,888
+Ultimately achieving the use of multiple models
+
+424
+00:17:22,888 --> 00:17:27,329
+This paper is also called Beyond JIMMIN3pro, which uses multiple models
+
+425
+00:17:27,329 --> 00:17:30,960
+this, uh, through this routing approach
+
+426
+00:17:30,960 --> 00:17:35,200
+including a solution for the response effectiveness of a single model
+
+427
+00:17:35,200 --> 00:17:36,640
+Regarding the application of routing,
+
+428
+00:17:36,640 --> 00:17:39,560
+The most complex or most impressive paper this month is
+
+429
+00:17:39,560 --> 00:17:41,420
+Ah, this is paper 308
+
+430
+00:17:41,420 --> 00:17:43,320
+called Agree Agent
+
+431
+00:17:43,320 --> 00:17:48,920
+and contract-driven planning and capability-related tool orchestration
+
+432
+00:17:48,920 --> 00:17:51,120
+a framework in the real world
+
+433
+00:17:51,120 --> 00:17:52,510
+this paper
+
+434
+00:17:52,510 --> 00:17:57,179
+It's about the set of agents they designed
+
+435
+00:17:57,179 --> 00:18:03,050
+a specific case applied in real-world agriculture
+
+436
+00:18:03,050 --> 00:18:04,790
+So what does the specific architecture look like?
+
+437
+00:18:04,790 --> 00:18:06,010
+Let's first look at the first diagram
+
+438
+00:18:06,010 --> 00:18:07,210
+Three diagrams are used to illustrate.
+
+439
+00:18:07,210 --> 00:18:09,790
+The first diagram provides an overall perspective
+
+440
+00:18:09,790 --> 00:18:12,420
+its frontend is also connected to a router
+
+441
+00:18:12,420 --> 00:18:15,540
+The router is only responsible for routing two branches
+
+442
+00:18:15,540 --> 00:18:19,220
+The first one is called the fast path or the ta path
+
+443
+00:18:19,220 --> 00:18:22,360
+It actually mimics human fast thinking and slow thinking
+
+444
+00:18:22,360 --> 00:18:27,120
+This approach uses the fast path to handle simple problems.
+
+445
+00:18:27,120 --> 00:18:29,980
+Simple tasks are assigned to this path.
+
+446
+00:18:29,980 --> 00:18:32,020
+then for more complex tasks
+
+447
+00:18:32,020 --> 00:18:35,260
+it will be routed to the slow-thinking path
+
+448
+00:18:35,959 --> 00:18:38,439
+So the design of this routing is actually quite simple
+
+449
+00:18:38,439 --> 00:18:39,679
+just needs to determine
+
+450
+00:18:39,679 --> 00:18:42,219
+the complexity of this current task is sufficient
+
+451
+00:18:42,219 --> 00:18:45,540
+and then decide which path to throw it to
+
+452
+00:18:46,310 --> 00:18:48,470
+Then let's take a look at this
+
+453
+00:18:48,470 --> 00:18:51,630
+The fast path corresponds to the fast-thinking route
+
+454
+00:18:52,290 --> 00:18:53,810
+This path is quite straightforward
+
+455
+00:18:53,810 --> 00:18:55,910
+a typical RG system
+
+456
+00:18:55,910 --> 00:18:59,710
+there are just one or two agents in it
+
+457
+00:18:59,710 --> 00:19:02,190
+and there's no complex orchestration either
+
+458
+00:19:02,190 --> 00:19:03,550
+when a problem comes up
+
+459
+00:19:03,550 --> 00:19:04,310
+After I finish processing
+
+460
+00:19:04,310 --> 00:19:06,030
+multimodal tasks are handed over to the multimodal module
+
+461
+00:19:06,030 --> 00:19:08,290
+After processing, the result is simply handed over to you and that's it.
+
+462
+00:19:08,290 --> 00:19:11,300
+Simply do a bit of enhancement and that's it.
+
+463
+00:19:12,020 --> 00:19:14,400
+The key point is the diagram below
+
+464
+00:19:14,400 --> 00:19:17,020
+that is, the so-called slow thinking path
+
+465
+00:19:17,020 --> 00:19:19,060
+Let's take a closer look
+
+466
+00:19:19,060 --> 00:19:21,660
+During this slow-thinking execution process
+
+467
+00:19:21,660 --> 00:19:24,040
+It does not have a specific execution graph.
+
+468
+00:19:24,040 --> 00:19:27,860
+So the first stage is called the planning phase
+
+469
+00:19:27,860 --> 00:19:30,140
+Creating a plan also follows a process
+
+470
+00:19:30,140 --> 00:19:33,300
+which involves multiple individuals proposing various plans
+
+471
+00:19:33,300 --> 00:19:36,240
+Then these individuals debate and revise with each other
+
+472
+00:19:36,240 --> 00:19:38,179
+continuously refine the plan
+
+473
+00:19:38,179 --> 00:19:41,319
+Finally, we arrive at a relatively mature
+
+474
+00:19:41,319 --> 00:19:44,330
+a reliable execution plan
+
+475
+00:19:44,330 --> 00:19:45,810
+such an execution plan
+
+476
+00:19:45,810 --> 00:19:48,270
+can be understood as a directed acyclic graph
+
+477
+00:19:48,270 --> 00:19:51,010
+or an execution flowchart
+
+478
+00:19:51,010 --> 00:19:52,600
+This gives us
+
+479
+00:19:52,600 --> 00:19:55,960
+Then for each node or step in the plan
+
+480
+00:19:55,960 --> 00:19:58,220
+I need to generate a requirement contract
+
+481
+00:19:58,220 --> 00:20:02,720
+In this requirement contract, it is described in a relatively abstract manner
+
+482
+00:20:02,720 --> 00:20:03,780
+depicts this stage
+
+483
+00:20:03,780 --> 00:20:04,660
+What I need to do
+
+484
+00:20:04,660 --> 00:20:07,350
+Then what capabilities and tools do I need
+
+485
+00:20:07,350 --> 00:20:09,770
+What are the inputs and outputs of this step?
+
+486
+00:20:09,770 --> 00:20:11,310
+are relatively speaking
+
+487
+00:20:11,310 --> 00:20:13,010
+described
+
+488
+00:20:13,010 --> 00:20:15,390
+Now that we have such a contract,
+
+489
+00:20:15,390 --> 00:20:19,390
+Then, I will proceed with this contract
+
+490
+00:20:19,390 --> 00:20:21,150
+contact the tool center
+
+491
+00:20:21,150 --> 00:20:24,470
+I'm going to apply for the relevant tools
+
+492
+00:20:24,470 --> 00:20:26,630
+For example, I need to use a search tool for one of them
+
+493
+00:20:26,630 --> 00:20:27,910
+then I need to apply for it
+
+494
+00:20:27,910 --> 00:20:29,550
+get the search tool
+
+495
+00:20:29,550 --> 00:20:31,179
+check if this tool is available in the library
+
+496
+00:20:31,179 --> 00:20:32,179
+If it is found
+
+497
+00:20:32,179 --> 00:20:34,139
+That would be great to add it in then
+
+498
+00:20:34,139 --> 00:20:36,079
+How do I use this tool I found?
+
+499
+00:20:36,079 --> 00:20:36,699
+What is the input
+
+500
+00:20:36,699 --> 00:20:37,219
+What is the output
+
+501
+00:20:37,219 --> 00:20:38,440
+Now I understand everything
+
+502
+00:20:38,440 --> 00:20:42,680
+There is also a negotiation process here, which is like a tug-of-war
+
+503
+00:20:42,680 --> 00:20:44,600
+Through the process of negotiation
+
+504
+00:20:44,600 --> 00:20:47,780
+I have identified the most suitable tools and components
+
+505
+00:20:47,780 --> 00:20:48,660
+Alright
+
+506
+00:20:48,660 --> 00:20:49,620
+The execution graph is ready
+
+507
+00:20:49,620 --> 00:20:51,500
+which tools to invoke in each execution graph
+
+508
+00:20:51,500 --> 00:20:52,410
+have been determined
+
+509
+00:20:52,410 --> 00:20:55,210
+The next step is to execute according to the plan.
+
+510
+00:20:55,210 --> 00:20:58,010
+Finally, there is also a verification step after the execution.
+
+511
+00:20:58,010 --> 00:21:00,310
+That's it.
+
+512
+00:21:00,310 --> 00:21:01,530
+From here we can see that
+
+513
+00:21:01,530 --> 00:21:05,010
+In fact, this slow processing procedure is quite complex.
+
+514
+00:21:05,010 --> 00:21:06,610
+If we try to understand it
+
+515
+00:21:06,610 --> 00:21:07,730
+somewhat like that
+
+516
+00:21:07,730 --> 00:21:10,090
+if we understand the way of defining workflows
+
+517
+00:21:10,090 --> 00:21:12,060
+it is during runtime
+
+518
+00:21:12,060 --> 00:21:14,760
+dynamically recreate this workflow
+
+519
+00:21:14,760 --> 00:21:18,000
+and the creation process involves a lot of back-and-forth
+
+520
+00:21:18,000 --> 00:21:19,940
+and also based on the required capabilities
+
+521
+00:21:19,940 --> 00:21:22,620
+query the tools I need from the tool library
+
+522
+00:21:22,620 --> 00:21:24,720
+and then perform a series of orchestrations
+
+523
+00:21:24,720 --> 00:21:27,490
+Finally, the process is determined and executed.
+
+524
+00:21:27,490 --> 00:21:28,070
+To summarize
+
+525
+00:21:28,070 --> 00:21:30,530
+First, it is divided into fast thinking and slow thinking
+
+526
+00:21:30,530 --> 00:21:31,490
+fast thinking
+
+527
+00:21:31,490 --> 00:21:32,630
+to solve simple tasks
+
+528
+00:21:32,630 --> 00:21:34,600
+Complex tasks enter slow thinking
+
+529
+00:21:34,600 --> 00:21:36,380
+During the process of slow thinking
+
+530
+00:21:36,380 --> 00:21:38,320
+The plan is dynamically formulated
+
+531
+00:21:38,320 --> 00:21:42,980
+is determined at runtime based on the complexity of the task
+
+532
+00:21:42,980 --> 00:21:46,600
+This avoids using a one-size-fits-all approach for all problems
+
+533
+00:21:46,600 --> 00:21:49,929
+but tailor the approach based on the specific problem's complexity
+
+534
+00:21:49,929 --> 00:21:51,889
+When designing specific plans,
+
+535
+00:21:51,889 --> 00:21:54,269
+also through this multi-step debate approach
+
+536
+00:21:54,269 --> 00:21:58,410
+to reduce errors in this plan
+
+537
+00:21:58,410 --> 00:22:01,250
+thereby enhancing the executability of the plan
+
+538
+00:22:02,570 --> 00:22:06,610
+Then at each step, it's through this contractual form, uh,
+
+539
+00:22:06,610 --> 00:22:09,210
+determines which tools to execute in each step
+
+540
+00:22:09,210 --> 00:22:12,280
+enhanced its controllability and interpretability
+
+541
+00:22:12,280 --> 00:22:13,240
+brilliant
+
+542
+00:22:13,240 --> 00:22:15,770
+A highly referential paper
+
+543
+00:22:15,770 --> 00:22:17,330
+Alright, let's go back to the mind map
+
+544
+00:22:17,330 --> 00:22:20,780
+The last paper to share is a review paper
+
+545
+00:22:20,780 --> 00:22:21,940
+This paper
+
+546
+00:22:21,940 --> 00:22:25,340
+and it's the best paper I've read this month.
+
+547
+00:22:25,340 --> 00:22:31,030
+This paper is titled 'AI Agent System Architecture, Applications, and Evaluation'
+
+548
+00:22:31,030 --> 00:22:33,310
+So this is a review paper
+
+549
+00:22:33,310 --> 00:22:38,730
+It provides a comprehensive discussion on all aspects of AI agents.
+
+550
+00:22:38,730 --> 00:22:40,410
+Let's take a look at its table of contents
+
+551
+00:22:40,410 --> 00:22:41,990
+The first part introduces
+
+552
+00:22:41,990 --> 00:22:46,450
+Part Two: The Paradigm of Intelligent Agents
+
+553
+00:22:47,680 --> 00:22:49,360
+This is also one of its features
+
+554
+00:22:49,360 --> 00:22:52,080
+this paper contains numerous diagrams
+
+555
+00:22:52,080 --> 00:22:53,480
+There are roughly over 20 figures
+
+556
+00:22:53,480 --> 00:22:56,889
+Each diagram is meticulously drawn
+
+557
+00:22:56,889 --> 00:22:59,909
+this agent in the current stage
+
+558
+00:22:59,909 --> 00:23:02,849
+For example, it talks about how to build an agent
+
+559
+00:23:02,849 --> 00:23:06,230
+He depicted each step with great clarity
+
+560
+00:23:06,310 --> 00:23:10,550
+Then, Chapter 3 is about agent learning.
+
+561
+00:23:10,550 --> 00:23:14,620
+The learning section mentions this part about agent strategies
+
+562
+00:23:14,620 --> 00:23:18,059
+or the execution strategy and mechanism part
+
+563
+00:23:18,059 --> 00:23:21,590
+This is actually the part we'll be focusing on later
+
+564
+00:23:21,590 --> 00:23:24,570
+Chapter 4 focuses on the classification of agents.
+
+565
+00:23:24,570 --> 00:23:28,430
+Chapter 5 is about the specific applications of the agents.
+
+566
+00:23:28,430 --> 00:23:30,990
+Chapter 6 evaluates this entire process
+
+567
+00:23:30,990 --> 00:23:33,050
+We can represent it with such a diagram
+
+568
+00:23:33,050 --> 00:23:35,170
+is the overall framework of the paper
+
+569
+00:23:35,170 --> 00:23:40,220
+Today, since we're discussing agent planning and routing
+
+570
+00:23:40,220 --> 00:23:42,360
+We are not covering all parts
+
+571
+00:23:42,360 --> 00:23:44,620
+So we will focus on
+
+572
+00:23:44,620 --> 00:23:48,150
+This section is about, um, planning and routing
+
+573
+00:23:48,150 --> 00:23:50,330
+its learning and evolution
+
+574
+00:23:50,330 --> 00:23:52,510
+which is part of its Chapter 3
+
+575
+00:23:52,510 --> 00:23:52,910
+Okay
+
+576
+00:23:52,910 --> 00:23:54,030
+Let's take a look at this diagram
+
+577
+00:23:54,030 --> 00:23:56,800
+that is, during the execution process of the agent
+
+578
+00:23:56,800 --> 00:23:59,220
+In what aspects can we optimize it?
+
+579
+00:23:59,220 --> 00:24:00,560
+First and foremost, at the first level
+
+580
+00:24:00,560 --> 00:24:01,880
+It must be at the model level
+
+581
+00:24:01,880 --> 00:24:02,440
+pre-training
+
+582
+00:24:02,440 --> 00:24:03,040
+model level
+
+583
+00:24:03,040 --> 00:24:05,440
+I train this to make the model perform well
+
+584
+00:24:05,440 --> 00:24:08,790
+then its planning capability or routing capability will definitely improve
+
+585
+00:24:08,790 --> 00:24:12,130
+The second part is the engineering level of the agent system.
+
+586
+00:24:12,130 --> 00:24:14,130
+That includes the fundamental architecture of the engineering.
+
+587
+00:24:14,130 --> 00:24:15,520
+the division of modules
+
+588
+00:24:15,520 --> 00:24:18,440
+then it calls the interface to return, uh
+
+589
+00:24:18,440 --> 00:24:20,880
+The process of calling the interface and returning results is more stable
+
+590
+00:24:20,880 --> 00:24:21,760
+more comprehensive data
+
+591
+00:24:21,760 --> 00:24:25,139
+This will definitely enhance the overall execution performance as well.
+
+592
+00:24:25,139 --> 00:24:27,019
+So the final part is
+
+593
+00:24:27,019 --> 00:24:29,699
+the planning and scheduling we discussed today
+
+594
+00:24:29,699 --> 00:24:32,360
+This part is the control phase
+
+595
+00:24:32,360 --> 00:24:33,840
+including your controller
+
+596
+00:24:33,840 --> 00:24:35,100
+Can you optimize it
+
+597
+00:24:35,100 --> 00:24:37,429
+Can your prompts be written better
+
+598
+00:24:37,429 --> 00:24:40,169
+Can your strategy be continuously optimized?
+
+599
+00:24:40,169 --> 00:24:44,600
+This part can also enhance the execution capability of the agent.
+
+600
+00:24:44,600 --> 00:24:47,360
+Now let's dive into the details.
+
+601
+00:24:47,360 --> 00:24:49,140
+He proposed several
+
+602
+00:24:49,140 --> 00:24:52,650
+specific approaches to enhance your agent's execution capability
+
+603
+00:24:52,650 --> 00:24:56,170
+The first approach is a reinforcement learning solution
+
+604
+00:24:56,170 --> 00:24:57,730
+Through reinforcement learning
+
+605
+00:24:57,730 --> 00:25:01,060
+that is, let the agent continuously interact with the environment
+
+606
+00:25:01,060 --> 00:25:02,400
+let it experience setbacks
+
+607
+00:25:02,400 --> 00:25:04,909
+and then enhance its execution strategy
+
+608
+00:25:04,909 --> 00:25:07,850
+This part actually enhances the model's capabilities
+
+609
+00:25:07,850 --> 00:25:10,130
+enable the model to adapt to the environment
+
+610
+00:25:10,130 --> 00:25:13,889
+The plans made will be more reliable and trustworthy.
+
+611
+00:25:14,129 --> 00:25:15,329
+Then the next part
+
+612
+00:25:15,329 --> 00:25:17,689
+The second example he talked about is called imitation learning
+
+613
+00:25:17,689 --> 00:25:20,489
+This part is also mainly used to train the model.
+
+614
+00:25:20,489 --> 00:25:23,060
+I will provide you with more of these
+
+615
+00:25:23,060 --> 00:25:25,200
+an execution path of the agent expert
+
+616
+00:25:25,200 --> 00:25:27,840
+Use these execution paths to train the model
+
+617
+00:25:27,840 --> 00:25:29,620
+the plans it makes
+
+618
+00:25:29,620 --> 00:25:32,389
+or make the plan more reliable
+
+619
+00:25:32,389 --> 00:25:34,629
+like the agricultural case we mentioned earlier
+
+620
+00:25:34,629 --> 00:25:36,649
+our entire execution plan
+
+621
+00:25:36,649 --> 00:25:41,220
+it is designed by a large model
+
+622
+00:25:41,220 --> 00:25:43,240
+design this execution plan
+
+623
+00:25:43,240 --> 00:25:46,600
+However, the approach he adopted at that time
+
+624
+00:25:46,600 --> 00:25:49,940
+through multiple rounds of tugging and debate
+
+625
+00:25:49,940 --> 00:25:52,840
+to enhance the reliability of the plan
+
+626
+00:25:52,840 --> 00:25:56,680
+Actually, the more reliable approach in academia is
+
+627
+00:25:56,680 --> 00:25:58,929
+is to provide it with more training samples
+
+628
+00:25:58,929 --> 00:26:00,489
+continuously train the model
+
+629
+00:26:00,489 --> 00:26:05,939
+to make the planning more reasonable and reliable
+
+630
+00:26:05,939 --> 00:26:08,219
+This approach is called imitation learning.
+
+631
+00:26:09,210 --> 00:26:13,090
+The third method is what we call the RGB mode after training the model.
+
+632
+00:26:13,090 --> 00:26:16,650
+often mentioned as what he calls the RGB mode
+
+633
+00:26:16,650 --> 00:26:19,110
+This part is not about training model parameters.
+
+634
+00:26:19,110 --> 00:26:21,730
+but rather designing some traffic regulations
+
+635
+00:26:21,730 --> 00:26:24,240
+the classification diagram we initially mentioned
+
+636
+00:26:24,240 --> 00:26:26,540
+those mentioned in it, those solutions
+
+637
+00:26:26,540 --> 00:26:31,280
+For example, this rule-based approach like 'if-else'
+
+638
+00:26:31,280 --> 00:26:32,960
+if this then that
+
+639
+00:26:32,960 --> 00:26:35,100
+or based on this kind of flowchart
+
+640
+00:26:35,100 --> 00:26:38,120
+For example, the previously mentioned 'define'
+
+641
+00:26:38,120 --> 00:26:39,260
+or Kozi
+
+642
+00:26:39,260 --> 00:26:40,940
+draw the flowchart in advance
+
+643
+00:26:40,940 --> 00:26:43,110
+define your execution process in advance
+
+644
+00:26:43,110 --> 00:26:46,179
+or this kind of tree-based
+
+645
+00:26:46,179 --> 00:26:48,219
+is executed through a tree-like structure for divergence
+
+646
+00:26:48,219 --> 00:26:50,019
+This includes both dynamic
+
+647
+00:26:50,019 --> 00:26:50,899
+also includes static
+
+648
+00:26:50,899 --> 00:26:55,810
+He categorized all of these under the traditional RGB-mode
+
+649
+00:26:55,810 --> 00:26:56,710
+Agent system
+
+650
+00:26:56,710 --> 00:26:59,270
+which is the orchestration capability we're discussing today
+
+651
+00:26:59,270 --> 00:27:01,950
+Finally, he mentioned one approach here, ah,
+
+652
+00:27:01,950 --> 00:27:03,390
+which is contextual learning
+
+653
+00:27:03,390 --> 00:27:05,550
+This approach is actually more advanced
+
+654
+00:27:05,550 --> 00:27:06,710
+the model has already been trained
+
+655
+00:27:06,710 --> 00:27:10,750
+the planning and routing have also been designed
+
+656
+00:27:10,750 --> 00:27:12,470
+So during execution,
+
+657
+00:27:12,470 --> 00:27:13,930
+I can also adjust the specific execution process through prompts
+
+658
+00:27:13,930 --> 00:27:16,120
+further adjust the specific execution process
+
+659
+00:27:16,120 --> 00:27:18,160
+Through these four diagrams
+
+660
+00:27:18,160 --> 00:27:21,320
+In fact, we can understand the entire agent execution process
+
+661
+00:27:21,320 --> 00:27:24,240
+This strategy is actually hierarchical.
+
+662
+00:27:24,240 --> 00:27:27,020
+It includes the training of the underlying model
+
+663
+00:27:27,020 --> 00:27:28,530
+model fine-tuning
+
+664
+00:27:28,530 --> 00:27:32,450
+including using reinforcement learning to adjust its planning
+
+665
+00:27:32,450 --> 00:27:34,060
+the output of such strategies
+
+666
+00:27:34,060 --> 00:27:38,590
+Then comes the mid-level orchestration capability of your system
+
+667
+00:27:38,590 --> 00:27:42,050
+how the system plans the execution process of agents
+
+668
+00:27:42,050 --> 00:27:43,430
+including using routing or
+
+669
+00:27:43,430 --> 00:27:45,190
+or using other mechanisms
+
+670
+00:27:45,190 --> 00:27:46,790
+to the top level
+
+671
+00:27:46,790 --> 00:27:52,069
+fine-tune the execution effectiveness of the entire agent using prompts
+
+672
+00:27:52,069 --> 00:27:53,349
+These aspects
+
+673
+00:27:53,349 --> 00:27:55,729
+These layers collectively determine
+
+674
+00:27:55,729 --> 00:27:58,700
+the ultimate behavior of your agent system
+
+675
+00:27:58,700 --> 00:28:01,300
+At the same time, it is also hybrid
+
+676
+00:28:01,300 --> 00:28:04,700
+Hybrid means that I can have both dynamic
+
+677
+00:28:04,700 --> 00:28:05,920
+it can also be static
+
+678
+00:28:05,920 --> 00:28:07,540
+I can use static
+
+679
+00:28:07,540 --> 00:28:11,180
+not defining the main process or supplementary rules
+
+680
+00:28:11,180 --> 00:28:13,270
+and then in this way
+
+681
+00:28:13,270 --> 00:28:16,100
+use workflows to ensure overall reliability
+
+682
+00:28:16,100 --> 00:28:19,820
+At the same time, introduce AI models at uncertain stages or nodes
+
+683
+00:28:19,820 --> 00:28:23,620
+It is also feasible to use the large language model for dynamic reasoning.
+
+684
+00:28:23,620 --> 00:28:27,080
+Finally, he actually proposed the so-called agent selection,
+
+685
+00:28:27,080 --> 00:28:29,180
+that is, the so-called orchestration process
+
+686
+00:28:29,180 --> 00:28:31,000
+It's actually a trade-off issue
+
+687
+00:28:31,000 --> 00:28:33,900
+If you want to improve the performance of this agent
+
+688
+00:28:33,900 --> 00:28:37,240
+essentially, it's about these variables
+
+689
+00:28:37,240 --> 00:28:40,110
+make trade-offs according to your needs
+
+690
+00:28:40,110 --> 00:28:43,070
+For example, if you want reliability
+
+691
+00:28:43,070 --> 00:28:46,170
+then you can define the process in advance
+
+692
+00:28:46,170 --> 00:28:47,739
+then you have reliability
+
+693
+00:28:47,739 --> 00:28:49,639
+If you want flexibility
+
+694
+00:28:49,639 --> 00:28:52,239
+then you can use this search-based
+
+695
+00:28:52,239 --> 00:28:54,119
+this search-based planning approach
+
+696
+00:28:54,119 --> 00:28:55,379
+such as this tree-based
+
+697
+00:28:55,379 --> 00:28:56,990
+you gain flexibility
+
+698
+00:28:56,990 --> 00:28:59,530
+but at the same time, while you have flexibility,
+
+699
+00:28:59,530 --> 00:29:02,130
+your costs and time increase
+
+700
+00:29:02,130 --> 00:29:06,030
+So when actually designing a powerful agent
+
+701
+00:29:06,030 --> 00:29:08,970
+it is necessary to consider from multiple perspectives
+
+702
+00:29:08,970 --> 00:29:11,510
+tailor it to your specific scenario
+
+703
+00:29:11,510 --> 00:29:15,090
+plan a reasonable execution path
+
+704
+00:29:15,090 --> 00:29:20,120
+At the same time, it's also necessary to consider each of these specific elements
+
+705
+00:29:20,120 --> 00:29:22,760
+balance these elements against the cost
+
+706
+00:29:22,760 --> 00:29:25,100
+Figure out exactly what you want
+
+707
+00:29:25,100 --> 00:29:29,100
+Only by designing a system in this way can it be powerful and reliable.
+
+708
+00:29:29,100 --> 00:29:29,540
+Alright
+
+709
+00:29:29,540 --> 00:29:33,480
+That's all for this month's share on agent planning and orchestration
+
+710
+00:29:33,480 --> 00:29:35,650
+the related papers mentioned
+
+711
+00:29:35,650 --> 00:29:37,030
+Hope you find it helpful
+
+712
+00:29:37,030 --> 00:29:38,830
+Remember to like and follow!
+
+713
+00:29:38,830 --> 00:29:40,100
+See you next time
+

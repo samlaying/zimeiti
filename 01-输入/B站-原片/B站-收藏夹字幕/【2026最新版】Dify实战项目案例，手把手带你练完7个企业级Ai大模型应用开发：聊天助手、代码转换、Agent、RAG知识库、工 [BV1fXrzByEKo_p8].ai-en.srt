@@ -1,0 +1,1812 @@
+1
+00:00:00,640 --> 00:00:00,920
+Okay
+
+2
+00:00:00,920 --> 00:00:01,720
+So earlier
+
+3
+00:00:01,720 --> 00:00:03,460
+We have already covered the corresponding defined
+
+4
+00:00:03,460 --> 00:00:05,360
+We have explained the three basic functions
+
+5
+00:00:05,360 --> 00:00:08,100
+Next, let's look at the other two functions of DEFI
+
+6
+00:00:08,100 --> 00:00:09,740
+One is our corresponding workflow
+
+7
+00:00:09,740 --> 00:00:10,680
+one is TELEFLOW
+
+8
+00:00:10,680 --> 00:00:12,640
+which is our chat workflow
+
+9
+00:00:12,640 --> 00:00:14,800
+Now let's take a look at the corresponding TELEFLOW
+
+10
+00:00:14,800 --> 00:00:16,180
+First, let's look at the test
+
+11
+00:00:16,180 --> 00:00:17,550
+E s t
+
+12
+00:00:19,280 --> 00:00:21,440
+Now let's look at its most basic page, okay
+
+13
+00:00:21,440 --> 00:00:22,960
+Starting from this feature
+
+14
+00:00:22,960 --> 00:00:24,880
+You'll notice that the entire page is completely different
+
+15
+00:00:24,880 --> 00:00:27,370
+It's a world of difference compared to before.
+
+16
+00:00:27,370 --> 00:00:28,250
+Previously,
+
+17
+00:00:28,250 --> 00:00:31,990
+Actually, we were operating in a single window
+
+18
+00:00:31,990 --> 00:00:34,170
+Now with this menu item,
+
+19
+00:00:34,170 --> 00:00:37,390
+Actually, the entire page layout has been modified as a whole.
+
+20
+00:00:37,390 --> 00:00:38,930
+As for these modifications
+
+21
+00:00:38,930 --> 00:00:40,150
+Let me show you one by one
+
+22
+00:00:40,150 --> 00:00:42,769
+Well, first is still the corresponding layout.
+
+23
+00:00:42,769 --> 00:00:45,129
+Our previous page was actually very inflexible.
+
+24
+00:00:45,129 --> 00:00:45,969
+With this in place
+
+25
+00:00:45,969 --> 00:00:47,169
+It functions as a page layout
+
+26
+00:00:47,169 --> 00:00:49,529
+You can freely drag and adjust it yourself
+
+27
+00:00:49,529 --> 00:00:52,140
+or we can accomplish any kind of function we want
+
+28
+00:00:52,140 --> 00:00:54,260
+Let's start by explaining this layout clearly.
+
+29
+00:00:54,260 --> 00:00:56,140
+First of all, the current layout above
+
+30
+00:00:56,140 --> 00:00:57,420
+These functions are actually all the same
+
+31
+00:00:57,420 --> 00:00:59,609
+are all consistent publishing and such
+
+32
+00:00:59,609 --> 00:01:01,109
+And the main part is on the left
+
+33
+00:01:01,109 --> 00:01:01,869
+This is also the same
+
+34
+00:01:01,869 --> 00:01:03,800
+For example, we deploy some
+
+35
+00:01:03,800 --> 00:01:05,540
+or the access API
+
+36
+00:01:05,540 --> 00:01:08,420
+Then, regarding some of the access logs,
+
+37
+00:01:08,420 --> 00:01:10,680
+And as for our corresponding monitoring section,
+
+38
+00:01:10,680 --> 00:01:12,880
+There are some important functions in this middle section.
+
+39
+00:01:12,880 --> 00:01:15,520
+The first one is to add a node
+
+40
+00:01:15,520 --> 00:01:19,230
+This node is currently on the page
+
+41
+00:01:19,230 --> 00:01:22,170
+What you can operate on are these block-by-block contents.
+
+42
+00:01:22,170 --> 00:01:23,820
+This is what we refer to as the node
+
+43
+00:01:23,820 --> 00:01:26,140
+There are many nodes that can be operated.
+
+44
+00:01:26,140 --> 00:01:29,080
+For example, if we want to operate the corresponding large model
+
+45
+00:01:29,080 --> 00:01:30,789
+perform Knowledge retrieval
+
+46
+00:01:30,789 --> 00:01:32,049
+reply to the corresponding content
+
+47
+00:01:32,049 --> 00:01:36,429
+Then there's the question classifier, conditional branching, iteration loops
+
+48
+00:01:36,429 --> 00:01:38,249
+as well as our corresponding code execution
+
+49
+00:01:38,249 --> 00:01:40,930
+I want to perform some operations or make HTTP requests, etc.
+
+50
+00:01:40,930 --> 00:01:43,250
+So this is where we can add nodes or add tools
+
+51
+00:01:43,250 --> 00:01:44,680
+This part is all feasible
+
+52
+00:01:44,680 --> 00:01:46,800
+This is what we refer to as a node.
+
+53
+00:01:46,800 --> 00:01:47,520
+Moving on to the next part
+
+54
+00:01:47,520 --> 00:01:50,000
+which we refer to as annotation
+
+55
+00:01:50,280 --> 00:01:52,340
+For example, I want to add to a certain content
+
+56
+00:01:52,340 --> 00:01:53,760
+add a comment to this node
+
+57
+00:01:53,760 --> 00:01:54,120
+Hey
+
+58
+00:01:54,120 --> 00:01:55,520
+What is this function for?
+
+59
+00:01:55,520 --> 00:02:00,550
+This is calling the large model, okay
+
+60
+00:02:00,550 --> 00:02:02,070
+So this is the function of adding annotations
+
+61
+00:02:02,070 --> 00:02:03,710
+You can see it's also a node
+
+62
+00:02:03,710 --> 00:02:05,410
+You can drag it yourself, okay?
+
+63
+00:02:05,410 --> 00:02:07,180
+Or if you don't need it, just delete it.
+
+64
+00:02:07,180 --> 00:02:08,580
+Alright, then let's move on to look at
+
+65
+00:02:08,580 --> 00:02:10,460
+It is a pointer
+
+66
+00:02:11,350 --> 00:02:12,370
+pointer function
+
+67
+00:02:12,370 --> 00:02:13,110
+The pointer function
+
+68
+00:02:13,110 --> 00:02:15,490
+It means we are fixing the page in place
+
+69
+00:02:15,490 --> 00:02:17,310
+in terms of our page operations
+
+70
+00:02:17,310 --> 00:02:19,250
+is in a local area
+
+71
+00:02:19,250 --> 00:02:20,750
+Or there is also a manual mode
+
+72
+00:02:20,750 --> 00:02:23,660
+you can drag the corresponding page by yourself
+
+73
+00:02:23,660 --> 00:02:25,060
+The upper part is fixed
+
+74
+00:02:25,060 --> 00:02:28,280
+It's like we have a fixed window here.
+
+75
+00:02:28,280 --> 00:02:29,940
+Zooming in and out works the same way
+
+76
+00:02:29,940 --> 00:02:31,760
+Then below is where we adjust the nodes
+
+77
+00:02:31,760 --> 00:02:34,760
+For example, I want to adjust a suitable layout or something.
+
+78
+00:02:34,760 --> 00:02:36,120
+We still use the manual mode.
+
+79
+00:02:36,120 --> 00:02:38,160
+It depends on how you want to use it, okay?
+
+80
+00:02:38,160 --> 00:02:41,080
+Then there's also the corresponding full-screen option
+
+81
+00:02:41,080 --> 00:02:43,660
+maximize the page, okay
+
+82
+00:02:43,660 --> 00:02:45,720
+These are some additional features we've added.
+
+83
+00:02:45,720 --> 00:02:48,380
+Next, let's take a look at some of the most core
+
+84
+00:02:48,380 --> 00:02:49,630
+the most basic nodes
+
+85
+00:02:49,630 --> 00:02:51,310
+After we have created a set flow
+
+86
+00:02:51,310 --> 00:02:52,950
+it only provides you with three nodes
+
+87
+00:02:52,950 --> 00:02:54,990
+Let's take a look at these three nodes one by one
+
+88
+00:02:54,990 --> 00:02:58,120
+The first node is called User Input
+
+89
+00:02:58,480 --> 00:02:59,600
+After clicking on the node,
+
+90
+00:02:59,600 --> 00:03:00,560
+On your right
+
+91
+00:03:00,560 --> 00:03:02,500
+It will display some information about the current node
+
+92
+00:03:02,500 --> 00:03:05,420
+For example, what will we display?
+
+93
+00:03:05,420 --> 00:03:07,450
+The first one is the Settings content
+
+94
+00:03:07,450 --> 00:03:09,010
+Another one is the last execution
+
+95
+00:03:09,010 --> 00:03:10,170
+What was the purpose of the last execution?
+
+96
+00:03:10,170 --> 00:03:11,570
+that is the chat history we display
+
+97
+00:03:11,570 --> 00:03:13,950
+What are the functions available in the Settings?
+
+98
+00:03:13,950 --> 00:03:17,400
+The first one is the input field
+
+99
+00:03:17,400 --> 00:03:19,340
+You can choose the input fields yourself.
+
+100
+00:03:19,340 --> 00:03:20,960
+For example, we add a text variable
+
+101
+00:03:20,960 --> 00:03:22,860
+just like what we used before
+
+102
+00:03:22,860 --> 00:03:24,040
+It's the same way as before
+
+103
+00:03:24,040 --> 00:03:25,300
+For example, I want to add a paragraph
+
+104
+00:03:25,300 --> 00:03:27,470
+or to add a radio button
+
+105
+00:03:27,470 --> 00:03:28,490
+or checkboxes
+
+106
+00:03:28,490 --> 00:03:30,850
+you can make selections in the chat window
+
+107
+00:03:30,850 --> 00:03:32,110
+I'll explain it to you later
+
+108
+00:03:32,110 --> 00:03:35,070
+Actually, it will have two default contents
+
+109
+00:03:37,350 --> 00:03:38,470
+Come on
+
+110
+00:03:39,680 --> 00:03:43,740
+The first default of the two defaults corresponds to the user input
+
+111
+00:03:43,740 --> 00:03:44,480
+Query
+
+112
+00:03:44,480 --> 00:03:45,280
+So what is this
+
+113
+00:03:45,280 --> 00:03:48,300
+it's the system variable, okay
+
+114
+00:03:48,300 --> 00:03:50,020
+What is the first system variable?
+
+115
+00:03:50,020 --> 00:03:52,760
+called the user input question
+
+116
+00:03:53,120 --> 00:03:53,440
+Okay
+
+117
+00:03:53,440 --> 00:03:55,620
+Let me first demonstrate how to make the call, okay?
+
+118
+00:03:55,620 --> 00:03:57,760
+we click on preview
+
+119
+00:03:58,110 --> 00:03:59,470
+After clicking on the preview
+
+120
+00:03:59,470 --> 00:04:01,170
+Let's first take a look at the most basic page.
+
+121
+00:04:01,170 --> 00:04:02,270
+For example, if I reply with a
+
+122
+00:04:02,270 --> 00:04:07,130
+Hello, can you see it?
+
+123
+00:04:07,130 --> 00:04:09,170
+Can you see the difference?
+
+124
+00:04:10,100 --> 00:04:13,430
+Now let's think about this issue
+
+125
+00:04:13,430 --> 00:04:15,490
+This is the same as the previous usage, right?
+
+126
+00:04:15,490 --> 00:04:16,630
+There is no difference
+
+127
+00:04:16,630 --> 00:04:18,709
+But what's the difference compared to before?
+
+128
+00:04:18,709 --> 00:04:21,690
+You will see that after each node is executed
+
+129
+00:04:21,690 --> 00:04:24,120
+there will also be a green checkmark at the end
+
+130
+00:04:24,120 --> 00:04:24,680
+Okay
+
+131
+00:04:24,680 --> 00:04:26,440
+This is the execution process
+
+132
+00:04:26,440 --> 00:04:27,700
+So, I'll execute this one first
+
+133
+00:04:27,700 --> 00:04:28,600
+then execute this one
+
+134
+00:04:28,600 --> 00:04:30,080
+Then execute this one, okay
+
+135
+00:04:30,080 --> 00:04:32,280
+If an issue occurs while running a node
+
+136
+00:04:32,280 --> 00:04:33,740
+It will mark you with a cross
+
+137
+00:04:33,740 --> 00:04:36,780
+For example, if the current node reports an error or encounters some issue
+
+138
+00:04:36,780 --> 00:04:39,370
+Then the content is actually the same.
+
+139
+00:04:39,370 --> 00:04:42,670
+Similarly, we can click on its detailed execution
+
+140
+00:04:42,670 --> 00:04:45,879
+But what exactly is the execution logic? Okay
+
+141
+00:04:45,879 --> 00:04:50,840
+Now, let's first look at the initial input content
+
+142
+00:04:50,840 --> 00:04:52,340
+Overall execution flow
+
+143
+00:04:52,340 --> 00:04:53,400
+This is the input content
+
+144
+00:04:53,400 --> 00:04:54,420
+What is the input content?
+
+145
+00:04:54,420 --> 00:04:57,040
+is the input performed by the current start node
+
+146
+00:04:57,040 --> 00:04:58,560
+It has some default parameters
+
+147
+00:04:58,560 --> 00:05:01,460
+For example, the first one is the system file
+
+148
+00:05:01,460 --> 00:05:03,560
+because we have some, uh, windows
+
+149
+00:05:03,560 --> 00:05:04,760
+We can provide files
+
+150
+00:05:04,760 --> 00:05:05,960
+or provide images and so on
+
+151
+00:05:05,960 --> 00:05:08,010
+This is the information for providing files.
+
+152
+00:05:08,010 --> 00:05:10,610
+And there's also this UC ID
+
+153
+00:05:10,610 --> 00:05:13,300
+This is the ID information of the current user.
+
+154
+00:05:13,300 --> 00:05:15,220
+Because we will have many users logging in later on.
+
+155
+00:05:15,220 --> 00:05:17,460
+Many users can access your account and such.
+
+156
+00:05:17,460 --> 00:05:18,760
+and then app id
+
+157
+00:05:18,760 --> 00:05:22,500
+Then there are some IDs of this working workflow.
+
+158
+00:05:22,500 --> 00:05:26,890
+And also, for example, the corresponding running ID
+
+159
+00:05:26,890 --> 00:05:28,730
+This is the question raised by our user.
+
+160
+00:05:28,730 --> 00:05:32,550
+Next is the number of inspections by our system, okay
+
+161
+00:05:32,550 --> 00:05:34,830
+So where does this come from?
+
+162
+00:05:34,830 --> 00:05:37,470
+Actually, what we just saw are two things.
+
+163
+00:05:37,470 --> 00:05:39,470
+one is the user query
+
+164
+00:05:39,470 --> 00:05:40,870
+This is what we just saw
+
+165
+00:05:40,870 --> 00:05:42,380
+Another one is the user's FA
+
+166
+00:05:42,380 --> 00:05:43,820
+Now, for the remaining few
+
+167
+00:05:43,820 --> 00:05:45,040
+for example, the user's ID
+
+168
+00:05:45,040 --> 00:05:46,750
+and also like our corresponding workflow ID
+
+169
+00:05:46,750 --> 00:05:48,450
+So what is this used for?
+
+170
+00:05:48,450 --> 00:05:49,430
+It is actually used
+
+171
+00:05:49,430 --> 00:05:51,870
+Because in this workflow stage
+
+172
+00:05:51,870 --> 00:05:53,650
+It actually has a feature called memory function
+
+173
+00:05:53,650 --> 00:05:55,000
+called memory
+
+174
+00:05:55,000 --> 00:05:57,340
+But we don't actually need to consider the memory function.
+
+175
+00:05:57,340 --> 00:05:57,960
+this memory function
+
+176
+00:05:57,960 --> 00:05:59,760
+If we want to implement it ourselves through code
+
+177
+00:05:59,760 --> 00:06:01,840
+it is relatively more complex
+
+178
+00:06:01,840 --> 00:06:02,840
+So here,
+
+179
+00:06:02,840 --> 00:06:04,020
+In DEFI
+
+180
+00:06:04,020 --> 00:06:05,480
+How does this workflow record
+
+181
+00:06:05,480 --> 00:06:06,200
+your conversation
+
+182
+00:06:06,200 --> 00:06:07,440
+is through these IDs
+
+183
+00:06:07,440 --> 00:06:09,490
+This information can be used for recording.
+
+184
+00:06:09,490 --> 00:06:11,110
+Next is the corresponding output
+
+185
+00:06:11,110 --> 00:06:14,320
+The output content is what we get after invoking the large model
+
+186
+00:06:14,320 --> 00:06:15,720
+the information output to you
+
+187
+00:06:15,720 --> 00:06:18,660
+Then the information we output, well, one is the corresponding, um,
+
+188
+00:06:18,660 --> 00:06:20,180
+This is the user's thought
+
+189
+00:06:20,180 --> 00:06:22,790
+Then there is our corresponding reply, okay
+
+190
+00:06:22,790 --> 00:06:24,690
+This is the complete execution process.
+
+191
+00:06:24,690 --> 00:06:27,010
+Then the tracking process is actually the same as before
+
+192
+00:06:27,010 --> 00:06:28,700
+First is the user input
+
+193
+00:06:28,700 --> 00:06:31,120
+Then the data is processed, but there is nothing to output.
+
+194
+00:06:31,120 --> 00:06:32,440
+what is the output information
+
+195
+00:06:32,440 --> 00:06:33,940
+Then comes the large model
+
+196
+00:06:33,940 --> 00:06:35,660
+the information received by the large model
+
+197
+00:06:35,660 --> 00:06:37,940
+The input content corresponds to
+
+198
+00:06:37,940 --> 00:06:38,620
+Hello
+
+199
+00:06:38,620 --> 00:06:41,200
+It will convert the data into a prompt.
+
+200
+00:06:41,200 --> 00:06:42,419
+Do you see it
+
+201
+00:06:42,419 --> 00:06:44,479
+It has transformed it into data for the prompt.
+
+202
+00:06:44,479 --> 00:06:48,690
+Then, your mode is a chat mode.
+
+203
+00:06:48,690 --> 00:06:50,050
+The file is empty.
+
+204
+00:06:50,050 --> 00:06:51,770
+This is the user input content
+
+205
+00:06:51,770 --> 00:06:54,039
+And then there's the prompt information
+
+206
+00:06:54,039 --> 00:06:55,379
+a token of the prompt
+
+207
+00:06:55,379 --> 00:06:58,559
+Then some printed data information of the prompt
+
+208
+00:06:58,559 --> 00:07:00,199
+Some information will be recorded here
+
+209
+00:07:00,199 --> 00:07:02,779
+Then comes the output content from our model
+
+210
+00:07:02,779 --> 00:07:04,499
+The output information looks like this
+
+211
+00:07:04,499 --> 00:07:06,520
+There is also a direct reply
+
+212
+00:07:06,520 --> 00:07:08,280
+Show him the direct reply
+
+213
+00:07:08,280 --> 00:07:10,160
+This direct reply compared to our previous one
+
+214
+00:07:10,160 --> 00:07:12,700
+Actually, why is there such a thing?
+
+215
+00:07:12,700 --> 00:07:14,620
+Isn't the large model here directly replying?
+
+216
+00:07:14,620 --> 00:07:18,260
+Why is there this current, um, direct reply thing?
+
+217
+00:07:18,260 --> 00:07:20,600
+But I already have such a step above
+
+218
+00:07:20,600 --> 00:07:21,440
+there is this thing
+
+219
+00:07:21,440 --> 00:07:22,680
+Why is there another one below
+
+220
+00:07:22,680 --> 00:07:25,370
+Why don't I just directly output from the large model, right?
+
+221
+00:07:25,370 --> 00:07:26,490
+Why is there
+
+222
+00:07:26,490 --> 00:07:27,900
+Because later on
+
+223
+00:07:27,900 --> 00:07:31,040
+What I display now can be defined by myself
+
+224
+00:07:31,040 --> 00:07:33,060
+For example, I only display the content replied by the large model
+
+225
+00:07:33,060 --> 00:07:35,620
+but some data, for example, I don't want to show to the user
+
+226
+00:07:35,620 --> 00:07:37,110
+You can set it up yourself
+
+227
+00:07:37,110 --> 00:07:40,030
+So it separates the two functions, okay
+
+228
+00:07:40,030 --> 00:07:41,750
+This is its overall workflow
+
+229
+00:07:41,750 --> 00:07:45,710
+Next, let's take a look at each specific process within the workflow
+
+230
+00:07:45,710 --> 00:07:46,950
+what each node does
+
+231
+00:07:46,950 --> 00:07:49,030
+The first one is the start node
+
+232
+00:07:49,530 --> 00:07:52,430
+As for the start node, well, not much is shown here.
+
+233
+00:07:52,430 --> 00:07:53,610
+He only showed two
+
+234
+00:07:53,610 --> 00:07:54,090
+one is fail
+
+235
+00:07:54,090 --> 00:07:54,990
+one is query
+
+236
+00:07:54,990 --> 00:07:57,860
+There should actually be something like the last run
+
+237
+00:07:57,860 --> 00:07:58,980
+displayed from the last run
+
+238
+00:07:58,980 --> 00:08:00,500
+there should be these UI IDs or
+
+239
+00:08:00,500 --> 00:08:02,940
+app id these would have system defaults
+
+240
+00:08:02,940 --> 00:08:04,470
+but it is not displayed here
+
+241
+00:08:04,470 --> 00:08:07,350
+Then there's our next step
+
+242
+00:08:07,350 --> 00:08:09,450
+after our current node completes execution
+
+243
+00:08:09,450 --> 00:08:10,690
+what to do next
+
+244
+00:08:10,690 --> 00:08:13,300
+For example, the next node I'm going to execute is this large model
+
+245
+00:08:13,300 --> 00:08:16,380
+So, the first step in the large model should be clearly explained to everyone, right?
+
+246
+00:08:16,380 --> 00:08:18,380
+some content entered by the user
+
+247
+00:08:18,380 --> 00:08:19,260
+the user's input questions
+
+248
+00:08:19,260 --> 00:08:21,649
+as well as the files and other data transmitted by our users
+
+249
+00:08:21,649 --> 00:08:22,449
+for example, adding fields
+
+250
+00:08:22,449 --> 00:08:23,689
+You can set the restrictions yourself.
+
+251
+00:08:23,689 --> 00:08:25,069
+Let's get familiar first
+
+252
+00:08:25,069 --> 00:08:26,689
+Then let's move on to the second node
+
+253
+00:08:26,689 --> 00:08:31,060
+that is, my LMOK, how you want to write this name
+
+254
+00:08:31,060 --> 00:08:32,159
+You can determine it yourself
+
+255
+00:08:32,159 --> 00:08:36,469
+For example, this node is for calling the large model.
+
+256
+00:08:36,469 --> 00:08:37,808
+You can determine it yourself.
+
+257
+00:08:37,808 --> 00:08:40,289
+You can give it a corresponding name yourself.
+
+258
+00:08:40,289 --> 00:08:42,489
+Next, let's look at the corresponding part, which also has the last execution
+
+259
+00:08:42,489 --> 00:08:43,889
+It displays the corresponding data.
+
+260
+00:08:43,889 --> 00:08:46,349
+We are recording his information, okay
+
+261
+00:08:46,349 --> 00:08:49,250
+The first model can be selected by yourself
+
+262
+00:08:49,250 --> 00:08:50,810
+For example, which model do we choose
+
+263
+00:08:50,810 --> 00:08:52,600
+For example, we use Qwen, right?
+
+264
+00:08:52,600 --> 00:08:53,800
+or what other models we use
+
+265
+00:08:53,800 --> 00:08:55,000
+can be determined by yourself
+
+266
+00:08:55,000 --> 00:08:58,959
+For example, we can switch to the corresponding chain3's max, okay
+
+267
+00:08:58,959 --> 00:08:59,779
+Looking further ahead
+
+268
+00:08:59,779 --> 00:09:01,139
+there will also be something called context
+
+269
+00:09:01,139 --> 00:09:02,319
+What is the context?
+
+270
+00:09:02,319 --> 00:09:04,719
+as we mentioned before
+
+271
+00:09:04,719 --> 00:09:05,659
+Will there be a Knowledge?
+
+272
+00:09:05,659 --> 00:09:07,380
+Knowledge base Knowledge base
+
+273
+00:09:07,380 --> 00:09:09,020
+We will generate the corresponding context
+
+274
+00:09:09,020 --> 00:09:11,580
+Then we will add the data from the knowledge base here
+
+275
+00:09:11,580 --> 00:09:13,870
+Currently, we don't have this and therefore don't need to add it.
+
+276
+00:09:13,870 --> 00:09:15,490
+Then here is the system prompt
+
+277
+00:09:15,490 --> 00:09:17,750
+This system prompt is to tell the large model hey
+
+278
+00:09:17,750 --> 00:09:19,090
+What is your current role?
+
+279
+00:09:19,090 --> 00:09:23,730
+For example, you are a translation assistant.
+
+280
+00:09:23,730 --> 00:09:25,410
+This is the system prompt
+
+281
+00:09:25,410 --> 00:09:27,270
+You can also add information
+
+282
+00:09:27,270 --> 00:09:29,330
+For example, I want to add a round of conversation
+
+283
+00:09:29,330 --> 00:09:30,770
+I want the large model to know
+
+284
+00:09:30,770 --> 00:09:31,940
+what I roughly want to do
+
+285
+00:09:31,940 --> 00:09:33,860
+For example, this assigns a role to the user
+
+286
+00:09:33,860 --> 00:09:36,900
+If you want to add or convert this danmu (bullet comment) reply
+
+287
+00:09:36,900 --> 00:09:38,860
+or you can add it here
+
+288
+00:09:38,860 --> 00:09:41,260
+He said, well, this is a question raised by the user
+
+289
+00:09:41,260 --> 00:09:41,860
+Hello
+
+290
+00:09:41,860 --> 00:09:44,040
+Or say, hey, I'm Baichuan
+
+291
+00:09:44,040 --> 00:09:45,500
+then the next time it remembers
+
+292
+00:09:45,500 --> 00:09:46,220
+he knows oh
+
+293
+00:09:46,220 --> 00:09:48,570
+So this user is Baichuan, okay
+
+294
+00:09:48,570 --> 00:09:49,710
+Then let's look further
+
+295
+00:09:49,710 --> 00:09:50,770
+It has a memory function
+
+296
+00:09:50,770 --> 00:09:52,329
+The memory function is built-in.
+
+297
+00:09:52,329 --> 00:09:53,009
+Do you see it?
+
+298
+00:09:53,009 --> 00:09:54,469
+There is also a built-in memory function
+
+299
+00:09:54,469 --> 00:09:55,969
+Who performs the memory function
+
+300
+00:09:55,969 --> 00:09:57,609
+When we receive user input,
+
+301
+00:09:57,609 --> 00:10:00,450
+It actually has corresponding information
+
+302
+00:10:01,290 --> 00:10:04,830
+this this this will have this information
+
+303
+00:10:04,830 --> 00:10:07,790
+used to record your memory function
+
+304
+00:10:07,790 --> 00:10:08,790
+Then looking further ahead
+
+305
+00:10:08,790 --> 00:10:12,339
+it will have content defined as user user
+
+306
+00:10:12,339 --> 00:10:15,099
+which is actually the same as the questions asked by our users
+
+307
+00:10:15,099 --> 00:10:16,699
+Let's delete it first.
+
+308
+00:10:16,699 --> 00:10:21,350
+Alright, so these are the questions raised by the user U
+
+309
+00:10:21,350 --> 00:10:24,570
+or forwarded from the first node to you
+
+310
+00:10:24,570 --> 00:10:26,170
+So the data we can receive
+
+311
+00:10:26,170 --> 00:10:28,060
+How do I get the corresponding content?
+
+312
+00:10:28,060 --> 00:10:29,140
+is a forward slash
+
+313
+00:10:29,140 --> 00:10:33,000
+For example, we have the academic data obtained from the previous node
+
+314
+00:10:33,000 --> 00:10:35,260
+and some system prompts in the
+
+315
+00:10:35,260 --> 00:10:37,220
+For example, there is the ID in the system
+
+316
+00:10:37,220 --> 00:10:38,600
+This is what we saw earlier
+
+317
+00:10:38,600 --> 00:10:39,420
+One is the system
+
+318
+00:10:39,420 --> 00:10:40,880
+one is user input
+
+319
+00:10:40,880 --> 00:10:43,160
+User input refers to the information entered here.
+
+320
+00:10:43,160 --> 00:10:45,000
+We have two user inputs, right?
+
+321
+00:10:45,000 --> 00:10:46,120
+One is a file
+
+322
+00:10:46,120 --> 00:10:47,850
+one is the user's question
+
+323
+00:10:47,850 --> 00:10:48,250
+Okay
+
+324
+00:10:48,250 --> 00:10:48,730
+then here
+
+325
+00:10:48,730 --> 00:10:51,750
+For example, I want to retrieve the user's question, right?
+
+326
+00:10:51,750 --> 00:10:52,690
+called user
+
+327
+00:10:52,690 --> 00:10:54,290
+called query
+
+328
+00:10:54,570 --> 00:10:56,050
+Take it over, okay
+
+329
+00:10:56,050 --> 00:10:58,150
+So now this is the question raised by the user
+
+330
+00:10:58,150 --> 00:11:01,570
+Then whether there is memory and how many rounds of memory
+
+331
+00:11:01,949 --> 00:11:04,309
+For example, if you want to remember as much as you want
+
+332
+00:11:04,309 --> 00:11:06,230
+you can fill it in yourself
+
+333
+00:11:06,230 --> 00:11:08,510
+Also, note that the more rounds of memory you have
+
+334
+00:11:08,510 --> 00:11:09,850
+you will consume more tokens
+
+335
+00:11:09,850 --> 00:11:11,870
+So we generally set it up like this
+
+336
+00:11:11,870 --> 00:11:13,940
+the corresponding number of rounds will be limited
+
+337
+00:11:13,940 --> 00:11:15,300
+Then there's something like visual learning,
+
+338
+00:11:15,300 --> 00:11:16,600
+because we have some models
+
+339
+00:11:16,600 --> 00:11:18,980
+It supports this kind of image recognition
+
+340
+00:11:18,980 --> 00:11:20,500
+or our image processing
+
+341
+00:11:20,500 --> 00:11:22,950
+If the model doesn't support this feature, then you can't click on it.
+
+342
+00:11:22,950 --> 00:11:26,070
+And then there is, for example, enabling the corresponding inference
+
+343
+00:11:27,230 --> 00:11:30,590
+Then there's the thinking mode
+
+344
+00:11:30,590 --> 00:11:31,450
+Then let's look at what comes next
+
+345
+00:11:31,450 --> 00:11:33,660
+our output variables
+
+346
+00:11:34,220 --> 00:11:35,660
+What are the output variables?
+
+347
+00:11:35,660 --> 00:11:39,470
+Let's first look at the input variables, which are from the large model
+
+348
+00:11:39,830 --> 00:11:41,630
+after the user's question
+
+349
+00:11:41,630 --> 00:11:43,070
+it actually needs to output some content
+
+350
+00:11:43,070 --> 00:11:47,520
+The first one is the corresponding text output by the large model.
+
+351
+00:11:47,520 --> 00:11:51,630
+and then there's the content we've been contemplating
+
+352
+00:11:51,630 --> 00:11:53,370
+that is, the content of the thought mode
+
+353
+00:11:53,370 --> 00:11:55,090
+Next is the usage information
+
+354
+00:11:55,090 --> 00:11:57,190
+We will inform you, um
+
+355
+00:11:57,190 --> 00:11:59,910
+how many tokens were used in this instance
+
+356
+00:11:59,910 --> 00:12:01,650
+and how many tokens the image prompt has
+
+357
+00:12:01,650 --> 00:12:02,550
+token and so on
+
+358
+00:12:02,550 --> 00:12:05,410
+Then there will be something called a failure retry hypothesis below
+
+359
+00:12:05,410 --> 00:12:07,050
+After this error occurs
+
+360
+00:12:07,050 --> 00:12:08,070
+How many times do you want to retry
+
+361
+00:12:08,070 --> 00:12:11,880
+because we have some of what is actually called robustness properties
+
+362
+00:12:11,880 --> 00:12:12,860
+the robustness mechanism
+
+363
+00:12:12,860 --> 00:12:15,740
+We try our best to avoid some errors.
+
+364
+00:12:15,740 --> 00:12:17,130
+This can also be set by yourself.
+
+365
+00:12:17,130 --> 00:12:19,210
+Then, how to handle exceptions
+
+366
+00:12:19,210 --> 00:12:21,839
+For example, if an error occurs in the exception branch
+
+367
+00:12:21,839 --> 00:12:23,419
+we need to call something else
+
+368
+00:12:23,419 --> 00:12:24,619
+Then proceed to the next step
+
+369
+00:12:24,619 --> 00:12:25,759
+what we need to do next
+
+370
+00:12:25,759 --> 00:12:27,270
+just reply directly
+
+371
+00:12:27,270 --> 00:12:29,710
+So what exactly is included in the direct reply?
+
+372
+00:12:29,710 --> 00:12:32,810
+First, the information we reply with in the Settings
+
+373
+00:12:32,810 --> 00:12:35,720
+It adds a call to the large model
+
+374
+00:12:35,720 --> 00:12:38,440
+So how many output contents should there be when calling the large model?
+
+375
+00:12:40,320 --> 00:12:41,750
+We currently only have one
+
+376
+00:12:41,750 --> 00:12:43,350
+In fact, there would be three
+
+377
+00:12:43,350 --> 00:12:44,950
+as we just saw, there are actually three
+
+378
+00:12:44,950 --> 00:12:46,490
+For example, there is taste
+
+379
+00:12:46,490 --> 00:12:48,650
+Let's say we output all three, okay
+
+380
+00:12:48,650 --> 00:12:49,270
+Test
+
+381
+00:12:49,270 --> 00:12:53,890
+And there's also the corresponding content of the thought
+
+382
+00:12:53,890 --> 00:12:54,710
+Furthermore, for example
+
+383
+00:12:54,710 --> 00:12:58,220
+I want to output some of the user's information
+
+384
+00:12:58,220 --> 00:13:00,400
+Why are these two nodes separated?
+
+385
+00:13:00,400 --> 00:13:01,280
+on this point
+
+386
+00:13:01,280 --> 00:13:03,920
+Actually, there are some pieces of information that I don't want the user to know.
+
+387
+00:13:03,920 --> 00:13:05,400
+For example, how many tokens you've consumed
+
+388
+00:13:05,400 --> 00:13:06,360
+how much data is consumed
+
+389
+00:13:06,360 --> 00:13:08,120
+But these are things I don't want users to know
+
+390
+00:13:08,120 --> 00:13:10,580
+Therefore, we can choose two nodes for output.
+
+391
+00:13:10,580 --> 00:13:14,140
+Now, these are the three most basic nodes we have
+
+392
+00:13:14,140 --> 00:13:16,080
+its functionality and how to invoke it
+
+393
+00:13:16,080 --> 00:13:18,360
+I'll also publish it
+
+394
+00:13:18,360 --> 00:13:19,480
+Let's see the effect
+
+395
+00:13:20,600 --> 00:13:22,220
+Let's preview it now
+
+396
+00:13:22,220 --> 00:13:23,480
+Let's ask a question
+
+397
+00:13:23,480 --> 00:13:24,640
+Hello
+
+398
+00:13:28,000 --> 00:13:31,040
+Well, you'll notice the data I'm providing now
+
+399
+00:13:31,040 --> 00:13:32,500
+It contains a lot of content.
+
+400
+00:13:32,500 --> 00:13:34,960
+For example, the first one is our reply from the large model
+
+401
+00:13:34,960 --> 00:13:36,930
+the content replied to you taste
+
+402
+00:13:37,050 --> 00:13:40,010
+Then, the second one is some information about our thoughts.
+
+403
+00:13:40,010 --> 00:13:43,090
+Because the current model does not have the form of thinking
+
+404
+00:13:43,090 --> 00:13:45,620
+You can switch to a thinking model
+
+405
+00:13:45,620 --> 00:13:48,500
+For example, some of our thoughts um
+
+406
+00:13:48,500 --> 00:13:53,510
+Hmm, let's change this. It seems like the correct one, right?
+
+407
+00:13:55,200 --> 00:13:57,560
+Wait a moment, hello
+
+408
+00:14:06,340 --> 00:14:07,860
+You will notice that the output information
+
+409
+00:14:07,860 --> 00:14:09,920
+has become one is the output from our large model
+
+410
+00:14:09,920 --> 00:14:11,260
+And then there's also the thought process, right?
+
+411
+00:14:11,260 --> 00:14:14,020
+And another one is the corresponding current prompt.
+
+412
+00:14:14,020 --> 00:14:15,290
+how many tokens does it use
+
+413
+00:14:15,290 --> 00:14:19,700
+For example, its price is called 0.016
+
+414
+00:14:19,700 --> 00:14:20,780
+How much did this cost
+
+415
+00:14:20,780 --> 00:14:22,520
+Then how many are being used?
+
+416
+00:14:22,520 --> 00:14:24,620
+This actually shows how much was used and what the price is
+
+417
+00:14:24,620 --> 00:14:25,840
+Blah blah blah and so on
+
+418
+00:14:25,840 --> 00:14:28,820
+which is to record the consumption of your current conversation.
+
+419
+00:14:28,820 --> 00:14:31,280
+What are the contents of the consumption?
+
+420
+00:14:31,280 --> 00:14:33,080
+OK then these things
+
+421
+00:14:33,080 --> 00:14:34,360
+Actually, we don't need to display it
+
+422
+00:14:34,360 --> 00:14:36,520
+So we will make this DEFI platform
+
+423
+00:14:36,520 --> 00:14:37,840
+is split into two parts
+
+424
+00:14:37,840 --> 00:14:39,320
+but the content we want to display
+
+425
+00:14:39,320 --> 00:14:41,390
+We generally refer to the output of the large model.
+
+426
+00:14:41,390 --> 00:14:42,350
+if we don't want it
+
+427
+00:14:42,350 --> 00:14:46,380
+Just delete it directly
+
+428
+00:14:47,360 --> 00:14:50,400
+Let's take a look at the data refresh
+
+429
+00:14:50,400 --> 00:14:51,640
+Hello
+
+430
+00:14:54,360 --> 00:14:56,440
+Alright, now we can see its input information
+
+431
+00:14:56,440 --> 00:14:58,710
+there won't be those price-related parts
+
+432
+00:14:58,710 --> 00:15:03,310
+So this is the most basic way of using it in the workflow
+
+433
+00:15:03,310 --> 00:15:05,590
+One is the input of our node
+
+434
+00:15:05,590 --> 00:15:06,830
+then call the large model
+
+435
+00:15:06,830 --> 00:15:07,910
+then directly reply
+
+436
+00:15:07,910 --> 00:15:11,730
+Then add a demonstration for it
+
+437
+00:15:11,810 --> 00:15:12,410
+Baichuan
+
+438
+00:15:14,610 --> 00:15:15,170
+Remember
+
+439
+00:15:15,170 --> 00:15:19,509
+the large model in this usage process
+
+440
+00:15:19,509 --> 00:15:21,229
+it actually does not provide
+
+441
+00:15:21,229 --> 00:15:22,589
+does not have this memory function
+
+442
+00:15:22,589 --> 00:15:25,029
+it doesn't know what your previous round of conversation was
+
+443
+00:15:25,029 --> 00:15:27,395
+For example, let me add another one 'Who am I'
+
+444
+00:15:31,920 --> 00:15:35,140
+OK, now it has this memory function
+
+445
+00:15:35,140 --> 00:15:36,760
+The so-called memory function
+
+446
+00:15:36,760 --> 00:15:39,250
+our single-modal form is stateless
+
+447
+00:15:39,410 --> 00:15:41,910
+This should be the most fundamental point for everyone to understand.
+
+448
+00:15:41,910 --> 00:15:43,510
+Because it does not have a memory function.
+
+449
+00:15:43,510 --> 00:15:44,370
+However, in the case of DEFI
+
+450
+00:15:44,370 --> 00:15:46,230
+This workflow includes this feature
+
+451
+00:15:46,230 --> 00:15:48,799
+It automatically helps you achieve this memory function.
+
+452
+00:15:48,799 --> 00:15:53,239
+So this is the most basic way to use our workflow.
+
+453
+00:15:53,239 --> 00:15:55,400
+It's not the most basic usage of our cha flow
+

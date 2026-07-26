@@ -1,0 +1,1312 @@
+1
+00:00:00,000 --> 00:00:01,320
+Being a Product Manager without any technical knowledge...
+
+2
+00:00:01,320 --> 00:00:02,400
+and the developers are always giving you a hard time.
+
+3
+00:00:02,400 --> 00:00:04,320
+Plus, when developers start talking about APIs, you just can't follow what they're saying.
+
+4
+00:00:04,320 --> 00:00:05,320
+When it comes to project scheduling,
+
+5
+00:00:05,320 --> 00:00:08,000
+This is because the Product Manager failed to consider the issues related to API integration.
+
+6
+00:00:08,000 --> 00:00:09,730
+resulting in project delays and other issues.
+
+7
+00:00:09,730 --> 00:00:11,730
+In the day-to-day work of a product manager,
+
+8
+00:00:11,730 --> 00:00:14,210
+If you're aiming for a monthly salary of 15,000, or even 20,000 or more,
+
+9
+00:00:14,210 --> 00:00:16,170
+it's essential to understand API interfaces.
+
+10
+00:00:16,170 --> 00:00:18,710
+So today, we're going to break it all down in this one video.
+
+11
+00:00:18,710 --> 00:00:21,250
+This is a great learning resource for both new and experienced Product Managers.
+
+12
+00:00:21,250 --> 00:00:23,780
+If you can master this one guide on API interfaces,
+
+13
+00:00:23,780 --> 00:00:24,900
+In 90% of your communications with developers,
+
+14
+00:00:24,900 --> 00:00:27,340
+and you'll be able to communicate on the same wavelength.
+
+15
+00:00:27,340 --> 00:00:29,100
+You can leave a comment to get the materials.
+
+16
+00:00:29,100 --> 00:00:32,140
+I'm going to send you the essential API interface knowledge every Product Manager must know.
+
+17
+00:00:32,140 --> 00:00:34,600
+So today, we'll be covering three main areas.
+
+18
+00:00:34,600 --> 00:00:36,980
+
+
+19
+00:00:36,980 --> 00:00:38,720
+First, the system flowchart.
+
+20
+00:00:38,720 --> 00:00:40,020
+Second, the API interface list.
+
+21
+00:00:40,020 --> 00:00:41,180
+And third, the input and output.
+
+22
+00:00:41,180 --> 00:00:43,820
+So, what exactly determines all of this?
+
+23
+00:00:43,820 --> 00:00:46,019
+Let's dive right into a project case to explain this.
+
+24
+00:00:46,019 --> 00:00:47,659
+First, right at the very beginning,
+
+25
+00:00:47,659 --> 00:00:49,659
+So, what are the use cases for an API interface?
+
+26
+00:00:49,659 --> 00:00:51,879
+It's when I'm dealing with cross-system integration.
+
+27
+00:00:51,879 --> 00:00:54,200
+That's where I'll need an API interface to make the call.
+
+28
+00:00:54,200 --> 00:00:55,640
+Or another way is through MQ.
+
+29
+00:00:55,640 --> 00:00:56,720
+But that's less common.
+
+30
+00:00:56,720 --> 00:00:58,340
+So, let's focus on the more common method: the API interface.
+
+31
+00:00:58,340 --> 00:01:00,500
+For instance, let's say we have our own ERP system.
+
+32
+00:01:00,500 --> 00:01:04,099
+But I need to send the order over to the WMS warehouse to get it shipped.
+
+33
+00:01:04,099 --> 00:01:06,319
+So, in this scenario, between the order system and the WMS...
+
+34
+00:01:06,319 --> 00:01:07,999
+It's all about the flow of data between them.
+
+35
+00:01:07,999 --> 00:01:09,960
+And this is done by connecting them through an API interface.
+
+36
+00:01:09,960 --> 00:01:11,240
+So, as a product manager,
+
+37
+00:01:11,240 --> 00:01:13,040
+So, how deep do I need to go into this?
+
+38
+00:01:13,040 --> 00:01:14,320
+
+
+39
+00:01:14,320 --> 00:01:16,440
+First, we'll need to create a system flowchart.
+
+40
+00:01:16,440 --> 00:01:18,320
+So, this is my overall system flowchart.
+
+41
+00:01:18,320 --> 00:01:19,840
+what our system does during the integration,
+
+42
+00:01:19,840 --> 00:01:20,880
+and what the other system does.
+
+43
+00:01:20,880 --> 00:01:22,540
+The second part is the API interface list.
+
+44
+00:01:22,540 --> 00:01:26,020
+In other words, which interfaces do I need to provide for other systems to call?
+
+45
+00:01:26,020 --> 00:01:27,920
+And what interfaces do they need to provide to me?
+
+46
+00:01:27,920 --> 00:01:29,020
+for me to call.
+
+47
+00:01:29,020 --> 00:01:30,280
+And the third one is the output.
+
+48
+00:01:30,280 --> 00:01:35,060
+So, we need to determine what our output is, because the output dictates the input.
+
+49
+00:01:35,060 --> 00:01:37,860
+So today, in this one video, I'm going to break it all down for you.
+
+50
+00:01:37,860 --> 00:01:39,220
+This is something every Product Manager must know.
+
+51
+00:01:39,220 --> 00:01:42,260
+So, let's break down the three key aspects of API interfaces.
+
+52
+00:01:42,260 --> 00:01:43,260
+First up, the system flowchart.
+
+53
+00:01:43,260 --> 00:01:44,100
+I'll use an order as an example. We'll also cover this in more detail in a future dedicated topic.
+
+54
+00:01:44,100 --> 00:01:45,640
+So let me break it down for you.
+
+55
+00:01:45,640 --> 00:01:47,560
+We'll cover that in a dedicated topic later on.
+
+56
+00:01:47,560 --> 00:01:48,960
+For example, let's say I'm out shopping.
+
+57
+00:01:48,960 --> 00:01:51,380
+I click 'Submit Order' at this step.
+
+58
+00:01:51,380 --> 00:01:53,280
+Just a simple action, right?
+
+59
+00:01:53,280 --> 00:01:55,880
+So, what kind of integration is actually happening between the systems here?
+
+60
+00:01:55,880 --> 00:01:58,720
+In medium to large-sized companies, the various subsystems are independent of each other.
+
+61
+00:01:58,720 --> 00:02:02,400
+So, from a system perspective, the first thing is that my front-end development will call...
+
+62
+00:02:02,400 --> 00:02:04,900
+the backend, which is the 'create pending payment order' API.
+
+63
+00:02:04,900 --> 00:02:06,820
+At the same time, the system needs to handle some internal processes.
+
+64
+00:02:06,820 --> 00:02:08,280
+First, you need to check if the product is listed or delisted.
+
+65
+00:02:08,280 --> 00:02:09,020
+If it's been taken down,
+
+66
+00:02:09,020 --> 00:02:09,940
+your order creation will fail.
+
+67
+00:02:09,940 --> 00:02:10,539
+Second,
+
+68
+00:02:10,539 --> 00:02:12,820
+If you're using a coupon or spending points,
+
+69
+00:02:12,820 --> 00:02:14,540
+I need to freeze the coupon or the points.
+
+70
+00:02:14,540 --> 00:02:16,340
+If I'm participating in a flash sale,
+
+71
+00:02:16,340 --> 00:02:16,860
+or a group-buying event,
+
+72
+00:02:16,860 --> 00:02:19,640
+I need to verify if your promotion is currently active.
+
+73
+00:02:19,640 --> 00:02:21,100
+Is there enough inventory for the event?
+
+74
+00:02:21,100 --> 00:02:22,500
+and whether the user's purchase limit has been reached.
+
+75
+00:02:22,500 --> 00:02:23,900
+So, all of these are things I need to verify.
+
+76
+00:02:23,900 --> 00:02:25,100
+If any one of these fails,
+
+77
+00:02:25,100 --> 00:02:25,820
+the whole thing fails.
+
+78
+00:02:25,820 --> 00:02:28,400
+Third, I need to lock the inventory at the sales layer.
+
+79
+00:02:28,400 --> 00:02:29,520
+First, we need to lock it down.
+
+80
+00:02:29,520 --> 00:02:31,360
+So, it's just a small, simple step,
+
+81
+00:02:31,360 --> 00:02:33,440
+So, as data flows through our system,
+
+82
+00:02:33,440 --> 00:02:35,340
+This involves the integration between different systems.
+
+83
+00:02:35,340 --> 00:02:37,240
+And that's where we use something called an API interface.
+
+84
+00:02:37,240 --> 00:02:40,580
+So, for API interfaces, when we're talking about the overall process of designing a system flowchart,
+
+85
+00:02:40,580 --> 00:02:43,300
+So, let's go over a few common terms to get everyone on the same page.
+
+86
+00:02:43,300 --> 00:02:48,800
+The main concepts are pull versus push, and synchronous versus asynchronous. I'll get into the details of those in the next part of the process.
+
+87
+00:02:48,800 --> 00:02:51,800
+So, the general rule we follow is: whoever the arrow is pointing to...
+
+88
+00:02:51,800 --> 00:02:52,640
+that's the one who provides the interface.
+
+89
+00:02:52,640 --> 00:02:54,360
+Because the order system is the core system.
+
+90
+00:02:54,360 --> 00:02:56,780
+So, it has to be the one to initiate the transaction logic.
+
+91
+00:02:56,780 --> 00:02:58,740
+So, we're the ones initiating the order.
+
+92
+00:02:58,740 --> 00:03:01,470
+It queries the product system to check if an item is listed or not.
+
+93
+00:03:01,470 --> 00:03:03,390
+So, what's our second rule?
+
+94
+00:03:03,390 --> 00:03:05,450
+So, which system is generally considered the upstream in a data flow?
+
+95
+00:03:05,450 --> 00:03:07,900
+Who is responsible for pushing the data down to me?
+
+96
+00:03:07,900 --> 00:03:10,680
+For example, let's say in my order system, after an order is split, a shipping order is generated.
+
+97
+00:03:10,680 --> 00:03:12,600
+and have the WMS system handle the shipping.
+
+98
+00:03:12,600 --> 00:03:14,600
+So, where does the WMS system fit into this process?
+
+99
+00:03:14,600 --> 00:03:16,900
+It needs to receive the shipping order information before it can process the shipment.
+
+100
+00:03:16,900 --> 00:03:18,800
+So, in this case, the order system is the upstream system.
+
+101
+00:03:18,800 --> 00:03:21,040
+And the WMS, it's the downstream system for the data.
+
+102
+00:03:21,040 --> 00:03:23,500
+So, it's the order system's responsibility to push the data down.
+
+103
+00:03:23,500 --> 00:03:24,440
+But, there are exceptions.
+
+104
+00:03:24,440 --> 00:03:26,480
+I'll also cover the pull scenario in a bit.
+
+105
+00:03:26,480 --> 00:03:27,800
+So, what about the input and output fields?
+
+106
+00:03:30,510 --> 00:03:32,350
+So, in this specific scenario,
+
+107
+00:03:32,350 --> 00:03:34,110
+So, in the scenario where I'm creating a pending-payment order,
+
+108
+00:03:34,110 --> 00:03:35,590
+So, once I've drawn out the system flowchart,
+
+109
+00:03:35,590 --> 00:03:39,340
+Then I'll know how to organize the API integration list.
+
+110
+00:03:39,340 --> 00:03:41,220
+So, let me show you an example table I've put together.
+
+111
+00:03:41,220 --> 00:03:42,060
+The API provider,
+
+112
+00:03:42,060 --> 00:03:45,090
+the caller, the API name, and its current status.
+
+113
+00:03:45,090 --> 00:03:46,450
+So, how should we look at this?
+
+114
+00:03:46,450 --> 00:03:50,950
+For example, the front end calls the back end's interface in the order system to create a pending-payment order.
+
+115
+00:03:50,950 --> 00:03:55,850
+So, it's the front-end, the front-end development engineer, calling the API interface of the order system.
+
+116
+00:03:55,850 --> 00:03:57,750
+Ultimately, the API interface is written by the backend developers.
+
+117
+00:03:57,750 --> 00:03:59,460
+But as a Product Manager, you should be aware of this.
+
+118
+00:03:59,460 --> 00:04:00,920
+Right, the interface, the interface list, and the input/output fields.
+
+119
+00:04:00,920 --> 00:04:03,140
+So, whenever you're working on product design for the B2B side of things,
+
+120
+00:04:03,140 --> 00:04:04,800
+and it becomes something you can handle with ease.
+
+121
+00:04:04,800 --> 00:04:07,760
+So, for our order system, we'll provide an interface for creating a 'pending payment' order.
+
+122
+00:04:07,760 --> 00:04:10,920
+So, this part involves both the existing and the newly added components.
+
+123
+00:04:10,920 --> 00:04:13,780
+I'll explain in a bit. When we talk about order synchronization, what does it actually do? Well, it's doing this:
+
+124
+00:04:13,780 --> 00:04:16,140
+and it's queried in real-time.
+
+125
+00:04:16,140 --> 00:04:17,839
+This locks the inventory at the sales layer.
+
+126
+00:04:17,839 --> 00:04:19,779
+So, the system the arrow points to is the one that provides the API.
+
+127
+00:04:19,779 --> 00:04:22,040
+So, it's the Order system that goes and locks the inventory.
+
+128
+00:04:22,040 --> 00:04:24,520
+So, the inventory system provides the interface to my order system.
+
+129
+00:04:24,520 --> 00:04:25,900
+I'm going to lock the inventory at the sales layer.
+
+130
+00:04:25,900 --> 00:04:29,460
+So, this is the diagram we've drawn. And the arrow points to whoever is providing the interface.
+
+131
+00:04:29,460 --> 00:04:30,240
+So, who's providing the interface?
+
+132
+00:04:30,240 --> 00:04:31,780
+Because the order system is the core system.
+
+133
+00:04:31,780 --> 00:04:34,789
+So, it's the one that issues the commands and handles the execution.
+
+134
+00:04:34,789 --> 00:04:35,749
+Alright, let's move on.
+
+135
+00:04:35,749 --> 00:04:36,949
+So, what does this status refer to?
+
+136
+00:04:36,949 --> 00:04:39,269
+So, is this an existing API, or a new one that needs to be created?
+
+137
+00:04:39,269 --> 00:04:40,220
+or modifying an existing one.
+
+138
+00:04:40,220 --> 00:04:42,880
+Because both adding new APIs and modifying existing ones will involve the development team's workload.
+
+139
+00:04:42,880 --> 00:04:44,380
+This means the developers will have to modify the integration.
+
+140
+00:04:44,380 --> 00:04:45,320
+That all involves a certain amount of work.
+
+141
+00:04:45,320 --> 00:04:47,180
+Alright, let's move on and take a look at what's next.
+
+142
+00:04:47,180 --> 00:04:48,740
+So, for this WMS step,
+
+143
+00:04:48,740 --> 00:04:53,120
+Because my order system needs to send a shipping order to the WMS for fulfillment.
+
+144
+00:04:53,120 --> 00:04:56,020
+The warehouse staff operate within the WMS, the warehouse management system.
+
+145
+00:04:56,020 --> 00:04:59,220
+So, the process is that the order system sends the shipping manifest to the WMS for it to receive.
+
+146
+00:04:59,220 --> 00:05:00,920
+So, what about our inputs and outputs in this process?
+
+147
+00:05:00,920 --> 00:05:03,980
+So, what are the factors that help us make that decision?
+
+148
+00:05:03,980 --> 00:05:05,680
+We'll go over that in a moment.
+
+149
+00:05:05,680 --> 00:05:08,760
+Now, as we go through the API interface list, let's add a few key terms to our vocabulary.
+
+150
+00:05:08,760 --> 00:05:09,940
+one is called pulling.
+
+151
+00:05:09,940 --> 00:05:10,820
+and the other is 'push'.
+
+152
+00:05:10,820 --> 00:05:11,620
+Synchronous.
+
+153
+00:05:11,620 --> 00:05:12,660
+We've already covered what asynchronous means.
+
+154
+00:05:12,660 --> 00:05:15,200
+Synchronous means it's real-time. It's like, I'm calling your inventory.
+
+155
+00:05:15,200 --> 00:05:16,740
+and you tell me right away, 'lock successful'.
+
+156
+00:05:16,740 --> 00:05:17,280
+or that the lock failed.
+
+157
+00:05:17,280 --> 00:05:18,540
+This is what we call 'synchronous'.
+
+158
+00:05:18,540 --> 00:05:20,340
+So, 'synchronous' means I'm the one calling your WMS.
+
+159
+00:05:20,340 --> 00:05:22,980
+The WMS tells me whether it received the request successfully or not.
+
+160
+00:05:22,980 --> 00:05:25,140
+So, did the shipping department receive it successfully, or did it fail?
+
+161
+00:05:25,140 --> 00:05:26,140
+But at this point, the WMS...
+
+162
+00:05:26,140 --> 00:05:28,160
+it can't tell me the outcome of the shipment.
+
+163
+00:05:28,160 --> 00:05:29,660
+Because it's going to need over four hours to process the order.
+
+164
+00:05:29,660 --> 00:05:31,660
+or even over 8 hours of warehouse operations.
+
+165
+00:05:31,660 --> 00:05:32,380
+Once the shipment is complete,
+
+166
+00:05:32,380 --> 00:05:35,850
+Only then will it notify me, saying, "The shipment is complete."
+
+167
+00:05:35,850 --> 00:05:38,030
+So, when it comes to notifying us of the shipping result,
+
+168
+00:05:38,030 --> 00:05:39,929
+It has to be asynchronous. Asynchronous means it's not real-time.
+
+169
+00:05:39,929 --> 00:05:41,769
+So, what's the relationship between pulling and pushing?
+
+170
+00:05:41,769 --> 00:05:43,769
+Like, I push the data to them.
+
+171
+00:05:43,769 --> 00:05:46,109
+Sometimes, the upstream system just pushes the data down.
+
+172
+00:05:46,109 --> 00:05:47,789
+This is what we call a 'push'.
+
+173
+00:05:47,789 --> 00:05:49,060
+This is the general principle.
+
+174
+00:05:49,060 --> 00:05:51,540
+But can we say that the WMS pulls the data instead?
+
+175
+00:05:51,540 --> 00:05:53,020
+Even though I'm the downstream party receiving the data,
+
+176
+00:05:53,020 --> 00:05:54,580
+
+
+177
+00:05:54,580 --> 00:05:56,700
+Or, it really just depends on how your company defines it.
+
+178
+00:05:56,700 --> 00:05:59,190
+Anyway, from a development perspective, both approaches are perfectly implementable.
+
+179
+00:05:59,190 --> 00:06:01,310
+If you need something that's more real-time,
+
+180
+00:06:01,310 --> 00:06:02,630
+Just push the data down to me.
+
+181
+00:06:02,630 --> 00:06:04,710
+I can say, 'Pull the data every 15 minutes.'
+
+182
+00:06:04,710 --> 00:06:05,590
+I don't need it in real-time.
+
+183
+00:06:05,590 --> 00:06:07,419
+Alternatively, you could also implement it using a pull method.
+
+184
+00:06:07,419 --> 00:06:09,439
+So, what are the use cases for the pull method?
+
+185
+00:06:09,439 --> 00:06:14,790
+The typical use case for a pull scenario is when I have one upstream party dealing with n number of downstream parties.
+
+186
+00:06:14,790 --> 00:06:16,970
+So in this case, I'm using a pull-based approach to get it done.
+
+187
+00:06:16,970 --> 00:06:18,620
+Take Vipshop's platform, for example.
+
+188
+00:06:18,620 --> 00:06:21,100
+Vipshop is clearly the one that generates the order in the first place.
+
+189
+00:06:21,100 --> 00:06:23,260
+So, why would we have the merchants pull the orders themselves?
+
+190
+00:06:23,260 --> 00:06:25,360
+I don't need to integrate with every single one of you merchants.
+
+191
+00:06:25,360 --> 00:06:27,040
+I can just define my own standards.
+
+192
+00:06:27,040 --> 00:06:29,100
+So, you have n merchants pulling orders.
+
+193
+00:06:29,100 --> 00:06:30,580
+So, this is what we call 'pulling'. Okay?
+
+194
+00:06:30,580 --> 00:06:32,440
+Alright, so we've got a clear understanding of pull and push now.
+
+195
+00:06:32,440 --> 00:06:33,720
+Alright, let's move on.
+
+196
+00:06:33,720 --> 00:06:35,440
+Input and Output API Interface List.
+
+197
+00:06:35,440 --> 00:06:37,280
+
+
+198
+00:06:37,280 --> 00:06:40,990
+Then I'll move on to the input and output part. The reason you can even create an API interface list...
+
+199
+00:06:40,990 --> 00:06:43,330
+depends on your system flowchart being completed.
+
+200
+00:06:43,330 --> 00:06:45,310
+The reason you're able to create the system flowchart...
+
+201
+00:06:45,310 --> 00:06:47,220
+First, you need to understand what's inside each system.
+
+202
+00:06:47,220 --> 00:06:48,540
+What is its function?
+
+203
+00:06:48,540 --> 00:06:49,340
+what it does,
+
+204
+00:06:49,340 --> 00:06:50,160
+What is its role?
+
+205
+00:06:50,160 --> 00:06:53,420
+Second, in this process, which system is the core system?
+
+206
+00:06:53,420 --> 00:06:54,900
+Take the order system, for example. It's the core system for everything.
+
+207
+00:06:54,900 --> 00:06:56,380
+For example, let's take an order.
+
+208
+00:06:56,380 --> 00:06:58,560
+I need to proactively check whether a product is listed or delisted.
+
+209
+00:06:58,560 --> 00:07:00,160
+I need to lock the inventory at the sales layer.
+
+210
+00:07:00,160 --> 00:07:01,300
+So, this is what we call a core system.
+
+211
+00:07:01,300 --> 00:07:02,540
+And that includes the Order system.
+
+212
+00:07:02,540 --> 00:07:03,200
+the after-sales system,
+
+213
+00:07:03,200 --> 00:07:04,720
+The procurement system is also part of the core system.
+
+214
+00:07:04,720 --> 00:07:07,200
+So, you need to be proactive and take the initiative to get things done.
+
+215
+00:07:07,200 --> 00:07:09,420
+So, here are some tips for when you're drawing the system flowchart.
+
+216
+00:07:09,420 --> 00:07:12,500
+So, for the API interface list, the arrow points to whoever provides the interface.
+
+217
+00:07:12,500 --> 00:07:14,360
+So, based on the flow of data between systems,
+
+218
+00:07:14,360 --> 00:07:15,720
+Because you're the upstream party in the data flow.
+
+219
+00:07:15,720 --> 00:07:16,920
+So, you're the one pushing the data downstream.
+
+220
+00:07:16,920 --> 00:07:20,460
+So, we'll just follow the principle we've established here to get this done.
+
+221
+00:07:20,460 --> 00:07:23,600
+So, what determines what the inputs and outputs should be?
+
+222
+00:07:23,600 --> 00:07:24,920
+specifically, for my API interface.
+
+223
+00:07:24,920 --> 00:07:27,260
+So, in this process, the Product Manager needs to have a general idea of the inputs and outputs.
+
+224
+00:07:27,260 --> 00:07:29,240
+So, we can break this down into two scenarios.
+
+225
+00:07:29,240 --> 00:07:32,360
+The first scenario is when my front end makes a call to the back end.
+
+226
+00:07:32,360 --> 00:07:35,040
+So, for example, let's say I have a front-end page that's just for displaying data, and it needs to call the back-end.
+
+227
+00:07:35,040 --> 00:07:36,400
+For example, let's say this is the product list page.
+
+228
+00:07:36,400 --> 00:07:37,600
+or the product details page.
+
+229
+00:07:37,600 --> 00:07:40,160
+So, how do we determine what these inputs and outputs look like?
+
+230
+00:07:40,160 --> 00:07:41,280
+Let me show you a case study.
+
+231
+00:07:41,280 --> 00:07:42,560
+And you'll get a general idea.
+
+232
+00:07:42,560 --> 00:07:44,460
+For example, let's take the front-end of a Points Mall.
+
+233
+00:07:44,460 --> 00:07:50,080
+So, what I need to do now is design an API for retrieving the list of items available for points redemption.
+
+234
+00:07:50,080 --> 00:07:51,289
+Alright, let's take a look at this interface.
+
+235
+00:07:51,289 --> 00:07:55,689
+So, for this interface, you'll definitely need my R&D team to handle the output.
+
+236
+00:07:55,689 --> 00:07:57,649
+Because my points system is the one sending the data back.
+
+237
+00:07:57,649 --> 00:07:59,970
+So, what do I need to see on my interface?
+
+238
+00:07:59,970 --> 00:08:02,030
+So you have to give me the output fields.
+
+239
+00:08:02,030 --> 00:08:03,210
+So, what do I need to see on my interface?
+
+240
+00:08:03,210 --> 00:08:04,130
+For example, the product image.
+
+241
+00:08:04,130 --> 00:08:05,050
+Like, the product name.
+
+242
+00:08:05,050 --> 00:08:06,530
+For example, the points to be deducted.
+
+243
+00:08:06,530 --> 00:08:07,480
+Like, the unit price.
+
+244
+00:08:07,480 --> 00:08:08,900
+So, you just give me those values.
+
+245
+00:08:08,900 --> 00:08:10,160
+So, what I need to see on my interface, that's what's in your output.
+
+246
+00:08:10,160 --> 00:08:12,880
+What I need to see on my interface, that's what I'm querying from you.
+
+247
+00:08:12,880 --> 00:08:15,970
+So, you have to tell me what determines its input.
+
+248
+00:08:15,970 --> 00:08:17,610
+So, what determines your output?
+
+249
+00:08:17,610 --> 00:08:20,160
+So, you can think of the input simply as a query condition.
+
+250
+00:08:20,160 --> 00:08:22,080
+You need to tell me what your member ID is.
+
+251
+00:08:22,080 --> 00:08:24,360
+You need to tell me which channel you're making the request from.
+
+252
+00:08:24,360 --> 00:08:28,800
+Only then can I figure out which products this member can access through this specific channel.
+
+253
+00:08:28,800 --> 00:08:31,820
+So, this part is on the front-end, within a query page.
+
+254
+00:08:31,820 --> 00:08:33,220
+So, what determines its output?
+
+255
+00:08:33,220 --> 00:08:35,360
+So, let's look at what you need to display on the page.
+
+256
+00:08:35,360 --> 00:08:36,880
+So, in terms of the output,
+
+257
+00:08:36,880 --> 00:08:39,299
+So, what determines what my input should look like?
+
+258
+00:08:39,299 --> 00:08:40,659
+So it's basically a query condition.
+
+259
+00:08:40,659 --> 00:08:42,419
+So, what determines your output?
+
+260
+00:08:42,419 --> 00:08:43,779
+Because you're telling me the member code,
+
+261
+00:08:43,779 --> 00:08:46,160
+You tell me which channel you're using, and that's how I determine your output.
+
+262
+00:08:46,160 --> 00:08:48,520
+So, this is what the front-end query page needs.
+
+263
+00:08:48,520 --> 00:08:51,290
+Alright, let's move on to a backend example.
+
+264
+00:08:51,290 --> 00:08:53,650
+Alright, for the backend, let's stick with our example of the order system and WMS.
+
+265
+00:08:53,650 --> 00:08:55,250
+Because this is a classic example.
+
+266
+00:08:55,250 --> 00:08:57,290
+This is something you'll basically run into right after you start the job.
+
+267
+00:08:57,290 --> 00:08:59,530
+I need to send the shipping order to the WMS for fulfillment.
+
+268
+00:08:59,530 --> 00:09:00,770
+So, it's a backend-to-backend call.
+
+269
+00:09:00,770 --> 00:09:02,690
+So, what's the deciding factor here?
+
+270
+00:09:02,690 --> 00:09:04,350
+So, in my overall output,
+
+271
+00:09:04,350 --> 00:09:07,630
+So, let's take a look at what the WMS needs to process a shipment.
+
+272
+00:09:07,630 --> 00:09:10,730
+So, for the input fields, it's about what the API provider needs. Whatever data they require, you have to provide it.
+
+273
+00:09:10,730 --> 00:09:11,760
+Alright.
+
+274
+00:09:11,760 --> 00:09:14,980
+So, for the inputs, it's about what the API provider needs from you. You have to give it to them.
+
+275
+00:09:14,980 --> 00:09:17,420
+So, what does the WMS need in order to ship the goods?
+
+276
+00:09:17,420 --> 00:09:19,020
+Alright, let's get back to the order part.
+
+277
+00:09:19,020 --> 00:09:19,580
+Hold on a sec.
+
+278
+00:09:19,580 --> 00:09:23,380
+So, let me pull up for you what the WMS needs at this point to be able to ship the order.
+
+279
+00:09:23,380 --> 00:09:25,500
+So, for the WMS, the first thing you need when you're shipping...
+
+280
+00:09:25,500 --> 00:09:26,920
+You need to tell me who to send it to.
+
+281
+00:09:26,920 --> 00:09:28,400
+What's the shipping address?
+
+282
+00:09:28,400 --> 00:09:29,440
+and all the recipient's information.
+
+283
+00:09:29,440 --> 00:09:31,360
+So, which channel is this order actually coming from?
+
+284
+00:09:31,360 --> 00:09:32,240
+For instance, let's take your JD.com order.
+
+285
+00:09:32,240 --> 00:09:33,920
+Then my packaging needs to be done for JD.com's courier service.
+
+286
+00:09:33,920 --> 00:09:35,560
+or an order from Vipshop.
+
+287
+00:09:35,560 --> 00:09:38,280
+then for packing, I have to follow the specific packaging requirements of Vipshop.
+
+288
+00:09:38,280 --> 00:09:39,600
+Which shipping order number are you going to ship?
+
+289
+00:09:39,600 --> 00:09:41,000
+And which warehouse is it being shipped from?
+
+290
+00:09:41,000 --> 00:09:42,300
+So, which products need to be shipped?
+
+291
+00:09:42,300 --> 00:09:43,940
+So, this is what the WMS needs.
+
+292
+00:09:43,940 --> 00:09:46,160
+So, what information does the WMS need to process the shipment?
+
+293
+00:09:46,160 --> 00:09:47,910
+So, you provide these as the input fields.
+
+294
+00:09:47,910 --> 00:09:49,890
+So, at this point, what determines the output?
+
+295
+00:09:49,890 --> 00:09:52,310
+The output is determined by the system that's calling your API.
+
+296
+00:09:52,310 --> 00:09:53,070
+So, for the order, what do you want?
+
+297
+00:09:53,070 --> 00:09:53,960
+I'll provide the output.
+
+298
+00:09:53,960 --> 00:09:55,540
+But I can't give you the output right now.
+
+299
+00:09:55,540 --> 00:09:57,940
+Because all I can do is tell you whether the reception was successful or failed.
+
+300
+00:09:57,940 --> 00:10:00,000
+Because to actually ship the goods, I need some time.
+
+301
+00:10:00,000 --> 00:10:00,840
+It's going to take me four hours.
+
+302
+00:10:00,840 --> 00:10:02,550
+or five hours. It's a waiting game, there's just some waiting involved.
+
+303
+00:10:02,550 --> 00:10:06,630
+So, we have another API integration step to follow up on.
+
+304
+00:10:06,630 --> 00:10:07,430
+My shipment is complete.
+
+305
+00:10:07,430 --> 00:10:08,940
+and then I'll let you know the result of the shipment.
+
+306
+00:10:08,940 --> 00:10:12,580
+So, this is the complete set of output items we're dealing with.
+
+307
+00:10:12,580 --> 00:10:15,420
+The inputs are determined by the party providing the interface.
+
+308
+00:10:15,420 --> 00:10:16,740
+So, just remember this one rule.
+
+309
+00:10:16,740 --> 00:10:18,900
+And as for the output,
+
+310
+00:10:18,900 --> 00:10:21,440
+In other words, what does the party calling the API want?
+
+311
+00:10:21,440 --> 00:10:23,020
+So I'll just give it to them like this.
+
+312
+00:10:23,020 --> 00:10:25,600
+So, you can apply this principle, a simple one-two-three rule.
+
+313
+00:10:25,600 --> 00:10:27,920
+Alright, so the first thing we're going to cover today is the system flowchart.
+
+314
+00:10:27,920 --> 00:10:29,340
+The second is the API integration list.
+
+315
+00:10:29,340 --> 00:10:32,160
+
+
+316
+00:10:32,160 --> 00:10:34,600
+You can go ahead and write this part for the R&D team.
+
+317
+00:10:34,600 --> 00:10:37,460
+But ultimately, for things like the English field names and data types,
+
+318
+00:10:37,460 --> 00:10:38,960
+The developers can just define that on their own.
+
+319
+00:10:38,960 --> 00:10:41,400
+As a product manager, I'll define the inputs and outputs from the business side.
+
+320
+00:10:41,400 --> 00:10:43,420
+I just need to understand the data flow between systems.
+
+321
+00:10:43,420 --> 00:10:45,480
+So, how exactly do I go about making this integration happen?
+
+322
+00:10:45,480 --> 00:10:48,520
+And the materials related to today's topic on API interfaces will also be sent out to all of you.
+
+323
+00:10:48,520 --> 00:10:49,860
+If you have any questions,
+
+324
+00:10:49,860 --> 00:10:51,360
+You can also leave a message in the comments section.
+
+325
+00:10:51,360 --> 00:10:53,560
+Or, just find my comment in the comment section to get the materials.
+
+326
+00:10:53,560 --> 00:10:54,980
+Product Managers working with APIs.
+
+327
+00:10:54,980 --> 00:10:56,660
+This is a crucial piece of knowledge you absolutely must master.
+
+328
+00:10:56,660 --> 00:10:58,680
+and I'll send them all over to you.
+

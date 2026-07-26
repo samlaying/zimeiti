@@ -1,0 +1,592 @@
+1
+00:00:00,740 --> 00:00:01,020
+Alright
+
+2
+00:00:01,020 --> 00:00:04,100
+Let's refactor the code for our audio in this lesson
+
+3
+00:00:04,100 --> 00:00:05,820
+and the hardware audio code
+
+4
+00:00:05,820 --> 00:00:08,810
+This refactoring will be the final result
+
+5
+00:00:08,810 --> 00:00:11,410
+First, the current code structure is like this
+
+6
+00:00:11,410 --> 00:00:13,870
+We have the audio input
+
+7
+00:00:13,870 --> 00:00:17,210
+and the audio output as two separate components
+
+8
+00:00:17,210 --> 00:00:20,110
+Essentially, these two components are integrated for use
+
+9
+00:00:20,110 --> 00:00:22,490
+Since we have both audio input and output
+
+10
+00:00:22,490 --> 00:00:24,090
+They basically appear simultaneously.
+
+11
+00:00:24,090 --> 00:00:26,380
+Can we combine them into one?
+
+12
+00:00:26,380 --> 00:00:28,560
+Yeah, merge them into a single component.
+
+13
+00:00:28,560 --> 00:00:30,940
+This type has already been encapsulated for us.
+
+14
+00:00:30,940 --> 00:00:32,180
+The component is this one.
+
+15
+00:00:32,180 --> 00:00:33,140
+This component here.
+
+16
+00:00:33,140 --> 00:00:35,540
+Let's take a look at the current structure.
+
+17
+00:00:35,540 --> 00:00:37,160
+Our current code.
+
+18
+00:00:37,160 --> 00:00:39,540
+The structure of this code is as follows.
+
+19
+00:00:39,540 --> 00:00:40,570
+Let's take a look.
+
+20
+00:00:40,570 --> 00:00:42,410
+Zoom out a bit.
+
+21
+00:00:42,930 --> 00:00:44,970
+Currently, our structure looks like this.
+
+22
+00:00:44,970 --> 00:00:47,510
+This is our audio equipment layer.
+
+23
+00:00:47,510 --> 00:00:49,430
+That is, this code, right?
+
+24
+00:00:49,430 --> 00:00:51,670
+The ES7210 point CPP.
+
+25
+00:00:51,670 --> 00:00:55,910
+This is the driver layer for the audio input device.
+
+26
+00:00:55,910 --> 00:00:56,370
+And then,
+
+27
+00:00:56,370 --> 00:01:00,330
+we wrote an abstraction layer for audio input.
+
+28
+00:01:00,330 --> 00:01:00,670
+Right?
+
+29
+00:01:00,670 --> 00:01:01,980
+We've written this part as well.
+
+30
+00:01:01,980 --> 00:01:05,200
+And for the audio output device, um,
+
+31
+00:01:05,200 --> 00:01:06,860
+The device driver layer is structured like this.
+
+32
+00:01:06,860 --> 00:01:10,180
+It's this ES8311 dot CPP file.
+
+33
+00:01:10,180 --> 00:01:12,900
+But we mentioned that the audio output abstraction layer,
+
+34
+00:01:12,900 --> 00:01:13,860
+We haven't written it yet.
+
+35
+00:01:13,860 --> 00:01:15,900
+If you want to write it yourself,
+
+36
+00:01:15,900 --> 00:01:17,700
+You might also need to write an audio abstraction layer.
+
+37
+00:01:17,700 --> 00:01:20,420
+So we're going to combine these two into one, right?
+
+38
+00:01:20,420 --> 00:01:22,740
+But for now, we won't write this one.
+
+39
+00:01:22,740 --> 00:01:24,400
+We'll use this component.
+
+40
+00:01:24,400 --> 00:01:26,090
+We'll use this overall component.
+
+41
+00:01:26,090 --> 00:01:27,050
+Regarding this component,
+
+42
+00:01:27,050 --> 00:01:28,050
+it's provided by Espressif official.
+
+43
+00:01:28,050 --> 00:01:30,170
+Let's take a look.
+
+44
+00:01:31,080 --> 00:01:33,960
+Let's see which chips this component supports.
+
+45
+00:01:33,960 --> 00:01:35,200
+It supports a lot of chips.
+
+46
+00:01:35,200 --> 00:01:37,500
+We've integrated these chips into this module.
+
+47
+00:01:37,500 --> 00:01:40,020
+Like our ES8311 chip,
+
+48
+00:01:40,020 --> 00:01:42,100
+and the ES S7210.
+
+49
+00:01:42,100 --> 00:01:43,340
+Both are included here.
+
+50
+00:01:43,340 --> 00:01:45,340
+And the ES S8311 chip,
+
+51
+00:01:45,340 --> 00:01:47,670
+it supports both playback and recording.
+
+52
+00:01:47,670 --> 00:01:50,290
+But we only use its playback function.
+
+53
+00:01:50,290 --> 00:01:52,890
+The ES7210 only supports recording.
+
+54
+00:01:52,890 --> 00:01:55,250
+Meaning it only handles audio input.
+
+55
+00:01:55,250 --> 00:01:56,870
+We're using these two chips.
+
+56
+00:01:56,870 --> 00:01:59,940
+So, this component is supported, right?
+
+57
+00:01:59,940 --> 00:02:02,460
+Now, let's take a look at its architecture.
+
+58
+00:02:02,460 --> 00:02:03,720
+Here's a preview of it.
+
+59
+00:02:03,720 --> 00:02:05,940
+First, this is the ESP32-S3.
+
+60
+00:02:05,940 --> 00:02:09,860
+It's the USB32 module we're using.
+
+61
+00:02:09,860 --> 00:02:10,970
+And
+
+62
+00:02:10,970 --> 00:02:14,510
+it uses the E48311 here as an example.
+
+63
+00:02:14,510 --> 00:02:15,410
+to illustrate the point.
+
+64
+00:02:15,410 --> 00:02:17,570
+Because it supports a microphone.
+
+65
+00:02:17,570 --> 00:02:19,190
+Does it support AABC?
+
+66
+00:02:19,190 --> 00:02:21,750
+So, he used this as an example.
+
+67
+00:02:21,750 --> 00:02:24,750
+This one replaces the yes, um.
+
+68
+00:02:24,750 --> 00:02:26,890
+7210.
+
+69
+00:02:26,890 --> 00:02:29,780
+It replaces two, functioning as both audio input and output.
+
+70
+00:02:29,780 --> 00:02:31,060
+So, its architecture is like this.
+
+71
+00:02:31,060 --> 00:02:32,580
+The DAC is for output.
+
+72
+00:02:32,580 --> 00:02:34,880
+It provides the amplifier chip.
+
+73
+00:02:34,880 --> 00:02:37,290
+Then here it's a 3-2 configuration.
+
+74
+00:02:37,290 --> 00:02:41,550
+This S3 has a gear for the amplifier.
+
+75
+00:02:41,550 --> 00:02:42,410
+It's the enable pin.
+
+76
+00:02:42,410 --> 00:02:43,410
+We have that as well.
+
+77
+00:02:43,410 --> 00:02:45,070
+The enable pin controls it.
+
+78
+00:02:45,070 --> 00:02:48,920
+Ultimately, it outputs to the loudspeakers.
+
+79
+00:02:48,920 --> 00:02:49,960
+The microphone is right here.
+
+80
+00:02:49,960 --> 00:02:51,100
+Actually, you can add a diagram.
+
+81
+00:02:51,100 --> 00:02:52,740
+And it abstracts a lot of things.
+
+82
+00:02:52,740 --> 00:02:53,980
+There are many layers of abstraction inside.
+
+83
+00:02:53,980 --> 00:02:56,300
+We don't need to worry about how many layers are abstracted.
+
+84
+00:02:56,300 --> 00:02:58,180
+We only focus on what matters to us.
+
+85
+00:02:58,180 --> 00:03:02,110
+Ultimately, we provide ES7210 to them.
+
+86
+00:03:02,110 --> 00:03:03,510
+And ES8311 as well.
+
+87
+00:03:03,510 --> 00:03:05,690
+Some settings for the drivers of these two chips
+
+88
+00:03:05,690 --> 00:03:08,970
+Ultimately, they abstract it to this level for us.
+
+89
+00:03:08,970 --> 00:03:11,070
+We use this layer exclusively.
+
+90
+00:03:11,070 --> 00:03:12,450
+This is what we ultimately use.
+
+91
+00:03:12,450 --> 00:03:14,060
+The anonymous abstraction layer is this.
+
+92
+00:03:14,060 --> 00:03:15,900
+Let's then take a look at how we use it.
+
+93
+00:03:15,900 --> 00:03:17,420
+Let's have a look.
+
+94
+00:03:17,780 --> 00:03:18,540
+Inside here,
+
+95
+00:03:18,540 --> 00:03:21,420
+the first one is configuring the audio input and output channels.
+
+96
+00:03:21,420 --> 00:03:24,569
+This is similar to when we operated the ESP,
+
+97
+00:03:24,569 --> 00:03:27,529
+the ES7210 and ES8311.
+
+98
+00:03:27,529 --> 00:03:29,649
+The initialization process for these two chips is pretty much the same.
+
+99
+00:03:29,649 --> 00:03:31,589
+Ultimately, it will generate a handle.
+
+100
+00:03:31,589 --> 00:03:34,660
+It refers to one of its inputs.
+
+101
+00:03:34,660 --> 00:03:38,090
+It's for receiving and sending handles.
+
+102
+00:03:38,090 --> 00:03:41,350
+This is like when we've already initialized it.
+
+103
+00:03:41,350 --> 00:03:43,300
+Once we get this handle,
+
+104
+00:03:43,300 --> 00:03:44,300
+we send it over,
+
+105
+00:03:44,300 --> 00:03:47,270
+and it generates a data interface handle for us.
+
+106
+00:03:47,270 --> 00:03:48,670
+We call this function,
+
+107
+00:03:48,670 --> 00:03:51,090
+and it generates a data interface handle for us.
+
+108
+00:03:51,090 --> 00:03:56,930
+This handle, on one hand, is for the audio output here.
+
+109
+00:03:56,930 --> 00:03:59,930
+This generates a handle for the audio output device.
+
+110
+00:03:59,930 --> 00:04:04,849
+These two are simultaneously provided to the function to create a
+
+111
+00:04:04,849 --> 00:04:07,200
+It creates an output device for
+
+112
+00:04:07,200 --> 00:04:09,580
+the audio output device instance.
+
+113
+00:04:09,580 --> 00:04:10,780
+This is the abstraction layer.
+
+114
+00:04:10,780 --> 00:04:13,800
+And ultimately, it generates a handle for the abstraction layer.
+
+115
+00:04:13,800 --> 00:04:14,600
+The handle
+
+116
+00:04:14,600 --> 00:04:17,040
+is then ultimately provided to the abstraction layer structure.
+
+117
+00:04:17,040 --> 00:04:19,220
+Ultimately, we use these abstraction layers.
+
+118
+00:04:19,220 --> 00:04:22,200
+Here, fixing the electrical performance is like packaging all these things you see together.
+
+119
+00:04:22,200 --> 00:04:24,300
+Packaging these more complex scenarios,
+
+120
+00:04:24,300 --> 00:04:24,900
+various elements,
+
+121
+00:04:24,900 --> 00:04:27,300
+various parameters, once packaged together,
+
+122
+00:04:27,300 --> 00:04:30,310
+what we see for the higher-level calls,
+
+123
+00:04:30,310 --> 00:04:32,990
+is these open and close functions, right?
+
+124
+00:04:32,990 --> 00:04:35,030
+the red ones are these uh,
+
+125
+00:04:35,030 --> 00:04:38,230
+open, close, read, and write, right?
+
+126
+00:04:38,230 --> 00:04:39,810
+this read is for input, right?
+
+127
+00:04:39,810 --> 00:04:40,510
+Audio input
+
+128
+00:04:40,510 --> 00:04:42,400
+Then the output is audio
+
+129
+00:04:42,400 --> 00:04:43,120
+It's quite simple
+
+130
+00:04:43,120 --> 00:04:44,840
+It's obvious just by looking at it
+
+131
+00:04:44,840 --> 00:04:45,560
+What does this mean?
+
+132
+00:04:45,560 --> 00:04:47,520
+We don't need to worry about the hardware layers
+
+133
+00:04:47,520 --> 00:04:48,400
+We don't need to care about them
+
+134
+00:04:48,400 --> 00:04:50,720
+So this is the component that does the work for us
+
+135
+00:04:50,720 --> 00:04:53,960
+Of course, we need to complete these modules step by step
+
+136
+00:04:53,960 --> 00:04:55,080
+Some initialization
+
+137
+00:04:55,080 --> 00:04:58,560
+We are using these two chips
+
+138
+00:04:58,560 --> 00:05:02,250
+We can package these two chips into a module
+
+139
+00:05:02,250 --> 00:05:04,800
+To create a new module
+
+140
+00:05:04,800 --> 00:05:08,720
+If other boards also use these two chips in the future
+
+141
+00:05:08,720 --> 00:05:11,040
+They can directly reuse this module
+
+142
+00:05:11,040 --> 00:05:11,940
+That's how it works
+
+143
+00:05:11,940 --> 00:05:15,120
+In the next lesson, we'll start completing these step by step
+
+144
+00:05:15,120 --> 00:05:16,860
+Initialization and all that
+
+145
+00:05:16,860 --> 00:05:19,070
+This ultimately provides us with this abstraction layer
+
+146
+00:05:19,070 --> 00:05:21,950
+We use this abstraction layer for audio
+
+147
+00:05:21,950 --> 00:05:22,830
+Input and output
+
+148
+00:05:22,830 --> 00:05:23,900
+That's it
+

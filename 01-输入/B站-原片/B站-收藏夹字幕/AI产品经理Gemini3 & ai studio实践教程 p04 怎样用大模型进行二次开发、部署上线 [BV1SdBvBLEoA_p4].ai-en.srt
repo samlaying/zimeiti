@@ -1,0 +1,476 @@
+1
+00:00:00,160 --> 00:00:02,720
+Alright, after a long wait
+
+2
+00:00:02,720 --> 00:00:04,680
+our refactoring process
+
+3
+00:00:04,680 --> 00:00:06,360
+It's finally finished running.
+
+4
+00:00:06,360 --> 00:00:07,850
+Let's take a look
+
+5
+00:00:07,850 --> 00:00:10,690
+What changes has he made for us?
+
+6
+00:00:13,620 --> 00:00:17,220
+Let's take a look at the changes made at the code level.
+
+7
+00:00:17,220 --> 00:00:19,420
+First, he divided the original code into
+
+8
+00:00:19,420 --> 00:00:21,130
+divided into two major parts
+
+9
+00:00:21,130 --> 00:00:24,100
+The frontend part is placed in
+
+10
+00:00:24,100 --> 00:00:26,020
+the components directory
+
+11
+00:00:26,020 --> 00:00:27,500
+Then for the backend part
+
+12
+00:00:27,500 --> 00:00:30,200
+are all placed in this app subdirectory
+
+13
+00:00:30,200 --> 00:00:33,520
+Especially for the GEMINI API key in the facial cleanser APP
+
+14
+00:00:33,520 --> 00:00:35,200
+the use of the API key
+
+15
+00:00:35,200 --> 00:00:37,000
+It is placed in this folder
+
+16
+00:00:37,000 --> 00:00:38,520
+And inside this file,
+
+17
+00:00:38,520 --> 00:00:43,500
+implemented the service-oriented invocation of the large model
+
+18
+00:00:44,140 --> 00:00:45,460
+As you can see here
+
+19
+00:00:45,460 --> 00:00:49,140
+This is the call to the online model service
+
+20
+00:00:51,240 --> 00:00:55,820
+So it no longer directly connects to the API key on the frontend.
+
+21
+00:00:55,820 --> 00:00:57,960
+It's completely handed over to the backend for connection.
+
+22
+00:00:57,960 --> 00:01:02,610
+Moreover, the frontend and backend are implemented separately using NestJS.
+
+23
+00:01:02,610 --> 00:01:03,670
+implemented frontend and backend
+
+24
+00:01:03,670 --> 00:01:07,280
+Let's go back to the history of this conversation again
+
+25
+00:01:07,280 --> 00:01:09,440
+You will find that after it finishes executing
+
+26
+00:01:09,440 --> 00:01:13,570
+It also not only shows us the modified content
+
+27
+00:01:13,570 --> 00:01:14,930
+also summarized it
+
+28
+00:01:14,930 --> 00:01:18,770
+it tells us how to run and deploy the application later on
+
+29
+00:01:18,770 --> 00:01:21,250
+such an application uh
+
+30
+00:01:21,250 --> 00:01:21,930
+for example
+
+31
+00:01:21,930 --> 00:01:22,930
+First of all,
+
+32
+00:01:22,930 --> 00:01:27,320
+First, we'll run npm install, right
+
+33
+00:01:27,320 --> 00:01:29,220
+Install some necessary dependency packages
+
+34
+00:01:29,220 --> 00:01:30,120
+Then
+
+35
+00:01:30,120 --> 00:01:33,320
+add our cleansing milk API key to
+
+36
+00:01:33,320 --> 00:01:35,650
+add it to a local
+
+37
+00:01:35,650 --> 00:01:39,110
+into a local file for storing environment variables
+
+38
+00:01:39,110 --> 00:01:41,270
+Finally, it's time to
+
+39
+00:01:41,270 --> 00:01:45,910
+deploy the entire application using npm run dev
+
+40
+00:01:45,910 --> 00:01:48,630
+that is, to deploy it locally
+
+41
+00:01:48,630 --> 00:01:52,310
+So let's follow his tutorial to debug locally first
+
+42
+00:01:52,310 --> 00:01:54,170
+see if it can be successfully deployed
+
+43
+00:01:54,170 --> 00:01:56,170
+After ensuring the deployment is successful
+
+44
+00:01:56,170 --> 00:01:59,970
+we will then push it to the remote cloud server
+
+45
+00:01:59,970 --> 00:02:02,690
+to deploy it online
+
+46
+00:02:02,820 --> 00:02:03,720
+Okay
+
+47
+00:02:03,720 --> 00:02:04,860
+The first step is
+
+48
+00:02:04,860 --> 00:02:09,019
+We can first create a new one under the local directory
+
+49
+00:02:09,019 --> 00:02:11,919
+the .env.local local file
+
+50
+00:02:11,919 --> 00:02:14,939
+Then paste the API key of the interface into it
+
+51
+00:02:14,939 --> 00:02:15,579
+paste it in
+
+52
+00:02:15,579 --> 00:02:17,959
+So how do we obtain this API key?
+
+53
+00:02:17,959 --> 00:02:21,850
+We can go back we can go back to the uh
+
+54
+00:02:21,850 --> 00:02:23,730
+Google AI Studio
+
+55
+00:02:23,730 --> 00:02:25,150
+in this interface
+
+56
+00:02:25,150 --> 00:02:30,300
+In the lower left corner, click this button labeled 'get API key'
+
+57
+00:02:30,300 --> 00:02:33,820
+It will pop up an API key management interface
+
+58
+00:02:33,820 --> 00:02:35,080
+After we click to open it
+
+59
+00:02:35,080 --> 00:02:37,520
+
+
+60
+00:02:37,520 --> 00:02:39,040
+
+
+61
+00:02:39,040 --> 00:02:42,470
+
+
+62
+00:02:42,470 --> 00:02:44,150
+the .local file
+
+63
+00:02:44,150 --> 00:02:45,470
+into this file
+
+64
+00:02:45,470 --> 00:02:49,070
+This way, an environment variable is prepared.
+
+65
+00:02:50,900 --> 00:02:54,820
+Then we click on the terminal in VS Code
+
+66
+00:02:54,820 --> 00:02:56,400
+Create a new terminal
+
+67
+00:02:56,400 --> 00:03:01,150
+Run 'npm install' in the terminal respectively
+
+68
+00:03:01,150 --> 00:03:03,090
+to install the necessary dependencies
+
+69
+00:03:03,090 --> 00:03:05,850
+and then run npm run dev
+
+70
+00:03:05,850 --> 00:03:08,109
+to deploy the entire application service
+
+71
+00:03:08,109 --> 00:03:09,149
+After the deployment is complete
+
+72
+00:03:09,149 --> 00:03:10,709
+When you see locally
+
+73
+00:03:10,709 --> 00:03:13,069
+When you see in the command line
+
+74
+00:03:13,069 --> 00:03:15,269
+its local access link
+
+75
+00:03:15,269 --> 00:03:17,700
+We click on this link
+
+76
+00:03:17,700 --> 00:03:21,049
+to open it in the browser
+
+77
+00:03:21,049 --> 00:03:23,529
+What we get is our locally deployed
+
+78
+00:03:23,529 --> 00:03:24,889
+such an application
+
+79
+00:03:24,889 --> 00:03:27,120
+you can directly engage in a conversation with it
+
+80
+00:03:27,120 --> 00:03:30,500
+This indicates that our application has passed the local deployment test.
+
+81
+00:03:30,500 --> 00:03:32,660
+Next, we can reuse
+
+82
+00:03:32,660 --> 00:03:35,310
+the process we introduced earlier
+
+83
+00:03:35,310 --> 00:03:41,560
+First, let's go back to the GitHub desktop client
+
+84
+00:03:41,560 --> 00:03:44,580
+what we just did in this project
+
+85
+00:03:44,580 --> 00:03:46,940
+modified by the large model
+
+86
+00:03:46,940 --> 00:03:50,480
+the modified and transformed content
+
+87
+00:03:50,480 --> 00:03:53,380
+push to our remote GitHub platform
+
+88
+00:03:53,380 --> 00:03:55,180
+Here we will briefly note
+
+89
+00:03:55,180 --> 00:03:57,910
+What operations have we performed in this modification?
+
+90
+00:03:57,910 --> 00:03:59,330
+mainly to mark
+
+91
+00:03:59,330 --> 00:04:02,950
+the workload of our current refactoring
+
+92
+00:04:03,350 --> 00:04:05,670
+Make a comment
+
+93
+00:04:05,670 --> 00:04:06,950
+For example
+
+94
+00:04:08,690 --> 00:04:14,750
+This time our modification involves separating the frontend and backend.
+
+95
+00:04:14,750 --> 00:04:19,199
+Hide the API key, right?
+
+96
+00:04:19,199 --> 00:04:20,798
+This is how it works
+
+97
+00:04:20,798 --> 00:04:23,750
+Then we click on commit
+
+98
+00:04:23,750 --> 00:04:27,550
+Then click the topmost push button
+
+99
+00:04:27,550 --> 00:04:30,670
+you can push the local files to our remote
+
+100
+00:04:30,670 --> 00:04:32,695
+into the code repository
+
+101
+00:04:34,720 --> 00:04:39,240
+Okay, we can check it in the code repository
+
+102
+00:04:39,240 --> 00:04:41,200
+refresh and take a look
+
+103
+00:04:43,100 --> 00:04:47,860
+Ah, you see, basically all these directories
+
+104
+00:04:47,860 --> 00:04:50,900
+or all these contents
+
+105
+00:04:50,900 --> 00:04:52,660
+have all been modified by us
+
+106
+00:04:52,660 --> 00:04:54,900
+have all been modified
+
+107
+00:04:56,300 --> 00:04:57,380
+Alright then
+
+108
+00:04:57,380 --> 00:05:01,020
+basically we can achieve an almost codeless
+
+109
+00:05:01,020 --> 00:05:02,440
+a local secondary development
+
+110
+00:05:02,440 --> 00:05:03,320
+The following process
+
+111
+00:05:03,320 --> 00:05:05,160
+in fact, it's the same process as our previous demonstration
+
+112
+00:05:05,160 --> 00:05:06,320
+it's exactly the same, right
+
+113
+00:05:06,320 --> 00:05:07,840
+Open this NETLIFY
+
+114
+00:05:07,840 --> 00:05:10,990
+and then deploy the project on GitHub
+
+115
+00:05:10,990 --> 00:05:14,010
+deploy it to the NETLIFY platform
+
+116
+00:05:14,010 --> 00:05:15,670
+then you can get an access link
+
+117
+00:05:15,670 --> 00:05:16,850
+Then you can share it with others
+
+118
+00:05:16,850 --> 00:05:19,380
+let them experience your application
+
+119
+00:05:19,380 --> 00:05:21,880
+I won't repeat the introduction here.
+

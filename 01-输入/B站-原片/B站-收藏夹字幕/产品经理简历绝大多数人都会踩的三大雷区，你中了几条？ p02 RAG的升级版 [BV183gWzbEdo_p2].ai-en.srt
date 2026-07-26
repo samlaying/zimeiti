@@ -1,0 +1,992 @@
+1
+00:00:00,000 --> 00:00:01,680
+Tencent achieves new AI breakthrough
+
+2
+00:00:01,680 --> 00:00:03,280
+latest open-source YOUTUGRAPHX
+
+3
+00:00:03,280 --> 00:00:06,180
+indicating a 90.7% reduction in large model costs
+
+4
+00:00:06,180 --> 00:00:08,820
+The accuracy can be improved by 16.62%.
+
+5
+00:00:08,820 --> 00:00:11,060
+So how does Graph RAG achieve this?
+
+6
+00:00:11,060 --> 00:00:12,580
+it's this Graph IAG
+
+7
+00:00:12,580 --> 00:00:15,280
+What is the fundamental difference between this and the traditional approach?
+
+8
+00:00:15,280 --> 00:00:16,120
+So this question
+
+9
+00:00:16,120 --> 00:00:18,780
+not only tests everyone's understanding of the technology
+
+10
+00:00:18,780 --> 00:00:21,680
+also tests your insight into the next-generation intelligent retrieval system
+
+11
+00:00:21,680 --> 00:00:23,940
+the level of insight into this design approach
+
+12
+00:00:23,940 --> 00:00:25,640
+To break down this problem
+
+13
+00:00:25,640 --> 00:00:28,480
+First, let's start by looking at some aspects of traditional retrieval
+
+14
+00:00:28,480 --> 00:00:30,380
+some details about the related technologies
+
+15
+00:00:30,380 --> 00:00:32,439
+The core computational process can be
+
+16
+00:00:32,439 --> 00:00:34,539
+can be roughly divided into two stages
+
+17
+00:00:34,539 --> 00:00:36,439
+namely the offline phase and the online phase
+
+18
+00:00:36,439 --> 00:00:38,919
+The offline phase involves dividing the knowledge base
+
+19
+00:00:38,919 --> 00:00:40,980
+divided into several text segments
+
+20
+00:00:40,980 --> 00:00:42,820
+These segments are allowed to have
+
+21
+00:00:42,820 --> 00:00:44,460
+some overlapping content
+
+22
+00:00:44,460 --> 00:00:45,180
+This is the offline phase
+
+23
+00:00:45,180 --> 00:00:46,600
+that is, the construction phase of the knowledge base
+
+24
+00:00:46,600 --> 00:00:48,680
+The second stage is the online phase.
+
+25
+00:00:48,680 --> 00:00:50,760
+It will transform the user's question
+
+26
+00:00:50,760 --> 00:00:52,260
+convert into this embedding vector
+
+27
+00:00:52,260 --> 00:00:54,030
+and then through similarity calculation
+
+28
+00:00:54,030 --> 00:00:56,590
+to the vast segments of the knowledge base
+
+29
+00:00:56,590 --> 00:00:59,430
+find the most relevant knowledge content
+
+30
+00:00:59,430 --> 00:01:01,330
+Then, these knowledge contents are used as context
+
+31
+00:01:01,330 --> 00:01:04,809
+along with the original question to the large model
+
+32
+00:01:04,809 --> 00:01:06,210
+generate the final answer
+
+33
+00:01:06,210 --> 00:01:08,790
+This architecture has actually been implemented over the past few years
+
+34
+00:01:08,790 --> 00:01:11,970
+has effectively mitigated the hallucination issues of large models
+
+35
+00:01:11,970 --> 00:01:14,540
+especially in some cold-start Q&A scenarios
+
+36
+00:01:14,540 --> 00:01:16,060
+the performance is quite outstanding
+
+37
+00:01:16,060 --> 00:01:16,880
+relatively outstanding
+
+38
+00:01:16,880 --> 00:01:19,260
+However, as the application scenarios become more complex
+
+39
+00:01:19,260 --> 00:01:20,620
+and further exploration
+
+40
+00:01:20,620 --> 00:01:23,460
+The limitations of this approach will become increasingly apparent
+
+41
+00:01:23,460 --> 00:01:25,300
+So what are the technical shortcomings of this approach?
+
+42
+00:01:25,300 --> 00:01:28,060
+First of all, we need to note that the entire solution
+
+43
+00:01:28,060 --> 00:01:31,360
+it severely lacks understanding of the overall knowledge structure
+
+44
+00:01:31,360 --> 00:01:33,340
+For example, when asking about Zhang San and Li Si
+
+45
+00:01:33,340 --> 00:01:35,860
+What is their relationship in the company?
+
+46
+00:01:35,860 --> 00:01:37,960
+Is there any hierarchical relationship between superiors and subordinates?
+
+47
+00:01:37,960 --> 00:01:39,120
+For this question,
+
+48
+00:01:39,120 --> 00:01:41,680
+the system may only be able to find the two individuals'
+
+49
+00:01:41,680 --> 00:01:43,100
+descriptive text fragments
+
+50
+00:01:43,100 --> 00:01:45,020
+but is unable to comprehend the relationship between them
+
+51
+00:01:45,020 --> 00:01:47,060
+whether there exists such a superior-subordinate reporting relationship
+
+52
+00:01:47,060 --> 00:01:49,540
+or in some collaborative projects
+
+53
+00:01:49,540 --> 00:01:51,440
+because what he sees are all fragmented pieces
+
+54
+00:01:51,440 --> 00:01:53,720
+rather than this interconnected knowledge network
+
+55
+00:01:53,720 --> 00:01:54,420
+This is the first point
+
+56
+00:01:54,420 --> 00:01:57,520
+The second point is its handling of macro-level issues
+
+57
+00:01:57,520 --> 00:01:58,600
+it is insufficient
+
+58
+00:01:58,600 --> 00:01:59,260
+inadequate capability
+
+59
+00:01:59,260 --> 00:02:00,620
+For example, when you ask
+
+60
+00:02:00,620 --> 00:02:03,560
+For example, what are the key points of this annual report?
+
+61
+00:02:03,560 --> 00:02:06,660
+then the retrieved results may be several related
+
+62
+00:02:06,660 --> 00:02:09,580
+but are fragmented paragraphs lacking logical connections
+
+63
+00:02:09,580 --> 00:02:11,500
+making it impossible for you to generate
+
+64
+00:02:11,500 --> 00:02:14,020
+or summarize the final comprehensive
+
+65
+00:02:14,020 --> 00:02:16,200
+this kind of generalized conclusion
+
+66
+00:02:16,200 --> 00:02:17,840
+The logic is not strong.
+
+67
+00:02:17,840 --> 00:02:20,120
+The third point is the most typical issue
+
+68
+00:02:20,120 --> 00:02:22,020
+Now, this traditional RIG approach
+
+69
+00:02:22,020 --> 00:02:25,260
+it is incapable of performing complex reasoning
+
+70
+00:02:25,260 --> 00:02:26,340
+problem-solving
+
+71
+00:02:26,340 --> 00:02:28,000
+This is one of its weak points.
+
+72
+00:02:28,000 --> 00:02:28,880
+It struggles to handle
+
+73
+00:02:28,880 --> 00:02:31,040
+This type of query demand requiring multi-step reasoning
+
+74
+00:02:31,040 --> 00:02:34,519
+This is the basic situation of the traditional IG.
+
+75
+00:02:34,519 --> 00:02:35,999
+To address these shortcomings,
+
+76
+00:02:35,999 --> 00:02:37,999
+Graph I A G at the technical level
+
+77
+00:02:37,999 --> 00:02:40,159
+It has brought about fundamental changes at the technical level.
+
+78
+00:02:40,159 --> 00:02:42,660
+It upgrades the traditional text-based retrieval
+
+79
+00:02:42,660 --> 00:02:45,530
+upgraded to a query mode based on the Knowledge architecture
+
+80
+00:02:45,530 --> 00:02:48,450
+Its architecture primarily consists of three key components.
+
+81
+00:02:48,450 --> 00:02:50,370
+First, let's take a look at
+
+82
+00:02:50,370 --> 00:02:52,950
+The first step is the construction of this knowledge graph.
+
+83
+00:02:52,950 --> 00:02:53,670
+graph construction
+
+84
+00:02:53,670 --> 00:02:55,400
+This is the most crucial differentiating point.
+
+85
+00:02:55,400 --> 00:02:57,080
+That is, in this preprocessing stage
+
+86
+00:02:57,080 --> 00:02:58,380
+First, entity extraction needs to be performed
+
+87
+00:02:58,380 --> 00:03:01,520
+automatically identify various types through large models
+
+88
+00:03:01,520 --> 00:03:02,600
+various types of entities
+
+89
+00:03:02,600 --> 00:03:04,320
+such as people, institutions, events
+
+90
+00:03:04,320 --> 00:03:06,860
+then establish the relational connections between these entities
+
+91
+00:03:06,860 --> 00:03:08,300
+forming entity relationships
+
+92
+00:03:08,300 --> 00:03:09,780
+an entity triplet
+
+93
+00:03:09,780 --> 00:03:12,380
+Finally, it is also necessary to perform the fusion of Knowledge.
+
+94
+00:03:12,380 --> 00:03:13,460
+this step of knowledge fusion
+
+95
+00:03:13,460 --> 00:03:16,360
+Merging the same entity from different sources
+
+96
+00:03:16,360 --> 00:03:19,520
+Actually, these three steps are the standard process for building a knowledge graph.
+
+97
+00:03:19,520 --> 00:03:20,460
+a trilogy
+
+98
+00:03:20,460 --> 00:03:21,640
+There's not much difference
+
+99
+00:03:21,640 --> 00:03:22,880
+And we need to pay attention to the fact that
+
+100
+00:03:22,880 --> 00:03:25,500
+Each extracted node and relationship
+
+101
+00:03:25,500 --> 00:03:26,960
+all carry semantic descriptions
+
+102
+00:03:26,960 --> 00:03:30,120
+This utilizes the descriptive text of nodes and relationship edges
+
+103
+00:03:30,120 --> 00:03:31,080
+to generate
+
+104
+00:03:31,080 --> 00:03:31,700
+to generate
+
+105
+00:03:31,700 --> 00:03:33,700
+Of course, in the subsequent retrieval phase
+
+106
+00:03:33,700 --> 00:03:34,900
+it also needs to be used
+
+107
+00:03:34,900 --> 00:03:37,100
+In this way, a complete knowledge graph is ultimately formed.
+
+108
+00:03:37,100 --> 00:03:39,269
+equivalent to a cognitive hub of the knowledge base
+
+109
+00:03:39,269 --> 00:03:40,929
+After obtaining the knowledge base,
+
+110
+00:03:40,929 --> 00:03:43,869
+Further segmentation and refinement are still required.
+
+111
+00:03:43,869 --> 00:03:46,800
+that is, to further divide the entire graph into
+
+112
+00:03:46,800 --> 00:03:48,400
+different communities
+
+113
+00:03:48,400 --> 00:03:50,320
+This community is essentially a collection of subgraphs.
+
+114
+00:03:50,320 --> 00:03:52,320
+This process can generally be divided into three steps
+
+115
+00:03:52,320 --> 00:03:54,920
+The first step is to use a community detection algorithm
+
+116
+00:03:54,920 --> 00:03:57,600
+identify which nodes have stronger connections
+
+117
+00:03:57,600 --> 00:04:00,300
+These highly connected nodes cluster together to form a community.
+
+118
+00:04:00,300 --> 00:04:03,860
+Then, have the large model generate content summaries for these closely clustered
+
+119
+00:04:03,860 --> 00:04:06,360
+these clustered nodes within the community
+
+120
+00:04:06,360 --> 00:04:08,400
+to generate a content summary
+
+121
+00:04:08,400 --> 00:04:09,620
+for example, a company
+
+122
+00:04:09,620 --> 00:04:12,020
+the financial report for the first quarter of 2025
+
+123
+00:04:12,020 --> 00:04:13,240
+such a descriptive text
+
+124
+00:04:13,240 --> 00:04:15,440
+Finally, we then use this descriptive text
+
+125
+00:04:15,440 --> 00:04:17,120
+obtain the embedding of this graph
+
+126
+00:04:17,120 --> 00:04:18,820
+obtain the vector representation of this subgraph
+
+127
+00:04:18,820 --> 00:04:19,779
+Up to this point
+
+128
+00:04:19,779 --> 00:04:22,219
+the entire knowledge graph is now fully constructed
+
+129
+00:04:22,219 --> 00:04:24,419
+So, what's the next step for this well-constructed
+
+130
+00:04:24,419 --> 00:04:25,339
+the constructed knowledge graph
+
+131
+00:04:25,339 --> 00:04:26,099
+Graph i a g
+
+132
+00:04:26,099 --> 00:04:28,580
+It also provides two different retrieval strategies
+
+133
+00:04:28,580 --> 00:04:30,420
+to accommodate different query needs
+
+134
+00:04:30,420 --> 00:04:31,000
+application requirements
+
+135
+00:04:31,000 --> 00:04:33,540
+First, there is the local search strategy.
+
+136
+00:04:33,540 --> 00:04:35,380
+The core idea of local search is
+
+137
+00:04:35,380 --> 00:04:39,240
+is to extract key entities from the user's question
+
+138
+00:04:39,240 --> 00:04:40,120
+Starting from this step
+
+139
+00:04:40,120 --> 00:04:41,300
+used to collect
+
+140
+00:04:41,300 --> 00:04:43,860
+directly relevant factual information
+
+141
+00:04:43,860 --> 00:04:45,780
+Finally, to generate the answer
+
+142
+00:04:45,780 --> 00:04:47,140
+Here, the first step is
+
+143
+00:04:47,140 --> 00:04:50,450
+The system then needs to identify the key entities within the question
+
+144
+00:04:50,450 --> 00:04:51,490
+for example, Microsoft
+
+145
+00:04:51,490 --> 00:04:52,190
+this company
+
+146
+00:04:52,190 --> 00:04:53,170
+It can also
+
+147
+00:04:53,170 --> 00:04:55,450
+through the embedding of this question
+
+148
+00:04:55,450 --> 00:04:57,760
+and the embedding of the node
+
+149
+00:04:57,760 --> 00:04:59,920
+that is, semantic matching between these vectors
+
+150
+00:04:59,920 --> 00:05:01,240
+calculate their similarity
+
+151
+00:05:01,240 --> 00:05:04,320
+and link these entities with the nodes in the graph
+
+152
+00:05:04,320 --> 00:05:05,100
+to establish connections
+
+153
+00:05:05,100 --> 00:05:08,000
+Then, starting from these candidate nodes
+
+154
+00:05:08,000 --> 00:05:09,809
+or what we call an anchor point
+
+155
+00:05:09,809 --> 00:05:12,829
+Expand outward along the relationship edges of this node
+
+156
+00:05:12,829 --> 00:05:14,369
+The more layers you expand
+
+157
+00:05:14,369 --> 00:05:15,340
+the more steps you traverse
+
+158
+00:05:15,340 --> 00:05:18,040
+the knowledge structure you acquire becomes more complex and richer
+
+159
+00:05:18,040 --> 00:05:20,900
+and for the large model to complete the final Q&A
+
+160
+00:05:20,900 --> 00:05:23,489
+the greater the assistance it provides for the final answer generation by the large model
+
+161
+00:05:23,489 --> 00:05:24,149
+will be greater
+
+162
+00:05:24,149 --> 00:05:27,329
+Finally, we will take the nodes and relationship edges collected during our traversal
+
+163
+00:05:27,329 --> 00:05:30,540
+the collected nodes and relationship edges form a subgraph
+
+164
+00:05:30,540 --> 00:05:32,140
+as contextual input to the large model
+
+165
+00:05:32,140 --> 00:05:33,820
+assist it in generating the final answer.
+
+166
+00:05:33,820 --> 00:05:34,860
+This is the entire process.
+
+167
+00:05:34,860 --> 00:05:35,460
+a pipeline
+
+168
+00:05:35,460 --> 00:05:36,340
+This approach
+
+169
+00:05:36,340 --> 00:05:39,140
+can answer simple factual queries
+
+170
+00:05:39,140 --> 00:05:40,850
+For example, where is Microsoft's headquarters?
+
+171
+00:05:40,850 --> 00:05:42,890
+or what someone's position is
+
+172
+00:05:42,890 --> 00:05:46,130
+can also handle multi-hop complex reasoning
+
+173
+00:05:46,130 --> 00:05:47,500
+this scenario and demand
+
+174
+00:05:47,500 --> 00:05:48,200
+scenarios and requirements
+
+175
+00:05:48,200 --> 00:05:49,420
+This is the first type
+
+176
+00:05:49,420 --> 00:05:51,700
+This is an introduction to local search.
+
+177
+00:05:51,700 --> 00:05:53,880
+The other approach is this global retrieval.
+
+178
+00:05:53,880 --> 00:05:55,500
+The core idea of it is
+
+179
+00:05:55,500 --> 00:05:59,920
+Uh, it is based on the pre-divided community subgraphs, you see.
+
+180
+00:05:59,920 --> 00:06:00,580
+to unfold
+
+181
+00:06:00,580 --> 00:06:02,520
+When the user asks a question,
+
+182
+00:06:02,520 --> 00:06:05,360
+the system will encode this question into a vector
+
+183
+00:06:05,360 --> 00:06:07,520
+and the embeddings of all communities
+
+184
+00:06:07,520 --> 00:06:09,560
+that is, the embedding of this graph
+
+185
+00:06:09,560 --> 00:06:11,140
+to perform similarity matching calculations
+
+186
+00:06:11,140 --> 00:06:14,409
+based on this matching degree or similarity as the criterion
+
+187
+00:06:14,409 --> 00:06:17,720
+to select the most relevant number of community subgraphs
+
+188
+00:06:17,720 --> 00:06:20,500
+and then the summary texts of these subgraphs
+
+189
+00:06:20,500 --> 00:06:21,900
+as well as within these summaries
+
+190
+00:06:21,900 --> 00:06:24,020
+and all the key entities and relationship lists contained within these communities
+
+191
+00:06:24,020 --> 00:06:25,620
+key entities and lists
+
+192
+00:06:25,620 --> 00:06:29,080
+as well as the relationship list as the retrieval result input to the large model
+
+193
+00:06:29,080 --> 00:06:31,540
+This is the process of global search.
+
+194
+00:06:31,540 --> 00:06:35,480
+This strategy is more suitable for addressing such macroscopic issues
+
+195
+00:06:35,480 --> 00:06:38,340
+or this kind of thematic question
+
+196
+00:06:38,340 --> 00:06:41,330
+For example, what topics does this article primarily discuss
+
+197
+00:06:41,330 --> 00:06:42,170
+such questions
+
+198
+00:06:42,170 --> 00:06:44,270
+or those that do not specify
+
+199
+00:06:44,270 --> 00:06:47,170
+general questions without specific entity references
+
+200
+00:06:47,170 --> 00:06:49,900
+These are some usage scenarios for global search
+
+201
+00:06:49,900 --> 00:06:53,420
+Although this Graph IAG performs exceptionally well
+
+202
+00:06:53,420 --> 00:06:56,340
+is currently a field of research that everyone is eager to explore
+
+203
+00:06:56,340 --> 00:06:57,720
+this technological field
+
+204
+00:06:57,720 --> 00:06:59,460
+However, we must also recognize
+
+205
+00:06:59,460 --> 00:07:01,760
+the challenges brought by this new technology
+
+206
+00:07:01,760 --> 00:07:04,580
+The first point is that its cost is extremely high
+
+207
+00:07:04,580 --> 00:07:05,660
+the computational cost is extremely high
+
+208
+00:07:05,660 --> 00:07:08,700
+requires a significant amount of computational resources and processing time
+
+209
+00:07:08,700 --> 00:07:09,260
+This is one point.
+
+210
+00:07:09,260 --> 00:07:10,380
+because your entity extraction
+
+211
+00:07:10,380 --> 00:07:10,900
+relationship extraction
+
+212
+00:07:10,900 --> 00:07:12,230
+actually, it's all done by the large model, right
+
+213
+00:07:12,230 --> 00:07:12,770
+right
+
+214
+00:07:12,770 --> 00:07:15,730
+The second point is the quality of the Knowledge
+
+215
+00:07:15,730 --> 00:07:17,330
+Actually, we need to put a question mark here.
+
+216
+00:07:17,330 --> 00:07:20,400
+because it entirely depends on the effectiveness of upstream information processing
+
+217
+00:07:20,400 --> 00:07:21,580
+that is, to let the large model handle it
+
+218
+00:07:21,580 --> 00:07:24,020
+If the large model's processing performance is relatively poor
+
+219
+00:07:24,020 --> 00:07:25,480
+or the extracted results
+
+220
+00:07:25,480 --> 00:07:27,420
+there may be a large number of issues
+
+221
+00:07:27,420 --> 00:07:30,460
+these errors will be solidified into the knowledge graph
+
+222
+00:07:30,460 --> 00:07:33,120
+thereby affecting the quality of subsequent Q&A
+
+223
+00:07:33,120 --> 00:07:35,240
+That is to say, it may lead to some hallucination issues.
+
+224
+00:07:35,240 --> 00:07:36,480
+There is such a risk.
+
+225
+00:07:36,480 --> 00:07:37,520
+This is the second point.
+
+226
+00:07:37,520 --> 00:07:39,520
+The third point is the update of Knowledge
+
+227
+00:07:39,520 --> 00:07:41,060
+it is indeed quite challenging
+
+228
+00:07:41,060 --> 00:07:42,460
+that is, the update of its Knowledge
+
+229
+00:07:42,460 --> 00:07:43,940
+the flexibility is relatively poor
+
+230
+00:07:43,940 --> 00:07:44,820
+you need to update
+
+231
+00:07:44,820 --> 00:07:46,100
+an existing piece of Knowledge
+
+232
+00:07:46,100 --> 00:07:49,260
+it is necessary to re-perform knowledge extraction and fusion
+
+233
+00:07:49,260 --> 00:07:51,900
+you have to run through the entire knowledge graph construction process again
+
+234
+00:07:51,900 --> 00:07:53,140
+So this process is relatively slow
+
+235
+00:07:53,140 --> 00:07:54,020
+the cost is relatively high
+
+236
+00:07:54,020 --> 00:07:55,860
+so it's difficult to achieve real-time updates
+
+237
+00:07:55,860 --> 00:07:57,460
+That's its problem.
+
+238
+00:07:57,460 --> 00:08:00,330
+Therefore, this fundamental architectural difference
+
+239
+00:08:00,330 --> 00:08:02,970
+thus determines that Graph IG is more suitable
+
+240
+00:08:02,970 --> 00:08:06,530
+for scenarios requiring higher reasoning depth and global comprehension
+
+241
+00:08:06,530 --> 00:08:07,690
+while the traditional IAG
+
+242
+00:08:07,690 --> 00:08:11,060
+in scenarios where simple retrieval and high real-time requirements are prioritized
+
+243
+00:08:11,060 --> 00:08:12,380
+still holds significant advantages
+
+244
+00:08:12,380 --> 00:08:13,780
+Therefore, in real-world scenarios
+
+245
+00:08:13,780 --> 00:08:15,140
+we generally consider
+
+246
+00:08:15,140 --> 00:08:17,980
+combine the advantages of traditional IG solutions with graph-based IG
+
+247
+00:08:17,980 --> 00:08:19,020
+combine them for use
+
+248
+00:08:19,020 --> 00:08:21,200
+This is a relatively balanced solution.
+

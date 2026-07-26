@@ -1,3 +1,11 @@
 .obsidian/
 .DS_Store
 .claude/
+
+# Media files are kept locally and are not uploaded to GitHub.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v

@@ -1,0 +1,3456 @@
+1
+00:00:00,280 --> 00:00:02,320
+The first section is called implementing the header
+
+2
+00:00:02,320 --> 00:00:04,980
+Wow, there's so much stuff in this header section.
+
+3
+00:00:04,980 --> 00:00:06,680
+Look at me making the header now
+
+4
+00:00:06,680 --> 00:00:07,640
+What exactly does the header refer to?
+
+5
+00:00:07,640 --> 00:00:12,440
+It refers to this part, see, we're working on this section
+
+6
+00:00:12,440 --> 00:00:13,640
+For this section
+
+7
+00:00:13,640 --> 00:00:14,180
+Look
+
+8
+00:00:14,180 --> 00:00:15,640
+Let's refresh it
+
+9
+00:00:17,470 --> 00:00:20,190
+Enjoy non-stop discounts on Samsung Galaxy S22
+
+10
+00:00:20,190 --> 00:00:21,370
+This is how we do it.
+
+11
+00:00:21,370 --> 00:00:23,370
+Add its logo here
+
+12
+00:00:23,370 --> 00:00:24,950
+JD.com's logo
+
+13
+00:00:24,950 --> 00:00:27,890
+Then here is a search box
+
+14
+00:00:27,890 --> 00:00:29,750
+Then we'll create an input box here
+
+15
+00:00:29,750 --> 00:00:31,290
+Add a button here
+
+16
+00:00:31,290 --> 00:00:34,950
+We mainly focus on these three parts, well
+
+17
+00:00:34,950 --> 00:00:37,990
+Or rather these two parts, okay these two parts
+
+18
+00:00:37,990 --> 00:00:38,770
+Look carefully
+
+19
+00:00:38,770 --> 00:00:40,990
+What we're doing is this part here.
+
+20
+00:00:40,990 --> 00:00:42,110
+So you also thought
+
+21
+00:00:42,110 --> 00:00:44,210
+Let's take a look at this page
+
+22
+00:00:44,210 --> 00:00:45,990
+Understand what we need to focus on
+
+23
+00:00:45,990 --> 00:00:49,410
+You see this horizontal header section right here
+
+24
+00:00:49,410 --> 00:00:50,850
+Here is an icon
+
+25
+00:00:50,850 --> 00:00:51,310
+Hey
+
+26
+00:00:51,310 --> 00:00:53,170
+There's a search box next to the logo
+
+27
+00:00:53,170 --> 00:00:55,030
+Let's just work on these two parts.
+
+28
+00:00:55,030 --> 00:00:56,690
+These two little things are good
+
+29
+00:00:56,690 --> 00:00:57,490
+Don't underestimate its size
+
+30
+00:00:57,490 --> 00:00:59,920
+It might be a bit tricky to do this later.
+
+31
+00:00:59,920 --> 00:01:01,560
+Alright, let's move on and take a look.
+
+32
+00:01:01,560 --> 00:01:03,980
+P&G JD Super Brand Day
+
+33
+00:01:03,980 --> 00:01:09,520
+Look at my overall header, header.
+
+34
+00:01:09,520 --> 00:01:10,840
+The header is this big
+
+35
+00:01:10,840 --> 00:01:11,340
+width
+
+36
+00:01:11,340 --> 00:01:12,180
+100% height
+
+37
+00:01:12,180 --> 00:01:13,460
+it must have a height
+
+38
+00:01:13,460 --> 00:01:14,500
+Let's get started
+
+39
+00:01:14,500 --> 00:01:15,460
+Ah
+
+40
+00:01:16,440 --> 00:01:22,280
+Next, let's talk about the header section starting
+
+41
+00:01:22,560 --> 00:01:25,190
+Then the header ends
+
+42
+00:01:25,190 --> 00:01:27,130
+Then add a div here
+
+43
+00:01:27,130 --> 00:01:30,270
+Then we'll name the class header.
+
+44
+00:01:30,270 --> 00:01:32,610
+Then let's write its style
+
+45
+00:01:32,610 --> 00:01:33,650
+Ctrl c
+
+46
+00:01:33,650 --> 00:01:36,510
+Then find it in the CSS
+
+47
+00:01:36,510 --> 00:01:39,250
+index.css okay
+
+48
+00:01:39,250 --> 00:01:41,870
+Let's write a section called header start
+
+49
+00:01:41,870 --> 00:01:43,870
+header end
+
+50
+00:01:43,870 --> 00:01:46,850
+Then there's a dot header
+
+51
+00:01:46,850 --> 00:01:49,190
+Then, the width is set to 100%
+
+52
+00:01:49,190 --> 00:01:51,130
+Actually, if you don't specify it, it will default to 100%.
+
+53
+00:01:51,130 --> 00:01:54,150
+The height is whatever he wrote, right?
+
+54
+00:01:54,150 --> 00:01:55,900
+140
+
+55
+00:01:55,900 --> 00:01:58,620
+Oh, it has a height of 140
+
+56
+00:01:58,620 --> 00:02:01,900
+And then there's a one-pixel bottom border, right?
+
+57
+00:02:01,900 --> 00:02:03,670
+P&G JD Super Brand Day
+
+58
+00:02:03,670 --> 00:02:05,510
+Then I'll set the height to 140 first.
+
+59
+00:02:05,510 --> 00:02:09,060
+Then add a bottom border
+
+60
+00:02:09,060 --> 00:02:09,820
+1 pixel
+
+61
+00:02:09,820 --> 00:02:10,580
+Haye pool table
+
+62
+00:02:10,580 --> 00:02:10,979
+Let's take a look
+
+63
+00:02:10,979 --> 00:02:13,660
+You deserve to have the best selection from Ha Ye: Table
+
+64
+00:02:14,060 --> 00:02:15,500
+1px solid
+
+65
+00:02:15,500 --> 00:02:19,350
+The color is hexadecimal #DDD, okay
+
+66
+00:02:19,350 --> 00:02:20,310
+That's about it
+
+67
+00:02:20,310 --> 00:02:21,170
+Then I'll give it
+
+68
+00:02:21,170 --> 00:02:22,630
+For everyone to see the effect
+
+69
+00:02:22,630 --> 00:02:24,350
+Let me add a little color to it
+
+70
+00:02:24,350 --> 00:02:26,270
+Let's take a look at the effect.
+
+71
+00:02:26,590 --> 00:02:27,230
+Run
+
+72
+00:02:29,310 --> 00:02:30,130
+Is it like this?
+
+73
+00:02:30,130 --> 00:02:31,560
+Okay, good.
+
+74
+00:02:31,560 --> 00:02:32,700
+Then let's continue
+
+75
+00:02:32,700 --> 00:02:33,580
+Let's take a look
+
+76
+00:02:33,580 --> 00:02:35,120
+Look at this, look at this
+
+77
+00:02:35,120 --> 00:02:36,400
+P&G JD Super Brand Day
+
+78
+00:02:36,400 --> 00:02:36,980
+and then
+
+79
+00:02:36,980 --> 00:02:37,820
+Look at my arrow here
+
+80
+00:02:37,820 --> 00:02:39,480
+Samsung Galaxy S22
+
+81
+00:02:39,480 --> 00:02:42,360
+Look, it's quite obvious that there's something here
+
+82
+00:02:42,360 --> 00:02:43,640
+this centered thing
+
+83
+00:02:43,640 --> 00:02:46,520
+You can see that the entire webpage, as we've experienced before,
+
+84
+00:02:46,520 --> 00:02:48,980
+Isn't it often the case that the centered content in webpages is the same?
+
+85
+00:02:48,980 --> 00:02:50,290
+uniform width
+
+86
+00:02:50,290 --> 00:02:52,830
+Hey, look at how wide this centering is.
+
+87
+00:02:52,830 --> 00:02:54,210
+1190
+
+88
+00:02:54,210 --> 00:02:56,370
+Do you remember we usually create one called rap
+
+89
+00:02:56,370 --> 00:02:57,330
+Still remember?
+
+90
+00:02:57,330 --> 00:02:59,160
+WRAP, right?
+
+91
+00:02:59,160 --> 00:03:00,480
+set a width
+
+92
+00:03:00,480 --> 00:03:03,060
+then set something like margin: 0 auto
+
+93
+00:03:03,060 --> 00:03:06,100
+but we never set its height, right?
+
+94
+00:03:06,100 --> 00:03:07,520
+for the sake of universality
+
+95
+00:03:07,520 --> 00:03:09,620
+Because you can't set a fixed height
+
+96
+00:03:09,620 --> 00:03:11,460
+you set it to a fixed value
+
+97
+00:03:11,460 --> 00:03:15,080
+later if someone else wants to use this wrap it won't work anymore
+
+98
+00:03:15,080 --> 00:03:16,140
+so this is also
+
+99
+00:03:16,140 --> 00:03:17,420
+but they're using W
+
+100
+00:03:17,420 --> 00:03:18,700
+He didn't write rap
+
+101
+00:03:18,700 --> 00:03:19,940
+He wrote a W.
+
+102
+00:03:19,940 --> 00:03:20,900
+Whatever
+
+103
+00:03:20,900 --> 00:03:21,840
+Take a look
+
+104
+00:03:21,840 --> 00:03:22,880
+1190
+
+105
+00:03:22,880 --> 00:03:24,160
+P&G JD Super Brand Day
+
+106
+00:03:24,160 --> 00:03:25,010
+Look
+
+107
+00:03:25,010 --> 00:03:26,050
+I've already clicked here
+
+108
+00:03:26,050 --> 00:03:26,330
+Hey
+
+109
+00:03:26,330 --> 00:03:27,410
+Samsung Galaxy S22
+
+110
+00:03:27,410 --> 00:03:29,330
+Take a look at how this centered one is written
+
+111
+00:03:29,330 --> 00:03:32,420
+Can you see that what you wrote is the same as this?
+
+112
+00:03:32,420 --> 00:03:34,100
+right, wrap
+
+113
+00:03:34,100 --> 00:03:35,600
+then set the width to 1190
+
+114
+00:03:35,600 --> 00:03:37,140
+set margin to 0 auto
+
+115
+00:03:37,140 --> 00:03:39,180
+The first one on the left didn't write zero
+
+116
+00:03:39,180 --> 00:03:41,300
+But in fact, not writing zero doesn't make any difference either
+
+117
+00:03:41,300 --> 00:03:41,920
+as we said
+
+118
+00:03:41,920 --> 00:03:44,320
+Who exactly does this 'auto' take effect on?
+
+119
+00:03:44,320 --> 00:03:45,680
+vertical direction
+
+120
+00:03:45,680 --> 00:03:48,230
+P&G JD Super Brand Day
+
+121
+00:03:48,230 --> 00:03:49,550
+Then let's write one
+
+122
+00:03:49,550 --> 00:03:50,690
+Let's review
+
+123
+00:03:50,690 --> 00:03:53,930
+Here we'll add another div class
+
+124
+00:03:53,930 --> 00:03:55,050
+let's call it rap
+
+125
+00:03:55,050 --> 00:03:58,050
+Well, because people often like to call it wrap, alright
+
+126
+00:03:58,050 --> 00:04:00,250
+This is used for centering that part.
+
+127
+00:04:00,250 --> 00:04:02,710
+The entire webpage centering should be the same.
+
+128
+00:04:02,710 --> 00:04:08,590
+The width of the wrap is 1190 pixels, and the height, well...
+
+129
+00:04:08,590 --> 00:04:09,750
+Don't dare to set the height, right?
+
+130
+00:04:09,750 --> 00:04:12,550
+Because we need to use centering here
+
+131
+00:04:12,550 --> 00:04:16,690
+Later, can you see these areas also need to be centered?
+
+132
+00:04:16,690 --> 00:04:18,750
+Also use this 1190, right?
+
+133
+00:04:18,750 --> 00:04:21,519
+So the width is set
+
+134
+00:04:21,519 --> 00:04:25,400
+Just set margin: 0 auto to center it.
+
+135
+00:04:25,400 --> 00:04:30,540
+Okay, and then this one, this line
+
+136
+00:04:30,540 --> 00:04:32,540
+Then let's continue looking
+
+137
+00:04:32,540 --> 00:04:34,500
+Hey, let's not scroll down.
+
+138
+00:04:34,500 --> 00:04:36,470
+Let's look at the top part
+
+139
+00:04:36,470 --> 00:04:38,430
+But take a look at how it is.
+
+140
+00:04:38,430 --> 00:04:40,370
+See if it has height?
+
+141
+00:04:40,650 --> 00:04:42,670
+When I click here, does it have height?
+
+142
+00:04:42,670 --> 00:04:43,910
+What is the height?
+
+143
+00:04:43,910 --> 00:04:44,890
+40
+
+144
+00:04:44,890 --> 00:04:45,570
+How is it
+
+145
+00:04:45,570 --> 00:04:48,630
+You see, W does not have a height set
+
+146
+00:04:48,630 --> 00:04:50,830
+But doing it this way is acceptable.
+
+147
+00:04:50,830 --> 00:04:55,110
+Is it equivalent to him giving this W inside this
+
+148
+00:04:55,110 --> 00:04:56,490
+Can you understand what it means?
+
+149
+00:04:56,490 --> 00:05:00,360
+Is it the case that the id is header and the class is W inside it
+
+150
+00:05:00,360 --> 00:05:01,840
+and then a height was set
+
+151
+00:05:01,840 --> 00:05:02,720
+Like this
+
+152
+00:05:02,720 --> 00:05:03,800
+Do you understand what I mean?
+
+153
+00:05:03,800 --> 00:05:07,750
+In this case, we're not directly assigning it to point W, right?
+
+154
+00:05:07,750 --> 00:05:09,510
+Is that right
+
+155
+00:05:10,420 --> 00:05:11,940
+Ha Ye Billiards Table
+
+156
+00:05:11,940 --> 00:05:13,300
+Then according to our previous approach
+
+157
+00:05:13,300 --> 00:05:14,440
+You see, I'll write another one
+
+158
+00:05:14,440 --> 00:05:15,780
+What should I write for the header
+
+159
+00:05:15,780 --> 00:05:20,840
+this box Ctrl c
+
+160
+00:05:22,040 --> 00:05:25,320
+click header box the header box
+
+161
+00:05:25,320 --> 00:05:27,950
+Isn't it good if I give it a width?
+
+162
+00:05:27,950 --> 00:05:29,090
+Do you understand
+
+163
+00:05:29,090 --> 00:05:30,630
+I'm not changing the wrap anyway
+
+164
+00:05:30,630 --> 00:05:32,310
+Don't change this rap
+
+165
+00:05:32,310 --> 00:05:34,500
+Alright, that'll do.
+
+166
+00:05:34,500 --> 00:05:35,400
+Give it a height
+
+167
+00:05:35,400 --> 00:05:36,880
+This div now has height.
+
+168
+00:05:36,880 --> 00:05:38,360
+The width is 1190
+
+169
+00:05:38,360 --> 00:05:39,660
+using the width set by it
+
+170
+00:05:39,660 --> 00:05:41,870
+Set the height like this. Okay
+
+171
+00:05:41,870 --> 00:05:44,070
+Then let's add a color to show you the effect
+
+172
+00:05:44,070 --> 00:05:47,469
+Otherwise you might forget again. Let's add a P tag here.
+
+173
+00:05:48,949 --> 00:05:52,550
+Change the color, okay
+
+174
+00:05:52,550 --> 00:05:53,950
+Like this
+
+175
+00:05:53,950 --> 00:05:56,650
+This is the centered one inside it.
+
+176
+00:05:56,650 --> 00:06:00,130
+Then let's continue to take a look
+
+177
+00:06:00,130 --> 00:06:02,010
+P&G JD Super Brand Day
+
+178
+00:06:02,010 --> 00:06:04,830
+Look where I just clicked to center it
+
+179
+00:06:04,830 --> 00:06:05,710
+go inside here
+
+180
+00:06:05,710 --> 00:06:09,090
+Ha Ye billiards table
+
+181
+00:06:09,090 --> 00:06:13,570
+Hey, this div, is this div specifically for the logo?
+
+182
+00:06:13,570 --> 00:06:15,390
+Hey, the logo is done.
+
+183
+00:06:15,390 --> 00:06:16,150
+Let's take another look
+
+184
+00:06:16,150 --> 00:06:16,870
+What do we need to use
+
+185
+00:06:16,870 --> 00:06:19,290
+Take a look at this div logo element
+
+186
+00:06:19,290 --> 00:06:21,030
+This is definitely what we need
+
+187
+00:06:21,380 --> 00:06:25,860
+Then look below, there's a div called search at the bottom
+
+188
+00:06:26,660 --> 00:06:27,580
+It's like this
+
+189
+00:06:27,580 --> 00:06:28,780
+Just look at this effect
+
+190
+00:06:28,780 --> 00:06:31,860
+Do you remember how big this logo section was just now
+
+191
+00:06:31,860 --> 00:06:33,070
+About this big.
+
+192
+00:06:33,070 --> 00:06:36,030
+Then the advantage of our search section occupies this much space
+
+193
+00:06:36,030 --> 00:06:37,430
+The meaning of color value search
+
+194
+00:06:37,430 --> 00:06:41,740
+These two divs must have a float or something
+
+195
+00:06:41,740 --> 00:06:43,760
+
+
+196
+00:06:43,760 --> 00:06:47,640
+Otherwise, there's no way their branding could look so good.
+
+197
+00:06:47,960 --> 00:06:50,520
+P&G JD Super Brand Day
+
+198
+00:06:50,520 --> 00:06:51,360
+One is the logo
+
+199
+00:06:51,360 --> 00:06:52,950
+one is the search R
+
+200
+00:06:52,950 --> 00:06:54,230
+Samsung Galaxy S22
+
+201
+00:06:54,230 --> 00:06:54,950
+there is no more
+
+202
+00:06:54,950 --> 00:06:57,310
+Haye billiards table
+
+203
+00:06:57,310 --> 00:06:59,130
+Just use these two divs
+
+204
+00:06:59,130 --> 00:07:00,470
+Let's write it down then
+
+205
+00:07:00,470 --> 00:07:03,460
+Listen carefully now
+
+206
+00:07:03,460 --> 00:07:08,310
+One div, let's call it a class named logo
+
+207
+00:07:08,310 --> 00:07:10,770
+a div specifically for the logo
+
+208
+00:07:10,770 --> 00:07:13,920
+Hey, what should we name this class? Let's call it something related to coloring.
+
+209
+00:07:13,920 --> 00:07:15,440
+Let's not write the second one first
+
+210
+00:07:15,440 --> 00:07:16,940
+First, let's write the code for the logo.
+
+211
+00:07:16,940 --> 00:07:19,940
+Let's take a look at what styles should be set for this logo.
+
+212
+00:07:19,940 --> 00:07:23,920
+
+
+213
+00:07:23,920 --> 00:07:26,420
+Then let's take a look at its logo
+
+214
+00:07:26,420 --> 00:07:29,140
+Well, I usually like to click here and then
+
+215
+00:07:29,140 --> 00:07:30,300
+I just want to click on this
+
+216
+00:07:30,300 --> 00:07:31,860
+I just want to take a look inside
+
+217
+00:07:31,860 --> 00:07:33,340
+What is 190 multiplied by
+
+218
+00:07:33,340 --> 00:07:34,390
+120
+
+219
+00:07:34,390 --> 00:07:36,350
+And there's clearly a ten here
+
+220
+00:07:36,350 --> 00:07:37,350
+What is this ten?
+
+221
+00:07:37,350 --> 00:07:37,710
+You know what
+
+222
+00:07:37,710 --> 00:07:38,810
+It's been positioned, right?
+
+223
+00:07:38,810 --> 00:07:39,990
+He should have used positioning.
+
+224
+00:07:39,990 --> 00:07:40,630
+position, right?
+
+225
+00:07:40,630 --> 00:07:44,020
+P&G JD Super Brand Day
+
+226
+00:07:44,020 --> 00:07:47,200
+width 190 pixels
+
+227
+00:07:47,200 --> 00:07:50,360
+height 120 pixels
+
+228
+00:07:50,360 --> 00:07:52,480
+Haye Billiards Table
+
+229
+00:07:52,480 --> 00:07:53,500
+If it has positioning
+
+230
+00:07:53,500 --> 00:07:54,260
+Let's not worry about it for now
+
+231
+00:07:54,260 --> 00:07:55,260
+Let me take a look first
+
+232
+00:07:55,260 --> 00:08:00,280
+Let's first take a look at the effect P and see how it looks.
+
+233
+00:08:00,760 --> 00:08:02,220
+There should be this part, right?
+
+234
+00:08:02,220 --> 00:08:03,720
+Oh, it's there.
+
+235
+00:08:03,720 --> 00:08:06,280
+But it's flush against the edge of the header.
+
+236
+00:08:06,280 --> 00:08:10,300
+Can you understand how they did this?
+
+237
+00:08:10,300 --> 00:08:12,680
+There is actually some distance between it and the header, right?
+
+238
+00:08:12,680 --> 00:08:14,740
+P&G JD Super Brand Day
+
+239
+00:08:14,740 --> 00:08:15,180
+Take a look
+
+240
+00:08:15,180 --> 00:08:17,330
+Look, does it have positioning
+
+241
+00:08:17,690 --> 00:08:19,210
+set a relative positioning
+
+242
+00:08:19,210 --> 00:08:19,730
+Look
+
+243
+00:08:19,730 --> 00:08:21,530
+He applied relative positioning to the logo
+
+244
+00:08:21,530 --> 00:08:23,170
+Pay attention, let's just follow his approach.
+
+245
+00:08:23,170 --> 00:08:25,360
+Let's just follow his approach
+
+246
+00:08:25,360 --> 00:08:26,780
+Don't you see
+
+247
+00:08:26,780 --> 00:08:29,140
+
+
+248
+00:08:29,140 --> 00:08:30,280
+It's not done using positioning
+
+249
+00:08:30,280 --> 00:08:32,318
+
+
+250
+00:08:32,519 --> 00:08:33,719
+It was not done using positioning
+
+251
+00:08:33,719 --> 00:08:35,519
+However, as I continued writing, it became increasingly difficult to proceed.
+
+252
+00:08:35,519 --> 00:08:36,639
+can't write anymore
+
+253
+00:08:36,639 --> 00:08:39,179
+Because later it needs to be modified with JS,
+
+254
+00:08:39,179 --> 00:08:41,820
+It's easier to use theirs.
+
+255
+00:08:41,820 --> 00:08:43,840
+Samsung Galaxy S22
+
+256
+00:08:43,840 --> 00:08:45,680
+Ha Ye Billiard Table
+
+257
+00:08:45,680 --> 00:08:46,600
+You deserve it
+
+258
+00:08:46,600 --> 00:08:47,380
+Because you see
+
+259
+00:08:47,380 --> 00:08:49,180
+Because you, you, you originally wanted to say
+
+260
+00:08:49,180 --> 00:08:52,850
+This thing is originally supposed to be here by default, right?
+
+261
+00:08:52,850 --> 00:08:54,210
+Then you want to move it down a bit
+
+262
+00:08:54,210 --> 00:08:55,910
+You can actually just give it a little something.
+
+263
+00:08:55,910 --> 00:08:58,470
+Can we use top margin? Yes, we can.
+
+264
+00:08:58,470 --> 00:09:00,070
+But using the original top property is so much simpler.
+
+265
+00:09:00,070 --> 00:09:00,990
+Wouldn't it just come down like that?
+
+266
+00:09:00,990 --> 00:09:02,620
+But they insist on using positioning
+
+267
+00:09:02,620 --> 00:09:04,220
+Because positioning is definitely a bit more troublesome.
+
+268
+00:09:04,220 --> 00:09:05,440
+You have to enable positioning
+
+269
+00:09:05,440 --> 00:09:07,260
+his parent element also needs to be positioned, right
+
+270
+00:09:07,260 --> 00:09:08,340
+it's troublesome
+
+271
+00:09:08,340 --> 00:09:10,060
+But they just use positioning better
+
+272
+00:09:10,060 --> 00:09:11,080
+How should I put it
+
+273
+00:09:11,080 --> 00:09:13,860
+Because later on, aren't we going to create a sticky header effect?
+
+274
+00:09:13,860 --> 00:09:14,819
+Do you remember?
+
+275
+00:09:14,819 --> 00:09:16,759
+That sticky header is quite troublesome
+
+276
+00:09:16,759 --> 00:09:18,539
+Just follow his approach
+
+277
+00:09:18,539 --> 00:09:19,239
+Just follow this approach
+
+278
+00:09:19,239 --> 00:09:20,960
+Let's review positioning techniques again.
+
+279
+00:09:20,960 --> 00:09:22,520
+So let's also enable positioning.
+
+280
+00:09:22,520 --> 00:09:23,400
+You see, he applies positioning
+
+281
+00:09:23,400 --> 00:09:24,220
+How did they do it?
+
+282
+00:09:24,220 --> 00:09:25,520
+left is zero
+
+283
+00:09:25,520 --> 00:09:27,400
+just a moment
+
+284
+00:09:27,400 --> 00:09:29,260
+This should be the middle one, right?
+
+285
+00:09:29,260 --> 00:09:32,740
+Then he enables positioning with the left distance set to zero
+
+286
+00:09:32,740 --> 00:09:34,500
+what was the top value again
+
+287
+00:09:34,500 --> 00:09:37,100
+Does ten mean it moved down by ten pixels?
+
+288
+00:09:37,100 --> 00:09:39,470
+Oh, actually it moved down by 10 pixels.
+
+289
+00:09:39,470 --> 00:09:42,310
+Set the background color to FFF, okay
+
+290
+00:09:42,310 --> 00:09:43,690
+Let's write it down
+
+291
+00:09:43,690 --> 00:09:46,810
+background color to pay attention to
+
+292
+00:09:47,090 --> 00:09:49,770
+Let's talk about the background color later.
+
+293
+00:09:49,770 --> 00:09:51,350
+Alright, let's set up the positioning.
+
+294
+00:09:51,350 --> 00:09:53,450
+He wants to set up something called absolute positioning
+
+295
+00:09:53,450 --> 00:09:54,970
+His father didn't hesitate
+
+296
+00:09:54,970 --> 00:09:56,970
+First, locate its parent
+
+297
+00:09:56,970 --> 00:09:57,590
+You don't dare
+
+298
+00:09:57,590 --> 00:09:58,610
+The parent is this div
+
+299
+00:09:58,610 --> 00:09:59,930
+Don't give it to him to open
+
+300
+00:09:59,930 --> 00:10:01,010
+Who are you going to open it for?
+
+301
+00:10:01,010 --> 00:10:03,390
+Give him relative positioning
+
+302
+00:10:03,390 --> 00:10:04,590
+Don't give it to rap
+
+303
+00:10:04,590 --> 00:10:05,570
+Don't change the wrap
+
+304
+00:10:05,570 --> 00:10:06,870
+Don't move the rap
+
+305
+00:10:06,870 --> 00:10:10,509
+Give this, um, turn it on
+
+306
+00:10:10,509 --> 00:10:12,060
+um position
+
+307
+00:10:12,060 --> 00:10:12,540
+I don't know
+
+308
+00:10:12,540 --> 00:10:13,700
+Do you understand what I mean now?
+
+309
+00:10:13,700 --> 00:10:14,650
+Don't move it
+
+310
+00:10:14,650 --> 00:10:18,210
+Because in the future, we'll only focus on setting the width and centering it.
+
+311
+00:10:18,210 --> 00:10:19,150
+Don't do anything else
+
+312
+00:10:19,150 --> 00:10:20,550
+Don't let it do anything else
+
+313
+00:10:20,550 --> 00:10:22,849
+This way it can be universally applicable.
+
+314
+00:10:22,849 --> 00:10:24,329
+The parent element has relative positioning
+
+315
+00:10:24,329 --> 00:10:25,229
+it is absolutely positioned
+
+316
+00:10:25,229 --> 00:10:26,009
+Then do you remember
+
+317
+00:10:26,009 --> 00:10:27,480
+left is zero
+
+318
+00:10:27,480 --> 00:10:29,400
+Then what was the top value again?
+
+319
+00:10:29,400 --> 00:10:32,040
+Ten, do you understand what left 0 means?
+
+320
+00:10:32,040 --> 00:10:33,010
+Look
+
+321
+00:10:33,010 --> 00:10:35,970
+We need to set this element to absolute positioning
+
+322
+00:10:35,970 --> 00:10:38,380
+Its parent is using it now, right?
+
+323
+00:10:38,380 --> 00:10:39,160
+right?
+
+324
+00:10:39,160 --> 00:10:41,620
+left 0 and the top is 10px from the top, right?
+
+325
+00:10:41,620 --> 00:10:42,540
+So refresh it
+
+326
+00:10:42,540 --> 00:10:44,340
+Do you see if you can understand the meaning now?
+
+327
+00:10:44,340 --> 00:10:45,760
+Well, that's how it is.
+
+328
+00:10:45,760 --> 00:10:47,810
+Go through the definitions again
+
+329
+00:10:48,010 --> 00:10:48,890
+P&G JD.com Super Brand Day
+
+330
+00:10:48,890 --> 00:10:52,150
+Shouldn't there be a background color or background image here?
+
+331
+00:10:52,150 --> 00:10:53,290
+A background image should be added
+
+332
+00:10:53,290 --> 00:10:54,170
+It's this logo
+
+333
+00:10:54,170 --> 00:10:56,010
+Haye Billiards Table
+
+334
+00:10:56,010 --> 00:10:57,850
+Uh, just using an image would work too
+
+335
+00:10:57,850 --> 00:10:58,890
+You deserve it
+
+336
+00:10:58,890 --> 00:11:01,690
+Ah, take a look, there's quite a lot inside
+
+337
+00:11:01,690 --> 00:11:03,800
+Look, we're not going to do that much when clicking into this.
+
+338
+00:11:03,800 --> 00:11:06,280
+Find the title of the logo
+
+339
+00:11:06,280 --> 00:11:10,040
+Then look, shouldn't there be an image or background image
+
+340
+00:11:10,040 --> 00:11:11,700
+P&G JD Super Brand Day
+
+341
+00:11:12,060 --> 00:11:15,989
+Hey, look, it's got a whole bunch of stuff inside again
+
+342
+00:11:15,989 --> 00:11:18,549
+Samsung Galaxy S22
+
+343
+00:11:18,549 --> 00:11:19,849
+as big as that div
+
+344
+00:11:19,849 --> 00:11:21,660
+Then, what did it do again?
+
+345
+00:11:21,660 --> 00:11:23,240
+Is it a background image?
+
+346
+00:11:23,240 --> 00:11:27,060
+Well, you see we've got a background image here
+
+347
+00:11:27,060 --> 00:11:29,340
+And you can tell this is a sprite sheet effect
+
+348
+00:11:29,340 --> 00:11:31,660
+Because there are two images on one picture, right?
+
+349
+00:11:31,660 --> 00:11:34,520
+Well, let's download this image first.
+
+350
+00:11:34,520 --> 00:11:37,850
+Click on this, as you hover your mouse over the hyperlink
+
+351
+00:11:37,850 --> 00:11:39,130
+Samsung Galaxy S22
+
+352
+00:11:39,130 --> 00:11:39,730
+it appears
+
+353
+00:11:39,730 --> 00:11:41,130
+Click this, click this thing
+
+354
+00:11:41,130 --> 00:11:44,170
+Right-click the mouse and save the image as
+
+355
+00:11:44,170 --> 00:11:45,770
+This is a sprite image.
+
+356
+00:11:45,770 --> 00:11:48,350
+The word 'surprise' means sprite image.
+
+357
+00:11:48,350 --> 00:11:50,250
+Or you can call it a sprite.
+
+358
+00:11:50,250 --> 00:11:52,370
+Sprite, alright
+
+359
+00:11:52,370 --> 00:11:55,630
+Download this image and review it
+
+360
+00:11:55,630 --> 00:11:59,750
+I guess it's very likely that some students have already forgotten.
+
+361
+00:11:59,750 --> 00:12:00,890
+The image is here
+
+362
+00:12:00,890 --> 00:12:04,970
+Then let's directly add the background image to it.
+
+363
+00:12:04,970 --> 00:12:06,370
+Directly add a background image to it
+
+364
+00:12:06,370 --> 00:12:08,370
+Or if you want it to be clickable like this one
+
+365
+00:12:08,370 --> 00:12:10,529
+Should we add a hyperlink inside?
+
+366
+00:12:10,529 --> 00:12:14,920
+Then should we set the display property of this hyperlink to what was it again
+
+367
+00:12:14,920 --> 00:12:16,080
+block element
+
+368
+00:12:16,080 --> 00:12:17,840
+then make it fill the entire parent
+
+369
+00:12:17,840 --> 00:12:20,640
+Do you understand what I mean by setting both width and height to 100%?
+
+370
+00:12:20,640 --> 00:12:24,000
+Then it's also okay to set a background image for A
+
+371
+00:12:24,000 --> 00:12:25,720
+but I won't do it that way
+
+372
+00:12:25,720 --> 00:12:26,920
+This is not our main focus
+
+373
+00:12:26,920 --> 00:12:28,440
+You can do it yourself.
+
+374
+00:12:28,440 --> 00:12:29,440
+Alright then
+
+375
+00:12:29,440 --> 00:12:31,560
+let's just give the div div
+
+376
+00:12:31,560 --> 00:12:34,020
+Set a background image for this logo
+
+377
+00:12:34,020 --> 00:12:35,840
+Actually, we don't need the background color anymore
+
+378
+00:12:35,840 --> 00:12:37,000
+Because with a background image
+
+379
+00:12:37,000 --> 00:12:38,970
+the color won't serve much purpose anymore
+
+380
+00:12:38,970 --> 00:12:41,930
+background URL dot slash
+
+381
+00:12:43,290 --> 00:12:46,240
+slash
+
+382
+00:12:46,240 --> 00:12:47,380
+Let's review this again
+
+383
+00:12:47,380 --> 00:12:50,760
+Now we are in the CSS file where the dot slash
+
+384
+00:12:50,760 --> 00:12:53,420
+It indicates the current directory where the file is located, right?
+
+385
+00:12:53,420 --> 00:12:56,040
+The current file's directory is located here
+
+386
+00:12:56,040 --> 00:12:58,280
+But the key is I need the stuff inside here
+
+387
+00:12:58,280 --> 00:13:00,300
+Should we use it somehow
+
+388
+00:13:00,300 --> 00:13:03,110
+Go up one more level and you'll reach JD, right?
+
+389
+00:13:03,110 --> 00:13:05,790
+Hey, is the stuff under JD.com using an image?
+
+390
+00:13:05,790 --> 00:13:07,570
+So how should I load this?
+
+391
+00:13:07,570 --> 00:13:10,310
+Now click the slash.
+
+392
+00:13:10,310 --> 00:13:12,110
+Walk, walk, walk until you reach this Jingdong part
+
+393
+00:13:12,110 --> 00:13:14,090
+Is it image4 below?
+
+394
+00:13:14,090 --> 00:13:19,630
+Well, this one in the main image is good.
+
+395
+00:13:19,630 --> 00:13:21,670
+Then take a look at their sprite sheet
+
+396
+00:13:21,670 --> 00:13:21,750
+Hey
+
+397
+00:13:21,750 --> 00:13:23,270
+How is this background image set up?
+
+398
+00:13:23,270 --> 00:13:24,630
+Take a look
+
+399
+00:13:25,790 --> 00:13:30,110
+Look at this, NO repeat means no repetition or tiling, right?
+
+400
+00:13:30,110 --> 00:13:31,010
+And then
+
+401
+00:13:31,010 --> 00:13:34,250
+position00 actually you don't need to write this, what is the default?
+
+402
+00:13:34,250 --> 00:13:35,990
+00 because as we mentioned
+
+403
+00:13:35,990 --> 00:13:38,090
+For example, the element is just this size image
+
+404
+00:13:38,090 --> 00:13:41,110
+It tiles downward from the top-left corner of the element.
+
+405
+00:13:41,110 --> 00:13:41,890
+you know
+
+406
+00:13:41,890 --> 00:13:43,810
+So whether this 00 is written or not
+
+407
+00:13:43,810 --> 00:13:45,350
+This is the default behavior.
+
+408
+00:13:45,350 --> 00:13:47,440
+Then I'll choose NO repeat
+
+409
+00:13:47,440 --> 00:13:48,320
+No repeat
+
+410
+00:13:48,320 --> 00:13:50,960
+You can review position with him again
+
+411
+00:13:50,960 --> 00:13:54,970
+The first one represents the horizontal X-axis distance of the background image movement
+
+412
+00:13:54,970 --> 00:13:57,370
+The second represents the vertical movement distance
+
+413
+00:13:57,370 --> 00:14:00,590
+Zero zero means neither horizontal nor vertical movement.
+
+414
+00:14:00,590 --> 00:14:01,250
+Alright
+
+415
+00:14:01,250 --> 00:14:03,939
+Let's take a look at the effect, is this correct?
+
+416
+00:14:03,939 --> 00:14:05,959
+Is this Jingdong displayed correctly now?
+
+417
+00:14:05,959 --> 00:14:07,919
+Okay, great
+
+418
+00:14:08,390 --> 00:14:09,090
+And then,
+
+419
+00:14:09,090 --> 00:14:11,890
+Well well well, this logo is done now.
+
+420
+00:14:11,890 --> 00:14:14,210
+This logo is now done.
+
+421
+00:14:14,210 --> 00:14:16,090
+Next, let's work on this section
+
+422
+00:14:16,090 --> 00:14:18,450
+This part is a bit tricky.
+
+423
+00:14:18,450 --> 00:14:19,290
+Look at this
+
+424
+00:14:19,290 --> 00:14:20,530
+I clicked on search
+
+425
+00:14:20,530 --> 00:14:22,740
+This div is like this
+
+426
+00:14:22,740 --> 00:14:25,140
+Look, he drew such a long div
+
+427
+00:14:25,140 --> 00:14:28,610
+Ha Ye Billiards Table
+
+428
+00:14:28,610 --> 00:14:30,090
+Then draw this div
+
+429
+00:14:30,090 --> 00:14:32,650
+It means search
+
+430
+00:14:34,960 --> 00:14:43,040
+div and then the class is called search s e a r c h search
+
+431
+00:14:43,040 --> 00:14:43,760
+Alright
+
+432
+00:14:43,760 --> 00:14:44,740
+without further ado
+
+433
+00:14:44,740 --> 00:14:46,200
+First, let's style it up
+
+434
+00:14:46,200 --> 00:14:48,400
+P&G JD Super Brand Day
+
+435
+00:14:48,400 --> 00:14:50,260
+width 1190
+
+436
+00:14:50,260 --> 00:14:52,770
+height 60
+
+437
+00:14:52,770 --> 00:14:54,130
+Haye Billiards Table
+
+438
+00:14:54,130 --> 00:14:55,530
+Actually, regarding this width
+
+439
+00:14:55,530 --> 00:14:57,850
+We actually don't need to set it to 1190
+
+440
+00:14:57,850 --> 00:15:02,120
+Should we just let it fill up the width of the wrap container?
+
+441
+00:15:02,120 --> 00:15:04,590
+Well, it's about the width here
+
+442
+00:15:04,590 --> 00:15:06,490
+Does it just need to fill the entire parent container?
+
+443
+00:15:06,490 --> 00:15:09,270
+Actually, you don't need to set the width.
+
+444
+00:15:09,270 --> 00:15:10,830
+Come on
+
+445
+00:15:12,320 --> 00:15:15,760
+You don't actually need to set the width for the search
+
+446
+00:15:15,760 --> 00:15:18,840
+or you can set it to 100% to match the parent container's width
+
+447
+00:15:18,840 --> 00:15:20,000
+How much is the height?
+
+448
+00:15:20,000 --> 00:15:21,080
+60, oh
+
+449
+00:15:21,080 --> 00:15:22,040
+Height 60 pixels
+
+450
+00:15:22,040 --> 00:15:23,840
+There's nothing else
+
+451
+00:15:24,490 --> 00:15:25,310
+take a look
+
+452
+00:15:25,310 --> 00:15:26,230
+take a quick glance
+
+453
+00:15:26,230 --> 00:15:27,550
+There's nothing else here
+
+454
+00:15:27,550 --> 00:15:29,810
+Alright, the search box is now completed.
+
+455
+00:15:29,810 --> 00:15:32,470
+Then keep looking to see what else is inside.
+
+456
+00:15:32,470 --> 00:15:36,569
+Look inside the search box, let's see what's inside
+
+457
+00:15:37,009 --> 00:15:39,309
+You see there's one missing
+
+458
+00:15:39,309 --> 00:15:40,609
+There is a div nested inside it
+
+459
+00:15:40,609 --> 00:15:42,849
+What's going on with this div again and again
+
+460
+00:15:43,700 --> 00:15:45,940
+Samsung Galaxy S22
+
+461
+00:15:45,940 --> 00:15:49,560
+Harvey Pool Table
+
+462
+00:15:49,560 --> 00:15:51,700
+According to my original idea
+
+463
+00:15:51,700 --> 00:15:53,320
+It's not my original idea either
+
+464
+00:15:53,320 --> 00:15:54,690
+as per our previous approach
+
+465
+00:15:54,690 --> 00:15:56,610
+Just think about it, one inside the other and then another layer inside.
+
+466
+00:15:56,610 --> 00:15:57,890
+There's actually no need to nest so many layers
+
+467
+00:15:57,890 --> 00:15:59,370
+You know what I mean, right?
+
+468
+00:15:59,370 --> 00:16:00,210
+They're the same
+
+469
+00:16:00,210 --> 00:16:03,650
+So we'll actually write one less div in the end.
+
+470
+00:16:03,650 --> 00:16:06,790
+
+
+471
+00:16:06,790 --> 00:16:08,250
+I see they are the same
+
+472
+00:16:08,250 --> 00:16:10,980
+So I just won't nest so many layers
+
+473
+00:16:10,980 --> 00:16:13,080
+But actually, you have to pay this much
+
+474
+00:16:13,080 --> 00:16:15,780
+Otherwise, you'll find yourself falling behind later.
+
+475
+00:16:15,780 --> 00:16:17,920
+Did you notice that his class has no value?
+
+476
+00:16:17,920 --> 00:16:19,079
+Did you notice
+
+477
+00:16:19,079 --> 00:16:20,179
+Is there no value?
+
+478
+00:16:20,179 --> 00:16:22,079
+Generally, when you write a class, you should assign a value to it, right?
+
+479
+00:16:22,079 --> 00:16:23,239
+This class has no value
+
+480
+00:16:23,239 --> 00:16:24,079
+Do you know what's going on?
+
+481
+00:16:24,079 --> 00:16:25,839
+This means that this div
+
+482
+00:16:25,839 --> 00:16:26,960
+Its class
+
+483
+00:16:26,960 --> 00:16:30,160
+Most likely, it will be controlled by someone later.
+
+484
+00:16:30,160 --> 00:16:32,020
+it has to be done with JS
+
+485
+00:16:32,020 --> 00:16:36,440
+So, you see, I was being lazy before, what should I do?
+
+486
+00:16:36,440 --> 00:16:38,380
+I just wrote a div here
+
+487
+00:16:38,380 --> 00:16:39,910
+I didn't nest them properly
+
+488
+00:16:39,910 --> 00:16:41,650
+so it leads to later on
+
+489
+00:16:41,650 --> 00:16:43,670
+when you're working on that sticky effect
+
+490
+00:16:43,670 --> 00:16:44,750
+particularly troublesome
+
+491
+00:16:44,750 --> 00:16:46,430
+Let's do the same here
+
+492
+00:16:46,430 --> 00:16:48,160
+
+
+493
+00:16:48,160 --> 00:16:49,860
+we'll make it sticky later
+
+494
+00:16:49,860 --> 00:16:50,380
+just modify this
+
+495
+00:16:50,380 --> 00:16:52,189
+P&G JD Super Brand Day
+
+496
+00:16:52,189 --> 00:16:52,709
+You see
+
+497
+00:16:52,709 --> 00:16:53,929
+There is an id called search
+
+498
+00:16:53,929 --> 00:16:55,789
+We named the class 'search'
+
+499
+00:16:55,789 --> 00:16:56,509
+It doesn't matter
+
+500
+00:16:56,509 --> 00:16:57,829
+You see this class has no value, right?
+
+501
+00:16:57,829 --> 00:16:58,660
+Ha Ye Billiards Table
+
+502
+00:16:58,660 --> 00:16:59,740
+I scroll down
+
+503
+00:16:59,740 --> 00:17:01,420
+Look, now it has a sticky effect.
+
+504
+00:17:01,420 --> 00:17:02,240
+Do you see it
+
+505
+00:17:02,240 --> 00:17:04,579
+Then take a look, do you remember?
+
+506
+00:17:04,579 --> 00:17:06,270
+The class originally had no value
+
+507
+00:17:06,270 --> 00:17:07,910
+Does it have a value now?
+
+508
+00:17:07,910 --> 00:17:08,550
+Right?
+
+509
+00:17:08,550 --> 00:17:10,990
+The reason why he added an extra layer here is
+
+510
+00:17:10,990 --> 00:17:14,190
+The purpose here is to facilitate the implementation of the sticky header later on.
+
+511
+00:17:14,190 --> 00:17:16,009
+It's just for this purpose
+
+512
+00:17:16,009 --> 00:17:17,569
+so we'll also add an extra layer
+
+513
+00:17:17,569 --> 00:17:19,709
+Otherwise, I won't add another layer
+
+514
+00:17:19,709 --> 00:17:20,809
+Let's just nest it one more time
+
+515
+00:17:20,809 --> 00:17:23,369
+Ah, let's wrap one more layer like they did
+
+516
+00:17:23,369 --> 00:17:26,249
+then add another div class
+
+517
+00:17:26,249 --> 00:17:27,489
+I'll give it the same name as him
+
+518
+00:17:27,489 --> 00:17:28,529
+No need to name it
+
+519
+00:17:28,529 --> 00:17:29,849
+class with the same name
+
+520
+00:17:29,849 --> 00:17:31,109
+Just call it the same name
+
+521
+00:17:31,109 --> 00:17:35,250
+Alright, let's nest another div inside.
+
+522
+00:17:35,250 --> 00:17:37,030
+class is the same as him
+
+523
+00:17:37,030 --> 00:17:38,890
+a thing inside the search
+
+524
+00:17:38,890 --> 00:17:41,550
+Let's take a look at its style
+
+525
+00:17:44,220 --> 00:17:45,540
+Alright
+
+526
+00:17:45,540 --> 00:17:46,620
+Look at its style
+
+527
+00:17:46,620 --> 00:17:47,840
+Let's see what styles it has
+
+528
+00:17:47,840 --> 00:17:50,660
+First, let's look at this 1190×60.
+
+529
+00:17:50,660 --> 00:17:52,240
+Well, the width is 1190
+
+530
+00:17:52,240 --> 00:17:53,360
+height 60
+
+531
+00:17:53,360 --> 00:17:58,400
+The width should be the same as the parent's width, right?
+
+532
+00:17:58,400 --> 00:18:00,500
+It is as wide as its parent
+
+533
+00:18:00,500 --> 00:18:02,420
+Because the search is 1190, right?
+
+534
+00:18:02,420 --> 00:18:04,400
+The height is also, oh well
+
+535
+00:18:04,400 --> 00:18:05,380
+Should we write the height or not?
+
+536
+00:18:05,380 --> 00:18:07,200
+Should the height be the same as the parent's width?
+
+537
+00:18:07,200 --> 00:18:09,000
+100%, okay
+
+538
+00:18:09,000 --> 00:18:09,900
+See if there's anything else
+
+539
+00:18:09,900 --> 00:18:10,940
+Well, there's nothing else, right?
+
+540
+00:18:10,940 --> 00:18:12,720
+Well, there's nothing.
+
+541
+00:18:13,580 --> 00:18:14,080
+Alright
+
+542
+00:18:14,080 --> 00:18:17,000
+Then let's keep going, keep going
+
+543
+00:18:17,000 --> 00:18:18,400
+inside the search m
+
+544
+00:18:18,400 --> 00:18:20,200
+Now let's see what's inside here
+
+545
+00:18:20,200 --> 00:18:24,270
+Look, look, look at me
+
+546
+00:18:24,270 --> 00:18:26,310
+Look, look at the structure below
+
+547
+00:18:26,310 --> 00:18:29,670
+Look, there's an empty div inside this search m
+
+548
+00:18:29,670 --> 00:18:31,030
+Look, click on it, hey
+
+549
+00:18:31,030 --> 00:18:31,590
+I clicked on it
+
+550
+00:18:31,590 --> 00:18:33,110
+It seems like the page hasn't selected anything
+
+551
+00:18:33,110 --> 00:18:33,750
+Right?
+
+552
+00:18:33,750 --> 00:18:36,640
+No place is selected here.
+
+553
+00:18:36,640 --> 00:18:39,320
+Later on, we'll be working on that small image.
+
+554
+00:18:39,520 --> 00:18:41,080
+Look, there's nothing on the page now.
+
+555
+00:18:41,080 --> 00:18:42,100
+I clicked on the top
+
+556
+00:18:42,100 --> 00:18:43,160
+Nothing is selected on the page
+
+557
+00:18:43,160 --> 00:18:43,560
+Look
+
+558
+00:18:43,560 --> 00:18:44,980
+I keep scrolling down and down
+
+559
+00:18:44,980 --> 00:18:46,320
+Look at this again
+
+560
+00:18:46,320 --> 00:18:48,280
+Look where I'm clicking now
+
+561
+00:18:48,600 --> 00:18:50,040
+Is this selected?
+
+562
+00:18:50,040 --> 00:18:50,680
+Got it
+
+563
+00:18:50,680 --> 00:18:52,720
+This is mainly for making it stick to the top later.
+
+564
+00:18:52,720 --> 00:18:54,400
+So let's just leave it empty for now
+
+565
+00:18:54,400 --> 00:18:55,360
+Just leave it blank for now
+
+566
+00:18:55,360 --> 00:18:58,870
+Let's pay attention now
+
+567
+00:18:58,870 --> 00:19:05,180
+Inside this, the div class is called this
+
+568
+00:19:05,180 --> 00:19:06,580
+It will be used for sticky positioning later
+
+569
+00:19:06,580 --> 00:19:07,860
+Just leave it blank for now
+
+570
+00:19:07,860 --> 00:19:09,540
+Or maybe we can write it out directly
+
+571
+00:19:09,540 --> 00:19:10,140
+Pay attention
+
+572
+00:19:10,140 --> 00:19:12,790
+Pay attention to this logo
+
+573
+00:19:12,790 --> 00:19:14,110
+Let's see what styles it has
+
+574
+00:19:15,310 --> 00:19:16,690
+Search logo
+
+575
+00:19:16,690 --> 00:19:18,670
+Ah, this can't be done right now, forget it.
+
+576
+00:19:18,670 --> 00:19:19,490
+Let's not do it for now
+
+577
+00:19:19,490 --> 00:19:21,410
+later when we work on the sticky header
+
+578
+00:19:21,410 --> 00:19:22,410
+Let's write the styles above
+
+579
+00:19:22,410 --> 00:19:25,710
+Or you can go down like this
+
+580
+00:19:25,710 --> 00:19:28,310
+Does it look good to you now?
+
+581
+00:19:28,310 --> 00:19:32,230
+Well now we do indeed have the corresponding logo here
+
+582
+00:19:32,230 --> 00:19:34,070
+Let's write it now.
+
+583
+00:19:34,070 --> 00:19:36,390
+125×40, okay?
+
+584
+00:19:36,390 --> 00:19:37,470
+Let's write it now
+
+585
+00:19:37,470 --> 00:19:38,610
+width 125
+
+586
+00:19:38,610 --> 00:19:39,830
+height 40
+
+587
+00:19:39,830 --> 00:19:41,190
+that's it
+
+588
+00:19:42,580 --> 00:19:44,060
+Please follow my train of thought
+
+589
+00:19:44,060 --> 00:19:45,140
+Stay focused at all costs
+
+590
+00:19:45,140 --> 00:19:48,780
+It is 125 pixels wide
+
+591
+00:19:48,780 --> 00:19:50,580
+40 pixels in height
+
+592
+00:19:50,580 --> 00:19:52,120
+I think this thing is simple
+
+593
+00:19:52,120 --> 00:19:54,170
+You should be able to recall it now, alright
+
+594
+00:19:54,170 --> 00:19:56,450
+And look, there's a position4 on the outside
+
+595
+00:19:56,450 --> 00:19:58,580
+Explain what this thing is using
+
+596
+00:19:58,580 --> 00:20:00,840
+Positioning, he must have used positioning.
+
+597
+00:20:00,840 --> 00:20:02,260
+As you can see, it definitely uses positioning
+
+598
+00:20:02,260 --> 00:20:04,300
+Definitely use absolute positioning, absolute positioning for sure.
+
+599
+00:20:04,300 --> 00:20:08,199
+let's write position absolute, okay
+
+600
+00:20:08,199 --> 00:20:11,099
+Position absolute
+
+601
+00:20:11,099 --> 00:20:12,889
+If it needs to enable absolute positioning
+
+602
+00:20:12,889 --> 00:20:14,329
+He enabled absolute positioning
+
+603
+00:20:14,329 --> 00:20:15,809
+What should its parent do?
+
+604
+00:20:15,809 --> 00:20:16,969
+make it relative
+
+605
+00:20:16,969 --> 00:20:18,929
+This thing called search_M
+
+606
+00:20:18,929 --> 00:20:22,830
+search-M with position relative for relative positioning
+
+607
+00:20:22,830 --> 00:20:24,830
+Then look at what its top is
+
+608
+00:20:24,830 --> 00:20:26,010
+Let's take a look
+
+609
+00:20:26,010 --> 00:20:29,200
+The top of this is 4
+
+610
+00:20:29,200 --> 00:20:30,360
+left is zero
+
+611
+00:20:30,360 --> 00:20:33,380
+Set the top to 4 pixels
+
+612
+00:20:33,380 --> 00:20:35,500
+left is zero
+
+613
+00:20:35,500 --> 00:20:36,580
+Anything else?
+
+614
+00:20:36,580 --> 00:20:37,740
+Nothing much
+
+615
+00:20:37,740 --> 00:20:38,780
+There's nothing left
+
+616
+00:20:38,780 --> 00:20:41,060
+Default default what state is it in
+
+617
+00:20:41,060 --> 00:20:42,100
+You know
+
+618
+00:20:42,100 --> 00:20:46,420
+By default, you see, at the very beginning when we were at the top
+
+619
+00:20:46,420 --> 00:20:49,530
+Default, look at this thing.
+
+620
+00:20:49,530 --> 00:20:50,570
+Where is it?
+
+621
+00:20:50,570 --> 00:20:54,410
+By default, it's in a hidden state.
+
+622
+00:20:54,410 --> 00:20:56,010
+Because it only appears when it's sticky at the top
+
+623
+00:20:56,010 --> 00:20:57,390
+that little image only appears then
+
+624
+00:20:57,390 --> 00:20:58,930
+Now the entire thing is hidden by default
+
+625
+00:20:58,930 --> 00:21:03,270
+Look, it's hidden, hidden.
+
+626
+00:21:03,270 --> 00:21:04,750
+So I've written here
+
+627
+00:21:04,750 --> 00:21:06,810
+display: none
+
+628
+00:21:06,810 --> 00:21:07,790
+First write it down
+
+629
+00:21:07,790 --> 00:21:09,110
+put it here
+
+630
+00:21:09,390 --> 00:21:13,690
+Look, we're currently working on this part inside.
+
+631
+00:21:13,690 --> 00:21:16,070
+Now that we've done the logo, let's move on to the next part
+
+632
+00:21:16,070 --> 00:21:19,469
+Oops, the form here
+
+633
+00:21:19,469 --> 00:21:21,209
+Here another div is added
+
+634
+00:21:21,209 --> 00:21:22,949
+used for this search functionality
+
+635
+00:21:22,949 --> 00:21:23,249
+Hey
+
+636
+00:21:23,249 --> 00:21:24,610
+used for this search box
+
+637
+00:21:24,610 --> 00:21:26,850
+Look, he created a div class
+
+638
+00:21:26,850 --> 00:21:29,050
+called form
+
+639
+00:21:29,050 --> 00:21:30,310
+Then I'll also make one
+
+640
+00:21:30,310 --> 00:21:35,420
+This is the sticky header effect
+
+641
+00:21:35,420 --> 00:21:41,010
+Okay, the small logo for the sticky header effect is done
+
+642
+00:21:41,010 --> 00:21:42,810
+Next, I have to create another div.
+
+643
+00:21:43,930 --> 00:21:45,090
+the class is the same as his
+
+644
+00:21:45,090 --> 00:21:46,190
+I'll call it form
+
+645
+00:21:46,190 --> 00:21:49,625
+It will be used to hold the input box later.
+
+646
+00:21:50,300 --> 00:21:51,740
+Okay, let's finish writing this character.
+
+647
+00:21:51,740 --> 00:21:52,820
+Let's take a break
+
+648
+00:21:52,820 --> 00:21:58,540
+Okay, let's call the form class 'form' and continue writing some form code.
+
+649
+00:21:59,650 --> 00:22:00,370
+Let's take a look
+
+650
+00:22:00,370 --> 00:22:01,490
+See what he has
+
+651
+00:22:01,490 --> 00:22:02,470
+First look at this
+
+652
+00:22:02,470 --> 00:22:04,230
+I always click here first
+
+653
+00:22:04,230 --> 00:22:06,090
+then click on this
+
+654
+00:22:06,090 --> 00:22:07,400
+Look at this to write
+
+655
+00:22:07,400 --> 00:22:12,770
+width 546546×32
+
+656
+00:22:12,770 --> 00:22:15,790
+a height of 32 pixels
+
+657
+00:22:15,790 --> 00:22:16,920
+What else
+
+658
+00:22:16,920 --> 00:22:18,580
+the border is 2 pixels
+
+659
+00:22:18,580 --> 00:22:21,710
+Let's take a look at this 2-pixel border color
+
+660
+00:22:21,710 --> 00:22:26,590
+Set the border to 2 pixels solid with this color, alright
+
+661
+00:22:26,590 --> 00:22:29,550
+Next, let's see the border has been applied
+
+662
+00:22:29,550 --> 00:22:31,350
+So he must have used something, right?
+
+663
+00:22:31,350 --> 00:22:33,330
+It definitely uses positioning.
+
+664
+00:22:33,330 --> 00:22:38,490
+Let's take a look at the positioning form here to see how the positioning is set up
+
+665
+00:22:38,490 --> 00:22:40,490
+Let's see how he uses positioning.
+
+666
+00:22:41,810 --> 00:22:45,170
+absolute positioning, let's write it down
+
+667
+00:22:46,519 --> 00:22:48,459
+Position absolute
+
+668
+00:22:48,459 --> 00:22:51,599
+He wants to set the absolute positioning, and his parent element should be relatively positioned.
+
+669
+00:22:51,599 --> 00:22:52,920
+check its parent
+
+670
+00:22:52,920 --> 00:22:54,680
+It seems like we've already done this, right?
+
+671
+00:22:54,680 --> 00:22:57,300
+Ah, relative positioning has been set. Okay.
+
+672
+00:22:57,300 --> 00:22:59,500
+Look how far it should be from its parent
+
+673
+00:22:59,500 --> 00:23:01,120
+260px from the left
+
+674
+00:23:01,120 --> 00:23:02,360
+Actually, it's right here
+
+675
+00:23:02,360 --> 00:23:06,900
+His parent element should also be this wide
+
+676
+00:23:06,900 --> 00:23:08,080
+260px from the left
+
+677
+00:23:08,080 --> 00:23:09,160
+Let's write it first
+
+678
+00:23:09,160 --> 00:23:14,150
+Well, left 260 pixels, 260 pixels away from its parent
+
+679
+00:23:14,150 --> 00:23:15,110
+And what else?
+
+680
+00:23:15,110 --> 00:23:16,130
+what is the top value
+
+681
+00:23:16,130 --> 00:23:21,130
+25 pixels from the top, that's actually it.
+
+682
+00:23:21,130 --> 00:23:23,439
+25 pixels from the top
+
+683
+00:23:23,439 --> 00:23:29,419
+Let's write it down, top 25 pixels, what else?
+
+684
+00:23:29,970 --> 00:23:32,110
+The background color is white, right?
+
+685
+00:23:32,110 --> 00:23:34,330
+Let me add one then
+
+686
+00:23:35,230 --> 00:23:37,730
+What else besides #FFF?
+
+687
+00:23:37,730 --> 00:23:38,530
+Is there anything else?
+
+688
+00:23:38,530 --> 00:23:39,510
+Well, nothing else.
+
+689
+00:23:39,510 --> 00:23:41,670
+Let's take a look at our, hey
+
+690
+00:23:41,670 --> 00:23:42,550
+Is that right?
+
+691
+00:23:42,550 --> 00:23:43,830
+Well, yes
+
+692
+00:23:43,830 --> 00:23:46,600
+But this is actually a div we've drawn.
+
+693
+00:23:46,600 --> 00:23:47,760
+Actually, the div we drew
+
+694
+00:23:47,760 --> 00:23:49,120
+Can you click into Wang Jing?
+
+695
+00:23:49,120 --> 00:23:50,080
+can't click in
+
+696
+00:23:50,080 --> 00:23:52,000
+There must be something inside here, right?
+
+697
+00:23:52,000 --> 00:23:53,670
+There should be an input box
+
+698
+00:23:53,670 --> 00:23:55,330
+There should also be a button, right?
+
+699
+00:23:55,330 --> 00:23:56,910
+Take a look inside it
+
+700
+00:23:56,910 --> 00:23:59,130
+Look inside this div
+
+701
+00:23:59,130 --> 00:24:00,710
+I click into it
+
+702
+00:24:01,510 --> 00:24:03,590
+Don't worry about the other parts
+
+703
+00:24:03,590 --> 00:24:06,210
+we just Follow what we Follow
+
+704
+00:24:06,370 --> 00:24:07,450
+Look at the input box
+
+705
+00:24:07,450 --> 00:24:08,190
+I click here
+
+706
+00:24:08,190 --> 00:24:09,550
+Look, isn't this lighting up?
+
+707
+00:24:09,550 --> 00:24:11,550
+Then you should also see a button
+
+708
+00:24:11,550 --> 00:24:14,420
+Look, when I click on this button,
+
+709
+00:24:14,420 --> 00:24:15,660
+Is this lit up?
+
+710
+00:24:15,660 --> 00:24:17,740
+Got it, right?
+
+711
+00:24:17,740 --> 00:24:19,040
+Just follow the answer we need to follow
+
+712
+00:24:19,040 --> 00:24:21,360
+Then we'll write the input box
+
+713
+00:24:21,929 --> 00:24:22,929
+Is it a bit too much?
+
+714
+00:24:22,929 --> 00:24:25,409
+I think what we're covering here isn't too much.
+
+715
+00:24:25,409 --> 00:24:26,429
+We need to finish it up
+
+716
+00:24:26,429 --> 00:24:29,529
+Let's finish explaining this style in one go.
+
+717
+00:24:29,529 --> 00:24:34,070
+Let's add an input with a class
+
+718
+00:24:34,070 --> 00:24:35,690
+Let's call it key word.
+
+719
+00:24:35,690 --> 00:24:38,710
+The keyword means search.
+
+720
+00:24:38,710 --> 00:24:40,870
+Then, there should be a button inside, right?
+
+721
+00:24:40,870 --> 00:24:42,350
+button button
+
+722
+00:24:42,350 --> 00:24:44,190
+Do you know what they are using?
+
+723
+00:24:44,190 --> 00:24:46,040
+Do you still remember this thing of ours?
+
+724
+00:24:46,040 --> 00:24:48,800
+The font icon should be using a font icon, right?
+
+725
+00:24:48,800 --> 00:24:49,920
+Let's not worry about that for now
+
+726
+00:24:49,920 --> 00:24:52,439
+Anyway, let's just put a button here first.
+
+727
+00:24:52,439 --> 00:24:55,199
+Then, we definitely need to set the size of the input box.
+
+728
+00:24:55,199 --> 00:24:57,060
+Look at this input box
+
+729
+00:24:57,060 --> 00:24:58,500
+I clicked on the input box
+
+730
+00:24:58,500 --> 00:25:00,060
+Then look at this wow
+
+731
+00:25:00,060 --> 00:25:00,700
+What a mess
+
+732
+00:25:00,700 --> 00:25:01,720
+This is such a mess
+
+733
+00:25:01,720 --> 00:25:05,609
+Let's follow his lead and write CTRLC
+
+734
+00:25:07,080 --> 00:25:08,640
+Watch how I write it.
+
+735
+00:25:08,640 --> 00:25:11,519
+Not difficult to see the width
+
+736
+00:25:11,519 --> 00:25:12,179
+Just look at this
+
+737
+00:25:12,179 --> 00:25:14,699
+Let me first look at writing 425×26
+
+738
+00:25:14,699 --> 00:25:18,420
+425px in height
+
+739
+00:25:18,420 --> 00:25:20,500
+When you join the company and work on projects
+
+740
+00:25:20,500 --> 00:25:22,300
+If you were to design this page
+
+741
+00:25:22,300 --> 00:25:24,260
+if you were to write this page
+
+742
+00:25:24,260 --> 00:25:26,580
+there is already a UI designer
+
+743
+00:25:26,580 --> 00:25:28,060
+has already provided you with this design layout
+
+744
+00:25:28,060 --> 00:25:28,690
+you know
+
+745
+00:25:28,690 --> 00:25:30,210
+the dimensions are also marked for you
+
+746
+00:25:30,210 --> 00:25:33,250
+So at that time you will be looking at the dimensions provided by the UI designer
+
+747
+00:25:33,250 --> 00:25:34,850
+the dimensions on that design draft to write
+
+748
+00:25:34,850 --> 00:25:35,520
+Got it
+
+749
+00:25:35,520 --> 00:25:36,720
+you now
+
+750
+00:25:36,720 --> 00:25:39,360
+We are currently following the dimensions from Jingdong's design.
+
+751
+00:25:39,360 --> 00:25:41,200
+The car company is looking at the UI provided to you
+
+752
+00:25:41,200 --> 00:25:43,990
+That, that was written according to the dimensions.
+
+753
+00:25:43,990 --> 00:25:47,410
+Just follow their dimensions R425216, hey
+
+754
+00:25:47,410 --> 00:25:48,570
+26 pixels
+
+755
+00:25:48,570 --> 00:25:49,670
+And what else?
+
+756
+00:25:49,670 --> 00:25:52,360
+padding top and bottom 2
+
+757
+00:25:52,360 --> 00:25:53,640
+This cannot be abbreviated.
+
+758
+00:25:53,640 --> 00:25:56,480
+Two four ten four twenty-seven
+
+759
+00:25:56,920 --> 00:25:58,880
+padding of 2 pixels
+
+760
+00:25:58,880 --> 00:26:00,240
+Clockwise, right?
+
+761
+00:26:00,240 --> 00:26:05,720
+top right bottom left, yeah that's how it is, right?
+
+762
+00:26:05,720 --> 00:26:07,080
+There's also a 17, um
+
+763
+00:26:07,080 --> 00:26:08,910
+17 pixels, okay
+
+764
+00:26:08,910 --> 00:26:09,750
+What else
+
+765
+00:26:09,750 --> 00:26:12,210
+And there's a one-pixel border, right?
+
+766
+00:26:12,210 --> 00:26:13,750
+Okay, let's see what color it is.
+
+767
+00:26:13,750 --> 00:26:17,130
+border, what color is this?
+
+768
+00:26:17,130 --> 00:26:18,250
+transparent
+
+769
+00:26:18,250 --> 00:26:20,410
+Hmm, the border is transparent.
+
+770
+00:26:20,410 --> 00:26:22,310
+It's always a solid transparent color
+
+771
+00:26:22,310 --> 00:26:25,449
+Then let's take another look, I prefer to refer to this image for implementation.
+
+772
+00:26:25,449 --> 00:26:27,089
+You can see what it should have, right?
+
+773
+00:26:27,089 --> 00:26:27,969
+Do you understand?
+
+774
+00:26:27,969 --> 00:26:28,609
+It has positioning, right?
+
+775
+00:26:28,609 --> 00:26:30,229
+Does it have positioning?
+
+776
+00:26:30,229 --> 00:26:33,959
+There's positioning, let's see how it's positioned, right?
+
+777
+00:26:35,079 --> 00:26:36,439
+Let's see how it's positioned
+
+778
+00:26:37,439 --> 00:26:37,639
+Hey
+
+779
+00:26:37,639 --> 00:26:39,130
+What else is there here
+
+780
+00:26:39,130 --> 00:26:41,410
+line-height input box also has a line-height
+
+781
+00:26:41,410 --> 00:26:43,810
+Because we're going to input something in this text box later, right?
+
+782
+00:26:43,810 --> 00:26:45,610
+set the line height to 26
+
+783
+00:26:45,610 --> 00:26:47,060
+Is it the same as the height?
+
+784
+00:26:47,060 --> 00:26:49,200
+Is it to center the content?
+
+785
+00:26:49,200 --> 00:26:51,100
+Let's also add a line height.
+
+786
+00:26:51,100 --> 00:26:53,580
+All the styles you are seeing now
+
+787
+00:26:53,580 --> 00:26:55,600
+You should understand what it all means.
+
+788
+00:26:55,600 --> 00:26:58,670
+You should understand the meaning of all these styles
+
+789
+00:26:58,670 --> 00:27:00,290
+also sets the font size to 12
+
+790
+00:27:00,290 --> 00:27:01,630
+Then let's also set a font.
+
+791
+00:27:01,630 --> 00:27:03,870
+font size 12 pixels is fine
+
+792
+00:27:03,870 --> 00:27:05,070
+What else is there?
+
+793
+00:27:05,070 --> 00:27:09,210
+Set the font color to #333.
+
+794
+00:27:09,210 --> 00:27:10,429
+What else is there
+
+795
+00:27:10,429 --> 00:27:11,789
+It has positioning, right?
+
+796
+00:27:11,789 --> 00:27:13,509
+We just saw that it has positioning
+
+797
+00:27:13,509 --> 00:27:15,589
+Let's position it, let's position it.
+
+798
+00:27:15,589 --> 00:27:17,920
+Position absolute
+
+799
+00:27:17,920 --> 00:27:19,620
+It needs to enable relative positioning, uh
+
+800
+00:27:19,620 --> 00:27:20,540
+this absolute positioning
+
+801
+00:27:20,540 --> 00:27:22,480
+Let's see who his parent is
+
+802
+00:27:22,480 --> 00:27:25,440
+so he enabled positioning for the form form
+
+803
+00:27:25,440 --> 00:27:26,580
+Should we enable positioning?
+
+804
+00:27:26,580 --> 00:27:30,250
+His father, hey, does the father have positioning?
+
+805
+00:27:30,250 --> 00:27:31,250
+As long as it's positioned
+
+806
+00:27:31,250 --> 00:27:35,330
+Because what we call absolute positioning is relative to its nearest
+
+807
+00:27:35,330 --> 00:27:37,260
+positioned ancestor
+
+808
+00:27:37,260 --> 00:27:38,740
+His ancestor does have positioning, right?
+
+809
+00:27:38,740 --> 00:27:40,290
+Then its parent will do.
+
+810
+00:27:40,290 --> 00:27:44,290
+It's not like we must use relative positioning when we enable absolute positioning here
+
+811
+00:27:44,290 --> 00:27:44,990
+No
+
+812
+00:27:44,990 --> 00:27:46,050
+As long as there is positioning, it's fine
+
+813
+00:27:46,050 --> 00:27:49,280
+but generally we use relative positioning, let me see what needs to be written here
+
+814
+00:27:49,280 --> 00:27:51,760
+His positioning has top set to zero.
+
+815
+00:27:53,800 --> 00:27:55,600
+That's about it
+
+816
+00:27:55,600 --> 00:27:57,280
+just set the top to zero
+
+817
+00:27:57,280 --> 00:27:58,840
+It didn't write anything like 'write' either
+
+818
+00:27:58,840 --> 00:27:59,980
+Alright
+
+819
+00:28:00,180 --> 00:28:02,300
+top is zero, that's fine
+
+820
+00:28:02,300 --> 00:28:03,180
+Is there anything else?
+
+821
+00:28:03,180 --> 00:28:04,320
+That's all then.
+
+822
+00:28:04,320 --> 00:28:06,920
+Hmm, and do you know what this means?
+
+823
+00:28:06,920 --> 00:28:08,740
+Let's take a look at the effect first
+
+824
+00:28:11,900 --> 00:28:13,340
+How did it go out come on
+
+825
+00:28:13,340 --> 00:28:16,300
+Can anyone tell me why it went out?
+
+826
+00:28:16,300 --> 00:28:18,860
+Hmm, it should be inside our body element.
+
+827
+00:28:18,860 --> 00:28:20,060
+We are not
+
+828
+00:28:20,060 --> 00:28:22,180
+for this entire style of ours
+
+829
+00:28:22,180 --> 00:28:23,860
+we should set something
+
+830
+00:28:23,860 --> 00:28:27,420
+the global style should set this thing
+
+831
+00:28:29,360 --> 00:28:31,860
+center should mean this
+
+832
+00:28:31,860 --> 00:28:34,880
+So there should be a div here
+
+833
+00:28:34,880 --> 00:28:36,920
+Then the thing inside it
+
+834
+00:28:36,920 --> 00:28:38,360
+It should look like this
+
+835
+00:28:38,360 --> 00:28:40,040
+Why don't you do it this way since you already have positioning
+
+836
+00:28:40,040 --> 00:28:41,230
+What were you writing again?
+
+837
+00:28:41,230 --> 00:28:42,630
+Do you know what I want to write?
+
+838
+00:28:42,630 --> 00:28:44,470
+Can't you just set left to 0?
+
+839
+00:28:44,470 --> 00:28:47,450
+left zero and I'm here now, right?
+
+840
+00:28:47,450 --> 00:28:49,440
+Okay, this is still a bit off
+
+841
+00:28:49,440 --> 00:28:50,640
+Who is this for?
+
+842
+00:28:50,640 --> 00:28:51,260
+You know what
+
+843
+00:28:51,260 --> 00:28:54,480
+for that button, the magnifying glass one
+
+844
+00:28:54,480 --> 00:28:57,680
+Then this also removed the outline
+
+845
+00:28:57,680 --> 00:28:59,460
+What does this NN mean?
+
+846
+00:28:59,460 --> 00:29:02,860
+It means removing the default black border around the outside.
+
+847
+00:29:02,860 --> 00:29:04,900
+Let's remove it as well.
+
+848
+00:29:05,180 --> 00:29:08,580
+Let's write outline: none and take a look.
+
+849
+00:29:08,580 --> 00:29:11,400
+Refresh and it should be correct now, alright
+
+850
+00:29:11,400 --> 00:29:14,799
+It has a default something, just write any word.
+
+851
+00:29:14,799 --> 00:29:18,299
+So does this input box have this placeholder?
+
+852
+00:29:18,299 --> 00:29:20,050
+Does that ring a bell, right?
+
+853
+00:29:20,050 --> 00:29:22,850
+Does writing 'iPhone' make the meaning clear?
+
+854
+00:29:22,850 --> 00:29:23,290
+Right?
+
+855
+00:29:23,290 --> 00:29:24,950
+You write this placeholder
+
+856
+00:29:24,950 --> 00:29:27,090
+Does the input box have that default gray text by default?
+
+857
+00:29:27,090 --> 00:29:28,340
+a word like this
+
+858
+00:29:28,340 --> 00:29:30,080
+Take a look, is that right?
+
+859
+00:29:30,080 --> 00:29:31,960
+Then it disappears when you start typing
+
+860
+00:29:31,960 --> 00:29:32,720
+Remember?
+
+861
+00:29:32,720 --> 00:29:34,189
+Okay then
+
+862
+00:29:34,189 --> 00:29:36,249
+Now this input box is done.
+
+863
+00:29:36,249 --> 00:29:37,589
+What's next
+
+864
+00:29:37,589 --> 00:29:40,180
+Put the button on there, the button.
+

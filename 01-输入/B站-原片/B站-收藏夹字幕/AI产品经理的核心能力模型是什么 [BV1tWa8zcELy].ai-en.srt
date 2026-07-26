@@ -1,0 +1,4824 @@
+1
+00:00:00,040 --> 00:00:01,340
+Hello everyone
+
+2
+00:00:01,340 --> 00:00:05,140
+I am currently at a major tech company, serving as the head of AI search products.
+
+3
+00:00:05,140 --> 00:00:09,220
+Today, let's talk about the core competency model of an AI product manager.
+
+4
+00:00:09,220 --> 00:00:13,010
+First, to understand the core competency model of an AI product manager
+
+5
+00:00:13,010 --> 00:00:16,500
+Let's first take a look from the perspective of word formation
+
+6
+00:00:16,500 --> 00:00:18,920
+What is an AI Product Manager
+
+7
+00:00:18,920 --> 00:00:20,180
+So, an AI product manager
+
+8
+00:00:20,180 --> 00:00:24,060
+It can be broken down into two concepts: AI and product manager.
+
+9
+00:00:24,060 --> 00:00:26,680
+AI is actually the direction in our work
+
+10
+00:00:26,680 --> 00:00:29,000
+or the tools it utilizes in our work
+
+11
+00:00:29,000 --> 00:00:30,630
+some tools that are needed to be used
+
+12
+00:00:30,630 --> 00:00:33,090
+while product manager is our title
+
+13
+00:00:33,090 --> 00:00:35,290
+or the essence of this position
+
+14
+00:00:35,290 --> 00:00:39,430
+So how exactly should we understand these two aspects: direction and essence?
+
+15
+00:00:39,430 --> 00:00:44,489
+So AI represents the professional knowledge we need to master in our work
+
+16
+00:00:44,489 --> 00:00:45,649
+our applications
+
+17
+00:00:45,649 --> 00:00:46,989
+the products we develop
+
+18
+00:00:46,989 --> 00:00:48,229
+its scope of application
+
+19
+00:00:48,229 --> 00:00:50,989
+and what kind of R&D paradigm we should use
+
+20
+00:00:50,989 --> 00:00:56,440
+that is, the development method, to create our AI product
+
+21
+00:00:56,440 --> 00:01:00,440
+And the product manager defines the position of our work
+
+22
+00:01:00,440 --> 00:01:03,640
+defining the methods we need to use in our work
+
+23
+00:01:03,640 --> 00:01:09,320
+It also defines the roles and responsibilities we should undertake within the team.
+
+24
+00:01:09,320 --> 00:01:14,000
+So to better understand the core competencies of an AI product manager
+
+25
+00:01:14,000 --> 00:01:16,840
+then we need to focus on these two aspects
+
+26
+00:01:16,840 --> 00:01:18,669
+to focus on analyzing
+
+27
+00:01:18,669 --> 00:01:20,309
+So the first step is
+
+28
+00:01:20,309 --> 00:01:22,970
+Let's start with the product manager
+
+29
+00:01:22,970 --> 00:01:24,530
+When it comes to product managers
+
+30
+00:01:24,530 --> 00:01:26,770
+If we use the brainstorming method to break it down again
+
+31
+00:01:26,770 --> 00:01:29,250
+then it essentially breaks down into product and manager
+
+32
+00:01:29,250 --> 00:01:33,160
+namely the two concepts of product and manager
+
+33
+00:01:33,160 --> 00:01:34,880
+Now, the concept of a product
+
+34
+00:01:34,880 --> 00:01:38,440
+In fact, we encounter various types of products in our daily lives, right? Broadly speaking, we have hardware products and software products.
+
+35
+00:01:38,440 --> 00:01:41,550
+hardware products and software products
+
+36
+00:01:41,550 --> 00:01:42,930
+then our software products
+
+37
+00:01:42,930 --> 00:01:45,830
+including products like C-end and B-end products, and so on
+
+38
+00:01:45,830 --> 00:01:46,910
+the definition of a product
+
+39
+00:01:46,910 --> 00:01:48,830
+If we look at it from the textbook perspective
+
+40
+00:01:48,830 --> 00:01:51,130
+It would be a very dogmatic statement
+
+41
+00:01:51,130 --> 00:01:54,010
+For example, it refers to something that is used and consumed by people,
+
+42
+00:01:54,010 --> 00:01:56,620
+something that can satisfy people's certain needs, right
+
+43
+00:01:56,620 --> 00:01:57,840
+Broadly speaking
+
+44
+00:01:57,840 --> 00:02:00,000
+products can be physical products
+
+45
+00:02:00,000 --> 00:02:00,820
+could be a service
+
+46
+00:02:00,820 --> 00:02:02,640
+It could also refer to various types such as people.
+
+47
+00:02:02,640 --> 00:02:03,940
+In a narrow sense
+
+48
+00:02:03,940 --> 00:02:05,880
+Product specifically refers to internet products
+
+49
+00:02:05,880 --> 00:02:06,780
+It could be a service
+
+50
+00:02:06,780 --> 00:02:07,600
+It could be hardware
+
+51
+00:02:07,600 --> 00:02:08,820
+could be a service
+
+52
+00:02:08,820 --> 00:02:12,260
+Now let's take another look at this product.
+
+53
+00:02:12,260 --> 00:02:13,120
+this concept
+
+54
+00:02:13,120 --> 00:02:15,960
+It may still seem a bit too textbook-like.
+
+55
+00:02:15,960 --> 00:02:17,440
+particularly conceptual
+
+56
+00:02:17,440 --> 00:02:18,899
+Now let's take a look at
+
+57
+00:02:18,899 --> 00:02:20,219
+Yu Jun is a very famous product manager
+
+58
+00:02:20,219 --> 00:02:21,659
+a very famous product increment
+
+59
+00:02:21,659 --> 00:02:24,339
+He wrote a book called 'Yu Jun's Product Methodology,' in which he asks: what is a product?
+
+60
+00:02:24,339 --> 00:02:26,670
+He mentioned, what is a product?
+
+61
+00:02:26,670 --> 00:02:29,770
+Enterprises need to use products as a medium
+
+62
+00:02:29,770 --> 00:02:34,850
+to create user value and exchange value with users in this manner
+
+63
+00:02:34,850 --> 00:02:36,270
+Alright, then I'll draw a diagram below
+
+64
+00:02:36,270 --> 00:02:38,370
+We can see that a product is actually
+
+65
+00:02:38,370 --> 00:02:41,730
+is actually a medium for value exchange between enterprises and users
+
+66
+00:02:41,730 --> 00:02:44,070
+right
+
+67
+00:02:44,070 --> 00:02:46,730
+So what is the role of a product manager
+
+68
+00:02:46,730 --> 00:02:48,540
+is to create this medium
+
+69
+00:02:48,540 --> 00:02:50,420
+This user value may be fully met
+
+70
+00:02:50,420 --> 00:02:52,400
+meet a certain need of the users
+
+71
+00:02:52,400 --> 00:02:54,020
+And what is this commercial value
+
+72
+00:02:54,020 --> 00:02:56,300
+may be to pay for the company's products
+
+73
+00:02:56,300 --> 00:02:57,790
+subscribe
+
+74
+00:02:57,790 --> 00:02:59,430
+A good product manager
+
+75
+00:02:59,430 --> 00:03:02,209
+can make this value exchange smoother
+
+76
+00:03:02,209 --> 00:03:03,409
+more smoothly
+
+77
+00:03:03,409 --> 00:03:04,889
+more efficient
+
+78
+00:03:04,889 --> 00:03:08,370
+So this brings us to the question: what is a product manager?
+
+79
+00:03:08,370 --> 00:03:12,330
+Of course, if you shift your focus to actual job positions
+
+80
+00:03:12,330 --> 00:03:14,330
+or in the actual recruitment market
+
+81
+00:03:14,330 --> 00:03:16,090
+You will find that each company
+
+82
+00:03:16,090 --> 00:03:18,230
+the definition of a product manager varies across companies
+
+83
+00:03:18,230 --> 00:03:20,829
+The boundaries of their work vary.
+
+84
+00:03:20,829 --> 00:03:23,149
+For example, some companies might think it's okay
+
+85
+00:03:23,149 --> 00:03:25,589
+Product managers and product operations are separate, right?
+
+86
+00:03:25,589 --> 00:03:27,749
+You just need to focus on the product design features.
+
+87
+00:03:27,749 --> 00:03:28,910
+You don't need to handle operations
+
+88
+00:03:28,910 --> 00:03:31,350
+So in some companies, their responsibilities may
+
+89
+00:03:31,350 --> 00:03:32,870
+his role positioning may be
+
+90
+00:03:32,870 --> 00:03:33,830
+As a product manager, you need to oversee the design
+
+91
+00:03:33,830 --> 00:03:34,980
+You have to manage operations, right?
+
+92
+00:03:34,980 --> 00:03:38,959
+Some companies even go as far as to say, not only do you need to design features
+
+93
+00:03:38,959 --> 00:03:40,919
+You also need to design the style of the page
+
+94
+00:03:40,919 --> 00:03:42,799
+you also need to design user interactions, right?
+
+95
+00:03:42,799 --> 00:03:45,639
+the traditional division of labor in the UI or UE direction
+
+96
+00:03:45,639 --> 00:03:48,490
+are also incorporated into the boundaries of the product
+
+97
+00:03:48,490 --> 00:03:50,130
+Therefore, different companies
+
+98
+00:03:50,130 --> 00:03:54,140
+The definition of the product, or its boundaries, may vary.
+
+99
+00:03:54,140 --> 00:03:57,300
+However, if we focus on the role of a product manager
+
+100
+00:03:57,300 --> 00:03:58,700
+its core or this position
+
+101
+00:03:58,700 --> 00:04:03,120
+he is what we call a problem solver, right
+
+102
+00:04:03,120 --> 00:04:05,600
+He is a problem solver.
+
+103
+00:04:05,600 --> 00:04:08,820
+Then he needs to stand on the intersection of business and technology
+
+104
+00:04:08,820 --> 00:04:12,220
+considering from the perspective of user experience
+
+105
+00:04:12,220 --> 00:04:14,769
+responsible for the product's market outcomes
+
+106
+00:04:14,769 --> 00:04:18,100
+In other words, the core objective of a product manager
+
+107
+00:04:18,100 --> 00:04:20,320
+No matter what kind of product manager you are, right?
+
+108
+00:04:20,320 --> 00:04:23,020
+you are responsible for the outcome of this product
+
+109
+00:04:23,020 --> 00:04:26,380
+This is the most core definition of a product manager's role.
+
+110
+00:04:26,380 --> 00:04:27,540
+Of course, the product manager
+
+111
+00:04:27,540 --> 00:04:29,770
+It is also a rather broad concept
+
+112
+00:04:29,770 --> 00:04:32,650
+Product managers can also be classified into many categories, right?
+
+113
+00:04:32,650 --> 00:04:35,710
+For example, the most commonly heard one is, this product manager
+
+114
+00:04:35,710 --> 00:04:38,150
+your category, you can be a C-end product
+
+115
+00:04:38,150 --> 00:04:40,310
+You can also work on B-end products.
+
+116
+00:04:40,310 --> 00:04:41,310
+Of course, in the C-end, for example
+
+117
+00:04:41,310 --> 00:04:43,350
+say we individuals as consumers, right
+
+118
+00:04:43,350 --> 00:04:45,860
+consumer, this type of individual consumer, ToC products
+
+119
+00:04:45,860 --> 00:04:47,620
+which may be familiar to us
+
+120
+00:04:47,620 --> 00:04:49,900
+including WeChat that we use every day
+
+121
+00:04:49,900 --> 00:04:51,220
+this Taobao
+
+122
+00:04:51,220 --> 00:04:52,570
+Douyin, etc.
+
+123
+00:04:52,570 --> 00:04:53,930
+Similarly, for B-end products
+
+124
+00:04:53,930 --> 00:04:56,410
+perhaps we more often serve as a professional role
+
+125
+00:04:56,410 --> 00:04:58,570
+or a social role that is frequently used
+
+126
+00:04:58,570 --> 00:05:00,290
+like WeCom, right
+
+127
+00:05:00,290 --> 00:05:03,920
+and so on, some office software
+
+128
+00:05:03,920 --> 00:05:06,160
+Here, regarding the ToC to B concept
+
+129
+00:05:06,160 --> 00:05:08,280
+we won't go into excessive elaboration
+
+130
+00:05:08,280 --> 00:05:09,780
+What we need to understand is that
+
+131
+00:05:09,780 --> 00:05:11,840
+Even the concept of a product manager
+
+132
+00:05:11,840 --> 00:05:13,540
+there are also many categories
+
+133
+00:05:13,540 --> 00:05:15,040
+there are also many subdivisions
+
+134
+00:05:15,040 --> 00:05:16,780
+also includes many subdivisions
+
+135
+00:05:16,780 --> 00:05:19,020
+So, an AI product manager
+
+136
+00:05:19,020 --> 00:05:25,090
+It is within the category of product managers, it is a type, it is one type within the classification of product managers. 'The differences among product managers mainly lie in their respective industries, companies or departments, focus of work, and skill requirements, etc.'
+
+137
+00:05:25,090 --> 00:05:27,430
+Therefore, the AI product manager
+
+138
+00:05:27,430 --> 00:05:30,670
+"The differences among product managers mainly lie in the foundational aspects of product management," "The differences among product managers primarily depend on their understanding of the business, the focus of their role, and skill requirements," "The differences among product managers are largely centered on the foundational aspects of product management."
+
+139
+00:05:30,670 --> 00:05:34,100
+requiring us to master a niche area
+
+140
+00:05:34,100 --> 00:05:36,820
+and the core competencies involved
+
+141
+00:05:36,820 --> 00:05:41,420
+The differences among product managers mainly lie in their hands, and then we will proceed to see, so let's continue to look at the concept of an AI product manager
+
+142
+00:05:41,420 --> 00:05:43,580
+what exactly is the definition
+
+143
+00:05:43,580 --> 00:05:46,700
+So the core model of an AI product manager
+
+144
+00:05:46,700 --> 00:05:49,800
+Its core competency model actually consists of three aspects.
+
+145
+00:05:49,800 --> 00:05:53,520
+If we look at the overall market trend
+
+146
+00:05:53,520 --> 00:05:57,420
+So the emergence of market demand for AI product managers
+
+147
+00:05:57,420 --> 00:06:01,200
+actually emerged during this wave of large model development
+
+148
+00:06:01,200 --> 00:06:02,280
+emerged, right
+
+149
+00:06:02,280 --> 00:06:05,560
+It was born around the end of 2022 or the beginning of 2023.
+
+150
+00:06:05,560 --> 00:06:07,740
+So we know that this
+
+151
+00:06:07,740 --> 00:06:10,080
+the emergence of these large models
+
+152
+00:06:10,080 --> 00:06:13,440
+It is actually a significant technological breakthrough.
+
+153
+00:06:13,440 --> 00:06:16,560
+So we say technological breakthroughs are essentially a form of leapfrogging
+
+154
+00:06:16,560 --> 00:06:17,600
+that is to say, technical capability
+
+155
+00:06:17,600 --> 00:06:22,120
+It's likely to be, well, quite uneventful for a period of time, and then suddenly there's a moment
+
+156
+00:06:22,120 --> 00:06:23,880
+a new technology that suddenly emerges
+
+157
+00:06:23,880 --> 00:06:27,060
+causing the entire market demand to explode
+
+158
+00:06:27,060 --> 00:06:29,380
+So from this, we can see
+
+159
+00:06:29,380 --> 00:06:32,660
+technology and what it represents, the market demand it drives
+
+160
+00:06:32,660 --> 00:06:34,419
+is actually a leapfrog rise
+
+161
+00:06:34,419 --> 00:06:36,640
+This is the demand side of the entire market.
+
+162
+00:06:36,640 --> 00:06:39,120
+Now if we look at the supply side of the market
+
+163
+00:06:39,120 --> 00:06:41,280
+The supply side of the market is essentially talent, right?
+
+164
+00:06:41,280 --> 00:06:43,640
+Then, from the supply side of the market, the talent
+
+165
+00:06:43,640 --> 00:06:45,880
+The supply of talent has a notable characteristic
+
+166
+00:06:45,880 --> 00:06:48,780
+its fluctuation is actually relatively slow
+
+167
+00:06:48,780 --> 00:06:52,560
+because, whether it's the accumulation of human experience
+
+168
+00:06:52,560 --> 00:06:56,460
+or, for example, this school trains students, right
+
+169
+00:06:56,460 --> 00:06:57,620
+whether it's schools cultivating students
+
+170
+00:06:57,620 --> 00:06:58,540
+or say OK
+
+171
+00:06:58,540 --> 00:07:02,000
+We transition from other industries to become AI practitioners
+
+172
+00:07:02,000 --> 00:07:04,280
+his accumulation, his accumulation of experience
+
+173
+00:07:04,280 --> 00:07:05,980
+are highly correlated with time
+
+174
+00:07:05,980 --> 00:07:08,480
+You can't expect the market to suddenly, right?
+
+175
+00:07:08,480 --> 00:07:12,400
+suddenly emerge 1 million highly skilled AI professionals, this
+
+176
+00:07:12,400 --> 00:07:14,460
+competitors with particularly strong AI skills
+
+177
+00:07:14,460 --> 00:07:16,110
+This is totally unrealistic
+
+178
+00:07:16,110 --> 00:07:19,150
+Therefore, the talent supply in the entire AI market
+
+179
+00:07:19,150 --> 00:07:21,390
+it is actually a slow growth trend
+
+180
+00:07:21,390 --> 00:07:22,880
+At least in the past few years, this has been the case.
+
+181
+00:07:22,880 --> 00:07:26,320
+So, we are currently in a very obvious
+
+182
+00:07:26,320 --> 00:07:27,400
+in such a market cycle
+
+183
+00:07:27,400 --> 00:07:29,760
+it is essentially a highly explosive demand
+
+184
+00:07:29,760 --> 00:07:33,399
+and a slowly and steadily growing market supply, leading to such a supply-demand contradiction between them
+
+185
+00:07:33,399 --> 00:07:35,870
+such a supply-demand contradiction has emerged
+
+186
+00:07:35,870 --> 00:07:37,530
+then this supply-demand imbalance
+
+187
+00:07:37,530 --> 00:07:40,290
+or this gap in talent supply
+
+188
+00:07:40,290 --> 00:07:44,270
+In the past two years, it was more concentrated in some technical positions.
+
+189
+00:07:44,270 --> 00:07:47,710
+such as AI algorithms
+
+190
+00:07:47,710 --> 00:07:48,790
+or engineering
+
+191
+00:07:48,790 --> 00:07:50,710
+In recent years,
+
+192
+00:07:50,710 --> 00:07:52,250
+From 2024 to the present,
+
+193
+00:07:52,250 --> 00:07:55,890
+the entire supply gap is starting to shift, meaning the overall demand
+
+194
+00:07:55,890 --> 00:07:58,550
+began to spread to non-technical positions
+
+195
+00:07:58,550 --> 00:08:00,230
+So what are the non-technical positions
+
+196
+00:08:00,230 --> 00:08:02,410
+actually includes what we commonly refer to as products
+
+197
+00:08:02,410 --> 00:08:05,470
+operations, design, and other positions
+
+198
+00:08:05,470 --> 00:08:09,310
+So right now is actually a great time to transition into becoming an AI product manager.
+
+199
+00:08:09,310 --> 00:08:12,070
+such a time point
+
+200
+00:08:12,070 --> 00:08:15,870
+This naturally leads us to a core reflection on product managers
+
+201
+00:08:15,870 --> 00:08:16,190
+right
+
+202
+00:08:16,190 --> 00:08:19,100
+what kind of abilities do I actually need to possess
+
+203
+00:08:19,100 --> 00:08:23,679
+Or what methods I need to master
+
+204
+00:08:23,679 --> 00:08:27,019
+or what the market expects of me to become an AI product manager
+
+205
+00:08:27,019 --> 00:08:29,140
+what exactly is the demand
+
+206
+00:08:29,140 --> 00:08:33,000
+This is precisely the core content we aim to address today.
+
+207
+00:08:33,000 --> 00:08:35,929
+the core competency model of an AI product manager
+
+208
+00:08:35,929 --> 00:08:37,809
+As we can see across the entire market
+
+209
+00:08:37,809 --> 00:08:39,590
+it actually targets AI product managers
+
+210
+00:08:39,590 --> 00:08:42,958
+There are three major directions for its core competency requirements.
+
+211
+00:08:42,958 --> 00:08:46,610
+The first major direction is called the job skills of a product manager.
+
+212
+00:08:46,610 --> 00:08:50,050
+The second direction is called the understanding and application of AI technology.
+
+213
+00:08:50,050 --> 00:08:53,750
+The third direction is called the accumulation and insight of business scenarios
+
+214
+00:08:53,750 --> 00:08:58,150
+Now let's introduce them one by one based on these three core competency dimensions.
+
+215
+00:08:58,150 --> 00:09:00,270
+what preparations do we really need to make
+
+216
+00:09:00,270 --> 00:09:02,360
+First, let's look at the first path.
+
+217
+00:09:02,360 --> 00:09:04,300
+Product manager's job skills
+
+218
+00:09:04,300 --> 00:09:07,420
+In other words, the first step to becoming an AI product manager
+
+219
+00:09:07,420 --> 00:09:10,160
+In fact, our first step is to become a qualified product manager.
+
+220
+00:09:10,160 --> 00:09:12,089
+As we mentioned earlier, right
+
+221
+00:09:12,089 --> 00:09:15,089
+The basic concepts and fundamental definitions of a product manager do exist.
+
+222
+00:09:15,089 --> 00:09:16,289
+the AI product manager
+
+223
+00:09:16,289 --> 00:09:19,880
+is actually a specialized subfield within product management
+
+224
+00:09:19,880 --> 00:09:22,480
+So, if you want to become a good AI product manager
+
+225
+00:09:22,480 --> 00:09:25,310
+Then of course, you first need to become a good product manager.
+
+226
+00:09:25,310 --> 00:09:28,210
+So what exactly are the job skills of a product manager?
+
+227
+00:09:28,210 --> 00:09:29,710
+We know that the product manager
+
+228
+00:09:29,710 --> 00:09:31,620
+it is actually a position, right
+
+229
+00:09:31,620 --> 00:09:33,420
+Since it is a position
+
+230
+00:09:33,420 --> 00:09:36,650
+In this team, he must have his job responsibilities.
+
+231
+00:09:36,650 --> 00:09:40,330
+For example, as we just mentioned, one is a product manager
+
+232
+00:09:40,330 --> 00:09:44,180
+he is responsible for the overall outcome of the product
+
+233
+00:09:44,180 --> 00:09:47,120
+Since this position has its corresponding responsibilities
+
+234
+00:09:47,120 --> 00:09:50,740
+then there must be corresponding skills to fulfill these responsibilities
+
+235
+00:09:50,740 --> 00:09:52,600
+the corresponding job skills
+
+236
+00:09:52,600 --> 00:09:53,360
+right, the corresponding skills
+
+237
+00:09:53,360 --> 00:09:57,610
+These skills are referred to as the core competencies for this position.
+
+238
+00:09:57,610 --> 00:09:59,330
+Therefore, the job skills of a product manager
+
+239
+00:09:59,330 --> 00:10:01,290
+refers to what we need to excel as a product manager
+
+240
+00:10:01,290 --> 00:10:03,170
+What core skills do we need to master
+
+241
+00:10:03,170 --> 00:10:05,530
+So from this traditional perspective,
+
+242
+00:10:05,530 --> 00:10:07,249
+We can see that, as a product manager
+
+243
+00:10:07,249 --> 00:10:09,569
+He actually has an inherent competency model.
+
+244
+00:10:09,569 --> 00:10:11,829
+But in this traditional perspective, it actually refers to, okay
+
+245
+00:10:11,829 --> 00:10:13,600
+before the advent of AI
+
+246
+00:10:13,600 --> 00:10:15,120
+before the emergence of large models
+
+247
+00:10:15,120 --> 00:10:17,240
+it might be the entire internet industry
+
+248
+00:10:17,240 --> 00:10:18,320
+it for the product manager's abilities
+
+249
+00:10:18,320 --> 00:10:21,210
+a conceptual model of the brain has been outlined
+
+250
+00:10:21,210 --> 00:10:23,090
+So how should we interpret this table?
+
+251
+00:10:23,090 --> 00:10:25,310
+these numbers 012345, right
+
+252
+00:10:25,310 --> 00:10:28,400
+These numbers represent the demand intensity for this competency
+
+253
+00:10:28,400 --> 00:10:32,250
+the intensity of demand in different periods
+
+254
+00:10:32,250 --> 00:10:33,780
+or the horizontal axis
+
+255
+00:10:33,780 --> 00:10:36,440
+For example, this line represents time, right?
+
+256
+00:10:36,440 --> 00:10:39,069
+And then this number represents the intensity of demand
+
+257
+00:10:39,069 --> 00:10:42,169
+In other words, this table actually illustrates what we're discussing
+
+258
+00:10:42,169 --> 00:10:43,509
+Over time
+
+259
+00:10:43,509 --> 00:10:45,429
+As you progress in the role of a product manager
+
+260
+00:10:45,429 --> 00:10:46,770
+continuously delve deeper
+
+261
+00:10:46,770 --> 00:10:49,590
+So, what are the requirements for these abilities?
+
+262
+00:10:49,590 --> 00:10:50,290
+The higher the number
+
+263
+00:10:50,290 --> 00:10:53,690
+This means the higher the requirement for this skill.
+
+264
+00:10:53,690 --> 00:10:55,570
+Let's take another look at this table.
+
+265
+00:10:55,570 --> 00:10:58,010
+Let's add some supplementary information to look at this table.
+
+266
+00:10:58,010 --> 00:10:59,750
+Overall, I have categorized this table
+
+267
+00:10:59,750 --> 00:11:02,069
+On the horizontal axis, I have made some classifications
+
+268
+00:11:02,069 --> 00:11:04,209
+That is to say, if we look at it from an annual perspective
+
+269
+00:11:04,209 --> 00:11:07,589
+Overall, each of these columns may represent
+
+270
+00:11:07,589 --> 00:11:10,310
+how many years you have been working in this direction
+
+271
+00:11:10,310 --> 00:11:13,830
+Or, how many years you have been in the product manager position.
+
+272
+00:11:13,830 --> 00:11:16,230
+So this major categorization of competencies
+
+273
+00:11:16,230 --> 00:11:19,310
+Actually, it is broadly divided into four major directions.
+
+274
+00:11:19,310 --> 00:11:21,190
+What does each direction represent?
+
+275
+00:11:21,190 --> 00:11:23,770
+The first major area is called general competencies, right?
+
+276
+00:11:23,770 --> 00:11:25,240
+What does general ability represent
+
+277
+00:11:25,240 --> 00:11:29,180
+represents some inherent personal traits of yours
+
+278
+00:11:29,180 --> 00:11:31,840
+such as learning ability and execution ability
+
+279
+00:11:31,840 --> 00:11:33,410
+communication skills, etc.
+
+280
+00:11:33,410 --> 00:11:35,370
+Since it's a personal trait
+
+281
+00:11:35,370 --> 00:11:36,010
+What does it mean
+
+282
+00:11:36,010 --> 00:11:39,160
+This indicates that the matter does not vary significantly whether you are in school
+
+283
+00:11:39,160 --> 00:11:40,980
+or because you are working
+
+284
+00:11:40,980 --> 00:11:43,160
+it will undergo particularly significant changes
+
+285
+00:11:43,160 --> 00:11:45,480
+It's more about, well, you being a persistent
+
+286
+00:11:45,480 --> 00:11:47,440
+You yourself have strong execution skills
+
+287
+00:11:47,440 --> 00:11:48,520
+or you have strong learning abilities
+
+288
+00:11:48,520 --> 00:11:50,620
+Actually, regardless of what stage you're at
+
+289
+00:11:50,620 --> 00:11:52,960
+he is capable of making observations or demonstrating certain qualities
+
+290
+00:11:52,960 --> 00:11:54,700
+Therefore, these generic abilities
+
+291
+00:11:54,700 --> 00:11:56,220
+more emphasis is placed on what
+
+292
+00:11:56,220 --> 00:11:57,190
+more emphasis is placed on
+
+293
+00:11:57,190 --> 00:11:59,870
+When we enter the role of a product manager
+
+294
+00:11:59,870 --> 00:12:02,300
+or, for instance, if you've just graduated from school
+
+295
+00:12:02,300 --> 00:12:04,180
+or transition into a product manager role
+
+296
+00:12:04,180 --> 00:12:06,180
+we need to quickly adjust
+
+297
+00:12:06,180 --> 00:12:08,850
+our self-positioning in these general competencies
+
+298
+00:12:08,850 --> 00:12:11,969
+quickly adapt to the overall role of a product manager
+
+299
+00:12:11,969 --> 00:12:13,489
+What does a product manager actually need?
+
+300
+00:12:13,489 --> 00:12:14,729
+requires strong learning ability
+
+301
+00:12:14,729 --> 00:12:15,489
+strong execution capability
+
+302
+00:12:15,489 --> 00:12:16,109
+strong communication skills
+
+303
+00:12:16,109 --> 00:12:18,360
+It requires such a universal characteristic
+
+304
+00:12:18,360 --> 00:12:22,359
+So this is the first line, which is more related to personal traits.
+
+305
+00:12:22,359 --> 00:12:24,839
+The second line is called professional knowledge, right?
+
+306
+00:12:24,839 --> 00:12:27,020
+In the traditional perspective, professional knowledge
+
+307
+00:12:27,020 --> 00:12:28,600
+it includes both this technology
+
+308
+00:12:28,600 --> 00:12:31,820
+also includes project management knowledge, and so on, as well as possibly some others
+
+309
+00:12:31,820 --> 00:12:33,700
+For example, if it's a commercial product,
+
+310
+00:12:33,700 --> 00:12:36,330
+you may be required to master financial knowledge, right
+
+311
+00:12:36,330 --> 00:12:38,290
+or if you are more C-end oriented
+
+312
+00:12:38,290 --> 00:12:39,810
+more inclined towards this type of product design
+
+313
+00:12:39,810 --> 00:12:42,050
+is more focused on visual or interaction design
+
+314
+00:12:42,050 --> 00:12:44,670
+you may also need to master psychology, aesthetics, and more
+
+315
+00:12:44,670 --> 00:12:46,570
+These abilities, from a traditional perspective,
+
+316
+00:12:46,570 --> 00:12:50,090
+they all fall within the realm of what is called professional knowledge
+
+317
+00:12:50,090 --> 00:12:51,010
+then this category
+
+318
+00:12:51,010 --> 00:12:53,010
+We can actually see from the distribution of these numbers
+
+319
+00:12:53,010 --> 00:12:56,250
+It is actually a concept that leans towards linear growth.
+
+320
+00:12:56,250 --> 00:12:59,050
+So what does it require? It's on-demand learning plus linear accumulation.
+
+321
+00:12:59,050 --> 00:13:03,700
+Of course, this is professional knowledge from a traditional perspective, but AI is somewhat different.
+
+322
+00:13:03,700 --> 00:13:05,860
+So from a traditional perspective, product managers
+
+323
+00:13:05,860 --> 00:13:07,480
+So his expertise is actually, well
+
+324
+00:13:07,480 --> 00:13:09,940
+As you gradually delve deeper into the field
+
+325
+00:13:09,940 --> 00:13:11,480
+your professional knowledge
+
+326
+00:13:11,480 --> 00:13:13,280
+the mastery of professional knowledge in various directions
+
+327
+00:13:13,280 --> 00:13:16,819
+is a process of linear growth, and that's fine.
+
+328
+00:13:16,819 --> 00:13:19,099
+The second part is called professional skills
+
+329
+00:13:19,099 --> 00:13:20,419
+This professional skill
+
+330
+00:13:20,419 --> 00:13:24,080
+Actually, the core is the job skills of a product manager
+
+331
+00:13:24,080 --> 00:13:26,420
+Regarding this job skill, overall speaking
+
+332
+00:13:26,420 --> 00:13:27,540
+He has written a lot
+
+333
+00:13:27,540 --> 00:13:29,890
+Overall, it can be divided into two major categories
+
+334
+00:13:29,890 --> 00:13:32,510
+The first major category is called product execution capability
+
+335
+00:13:32,510 --> 00:13:36,530
+typically occurs within the first 0-3 years of a product manager's tenure
+
+336
+00:13:36,530 --> 00:13:38,520
+will be a core requirement
+
+337
+00:13:38,520 --> 00:13:40,800
+So what is product execution?
+
+338
+00:13:40,800 --> 00:13:45,360
+Product execution capability refers to how we take a product
+
+339
+00:13:45,360 --> 00:13:46,580
+a feature
+
+340
+00:13:46,580 --> 00:13:47,800
+bringing a module from scratch
+
+341
+00:13:47,800 --> 00:13:50,099
+from 0 to 1
+
+342
+00:13:50,099 --> 00:13:53,539
+from concept to entity, right
+
+343
+00:13:53,539 --> 00:13:56,239
+During this process, some aspects may be involved such as
+
+344
+00:13:56,239 --> 00:13:58,240
+for example, this might involve the entire production
+
+345
+00:13:58,240 --> 00:14:00,280
+the early stages of this execution
+
+346
+00:14:00,280 --> 00:14:02,880
+We may include things like market research
+
+347
+00:14:02,880 --> 00:14:04,150
+competitor research, right?
+
+348
+00:14:04,150 --> 00:14:04,990
+In the design phase
+
+349
+00:14:04,990 --> 00:14:06,590
+We may include elements such as flowcharts
+
+350
+00:14:06,590 --> 00:14:09,150
+PRD prototypes and other design drawings
+
+351
+00:14:09,150 --> 00:14:11,030
+Then in the product development phase
+
+352
+00:14:11,030 --> 00:14:12,350
+We may need to conduct reviews
+
+353
+00:14:12,350 --> 00:14:14,340
+to conduct this usability testing
+
+354
+00:14:14,340 --> 00:14:15,700
+and after the product is launched
+
+355
+00:14:15,700 --> 00:14:17,100
+may need to do some operations
+
+356
+00:14:17,100 --> 00:14:19,990
+or stages such as requirement feedback, etc.
+
+357
+00:14:19,990 --> 00:14:22,010
+During these stages
+
+358
+00:14:22,010 --> 00:14:25,120
+all the related capabilities
+
+359
+00:14:25,280 --> 00:14:28,440
+They are uniformly categorized as product execution capabilities.
+
+360
+00:14:28,440 --> 00:14:30,840
+because these are essentially about taking a product from 0 to 1
+
+361
+00:14:30,840 --> 00:14:32,010
+related to the core of making it happen
+
+362
+00:14:32,010 --> 00:14:35,570
+This is the first major component of a product manager's job skills
+
+363
+00:14:35,570 --> 00:14:37,220
+product execution
+
+364
+00:14:37,220 --> 00:14:41,060
+After working as a product manager for about 5 years,
+
+365
+00:14:41,060 --> 00:14:43,120
+We would consider that this product manager may have reached a relatively advanced stage
+
+366
+00:14:43,120 --> 00:14:45,890
+or advanced stage
+
+367
+00:14:45,890 --> 00:14:47,670
+Then after this stage
+
+368
+00:14:47,670 --> 00:14:49,390
+In addition to product execution
+
+369
+00:14:49,390 --> 00:14:51,610
+we will have one additional requirement
+
+370
+00:14:51,610 --> 00:14:55,720
+What is called business driving force
+
+371
+00:14:55,720 --> 00:14:58,400
+that we can drive this product
+
+372
+00:14:58,400 --> 00:14:59,900
+it makes money
+
+373
+00:14:59,900 --> 00:15:03,620
+Making money is just a very general concept
+
+374
+00:15:03,620 --> 00:15:04,560
+right, since we want to make money
+
+375
+00:15:04,560 --> 00:15:06,440
+That is, whose money to make
+
+376
+00:15:06,440 --> 00:15:07,640
+how to make money
+
+377
+00:15:07,640 --> 00:15:08,970
+how much money to make
+
+378
+00:15:08,970 --> 00:15:11,950
+Essentially, it's up to us to answer these questions.
+
+379
+00:15:11,950 --> 00:15:13,530
+In this process
+
+380
+00:15:13,530 --> 00:15:16,339
+we may involve some broader skills
+
+381
+00:15:16,339 --> 00:15:19,539
+For example, perhaps if you, say, you're working in B2B, right
+
+382
+00:15:19,539 --> 00:15:23,700
+you may need to look into abilities such as these, like business communication and commercial negotiation skills
+
+383
+00:15:23,700 --> 00:15:24,940
+if you are working in the ToC sector
+
+384
+00:15:24,940 --> 00:15:28,300
+you may need to focus more on marketing and operational skills
+
+385
+00:15:28,300 --> 00:15:29,300
+and so on and so forth
+
+386
+00:15:29,300 --> 00:15:32,400
+Whether you are in ToB or ToC, this kind of business drive
+
+387
+00:15:32,400 --> 00:15:34,500
+It is about achieving commercial value, right?
+
+388
+00:15:34,500 --> 00:15:36,220
+achieve market results and realize commercial value
+
+389
+00:15:36,220 --> 00:15:39,050
+This is the core, and this direction remains unchanged.
+
+390
+00:15:39,050 --> 00:15:42,450
+Therefore, we refer to the core competencies of a product manager
+
+391
+00:15:42,450 --> 00:15:46,700
+which are product execution and business drive, the two major components
+
+392
+00:15:46,700 --> 00:15:49,300
+Of course, the traditional perspective of the product competency model
+
+393
+00:15:49,300 --> 00:15:50,700
+also includes some organizational influence
+
+394
+00:15:50,700 --> 00:15:52,260
+These may then be
+
+395
+00:15:52,260 --> 00:15:54,610
+When you are in the role of a product manager
+
+396
+00:15:54,610 --> 00:15:55,730
+in the mid-to-late stages
+
+397
+00:15:55,730 --> 00:15:58,010
+our role shifts from frontline operations
+
+398
+00:15:58,010 --> 00:16:00,550
+gradually begin to transition into the role of a team manager
+
+399
+00:16:00,550 --> 00:16:01,490
+during the transition
+
+400
+00:16:01,490 --> 00:16:03,440
+We may need to acquire some additional skills
+
+401
+00:16:03,440 --> 00:16:08,280
+Now, returning to what we just mentioned, the core skills of a product manager
+
+402
+00:16:08,280 --> 00:16:12,040
+It runs through these competency segments.
+
+403
+00:16:12,040 --> 00:16:14,500
+the required experience and skills
+
+404
+00:16:14,500 --> 00:16:16,100
+Right, as I just mentioned
+
+405
+00:16:16,100 --> 00:16:18,800
+whether it's market research or design-related
+
+406
+00:16:18,800 --> 00:16:21,360
+various types of prototypes, flowcharts, etc.
+
+407
+00:16:21,360 --> 00:16:23,360
+including requirement reviews during development
+
+408
+00:16:23,360 --> 00:16:24,760
+progress management and other aspects
+
+409
+00:16:24,760 --> 00:16:26,470
+and also including the launch and operation
+
+410
+00:16:26,470 --> 00:16:28,870
+then the links involved in these aspects
+
+411
+00:16:28,870 --> 00:16:30,870
+it is actually the product manager
+
+412
+00:16:30,870 --> 00:16:33,400
+a concrete manifestation of his job skills
+
+413
+00:16:33,400 --> 00:16:35,800
+From the perspective of product manager job skills
+
+414
+00:16:35,800 --> 00:16:36,600
+we look at it and say
+
+415
+00:16:36,600 --> 00:16:37,320
+the product manager
+
+416
+00:16:37,320 --> 00:16:40,670
+it will form its own growth flywheel
+
+417
+00:16:40,670 --> 00:16:43,670
+Ah, this growth flywheel, the concept of the flywheel is what
+
+418
+00:16:43,670 --> 00:16:44,830
+spinning faster and faster, right
+
+419
+00:16:44,830 --> 00:16:47,290
+which means I can form my own closed loop
+
+420
+00:16:47,290 --> 00:16:48,850
+and then leverage my previous experiences to
+
+421
+00:16:48,850 --> 00:16:50,569
+to guide my current business
+
+422
+00:16:50,569 --> 00:16:53,029
+So, for product managers, many of the
+
+423
+00:16:53,029 --> 00:16:55,689
+Often, the path he takes is to analyze problems
+
+424
+00:16:55,689 --> 00:16:57,780
+design solutions, implement solutions, optimize solutions
+
+425
+00:16:57,780 --> 00:17:01,390
+It is through such cycles that continuous progress is made.
+
+426
+00:17:01,390 --> 00:17:04,589
+Of course, within this flywheel, there are some key components of its own.
+
+427
+00:17:04,589 --> 00:17:06,990
+The first key step is to analyze the problem, right
+
+428
+00:17:06,990 --> 00:17:09,880
+We need to be able to correctly analyze this business problem
+
+429
+00:17:09,880 --> 00:17:12,300
+that is through our own accumulated experiences
+
+430
+00:17:12,300 --> 00:17:15,040
+including some methodologies accumulated in our products
+
+431
+00:17:15,040 --> 00:17:15,819
+to position
+
+432
+00:17:15,819 --> 00:17:18,839
+what kind of problems currently exist in this scenario
+
+433
+00:17:18,839 --> 00:17:20,599
+Of course, the second point is
+
+434
+00:17:20,599 --> 00:17:21,880
+is to design and execute solutions
+
+435
+00:17:21,880 --> 00:17:22,640
+including optimization solutions
+
+436
+00:17:22,640 --> 00:17:25,839
+It is to solve business problems through reasonable solutions.
+
+437
+00:17:25,839 --> 00:17:26,720
+In other words
+
+438
+00:17:26,720 --> 00:17:30,500
+can we adopt some relatively standardized solutions
+
+439
+00:17:30,500 --> 00:17:32,830
+to solve a certain type of problem
+
+440
+00:17:32,830 --> 00:17:34,190
+Right, whether it's standardization or something else
+
+441
+00:17:34,190 --> 00:17:34,910
+a certain category
+
+442
+00:17:34,910 --> 00:17:36,390
+What is its essence actually
+
+443
+00:17:36,390 --> 00:17:39,780
+are all about abstracting these existing problems and their solutions
+
+444
+00:17:39,780 --> 00:17:41,530
+position them as a category of problems
+
+445
+00:17:41,530 --> 00:17:42,810
+Since it's a type of problem
+
+446
+00:17:42,810 --> 00:17:44,850
+then the next time a similar situation arises
+
+447
+00:17:44,850 --> 00:17:46,470
+we can consider saying hey
+
+448
+00:17:46,470 --> 00:17:48,860
+I actually have some accumulated standardized solutions now
+
+449
+00:17:48,860 --> 00:17:50,660
+So this is the product manager's
+
+450
+00:17:50,660 --> 00:17:52,280
+a path for their growth
+
+451
+00:17:52,280 --> 00:17:54,650
+OK so to briefly summarize
+
+452
+00:17:54,650 --> 00:17:57,170
+So the entire market has certain expectations for AI product managers
+
+453
+00:17:57,170 --> 00:17:59,330
+The first core demand is what
+
+454
+00:17:59,330 --> 00:18:01,290
+the job skills of a product manager
+
+455
+00:18:01,290 --> 00:18:05,710
+In other words, first and foremost, you must be a competent product manager.
+
+456
+00:18:05,710 --> 00:18:08,470
+Only then can you excel in the field of AI, right?
+
+457
+00:18:08,470 --> 00:18:10,510
+As we just mentioned, the AI product manager
+
+458
+00:18:10,510 --> 00:18:11,630
+In addition to being a product manager
+
+459
+00:18:11,630 --> 00:18:12,790
+it also involves AI
+
+460
+00:18:12,790 --> 00:18:14,570
+So what is the core of AI?
+
+461
+00:18:14,570 --> 00:18:16,110
+Actually, AI in this context
+
+462
+00:18:16,110 --> 00:18:17,610
+within this core competency
+
+463
+00:18:17,610 --> 00:18:20,970
+At its core, it represents the understanding and application of AI technologies
+
+464
+00:18:20,970 --> 00:18:23,110
+In other words, an AI product manager
+
+465
+00:18:23,110 --> 00:18:26,250
+Its work is essentially dancing on the edge of technological boundaries.
+
+466
+00:18:26,250 --> 00:18:28,420
+He is dancing on the edge of technology
+
+467
+00:18:28,420 --> 00:18:29,540
+What does that mean?
+
+468
+00:18:30,780 --> 00:18:33,560
+For example,
+
+469
+00:18:33,560 --> 00:18:35,570
+Suppose you are a product manager, right
+
+470
+00:18:35,570 --> 00:18:38,870
+Now, the requirement is that you need to design an online store
+
+471
+00:18:38,870 --> 00:18:42,280
+For example, we are a fresh produce e-commerce platform
+
+472
+00:18:42,280 --> 00:18:45,480
+design one in that mini-program, or some kind of APP
+
+473
+00:18:45,480 --> 00:18:47,860
+Our first instinct might be to say OK
+
+474
+00:18:47,860 --> 00:18:49,680
+how should I design
+
+475
+00:18:49,680 --> 00:18:53,280
+the presentation of Me products, right
+
+476
+00:18:53,280 --> 00:18:55,590
+how to arrange the product images
+
+477
+00:18:55,590 --> 00:18:56,990
+how to place the description below
+
+478
+00:18:56,990 --> 00:18:59,190
+to provide users with the best visual experience
+
+479
+00:18:59,190 --> 00:19:00,870
+Then, after the product is displayed
+
+480
+00:19:00,870 --> 00:19:02,310
+probably need to add to cart, right?
+
+481
+00:19:02,310 --> 00:19:04,730
+After adding to cart, generate an order
+
+482
+00:19:04,730 --> 00:19:06,130
+After generating the order, proceed to payment.
+
+483
+00:19:06,130 --> 00:19:07,510
+This is actually what we need to design, some of the more core mainstream processes.
+
+484
+00:19:07,510 --> 00:19:08,670
+core main process
+
+485
+00:19:08,670 --> 00:19:11,140
+Of course, there may also be some more advanced
+
+486
+00:19:11,140 --> 00:19:14,040
+You might think, OK, does my payment allow refunds?
+
+487
+00:19:14,040 --> 00:19:15,490
+may need to support refund functionality
+
+488
+00:19:15,490 --> 00:19:17,210
+Or should I now issue some
+
+489
+00:19:17,210 --> 00:19:18,570
+a 20 off for every 100 coupon
+
+490
+00:19:18,570 --> 00:19:20,630
+I need to support coupon functionality, and so on and so forth.
+
+491
+00:19:20,630 --> 00:19:23,230
+At this moment, as a product manager
+
+492
+00:19:23,230 --> 00:19:25,940
+when seeing the concepts of online mall
+
+493
+00:19:25,940 --> 00:19:27,900
+the first thing that pops into our minds
+
+494
+00:19:27,900 --> 00:19:29,700
+The first thing that comes to mind
+
+495
+00:19:30,740 --> 00:19:32,220
+We tend to focus more on this
+
+496
+00:19:32,220 --> 00:19:34,310
+What is the process of this matter?
+
+497
+00:19:34,310 --> 00:19:35,670
+Right, the concrete manifestations of this matter
+
+498
+00:19:35,670 --> 00:19:37,530
+Let's talk about some concrete examples
+
+499
+00:19:37,530 --> 00:19:38,930
+So in this process,
+
+500
+00:19:38,930 --> 00:19:42,330
+Few product managers would consider whether
+
+501
+00:19:42,330 --> 00:19:43,530
+Is this thing I designed technically feasible?
+
+502
+00:19:43,530 --> 00:19:45,560
+Can the technology achieve it?
+
+503
+00:19:45,960 --> 00:19:47,760
+Few would have this line of thinking
+
+504
+00:19:47,760 --> 00:19:48,620
+Why
+
+505
+00:19:48,620 --> 00:19:51,880
+The reason is, in e-commerce and other
+
+506
+00:19:51,880 --> 00:19:54,429
+these relatively mature scenarios
+
+507
+00:19:54,429 --> 00:19:57,089
+Technology is actually in a state of overflow
+
+508
+00:19:57,089 --> 00:19:58,690
+What does it mean to be in an overflow state
+
+509
+00:19:58,690 --> 00:20:01,650
+That is to say, the technology may be able to address 95%
+
+510
+00:20:01,650 --> 00:20:02,910
+even 98% of the problems
+
+511
+00:20:02,910 --> 00:20:05,050
+Of course, the technology we're referring to here is the overall development of the industry's technology.
+
+512
+00:20:05,050 --> 00:20:06,010
+right
+
+513
+00:20:06,010 --> 00:20:07,440
+It's not about any individual
+
+514
+00:20:07,440 --> 00:20:08,960
+an individual cannot solve a certain type of problem
+
+515
+00:20:08,960 --> 00:20:10,320
+That might be an issue with individual competence.
+
+516
+00:20:10,320 --> 00:20:11,440
+We say the entire industry
+
+517
+00:20:11,440 --> 00:20:14,100
+its technology is actually in a state of overall overflow
+
+518
+00:20:14,100 --> 00:20:15,120
+in other words
+
+519
+00:20:15,120 --> 00:20:15,880
+What does overflow mean?
+
+520
+00:20:15,880 --> 00:20:16,560
+in other words
+
+521
+00:20:16,560 --> 00:20:19,720
+as long as you're not dealing with something like 618
+
+522
+00:20:19,720 --> 00:20:21,500
+events like Double 11, which need to withstand tens of millions
+
+523
+00:20:21,500 --> 00:20:25,230
+or even hundreds of millions of people shopping simultaneously
+
+524
+00:20:25,230 --> 00:20:28,900
+Currently, the development of technology is sufficient for the vast majority of cases.
+
+525
+00:20:28,900 --> 00:20:32,160
+So in many cases, when designing products,
+
+526
+00:20:32,160 --> 00:20:34,909
+We won't over-consider technical feasibility
+
+527
+00:20:34,909 --> 00:20:39,139
+Meanwhile, for the success or failure of an online store
+
+528
+00:20:39,139 --> 00:20:41,879
+the decision, or rather its decisive factor
+
+529
+00:20:41,879 --> 00:20:45,400
+nor is it technology, right
+
+530
+00:20:45,400 --> 00:20:48,300
+This is our perspective on some traditional internet scenarios
+
+531
+00:20:48,300 --> 00:20:49,400
+or within product operations,
+
+532
+00:20:49,400 --> 00:20:52,570
+This is a core consideration in the mindset of a product manager.
+
+533
+00:20:52,570 --> 00:20:55,580
+But if you were to shift this to the AI industry
+
+534
+00:20:55,580 --> 00:20:59,640
+For example, how would you design an AI-powered virtual try-on product
+
+535
+00:20:59,640 --> 00:21:01,240
+Right, after I take a photo,
+
+536
+00:21:01,240 --> 00:21:03,360
+Hey, my clothes can switch automatically
+
+537
+00:21:03,360 --> 00:21:05,139
+and it fits perfectly
+
+538
+00:21:05,139 --> 00:21:06,939
+Then what should you consider
+
+539
+00:21:06,939 --> 00:21:08,619
+Your first reaction may not be
+
+540
+00:21:08,619 --> 00:21:10,859
+first consider the issue of the process
+
+541
+00:21:10,859 --> 00:21:12,259
+Your first reaction should be to say OK
+
+542
+00:21:12,259 --> 00:21:14,030
+the current AI technology
+
+543
+00:21:14,030 --> 00:21:17,630
+Can it distinguish between my top and bottom
+
+544
+00:21:17,630 --> 00:21:21,320
+Can it distinguish between people and clothing?
+
+545
+00:21:21,320 --> 00:21:24,720
+Right, and also okay, now after the clothing is switched
+
+546
+00:21:24,720 --> 00:21:26,200
+This is because it is it
+
+547
+00:21:26,200 --> 00:21:27,720
+You may have different poses, right?
+
+548
+00:21:27,720 --> 00:21:30,000
+For example, when you raise your hands or place them on your hips
+
+549
+00:21:30,000 --> 00:21:32,350
+Your clothes cannot have a fixed shape.
+
+550
+00:21:32,350 --> 00:21:34,630
+then I replace it with the new clothes
+
+551
+00:21:34,630 --> 00:21:37,929
+Can it also change according to the person's posture?
+
+552
+00:21:37,929 --> 00:21:41,189
+These issues may not yet be related to the process or anything else
+
+553
+00:21:41,189 --> 00:21:45,200
+What we need to consider first is whether this is feasible.
+
+554
+00:21:45,200 --> 00:21:49,210
+What we need to verify first is the feasibility of this approach or feature.
+
+555
+00:21:49,210 --> 00:21:52,170
+So what is the feasibility of this idea or feature in essence?
+
+556
+00:21:52,170 --> 00:21:55,870
+Essentially, it's about first verifying whether this technology is feasible.
+
+557
+00:21:55,870 --> 00:21:58,710
+Therefore, AI technology is for the AI industry
+
+558
+00:21:58,710 --> 00:22:02,850
+Its uniqueness lies in the fact that the current AI industry or AI products
+
+559
+00:22:02,850 --> 00:22:06,370
+its core driving force and its core boundaries
+
+560
+00:22:06,370 --> 00:22:09,880
+are all along the line of technology
+
+561
+00:22:09,880 --> 00:22:11,000
+Right, for example, your online mall
+
+562
+00:22:11,000 --> 00:22:12,540
+the success or failure of an online mall
+
+563
+00:22:12,540 --> 00:22:13,960
+you can't say it's due to technical influence
+
+564
+00:22:13,960 --> 00:22:15,740
+It might be his supply source
+
+565
+00:22:15,740 --> 00:22:17,960
+It might be the quality of the product.
+
+566
+00:22:17,960 --> 00:22:19,820
+It could also be the user base of his product
+
+567
+00:22:19,820 --> 00:22:21,960
+or it could be the scale of his e-commerce user base, right
+
+568
+00:22:21,960 --> 00:22:23,200
+whether the operations are well-executed
+
+569
+00:22:23,200 --> 00:22:24,600
+the size of the discount
+
+570
+00:22:24,600 --> 00:22:26,389
+All these factors will affect its success or failure
+
+571
+00:22:26,389 --> 00:22:28,509
+But currently, for AI products,
+
+572
+00:22:28,509 --> 00:22:31,829
+The quality of the technology or the boundaries of the overall technological trends
+
+573
+00:22:31,829 --> 00:22:35,600
+it will actually have a comprehensive impact on an AI product's cost
+
+574
+00:22:35,600 --> 00:22:37,720
+So for an AI product manager
+
+575
+00:22:37,720 --> 00:22:40,610
+why do we call it dancing on the edge of technology
+
+576
+00:22:40,610 --> 00:22:44,310
+Because you need to deeply understand the boundaries of AI technology
+
+577
+00:22:44,310 --> 00:22:48,060
+you can then understand, what level we can roughly achieve
+
+578
+00:22:48,060 --> 00:22:49,420
+This is the impact of AI technology on the AI industry
+
+579
+00:22:49,420 --> 00:22:51,820
+It has a unique impact.
+
+580
+00:22:51,820 --> 00:22:54,840
+So why do we need AI, PM, which stands for AI Product Manager
+
+581
+00:22:54,840 --> 00:22:56,160
+Why is it necessary to master this technical understanding?
+
+582
+00:22:56,160 --> 00:22:58,300
+What is its actual value
+
+583
+00:22:58,300 --> 00:23:00,000
+Because what we're doing more now is
+
+584
+00:23:00,000 --> 00:23:03,600
+transform some AI technologies through a productization path
+
+585
+00:23:03,600 --> 00:23:06,340
+and then deliver value to the users, right
+
+586
+00:23:06,340 --> 00:23:08,580
+The deeper your understanding of the technology
+
+587
+00:23:08,580 --> 00:23:10,980
+Or the more comprehensive your understanding of the technology is
+
+588
+00:23:11,220 --> 00:23:14,660
+it will reduce your efforts in translating technology into products
+
+589
+00:23:14,660 --> 00:23:15,860
+this intermediate path
+
+590
+00:23:15,860 --> 00:23:18,290
+especially reducing such communication costs
+
+591
+00:23:18,290 --> 00:23:20,910
+For example, technology actually plays a significant role in various aspects
+
+592
+00:23:20,910 --> 00:23:23,330
+It plays a strong role at every stage
+
+593
+00:23:23,330 --> 00:23:25,230
+For example, in the requirements phase, right
+
+594
+00:23:25,230 --> 00:23:28,750
+we can accurately assess whether this idea, well,
+
+595
+00:23:28,750 --> 00:23:29,490
+I have an idea
+
+596
+00:23:29,490 --> 00:23:30,570
+a new direction
+
+597
+00:23:30,570 --> 00:23:32,840
+a new idea that users might also need
+
+598
+00:23:32,840 --> 00:23:34,460
+but I don't know if it's technically feasible
+
+599
+00:23:34,460 --> 00:23:35,940
+If you have technical understanding
+
+600
+00:23:35,940 --> 00:23:38,080
+then you can make a relatively accurate assessment
+
+601
+00:23:38,080 --> 00:23:39,980
+whether this technology is feasible, right
+
+602
+00:23:39,980 --> 00:23:41,960
+For example, in such voice assistants
+
+603
+00:23:41,960 --> 00:23:43,960
+Can we accurately identify
+
+604
+00:23:43,960 --> 00:23:47,070
+the distinction between phonetic text and semantic meaning
+
+605
+00:23:47,070 --> 00:23:49,510
+Right? What is this aspect of sound
+
+606
+00:23:49,510 --> 00:23:51,470
+For example, there might be some background noise, right?
+
+607
+00:23:51,470 --> 00:23:54,010
+Or this person, their timbre is different from others.
+
+608
+00:23:54,010 --> 00:23:57,050
+Semantics, it emphasizes more on what the content of the speech is.
+
+609
+00:23:57,050 --> 00:23:58,150
+regardless of who said it
+
+610
+00:23:58,150 --> 00:24:01,190
+There might be some coupling between them, right?
+
+611
+00:24:01,190 --> 00:24:02,890
+Then, for example, during the development phase
+
+612
+00:24:02,890 --> 00:24:06,520
+we can communicate more with the algorithm team to ensure smooth collaboration
+
+613
+00:24:06,520 --> 00:24:09,000
+for many traditional
+
+614
+00:24:09,000 --> 00:24:09,920
+such internet product scenarios
+
+615
+00:24:09,920 --> 00:24:12,520
+In fact, many teams often do not
+
+616
+00:24:12,520 --> 00:24:14,720
+Will they allocate resources to algorithm or strategy direction?
+
+617
+00:24:14,720 --> 00:24:16,800
+Only a few specific areas
+
+618
+00:24:16,800 --> 00:24:19,100
+such as e-commerce or advertising
+
+619
+00:24:19,100 --> 00:24:20,680
+will only set up such a search team
+
+620
+00:24:20,680 --> 00:24:23,200
+Many products only have engineering teams.
+
+621
+00:24:23,200 --> 00:24:25,960
+So, one characteristic of AI products is
+
+622
+00:24:25,960 --> 00:24:29,280
+there must be a large number of algorithmic engineers present
+
+623
+00:24:29,280 --> 00:24:31,520
+So if we can master this technology
+
+624
+00:24:31,520 --> 00:24:32,720
+have a certain understanding of technology
+
+625
+00:24:32,720 --> 00:24:35,300
+we can achieve better alignment with the algorithms, right
+
+626
+00:24:35,300 --> 00:24:37,900
+For example, I can communicate various requirements with him
+
+627
+00:24:37,900 --> 00:24:40,340
+or define various metrics
+
+628
+00:24:40,340 --> 00:24:41,660
+Then in the operational phase
+
+629
+00:24:41,660 --> 00:24:43,260
+our insights
+
+630
+00:24:43,260 --> 00:24:45,540
+is about the insight into data anomalies
+
+631
+00:24:45,540 --> 00:24:47,380
+Moreover, as the understanding of technology improves
+
+632
+00:24:47,380 --> 00:24:48,909
+will also lead to better judgment
+
+633
+00:24:48,909 --> 00:24:51,149
+For example, this online data, right
+
+634
+00:24:51,149 --> 00:24:52,510
+constantly fluctuating
+
+635
+00:24:52,510 --> 00:24:55,350
+this for example, the success rate of my tasks
+
+636
+00:24:55,350 --> 00:24:56,650
+or task accuracy rate
+
+637
+00:24:56,650 --> 00:24:58,250
+may fluctuate continuously
+
+638
+00:24:58,250 --> 00:24:59,690
+Then during our analysis,
+
+639
+00:24:59,690 --> 00:25:01,570
+If it's this relatively traditional approach
+
+640
+00:25:01,570 --> 00:25:02,530
+we may only look at OK
+
+641
+00:25:02,530 --> 00:25:02,690
+Ok
+
+642
+00:25:02,690 --> 00:25:05,530
+This could be due to changes in user behavior or functional stability.
+
+643
+00:25:05,530 --> 00:25:07,840
+So with this technical understanding,
+
+644
+00:25:07,840 --> 00:25:08,960
+We will also understand that OK
+
+645
+00:25:08,960 --> 00:25:12,960
+Me model, in fact, its performance itself is also fluctuating
+
+646
+00:25:12,960 --> 00:25:15,340
+Right, the performance of the model can also degrade, and so on.
+
+647
+00:25:15,340 --> 00:25:17,920
+In this way, our analytical perspective will become more comprehensive.
+
+648
+00:25:17,920 --> 00:25:20,560
+Of course, this also includes aspects like long-term iterations, right?
+
+649
+00:25:20,560 --> 00:25:22,980
+How can we improve our product?
+
+650
+00:25:22,980 --> 00:25:25,300
+That is to say, we can develop this confusion matrix
+
+651
+00:25:25,300 --> 00:25:27,660
+right, to look at metrics like accuracy
+
+652
+00:25:27,660 --> 00:25:28,180
+recall rate
+
+653
+00:25:28,180 --> 00:25:29,500
+and other key indicators to analyze
+
+654
+00:25:29,500 --> 00:25:32,770
+how to optimize the product more comprehensively
+
+655
+00:25:32,770 --> 00:25:36,290
+So when a person, when an AI product manager
+
+656
+00:25:36,290 --> 00:25:38,690
+his understanding of the technology is sufficient
+
+657
+00:25:38,690 --> 00:25:41,130
+then he can make the entire product lifecycle
+
+658
+00:25:41,130 --> 00:25:43,490
+can make the entire process smoother
+
+659
+00:25:43,490 --> 00:25:44,500
+smoother
+
+660
+00:25:44,500 --> 00:25:47,570
+This is actually a very, very important point.
+
+661
+00:25:47,570 --> 00:25:48,750
+On the other hand
+
+662
+00:25:48,750 --> 00:25:49,490
+technical comprehension
+
+663
+00:25:49,490 --> 00:25:53,560
+It is essentially a line of defense for controlling product risks, right?
+
+664
+00:25:53,560 --> 00:25:56,000
+For example, what does it mean to control the product's defense line
+
+665
+00:25:56,000 --> 00:25:57,360
+that is to say, if a person, if an HPM
+
+666
+00:25:57,360 --> 00:25:58,480
+If an AHPM
+
+667
+00:25:58,480 --> 00:26:00,080
+He lacks technical understanding
+
+668
+00:26:00,080 --> 00:26:02,280
+if he doesn't have a thorough understanding of the technology
+
+669
+00:26:02,280 --> 00:26:04,980
+then the consequences would be extremely dire
+
+670
+00:26:04,980 --> 00:26:08,380
+For example, this might lead to the emergence of such pseudo-demands, right?
+
+671
+00:26:08,380 --> 00:26:09,180
+What is a pseudo-demand
+
+672
+00:26:09,180 --> 00:26:10,900
+For example, the most classic pseudo-demand is
+
+673
+00:26:10,900 --> 00:26:13,920
+I want a phone case that can emit fragrances
+
+674
+00:26:13,920 --> 00:26:16,980
+This is actually a very typical case of neglecting technical feasibility.
+
+675
+00:26:16,980 --> 00:26:19,290
+forcefully proposing such demands
+
+676
+00:26:19,290 --> 00:26:21,010
+For example, the case I'm citing now
+
+677
+00:26:21,010 --> 00:26:23,250
+saying that a certain intelligent customer manager proposed, right
+
+678
+00:26:23,250 --> 00:26:26,850
+I need to be able to identify 100% of users' complaint intentions
+
+679
+00:26:26,850 --> 00:26:29,170
+But in fact, the current technical boundaries we have
+
+680
+00:26:29,170 --> 00:26:30,970
+The recognition rate is 90%.
+
+681
+00:26:30,970 --> 00:26:34,800
+then the remaining percentage will inevitably include some misidentifications
+
+682
+00:26:34,800 --> 00:26:36,440
+If on this basis
+
+683
+00:26:36,440 --> 00:26:40,050
+we don't implement any of this, we don't design any fallback mechanisms
+
+684
+00:26:40,050 --> 00:26:43,250
+without any such other measures, like bypasses
+
+685
+00:26:43,250 --> 00:26:45,450
+I'll handle the contingency in case of misidentification
+
+686
+00:26:45,450 --> 00:26:46,090
+what should be done
+
+687
+00:26:46,090 --> 00:26:47,300
+such product design
+
+688
+00:26:47,300 --> 00:26:48,830
+That would lead to, well,
+
+689
+00:26:48,830 --> 00:26:51,330
+I believe this step is absolutely 100%
+
+690
+00:26:51,330 --> 00:26:52,490
+Right, in terms of product design, it's 100%.
+
+691
+00:26:52,490 --> 00:26:53,550
+I just go with 100%
+
+692
+00:26:53,550 --> 00:26:54,730
+then you have no alternative routes
+
+693
+00:26:54,730 --> 00:26:56,520
+will lead to a large number of misjudgments
+
+694
+00:26:56,520 --> 00:26:58,300
+then you will trigger more customer complaints
+
+695
+00:26:58,300 --> 00:27:00,360
+This may also include, for example, resource misallocation
+
+696
+00:27:00,360 --> 00:27:02,500
+whether the product can truly grasp
+
+697
+00:27:02,500 --> 00:27:05,180
+What is the most critical thing to optimize at present
+
+698
+00:27:05,180 --> 00:27:09,210
+and what roughly is the path to this optimization
+
+699
+00:27:09,210 --> 00:27:12,330
+For example, many of our AI products
+
+700
+00:27:12,330 --> 00:27:13,750
+It will have the concept of accuracy rate
+
+701
+00:27:13,750 --> 00:27:16,570
+Should it be optimized within the product
+
+702
+00:27:16,570 --> 00:27:17,520
+or optimize outside the product
+
+703
+00:27:17,520 --> 00:27:18,940
+it is often a problem
+
+704
+00:27:18,940 --> 00:27:21,720
+Right, internal product optimization means okay, I'll predict I'll optimize
+
+705
+00:27:21,720 --> 00:27:23,200
+is my product's own strategy
+
+706
+00:27:23,200 --> 00:27:24,370
+including Me prompt
+
+707
+00:27:24,370 --> 00:27:26,010
+Me's process mechanism, right, and
+
+708
+00:27:26,010 --> 00:27:28,250
+Should I add some assistance during the process
+
+709
+00:27:28,250 --> 00:27:30,250
+Additionally, optimizations can be made outside the product
+
+710
+00:27:30,250 --> 00:27:33,060
+for example, the selection of my base model
+
+711
+00:27:33,260 --> 00:27:34,640
+a certain technical model
+
+712
+00:27:34,640 --> 00:27:38,140
+It is relatively weak in terms of its coding capabilities.
+
+713
+00:27:38,140 --> 00:27:39,840
+It excels in image processing capabilities
+
+714
+00:27:39,840 --> 00:27:41,480
+then our selection of this technical model
+
+715
+00:27:41,480 --> 00:27:43,140
+Is it the most optimal logic
+
+716
+00:27:43,140 --> 00:27:45,760
+Or is there going to be an updated version of the model
+
+717
+00:27:45,760 --> 00:27:47,920
+It's about these accuracy rates where I don't need to do anything
+
+718
+00:27:47,920 --> 00:27:49,760
+as the capabilities of the foundational model improve
+
+719
+00:27:49,760 --> 00:27:51,980
+This accuracy rate improves on its own.
+
+720
+00:27:51,980 --> 00:27:54,220
+without requiring any additional effort from me
+
+721
+00:27:54,220 --> 00:27:57,900
+This actually affects product managers' judgment on the priority of many current matters
+
+722
+00:27:57,900 --> 00:27:59,240
+its priority assessment
+
+723
+00:27:59,240 --> 00:28:01,920
+If you lack this technical understanding
+
+724
+00:28:01,920 --> 00:28:05,040
+you might demand, hey, don't think about anything else
+
+725
+00:28:05,040 --> 00:28:06,320
+Just do it ourselves anyway
+
+726
+00:28:06,320 --> 00:28:08,200
+optimize the 2% accuracy rate
+
+727
+00:28:08,200 --> 00:28:10,840
+Then this may not be the most economical
+
+728
+00:28:10,840 --> 00:28:12,659
+the most cost-effective solution
+
+729
+00:28:12,659 --> 00:28:14,260
+This is the risk of resource misallocation.
+
+730
+00:28:14,260 --> 00:28:17,340
+Of course, AI products also have a significant problem
+
+731
+00:28:17,340 --> 00:28:18,540
+that is, ethical out-of-control
+
+732
+00:28:18,540 --> 00:28:22,810
+Nowadays, many people are using AI products to do this
+
+733
+00:28:22,810 --> 00:28:24,770
+We are currently designing many AI products
+
+734
+00:28:24,770 --> 00:28:27,270
+especially AI-generated products, right
+
+735
+00:28:27,270 --> 00:28:30,090
+whether you're generating text or images
+
+736
+00:28:30,090 --> 00:28:31,490
+or generate audio and video
+
+737
+00:28:31,490 --> 00:28:33,170
+then ethics is actually a
+
+738
+00:28:33,170 --> 00:28:34,850
+AI ethics is a very important direction
+
+739
+00:28:34,850 --> 00:28:36,930
+then for the content generated by the model
+
+740
+00:28:36,930 --> 00:28:40,660
+Actually, effective review and alignment need to be implemented, right?
+
+741
+00:28:40,660 --> 00:28:45,660
+For example, if the product is designing this process chain
+
+742
+00:28:45,660 --> 00:28:46,580
+He didn't consider that okay
+
+743
+00:28:46,580 --> 00:28:49,510
+I am, I am generating images, right
+
+744
+00:28:49,510 --> 00:28:51,930
+
+
+745
+00:28:51,930 --> 00:28:53,130
+conduct some review and alignment
+
+746
+00:28:53,130 --> 00:28:56,160
+That may lead some users to exploit the text-to-image service I provide
+
+747
+00:28:56,160 --> 00:28:59,220
+image generation product to produce some content, such as pornography, violence, or terrorism-related materials, etc.
+
+748
+00:28:59,220 --> 00:29:01,440
+things like involving violence or social anxiety
+
+749
+00:29:01,440 --> 00:29:03,800
+Although large models inherently possess such capabilities
+
+750
+00:29:03,800 --> 00:29:06,130
+but may not be able to block, so in many cases
+
+751
+00:29:06,130 --> 00:29:08,530
+When we design products,
+
+752
+00:29:08,530 --> 00:29:09,610
+keep this in mind
+
+753
+00:29:09,610 --> 00:29:11,050
+that is the issue of ethical out-of-control
+
+754
+00:29:11,050 --> 00:29:13,490
+Essentially, it also arises from some fundamental principles.
+
+755
+00:29:13,490 --> 00:29:14,920
+So overall it appears that
+
+756
+00:29:14,920 --> 00:29:17,640
+With technical understanding
+
+757
+00:29:17,640 --> 00:29:20,580
+you can actually streamline the entire product lifecycle
+
+758
+00:29:20,580 --> 00:29:22,340
+Right, if there's a lack of technical understanding,
+
+759
+00:29:22,340 --> 00:29:24,340
+then many risks may arise
+
+760
+00:29:24,340 --> 00:29:26,960
+So overall, this understanding of AI technology
+
+761
+00:29:26,960 --> 00:29:30,140
+It is actually a very important capability for an IPM.
+
+762
+00:29:30,140 --> 00:29:31,180
+Why is that the case?
+
+763
+00:29:31,180 --> 00:29:33,300
+Because in fact, for AI product managers, in many cases
+
+764
+00:29:33,300 --> 00:29:35,700
+its core value lies in what
+
+765
+00:29:35,700 --> 00:29:37,970
+within the existing technological boundaries
+
+766
+00:29:37,970 --> 00:29:41,330
+We achieve this through productization, right? For example,
+
+767
+00:29:41,330 --> 00:29:42,890
+can be achieved through various designs
+
+768
+00:29:42,890 --> 00:29:44,390
+manage user expectations
+
+769
+00:29:44,390 --> 00:29:46,409
+to quickly achieve PMF
+
+770
+00:29:46,409 --> 00:29:47,569
+What is PMF
+
+771
+00:29:47,569 --> 00:29:51,620
+It means that my product matches the market demand.
+
+772
+00:29:51,980 --> 00:29:53,420
+called called called PMF
+
+773
+00:29:53,420 --> 00:29:54,820
+Only when PMF is achieved
+
+774
+00:29:54,820 --> 00:29:56,740
+only then can it be said
+
+775
+00:29:56,740 --> 00:29:59,720
+your product will generate its corresponding economic value
+
+776
+00:29:59,720 --> 00:30:02,800
+So when we look at PMF, it's actually a bidirectional process, right?
+
+777
+00:30:02,800 --> 00:30:05,060
+you need to have both product and market
+
+778
+00:30:05,060 --> 00:30:06,100
+Then again, the product
+
+779
+00:30:06,100 --> 00:30:09,220
+It is actually a boundary strongly influenced by technology.
+
+780
+00:30:09,220 --> 00:30:11,280
+Therefore, in this scenario
+
+781
+00:30:11,280 --> 00:30:14,360
+First and foremost, we need to strongly understand
+
+782
+00:30:14,360 --> 00:30:16,060
+Where exactly is the current technological boundary?
+
+783
+00:30:16,060 --> 00:30:17,400
+for example
+
+784
+00:30:17,400 --> 00:30:19,560
+For example, the current technical boundary is at an 80-AI level
+
+785
+00:30:19,560 --> 00:30:20,880
+is at an 80-point level
+
+786
+00:30:22,040 --> 00:30:24,060
+but the users we need to face
+
+787
+00:30:24,060 --> 00:30:25,940
+it may be a distribution that is relatively
+
+788
+00:30:25,940 --> 00:30:28,540
+their expectations of your AI are widely distributed
+
+789
+00:30:28,540 --> 00:30:31,860
+Some people may have expectations of you as high as 120 points
+
+790
+00:30:31,860 --> 00:30:33,310
+Right, there's an extremely high expectation
+
+791
+00:30:33,310 --> 00:30:35,690
+He believes that AI should be omnipotent.
+
+792
+00:30:35,690 --> 00:30:38,130
+Some people, due to their past experiences
+
+793
+00:30:38,130 --> 00:30:40,610
+He may not have used AI very well or effectively in the past.
+
+794
+00:30:40,610 --> 00:30:42,250
+His expectation of you is only 40 points.
+
+795
+00:30:42,250 --> 00:30:43,970
+He thinks you're just an AI, right?
+
+796
+00:30:43,970 --> 00:30:46,590
+You don't have stable output either
+
+797
+00:30:46,590 --> 00:30:47,950
+your output capability is also unstable
+
+798
+00:30:47,950 --> 00:30:50,050
+and sometimes your results are wrong
+
+799
+00:30:50,050 --> 00:30:51,790
+and some relatively simple math problems
+
+800
+00:30:51,790 --> 00:30:53,949
+You might still get it wrong, and so on, I mean you
+
+801
+00:30:53,949 --> 00:30:55,949
+We work as AI product managers
+
+802
+00:30:55,949 --> 00:30:57,149
+we often face
+
+803
+00:30:57,149 --> 00:30:59,669
+its user expectations are highly divergent
+
+804
+00:30:59,669 --> 00:31:01,449
+In this context
+
+805
+00:31:01,449 --> 00:31:04,169
+The core value of an AI product manager lies in
+
+806
+00:31:04,169 --> 00:31:08,189
+First, you need to understand why the current AI technology
+
+807
+00:31:08,189 --> 00:31:10,340
+It's at an 80-point level
+
+808
+00:31:10,340 --> 00:31:12,960
+This 80-point score, for example, if the full score is 100,
+
+809
+00:31:12,960 --> 00:31:14,300
+the missing 20 points
+
+810
+00:31:14,300 --> 00:31:16,420
+where are the roughly missing points located
+
+811
+00:31:16,420 --> 00:31:20,230
+So what does this 80-point level actually mean for us
+
+812
+00:31:20,230 --> 00:31:22,610
+Which product capabilities are limited
+
+813
+00:31:22,610 --> 00:31:25,650
+Or one day when this 80-point level becomes 85 points
+
+814
+00:31:25,650 --> 00:31:28,590
+which of my product capabilities will be enhanced
+
+815
+00:31:28,590 --> 00:31:29,630
+This is the product
+
+816
+00:31:29,630 --> 00:31:31,110
+from the perspective of an AI product manager
+
+817
+00:31:31,110 --> 00:31:34,760
+He is on the product or technology side, trying to achieve understanding
+
+818
+00:31:34,760 --> 00:31:37,900
+Similarly, another perspective he looks at is this market
+
+819
+00:31:37,900 --> 00:31:40,160
+facing this, this group's expectations of AI range from 40 to 120 points
+
+820
+00:31:40,160 --> 00:31:42,710
+a user group
+
+821
+00:31:42,710 --> 00:31:44,630
+So what is the core capability he needs to develop
+
+822
+00:31:44,630 --> 00:31:47,210
+He needs to influence these users' expectations
+
+823
+00:31:47,210 --> 00:31:49,250
+It needs to employ some productization methods
+
+824
+00:31:49,250 --> 00:31:51,200
+make users gradually realize
+
+825
+00:31:51,200 --> 00:31:53,840
+the current technology is at an 80-point level
+
+826
+00:31:53,840 --> 00:31:55,640
+Certainly, some excellent product design
+
+827
+00:31:55,640 --> 00:31:58,120
+It might be able to raise the 80 to 82 or 83
+
+828
+00:31:58,120 --> 00:32:01,790
+just to make users feel that, okay, this product seems pretty impressive
+
+829
+00:32:01,790 --> 00:32:02,850
+but fundamentally speaking
+
+830
+00:32:02,850 --> 00:32:04,370
+We are targeting users ranging from 40 to 120 points
+
+831
+00:32:04,370 --> 00:32:06,790
+guide to the 80-point level
+
+832
+00:32:06,790 --> 00:32:08,850
+this fluctuating state
+
+833
+00:32:08,850 --> 00:32:10,770
+What are some productization methods
+
+834
+00:32:10,770 --> 00:32:14,250
+For example, for users with very high expectations
+
+835
+00:32:14,250 --> 00:32:16,050
+we may provide more of what
+
+836
+00:32:16,050 --> 00:32:18,900
+provide some pre-guidance
+
+837
+00:32:18,900 --> 00:32:20,460
+the logic of some verbal strategies
+
+838
+00:32:20,460 --> 00:32:22,820
+Right? Like you're asking me many questions beyond my capability boundary
+
+839
+00:32:22,820 --> 00:32:24,460
+I will tactfully guide you
+
+840
+00:32:24,460 --> 00:32:27,409
+guide it to the range of problems I can solve
+
+841
+00:32:27,409 --> 00:32:30,049
+So for those who distrust our AI
+
+842
+00:32:30,049 --> 00:32:32,089
+or users with low expectations of AI capabilities
+
+843
+00:32:32,089 --> 00:32:33,409
+What should I enhance for them
+
+844
+00:32:33,409 --> 00:32:34,790
+Boost his confidence how
+
+845
+00:32:34,790 --> 00:32:35,830
+boost confidence
+
+846
+00:32:35,830 --> 00:32:38,490
+Make myself transparent to boost his confidence
+
+847
+00:32:38,490 --> 00:32:41,230
+What if I tell you how I think
+
+848
+00:32:41,230 --> 00:32:42,240
+right, expose my chain of thought
+
+849
+00:32:42,240 --> 00:32:45,560
+Or, let me provide you with a large amount of indexed content from Me
+
+850
+00:32:45,560 --> 00:32:47,680
+You see, my content isn't just made up.
+
+851
+00:32:47,680 --> 00:32:48,800
+It's not generated by my hallucinations
+
+852
+00:32:48,800 --> 00:32:51,850
+I am all based on his existing Knowledge
+
+853
+00:32:51,850 --> 00:32:54,970
+or summarize from existing web links
+
+854
+00:32:54,970 --> 00:32:56,930
+to enhance the information for these low-expectation users
+
+855
+00:32:56,930 --> 00:33:00,100
+These are actually some commonly used, productized methods.
+
+856
+00:33:00,100 --> 00:33:01,580
+So as an AI product manager
+
+857
+00:33:01,580 --> 00:33:03,900
+On one hand, we look at the current technical boundaries
+
+858
+00:33:03,900 --> 00:33:05,780
+one side looks at how to manage user expectations
+
+859
+00:33:05,780 --> 00:33:08,180
+and then bring the two ends as close as possible
+
+860
+00:33:08,180 --> 00:33:09,500
+to achieve a PMF
+
+861
+00:33:09,500 --> 00:33:10,900
+During this process
+
+862
+00:33:10,900 --> 00:33:13,660
+It is one of the most classic or core foundational
+
+863
+00:33:13,660 --> 00:33:15,160
+underlying premise
+
+864
+00:33:15,160 --> 00:33:19,620
+That is, we need to maintain an understanding and application of AI technologies.
+
+865
+00:33:19,620 --> 00:33:21,880
+So here, let's address one more issue
+
+866
+00:33:21,880 --> 00:33:25,820
+Many, in fact, those who aspire to become AI product managers
+
+867
+00:33:25,820 --> 00:33:26,380
+this student
+
+868
+00:33:26,380 --> 00:33:27,980
+there might be an issue
+
+869
+00:33:27,980 --> 00:33:30,940
+I often hear many people asking this question
+
+870
+00:33:30,940 --> 00:33:32,720
+Well, you know, it's about AI products
+
+871
+00:33:32,720 --> 00:33:34,600
+What kind of technical skills does it actually require, right?
+
+872
+00:33:34,600 --> 00:33:36,720
+This issue also has another expression
+
+873
+00:33:36,720 --> 00:33:38,469
+whether product managers should write code
+
+874
+00:33:38,469 --> 00:33:41,429
+This question is almost frequently asked
+
+875
+00:33:41,429 --> 00:33:44,990
+Well, here, let me share one of my understandings.
+
+876
+00:33:44,990 --> 00:33:47,370
+That is to say, should product managers learn to code, right?
+
+877
+00:33:47,370 --> 00:33:50,310
+Essentially, it's what we often refer to as technical capability
+
+878
+00:33:50,310 --> 00:33:53,380
+In fact, technical capabilities can be divided into two perspectives
+
+879
+00:33:53,380 --> 00:33:55,260
+one is called technical execution
+
+880
+00:33:55,260 --> 00:33:56,740
+one is called technical understanding
+
+881
+00:33:56,740 --> 00:34:00,450
+Both of them fall under the scope of technical capabilities.
+
+882
+00:34:00,450 --> 00:34:02,650
+So for product managers
+
+883
+00:34:02,650 --> 00:34:05,870
+What we need more is technical comprehension, right?
+
+884
+00:34:05,870 --> 00:34:07,350
+What is technical execution?
+
+885
+00:34:07,350 --> 00:34:09,889
+Technical execution capability refers to being given an objective
+
+886
+00:34:09,889 --> 00:34:13,730
+Can you achieve it through the means of coding
+
+887
+00:34:13,730 --> 00:34:15,670
+execute this goal
+
+888
+00:34:15,670 --> 00:34:18,310
+For example, asking you to write a small game like Snake
+
+889
+00:34:18,310 --> 00:34:20,469
+You may need to use a programming language you're familiar with
+
+890
+00:34:20,469 --> 00:34:21,989
+For example, you know Java
+
+891
+00:34:21,989 --> 00:34:24,120
+can write Python, can write C++, etc.
+
+892
+00:34:24,120 --> 00:34:27,719
+then successfully write it out in this way
+
+893
+00:34:27,719 --> 00:34:28,550
+run successfully
+
+894
+00:34:28,550 --> 00:34:30,610
+This is called technical execution.
+
+895
+00:34:30,610 --> 00:34:32,670
+Of course, the problems you face may become increasingly complex
+
+896
+00:34:32,670 --> 00:34:36,620
+Right, do you have the ability to, well, get it done and execute this task properly?
+
+897
+00:34:36,620 --> 00:34:38,540
+So what does technical comprehension mean
+
+898
+00:34:38,540 --> 00:34:44,800
+Technical comprehension emphasizes that I may or may not
+
+899
+00:34:45,280 --> 00:34:47,690
+I may not be able to write code, right or
+
+900
+00:34:47,690 --> 00:34:49,290
+I don't actually require
+
+901
+00:34:49,290 --> 00:34:51,130
+I need to do it by writing code
+
+902
+00:34:51,130 --> 00:34:54,370
+What I mean is that I can comprehend some complex technical concepts.
+
+903
+00:34:54,370 --> 00:34:57,330
+I can understand the logic behind how some technologies operate
+
+904
+00:34:57,330 --> 00:34:59,650
+perhaps not from the perspective of code
+
+905
+00:34:59,650 --> 00:35:03,630
+But I can turn it into something, something I can understand, right?
+
+906
+00:35:03,630 --> 00:35:06,030
+I can roughly understand what the steps are like.
+
+907
+00:35:06,030 --> 00:35:07,830
+This is called technical comprehension.
+
+908
+00:35:07,830 --> 00:35:12,359
+So why do we need to break down technical capabilities into execution power and comprehension?
+
+909
+00:35:12,599 --> 00:35:13,639
+Because an AI product manager
+
+910
+00:35:13,639 --> 00:35:14,959
+what we actually emphasize as the core
+
+911
+00:35:14,959 --> 00:35:17,820
+or essentially focus on technical comprehension
+
+912
+00:35:17,820 --> 00:35:20,420
+Right, product managers don't need to have strong technical execution skills
+
+913
+00:35:20,420 --> 00:35:22,060
+you don't actually need to write code
+
+914
+00:35:22,060 --> 00:35:23,920
+Of course, being able to write code is a good thing.
+
+915
+00:35:23,920 --> 00:35:25,860
+Then why do we say the opposite
+
+916
+00:35:25,860 --> 00:35:29,890
+Perhaps learning a bit of coding wouldn't do you any harm.
+
+917
+00:35:29,890 --> 00:35:34,370
+This is because, for many people, the way they grasp technical understanding
+
+918
+00:35:34,370 --> 00:35:38,210
+In fact, they first mastered the execution of technology
+
+919
+00:35:38,210 --> 00:35:41,359
+he gradually acquired technical understanding
+
+920
+00:35:41,359 --> 00:35:43,519
+Of course, we do not deny that some people
+
+921
+00:35:43,519 --> 00:35:45,039
+his thinking ability
+
+922
+00:35:45,039 --> 00:35:46,199
+strong logical ability, right
+
+923
+00:35:46,199 --> 00:35:47,799
+or have a strong foundation in mathematics
+
+924
+00:35:47,799 --> 00:35:50,880
+He can directly bypass the stage of execution
+
+925
+00:35:50,880 --> 00:35:51,080
+Well
+
+926
+00:35:51,080 --> 00:35:52,560
+to directly gain an understanding of the technology
+
+927
+00:35:52,560 --> 00:35:54,680
+Of course, that is also a very good approach
+
+928
+00:35:54,680 --> 00:35:55,840
+However, most people
+
+929
+00:35:55,840 --> 00:35:58,400
+their path is to first develop execution capabilities
+
+930
+00:35:58,400 --> 00:36:01,440
+In other words, you first need to learn a certain type of code
+
+931
+00:36:01,440 --> 00:36:05,000
+Then, you can grasp some understanding of this technology.
+
+932
+00:36:05,000 --> 00:36:07,060
+Well, that approach is also acceptable.
+
+933
+00:36:07,060 --> 00:36:09,100
+So, should product managers write code?
+
+934
+00:36:09,100 --> 00:36:12,109
+you can refer to the concept mentioned earlier
+
+935
+00:36:12,109 --> 00:36:13,329
+to drive forward
+
+936
+00:36:13,329 --> 00:36:14,709
+Let me elaborate a bit more here
+
+937
+00:36:14,709 --> 00:36:17,930
+What exactly does the concretization in technical understanding refer to?
+
+938
+00:36:17,930 --> 00:36:22,000
+So I believe technical understanding can roughly be divided into four stages
+
+939
+00:36:22,000 --> 00:36:23,520
+that is, our understanding of technology
+
+940
+00:36:23,520 --> 00:36:25,340
+We can also use this method to evaluate
+
+941
+00:36:25,340 --> 00:36:27,490
+Which level are we at?
+
+942
+00:36:27,490 --> 00:36:30,480
+The first level of technical comprehension is called single-point understanding
+
+943
+00:36:30,480 --> 00:36:31,560
+What is single-point understanding
+
+944
+00:36:31,560 --> 00:36:34,040
+Let me explain a technical concept to you today
+
+945
+00:36:34,040 --> 00:36:35,680
+For example, large models, their their core
+
+946
+00:36:35,680 --> 00:36:37,380
+Its core model is called Transformer
+
+947
+00:36:37,380 --> 00:36:39,410
+How does it work
+
+948
+00:36:39,410 --> 00:36:42,010
+You understand, OK? This is the first layer.
+
+949
+00:36:42,010 --> 00:36:43,890
+called single-point comprehension
+
+950
+00:36:43,890 --> 00:36:46,250
+The second is called conceptual abstraction
+
+951
+00:36:46,250 --> 00:36:47,310
+Right? What is conceptual abstraction
+
+952
+00:36:47,310 --> 00:36:50,150
+So today I listened to this model
+
+953
+00:36:50,150 --> 00:36:52,100
+listened to that model again tomorrow
+
+954
+00:36:52,100 --> 00:36:54,060
+Then I feel that these two models
+
+955
+00:36:54,060 --> 00:36:57,980
+They only differ superficially and in parameters, right?
+
+956
+00:36:57,980 --> 00:36:59,350
+or these two implementation approaches
+
+957
+00:36:59,350 --> 00:37:02,000
+However, the overarching concept they abstract is
+
+958
+00:37:02,000 --> 00:37:04,900
+are all about gradually simplifying a problem
+
+959
+00:37:04,900 --> 00:37:08,260
+to make it easier for the next model to handle.
+
+960
+00:37:08,260 --> 00:37:09,360
+You can understand at this level
+
+961
+00:37:09,360 --> 00:37:10,040
+What does that mean
+
+962
+00:37:10,040 --> 00:37:11,600
+you have some concepts
+
+963
+00:37:11,600 --> 00:37:14,390
+You have abstracted some individual concepts
+
+964
+00:37:14,390 --> 00:37:16,970
+This is the second level of technical comprehension.
+
+965
+00:37:16,970 --> 00:37:18,350
+What is the third level
+
+966
+00:37:18,350 --> 00:37:21,330
+The third level is about you being able to establish a knowledge system
+
+967
+00:37:21,330 --> 00:37:22,160
+What is a knowledge system?
+
+968
+00:37:22,160 --> 00:37:25,160
+That is to say, OK, I not only understand individual points of the problem
+
+969
+00:37:25,160 --> 00:37:27,090
+I also know them, and can abstract them to a higher level
+
+970
+00:37:27,090 --> 00:37:28,610
+So what does the knowledge system emphasize?
+
+971
+00:37:28,610 --> 00:37:31,450
+It emphasizes that in your mind, a directory may gradually emerge, ah,
+
+972
+00:37:31,450 --> 00:37:34,370
+This directory represents this direction, right
+
+973
+00:37:34,370 --> 00:37:36,270
+How does its evolution process unfold
+
+974
+00:37:36,270 --> 00:37:37,960
+What are its branches
+
+975
+00:37:37,960 --> 00:37:39,400
+or this scenario
+
+976
+00:37:39,400 --> 00:37:43,140
+What solutions do I have to solve its problem?
+
+977
+00:37:43,140 --> 00:37:45,900
+Then, a directory like this will gradually form in your mind.
+
+978
+00:37:45,900 --> 00:37:46,620
+Then this directory
+
+979
+00:37:46,620 --> 00:37:49,540
+It gradually forms a technical knowledge system.
+
+980
+00:37:49,540 --> 00:37:51,500
+This is the third-level requirement
+
+981
+00:37:51,500 --> 00:37:54,760
+So we say the highest level of technical comprehension is
+
+982
+00:37:54,760 --> 00:37:57,440
+What is metaphorical communication
+
+983
+00:37:57,440 --> 00:38:00,320
+As we often say, it's called making the difficult look easy.
+
+984
+00:38:00,320 --> 00:38:02,220
+right, or in other words, to simplify the complex
+
+985
+00:38:02,220 --> 00:38:04,040
+Because as an AI product manager
+
+986
+00:38:04,040 --> 00:38:07,340
+Many times, we grasp the essence of the technology
+
+987
+00:38:07,340 --> 00:38:09,440
+is actually about communicating technology
+
+988
+00:38:09,440 --> 00:38:12,060
+So if your level can reach the point where you can say OK
+
+989
+00:38:12,060 --> 00:38:12,490
+Ok
+
+990
+00:38:12,490 --> 00:38:15,550
+I can explain a complex technical concept
+
+991
+00:38:15,550 --> 00:38:17,170
+to a non-technical person
+
+992
+00:38:17,170 --> 00:38:19,740
+can also explain it clearly and understandably
+
+993
+00:38:19,740 --> 00:38:22,340
+So in fact, this level of technical comprehension
+
+994
+00:38:22,340 --> 00:38:24,420
+is equivalent to reaching the highest level
+
+995
+00:38:24,420 --> 00:38:28,869
+This is also a level that PMs, many AI PMs, should strive to achieve.
+
+996
+00:38:28,869 --> 00:38:31,489
+Because in many cases, what we're actually doing for users
+
+997
+00:38:31,489 --> 00:38:33,109
+whether you are in the C-end or B-end
+
+998
+00:38:33,109 --> 00:38:35,890
+What you do for the users is precisely this matter
+
+999
+00:38:35,890 --> 00:38:38,010
+to translate a complex technical concept
+
+1000
+00:38:38,010 --> 00:38:40,570
+help users understand through certain methods
+
+1001
+00:38:40,570 --> 00:38:42,450
+especially now
+
+1002
+00:38:42,450 --> 00:38:43,150
+especially in the B2B sector
+
+1003
+00:38:43,150 --> 00:38:45,000
+Many scenarios are like this.
+
+1004
+00:38:45,000 --> 00:38:46,420
+So if you can achieve, hey
+
+1005
+00:38:46,420 --> 00:38:48,240
+I can also give some vivid analogies
+
+1006
+00:38:48,240 --> 00:38:51,180
+For example, we take the training of large models
+
+1007
+00:38:53,700 --> 00:38:56,260
+If you can come up with metaphorical approaches
+
+1008
+00:38:56,260 --> 00:38:58,760
+make it easier for non-technical people to understand
+
+1009
+00:38:58,760 --> 00:39:01,040
+then your technical comprehension and communication skills
+
+1010
+00:39:01,040 --> 00:39:03,620
+in fact, it's akin to reaching a state of true mastery
+
+1011
+00:39:03,620 --> 00:39:06,669
+So we say everyone can refer to these four levels, right
+
+1012
+00:39:06,669 --> 00:39:09,289
+to continuously enhance our technical comprehension
+
+1013
+00:39:09,289 --> 00:39:11,480
+its state
+
+1014
+00:39:11,480 --> 00:39:13,180
+Okay, so this is the second line
+
+1015
+00:39:13,180 --> 00:39:15,819
+That is the understanding and application of AI technology.
+
+1016
+00:39:15,819 --> 00:39:18,099
+Let's take another look at the market's expectations for AIPM
+
+1017
+00:39:18,099 --> 00:39:20,319
+There is also a third demand line in its core competencies
+
+1018
+00:39:20,319 --> 00:39:23,399
+That's what we call the accumulation and insight of business scenarios.
+
+1019
+00:39:23,399 --> 00:39:25,399
+So what exactly are business scenarios? Identifying the entry points for AI in business scenarios is crucial.
+
+1020
+00:39:25,399 --> 00:39:26,439
+In other words
+
+1021
+00:39:26,439 --> 00:39:27,039
+business scenarios
+
+1022
+00:39:27,039 --> 00:39:32,270
+In fact, it's about identifying where we can integrate AI into these areas
+
+1023
+00:39:32,270 --> 00:39:35,530
+or in which scenarios to leverage the value of AI
+
+1024
+00:39:35,530 --> 00:39:37,300
+So what is a business scenario
+
+1025
+00:39:37,300 --> 00:39:39,500
+In fact, when we look at how the country defines it
+
+1026
+00:39:39,500 --> 00:39:41,780
+This is when the nation is promoting its AI strategy
+
+1027
+00:39:41,780 --> 00:39:44,440
+We often hear about things like AI plus finance, right?
+
+1028
+00:39:44,440 --> 00:39:46,260
+AI plus healthcare, etc.
+
+1029
+00:39:46,260 --> 00:39:49,280
+the concept behind this 'AI plus'
+
+1030
+00:39:49,280 --> 00:39:51,620
+This is what we commonly refer to as the business scenario.
+
+1031
+00:39:51,620 --> 00:39:52,600
+For example,
+
+1032
+00:39:52,600 --> 00:39:55,560
+Let's take AI in healthcare as an example, right
+
+1033
+00:39:55,560 --> 00:39:57,200
+What is the concrete business scenario?
+
+1034
+00:39:57,200 --> 00:39:59,520
+That is, a patient, if they go to the hospital for medical treatment
+
+1035
+00:39:59,520 --> 00:40:01,910
+What exactly does this process look like
+
+1036
+00:40:01,910 --> 00:40:04,750
+For example, if someone falls ill, right
+
+1037
+00:40:04,750 --> 00:40:07,050
+What he needs to do might be to first register
+
+1038
+00:40:07,050 --> 00:40:09,180
+After registration, go to the hospital for triage
+
+1039
+00:40:09,180 --> 00:40:10,280
+After triage
+
+1040
+00:40:10,280 --> 00:40:11,500
+to find the corresponding doctor
+
+1041
+00:40:11,500 --> 00:40:14,949
+Then go to different departments for examinations
+
+1042
+00:40:14,949 --> 00:40:17,689
+Finally, all the examination results are compiled and handed over to the doctor.
+
+1043
+00:40:17,689 --> 00:40:19,989
+The doctor makes a judgment based on the examination results
+
+1044
+00:40:19,989 --> 00:40:23,029
+issue the prescription for diagnosis
+
+1045
+00:40:23,029 --> 00:40:24,849
+and then develop a treatment plan, right
+
+1046
+00:40:24,849 --> 00:40:27,120
+whether it's injections or medications
+
+1047
+00:40:27,120 --> 00:40:28,080
+this process
+
+1048
+00:40:28,080 --> 00:40:32,760
+In fact, it describes a specific business scenario within the healthcare domain.
+
+1049
+00:40:32,760 --> 00:40:35,780
+So, if you want to work in the healthcare direction
+
+1050
+00:40:35,780 --> 00:40:37,040
+become an AI product manager
+
+1051
+00:40:37,040 --> 00:40:38,550
+medical AI product manager
+
+1052
+00:40:38,550 --> 00:40:40,730
+If you don't understand this direction
+
+1053
+00:40:40,730 --> 00:40:41,730
+then it's very difficult for you
+
+1054
+00:40:41,730 --> 00:40:44,060
+You don't understand these business processes or scenarios mentioned earlier
+
+1055
+00:40:44,060 --> 00:40:46,460
+then it's very difficult for you to come up with something like OK
+
+1056
+00:40:46,460 --> 00:40:50,150
+I want to reduce the cost for doctors during consultations
+
+1057
+00:40:50,150 --> 00:40:53,290
+or I want to enhance the communication experience for patients during consultations
+
+1058
+00:40:53,290 --> 00:40:54,800
+patient experience
+
+1059
+00:40:54,800 --> 00:40:57,020
+Even if you have a strong understanding of technology
+
+1060
+00:40:57,020 --> 00:40:59,200
+You lack some business insights
+
+1061
+00:40:59,200 --> 00:41:01,190
+you will also find it very difficult to achieve this
+
+1062
+00:41:01,190 --> 00:41:04,550
+So what does the business scenario primarily provide us with?
+
+1063
+00:41:04,550 --> 00:41:08,270
+it's about identifying the right scenarios for AI to step in
+
+1064
+00:41:08,270 --> 00:41:10,110
+what value to provide to users
+
+1065
+00:41:10,110 --> 00:41:11,300
+solve what kind of problems
+
+1066
+00:41:11,300 --> 00:41:14,020
+So how do we accumulate these business scenarios, or in other words,
+
+1067
+00:41:14,020 --> 00:41:16,660
+How do we gain insights into these business scenarios?
+
+1068
+00:41:16,660 --> 00:41:19,360
+Essentially, there are these few perspectives, right?
+
+1069
+00:41:19,360 --> 00:41:21,880
+Let's take the previous example again
+
+1070
+00:41:21,880 --> 00:41:24,860
+For example, if we want to examine the medical field
+
+1071
+00:41:24,860 --> 00:41:25,840
+the business scenario
+
+1072
+00:41:25,840 --> 00:41:27,060
+I need to gain insights into it
+
+1073
+00:41:27,060 --> 00:41:30,760
+First of all, it's actually a process of moving from the macro to the micro perspective.
+
+1074
+00:41:30,760 --> 00:41:32,840
+First, what is the market trend, right?
+
+1075
+00:41:32,840 --> 00:41:34,500
+the entire large healthcare industry
+
+1076
+00:41:34,500 --> 00:41:36,040
+What is its perception of AI?
+
+1077
+00:41:36,040 --> 00:41:38,600
+What is the level of awareness of AI in this context?
+
+1078
+00:41:38,600 --> 00:41:40,560
+Then the second step, what is the business process
+
+1079
+00:41:40,560 --> 00:41:41,280
+as I just mentioned
+
+1080
+00:41:41,280 --> 00:41:43,200
+Then the patient starts from registration
+
+1081
+00:41:43,200 --> 00:41:45,960
+until he finally receives the diagnosis and treatment
+
+1082
+00:41:45,960 --> 00:41:47,440
+the process during this period
+
+1083
+00:41:47,440 --> 00:41:49,150
+We need to first sort it out
+
+1084
+00:41:49,150 --> 00:41:51,530
+Then the third step is, what are the pain points?
+
+1085
+00:41:51,530 --> 00:41:53,190
+Right, that is to say, what are the patients experiencing during this process
+
+1086
+00:41:53,190 --> 00:41:54,270
+what are the pain points
+
+1087
+00:41:54,270 --> 00:41:57,160
+For example, the patient may need to visit multiple departments.
+
+1088
+00:41:57,160 --> 00:41:58,740
+The patient may have to carry a bunch of
+
+1089
+00:41:58,740 --> 00:42:01,639
+the test results he can't understand
+
+1090
+00:42:01,639 --> 00:42:03,599
+Right, or the patient may also lack some
+
+1091
+00:42:03,599 --> 00:42:05,619
+in the process of seeking medical treatment
+
+1092
+00:42:05,619 --> 00:42:08,520
+he may have to run around
+
+1093
+00:42:08,520 --> 00:42:11,220
+Or they may not understand why these tests are necessary.
+
+1094
+00:42:11,220 --> 00:42:14,510
+These processes are essentially the pain points along the patient's journey.
+
+1095
+00:42:14,510 --> 00:42:15,830
+As for the pain points of doctors
+
+1096
+00:42:15,830 --> 00:42:18,510
+Perhaps it means that doctors have to face a large number of patients every day.
+
+1097
+00:42:18,510 --> 00:42:21,120
+there are a large number of documentation work records, right
+
+1098
+00:42:21,120 --> 00:42:23,520
+These are equivalent to some medical diagnostic records.
+
+1099
+00:42:23,520 --> 00:42:25,800
+This is a large amount of paperwork.
+
+1100
+00:42:25,800 --> 00:42:28,000
+It is possible that he has to spend a lot of time
+
+1101
+00:42:28,000 --> 00:42:31,260
+explaining to patients, which is largely about alleviating their concerns
+
+1102
+00:42:31,260 --> 00:42:33,420
+or explaining the workflow
+
+1103
+00:42:33,420 --> 00:42:35,500
+He may spend a lot of time and so on.
+
+1104
+00:42:35,500 --> 00:42:39,480
+These are all the pain points that exist in this business.
+
+1105
+00:42:39,480 --> 00:42:42,040
+Of course, it's not that this business
+
+1106
+00:42:42,040 --> 00:42:47,350
+This business is not to say that all the pain points of the business itself
+
+1107
+00:42:47,350 --> 00:42:48,870
+all can be resolved by AI
+
+1108
+00:42:48,870 --> 00:42:52,510
+Therefore, we should next examine in conjunction with AI's own capabilities
+
+1109
+00:42:52,510 --> 00:42:55,510
+what AI can do in this process
+
+1110
+00:42:55,510 --> 00:42:58,510
+and how AI could potentially intervene in this process
+
+1111
+00:42:58,510 --> 00:43:00,110
+Is it perceptible to users
+
+1112
+00:43:00,110 --> 00:43:02,430
+users' perception of the logic behind AI intervention
+
+1113
+00:43:02,430 --> 00:43:04,690
+or what is their level of acceptance
+
+1114
+00:43:04,690 --> 00:43:08,170
+For example, if we let AI completely replace the doctor
+
+1115
+00:43:08,170 --> 00:43:09,630
+to diagnose users
+
+1116
+00:43:09,630 --> 00:43:11,510
+That might be the case for many patients
+
+1117
+00:43:11,510 --> 00:43:13,490
+his psychological acceptance level is relatively low
+
+1118
+00:43:13,490 --> 00:43:16,720
+it's not quite acceptable, right
+
+1119
+00:43:16,720 --> 00:43:19,480
+then we may need to shift to an auxiliary diagnostic logic
+
+1120
+00:43:19,480 --> 00:43:20,020
+Ah, wait
+
+1121
+00:43:20,020 --> 00:43:22,560
+These are actually all within the business scenarios we encounter
+
+1122
+00:43:22,560 --> 00:43:25,120
+the things it needs to accumulate and gain insights into
+
+1123
+00:43:25,120 --> 00:43:27,380
+Okay, let's recap.
+
+1124
+00:43:27,380 --> 00:43:29,720
+Right, as we just mentioned about AI product managers
+
+1125
+00:43:29,720 --> 00:43:31,980
+there are three major core competency models
+
+1126
+00:43:31,980 --> 00:43:33,900
+the job skills of a product manager
+
+1127
+00:43:33,900 --> 00:43:37,300
+the understanding and application of AI technology, as well as the accumulation and insight of business scenarios
+
+1128
+00:43:37,300 --> 00:43:40,360
+So understanding these core competency models
+
+1129
+00:43:40,360 --> 00:43:43,120
+What exactly is the role of this for us?
+
+1130
+00:43:43,120 --> 00:43:45,930
+First and foremost, it can greatly enhance our understanding
+
+1131
+00:43:45,930 --> 00:43:47,610
+help us understand that
+
+1132
+00:43:47,610 --> 00:43:50,610
+What are the positioning and expectations of AI for talents?
+
+1133
+00:43:50,610 --> 00:43:51,490
+What does this mean
+
+1134
+00:43:51,490 --> 00:43:54,010
+For example, let's look at these three lines we just mentioned, right?
+
+1135
+00:43:54,010 --> 00:43:57,610
+We actually find that in the current market, its positioning for AI,
+
+1136
+00:43:57,610 --> 00:44:00,930
+Its positioning for AIPM is actually a highly interdisciplinary
+
+1137
+00:44:00,930 --> 00:44:02,569
+a highly comprehensive positioning
+
+1138
+00:44:02,569 --> 00:44:04,629
+That is to say, you need to understand both product
+
+1139
+00:44:04,629 --> 00:44:05,989
+understand technology
+
+1140
+00:44:05,989 --> 00:44:07,410
+and understand the business
+
+1141
+00:44:07,410 --> 00:44:11,290
+then in reality the market may have very few people who can simultaneously excel in all three areas
+
+1142
+00:44:11,290 --> 00:44:13,890
+very few people meet these three criteria
+
+1143
+00:44:13,890 --> 00:44:15,270
+In other words
+
+1144
+00:44:15,270 --> 00:44:16,410
+if any
+
+1145
+00:44:16,410 --> 00:44:18,500
+then it is also very expensive
+
+1146
+00:44:18,500 --> 00:44:21,360
+So perhaps the entire market has certain expectations for AI Product Managers
+
+1147
+00:44:21,360 --> 00:44:22,260
+its core requirements
+
+1148
+00:44:22,260 --> 00:44:23,280
+First, we can understand that it is
+
+1149
+00:44:23,280 --> 00:44:25,880
+It is highly interdisciplinary
+
+1150
+00:44:25,880 --> 00:44:26,920
+the requirements are highly comprehensive
+
+1151
+00:44:26,920 --> 00:44:29,600
+At the same time, because such versatile talent
+
+1152
+00:44:29,600 --> 00:44:32,050
+they actually exist, but in relatively small numbers
+
+1153
+00:44:32,050 --> 00:44:34,650
+So many companies can actually accept that
+
+1154
+00:44:34,650 --> 00:44:38,130
+OK you're not strong in all three areas right
+
+1155
+00:44:38,130 --> 00:44:39,850
+you have one or two lines
+
+1156
+00:44:39,850 --> 00:44:42,690
+that you have some lines where you may not be as experienced
+
+1157
+00:44:42,690 --> 00:44:43,920
+that's OK
+
+1158
+00:44:43,920 --> 00:44:46,120
+because we are currently in a phase of market transformation
+
+1159
+00:44:46,120 --> 00:44:47,880
+and this stage of demand explosion
+
+1160
+00:44:47,880 --> 00:44:49,800
+that is to say, you may not be fully equipped
+
+1161
+00:44:49,800 --> 00:44:51,450
+you can also take on this task
+
+1162
+00:44:51,450 --> 00:44:53,050
+So this provides a reference for our career transition
+
+1163
+00:44:53,050 --> 00:44:55,090
+provides a reference for job hunting and career transition
+
+1164
+00:44:55,090 --> 00:44:56,050
+In other words
+
+1165
+00:44:56,050 --> 00:44:58,930
+everyone who wants to pursue a career as an AI product manager
+
+1166
+00:44:58,930 --> 00:45:00,040
+such a candidate
+
+1167
+00:45:00,040 --> 00:45:02,620
+they can evaluate themselves based on these three dimensions
+
+1168
+00:45:02,620 --> 00:45:04,800
+What kind of persona do I have in the overall market
+
+1169
+00:45:04,800 --> 00:45:07,840
+What kind of professional persona do I have in the job market?
+
+1170
+00:45:07,840 --> 00:45:11,560
+Am I a product manager with a basic understanding of technology
+
+1171
+00:45:11,920 --> 00:45:15,180
+or a technical expert with some business knowledge
+
+1172
+00:45:15,180 --> 00:45:18,580
+or a business expert with some product knowledge
+
+1173
+00:45:18,580 --> 00:45:21,480
+Right, we can assess ourselves based on our distribution and accumulation along these three dimensions.
+
+1174
+00:45:21,480 --> 00:45:23,390
+this distribution
+
+1175
+00:45:23,390 --> 00:45:25,810
+is the accumulation and distribution situation, to
+
+1176
+00:45:25,810 --> 00:45:27,950
+have a reasonable assessment of oneself
+
+1177
+00:45:27,950 --> 00:45:31,030
+that is, how exactly should I go about transitioning
+
+1178
+00:45:31,030 --> 00:45:32,569
+becoming an AI product manager
+
+1179
+00:45:32,569 --> 00:45:35,429
+At the same time, if you are already an AI product manager, or, right,
+
+1180
+00:45:35,429 --> 00:45:38,449
+But these three lines will also help you develop a better long-term
+
+1181
+00:45:38,449 --> 00:45:40,569
+self-improvement path
+
+1182
+00:45:40,569 --> 00:45:42,689
+These three lines will continue to play a role in the subsequent process
+
+1183
+00:45:42,689 --> 00:45:46,269
+continuously play a role in our careers
+
+1184
+00:45:46,269 --> 00:45:48,600
+play a long-term promoting role
+
+1185
+00:45:48,600 --> 00:45:50,920
+so understanding this core competency model
+
+1186
+00:45:50,920 --> 00:45:53,660
+It actually serves both our job-seeking and career growth
+
+1187
+00:45:53,660 --> 00:45:56,670
+This is a very crucial matter.
+
+1188
+00:45:56,670 --> 00:46:00,670
+Finally, let's briefly take a look at what makes a good AI product manager
+
+1189
+00:46:00,670 --> 00:46:01,760
+What is his growth path
+
+1190
+00:46:01,760 --> 00:46:05,040
+Initially, it's about the introduction to thinking skills and tools, right
+
+1191
+00:46:05,040 --> 00:46:07,660
+and possess the basic execution skills of a product manager
+
+1192
+00:46:07,660 --> 00:46:09,740
+Then in the process of evolution
+
+1193
+00:46:09,740 --> 00:46:11,940
+For example, possibly in the early stages, right
+
+1194
+00:46:11,940 --> 00:46:12,580
+1 to 2 years
+
+1195
+00:46:12,580 --> 00:46:15,360
+We continuously strengthen our product thinking and technical awareness.
+
+1196
+00:46:15,360 --> 00:46:17,160
+as well as from 0 to 1
+
+1197
+00:46:17,160 --> 00:46:17,960
+from 1 to n, right
+
+1198
+00:46:17,960 --> 00:46:20,760
+whether for new products or the iteration of mature product modules
+
+1199
+00:46:20,760 --> 00:46:22,690
+have mastered a wealth of these experiences
+
+1200
+00:46:22,690 --> 00:46:26,109
+Finally, in the continuous practice of product development
+
+1201
+00:46:26,109 --> 00:46:28,749
+to accumulate our business perspectives
+
+1202
+00:46:28,749 --> 00:46:31,720
+and then integrate our core competencies in various aspects
+
+1203
+00:46:31,720 --> 00:46:33,540
+achieve long-term improvement
+
+1204
+00:46:33,540 --> 00:46:36,590
+Alright, that's all the content we have for today.
+
+1205
+00:46:36,590 --> 00:46:38,790
+The Core Competency Model of AI Product Managers
+
+1206
+00:46:38,790 --> 00:46:39,960
+Okay, thank you everyone
+

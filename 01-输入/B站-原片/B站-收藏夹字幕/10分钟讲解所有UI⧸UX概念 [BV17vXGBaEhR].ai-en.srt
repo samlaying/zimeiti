@@ -1,0 +1,1036 @@
+1
+00:00:00,080 --> 00:00:02,160
+If you want to master UX design,
+
+2
+00:00:02,160 --> 00:00:03,860
+you have to start with the fundamentals.
+
+3
+00:00:03,860 --> 00:00:06,680
+So, let's start from the very beginning.
+
+4
+00:00:08,100 --> 00:00:11,400
+This is easiest to explain with an example.
+
+5
+00:00:11,400 --> 00:00:13,260
+Let's say I have three groups of text and icons.
+
+6
+00:00:13,260 --> 00:00:15,860
+But what if I add a container around both the drinks and the food?
+
+7
+00:00:15,860 --> 00:00:17,440
+you'll know they're related.
+
+8
+00:00:17,440 --> 00:00:18,620
+while dessert is not.
+
+9
+00:00:18,620 --> 00:00:21,710
+Now, what if I only add a container around the drinks?
+
+10
+00:00:21,710 --> 00:00:23,210
+you'll know it's been selected.
+
+11
+00:00:23,210 --> 00:00:24,470
+Or you can switch to the actual product.
+
+12
+00:00:24,470 --> 00:00:26,610
+If I were to change this text to gray,
+
+13
+00:00:26,610 --> 00:00:28,810
+you'll know it's disabled.
+
+14
+00:00:28,810 --> 00:00:31,230
+Clicking on it probably won't do anything.
+
+15
+00:00:31,230 --> 00:00:34,350
+See? How you understood all of that in an instant.
+
+16
+00:00:34,350 --> 00:00:36,490
+I don't even need to write any instructions.
+
+17
+00:00:36,490 --> 00:00:39,360
+That's because the UI itself is already communicating all of that.
+
+18
+00:00:39,360 --> 00:00:41,580
+A great UI is full of these kinds of cues.
+
+19
+00:00:41,580 --> 00:00:43,480
+For example, the state of a button when it's pressed,
+
+20
+00:00:43,480 --> 00:00:46,300
+or the highlight and hover states for active items in the navigation bar.
+
+21
+00:00:46,300 --> 00:00:50,120
+There are even tooltips to show users what the UI can do.
+
+22
+00:00:50,120 --> 00:00:51,940
+or what it does.
+
+23
+00:00:54,120 --> 00:00:56,120
+Now, let's take a look at this card.
+
+24
+00:00:56,120 --> 00:00:57,560
+It's laid out in a clear, logical way,
+
+25
+00:00:57,560 --> 00:01:00,400
+A repeatable format displays all the information.
+
+26
+00:01:00,400 --> 00:01:02,680
+But it looks more like a spreadsheet.
+
+27
+00:01:02,680 --> 00:01:04,180
+and not a piece of design.
+
+28
+00:01:04,180 --> 00:01:06,920
+So, let's give it some hierarchy.
+
+29
+00:01:06,920 --> 00:01:08,360
+This is actually pretty intuitive.
+
+30
+00:01:08,360 --> 00:01:11,660
+We can use size, position, and color to our advantage.
+
+31
+00:01:11,660 --> 00:01:12,920
+Let's start from the top.
+
+32
+00:01:12,920 --> 00:01:15,500
+An image always brings with it vivid colors.
+
+33
+00:01:15,500 --> 00:01:17,460
+and makes browsing a breeze.
+
+34
+00:01:17,460 --> 00:01:18,620
+Just like how UBER does it.
+
+35
+00:01:18,620 --> 00:01:20,020
+So, in a situation like this,
+
+36
+00:01:20,020 --> 00:01:21,260
+The items themselves are the most important thing.
+
+37
+00:01:21,260 --> 00:01:23,020
+we need to make it big and eye-catching.
+
+38
+00:01:23,020 --> 00:01:24,520
+And it should be placed at the top.
+
+39
+00:01:24,520 --> 00:01:28,479
+Otherwise, it'll just get jumbled up with information like the time and date.
+
+40
+00:01:28,479 --> 00:01:30,539
+And this other information can be placed down below.
+
+41
+00:01:30,539 --> 00:01:32,119
+And the font size should be much smaller.
+
+42
+00:01:32,119 --> 00:01:33,039
+And it's this contrast,
+
+43
+00:01:33,039 --> 00:01:34,260
+For instance, differences in size,
+
+44
+00:01:34,260 --> 00:01:36,200
+or the difference between elements with color and those without.
+
+45
+00:01:36,200 --> 00:01:37,620
+This is what actually creates a sense of hierarchy.
+
+46
+00:01:37,620 --> 00:01:40,040
+And that's why the price should be placed at the top.
+
+47
+00:01:40,040 --> 00:01:41,020
+and right-aligned.
+
+48
+00:01:41,020 --> 00:01:43,980
+And we'll make it blue to show that it's different from the other content.
+
+49
+00:01:43,980 --> 00:01:45,660
+This way, it will catch people's attention.
+
+50
+00:01:45,660 --> 00:01:47,040
+The location information should be smaller.
+
+51
+00:01:47,040 --> 00:01:48,240
+and place it at the bottom.
+
+52
+00:01:48,240 --> 00:01:48,960
+Just like this.
+
+53
+00:01:48,960 --> 00:01:50,840
+But we don't have to limit ourselves to just the start and end points.
+
+54
+00:01:50,840 --> 00:01:53,440
+The text can be represented by an icon and a line.
+
+55
+00:01:53,440 --> 00:01:56,280
+This way, you can show the movement from Jamesville to Syracuse.
+
+56
+00:01:56,280 --> 00:01:57,880
+without having to state it directly.
+
+57
+00:01:57,880 --> 00:02:00,620
+Of course, it's not an exact science.
+
+58
+00:02:00,620 --> 00:02:03,700
+You can absolutely design different styles just like these.
+
+59
+00:02:03,700 --> 00:02:04,660
+And there's nothing wrong with that.
+
+60
+00:02:04,660 --> 00:02:06,760
+But the same principles still apply.
+
+61
+00:02:06,760 --> 00:02:08,780
+Put the most important information at the top.
+
+62
+00:02:08,780 --> 00:02:10,900
+The larger and more vibrant the content, the more important it is.
+
+63
+00:02:10,900 --> 00:02:12,740
+And whenever possible, use images.
+
+64
+00:02:12,740 --> 00:02:14,400
+As you design more and more,
+
+65
+00:02:14,400 --> 00:02:17,200
+You'll find that when you need labels or buttons,
+
+66
+00:02:17,200 --> 00:02:19,040
+similar design patterns will emerge.
+
+67
+00:02:19,040 --> 00:02:21,700
+We'll get into that in a moment.
+
+68
+00:02:23,920 --> 00:02:28,540
+Now, some people get the wrong idea and think that everything has to be aligned to a 12-column grid.
+
+69
+00:02:28,540 --> 00:02:31,350
+and the spacing has to be exactly eight pixels.
+
+70
+00:02:33,550 --> 00:02:36,930
+Take this design, for example. It's not aligned to any of the columns.
+
+71
+00:02:36,930 --> 00:02:38,480
+And that's perfectly fine.
+
+72
+00:02:38,480 --> 00:02:40,540
+This is especially true for custom landing pages.
+
+73
+00:02:40,540 --> 00:02:42,860
+But for pages with a highly consistent structure,
+
+74
+00:02:42,860 --> 00:02:46,249
+like galleries, blogs, or any page with repeating content.
+
+75
+00:02:46,249 --> 00:02:50,980
+In fact, grids can be incredibly useful by providing a framework for responsive behavior.
+
+76
+00:02:50,980 --> 00:02:52,620
+use an eight-column grid on tablets,
+
+77
+00:02:52,620 --> 00:02:54,590
+and four columns for mobile.
+
+78
+00:02:54,590 --> 00:02:58,570
+But even more important than overusing grids and layouts is whitespace.
+
+79
+00:02:58,570 --> 00:03:00,450
+Give your elements room to breathe.
+
+80
+00:03:00,450 --> 00:03:03,340
+For instance, in a simple block like this one,
+
+81
+00:03:03,340 --> 00:03:06,490
+The font size and line height for the main heading will look something like this.
+
+82
+00:03:06,490 --> 00:03:09,330
+while the subheading has its own font size and line height.
+
+83
+00:03:09,330 --> 00:03:11,420
+And it's the same for buttons.
+
+84
+00:03:11,420 --> 00:03:14,600
+You can also choose to add a top announcement bar like this one.
+
+85
+00:03:14,600 --> 00:03:18,710
+Then, just make sure to leave a 32-pixel gap between each element.
+
+86
+00:03:18,710 --> 00:03:22,310
+But you can also group together elements that naturally belong together.
+
+87
+00:03:22,310 --> 00:03:25,270
+For instance, an announcement and its text, or body text and its subtext.
+
+88
+00:03:25,270 --> 00:03:27,820
+And this is actually another way to establish a visual hierarchy.
+
+89
+00:03:27,820 --> 00:03:31,500
+And this is where we see the four-point grid system really come into play.
+
+90
+00:03:31,500 --> 00:03:33,520
+All the spacing is a multiple of something.
+
+91
+00:03:33,520 --> 00:03:35,840
+And it's not just because it looks better.
+
+92
+00:03:35,840 --> 00:03:38,280
+but because it allows you to always split the spacing in half.
+
+93
+00:03:38,280 --> 00:03:41,640
+This helps keep the entire design consistent.
+
+94
+00:03:43,740 --> 00:03:45,270
+Typography is actually a lot of fun.
+
+95
+00:03:45,270 --> 00:03:47,090
+Because design is mostly text.
+
+96
+00:03:47,090 --> 00:03:48,550
+And when it comes to choosing a font,
+
+97
+00:03:48,550 --> 00:03:50,290
+And I can say this with almost absolute certainty:
+
+98
+00:03:50,290 --> 00:03:53,450
+you don't need more than one typeface for any design.
+
+99
+00:03:53,450 --> 00:03:56,090
+So, just find a good-looking sans-serif font,
+
+100
+00:03:56,090 --> 00:03:57,430
+Like the ones you see on screen right now.
+
+101
+00:03:57,430 --> 00:03:58,930
+And just stick with it.
+
+102
+00:03:58,930 --> 00:04:00,709
+In my seven years of working in design,
+
+103
+00:04:00,709 --> 00:04:02,389
+Besides the fonts you see on screen,
+
+104
+00:04:02,389 --> 00:04:04,009
+I've barely used any other typefaces.
+
+105
+00:04:04,009 --> 00:04:06,369
+And you shouldn't spend too much time on it either.
+
+106
+00:04:06,369 --> 00:04:10,040
+To be honest, I'm not a big fan of calling any design skill a 'trick'.
+
+107
+00:04:10,040 --> 00:04:12,510
+But this method does have a bit of that design feel to it.
+
+108
+00:04:12,510 --> 00:04:13,870
+It looks okay for now.
+
+109
+00:04:13,870 --> 00:04:16,850
+But our heading text feels a little too loose.
+
+110
+00:04:16,850 --> 00:04:18,649
+If you tighten up the letter spacing,
+
+111
+00:04:18,649 --> 00:04:21,110
+by about 2% to 3%.
+
+112
+00:04:21,110 --> 00:04:25,570
+and then reduce the line height to around 110% to 120%.
+
+113
+00:04:25,570 --> 00:04:28,610
+Any large text will instantly look very professional.
+
+114
+00:04:28,610 --> 00:04:32,070
+However, the hierarchy in typography is a bit more subtle.
+
+115
+00:04:32,070 --> 00:04:34,010
+If we look back at our previous example,
+
+116
+00:04:34,010 --> 00:04:36,350
+The font sizes for your text can vary quite a bit.
+
+117
+00:04:36,350 --> 00:04:38,270
+For landing pages and websites,
+
+118
+00:04:38,270 --> 00:04:41,070
+Generally, it's not recommended to use more than six different font sizes.
+
+119
+00:04:41,070 --> 00:04:43,290
+And the range between these six sizes can be quite wide.
+
+120
+00:04:43,290 --> 00:04:45,730
+But for interfaces like dashboards,
+
+121
+00:04:45,730 --> 00:04:47,670
+that range will be much smaller.
+
+122
+00:04:47,670 --> 00:04:51,090
+You usually won't find font sizes larger than 24 pixels.
+
+123
+00:04:51,090 --> 00:04:52,970
+This is because the information density is higher.
+
+124
+00:04:52,970 --> 00:04:54,090
+But to be honest,
+
+125
+00:04:54,090 --> 00:04:59,150
+One of the most important principles in design is to draw inspiration from good sources and conduct research.
+
+126
+00:04:59,150 --> 00:05:00,770
+Like today's sponsor, MOBAN.
+
+127
+00:05:00,770 --> 00:05:03,370
+They've handpicked hundreds of thousands of mobile and web apps,
+
+128
+00:05:03,370 --> 00:05:04,290
+and landing pages.
+
+129
+00:05:04,290 --> 00:05:09,060
+This way, you can draw inspiration from real-world designs crafted by the world's top design teams anytime you want.
+
+130
+00:05:09,060 --> 00:05:11,500
+If you're struggling with a specific section,
+
+131
+00:05:11,500 --> 00:05:12,700
+Just do a quick search,
+
+132
+00:05:12,700 --> 00:05:14,730
+and instantly find real-world examples.
+
+133
+00:05:14,730 --> 00:05:17,490
+They even come with links that take you to the actual websites.
+
+134
+00:05:17,490 --> 00:05:18,630
+If you're interested,
+
+135
+00:05:18,630 --> 00:05:21,190
+You can access MOBY through the first link down below.
+
+136
+00:05:21,190 --> 00:05:22,330
+and get a 20% discount.
+
+137
+00:05:22,330 --> 00:05:25,330
+Alright, let's get back to the video.
+
+138
+00:05:27,520 --> 00:05:29,020
+Color is tricky to get right.
+
+139
+00:05:29,020 --> 00:05:30,800
+Plus, everyone has their own preferences.
+
+140
+00:05:30,800 --> 00:05:33,280
+But personally, I love to start with one primary color.
+
+141
+00:05:33,280 --> 00:05:35,630
+And this is usually your brand color.
+
+142
+00:05:35,630 --> 00:05:36,790
+Then, you can brighten it up,
+
+143
+00:05:36,790 --> 00:05:39,710
+use it as a background color, or darken it for text.
+
+144
+00:05:39,710 --> 00:05:42,460
+Both of these methods allow you to subtly incorporate nuanced colors.
+
+145
+00:05:42,460 --> 00:05:44,860
+This makes a design that was once bland much more interesting.
+
+146
+00:05:44,860 --> 00:05:45,980
+Once you've done all that,
+
+147
+00:05:45,980 --> 00:05:48,580
+we've actually already built half of our color scale.
+
+148
+00:05:48,580 --> 00:05:52,500
+And this color hierarchy is precisely how large companies design the states of their color blocks,
+
+149
+00:05:52,500 --> 00:05:54,840
+charts, and the foundation for all sorts of other elements.
+
+150
+00:05:54,840 --> 00:05:55,780
+But I also think,
+
+151
+00:05:55,780 --> 00:05:56,820
+As a beginner,
+
+152
+00:05:56,820 --> 00:05:59,700
+It's also important to let colors find you.
+
+153
+00:05:59,700 --> 00:06:01,960
+For example, using a bulletin board to draw attention.
+
+154
+00:06:01,960 --> 00:06:04,180
+Or, by adding a focus state to an input field.
+
+155
+00:06:04,180 --> 00:06:06,720
+Or, you could add a green 'new' tag to a link.
+
+156
+00:06:06,720 --> 00:06:08,060
+These are all examples of semantic colors.
+
+157
+00:06:08,060 --> 00:06:09,720
+In other words, they have a specific meaning.
+
+158
+00:06:09,720 --> 00:06:11,600
+Colors that can provide guidance to the user.
+
+159
+00:06:11,600 --> 00:06:13,000
+Blue represents trust.
+
+160
+00:06:13,000 --> 00:06:15,220
+Red signifies danger or an emergency.
+
+161
+00:06:15,220 --> 00:06:16,720
+Yellow represents a warning.
+
+162
+00:06:16,720 --> 00:06:18,240
+And green represents success.
+
+163
+00:06:18,240 --> 00:06:21,320
+Always make sure you use color with a purpose.
+
+164
+00:06:21,320 --> 00:06:23,820
+and not just for decoration.
+
+165
+00:06:26,100 --> 00:06:28,940
+Now, let's talk about designing in dark mode.
+
+166
+00:06:28,940 --> 00:06:30,669
+and that brings some very interesting challenges.
+
+167
+00:06:30,669 --> 00:06:33,269
+First, this card uses a light-colored border.
+
+168
+00:06:33,269 --> 00:06:34,930
+This makes the contrast a bit too high.
+
+169
+00:06:34,930 --> 00:06:36,790
+So, we need to tone it down a bit.
+
+170
+00:06:36,790 --> 00:06:38,090
+In dark mode,
+
+171
+00:06:38,090 --> 00:06:40,710
+Unlike in light mode, we don't have that drop shadow effect.
+
+172
+00:06:40,710 --> 00:06:42,570
+So, to create a sense of hierarchy,
+
+173
+00:06:42,570 --> 00:06:45,130
+We need to make the card a bit brighter than the background.
+
+174
+00:06:45,130 --> 00:06:46,650
+So, I'll make some adjustments accordingly.
+
+175
+00:06:46,650 --> 00:06:48,460
+And this tag chip is way too bright.
+
+176
+00:06:48,460 --> 00:06:50,620
+So, we can just turn down the saturation and brightness.
+
+177
+00:06:50,620 --> 00:06:52,480
+And we can apply this same principle of contrast to the text.
+
+178
+00:06:52,480 --> 00:06:53,840
+This creates a sense of hierarchy.
+
+179
+00:06:53,840 --> 00:06:55,460
+Additionally, dark purple,
+
+180
+00:06:55,460 --> 00:06:58,320
+Reds and greens also offer a lot of flexibility.
+
+181
+00:06:58,320 --> 00:07:00,240
+and it's not just limited to navy blue.
+
+182
+00:07:00,240 --> 00:07:02,480
+blue or gray,
+
+183
+00:07:03,660 --> 00:07:06,000
+But when it comes to creating a sense of hierarchy,
+
+184
+00:07:06,000 --> 00:07:08,820
+Shadows are a fantastic tool in light mode.
+
+185
+00:07:08,820 --> 00:07:12,510
+This shadow, like most others, is just too intense.
+
+186
+00:07:12,510 --> 00:07:15,990
+So, lowering the opacity and increasing the blur can be a huge help.
+
+187
+00:07:15,990 --> 00:07:19,130
+The intensity of the shadow you need depends on the foreground and background.
+
+188
+00:07:19,130 --> 00:07:21,610
+But for card-like elements, you'll want a much softer shadow.
+
+189
+00:07:21,610 --> 00:07:25,030
+But for elements like pop-ups, which sit on top of other content,
+
+190
+00:07:25,030 --> 00:07:26,440
+will require a stronger shadow.
+
+191
+00:07:30,140 --> 00:07:33,340
+This creates effects like raised, tactile buttons.
+
+192
+00:07:33,340 --> 00:07:34,240
+Just remember,
+
+193
+00:07:34,240 --> 00:07:37,380
+If the shadow is the first thing you notice in a design,
+
+194
+00:07:37,380 --> 00:07:39,840
+that means you're doing it wrong.
+
+195
+00:07:41,740 --> 00:07:44,500
+So, to create a powerful design,
+
+196
+00:07:44,500 --> 00:07:45,940
+You're also going to need icons.
+
+197
+00:07:45,940 --> 00:07:47,960
+The problem is, most icons are usually way too big.
+
+198
+00:07:47,960 --> 00:07:50,760
+So, the trick is to get your font's line height.
+
+199
+00:07:50,760 --> 00:07:52,590
+So, for example, let's say this is 24 pixels.
+
+200
+00:07:52,590 --> 00:07:54,770
+Then, make the icon the same height as the line height.
+
+201
+00:07:54,770 --> 00:07:56,490
+Then, tighten up the spacing between the text.
+
+202
+00:07:56,490 --> 00:07:57,870
+Take these sidebar links, for instance.
+
+203
+00:07:57,870 --> 00:07:59,260
+Basically, it's a button with no background.
+
+204
+00:07:59,260 --> 00:08:01,080
+and the background only appears when you hover over it.
+
+205
+00:08:01,080 --> 00:08:03,160
+This type of button is often called a ghost button.
+
+206
+00:08:03,160 --> 00:08:05,340
+Now, if we take one of these and isolate it,
+
+207
+00:08:05,340 --> 00:08:06,520
+and center it.
+
+208
+00:08:06,520 --> 00:08:08,320
+And you get a perfect, standalone button.
+
+209
+00:08:08,320 --> 00:08:11,340
+Now, when you have a primary and a secondary call-to-action button appearing side-by-side,
+
+210
+00:08:11,340 --> 00:08:12,940
+This is a very common design pattern.
+
+211
+00:08:12,940 --> 00:08:14,660
+Now, about the padding for these buttons.
+
+212
+00:08:18,510 --> 00:08:21,790
+These buttons can also have icons or be icon-less.
+
+213
+00:08:23,190 --> 00:08:27,910
+A good design principle is that whenever a user performs any action,
+
+214
+00:08:27,910 --> 00:08:29,570
+the interface should provide corresponding feedback.
+
+215
+00:08:29,570 --> 00:08:32,650
+For example, every button should have at least four states.
+
+216
+00:08:32,650 --> 00:08:34,270
+Default, hover,
+
+217
+00:08:34,270 --> 00:08:37,208
+activated or pressed, and disabled.
+
+218
+00:08:37,208 --> 00:08:39,029
+Sometimes, you'll also need a loading state.
+
+219
+00:08:39,029 --> 00:08:41,889
+And when you pair that with a loading animation, the feedback for the input field becomes even more critical.
+
+220
+00:08:41,889 --> 00:08:45,350
+When a user clicks on an input field, it needs to have a focused state.
+
+221
+00:08:45,350 --> 00:08:48,630
+If an error occurs, it should be marked with a red border and an error message.
+
+222
+00:08:48,630 --> 00:08:51,650
+Sometimes, you also need to add a warning state for optional questions.
+
+223
+00:08:51,650 --> 00:08:53,370
+And this applies everywhere.
+
+224
+00:08:53,370 --> 00:08:56,579
+For instance, show a loading animation while data is being loaded.
+
+225
+00:08:56,579 --> 00:08:59,059
+or a success message once an action is completed.
+
+226
+00:08:59,059 --> 00:09:02,279
+You can even add subtle animations when scrolling or swiping.
+
+227
+00:09:02,279 --> 00:09:05,019
+Every interaction needs a feedback.
+
+228
+00:09:07,500 --> 00:09:10,220
+And this naturally brings us to the topic of micro-interactions.
+
+229
+00:09:10,220 --> 00:09:12,100
+Micro-interactions are a form of feedback.
+
+230
+00:09:12,100 --> 00:09:14,319
+But they can significantly enhance the experience.
+
+231
+00:09:14,319 --> 00:09:19,299
+
+
+232
+00:09:19,299 --> 00:09:22,359
+But we still don't know if it was actually copied successfully.
+
+233
+00:09:22,359 --> 00:09:25,820
+But what if, instead, we have this notification bar slide in?
+
+234
+00:09:25,820 --> 00:09:28,560
+This is a microinteraction that confirms our action.
+
+235
+00:09:28,560 --> 00:09:30,680
+These micro-interactions can be incredibly practical.
+
+236
+00:09:30,680 --> 00:09:33,600
+They can also be fun and playful.
+
+237
+00:09:36,340 --> 00:09:38,860
+Finally, overlays are incredibly important.
+
+238
+00:09:38,860 --> 00:09:40,260
+Because if you don't handle it properly,
+
+239
+00:09:40,260 --> 00:09:41,780
+Not only will the image be ruined,
+
+240
+00:09:41,780 --> 00:09:43,140
+but the text will suffer as well.
+
+241
+00:09:43,140 --> 00:09:44,280
+So, in a situation like this,
+
+242
+00:09:44,280 --> 00:09:45,780
+But we can't just leave it like this.
+
+243
+00:09:45,780 --> 00:09:46,160
+But either way,
+
+244
+00:09:46,160 --> 00:09:47,980
+We could add a full-screen overlay.
+
+245
+00:09:47,980 --> 00:09:50,480
+But that approach doesn't really do justice to the beauty of the image.
+
+246
+00:09:50,480 --> 00:09:53,790
+So, let's try a different approach and add a linear gradient instead.
+
+247
+00:09:53,790 --> 00:09:55,070
+This way, we can still showcase the image,
+
+248
+00:09:55,070 --> 00:09:58,130
+while also creating a smooth transition to a background that's easier to read text on.
+
+249
+00:09:58,130 --> 00:10:00,650
+Or, if we want to make it a bit more flashy,
+
+250
+00:10:00,650 --> 00:10:03,750
+You can also layer a progressive blur on top of the gradient.
+
+251
+00:10:03,750 --> 00:10:05,890
+to give the whole thing a more modern look.
+
+252
+00:10:05,890 --> 00:10:08,710
+And that pretty much covers all the fundamental UI/UX concepts.
+
+253
+00:10:08,710 --> 00:10:10,410
+And we've covered it all in just 10 minutes.
+
+254
+00:10:10,410 --> 00:10:11,890
+If you want to learn more about MOBBY,
+
+255
+00:10:11,890 --> 00:10:13,990
+You can click the first link down below.
+
+256
+00:10:13,990 --> 00:10:18,000
+You can also get the links to all the FIGMA resources used in this video.
+
+257
+00:10:18,000 --> 00:10:19,860
+Those links are down below as well.
+
+258
+00:10:19,860 --> 00:10:21,180
+Thank you so much for watching.
+
+259
+00:10:21,180 --> 00:10:22,560
+See you in the next one.
+

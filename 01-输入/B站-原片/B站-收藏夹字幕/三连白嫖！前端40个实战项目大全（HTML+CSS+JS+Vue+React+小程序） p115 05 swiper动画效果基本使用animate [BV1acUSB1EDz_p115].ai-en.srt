@@ -1,0 +1,1452 @@
+1
+00:00:00,000 --> 00:00:01,460
+The special effects animation ah
+
+2
+00:00:01,460 --> 00:00:02,840
+Where should we look first?
+
+3
+00:00:02,840 --> 00:00:03,640
+First, let's look at the Chinese
+
+4
+00:00:03,640 --> 00:00:06,760
+Inside it, there's something called the use of animate
+
+5
+00:00:06,760 --> 00:00:08,100
+Let's take a look
+
+6
+00:00:08,100 --> 00:00:11,860
+Well, swap acement is provided by the Swap Chinese website, ha
+
+7
+00:00:11,860 --> 00:00:14,200
+a small UGC Anime plugin for CSS3
+
+8
+00:00:14,200 --> 00:00:15,400
+Let's refresh it again
+
+9
+00:00:15,400 --> 00:00:16,280
+Look at this text
+
+10
+00:00:16,280 --> 00:00:19,020
+It will slowly move up from the bottom
+
+11
+00:00:19,020 --> 00:00:20,140
+Not exactly slow
+
+12
+00:00:20,140 --> 00:00:22,980
+It will quickly move up with this UGC Anime effect.
+
+13
+00:00:22,980 --> 00:00:25,420
+So the effect we want to write
+
+14
+00:00:25,420 --> 00:00:27,420
+it actually includes various animations
+
+15
+00:00:27,420 --> 00:00:29,800
+Ah, the various animations are all included
+
+16
+00:00:29,800 --> 00:00:32,400
+Now let's take a look at how to write this thing
+
+17
+00:00:32,400 --> 00:00:33,920
+First of all, the first step
+
+18
+00:00:33,920 --> 00:00:36,900
+We need to use its basic structure.
+
+19
+00:00:36,900 --> 00:00:38,600
+CSS and element
+
+20
+00:00:38,600 --> 00:00:40,220
+and the JS
+
+21
+00:00:40,220 --> 00:00:42,460
+And also the ANELEMENTJS, let's take a look.
+
+22
+00:00:42,460 --> 00:00:43,260
+This basic structure
+
+23
+00:00:43,260 --> 00:00:46,220
+That is to say, the basic structure of swap itself is all that is needed.
+
+24
+00:00:46,220 --> 00:00:50,950
+At the same time, we also need the AnElement's CSS and JS files.
+
+25
+00:00:50,950 --> 00:00:53,379
+Let's go download these two files first.
+
+26
+00:00:53,379 --> 00:00:55,339
+You need to load this file first.
+
+27
+00:00:55,339 --> 00:00:56,959
+You can click on this file
+
+28
+00:00:56,959 --> 00:00:59,579
+click to the position where we initially obtained it
+
+29
+00:00:59,579 --> 00:01:01,220
+See, we've got the location now.
+
+30
+00:01:01,220 --> 00:01:03,020
+We choose to download
+
+31
+00:01:03,020 --> 00:01:04,360
+download a JS
+
+32
+00:01:04,360 --> 00:01:05,379
+download a cs
+
+33
+00:01:05,379 --> 00:01:06,460
+download these two
+
+34
+00:01:06,460 --> 00:01:07,180
+click
+
+35
+00:01:07,180 --> 00:01:08,430
+then download
+
+36
+00:01:08,430 --> 00:01:09,670
+After the download
+
+37
+00:01:09,670 --> 00:01:10,730
+we locate the recording folder
+
+38
+00:01:10,730 --> 00:01:13,150
+Put it into our project.
+
+39
+00:01:13,600 --> 00:01:15,720
+The CSS for Animate is ready
+
+40
+00:01:15,720 --> 00:01:17,480
+Let me unzip it again
+
+41
+00:01:19,800 --> 00:01:21,120
+The element is also ready
+
+42
+00:01:21,120 --> 00:01:21,880
+extract it
+
+43
+00:01:24,520 --> 00:01:26,090
+Okay, take it, okay
+
+44
+00:01:26,090 --> 00:01:27,210
+Take the cs here
+
+45
+00:01:27,210 --> 00:01:29,770
+Bring it to my local environment for micro-product development
+
+46
+00:01:29,770 --> 00:01:32,430
+Then I'll move this part over here
+
+47
+00:01:32,430 --> 00:01:34,310
+Bring over the CSS
+
+48
+00:01:34,310 --> 00:01:35,710
+Then go back here
+
+49
+00:01:35,710 --> 00:01:38,790
+then bring this JS over
+
+50
+00:01:38,790 --> 00:01:40,610
+put it into the JS file
+
+51
+00:01:40,610 --> 00:01:42,290
+Okay, it's installed.
+
+52
+00:01:42,290 --> 00:01:43,890
+Where is this CSS file?
+
+53
+00:01:43,890 --> 00:01:45,050
+Okay
+
+54
+00:01:45,050 --> 00:01:47,850
+First, we need to take a look at the basic usage of UGC Anime.
+
+55
+00:01:47,850 --> 00:01:51,930
+First, let's take a look at the order of introducing the link.
+
+56
+00:01:51,930 --> 00:01:55,680
+Also need to see the method of using the app in the tutorial
+
+57
+00:01:55,680 --> 00:01:57,280
+Pay attention to the sequence.
+
+58
+00:01:57,280 --> 00:01:59,780
+First import swap, then import animate
+
+59
+00:01:59,780 --> 00:02:03,570
+First, import the Swap JS, then the Animate JS
+
+60
+00:02:03,570 --> 00:02:06,290
+Be sure to pay attention to the order sequence.
+
+61
+00:02:06,290 --> 00:02:10,650
+Let's take a look at the basic usage of the animation here.
+
+62
+00:02:10,650 --> 00:02:11,850
+So the first step is
+
+63
+00:02:11,850 --> 00:02:13,170
+I'll first import
+
+64
+00:02:13,170 --> 00:02:18,920
+the swap CSS in my current folder
+
+65
+00:02:18,920 --> 00:02:20,360
+Then, let's continue.
+
+66
+00:02:20,360 --> 00:02:21,680
+Next, link
+
+67
+00:02:21,680 --> 00:02:27,390
+Then reference the ANELEMENT CSS under my current cs folder.
+
+68
+00:02:27,390 --> 00:02:32,580
+Then, below, we need to reference the corresponding JS file. In the JS section,
+
+69
+00:02:32,580 --> 00:02:34,260
+First, as always
+
+70
+00:02:34,260 --> 00:02:35,560
+First, import Jiekuan
+
+71
+00:02:35,560 --> 00:02:38,530
+Not to import the swap JS first
+
+72
+00:02:38,610 --> 00:02:42,610
+Okay, continue to create a new one
+
+73
+00:02:43,640 --> 00:02:49,540
+The introduction is for my current element JS, which is now written, okay
+
+74
+00:02:49,540 --> 00:02:50,900
+This is the first step.
+
+75
+00:02:50,900 --> 00:02:54,700
+The first step is to import the files.
+
+76
+00:02:55,920 --> 00:02:57,280
+Okay, the first step
+
+77
+00:02:57,280 --> 00:03:01,200
+We need to import the required
+
+78
+00:03:02,359 --> 00:03:08,659
+For the CSS and JS files, pay attention to their loading sequence
+
+79
+00:03:08,659 --> 00:03:09,799
+cannot be reversed
+
+80
+00:03:09,799 --> 00:03:11,079
+It won't work if done in reverse
+
+81
+00:03:11,079 --> 00:03:15,539
+Then, the second step is always the same for us
+
+82
+00:03:15,539 --> 00:03:19,520
+The swap container still needs to come over
+
+83
+00:03:19,520 --> 00:03:22,080
+we still need to get its basic structure
+
+84
+00:03:22,080 --> 00:03:25,360
+
+
+85
+00:03:25,360 --> 00:03:27,100
+the swap container
+
+86
+00:03:27,100 --> 00:03:30,920
+Then below, write a div and add
+
+87
+00:03:30,920 --> 00:03:31,620
+Is there a prompt
+
+88
+00:03:31,620 --> 00:03:32,800
+Look at the name
+
+89
+00:03:32,800 --> 00:03:37,140
+Hmm, swap_WRAPPER has no prompts.
+
+90
+00:03:37,140 --> 00:03:39,200
+Inside each bottle, ah
+
+91
+00:03:39,200 --> 00:03:43,230
+Class swap gun swag
+
+92
+00:03:43,230 --> 00:03:44,670
+Actually, who is it referring to?
+
+93
+00:03:44,670 --> 00:03:48,630
+it's about how we still need to look at its usage
+
+94
+00:03:48,630 --> 00:03:50,890
+Is this what you mean by taking this part inside?
+
+95
+00:03:50,890 --> 00:03:53,790
+Ah swap swap w IP p r ah
+
+96
+00:03:53,790 --> 00:03:55,450
+I'll take three of this part.
+
+97
+00:03:55,450 --> 00:03:57,570
+Take one or take three, it's all fine.
+
+98
+00:03:57,570 --> 00:04:01,240
+Take a few so you can see? Ah, got them.
+
+99
+00:04:01,240 --> 00:04:03,440
+Well, this little dot below
+
+100
+00:04:03,440 --> 00:04:04,520
+See if you still need it or not
+
+101
+00:04:04,520 --> 00:04:05,600
+For example, we still need it
+
+102
+00:04:05,600 --> 00:04:06,320
+Bring it over
+
+103
+00:04:06,320 --> 00:04:07,080
+Keep it
+
+104
+00:04:07,080 --> 00:04:07,840
+throw it over
+
+105
+00:04:07,840 --> 00:04:08,720
+I don't want the others
+
+106
+00:04:08,720 --> 00:04:09,570
+Okay?
+
+107
+00:04:09,570 --> 00:04:11,550
+Alright, the basic structure
+
+108
+00:04:11,550 --> 00:04:14,360
+Still need to proceed
+
+109
+00:04:15,400 --> 00:04:16,380
+Pay attention
+
+110
+00:04:16,380 --> 00:04:19,680
+We still need to do this
+
+111
+00:04:21,940 --> 00:04:25,620
+The third step is the initialization of Swap.
+
+112
+00:04:26,980 --> 00:04:29,280
+swap defaults to the initialization of the basic structure
+
+113
+00:04:29,280 --> 00:04:30,850
+it is still needed
+
+114
+00:04:32,459 --> 00:04:35,540
+Okay, throw it over here, throw it over here.
+
+115
+00:04:35,540 --> 00:04:37,120
+I didn't add that just now.
+
+116
+00:04:37,120 --> 00:04:40,830
+Alright, I'll take this piece and move it down below.
+
+117
+00:04:40,830 --> 00:04:42,050
+I don't have this
+
+118
+00:04:42,050 --> 00:04:44,110
+Do I only have pagination dots?
+
+119
+00:04:44,110 --> 00:04:45,490
+loom is required
+
+120
+00:04:45,490 --> 00:04:48,410
+For example, can I just use vertical now?
+
+121
+00:04:48,410 --> 00:04:50,030
+I'll just go with vertical then
+
+122
+00:04:50,030 --> 00:04:52,150
+Then I at least need to provide a container.
+
+123
+00:04:52,150 --> 00:04:53,470
+I won't write complex styles
+
+124
+00:04:53,470 --> 00:04:55,010
+Let's just look at the basic effect.
+
+125
+00:04:55,010 --> 00:04:59,840
+Let's just take the width and height, okay?
+
+126
+00:04:59,840 --> 00:05:02,020
+Add a border.
+
+127
+00:05:08,940 --> 00:05:11,600
+Alright, this is the effect we're going for.
+
+128
+00:05:11,600 --> 00:05:16,270
+A loop in the vertical direction, okay.
+
+129
+00:05:16,270 --> 00:05:17,910
+After we write it like this
+
+130
+00:05:17,910 --> 00:05:19,270
+animate has no effect
+
+131
+00:05:19,270 --> 00:05:20,630
+It's still the same steps as before
+
+132
+00:05:20,630 --> 00:05:21,940
+I removed this word count
+
+133
+00:05:21,940 --> 00:05:23,500
+Step 1: Import files
+
+134
+00:05:23,500 --> 00:05:24,900
+Step two: Swap
+
+135
+00:05:24,900 --> 00:05:26,460
+What's the third step
+
+136
+00:05:26,460 --> 00:05:29,180
+But now I need the animation effect!
+
+137
+00:05:29,180 --> 00:05:30,840
+After laying the groundwork with these steps
+
+138
+00:05:30,840 --> 00:05:33,120
+Then find the tutorial on how to use em
+
+139
+00:05:33,120 --> 00:05:33,840
+See
+
+140
+00:05:33,840 --> 00:05:35,580
+Just now it was our basic operation
+
+141
+00:05:35,580 --> 00:05:39,500
+The corresponding CSS and JS files for acid have already been referenced above.
+
+142
+00:05:39,500 --> 00:05:44,530
+Now we need to add something called hiding elements during initialization
+
+143
+00:05:44,530 --> 00:05:46,850
+and start the animation when needed
+
+144
+00:05:46,850 --> 00:05:47,850
+What does that mean
+
+145
+00:05:47,850 --> 00:05:49,970
+it's our UGC Anime JS here
+
+146
+00:05:49,970 --> 00:05:51,190
+needs to trigger it
+
+147
+00:05:51,190 --> 00:05:54,410
+That is to say, in the configuration of our container
+
+148
+00:05:54,410 --> 00:05:57,299
+You need to configure an attribute called 'on'
+
+149
+00:05:57,299 --> 00:05:59,439
+The on attribute contains two animations
+
+150
+00:05:59,439 --> 00:06:00,339
+one is gravitational
+
+151
+00:06:00,339 --> 00:06:01,419
+is initialization
+
+152
+00:06:01,419 --> 00:06:03,779
+The initialization function is to hide the elements.
+
+153
+00:06:03,779 --> 00:06:04,199
+Got it
+
+154
+00:06:04,199 --> 00:06:09,189
+The second property method for hiding elements is used during the transition
+
+155
+00:06:09,189 --> 00:06:12,360
+when each select is embedded
+
+156
+00:06:12,360 --> 00:06:14,780
+Its transition effect is meaningless, right?
+
+157
+00:06:14,780 --> 00:06:18,290
+Each time the page switches, the transition effect is triggered during the change.
+
+158
+00:06:18,290 --> 00:06:20,470
+is the effect after switching
+
+159
+00:06:20,470 --> 00:06:22,410
+We have a method here
+
+160
+00:06:22,410 --> 00:06:23,890
+called swap animate
+
+161
+00:06:23,890 --> 00:06:25,490
+just add this swim effect
+
+162
+00:06:25,490 --> 00:06:26,630
+That's what it means
+
+163
+00:06:26,630 --> 00:06:27,650
+Ah, whatever
+
+164
+00:06:27,650 --> 00:06:28,450
+this part
+
+165
+00:06:28,450 --> 00:06:30,710
+the brackets saved above
+
+166
+00:06:30,710 --> 00:06:33,030
+Directly take the configuration items from here
+
+167
+00:06:33,030 --> 00:06:33,730
+See
+
+168
+00:06:33,730 --> 00:06:35,150
+Just take the configuration options
+
+169
+00:06:35,150 --> 00:06:36,070
+It's written for you
+
+170
+00:06:36,070 --> 00:06:38,139
+
+
+171
+00:06:38,139 --> 00:06:39,299
+Place it below
+
+172
+00:06:39,299 --> 00:06:41,559
+Note that you need to combine it with your previous implementation
+
+173
+00:06:41,559 --> 00:06:43,980
+Combine it with your original swap
+
+174
+00:06:43,980 --> 00:06:44,700
+bring over
+
+175
+00:06:44,700 --> 00:06:47,840
+Now, the on method provided to you
+
+176
+00:06:47,840 --> 00:06:49,100
+Do you get what I mean?
+
+177
+00:06:49,100 --> 00:06:50,600
+Get your method
+
+178
+00:06:50,600 --> 00:06:53,360
+In addition to performing its original initialization
+
+179
+00:06:53,360 --> 00:06:54,420
+We also have
+
+180
+00:06:54,420 --> 00:06:57,189
+What is the fourth step for?
+
+181
+00:06:57,189 --> 00:07:05,160
+In the tutorial on using swap animate ava
+
+182
+00:07:05,160 --> 00:07:09,720
+Get our configuration item 'on' property
+
+183
+00:07:09,720 --> 00:07:12,600
+
+
+184
+00:07:12,600 --> 00:07:14,600
+Just continue placing it below
+
+185
+00:07:14,600 --> 00:07:15,940
+Leave the rest of these things untouched
+
+186
+00:07:15,940 --> 00:07:17,380
+Default is fine
+
+187
+00:07:17,380 --> 00:07:18,660
+This is the fourth step
+
+188
+00:07:18,660 --> 00:07:20,240
+Then let's move on to the next step
+
+189
+00:07:20,240 --> 00:07:22,870
+There is one last step to tell you
+
+190
+00:07:22,870 --> 00:07:25,830
+on the elements that need animation
+
+191
+00:07:25,830 --> 00:07:32,270
+Add a class named NNI to the element you want to animate
+
+192
+00:07:32,270 --> 00:07:34,730
+Similar to other base plugins
+
+193
+00:07:34,730 --> 00:07:37,919
+There are several parameters that can be selected in swap
+
+194
+00:07:37,919 --> 00:07:39,079
+Now let me tell you
+
+195
+00:07:39,079 --> 00:07:40,239
+There are three attributes
+
+196
+00:07:40,239 --> 00:07:42,959
+The first one represents the switching effect.
+
+197
+00:07:42,959 --> 00:07:43,740
+You see
+
+198
+00:07:43,740 --> 00:07:47,200
+swap gentalt-effect indicates the switching effect
+
+199
+00:07:47,200 --> 00:07:51,580
+Then duration indicates the duration of this animation, you see
+
+200
+00:07:51,580 --> 00:07:52,860
+duration
+
+201
+00:07:52,860 --> 00:07:55,240
+delay means the delay time
+
+202
+00:07:55,240 --> 00:07:57,500
+one is how long this UGC Anime can last
+
+203
+00:07:57,500 --> 00:08:00,039
+One is how long to delay before it appears again
+
+204
+00:08:00,039 --> 00:08:01,119
+Is that what it means?
+
+205
+00:08:01,119 --> 00:08:03,400
+How long to delay before appearing
+
+206
+00:08:03,640 --> 00:08:05,120
+Let me give you an example.
+
+207
+00:08:05,120 --> 00:08:08,960
+In this section below, if an image is to have animation
+
+208
+00:08:08,960 --> 00:08:11,740
+Add a P tag to the image with UGC Anime
+
+209
+00:08:11,740 --> 00:08:13,920
+Text has animation, add to text whoever
+
+210
+00:08:13,920 --> 00:08:18,090
+Add a class name NNI to the element that requires UGC Anime
+
+211
+00:08:18,090 --> 00:08:20,890
+along with these three attributes
+
+212
+00:08:20,890 --> 00:08:23,600
+Can this be used for configuration instructions?
+
+213
+00:08:23,600 --> 00:08:25,220
+switching effect
+
+214
+00:08:25,220 --> 00:08:28,680
+the execution time of the switch and the delay in seconds
+
+215
+00:08:28,680 --> 00:08:31,490
+Can you see this UGC Anime still executing?
+
+216
+00:08:31,490 --> 00:08:32,890
+Hey, this effect is nice
+
+217
+00:08:32,890 --> 00:08:34,890
+I'm directly bringing in this P tag here.
+
+218
+00:08:34,890 --> 00:08:36,590
+
+
+219
+00:08:36,590 --> 00:08:37,990
+I'm not changing it.
+
+220
+00:08:37,990 --> 00:08:39,690
+Okay, back to the first screen
+
+221
+00:08:39,690 --> 00:08:41,210
+I'll do it directly on the first screen
+
+222
+00:08:41,210 --> 00:08:43,530
+See, it's done directly on the first screen, right?
+
+223
+00:08:43,530 --> 00:08:47,520
+Bring it over, note that it might be a bit longer.
+
+224
+00:08:47,520 --> 00:08:52,560
+First, you need to add the class name NNI and apply our effect switching
+
+225
+00:08:52,560 --> 00:08:53,800
+Finish in up
+
+226
+00:08:53,800 --> 00:08:56,190
+Is it displayed on the web, right?
+
+227
+00:08:56,190 --> 00:08:58,910
+Does 'substitute the sound of Fei' mean substituting upwards?
+
+228
+00:08:58,910 --> 00:09:00,090
+Never mind it
+
+229
+00:09:00,090 --> 00:09:03,470
+Then, after completing this UGC Anime in 0.5 seconds on the page
+
+230
+00:09:03,470 --> 00:09:04,610
+after the first screen appears
+
+231
+00:09:04,610 --> 00:09:06,210
+which means after 0.3 seconds
+
+232
+00:09:06,210 --> 00:09:08,370
+Does it mean to execute this animation?
+
+233
+00:09:08,370 --> 00:09:09,130
+The meaning of 0.3
+
+234
+00:09:09,130 --> 00:09:10,330
+This means wait for a while
+
+235
+00:09:10,330 --> 00:09:13,580
+Wait for three seconds to complete the connect and save.
+
+236
+00:09:13,580 --> 00:09:15,040
+Let's take a look at this page.
+
+237
+00:09:15,040 --> 00:09:16,740
+Alt plus B
+
+238
+00:09:16,740 --> 00:09:22,390
+You see, 0.3 seconds is pretty fast.
+
+239
+00:09:22,390 --> 00:09:24,170
+Appears after 0.3 seconds
+
+240
+00:09:24,170 --> 00:09:25,810
+You can also make the duration longer
+
+241
+00:09:25,810 --> 00:09:27,350
+For example, let me add another animation
+
+242
+00:09:27,350 --> 00:09:29,300
+Ah
+
+243
+00:09:29,300 --> 00:09:30,980
+You're called to go upward
+
+244
+00:09:30,980 --> 00:09:33,760
+I'll make it move downward
+
+245
+00:09:33,760 --> 00:09:34,520
+Is that okay
+
+246
+00:09:34,520 --> 00:09:36,320
+This animation should be slowed down a bit
+
+247
+00:09:36,320 --> 00:09:38,090
+for example, it can take 0.8 seconds
+
+248
+00:09:38,090 --> 00:09:41,330
+while the animation time above is 50.5 seconds
+
+249
+00:09:41,330 --> 00:09:43,170
+The delay is 0.3 seconds.
+
+250
+00:09:43,170 --> 00:09:44,450
+I can wait for it to finish
+
+251
+00:09:44,450 --> 00:09:44,990
+I'll do it
+
+252
+00:09:44,990 --> 00:09:47,990
+Do we have to wait at least 0.8 seconds?
+
+253
+00:09:47,990 --> 00:09:49,830
+Okay, let's take a look
+
+254
+00:09:49,830 --> 00:09:51,680
+sweep
+
+255
+00:09:53,160 --> 00:09:55,620
+Can you see it?
+
+256
+00:09:55,620 --> 00:09:57,080
+Or here's what I'll do
+
+257
+00:09:57,080 --> 00:10:02,420
+Let me give him a 'fit in write' here
+
+258
+00:10:04,160 --> 00:10:07,100
+See? Coming from this side.
+
+259
+00:10:07,100 --> 00:10:07,880
+Vertical, huh
+
+260
+00:10:07,880 --> 00:10:09,740
+Look, it's vertical.
+
+261
+00:10:10,180 --> 00:10:11,380
+Let me go back again
+
+262
+00:10:11,380 --> 00:10:12,880
+UGC Anime runs again
+
+263
+00:10:12,880 --> 00:10:13,860
+See?
+
+264
+00:10:13,860 --> 00:10:14,860
+Let me go back again
+
+265
+00:10:14,860 --> 00:10:15,740
+UGC Anime replay
+
+266
+00:10:15,740 --> 00:10:16,260
+Got it?
+
+267
+00:10:16,260 --> 00:10:18,519
+This thing is actually changeable.
+
+268
+00:10:18,519 --> 00:10:19,839
+As long as you take the other things
+
+269
+00:10:19,839 --> 00:10:21,119
+Is it all fixed?
+
+270
+00:10:21,119 --> 00:10:22,439
+Only one place is variable
+
+271
+00:10:22,439 --> 00:10:24,640
+Are these attributes variable?
+
+272
+00:10:24,880 --> 00:10:26,780
+These attributes need to be changed.
+
+273
+00:10:26,780 --> 00:10:28,660
+AI is something we cannot modify
+
+274
+00:10:28,660 --> 00:10:30,560
+If it already has a class name
+
+275
+00:10:30,560 --> 00:10:34,339
+Just add the AI name after a space, right?
+
+276
+00:10:34,410 --> 00:10:35,310
+Attention
+
+277
+00:10:35,310 --> 00:10:37,170
+Add an additional AI class name
+
+278
+00:10:37,170 --> 00:10:39,020
+He's writing the hidden styles for you.
+
+279
+00:10:39,020 --> 00:10:43,120
+Then, in the back is the effect, the switching effect within the effect.
+
+280
+00:10:43,120 --> 00:10:44,750
+Below is the reference
+
+281
+00:10:44,750 --> 00:10:45,650
+See
+
+282
+00:10:45,650 --> 00:10:47,829
+Here is the reference effect
+
+283
+00:10:47,829 --> 00:10:50,869
+As for the execution time and its delay time
+
+284
+00:10:50,869 --> 00:10:52,209
+is defined by yourself
+
+285
+00:10:52,209 --> 00:10:53,089
+Do you understand what I mean?
+
+286
+00:10:53,089 --> 00:10:54,670
+It's something you can define.
+
+287
+00:10:54,670 --> 00:10:58,390
+And the effect in this section below, hey, you can see the effect here.
+
+288
+00:10:58,390 --> 00:10:59,510
+You can demonstrate
+
+289
+00:10:59,510 --> 00:11:01,350
+See it
+
+290
+00:11:02,110 --> 00:11:03,609
+Come on
+
+291
+00:11:04,049 --> 00:11:05,069
+Can you see it?
+
+292
+00:11:05,069 --> 00:11:05,809
+Yes
+
+293
+00:11:05,809 --> 00:11:07,509
+
+
+294
+00:11:07,509 --> 00:11:10,860
+throw it onto ours
+
+295
+00:11:10,860 --> 00:11:12,160
+Just change this number, right?
+
+296
+00:11:12,160 --> 00:11:15,460
+You can define the duration later as you like
+
+297
+00:11:15,460 --> 00:11:19,130
+After making the changes, take a look, did you see it?
+
+298
+00:11:19,130 --> 00:11:19,490
+That's it
+
+299
+00:11:19,490 --> 00:11:20,850
+It has a bouncing effect.
+
+300
+00:11:20,850 --> 00:11:21,870
+Can you see it?
+
+301
+00:11:21,870 --> 00:11:25,010
+Hey, this is the combination of our UGC Anime.
+
+302
+00:11:25,010 --> 00:11:29,370
+There aren't that many ah, just pick whichever animation you like from here
+
+303
+00:11:29,370 --> 00:11:30,210
+Just use whichever one you want.
+
+304
+00:11:30,210 --> 00:11:33,410
+Here, 'out' usually refers to the exit animation
+
+305
+00:11:33,410 --> 00:11:34,790
+You see it's going out
+
+306
+00:11:34,790 --> 00:11:38,720
+Then, 'in' gives a gradual appearance effect, transitioning from nothing to something.
+
+307
+00:11:38,720 --> 00:11:39,360
+Got it
+
+308
+00:11:39,360 --> 00:11:41,540
+The feeling of gradually appearing from nothing.
+
+309
+00:11:41,540 --> 00:11:45,640
+Okay, you can continue to play it.
+
+310
+00:11:45,640 --> 00:11:47,680
+But here, let me emphasize one point
+
+311
+00:11:47,680 --> 00:11:51,000
+Our UGC Anime is based on the current screen time.
+
+312
+00:11:51,000 --> 00:11:52,599
+which means this current delay
+
+313
+00:11:52,599 --> 00:11:53,959
+Well, that classmate said
+
+314
+00:11:53,959 --> 00:11:55,079
+Then I'll write another line later
+
+315
+00:11:55,079 --> 00:11:56,239
+Do I have to recalculate the delay again
+
+316
+00:11:56,239 --> 00:11:57,200
+No need
+
+317
+00:11:57,200 --> 00:12:01,339
+This delay time only applies to your current code.
+
+318
+00:12:01,819 --> 00:12:02,499
+What does it mean
+
+319
+00:12:02,499 --> 00:12:05,139
+that is to say, what's written on this bottle
+
+320
+00:12:05,139 --> 00:12:06,739
+For example, you have 0.5 above
+
+321
+00:12:06,739 --> 00:12:08,219
+0.8 corresponds to this bottle
+
+322
+00:12:08,219 --> 00:12:08,870
+Got it
+
+323
+00:12:08,870 --> 00:12:10,670
+If I write a second article again,
+
+324
+00:12:10,670 --> 00:12:13,210
+its time starts counting from zero again
+
+325
+00:12:13,210 --> 00:12:14,390
+Do you know what I mean?
+
+326
+00:12:14,390 --> 00:12:16,460
+Ah, it's for the current screen animation.
+
+327
+00:12:16,460 --> 00:12:17,780
+
+
+328
+00:12:17,780 --> 00:12:18,660
+for example, 1.6 seconds
+
+329
+00:12:18,660 --> 00:12:20,780
+You can also set it to one second arbitrarily, right?
+
+330
+00:12:20,780 --> 00:12:23,970
+For example, when he inputs at one second, I can also input, right?
+
+331
+00:12:23,970 --> 00:12:26,550
+It's also possible for me to hit when he speaks, isn't it?
+
+332
+00:12:26,550 --> 00:12:27,930
+All are acceptable
+
+333
+00:12:27,930 --> 00:12:32,550
+Then go, is it when he comes out, I also come out
+
+334
+00:12:32,550 --> 00:12:33,150
+You can also
+
+335
+00:12:33,150 --> 00:12:34,550
+I'll go after he finishes
+
+336
+00:12:34,550 --> 00:12:37,530
+Whatever, OK, it's up to you.
+
+337
+00:12:37,530 --> 00:12:39,125
+It's all fine
+
+338
+00:12:40,000 --> 00:12:42,820
+This attribute here also tells you, ah
+
+339
+00:12:42,820 --> 00:12:45,300
+If you want the UGC Anime to be displayed only once
+
+340
+00:12:45,300 --> 00:12:47,240
+Look at this 'on' attribute here
+
+341
+00:12:47,240 --> 00:12:50,000
+If you want the animation to be displayed only once
+
+342
+00:12:50,000 --> 00:12:53,750
+Then just enable the following attribute.
+
+343
+00:12:53,750 --> 00:12:54,650
+Got it?
+
+344
+00:12:54,650 --> 00:12:55,790
+uncomment this line
+
+345
+00:12:55,790 --> 00:12:58,990
+That is to say, your UGC Anime for each day will only play once upon the first entry
+
+346
+00:12:58,990 --> 00:12:59,550
+only executed once
+
+347
+00:12:59,550 --> 00:13:00,140
+You know
+
+348
+00:13:00,140 --> 00:13:01,940
+When you come back, it won't play the animation again
+
+349
+00:13:01,940 --> 00:13:02,940
+They are just displayed
+
+350
+00:13:02,940 --> 00:13:03,380
+You know
+
+351
+00:13:03,380 --> 00:13:04,740
+It's already displayed at that position.
+
+352
+00:13:04,740 --> 00:13:06,830
+That's what I mean, do you get it?
+
+353
+00:13:06,830 --> 00:13:08,710
+Okay, this is it.
+
+354
+00:13:08,710 --> 00:13:10,170
+You now quickly
+
+355
+00:13:10,170 --> 00:13:12,410
+Go and try out this basic operation.
+
+356
+00:13:12,410 --> 00:13:13,330
+After trying it out
+
+357
+00:13:13,330 --> 00:13:15,490
+I'll go get the high-necked one later
+
+358
+00:13:15,490 --> 00:13:16,530
+Let's work on a case example together.
+
+359
+00:13:16,530 --> 00:13:17,330
+I'll make one
+
+360
+00:13:17,330 --> 00:13:18,450
+You'll master everything after this
+
+361
+00:13:18,450 --> 00:13:19,210
+I might not finish it
+
+362
+00:13:19,210 --> 00:13:21,390
+I'll just do two or three and you'll get the hang of it.
+
+363
+00:13:21,390 --> 00:13:25,160
+Alright, you go first and quickly take a look at the basic operations in 10 minutes.
+

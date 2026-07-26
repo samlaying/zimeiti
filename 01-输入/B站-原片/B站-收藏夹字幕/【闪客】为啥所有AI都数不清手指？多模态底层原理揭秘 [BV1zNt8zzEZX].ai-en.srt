@@ -1,0 +1,872 @@
+1
+00:00:00,040 --> 00:00:01,790
+How many fingers are in this picture?
+
+2
+00:00:01,790 --> 00:00:03,150
+321, okay
+
+3
+00:00:03,150 --> 00:00:04,030
+If you answered six fingers
+
+4
+00:00:04,030 --> 00:00:04,710
+Congratulations
+
+5
+00:00:04,710 --> 00:00:06,490
+surpasses all AI products worldwide
+
+6
+00:00:06,490 --> 00:00:08,700
+whether it's ChatGPT, DeepSeek, or Doubao
+
+7
+00:00:08,700 --> 00:00:11,300
+Almost all large AI models firmly answer that there are five fingers.
+
+8
+00:00:11,300 --> 00:00:11,980
+five fingers
+
+9
+00:00:11,980 --> 00:00:13,440
+Most of them even provided details
+
+10
+00:00:13,440 --> 00:00:15,090
+pretending to be answering very seriously
+
+11
+00:00:15,090 --> 00:00:15,930
+What's even more outrageous is
+
+12
+00:00:15,930 --> 00:00:19,030
+After discussing the issue of misidentifying six fingers with ChatGPT
+
+13
+00:00:19,030 --> 00:00:21,170
+then ask him again with a picture of a normal hand
+
+14
+00:00:21,170 --> 00:00:22,720
+Yet it actually responded with 'six fingers'
+
+15
+00:00:22,720 --> 00:00:24,880
+This might be related to its memory function.
+
+16
+00:00:24,880 --> 00:00:26,980
+It will reference historical responses as contextual information.
+
+17
+00:00:26,980 --> 00:00:28,520
+Then after I disabled the memory function
+
+18
+00:00:28,520 --> 00:00:29,670
+the response returns to normal when asked again
+
+19
+00:00:29,670 --> 00:00:31,810
+This shows that not only does the model itself struggle to count fingers correctly
+
+20
+00:00:31,810 --> 00:00:34,720
+Even a tiny bit of contextual interference can affect its judgment.
+
+21
+00:00:34,720 --> 00:00:35,340
+Not to mention, wasn't GTA recently released
+
+22
+00:00:35,340 --> 00:00:36,900
+Wasn't it recently published GTF uh
+
+23
+00:00:36,900 --> 00:00:38,080
+GPT-5
+
+24
+00:00:38,080 --> 00:00:40,660
+I switched to a different account to ask GPT-5, and it actually answered correctly.
+
+25
+00:00:40,660 --> 00:00:42,800
+It seems this GPT-5 has something impressive.
+
+26
+00:00:42,800 --> 00:00:45,330
+As expected of the most powerful model on Earth, but wait...
+
+27
+00:00:45,330 --> 00:00:47,310
+I sent another picture with 8 fingers
+
+28
+00:00:47,310 --> 00:00:50,850
+Then, I sent another normal picture with five fingers
+
+29
+00:00:50,850 --> 00:00:54,180
+could it be that the finger issue has been widely discussed recently
+
+30
+00:00:54,180 --> 00:00:56,890
+has entered the GPT-5 corpus and been over-trained
+
+31
+00:00:56,890 --> 00:00:57,490
+of course
+
+32
+00:00:57,490 --> 00:00:59,750
+This might just be the result of my random draw
+
+33
+00:00:59,750 --> 00:01:01,370
+but at least it shows that all AI models
+
+34
+00:01:01,370 --> 00:01:02,780
+including the strongest model on Earth
+
+35
+00:01:02,780 --> 00:01:05,300
+when it comes to counting fingers, a seemingly simple task for humans
+
+36
+00:01:05,300 --> 00:01:06,080
+can't get it right
+
+37
+00:01:06,080 --> 00:01:08,580
+it must be related to some underlying model mechanism
+
+38
+00:01:08,580 --> 00:01:10,509
+So today we're going to explore this issue
+
+39
+00:01:10,509 --> 00:01:12,129
+Without further ado, let's get straight to the issue
+
+40
+00:01:12,129 --> 00:01:14,449
+The model's input consists of an image and a piece of text
+
+41
+00:01:14,449 --> 00:01:16,870
+The model's output is also a piece of text, which is very simple.
+
+42
+00:01:16,870 --> 00:01:18,930
+However, the input includes both images and text
+
+43
+00:01:18,930 --> 00:01:20,310
+They are in different forms.
+
+44
+00:01:20,310 --> 00:01:21,610
+The difficulty lies right here
+
+45
+00:01:21,610 --> 00:01:24,470
+We call this type of model that contains different types of information
+
+46
+00:01:24,470 --> 00:01:25,910
+called multimodal
+
+47
+00:01:25,910 --> 00:01:27,270
+Let's simplify it first
+
+48
+00:01:27,270 --> 00:01:27,930
+remove the image
+
+49
+00:01:27,930 --> 00:01:28,830
+only text remains
+
+50
+00:01:28,830 --> 00:01:30,910
+then this process is simply an ordinary
+
+51
+00:01:30,910 --> 00:01:33,180
+a large language model implemented based on the Transformer architecture
+
+52
+00:01:33,180 --> 00:01:34,780
+first perform tokenization on this text
+
+53
+00:01:34,780 --> 00:01:37,120
+then convert each word into a vector and input it into the model
+
+54
+00:01:37,120 --> 00:01:39,280
+Finally, the model outputs the probability distribution of the vocabulary.
+
+55
+00:01:39,280 --> 00:01:41,070
+thereby obtaining the predicted next word
+
+56
+00:01:41,070 --> 00:01:43,530
+Add the next word back to the end of the original text
+
+57
+00:01:43,530 --> 00:01:44,270
+iteration
+
+58
+00:01:44,270 --> 00:01:45,270
+continuously generating new words
+
+59
+00:01:45,270 --> 00:01:46,710
+This forms a response
+
+60
+00:01:46,710 --> 00:01:49,060
+Friends who are not familiar with this process can take a look at this video
+
+61
+00:01:49,060 --> 00:01:51,840
+will guide you from scratch to gain a basic understanding of AI principles
+
+62
+00:01:51,840 --> 00:01:52,780
+If you don't have time
+
+63
+00:01:52,780 --> 00:01:53,420
+it's also fine
+
+64
+00:01:53,420 --> 00:01:56,509
+Just treat the model as a black box, or a function.
+
+65
+00:01:56,509 --> 00:01:58,949
+Okay, this modality is a text-based large language model
+
+66
+00:01:58,949 --> 00:02:00,349
+After continuous efforts in recent years
+
+67
+00:02:00,349 --> 00:02:01,369
+has already become very mature
+
+68
+00:02:01,369 --> 00:02:03,969
+Then we just need to integrate the image into this model, and that's it.
+
+69
+00:02:03,969 --> 00:02:05,880
+So how do we incorporate this image?
+
+70
+00:02:05,880 --> 00:02:08,660
+The simplest idea is to first convert the image into a text
+
+71
+00:02:08,660 --> 00:02:11,039
+Then just concatenate it with another piece of text, wouldn't that work?
+
+72
+00:02:11,039 --> 00:02:12,420
+but the step of converting the image into text
+
+73
+00:02:12,420 --> 00:02:14,400
+Isn't it still a multimodal task?
+
+74
+00:02:14,400 --> 00:02:15,570
+still need to figure out a solution
+
+75
+00:02:15,570 --> 00:02:18,170
+Let's take it a step further and convert the image into a set of vectors
+
+76
+00:02:18,170 --> 00:02:19,270
+the same as the text part
+
+77
+00:02:19,270 --> 00:02:20,250
+For the model
+
+78
+00:02:20,250 --> 00:02:22,210
+The information I receive is just a bunch of vectors
+
+79
+00:02:22,210 --> 00:02:23,130
+I don't care
+
+80
+00:02:23,130 --> 00:02:25,130
+I don't know or care what you've been transformed from either
+
+81
+00:02:25,130 --> 00:02:27,870
+Done! So how do you turn a picture into a set of vectors?
+
+82
+00:02:27,870 --> 00:02:29,510
+This is nothing unusual.
+
+83
+00:02:29,510 --> 00:02:31,150
+using traditional convolutional neural networks or
+
+84
+00:02:31,150 --> 00:02:32,970
+or the ViT that emerged after the rise of Transformer
+
+85
+00:02:32,970 --> 00:02:34,890
+can transform images into a set of vectors
+
+86
+00:02:34,890 --> 00:02:36,950
+we generally refer to it as an image encoder
+
+87
+00:02:36,950 --> 00:02:38,890
+There are also many methods for the text part
+
+88
+00:02:38,890 --> 00:02:40,710
+we collectively refer to them as text encoders
+
+89
+00:02:40,710 --> 00:02:43,750
+So can we just concatenate these two sets of vectors and feed them directly to the model?
+
+90
+00:02:43,750 --> 00:02:45,490
+It's common sense that it's not possible
+
+91
+00:02:45,490 --> 00:02:46,630
+In large language models
+
+92
+00:02:46,630 --> 00:02:49,530
+Word vectors are trained to have semantic relationships between them
+
+93
+00:02:49,530 --> 00:02:50,030
+Simply put,
+
+94
+00:02:50,030 --> 00:02:52,959
+The word vector for 'man' and the word vector for 'woman' look quite similar
+
+95
+00:02:52,959 --> 00:02:53,919
+expressed in mathematical terms
+
+96
+00:02:53,919 --> 00:02:56,579
+that is, the dot product or cosine similarity between the two vectors is relatively large
+
+97
+00:02:56,579 --> 00:02:59,159
+Then, in another model, the generated image vectors
+
+98
+00:02:59,159 --> 00:03:00,779
+in the vector space of language models
+
+99
+00:03:00,779 --> 00:03:01,859
+like a foreign language
+
+100
+00:03:01,859 --> 00:03:02,459
+incompatible
+
+101
+00:03:02,459 --> 00:03:03,380
+They just don't speak the same language.
+
+102
+00:03:03,380 --> 00:03:05,300
+For example, in the vector space of large language models
+
+103
+00:03:05,300 --> 00:03:07,430
+an image of a dog is converted into a set of vectors
+
+104
+00:03:07,430 --> 00:03:10,070
+might instead be very close to a completely unrelated dog vector
+
+105
+00:03:10,070 --> 00:03:12,150
+then the final answer would definitely be all messed up
+
+106
+00:03:12,150 --> 00:03:13,790
+So this crucial step
+
+107
+00:03:13,790 --> 00:03:16,630
+is to align images and text in the same vector space
+
+108
+00:03:16,630 --> 00:03:18,350
+the vector converted from the image of a dog
+
+109
+00:03:18,350 --> 00:03:21,050
+and the vector converted from the word 'dog' are similar
+
+110
+00:03:21,050 --> 00:03:22,730
+This is called modality alignment
+
+111
+00:03:22,730 --> 00:03:26,070
+That is, mapping the features of different modalities to the same semantic space
+
+112
+00:03:26,070 --> 00:03:27,990
+So how do we achieve modality alignment?
+
+113
+00:03:27,990 --> 00:03:31,150
+It's very simple. First, you go online and find 400 million pairs of images and text.
+
+114
+00:03:31,150 --> 00:03:33,060
+Each image corresponds to a piece of text description
+
+115
+00:03:33,060 --> 00:03:36,500
+Then, each image is processed by the aforementioned image encoder to generate vectors
+
+116
+00:03:36,500 --> 00:03:39,500
+Each piece of text is also converted into a vector through the aforementioned text encoder.
+
+117
+00:03:39,500 --> 00:03:42,060
+arrange them like this
+
+118
+00:03:43,620 --> 00:03:46,500
+Next, perform a dot product between each image vector and text vector pairwise.
+
+119
+00:03:46,500 --> 00:03:48,020
+that is, the similarity is calculated
+
+120
+00:03:48,020 --> 00:03:50,060
+Pay attention to the set of results on the diagonal
+
+121
+00:03:50,060 --> 00:03:52,620
+the dot product of the matched pair of post and image vectors
+
+122
+00:03:52,620 --> 00:03:54,780
+We call these samples positive sample pairs
+
+123
+00:03:54,780 --> 00:03:56,720
+and hope that their dot product is as large as possible
+
+124
+00:03:56,720 --> 00:04:00,000
+The text pairs that do not match in other positions are called negative sample pairs.
+
+125
+00:04:00,000 --> 00:04:02,300
+and hope their dot product is as small as possible
+
+126
+00:04:02,300 --> 00:04:04,100
+This approach of bringing positive sample pairs closer
+
+127
+00:04:04,100 --> 00:04:08,000
+The machine learning method of pushing negative sample pairs apart is called contrastive learning.
+
+128
+00:04:08,280 --> 00:04:09,240
+With this method
+
+129
+00:04:09,240 --> 00:04:10,760
+we can then define the loss function
+
+130
+00:04:10,760 --> 00:04:13,960
+Then train for 18 days on 592 V100 GPUs
+
+131
+00:04:13,960 --> 00:04:15,020
+the job is done
+
+132
+00:04:15,020 --> 00:04:16,209
+Isn't it simple?
+
+133
+00:04:16,209 --> 00:04:17,329
+This is OpenAI
+
+134
+00:04:17,329 --> 00:04:19,629
+the classic multimodal model CLIP does
+
+135
+00:04:19,629 --> 00:04:22,269
+It indeed collected 400 million high-quality pairs of posts.
+
+136
+00:04:22,269 --> 00:04:23,249
+and open-sourced the model weights after training
+
+137
+00:04:23,249 --> 00:04:25,570
+for downstream tasks
+
+138
+00:04:25,570 --> 00:04:27,230
+Does this image look familiar?
+
+139
+00:04:27,230 --> 00:04:30,200
+That's right, it's the result we just explored step by step in our video.
+
+140
+00:04:30,200 --> 00:04:31,440
+To make it feel familiar to you
+
+141
+00:04:31,440 --> 00:04:33,400
+I even adjusted the colors to be the same
+
+142
+00:04:33,400 --> 00:04:35,340
+How about giving us a Triple Combo for support?
+
+143
+00:04:35,340 --> 00:04:37,600
+At this point, we can answer the question raised at the beginning of the video
+
+144
+00:04:37,600 --> 00:04:40,100
+Why can't such an advanced AI still count fingers correctly?
+
+145
+00:04:40,100 --> 00:04:42,140
+Because the fundamental approach of this model
+
+146
+00:04:42,140 --> 00:04:43,420
+still converts the image into text first
+
+147
+00:04:43,420 --> 00:04:46,360
+or to be precise, alignment and adjustment are performed in the semantic space
+
+148
+00:04:46,360 --> 00:04:48,320
+After passing through the image encoder here
+
+149
+00:04:48,320 --> 00:04:50,740
+the image retains only semantically expressive information
+
+150
+00:04:50,740 --> 00:04:54,080
+In effect, it's equivalent to first converting the image into a textual description
+
+151
+00:04:54,080 --> 00:04:56,440
+You might think, isn't it easy to describe a picture?
+
+152
+00:04:56,440 --> 00:04:57,909
+Let's play a little game
+
+153
+00:04:57,909 --> 00:04:59,769
+Here is a very, very simple picture
+
+154
+00:04:59,769 --> 00:05:01,869
+Describe this picture in words
+
+155
+00:05:01,869 --> 00:05:03,260
+Any number of words will do
+
+156
+00:05:03,260 --> 00:05:05,760
+Then, I will ask you a question about this picture
+
+157
+00:05:05,760 --> 00:05:07,740
+See if based solely on your verbal description
+
+158
+00:05:07,740 --> 00:05:09,120
+without looking at the original image
+
+159
+00:05:09,120 --> 00:05:11,820
+Can you answer my question
+
+160
+00:05:11,820 --> 00:05:13,020
+Alright, my questions are these.
+
+161
+00:05:13,020 --> 00:05:15,160
+Take a look, which ones can be accurately answered based on your text description
+
+162
+00:05:15,160 --> 00:05:16,580
+questions that can be accurately answered
+
+163
+00:05:16,580 --> 00:05:17,860
+So the emergence of the problem of miscounting fingers
+
+164
+00:05:17,860 --> 00:05:20,260
+it's not that the large language model is unintelligent
+
+165
+00:05:20,260 --> 00:05:22,200
+nor is it due to insufficient modality alignment
+
+166
+00:05:22,200 --> 00:05:25,080
+but this approach itself is bound to lead to such problems
+
+167
+00:05:25,080 --> 00:05:26,300
+in the CLIP paper
+
+168
+00:05:26,300 --> 00:05:28,200
+The authors also pointed out the limitations in this aspect
+
+169
+00:05:28,200 --> 00:05:30,220
+even with training on such a large scale
+
+170
+00:05:30,220 --> 00:05:33,180
+but its accuracy on the MNIST dataset for handwritten digit recognition
+
+171
+00:05:33,180 --> 00:05:35,920
+not even comparable to the simplest logistic regression model
+
+172
+00:05:35,920 --> 00:05:38,000
+Of course, solving this specific issue is quite straightforward
+
+173
+00:05:38,000 --> 00:05:39,500
+for example, using a simple YOLO model
+
+174
+00:05:39,500 --> 00:05:41,040
+can accurately recognize fingers
+
+175
+00:05:41,040 --> 00:05:42,780
+and can even accurately mark the precise locations
+
+176
+00:05:42,780 --> 00:05:44,860
+but to train this capability into a general-purpose
+
+177
+00:05:44,860 --> 00:05:46,300
+generalizable multimodal model
+
+178
+00:05:46,300 --> 00:05:48,159
+it's not a matter of the same dimension
+
+179
+00:05:48,159 --> 00:05:49,559
+Uh, at the end of the video, let me introduce
+
+180
+00:05:49,559 --> 00:05:51,799
+This is a new large-scale series I've planned
+
+181
+00:05:51,799 --> 00:05:53,280
+video called AI's 100 Questions and Solutions
+
+182
+00:05:53,280 --> 00:05:55,980
+By answering 100 perplexing questions in the field of AI
+
+183
+00:05:55,980 --> 00:05:58,740
+To give everyone a profound understanding of the underlying principles of a particular technology
+
+184
+00:05:58,740 --> 00:06:00,020
+hope that after watching this series
+
+185
+00:06:00,020 --> 00:06:01,840
+everyone can maintain a balanced perspective on AI
+
+186
+00:06:01,840 --> 00:06:02,940
+nor overly disappointed
+
+187
+00:06:02,940 --> 00:06:04,940
+for example, seeing an AI's score surpass that of humans
+
+188
+00:06:04,940 --> 00:06:06,200
+think humanity is doomed
+
+189
+00:06:06,200 --> 00:06:07,880
+seeing the issue of AI miscounting fingers
+
+190
+00:06:07,880 --> 00:06:09,140
+think AI is all idiots
+
+191
+00:06:09,140 --> 00:06:10,820
+Based on today's video explanation
+
+192
+00:06:10,820 --> 00:06:11,960
+you should also be able to feel
+
+193
+00:06:11,960 --> 00:06:14,560
+Since large language models are trained on vast amounts of text
+
+194
+00:06:14,560 --> 00:06:16,950
+so it excels at summarizing and generalizing based on text
+
+195
+00:06:16,950 --> 00:06:18,510
+even in wordplay and reasoning
+
+196
+00:06:18,510 --> 00:06:19,990
+are far superior to humans
+
+197
+00:06:19,990 --> 00:06:22,460
+but precisely because the overall logic is based on text
+
+198
+00:06:22,460 --> 00:06:24,660
+The textual content itself is essentially a translation of human thought
+
+199
+00:06:24,660 --> 00:06:26,620
+the output after a layer of conversion
+
+200
+00:06:26,620 --> 00:06:28,780
+Now we still have to first convert the image into text
+
+201
+00:06:28,780 --> 00:06:31,950
+and then perform logical reasoning based on text to understand the image
+
+202
+00:06:31,950 --> 00:06:35,010
+Then this strategy will inevitably fail to address the problem of recognizing image details.
+
+203
+00:06:35,010 --> 00:06:36,240
+Let's brainstorm a bit here
+
+204
+00:06:36,240 --> 00:06:38,720
+If our large models were no longer trained based on text
+
+205
+00:06:38,720 --> 00:06:40,520
+but trained based on human thinking
+
+206
+00:06:40,520 --> 00:06:42,900
+Then perhaps the path to true multimodal integration can be truly opened up
+
+207
+00:06:42,900 --> 00:06:44,460
+But what exactly is human thought?
+
+208
+00:06:44,460 --> 00:06:46,580
+It seems we are simultaneously using text-based models
+
+209
+00:06:46,580 --> 00:06:48,420
+to try to understand people's thinking, uh
+
+210
+00:06:48,420 --> 00:06:49,760
+This series is suitable for everyone to watch
+
+211
+00:06:49,760 --> 00:06:51,200
+If you are a non-technical audience
+
+212
+00:06:51,200 --> 00:06:53,520
+hope this series can help you establish a technical perspective
+
+213
+00:06:53,520 --> 00:06:54,400
+perspective on issues
+
+214
+00:06:54,400 --> 00:06:56,330
+avoid being misled by many marketing accounts
+
+215
+00:06:56,330 --> 00:06:57,750
+And if you are a technical student
+
+216
+00:06:57,750 --> 00:06:59,810
+You can also refer to the points mentioned in this video
+
+217
+00:06:59,810 --> 00:07:01,810
+points not fully explored, delve deeper
+
+218
+00:07:01,810 --> 00:07:04,400
+In short, feel free to watch this series of videos
+

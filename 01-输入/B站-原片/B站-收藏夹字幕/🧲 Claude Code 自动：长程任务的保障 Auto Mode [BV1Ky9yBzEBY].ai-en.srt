@@ -1,0 +1,1600 @@
+1
+00:00:00,440 --> 00:00:01,120
+Hey everyone,
+
+2
+00:00:01,120 --> 00:00:02,110
+I'm Canghai Jiushu.
+
+3
+00:00:02,110 --> 00:00:03,790
+It's been a while since I've shared anything with you all.
+
+4
+00:00:03,790 --> 00:00:05,550
+some tips and tricks for using AI development tools.
+
+5
+00:00:05,550 --> 00:00:07,490
+So, I've actually been gathering up some related content recently.
+
+6
+00:00:07,490 --> 00:00:09,510
+So, I'm planning to share all of that over the next couple of weeks, around the International Workers' Day holiday.
+
+7
+00:00:09,510 --> 00:00:11,219
+and share them all with you in one go.
+
+8
+00:00:11,219 --> 00:00:13,759
+So, to kick things off today, I'm going to introduce a feature in CLOCK Code.
+
+9
+00:00:13,759 --> 00:00:16,759
+a new feature that I've been using a lot lately called Auto Mode.
+
+10
+00:00:16,759 --> 00:00:18,319
+or the Auto-Editing Mode.
+
+11
+00:00:18,319 --> 00:00:19,479
+So, with this mode,
+
+12
+00:00:19,479 --> 00:00:21,079
+This means you can finally do what you've always wanted to,
+
+13
+00:00:21,079 --> 00:00:23,990
+working continuously for hours on end.
+
+14
+00:00:23,990 --> 00:00:26,689
+without getting interrupted by all sorts of random permission requests.
+
+15
+00:00:26,689 --> 00:00:29,689
+And you won't have to enable that not-so-safe YELO mode either.
+
+16
+00:00:29,689 --> 00:00:32,128
+So, this is truly the first of its kind right now.
+
+17
+00:00:32,128 --> 00:00:33,950
+that ensures we can work safely.
+
+18
+00:00:33,950 --> 00:00:36,420
+an editing mode for long-haul tasks.
+
+19
+00:00:36,420 --> 00:00:38,740
+So today, we're going to introduce it to you.
+
+20
+00:00:38,740 --> 00:00:40,180
+how to enable and use it,
+
+21
+00:00:40,180 --> 00:00:42,020
+And I'll also give you a quick rundown of it.
+
+22
+00:00:42,020 --> 00:00:44,099
+and its basic工作机制.
+
+23
+00:00:44,099 --> 00:00:44,619
+Alright.
+
+24
+00:00:44,619 --> 00:00:47,699
+
+
+25
+00:00:47,699 --> 00:00:48,879
+the content of the introduction.
+
+26
+00:00:48,879 --> 00:00:50,099
+
+
+27
+00:00:50,099 --> 00:00:52,090
+This mode requires CLOCK Code.
+
+28
+00:00:52,090 --> 00:00:54,810
+version 2.1.83 or higher to use it.
+
+29
+00:00:54,810 --> 00:00:57,230
+And the latest version right now is already at 2.1.12.
+
+30
+00:00:57,230 --> 00:01:00,110
+So basically, for most of you, uh, if you're on a relatively new version...
+
+31
+00:01:00,110 --> 00:01:01,190
+will all support this mode.
+
+32
+00:01:01,190 --> 00:01:02,750
+It's just that, in the early days,
+
+33
+00:01:02,750 --> 00:01:05,840
+as for its API connection method,
+
+34
+00:01:05,840 --> 00:01:07,240
+the support wasn't very good.
+
+35
+00:01:07,240 --> 00:01:08,440
+But now, it's pretty much stable.
+
+36
+00:01:08,440 --> 00:01:09,800
+So I've been using it myself.
+
+37
+00:01:09,800 --> 00:01:11,440
+So now's a really good time for it.
+
+38
+00:01:11,440 --> 00:01:13,680
+So, let me walk you through this new feature.
+
+39
+00:01:13,680 --> 00:01:15,400
+Alright, so down here...
+
+40
+00:01:15,400 --> 00:01:18,000
+So, right here, let's go over some of the conditions for using Auto Mode.
+
+41
+00:01:18,000 --> 00:01:19,500
+And we've actually provided a detailed explanation for that as well.
+
+42
+00:01:19,500 --> 00:01:22,610
+This includes which plans it supports.
+
+43
+00:01:22,610 --> 00:01:25,310
+To put it simply, it's not supported on the Pro plan, but it is on all the others.
+
+44
+00:01:25,310 --> 00:01:27,810
+Or, you can just use the API connection method directly.
+
+45
+00:01:27,810 --> 00:01:29,030
+And that's fully supported as well.
+
+46
+00:01:29,030 --> 00:01:30,759
+If you're using the API connection method,
+
+47
+00:01:30,759 --> 00:01:32,839
+So, make sure that the way you're connecting...
+
+48
+00:01:32,839 --> 00:01:36,399
+It's connected through the standard ANTHROPIC API.
+
+49
+00:01:36,399 --> 00:01:39,130
+You can have some agents in between, you know.
+
+50
+00:01:39,130 --> 00:01:40,750
+as long as you're using the standard one.
+
+51
+00:01:40,750 --> 00:01:42,310
+So, any ANTHROPIC interface will work just fine.
+
+52
+00:01:42,310 --> 00:01:44,570
+And if you're using third-party connection interfaces,
+
+53
+00:01:44,570 --> 00:01:47,130
+you won't be able to use this working mode for now.
+
+54
+00:01:47,130 --> 00:01:50,150
+Also, there are a few minor limitations when it comes to the models.
+
+55
+00:01:50,150 --> 00:01:52,050
+So, to put it simply, for weaker models...
+
+56
+00:01:52,050 --> 00:01:54,940
+Models like CLOS3 are either a bit too old,
+
+57
+00:01:54,940 --> 00:01:57,460
+Or, if the model is just too weak, it won't support this Auto Mode either.
+
+58
+00:01:57,460 --> 00:01:59,360
+You'll need at least the current SOTA models.
+
+59
+00:01:59,360 --> 00:02:00,800
+So, that would be SONY 4.6,
+
+60
+00:02:00,800 --> 00:02:02,530
+like Opus 4.6 or 4.7.
+
+61
+00:02:02,530 --> 00:02:04,650
+So, basically, our usage requirements...
+
+62
+00:02:04,650 --> 00:02:06,810
+So, the requirements are actually pretty lenient right now.
+
+63
+00:02:06,810 --> 00:02:09,449
+So, feel free to go ahead and use it under these conditions.
+
+64
+00:02:09,449 --> 00:02:10,759
+and use it effectively.
+
+65
+00:02:10,759 --> 00:02:12,800
+Alright, let's switch over to Cloud Code now.
+
+66
+00:02:12,800 --> 00:02:15,480
+So let me show you how to actually use this mode.
+
+67
+00:02:15,480 --> 00:02:16,280
+So, how do I turn it on?
+
+68
+00:02:16,280 --> 00:02:18,420
+And then we'll go through some basic operations.
+
+69
+00:02:18,420 --> 00:02:21,100
+Alright, let's head over to the CLOCK Code interface.
+
+70
+00:02:21,100 --> 00:02:23,600
+First off, you can see down at the very bottom.
+
+71
+00:02:23,600 --> 00:02:26,360
+If you've successfully enabled Auto Mode,
+
+72
+00:02:26,360 --> 00:02:28,160
+you'll see a line that looks like this.
+
+73
+00:02:28,160 --> 00:02:29,360
+So, right here in this line,
+
+74
+00:02:29,360 --> 00:02:31,160
+For those of you who have been using CLOCKO all along,
+
+75
+00:02:31,160 --> 00:02:32,950
+you should be pretty familiar with where this line is.
+
+76
+00:02:32,950 --> 00:02:35,630
+Before, we were usually in what's called 'Auto' mode.
+
+77
+00:02:35,630 --> 00:02:37,870
+or what we call the 'accept edit' mode.
+
+78
+00:02:37,870 --> 00:02:41,100
+Or the 'play mode'... all these modes show up right in this line.
+
+79
+00:02:41,100 --> 00:02:44,160
+You can also switch modes by pressing Shift+Tab.
+
+80
+00:02:44,160 --> 00:02:46,200
+For example, we can click it again.
+
+81
+00:02:46,200 --> 00:02:49,340
+So, this switches you to an edit mode that has, well, no permissions at all.
+
+82
+00:02:49,340 --> 00:02:51,610
+And then, once again, 'asset edits on'.
+
+83
+00:02:51,610 --> 00:02:55,590
+So, in this mode, you'll still get a lot of permission prompts.
+
+84
+00:02:55,590 --> 00:02:59,690
+So, once you've accepted the rules for a specific permission,
+
+85
+00:02:59,690 --> 00:03:00,870
+and it won't prompt you again.
+
+86
+00:03:00,870 --> 00:03:02,450
+But the first time it pops up,
+
+87
+00:03:02,450 --> 00:03:04,810
+Basically, you'll get a prompt for pretty much everything.
+
+88
+00:03:04,810 --> 00:03:06,770
+And right below that, we have Play Mode.
+
+89
+00:03:06,770 --> 00:03:08,330
+Alright, let's talk about our Plan Mode.
+
+90
+00:03:08,330 --> 00:03:10,400
+And the next one is Auto Mode.
+
+91
+00:03:10,400 --> 00:03:12,100
+So, as you can see now,
+
+92
+00:03:12,100 --> 00:03:13,940
+So, basically, we have four modes right now.
+
+93
+00:03:13,940 --> 00:03:15,260
+One is where it asks for permission every single time.
+
+94
+00:03:15,260 --> 00:03:18,109
+Another is to remember the ones you've already accepted.
+
+95
+00:03:18,109 --> 00:03:21,409
+and the operational permissions required for those accepted instructions.
+
+96
+00:03:21,409 --> 00:03:22,890
+and then it stops asking.
+
+97
+00:03:22,890 --> 00:03:24,810
+And the third point is what we're going to talk about right now.
+
+98
+00:03:24,810 --> 00:03:26,650
+This automated mode of operation,
+
+99
+00:03:26,650 --> 00:03:30,100
+In this mode, you'll basically never see any permission prompts.
+
+100
+00:03:30,100 --> 00:03:31,400
+You know, those kinds of prompts.
+
+101
+00:03:31,400 --> 00:03:33,060
+Now, keep in mind, you'll basically never see them.
+
+102
+00:03:33,060 --> 00:03:34,100
+But that doesn't mean they're not there.
+
+103
+00:03:34,100 --> 00:03:35,980
+Because its, uh...
+
+104
+00:03:35,980 --> 00:03:38,700
+The permission check might, in fact, reject certain operations.
+
+105
+00:03:38,700 --> 00:03:42,180
+And at that point, it might even stop and ask you for instructions.
+
+106
+00:03:42,180 --> 00:03:43,700
+asking if it should proceed.
+
+107
+00:03:43,700 --> 00:03:47,240
+or how it should proceed.
+
+108
+00:03:47,240 --> 00:03:48,920
+So, when it comes to actually using it,
+
+109
+00:03:48,920 --> 00:03:50,480
+So, it's actually very simple.
+
+110
+00:03:50,480 --> 00:03:51,680
+Because once you switch to this mode,
+
+111
+00:03:51,680 --> 00:03:55,769
+So basically, in most cases, you won't have any of that...
+
+112
+00:03:55,769 --> 00:03:56,569
+permission requests.
+
+113
+00:03:56,569 --> 00:03:58,669
+So you can just go ahead and do what you need to do without any worries.
+
+114
+00:03:58,669 --> 00:04:01,209
+So, for example, let's say we input a command right here.
+
+115
+00:04:01,209 --> 00:04:03,860
+And then, have it review the recent commits and P2s.
+
+116
+00:04:03,860 --> 00:04:06,000
+Alright, so let's see what this actually looks like in action.
+
+117
+00:04:06,000 --> 00:04:07,440
+So, here's the thing.
+
+118
+00:04:09,800 --> 00:04:10,160
+Alright.
+
+119
+00:04:10,160 --> 00:04:12,200
+We'll have to wait for it to start running some of this stuff.
+
+120
+00:04:12,200 --> 00:04:13,570
+some specific commands.
+
+121
+00:04:13,570 --> 00:04:14,650
+Alright, so over here,
+
+122
+00:04:14,650 --> 00:04:16,170
+As you can all see now,
+
+123
+00:04:16,170 --> 00:04:17,890
+Next, we're going to run a bash command.
+
+124
+00:04:17,890 --> 00:04:20,139
+and then execute a local command-line.
+
+125
+00:04:20,139 --> 00:04:22,579
+GH is basically for executing commands on the GitHub command line.
+
+126
+00:04:22,579 --> 00:04:25,659
+And it prints out a very clear sentence for us right here.
+
+127
+00:04:25,659 --> 00:04:29,080
+It's 'allowed by the Auto Mode classifier'.
+
+128
+00:04:29,080 --> 00:04:31,400
+So, in other words, it's telling us that this command...
+
+129
+00:04:31,400 --> 00:04:33,000
+So, if you guys want to do a little comparison,
+
+130
+00:04:33,000 --> 00:04:35,800
+If you have this Assets Editor mode enabled,
+
+131
+00:04:35,800 --> 00:04:37,610
+So, when you're working with a new repository,
+
+132
+00:04:37,610 --> 00:04:39,170
+So, the first time you run this command,
+
+133
+00:04:39,170 --> 00:04:40,650
+It will definitely be intercepted.
+
+134
+00:04:40,650 --> 00:04:41,490
+And it'll give you a prompt.
+
+135
+00:04:41,490 --> 00:04:43,870
+asking if you want to always accept it.
+
+136
+00:04:43,870 --> 00:04:45,330
+Or, in other words, it has to ask you every single time.
+
+137
+00:04:45,330 --> 00:04:47,440
+So you'll definitely see a prompt like this.
+
+138
+00:04:47,440 --> 00:04:50,840
+Now, it's handled by a classifier in the Auto Mode.
+
+139
+00:04:50,840 --> 00:04:52,020
+to make the judgment call.
+
+140
+00:04:52,020 --> 00:04:54,240
+If it determines that the action is safe,
+
+141
+00:04:54,240 --> 00:04:57,300
+Then it will be allowed and the process will continue to flow directly.
+
+142
+00:04:57,300 --> 00:04:59,140
+So, as you can clearly see here,
+
+143
+00:04:59,140 --> 00:05:00,180
+So, with this mode,
+
+144
+00:05:00,180 --> 00:05:02,180
+This is especially true when you're running long, complex tasks.
+
+145
+00:05:02,180 --> 00:05:04,790
+is super helpful for you to, you know...
+
+146
+00:05:04,790 --> 00:05:06,110
+to run without any interruptions,
+
+147
+00:05:06,110 --> 00:05:08,430
+and run long tasks without any prompts.
+
+148
+00:05:08,430 --> 00:05:11,500
+So, what happens if it gets rejected?
+
+149
+00:05:11,500 --> 00:05:13,260
+But we might not be able to demonstrate that here.
+
+150
+00:05:13,260 --> 00:05:14,220
+Let's say it gets rejected.
+
+151
+00:05:14,220 --> 00:05:15,260
+Generally speaking, some actions can be a bit risky.
+
+152
+00:05:15,260 --> 00:05:17,050
+Certain actions, like deletions, might get rejected.
+
+153
+00:05:17,050 --> 00:05:19,370
+But even if it gets rejected, we're not worried.
+
+154
+00:05:19,370 --> 00:05:20,970
+In one scenario, its judgment might actually be correct.
+
+155
+00:05:20,970 --> 00:05:21,910
+we shouldn't execute it.
+
+156
+00:05:21,910 --> 00:05:25,609
+One way is to just include it in the very next command.
+
+157
+00:05:25,609 --> 00:05:26,689
+So we just tell it,
+
+158
+00:05:26,689 --> 00:05:27,569
+approve the previous action.
+
+159
+00:05:27,569 --> 00:05:29,589
+Or, you can just say 'approve' in English, and that'll work too.
+
+160
+00:05:29,589 --> 00:05:32,720
+It will act based on your specific instructions.
+
+161
+00:05:32,720 --> 00:05:37,160
+And then it will go ahead and adjust how its classifier is executed.
+
+162
+00:05:37,160 --> 00:05:39,290
+It's a decision-making logic.
+
+163
+00:05:39,290 --> 00:05:40,810
+Or, let's say, it's based on the context.
+
+164
+00:05:40,810 --> 00:05:43,250
+So, when it re-executes the classify function,
+
+165
+00:05:43,250 --> 00:05:45,990
+And it will go ahead and execute the command.
+
+166
+00:05:45,990 --> 00:05:47,950
+So, you really don't need to worry about this part.
+
+167
+00:05:47,950 --> 00:05:51,360
+So, uh, even if it gets rejected by this,
+
+168
+00:05:51,360 --> 00:05:54,729
+you can actually force it to continue, alright?
+
+169
+00:05:54,729 --> 00:05:57,129
+So, that's the basic way it works.
+
+170
+00:05:57,129 --> 00:05:58,449
+It's actually very simple.
+
+171
+00:05:58,449 --> 00:06:02,610
+Alright, so what we want to explain here is that, by default,
+
+172
+00:06:02,610 --> 00:06:04,450
+Normally, this isn't the mode we start in, right?
+
+173
+00:06:04,450 --> 00:06:05,250
+not in this mode.
+
+174
+00:06:05,250 --> 00:06:08,960
+So, if you want your, uh, CLOCK Code...
+
+175
+00:06:08,960 --> 00:06:12,640
+Or, let's say, you want every single session to use this Auto Mode.
+
+176
+00:06:12,640 --> 00:06:13,760
+So, what should you do?
+
+177
+00:06:13,760 --> 00:06:16,510
+Alright, everyone, just use the `/configure` command.
+
+178
+00:06:16,510 --> 00:06:18,459
+to enter its editing... uh...
+
+179
+00:06:18,459 --> 00:06:21,099
+the options area for the region and editing, right?
+
+180
+00:06:21,099 --> 00:06:23,239
+And right here, you'll be able to find this section.
+
+181
+00:06:23,239 --> 00:06:25,130
+called 'default permission mode'.
+
+182
+00:06:25,130 --> 00:06:27,190
+the default permission mode.
+
+183
+00:06:27,190 --> 00:06:29,650
+And you can just use the spacebar to make your selection.
+
+184
+00:06:29,650 --> 00:06:31,520
+For example, one option is, uh, not to ask any questions.
+
+185
+00:06:31,520 --> 00:06:32,400
+One is the default.
+
+186
+00:06:32,400 --> 00:06:33,080
+This one just keeps asking questions.
+
+187
+00:06:33,080 --> 00:06:34,040
+One is Plan Mode.
+
+188
+00:06:34,040 --> 00:06:37,100
+One is a mode that requires user confirmation for every action.
+
+189
+00:06:37,100 --> 00:06:39,690
+And then, there's our Auto Mode.
+
+190
+00:06:39,690 --> 00:06:42,910
+So, once you've selected Auto Mode, you're all set.
+
+191
+00:06:42,910 --> 00:06:46,030
+And right below that, there's another option called 'use auto mode during plan'.
+
+192
+00:06:46,030 --> 00:06:50,480
+So, you can also set the Auto Mode to be on by default in Plan Mode.
+
+193
+00:06:50,480 --> 00:06:51,620
+And this is actually a really important point, too.
+
+194
+00:06:51,620 --> 00:06:53,800
+Because, you see, the Plan Mode is actually pretty powerful right now.
+
+195
+00:06:53,800 --> 00:06:55,340
+It's essentially a sub-agent itself.
+
+196
+00:06:55,340 --> 00:06:58,180
+In fact, it also involves a ton of local file queries.
+
+197
+00:06:58,180 --> 00:06:59,540
+as well as all sorts of operations for querying files online.
+
+198
+00:06:59,540 --> 00:07:02,470
+So, I'd recommend keeping the default setting as 'true'.
+
+199
+00:07:02,470 --> 00:07:04,930
+So, it's best not to go in and change this setting.
+
+200
+00:07:04,930 --> 00:07:07,290
+So, if you want to make sure that in the future...
+
+201
+00:07:07,290 --> 00:07:08,830
+you'll always be using Auto Mode by default.
+
+202
+00:07:08,830 --> 00:07:10,150
+So, what you do is go into 'configure',
+
+203
+00:07:10,150 --> 00:07:11,190
+Then, go ahead and select this one.
+
+204
+00:07:11,190 --> 00:07:13,650
+And then, after we hit Enter to confirm,
+
+205
+00:07:13,650 --> 00:07:17,079
+So, the default mode will now be Auto Mode.
+
+206
+00:07:17,079 --> 00:07:20,740
+
+
+207
+00:07:20,740 --> 00:07:23,080
+In fact, it's also explained very clearly on the page.
+
+208
+00:07:23,080 --> 00:07:25,299
+So, all the mode introductions you've seen so far...
+
+209
+00:07:25,299 --> 00:07:25,659
+Alright,
+
+210
+00:07:25,659 --> 00:07:26,539
+So, what about the default mode?
+
+211
+00:07:26,539 --> 00:07:30,459
+This means that only read-only operations won't trigger a prompt.
+
+212
+00:07:30,459 --> 00:07:32,579
+Any other type of operation will be blocked.
+
+213
+00:07:32,579 --> 00:07:36,100
+and then it asks you to allow it, just like how we used to do with the 'accept' command all the time.
+
+214
+00:07:36,100 --> 00:07:37,010
+edits, you know.
+
+215
+00:07:37,010 --> 00:07:40,330
+For operations like reading and editing files, and common file system commands,
+
+216
+00:07:40,330 --> 00:07:42,050
+So it won't prompt you for those either.
+
+217
+00:07:42,050 --> 00:07:44,510
+And, uh, everything else will be blocked.
+
+218
+00:07:44,510 --> 00:07:45,950
+It will ask you if you want to allow it.
+
+219
+00:07:45,950 --> 00:07:47,420
+or you can just allow it for all future requests.
+
+220
+00:07:47,420 --> 00:07:49,980
+So, the Plan mode also only has read access.
+
+221
+00:07:49,980 --> 00:07:51,460
+So it won't ask you any questions.
+
+222
+00:07:51,460 --> 00:07:53,100
+It won't prompt you with questions.
+
+223
+00:07:53,100 --> 00:07:54,900
+Do you want to allow Auto Mode?
+
+224
+00:07:54,900 --> 00:07:56,560
+So, for all the operations we've been talking about,
+
+225
+00:07:56,560 --> 00:07:58,620
+All of these operations come with a built-in, background security check.
+
+226
+00:07:58,620 --> 00:08:02,500
+So by default, it won't ask you for permission for any of these actions.
+
+227
+00:08:02,500 --> 00:08:04,300
+When it does ask you,
+
+228
+00:08:04,300 --> 00:08:06,720
+the only time it will ask is when it has to reject your command.
+
+229
+00:08:06,720 --> 00:08:08,900
+And then the AI figures it out,
+
+230
+00:08:08,900 --> 00:08:10,350
+The whole team realizes they've hit a wall and can't proceed.
+
+231
+00:08:10,350 --> 00:08:12,270
+It does this by asking you a question.
+
+232
+00:08:12,270 --> 00:08:14,350
+or gets interrupted in some other way.
+
+233
+00:08:14,350 --> 00:08:15,470
+and tells you,
+
+234
+00:08:15,470 --> 00:08:19,240
+We now need you to decide on the next course of action.
+
+235
+00:08:19,240 --> 00:08:21,320
+It's not just a simple stop.
+
+236
+00:08:21,320 --> 00:08:23,280
+Then it'll ask you for permission.
+
+237
+00:08:23,280 --> 00:08:23,640
+blah, blah, blah.
+
+238
+00:08:23,640 --> 00:08:26,909
+It will only interrupt or terminate the task.
+
+239
+00:08:26,909 --> 00:08:30,149
+Alright, so the DON'TASK mode is for pre-approved tools only.
+
+240
+00:08:30,149 --> 00:08:31,309
+So, as for the 'do_not_task' we saw earlier...
+
+241
+00:08:31,309 --> 00:08:33,229
+Now, at first glance, A and auto might seem very similar.
+
+242
+00:08:33,229 --> 00:08:35,640
+But in reality, its permissions are very limited.
+
+243
+00:08:35,640 --> 00:08:38,200
+It only allows execution by approved tools.
+
+244
+00:08:38,200 --> 00:08:40,020
+This makes it particularly suitable for CI and scripting.
+
+245
+00:08:40,020 --> 00:08:41,740
+And the last one is the brute-force mode.
+
+246
+00:08:41,740 --> 00:08:43,640
+I call it 'brute-force,' or, you know, 'playground mode.'
+
+247
+00:08:43,640 --> 00:08:45,510
+Bypass permissions.
+
+248
+00:08:45,510 --> 00:08:48,380
+This means it'll perform any operation, except for those on protected paths.
+
+249
+00:08:48,380 --> 00:08:51,320
+So, we generally don't recommend this approach.
+
+250
+00:08:51,320 --> 00:08:53,820
+And it's generally only suitable for containers or virtual machines.
+
+251
+00:08:53,820 --> 00:08:54,780
+So, when you enable this mode...
+
+252
+00:08:54,780 --> 00:08:57,910
+Basically, uh, they call it a 'protected path' or something.
+
+253
+00:08:57,910 --> 00:08:59,750
+So basically, by default, when we first turn it on,
+
+254
+00:08:59,750 --> 00:09:02,510
+This means your entire file system is exposed to it.
+
+255
+00:09:02,510 --> 00:09:03,790
+So, before we had this,
+
+256
+00:09:03,790 --> 00:09:07,170
+So, to save you all from having to deal with these permissions every single time,
+
+257
+00:09:07,170 --> 00:09:09,650
+So, a lot of people were willing to just enable the bypass mode.
+
+258
+00:09:09,650 --> 00:09:10,910
+But that mode isn't safe.
+
+259
+00:09:10,910 --> 00:09:12,810
+But now, with the new Auto Mode,
+
+260
+00:09:12,810 --> 00:09:15,130
+we can use this mode with complete peace of mind.
+
+261
+00:09:15,130 --> 00:09:16,990
+It has a built-in safety detection system.
+
+262
+00:09:16,990 --> 00:09:20,560
+And on top of that, it pretty much won't interrupt your workflow at all.
+
+263
+00:09:20,560 --> 00:09:22,360
+So, I've absolutely got to recommend this mode to everyone.
+
+264
+00:09:22,360 --> 00:09:24,410
+So I really hope you all can start using it as soon as possible.
+
+265
+00:09:24,410 --> 00:09:25,710
+Alright, so...
+
+266
+00:09:25,710 --> 00:09:26,570
+So, on top of that,
+
+267
+00:09:26,570 --> 00:09:28,490
+We also need to show you something else.
+
+268
+00:09:28,490 --> 00:09:31,730
+So, let's talk about some of the other working mechanisms of the Auto Mode.
+
+269
+00:09:31,730 --> 00:09:33,180
+So, what does that look like?
+
+270
+00:09:33,180 --> 00:09:37,060
+Alright, so we've actually seen this working mechanism before.
+
+271
+00:09:37,060 --> 00:09:40,800
+So, the core keyword here is the 'classifier'.
+
+272
+00:09:40,800 --> 00:09:44,790
+So, this classifier comes with its own set of built-in rules.
+
+273
+00:09:44,790 --> 00:09:46,410
+So, right here, you can see it.
+
+274
+00:09:46,410 --> 00:09:47,950
+So, what gets blocked by default?
+
+275
+00:09:47,950 --> 00:09:50,140
+So, when you're actually running it,
+
+276
+00:09:50,140 --> 00:09:52,160
+and you see a 'denied by' something or other,
+
+277
+00:09:52,160 --> 00:09:54,060
+denied by the Auto Mode classifier.
+
+278
+00:09:54,060 --> 00:09:54,920
+So, don't be surprised by this.
+
+279
+00:09:54,920 --> 00:09:57,030
+Most of the time, it's because you've triggered one of these rules.
+
+280
+00:09:57,030 --> 00:09:58,350
+and then grant it permission by default.
+
+281
+00:09:58,350 --> 00:10:00,790
+And it's actually all laid out very clearly here.
+
+282
+00:10:00,790 --> 00:10:02,230
+So, this is something you all really need to know.
+
+283
+00:10:02,230 --> 00:10:06,420
+Behind the scenes, it's running a CLASSIFIER, which is basically a classification tool.
+
+284
+00:10:06,420 --> 00:10:09,060
+So, the thing about this classifier running...
+
+285
+00:10:09,060 --> 00:10:10,200
+And one thing you really need to pay attention to is this:
+
+286
+00:10:10,200 --> 00:10:12,960
+And yes, this will also cost you tokens.
+
+287
+00:10:12,960 --> 00:10:15,400
+So, for this final part,
+
+288
+00:10:15,400 --> 00:10:20,569
+So, you can see that the cost classifier runs independently of your main model.
+
+289
+00:10:20,569 --> 00:10:22,369
+and it runs on the server configuration you've selected.
+
+290
+00:10:22,369 --> 00:10:24,529
+So, your model might be, say, GPT-4.7.
+
+291
+00:10:24,529 --> 00:10:25,880
+It doesn't have to be this specific model.
+
+292
+00:10:25,880 --> 00:10:28,720
+But behind the scenes, it's actually powered by a model.
+
+293
+00:10:28,720 --> 00:10:30,720
+In reality, it's nothing more than these cloud-based models.
+
+294
+00:10:30,720 --> 00:10:32,240
+It's probably just a lightweight model.
+
+295
+00:10:32,240 --> 00:10:34,320
+Now, one thing you all have to remember is this:
+
+296
+00:10:34,320 --> 00:10:35,880
+So, when you're using this classifier,
+
+297
+00:10:35,880 --> 00:10:38,400
+Now, using Auto Mode does come with an extra cost.
+
+298
+00:10:38,400 --> 00:10:40,580
+So, don't go thinking this is a freebie, okay?
+
+299
+00:10:40,580 --> 00:10:41,360
+Not at all.
+
+300
+00:10:41,360 --> 00:10:42,620
+So that's why it's governed by rules.
+
+301
+00:10:42,620 --> 00:10:44,460
+And on top of that, you can even customize those rules.
+
+302
+00:10:44,460 --> 00:10:47,060
+So, this is something you all really need to pay attention to.
+
+303
+00:10:47,060 --> 00:10:49,620
+Alright, so there are two other important things. First...
+
+304
+00:10:49,620 --> 00:10:51,840
+So, how does this classifier evaluate an action?
+
+305
+00:10:51,840 --> 00:10:52,560
+As I mentioned earlier,
+
+306
+00:10:52,560 --> 00:10:54,480
+If you'd like to know more about the specific details here,
+
+307
+00:10:54,480 --> 00:10:57,120
+
+
+308
+00:10:57,120 --> 00:10:59,450
+This includes things like the Auto Mode.
+
+309
+00:10:59,450 --> 00:11:01,800
+And it supports sub-agents.
+
+310
+00:11:01,800 --> 00:11:03,040
+In other words, the sub-agent.
+
+311
+00:11:03,040 --> 00:11:04,880
+So, it will use its classifier...
+
+312
+00:11:04,880 --> 00:11:07,840
+It will check the sub-agent's work at three specific points.
+
+313
+00:11:07,840 --> 00:11:10,010
+So, before it starts, while it's running, and when it's done.
+
+314
+00:11:10,010 --> 00:11:12,010
+It will perform relevant checks for all of these.
+
+315
+00:11:12,010 --> 00:11:12,770
+So, there will be more checks.
+
+316
+00:11:12,770 --> 00:11:14,730
+So, what this means is, if you're using a sub-agent,
+
+317
+00:11:14,730 --> 00:11:15,930
+And on top of that, there's Auto Mode.
+
+318
+00:11:15,930 --> 00:11:17,480
+That means it's going to cost you more.
+
+319
+00:11:17,480 --> 00:11:18,760
+So, to put it simply, that's how it works.
+
+320
+00:11:18,760 --> 00:11:23,390
+So, the bottom line is, just remember that this Auto Mode is incredibly useful.
+
+321
+00:11:23,390 --> 00:11:25,370
+But keep in mind, it's going to cost you extra.
+
+322
+00:11:25,370 --> 00:11:28,910
+Alright, let's get back to our command line.
+
+323
+00:11:28,910 --> 00:11:30,670
+Let me show you guys CLOCK.
+
+324
+00:11:30,670 --> 00:11:32,690
+In fact, there's a dedicated command for this now.
+
+325
+00:11:32,690 --> 00:11:36,400
+to help you all manage the Auto Mode.
+
+326
+00:11:36,400 --> 00:11:38,760
+So, you can all use the Cloud Auto Mode.
+
+327
+00:11:38,760 --> 00:11:39,960
+And keep in mind, this is a sub-command.
+
+328
+00:11:39,960 --> 00:11:43,520
+And then, you can expand it to see the related operations it allows.
+
+329
+00:11:43,520 --> 00:11:44,960
+So, for us, what this means is...
+
+330
+00:11:44,960 --> 00:11:47,320
+So you can go and check it out from time to time.
+
+331
+00:11:47,320 --> 00:11:48,670
+So, it's about its 'defaults'.
+
+332
+00:11:48,670 --> 00:11:52,380
+In other words, it shows you what its default rules are.
+
+333
+00:11:52,380 --> 00:11:54,460
+If you're interested in what those rules are,
+
+334
+00:11:54,460 --> 00:11:55,940
+You can go ahead and type it out to see for yourselves.
+
+335
+00:11:55,940 --> 00:11:59,479
+So right here, you can see all of its, uh...
+
+336
+00:11:59,479 --> 00:12:01,779
+All the relevant rules will be listed right here.
+
+337
+00:12:01,779 --> 00:12:04,899
+This lets everyone know what it's currently blocking.
+
+338
+00:12:04,899 --> 00:12:05,930
+and which ones will be allowed.
+
+339
+00:12:05,930 --> 00:12:07,890
+And these rules are actually pretty easy to figure out.
+
+340
+00:12:07,890 --> 00:12:11,530
+This means it will be integrated with the backend model.
+
+341
+00:12:11,530 --> 00:12:14,560
+And then it'll go ahead and perform the relevant operations. Alright.
+
+342
+00:12:14,560 --> 00:12:18,200
+And then, you can also use the CONFIG command.
+
+343
+00:12:18,200 --> 00:12:22,040
+to print out what your current settings look like.
+
+344
+00:12:22,040 --> 00:12:26,120
+You can also use the 'critic' to, you know, review your current rules.
+
+345
+00:12:26,120 --> 00:12:29,990
+to have it review things to a certain extent. Alright.
+
+346
+00:12:29,990 --> 00:12:33,490
+All the operations you've done so far are basically read-only.
+
+347
+00:12:33,490 --> 00:12:34,370
+So, I'm sure you're all curious.
+
+348
+00:12:34,370 --> 00:12:35,770
+So, since I can define the rules,
+
+349
+00:12:35,770 --> 00:12:36,950
+So, where do I define them?
+
+350
+00:12:36,950 --> 00:12:39,300
+
+
+351
+00:12:39,300 --> 00:12:41,460
+And then, find the section on configuring Auto Mode.
+
+352
+00:12:41,460 --> 00:12:43,860
+It'll take you to a separate page to walk you through it.
+
+353
+00:12:43,860 --> 00:12:46,030
+on how to configure Auto Mode.
+
+354
+00:12:46,030 --> 00:12:48,670
+And there's quite a bit of content here.
+
+355
+00:12:48,670 --> 00:12:50,570
+So, we won't get into all the details here.
+
+356
+00:12:50,570 --> 00:12:52,810
+So, you can head over to this page to learn more about it.
+
+357
+00:12:52,810 --> 00:12:55,610
+So, where exactly do you go to set this up?
+
+358
+00:12:55,610 --> 00:12:57,290
+Basically, it's about the hierarchical relationship of the directories.
+
+359
+00:12:57,290 --> 00:13:00,000
+So, where do you actually need to go to do this?
+
+360
+00:13:00,000 --> 00:13:02,640
+and the input for the relevant content.
+
+361
+00:13:02,640 --> 00:13:05,000
+For example, let's say you have a dedicated field here called AUTOMODE.
+
+362
+00:13:05,000 --> 00:13:07,340
+So, what kind of inputs does it take?
+
+363
+00:13:07,340 --> 00:13:10,740
+And then, how are the items organized in relation to each other?
+
+364
+00:13:10,740 --> 00:13:12,100
+And then, let's break it down item by item.
+
+365
+00:13:12,100 --> 00:13:13,460
+So, how should you write it?
+
+366
+00:13:13,460 --> 00:13:14,830
+And then, how should we write it?
+
+367
+00:13:14,830 --> 00:13:15,830
+That would be a bit better.
+
+368
+00:13:15,830 --> 00:13:16,330
+and so on and so forth.
+
+369
+00:13:16,330 --> 00:13:19,370
+
+
+370
+00:13:19,370 --> 00:13:21,810
+So let me break it down for you in detail.
+
+371
+00:13:21,810 --> 00:13:24,910
+So, the core of it all comes down to the features of Auto Mode.
+
+372
+00:13:24,910 --> 00:13:26,330
+First of all, it's rule-based.
+
+373
+00:13:26,330 --> 00:13:29,240
+And these rules are customizable.
+
+374
+00:13:29,240 --> 00:13:32,860
+And these custom rules will be processed online.
+
+375
+00:13:32,860 --> 00:13:37,060
+and they are executed and used when the classifier is triggered.
+
+376
+00:13:37,060 --> 00:13:39,480
+So, it's a combination of local and online.
+
+377
+00:13:39,480 --> 00:13:42,040
+It's this kind of interactive state.
+
+378
+00:13:42,040 --> 00:13:45,260
+Alright, so that's pretty much everything we wanted to cover.
+
+379
+00:13:45,260 --> 00:13:48,280
+So, to put it simply, I highly recommend you turn it on right away.
+
+380
+00:13:48,280 --> 00:13:49,360
+So, about this Auto Mode...
+
+381
+00:13:49,360 --> 00:13:50,960
+And turning it on is super simple, too.
+
+382
+00:13:50,960 --> 00:13:53,680
+And you don't even have to customize these rules at all.
+
+383
+00:13:53,680 --> 00:13:54,880
+And that's more than enough for most cases.
+
+384
+00:13:54,880 --> 00:13:57,640
+So, once you've turned on Auto Mode,
+
+385
+00:13:57,640 --> 00:13:59,540
+By default, all your actions are permitted.
+
+386
+00:13:59,540 --> 00:14:02,220
+Only certain specific operations that violate the rules will be blocked.
+
+387
+00:14:02,220 --> 00:14:04,100
+But even if an action is blocked, there's no need to worry.
+
+388
+00:14:04,100 --> 00:14:05,500
+You can do this through a command,
+
+389
+00:14:05,500 --> 00:14:06,940
+Just tell it, 'I'm allowing this.'
+
+390
+00:14:06,940 --> 00:14:08,140
+And then, you can just let it continue.
+
+391
+00:14:08,140 --> 00:14:10,220
+to just keep pushing forward with your tasks.
+
+392
+00:14:10,220 --> 00:14:12,140
+And typically, it's even more user-friendly.
+
+393
+00:14:12,140 --> 00:14:14,780
+For instance, a model like GPT-4.7 will give you a whole series of suggestions.
+
+394
+00:14:14,780 --> 00:14:17,260
+to guide your next steps.
+
+395
+00:14:17,260 --> 00:14:19,520
+So, the feature we're introducing today is this Auto Mode.
+
+396
+00:14:19,520 --> 00:14:22,700
+This is for those marathon coding sessions that can last for hours.
+
+397
+00:14:22,700 --> 00:14:24,680
+providing a fundamental guarantee for automated development.
+
+398
+00:14:24,680 --> 00:14:26,950
+We hope this will be helpful for your future use.
+
+399
+00:14:26,950 --> 00:14:27,870
+And that's all for today's sharing.
+
+400
+00:14:27,870 --> 00:14:28,900
+Thank you, everyone.
+

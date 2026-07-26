@@ -1,0 +1,2716 @@
+1
+00:00:00,840 --> 00:00:01,400
+Hey everyone,
+
+2
+00:00:01,400 --> 00:00:03,280
+I'm the Canghai Jiusu Lian, your ambassador for the劝人学区 (Quanrenxuequ).
+
+3
+00:00:03,280 --> 00:00:06,170
+Welcome back to our Deep Agent hands-on course. In the last lecture,
+
+4
+00:00:06,170 --> 00:00:09,390
+We introduced the sub-agent system within Deep Agent.
+
+5
+00:00:12,950 --> 00:00:17,030
+as well as multi-agent systems designed to build supervisor-like architectures.
+
+6
+00:00:17,030 --> 00:00:17,990
+So, in this lecture,
+
+7
+00:00:17,990 --> 00:00:20,150
+we're going to introduce its more advanced version.
+
+8
+00:00:20,150 --> 00:00:21,990
+namely, the asynchronous sub-agent system.
+
+9
+00:00:21,990 --> 00:00:23,190
+So, as for this feature,
+
+10
+00:00:23,190 --> 00:00:25,910
+was also only introduced after DIAGENTS 0.5.
+
+11
+00:00:25,910 --> 00:00:27,350
+an experimental feature.
+
+12
+00:00:27,350 --> 00:00:30,070
+So, we're going to walk you through its fundamental principles,
+
+13
+00:00:30,070 --> 00:00:31,830
+and how to use it.
+
+14
+00:00:32,540 --> 00:00:34,920
+Alright, so first, let's take a look at, uh...
+
+15
+00:00:34,920 --> 00:00:38,860
+So, what are some of the issues with a synchronous sub-agent system?
+
+16
+00:00:38,860 --> 00:00:40,970
+And that's actually pretty easy to understand, uh...
+
+17
+00:00:40,970 --> 00:00:42,730
+So, in this synchronous state,
+
+18
+00:00:42,730 --> 00:00:46,220
+So, while we can indeed split the task into multiple parts to be executed concurrently,
+
+19
+00:00:46,220 --> 00:00:48,340
+and assign them to multiple sub-agents for execution.
+
+20
+00:00:48,340 --> 00:00:49,900
+And this is where the Agent Protocol model comes into play.
+
+21
+00:00:49,900 --> 00:00:52,910
+So now, we can execute these tool calls concurrently.
+
+22
+00:00:52,910 --> 00:00:55,879
+This is the capability that drives the tool invocation.
+
+23
+00:00:55,879 --> 00:00:57,959
+So, during the execution process,
+
+24
+00:00:57,959 --> 00:01:00,420
+you'll still have, uh, a tool.
+
+25
+00:01:00,420 --> 00:01:02,660
+or it's the sub-agent that goes ahead and executes it.
+
+26
+00:01:02,660 --> 00:01:05,300
+If it doesn't return any data,
+
+27
+00:01:05,300 --> 00:01:09,040
+Then your agent will get blocked by it.
+
+28
+00:01:09,040 --> 00:01:10,240
+you won't get any results.
+
+29
+00:01:10,240 --> 00:01:13,560
+and the main agent won't even trigger the next round of reasoning.
+
+30
+00:01:13,560 --> 00:01:15,780
+So, this is the basic mechanism we have for now.
+
+31
+00:01:15,780 --> 00:01:19,510
+So, uh, this issue was actually a thing back in the early days,
+
+32
+00:01:19,510 --> 00:01:20,870
+it wasn't that big of a deal.
+
+33
+00:01:20,870 --> 00:01:22,910
+Because, to be honest, we didn't really have that before either.
+
+34
+00:01:22,910 --> 00:01:26,280
+heavyweight tasks like generating images or videos,
+
+35
+00:01:26,280 --> 00:01:28,640
+Or, let's say, you rarely encounter this kind of situation.
+
+36
+00:01:28,640 --> 00:01:32,490
+we need to process the entire, uh, codebase from top to bottom.
+
+37
+00:01:32,490 --> 00:01:35,630
+And, uh, tasks for this kind of sub-agent are also relatively rare.
+
+38
+00:01:35,630 --> 00:01:37,360
+So it's not that big of a deal.
+
+39
+00:01:37,360 --> 00:01:42,040
+So, as we move forward with the development of these agents...
+
+40
+00:01:42,040 --> 00:01:42,840
+and the advancement of model capabilities,
+
+41
+00:01:42,840 --> 00:01:44,400
+as well as the ever-expanding range of use cases we're applying them to.
+
+42
+00:01:44,400 --> 00:01:46,700
+And then, with AI programming, uh...
+
+43
+00:01:46,700 --> 00:01:49,060
+and is gradually becoming a mainstream programming paradigm.
+
+44
+00:01:49,060 --> 00:01:51,160
+So, when you're using a child agent,
+
+45
+00:01:51,160 --> 00:01:54,060
+In fact, it's very easy to run into the kind of situation we just mentioned.
+
+46
+00:01:54,060 --> 00:01:58,080
+So, is there a suitable way for us to handle this right now?
+
+47
+00:01:58,080 --> 00:02:01,340
+So, the first thing that comes to mind is, once again, the sub-agent.
+
+48
+00:02:01,340 --> 00:02:03,440
+But what if we could just take these long-running tasks
+
+49
+00:02:03,440 --> 00:02:06,070
+and turn it into a non-blocking, asynchronous execution.
+
+50
+00:02:06,070 --> 00:02:09,110
+And then we can go ahead and retrieve the results of its asynchronous execution.
+
+51
+00:02:09,110 --> 00:02:12,830
+And finally, we use the agent's iterative reasoning process to do the same thing.
+
+52
+00:02:12,830 --> 00:02:16,410
+and finally, we get the ultimate response for the user.
+
+53
+00:02:16,410 --> 00:02:19,890
+So, can we solve this by switching from synchronous to asynchronous sub-agents?
+
+54
+00:02:19,890 --> 00:02:21,070
+So, can this solve the problem?
+
+55
+00:02:21,070 --> 00:02:23,330
+So, that's the basic idea we're working with for now.
+
+56
+00:02:23,330 --> 00:02:24,960
+And that's exactly the approach we've taken.
+
+57
+00:02:24,960 --> 00:02:28,560
+But the thing is, this conversion between synchronous and asynchronous isn't...
+
+58
+00:02:28,560 --> 00:02:29,920
+as straightforward and simple as that.
+
+59
+00:02:29,920 --> 00:02:31,520
+It's not as simple as just changing a function.
+
+60
+00:02:31,520 --> 00:02:34,240
+or changing a synchronous function into an asynchronous one.
+
+61
+00:02:34,240 --> 00:02:37,400
+and turning it into a concurrent one... uh... just by using 'async' and 'await'.
+
+62
+00:02:37,400 --> 00:02:39,780
+It's actually a change to the entire mechanism.
+
+63
+00:02:39,780 --> 00:02:40,260
+So, in this lecture,
+
+64
+00:02:40,260 --> 00:02:42,840
+really, it's more about helping everyone understand the mechanism behind it.
+
+65
+00:02:42,840 --> 00:02:45,790
+and what a reference implementation of it might look like.
+
+66
+00:02:45,790 --> 00:02:47,470
+So, the implementation we've provided serves as a reference for you.
+
+67
+00:02:47,470 --> 00:02:49,070
+But it's not perfect.
+
+68
+00:02:49,070 --> 00:02:52,430
+And in terms of the user experience, as of right now, it's also not, uh...
+
+69
+00:02:52,430 --> 00:02:55,140
+For example, if you're already using tools like, uh, Claude Code...
+
+70
+00:02:55,140 --> 00:02:57,300
+It features an asynchronous sub-agent implementation mechanism.
+
+71
+00:02:57,300 --> 00:02:59,340
+these, uh, deep agents
+
+72
+00:02:59,340 --> 00:03:01,610
+Their current experience with these tools hasn't quite reached that level yet.
+
+73
+00:03:01,610 --> 00:03:04,330
+But you really need to understand the principles behind it.
+
+74
+00:03:04,330 --> 00:03:07,410
+so you can go ahead and implement similar sub-agents yourself.
+
+75
+00:03:07,410 --> 00:03:09,130
+certain, uh, features
+
+76
+00:03:09,130 --> 00:03:10,650
+This includes, for instance, building upon its open-source code.
+
+77
+00:03:10,650 --> 00:03:12,670
+and then carry out further secondary development on it, which is all quite straightforward.
+
+78
+00:03:12,670 --> 00:03:14,010
+Alright, so on this diagram...
+
+79
+00:03:14,010 --> 00:03:15,030
+Alright, so as you can see now,
+
+80
+00:03:15,030 --> 00:03:18,170
+So, we have the synchronous sub-agent and the asynchronous sub-agent.
+
+81
+00:03:18,170 --> 00:03:19,890
+and have made some basic comparisons.
+
+82
+00:03:19,890 --> 00:03:23,160
+So, first of all, let's talk about it from an execution standpoint.
+
+83
+00:03:23,160 --> 00:03:24,380
+In a synchronous setup, the main agent gets blocked.
+
+84
+00:03:24,380 --> 00:03:27,080
+and then wait for it to finish before returning control to the main agent to continue its execution.
+
+85
+00:03:27,080 --> 00:03:30,060
+But with asynchronous, it immediately returns a task ID.
+
+86
+00:03:30,060 --> 00:03:33,560
+And once it's returned, it gets written into the main agent's context.
+
+87
+00:03:33,560 --> 00:03:34,940
+So, does it block the execution?
+
+88
+00:03:34,940 --> 00:03:37,340
+And the main agent will then know that a task is being executed externally.
+
+89
+00:03:37,340 --> 00:03:38,910
+So, what we might have to do is...
+
+90
+00:03:38,910 --> 00:03:41,070
+wait, or, let's say, how to, uh...
+
+91
+00:03:41,070 --> 00:03:43,010
+and then check on its execution status later.
+
+92
+00:03:43,010 --> 00:03:45,840
+This will create a, uh, piece of contextual information.
+
+93
+00:03:45,840 --> 00:03:47,960
+And then, at the concurrency level, um...
+
+94
+00:03:47,960 --> 00:03:51,520
+Synchronous sub-agents can execute concurrently.
+
+95
+00:03:51,520 --> 00:03:53,360
+But it's affected by blocking.
+
+96
+00:03:53,360 --> 00:03:55,470
+So, if just one of them takes a really long time,
+
+97
+00:03:55,470 --> 00:03:56,950
+So no matter how fast you are with the initial consultation, it's all for nothing.
+
+98
+00:03:56,950 --> 00:03:58,430
+Because it's a concurrent mechanism.
+
+99
+00:03:58,430 --> 00:04:02,190
+So, the asynchronous sub-agents can achieve true parallelism.
+
+100
+00:04:02,190 --> 00:04:02,910
+Each one handles its own business,
+
+101
+00:04:02,910 --> 00:04:03,370
+Each one does its own thing,
+
+102
+00:04:03,370 --> 00:04:05,870
+And they won't interfere with each other at all.
+
+103
+00:04:05,870 --> 00:04:08,320
+This is the fundamental difference between concurrency and parallelism.
+
+104
+00:04:08,320 --> 00:04:10,080
+So, for the synchronous sub-agents,
+
+105
+00:04:10,080 --> 00:04:11,120
+It's obviously because it's blocking the process.
+
+106
+00:04:11,120 --> 00:04:12,520
+You can't just tack on new instructions in the middle of the process.
+
+107
+00:04:12,520 --> 00:04:14,180
+And you can't cancel it either.
+
+108
+00:04:14,180 --> 00:04:16,410
+Uh, and when I say 'impossible' here, I mean...
+
+109
+00:04:16,410 --> 00:04:19,360
+it's just not possible with the current implementation in Deep Agent.
+
+110
+00:04:19,360 --> 00:04:22,079
+This doesn't mean you can't go and build your own custom middleware for a sub-agent.
+
+111
+00:04:22,079 --> 00:04:23,040
+or something like that, it just won't work.
+
+112
+00:04:23,040 --> 00:04:23,800
+So, please pay close attention.
+
+113
+00:04:23,800 --> 00:04:24,909
+So, what we're talking about now is...
+
+114
+00:04:24,909 --> 00:04:28,109
+So basically, we're talking about this within the context of the current implementation of Deep Agent.
+
+115
+00:04:28,109 --> 00:04:28,919
+in this particular scenario.
+
+116
+00:04:28,919 --> 00:04:30,159
+So, for the asynchronous sub-agents...
+
+117
+00:04:30,159 --> 00:04:32,639
+It's obvious that I've already spun it off as a completely separate entity.
+
+118
+00:04:32,639 --> 00:04:32,999
+Right?
+
+119
+00:04:32,999 --> 00:04:33,919
+And I won't be blocking anything either.
+
+120
+00:04:33,919 --> 00:04:35,379
+And in fact, I'm completely independent.
+
+121
+00:04:35,379 --> 00:04:38,710
+So, obviously, I'm going to provide an interface for the user.
+
+122
+00:04:38,710 --> 00:04:40,610
+Or rather, to provide it to the agent.
+
+123
+00:04:40,610 --> 00:04:42,670
+This allows me to update and cancel tasks.
+
+124
+00:04:42,670 --> 00:04:44,630
+And that's a significant advantage.
+
+125
+00:04:44,890 --> 00:04:46,010
+Uh, its statefulness.
+
+126
+00:04:46,010 --> 00:04:47,290
+So, the synchronous version is stateless.
+
+127
+00:04:47,290 --> 00:04:47,970
+Once it's done, it's over.
+
+128
+00:04:47,970 --> 00:04:50,410
+It doesn't, it won't maintain a state, right?
+
+129
+00:04:50,410 --> 00:04:51,700
+It won't persist any state.
+
+130
+00:04:51,700 --> 00:04:54,340
+In DEAH, asynchronous sub-agents are stateful.
+
+131
+00:04:54,340 --> 00:04:56,340
+It will independently maintain a...
+
+132
+00:04:56,340 --> 00:04:58,400
+Essentially, it's about maintaining the state of a graph.
+
+133
+00:04:58,400 --> 00:05:01,600
+
+
+134
+00:05:01,600 --> 00:05:02,840
+or even all of that, is possible.
+
+135
+00:05:02,840 --> 00:05:04,000
+So, what are the use cases for this?
+
+136
+00:05:04,000 --> 00:05:04,760
+Synchronous Sub-Agents
+
+137
+00:05:04,760 --> 00:05:07,200
+If your task is something that can be executed pretty quickly,
+
+138
+00:05:07,200 --> 00:05:09,320
+And you mainly want to use it for isolation.
+
+139
+00:05:09,320 --> 00:05:11,399
+and, uh, some quick concurrent tasks.
+
+140
+00:05:11,399 --> 00:05:13,580
+Then using a synchronous sub-agent would be the more appropriate choice.
+
+141
+00:05:13,580 --> 00:05:14,580
+So, what about the asynchronous sub-agents?
+
+142
+00:05:14,580 --> 00:05:17,660
+In fact, it's actually the one that's used more often in our current scenarios.
+
+143
+00:05:17,660 --> 00:05:20,819
+So, let's say you're dealing with something like image generation.
+
+144
+00:05:20,819 --> 00:05:22,599
+And you also want it to be non-blocking.
+
+145
+00:05:22,599 --> 00:05:23,959
+Another long-running task.
+
+146
+00:05:23,959 --> 00:05:25,939
+Then asynchronous sub-agents are the perfect solution for you.
+
+147
+00:05:25,939 --> 00:05:28,140
+Of course, in our current AI programming environment,
+
+148
+00:05:28,140 --> 00:05:32,450
+So, in practice, uh, we tend to use both of them quite a lot.
+
+149
+00:05:32,450 --> 00:05:34,890
+Because a lot of the time, we just have to wait, right?
+
+150
+00:05:34,890 --> 00:05:37,890
+we'll just be there, waiting to see the child agent's...
+
+151
+00:05:37,890 --> 00:05:38,870
+its execution status.
+
+152
+00:05:38,870 --> 00:05:41,670
+It's not like we're just telling it to go off and do its own thing.
+
+153
+00:05:41,670 --> 00:05:43,390
+And in the meantime, we can get on with other things.
+
+154
+00:05:43,390 --> 00:05:45,030
+Because this is in a programming context.
+
+155
+00:05:45,030 --> 00:05:46,750
+There are a lot of dependencies and a specific order of operations to consider.
+
+156
+00:05:46,750 --> 00:05:49,110
+So, that's why we have different options to choose from.
+
+157
+00:05:49,110 --> 00:05:52,150
+So, that's why in Cloud Code, you'll see a lot of tasks being executed.
+
+158
+00:05:52,150 --> 00:05:54,919
+By default, it will first give you a, uh, a blocking one.
+
+159
+00:05:54,919 --> 00:05:55,839
+so you can see its status.
+
+160
+00:05:55,839 --> 00:05:57,159
+And then it does, in fact, time out.
+
+161
+00:05:57,159 --> 00:05:58,500
+The process is taking a really long time.
+
+162
+00:05:58,500 --> 00:05:59,360
+Let's say, for more than 5 minutes.
+
+163
+00:05:59,360 --> 00:06:01,740
+It will switch to an asynchronous execution mode for you.
+
+164
+00:06:01,740 --> 00:06:02,580
+and turns it into a task.
+
+165
+00:06:02,580 --> 00:06:04,180
+And then you can track its progress in the background.
+
+166
+00:06:04,180 --> 00:06:07,100
+So, it's really important that you all pay close attention to these two different approaches.
+
+167
+00:06:07,100 --> 00:06:08,620
+And these two often coexist.
+
+168
+00:06:08,620 --> 00:06:11,440
+And in theory, they can be converted into one another.
+
+169
+00:06:11,440 --> 00:06:13,640
+But I do want to emphasize this again.
+
+170
+00:06:13,640 --> 00:06:16,240
+But implementing your asynchronous sub-agents? Well, that's not quite so simple.
+
+171
+00:06:16,240 --> 00:06:17,160
+Unlike synchronous sub-agents,
+
+172
+00:06:17,160 --> 00:06:19,140
+So, as you saw in the last lecture, uh...
+
+173
+00:06:19,140 --> 00:06:20,840
+the implementation was incredibly straightforward.
+
+174
+00:06:20,840 --> 00:06:23,060
+This is especially true within the Lianquan ecosystem.
+
+175
+00:06:23,060 --> 00:06:24,260
+So, moving on to the asynchronous sub-agents...
+
+176
+00:06:24,260 --> 00:06:26,690
+So, uh, let's take a look at how to use it at a basic level.
+
+177
+00:06:26,690 --> 00:06:28,010
+as well as the principles behind it.
+
+178
+00:06:28,010 --> 00:06:31,250
+So, in terms of how you use it, the team has actually kept things... uh... consistent.
+
+179
+00:06:31,250 --> 00:06:33,560
+to make it relatively straightforward for everyone to use.
+
+180
+00:06:33,560 --> 00:06:34,280
+So, in this diagram,
+
+181
+00:06:34,280 --> 00:06:37,720
+So, as you can see, the way you create it seems deceptively simple.
+
+182
+00:06:37,720 --> 00:06:39,900
+It's even simpler than the synchronous sub-agents.
+
+183
+00:06:39,900 --> 00:06:40,660
+Give it a name,
+
+184
+00:06:40,660 --> 00:06:41,440
+give it a description,
+
+185
+00:06:41,440 --> 00:06:43,190
+and give it a graph.
+
+186
+00:06:43,190 --> 00:06:44,370
+And it looks like that's all there is to it.
+
+187
+00:06:44,370 --> 00:06:46,130
+And then you can even provide a URL.
+
+188
+00:06:46,130 --> 00:06:49,410
+And then, you need to specify where this should be called from.
+
+189
+00:06:49,410 --> 00:06:50,760
+So, for this sub-agent, uh...
+
+190
+00:06:50,760 --> 00:06:52,780
+And then, you just take this sub-agent,
+
+191
+00:06:52,780 --> 00:06:55,680
+So, you just put it into the SUBAGENT parameter in the same way.
+
+192
+00:06:55,680 --> 00:06:57,080
+And then, you're all set to use it.
+
+193
+00:06:57,080 --> 00:06:58,810
+It seems incredibly simple, right?
+
+194
+00:06:58,810 --> 00:07:00,130
+But there's something you all really need to understand.
+
+195
+00:07:00,130 --> 00:07:02,270
+The thing is, the complexity of software is conserved.
+
+196
+00:07:02,270 --> 00:07:03,730
+You know, I love saying this.
+
+197
+00:07:03,730 --> 00:07:06,190
+Because, uh, whenever you see something that seems simple,
+
+198
+00:07:06,190 --> 00:07:09,470
+So, basically, when you realize that something isn't actually simple,
+
+199
+00:07:09,470 --> 00:07:11,070
+then it must be what's happening behind the scenes.
+
+200
+00:07:11,070 --> 00:07:12,510
+This framework handles a lot of things for you.
+
+201
+00:07:12,510 --> 00:07:14,440
+So, in situations like this, you really need to be careful.
+
+202
+00:07:14,440 --> 00:07:17,840
+Because when you don't have a solid grasp of the framework's inner workings,
+
+203
+00:07:17,840 --> 00:07:21,170
+The thing is, the interfaces it provides are pretty simple.
+
+204
+00:07:21,170 --> 00:07:23,340
+This can often lead to some major pitfalls.
+
+205
+00:07:23,340 --> 00:07:25,680
+So, this is why I really want you all to pay close attention to our subtitle here.
+
+206
+00:07:25,680 --> 00:07:26,540
+So, what is it talking about?
+
+207
+00:07:26,540 --> 00:07:28,140
+So, within the LangChain Deep Agent framework,
+
+208
+00:07:28,140 --> 00:07:31,420
+The way it's currently implemented is through what's called an Agent Protocol server.
+
+209
+00:07:31,420 --> 00:07:34,190
+multiple Graph and Protocol installations.
+
+210
+00:07:34,190 --> 00:07:36,250
+I'm not sure if you guys still remember this term.
+
+211
+00:07:36,250 --> 00:07:38,730
+That's a really old term.
+
+212
+00:07:38,730 --> 00:07:39,950
+And I haven't talked much about it.
+
+213
+00:07:39,950 --> 00:07:40,970
+And why don't we talk about it much?
+
+214
+00:07:40,970 --> 00:07:44,270
+Because, uh, this is where the whole 'CHEN' thing comes into play.
+
+215
+00:07:44,270 --> 00:07:46,230
+now known as the Lance Meth Agent Server interface.
+
+216
+00:07:46,230 --> 00:07:48,750
+So, what it does is abstract this into a standard interface.
+
+217
+00:07:48,750 --> 00:07:49,920
+called the Agent Protocol.
+
+218
+00:07:49,920 --> 00:07:50,160
+Uh,
+
+219
+00:07:50,160 --> 00:07:51,960
+and it has its own specific implementation.
+
+220
+00:07:51,960 --> 00:07:54,420
+We call it the Lesmeaging Server API.
+
+221
+00:07:54,420 --> 00:07:57,430
+So, the core idea here is that...
+
+222
+00:07:57,430 --> 00:07:59,290
+So, first off, let's talk about the sub-agents we have here.
+
+223
+00:07:59,290 --> 00:08:01,419
+It's no longer just a program.
+
+224
+00:08:01,419 --> 00:08:03,779
+So, let's take a look at what we mean by this asynchronous sub-agent.
+
+225
+00:08:03,779 --> 00:08:05,160
+or it's given a URL.
+
+226
+00:08:05,160 --> 00:08:06,820
+Actually, the default is the 'lands miss deployment'.
+
+227
+00:08:06,820 --> 00:08:08,340
+These are the child agents that have already been deployed.
+
+228
+00:08:08,340 --> 00:08:09,380
+Or, it's deployed remotely.
+
+229
+00:08:09,380 --> 00:08:11,179
+ULL means it's deployed remotely.
+
+230
+00:08:11,179 --> 00:08:15,099
+If there's no '11', it means it's deployed in collocation.
+
+231
+00:08:15,099 --> 00:08:19,070
+In other words, it's deployed on the same... uh...
+
+232
+00:08:19,070 --> 00:08:20,270
+For example, inside this Docker container.
+
+233
+00:08:20,270 --> 00:08:22,190
+So, it's like, within a single pod in K8S, there's just one port.
+
+234
+00:08:22,190 --> 00:08:23,789
+Or, to put it another way, it's all on the same machine.
+
+235
+00:08:23,789 --> 00:08:26,749
+So, we're just doing inter-process communication right here on this local machine.
+
+236
+00:08:26,749 --> 00:08:28,029
+This method of inter-process communication,
+
+237
+00:08:28,029 --> 00:08:29,929
+or in other words, it's executed through in-process communication.
+
+238
+00:08:29,929 --> 00:08:31,260
+It's not a remote call.
+
+239
+00:08:31,260 --> 00:08:32,179
+And that's all there is to it.
+
+240
+00:08:32,179 --> 00:08:33,260
+So, this might seem a bit strange to you.
+
+241
+00:08:33,260 --> 00:08:34,419
+So, why do we need to fill in a graph ID?
+
+242
+00:08:34,419 --> 00:08:36,740
+Because it's actually already at the deployment level.
+
+243
+00:08:36,740 --> 00:08:40,958
+a service with a standardized service interface.
+
+244
+00:08:40,958 --> 00:08:44,640
+This service can then be used as an asynchronous sub-agent.
+
+245
+00:08:44,640 --> 00:08:47,880
+Unlike what we discussed earlier when we were talking about synchronous sub-agents.
+
+246
+00:08:47,880 --> 00:08:49,440
+You can see the sub-agent you've added,
+
+247
+00:08:49,440 --> 00:08:51,269
+
+
+248
+00:08:51,269 --> 00:08:52,029
+or a format description.
+
+249
+00:08:52,029 --> 00:08:54,329
+What it actually does behind the scenes is, uh, it helps you turn it into...
+
+250
+00:08:54,329 --> 00:08:55,329
+an instance of a child agent.
+
+251
+00:08:55,329 --> 00:08:57,939
+Or, it's already an instance of a graph.
+
+252
+00:08:57,939 --> 00:09:00,019
+It's still at the level of a program instance.
+
+253
+00:09:00,019 --> 00:09:01,879
+Now, let's talk about asynchronous sub-agents.
+
+254
+00:09:01,879 --> 00:09:03,199
+It has now moved beyond that level.
+
+255
+00:09:03,199 --> 00:09:05,670
+It has now become a deployed service.
+
+256
+00:09:05,670 --> 00:09:07,230
+And that's a fundamental difference.
+
+257
+00:09:07,230 --> 00:09:09,330
+So, why do we need a service in the first place?
+
+258
+00:09:09,330 --> 00:09:11,110
+Because as we'll see later on,
+
+259
+00:09:11,110 --> 00:09:13,890
+You'll see that when you need to manage a child agent,
+
+260
+00:09:13,890 --> 00:09:14,690
+Asynchronous Sub-Agents.
+
+261
+00:09:14,690 --> 00:09:17,330
+we're no longer talking about a simple tool invocation.
+
+262
+00:09:17,330 --> 00:09:19,250
+A tool call is basically just a local utility program.
+
+263
+00:09:19,250 --> 00:09:20,800
+or an MCP program.
+
+264
+00:09:20,800 --> 00:09:22,280
+It's not that simple anymore.
+
+265
+00:09:22,280 --> 00:09:26,100
+It has essentially become an independent, operational unit.
+
+266
+00:09:26,100 --> 00:09:28,060
+So, an independent, operational unit.
+
+267
+00:09:28,060 --> 00:09:30,960
+So, can we standardize it?
+
+268
+00:09:30,960 --> 00:09:34,120
+Otherwise, you'd just have everyone doing their own thing in their own little world.
+
+269
+00:09:34,120 --> 00:09:35,020
+Well, that's just not going to work.
+
+270
+00:09:35,020 --> 00:09:37,100
+So, the goal is to standardize it.
+
+271
+00:09:37,100 --> 00:09:38,880
+so that they can all be managed effectively.
+
+272
+00:09:38,880 --> 00:09:40,660
+So, naturally, Lian Chunren's team thought, "Hey..."
+
+273
+00:09:40,660 --> 00:09:43,580
+So, I'll turn it into an independent agent service.
+
+274
+00:09:43,580 --> 00:09:45,100
+Just like the service for our main agent.
+
+275
+00:09:45,100 --> 00:09:46,300
+We encapsulate it into a standard interface.
+
+276
+00:09:46,300 --> 00:09:48,380
+And this abstraction of the interface is what we call the Agent Protocol.
+
+277
+00:09:48,380 --> 00:09:50,260
+Otherwise, it would be the Agent Protocol API.
+
+278
+00:09:50,260 --> 00:09:51,500
+You turn it into something like this.
+
+279
+00:09:51,500 --> 00:09:54,080
+So, couldn't we just, you know, use the interface standards we already have?
+
+280
+00:09:54,080 --> 00:09:56,120
+and that's all it takes to provide management capabilities?
+
+281
+00:09:56,120 --> 00:09:57,300
+And then, based on this standard interface,
+
+282
+00:09:57,300 --> 00:10:00,030
+All we need to do is design some specific tools.
+
+283
+00:10:00,030 --> 00:10:01,810
+And with these tools, the agent can then operate on...
+
+284
+00:10:01,810 --> 00:10:04,500
+to operate on this external agent service.
+
+285
+00:10:04,500 --> 00:10:06,740
+Hey, doesn't that just close the loop for the entire process?
+
+286
+00:10:06,740 --> 00:10:08,990
+And it's all built on top of the mechanisms we already have in place.
+
+287
+00:10:08,990 --> 00:10:09,770
+Right?
+
+288
+00:10:09,770 --> 00:10:11,870
+So, if you try to think about it from this perspective,
+
+289
+00:10:11,870 --> 00:10:14,110
+And you'll start to see why it was designed this way.
+
+290
+00:10:14,110 --> 00:10:15,350
+So why is it designed as a graph?
+
+291
+00:10:18,520 --> 00:10:21,260
+So, with its standard interface, you can start using it right away.
+
+292
+00:10:21,260 --> 00:10:22,680
+Or, you could just implement this interface yourself.
+
+293
+00:10:22,680 --> 00:10:25,920
+Or, you could just use LangChain's own deployment method. Either way is fine.
+
+294
+00:10:25,920 --> 00:10:27,860
+So, with this standard interface in place,
+
+295
+00:10:27,860 --> 00:10:30,820
+So, what Lianquan is doing now is for this entire sub-agent system.
+
+296
+00:10:30,820 --> 00:10:32,460
+Of course, I definitely need to do some milestone work, right?
+
+297
+00:10:32,460 --> 00:10:33,820
+So now, we're past the V1 version.
+
+298
+00:10:33,820 --> 00:10:34,500
+manage your tools,
+
+299
+00:10:34,500 --> 00:10:34,980
+managing states,
+
+300
+00:10:34,980 --> 00:10:35,580
+managing prompts,
+
+301
+00:10:35,580 --> 00:10:36,980
+By default, everything is handled through Middleware.
+
+302
+00:10:36,980 --> 00:10:38,100
+So naturally, it has to be Middleware.
+
+303
+00:10:38,100 --> 00:10:39,500
+So, with the winner wr, we've got this, but without the wr...
+
+304
+00:10:39,500 --> 00:10:40,840
+And in the current implementation,
+
+305
+00:10:40,840 --> 00:10:43,620
+So, Liancheng has prepared five tools for us.
+
+306
+00:10:43,620 --> 00:10:44,860
+start,
+
+307
+00:10:44,860 --> 00:10:47,190
+Check, update, cancel, and list.
+
+308
+00:10:47,190 --> 00:10:48,070
+Five tools.
+
+309
+00:10:48,070 --> 00:10:52,390
+They are specifically designed to manage and maintain these asynchronous tasks.
+
+310
+00:10:52,390 --> 00:10:53,070
+Judging by their names,
+
+311
+00:10:53,070 --> 00:10:53,830
+This should be pretty straightforward for everyone.
+
+312
+00:10:53,830 --> 00:10:54,590
+So, what exactly does each of them do?
+
+313
+00:10:54,590 --> 00:10:56,060
+So, I won't go into too much detail.
+
+314
+00:10:56,060 --> 00:10:58,420
+Alright, so let's recap.
+
+315
+00:10:58,420 --> 00:11:01,860
+So, first off, what exactly do these asynchronous tasks get turned into?
+
+316
+00:11:01,860 --> 00:11:04,319
+into a service, an agent service.
+
+317
+00:11:04,319 --> 00:11:06,319
+and the service you ultimately package up yourself.
+
+318
+00:11:06,319 --> 00:11:07,399
+They're actually the exact same kind of service.
+
+319
+00:11:07,399 --> 00:11:08,479
+The only difference is that these are independent.
+
+320
+00:11:08,479 --> 00:11:09,319
+They can be deployed independently.
+
+321
+00:11:09,319 --> 00:11:10,999
+You can host it together with your main service,
+
+322
+00:11:10,999 --> 00:11:12,100
+or hosted somewhere else entirely.
+
+323
+00:11:12,100 --> 00:11:13,500
+And these services have standard interfaces.
+
+324
+00:11:13,500 --> 00:11:13,980
+Right?
+
+325
+00:11:13,980 --> 00:11:15,100
+And these standard interfaces...
+
+326
+00:11:15,100 --> 00:11:16,260
+And these standard interfaces are REST.
+
+327
+00:11:16,260 --> 00:11:18,060
+and also the SSE interfaces, okay?
+
+328
+00:11:18,060 --> 00:11:21,640
+So, for these standard interfaces, I'm now going to build a set of tools for you.
+
+329
+00:11:21,640 --> 00:11:23,720
+So you don't have to write the APIs for these interfaces yourself.
+
+330
+00:11:23,720 --> 00:11:25,540
+I'll package these interfaces into standard tools for you.
+
+331
+00:11:25,540 --> 00:11:28,440
+and then place these tools into a dedicated asynchronous child agent.
+
+332
+00:11:28,440 --> 00:11:29,080
+Middleware.
+
+333
+00:11:29,080 --> 00:11:30,890
+and inject them into your child agents.
+
+334
+00:11:30,890 --> 00:11:33,410
+And now, you have a complete set of...
+
+335
+00:11:33,410 --> 00:11:36,779
+the ability to manage external sub-agents.
+
+336
+00:11:36,779 --> 00:11:39,939
+Alright, let's try to wrap our heads around this current approach.
+
+337
+00:11:39,939 --> 00:11:41,509
+First, let me emphasize this again.
+
+338
+00:11:41,509 --> 00:11:44,180
+Now, keep in mind, this approach doesn't mean you have to do it this way.
+
+339
+00:11:44,180 --> 00:11:46,460
+So, this whole setup is basically providing a way for you to handle...
+
+340
+00:11:46,460 --> 00:11:47,940
+So, this is the idea behind asynchronous sub-agents.
+
+341
+00:11:47,940 --> 00:11:49,060
+And it makes excellent use of...
+
+342
+00:11:49,060 --> 00:11:51,780
+and leverages its existing, out-of-the-box capabilities and mechanisms.
+
+343
+00:11:51,780 --> 00:11:53,710
+So, that's how it works. Alright.
+
+344
+00:11:53,710 --> 00:11:56,010
+Alright, so as we can see here...
+
+345
+00:11:56,010 --> 00:11:58,050
+So, when we're talking about a complete lifecycle,
+
+346
+00:11:58,050 --> 00:12:00,350
+So, what does its usage state look like?
+
+347
+00:12:00,350 --> 00:12:02,190
+And we can see there's a sequence diagram here.
+
+348
+00:12:02,190 --> 00:12:03,070
+Generally speaking,
+
+349
+00:12:03,070 --> 00:12:07,250
+In this setup, we're going to have three main actors involved.
+
+350
+00:12:07,250 --> 00:12:08,210
+One of them is the user, right?
+
+351
+00:12:08,210 --> 00:12:08,970
+This is our end user.
+
+352
+00:12:08,970 --> 00:12:09,730
+The second is the main agent.
+
+353
+00:12:09,730 --> 00:12:11,580
+And the other is the Agent Protocol server.
+
+354
+00:12:11,580 --> 00:12:14,160
+So, you can think of it as an instance of an asynchronous sub-agent.
+
+355
+00:12:14,160 --> 00:12:16,180
+But its deployment form, that's its mode of existence.
+
+356
+00:12:16,180 --> 00:12:18,069
+So, it's basically an agent service.
+
+357
+00:12:18,069 --> 00:12:19,349
+Alright, so when we actually use it,
+
+358
+00:12:19,349 --> 00:12:20,109
+The user initiates a request.
+
+359
+00:12:20,109 --> 00:12:20,989
+Let's say, to research a topic.
+
+360
+00:12:20,989 --> 00:12:24,909
+Then, the main agent, and here's the thing, it needs to call a tool.
+
+361
+00:12:24,909 --> 00:12:27,740
+and then it goes and does that.
+
+362
+00:12:27,740 --> 00:12:29,180
+to execute this task.
+
+363
+00:12:29,180 --> 00:12:31,150
+But the way it handles things,
+
+364
+00:12:31,150 --> 00:12:33,470
+So, the results you get from it will be completely different.
+
+365
+00:12:33,470 --> 00:12:34,070
+So, with the synchronous approach,
+
+366
+00:12:34,070 --> 00:12:35,670
+you just wait for the tool to finish its execution.
+
+367
+00:12:35,670 --> 00:12:37,040
+and then you get a 'two message'.
+
+368
+00:12:37,040 --> 00:12:38,200
+So now,
+
+369
+00:12:38,200 --> 00:12:41,600
+So, what we're going to do is actually leverage what we've seen before.
+
+370
+00:12:41,600 --> 00:12:43,000
+tools like 'start', right?
+
+371
+00:12:43,000 --> 00:12:44,750
+tools like 'start' and 'update'.
+
+372
+00:12:44,750 --> 00:12:47,930
+So, the first thing it does is trigger the external sub-agent.
+
+373
+00:12:47,930 --> 00:12:48,770
+to trigger an external service.
+
+374
+00:12:48,770 --> 00:12:51,680
+And then, the service will first reply directly with a task ID.
+
+375
+00:12:51,680 --> 00:12:52,400
+And it doesn't waste any time.
+
+376
+00:12:52,400 --> 00:12:54,200
+It's basically saying, 'Hey, I've got it. I've received the request.'
+
+377
+00:12:54,200 --> 00:12:54,640
+I'm on it.
+
+378
+00:12:54,640 --> 00:12:55,540
+And then, you just have to wait.
+
+379
+00:12:55,540 --> 00:12:57,980
+Then, the main agent writes this information to its own context.
+
+380
+00:12:57,980 --> 00:12:59,620
+And then it knows that there's an external application working on it.
+
+381
+00:12:59,620 --> 00:13:00,540
+And then I need to respond to the user, saying,
+
+382
+00:13:00,540 --> 00:13:01,220
+Anyway, I'm on it.
+
+383
+00:13:01,220 --> 00:13:01,820
+Just wait for me.
+
+384
+00:13:01,820 --> 00:13:05,120
+But, uh, the key advantage here is that it's non-blocking.
+
+385
+00:13:05,120 --> 00:13:07,820
+So, it's like he's already delegated this task.
+
+386
+00:13:07,820 --> 00:13:10,510
+And, uh, for now, there's nothing else I need to worry about.
+
+387
+00:13:10,510 --> 00:13:12,390
+Alright, let's just proceed with the next drawing session as usual.
+
+388
+00:13:12,390 --> 00:13:13,790
+And that's its most important feature.
+
+389
+00:13:13,790 --> 00:13:15,100
+So, it doesn't get blocked.
+
+390
+00:13:15,100 --> 00:13:16,540
+So, the user can just go ahead and continue their conversation separately.
+
+391
+00:13:16,540 --> 00:13:17,140
+And after they're done chatting,
+
+392
+00:13:17,140 --> 00:13:18,380
+The user can then send another question.
+
+393
+00:13:18,380 --> 00:13:19,980
+So, let's talk about those earlier tasks, task 1, 2, and 3.
+
+394
+00:13:19,980 --> 00:13:21,670
+So, what's your status? What have you even done?
+
+395
+00:13:21,670 --> 00:13:23,370
+Then the orchestrator agent will call its next...
+
+396
+00:13:23,370 --> 00:13:24,550
+to continue calling the tools it already has.
+
+397
+00:13:24,550 --> 00:13:26,150
+For example, something like 'check', right?
+
+398
+00:13:26,150 --> 00:13:26,830
+List,
+
+399
+00:13:26,830 --> 00:13:29,250
+And then go check the status of our sub-agent.
+
+400
+00:13:29,250 --> 00:13:30,770
+the state of the asynchronous sub-agent
+
+401
+00:13:30,770 --> 00:13:31,890
+And once we get the status,
+
+402
+00:13:31,890 --> 00:13:32,790
+And then it returns.
+
+403
+00:13:32,790 --> 00:13:34,010
+Of course, one thing to note here is...
+
+404
+00:13:34,010 --> 00:13:35,770
+This continuation diagram is drawn very simply.
+
+405
+00:13:35,770 --> 00:13:37,570
+Of course, its status doesn't necessarily have to be 'completed'.
+
+406
+00:13:37,570 --> 00:13:38,920
+But what he's drawn here is a completed one.
+
+407
+00:13:38,920 --> 00:13:40,480
+But it's also perfectly fine for it to be incomplete.
+
+408
+00:13:40,480 --> 00:13:42,200
+And then it returns the status to the user, basically saying, 'Alright, this is what's happening.'
+
+409
+00:13:42,200 --> 00:13:42,820
+This is still in progress.
+
+410
+00:13:42,820 --> 00:13:44,660
+So, what's the general idea here?
+
+411
+00:13:44,660 --> 00:13:45,680
+and so on and so forth.
+
+412
+00:13:45,680 --> 00:13:46,300
+And one thing to note,
+
+413
+00:13:46,300 --> 00:13:47,980
+Because this child agent is externally deployed,
+
+414
+00:13:47,980 --> 00:13:49,740
+So, it's actually already an agent service at this point.
+
+415
+00:13:49,740 --> 00:13:51,880
+So, what you're actually doing in this tricking process...
+
+416
+00:13:51,880 --> 00:13:53,300
+And, as you all know, especially for a chain of services,
+
+417
+00:13:53,300 --> 00:13:55,489
+In fact, you can inspect it,
+
+418
+00:13:55,489 --> 00:13:57,529
+Or, in other words, you can actually see its intermediate state.
+
+419
+00:13:57,529 --> 00:13:57,869
+Right?
+
+420
+00:13:57,869 --> 00:13:59,940
+And then, you can either do it through a stream,
+
+421
+00:13:59,940 --> 00:14:01,460
+or through our state,
+
+422
+00:14:01,460 --> 00:14:03,220
+and some specific methods for retrieving it.
+
+423
+00:14:03,220 --> 00:14:06,080
+This allows you to get the execution status of your agent.
+
+424
+00:14:06,080 --> 00:14:07,340
+So, this is something you all really need to pay attention to.
+
+425
+00:14:07,340 --> 00:14:08,940
+and the state that's returned to us...
+
+426
+00:14:08,940 --> 00:14:10,760
+So, the results can be quite rich and varied.
+
+427
+00:14:10,760 --> 00:14:12,060
+It's not just about getting one single final result.
+
+428
+00:14:12,060 --> 00:14:15,740
+Because what you're interacting with is now an independent agent service.
+
+429
+00:14:15,740 --> 00:14:17,770
+Its interface and functionality are actually quite comprehensive.
+
+430
+00:14:17,770 --> 00:14:20,130
+And that 'completeness' also includes the ability to cancel it.
+
+431
+00:14:20,130 --> 00:14:21,370
+Now, when it comes to 'cancel', you might think it's no big deal, right?
+
+432
+00:14:21,370 --> 00:14:22,650
+I just stopped the external service.
+
+433
+00:14:22,650 --> 00:14:24,239
+I can update it, update it.
+
+434
+00:14:24,239 --> 00:14:25,099
+This is actually pretty easy to understand.
+
+435
+00:14:25,099 --> 00:14:27,379
+Because the external one is already a separate service.
+
+436
+00:14:27,379 --> 00:14:28,379
+of a separate, independent agent.
+
+437
+00:14:28,379 --> 00:14:31,800
+It will also have the ability to, uh, inject states.
+
+438
+00:14:31,800 --> 00:14:33,160
+the ability to modify its state,
+
+439
+00:14:33,160 --> 00:14:33,960
+and bring it to a stop.
+
+440
+00:14:33,960 --> 00:14:35,520
+And then, with this human-in-the-loop,
+
+441
+00:14:35,520 --> 00:14:36,860
+And that includes what we call the human-in-the-loop.
+
+442
+00:14:36,860 --> 00:14:38,540
+and we can just stop the agent.
+
+443
+00:14:38,540 --> 00:14:39,700
+and then have it change its state.
+
+444
+00:14:39,700 --> 00:14:40,580
+and then execute it again.
+
+445
+00:14:40,580 --> 00:14:42,520
+Capabilities like forking are all supported.
+
+446
+00:14:42,520 --> 00:14:45,360
+So, the tools we're providing here...
+
+447
+00:14:45,360 --> 00:14:47,000
+As long as its capabilities are powerful enough,
+
+448
+00:14:47,000 --> 00:14:49,260
+This includes the fact that its encapsulation is incredibly fine-grained.
+
+449
+00:14:49,260 --> 00:14:51,380
+you can get full control over the main agent.
+
+450
+00:14:51,380 --> 00:14:55,099
+This is where you can have full control over your asynchronous child agents.
+
+451
+00:14:55,099 --> 00:14:55,459
+agent
+
+452
+00:14:55,459 --> 00:14:57,119
+to change its intermediate goal,
+
+453
+00:14:57,119 --> 00:14:59,219
+or to get its intermediate results.
+
+454
+00:14:59,219 --> 00:15:00,059
+or something along those lines.
+
+455
+00:15:00,059 --> 00:15:01,839
+So, this whole system that Lianquan has designed...
+
+456
+00:15:01,839 --> 00:15:04,120
+So, while it's not perfect,
+
+457
+00:15:04,120 --> 00:15:04,800
+It's not quite perfect yet.
+
+458
+00:15:04,800 --> 00:15:06,280
+I think there's still a lot of room for improvement.
+
+459
+00:15:06,280 --> 00:15:08,040
+But it has truly harnessed its current capabilities,
+
+460
+00:15:08,040 --> 00:15:10,890
+Everything you can possibly imagine is all connected.
+
+461
+00:15:10,890 --> 00:15:12,930
+So you can really get a lot of value by playing within its ecosystem.
+
+462
+00:15:12,930 --> 00:15:15,210
+So basically, this is the stage where the entire ecosystem has evolved to.
+
+463
+00:15:15,210 --> 00:15:17,260
+I mean, it's because its underlying foundation is quite solid.
+
+464
+00:15:17,260 --> 00:15:20,020
+any kind of problem you might run into,
+
+465
+00:15:20,020 --> 00:15:21,780
+So, within its current framework,
+
+466
+00:15:21,780 --> 00:15:25,260
+it can find a way to handle it.
+
+467
+00:15:25,260 --> 00:15:28,020
+Now, that's not to say this approach is necessarily the most optimal or elegant one.
+
+468
+00:15:28,020 --> 00:15:29,900
+But it's got a solid foundation.
+
+469
+00:15:29,900 --> 00:15:32,520
+It can basically always find a way to handle things like this.
+
+470
+00:15:32,520 --> 00:15:34,260
+So, this asynchronous sub-agent of his...
+
+471
+00:15:34,260 --> 00:15:35,820
+And it didn't take long to build either.
+
+472
+00:15:35,820 --> 00:15:37,140
+And from his perspective,
+
+473
+00:15:37,140 --> 00:15:38,170
+a complete, closed loop.
+
+474
+00:15:38,170 --> 00:15:40,370
+Now, as for whether the current 0.5 version is any good...
+
+475
+00:15:40,370 --> 00:15:41,230
+I'm not so sure about that.
+
+476
+00:15:41,230 --> 00:15:43,900
+But it's definitely going to keep getting better in the future.
+
+477
+00:15:43,900 --> 00:15:45,740
+And the thing is, with its current architecture,
+
+478
+00:15:45,740 --> 00:15:47,000
+within its current framework
+
+479
+00:15:47,000 --> 00:15:47,960
+It's going to be improved.
+
+480
+00:15:47,960 --> 00:15:48,960
+And it's actually pretty straightforward to do.
+
+481
+00:15:48,960 --> 00:15:50,480
+It really just depends on the actual use case.
+
+482
+00:15:50,480 --> 00:15:51,800
+So, what are they hoping to achieve with this?
+
+483
+00:15:51,800 --> 00:15:53,280
+And hopefully, since it's open-source anyway...
+
+484
+00:15:53,280 --> 00:15:55,520
+Ultimately, it's about the kind of convenience it can offer to everyone.
+
+485
+00:15:55,520 --> 00:15:57,400
+But that doesn't mean that in their own commercial products,
+
+486
+00:15:57,400 --> 00:15:58,440
+it's not that well-made.
+
+487
+00:15:58,440 --> 00:16:01,120
+Their commercial product is definitely going to be even better.
+
+488
+00:16:01,120 --> 00:16:03,880
+Alright, let's briefly touch on a few other points to wrap things up.
+
+489
+00:16:03,880 --> 00:16:05,240
+In other words, we've also made use of...
+
+490
+00:16:05,240 --> 00:16:07,200
+So, what other advantages do asynchronous sub-agents have?
+
+491
+00:16:07,200 --> 00:16:09,320
+For instance, as we've repeatedly emphasized,
+
+492
+00:16:09,320 --> 00:16:11,320
+The asynchronous sub-agent is already an independently maintained,
+
+493
+00:16:11,320 --> 00:16:13,300
+a self-contained, stateful agent.
+
+494
+00:16:13,300 --> 00:16:16,100
+So, its state and everything within it...
+
+495
+00:16:16,100 --> 00:16:18,260
+And all the IDs, all the various details within them...
+
+496
+00:16:18,260 --> 00:16:20,069
+Everything is maintained independently.
+
+497
+00:16:20,069 --> 00:16:22,669
+Then you won't run into the problem you'd have with a synchronous sub-agent.
+
+498
+00:16:22,669 --> 00:16:23,229
+the synchronous sub-agent
+
+499
+00:16:23,229 --> 00:16:25,189
+All of the information might be contained within the context.
+
+500
+00:16:25,189 --> 00:16:26,750
+We've talked about the context before, right?
+
+501
+00:16:26,750 --> 00:16:28,390
+If the context gets too long,
+
+502
+00:16:30,330 --> 00:16:32,250
+it will either compress some of the information or just truncate it outright.
+
+503
+00:16:32,250 --> 00:16:34,079
+or offload it to a local source.
+
+504
+00:16:34,079 --> 00:16:36,719
+And a lot of the time, some of the information you want might just get lost.
+
+505
+00:16:36,719 --> 00:16:38,559
+If what you have locally is just a file, or just on your local machine...
+
+506
+00:16:38,559 --> 00:16:39,319
+So when you say 'local'...
+
+507
+00:16:39,319 --> 00:16:41,540
+Because in Lantern Debate, it's a virtual file system.
+
+508
+00:16:41,540 --> 00:16:43,500
+If your virtual file system is just stored in memory,
+
+509
+00:16:43,500 --> 00:16:45,570
+So, it'll be gone the next time you start it up. Okay?
+
+510
+00:16:45,570 --> 00:16:47,770
+So, for an asynchronous child agent that uses external storage,
+
+511
+00:16:47,770 --> 00:16:49,210
+Under the current mechanism of the Deep Agent,
+
+512
+00:16:49,210 --> 00:16:52,020
+Its implementation is essentially an independently running agent.
+
+513
+00:16:52,020 --> 00:16:53,940
+So, by default, for this kind of independently running agent,
+
+514
+00:16:53,940 --> 00:16:55,350
+And behind the scenes, uh...
+
+515
+00:16:55,350 --> 00:16:57,910
+Now, typically, we could also use memory for data storage,
+
+516
+00:16:57,910 --> 00:16:59,590
+But generally speaking, they're based on a file system or a database.
+
+517
+00:16:59,590 --> 00:17:00,960
+And by default, it specifically uses a database.
+
+518
+00:17:00,960 --> 00:17:02,080
+So, in a situation like this,
+
+519
+00:17:02,080 --> 00:17:05,040
+Your sub-agent system is actually a very stable one.
+
+520
+00:17:05,040 --> 00:17:08,550
+Or, to put it another way, it's a separate datastore that's flexible and resilient.
+
+521
+00:17:08,550 --> 00:17:09,829
+a separate task system.
+
+522
+00:17:09,829 --> 00:17:11,770
+So, for you to execute long-running tasks,
+
+523
+00:17:11,770 --> 00:17:12,910
+This kind of approach is prone to failure,
+
+524
+00:17:12,910 --> 00:17:14,859
+tasks that are prone to all sorts of issues.
+
+525
+00:17:14,859 --> 00:17:16,980
+this actually becomes a major advantage for you.
+
+526
+00:17:16,980 --> 00:17:20,200
+So, it's really important for everyone to understand this.
+
+527
+00:17:20,200 --> 00:17:22,240
+the difference between synchronous and asynchronous sub-agents,
+
+528
+00:17:22,240 --> 00:17:23,280
+and their implementation mechanisms.
+
+529
+00:17:23,280 --> 00:17:24,000
+Once you understand that,
+
+530
+00:17:24,000 --> 00:17:25,680
+you'll have the freedom to choose more freely.
+
+531
+00:17:25,680 --> 00:17:28,060
+Should I just go ahead and use the asynchronous sub-agent?
+
+532
+00:17:28,060 --> 00:17:29,680
+
+
+533
+00:17:29,680 --> 00:17:32,660
+But the extra effort is definitely worth the benefits it brings.
+
+534
+00:17:32,660 --> 00:17:35,360
+in terms of state management, data storage, and its independence.
+
+535
+00:17:35,360 --> 00:17:37,460
+In terms of its non-blocking nature, there are clear benefits.
+
+536
+00:17:37,460 --> 00:17:38,240
+So in this case,
+
+537
+00:17:38,240 --> 00:17:39,420
+So, think it through carefully.
+
+538
+00:17:39,420 --> 00:17:40,640
+Both are perfectly fine.
+
+539
+00:17:40,640 --> 00:17:42,790
+It all depends on your specific business needs.
+
+540
+00:17:42,790 --> 00:17:44,350
+So, what about its transmission and deployment?
+
+541
+00:17:44,350 --> 00:17:46,130
+So, you might be wondering why we're suddenly talking about deployment.
+
+542
+00:17:46,130 --> 00:17:48,910
+So, this is that asynchronous sub-agent we were talking about earlier.
+
+543
+00:17:48,910 --> 00:17:50,110
+In the current implementation within the agent,
+
+544
+00:17:50,110 --> 00:17:52,720
+It's actually already an independent agent service.
+
+545
+00:17:52,720 --> 00:17:53,880
+It's already an agent server.
+
+546
+00:17:53,880 --> 00:17:56,240
+So, since deployment methods are inevitably involved,
+
+547
+00:17:56,240 --> 00:17:58,040
+We won't go into too much detail on the deployment specifics here.
+
+548
+00:17:58,040 --> 00:17:58,560
+There are basically two ways to do it.
+
+549
+00:17:58,560 --> 00:18:00,410
+The first method is to deploy it onto their cloud platform.
+
+550
+00:18:00,410 --> 00:18:02,370
+and you'll get a dedicated service for it.
+
+551
+00:18:02,370 --> 00:18:04,370
+Ah, by default, you get it on the Let's Deploy platform.
+
+552
+00:18:04,370 --> 00:18:06,070
+and you'll get a dedicated URL for it.
+
+553
+00:18:06,070 --> 00:18:08,540
+Or, you could just deploy the files locally on your own machine.
+
+554
+00:18:08,540 --> 00:18:09,960
+So, if you're deploying it yourself, uh...
+
+555
+00:18:09,960 --> 00:18:13,060
+The implementation of this linkage is essentially within the current service deployment.
+
+556
+00:18:13,060 --> 00:18:14,180
+So, you can have multiple graphs.
+
+557
+00:18:14,180 --> 00:18:15,660
+So, you can have multiple graphs.
+
+558
+00:18:15,660 --> 00:18:18,410
+So, you can basically think of it as...
+
+559
+00:18:18,410 --> 00:18:19,970
+It's basically just communication within a single process.
+
+560
+00:18:19,970 --> 00:18:23,190
+But it has its own specific communication mechanisms, alright.
+
+561
+00:18:23,190 --> 00:18:25,930
+So, as you can see, there are many different topologies here.
+
+562
+00:18:25,930 --> 00:18:27,050
+So, there are different deployment methods.
+
+563
+00:18:27,050 --> 00:18:28,590
+or a hybrid split.
+
+564
+00:18:28,590 --> 00:18:30,550
+Right, the way to think about it is that they are already independent services.
+
+565
+00:18:30,550 --> 00:18:33,670
+So, you can deploy them all locally on a single port.
+
+566
+00:18:33,670 --> 00:18:34,470
+or on a single machine.
+
+567
+00:18:34,470 --> 00:18:35,610
+Or, you can separate them a bit.
+
+568
+00:18:37,650 --> 00:18:40,370
+Or even deploy it on a completely separate instance.
+
+569
+00:18:40,370 --> 00:18:41,330
+Or even just locally, that's fine too.
+
+570
+00:18:41,330 --> 00:18:42,570
+So, just think of it that way, and you'll be fine.
+
+571
+00:18:42,570 --> 00:18:44,330
+Because the core of it isn't really about how you deploy it.
+
+572
+00:18:44,330 --> 00:18:45,570
+The point is, I need to learn how to deploy it.
+
+573
+00:18:45,570 --> 00:18:46,970
+What you really need to understand right now is this:
+
+574
+00:18:46,970 --> 00:18:48,110
+It's an independent service.
+
+575
+00:18:48,110 --> 00:18:49,950
+And if you were to implement it yourself this way,
+
+576
+00:18:49,950 --> 00:18:52,470
+your natural inclination would be to deploy them together locally.
+
+577
+00:18:52,470 --> 00:18:55,830
+or deploy them on, uh, two different machines.
+
+578
+00:18:55,830 --> 00:18:58,350
+And to be honest, this is also a point where...
+
+579
+00:18:58,350 --> 00:18:58,830
+Right now,
+
+580
+00:18:58,830 --> 00:19:02,310
+And that's actually what's holding people back from making the most of asynchronous sub-agents.
+
+581
+00:19:02,310 --> 00:19:03,590
+Because it involves this whole deployment process.
+
+582
+00:19:03,590 --> 00:19:06,230
+I mean, for example, AWS Lambda is a paid service.
+
+583
+00:19:06,230 --> 00:19:07,770
+So, that might be a bit of a turn-off for you guys, right?
+
+584
+00:19:07,770 --> 00:19:09,050
+and might not be so keen on using it anymore.
+
+585
+00:19:09,050 --> 00:19:10,830
+But that shouldn't stop you from understanding the concepts.
+
+586
+00:19:10,830 --> 00:19:13,310
+So, how does Deep Agent currently conceptualize and implement its asynchronous sub-agents?
+
+587
+00:19:13,310 --> 00:19:14,590
+That's a good point.
+
+588
+00:19:14,590 --> 00:19:16,430
+Finally, there are some best practices, but we won't get into those.
+
+589
+00:19:16,430 --> 00:19:18,670
+Because it involves a lot of, you know, stuff like WALKPO and whatnot.
+
+590
+00:19:18,670 --> 00:19:20,310
+And you can tell right away, this is all related to deployment.
+
+591
+00:19:20,310 --> 00:19:20,730
+Right?
+
+592
+00:19:20,730 --> 00:19:25,060
+and that includes, uh, some of the tuning for the initial startup.
+
+593
+00:19:25,060 --> 00:19:25,940
+So, this is all related to deployment.
+
+594
+00:19:25,940 --> 00:19:26,900
+we can pretty much ignore it.
+
+595
+00:19:26,900 --> 00:19:29,460
+So, this is something we should probably take a closer look at.
+
+596
+00:19:29,460 --> 00:19:31,280
+So, when it comes to these child agents...
+
+597
+00:19:31,280 --> 00:19:33,260
+Its description has always been crucial.
+
+598
+00:19:33,260 --> 00:19:36,340
+Because its description will, by default, still be used as, uh...
+
+599
+00:19:36,340 --> 00:19:37,780
+the main agent's first round of tool invocation.
+
+600
+00:19:37,780 --> 00:19:39,460
+It's used when a task is being assigned.
+
+601
+00:19:39,460 --> 00:19:41,940
+So, the description of the child agent, no matter what,
+
+602
+00:19:41,940 --> 00:19:42,940
+regardless of whether it's synchronous or asynchronous,
+
+603
+00:19:42,940 --> 00:19:45,060
+are all incredibly important.
+
+604
+00:19:45,060 --> 00:19:48,620
+And on top of that, there's also some, uh, prompt optimization.
+
+605
+00:19:48,620 --> 00:19:50,680
+This means handing the control back to the user.
+
+606
+00:19:50,680 --> 00:19:52,860
+So, these things will also help, uh...
+
+607
+00:19:52,860 --> 00:19:53,800
+Asynchronous Sub-Agents
+
+608
+00:19:53,800 --> 00:19:55,940
+This actually allows it to manage its own state more effectively.
+
+609
+00:19:55,940 --> 00:19:58,440
+So it's not like you get no response at all.
+
+610
+00:19:58,440 --> 00:20:00,329
+or, you know, a silent response.
+
+611
+00:20:00,329 --> 00:20:02,609
+So, it's about getting the stuff that's supposed to be sent back out...
+
+612
+00:20:02,609 --> 00:20:03,729
+and it just gets swallowed up.
+
+613
+00:20:03,729 --> 00:20:06,970
+And there will be some related help available for that as well.
+
+614
+00:20:06,970 --> 00:20:09,570
+And there are other things, like, for example, you can force it to do a check before listing.
+
+615
+00:20:09,570 --> 00:20:10,370
+and then provide an answer.
+
+616
+00:20:10,370 --> 00:20:12,530
+And this is all from the perspective of the main agent.
+
+617
+00:20:12,530 --> 00:20:15,190
+So, when we're using these asynchronous sub-agents,
+
+618
+00:20:15,190 --> 00:20:16,330
+when it comes to these tools,
+
+619
+00:20:16,330 --> 00:20:17,870
+And since it has quite a few tools at its disposal,
+
+620
+00:20:17,870 --> 00:20:19,010
+And there will be even more down the line.
+
+621
+00:20:19,010 --> 00:20:20,750
+So, you can actually ask the main agent,
+
+622
+00:20:20,750 --> 00:20:22,340
+to have its own way of operating.
+
+623
+00:20:22,340 --> 00:20:23,340
+or even a dedicated skill.
+
+624
+00:20:23,340 --> 00:20:25,380
+So, when you're using asynchronous sub-agents,
+
+625
+00:20:25,380 --> 00:20:28,310
+you should load in some additional, uh, operational methods and standards.
+
+626
+00:20:28,310 --> 00:20:29,350
+All of that is possible.
+
+627
+00:20:29,350 --> 00:20:30,690
+But anyway, uh, all of this...
+
+628
+00:20:30,690 --> 00:20:32,370
+in light of everything we've just covered,
+
+629
+00:20:32,370 --> 00:20:33,530
+none of that really matters anymore.
+
+630
+00:20:33,530 --> 00:20:37,919
+But the most crucial thing is that you have to understand its architecture.
+
+631
+00:20:37,919 --> 00:20:41,350
+You need to understand how it takes these external...
+
+632
+00:20:41,350 --> 00:20:41,910
+agent services,
+
+633
+00:20:41,910 --> 00:20:45,420
+and then integrate them into tools that everyone can call upon.
+
+634
+00:20:45,420 --> 00:20:46,800
+And then, let's talk about the current implementation.
+
+635
+00:20:46,800 --> 00:20:49,280
+So, what does it generally look like when you use it?
+
+636
+00:20:49,280 --> 00:20:49,980
+It's that simple.
+
+637
+00:20:49,980 --> 00:20:52,929
+Because behind the scenes, it's all been wrapped up into an agent service.
+
+638
+00:20:52,929 --> 00:20:54,549
+and you're just using this entire service as a whole.
+
+639
+00:20:54,549 --> 00:20:56,469
+So, from your perspective, its interface becomes much simpler.
+
+640
+00:20:56,469 --> 00:20:58,729
+It involves a ton of API calls behind the scenes that you just can't see.
+
+641
+00:20:58,729 --> 00:20:59,989
+are also encapsulated as tools.
+
+642
+00:20:59,989 --> 00:21:01,490
+Alright, so now that you have a basic understanding of these concepts,
+
+643
+00:21:01,490 --> 00:21:02,830
+So, for this asynchronous sub-agent...
+
+644
+00:21:02,830 --> 00:21:05,980
+So, by now, you should have a pretty good idea of its, uh...
+
+645
+00:21:05,980 --> 00:21:08,300
+and the implementation method used within the DEPG system.
+
+646
+00:21:08,300 --> 00:21:10,820
+And also, just remember, it's non-blocking.
+
+647
+00:21:10,820 --> 00:21:11,590
+So, right here on this slide.
+
+648
+00:21:11,590 --> 00:21:14,370
+So, what exactly is the difference between a synchronous sub-agent and an asynchronous one?
+
+649
+00:21:14,370 --> 00:21:16,290
+So, what exactly are its advantages?
+
+650
+00:21:16,290 --> 00:21:18,490
+And it's not like the two can't coexist.
+
+651
+00:21:18,490 --> 00:21:19,650
+In fact, you can use both of them at the same time.
+
+652
+00:21:19,650 --> 00:21:22,420
+And what's more, they can even be converted into one another.
+
+653
+00:21:22,420 --> 00:21:24,180
+So, what does that look like in practice?
+
+654
+00:21:24,180 --> 00:21:25,540
+You can also take a moment to think about this on your own.
+
+655
+00:21:25,540 --> 00:21:27,540
+So, if you were to build an asynchronous sub-agent system like this on your own,
+
+656
+00:21:27,540 --> 00:21:28,200
+how would you go about it?
+
+657
+00:21:28,200 --> 00:21:30,380
+And we'd love to hear your thoughts in the comments section below.
+
+658
+00:21:30,380 --> 00:21:32,420
+and discuss it further in our Feishu group chat.
+
+659
+00:21:32,420 --> 00:21:33,900
+Because this feature is in the DB volume,
+
+660
+00:21:33,900 --> 00:21:35,900
+It's currently an experimental feature, uh...
+
+661
+00:21:35,900 --> 00:21:38,580
+This feature is definitely here to stay, and it's something we really need.
+
+662
+00:21:38,580 --> 00:21:39,980
+But what's the right way to actually do it?
+
+663
+00:21:39,980 --> 00:21:42,930
+how can we make it truly accessible and usable for the average user?
+
+664
+00:21:42,930 --> 00:21:46,730
+This is something that's open to a lot of debate, you know.
+
+665
+00:21:46,730 --> 00:21:48,250
+Alright, so that's all for today's topic.
+
+666
+00:21:48,250 --> 00:21:51,080
+Alright, so, uh, after this lecture...
+
+667
+00:21:51,080 --> 00:21:53,480
+we're going to start diving into the advanced section.
+
+668
+00:21:53,480 --> 00:21:54,320
+So, that's what the advanced section will cover.
+
+669
+00:21:54,320 --> 00:21:56,590
+So, the main focus will be more on helping you guys, uh...
+
+670
+00:21:56,590 --> 00:21:59,520
+to really master the current Deep Agent on a much deeper level.
+
+671
+00:21:59,520 --> 00:22:01,840
+the basic capabilities of DEPENT that you've been using.
+
+672
+00:22:01,840 --> 00:22:02,880
+So, with that, we'll wrap up this part of the tutorial.
+
+673
+00:22:02,880 --> 00:22:04,440
+And that's a wrap for this section.
+
+674
+00:22:04,440 --> 00:22:06,680
+So, moving forward, we'll start covering topics like memory,
+
+675
+00:22:06,680 --> 00:22:07,680
+skills,
+
+676
+00:22:07,680 --> 00:22:10,990
+and other advanced topics that will help you master the Deep Agent.
+
+677
+00:22:10,990 --> 00:22:13,910
+and other key concepts to help you use the entire system more effectively.
+
+678
+00:22:13,910 --> 00:22:16,390
+Alright, so that's all we have for this share.
+
+679
+00:22:16,390 --> 00:22:17,500
+See you next time.
+

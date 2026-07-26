@@ -1,0 +1,524 @@
+1
+00:00:00,000 --> 00:00:01,240
+Challenge of using AI to accomplish 100 tasks
+
+2
+00:00:01,240 --> 00:00:02,040
+Episode 58
+
+3
+00:00:02,040 --> 00:00:03,160
+Versatile and user-friendly
+
+4
+00:00:03,160 --> 00:00:05,040
+I will take you through it all in one go
+
+5
+00:00:05,040 --> 00:00:07,120
+Master the most common types of AI videos currently on the market
+
+6
+00:00:07,120 --> 00:00:08,469
+Let's take a look at the effects first
+
+7
+00:00:08,469 --> 00:00:09,549
+Give me a chance
+
+8
+00:00:09,549 --> 00:00:10,689
+How can I give you a chance
+
+9
+00:00:10,689 --> 00:00:11,909
+I had no choice before
+
+10
+00:00:11,909 --> 00:00:13,289
+Now I want to get off work on time, hmph.
+
+11
+00:00:13,289 --> 00:00:14,750
+Tell the boss you want to clock off on time
+
+12
+00:00:14,750 --> 00:00:16,850
+see if he lets you choose
+
+13
+00:00:16,850 --> 00:00:18,230
+Then you're forcing me to slack off
+
+14
+00:00:18,230 --> 00:00:19,350
+Wow, the night shift is so miserable with this kind of arrangement.
+
+15
+00:00:19,350 --> 00:00:19,990
+still have to act obedient
+
+16
+00:00:19,990 --> 00:00:20,870
+That's just too miserable
+
+17
+00:00:20,870 --> 00:00:23,040
+It's just the basic quality of a debt-collecting cat.
+
+18
+00:00:23,040 --> 00:00:25,560
+But it's truly a case of exchanging cat food for hard labor like an ox or horse.
+
+19
+00:00:25,560 --> 00:00:26,560
+Like a cat, it's selling its life for a meal.
+
+20
+00:00:26,560 --> 00:00:27,420
+not working hahaha
+
+21
+00:00:27,420 --> 00:00:32,069
+Ask if it's really worth it
+
+22
+00:00:34,120 --> 00:00:36,020
+Would you hesitate if love calls, leaving nothing but regret?
+
+23
+00:00:36,020 --> 00:00:39,019
+A fleeting moment turns into a river
+
+24
+00:00:39,019 --> 00:00:40,539
+Make it harder a mea
+
+25
+00:00:40,539 --> 00:00:41,099
+Megan han
+
+26
+00:00:41,099 --> 00:00:41,659
+A h megan
+
+27
+00:00:41,659 --> 00:00:42,299
+Making harder
+
+28
+00:00:42,299 --> 00:00:42,779
+A mea
+
+29
+00:00:42,779 --> 00:00:43,499
+Megan han
+
+30
+00:00:43,499 --> 00:00:43,899
+Jun
+
+31
+00:00:43,899 --> 00:00:44,739
+Yo hada
+
+32
+00:00:44,739 --> 00:00:45,259
+Jojo
+
+33
+00:00:45,259 --> 00:00:45,620
+Han
+
+34
+00:00:45,620 --> 00:00:47,820
+Fierce and bold
+
+35
+00:00:47,820 --> 00:00:49,740
+Budong budong hada budong budong
+
+36
+00:00:49,740 --> 00:00:50,080
+shout
+
+37
+00:00:50,080 --> 00:00:52,140
+Budongbudong hada budongbudong ha
+
+38
+00:00:52,140 --> 00:00:53,580
+The video cases you just saw
+
+39
+00:00:53,580 --> 00:00:56,420
+It covers almost all the most popular categories of current AI videos.
+
+40
+00:00:56,420 --> 00:00:58,300
+such as action imitation, animal podcasts, cyber acting
+
+41
+00:00:58,300 --> 00:00:59,700
+Cyber acting virtual idol virtual idol
+
+42
+00:00:59,700 --> 00:01:00,560
+and live-streaming sales videos
+
+43
+00:01:00,560 --> 00:01:02,340
+If you also want to achieve these video effects
+
+44
+00:01:02,340 --> 00:01:03,400
+I recommend DreamOn
+
+45
+00:01:03,400 --> 00:01:05,480
+The current Dream is no longer limited to text videos
+
+46
+00:01:05,480 --> 00:01:07,480
+image-to-video and first-last frame generation
+
+47
+00:01:07,480 --> 00:01:09,040
+For example, the one I just posted the other day
+
+48
+00:01:09,040 --> 00:01:10,720
+video model capable of replicating actions
+
+49
+00:01:10,720 --> 00:01:12,460
+Wan Animate works pretty well
+
+50
+00:01:12,460 --> 00:01:14,000
+but it's very difficult to deploy
+
+51
+00:01:14,000 --> 00:01:15,800
+and also has extremely high hardware requirements
+
+52
+00:01:15,800 --> 00:01:17,900
+Now the savior for beginners has finally arrived
+
+53
+00:01:17,900 --> 00:01:21,140
+Look, on the left side of the dialog box on the Home page of Ji Meng, select action imitation
+
+54
+00:01:21,140 --> 00:01:23,370
+Then upload the character image and reference video separately
+
+55
+00:01:23,370 --> 00:01:24,810
+You don't need to worry about the rest
+
+56
+00:01:24,810 --> 00:01:25,850
+click generate directly
+
+57
+00:01:25,850 --> 00:01:27,690
+Then this video is directly produced.
+
+58
+00:01:27,690 --> 00:01:29,810
+The motion details are actually all performed excellently
+
+59
+00:01:29,810 --> 00:01:31,500
+Additionally, the current Jidream excels in
+
+60
+00:01:31,500 --> 00:01:33,820
+The performance in dubbing and lip-syncing is excellent
+
+61
+00:01:33,820 --> 00:01:35,860
+This recently trending animal podcast video
+
+62
+00:01:35,860 --> 00:01:37,260
+You just need to upload a photo
+
+63
+00:01:37,260 --> 00:01:38,720
+Then write the prompt like this
+
+64
+00:01:38,720 --> 00:01:41,740
+can accurately produce this animal podcast video word by word
+
+65
+00:01:41,740 --> 00:01:42,980
+Let's take a look at the effect together
+
+66
+00:01:42,980 --> 00:01:44,380
+When will the poop scooper come back?
+
+67
+00:01:44,380 --> 00:01:45,600
+I want to cuddle, you're so clingy
+
+68
+00:01:45,600 --> 00:01:47,460
+He's just a tool for buying food.
+
+69
+00:01:47,460 --> 00:01:48,180
+Then did that tool give you a break yesterday
+
+70
+00:01:48,180 --> 00:01:49,900
+Then why did he only open a small can for you?
+
+71
+00:01:49,900 --> 00:01:50,940
+Hmph, because I'm the master.
+
+72
+00:01:50,940 --> 00:01:51,860
+You're really counting
+
+73
+00:01:52,940 --> 00:01:54,340
+How about that, it performed exceptionally well, didn't it?
+
+74
+00:01:54,340 --> 00:01:55,780
+Then this is just a small animal
+
+75
+00:01:55,780 --> 00:01:57,040
+If replaced with real people
+
+76
+00:01:57,040 --> 00:01:59,380
+You'll find that Ji Meng (Dream) performs even better in dialects and emotional expression.
+
+77
+00:01:59,380 --> 00:02:00,920
+Better than you hoarding piles of Lianhua Qingwen until they expire and stink, it brings you more surprises.
+
+78
+00:02:00,920 --> 00:02:04,860
+At least I lost money honorably, like this Cantonese version of 'Pulling Down Zhang Fei'. Your fund has been performing so wildly this week that even your mom wouldn't recognize it.
+
+79
+00:02:04,860 --> 00:02:07,450
+Better than you hoarding expired Lianhua Qingwen capsules until they stink
+
+80
+00:02:07,450 --> 00:02:10,590
+At least I lose money openly, better than you hoarding and scalping only to be scolded by the neighbors.
+
+81
+00:02:10,590 --> 00:02:11,650
+scolded by the neighbors on the street
+
+82
+00:02:11,650 --> 00:02:15,130
+What are you looking for me for? And here's the classic scene from the Film 'Infernal Affairs', blocking me from grabbing coupons.
+
+83
+00:02:15,130 --> 00:02:15,930
+Let me sing for once
+
+84
+00:02:15,930 --> 00:02:17,000
+You're blocking me from grabbing coupons, let me tell you
+
+85
+00:02:17,000 --> 00:02:17,600
+I'm going to grab a meal.
+
+86
+00:02:17,600 --> 00:02:19,580
+I am the rice cooker base, wow, I even have the rice cooker knife tea.
+
+87
+00:02:19,580 --> 00:02:22,600
+I caught you sneaking meat during meal time, you rascal. You know what to do—tonight's milk tea is on you.
+
+88
+00:02:22,600 --> 00:02:24,400
+Why did you hit me, huh? Speak up, or I'll call the cops on you.
+
+89
+00:02:24,400 --> 00:02:26,220
+The dog took it and refuses to pay, hey, it's done
+
+90
+00:02:26,220 --> 00:02:29,210
+Or the furious Infernal Affairs
+
+91
+00:02:29,210 --> 00:02:31,170
+Was it you who took the reserved parking spot downstairs?
+
+92
+00:02:31,170 --> 00:02:32,130
+I've reminded you three times already
+
+93
+00:02:32,130 --> 00:02:32,370
+Damn
+
+94
+00:02:32,370 --> 00:02:34,120
+What's up with this crazy chick? You think you're so damn awesome?
+
+95
+00:02:34,120 --> 00:02:36,020
+Isn't it you who stole the dedicated parking space downstairs? Look at this character's expression and accent.
+
+96
+00:02:36,020 --> 00:02:38,649
+I've reminded you three times about the cinematic feel and lens presence, it's just like a real shoot.
+
+97
+00:02:38,649 --> 00:02:39,689
+As for the product promotion videos
+
+98
+00:02:39,689 --> 00:02:40,769
+Is it you who took the dedicated parking spot downstairs? That's as easy as pie.
+
+99
+00:02:40,769 --> 00:02:41,849
+I've reminded you three times, no need to elaborate further
+
+100
+00:02:41,849 --> 00:02:43,129
+The performance is also exceptionally good
+
+101
+00:02:43,129 --> 00:02:45,089
+You think you're so great, since even my lines can be realized, since even my lines can be realized
+
+102
+00:02:45,089 --> 00:02:50,960
+Then opera, it can also be achieved, asking oneself in the end, reluctant to part with
+
+103
+00:02:53,000 --> 00:02:54,880
+Can't bear to part with love
+
+104
+00:02:54,880 --> 00:02:57,880
+Love turns into hatred in an instant
+
+105
+00:02:57,960 --> 00:03:00,320
+Look at that concert video just now
+
+106
+00:03:00,320 --> 00:03:01,840
+Compared to role-playing
+
+107
+00:03:01,840 --> 00:03:02,800
+the character's voice
+
+108
+00:03:02,800 --> 00:03:03,720
+Music accompaniment
+
+109
+00:03:03,720 --> 00:03:05,920
+The transitions between shots are not only very stable
+
+110
+00:03:05,920 --> 00:03:07,000
+and extremely harmonious
+
+111
+00:03:07,000 --> 00:03:08,440
+We've just given so many examples
+
+112
+00:03:08,440 --> 00:03:10,020
+are all about voice synchronization
+
+113
+00:03:10,020 --> 00:03:13,420
+In fact, the current Jimeng can also do an excellent job with video sound effects and dubbing.
+
+114
+00:03:13,420 --> 00:03:15,900
+such as this sci-fi spaceship
+
+115
+00:03:19,700 --> 00:03:22,100
+the breathing sound of diving
+
+116
+00:03:25,620 --> 00:03:28,220
+and this ambient jungle sound
+
+117
+00:03:31,160 --> 00:03:34,760
+The sense of atmosphere and realism in all the above is exceptionally high.
+
+118
+00:03:34,760 --> 00:03:35,480
+It has to be said
+
+119
+00:03:35,480 --> 00:03:37,820
+The performance of our domestic large models is getting better and better.
+
+120
+00:03:37,820 --> 00:03:39,240
+and the technological aspects
+
+121
+00:03:39,240 --> 00:03:41,040
+not only has the video quality been significantly improved
+
+122
+00:03:41,040 --> 00:03:42,900
+and excels in audio-visual synchronization
+
+123
+00:03:42,900 --> 00:03:44,040
+is also very surprising
+
+124
+00:03:44,040 --> 00:03:46,220
+It can be anticipated that in the coming months, there will be even more impressive developments in the audiovisual domain.
+
+125
+00:03:46,220 --> 00:03:48,920
+more surprising and delightful videos
+
+126
+00:03:48,920 --> 00:03:50,100
+The dog carried away the urine bib, let's wait and see.
+
+127
+00:03:50,100 --> 00:03:51,320
+That's all for this video.
+
+128
+00:03:51,320 --> 00:03:52,320
+If you also like my video
+
+129
+00:03:52,320 --> 00:03:53,280
+Remember to like, follow, and favorite
+
+130
+00:03:53,280 --> 00:03:53,980
+I'm Bob
+
+131
+00:03:53,980 --> 00:03:54,980
+See you in the next episode
+

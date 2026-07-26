@@ -1,0 +1,392 @@
+1
+00:00:00,040 --> 00:00:00,280
+Hello
+
+2
+00:00:00,280 --> 00:00:00,760
+Hello everyone
+
+3
+00:00:00,760 --> 00:00:01,520
+In this episode
+
+4
+00:00:01,520 --> 00:00:04,280
+mainly want to share with you a plugin about OBACCEDING
+
+5
+00:00:04,280 --> 00:00:05,120
+Here's the story
+
+6
+00:00:05,120 --> 00:00:06,540
+This is why I really like OneNote.
+
+7
+00:00:06,540 --> 00:00:08,039
+Its way of opening is
+
+8
+00:00:08,039 --> 00:00:09,380
+where you have a notebook on the left side
+
+9
+00:00:09,380 --> 00:00:11,660
+Then you can see its internal situation
+
+10
+00:00:11,660 --> 00:00:13,000
+And here is a page
+
+11
+00:00:13,000 --> 00:00:15,820
+Actually, I was wondering if ABCD could achieve a similar effect.
+
+12
+00:00:15,820 --> 00:00:19,200
+Originally planned to use Codex to develop an OBSEIN
+
+13
+00:00:19,200 --> 00:00:21,320
+a plugin to achieve this specific function
+
+14
+00:00:21,320 --> 00:00:23,200
+but when I was chatting with ChatGPT
+
+15
+00:00:23,200 --> 00:00:25,460
+I suddenly came across a plugin called notebook
+
+16
+00:00:25,460 --> 00:00:27,220
+a plugin called Notebook Navigator
+
+17
+00:00:27,220 --> 00:00:28,780
+I didn't have high hopes initially
+
+18
+00:00:28,780 --> 00:00:30,180
+but when I went to download it
+
+19
+00:00:30,180 --> 00:00:31,740
+I got an interface like this
+
+20
+00:00:31,740 --> 00:00:32,940
+And then magically
+
+21
+00:00:32,940 --> 00:00:35,960
+When you open Settings in the Notebook Navigator
+
+22
+00:00:35,960 --> 00:00:37,760
+below in the desktop appearance
+
+23
+00:00:37,760 --> 00:00:39,580
+you enable the dual-pane layout
+
+24
+00:00:39,580 --> 00:00:41,940
+At this point, you'll discover something magical
+
+25
+00:00:41,940 --> 00:00:44,520
+you can quickly switch between them in ABCITY
+
+26
+00:00:44,520 --> 00:00:46,800
+your different notes
+
+27
+00:00:46,800 --> 00:00:48,720
+and it's surprisingly completely lag-free
+
+28
+00:00:48,720 --> 00:00:52,620
+whether it's an Excel job file or a regular Markdown file
+
+29
+00:00:52,620 --> 00:00:53,100
+for example here
+
+30
+00:00:53,100 --> 00:00:55,500
+Let's try with another file
+
+31
+00:00:55,500 --> 00:00:58,779
+You can see the effect is really very nice
+
+32
+00:00:58,779 --> 00:00:59,239
+At this point
+
+33
+00:00:59,239 --> 00:01:00,999
+For example, in this file there are
+
+34
+00:01:00,999 --> 00:01:03,330
+approximately 150 files
+
+35
+00:01:03,330 --> 00:01:05,129
+Each of my files has some tags
+
+36
+00:01:05,129 --> 00:01:07,530
+You can use these tags to control the folders
+
+37
+00:01:07,530 --> 00:01:08,690
+For example, under this folder
+
+38
+00:01:08,690 --> 00:01:09,380
+I want to go up
+
+39
+00:01:09,380 --> 00:01:11,500
+and then filter files with specific tags
+
+40
+00:01:11,500 --> 00:01:12,180
+how do I do it
+
+41
+00:01:12,180 --> 00:01:13,420
+I just need to hold down the control
+
+42
+00:01:13,420 --> 00:01:14,280
+then click here
+
+43
+00:01:14,280 --> 00:01:16,540
+For example, here I select content related to AI
+
+44
+00:01:16,540 --> 00:01:19,980
+At this point, it will filter all notes related to AI.
+
+45
+00:01:19,980 --> 00:01:22,060
+Of course, you can also perform multiple filters
+
+46
+00:01:22,060 --> 00:01:22,940
+all of this is possible
+
+47
+00:01:22,940 --> 00:01:25,720
+It follows exactly the same logic as OneNote.
+
+48
+00:01:25,720 --> 00:01:27,200
+I think it really completely solves
+
+49
+00:01:27,200 --> 00:01:30,080
+the issue of inconvenient file management in ABCD
+
+50
+00:01:30,080 --> 00:01:30,840
+and switching
+
+51
+00:01:30,840 --> 00:01:32,320
+You can see how fast this switching is
+
+52
+00:01:32,320 --> 00:01:35,869
+the switching speed between different files is very fast
+
+53
+00:01:35,869 --> 00:01:37,949
+At the same time, you don't have to use this folder
+
+54
+00:01:37,949 --> 00:01:38,669
+such a directory
+
+55
+00:01:38,669 --> 00:01:40,669
+You can also directly control it through tags.
+
+56
+00:01:40,669 --> 00:01:42,780
+For example, you can directly click on a tag you previously created
+
+57
+00:01:42,780 --> 00:01:44,100
+you can perform an operation
+
+58
+00:01:44,100 --> 00:01:45,900
+The effect is truly excellent.
+
+59
+00:01:45,900 --> 00:01:47,100
+I highly recommend giving it a try
+
+60
+00:01:47,100 --> 00:01:48,760
+Of course, here you can also choose
+
+61
+00:01:48,760 --> 00:01:51,640
+whether to display the contents of subfolders under your file
+
+62
+00:01:51,640 --> 00:01:53,700
+Currently, the subfolder contents are not displayed
+
+63
+00:01:53,700 --> 00:01:55,509
+Then it will be displayed
+
+64
+00:01:55,509 --> 00:01:58,760
+At the same time, you can also change its sorting method.
+
+65
+00:01:58,760 --> 00:02:00,160
+You can also change its color
+
+66
+00:02:00,160 --> 00:02:01,360
+including what it displays
+
+67
+00:02:01,360 --> 00:02:03,640
+And you can see that under each folder
+
+68
+00:02:03,640 --> 00:02:05,160
+It can have such an image
+
+69
+00:02:05,160 --> 00:02:07,040
+it follows the same logic as OneNote
+
+70
+00:02:07,040 --> 00:02:08,320
+is almost exactly the same
+
+71
+00:02:08,320 --> 00:02:11,200
+I even think it's done even better than OneNote.
+
+72
+00:02:11,200 --> 00:02:12,480
+Of course, you can also choose
+
+73
+00:02:12,480 --> 00:02:13,880
+to change its different icons
+
+74
+00:02:13,880 --> 00:02:15,340
+There will also be some other features
+
+75
+00:02:15,340 --> 00:02:18,100
+Here you can also choose to hide a folder
+
+76
+00:02:18,100 --> 00:02:19,500
+Then you turn off this small eye icon
+
+77
+00:02:19,500 --> 00:02:20,300
+Now it's not visible
+
+78
+00:02:20,300 --> 00:02:21,620
+Then you click on this eye icon
+
+79
+00:02:21,620 --> 00:02:22,660
+you can see it
+
+80
+00:02:22,660 --> 00:02:24,380
+You can also choose to display it here
+
+81
+00:02:24,380 --> 00:02:26,680
+In this way, your hidden items will appear
+
+82
+00:02:26,680 --> 00:02:29,240
+Then here you can click to display the calendar
+
+83
+00:02:29,240 --> 00:02:31,840
+You can see that it also allows you to create a list daily note
+
+84
+00:02:31,840 --> 00:02:33,520
+which is essentially completely replacing that Blender
+
+85
+00:02:33,520 --> 00:02:34,800
+the functionality of that plugin
+
+86
+00:02:34,800 --> 00:02:36,960
+So I highly recommend everyone to give this plugin a try
+
+87
+00:02:36,960 --> 00:02:38,240
+Because I haven't seen one for a long time
+
+88
+00:02:38,240 --> 00:02:40,580
+It's a plugin that's completely flawless in every way.
+
+89
+00:02:40,580 --> 00:02:41,560
+And it really doesn't lag.
+
+90
+00:02:41,560 --> 00:02:43,500
+
+
+91
+00:02:43,500 --> 00:02:44,380
+file management software
+
+92
+00:02:44,380 --> 00:02:45,880
+I just dragged the file a little bit
+
+93
+00:02:45,880 --> 00:02:46,760
+it will get stuck
+
+94
+00:02:46,760 --> 00:02:49,200
+So everyone must give this Notebook Navigator a try.
+
+95
+00:02:49,200 --> 00:02:49,400
+Alright
+
+96
+00:02:49,400 --> 00:02:50,120
+That's all for this time
+
+97
+00:02:50,120 --> 00:02:50,560
+See you next time
+
+98
+00:02:50,560 --> 00:02:50,940
+Bye
+

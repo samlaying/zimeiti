@@ -1,0 +1,436 @@
+1
+00:00:08,460 --> 00:00:09,580
+I never would have thought...
+
+2
+00:00:09,580 --> 00:00:13,620
+I can't believe the CLI can create such a flexible, limitless canvas.
+
+3
+00:00:13,620 --> 00:00:16,180
+So, Jimeng AI's CLI has been out for a little while now.
+
+4
+00:00:16,180 --> 00:00:18,460
+But a lot of people aren't quite sure what it can actually do.
+
+5
+00:00:18,460 --> 00:00:20,140
+But actually, it's capable of a whole lot.
+
+6
+00:00:20,140 --> 00:00:24,080
+So today, I'm going to show you an infinite canvas based on the Jimeng CLI.
+
+7
+00:00:24,080 --> 00:00:26,180
+I call it the 'web workflow'.
+
+8
+00:00:26,180 --> 00:00:29,300
+So, first off, let's see... he kinda looks like Combi.
+
+9
+00:00:29,300 --> 00:00:32,310
+The UI nodes can be freely combined.
+
+10
+00:00:32,310 --> 00:00:35,750
+All of Dreamina's full-power models are right here.
+
+11
+00:00:35,750 --> 00:00:40,690
+For example, this is the image model, and you can select 5.0 from it.
+
+12
+00:00:40,690 --> 00:00:41,350
+4.0,
+
+13
+00:00:41,350 --> 00:00:46,080
+The entire series supports 2K and 4K resolutions, and this one is the video model.
+
+14
+00:00:46,080 --> 00:00:49,140
+For video generation, you can upload up to nine reference images.
+
+15
+00:00:49,140 --> 00:00:53,570
+For the three video references, the C-Down model is the full-power version 2.0.
+
+16
+00:00:53,570 --> 00:00:56,519
+So basically, it's got everything you could possibly need.
+
+17
+00:00:56,519 --> 00:01:00,159
+And of course, this is also linked to your own Dreamina account.
+
+18
+00:01:00,159 --> 00:01:01,699
+So, let's click on this spot right here.
+
+19
+00:01:01,699 --> 00:01:04,769
+And as you can see, your login information is right here.
+
+20
+00:01:04,769 --> 00:01:06,230
+your Dreamina credits
+
+21
+00:01:06,230 --> 00:01:10,910
+This is completely synced with your own Dreamina account.
+
+22
+00:01:10,910 --> 00:01:15,410
+So, you don't need to deal with any extra API-related operations.
+
+23
+00:01:15,410 --> 00:01:17,370
+So it has nothing to do with APIs at all.
+
+24
+00:01:17,370 --> 00:01:19,730
+Alright, let's open up a new window.
+
+25
+00:01:19,730 --> 00:01:22,570
+So, this is what the initial canvas looks like.
+
+26
+00:01:22,570 --> 00:01:25,300
+So, our main focus here is on the canvas.
+
+27
+00:01:25,300 --> 00:01:27,820
+Normally, you'd have to add some nodes.
+
+28
+00:01:27,820 --> 00:01:29,280
+None of this is particularly difficult.
+
+29
+00:01:29,280 --> 00:01:31,690
+But doing it that way is a real hassle.
+
+30
+00:01:31,690 --> 00:01:33,630
+But let's focus on this section over here on the right.
+
+31
+00:01:33,630 --> 00:01:35,130
+And it's connected to Doubao.
+
+32
+00:01:35,130 --> 00:01:36,759
+This is an agent.
+
+33
+00:01:36,759 --> 00:01:40,639
+So, right here, we can generate nodes through a conversational interface.
+
+34
+00:01:40,639 --> 00:01:42,639
+So, for example, let's start by generating an image.
+
+35
+00:01:42,639 --> 00:01:44,499
+We'll just tell it to generate an image.
+
+36
+00:01:44,499 --> 00:01:45,710
+The content should be a cat.
+
+37
+00:01:45,710 --> 00:01:50,870
+So, it's calling Doubao to create a workflow for us.
+
+38
+00:01:50,870 --> 00:01:52,010
+It's incredibly smart.
+
+39
+00:01:52,010 --> 00:01:54,170
+So, the entire process of setting up all these nodes,
+
+40
+00:01:54,170 --> 00:01:56,400
+We don't have to do any of that manually.
+
+41
+00:01:56,400 --> 00:01:59,800
+Okay, so the workflow for generating a cat is all set.
+
+42
+00:01:59,800 --> 00:02:03,050
+We just click on it, and it'll load right onto the canvas.
+
+43
+00:02:03,050 --> 00:02:04,610
+Alright, it's pretty much the same as the last one.
+
+44
+00:02:04,610 --> 00:02:06,210
+And right here, we can go ahead and select the model.
+
+45
+00:02:06,210 --> 00:02:07,370
+Let's go with 4.6.
+
+46
+00:02:08,530 --> 00:02:09,250
+So it's just a cat.
+
+47
+00:02:09,250 --> 00:02:10,460
+Let's hit 'Generate'.
+
+48
+00:02:10,460 --> 00:02:11,460
+So, after a moment,
+
+49
+00:02:11,460 --> 00:02:14,710
+And the cat picture will pop up right inside this node.
+
+50
+00:02:14,710 --> 00:02:16,510
+Alright, the cat image is done.
+
+51
+00:02:16,510 --> 00:02:17,770
+This is the simplest way to do it.
+
+52
+00:02:17,770 --> 00:02:19,510
+Alright, let's crank up the difficulty now.
+
+53
+00:02:19,510 --> 00:02:23,019
+So, right after telling it to generate a cat picture,
+
+54
+00:02:23,019 --> 00:02:27,000
+and we need to make it move.
+
+55
+00:02:27,000 --> 00:02:28,200
+And just like that.
+
+56
+00:02:28,200 --> 00:02:29,700
+And then, let's load it in.
+
+57
+00:02:29,700 --> 00:02:33,440
+So now, as you can see, besides the node for drawing the cat,
+
+58
+00:02:33,440 --> 00:02:37,560
+And then, a new node was added for generating a video from the image.
+
+59
+00:02:37,560 --> 00:02:40,640
+And just like that, we can also select the video model version right here.
+
+60
+00:02:40,640 --> 00:02:43,380
+Let's go with C-down 1.2.0.
+
+61
+00:02:43,380 --> 00:02:46,820
+And then, let's make an eight-second video. Alright.
+
+62
+00:02:46,820 --> 00:02:49,820
+Alright, so the first step is to generate this cat.
+
+63
+00:02:49,820 --> 00:02:51,780
+We'll go with a more recent model.
+
+64
+00:02:51,780 --> 00:02:54,150
+Generate it with 4.6.1.
+
+65
+00:02:54,150 --> 00:02:56,810
+And this is the exact same process as before.
+
+66
+00:02:56,810 --> 00:03:00,329
+Alright, so the image generation node is now running.
+
+67
+00:03:00,329 --> 00:03:02,869
+Once it's done, we can then generate a video.
+
+68
+00:03:02,869 --> 00:03:04,569
+Once we have this cat image ready,
+
+69
+00:03:04,569 --> 00:03:07,889
+So, right here, we'll just click on 'Generate Video'.
+
+70
+00:03:07,889 --> 00:03:09,169
+While we're waiting,
+
+71
+00:03:09,169 --> 00:03:12,849
+We can open up the cat that Dreamina just generated.
+
+72
+00:03:12,849 --> 00:03:16,529
+And this feature is also available right inside the Dreamina chat box.
+
+73
+00:03:16,529 --> 00:03:18,550
+The video is being generated.
+
+74
+00:03:18,550 --> 00:03:20,530
+It should be ready in a moment.
+
+75
+00:03:20,530 --> 00:03:22,310
+Alright, let's head back to the canvas.
+
+76
+00:03:22,310 --> 00:03:24,750
+And there's the video of the cat, it's back.
+
+77
+00:03:24,750 --> 00:03:27,675
+We can click here to play it.
+
+78
+00:03:34,160 --> 00:03:37,440
+An eight-second video of a really cute cat.
+
+79
+00:03:37,440 --> 00:03:39,980
+It's using the c-down 1.2.0 model.
+
+80
+00:03:39,980 --> 00:03:43,720
+And this video is also available in your own Dreamina account.
+
+81
+00:03:43,720 --> 00:03:46,140
+But of course, this canvas can do so much more.
+
+82
+00:03:46,140 --> 00:03:47,940
+It also supports multimodal inputs.
+
+83
+00:03:47,940 --> 00:03:50,420
+We can upload images for it right here.
+
+84
+00:03:50,420 --> 00:03:51,740
+Alright, let's refresh the page.
+
+85
+00:03:51,740 --> 00:03:52,500
+Let's try that again.
+
+86
+00:03:52,500 --> 00:03:53,960
+Let's open up this chat.
+
+87
+00:03:53,960 --> 00:03:55,300
+Let's just toss a few images at it.
+
+88
+00:03:55,300 --> 00:03:57,680
+and tell it about these two characters.
+
+89
+00:03:57,680 --> 00:04:02,760
+Generate a promotional still of these two characters on a stand-up comedy stage.
+
+90
+00:04:02,760 --> 00:04:04,360
+And send it off.
+
+91
+00:04:04,360 --> 00:04:09,470
+And then, it will use these two images to create a workflow.
+
+92
+00:04:09,470 --> 00:04:10,070
+Let's click on it.
+
+93
+00:04:10,070 --> 00:04:13,370
+And as you can see, the two images are already in here.
+
+94
+00:04:13,370 --> 00:04:16,600
+All we need to do is just click 'Create'.
+
+95
+00:04:16,600 --> 00:04:18,320
+So, we'll use these two characters as our reference.
+
+96
+00:04:18,320 --> 00:04:21,480
+and it will generate a scene of them on stage.
+
+97
+00:04:21,480 --> 00:04:24,300
+Alright, the dual-image mode has been generated.
+
+98
+00:04:24,300 --> 00:04:27,270
+And of course, after that, we can connect a video node.
+
+99
+00:04:30,230 --> 00:04:33,150
+We've already demonstrated this in the first example.
+
+100
+00:04:33,150 --> 00:04:35,950
+This lets you create a continuous video sequence.
+
+101
+00:04:35,950 --> 00:04:38,130
+And you can even extend the video.
+
+102
+00:04:38,130 --> 00:04:39,770
+So, to quickly recap the CLI...
+
+103
+00:04:39,770 --> 00:04:41,790
+Basically, it acts as a bridge.
+
+104
+00:04:41,790 --> 00:04:44,410
+any of our AI platforms or services,
+
+105
+00:04:44,410 --> 00:04:48,129
+and connect to any platform through the CLI.
+
+106
+00:04:48,129 --> 00:04:51,420
+For example, this local canvas we're building from scratch right now.
+
+107
+00:04:51,420 --> 00:04:56,380
+So, next time, I'll show you all how to build this Web Workflow canvas from scratch.
+
+108
+00:04:56,380 --> 00:04:57,520
+I'm a PhD student.
+
+109
+00:04:57,520 --> 00:04:59,320
+See you next time. Bye!
+

@@ -1,0 +1,848 @@
+1
+00:00:00,040 --> 00:00:02,120
+What you're seeing now is a personal website submitted by one of our channel's followers
+
+2
+00:00:02,120 --> 00:00:03,240
+the uploaded personal website
+
+3
+00:00:03,240 --> 00:00:04,300
+Different from our previous content
+
+4
+00:00:04,300 --> 00:00:05,780
+In this new series of videos
+
+5
+00:00:05,780 --> 00:00:08,140
+our focus is no longer on professional studio websites
+
+6
+00:00:08,140 --> 00:00:09,090
+or artist portfolios
+
+7
+00:00:09,090 --> 00:00:11,090
+but the ordinary people around us, OK this is JIEJOE
+
+8
+00:00:11,090 --> 00:00:12,550
+Now, let's break it down in simple terms
+
+9
+00:00:12,550 --> 00:00:15,930
+Let's start by analyzing the website uploaded by this follower.
+
+10
+00:00:21,380 --> 00:00:23,400
+First, let's take a look at what this website looks like.
+
+11
+00:00:23,400 --> 00:00:25,300
+Click, hey, it has a loading effect
+
+12
+00:00:25,300 --> 00:00:27,300
+After loading, you enter the entire website
+
+13
+00:00:27,300 --> 00:00:29,220
+This loading effect looks somewhat familiar.
+
+14
+00:00:29,220 --> 00:00:30,900
+Not sure if it referenced my previous one
+
+15
+00:00:30,900 --> 00:00:32,400
+The pixel matrix interactive effect is highly characteristic of sci-fi aesthetics, combining the appeal of matrix-style interaction.
+
+16
+00:00:32,400 --> 00:00:33,920
+Interested kids can take a look for themselves.
+
+17
+00:00:33,920 --> 00:00:35,620
+Now, let's take a look back at this loading effect first.
+
+18
+00:00:35,620 --> 00:00:36,720
+I wonder if you've noticed
+
+19
+00:00:36,720 --> 00:00:38,239
+when we enter the page
+
+20
+00:00:38,239 --> 00:00:40,339
+It will first have an appearance effect
+
+21
+00:00:40,339 --> 00:00:41,479
+then disappears
+
+22
+00:00:41,479 --> 00:00:43,279
+When we first enter the page
+
+23
+00:00:43,279 --> 00:00:44,900
+It should default to a full-screen effect
+
+24
+00:00:44,900 --> 00:00:46,700
+After the loading is complete, it disappears again.
+
+25
+00:00:46,700 --> 00:00:48,940
+The animation logic here may need some optimization.
+
+26
+00:00:48,940 --> 00:00:50,220
+after the loading is complete
+
+27
+00:00:50,220 --> 00:00:52,019
+the animation of two text titles
+
+28
+00:00:52,019 --> 00:00:55,639
+Then, there's the menu bar, which features a dotted texture effect in the background.
+
+29
+00:00:55,639 --> 00:00:58,510
+The mouse cursor is a rotating selection box.
+
+30
+00:00:58,510 --> 00:00:59,510
+Overall,
+
+31
+00:00:59,510 --> 00:01:02,070
+This is a very standard home page for a personal website.
+
+32
+00:01:02,070 --> 00:01:03,790
+Our buddy did a pretty good job
+
+33
+00:01:03,790 --> 00:01:05,670
+However, there are just a few minor flaws
+
+34
+00:01:05,670 --> 00:01:06,720
+Let's take a look together
+
+35
+00:01:06,720 --> 00:01:08,260
+First is the menu bar
+
+36
+00:01:08,260 --> 00:01:10,060
+combining the navigation options here into a single block
+
+37
+00:01:10,060 --> 00:01:11,180
+placed in the upper left corner of the page
+
+38
+00:01:11,180 --> 00:01:12,160
+the right side is empty
+
+39
+00:01:12,160 --> 00:01:13,880
+This design feels a bit unbalanced.
+
+40
+00:01:13,880 --> 00:01:15,950
+The left side appears too heavy.
+
+41
+00:01:15,950 --> 00:01:18,970
+Here we can first place the link buttons in the upper right corner
+
+42
+00:01:18,970 --> 00:01:19,950
+Place the LOGO on the left
+
+43
+00:01:19,950 --> 00:01:23,190
+This is a relatively clean and simple style for a top menu bar.
+
+44
+00:01:23,190 --> 00:01:24,670
+Like LUSION, this is exactly how it's done.
+
+45
+00:01:24,670 --> 00:01:25,530
+a logo on the left
+
+46
+00:01:25,530 --> 00:01:27,030
+a menu button on the right
+
+47
+00:01:27,030 --> 00:01:29,510
+Or, if you really want to put them together
+
+48
+00:01:29,510 --> 00:01:32,430
+You can center them at the top middle of the page.
+
+49
+00:01:32,430 --> 00:01:34,870
+like this website, link buttons
+
+50
+00:01:34,870 --> 00:01:36,510
+login button, all placed together
+
+51
+00:01:36,510 --> 00:01:37,690
+placed in the middle of the entire page
+
+52
+00:01:37,690 --> 00:01:39,480
+This is also a classic menu layout
+
+53
+00:01:39,480 --> 00:01:42,320
+Finally, the entire title content
+
+54
+00:01:42,320 --> 00:01:43,160
+as of now
+
+55
+00:01:43,160 --> 00:01:45,850
+Our header looks a bit monotonous.
+
+56
+00:01:45,850 --> 00:01:46,770
+As for the header
+
+57
+00:01:46,770 --> 00:01:48,630
+It is the first thing we see when entering the website.
+
+58
+00:01:48,630 --> 00:01:50,170
+Just like when we create video content
+
+59
+00:01:50,170 --> 00:01:51,150
+You need a hook
+
+60
+00:01:51,150 --> 00:01:52,530
+At first glance, when entering the video
+
+61
+00:01:52,530 --> 00:01:53,810
+it will capture your attention
+
+62
+00:01:53,810 --> 00:01:55,230
+The same goes for our website.
+
+63
+00:01:55,230 --> 00:01:56,830
+This can basically be considered a consensus.
+
+64
+00:01:56,830 --> 00:01:59,490
+Most interactive websites place
+
+65
+00:01:59,490 --> 00:02:01,440
+include a highly attractive interactive effect
+
+66
+00:02:01,440 --> 00:02:04,440
+Generally, this effect doesn't need to be too complex
+
+67
+00:02:04,440 --> 00:02:06,400
+However, it should at least allow our users to
+
+68
+00:02:06,400 --> 00:02:08,240
+stay on this header for a while
+
+69
+00:02:08,240 --> 00:02:10,820
+and leave a lasting impression of the website, establishing its overall tone
+
+70
+00:02:10,820 --> 00:02:11,760
+It's okay not to have
+
+71
+00:02:11,760 --> 00:02:14,120
+Build your music career step by step, which is a plus for this website.
+
+72
+00:02:14,120 --> 00:02:16,680
+It is recommended that friends can add their own
+
+73
+00:02:16,680 --> 00:02:18,060
+more engaging interactive effects
+
+74
+00:02:18,060 --> 00:02:19,980
+That's it for the first screen.
+
+75
+00:02:19,980 --> 00:02:22,160
+Now let's continue scrolling down.
+
+76
+00:02:22,550 --> 00:02:25,010
+Here, we have a horizontally infinite text scrolling effect.
+
+77
+00:02:25,010 --> 00:02:26,630
+This effect is executed extremely smoothly.
+
+78
+00:02:26,630 --> 00:02:28,830
+It accelerates according to our scrolling
+
+79
+00:02:28,830 --> 00:02:30,490
+including changing direction
+
+80
+00:02:30,490 --> 00:02:31,890
+Then scrolling down
+
+81
+00:02:31,890 --> 00:02:34,170
+About, that is, some introduction about this friend
+
+82
+00:02:34,170 --> 00:02:36,170
+Here, a line-by-line
+
+83
+00:02:36,170 --> 00:02:38,150
+The scrolling response effect is likely implemented using GSAP.
+
+84
+00:02:38,150 --> 00:02:41,570
+On the left, there's an introduction card that responds to mouse movements with a 3D rotation effect.
+
+85
+00:02:41,570 --> 00:02:44,040
+Hey, his cursor effect is quite fun.
+
+86
+00:02:44,040 --> 00:02:45,720
+If there is no content to focus on
+
+87
+00:02:45,720 --> 00:02:46,640
+follows our mouse
+
+88
+00:02:46,640 --> 00:02:48,440
+Then, when it becomes clickable
+
+89
+00:02:48,440 --> 00:02:50,820
+our cursor will frame the corresponding content
+
+90
+00:02:50,820 --> 00:02:51,740
+Speaking of the cursor
+
+91
+00:02:51,740 --> 00:02:53,800
+I suddenly noticed that when it follows our mouse movement
+
+92
+00:02:53,800 --> 00:02:55,160
+it doesn't have easing applied
+
+93
+00:02:55,160 --> 00:02:56,800
+This is a relatively minor detail
+
+94
+00:02:56,800 --> 00:02:58,800
+If we don't add easing to the cursor movement
+
+95
+00:02:58,800 --> 00:02:59,720
+wherever you move it
+
+96
+00:02:59,720 --> 00:03:00,960
+it immediately follows
+
+97
+00:03:00,960 --> 00:03:02,500
+At first glance, it seems like there's nothing wrong here
+
+98
+00:03:02,500 --> 00:03:06,210
+However, when you move the cursor outside the screen and bring it back,
+
+99
+00:03:06,210 --> 00:03:08,310
+Hey, you'll notice it teleports over.
+
+100
+00:03:08,310 --> 00:03:10,880
+So here, you can add some easing to the cursor movement
+
+101
+00:03:10,880 --> 00:03:12,240
+even if it's just a 0.1-second
+
+102
+00:03:12,240 --> 00:03:13,220
+0.2-second easing
+
+103
+00:03:13,220 --> 00:03:15,120
+can make this interaction much smoother
+
+104
+00:03:15,120 --> 00:03:17,040
+including the dot matrix texture in the background, it's the same
+
+105
+00:03:17,040 --> 00:03:18,100
+As for the content here in the 'about' section
+
+106
+00:03:18,100 --> 00:03:19,500
+Overall, there are no major issues.
+
+107
+00:03:19,500 --> 00:03:21,240
+One minor thing to note is its layout.
+
+108
+00:03:21,240 --> 00:03:22,420
+At first glance
+
+109
+00:03:22,420 --> 00:03:24,960
+Initially, I thought the 'about' section above was not aligned with the content below.
+
+110
+00:03:24,960 --> 00:03:28,480
+Then I realized that this 'about' was actually aligned with the card frame below.
+
+111
+00:03:28,480 --> 00:03:30,100
+They belong to the same vertical line
+
+112
+00:03:30,100 --> 00:03:31,880
+So here he has applied center alignment
+
+113
+00:03:31,880 --> 00:03:33,560
+
+
+114
+00:03:33,560 --> 00:03:36,920
+We are more likely to place 'About' as a separate horizontal line.
+
+115
+00:03:36,920 --> 00:03:39,220
+the content below
+
+116
+00:03:39,220 --> 00:03:41,000
+Align the top row with the bottom row
+
+117
+00:03:41,000 --> 00:03:43,960
+Align 'About' with the card frame over here
+
+118
+00:03:43,960 --> 00:03:47,100
+Because our reading order generally goes from left to right
+
+119
+00:03:47,100 --> 00:03:48,550
+from top to bottom, right?
+
+120
+00:03:48,550 --> 00:03:51,310
+However, this doesn't mean that the alignment itself is wrong.
+
+121
+00:03:51,310 --> 00:03:53,140
+It's just that his reference standard is a bit different.
+
+122
+00:03:53,140 --> 00:03:54,940
+The same issue applies to the tech stack below.
+
+123
+00:03:54,940 --> 00:03:56,200
+and the subsequent project introduction
+
+124
+00:03:56,200 --> 00:03:58,640
+Then I won't repeat it again later.
+
+125
+00:03:58,960 --> 00:04:01,260
+Then at this point, JIEJOE noticed one thing
+
+126
+00:04:01,260 --> 00:04:05,380
+that is, every single piece of our text can be hovered over with the mouse
+
+127
+00:04:05,380 --> 00:04:06,579
+can be highlighted
+
+128
+00:04:06,579 --> 00:04:08,139
+Have you all noticed, strictly speaking
+
+129
+00:04:08,139 --> 00:04:11,099
+it can hardly be considered an icing-on-the-cake effect
+
+130
+00:04:11,099 --> 00:04:12,359
+slightly redundant
+
+131
+00:04:12,359 --> 00:04:14,799
+where everything on a page can have hover effects
+
+132
+00:04:14,799 --> 00:04:15,730
+can be hovered over
+
+133
+00:04:15,730 --> 00:04:17,070
+Generally in our interaction logic
+
+134
+00:04:17,070 --> 00:04:19,470
+Hover prompts should only be applied to clickable or interactive elements.
+
+135
+00:04:19,470 --> 00:04:21,690
+Now in this website, every single piece of text can be hovered over.
+
+136
+00:04:21,690 --> 00:04:23,620
+So which option is actually clickable?
+
+137
+00:04:23,620 --> 00:04:25,020
+even if your jump button here
+
+138
+00:04:25,020 --> 00:04:26,440
+added hover selection box effect
+
+139
+00:04:26,440 --> 00:04:28,080
+but because the surrounding highlighted text affects
+
+140
+00:04:28,080 --> 00:04:29,160
+It wants to attract my attention
+
+141
+00:04:29,160 --> 00:04:31,100
+then it becomes quite difficult to click on it
+
+142
+00:04:31,100 --> 00:04:32,480
+It seems that this buddy gave them
+
+143
+00:04:32,480 --> 00:04:34,320
+added the same class name to all of them
+
+144
+00:04:34,320 --> 00:04:35,500
+called hovertrans
+
+145
+00:04:35,500 --> 00:04:36,780
+After adding this class name
+
+146
+00:04:36,780 --> 00:04:37,880
+it will have an enlargement effect
+
+147
+00:04:37,880 --> 00:04:39,520
+including a glow effect
+
+148
+00:04:39,520 --> 00:04:41,210
+This needs to be changed
+
+149
+00:04:41,210 --> 00:04:42,190
+Okay, let's continue moving forward.
+
+150
+00:04:42,190 --> 00:04:43,450
+Next is the project introduction
+
+151
+00:04:43,450 --> 00:04:45,050
+a row of horizontal project cards
+
+152
+00:04:45,050 --> 00:04:46,690
+including the fact that each card has been given effects
+
+153
+00:04:46,690 --> 00:04:48,610
+The mouse movement also makes it follow along
+
+154
+00:04:48,610 --> 00:04:49,990
+including a halo effect in the background
+
+155
+00:04:49,990 --> 00:04:50,670
+In this part,
+
+156
+00:04:50,670 --> 00:04:53,250
+just like the about section above and the tech stack section,
+
+157
+00:04:53,250 --> 00:04:55,870
+Its layout alignment has some minor flaws.
+
+158
+00:04:58,620 --> 00:05:02,020
+Finally, for the contact section, there are two QR codes on the left.
+
+159
+00:05:02,020 --> 00:05:04,300
+external links on the right
+
+160
+00:05:04,300 --> 00:05:07,080
+Let's take a look at the website's responsive sizing.
+
+161
+00:05:07,080 --> 00:05:08,660
+This buddy's responsive sizing
+
+162
+00:05:08,660 --> 00:05:09,680
+is done exceptionally well
+
+163
+00:05:09,680 --> 00:05:11,299
+must be given special recognition
+
+164
+00:05:11,299 --> 00:05:14,539
+All the content is arranged vertically, about
+
+165
+00:05:14,539 --> 00:05:19,400
+Then, the tech stack, there's a minor BUG here
+
+166
+00:05:19,400 --> 00:05:20,040
+Everyone, pay attention to this menu bar
+
+167
+00:05:20,040 --> 00:05:23,160
+When we adjust the size, it pops out
+
+168
+00:05:23,160 --> 00:05:24,000
+then it shrinks back
+
+169
+00:05:24,000 --> 00:05:24,920
+Let's select this menu bar
+
+170
+00:05:24,920 --> 00:05:27,440
+Let's take a look at the issue here, which lies in the transition.
+
+171
+00:05:27,440 --> 00:05:30,540
+Here, the creator uses CSS transition to control the element's le
+
+172
+00:05:30,540 --> 00:05:32,140
+to show or hide
+
+173
+00:05:32,140 --> 00:05:33,340
+When the page size changes
+
+174
+00:05:33,340 --> 00:05:34,560
+the value of left will also change
+
+175
+00:05:34,560 --> 00:05:35,880
+because it has transition set
+
+176
+00:05:35,880 --> 00:05:37,820
+So the entire transition becomes an overly animated process
+
+177
+00:05:37,820 --> 00:05:39,160
+This is where the problem lies
+
+178
+00:05:39,160 --> 00:05:41,920
+We can use GSAP to replace CSS and control the value of left
+
+179
+00:05:41,920 --> 00:05:43,280
+this problem will not occur
+
+180
+00:05:43,280 --> 00:05:44,640
+Additionally, here are two more points to note
+
+181
+00:05:44,640 --> 00:05:46,060
+do not set transition to all
+
+182
+00:05:46,060 --> 00:05:48,260
+We only apply easing to the predetermined values that need to change
+
+183
+00:05:48,260 --> 00:05:49,460
+Otherwise, it's very prone to issues.
+
+184
+00:05:49,460 --> 00:05:51,160
+Next is the display of the entire menu's movement.
+
+185
+00:05:51,160 --> 00:05:52,040
+We should not use left
+
+186
+00:05:52,040 --> 00:05:53,580
+but use transform to control
+
+187
+00:05:53,580 --> 00:05:55,780
+Because changing 'left' triggers reflow
+
+188
+00:05:55,780 --> 00:05:57,730
+Compared to transform, it consumes more performance
+
+189
+00:05:57,730 --> 00:05:58,650
+OK that's about it
+
+190
+00:05:58,650 --> 00:05:59,890
+That's all for this website.
+
+191
+00:05:59,890 --> 00:06:00,930
+Due to time constraints
+
+192
+00:06:00,930 --> 00:06:02,960
+We'll mainly talk about his Home.
+
+193
+00:06:02,960 --> 00:06:05,240
+Don't be misled by my earlier nitpicking about minor flaws in this website.
+
+194
+00:06:05,240 --> 00:06:07,620
+But in fact, this website is actually very well done.
+
+195
+00:06:07,620 --> 00:06:09,040
+There are almost no major issues inside
+
+196
+00:06:09,040 --> 00:06:10,220
+The completion level is very high.
+
+197
+00:06:10,220 --> 00:06:11,580
+the interactions are also very abundant
+
+198
+00:06:11,580 --> 00:06:12,720
+is also very high and well-organized
+
+199
+00:06:12,720 --> 00:06:13,540
+In terms of design
+
+200
+00:06:13,540 --> 00:06:14,680
+in addition to layout and typography
+
+201
+00:06:14,680 --> 00:06:15,760
+in terms of colors and themes
+
+202
+00:06:15,760 --> 00:06:17,420
+can be considered the standard for personal websites
+
+203
+00:06:17,420 --> 00:06:18,940
+Keep up the good work, my friend.
+
+204
+00:06:18,940 --> 00:06:20,110
+create better content
+
+205
+00:06:20,110 --> 00:06:21,750
+For those who want to upload their own websites,
+
+206
+00:06:21,750 --> 00:06:23,470
+Our upload channel is always open.
+
+207
+00:06:23,470 --> 00:06:24,550
+Everyone is welcome to sign up
+
+208
+00:06:24,550 --> 00:06:26,690
+OK, so that's all for this video
+
+209
+00:06:26,690 --> 00:06:27,710
+If you like this video
+
+210
+00:06:27,710 --> 00:06:29,770
+Welcome to like, favorite, and share JIEJOE's content.
+
+211
+00:06:29,770 --> 00:06:31,190
+See you in the next episode
+
+212
+00:06:31,190 --> 00:06:32,060
+Bye
+

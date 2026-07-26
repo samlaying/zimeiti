@@ -1,0 +1,672 @@
+1
+00:00:01,060 --> 00:00:02,600
+At
+
+2
+00:00:02,600 --> 00:00:04,220
+Could you give me a Triple Combo first?
+
+3
+00:00:04,220 --> 00:00:05,910
+Ah～ You want to freeload?!!!
+
+4
+00:00:05,910 --> 00:00:07,550
+Then how about giving a free like～
+
+5
+00:00:07,550 --> 00:00:08,109
+Hello everyone
+
+6
+00:00:08,109 --> 00:00:09,030
+I'm Baichuan.
+
+7
+00:00:09,030 --> 00:00:10,390
+So starting from today
+
+8
+00:00:10,390 --> 00:00:13,580
+We will guide you through the basics of DEFI
+
+9
+00:00:13,580 --> 00:00:15,460
+to a DEFI project hands-on
+
+10
+00:00:15,460 --> 00:00:18,580
+Then the emergence of DEFA means that even if you're not a technical person
+
+11
+00:00:18,580 --> 00:00:21,580
+can also participate in the definition of AI
+
+12
+00:00:21,580 --> 00:00:24,030
+or we develop an AI application product ourselves
+
+13
+00:00:24,030 --> 00:00:27,470
+Since AI has many built-in models,
+
+14
+00:00:27,470 --> 00:00:28,910
+our current models
+
+15
+00:00:28,910 --> 00:00:31,509
+basically, there is support for all of these on the DEFI platform.
+
+16
+00:00:31,509 --> 00:00:34,289
+We can intuitively invoke this model
+
+17
+00:00:34,289 --> 00:00:37,940
+or intuitively orchestrate our corresponding large models
+
+18
+00:00:37,940 --> 00:00:39,980
+For example, some of our RAG applications
+
+19
+00:00:39,980 --> 00:00:41,460
+or our corresponding agent
+
+20
+00:00:41,460 --> 00:00:43,510
+can all be implemented on DEFI
+
+21
+00:00:43,510 --> 00:00:45,650
+Then, DEFI actually for us
+
+22
+00:00:45,650 --> 00:00:47,370
+Why do we use DEFI?
+
+23
+00:00:47,370 --> 00:00:50,660
+Actually, we previously had options like Kouzi as well
+
+24
+00:00:50,660 --> 00:00:52,420
+or when we previously developed this large model
+
+25
+00:00:52,420 --> 00:00:54,480
+what is commonly referred to as such a framework
+
+26
+00:00:54,480 --> 00:00:56,480
+Then this type of development framework
+
+27
+00:00:56,480 --> 00:00:59,260
+For example, we have some tools that
+
+28
+00:00:59,260 --> 00:01:01,780
+We can do more customized development
+
+29
+00:01:01,780 --> 00:01:02,700
+this DEFI
+
+30
+00:01:02,700 --> 00:01:06,540
+can more quickly or more intuitively see the results of their own project
+
+31
+00:01:06,540 --> 00:01:08,120
+what the outcome looks like
+
+32
+00:01:08,120 --> 00:01:11,309
+Then we can integrate through this large model
+
+33
+00:01:11,309 --> 00:01:12,389
+existing business operations
+
+34
+00:01:12,389 --> 00:01:14,469
+can help you quickly build
+
+35
+00:01:14,469 --> 00:01:16,329
+this AI Knowledge system
+
+36
+00:01:16,329 --> 00:01:18,470
+so you don’t need to waste a lot of my time
+
+37
+00:01:18,470 --> 00:01:19,910
+So with DEFI now,
+
+38
+00:01:19,910 --> 00:01:22,150
+allows everyone to utilize large model applications
+
+39
+00:01:22,150 --> 00:01:24,810
+as well as our development at the application layer
+
+40
+00:01:24,810 --> 00:01:26,970
+so that everyone can use it more conveniently
+
+41
+00:01:26,970 --> 00:01:30,330
+Next, let's take a look at how to set up DEFI
+
+42
+00:01:30,330 --> 00:01:31,570
+perform a private deployment
+
+43
+00:01:31,570 --> 00:01:34,990
+First, let's take a look at the official website address for the deployment method
+
+44
+00:01:34,990 --> 00:01:37,560
+This is the official website of DEFI.
+
+45
+00:01:37,560 --> 00:01:39,740
+This is an open-source address on GitHub.
+
+46
+00:01:39,740 --> 00:01:42,960
+First of all, before using DEFADE,
+
+47
+00:01:42,960 --> 00:01:45,669
+We need to prepare the corresponding Docker.
+
+48
+00:01:45,669 --> 00:01:48,329
+For this Docker, you can use it on a server,
+
+49
+00:01:48,329 --> 00:01:50,429
+You can use either Windows or Mac.
+
+50
+00:01:50,429 --> 00:01:53,160
+Here I am using the one on Windows
+
+51
+00:01:53,160 --> 00:01:54,560
+There's nothing here yet.
+
+52
+00:01:54,560 --> 00:01:57,880
+Currently, there's nothing in this empty Docker.
+
+53
+00:01:57,880 --> 00:01:59,480
+Then inside the Docker,
+
+54
+00:01:59,480 --> 00:02:02,870
+When installing Windows, there are a few things we need to pay attention to
+
+55
+00:02:02,870 --> 00:02:06,030
+we need to enable its virtualization service
+
+56
+00:02:06,030 --> 00:02:07,850
+There are no other particularly special points.
+
+57
+00:02:07,850 --> 00:02:09,270
+Then what do we need to do
+
+58
+00:02:09,270 --> 00:02:12,050
+In Docker, we also need to configure its origin address.
+
+59
+00:02:12,050 --> 00:02:15,330
+This origin is because it uses a foreign source.
+
+60
+00:02:15,330 --> 00:02:18,530
+We'll change it to a domestic domestic source address
+
+61
+00:02:18,530 --> 00:02:21,110
+Otherwise, the download speed will be extremely slow.
+
+62
+00:02:21,210 --> 00:02:22,810
+You'll also have this thing inside.
+
+63
+00:02:22,810 --> 00:02:24,770
+Just add this part and it will be fine
+
+64
+00:02:24,770 --> 00:02:27,300
+
+
+65
+00:02:27,300 --> 00:02:30,160
+Okay, just click save and restart then. Alright?
+
+66
+00:02:30,160 --> 00:02:31,880
+Well, there's nothing else particularly special.
+
+67
+00:02:31,880 --> 00:02:33,440
+Then it's just about our CPU
+
+68
+00:02:33,440 --> 00:02:35,440
+and our RAM
+
+69
+00:02:35,440 --> 00:02:36,930
+Please pay attention
+
+70
+00:02:36,930 --> 00:02:37,850
+Apart from this,
+
+71
+00:02:37,850 --> 00:02:40,350
+We need to get its source code
+
+72
+00:02:40,350 --> 00:02:41,270
+The way to obtain it is
+
+73
+00:02:41,270 --> 00:02:42,270
+that is, here we are
+
+74
+00:02:42,270 --> 00:02:45,310
+You can download the version you want.
+
+75
+00:02:45,310 --> 00:02:47,230
+Here I downloaded a ZIP file
+
+76
+00:02:47,230 --> 00:02:51,630
+I downloaded version 1.11.212 of the software, okay
+
+77
+00:02:51,630 --> 00:02:53,910
+After downloading, proceed to extract the files
+
+78
+00:02:53,910 --> 00:02:58,130
+After decompression, you can see a file like this, right?
+
+79
+00:03:03,680 --> 00:03:05,400
+Now that we have this software,
+
+80
+00:03:05,400 --> 00:03:06,540
+For example, we can place it
+
+81
+00:03:06,540 --> 00:03:09,920
+I habitually place it in our corresponding D drive.
+
+82
+00:03:09,920 --> 00:03:12,320
+place it in our software drive
+
+83
+00:03:13,520 --> 00:03:14,400
+Alright, once we have it
+
+84
+00:03:14,400 --> 00:03:17,540
+How can we load this code
+
+85
+00:03:17,540 --> 00:03:20,640
+The loading method is actually quite simple.
+
+86
+00:03:20,640 --> 00:03:22,310
+Let's show you
+
+87
+00:03:25,940 --> 00:03:27,380
+So the logic is very simple
+
+88
+00:03:27,380 --> 00:03:29,340
+For example, if we want to load DEFI
+
+89
+00:03:29,340 --> 00:03:32,320
+First, inside your compressed file
+
+90
+00:03:32,320 --> 00:03:35,040
+Enter your corresponding folder
+
+91
+00:03:35,040 --> 00:03:36,180
+Then what will be inside it
+
+92
+00:03:36,180 --> 00:03:37,730
+there will be one called define uh
+
+93
+00:03:37,730 --> 00:03:40,090
+This Docker goes into the DDOCKER folder
+
+94
+00:03:40,090 --> 00:03:41,170
+Then inside the docker,
+
+95
+00:03:41,170 --> 00:03:43,250
+
+
+96
+00:03:43,250 --> 00:03:44,610
+
+
+97
+00:03:44,610 --> 00:03:48,780
+
+
+98
+00:03:49,860 --> 00:03:52,660
+version changed
+
+99
+00:03:54,440 --> 00:03:57,040
+Because this is our corresponding configuration file
+
+100
+00:03:57,360 --> 00:03:59,560
+is what we need among many
+
+101
+00:03:59,560 --> 00:04:01,200
+or in some of our projects
+
+102
+00:04:01,200 --> 00:04:03,220
+Need to load some environments or something
+
+103
+00:04:03,220 --> 00:04:04,640
+or some of our configuration information
+
+104
+00:04:04,640 --> 00:04:05,990
+actually in this UNV
+
+105
+00:04:05,990 --> 00:04:08,330
+Then we proceed to execute the second piece of code
+
+106
+00:04:08,330 --> 00:04:11,540
+Load our corresponding configurations through Docker
+
+107
+00:04:11,540 --> 00:04:13,820
+It will locate our corresponding YM file.
+
+108
+00:04:13,820 --> 00:04:15,290
+configured YM file
+
+109
+00:04:15,290 --> 00:04:17,550
+then download his file package
+
+110
+00:04:17,550 --> 00:04:19,149
+The execution method is also quite simple.
+
+111
+00:04:19,149 --> 00:04:23,280
+It means we are in the current file directory CD um
+
+112
+00:04:23,280 --> 00:04:27,150
+install via Docker
+
+113
+00:04:27,150 --> 00:04:28,270
+I won't go into these details
+
+114
+00:04:28,270 --> 00:04:29,910
+Because there's nothing particularly special about it.
+
+115
+00:04:31,790 --> 00:04:32,910
+Okay
+
+116
+00:04:34,030 --> 00:04:35,130
+Executed
+
+117
+00:04:35,130 --> 00:04:36,330
+Then here
+
+118
+00:04:36,330 --> 00:04:39,470
+Here, many software packages will be installed.
+
+119
+00:04:39,470 --> 00:04:41,530
+some dependencies of our DEFI
+
+120
+00:04:41,530 --> 00:04:45,410
+for example, during deployment, right
+
+121
+00:04:45,410 --> 00:04:46,670
+such as NGINX
+
+122
+00:04:46,670 --> 00:04:48,530
+as well as services like REDIS
+
+123
+00:04:48,530 --> 00:04:50,250
+like our corresponding API services
+
+124
+00:04:50,250 --> 00:04:52,410
+as well as some other tools of ours
+
+125
+00:04:52,410 --> 00:04:54,130
+The download here will take some time
+
+126
+00:04:54,130 --> 00:04:57,710
+Then if you are using a foreign language here
+
+127
+00:04:57,710 --> 00:04:58,830
+it may fail to download
+
+128
+00:04:58,830 --> 00:05:01,350
+That's why we just had you configure
+
+129
+00:05:01,350 --> 00:05:01,990
+domestic language
+
+130
+00:05:01,990 --> 00:05:04,270
+The download speed will be very fast.
+
+131
+00:05:04,270 --> 00:05:06,370
+It will take some time here
+
+132
+00:05:06,370 --> 00:05:08,710
+Let's let it run first, okay
+
+133
+00:05:09,150 --> 00:05:10,270
+While it's running
+
+134
+00:05:10,270 --> 00:05:12,310
+Let's take a closer look, okay
+
+135
+00:05:12,430 --> 00:05:14,810
+Then there is actually information contained in this file.
+
+136
+00:05:14,810 --> 00:05:16,530
+please pay more attention to it
+
+137
+00:05:16,530 --> 00:05:18,710
+In fact, the ENV stores
+
+138
+00:05:18,710 --> 00:05:22,000
+those configuration contents and data
+
+139
+00:05:23,000 --> 00:05:25,179
+This indicates that we need to load some
+
+140
+00:05:25,179 --> 00:05:27,499
+such as database or DB
+
+141
+00:05:27,499 --> 00:05:29,099
+and some configurations like Redis
+
+142
+00:05:29,099 --> 00:05:29,659
+all here
+
+143
+00:05:29,659 --> 00:05:33,310
+Like this MySQL configuration information
+
+144
+00:05:33,630 --> 00:05:35,590
+Not this, not MySQL
+
+145
+00:05:35,590 --> 00:05:39,070
+Then, regarding our corresponding configuration contents
+
+146
+00:05:39,070 --> 00:05:42,924
+Here in this section, and also, we have one below
+
+147
+00:05:46,740 --> 00:05:48,620
+Is there this file
+
+148
+00:05:55,440 --> 00:06:00,280
+Ah, this is where the packages we need will be stored.
+
+149
+00:06:00,280 --> 00:06:01,480
+the address where some packages were downloaded
+
+150
+00:06:01,480 --> 00:06:03,600
+where to download from
+
+151
+00:06:04,640 --> 00:06:06,320
+Then let's take a look
+
+152
+00:06:08,380 --> 00:06:10,300
+It is actually in this command
+
+153
+00:06:10,300 --> 00:06:12,680
+He has already got the software up and running
+
+154
+00:06:12,680 --> 00:06:14,200
+the application has already been launched
+
+155
+00:06:14,200 --> 00:06:18,870
+So we can directly open our URL to access it.
+
+156
+00:06:22,300 --> 00:06:24,300
+Ah, now running
+
+157
+00:06:25,840 --> 00:06:28,660
+and then we can see that your have run some
+
+158
+00:06:28,660 --> 00:06:30,169
+some downloaded images
+
+159
+00:06:30,169 --> 00:06:31,909
+These are the images we have downloaded
+
+160
+00:06:31,909 --> 00:06:35,009
+Then after it's up and running, let's take a look inside the container, okay
+
+161
+00:06:35,009 --> 00:06:36,529
+Now the corresponding content has been successfully loaded
+
+162
+00:06:36,529 --> 00:06:37,649
+the content is up and running
+
+163
+00:06:37,649 --> 00:06:40,110
+Okay, the container is running smoothly.
+
+164
+00:06:40,110 --> 00:06:42,090
+So how do we access it next?
+
+165
+00:06:42,090 --> 00:06:43,350
+The access method is actually quite simple
+
+166
+00:06:43,350 --> 00:06:45,390
+You can directly access the corresponding server
+
+167
+00:06:45,390 --> 00:06:47,110
+because we have downloaded an NGINX
+
+168
+00:06:47,110 --> 00:06:49,520
+You can directly access it locally.
+

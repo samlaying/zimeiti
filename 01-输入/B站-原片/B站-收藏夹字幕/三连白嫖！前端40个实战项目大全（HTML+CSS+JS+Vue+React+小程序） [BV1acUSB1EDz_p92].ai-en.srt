@@ -1,0 +1,680 @@
+1
+00:00:00,100 --> 00:00:00,520
+Alright
+
+2
+00:00:00,520 --> 00:00:01,500
+Let's get started
+
+3
+00:00:01,500 --> 00:00:06,870
+Then right-click to create a new folder
+
+4
+00:00:06,870 --> 00:00:07,830
+07
+
+5
+00:00:07,830 --> 00:00:10,470
+Let's call it Jingdong, hmm
+
+6
+00:00:11,560 --> 00:00:12,520
+Pay attention
+
+7
+00:00:12,520 --> 00:00:16,440
+Because you've probably forgotten a lot of the HTML and CSS stuff you learned before.
+
+8
+00:00:16,440 --> 00:00:17,720
+So through this project,
+
+9
+00:00:17,720 --> 00:00:20,840
+The purpose of this project is to practice JS
+
+10
+00:00:20,840 --> 00:00:23,520
+If you want to practice JS, you need to have something to practice on.
+
+11
+00:00:23,520 --> 00:00:26,140
+So let's also cover HTML
+
+12
+00:00:26,140 --> 00:00:28,840
+Let's go through CSS again.
+
+13
+00:00:28,840 --> 00:00:29,720
+Let's do it
+
+14
+00:00:29,720 --> 00:00:30,280
+Alright
+
+15
+00:00:30,280 --> 00:00:31,940
+Let's create a new page
+
+16
+00:00:31,940 --> 00:00:34,760
+Let's create a new folder called CSS folder
+
+17
+00:00:34,760 --> 00:00:42,330
+Then, create another folder called 'image' (i-m-a-g-e) for storing pictures.
+
+18
+00:00:42,330 --> 00:00:46,030
+Then we'll create a new folder called JS
+
+19
+00:00:46,030 --> 00:00:46,970
+You know what
+
+20
+00:00:46,970 --> 00:00:49,960
+I won't be writing JS code directly in the page anymore
+
+21
+00:00:49,960 --> 00:00:52,000
+Because in the future when we work on projects at a company
+
+22
+00:00:52,000 --> 00:00:56,440
+JS code should be written in dedicated JS files.
+
+23
+00:00:56,440 --> 00:01:00,400
+So this folder will be used for storing JS files from now on.
+
+24
+00:01:00,400 --> 00:01:00,960
+Okay
+
+25
+00:01:00,960 --> 00:01:02,520
+We'll create a Home page again
+
+26
+00:01:02,520 --> 00:01:04,280
+What is the name of the homepage usually?
+
+27
+00:01:04,280 --> 00:01:08,560
+Call it index.html
+
+28
+00:01:10,000 --> 00:01:12,580
+Then what else do we need to prepare?
+
+29
+00:01:12,580 --> 00:01:15,240
+Then there is a global CSS file
+
+30
+00:01:15,240 --> 00:01:16,920
+that is reset.css
+
+31
+00:01:16,920 --> 00:01:20,930
+That file can remove all the default initial styles.
+
+32
+00:01:20,930 --> 00:01:22,699
+Let's bring that one over again
+
+33
+00:01:22,699 --> 00:01:24,339
+Bring that over again
+
+34
+00:01:24,339 --> 00:01:27,530
+Then just grab it from the previous one, hey
+
+35
+00:01:27,690 --> 00:01:29,730
+Record a screencast
+
+36
+00:01:31,660 --> 00:01:33,060
+Alright, okay
+
+37
+00:01:33,060 --> 00:01:36,180
+Let's go grab the source code from before.
+
+38
+00:01:36,830 --> 00:01:38,010
+Is this it?
+
+39
+00:01:38,010 --> 00:01:38,910
+It's right here
+
+40
+00:01:38,910 --> 00:01:40,630
+Drag it in
+
+41
+00:01:43,740 --> 00:01:44,300
+Oops
+
+42
+00:01:47,460 --> 00:01:48,130
+Okay
+
+43
+00:01:48,130 --> 00:01:50,050
+Now we have everything ready
+
+44
+00:01:50,050 --> 00:01:51,770
+Then, apart from his
+
+45
+00:01:51,770 --> 00:01:53,740
+Then we'll write our own called
+
+46
+00:01:53,740 --> 00:01:56,620
+Because this is the styling for the index page
+
+47
+00:01:56,620 --> 00:01:59,670
+so it's called index.css, okay
+
+48
+00:01:59,670 --> 00:02:02,470
+And then in the JS part here,
+
+49
+00:02:02,470 --> 00:02:04,830
+because the JS folder we're going to create next
+
+50
+00:02:04,830 --> 00:02:06,500
+is specifically written for this page
+
+51
+00:02:06,500 --> 00:02:11,620
+So we'll create a new file here called index.js
+
+52
+00:02:11,620 --> 00:02:14,340
+We used to write JS directly in the page
+
+53
+00:02:14,340 --> 00:02:15,160
+Now we don't write it anymore
+
+54
+00:02:15,160 --> 00:02:16,770
+Because that was the learning phase
+
+55
+00:02:16,770 --> 00:02:17,930
+Now when working on projects
+
+56
+00:02:17,930 --> 00:02:18,750
+That's how it will be in the future too
+
+57
+00:02:18,750 --> 00:02:21,330
+For projects, you should write them in separate files
+
+58
+00:02:21,330 --> 00:02:23,390
+Then just introduce it in the page, right?
+
+59
+00:02:23,390 --> 00:02:25,650
+Now let's introduce it on the page
+
+60
+00:02:25,650 --> 00:02:27,810
+Let's see what needs to be included in this page.
+
+61
+00:02:27,810 --> 00:02:32,970
+First, you can import the global styles.
+
+62
+00:02:32,970 --> 00:02:34,150
+so link
+
+63
+00:02:34,150 --> 00:02:38,190
+then slash CSS reset
+
+64
+00:02:38,190 --> 00:02:42,110
+Then, next, you can introduce your own styles.
+
+65
+00:02:42,860 --> 00:02:45,080
+link then dot forward slash
+
+66
+00:02:45,080 --> 00:02:48,290
+then index under CSS
+
+67
+00:02:48,290 --> 00:02:50,710
+Additionally, you need to import the JS file
+
+68
+00:02:50,710 --> 00:02:52,790
+Because we wrote the JS code externally.
+
+69
+00:02:52,790 --> 00:02:53,990
+Where do you say to include it
+
+70
+00:02:53,990 --> 00:02:55,799
+You can include it at the top
+
+71
+00:02:55,799 --> 00:02:56,519
+Wherever you reference it
+
+72
+00:02:56,519 --> 00:02:57,599
+but where should you actually place it
+
+73
+00:02:57,599 --> 00:02:58,499
+You know what
+
+74
+00:02:58,499 --> 00:03:01,279
+Your JS code was originally written inside the body.
+
+75
+00:03:01,279 --> 00:03:04,010
+The purpose of placing it at the end is to ensure top-down execution
+
+76
+00:03:04,010 --> 00:03:05,510
+the content inside the body has been fully loaded
+
+77
+00:03:05,510 --> 00:03:07,270
+Have all these tags been rendered yet?
+
+78
+00:03:07,270 --> 00:03:09,019
+Let's proceed with the JS code
+
+79
+00:03:09,019 --> 00:03:10,459
+Parse it from top to bottom, right?
+
+80
+00:03:10,459 --> 00:03:12,259
+so you'd better reference it here, um
+
+81
+00:03:12,259 --> 00:03:14,350
+write an SRC here
+
+82
+00:03:14,350 --> 00:03:15,730
+dot slash
+
+83
+00:03:15,730 --> 00:03:18,410
+under the JS folder like this
+
+84
+00:03:18,410 --> 00:03:19,490
+Got it?
+
+85
+00:03:19,490 --> 00:03:20,530
+You have to write it like this
+
+86
+00:03:20,530 --> 00:03:22,340
+That's it, okay
+
+87
+00:03:22,340 --> 00:03:23,620
+Let me write a comment here
+
+88
+00:03:23,620 --> 00:03:27,230
+This is importing your own JS file
+
+89
+00:03:27,230 --> 00:03:30,110
+This is equivalent to the code you wrote here.
+
+90
+00:03:30,110 --> 00:03:31,630
+It's equivalent to writing it here.
+
+91
+00:03:31,630 --> 00:03:32,470
+Got it?
+
+92
+00:03:32,470 --> 00:03:34,329
+That's how it's written.
+
+93
+00:03:34,329 --> 00:03:35,329
+Tsk, alright
+
+94
+00:03:35,329 --> 00:03:38,160
+So we've done what we needed to do initially.
+
+95
+00:03:38,160 --> 00:03:39,280
+Let me see
+
+96
+00:03:39,280 --> 00:03:40,360
+There's one more thing we haven't done yet
+
+97
+00:03:40,360 --> 00:03:43,160
+Do we usually need to include a favicon as well?
+
+98
+00:03:43,160 --> 00:03:43,640
+Right?
+
+99
+00:03:43,640 --> 00:03:47,820
+This is the thing, this little icon for the webpage.
+
+100
+00:03:47,820 --> 00:03:49,180
+Let's also include one.
+
+101
+00:03:49,180 --> 00:03:52,760
+Let's take a look at this icon
+
+102
+00:03:53,200 --> 00:03:55,640
+I'm going back to the Home.
+
+103
+00:03:56,090 --> 00:03:59,370
+You probably can't see this icon
+
+104
+00:03:59,370 --> 00:04:02,769
+it's just directly, um, in the source code
+
+105
+00:04:02,769 --> 00:04:04,769
+You probably can't find this icon.
+
+106
+00:04:04,769 --> 00:04:05,969
+Should you remember
+
+107
+00:04:05,969 --> 00:04:06,409
+You deserve it
+
+108
+00:04:06,409 --> 00:04:07,129
+Cannot find the icon
+
+109
+00:04:07,129 --> 00:04:11,280
+Add something called FAV after it
+
+110
+00:04:11,880 --> 00:04:15,600
+FAVicon, hmm
+
+111
+00:04:15,600 --> 00:04:16,600
+All three came back together
+
+112
+00:04:16,600 --> 00:04:17,120
+Great
+
+113
+00:04:17,120 --> 00:04:19,240
+Just in time.
+
+114
+00:04:20,089 --> 00:04:21,970
+P&G JD.com Super Brand Day Grab 99 off 98 Coupons
+
+115
+00:04:21,970 --> 00:04:22,089
+Hey
+
+116
+00:04:22,089 --> 00:04:22,790
+That's about it
+
+117
+00:04:22,790 --> 00:04:25,370
+Well, he can find the icon.
+
+118
+00:04:25,370 --> 00:04:27,470
+
+
+119
+00:04:27,470 --> 00:04:29,190
+so in the future when you're looking for icons
+
+120
+00:04:29,190 --> 00:04:32,430
+you can add this at the end of the website
+
+121
+00:04:32,430 --> 00:04:34,930
+Then you can see his icon.
+
+122
+00:04:34,930 --> 00:04:37,430
+
+
+123
+00:04:37,430 --> 00:04:40,120
+Then put it here, ah
+
+124
+00:04:40,120 --> 00:04:43,140
+Now let's just write the icon casually
+
+125
+00:04:43,140 --> 00:04:45,260
+I'll write it at the top
+
+126
+00:04:47,180 --> 00:04:49,700
+Introducing the webpage favicon
+
+127
+00:04:49,700 --> 00:04:51,440
+This is the URL for the icon.
+
+128
+00:04:51,440 --> 00:04:54,660
+Then we'll import the webpage favicon.
+
+129
+00:04:54,660 --> 00:04:56,780
+Remember, let's first download this image.
+
+130
+00:04:56,780 --> 00:05:00,059
+Right-click the mouse to save the image as
+
+131
+00:05:00,059 --> 00:05:01,979
+Just put it here for now
+
+132
+00:05:01,979 --> 00:05:04,859
+Just put it directly inside this one.
+
+133
+00:05:05,669 --> 00:05:12,160
+Advanced, we can't put it here either.
+
+134
+00:05:12,160 --> 00:05:15,020
+Because I haven't put it in there yet
+
+135
+00:05:15,020 --> 00:05:16,160
+Put it on the desktop
+
+136
+00:05:16,160 --> 00:05:18,510
+Put it on the desktop and then I'll drag it in
+
+137
+00:05:18,510 --> 00:05:20,730
+The IP addresses for the three of you need to be changed, right?
+
+138
+00:05:20,730 --> 00:05:22,910
+Did you connect to the network in the dorm?
+
+139
+00:05:22,910 --> 00:05:26,230
+If you've plugged in the network cable, you need to change the IP address.
+
+140
+00:05:27,780 --> 00:05:29,100
+Alright
+
+141
+00:05:29,100 --> 00:05:30,800
+Now we've successfully imported the icon.
+
+142
+00:05:30,800 --> 00:05:33,280
+Then, let's write the link
+
+143
+00:05:33,280 --> 00:05:35,260
+then a slash here
+
+144
+00:05:35,260 --> 00:05:37,860
+Then the icon inside the images folder
+
+145
+00:05:37,860 --> 00:05:39,930
+Then, you must remember to
+
+146
+00:05:39,930 --> 00:05:41,370
+There's a place that needs to be changed, right?
+
+147
+00:05:41,370 --> 00:05:42,490
+This needs to be changed.
+
+148
+00:05:42,490 --> 00:05:44,950
+Because this is equivalent to being REREAL
+
+149
+00:05:44,950 --> 00:05:48,250
+you're linking to a stylesheet
+
+150
+00:05:48,250 --> 00:05:50,610
+Actually, what we're referencing here is a web icon.
+
+151
+00:05:50,610 --> 00:05:51,830
+What should you change it to?
+
+152
+00:05:51,830 --> 00:05:54,010
+Is this what you mean by ICON, right?
+
+153
+00:05:54,010 --> 00:05:56,930
+The word ICON means icon.
+
+154
+00:05:56,930 --> 00:05:58,450
+Let's take a look at the effect
+
+155
+00:05:58,450 --> 00:06:02,910
+Let's run the page. Hmm, the icon has loaded, right?
+
+156
+00:06:02,910 --> 00:06:03,410
+Alright
+
+157
+00:06:03,410 --> 00:06:04,930
+Now we have this page.
+
+158
+00:06:04,930 --> 00:06:07,179
+The Home page does these things
+
+159
+00:06:07,179 --> 00:06:09,979
+reference the favicon and introduce global styles
+
+160
+00:06:09,979 --> 00:06:11,789
+Then introduce your own styles
+
+161
+00:06:11,789 --> 00:06:13,929
+import our own JS files
+
+162
+00:06:13,929 --> 00:06:16,029
+These should feel pretty familiar
+
+163
+00:06:16,029 --> 00:06:19,159
+Because we've done this many times before.
+
+164
+00:06:19,159 --> 00:06:20,119
+Alright
+
+165
+00:06:20,119 --> 00:06:22,739
+Alright, the preparatory work should be done now.
+
+166
+00:06:22,739 --> 00:06:23,619
+Create the project
+
+167
+00:06:23,619 --> 00:06:26,159
+create the Home style file and icon
+
+168
+00:06:26,159 --> 00:06:27,440
+JS files okay
+
+169
+00:06:27,440 --> 00:06:28,680
+That's all done now
+
+170
+00:06:28,680 --> 00:06:30,100
+Let's wait a moment
+

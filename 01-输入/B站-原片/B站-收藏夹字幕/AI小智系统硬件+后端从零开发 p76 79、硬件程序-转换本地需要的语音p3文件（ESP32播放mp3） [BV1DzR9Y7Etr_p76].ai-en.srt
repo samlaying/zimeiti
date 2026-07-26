@@ -1,0 +1,448 @@
+1
+00:00:01,100 --> 00:00:02,620
+Alright, in this lesson, we'll talk about
+
+2
+00:00:02,620 --> 00:00:05,140
+how we can convert this type of audio
+
+3
+00:00:05,140 --> 00:00:06,340
+where to get it, you know
+
+4
+00:00:06,340 --> 00:00:07,080
+MP3, right
+
+5
+00:00:07,080 --> 00:00:09,070
+I usually get it from this website
+
+6
+00:00:09,490 --> 00:00:14,030
+we can use this site to convert the MP3 files we need
+
+7
+00:00:14,030 --> 00:00:16,170
+here you can choose the broadcaster
+
+8
+00:00:16,170 --> 00:00:17,250
+and the audio
+
+9
+00:00:17,250 --> 00:00:18,490
+the volume level, yeah
+
+10
+00:00:18,490 --> 00:00:20,350
+Alright, this place should not have any delay.
+
+11
+00:00:20,350 --> 00:00:21,930
+It works like this for the conversion.
+
+12
+00:00:21,930 --> 00:00:22,930
+There are these types of conversions.
+
+13
+00:00:22,930 --> 00:00:24,570
+It's about what text you want to convert.
+
+14
+00:00:24,570 --> 00:00:25,310
+You input it here.
+
+15
+00:00:25,310 --> 00:00:27,110
+Then you can proceed with the conversion and download.
+
+16
+00:00:27,110 --> 00:00:28,710
+This is what I usually use.
+
+17
+00:00:28,710 --> 00:00:31,370
+After the synthesis, the audio,
+
+18
+00:00:31,370 --> 00:00:33,130
+it's in MP3 format.
+
+19
+00:00:33,130 --> 00:00:35,180
+I've already converted so much here.
+
+20
+00:00:35,180 --> 00:00:39,260
+We've already converted from zero to nine here.
+
+21
+00:00:39,260 --> 00:00:40,680
+And there are these as well.
+
+22
+00:00:40,680 --> 00:00:43,050
+If this time is too short,
+
+23
+00:00:43,050 --> 00:00:44,570
+Like this single digit,
+
+24
+00:00:44,570 --> 00:00:45,810
+The duration is too brief.
+
+25
+00:00:45,810 --> 00:00:47,550
+You can insert something here.
+
+26
+00:00:47,550 --> 00:00:49,720
+That is, insert a pause here.
+
+27
+00:00:49,720 --> 00:00:51,440
+And a 0.5 millisecond pause.
+
+28
+00:00:51,440 --> 00:00:52,160
+It might just work
+
+29
+00:00:52,160 --> 00:00:52,840
+Otherwise, it's too short
+
+30
+00:00:52,840 --> 00:00:55,540
+You might encounter an error when converting the MP3 file
+
+31
+00:00:55,540 --> 00:00:57,380
+I've already converted it
+
+32
+00:00:57,380 --> 00:00:59,940
+Here, we're generating the speech synthesis into an MP3 file.
+
+33
+00:00:59,940 --> 00:01:00,560
+Right here
+
+34
+00:01:00,560 --> 00:01:02,320
+Of course, you can try it out yourselves
+
+35
+00:01:02,320 --> 00:01:06,220
+And this is where I've already done the um
+
+36
+00:01:06,220 --> 00:01:10,210
+Oh, this should be a P3 file
+
+37
+00:01:10,210 --> 00:01:12,030
+I should change this name.
+
+38
+00:01:12,030 --> 00:01:13,210
+This is a P3 file.
+
+39
+00:01:13,210 --> 00:01:14,090
+Let me change it.
+
+40
+00:01:14,090 --> 00:01:18,390
+Here, this is P3.
+
+41
+00:01:18,390 --> 00:01:19,690
+P3 file.
+
+42
+00:01:19,690 --> 00:01:20,430
+And then,
+
+43
+00:01:20,430 --> 00:01:23,170
+We need to put this in our source code.
+
+44
+00:01:23,170 --> 00:01:24,790
+Let’s move this.
+
+45
+00:01:26,090 --> 00:01:28,290
+Let’s change the note.
+
+46
+00:01:32,700 --> 00:01:36,780
+This process takes quite a bit of time.
+
+47
+00:01:36,780 --> 00:01:38,500
+So if you're lazy about it,
+
+48
+00:01:38,500 --> 00:01:39,820
+just use mine.
+
+49
+00:01:39,820 --> 00:01:41,890
+I'll place this here,
+
+50
+00:01:41,890 --> 00:01:44,370
+and this one won't be needed.
+
+51
+00:01:44,370 --> 00:01:46,410
+If you decide to convert it directly, it's the same as the last class.
+
+52
+00:01:46,410 --> 00:01:48,770
+Just convert it using the P3 tool.
+
+53
+00:01:48,770 --> 00:01:50,230
+Convert each file one by one.
+
+54
+00:01:50,230 --> 00:01:51,430
+That's how you do it.
+
+55
+00:01:51,430 --> 00:01:52,630
+Then after the conversion,
+
+56
+00:01:52,630 --> 00:01:55,390
+Once we download this,
+
+57
+00:01:55,390 --> 00:01:56,350
+After downloading it,
+
+58
+00:01:56,350 --> 00:01:58,470
+place it in the audio directory.
+
+59
+00:01:58,470 --> 00:02:00,990
+We can put this in the resources folder.
+
+60
+00:02:00,990 --> 00:02:05,930
+extract the entire package.
+
+61
+00:02:06,490 --> 00:02:07,830
+Let’s set it aside for now.
+
+62
+00:02:07,830 --> 00:02:10,210
+We’ll put it in here.
+
+63
+00:02:11,720 --> 00:02:13,880
+We won’t need this for the moment.
+
+64
+00:02:13,880 --> 00:02:15,079
+Is it possible?
+
+65
+00:02:15,079 --> 00:02:17,099
+Yeah, let's put it in this folder first.
+
+66
+00:02:17,099 --> 00:02:21,130
+Then later we'll move it to our resources folder.
+
+67
+00:02:21,130 --> 00:02:21,930
+Take a look.
+
+68
+00:02:21,930 --> 00:02:23,530
+We'll put it in here.
+
+69
+00:02:23,530 --> 00:02:25,610
+Create a resource directory.
+
+70
+00:02:25,610 --> 00:02:26,510
+Go ahead and create it.
+
+71
+00:02:26,510 --> 00:02:29,930
+Under the main directory.
+
+72
+00:02:31,020 --> 00:02:32,860
+Then we'll create a new folder.
+
+73
+00:02:35,060 --> 00:02:37,120
+Resource
+
+74
+00:02:45,060 --> 00:02:48,400
+Then we'll place this in our file.
+
+75
+00:02:48,400 --> 00:02:51,540
+We'll drag all the P3 files over here.
+
+76
+00:02:51,540 --> 00:02:53,770
+These are binary files.
+
+77
+00:02:54,520 --> 00:02:56,230
+Place them here.
+
+78
+00:02:56,230 --> 00:02:57,670
+These are the ones we'll be using.
+
+79
+00:02:57,670 --> 00:02:59,430
+First, from 0 to 19,
+
+80
+00:02:59,430 --> 00:03:00,110
+these are numbers.
+
+81
+00:03:00,110 --> 00:03:01,750
+which can be combined in any way.
+
+82
+00:03:01,750 --> 00:03:02,470
+When it comes to playback
+
+83
+00:03:02,470 --> 00:03:03,430
+you can mix and match freely
+
+84
+00:03:03,430 --> 00:03:05,660
+since we're talking about Bluetooth
+
+85
+00:03:05,660 --> 00:03:06,960
+actually, connecting to Bluetooth
+
+86
+00:03:06,960 --> 00:03:08,740
+our Bluetooth name shouldn't be fixed
+
+87
+00:03:08,740 --> 00:03:10,400
+we can generate a random number later
+
+88
+00:03:10,400 --> 00:03:12,080
+the prefix can be whatever we want
+
+89
+00:03:12,080 --> 00:03:14,020
+and the suffix can be random digits
+
+90
+00:03:14,020 --> 00:03:16,460
+then you can broadcast the notification
+
+91
+00:03:16,460 --> 00:03:18,800
+The name to connect to the Bluetooth is
+
+92
+00:03:18,800 --> 00:03:20,840
+What does the name look like, right?
+
+93
+00:03:20,840 --> 00:03:22,200
+It should be a random number, so
+
+94
+00:03:22,200 --> 00:03:25,280
+Otherwise, if you have multiple devices together with the same name,
+
+95
+00:03:25,280 --> 00:03:26,300
+It would definitely be chaotic.
+
+96
+00:03:26,300 --> 00:03:28,300
+Here, um, in this case,
+
+97
+00:03:28,300 --> 00:03:32,750
+We have a voice prompt for entering the Bluetooth settings,
+
+98
+00:03:32,750 --> 00:03:34,900
+I wrote it like this,
+
+99
+00:03:34,900 --> 00:03:37,360
+Anyway, this is our button
+
+100
+00:03:37,360 --> 00:03:38,580
+So, if we use the button to wake it up
+
+101
+00:03:38,580 --> 00:03:41,610
+Because in the early stages, we might use the button to wake it up
+
+102
+00:03:41,610 --> 00:03:43,170
+You're working on speech recognition, right?
+
+103
+00:03:43,170 --> 00:03:45,450
+Then, this is when we enter into
+
+104
+00:03:45,450 --> 00:03:48,670
+The system successfully starts up, and there’s a notification sound
+
+105
+00:03:48,670 --> 00:03:52,250
+And this is the notification sound for when the WiFi configuration is complete
+
+106
+00:03:52,250 --> 00:03:54,190
+The sound indicating successful configuration is also here
+
+107
+00:03:54,190 --> 00:03:58,050
+Then this is the entire audio file, the P3 file
+
+108
+00:03:58,050 --> 00:03:58,650
+Placed here
+
+109
+00:03:58,650 --> 00:03:59,850
+We’ll cover it in the next class
+
+110
+00:03:59,850 --> 00:04:01,930
+How we play this file
+
+111
+00:04:01,930 --> 00:04:03,050
+We’ll discuss that in the next class
+
+112
+00:04:03,050 --> 00:04:04,040
+That’s all for this part
+

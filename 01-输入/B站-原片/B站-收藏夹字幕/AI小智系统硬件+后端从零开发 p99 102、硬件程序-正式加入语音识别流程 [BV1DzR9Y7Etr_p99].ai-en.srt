@@ -1,0 +1,2016 @@
+1
+00:00:00,780 --> 00:00:02,540
+Alright, in this class, we'll talk about
+
+2
+00:00:02,540 --> 00:00:04,160
+It's about this speech recognition
+
+3
+00:00:04,160 --> 00:00:07,050
+into our process.
+
+4
+00:00:07,050 --> 00:00:10,469
+Well, we previously covered the aspect of speech recognition.
+
+5
+00:00:10,469 --> 00:00:11,749
+right?
+
+6
+00:00:11,749 --> 00:00:14,169
+Now, we need to incorporate this into our workflow.
+
+7
+00:00:14,169 --> 00:00:17,120
+It's like adding an intermediate processing layer.
+
+8
+00:00:17,120 --> 00:00:20,680
+So, after the frontend processes it, it then hands it over to the backend.
+
+9
+00:00:20,680 --> 00:00:24,520
+And here, we'll create a smart pointer.
+
+10
+00:00:24,880 --> 00:00:29,440
+Create a smart pointer at this point H.
+
+11
+00:00:30,510 --> 00:00:32,590
+Add this header.
+
+12
+00:00:38,920 --> 00:00:43,160
+Then we'll instantiate this.
+
+13
+00:00:43,160 --> 00:00:46,200
+In this .cpp file.
+
+14
+00:00:46,200 --> 00:00:50,810
+Inside the run function.
+
+15
+00:00:55,600 --> 00:00:58,240
+Before this part here.
+
+16
+00:00:58,240 --> 00:01:00,200
+Here we instantiate it.
+
+17
+00:01:00,200 --> 00:01:05,480
+Now, let's set up its callback, shall we?
+
+18
+00:01:05,480 --> 00:01:09,070
+When we output data, we need to call the callback.
+
+19
+00:01:09,350 --> 00:01:11,750
+We need to set this up with the processed data
+
+20
+00:01:11,750 --> 00:01:12,810
+We should call it back, right?
+
+21
+00:01:12,810 --> 00:01:14,770
+Then we process it, okay?
+
+22
+00:01:14,770 --> 00:01:16,010
+After processing it here
+
+23
+00:01:16,010 --> 00:01:18,970
+It will call what we discussed earlier
+
+24
+00:01:18,970 --> 00:01:21,550
+In this case, we jump to this point
+
+25
+00:01:21,550 --> 00:01:24,050
+We handle it right here
+
+26
+00:01:32,210 --> 00:01:33,970
+This is when we process it
+
+27
+00:01:33,970 --> 00:01:36,490
+This is after we feed the data to it
+
+28
+00:01:36,490 --> 00:01:37,670
+He's involved in this task
+
+29
+00:01:37,670 --> 00:01:40,410
+He goes to fetch these data
+
+30
+00:01:40,410 --> 00:01:42,730
+And ultimately, he will callback these data to us
+
+31
+00:01:42,730 --> 00:01:43,770
+The upper-level application
+
+32
+00:01:43,770 --> 00:01:45,650
+Here, what did our upper-level application do
+
+33
+00:01:45,650 --> 00:01:46,330
+Let's take a look
+
+34
+00:01:46,330 --> 00:01:50,040
+This is where we receive the callback, it's passed over
+
+35
+00:01:50,040 --> 00:01:52,380
+The processed PCM data, right
+
+36
+00:01:52,380 --> 00:01:53,180
+It's been processed
+
+37
+00:01:53,180 --> 00:01:55,340
+Then we're handling it as a background task.
+
+38
+00:01:55,340 --> 00:01:57,550
+We proceed with the background task to
+
+39
+00:01:57,550 --> 00:02:01,470
+perform the encoding, right?
+
+40
+00:02:01,470 --> 00:02:02,990
+We've done this before, of course.
+
+41
+00:02:02,990 --> 00:02:05,700
+The encoding task is CPU-intensive.
+
+42
+00:02:05,700 --> 00:02:06,580
+It's CPU-heavy.
+
+43
+00:02:06,580 --> 00:02:08,280
+All of this is processed in the background.
+
+44
+00:02:08,280 --> 00:02:10,580
+Once the encoding is complete,
+
+45
+00:02:10,580 --> 00:02:11,620
+it triggers a callback, right?
+
+46
+00:02:11,620 --> 00:02:13,840
+When we pass the o pass data back
+
+47
+00:02:13,840 --> 00:02:17,440
+we add it to our frontend task
+
+48
+00:02:17,440 --> 00:02:19,320
+which is the main task
+
+49
+00:02:19,320 --> 00:02:20,760
+we add it here
+
+50
+00:02:20,760 --> 00:02:22,440
+since we need to send it
+
+51
+00:02:22,440 --> 00:02:25,000
+the audio data after encoding
+
+52
+00:02:25,000 --> 00:02:27,620
+the OPEX audio data to the backend
+
+53
+00:02:27,620 --> 00:02:30,100
+this processed data is then sent to the backend, right
+
+54
+00:02:30,100 --> 00:02:31,380
+this is the entire process
+
+55
+00:02:31,380 --> 00:02:33,940
+We'll also go over it in detail later.
+
+56
+00:02:33,940 --> 00:02:35,180
+The entire process, that is.
+
+57
+00:02:35,180 --> 00:02:37,600
+Now, we'll proceed with this method.
+
+58
+00:02:37,600 --> 00:02:43,230
+Then, we need to focus on this speech recognition process.
+
+59
+00:02:43,230 --> 00:02:44,270
+Into this part.
+
+60
+00:02:44,270 --> 00:02:45,210
+Let's take a look.
+
+61
+00:02:45,210 --> 00:02:48,230
+Currently, we're handling the input here.
+
+62
+00:02:48,230 --> 00:02:49,510
+Only the wake-up, right?
+
+63
+00:02:49,510 --> 00:02:51,150
+So, what do we do after the wake-up?
+
+64
+00:02:51,150 --> 00:02:55,070
+Should we wake it up and then wake it up again?
+
+65
+00:02:55,070 --> 00:02:57,350
+We need to hand over this audio data to him, right?
+
+66
+00:02:57,350 --> 00:03:00,409
+This is what we're doing here, right?
+
+67
+00:03:00,409 --> 00:03:01,749
+We need to feed it to him.
+
+68
+00:03:01,749 --> 00:03:02,489
+After feeding it to him,
+
+69
+00:03:02,489 --> 00:03:03,729
+he will call back afterwards,
+
+70
+00:03:03,729 --> 00:03:04,729
+and then we send it to the backend, right?
+
+71
+00:03:04,729 --> 00:03:05,689
+That's the logic we're following.
+
+72
+00:03:05,689 --> 00:03:09,320
+Let's copy it over and take a look.
+
+73
+00:03:09,320 --> 00:03:11,750
+If this audio is running
+
+74
+00:03:11,750 --> 00:03:13,150
+it means you've successfully activated it
+
+75
+00:03:13,150 --> 00:03:14,750
+and it will start running, right?
+
+76
+00:03:14,750 --> 00:03:15,410
+Once it's running
+
+77
+00:03:15,410 --> 00:03:18,370
+we can also get the size of the data bits here
+
+78
+00:03:18,370 --> 00:03:18,970
+then
+
+79
+00:03:18,970 --> 00:03:20,970
+we can obtain
+
+80
+00:03:20,970 --> 00:03:23,390
+the amount of data from the microphone, right?
+
+81
+00:03:23,390 --> 00:03:24,870
+after obtaining this amount of data
+
+82
+00:03:24,870 --> 00:03:26,110
+Feed it, right?
+
+83
+00:03:26,110 --> 00:03:27,770
+This is also very clear.
+
+84
+00:03:27,770 --> 00:03:29,860
+Then, this area will return.
+
+85
+00:03:30,860 --> 00:03:32,860
+Including this part will also return.
+
+86
+00:03:32,860 --> 00:03:33,740
+Why is that?
+
+87
+00:03:33,740 --> 00:03:35,660
+Because processing bit data takes time.
+
+88
+00:03:35,660 --> 00:03:37,040
+No delay is needed.
+
+89
+00:03:37,040 --> 00:03:38,520
+If all the bit data were to be padded,
+
+90
+00:03:38,520 --> 00:03:39,560
+none of these would function.
+
+91
+00:03:39,560 --> 00:03:40,760
+If you don't add a delay,
+
+92
+00:03:40,760 --> 00:03:43,270
+the watchdog might reset.
+
+93
+00:03:43,270 --> 00:03:44,810
+Because you don't have
+
+94
+00:03:44,810 --> 00:03:48,950
+the CPU yielding here, right?
+
+95
+00:03:48,950 --> 00:03:52,730
+So it might get stuck in a loop and fail to feed the watchdog.
+
+96
+00:03:52,730 --> 00:03:54,090
+Let's add it here.
+
+97
+00:03:54,090 --> 00:03:55,769
+If his V data
+
+98
+00:03:55,769 --> 00:03:58,149
+or the micro data in the wake word
+
+99
+00:03:58,149 --> 00:04:00,109
+don't require a delay anymore.
+
+100
+00:04:00,109 --> 00:04:02,249
+Otherwise, let's add a delay here.
+
+101
+00:04:02,880 --> 00:04:07,990
+Then, we need to do something here.
+
+102
+00:04:07,990 --> 00:04:09,610
+Right now,
+
+103
+00:04:09,610 --> 00:04:12,270
+our backend hasn't implemented VAD,
+
+104
+00:04:12,270 --> 00:04:14,690
+which stands for Voice Activity Detection,
+
+105
+00:04:14,690 --> 00:04:15,870
+we haven't done it on the backend.
+
+106
+00:04:15,870 --> 00:04:18,680
+So, to see the results as quickly as possible,
+
+107
+00:04:18,680 --> 00:04:20,660
+we'll do it on the hardware side,
+
+108
+00:04:20,660 --> 00:04:22,580
+since the hardware handles the front-end processing.
+
+109
+00:04:22,580 --> 00:04:24,600
+This involves VAD, right?
+
+110
+00:04:24,600 --> 00:04:26,630
+We had set up VAD before.
+
+111
+00:04:26,630 --> 00:04:28,429
+Here, right?
+
+112
+00:04:28,709 --> 00:04:29,849
+We set up VAD
+
+113
+00:04:29,849 --> 00:04:33,469
+So we need to handle this VD part.
+
+114
+00:04:33,469 --> 00:04:34,349
+And bring it back as well.
+
+115
+00:04:34,349 --> 00:04:35,149
+How do we do that?
+
+116
+00:04:35,149 --> 00:04:38,970
+We create a callback for VD.
+
+117
+00:04:38,970 --> 00:04:40,110
+Put it in here.
+
+118
+00:04:40,110 --> 00:04:43,060
+We'll place it here
+
+119
+00:04:44,600 --> 00:04:47,860
+This is our callback function
+
+120
+00:04:47,860 --> 00:04:51,490
+This type is one we defined earlier
+
+121
+00:04:51,490 --> 00:04:53,670
+Then we'll write this inline function here
+
+122
+00:04:53,670 --> 00:04:55,370
+An inline function is essentially setting up a callback.
+
+123
+00:04:55,370 --> 00:04:57,130
+Let's take a look at this
+
+124
+00:04:57,130 --> 00:04:58,890
+This was added by us previously
+
+125
+00:04:58,890 --> 00:05:00,650
+It's this header file
+
+126
+00:05:00,650 --> 00:05:01,570
+We added it ourselves
+
+127
+00:05:01,570 --> 00:05:04,960
+We basically defined a custom type, right?
+
+128
+00:05:04,960 --> 00:05:05,600
+It's quite long to write.
+
+129
+00:05:05,600 --> 00:05:06,300
+I'm too lazy to write it all out.
+
+130
+00:05:06,300 --> 00:05:09,280
+So I'll use this as a substitute for our callback.
+
+131
+00:05:09,280 --> 00:05:10,660
+The function itself is pretty simple.
+
+132
+00:05:10,660 --> 00:05:12,000
+It doesn't return anything.
+
+133
+00:05:12,000 --> 00:05:12,880
+It doesn't take any parameters.
+
+134
+00:05:12,880 --> 00:05:15,720
+Then we set this callback.
+
+135
+00:05:17,720 --> 00:05:20,030
+So, we need to set up the callback, right?
+
+136
+00:05:20,030 --> 00:05:23,659
+Next, we need to call the callback.
+
+137
+00:05:23,659 --> 00:05:27,179
+So, how do we call the callback here?
+
+138
+00:05:27,179 --> 00:05:28,099
+Right here.
+
+139
+00:05:28,099 --> 00:05:31,310
+Previously, this was the data we had.
+
+140
+00:05:31,310 --> 00:05:33,710
+This is the data after it has been processed and is ready to be disposed of.
+
+141
+00:05:33,710 --> 00:05:36,430
+But we can also check its status here.
+
+142
+00:05:36,430 --> 00:05:40,460
+Specifically, the status of its VD, or activity detection.
+
+143
+00:05:40,460 --> 00:05:42,909
+Let's create a variable for this.
+
+144
+00:05:42,909 --> 00:05:44,789
+This variable will be
+
+145
+00:05:44,789 --> 00:05:47,989
+Because during the recognition process, I found that
+
+146
+00:05:47,989 --> 00:05:50,480
+If you don’t
+
+147
+00:05:50,480 --> 00:05:52,040
+When you first come in
+
+148
+00:05:52,040 --> 00:05:54,620
+It will be in a muted state
+
+149
+00:05:54,620 --> 00:05:56,240
+So let’s do it this way
+
+150
+00:05:56,240 --> 00:05:57,480
+So how do we do it
+
+151
+00:05:57,480 --> 00:06:01,080
+We’ll check here
+
+152
+00:06:01,080 --> 00:06:05,120
+If it’s speaking
+
+153
+00:06:05,120 --> 00:06:06,140
+It’s in the middle of speaking
+
+154
+00:06:06,140 --> 00:06:07,000
+If it's during speech
+
+155
+00:06:07,000 --> 00:06:09,310
+Let's set this to true
+
+156
+00:06:09,310 --> 00:06:10,710
+this indicates when you enter
+
+157
+00:06:10,710 --> 00:06:13,530
+if you start in a muted state
+
+158
+00:06:13,530 --> 00:06:14,990
+it won't call the one below
+
+159
+00:06:14,990 --> 00:06:17,539
+let's copy the one below
+
+160
+00:06:17,539 --> 00:06:19,939
+let's copy it over
+
+161
+00:06:21,460 --> 00:06:23,680
+that means if he enters after
+
+162
+00:06:23,680 --> 00:06:27,220
+if you don't use this variable method
+
+163
+00:06:27,220 --> 00:06:28,970
+Once he comes in, he's on mute.
+
+164
+00:06:28,970 --> 00:06:30,810
+Then you just call it back directly.
+
+165
+00:06:30,810 --> 00:06:31,970
+That wouldn't make much sense, would it?
+
+166
+00:06:31,970 --> 00:06:34,050
+You haven't even spoken yet, and you're already calling it back.
+
+167
+00:06:34,050 --> 00:06:35,930
+Because this callback is essentially the same as being on mute.
+
+168
+00:06:35,930 --> 00:06:40,130
+Once you finish speaking, you need to send a stop signal.
+
+169
+00:06:40,130 --> 00:06:42,290
+The text type, I mean.
+
+170
+00:06:42,290 --> 00:06:44,410
+You send the stop signal to the backend.
+
+171
+00:06:44,410 --> 00:06:48,220
+Then the backend assumes you've finished speaking.
+
+172
+00:06:48,220 --> 00:06:52,560
+We need to hand this over to LOM, right?
+
+173
+00:06:52,560 --> 00:06:54,540
+So, first of all, when we come in,
+
+174
+00:06:54,540 --> 00:06:57,080
+You must have set this up after speaking.
+
+175
+00:06:57,080 --> 00:06:58,970
+set this position to true,
+
+176
+00:06:58,970 --> 00:07:01,970
+and then, in the muted situation,
+
+177
+00:07:01,970 --> 00:07:04,170
+we will also check if this is,
+
+178
+00:07:04,170 --> 00:07:05,790
+you just spoke, right?
+
+179
+00:07:05,790 --> 00:07:08,750
+Then we'll set this back, right?
+
+180
+00:07:08,750 --> 00:07:11,670
+so then this place calls the callback
+
+181
+00:07:11,670 --> 00:07:12,870
+It's the VED callback
+
+182
+00:07:12,870 --> 00:07:15,610
+This way, we actually indicate that we've finished a sentence
+
+183
+00:07:15,610 --> 00:07:17,210
+At this point, we can send a stop signal
+
+184
+00:07:17,210 --> 00:07:19,440
+Otherwise, we don't have a stop signal, right?
+
+185
+00:07:19,440 --> 00:07:22,400
+We keep talking and sending everything to the backend
+
+186
+00:07:22,400 --> 00:07:23,960
+But the backend doesn't know when to stop
+
+187
+00:07:23,960 --> 00:07:26,080
+Because we haven't implemented activity detection on the backend yet
+
+188
+00:07:26,080 --> 00:07:28,420
+In the future, we'll move activity detection to the backend
+
+189
+00:07:28,420 --> 00:07:30,190
+For now, let's proceed this way
+
+190
+00:07:30,190 --> 00:07:30,750
+So then
+
+191
+00:07:30,750 --> 00:07:33,550
+Can we set up this callback here?
+
+192
+00:07:33,550 --> 00:07:36,599
+Right here, right?
+
+193
+00:07:36,599 --> 00:07:38,419
+We just set up some data, didn't we?
+
+194
+00:07:38,419 --> 00:07:39,519
+It's for fetching the data.
+
+195
+00:07:39,519 --> 00:07:43,630
+Now let's get the callback for fetching the VD.
+
+196
+00:07:43,630 --> 00:07:44,710
+We'll put it here as well.
+
+197
+00:07:44,710 --> 00:07:45,670
+Let's see how we can do that.
+
+198
+00:07:45,670 --> 00:07:47,190
+It's quite simple, actually.
+
+199
+00:07:47,579 --> 00:07:48,539
+Let me take a look
+
+200
+00:07:48,539 --> 00:07:50,519
+It's this VB we're talking about
+
+201
+00:07:50,519 --> 00:07:52,259
+If it's something like VB
+
+202
+00:07:52,259 --> 00:07:53,119
+It's about the callback
+
+203
+00:07:53,119 --> 00:07:55,419
+That means we're done
+
+204
+00:07:55,419 --> 00:07:57,999
+That means we've finished saying this sentence
+
+205
+00:07:57,999 --> 00:07:59,419
+After finishing this sentence
+
+206
+00:07:59,419 --> 00:08:00,699
+What are we going to do here?
+
+207
+00:08:00,699 --> 00:08:03,000
+We send a SOP signal to the backend
+
+208
+00:08:03,000 --> 00:08:04,160
+That wraps up my sentence, right?
+
+209
+00:08:04,160 --> 00:08:07,280
+Then the backend starts the speech recognition process
+
+210
+00:08:07,280 --> 00:08:08,400
+It's handed over to LOM.
+
+211
+00:08:08,400 --> 00:08:10,160
+The response goes like this.
+
+212
+00:08:10,160 --> 00:08:11,800
+After I finish this sentence,
+
+213
+00:08:11,800 --> 00:08:13,980
+don’t we need to stop it?
+
+214
+00:08:13,980 --> 00:08:17,590
+We don’t need to send any more audio to the backend.
+
+215
+00:08:17,590 --> 00:08:19,830
+It’s like we’re padding the data for it, right?
+
+216
+00:08:19,830 --> 00:08:22,690
+But at this point, we need to activate the wake word again.
+
+217
+00:08:22,690 --> 00:08:24,039
+Let's turn on the wake word.
+
+218
+00:08:24,039 --> 00:08:25,139
+Then, what's next?
+
+219
+00:08:25,139 --> 00:08:28,959
+Can we proceed to send the signal?
+
+220
+00:08:28,959 --> 00:08:31,739
+Send this stop signal, right?
+
+221
+00:08:31,739 --> 00:08:33,679
+At this point, immediately after that,
+
+222
+00:08:33,679 --> 00:08:38,179
+we need to handle its stop signal,
+
+223
+00:08:38,179 --> 00:08:39,320
+the stop signal.
+
+224
+00:08:39,320 --> 00:08:42,830
+Well, how should I put it?
+
+225
+00:08:42,830 --> 00:08:43,190
+Ah.
+
+226
+00:08:43,190 --> 00:08:46,660
+Our backend will also send a stop signal
+
+227
+00:08:46,660 --> 00:08:48,120
+to our frontend
+
+228
+00:08:48,120 --> 00:08:49,640
+and to our hardware
+
+229
+00:08:49,640 --> 00:08:50,180
+Let's do it this way
+
+230
+00:08:50,180 --> 00:08:54,030
+I'll download this segment first.
+
+231
+00:08:54,030 --> 00:08:56,470
+Download it to the hardware.
+
+232
+00:08:56,470 --> 00:08:58,540
+Now download it to the board
+
+233
+00:08:58,540 --> 00:09:00,300
+then let's test the effect
+
+234
+00:09:00,300 --> 00:09:02,020
+then it will perform certain actions
+
+235
+00:09:02,020 --> 00:09:03,420
+Let's move on to the next part.
+
+236
+00:09:03,420 --> 00:09:06,700
+Otherwise, it might be a bit confusing with so much information.
+
+237
+00:09:13,320 --> 00:09:14,960
+Alright, we've downloaded it.
+
+238
+00:09:14,960 --> 00:09:17,940
+Now, let's take a look at this part.
+
+239
+00:09:17,940 --> 00:09:18,880
+This is the wake word, right?
+
+240
+00:09:20,160 --> 00:09:21,560
+H Lestar
+
+241
+00:09:24,580 --> 00:09:26,040
+Hello, wave your hand.
+
+242
+00:09:26,040 --> 00:09:29,190
+Has this message been sent already?
+
+243
+00:09:29,790 --> 00:09:32,070
+Then, there's a stop signal here, right?
+
+244
+00:09:32,070 --> 00:09:32,950
+The stop signal
+
+245
+00:09:32,950 --> 00:09:35,730
+Do we need to start opening this audio signal again?
+
+246
+00:09:35,730 --> 00:09:38,210
+Do we need to monitor this stop signal?
+
+247
+00:09:38,210 --> 00:09:38,965
+Right?
+
+248
+00:09:38,970 --> 00:09:41,290
+Because at this point, we've turned off the audio, right?
+
+249
+00:09:41,290 --> 00:09:44,250
+The channel that sends the audio to the backend
+
+250
+00:09:44,250 --> 00:09:47,269
+has already been set to send data
+
+251
+00:09:47,269 --> 00:09:48,829
+So the entire callback is gone, isn't it?
+
+252
+00:09:48,829 --> 00:09:50,649
+After we stop, right?
+
+253
+00:09:50,649 --> 00:09:52,069
+After we stop here,
+
+254
+00:09:52,069 --> 00:09:55,480
+the thread essentially stops running.
+
+255
+00:09:55,480 --> 00:09:56,260
+Where exactly?
+
+256
+00:09:56,260 --> 00:09:57,720
+Let's check what happens after we stop.
+
+257
+00:09:57,720 --> 00:10:00,389
+Does it mean the process inside doesn't run?
+
+258
+00:10:00,389 --> 00:10:01,489
+It doesn't run.
+
+259
+00:10:01,489 --> 00:10:04,329
+And after we stop here,
+
+260
+00:10:04,329 --> 00:10:07,130
+let's see what happens to the data in this place.
+
+261
+00:10:07,130 --> 00:10:07,970
+Let's take a look.
+
+262
+00:10:07,970 --> 00:10:11,490
+Well, it doesn't work, does it?
+
+263
+00:10:11,490 --> 00:10:12,410
+It's not running.
+
+264
+00:10:12,410 --> 00:10:14,110
+So it won't process the data.
+
+265
+00:10:14,110 --> 00:10:15,790
+Obviously, this won't do.
+
+266
+00:10:15,790 --> 00:10:18,190
+We need to detect the stop signal.
+
+267
+00:10:18,190 --> 00:10:21,390
+The stop signal indicates that the playback has finished.
+
+268
+00:10:21,390 --> 00:10:23,710
+Then we can send the audio to the backend.
+
+269
+00:10:23,710 --> 00:10:25,550
+So let's write this part.
+
+270
+00:10:25,550 --> 00:10:26,110
+It's quite simple.
+
+271
+00:10:26,110 --> 00:10:27,750
+I'll just copy it over.
+
+272
+00:10:27,750 --> 00:10:30,950
+That is, processing the audio here.
+
+273
+00:10:30,950 --> 00:10:32,680
+When processing this text message,
+
+274
+00:10:32,680 --> 00:10:33,800
+Received a text message
+
+275
+00:10:33,800 --> 00:10:34,460
+Right here.
+
+276
+00:10:34,460 --> 00:10:37,000
+Here, don't we have a callback for text messages?
+
+277
+00:10:37,000 --> 00:10:38,569
+Let's get it set up here.
+
+278
+00:10:38,569 --> 00:10:39,649
+I'll copy it over.
+
+279
+00:10:39,649 --> 00:10:40,449
+This is pretty straightforward.
+
+280
+00:10:40,449 --> 00:10:43,809
+Just parse its acceptance then.
+
+281
+00:10:44,749 --> 00:10:47,029
+First, we need to parse its type, right?
+
+282
+00:10:47,029 --> 00:10:48,429
+Is the input an acceptance?
+
+283
+00:10:48,429 --> 00:10:51,429
+Always keep in mind,
+
+284
+00:10:51,429 --> 00:10:54,390
+what the data structure of this acceptance looks like.
+
+285
+00:10:54,390 --> 00:10:57,410
+First, the type represents,
+
+286
+00:10:57,410 --> 00:11:00,030
+What kind of message is this, uh?
+
+287
+00:11:00,030 --> 00:11:02,770
+The type we're talking about, TTS, stands for speech synthesis.
+
+288
+00:11:02,770 --> 00:11:04,680
+So you’re not playing anything, right?
+
+289
+00:11:04,680 --> 00:11:07,440
+Then we'll analyze what's inside it.
+
+290
+00:11:07,440 --> 00:11:08,120
+This field.
+
+291
+00:11:08,120 --> 00:11:10,319
+This field contains stop, right?
+
+292
+00:11:10,319 --> 00:11:13,199
+When we stop, it means the final stop command is sent.
+
+293
+00:11:13,199 --> 00:11:14,479
+It indicates that the playback has stopped.
+
+294
+00:11:14,479 --> 00:11:17,500
+After we stop the wake word,
+
+295
+00:11:17,500 --> 00:11:21,780
+we then need to wait for
+
+296
+00:11:21,780 --> 00:11:26,000
+the completion of the playback.
+
+297
+00:11:26,000 --> 00:11:26,760
+The task is complete, isn't it?
+
+298
+00:11:26,760 --> 00:11:27,720
+The entire task is completed.
+
+299
+00:11:27,720 --> 00:11:31,230
+Because here, the server just tells you to stop.
+
+300
+00:11:31,230 --> 00:11:33,110
+But there might still be some data in the task.
+
+301
+00:11:33,110 --> 00:11:34,090
+It hasn’t played yet, right?
+
+302
+00:11:34,090 --> 00:11:35,370
+You wait here.
+
+303
+00:11:35,370 --> 00:11:37,850
+At this point, you need to wait for the entire queue.
+
+304
+00:11:37,850 --> 00:11:41,770
+All the OPEX data needs to be played, right?
+
+305
+00:11:41,770 --> 00:11:42,590
+Once it’s played through.
+
+306
+00:11:42,590 --> 00:11:45,510
+Then we send a start signal here.
+
+307
+00:11:45,510 --> 00:11:48,270
+This is the signal to start the audio for the backend.
+
+308
+00:11:48,270 --> 00:11:49,090
+Then,
+
+309
+00:11:49,090 --> 00:11:52,660
+we need to start the audio stream.
+
+310
+00:11:52,660 --> 00:11:54,740
+The streaming input, right?
+
+311
+00:11:54,740 --> 00:11:55,700
+It gets sent to the backend.
+
+312
+00:11:55,700 --> 00:11:57,000
+After that starts,
+
+313
+00:11:57,000 --> 00:11:58,720
+Did we feed more data just now?
+
+314
+00:11:58,720 --> 00:11:59,700
+We're feeding data again.
+
+315
+00:11:59,700 --> 00:12:01,500
+Right here.
+
+316
+00:12:02,940 --> 00:12:04,440
+We're diving into the micro data again here.
+
+317
+00:12:04,440 --> 00:12:05,280
+Another loop, right?
+
+318
+00:12:05,280 --> 00:12:06,600
+That's the logic we're dealing with.
+
+319
+00:12:06,600 --> 00:12:08,100
+Let's take a look at this.
+
+320
+00:12:08,100 --> 00:12:08,820
+If we do it this way,
+
+321
+00:12:08,820 --> 00:12:11,060
+Let's give it a try and see if it works.
+
+322
+00:12:12,460 --> 00:12:15,140
+There's one more thing we haven't followed up on.
+
+323
+00:12:15,140 --> 00:12:16,580
+This is the setting for this parameter.
+
+324
+00:12:16,580 --> 00:12:18,300
+We can check out the VD later.
+
+325
+00:12:18,300 --> 00:12:21,620
+Now, we have enabled the VD
+
+326
+00:12:21,620 --> 00:12:25,310
+but the parameters here require some specific configurations
+
+327
+00:12:25,310 --> 00:12:28,670
+Otherwise, this is essentially setting a threshold value
+
+328
+00:12:28,670 --> 00:12:29,530
+to see the effect
+
+329
+00:12:29,530 --> 00:12:32,810
+We don't need to go into great detail setting it up perfectly.
+
+330
+00:12:32,810 --> 00:12:35,190
+since we'll ultimately place this VD at the backend
+
+331
+00:12:35,190 --> 00:12:36,890
+we just need it to work for now
+
+332
+00:12:36,890 --> 00:12:40,600
+we need to inform the algorithm
+
+333
+00:12:40,600 --> 00:12:43,760
+under what conditions it should consider it as silent
+
+334
+00:12:43,760 --> 00:12:47,380
+For example, if the silent period is continuous,
+
+335
+00:12:47,380 --> 00:12:50,930
+like 500 milliseconds or one second of silence,
+
+336
+00:12:50,930 --> 00:12:52,010
+it will be considered as silence.
+
+337
+00:12:52,010 --> 00:12:52,350
+Right?
+
+338
+00:12:52,350 --> 00:12:53,170
+It will trigger a callback.
+
+339
+00:12:53,170 --> 00:12:55,750
+If your settings are, uh, quite long
+
+340
+00:12:55,750 --> 00:12:58,169
+For example, you set it for three seconds.
+
+341
+00:12:58,169 --> 00:13:00,269
+if the silence here is three seconds,
+
+342
+00:13:00,269 --> 00:13:01,469
+that’s 3000 milliseconds.
+
+343
+00:13:01,469 --> 00:13:02,930
+If it's 3000 milliseconds
+
+344
+00:13:02,930 --> 00:13:08,070
+it has to be continuous for three seconds before it triggers the callback
+
+345
+00:13:08,070 --> 00:13:09,750
+that's definitely too long, right?
+
+346
+00:13:09,750 --> 00:13:11,050
+you pause for a while
+
+347
+00:13:11,050 --> 00:13:11,990
+and then it finally reacts
+
+348
+00:13:11,990 --> 00:13:12,829
+that's not acceptable
+
+349
+00:13:12,829 --> 00:13:15,149
+so I tried it out
+
+350
+00:13:15,149 --> 00:13:16,269
+with the local version
+
+351
+00:13:16,269 --> 00:13:20,570
+the one without the model files
+
+352
+00:13:20,570 --> 00:13:22,770
+Actually, the silent recognition isn't very good.
+
+353
+00:13:22,770 --> 00:13:23,470
+But that's okay.
+
+354
+00:13:23,470 --> 00:13:25,650
+We'll handle it on the backend later.
+
+355
+00:13:25,650 --> 00:13:28,170
+Let's give it a try now.
+
+356
+00:13:28,170 --> 00:13:29,770
+Still enthusiastic.
+
+357
+00:13:32,480 --> 00:13:33,820
+Hello, wave your hand.
+
+358
+00:13:33,820 --> 00:13:37,070
+Is this the output?
+
+359
+00:13:37,590 --> 00:13:38,710
+After it stops,
+
+360
+00:13:38,710 --> 00:13:40,830
+we can start speaking.
+
+361
+00:13:41,190 --> 00:13:45,350
+He stopped the recording right after he finished talking, right? Got it.
+
+362
+00:13:45,350 --> 00:13:48,270
+May I ask how I can assist you?
+
+363
+00:13:48,510 --> 00:13:50,310
+You can see the issue appears here.
+
+364
+00:13:50,310 --> 00:13:50,930
+Why is that?
+
+365
+00:13:50,930 --> 00:13:54,060
+Because there's also an issue in the backend.
+
+366
+00:13:54,060 --> 00:13:55,240
+Let's modify the backend.
+
+367
+00:13:55,240 --> 00:13:57,380
+We'll optimize it right here.
+
+368
+00:13:57,380 --> 00:13:58,600
+Let's reset it first.
+
+369
+00:13:58,600 --> 00:14:02,680
+Then we'll make a change in the backend, there's an issue here.
+
+370
+00:14:02,680 --> 00:14:04,280
+We didn't notice it at the time.
+
+371
+00:14:04,280 --> 00:14:06,270
+It's here.
+
+372
+00:14:07,470 --> 00:14:08,550
+Let me check if it's right.
+
+373
+00:14:08,550 --> 00:14:09,510
+It's not here.
+
+374
+00:14:11,900 --> 00:14:14,860
+It's in the agreement.
+
+375
+00:14:20,640 --> 00:14:26,040
+Let's take a look at this section in the agreement.
+
+376
+00:14:30,320 --> 00:14:32,160
+The recognition result.
+
+377
+00:14:36,440 --> 00:14:38,880
+It's here, right here.
+
+378
+00:14:38,880 --> 00:14:40,030
+Why is this the case?
+
+379
+00:14:40,030 --> 00:14:43,190
+He just showed two exchange pairs, right?
+
+380
+00:14:43,190 --> 00:14:43,670
+Why is that?
+
+381
+00:14:43,670 --> 00:14:47,470
+Because when we send here, it's right here, you see.
+
+382
+00:14:47,470 --> 00:14:49,250
+After we finish here,
+
+383
+00:14:49,250 --> 00:14:50,670
+After the stop signal here,
+
+384
+00:14:50,670 --> 00:14:53,850
+We sent another binary code over, didn't we?
+
+385
+00:14:53,850 --> 00:14:56,450
+The binary code comes to this point.
+
+386
+00:14:57,130 --> 00:14:59,350
+This part comes to this spot.
+
+387
+00:14:59,350 --> 00:15:03,670
+It has already entered the ongoing conversation.
+
+388
+00:15:03,670 --> 00:15:04,890
+So you sent another one
+
+389
+00:15:04,890 --> 00:15:06,990
+He met the previous condition again
+
+390
+00:15:06,990 --> 00:15:07,690
+What are we going to do then?
+
+391
+00:15:07,690 --> 00:15:08,870
+We set it up here.
+
+392
+00:15:08,870 --> 00:15:11,740
+Force this condition to be false
+
+393
+00:15:11,740 --> 00:15:13,580
+Then this part will be valid
+
+394
+00:15:13,580 --> 00:15:14,760
+Once it's valid, it returns, right
+
+395
+00:15:14,760 --> 00:15:15,940
+Then send an empty one
+
+396
+00:15:15,940 --> 00:15:17,880
+If he has already started to come in
+
+397
+00:15:17,880 --> 00:15:19,220
+There's no need to process it further.
+
+398
+00:15:19,220 --> 00:15:20,240
+This is a conversation.
+
+399
+00:15:20,240 --> 00:15:21,600
+So once this is set up
+
+400
+00:15:21,600 --> 00:15:23,720
+Let's restart the backend.
+
+401
+00:15:26,340 --> 00:15:28,360
+Then let's take another look.
+
+402
+00:15:28,360 --> 00:15:29,780
+Uh, this ESP32,
+
+403
+00:15:29,780 --> 00:15:31,020
+Here,
+
+404
+00:15:32,400 --> 00:15:34,760
+Let's talk about this a bit more.
+
+405
+00:15:36,800 --> 00:15:38,240
+Hi, Espressif
+
+406
+00:15:42,440 --> 00:15:44,120
+Hi there
+
+407
+00:15:46,460 --> 00:15:47,960
+Hello, waving
+
+408
+00:15:47,960 --> 00:15:50,660
+Is there anything I can help you with?
+
+409
+00:15:51,180 --> 00:15:52,260
+What are you up to?
+
+410
+00:15:55,500 --> 00:15:58,980
+Okay, it seems there's an issue with the current recognition
+
+411
+00:15:58,980 --> 00:15:59,600
+Why is that?
+
+412
+00:15:59,600 --> 00:16:00,609
+Let's take a look
+
+413
+00:16:00,609 --> 00:16:03,409
+So, why is there a problem with the recognition at this point?
+
+414
+00:16:03,409 --> 00:16:07,230
+Because the parameters in this setting are not well configured
+
+415
+00:16:07,230 --> 00:16:09,690
+It might be silent in this case
+
+416
+00:16:09,690 --> 00:16:11,550
+probably because it wasn’t caught
+
+417
+00:16:11,550 --> 00:16:13,090
+So let’s make an adjustment here
+
+418
+00:16:13,090 --> 00:16:15,400
+to cover this
+
+419
+00:16:15,400 --> 00:16:18,260
+if you use mode 22
+
+420
+00:16:18,260 --> 00:16:21,060
+it means you’re being a bit more meticulous
+
+421
+00:16:21,060 --> 00:16:25,640
+these 012 and so on are normal
+
+422
+00:16:25,640 --> 00:16:28,080
+regarding what’s inside here
+
+423
+00:16:28,080 --> 00:16:32,900
+it means your mute setting is more stringent
+
+424
+00:16:32,900 --> 00:16:34,500
+Option two would be more rigorous.
+
+425
+00:16:34,500 --> 00:16:37,320
+This part refers to our silent period.
+
+426
+00:16:37,320 --> 00:16:40,069
+If it exceeds one second, it's considered silence.
+
+427
+00:16:40,069 --> 00:16:42,649
+Then your speech meets the criteria.
+
+428
+00:16:42,649 --> 00:16:46,430
+600 indicates that you are speaking.
+
+429
+00:16:46,430 --> 00:16:47,900
+600 milliseconds.
+
+430
+00:16:47,900 --> 00:16:50,260
+This setting value is also based on experience.
+
+431
+00:16:50,260 --> 00:16:51,520
+You can give it a try.
+
+432
+00:16:51,520 --> 00:16:53,860
+But we don’t need to overthink this.
+
+433
+00:16:53,860 --> 00:16:58,330
+Because of the comments on these VDs
+
+434
+00:16:58,330 --> 00:16:59,630
+be placed on the backend.
+
+435
+00:16:59,630 --> 00:17:00,750
+Let's download it again
+
+436
+00:17:00,750 --> 00:17:02,040
+I'll check the effect.
+
+437
+00:17:02,040 --> 00:17:03,680
+There's also an issue with this part.
+
+438
+00:17:03,680 --> 00:17:04,440
+Just a moment.
+
+439
+00:17:04,440 --> 00:17:06,480
+Let's take a look at this part.
+
+440
+00:17:06,480 --> 00:17:09,880
+It's right here.
+
+441
+00:17:10,290 --> 00:17:11,849
+We need to make some changes here.
+
+442
+00:17:11,849 --> 00:17:13,829
+We can't afford this delay anymore.
+
+443
+00:17:13,829 --> 00:17:15,579
+We don't need this delay anymore.
+
+444
+00:17:15,579 --> 00:17:16,398
+It's not acceptable.
+
+445
+00:17:16,398 --> 00:17:17,579
+Because why did we...
+
+446
+00:17:17,579 --> 00:17:20,059
+Was it because the system couldn't recognize it just now?
+
+447
+00:17:20,059 --> 00:17:21,219
+This is the impact here.
+
+448
+00:17:21,219 --> 00:17:23,890
+Because we have this setup here.
+
+449
+00:17:23,890 --> 00:17:25,150
+When feeding the data,
+
+450
+00:17:25,150 --> 00:17:26,829
+It's during the data feeding process.
+
+451
+00:17:26,829 --> 00:17:29,190
+You can't add any delay in the middle.
+
+452
+00:17:29,190 --> 00:17:31,130
+Otherwise, the data you collect
+
+453
+00:17:31,130 --> 00:17:34,450
+from the microphone will be intermittent.
+
+454
+00:17:34,450 --> 00:17:36,510
+If the data sent to the backend
+
+455
+00:17:36,510 --> 00:17:38,120
+is intermittent, it won't be recognized.
+
+456
+00:17:38,120 --> 00:17:41,800
+So, we need to remove the delay here.
+
+457
+00:17:41,800 --> 00:17:42,920
+Right here.
+
+458
+00:17:42,920 --> 00:17:47,670
+Where was the part I mentioned just now?
+
+459
+00:17:49,360 --> 00:17:50,080
+Let's find it.
+
+460
+00:17:51,840 --> 00:17:53,720
+It's that task.
+
+461
+00:17:54,950 --> 00:17:56,110
+It's right here.
+
+462
+00:17:57,430 --> 00:17:58,320
+Here.
+
+463
+00:17:58,320 --> 00:18:01,000
+This is an audio task, right?
+
+464
+00:18:01,000 --> 00:18:02,520
+In this task, two things are done.
+
+465
+00:18:02,520 --> 00:18:03,880
+One is output, right?
+
+466
+00:18:03,880 --> 00:18:04,980
+The microphone output.
+
+467
+00:18:04,980 --> 00:18:05,600
+One is input.
+
+468
+00:18:05,600 --> 00:18:06,600
+From the microphone, right?
+
+469
+00:18:06,600 --> 00:18:08,530
+One output from there, and one input from the microphone to get data.
+
+470
+00:18:08,530 --> 00:18:11,810
+And then feed this data to the frontend, right?
+
+471
+00:18:11,810 --> 00:18:13,650
+So, when we feed it to the frontend here,
+
+472
+00:18:13,650 --> 00:18:15,130
+there shouldn't be any delay, okay?
+
+473
+00:18:15,130 --> 00:18:17,240
+Then, in this part,
+
+474
+00:18:17,240 --> 00:18:19,120
+if neither of these two is working,
+
+475
+00:18:19,120 --> 00:18:20,840
+there's a delay.
+
+476
+00:18:20,840 --> 00:18:21,400
+As long as one of them is working,
+
+477
+00:18:21,400 --> 00:18:22,680
+there's no need for a delay.
+
+478
+00:18:22,680 --> 00:18:23,960
+Let's download it again.
+
+479
+00:18:23,960 --> 00:18:25,880
+Let's download it again
+
+480
+00:18:26,539 --> 00:18:28,019
+We've downloaded it here.
+
+481
+00:18:28,019 --> 00:18:30,019
+Actually, we can already have a normal conversation now.
+
+482
+00:18:30,019 --> 00:18:32,619
+Hi, Lexing.
+
+483
+00:18:32,619 --> 00:18:34,339
+Hello, wave your hand.
+
+484
+00:18:36,820 --> 00:18:38,380
+Is there anything I can help you with?
+
+485
+00:18:38,380 --> 00:18:40,300
+What are you doing?
+
+486
+00:18:41,700 --> 00:18:43,500
+I'm here waiting for your questions or instructions.
+
+487
+00:18:46,660 --> 00:18:49,380
+To provide assistance.
+
+488
+00:18:49,380 --> 00:18:51,020
+Is there anything I can do for you?
+
+489
+00:18:51,020 --> 00:18:53,100
+Introduce yourself.
+
+490
+00:18:54,180 --> 00:18:55,639
+I am an AI assistant.
+
+491
+00:18:59,460 --> 00:19:01,540
+Aimed at providing information, answering questions, and assisting users.
+
+492
+00:19:01,540 --> 00:19:07,290
+I've tested it here.
+
+493
+00:19:07,290 --> 00:19:09,570
+But you can try it out later.
+
+494
+00:19:09,570 --> 00:19:12,480
+The audio playback is intermittent.
+
+495
+00:19:12,480 --> 00:19:16,180
+We can optimize it in the next class.
+
+496
+00:19:16,180 --> 00:19:19,210
+The sound you hear now feels strange.
+
+497
+00:19:19,210 --> 00:19:22,300
+Sometimes it pauses.
+
+498
+00:19:22,300 --> 00:19:23,900
+And it stutters a bit.
+
+499
+00:19:23,900 --> 00:19:25,880
+The experience is not good at all.
+
+500
+00:19:25,880 --> 00:19:26,940
+It's a poor user experience.
+
+501
+00:19:26,940 --> 00:19:28,540
+We'll cover how to optimize it in the future.
+
+502
+00:19:28,540 --> 00:19:32,419
+To ensure the sound
+
+503
+00:19:32,419 --> 00:19:33,719
+doesn't have these interruptions or stutters.
+
+504
+00:19:33,719 --> 00:19:36,599
+Alright, that's it for this lesson.
+

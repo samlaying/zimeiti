@@ -1,0 +1,1092 @@
+1
+00:00:00,600 --> 00:00:03,680
+Alright, in this lesson, we'll cover the basics of Python.
+
+2
+00:00:03,680 --> 00:00:04,340
+Functions.
+
+3
+00:00:04,340 --> 00:00:06,480
+And the reason we start with this is because
+
+4
+00:00:06,480 --> 00:00:09,400
+we mentioned earlier that when getting started,
+
+5
+00:00:09,400 --> 00:00:11,200
+we can begin with the backend.
+
+6
+00:00:11,200 --> 00:00:13,240
+Our backend is developed using the Python language.
+
+7
+00:00:13,240 --> 00:00:14,910
+So, we need to familiarize ourselves with Python,
+
+8
+00:00:14,910 --> 00:00:17,190
+and go over some fundamental syntax.
+
+9
+00:00:17,190 --> 00:00:17,910
+Let's dive into that.
+
+10
+00:00:17,910 --> 00:00:19,410
+I won't go into too much detail, though.
+
+11
+00:00:19,410 --> 00:00:22,400
+We just need to cover enough to get started.
+
+12
+00:00:22,400 --> 00:00:23,440
+So, let's take a look.
+
+13
+00:00:23,440 --> 00:00:27,470
+First, we're developing in PYTHM.
+
+14
+00:00:27,470 --> 00:00:29,630
+So, we need to create a project here.
+
+15
+00:00:29,630 --> 00:00:33,180
+Let's open iCharm.
+
+16
+00:00:33,420 --> 00:00:35,180
+There are a few interfaces.
+
+17
+00:00:35,180 --> 00:00:36,280
+In this case,
+
+18
+00:00:36,280 --> 00:00:38,460
+just click on 'New Project'.
+
+19
+00:00:38,460 --> 00:00:40,440
+If in this situation
+
+20
+00:00:40,440 --> 00:00:44,480
+Another scenario is when we delete this
+
+21
+00:00:44,480 --> 00:00:45,700
+We bring up this situation
+
+22
+00:00:45,700 --> 00:00:47,020
+We click here
+
+23
+00:00:47,020 --> 00:00:48,100
+Create a new project
+
+24
+00:00:48,100 --> 00:00:51,460
+Then, where do we save it?
+
+25
+00:00:51,460 --> 00:00:55,360
+I'm saving it in the sixth lesson folder
+
+26
+00:00:55,360 --> 00:00:55,800
+The sixth lesson
+
+27
+00:00:55,800 --> 00:00:58,790
+And this is the AI slash
+
+28
+00:00:59,150 --> 00:00:59,910
+So
+
+29
+00:00:59,910 --> 00:01:02,350
+Then we'll open this up
+
+30
+00:01:02,350 --> 00:01:02,870
+After opening it
+
+31
+00:01:02,870 --> 00:01:06,780
+We'll select the interpreter we configured earlier
+
+32
+00:01:06,780 --> 00:01:10,269
+Meaning we are developing in a virtual environment
+
+33
+00:01:10,269 --> 00:01:12,569
+I set up the virtual environment using Anaconda
+
+34
+00:01:12,569 --> 00:01:15,190
+When we installed Anaconda
+
+35
+00:01:15,190 --> 00:01:16,750
+We already created a virtual environment
+
+36
+00:01:16,750 --> 00:01:18,680
+That is, AI-service
+
+37
+00:01:18,680 --> 00:01:20,080
+If you're unsure how to create it,
+
+38
+00:01:20,080 --> 00:01:23,120
+check out the previous lesson on setting up the environment.
+
+39
+00:01:23,120 --> 00:01:23,870
+It's covered there.
+
+40
+00:01:23,870 --> 00:01:25,750
+So here, we can just select this one.
+
+41
+00:01:25,750 --> 00:01:27,550
+This one has only one environment.
+
+42
+00:01:27,550 --> 00:01:29,330
+If you have multiple environments, you can choose from them.
+
+43
+00:01:29,330 --> 00:01:32,100
+The benefit of a virtual environment is isolation.
+
+44
+00:01:32,100 --> 00:01:34,300
+Each virtual environment is isolated from the others.
+
+45
+00:01:34,300 --> 00:01:38,230
+And here, it will help us create a script environment.
+
+46
+00:01:38,230 --> 00:01:40,210
+A script is like a demo.
+
+47
+00:01:40,210 --> 00:01:43,520
+Let's click to create.
+
+48
+00:01:43,520 --> 00:01:44,300
+This field cannot be empty.
+
+49
+00:01:44,300 --> 00:01:46,260
+I'll delete this.
+
+50
+00:01:46,260 --> 00:01:47,940
+It's already been created.
+
+51
+00:01:47,940 --> 00:01:49,140
+If you haven't created it yet,
+
+52
+00:01:49,140 --> 00:01:49,660
+it's no problem.
+
+53
+00:01:49,660 --> 00:01:51,229
+you won't encounter this error.
+
+54
+00:01:51,229 --> 00:01:52,190
+Let's create it.
+
+55
+00:01:52,190 --> 00:01:54,310
+So, once this is created,
+
+56
+00:01:54,310 --> 00:01:55,590
+let's take a look at this area,
+
+57
+00:01:55,590 --> 00:01:57,090
+which is our project directory,
+
+58
+00:01:57,090 --> 00:01:58,630
+we currently have only one script,
+
+59
+00:01:58,630 --> 00:02:00,510
+which is a Python script,
+
+60
+00:02:00,510 --> 00:02:01,660
+it's a scripting language,
+
+61
+00:02:01,660 --> 00:02:04,540
+now let's check out this section,
+
+62
+00:02:04,540 --> 00:02:06,460
+where we select the virtual environment,
+
+63
+00:02:06,460 --> 00:02:07,900
+we've already selected it.
+
+64
+00:02:07,900 --> 00:02:09,180
+So, we don't need to make any changes here.
+
+65
+00:02:09,180 --> 00:02:11,260
+Then, we can directly click to run it.
+
+66
+00:02:11,260 --> 00:02:13,340
+Let's see what it prints out directly.
+
+67
+00:02:13,340 --> 00:02:16,680
+Next, we'll explain the meaning of this part.
+
+68
+00:02:16,680 --> 00:02:19,280
+First, if you have studied C language,
+
+69
+00:02:19,280 --> 00:02:21,260
+if you have a background in C language,
+
+70
+00:02:21,260 --> 00:02:23,990
+it's a bit different from what we have here.
+
+71
+00:02:23,990 --> 00:02:27,810
+The 'f' here is used to define our function.
+
+72
+00:02:27,810 --> 00:02:29,790
+That is, it's used as a decorator.
+
+73
+00:02:29,790 --> 00:02:31,470
+This is one of our functions.
+
+74
+00:02:31,470 --> 00:02:33,040
+Overall, this is the function.
+
+75
+00:02:33,040 --> 00:02:36,000
+If you have absolutely no programming background,
+
+76
+00:02:36,000 --> 00:02:37,120
+what does this function mean?
+
+77
+00:02:37,120 --> 00:02:40,050
+You can think of this function as a tool.
+
+78
+00:02:40,050 --> 00:02:44,140
+We encapsulate some complex logic
+
+79
+00:02:44,140 --> 00:02:46,220
+into this function.
+
+80
+00:02:46,220 --> 00:02:47,620
+And when we need to use it later,
+
+81
+00:02:47,620 --> 00:02:49,860
+we can simply call this function.
+
+82
+00:02:49,860 --> 00:02:53,320
+This way, it's like we're modularizing things.
+
+83
+00:02:53,320 --> 00:02:56,580
+Turns out, one of the core ideas in programming is modularity.
+
+84
+00:02:56,580 --> 00:02:58,540
+Modular programming involves encapsulating functionalities.
+
+85
+00:02:58,540 --> 00:03:00,620
+We wrap these functionalities in functions.
+
+86
+00:03:00,620 --> 00:03:01,940
+Encapsulating them into a cohesive unit.
+
+87
+00:03:01,940 --> 00:03:05,660
+This makes it easier for others to use later on.
+
+88
+00:03:05,660 --> 00:03:08,020
+Otherwise, if you don't encapsulate them,
+
+89
+00:03:08,020 --> 00:03:10,480
+Each function would be written on the fly, which
+
+90
+00:03:10,480 --> 00:03:11,660
+Would be quite troublesome.
+
+91
+00:03:11,660 --> 00:03:14,060
+Your code looks a bit messy too.
+
+92
+00:03:14,060 --> 00:03:16,140
+That's why functions come into play.
+
+93
+00:03:16,140 --> 00:03:20,740
+If we've learned C, we know that
+
+94
+00:03:20,740 --> 00:03:23,260
+We need to add a return type at the beginning.
+
+95
+00:03:23,260 --> 00:03:25,300
+If there's no return value,
+
+96
+00:03:25,300 --> 00:03:26,440
+it's with.
+
+97
+00:03:26,440 --> 00:03:27,140
+If there is one,
+
+98
+00:03:27,140 --> 00:03:30,920
+we need to specify the return types for in as well.
+
+99
+00:03:30,920 --> 00:03:35,520
+However, Python has a more relaxed syntax.
+
+100
+00:03:35,520 --> 00:03:37,060
+It doesn't need to be added.
+
+101
+00:03:37,060 --> 00:03:38,690
+It will automatically infer it.
+
+102
+00:03:38,690 --> 00:03:40,890
+So, what do you want to return here?
+
+103
+00:03:40,890 --> 00:03:42,210
+You can return anything casually.
+
+104
+00:03:42,210 --> 00:03:47,260
+For this return, let's just return a string, shall we?
+
+105
+00:03:47,260 --> 00:03:50,940
+Or you can return an integer; both are fine.
+
+106
+00:03:50,940 --> 00:03:51,940
+It will automatically infer it.
+
+107
+00:03:51,940 --> 00:03:54,020
+This kind of writing is perfectly fine.
+
+108
+00:03:54,020 --> 00:03:56,340
+We won't get any errors here.
+
+109
+00:03:56,340 --> 00:03:58,220
+And if you're here,
+
+110
+00:03:58,220 --> 00:03:59,420
+if you want to get the return value,
+
+111
+00:03:59,420 --> 00:04:01,340
+you can also get this one,
+
+112
+00:04:01,340 --> 00:04:04,350
+this is how it's written in Python,
+
+113
+00:04:04,350 --> 00:04:06,730
+unlike C and Java,
+
+114
+00:04:06,730 --> 00:04:09,550
+C requires strict syntax for writing,
+
+115
+00:04:09,550 --> 00:04:12,430
+the return type must be specified,
+
+116
+00:04:12,430 --> 00:04:14,470
+and the same goes for this part,
+
+117
+00:04:14,470 --> 00:04:16,970
+all parameters must be passed when fully specified.
+
+118
+00:04:16,970 --> 00:04:20,290
+This also needs to be written in this type, right?
+
+119
+00:04:20,290 --> 00:04:21,950
+But Python doesn't require that.
+
+120
+00:04:21,950 --> 00:04:24,950
+It's a derivation process of the posts.
+
+121
+00:04:24,950 --> 00:04:28,270
+For those without programming experience,
+
+122
+00:04:28,270 --> 00:04:30,210
+Remember this keyword, def.
+
+123
+00:04:30,210 --> 00:04:32,550
+Of course, if you're doing C, you need to remember it as well.
+
+124
+00:04:32,550 --> 00:04:36,210
+Def is a keyword,
+
+125
+00:04:36,210 --> 00:04:37,910
+a keyword used for this purpose.
+
+126
+00:04:37,910 --> 00:04:39,530
+It's a function.
+
+127
+00:04:39,530 --> 00:04:40,570
+Keep this in mind
+
+128
+00:04:40,570 --> 00:04:41,970
+Remember this keyword
+
+129
+00:04:41,970 --> 00:04:44,270
+Then this part can be named whatever you like
+
+130
+00:04:44,270 --> 00:04:45,410
+This is the function name
+
+131
+00:04:45,410 --> 00:04:46,710
+It's just a label
+
+132
+00:04:46,710 --> 00:04:47,290
+You get the idea
+
+133
+00:04:47,290 --> 00:04:48,299
+It's just a label
+
+134
+00:04:48,299 --> 00:04:49,819
+You can name it anything
+
+135
+00:04:49,819 --> 00:04:51,899
+But it can't start with a number
+
+136
+00:04:51,899 --> 00:04:53,339
+Everything else is fine
+
+137
+00:04:53,339 --> 00:04:54,330
+So then
+
+138
+00:04:54,330 --> 00:04:57,030
+This place here is for the parameters we pass in
+
+139
+00:04:57,030 --> 00:05:01,000
+In C, you have to write this parameter, um
+
+140
+00:05:01,000 --> 00:05:01,740
+It’s an int type, right?
+
+141
+00:05:01,740 --> 00:05:02,940
+If you pass an int type
+
+142
+00:05:02,940 --> 00:05:04,300
+You have to write all of them as int types
+
+143
+00:05:04,300 --> 00:05:06,240
+But here, it’s not necessary
+
+144
+00:05:06,240 --> 00:05:10,200
+We don’t need to here; it’s a loosely typed programming language
+
+145
+00:05:10,200 --> 00:05:13,400
+Then we pass in a label, which is also a tag.
+
+146
+00:05:13,400 --> 00:05:14,720
+This name is also a tag.
+
+147
+00:05:14,720 --> 00:05:17,160
+You can name it whatever you like; it’s a parameter.
+
+148
+00:05:17,160 --> 00:05:18,260
+What does the parameter do?
+
+149
+00:05:18,260 --> 00:05:19,100
+It’s passed in.
+
+150
+00:05:19,100 --> 00:05:21,460
+This one here is also a function.
+
+151
+00:05:21,460 --> 00:05:23,450
+It’s from the system library.
+
+152
+00:05:23,450 --> 00:05:25,630
+It’s a function found in the standard library.
+
+153
+00:05:25,630 --> 00:05:26,580
+This is the output.
+
+154
+00:05:26,580 --> 00:05:29,980
+Print a message to this console.
+
+155
+00:05:29,980 --> 00:05:30,760
+This is pretty simple.
+
+156
+00:05:30,760 --> 00:05:34,470
+This is what we do when writing programs.
+
+157
+00:05:34,470 --> 00:05:36,330
+Like when we develop software.
+
+158
+00:05:36,330 --> 00:05:37,910
+It’s usually hello world, right?
+
+159
+00:05:37,910 --> 00:05:39,130
+Just type hello world here.
+
+160
+00:05:39,130 --> 00:05:41,709
+Here it says H time, doesn’t it?
+
+161
+00:05:43,029 --> 00:05:45,269
+Let’s take a look.
+
+162
+00:05:45,269 --> 00:05:47,349
+This is just a print statement.
+
+163
+00:05:47,349 --> 00:05:49,549
+Print out this passed parameter
+
+164
+00:05:49,549 --> 00:05:51,589
+Then, for the definition of F
+
+165
+00:05:51,589 --> 00:05:55,740
+It means that this requires the use of curly braces in this way
+
+166
+00:05:55,740 --> 00:05:59,060
+Then, pass all the parameters in
+
+167
+00:05:59,060 --> 00:06:00,340
+It will print out
+
+168
+00:06:00,340 --> 00:06:02,890
+This is also a function call
+
+169
+00:06:02,890 --> 00:06:04,940
+The function itself is quite complex
+
+170
+00:06:04,940 --> 00:06:06,740
+But why is it so simple to use
+
+171
+00:06:06,740 --> 00:06:08,300
+This is the benefit of encapsulation
+
+172
+00:06:08,300 --> 00:06:11,640
+This encapsulates a complex feature into a function.
+
+173
+00:06:11,640 --> 00:06:13,510
+The function serves one purpose.
+
+174
+00:06:13,510 --> 00:06:16,170
+Then, is return also a keyword?
+
+175
+00:06:16,170 --> 00:06:17,870
+Those who have written C definitely know this.
+
+176
+00:06:17,870 --> 00:06:19,810
+Most programming languages are familiar with this.
+
+177
+00:06:19,810 --> 00:06:20,950
+They all have the return statement.
+
+178
+00:06:20,950 --> 00:06:23,320
+When it comes to returning a value.
+
+179
+00:06:23,320 --> 00:06:25,540
+In our previous experience with C.
+
+180
+00:06:25,540 --> 00:06:26,780
+You must return a value.
+
+181
+00:06:26,780 --> 00:06:27,780
+If it returns an int
+
+182
+00:06:27,780 --> 00:06:29,880
+you need to add an int here, right?
+
+183
+00:06:29,880 --> 00:06:32,100
+but C doesn't have a define define
+
+184
+00:06:32,100 --> 00:06:34,380
+and for this
+
+185
+00:06:34,380 --> 00:06:37,780
+we don't need to define anything for the return
+
+186
+00:06:37,780 --> 00:06:39,700
+we can directly receive it here
+
+187
+00:06:39,700 --> 00:06:40,640
+just receive it here
+
+188
+00:06:40,640 --> 00:06:44,909
+and when receiving, we don't need to use anything like
+
+189
+00:06:44,909 --> 00:06:46,429
+an int to name it either
+
+190
+00:06:46,429 --> 00:06:48,129
+It's all automatically derived.
+
+191
+00:06:48,129 --> 00:06:50,650
+Then we can print this out.
+
+192
+00:06:50,650 --> 00:06:52,670
+This has the unified zero code added.
+
+193
+00:06:52,670 --> 00:06:54,950
+After you hit Enter,
+
+194
+00:06:54,950 --> 00:06:57,570
+it will prompt you to press the Tab key.
+
+195
+00:06:57,570 --> 00:06:58,270
+Press the Tab key.
+
+196
+00:06:58,270 --> 00:07:00,230
+It automatically fills it in for you.
+
+197
+00:07:00,230 --> 00:07:03,190
+This is like AI-assisted coding.
+
+198
+00:07:03,470 --> 00:07:05,150
+Now let's run it again.
+
+199
+00:07:05,150 --> 00:07:06,310
+Let's take a look.
+
+200
+00:07:06,590 --> 00:07:09,430
+You see, it printed 11 as well.
+
+201
+00:07:09,430 --> 00:07:10,670
+That's the value it returns.
+
+202
+00:07:10,670 --> 00:07:11,930
+You can do whatever you want here.
+
+203
+00:07:11,930 --> 00:07:14,000
+Let's create a string.
+
+204
+00:07:14,000 --> 00:07:15,660
+This is a string.
+
+205
+00:07:15,660 --> 00:07:17,500
+Enclosed in double quotes.
+
+206
+00:07:17,500 --> 00:07:18,400
+This is a string.
+
+207
+00:07:18,400 --> 00:07:20,540
+A string type.
+
+208
+00:07:21,160 --> 00:07:25,160
+The int type, of course, is for numbers, not strings.
+
+209
+00:07:25,160 --> 00:07:27,170
+Like NAAA or something.
+
+210
+00:07:27,170 --> 00:07:27,970
+Numbers, right?
+
+211
+00:07:27,970 --> 00:07:29,770
+Numbers are of the int type.
+
+212
+00:07:29,770 --> 00:07:32,970
+They don't need to be enclosed in double quotes.
+
+213
+00:07:32,970 --> 00:07:38,930
+It's an int type, an integer.
+
+214
+00:07:38,930 --> 00:07:43,490
+Anything enclosed in double or single quotes is a string.
+
+215
+00:07:43,970 --> 00:07:45,370
+It's all pretty flexible.
+
+216
+00:07:45,370 --> 00:07:48,050
+It's quite casual, really.
+
+217
+00:07:48,050 --> 00:07:49,530
+Python programming is quite flexible
+
+218
+00:07:49,530 --> 00:07:52,039
+And then there's C language
+
+219
+00:07:52,039 --> 00:07:56,719
+It uses curly braces to denote the body of a function
+
+220
+00:07:56,719 --> 00:07:59,490
+You need to wrap the curly braces around the code
+
+221
+00:07:59,490 --> 00:08:02,370
+But in Python, indentation is used to indicate this
+
+222
+00:08:02,370 --> 00:08:03,250
+This is what the indentation looks like
+
+223
+00:08:03,250 --> 00:08:05,669
+As you can see, it's usually a tab key
+
+224
+00:08:05,669 --> 00:08:08,769
+The indentation shows that this much is part of a function
+
+225
+00:08:08,769 --> 00:08:10,629
+If you continue on the next line, it's still part of it
+
+226
+00:08:10,629 --> 00:08:14,360
+Of course, you can't return it from here.
+
+227
+00:08:14,360 --> 00:08:16,539
+It's still a function problem.
+
+228
+00:08:16,539 --> 00:08:18,819
+If you start a new line here,
+
+229
+00:08:18,819 --> 00:08:20,159
+it won't be part of this function anymore.
+
+230
+00:08:20,159 --> 00:08:24,590
+It follows the indentation for the overall structure.
+
+231
+00:08:24,590 --> 00:08:27,250
+Let's take a look at what this means here.
+
+232
+00:08:27,250 --> 00:08:31,390
+If we talk about the double underscore name here,
+
+233
+00:08:31,390 --> 00:08:34,450
+it's a variable within this.
+
+234
+00:08:34,450 --> 00:08:35,510
+You can think of it this way.
+
+235
+00:08:35,510 --> 00:08:36,679
+A label
+
+236
+00:08:36,679 --> 00:08:37,840
+You can temporarily understand it as
+
+237
+00:08:37,840 --> 00:08:39,880
+It's a special variable, that's all
+
+238
+00:08:39,880 --> 00:08:42,919
+If you run it directly here
+
+239
+00:08:42,919 --> 00:08:47,360
+It will assign this name to this underscore
+
+240
+00:08:47,360 --> 00:08:48,400
+May
+
+241
+00:08:48,400 --> 00:08:49,160
+Just like that
+
+242
+00:08:49,160 --> 00:08:50,960
+And when you run it here
+
+243
+00:08:50,960 --> 00:08:53,180
+It will execute this segment of code
+
+244
+00:08:53,180 --> 00:08:55,129
+It will execute the code inside.
+
+245
+00:08:55,129 --> 00:08:56,629
+The code you've written.
+
+246
+00:08:56,629 --> 00:08:59,700
+If this is for others to use.
+
+247
+00:08:59,700 --> 00:09:01,140
+The entire file is for others to use.
+
+248
+00:09:01,140 --> 00:09:03,840
+Then it won't execute here.
+
+249
+00:09:03,840 --> 00:09:07,500
+This makes unit testing more convenient.
+
+250
+00:09:07,500 --> 00:09:10,360
+We test the code we've written, right?
+
+251
+00:09:10,360 --> 00:09:11,600
+We test it here.
+
+252
+00:09:11,600 --> 00:09:12,800
+To see if the code is correct.
+
+253
+00:09:12,800 --> 00:09:15,030
+This is more convenient for testing.
+
+254
+00:09:15,030 --> 00:09:16,020
+That's the idea.
+
+255
+00:09:16,020 --> 00:09:17,580
+Similarly, here.
+
+256
+00:09:17,580 --> 00:09:19,040
+You can see it's calling a function.
+
+257
+00:09:19,040 --> 00:09:19,860
+It's done this way.
+
+258
+00:09:19,860 --> 00:09:21,860
+You've written a function here.
+
+259
+00:09:21,860 --> 00:09:23,920
+Now I'm calling it here, right?
+
+260
+00:09:23,920 --> 00:09:24,680
+If you want to use it.
+
+261
+00:09:24,680 --> 00:09:26,040
+First, you need to pass parameters.
+
+262
+00:09:26,040 --> 00:09:28,020
+If there are parameters, you need to pass them in.
+
+263
+00:09:28,020 --> 00:09:29,480
+Second, there's a return value.
+
+264
+00:09:29,480 --> 00:09:31,740
+It doesn't matter whether you receive it or not.
+
+265
+00:09:31,740 --> 00:09:33,140
+If you need this return value.
+
+266
+00:09:33,140 --> 00:09:34,140
+You should receive it.
+
+267
+00:09:34,140 --> 00:09:35,220
+If you don't need it.
+
+268
+00:09:35,220 --> 00:09:36,480
+You don't have to receive it.
+
+269
+00:09:36,480 --> 00:09:39,620
+This is also fine.
+
+270
+00:09:40,740 --> 00:09:42,180
+This is also fine.
+
+271
+00:09:42,180 --> 00:09:45,810
+This is how you write a function.
+
+272
+00:09:45,810 --> 00:09:48,070
+The function is like this.
+
+273
+00:09:48,070 --> 00:09:50,620
+And that's it for this lesson.
+

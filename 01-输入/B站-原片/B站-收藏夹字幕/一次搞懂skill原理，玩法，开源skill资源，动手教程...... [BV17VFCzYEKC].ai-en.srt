@@ -1,0 +1,784 @@
+1
+00:00:00,000 --> 00:00:03,001
+This is the demo animation I made with Skill,
+
+2
+00:00:03,001 --> 00:00:05,734
+plus those high-energy motion transitions,
+
+3
+00:00:05,734 --> 00:00:08,869
+intro videos, product clips, and this news daily.
+
+4
+00:00:08,870 --> 00:00:10,136
+Skill helps me track
+
+5
+00:00:10,136 --> 00:00:12,861
+the latest trends in my field—so let's see:
+
+6
+00:00:12,861 --> 00:00:14,255
+what exactly is Skill,
+
+7
+00:00:14,255 --> 00:00:15,840
+and where can we find it?
+
+8
+00:00:16,079 --> 00:00:17,110
+the 5 key uses of skill,
+
+9
+00:00:17,110 --> 00:00:19,320
+and how to build your own skill from scratch.
+
+10
+00:00:19,480 --> 00:00:21,760
+all the tutorial tips are laid out in this doc here
+
+11
+00:00:24,880 --> 00:00:26,600
+skill translates directly as 'a skill'
+
+12
+00:00:26,840 --> 00:00:28,684
+For instance, I wish there was an AI
+
+13
+00:00:28,684 --> 00:00:29,969
+that could auto-generate
+
+14
+00:00:29,969 --> 00:00:31,900
+copy and create cover images for me
+
+15
+00:00:32,020 --> 00:00:33,180
+then auto-post to Douyin,
+
+16
+00:00:33,180 --> 00:00:35,500
+RED, and such sites—just let me be the lazy boss.
+
+17
+00:00:36,080 --> 00:00:38,160
+Now there's this Xuan-chan 'Hot Content
+
+18
+00:00:38,160 --> 00:00:40,680
+Direct Post' skill to handle this complex task.
+
+19
+00:00:40,840 --> 00:00:42,276
+If we break down this skill,
+
+20
+00:00:42,276 --> 00:00:44,830
+we'll see it's just a single folder at its core
+
+21
+00:00:45,070 --> 00:00:46,645
+What's inside that folder
+
+22
+00:00:46,645 --> 00:00:49,129
+then? First, there's the key skill.md file —
+
+23
+00:00:49,129 --> 00:00:51,007
+this holds the built-in prompts
+
+24
+00:00:51,007 --> 00:00:54,098
+that define the three core functions of this skill.
+
+25
+00:00:54,300 --> 00:00:57,339
+I told it to generate copy based on past risks,
+
+26
+00:00:57,339 --> 00:00:58,567
+craft catchy titles,
+
+27
+00:00:58,567 --> 00:01:00,508
+run code to make cover images,
+
+28
+00:01:00,508 --> 00:01:02,319
+then post to RED and Douyin
+
+29
+00:01:02,600 --> 00:01:05,806
+then in the 'reference' folder, I placed supporting materials —
+
+30
+00:01:05,806 --> 00:01:08,359
+I gave my past articles to the AI as references.
+
+31
+00:01:08,540 --> 00:01:11,028
+and in scripts there are executable code files;
+
+32
+00:01:11,028 --> 00:01:13,939
+I placed the code for the image-gen tool to make covers
+
+33
+00:01:14,180 --> 00:01:16,058
+and the MCP setups for linking tools,
+
+34
+00:01:16,058 --> 00:01:18,460
+like auto-posting to RED and Douyin platforms
+
+35
+00:01:18,600 --> 00:01:20,680
+This was done by invoking this MCP tool here.
+
+36
+00:01:20,880 --> 00:01:23,189
+because big models could handle simple tasks well,
+
+37
+00:01:23,189 --> 00:01:24,626
+but often botched complex ones,
+
+38
+00:01:24,626 --> 00:01:26,160
+yielding results we didn't want
+
+39
+00:01:26,280 --> 00:01:29,287
+at this point, we need to add a set of fixed rules and steps
+
+40
+00:01:29,287 --> 00:01:31,811
+so it follows the process—this is SOP—and provide
+
+41
+00:01:31,811 --> 00:01:33,048
+key reference materials
+
+42
+00:01:33,048 --> 00:01:34,080
+to keep it on track
+
+43
+00:01:34,320 --> 00:01:36,947
+then equip it with essential tools to form a skill package,
+
+44
+00:01:36,947 --> 00:01:37,400
+or 'skill'
+
+45
+00:01:38,280 --> 00:01:40,960
+then let AI work—it is precise and runs smoothly
+
+46
+00:01:41,290 --> 00:01:42,855
+How does AI call upon skills?
+
+47
+00:01:42,855 --> 00:01:44,689
+Well, here's one way to think of it.
+
+48
+00:01:44,850 --> 00:01:47,250
+say I head to the flyover to hire workers there
+
+49
+00:01:47,530 --> 00:01:48,926
+one worker is like one skill —
+
+50
+00:01:48,926 --> 00:01:50,225
+they know how to do the job,
+
+51
+00:01:50,225 --> 00:01:51,862
+have relevant experience and data,
+
+52
+00:01:51,862 --> 00:01:53,499
+plus the right tools for the task.
+
+53
+00:01:53,770 --> 00:01:55,449
+the way skills work is like this:
+
+54
+00:01:55,449 --> 00:01:58,650
+to build a house, you'd get masons, welders, plumbers, and so on
+
+55
+00:01:58,890 --> 00:02:00,885
+that forms the house-building crew.
+
+56
+00:02:00,885 --> 00:02:02,025
+If I want renovation,
+
+57
+00:02:02,025 --> 00:02:04,338
+I fetch plumbers, carpenters, painters, etc.,
+
+58
+00:02:04,338 --> 00:02:05,960
+to form the renovation crew
+
+59
+00:02:06,140 --> 00:02:07,913
+AI dynamically assembles skill teams
+
+60
+00:02:07,913 --> 00:02:09,883
+based on needs—this process is flexible
+
+61
+00:02:09,883 --> 00:02:11,460
+and requires no human oversight.
+
+62
+00:02:11,840 --> 00:02:14,139
+the key difference between skill and old n8n workflows
+
+63
+00:02:14,139 --> 00:02:14,480
+lies in
+
+64
+00:02:14,760 --> 00:02:16,491
+a workflow is like under the skybridge,
+
+65
+00:02:16,491 --> 00:02:18,512
+where only fixed crews exist—like renovation,
+
+66
+00:02:18,512 --> 00:02:19,676
+construction, and cleaning
+
+67
+00:02:19,676 --> 00:02:21,960
+teams—without letting workers be freely combined
+
+68
+00:02:22,040 --> 00:02:23,955
+If my needs are a bit different,
+
+69
+00:02:23,955 --> 00:02:25,020
+one crew can't do
+
+70
+00:02:25,020 --> 00:02:28,280
+all the work, and hiring many is costly and wasteful?
+
+71
+00:02:28,600 --> 00:02:32,261
+so the key value of skills is that AI can flexibly team up
+
+72
+00:02:32,261 --> 00:02:33,650
+and use various tools
+
+73
+00:02:33,890 --> 00:02:34,637
+let AI evolve
+
+74
+00:02:34,637 --> 00:02:37,970
+from a 'chat tool' to a 'productivity tool' for complex tasks
+
+75
+00:02:38,700 --> 00:02:42,920
+I've compiled all the top Trending skill open-source repos
+
+76
+00:02:42,920 --> 00:02:45,031
+and listed them in the docs —
+
+77
+00:02:45,031 --> 00:02:46,559
+feel free to use them.
+
+78
+00:02:46,680 --> 00:02:49,989
+If you're new and just want to browse or find some ideas,
+
+79
+00:02:49,989 --> 00:02:51,969
+head to SkillsMP and Lenny Skills —
+
+80
+00:02:51,969 --> 00:02:54,009
+they're the 'app stores' for Skills.
+
+81
+00:02:54,250 --> 00:02:57,465
+You can check GitHub for All the Public Skills,
+
+82
+00:02:57,465 --> 00:03:01,170
+and the Awesome Agent Skills repo — both are top-notch.
+
+83
+00:03:01,420 --> 00:03:03,631
+when using Skills shared by individual devs,
+
+84
+00:03:03,631 --> 00:03:05,020
+be sure to guard your data
+
+85
+00:03:05,300 --> 00:03:07,832
+Before using it, let AI scan the code for flaws
+
+86
+00:03:07,832 --> 00:03:09,980
+to prevent leaks of your personal data.
+
+87
+00:03:12,500 --> 00:03:15,572
+like this remotion skill—it's great for video editing.
+
+88
+00:03:15,572 --> 00:03:18,020
+This animation was made with remotion skill
+
+89
+00:03:20,540 --> 00:03:23,173
+This transition rhythm — isn't it awesome? Before,
+
+90
+00:03:23,173 --> 00:03:25,321
+for such fast-paced motion cuts in AE,
+
+91
+00:03:25,321 --> 00:03:27,180
+you'd tweak keyframes for hours?
+
+92
+00:03:27,710 --> 00:03:29,677
+it can even handle tedious tasks
+
+93
+00:03:29,677 --> 00:03:31,830
+like trimming repeated voice lines
+
+94
+00:03:32,030 --> 00:03:34,872
+For instance, this is the raw video I recorded.
+
+95
+00:03:34,872 --> 00:03:36,664
+The close-up shot of the eyes —
+
+96
+00:03:36,664 --> 00:03:39,569
+isn't that more tense and cinematic right away?
+
+97
+00:03:39,770 --> 00:03:41,463
+Once edited, it looks like this:
+
+98
+00:03:41,463 --> 00:03:44,610
+a close-up eye shot—does the tension and cinematic feel
+
+99
+00:03:44,610 --> 00:03:45,640
+now feel stronger?
+
+100
+00:03:45,800 --> 00:03:46,678
+all the stutters
+
+101
+00:03:46,678 --> 00:03:49,368
+and repeats are cut—editing just got way faster.
+
+102
+00:03:49,368 --> 00:03:51,673
+And this Manim skill lets you make science
+
+103
+00:03:51,673 --> 00:03:53,211
+demo animations in one line.
+
+104
+00:03:53,211 --> 00:03:54,419
+Pretty decent results?
+
+105
+00:03:55,850 --> 00:03:57,289
+and the 'Hot Trends Grabber'
+
+106
+00:03:57,289 --> 00:03:58,674
+we shared before—back then,
+
+107
+00:03:58,674 --> 00:04:00,807
+we had to build a bunch of nodes in n8n,
+
+108
+00:04:00,807 --> 00:04:03,580
+which took a week or two and required coding skills
+
+109
+00:04:03,860 --> 00:04:04,837
+now with this Skill,
+
+110
+00:04:04,837 --> 00:04:05,462
+just grab it
+
+111
+00:04:05,462 --> 00:04:08,540
+and use it right away—install this open-source Skill first
+
+112
+00:04:09,290 --> 00:04:11,769
+Input, generate today's AI tech news brief —
+
+113
+00:04:11,769 --> 00:04:14,370
+a daily digest with summaries is now ready.
+
+114
+00:04:14,530 --> 00:04:15,530
+Open and see.
+
+115
+00:04:17,550 --> 00:04:20,547
+Such a handy 'cheat'—how do you use it then? Don't worry;
+
+116
+00:04:20,547 --> 00:04:23,241
+now I'll walk you through using this 'Hot Trends
+
+117
+00:04:23,241 --> 00:04:24,044
+Catcher' skill
+
+118
+00:04:24,044 --> 00:04:24,790
+step by step.
+
+119
+00:04:25,000 --> 00:04:28,200
+many guides teach you to use Claude Code or OpenCode online
+
+120
+00:04:28,400 --> 00:04:31,051
+Frankly, those tools are too tough for beginners,
+
+121
+00:04:31,051 --> 00:04:34,030
+but now you can use them directly in AI coding tools
+
+122
+00:04:34,030 --> 00:04:34,775
+like Cursor —
+
+123
+00:04:34,775 --> 00:04:35,960
+it's super convenient
+
+124
+00:04:36,000 --> 00:04:39,536
+Suppose we've found this 'Hot Trends Catcher Skill' on GitHub —
+
+125
+00:04:39,536 --> 00:04:40,479
+how do we use it?
+
+126
+00:04:40,560 --> 00:04:43,150
+Download, unzip, drag to Cursor
+
+127
+00:04:43,570 --> 00:04:46,488
+then just ask in the sidebar, 'How do I load this Skill?'
+
+128
+00:04:46,488 --> 00:04:48,433
+Cursor will auto-configure the setup
+
+129
+00:04:48,433 --> 00:04:50,108
+and even guide you on its use,
+
+130
+00:04:50,108 --> 00:04:51,729
+letting AI teach you to use AI
+
+131
+00:04:52,030 --> 00:04:55,065
+once Cursor sets up the skill, type in the sidebar '
+
+132
+00:04:55,065 --> 00:04:57,419
+'Generate today's AI tech news digest' —
+
+133
+00:04:57,419 --> 00:04:58,719
+and it does just that
+
+134
+00:04:58,800 --> 00:04:59,791
+Isn't that smooth?
+
+135
+00:04:59,791 --> 00:05:02,359
+Just two lines to deploy and start using it.
+
+136
+00:05:02,540 --> 00:05:04,060
+Of course, this is the best case.
+
+137
+00:05:04,140 --> 00:05:05,772
+some skills might throw errors
+
+138
+00:05:05,772 --> 00:05:08,712
+on first setup—just copy the error message to Cursor,
+
+139
+00:05:08,712 --> 00:05:10,726
+let it fix it until it runs smoothly;
+
+140
+00:05:10,726 --> 00:05:12,359
+you don’t need to think at all
+
+141
+00:05:13,710 --> 00:05:16,282
+this open-source hot-topic skill by the top dev
+
+142
+00:05:16,282 --> 00:05:18,910
+has all its data sources pre-configured by them.
+
+143
+00:05:18,990 --> 00:05:20,898
+if you want to switch data sources,
+
+144
+00:05:20,898 --> 00:05:21,754
+just ask Cursor
+
+145
+00:05:21,754 --> 00:05:24,380
+first—it will then show you clear setup steps
+
+146
+00:05:24,620 --> 00:05:28,438
+the source-picking logic here is much like what n8n showed —
+
+147
+00:05:28,438 --> 00:05:30,941
+using RSS and APIs covers most needs;
+
+148
+00:05:30,941 --> 00:05:33,179
+see the n8n video for full details
+
+149
+00:05:33,360 --> 00:05:35,742
+For RSS, just provide the RSS link; for API,
+
+150
+00:05:35,742 --> 00:05:36,745
+give the API docs —
+
+151
+00:05:36,745 --> 00:05:39,520
+toss them to Cursor and let it handle the rest.
+
+152
+00:05:39,760 --> 00:05:41,833
+By now you might realize that
+
+153
+00:05:41,833 --> 00:05:44,121
+using skills to gather hot news
+
+154
+00:05:44,121 --> 00:05:45,427
+is far easier than
+
+155
+00:05:45,427 --> 00:05:48,840
+setting up n8n workflows—perfect for beginners.
+
+156
+00:05:49,160 --> 00:05:51,781
+Of course, if the open-source skill doesn't suit your needs,
+
+157
+00:05:51,781 --> 00:05:53,680
+then you can simply create your own skill.
+
+158
+00:05:53,850 --> 00:05:55,241
+For instance, if you're legal,
+
+159
+00:05:55,241 --> 00:05:57,329
+you often review dozens of contract pages
+
+160
+00:05:57,530 --> 00:05:59,950
+check if there's a specific compensation clause,
+
+161
+00:05:59,950 --> 00:06:02,370
+or if it aligns with last year's company rules
+
+162
+00:06:02,570 --> 00:06:04,930
+such tasks may lack a matching Skill on the web right now
+
+163
+00:06:05,060 --> 00:06:08,071
+just load this 'Skill Creator' plugin inside your Cursor
+
+164
+00:06:08,071 --> 00:06:09,019
+development tool
+
+165
+00:06:09,220 --> 00:06:12,090
+then tell it this: I want a legal contract checker
+
+166
+00:06:12,090 --> 00:06:13,756
+that reviews penalty clauses
+
+167
+00:06:13,756 --> 00:06:15,900
+and payment-term risks in contracts
+
+168
+00:06:16,080 --> 00:06:18,680
+it will then auto-generate the full file structure.
+
+169
+00:06:18,920 --> 00:06:21,521
+created the 'reference' and 'scripts' folders,
+
+170
+00:06:21,521 --> 00:06:24,440
+and wrote the role setup and SOP in 'skill.md'
+
+171
+00:06:24,880 --> 00:06:26,983
+But this is a generic template made by AI.
+
+172
+00:06:26,983 --> 00:06:28,485
+It does have some review risks,
+
+173
+00:06:28,485 --> 00:06:31,439
+though it doesn't know your firm's specific red-line rules.
+
+174
+00:06:31,650 --> 00:06:34,839
+just drag your company's 'Risk Control Red Line Document'
+
+175
+00:06:34,839 --> 00:06:36,890
+into the Reference folder it created
+
+176
+00:06:37,090 --> 00:06:38,635
+then in the Cursor chat window,
+
+177
+00:06:38,635 --> 00:06:41,231
+say that reviews must strictly follow the red-line
+
+178
+00:06:41,231 --> 00:06:42,218
+flags in Reference —
+
+179
+00:06:42,218 --> 00:06:44,919
+it will auto-adjust the prompts in skill.md for you
+
+180
+00:06:45,120 --> 00:06:47,959
+include the Risk Control Red Line Document as reference.
+
+181
+00:06:48,240 --> 00:06:52,006
+and even further, you can have Cursor add a script in scripts
+
+182
+00:06:52,006 --> 00:06:54,141
+that will auto-flag risky clauses
+
+183
+00:06:54,141 --> 00:06:57,280
+in contract PDFs with red highlights and comments.
+
+184
+00:06:57,470 --> 00:07:00,324
+review contracts per your firm's rules and red lines,
+
+185
+00:07:00,324 --> 00:07:01,423
+flag risky clauses —
+
+186
+00:07:01,423 --> 00:07:03,453
+tasks once tedious and time-consuming —
+
+187
+00:07:03,453 --> 00:07:05,979
+are now fully handled by this skill in one go
+
+188
+00:07:06,180 --> 00:07:07,707
+even if you're a total newbie,
+
+189
+00:07:07,707 --> 00:07:10,500
+making this skill takes just minutes and a few lines
+
+190
+00:07:10,780 --> 00:07:13,008
+so the right way to build your own Skill
+
+191
+00:07:13,008 --> 00:07:14,568
+is: first use 'Skill Creator'
+
+192
+00:07:14,568 --> 00:07:15,850
+to draft an 80-point base,
+
+193
+00:07:15,850 --> 00:07:17,430
+then tweak it with your data
+
+194
+00:07:17,430 --> 00:07:20,140
+and know-how to make it a top-tier 100-point tool
+
+195
+00:07:20,400 --> 00:07:23,335
+And here's Xuan-chan—follow me to unlock more AI fun,
+
+196
+00:07:23,335 --> 00:07:24,719
+see you in our next video!
+

@@ -1,0 +1,436 @@
+1
+00:00:00,040 --> 00:00:02,000
+Have you ever encountered this situation?
+
+2
+00:00:02,000 --> 00:00:04,120
+Your resume is written really impressively.
+
+3
+00:00:04,120 --> 00:00:05,600
+But then the interviewer asks a question,
+
+4
+00:00:05,600 --> 00:00:06,380
+and you're completely stumped.
+
+5
+00:00:06,380 --> 00:00:08,960
+Or have you ever come across a resume like this?
+
+6
+00:00:08,960 --> 00:00:09,400
+Hmm,
+
+7
+00:00:09,400 --> 00:00:10,580
+you think the resume is really impressive,
+
+8
+00:00:10,580 --> 00:00:11,980
+but when the person shows up,
+
+9
+00:00:11,980 --> 00:00:12,980
+they can't deliver.
+
+10
+00:00:12,980 --> 00:00:16,500
+So, how do we identify these overly exaggerated resumes?
+
+11
+00:00:16,500 --> 00:00:18,780
+The first type is the overuse of adjectives.
+
+12
+00:00:18,780 --> 00:00:20,600
+This is a typical tactic of exaggerated resumes.
+
+13
+00:00:20,600 --> 00:00:23,750
+For example, the About section states excellent communication and coordination skills.
+
+14
+00:00:23,750 --> 00:00:25,650
+'extensive project management experience',
+
+15
+00:00:25,650 --> 00:00:27,310
+or 'significantly improved efficiency'.
+
+16
+00:00:27,310 --> 00:00:29,750
+But tell me, how exactly are they excellent?
+
+17
+00:00:29,750 --> 00:00:30,470
+How extensive is it?
+
+18
+00:00:30,470 --> 00:00:31,210
+And how significant is the improvement?
+
+19
+00:00:31,210 --> 00:00:33,290
+So, how should we write it correctly?
+
+20
+00:00:33,290 --> 00:00:34,650
+We start with a verb.
+
+21
+00:00:34,650 --> 00:00:37,250
+For example, leading the setup and optimization.
+
+22
+00:00:37,250 --> 00:00:38,270
+Then we add context.
+
+23
+00:00:38,270 --> 00:00:39,590
+And include data support.
+
+24
+00:00:39,590 --> 00:00:43,350
+For instance, we led the optimization of a CRM system in the financial sector.
+
+25
+00:00:43,350 --> 00:00:46,990
+We achieved this through the analysis of business behaviors and the restructuring of processes.
+
+26
+00:00:46,990 --> 00:00:48,570
+We focus on the conversion rate of customer service
+
+27
+00:00:48,570 --> 00:00:50,510
+from 3% to 10%.
+
+28
+00:00:50,510 --> 00:00:51,550
+Just one sentence
+
+29
+00:00:51,550 --> 00:00:52,670
+Explain your actions
+
+30
+00:00:52,670 --> 00:00:53,390
+Demonstrate your skills
+
+31
+00:00:53,390 --> 00:00:55,220
+And clearly state your outcomes
+
+32
+00:00:55,220 --> 00:00:56,100
+R1, look
+
+33
+00:00:56,100 --> 00:00:56,940
+This person is really impressive
+
+34
+00:00:56,940 --> 00:00:57,860
+He’s not exaggerating
+
+35
+00:00:57,860 --> 00:01:00,940
+The second type of empty talk is a list of routine tasks
+
+36
+00:01:00,940 --> 00:01:02,840
+This resume lacks any focus
+
+37
+00:01:02,840 --> 00:01:04,260
+Many students write their resumes
+
+38
+00:01:04,260 --> 00:01:07,800
+listing their activities one by one in a chronological manner
+
+39
+00:01:07,800 --> 00:01:09,660
+including market research
+
+40
+00:01:09,660 --> 00:01:10,880
+data analysis and prototyping
+
+41
+00:01:10,880 --> 00:01:12,150
+design requirements
+
+42
+00:01:12,150 --> 00:01:13,110
+product writing
+
+43
+00:01:13,110 --> 00:01:14,810
+covering the entire lifecycle of a project
+
+44
+00:01:14,810 --> 00:01:16,350
+which seems like a lot of work
+
+45
+00:01:16,350 --> 00:01:17,630
+but tell me
+
+46
+00:01:17,630 --> 00:01:18,710
+In this role,
+
+47
+00:01:18,710 --> 00:01:20,480
+what specific responsibilities did you have?
+
+48
+00:01:20,480 --> 00:01:21,920
+What exactly did you do?
+
+49
+00:01:21,920 --> 00:01:23,240
+What value did you bring?
+
+50
+00:01:23,240 --> 00:01:24,320
+It’s not reflected at all.
+
+51
+00:01:24,320 --> 00:01:25,960
+So, what’s the correct logic here?
+
+52
+00:01:25,960 --> 00:01:28,289
+You need to clearly highlight your role.
+
+53
+00:01:28,289 --> 00:01:29,809
+As the product lead,
+
+54
+00:01:29,809 --> 00:01:33,320
+and what was the goal of the project you managed?
+
+55
+00:01:33,320 --> 00:01:37,200
+We are responsible for the GMV and the user experience.
+
+56
+00:01:37,200 --> 00:01:38,870
+What kind of outcome do we aim to achieve?
+
+57
+00:01:38,870 --> 00:01:41,870
+Then we break down our actions.
+
+58
+00:01:41,870 --> 00:01:44,620
+For instance, as the product lead of an AI recommendation system
+
+59
+00:01:44,620 --> 00:01:47,789
+we take the lead in building it from scratch.
+
+60
+00:01:47,789 --> 00:01:51,409
+Through algorithm iterations and profile upgrades,
+
+61
+00:01:51,409 --> 00:01:55,530
+We ultimately increased the click rate by how much
+
+62
+00:01:55,530 --> 00:01:57,699
+And we also aim to boost the user retention rate by a certain percentage.
+
+63
+00:01:57,699 --> 00:02:01,779
+In a nutshell, we define our role, set our goals, and take action.
+
+64
+00:02:01,779 --> 00:02:03,630
+Everything has been explained clearly.
+
+65
+00:02:03,630 --> 00:02:05,710
+Then it's evident that this person is reliable.
+
+66
+00:02:05,710 --> 00:02:06,990
+He's not just going through the motions.
+
+67
+00:02:06,990 --> 00:02:09,669
+The third scenario is also a common mistake made by many students.
+
+68
+00:02:09,669 --> 00:02:12,170
+It means listing out all the modules you've worked on.
+
+69
+00:02:12,170 --> 00:02:14,180
+Like 1, 2, 3, 4, 5, 6.
+
+70
+00:02:14,180 --> 00:02:15,340
+You've done a lot of work.
+
+71
+00:02:15,340 --> 00:02:17,060
+But what problems have actually been solved?
+
+72
+00:02:17,060 --> 00:02:18,100
+It's not at all clear.
+
+73
+00:02:18,100 --> 00:02:21,000
+For example, building modules for event configurations
+
+74
+00:02:21,000 --> 00:02:22,700
+the recommended configuration modules
+
+75
+00:02:22,700 --> 00:02:24,040
+Data monitoring reports
+
+76
+00:02:24,040 --> 00:02:25,800
+Or any other functional modules
+
+77
+00:02:25,800 --> 00:02:28,269
+So, if you tell me you've built all these modules
+
+78
+00:02:28,269 --> 00:02:29,749
+What skills do they demonstrate?
+
+79
+00:02:29,749 --> 00:02:31,509
+What pain points do they address?
+
+80
+00:02:31,509 --> 00:02:32,809
+What value do they bring?
+
+81
+00:02:32,809 --> 00:02:34,120
+They still don't demonstrate anything
+
+82
+00:02:34,120 --> 00:02:35,960
+So, what is the right approach?
+
+83
+00:02:35,960 --> 00:02:39,940
+We should always link our actions to the goal.
+
+84
+00:02:39,940 --> 00:02:42,420
+It's not about having more modules, but about their effectiveness.
+
+85
+00:02:42,420 --> 00:02:43,560
+Make it clear.
+
+86
+00:02:43,560 --> 00:02:46,240
+From collaborative implementation to efficiency improvement,
+
+87
+00:02:46,240 --> 00:02:47,720
+and then to cost optimization, the logic chain should be clear.
+
+88
+00:02:47,720 --> 00:02:49,060
+It should provide a comprehensive demonstration.
+
+89
+00:02:49,060 --> 00:02:53,030
+For example, we built a content operation platform from scratch.
+
+90
+00:02:53,030 --> 00:02:54,950
+Breaking it down into resource management,
+
+91
+00:02:54,950 --> 00:02:55,930
+Content management
+
+92
+00:02:55,930 --> 00:02:57,810
+data monitoring, and these three capabilities
+
+93
+00:02:57,810 --> 00:02:59,010
+So we have achieved
+
+94
+00:02:59,010 --> 00:03:02,110
+an operational staff usage rate of 90%
+
+95
+00:03:02,110 --> 00:03:05,070
+and the cost has been reduced by 300 yuan each month
+
+96
+00:03:05,070 --> 00:03:07,110
+summarize your technical skills
+
+97
+00:03:07,110 --> 00:03:08,200
+your understanding of the business
+
+98
+00:03:08,200 --> 00:03:10,160
+and all the value you've produced, in one sentence
+
+99
+00:03:10,160 --> 00:03:14,440
+This shows HR that this person is not just a coding role
+
+100
+00:03:14,440 --> 00:03:16,290
+not just tech-savvy
+
+101
+00:03:16,290 --> 00:03:17,530
+but also business-savvy
+
+102
+00:03:17,530 --> 00:03:19,810
+Actually, let's summarize the writing style of an excellent resume
+
+103
+00:03:19,810 --> 00:03:22,280
+which is the implicit application of the four major rules
+
+104
+00:03:22,280 --> 00:03:23,480
+So what are these four major rules?
+
+105
+00:03:23,480 --> 00:03:24,420
+They are situational
+
+106
+00:03:24,420 --> 00:03:25,240
+task-oriented
+
+107
+00:03:25,240 --> 00:03:25,960
+action-driven
+
+108
+00:03:25,960 --> 00:03:26,620
+and result-focused
+
+109
+00:03:26,620 --> 00:03:27,980
+write around this logic
+

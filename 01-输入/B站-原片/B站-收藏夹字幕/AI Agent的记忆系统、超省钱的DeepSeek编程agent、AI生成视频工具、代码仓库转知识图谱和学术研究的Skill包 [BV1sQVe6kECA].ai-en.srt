@@ -1,0 +1,888 @@
+1
+00:00:00,100 --> 00:00:02,560
+GitHub Weekly Hotspots - Issue #116
+
+2
+00:00:02,560 --> 00:00:05,400
+In this issue, we've got memory systems for AI agents,
+
+3
+00:00:05,400 --> 00:00:07,600
+a super cost-effective Deepseek programming terminal agent,
+
+4
+00:00:07,600 --> 00:00:09,560
+an AI video generation tool,
+
+5
+00:00:09,560 --> 00:00:11,260
+a tool to convert code repositories into knowledge graphs,
+
+6
+00:00:11,260 --> 00:00:13,440
+And a skill package for academic research.
+
+7
+00:00:13,440 --> 00:00:15,400
+And finally, I'd like to share two resources with you.
+
+8
+00:00:15,400 --> 00:00:16,760
+If you find this content helpful,
+
+9
+00:00:16,760 --> 00:00:18,780
+Don't forget to like and follow.
+
+10
+00:00:19,140 --> 00:00:22,100
+Introducing the AI Agent Memory OS. EverOS is developed by the AI team at EverMind.
+
+11
+00:00:22,100 --> 00:00:24,490
+An Open-Source Operating System for Agent Long-Term Memory
+
+12
+00:00:24,490 --> 00:00:28,250
+The goal is to provide a memory infrastructure for self-evolving AI agents.
+
+13
+00:00:28,250 --> 00:00:31,210
+So, for AI agents today, one of the biggest headaches they face...
+
+14
+00:00:31,210 --> 00:00:33,490
+is its memory. For a quick chat, it's fine.
+
+15
+00:00:33,490 --> 00:00:35,530
+But once you go beyond that context window,
+
+16
+00:00:35,530 --> 00:00:36,910
+it has a memory like a goldfish.
+
+17
+00:00:36,910 --> 00:00:39,410
+it forgets pretty much everything you've talked about before,
+
+18
+00:00:39,410 --> 00:00:41,920
+So, with every new conversation, it has to start all over again.
+
+19
+00:00:41,920 --> 00:00:44,100
+And that's exactly the layer EverOS aims to build.
+
+20
+00:00:44,100 --> 00:00:45,640
+This allows the agent to remember,
+
+21
+00:00:45,640 --> 00:00:46,420
+to build upon its knowledge,
+
+22
+00:00:46,420 --> 00:00:47,690
+so it can reuse past experiences,
+
+23
+00:00:47,690 --> 00:00:49,630
+Instead of having to start all over again from scratch every single time.
+
+24
+00:00:49,630 --> 00:00:51,900
+And its core component is called EverCore.
+
+25
+00:00:51,900 --> 00:00:55,000
+Its overall architecture is inspired by the human brain and how it processes information.
+
+26
+00:00:55,000 --> 00:00:56,080
+It's split into four layers.
+
+27
+00:00:56,080 --> 00:00:58,380
+the Infrastructure Layer, the Business Layer, and the Memory Layer.
+
+28
+00:00:58,380 --> 00:00:59,430
+And the Agent Layer.
+
+29
+00:00:59,430 --> 00:01:00,570
+So, to put it simply...
+
+30
+00:01:00,570 --> 00:01:01,970
+So, after the agent finishes a task,
+
+31
+00:01:01,970 --> 00:01:04,000
+EverOS will then conduct a review for it.
+
+32
+00:01:04,000 --> 00:01:05,800
+and consolidates that experience.
+
+33
+00:01:05,800 --> 00:01:07,380
+so it's ready to go the next time.
+
+34
+00:01:07,380 --> 00:01:09,120
+It’s not just about storing the data.
+
+35
+00:01:09,120 --> 00:01:10,800
+but actually learning from it.
+
+36
+00:01:10,800 --> 00:01:13,860
+And, EverOS is more than just a simple repository.
+
+37
+00:01:13,860 --> 00:01:16,480
+Essentially, it's an umbrella project.
+
+38
+00:01:16,480 --> 00:01:19,320
+The repository includes a set of architectural methods,
+
+39
+00:01:19,320 --> 00:01:20,940
+a complete set of benchmarks,
+
+40
+00:01:20,940 --> 00:01:23,360
+Plus, it provides over 25 use cases.
+
+41
+00:01:23,360 --> 00:01:25,400
+So, I think the right way to actually get started with this is...
+
+42
+00:01:25,400 --> 00:01:28,100
+is to pick a use case that interests you,
+
+43
+00:01:28,100 --> 00:01:29,900
+For example, something like swarm intelligence agents,
+
+44
+00:01:29,900 --> 00:01:32,400
+or maybe this Live2D character with memory.
+
+45
+00:01:32,400 --> 00:01:35,040
+And then, you'd pick an architectural method.
+
+46
+00:01:35,040 --> 00:01:36,620
+and then use benchmarks to compare them.
+
+47
+00:01:36,620 --> 00:01:38,140
+Not only will you understand how to use EverOS,
+
+48
+00:01:38,140 --> 00:01:39,920
+but also how EverOS is used in practice.
+
+49
+00:01:39,920 --> 00:01:44,220
+And you can also learn from these real-world implementations how to actually apply agent memory.
+
+50
+00:01:44,220 --> 00:01:45,260
+The use cases here...
+
+51
+00:01:45,260 --> 00:01:46,360
+and a lot of them are really interesting.
+
+52
+00:01:46,360 --> 00:01:47,990
+It's definitely worth checking out.
+
+53
+00:01:47,990 --> 00:01:49,810
+And getting it up and running is also pretty straightforward.
+
+54
+00:01:49,810 --> 00:01:53,290
+
+
+55
+00:01:53,290 --> 00:01:55,490
+Then, just install the dependencies, and you'll be up and running.
+
+56
+00:01:55,490 --> 00:01:56,970
+Now, if you don't want to set it up yourself,
+
+57
+00:01:56,970 --> 00:01:59,270
+They also offer EverOS Cloud, which you can use directly.
+
+58
+00:01:59,270 --> 00:02:01,229
+So, if you don't want to go through all that trouble, this is the way to go.
+
+59
+00:02:01,229 --> 00:02:02,589
+Now, when it comes to benchmarks,
+
+60
+00:02:02,589 --> 00:02:04,749
+EverOS's performance on LoCoMo and LongMemEval,
+
+61
+00:02:04,749 --> 00:02:06,729
+and its scores are particularly impressive.
+
+62
+00:02:06,729 --> 00:02:09,229
+achieving SOTA results among similar projects.
+
+63
+00:02:09,229 --> 00:02:12,240
+Plus, the team behind EverMind has an impressive tech background as well.
+
+64
+00:02:12,240 --> 00:02:14,880
+So, a little while back, they had this paper on MSA,
+
+65
+00:02:14,880 --> 00:02:15,800
+It introduced how large models can process, all at once,
+
+66
+00:02:15,800 --> 00:02:19,290
+and its ability to handle a 100-million-token context went totally viral.
+
+67
+00:02:19,290 --> 00:02:20,730
+And in this project,
+
+68
+00:02:20,730 --> 00:02:23,330
+And they're using something called the HyperMem Hyper-Graph Memory architecture,
+
+69
+00:02:23,330 --> 00:02:25,649
+And it's even been accepted to ACL 2026.
+
+70
+00:02:25,649 --> 00:02:27,629
+And the corresponding paper has also been made public.
+
+71
+00:02:27,629 --> 00:02:29,600
+If you're interested, you should definitely give it a thorough read.
+
+72
+00:02:29,600 --> 00:02:30,480
+And actually, I noticed that
+
+73
+00:02:30,480 --> 00:02:33,140
+Now, their team was fully incubated and funded by Shanda Group.
+
+74
+00:02:33,140 --> 00:02:33,920
+As for Chen Tianqiao...
+
+75
+00:02:33,920 --> 00:02:37,450
+and over the past few years, he's been pushing hard for the integration of neuroscience and AI.
+
+76
+00:02:37,450 --> 00:02:38,730
+So, his team...
+
+77
+00:02:38,730 --> 00:02:41,840
+So, their future moves in the memory space are definitely something to keep a close eye on.
+
+78
+00:02:41,840 --> 00:02:43,120
+So, here's my take on it:
+
+79
+00:02:43,120 --> 00:02:44,160
+is that in the next year or two,
+
+80
+00:02:44,160 --> 00:02:47,019
+Agent memory is absolutely going to be a key focus for the market.
+
+81
+00:02:47,019 --> 00:02:51,179
+So, EverOS, whether you're looking at its architectural philosophy or the underlying technology, is really well done.
+
+82
+00:02:51,179 --> 00:02:54,740
+Plus, it's backed by the team's strong academic foundation and major resources.
+
+83
+00:02:54,740 --> 00:02:58,130
+So, I think this project is definitely worth a star to follow.
+
+84
+00:02:58,130 --> 00:03:01,490
+Lately, the AI coding game has been an absolute battle royale.
+
+85
+00:03:01,490 --> 00:03:04,050
+So, just two weeks ago, I introduced Deepseek TUI.
+
+86
+00:03:04,050 --> 00:03:06,450
+And back then, the most common comment I got was,
+
+87
+00:03:06,450 --> 00:03:07,985
+The catch? It burns through way too many tokens.
+
+88
+00:03:07,990 --> 00:03:10,510
+Actually, most tools have this common problem.
+
+89
+00:03:10,510 --> 00:03:11,470
+And as it's running,
+
+90
+00:03:11,470 --> 00:03:12,630
+your tokens will just go up in smoke.
+
+91
+00:03:12,630 --> 00:03:14,920
+So, this project aims to solve that very pain point.
+
+92
+00:03:14,920 --> 00:03:19,020
+It's a terminal programming agent specifically built for the Deepseek model.
+
+93
+00:03:19,020 --> 00:03:20,000
+So, what's the main selling point?
+
+94
+00:03:20,000 --> 00:03:21,080
+I can sum it up in two words:
+
+95
+00:03:21,080 --> 00:03:21,950
+Cheap and effective.
+
+96
+00:03:21,950 --> 00:03:23,550
+And its design philosophy is quite unique.
+
+97
+00:03:23,550 --> 00:03:27,870
+The entire architecture is centered around the stability of DeepSeek's prefix cache.
+
+98
+00:03:27,870 --> 00:03:28,830
+So, to put it simply,
+
+99
+00:03:28,830 --> 00:03:31,529
+The goal is to get the cache hit rate as high as possible.
+
+100
+00:03:31,529 --> 00:03:33,970
+And in our tests, we've hit over 99%命中率
+
+101
+00:03:33,970 --> 00:03:35,410
+over 99%. That's way better than your average tool,
+
+102
+00:03:35,410 --> 00:03:37,530
+This means you can slash your API costs by five times for the same work.
+
+103
+00:03:37,530 --> 00:03:39,690
+So, what that means is, you can just relax.
+
+104
+00:03:39,690 --> 00:03:40,610
+and just let it run wild.
+
+105
+00:03:40,610 --> 00:03:43,270
+So you don't have to worry about burning through cash, and the installation is super simple too.
+
+106
+00:03:43,270 --> 00:03:44,970
+You can get it up and running with just a single command.
+
+107
+00:03:44,970 --> 00:03:48,050
+In terms of the tech stack, it's built with TypeScript and licensed under MIT.
+
+108
+00:03:48,050 --> 00:03:49,330
+It supports the MCP protocol.
+
+109
+00:03:49,330 --> 00:03:50,390
+It also has a plan mode.
+
+110
+00:03:50,390 --> 00:03:52,660
+And it also has its own tool invocation correction.
+
+111
+00:03:52,660 --> 00:03:55,720
+And it interfaces directly with Deepseek's API.
+
+112
+00:03:55,720 --> 00:03:57,360
+This means no translation through an intermediate layer is needed.
+
+113
+00:03:57,360 --> 00:04:00,230
+And this feature is a huge plus, especially for users in China.
+
+114
+00:04:00,230 --> 00:04:01,910
+But of course, there's always a trade-off.
+
+115
+00:04:01,910 --> 00:04:02,790
+So, the good thing is...
+
+116
+00:04:02,790 --> 00:04:05,940
+But in terms of feature completeness, it's still lacking in many ways.
+
+117
+00:04:05,940 --> 00:04:12,840
+So, at the end of the day, it all comes down to your specific use case and what your priorities are. If you're mainly using the Deepseek model for programming,
+
+118
+00:04:12,840 --> 00:04:15,320
+and you're really keeping a close eye on costs,
+
+119
+00:04:15,320 --> 00:04:17,000
+So, it's definitely worth a shot, after all.
+
+120
+00:04:17,000 --> 00:04:19,010
+And you know what they say, a penny saved is a penny earned.
+
+121
+00:04:19,010 --> 00:04:20,050
+Hyperframe is a tool that can help you
+
+122
+00:04:20,050 --> 00:04:22,760
+projects that automatically generate AI videos.
+
+123
+00:04:22,760 --> 00:04:25,700
+It's from HeyGen, a major player in the AI video space.
+
+124
+00:04:25,700 --> 00:04:27,180
+And the idea behind it is pretty clever.
+
+125
+00:04:27,180 --> 00:04:30,950
+Instead of teaching an AI agent to learn complex video editing software,
+
+126
+00:04:30,950 --> 00:04:33,350
+why not just let it use the content it's most familiar with,
+
+127
+00:04:33,350 --> 00:04:37,240
+HTML, CSS, and JavaScript to create videos.
+
+128
+00:04:37,240 --> 00:04:38,240
+So, about Hyperframe...
+
+129
+00:04:38,240 --> 00:04:41,880
+Basically, it's an open-source framework that converts HTML into videos.
+
+130
+00:04:41,880 --> 00:04:43,780
+motion graphics. Sixty-two percent said... and it's licensed under Apache 2.0.
+
+131
+00:04:43,780 --> 00:04:45,950
+And right now, it's already got over 20,000 stars.
+
+132
+00:04:45,950 --> 00:04:50,410
+With it, you can use HTML, CSS, and JavaScript to create animations.
+
+133
+00:04:50,410 --> 00:04:53,370
+And then you can render it on your local machine into an MP4 file.
+
+134
+00:04:53,370 --> 00:04:55,370
+So, what this means is, you can also integrate Hyperframe into some
+
+135
+00:04:55,370 --> 00:04:58,350
+and into your local automation pipelines.
+
+136
+00:04:58,350 --> 00:05:01,070
+In terms of features, it supports JSAP animations.
+
+137
+00:05:01,070 --> 00:05:02,550
+WebGL shaders,
+
+138
+00:05:02,550 --> 00:05:03,920
+as well as Lottie animations.
+
+139
+00:05:03,920 --> 00:05:07,720
+And HeyGen also provides a 7-step video creation skill template.
+
+140
+00:05:07,720 --> 00:05:09,950
+So basically, you just have to follow along, and you'll get a finished video.
+
+141
+00:05:09,950 --> 00:05:12,750
+So, for most of the major tools and platforms out there right now,
+
+142
+00:05:12,750 --> 00:05:14,230
+In fact, all of them can use Hyperframe.
+
+143
+00:05:14,230 --> 00:05:15,550
+For example, tools like Codex,
+
+144
+00:05:15,550 --> 00:05:16,380
+Claude Code,
+
+145
+00:05:16,380 --> 00:05:18,500
+can all utilize Hyperframe's skills to...
+
+146
+00:05:18,500 --> 00:05:20,440
+to generate your very own animated videos.
+
+147
+00:05:20,440 --> 00:05:22,560
+So, compared to what we've covered before,
+
+148
+00:05:22,560 --> 00:05:24,520
+like another AI video project we've covered, Remotion.
+
+149
+00:05:24,520 --> 00:05:27,860
+And in my opinion, HyperFrame's results are just a bit better.
+
+150
+00:05:27,860 --> 00:05:32,500
+So, if you're looking to mass-produce these kinds of basic, animated short videos,
+
+151
+00:05:32,500 --> 00:05:34,140
+or for those of you involved in dynamic content generation,
+
+152
+00:05:34,140 --> 00:05:35,230
+you'll want to check this out.
+
+153
+00:05:35,230 --> 00:05:37,890
+Next up, we have "Understand Anything," which is a plugin for Claude Code.
+
+154
+00:05:37,890 --> 00:05:40,270
+It can help you take any code repository,
+
+155
+00:05:40,270 --> 00:05:40,950
+and knowledge bases,
+
+156
+00:05:40,950 --> 00:05:44,080
+
+
+157
+00:05:44,080 --> 00:05:45,800
+For instance, let's say you get assigned to a new project.
+
+158
+00:05:45,800 --> 00:05:46,880
+and it has hundreds of thousands of lines of code.
+
+159
+00:05:46,880 --> 00:05:48,440
+So where do you even begin?
+
+160
+00:05:48,440 --> 00:05:51,780
+Well, the answer this project gives is: forget the code, look at the diagram first.
+
+161
+00:05:51,780 --> 00:05:54,240
+So, its approach is to use a multi-agent pipeline.
+
+162
+00:05:54,240 --> 00:05:55,300
+for your code repository,
+
+163
+00:05:55,300 --> 00:05:57,860
+to perform static analysis and large model processing.
+
+164
+00:05:57,860 --> 00:06:00,560
+and automatically builds a knowledge graph that includes every
+
+165
+00:06:00,560 --> 00:06:03,050
+a knowledge graph of files, functions, classes, and dependencies.
+
+166
+00:06:03,050 --> 00:06:07,120
+And then, it gives you an interactive dashboard for visual exploration.
+
+167
+00:06:07,120 --> 00:06:09,640
+So, how does this compare to Git Nexus, which I've covered before?
+
+168
+00:06:09,640 --> 00:06:12,180
+What's special about this project is that it's about teaching, not just showing off.
+
+169
+00:06:12,180 --> 00:06:13,600
+It doesn't just display the structure,
+
+170
+00:06:13,600 --> 00:06:15,680
+It also provides AI-generated guidance.
+
+171
+00:06:15,680 --> 00:06:17,040
+Each node's summary, semantic tags, and any two...
+
+172
+00:06:17,040 --> 00:06:20,210
+and finding the dependency paths between any two nodes.
+
+173
+00:06:20,210 --> 00:06:23,430
+For Cloud Code users, it's pretty much ready to go right out of the box.
+
+174
+00:06:23,430 --> 00:06:25,600
+If you're interested, feel free to give it a try yourself.
+
+175
+00:06:25,600 --> 00:06:28,000
+This project is a complete Cloud Code skill pack for academic research.
+
+176
+00:06:28,000 --> 00:06:32,010
+It covers the entire process, from research to paper publication.
+
+177
+00:06:32,010 --> 00:06:33,210
+So, this set of skills...
+
+178
+00:06:33,210 --> 00:06:35,730
+You could say it hits right where students hurt the most.
+
+179
+00:06:35,730 --> 00:06:37,250
+It includes four skills.
+
+180
+00:06:37,250 --> 00:06:40,220
+Specifically, they cover paper research, writing, peer review, and finalizing the draft.
+
+181
+00:06:40,220 --> 00:06:42,140
+So, to install it in Claude Code...
+
+182
+00:06:42,140 --> 00:06:43,060
+It only takes two commands.
+
+183
+00:06:43,060 --> 00:06:44,380
+First, install the marketplace.
+
+184
+00:06:44,380 --> 00:06:46,070
+And then, go ahead and install the skill.
+
+185
+00:06:46,070 --> 00:06:47,890
+So, this project includes four different teams.
+
+186
+00:06:47,890 --> 00:06:49,590
+The first one is Deep Research.
+
+187
+00:06:49,590 --> 00:06:51,510
+a research team that includes 13 agents,
+
+188
+00:06:51,510 --> 00:06:52,960
+This team is responsible for literature research.
+
+189
+00:06:52,960 --> 00:06:55,200
+the design of methodologies,
+
+190
+00:06:55,200 --> 00:06:58,440
+The Academic Paper team is a writing team with 12 agents.
+
+191
+00:06:58,440 --> 00:07:00,480
+From designing the outline to building the argumentation,
+
+192
+00:07:00,480 --> 00:07:02,770
+draft writing, and even a bilingual abstract.
+
+193
+00:07:02,770 --> 00:07:06,370
+Next up, we have 'Academic Paper Review', which is a seven-agent reviewing team.
+
+194
+00:07:06,370 --> 00:07:08,570
+evaluating everything from the methodology and disciplinary perspectives to
+
+195
+00:07:08,570 --> 00:07:11,350
+scoring it across multiple dimensions, like its interdisciplinary value.
+
+196
+00:07:11,350 --> 00:07:14,510
+And finally, we have Academic Pipeline, which is the orchestrator for this whole process.
+
+197
+00:07:14,510 --> 00:07:18,120
+It strings the first three teams together into a 10-stage pipeline.
+
+198
+00:07:18,120 --> 00:07:20,240
+All that tedious paper work that used to give you a headache...
+
+199
+00:07:20,240 --> 00:07:22,520
+now it can all be streamlined into one single workflow.
+
+200
+00:07:22,520 --> 00:07:24,280
+All I can say is, back when I was in grad school...
+
+201
+00:07:24,280 --> 00:07:25,820
+Man, if only this had existed back then.
+
+202
+00:07:25,820 --> 00:07:27,420
+And for the last thing, I want to share a couple of resources with you.
+
+203
+00:07:27,420 --> 00:07:29,960
+The first one is "How OpenAI Uses Codex".
+
+204
+00:07:29,960 --> 00:07:32,500
+
+
+205
+00:07:32,500 --> 00:07:35,260
+to share with their internal team on how to use Codex.
+
+206
+00:07:35,260 --> 00:07:37,100
+And its use cases aren't just limited to programming.
+
+207
+00:07:37,100 --> 00:07:39,300
+It also covers things like organizing notes,
+
+208
+00:07:39,300 --> 00:07:40,280
+prototyping, time management, and more.
+
+209
+00:07:40,280 --> 00:07:42,680
+And speaking of programming, Codex has honestly been getting better and better lately.
+
+210
+00:07:42,680 --> 00:07:43,710
+Definitely worth a shot.
+
+211
+00:07:43,710 --> 00:07:46,350
+The second one is about organizational change in the age of artificial intelligence.
+
+212
+00:07:46,350 --> 00:07:48,669
+on how organizations can maximize the potential of AI.
+
+213
+00:07:48,669 --> 00:07:52,189
+This is a white paper jointly published by the World Economic Forum and Accenture.
+
+214
+00:07:52,189 --> 00:07:53,829
+It primarily explores how businesses in the AI era can move from...
+
+215
+00:07:53,829 --> 00:07:57,180
+and move from localized pilots to organizational restructuring.
+
+216
+00:07:57,180 --> 00:07:59,520
+AI isn't just a tool for boosting efficiency; it's much more than that.
+
+217
+00:07:59,520 --> 00:08:02,080
+It should be deeply embedded in the customer experience,
+
+218
+00:08:02,080 --> 00:08:04,640
+into operations, R&D, strategy, and the talent system.
+
+219
+00:08:04,640 --> 00:08:06,549
+and reshape the entire enterprise workflow.
+
+220
+00:08:06,549 --> 00:08:08,629
+So, if you're interested, just let me know.
+
+221
+00:08:08,629 --> 00:08:09,949
+Alright, that's everything for this week.
+
+222
+00:08:09,949 --> 00:08:11,100
+We'll see you in the next one.
+

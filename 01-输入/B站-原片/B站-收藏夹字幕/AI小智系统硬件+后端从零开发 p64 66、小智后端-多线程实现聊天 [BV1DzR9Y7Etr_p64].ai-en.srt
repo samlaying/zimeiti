@@ -1,0 +1,1264 @@
+1
+00:00:00,860 --> 00:00:04,560
+Alright, let's talk about implementing chat using multithreading in this lesson.
+
+2
+00:00:04,560 --> 00:00:08,060
+First, let's look at why we need to use multithreading.
+
+3
+00:00:08,060 --> 00:00:10,670
+Let's examine the flaws in our current code.
+
+4
+00:00:10,670 --> 00:00:13,070
+First, this is a synchronous call here.
+
+5
+00:00:13,070 --> 00:00:14,510
+Even if you use an asynchronous call, it won't help.
+
+6
+00:00:14,510 --> 00:00:15,879
+Asynchronous calls internally,
+
+7
+00:00:15,879 --> 00:00:19,239
+Because true asynchronous calls require implementation at the lower level.
+
+8
+00:00:19,239 --> 00:00:20,339
+It also needs to be an asynchronous call.
+
+9
+00:00:20,339 --> 00:00:24,010
+Here, we'll make some adjustments at the OPEX part.
+
+10
+00:00:24,010 --> 00:00:24,730
+It's not OPEX
+
+11
+00:00:24,730 --> 00:00:26,550
+This part is for voice
+
+12
+00:00:26,550 --> 00:00:28,590
+Recognize the internal workings of speech recognition
+
+13
+00:00:28,590 --> 00:00:32,890
+There might be blockages within the internal system
+
+14
+00:00:32,890 --> 00:00:34,470
+That is, its synchronization method
+
+15
+00:00:34,470 --> 00:00:36,210
+Because ultimately, when it comes to inference
+
+16
+00:00:36,210 --> 00:00:38,270
+It's likely to be synchronous
+
+17
+00:00:38,270 --> 00:00:41,680
+Another point is the LOM call here
+
+18
+00:00:42,680 --> 00:00:44,340
+This is a network request
+
+19
+00:00:44,340 --> 00:00:48,130
+So you probably can't test this place now
+
+20
+00:00:48,130 --> 00:00:50,650
+We did try it today
+
+21
+00:00:50,650 --> 00:00:53,470
+Because we had network issues here today
+
+22
+00:00:53,470 --> 00:00:55,790
+Which caused it to fail to call
+
+23
+00:00:55,790 --> 00:00:57,810
+And it got stuck right here
+
+24
+00:00:57,810 --> 00:00:59,130
+This will all get blocked
+
+25
+00:00:59,130 --> 00:01:01,590
+Even if you use asynchronous methods here, it won't work
+
+26
+00:01:01,590 --> 00:01:02,650
+It's the true asynchronous method
+
+27
+00:01:02,650 --> 00:01:04,629
+This one is truly asynchronous
+
+28
+00:01:04,629 --> 00:01:07,490
+Because internally, it sends a WebSocket
+
+29
+00:01:07,490 --> 00:01:10,229
+But the unlocking process here is also synchronous
+
+30
+00:01:10,229 --> 00:01:12,549
+It's just that the synchronization time is very short
+
+31
+00:01:12,549 --> 00:01:13,829
+Because this is our string
+
+32
+00:01:13,829 --> 00:01:14,689
+It's just that much
+
+33
+00:01:14,689 --> 00:01:15,969
+It can be ignored
+
+34
+00:01:15,969 --> 00:01:17,909
+However, at the lower level
+
+35
+00:01:17,909 --> 00:01:19,650
+The underlying process is asynchronous
+
+36
+00:01:19,650 --> 00:01:22,450
+So this is where the true asynchrony comes into play
+
+37
+00:01:22,450 --> 00:01:25,350
+But these places are not asynchronous, though.
+
+38
+00:01:25,350 --> 00:01:28,350
+So, why do we need to use multithreading?
+
+39
+00:01:28,350 --> 00:01:28,870
+That's how it is.
+
+40
+00:01:28,870 --> 00:01:31,710
+Let's start by creating one.
+
+41
+00:01:31,710 --> 00:01:34,970
+Suppose there's a new blockage here.
+
+42
+00:01:34,970 --> 00:01:35,790
+Let's move in.
+
+43
+00:01:35,790 --> 00:01:39,110
+I'll deliberately add a blockage here.
+
+44
+00:01:39,110 --> 00:01:42,730
+We'll add a synchronous main point here.
+
+45
+00:01:42,730 --> 00:01:46,550
+Let it sleep for ten seconds.
+
+46
+00:01:46,550 --> 00:01:50,430
+This sleep method here is a synchronous approach.
+
+47
+00:01:50,430 --> 00:01:53,230
+Of course, you can also use a regular asynchronous method for sleeping.
+
+48
+00:01:53,230 --> 00:01:56,740
+Here, we're just verifying the blocking nature of the synchronous method.
+
+49
+00:01:56,740 --> 00:01:58,460
+Now, let's take a look.
+
+50
+00:01:58,460 --> 00:01:59,180
+Let's run it.
+
+51
+00:02:00,260 --> 00:02:01,880
+Then, let's connect with this.
+
+52
+00:02:01,880 --> 00:02:04,340
+Let's see what the outcome will be.
+
+53
+00:02:07,760 --> 00:02:09,759
+Turn this down a bit.
+
+54
+00:02:18,680 --> 00:02:20,000
+Then, let's open two instances.
+
+55
+00:02:21,360 --> 00:02:24,960
+Let him see what issues these two connections might cause.
+
+56
+00:02:28,300 --> 00:02:30,080
+Let's connect this one first.
+
+57
+00:02:30,080 --> 00:02:31,540
+There's no problem with this connection.
+
+58
+00:02:31,540 --> 00:02:33,960
+This is because he hasn't entered the blocking mode yet.
+
+59
+00:02:33,960 --> 00:02:35,500
+Now let's start recording.
+
+60
+00:02:35,500 --> 00:02:38,700
+It will only receive audio once it enters this mode.
+
+61
+00:02:38,700 --> 00:02:40,060
+That's when the blocking occurs, right?
+
+62
+00:02:40,060 --> 00:02:42,070
+Hello, how are you?
+
+63
+00:02:42,070 --> 00:02:43,430
+What are you up to?
+
+64
+00:02:43,430 --> 00:02:45,010
+Then it starts here
+
+65
+00:02:45,010 --> 00:02:46,090
+See if it recognizes it
+
+66
+00:02:46,090 --> 00:02:46,570
+Move on to the next step
+
+67
+00:02:46,570 --> 00:02:47,530
+Now we connect this
+
+68
+00:02:47,530 --> 00:02:48,550
+See, it’s not connecting
+
+69
+00:02:48,550 --> 00:02:50,130
+It’s blocked
+
+70
+00:02:50,130 --> 00:02:50,670
+Right?
+
+71
+00:02:50,670 --> 00:02:51,430
+It’s the main thread
+
+72
+00:02:51,430 --> 00:02:52,590
+It blocks the main thread directly
+
+73
+00:02:52,590 --> 00:02:54,610
+That's definitely unacceptable, right?
+
+74
+00:02:54,610 --> 00:02:56,690
+What else can we do here?
+
+75
+00:02:56,690 --> 00:02:57,420
+Right?
+
+76
+00:02:57,420 --> 00:02:58,020
+In that case,
+
+77
+00:02:58,020 --> 00:03:01,839
+You can see it gets stuck here for ten seconds before it connects.
+
+78
+00:03:01,839 --> 00:03:04,519
+Otherwise, it would just keep waiting here, right?
+
+79
+00:03:04,519 --> 00:03:07,760
+This means the main thread has already been blocked.
+
+80
+00:03:07,760 --> 00:03:09,520
+But in the end, you can see it does recognize it.
+
+81
+00:03:09,520 --> 00:03:09,880
+No problem.
+
+82
+00:03:09,880 --> 00:03:12,920
+But in this place, it's like being inside the system
+
+83
+00:03:12,920 --> 00:03:14,340
+Right, within this context
+
+84
+00:03:14,340 --> 00:03:15,960
+We intentionally added a blockage
+
+85
+00:03:15,960 --> 00:03:17,000
+But under normal circumstances
+
+86
+00:03:17,000 --> 00:03:18,400
+If he makes a request here
+
+87
+00:03:18,400 --> 00:03:21,710
+If the underlying layer doesn't use an asynchronous method
+
+88
+00:03:21,710 --> 00:03:23,510
+Even if you call it asynchronously, it won't work
+
+89
+00:03:23,510 --> 00:03:26,730
+So we decided to use a synchronous approach here
+
+90
+00:03:26,730 --> 00:03:29,970
+Implementing it with a thread pool
+
+91
+00:03:29,970 --> 00:03:31,570
+Let's use multithreading
+
+92
+00:03:31,570 --> 00:03:33,090
+Let's take a look at how we can do that
+
+93
+00:03:33,090 --> 00:03:33,730
+Right here
+
+94
+00:03:33,730 --> 00:03:36,459
+Now, this area is essentially a single unit
+
+95
+00:03:36,459 --> 00:03:38,539
+You can see it's divided into many parts
+
+96
+00:03:38,539 --> 00:03:40,859
+We should put all of these into the thread pool
+
+97
+00:03:40,859 --> 00:03:43,339
+That is, to prevent them from blocking the main thread
+
+98
+00:03:43,339 --> 00:03:45,180
+That's about it
+
+99
+00:03:45,180 --> 00:03:48,520
+There might be synchronous code in here, right
+
+100
+00:03:48,520 --> 00:03:50,960
+So, how do we put it into a thread pool?
+
+101
+00:03:50,960 --> 00:03:53,240
+First, let's take a quick look at what multithreading is about.
+
+102
+00:03:53,240 --> 00:03:55,740
+We don't need to delve too deeply into it.
+
+103
+00:03:55,740 --> 00:03:57,280
+Because going too deep might only confuse you,
+
+104
+00:03:57,280 --> 00:03:59,120
+especially if you haven't dealt with it before.
+
+105
+00:03:59,120 --> 00:04:01,279
+You might find it a bit hard to grasp.
+
+106
+00:04:01,279 --> 00:04:02,519
+Just get a general idea.
+
+107
+00:04:02,519 --> 00:04:07,140
+In this Python process, there's a main thread,
+
+108
+00:04:07,140 --> 00:04:09,000
+and that main thread is the code we're writing right now.
+
+109
+00:04:09,000 --> 00:04:11,040
+We are currently running on the main thread.
+
+110
+00:04:11,040 --> 00:04:14,149
+Because we haven’t started any additional threads.
+
+111
+00:04:14,149 --> 00:04:15,869
+Within this main thread,
+
+112
+00:04:15,869 --> 00:04:16,849
+it calls,
+
+113
+00:04:16,849 --> 00:04:18,949
+if our code continues to run here,
+
+114
+00:04:18,949 --> 00:04:21,160
+without submitting tasks to the thread queue,
+
+115
+00:04:21,160 --> 00:04:22,260
+we will keep executing,
+
+116
+00:04:22,260 --> 00:04:23,180
+if it reaches this point,
+
+117
+00:04:23,180 --> 00:04:24,300
+if there is a synchronization
+
+118
+00:04:24,300 --> 00:04:25,880
+The blocking one we just synchronized
+
+119
+00:04:25,880 --> 00:04:27,010
+it will wait synchronously
+
+120
+00:04:27,010 --> 00:04:28,370
+it will pause right here
+
+121
+00:04:28,370 --> 00:04:31,220
+other processes won't be able to proceed
+
+122
+00:04:31,220 --> 00:04:31,740
+the others
+
+123
+00:04:31,740 --> 00:04:33,140
+if you connect over here
+
+124
+00:04:33,140 --> 00:04:35,170
+it hasn't reached this point yet, right?
+
+125
+00:04:35,170 --> 00:04:36,670
+you can't run it
+
+126
+00:04:36,670 --> 00:04:38,470
+because it's a loop event
+
+127
+00:04:38,470 --> 00:04:39,630
+It hasn’t arrived here yet.
+
+128
+00:04:39,630 --> 00:04:40,919
+It’s still waiting there.
+
+129
+00:04:40,919 --> 00:04:42,439
+That’s definitely not going to work.
+
+130
+00:04:42,439 --> 00:04:43,419
+So what should we do?
+
+131
+00:04:43,419 --> 00:04:45,240
+Let’s start by creating a thread pool.
+
+132
+00:04:45,240 --> 00:04:47,760
+This thread pool is somewhat similar to a thread.
+
+133
+00:04:47,760 --> 00:04:49,480
+It has a synchronous relationship with it.
+
+134
+00:04:49,480 --> 00:04:51,060
+And it can run in parallel.
+
+135
+00:04:51,060 --> 00:04:52,800
+You can understand it this way.
+
+136
+00:04:52,800 --> 00:04:54,120
+You can think of a couple in this way
+
+137
+00:04:54,120 --> 00:04:56,920
+it’s on the same level as this one
+
+138
+00:04:56,920 --> 00:04:59,160
+so your level would be right here
+
+139
+00:04:59,160 --> 00:05:01,800
+he just needs to submit some time-consuming tasks
+
+140
+00:05:01,800 --> 00:05:03,120
+these synchronous tasks, that is
+
+141
+00:05:03,120 --> 00:05:04,620
+directly into this thread
+
+142
+00:05:04,620 --> 00:05:06,400
+there’s a thread pool inside
+
+143
+00:05:06,400 --> 00:05:09,370
+it manages which thread class to use
+
+144
+00:05:09,370 --> 00:05:11,050
+and the thread pool contains many threads
+
+145
+00:05:11,050 --> 00:05:12,659
+It can create multiple threads
+
+146
+00:05:12,659 --> 00:05:14,139
+Then when you submit one
+
+147
+00:05:14,139 --> 00:05:15,719
+It will execute in a thread
+
+148
+00:05:15,719 --> 00:05:17,970
+Even if you have this part here
+
+149
+00:05:17,970 --> 00:05:19,890
+The main thread definitely shouldn’t be blocked
+
+150
+00:05:19,890 --> 00:05:21,950
+Your logic in the main thread shouldn’t be blocked
+
+151
+00:05:21,950 --> 00:05:24,220
+But you can do blocking operations here
+
+152
+00:05:24,220 --> 00:05:26,040
+Synchronous blocking here is fine
+
+153
+00:05:26,040 --> 00:05:27,040
+It won’t affect the main thread
+
+154
+00:05:27,040 --> 00:05:28,740
+It won't affect other threads
+
+155
+00:05:28,740 --> 00:05:32,849
+This is achieved through our thread pool
+
+156
+00:05:32,849 --> 00:05:34,449
+How do we create such a thread pool?
+
+157
+00:05:34,449 --> 00:05:36,179
+Let's first create a thread pool
+
+158
+00:05:36,179 --> 00:05:37,339
+When creating a thread pool
+
+159
+00:05:37,339 --> 00:05:38,979
+we can directly do it in this link
+
+160
+00:05:38,979 --> 00:05:42,110
+create a thread pool for each connection
+
+161
+00:05:42,350 --> 00:05:43,110
+Let's take a look
+
+162
+00:05:43,110 --> 00:05:44,110
+in this section
+
+163
+00:05:44,110 --> 00:05:46,070
+Here, we directly initialize it.
+
+164
+00:05:46,070 --> 00:05:48,150
+We create such a thread pool.
+
+165
+00:05:48,449 --> 00:05:49,489
+Let's take a look.
+
+166
+00:05:49,489 --> 00:05:54,180
+Here, we import the thread pool value.
+
+167
+00:05:54,180 --> 00:05:54,980
+It's created like this.
+
+168
+00:05:54,980 --> 00:05:58,010
+First, we create a member variable.
+
+169
+00:05:58,010 --> 00:06:00,850
+This member variable is an object of the thread pool.
+
+170
+00:06:00,850 --> 00:06:03,590
+Then, here,
+
+171
+00:06:03,590 --> 00:06:05,610
+we have the method to create the thread pool.
+
+172
+00:06:05,610 --> 00:06:07,330
+This one follows this parameter
+
+173
+00:06:07,330 --> 00:06:10,550
+We set this thread value to the maximum
+
+174
+00:06:10,550 --> 00:06:12,810
+you can't increase it indefinitely
+
+175
+00:06:12,810 --> 00:06:13,370
+indefinitely
+
+176
+00:06:13,370 --> 00:06:17,740
+as it will affect your entire resource
+
+177
+00:06:17,740 --> 00:06:20,240
+so here we set the maximum for each connection
+
+178
+00:06:20,240 --> 00:06:23,480
+to allow only ten threads to be created
+
+179
+00:06:23,480 --> 00:06:25,820
+if you submit more than ten tasks
+
+180
+00:06:25,820 --> 00:06:27,620
+they will wait in the queue
+
+181
+00:06:27,620 --> 00:06:29,510
+After other threads have completed their execution
+
+182
+00:06:29,510 --> 00:06:30,790
+it will be an idle thread
+
+183
+00:06:30,790 --> 00:06:32,230
+that will handle the next one
+
+184
+00:06:32,230 --> 00:06:34,450
+Otherwise, if you submit five
+
+185
+00:06:34,450 --> 00:06:38,110
+submitting the sixth one will still execute immediately
+
+186
+00:06:38,110 --> 00:06:40,070
+it will be added to this uh
+
+187
+00:06:40,070 --> 00:06:42,550
+the task invocation class can still execute it
+
+188
+00:06:42,550 --> 00:06:44,880
+But if you set it to ten here
+
+189
+00:06:44,880 --> 00:06:46,180
+submitting the 11th one
+
+190
+00:06:46,180 --> 00:06:49,320
+Then, if the tenth thread is still working,
+
+191
+00:06:49,320 --> 00:06:51,080
+you'll be placed in the queue.
+
+192
+00:06:51,080 --> 00:06:54,730
+Next time, it will be called after others have completed their tasks.
+
+193
+00:06:54,730 --> 00:06:57,370
+Of course, we don't need to handle the complex work here,
+
+194
+00:06:57,370 --> 00:06:59,130
+it's all managed for us now.
+
+195
+00:06:59,130 --> 00:07:01,480
+We just need to submit tasks to it.
+
+196
+00:07:01,480 --> 00:07:02,160
+So, how do we do that?
+
+197
+00:07:02,160 --> 00:07:04,420
+First, a thread pool is created here,
+
+198
+00:07:04,420 --> 00:07:05,220
+and then
+
+199
+00:07:05,220 --> 00:07:08,340
+Let's implement the method we just discussed here.
+
+200
+00:07:08,340 --> 00:07:13,340
+We need to write a method in this message, right?
+
+201
+00:07:13,340 --> 00:07:16,260
+We'll move the synchronization-related methods.
+
+202
+00:07:16,260 --> 00:07:17,640
+We won't do that here.
+
+203
+00:07:17,640 --> 00:07:19,070
+Let's cut it out.
+
+204
+00:07:19,070 --> 00:07:22,450
+Then we'll create the method here.
+
+205
+00:07:22,450 --> 00:07:23,810
+We just need to create a synchronization method.
+
+206
+00:07:23,810 --> 00:07:24,770
+This is the synchronization method we need.
+
+207
+00:07:24,770 --> 00:07:28,140
+Because we ultimately need to submit this to the thread.
+
+208
+00:07:28,140 --> 00:07:28,980
+Inside the thread pool
+
+209
+00:07:31,660 --> 00:07:33,450
+let's start chatting
+
+210
+00:07:33,890 --> 00:07:36,090
+then we don't need to pass anything here
+
+211
+00:07:36,090 --> 00:07:37,090
+we can pass anything
+
+212
+00:07:37,090 --> 00:07:38,190
+let's leave it like this for now
+
+213
+00:07:38,190 --> 00:07:41,730
+then we'll paste the code we just had here
+
+214
+00:07:41,730 --> 00:07:42,890
+now let's take a look
+
+215
+00:07:43,970 --> 00:07:44,730
+right here
+
+216
+00:07:44,730 --> 00:07:46,610
+we'll put the synchronization-related code
+
+217
+00:07:46,610 --> 00:07:48,819
+Put it all into this method
+
+218
+00:07:48,819 --> 00:07:50,419
+This method is a synchronous one
+
+219
+00:07:50,419 --> 00:07:51,279
+No worries
+
+220
+00:07:51,279 --> 00:07:52,579
+Within this synchronous method
+
+221
+00:07:52,579 --> 00:07:53,719
+And in this case
+
+222
+00:07:53,719 --> 00:07:56,540
+We can't use this for asynchronous operations
+
+223
+00:07:56,540 --> 00:07:57,940
+Even though it's an asynchronous function
+
+224
+00:07:57,940 --> 00:07:59,340
+We can't use it in an asynchronous manner
+
+225
+00:07:59,340 --> 00:08:01,420
+Because this part isn't an asynchronous method
+
+226
+00:08:01,420 --> 00:08:02,600
+It's a synchronous method.
+
+227
+00:08:02,600 --> 00:08:04,440
+So we'll remove this part.
+
+228
+00:08:04,440 --> 00:08:06,400
+The whole process runs right here.
+
+229
+00:08:06,400 --> 00:08:10,190
+Then we treat this as a new one each time.
+
+230
+00:08:10,190 --> 00:08:11,950
+Whenever we receive this audio input,
+
+231
+00:08:11,950 --> 00:08:13,030
+we create one,
+
+232
+00:08:13,030 --> 00:08:16,869
+and submit it to the thread pool.
+
+233
+00:08:16,869 --> 00:08:18,249
+Alright.
+
+234
+00:08:19,790 --> 00:08:21,930
+What was that thread pool we just mentioned?
+
+235
+00:08:21,930 --> 00:08:23,330
+Let's make a copy.
+
+236
+00:08:23,330 --> 00:08:24,470
+Just write it from memory.
+
+237
+00:08:24,470 --> 00:08:27,060
+Just go ahead and do it.
+
+238
+00:08:27,060 --> 00:08:29,890
+Submit this current one.
+
+239
+00:08:29,890 --> 00:08:31,310
+We don’t need to pass any parameters here.
+
+240
+00:08:31,310 --> 00:08:32,730
+So there’s no need to add a comma.
+
+241
+00:08:32,730 --> 00:08:33,409
+What did you add?
+
+242
+00:08:33,409 --> 00:08:34,210
+If you need all the parameters,
+
+243
+00:08:34,210 --> 00:08:36,150
+just follow it with its parameters.
+
+244
+00:08:36,150 --> 00:08:38,090
+We don't need to spread it around.
+
+245
+00:08:38,090 --> 00:08:41,370
+So we can just submit this to the thread pool.
+
+246
+00:08:41,370 --> 00:08:42,309
+We don't have to worry about it.
+
+247
+00:08:42,309 --> 00:08:43,669
+It will run in the background.
+
+248
+00:08:43,669 --> 00:08:44,530
+In that thread pool.
+
+249
+00:08:44,530 --> 00:08:47,050
+It will find an idle thread.
+
+250
+00:08:47,050 --> 00:08:48,570
+To execute the task.
+
+251
+00:08:48,570 --> 00:08:50,810
+To carry out the task we submitted.
+
+252
+00:08:50,810 --> 00:08:51,930
+We don't have to worry about it.
+
+253
+00:08:51,930 --> 00:08:53,450
+So, let's take a look at this.
+
+254
+00:08:53,450 --> 00:08:54,760
+That's it, just like that.
+
+255
+00:08:54,760 --> 00:08:57,160
+And here we go.
+
+256
+00:08:57,160 --> 00:08:58,500
+Just submit it directly, and it's done.
+
+257
+00:08:58,500 --> 00:08:59,880
+Now, let's give it a test.
+
+258
+00:08:59,880 --> 00:09:01,160
+Let's test it out now.
+
+259
+00:09:01,160 --> 00:09:04,760
+Similarly, let's add this part as well.
+
+260
+00:09:04,760 --> 00:09:08,060
+Remember, we added a synchronization wait just now?
+
+261
+00:09:08,060 --> 00:09:09,500
+We'll add another synchronization wait.
+
+262
+00:09:09,500 --> 00:09:11,080
+Let's see what's happening now.
+
+263
+00:09:11,080 --> 00:09:14,230
+Will this affect our new connection?
+
+264
+00:09:14,230 --> 00:09:17,220
+Let's hold on for another ten seconds.
+
+265
+00:09:17,220 --> 00:09:20,120
+Then we'll run it again.
+
+266
+00:09:20,120 --> 00:09:21,000
+Look here.
+
+267
+00:09:21,000 --> 00:09:22,840
+We're still using the same synchronization method.
+
+268
+00:09:22,840 --> 00:09:23,920
+It's the same waiting process, right?
+
+269
+00:09:23,920 --> 00:09:27,439
+In theory, if it's blocked, it should...
+
+270
+00:09:27,439 --> 00:09:29,379
+It would directly block the main thread.
+
+271
+00:09:29,379 --> 00:09:30,159
+This main thread
+
+272
+00:09:30,159 --> 00:09:32,299
+But now we're using a thread pool approach
+
+273
+00:09:32,299 --> 00:09:33,530
+Let's give it another try
+
+274
+00:09:33,530 --> 00:09:37,030
+Let's refresh these two again
+
+275
+00:09:37,030 --> 00:09:38,010
+Refresh it
+
+276
+00:09:38,010 --> 00:09:40,350
+Then reconnect here
+
+277
+00:09:40,350 --> 00:09:44,070
+And let's start recording here
+
+278
+00:09:44,700 --> 00:09:45,240
+Hello
+
+279
+00:09:45,240 --> 00:09:46,790
+What are you up to
+
+280
+00:09:46,790 --> 00:09:48,990
+Alright, this thread is blocked here.
+
+281
+00:09:48,990 --> 00:09:50,750
+But it's fine if we connect now.
+
+282
+00:09:50,750 --> 00:09:53,050
+See, the main thread isn't blocked.
+
+283
+00:09:53,050 --> 00:09:54,330
+We can record audio as well.
+
+284
+00:09:54,330 --> 00:09:54,730
+Hello.
+
+285
+00:09:54,730 --> 00:09:55,810
+What are you up to?
+
+286
+00:09:55,810 --> 00:09:57,930
+See, it can do that, right?
+
+287
+00:09:57,930 --> 00:10:00,890
+And as you can see, this is the previous one that...
+
+288
+00:10:00,890 --> 00:10:03,720
+responded after a ten-second sleep, right?
+
+289
+00:10:03,720 --> 00:10:06,720
+And then there's another one that also sleeps for ten seconds.
+
+290
+00:10:06,720 --> 00:10:07,800
+It will respond shortly.
+
+291
+00:10:07,800 --> 00:10:08,380
+Let's take a look.
+
+292
+00:10:08,380 --> 00:10:09,810
+This is the next one, right?
+
+293
+00:10:09,810 --> 00:10:13,070
+So this way, it supports multiple connections.
+
+294
+00:10:13,070 --> 00:10:14,370
+Multiple chats without any issues.
+
+295
+00:10:14,370 --> 00:10:16,819
+This is essentially a multi-threaded operation.
+
+296
+00:10:16,819 --> 00:10:19,480
+This is concurrent, unlike our previous method.
+
+297
+00:10:19,480 --> 00:10:20,760
+If one gets blocked, it can't proceed to the next chat, right?
+
+298
+00:10:20,760 --> 00:10:23,260
+But in this case, if one connection gets blocked, it only affects the current chat, right?
+
+299
+00:10:23,260 --> 00:10:25,560
+For example, in this first instance, if one connection gets blocked,
+
+300
+00:10:25,560 --> 00:10:28,990
+it only affects the current chat, right?
+
+301
+00:10:28,990 --> 00:10:31,590
+Other calls won't be blocked when they are made.
+
+302
+00:10:31,590 --> 00:10:34,260
+The network will function normally, right?
+
+303
+00:10:34,260 --> 00:10:36,700
+So it won't affect the next one.
+
+304
+00:10:36,700 --> 00:10:38,480
+This is a multi-threaded operation, as you can see.
+
+305
+00:10:38,480 --> 00:10:42,410
+Let's take a look.
+
+306
+00:10:42,410 --> 00:10:43,430
+Here, we've implemented multi-threading, right?
+
+307
+00:10:43,430 --> 00:10:45,410
+So let's add a comment here to start the chat.
+
+308
+00:10:45,410 --> 00:10:49,250
+Start the chat.
+
+309
+00:10:51,840 --> 00:10:55,560
+Then here, we submit the task, right?
+
+310
+00:10:56,220 --> 00:10:58,140
+So we submit the task here, right?
+
+311
+00:10:58,140 --> 00:10:59,420
+And then, don't we need to perform voice synthesis here?
+
+312
+00:10:59,420 --> 00:11:00,260
+Here, we also need to submit it to the queue, right?
+
+313
+00:11:00,260 --> 00:11:02,620
+Should we proceed with speech synthesis here?
+
+314
+00:11:02,620 --> 00:11:03,340
+We've added this marker, right?
+
+315
+00:11:03,340 --> 00:11:06,840
+We'll cover this in more detail in the next class.
+
+316
+00:11:13,100 --> 00:11:14,080
+That's it for this lesson.
+

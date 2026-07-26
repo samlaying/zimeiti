@@ -1,0 +1,944 @@
+1
+00:00:00,160 --> 00:00:01,320
+Hello everyone
+
+2
+00:00:01,320 --> 00:00:02,680
+I'm September
+
+3
+00:00:02,680 --> 00:00:06,420
+I wonder if you've seen the KIMI K2.5 technical report
+
+4
+00:00:06,420 --> 00:00:08,780
+there's a very interesting piece of work
+
+5
+00:00:08,780 --> 00:00:11,120
+Agent Swarm
+
+6
+00:00:11,120 --> 00:00:13,430
+which translates to agent swarm
+
+7
+00:00:13,750 --> 00:00:18,070
+This feels like it could become a mainstream architecture in the agent direction in the future.
+
+8
+00:00:18,070 --> 00:00:20,120
+a mainstream architecture
+
+9
+00:00:20,120 --> 00:00:23,689
+Let's first review the traditional agent paradigm
+
+10
+00:00:23,689 --> 00:00:25,629
+This single-process model
+
+11
+00:00:25,629 --> 00:00:27,529
+It is essentially the agent's
+
+12
+00:00:27,529 --> 00:00:28,649
+in its early stages
+
+13
+00:00:28,649 --> 00:00:32,460
+The simplest model is a large language model plus tool calling.
+
+14
+00:00:32,460 --> 00:00:36,880
+Then, as the complexity of tasks increases
+
+15
+00:00:36,880 --> 00:00:39,260
+the dual-agent tower architecture emerged
+
+16
+00:00:39,260 --> 00:00:42,160
+and multi-process architectures
+
+17
+00:00:42,160 --> 00:00:43,990
+Of course, this is also related to
+
+18
+00:00:43,990 --> 00:00:47,030
+the model's own reasoning and planning capabilities
+
+19
+00:00:47,030 --> 00:00:51,160
+gradually enhanced to some extent
+
+20
+00:00:51,160 --> 00:00:52,180
+Dual-Agent collaboration
+
+21
+00:00:52,180 --> 00:00:55,140
+This model involves two agents
+
+22
+00:00:55,140 --> 00:00:56,680
+One is the planner
+
+23
+00:00:56,680 --> 00:00:58,820
+one is the executor
+
+24
+00:00:58,820 --> 00:01:03,890
+The planner is responsible for formulating a plan based on the specific task.
+
+25
+00:01:03,890 --> 00:01:07,730
+and the executor is responsible for invoking specific tools
+
+26
+00:01:07,730 --> 00:01:09,600
+to accomplish these plans
+
+27
+00:01:11,280 --> 00:01:13,030
+then the multi-agent architecture
+
+28
+00:01:13,030 --> 00:01:16,070
+I think there are two different patterns
+
+29
+00:01:16,070 --> 00:01:18,890
+The first type is the agent's AS as TOS
+
+30
+00:01:18,890 --> 00:01:22,790
+It is actually quite similar to the classic single-agent architecture
+
+31
+00:01:22,790 --> 00:01:24,650
+except that it treats an agent as
+
+32
+00:01:24,650 --> 00:01:26,730
+as a tool for use
+
+33
+00:01:26,730 --> 00:01:32,290
+Then, there is no interaction between the different sub-agents.
+
+34
+00:01:32,290 --> 00:01:36,700
+For instance, here this master agent
+
+35
+00:01:36,700 --> 00:01:42,800
+It is responsible for selecting different sub-agents based on your task.
+
+36
+00:01:42,800 --> 00:01:44,800
+int to complete these tasks
+
+37
+00:01:44,800 --> 00:01:46,560
+and different sub-agents
+
+38
+00:01:46,560 --> 00:01:51,510
+It is equipped with some callable tools
+
+39
+00:01:51,990 --> 00:01:57,479
+for example, this data analysis sub-agent
+
+40
+00:01:57,479 --> 00:01:59,059
+
+
+41
+00:01:59,059 --> 00:02:01,559
+read, write, and edit
+
+42
+00:02:02,460 --> 00:02:07,530
+Then, uh, this network search agent
+
+43
+00:02:07,530 --> 00:02:09,690
+It can certainly use web search tools
+
+44
+00:02:09,690 --> 00:02:13,390
+or a tool for browser usage
+
+45
+00:02:13,670 --> 00:02:18,130
+The other mode is the directed graph pattern
+
+46
+00:02:18,130 --> 00:02:22,209
+different intelligent agents collaborate with each other
+
+47
+00:02:22,609 --> 00:02:27,670
+We typically use the LGO AF framework to build
+
+48
+00:02:27,670 --> 00:02:31,350
+This directed graph model of multi-agent architecture
+
+49
+00:02:32,390 --> 00:02:34,130
+Let's look at this example uh
+
+50
+00:02:34,130 --> 00:02:37,630
+This one is responsible for formulating the execution plan
+
+51
+00:02:37,630 --> 00:02:40,410
+This one is responsible for execution.
+
+52
+00:02:40,410 --> 00:02:42,380
+After the execution is completed
+
+53
+00:02:42,380 --> 00:02:48,140
+this one is responsible for verification or checking the results of its execution
+
+54
+00:02:48,140 --> 00:02:51,450
+whether there are any omissions or errors
+
+55
+00:02:51,730 --> 00:02:54,030
+After checking, uh
+
+56
+00:02:54,030 --> 00:02:56,730
+This EINT is responsible for updating the plan
+
+57
+00:02:56,730 --> 00:02:59,450
+After the update is completed, proceed with execution.
+
+58
+00:02:59,450 --> 00:03:02,090
+until all plans have been executed
+
+59
+00:03:02,090 --> 00:03:07,339
+eventually generates a complete report of the intermediate processes or the execution results
+
+60
+00:03:07,339 --> 00:03:10,700
+generate a comprehensive report
+
+61
+00:03:10,700 --> 00:03:12,800
+It is a model of this kind
+
+62
+00:03:14,560 --> 00:03:16,090
+and uh
+
+63
+00:03:16,490 --> 00:03:20,410
+The Agent Swarm mentioned in KIMI 2.5
+
+64
+00:03:20,410 --> 00:03:25,150
+Well, its purpose is to address the issue of execution efficiency
+
+65
+00:03:25,150 --> 00:03:27,860
+That is, when we execute sequentially
+
+66
+00:03:27,860 --> 00:03:30,410
+or when executing sequentially
+
+67
+00:03:30,410 --> 00:03:33,490
+especially when multiple tool calls are required
+
+68
+00:03:33,490 --> 00:03:35,649
+its execution efficiency is relatively low
+
+69
+00:03:35,649 --> 00:03:39,649
+and the agent swarm achieves this through parallel execution
+
+70
+00:03:39,649 --> 00:03:43,929
+to improve its execution efficiency
+
+71
+00:03:45,250 --> 00:03:48,730
+For example, if I want the model to help me search for ten
+
+72
+00:03:48,730 --> 00:03:50,350
+papers in three fields
+
+73
+00:03:50,350 --> 00:03:53,010
+If I execute it sequentially
+
+74
+00:03:53,320 --> 00:03:56,320
+it may need to invoke this uh three times
+
+75
+00:03:56,320 --> 00:03:58,709
+web search tool to perform searches
+
+76
+00:03:58,709 --> 00:04:01,989
+So if we use ENGINSWARM
+
+77
+00:04:01,989 --> 00:04:04,169
+this method of parallel search
+
+78
+00:04:04,169 --> 00:04:08,690
+then I just need to create a web search agent
+
+79
+00:04:08,690 --> 00:04:11,490
+and then distribute three tasks
+
+80
+00:04:11,490 --> 00:04:14,410
+These three tasks are executed in parallel
+
+81
+00:04:14,700 --> 00:04:18,260
+By doing so, it can significantly reduce
+
+82
+00:04:18,260 --> 00:04:21,060
+execution time
+
+83
+00:04:21,899 --> 00:04:24,319
+Let's take a look at the architecture of Agent Swarm
+
+84
+00:04:24,319 --> 00:04:28,500
+This is from the KIMI 2.5 paper.
+
+85
+00:04:28,500 --> 00:04:32,980
+Its composition consists of a coordinator
+
+86
+00:04:32,980 --> 00:04:35,960
+It is responsible for creating sub-agents
+
+87
+00:04:35,960 --> 00:04:41,250
+and distributes tasks to different sub-agents.
+
+88
+00:04:41,250 --> 00:04:44,730
+It can distribute tasks among different sub-EDTs.
+
+89
+00:04:44,730 --> 00:04:48,010
+can also distribute different tasks to the same sub-agent
+
+90
+00:04:48,010 --> 00:04:51,010
+to distribute different tasks
+
+91
+00:04:51,010 --> 00:04:53,690
+Here we can see this coordinator
+
+92
+00:04:53,690 --> 00:04:55,790
+It is actually equipped with several tools
+
+93
+00:04:55,790 --> 00:04:59,310
+One is a tool for creating and building sub-agents.
+
+94
+00:04:59,310 --> 00:05:00,690
+one is for distributing tasks
+
+95
+00:05:00,690 --> 00:05:04,320
+as well as search and browser usage
+
+96
+00:05:04,320 --> 00:05:06,960
+using these basic tools uh
+
+97
+00:05:06,960 --> 00:05:11,219
+The difference between it and ZEGA is that
+
+98
+00:05:11,219 --> 00:05:14,339
+It has these two tools.
+
+99
+00:05:14,339 --> 00:05:19,810
+because it needs to create this shot and assign tasks
+
+100
+00:05:19,810 --> 00:05:22,610
+then the diameter does not have these two tools
+
+101
+00:05:22,610 --> 00:05:25,670
+The Diameter actually only has some basic ones
+
+102
+00:05:25,670 --> 00:05:28,810
+such as search and browsing tools
+
+103
+00:05:29,220 --> 00:05:32,500
+Then when the coordinator creates sub-agents
+
+104
+00:05:32,500 --> 00:05:34,140
+the role of a sub-agent
+
+105
+00:05:34,140 --> 00:05:34,740
+which means
+
+106
+00:05:34,740 --> 00:05:38,240
+The system prompt is specified by the coordinator itself.
+
+107
+00:05:39,400 --> 00:05:41,200
+then when distributing tasks
+
+108
+00:05:41,200 --> 00:05:44,859
+it will specifically select a certain professional process
+
+109
+00:05:44,859 --> 00:05:49,839
+and assign specific task descriptions to the selected professional process
+
+110
+00:05:51,780 --> 00:05:56,000
+The purpose of this is for some complex tasks
+
+111
+00:05:56,000 --> 00:05:57,500
+needs to be distributed
+
+112
+00:05:57,500 --> 00:05:59,510
+parallel execution by sub-agents
+
+113
+00:05:59,510 --> 00:06:02,450
+to improve the efficiency of task completion
+
+114
+00:06:02,450 --> 00:06:05,940
+So it relies on creating designated
+
+115
+00:06:05,940 --> 00:06:07,600
+as well as the two tools for task distribution
+
+116
+00:06:07,600 --> 00:06:10,320
+to complete this step
+
+117
+00:06:10,320 --> 00:06:13,240
+However, for some simple tasks, uh,
+
+118
+00:06:13,240 --> 00:06:14,680
+It can solve it by itself
+
+119
+00:06:14,680 --> 00:06:19,629
+It doesn't need to distribute this task anymore
+
+120
+00:06:19,629 --> 00:06:23,990
+At this point, it can utilize some basic tools
+
+121
+00:06:23,990 --> 00:06:25,310
+such as search
+
+122
+00:06:25,310 --> 00:06:27,890
+and the browser, etc.
+
+123
+00:06:27,890 --> 00:06:30,900
+to complete these relatively simple tasks
+
+124
+00:06:30,900 --> 00:06:35,180
+So how can we improve the model's dynamic scheduling capability?
+
+125
+00:06:35,180 --> 00:06:38,640
+The paper proposes a reinforcement learning method
+
+126
+00:06:38,640 --> 00:06:41,880
+called parallel agent reinforcement learning
+
+127
+00:06:41,880 --> 00:06:45,020
+Its reward consists of three parts.
+
+128
+00:06:46,660 --> 00:06:51,239
+Well, this reward is designed to encourage the model to perform concurrent scheduling.
+
+129
+00:06:51,239 --> 00:06:54,019
+The main optimization is to
+
+130
+00:06:54,019 --> 00:06:57,280
+the model's dynamic scheduling capability
+
+131
+00:06:57,280 --> 00:07:00,500
+which encourages the model to create more subprocesses
+
+132
+00:07:00,500 --> 00:07:02,960
+to complete this task
+
+133
+00:07:02,960 --> 00:07:04,800
+As for this reward,
+
+134
+00:07:05,100 --> 00:07:08,800
+It is to prevent the model from pursuing more rewards
+
+135
+00:07:08,800 --> 00:07:11,680
+and creating meaningless agent towers
+
+136
+00:07:11,680 --> 00:07:16,400
+in order to prevent a kind of reward hacking behavior
+
+137
+00:07:18,300 --> 00:07:22,070
+Because our first reward is designed to encourage the model to perform concurrent
+
+138
+00:07:22,070 --> 00:07:23,250
+scheduling professional skills
+
+139
+00:07:23,250 --> 00:07:24,990
+This may result in a situation
+
+140
+00:07:24,990 --> 00:07:27,610
+the model attempts to obtain more of this reward
+
+141
+00:07:27,610 --> 00:07:30,740
+then it will create many professional agents
+
+142
+00:07:30,740 --> 00:07:34,070
+but uh these agents between
+
+143
+00:07:34,070 --> 00:07:37,250
+many of them may be useless
+
+144
+00:07:37,610 --> 00:07:41,209
+So this part is added
+
+145
+00:07:41,209 --> 00:07:46,289
+It depends on whether the created subtasks are successfully completed.
+
+146
+00:07:46,289 --> 00:07:49,660
+and through this, it restricts the model
+
+147
+00:07:49,660 --> 00:07:54,200
+prompt it to create more useful subprocesses
+
+148
+00:07:54,200 --> 00:07:58,460
+Ultimately, this reward is obtained upon task completion.
+
+149
+00:07:58,460 --> 00:08:01,600
+This is the main objective we aim to optimize.
+
+150
+00:08:01,920 --> 00:08:03,320
+Then during the training process
+
+151
+00:08:03,320 --> 00:08:07,240
+These two parameters will dynamically reset to zero
+
+152
+00:08:07,240 --> 00:08:08,960
+as the training progresses
+
+153
+00:08:08,960 --> 00:08:11,880
+the model's ability to dynamically schedule instructions
+
+154
+00:08:11,880 --> 00:08:13,760
+is becoming increasingly stronger
+
+155
+00:08:13,760 --> 00:08:18,280
+In the later stages of training, the focus should be on optimizing the model
+
+156
+00:08:18,280 --> 00:08:21,220
+the ability to accomplish the primary goal
+
+157
+00:08:21,220 --> 00:08:25,060
+which is the ability to accomplish the specific tasks assigned to us
+
+158
+00:08:25,060 --> 00:08:28,020
+because this is our main optimization direction
+
+159
+00:08:28,440 --> 00:08:32,909
+Additionally, during training, the agent is frozen.
+
+160
+00:08:32,909 --> 00:08:36,130
+This is done to address a credit assignment issue
+
+161
+00:08:36,130 --> 00:08:38,640
+and the issue of training instability
+
+162
+00:08:39,080 --> 00:08:41,150
+because in reinforcement learning
+
+163
+00:08:41,150 --> 00:08:45,010
+Outcome-based rewards are typically very sparse.
+
+164
+00:08:45,010 --> 00:08:46,710
+then this outcome reward
+
+165
+00:08:46,710 --> 00:08:48,870
+How to allocate it to different A-keys?
+
+166
+00:08:48,870 --> 00:08:52,050
+It's actually a very difficult thing to do
+
+167
+00:08:52,050 --> 00:08:54,210
+because different IH
+
+168
+00:08:54,850 --> 00:08:58,230
+Because different agents have varying levels of performance
+
+169
+00:08:58,230 --> 00:09:03,100
+and even the same agent may perform well or poorly at different execution steps
+
+170
+00:09:03,100 --> 00:09:03,460
+Um
+
+171
+00:09:03,460 --> 00:09:05,360
+If the result reward
+
+172
+00:09:05,360 --> 00:09:08,080
+evenly distributed among these different professions
+
+173
+00:09:08,080 --> 00:09:10,640
+Well, it's actually not very appropriate.
+
+174
+00:09:10,640 --> 00:09:11,940
+So since it's difficult to distribute
+
+175
+00:09:11,940 --> 00:09:13,880
+Then simply don't split it
+
+176
+00:09:13,880 --> 00:09:16,300
+then simply freeze all the agents
+
+177
+00:09:16,300 --> 00:09:18,180
+only optimize this one
+
+178
+00:09:18,180 --> 00:09:19,580
+coordinator
+
+179
+00:09:21,840 --> 00:09:24,780
+Because intuitively speaking,
+
+180
+00:09:24,780 --> 00:09:28,150
+As long as this thing is optimized well enough
+
+181
+00:09:28,350 --> 00:09:30,030
+then it decomposes tasks and
+
+182
+00:09:30,030 --> 00:09:32,910
+its ability to distribute tasks becomes very strong
+
+183
+00:09:33,830 --> 00:09:35,790
+As long as it breaks down tasks effectively
+
+184
+00:09:35,790 --> 00:09:40,440
+that is, um, his description of individual subtasks is sufficiently clear
+
+185
+00:09:40,440 --> 00:09:42,800
+so that the subprocesses can be more clear
+
+186
+00:09:42,800 --> 00:09:45,280
+clearly understand the requirement
+
+187
+00:09:45,280 --> 00:09:49,550
+At the same time, it can also improve the execution success rate of the child process.
+
+188
+00:09:49,550 --> 00:09:53,700
+So it indirectly optimizes in this way
+
+189
+00:09:53,700 --> 00:09:58,360
+optimize the execution effect of this shot
+
+190
+00:09:59,760 --> 00:10:03,240
+Because these two are essentially the same model
+
+191
+00:10:03,240 --> 00:10:05,590
+it's just referring to
+
+192
+00:10:05,590 --> 00:10:08,710
+an intermediate checkpoint of a training node
+
+193
+00:10:08,710 --> 00:10:10,790
+We can also feel that this Agent Swarm
+
+194
+00:10:10,790 --> 00:10:14,040
+It actually looks very similar to multi-agent processes
+
+195
+00:10:15,320 --> 00:10:18,420
+Actually, it belongs to one implementation method of multi-process systems.
+
+196
+00:10:18,420 --> 00:10:23,230
+It's particularly similar to the async-to approach in multi-agent systems,
+
+197
+00:10:23,230 --> 00:10:25,910
+a main agent is responsible for task distribution
+
+198
+00:10:25,910 --> 00:10:27,790
+to schedule different worker processes
+
+199
+00:10:28,870 --> 00:10:32,360
+However, it does differ from this approach in some ways.
+
+200
+00:10:32,360 --> 00:10:34,560
+Um, generally in a multi-agent architecture
+
+201
+00:10:34,560 --> 00:10:37,200
+We create these professional agents ourselves, right?
+
+202
+00:10:37,200 --> 00:10:39,710
+through different system prompts
+
+203
+00:10:39,710 --> 00:10:43,130
+to assign different roles to the model for completing specific tasks
+
+204
+00:10:43,130 --> 00:10:44,970
+However, in an agent swarm,
+
+205
+00:10:44,970 --> 00:10:48,920
+it is actually created by the model itself
+
+206
+00:10:49,240 --> 00:10:51,840
+The model performs task decomposition and distribution based on the specific task,
+
+207
+00:10:51,840 --> 00:10:54,050
+task decomposition and distribution
+
+208
+00:10:54,370 --> 00:10:58,640
+It will then autonomously initialize some
+
+209
+00:10:58,640 --> 00:11:01,500
+some agents adapted to different subtasks
+
+210
+00:11:01,500 --> 00:11:03,380
+then there's the agent swarm
+
+211
+00:11:03,380 --> 00:11:09,260
+it can create multiple identical agents to execute tasks in parallel
+
+212
+00:11:10,300 --> 00:11:13,180
+In fact, we can also achieve this through rules combined with prompts
+
+213
+00:11:13,180 --> 00:11:17,990
+to achieve an effect similar to that of Agent Swarm
+
+214
+00:11:17,990 --> 00:11:19,590
+but in KIMI 2.5
+
+215
+00:11:19,590 --> 00:11:22,690
+it has transformed this capability into the model
+
+216
+00:11:22,690 --> 00:11:25,100
+its native capability
+
+217
+00:11:25,740 --> 00:11:29,140
+is definitely better than us constraining it through some prompts
+
+218
+00:11:29,140 --> 00:11:32,340
+a much better effect
+
+219
+00:11:34,120 --> 00:11:37,720
+Next is the coordinator
+
+220
+00:11:37,720 --> 00:11:41,080
+The two additional tools it has
+
+221
+00:11:41,080 --> 00:11:45,840
+One is the tool for creating A1, and the other is the tool for creating child A processes
+
+222
+00:11:47,320 --> 00:11:49,760
+It requires a parameter
+
+223
+00:11:50,760 --> 00:11:53,450
+which is the system prompt for
+
+224
+00:11:53,450 --> 00:11:58,570
+The current sub-agent is used to define its role and capabilities.
+
+225
+00:11:59,750 --> 00:12:03,320
+Then there's another tool for task distribution, um,
+
+226
+00:12:03,320 --> 00:12:08,900
+Its function is to call the previously created agent
+
+227
+00:12:08,900 --> 00:12:14,660
+and then assign different tasks to these agents
+
+228
+00:12:14,900 --> 00:12:16,660
+We can see it has two parameters
+
+229
+00:12:16,660 --> 00:12:17,720
+One is agent
+
+230
+00:12:17,720 --> 00:12:21,329
+This is the instruction for which sub-agent should be called
+
+231
+00:12:21,329 --> 00:12:28,190
+and this prompt is the specific task description given to the agent
+
+232
+00:12:28,190 --> 00:12:30,090
+task description
+
+233
+00:12:32,000 --> 00:12:34,800
+OK, that's all for today's video
+
+234
+00:12:34,800 --> 00:12:36,780
+If you enjoyed the content, feel free to follow
+
+235
+00:12:36,780 --> 00:12:39,020
+You're also welcome to discuss and exchange ideas in the comment section.
+
+236
+00:12:39,020 --> 00:12:39,960
+Bye
+

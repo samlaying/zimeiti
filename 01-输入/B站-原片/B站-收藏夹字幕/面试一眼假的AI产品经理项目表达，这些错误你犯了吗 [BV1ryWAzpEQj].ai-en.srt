@@ -1,0 +1,2972 @@
+1
+00:00:00,100 --> 00:00:02,180
+Let me show you a negative example of a product manager interview
+
+2
+00:00:03,260 --> 00:00:03,980
+this guy
+
+3
+00:00:03,980 --> 00:00:05,360
+his interview performance was only 2 out of 10
+
+4
+00:00:05,360 --> 00:00:07,160
+I would give him 2 points
+
+5
+00:00:07,160 --> 00:00:08,360
+It's this project.
+
+6
+00:00:08,360 --> 00:00:09,660
+It's clearly just his template.
+
+7
+00:00:09,660 --> 00:00:12,140
+It's not tailored to the individual's situation at all. On a scale of 10 for the interview, I'd give him a 2.
+
+8
+00:00:12,140 --> 00:00:14,820
+This project is clearly just a template of his.
+
+9
+00:00:14,820 --> 00:00:16,379
+It's completely not tailored to the individual situation for pitching. The first red flag is the fabricated data.
+
+10
+00:00:16,379 --> 00:00:17,950
+I asked him about a few numbers, which were completely unrelated to personalized promotion. I asked him about a few numbers
+
+11
+00:00:17,950 --> 00:00:19,710
+like an 18.8% improvement
+
+12
+00:00:19,710 --> 00:00:21,350
+Customer satisfaction increased by 30%
+
+13
+00:00:21,350 --> 00:00:23,310
+This number is obviously fabricated.
+
+14
+00:00:23,310 --> 00:00:24,430
+a minor version iteration in the B2B sector
+
+15
+00:00:24,430 --> 00:00:26,510
+How could there be such a dramatic change? A 30% increase in satisfaction—
+
+16
+00:00:26,510 --> 00:00:27,320
+This number is obviously made up
+
+17
+00:00:27,320 --> 00:00:27,680
+And then
+
+18
+00:00:27,680 --> 00:00:29,400
+a minor version iteration for the B-end
+
+19
+00:00:29,400 --> 00:00:30,140
+he couldn't explain either
+
+20
+00:00:30,140 --> 00:00:31,740
+What's written in here is
+
+21
+00:00:31,740 --> 00:00:33,140
+generated revenue of hundreds of millions
+
+22
+00:00:33,140 --> 00:00:34,370
+That's even more ridiculous.
+
+23
+00:00:34,370 --> 00:00:37,130
+He couldn't even explain how a single feature module could be so exaggerated.
+
+24
+00:00:37,130 --> 00:00:38,190
+the entire product
+
+25
+00:00:38,190 --> 00:00:39,970
+the entire sales and marketing team
+
+26
+00:00:39,970 --> 00:00:41,270
+So should the entire team be laid off?
+
+27
+00:00:41,270 --> 00:00:43,700
+This also mentions taking the lead in going from 0 to 1
+
+28
+00:00:43,700 --> 00:00:48,210
+Then when we actually talked about it, wouldn't the whole team have to be laid off?
+
+29
+00:00:48,210 --> 00:00:50,330
+This also mentions leading from 0 to 1, but when discussed,
+
+30
+00:00:50,330 --> 00:00:52,080
+Outsourcing is simply not qualified to take the lead.
+
+31
+00:00:52,080 --> 00:00:53,600
+just doing some minor tasks
+
+32
+00:00:53,600 --> 00:00:55,240
+do a little bit of such execution
+
+33
+00:00:55,240 --> 00:00:57,560
+The second issue is, the details
+
+34
+00:00:57,560 --> 00:00:58,769
+not a single one can be answered
+
+35
+00:00:58,769 --> 00:00:59,569
+during the interview
+
+36
+00:00:59,569 --> 00:01:00,849
+I asked him a few questions
+
+37
+00:01:00,849 --> 00:01:03,489
+Secondly, when it comes to the details, he couldn't provide any answers.
+
+38
+00:01:03,489 --> 00:01:05,650
+During the interview, I asked him a few questions.
+
+39
+00:01:05,650 --> 00:01:07,650
+But specifically what each agent does,
+
+40
+00:01:07,650 --> 00:01:08,650
+how they collaborate with each other
+
+41
+00:01:08,650 --> 00:01:09,830
+how the data is transmitted
+
+42
+00:01:09,830 --> 00:01:10,890
+Can't explain it clearly at all
+
+43
+00:01:10,890 --> 00:01:12,880
+Probably didn't figure it out himself
+
+44
+00:01:12,880 --> 00:01:14,980
+I asked him if he had optimized the prompt
+
+45
+00:01:14,980 --> 00:01:17,580
+Completely unclear, probably didn't even understand it himself
+
+46
+00:01:17,580 --> 00:01:20,320
+I asked him if he had optimized the prompt
+
+47
+00:01:20,320 --> 00:01:21,220
+What are the constraints
+
+48
+00:01:21,220 --> 00:01:23,510
+These rather empty and grandiose theories
+
+49
+00:01:23,510 --> 00:01:25,170
+someone who has actually done such a thing
+
+50
+00:01:25,170 --> 00:01:27,810
+There must be a few unforgettable examples in his mind.
+
+51
+00:01:27,810 --> 00:01:29,810
+How did you connect to the client's database?
+
+52
+00:01:29,810 --> 00:01:31,310
+Sigh, I asked such specific time-related questions, but in his mind
+
+53
+00:01:31,310 --> 00:01:34,050
+Then he started reciting things like business processes again
+
+54
+00:01:34,050 --> 00:01:35,240
+concepts like knowledge base
+
+55
+00:01:35,240 --> 00:01:36,280
+Hey, I asked this specific timing question
+
+56
+00:01:36,280 --> 00:01:38,060
+Then he started reciting things like business processes and knowledge bases again
+
+57
+00:01:38,060 --> 00:01:39,940
+the concept of knowledge base
+
+58
+00:01:39,940 --> 00:01:41,280
+What he told me was
+
+59
+00:01:41,280 --> 00:01:42,680
+working on an intelligent customer service system in 2024
+
+60
+00:01:42,680 --> 00:01:43,830
+He claimed there were no competitors
+
+61
+00:01:43,830 --> 00:01:45,010
+utter nonsense
+
+62
+00:01:45,010 --> 00:01:46,950
+Take NetEase Qiyu, Baidu Keyun for example
+
+63
+00:01:46,950 --> 00:01:48,830
+Zhuijian Tech has been doing this for so many years.
+
+64
+00:01:48,830 --> 00:01:52,020
+This shows that he hasn't conducted any relevant market research at all. Look at how long companies like NetEase Qiyu, Baidu Ke Yun, and Jianjian Tech have been in this field.
+
+65
+00:01:52,020 --> 00:01:53,820
+Zhuijian Tech has been in the industry for years.
+
+66
+00:01:53,820 --> 00:01:54,780
+What is the third one?
+
+67
+00:01:54,780 --> 00:01:55,970
+technical understanding is superficial
+
+68
+00:01:55,970 --> 00:01:57,650
+Probably just cramming at the last minute
+
+69
+00:01:57,650 --> 00:01:59,050
+memorized a few industry terms
+
+70
+00:01:59,050 --> 00:02:01,330
+What was mentioned here? RG fine-tuning
+
+71
+00:02:01,330 --> 00:02:03,170
+Well, it does sound like he mentioned it
+
+72
+00:02:03,170 --> 00:02:05,730
+But when I asked him specific questions about Lora
+
+73
+00:02:05,730 --> 00:02:07,630
+RG fine-tuning, oh it sounds like it was indeed mentioned
+
+74
+00:02:07,630 --> 00:02:08,600
+what format
+
+75
+00:02:08,600 --> 00:02:09,600
+But when I asked him specific questions,
+
+76
+00:02:09,600 --> 00:02:11,060
+how to evaluate screen quality
+
+77
+00:02:11,060 --> 00:02:12,880
+He started to change the subject again
+
+78
+00:02:12,880 --> 00:02:14,280
+Oh, this is handled by a dedicated team.
+
+79
+00:02:14,280 --> 00:02:15,640
+I don't know the details.
+
+80
+00:02:15,640 --> 00:02:17,600
+Although it's not done by your product
+
+81
+00:02:17,600 --> 00:02:18,680
+but you need to understand it
+
+82
+00:02:18,680 --> 00:02:20,080
+Otherwise, how would you propose requirements?
+
+83
+00:02:20,080 --> 00:02:21,280
+details
+
+84
+00:02:21,280 --> 00:02:22,400
+Although it's not your product to execute
+
+85
+00:02:22,400 --> 00:02:24,860
+but you need to be clear about it, otherwise how can you make demands
+
+86
+00:02:24,860 --> 00:02:27,620
+If you can't even tell whether the data is good or bad,
+
+87
+00:02:27,620 --> 00:02:29,280
+you have no idea how much quantity is needed
+
+88
+00:02:29,280 --> 00:02:31,300
+How can you possibly manage this product well
+
+89
+00:02:31,300 --> 00:02:34,260
+That exposes the fact that he has merely heard of this requirement.
+
+90
+00:02:34,260 --> 00:02:37,530
+So the packaging of projects on our resumes, how could you possibly manage the product well, that just exposes
+
+91
+00:02:37,530 --> 00:02:41,350
+He has only heard of this requirement, so the project packaging in our resume
+
+92
+00:02:41,350 --> 00:02:43,830
+need to carefully organize and review, as the projects described
+
+93
+00:02:43,830 --> 00:02:46,919
+It's too fake, no matter how you write your resume.
+
+94
+00:02:46,919 --> 00:02:48,699
+Everyone uses the same template, but you need to be able to justify it.
+
+95
+00:02:48,699 --> 00:02:50,159
+OK, alright
+
+96
+00:02:50,159 --> 00:02:53,290
+Alright then, let's start with a self-introduction.
+
+97
+00:02:53,290 --> 00:02:54,670
+First, let me understand your situation
+
+98
+00:02:54,670 --> 00:02:56,250
+Okay, sure, let me introduce myself.
+
+99
+00:02:56,250 --> 00:02:57,410
+Hello, interviewer
+
+100
+00:02:57,410 --> 00:02:59,900
+Let me first understand your situation
+
+101
+00:02:59,900 --> 00:03:03,140
+Okay, well, in the past two years, I've been focusing on the implementation of AI applications.
+
+102
+00:03:03,140 --> 00:03:05,160
+namely these two companies listed in the resume
+
+103
+00:03:05,700 --> 00:03:07,540
+Then I, you say, I have nothing to say
+
+104
+00:03:07,540 --> 00:03:08,300
+Go ahead
+
+105
+00:03:08,300 --> 00:03:08,960
+Okay okay
+
+106
+00:03:08,960 --> 00:03:11,430
+Alright, OK. Then I will proceed from three aspects, um, let me...
+
+107
+00:03:11,430 --> 00:03:13,450
+You go ahead, I have nothing to add, please continue.
+
+108
+00:03:13,450 --> 00:03:17,109
+Okay, okay, alright. Then I'll proceed from three aspects, which are related to the implementation of AI products.
+
+109
+00:03:17,109 --> 00:03:21,469
+I have independently led two strategic projects involving AI-powered customer service and an intelligent agent development platform.
+
+110
+00:03:21,469 --> 00:03:23,160
+this requirement
+
+111
+00:03:23,160 --> 00:03:26,840
+was derived from our company's strategy and industry pain points, as well as the two strategic demands of the intelligent agent development platform
+
+112
+00:03:26,840 --> 00:03:31,840
+This requirement was derived from our company's strategy and industry pain points, as well as some application scenarios.
+
+113
+00:03:31,840 --> 00:03:35,060
+Then leverage our AI technologies
+
+114
+00:03:35,060 --> 00:03:37,900
+to help the company in today's competitive market
+
+115
+00:03:37,900 --> 00:03:42,340
+to establish a certain AI and AI-driven differentiated competitive advantage, helping the company
+
+116
+00:03:42,340 --> 00:03:45,720
+In today's competitive market, to establish a certain AI and AI-powered differentiated competitive advantage
+
+117
+00:03:45,720 --> 00:03:48,580
+Because in fact, some key aspects in the B2B commercial market
+
+118
+00:03:48,580 --> 00:03:52,310
+My comprehensive horizontal capabilities rely on breakthroughs in our individual model capabilities.
+
+119
+00:03:52,310 --> 00:03:53,170
+but rather relies on a complete set
+
+120
+00:03:53,170 --> 00:03:56,370
+a deliverable system
+
+121
+00:03:56,370 --> 00:03:58,310
+So during this process
+
+122
+00:03:58,310 --> 00:04:01,810
+I will also proactively take on more horizontal tasks
+
+123
+00:04:01,810 --> 00:04:04,230
+including pre-sales technical support
+
+124
+00:04:04,230 --> 00:04:08,150
+as well as the construction of the Knowledge base and the setup of intelligent agents during the sales process
+
+125
+00:04:08,150 --> 00:04:13,250
+the positioning of post-sales better cases, as well as the construction of the knowledge base during the sales process
+
+126
+00:04:13,250 --> 00:04:16,470
+The construction of these agents and the positioning of post-sales better cases demonstrate my sustainable learning ability.
+
+127
+00:04:16,470 --> 00:04:21,619
+In the above-mentioned agent development platform and intelligent customer service project
+
+128
+00:04:21,619 --> 00:04:25,209
+Well, I have also accumulated some fairly good practical experience in technology implementation.
+
+129
+00:04:25,209 --> 00:04:28,329
+And in this intelligent customer service project, I have also accumulated some pretty good
+
+130
+00:04:28,329 --> 00:04:29,589
+some practical experience in technology implementation
+
+131
+00:04:29,589 --> 00:04:31,820
+including aspects such as the implementation of AI
+
+132
+00:04:31,820 --> 00:04:34,540
+some common implementation approaches, such as embedded AI
+
+133
+00:04:34,540 --> 00:04:36,960
+assistant-type AI and agent-type AI, optimization of the rock system from scratch
+
+134
+00:04:36,960 --> 00:04:39,070
+the construction of these agent aspects
+
+135
+00:04:39,070 --> 00:04:41,850
+So, that was my entire self-introduction.
+
+136
+00:04:41,850 --> 00:04:44,110
+Do you have any questions?
+
+137
+00:04:44,610 --> 00:04:49,720
+Uh, what I just said is my entire self-introduction.
+
+138
+00:04:49,720 --> 00:04:55,100
+Um, ah, the most profound part is actually this intelligent upgrade of my workflow, this project, um
+
+139
+00:04:55,100 --> 00:04:57,950
+Is this related to the cloud agent development platform?
+
+140
+00:04:57,950 --> 00:05:02,070
+Ah yes, OK
+
+141
+00:05:02,470 --> 00:05:04,470
+What are the main tasks involved in the upgrade?
+
+142
+00:05:04,470 --> 00:05:07,050
+Um, regarding the upgrade...
+
+143
+00:05:07,050 --> 00:05:08,410
+Actually, it's mainly because during the initial phase
+
+144
+00:05:08,410 --> 00:05:13,410
+will enable our colleagues in the production environment and front-end operations
+
+145
+00:05:13,410 --> 00:05:15,480
+will accumulate a certain number of these bad cases
+
+146
+00:05:15,480 --> 00:05:16,900
+will affect us in the production environment
+
+147
+00:05:16,900 --> 00:05:18,080
+as well as among the colleagues on the front lines
+
+148
+00:05:18,080 --> 00:05:21,450
+These bad cases will accumulate to a certain extent, and their issues and scenario data vary.
+
+149
+00:05:21,450 --> 00:05:25,330
+Uh, the first action I took was, based on these bad cases, I first proceeded from, uh, the first action I took was, according to our typical scenarios
+
+150
+00:05:25,330 --> 00:05:28,640
+and the essence of these user target issues, across three dimensions
+
+151
+00:05:28,640 --> 00:05:33,039
+First, locate these bad cases, along with the essence of the users' target issues.
+
+152
+00:05:33,039 --> 00:05:36,600
+three dimensions, first locate these bad cases, like some parameters that need to be modified during execution, then prioritize locating these bad cases
+
+153
+00:05:36,600 --> 00:05:38,100
+Ah
+
+154
+00:05:38,100 --> 00:05:39,740
+Based on this, proceed with the technical
+
+155
+00:05:39,740 --> 00:05:41,710
+in a scenario
+
+156
+00:05:41,710 --> 00:05:42,730
+in a scenario
+
+157
+00:05:42,730 --> 00:05:45,720
+Then our user needs to book a pediatric appointment for tomorrow.
+
+158
+00:05:45,720 --> 00:05:48,460
+In the previous system,
+
+159
+00:05:48,460 --> 00:05:50,660
+The system found that there is no such department
+
+160
+00:05:50,660 --> 00:05:53,020
+Then in this previous
+
+161
+00:05:53,020 --> 00:05:56,380
+In the system, it shows that this department is not available. Should we consider other hospitals?
+
+162
+00:05:56,380 --> 00:05:59,630
+At this point, our user says they need to register for the neonatal department.
+
+163
+00:05:59,630 --> 00:06:03,390
+However, since our previous node did not collect this information
+
+164
+00:06:03,390 --> 00:06:05,520
+Then it will remain stuck at this node
+
+165
+00:06:05,520 --> 00:06:07,400
+From the user's perspective
+
+166
+00:06:07,400 --> 00:06:11,400
+Then it will remain stuck at this node, switch to the neonatal department
+
+167
+00:06:11,400 --> 00:06:15,460
+and use the neonatal department to proceed to the subsequent workflow
+
+168
+00:06:15,460 --> 00:06:19,160
+The essence of this issue is to proceed to the next point for processing.
+
+169
+00:06:19,160 --> 00:06:23,980
+In fact, it means that when our entire, ah, this point is being transferred, ah, the node point is being transferred
+
+170
+00:06:23,980 --> 00:06:25,520
+running to a certain node
+
+171
+00:06:25,520 --> 00:06:30,340
+when it is discovered that the parameters provided by the original main node are incorrect
+
+172
+00:06:30,340 --> 00:06:32,200
+it needs the capability to roll back
+
+173
+00:06:32,200 --> 00:06:41,270
+Return the incorrect information and parameters back to the corresponding node
+
+174
+00:06:41,270 --> 00:06:45,750
+re-collect the parameters. Let me give you an example. Okay, regarding the scenario you just mentioned,
+
+175
+00:06:45,750 --> 00:06:49,470
+Then, if there is no such department,
+
+176
+00:06:49,470 --> 00:06:52,049
+Then what will the large model return?
+
+177
+00:06:52,049 --> 00:06:53,869
+Uh, then the large model doesn't
+
+178
+00:06:53,869 --> 00:06:55,649
+If there is no such department
+
+179
+00:06:55,649 --> 00:06:56,769
+Then what will the large model return?
+
+180
+00:06:56,769 --> 00:06:59,429
+will ask him if he is going to
+
+181
+00:06:59,429 --> 00:07:03,330
+will inform him whether to consider these other hospitals
+
+182
+00:07:04,610 --> 00:07:07,840
+Well, I, I understand it like this
+
+183
+00:07:07,840 --> 00:07:09,660
+What does this department actually represent?
+
+184
+00:07:09,660 --> 00:07:12,450
+It's equivalent to an entity, um, I, I understand it this way, ah
+
+185
+00:07:12,450 --> 00:07:14,810
+What does this department actually represent?
+
+186
+00:07:14,810 --> 00:07:20,690
+It's equivalent to an entity, OK, entity, um, uh, he judges that this department mentioned belongs to the hospital.
+
+187
+00:07:20,690 --> 00:07:22,030
+It belongs to the hospital.
+
+188
+00:07:22,030 --> 00:07:23,750
+but there isn't this
+
+189
+00:07:23,750 --> 00:07:27,020
+So, you control the hospital through the prompt, and this department mentioned here belongs to the hospital.
+
+190
+00:07:27,020 --> 00:07:28,180
+but there isn't this
+
+191
+00:07:28,180 --> 00:07:29,120
+OK good
+
+192
+00:07:29,120 --> 00:07:30,880
+So, you control the hospital through the prompt
+
+193
+00:07:30,880 --> 00:07:33,600
+control the promote to guide the generation of dialogue
+
+194
+00:07:33,600 --> 00:07:36,060
+Well, previously, uh, it was like this
+
+195
+00:07:36,060 --> 00:07:38,140
+Actually, we previously based it on his understanding
+
+196
+00:07:38,140 --> 00:07:40,840
+Then there will be different nodes within our system.
+
+197
+00:07:40,840 --> 00:07:44,060
+Actually, it's like this. Previously, we were all based on his understanding.
+
+198
+00:07:44,060 --> 00:07:45,620
+Got it
+
+199
+00:07:45,620 --> 00:07:46,700
+Let me ask
+
+200
+00:07:46,700 --> 00:07:49,490
+If, uh, in this scenario
+
+201
+00:07:50,770 --> 00:07:52,490
+If the user suddenly changes their intent
+
+202
+00:07:52,490 --> 00:07:54,020
+How to handle this situation?
+
+203
+00:07:54,020 --> 00:07:56,460
+Ah, if you're saying the user changes their mind
+
+204
+00:07:56,460 --> 00:07:59,560
+Changed to another aspect, what kind of intentions
+
+205
+00:07:59,560 --> 00:08:01,500
+For example, if I no longer ask about departments, and if the user changes their intention to other aspects, like other parties
+
+206
+00:08:01,500 --> 00:08:04,840
+some intentions in various aspects, for example, if I no longer ask about the department
+
+207
+00:08:04,840 --> 00:08:06,160
+what should we do
+
+208
+00:08:06,160 --> 00:08:07,600
+Suddenly asking such a question, right?
+
+209
+00:08:07,600 --> 00:08:10,240
+Well, how do we identify this?
+
+210
+00:08:10,240 --> 00:08:19,220
+Well, first of all, you can say that, like our previous traditional, similar workflow, well, first of all, you
+
+211
+00:08:19,220 --> 00:08:21,500
+Such a workflow would identify what information is available
+
+212
+00:08:21,500 --> 00:08:22,700
+has it been collected
+
+213
+00:08:22,700 --> 00:08:25,600
+whether it's my previous registration scenario
+
+214
+00:08:25,600 --> 00:08:28,060
+For example, collecting these departments
+
+215
+00:08:28,060 --> 00:08:30,560
+What are the specific necessary time points for these
+
+216
+00:08:30,560 --> 00:08:31,320
+the registration scenario just mentioned
+
+217
+00:08:31,320 --> 00:08:32,940
+For example, let's talk about collecting these departments
+
+218
+00:08:32,940 --> 00:08:36,539
+What are the specific necessary time nodes and information?
+
+219
+00:08:36,539 --> 00:08:37,979
+First, see if he can collect it
+
+220
+00:08:37,979 --> 00:08:40,698
+If not collected, a second round of multi-party dialogue will be conducted. I personally don't want to register with this department anymore.
+
+221
+00:08:40,698 --> 00:08:42,399
+want to schedule appointments with other departments
+
+222
+00:08:42,399 --> 00:08:43,539
+or reschedule
+
+223
+00:08:43,539 --> 00:08:45,839
+In our original workflow module
+
+224
+00:08:45,839 --> 00:08:47,019
+It was not possible before
+
+225
+00:08:47,019 --> 00:08:50,979
+This is currently a key focus of my work on intelligent upgrades, specifically within our existing workflow module.
+
+226
+00:08:51,110 --> 00:08:56,579
+It couldn't be done before, and that's what I'm working on now, a key direction for intelligent upgrades, which will require more effort
+
+227
+00:08:56,579 --> 00:09:00,559
+In our previous setup, for example, in our previous setup, on top of such a process
+
+228
+00:09:00,559 --> 00:09:04,640
+there will be a, uh, thinking model based on Lora technology fine-tuning
+
+229
+00:09:04,640 --> 00:09:08,350
+That is to say, in our process, there will be, um, a uh, based on
+
+230
+00:09:08,350 --> 00:09:12,550
+a thinking model based on Lora technology fine-tuning, which is our, uh, it can intelligently plan the transitions between different nodes based on users' real-time natural language intentions
+
+231
+00:09:12,550 --> 00:09:17,100
+to intelligently plan the transitions between different nodes, so you
+
+232
+00:09:17,100 --> 00:09:17,940
+is
+
+233
+00:09:17,940 --> 00:09:18,780
+So you see
+
+234
+00:09:18,780 --> 00:09:20,260
+The scenario I just mentioned
+
+235
+00:09:20,260 --> 00:09:21,220
+the transition between different nodes
+
+236
+00:09:21,220 --> 00:09:23,150
+Well then you are
+
+237
+00:09:23,150 --> 00:09:27,060
+You see, the scenario I just mentioned involves a change in intent, right? So you're in the middle of a real-time conversation, correct?
+
+238
+00:09:27,060 --> 00:09:31,420
+Right? For every single conversation, do we need to monitor the user's intent?
+
+239
+00:09:31,420 --> 00:09:34,730
+Ah yes, um
+
+240
+00:09:34,730 --> 00:09:37,399
+OK, alright
+
+241
+00:09:37,399 --> 00:09:39,419
+Um
+
+242
+00:09:39,419 --> 00:09:42,750
+So, just now we were talking about, uh, this project.
+
+243
+00:09:42,750 --> 00:09:45,270
+Please continue, we were just talking about, uh,
+
+244
+00:09:45,270 --> 00:09:48,910
+Um, let me ask, is your agent setup a multi-agent system?
+
+245
+00:09:48,910 --> 00:09:51,460
+What's the situation like?
+
+246
+00:09:51,460 --> 00:09:53,520
+Currently, we are operating on a multi-agent system
+
+247
+00:09:53,520 --> 00:09:56,160
+and it's mainly based on the workflow module, or what's the situation like?
+
+248
+00:09:56,160 --> 00:10:00,240
+Currently, we are primarily focused on a multi-agent system with a workflow-oriented module.
+
+249
+00:10:00,240 --> 00:10:02,580
+It builds its own agent.
+
+250
+00:10:02,580 --> 00:10:03,959
+Uh, right.
+
+251
+00:10:03,959 --> 00:10:07,639
+He merely mentioned extracting a process flow from a previous business SOP.
+
+252
+00:10:07,639 --> 00:10:09,739
+through the transitions between different nodes
+
+253
+00:10:09,739 --> 00:10:13,290
+Then within the nodes themselves, uh, he just said it was through a process extracted from a previous business SOP,
+
+254
+00:10:13,290 --> 00:10:15,810
+through the transitions between different nodes, and within the nodes themselves, uh
+
+255
+00:10:15,810 --> 00:10:16,670
+Um, prompts...
+
+256
+00:10:16,670 --> 00:10:19,750
+as well as various APIs from different business systems, these interfaces
+
+257
+00:10:19,750 --> 00:10:23,730
+to build an agent that belongs to him, OK through these models, to build an agent that belongs to him
+
+258
+00:10:23,730 --> 00:10:27,590
+OK, which agents are included in that multi-agent system? OK, through these patterns
+
+259
+00:10:27,590 --> 00:10:30,190
+Well first of all, we are on top of its system
+
+260
+00:10:30,190 --> 00:10:34,220
+Which specific agents are included in that multi-agent system? One is our user, who builds this agent based on their own business requirements.
+
+261
+00:10:34,220 --> 00:10:35,700
+Then in the workflow module
+
+262
+00:10:35,700 --> 00:10:37,560
+we are in its one of the agents
+
+263
+00:10:37,560 --> 00:10:39,820
+there is an agent that can handle uh
+
+264
+00:10:39,820 --> 00:10:43,720
+based on his intentions, then in the workflow module, we have an agent within its system that can enforce
+
+265
+00:10:43,720 --> 00:10:47,120
+to jump to different sections based on his intentions, these two parts
+
+266
+00:10:47,120 --> 00:10:50,360
+These retrieval agents belong to our other modules
+
+267
+00:10:50,360 --> 00:10:52,520
+These are also handled by my other colleagues.
+
+268
+00:10:52,520 --> 00:10:56,010
+Well, what I want to say is in a scenario, right
+
+269
+00:10:56,010 --> 00:10:58,650
+Yes, in a scenario, you might have an intent understanding agent
+
+270
+00:10:58,650 --> 00:11:02,620
+There might be this, um what I want to say is in a scenario right, ah yes in a scenario
+
+271
+00:11:02,620 --> 00:11:04,900
+You might have an intent understanding agent, you might have this
+
+272
+00:11:04,900 --> 00:11:07,900
+right, you've formed such a
+
+273
+00:11:07,900 --> 00:11:12,430
+a workflow, right? Also, you just mentioned the promotion part
+
+274
+00:11:12,430 --> 00:11:14,910
+Regarding the PRECIPROMOTE part, um
+
+275
+00:11:14,910 --> 00:11:19,540
+Were there any difficulties encountered at that time?
+
+276
+00:11:19,540 --> 00:11:21,940
+or any techniques, and how did you solve them when encountering difficulties
+
+277
+00:11:21,940 --> 00:11:24,890
+When encountering difficulties, um, okay, um, first of all, um
+
+278
+00:11:24,890 --> 00:11:27,910
+For the project I worked on
+
+279
+00:11:27,910 --> 00:11:34,890
+Well, it's based on having a prompt, something like this kind of optimization, okay? First of all, well,
+
+280
+00:11:34,890 --> 00:11:37,290
+This kind of optimization must be based on an understanding of the business itself.
+
+281
+00:11:37,290 --> 00:11:40,930
+Based on his specific business scenarios, we will proceed to implement it.
+
+282
+00:11:40,930 --> 00:11:44,560
+Define some business objectives before writing our prompts.
+
+283
+00:11:44,560 --> 00:11:47,880
+Determine some business objectives, and generally, prompts can be divided into, to do, determine some business objectives.
+
+284
+00:11:47,880 --> 00:11:49,420
+then we proceed to write some of our prompt words
+
+285
+00:11:49,420 --> 00:11:53,630
+Prompts are generally divided into two types: user prompts and system prompts.
+
+286
+00:11:53,630 --> 00:11:56,350
+For user-type prompts and questions, we will categorize them or classify them based on specific cases.
+
+287
+00:11:56,350 --> 00:11:59,220
+Or to categorize which category it belongs to, that is, based on some of their better cases, or to classify which category these issues fall under.
+
+288
+00:11:59,220 --> 00:12:04,030
+Will we make fun of these issues? Actually, the commonly used prompts I adjust generally cover the following aspects:
+
+289
+00:12:04,030 --> 00:12:07,870
+First, it's actually about setting the initial rules, which are commonly used in prompt engineering.
+
+290
+00:12:07,870 --> 00:12:11,670
+Generally, there are several aspects to consider. First, what is the overall role and objective of this task?
+
+291
+00:12:11,670 --> 00:12:15,530
+Secondly, a small number of samples will be taken, along with some prompts for charging.
+
+292
+00:12:15,530 --> 00:12:18,470
+as well as proper Chain of Thought (COT) prompts, etc.
+
+293
+00:12:18,470 --> 00:12:24,000
+Um, and then, we will adopt certain, uh, prompts for charging, as well as some decent chains of thought.
+
+294
+00:12:24,000 --> 00:12:27,120
+Well then, we'll adopt some structured prompts
+
+295
+00:12:27,120 --> 00:12:30,180
+to develop these approaches, and we also refer to some of our internal standards.
+
+296
+00:12:30,180 --> 00:12:31,360
+Generally, like some processes and other objectives
+
+297
+00:12:31,360 --> 00:12:35,559
+Well, the last point is actually about some key prompt words.
+
+298
+00:12:35,559 --> 00:12:37,659
+In addition to some positive prompts
+
+299
+00:12:37,659 --> 00:12:39,559
+there are also some negative prompt words
+
+300
+00:12:39,559 --> 00:12:44,829
+These are the explicitly restricted conditions, targeting some key prompt words.
+
+301
+00:12:44,829 --> 00:12:48,909
+These are the explicitly restricted conditions, and in fact, after going live, we will conduct spot checks on some of these targets.
+
+302
+00:12:48,909 --> 00:12:50,669
+then check our own models
+
+303
+00:12:50,669 --> 00:12:54,350
+the extent to which the prompts are followed
+
+304
+00:12:54,350 --> 00:12:58,400
+Take one of them as an example to check how our models execute these prompts,
+
+305
+00:12:58,400 --> 00:13:00,140
+the degree of adherence, take one of them
+
+306
+00:13:00,140 --> 00:13:02,200
+He needs to perform Knowledge retrieval
+
+307
+00:13:02,200 --> 00:13:04,280
+take this prompt as an example
+
+308
+00:13:04,280 --> 00:13:06,080
+the previous prompt
+
+309
+00:13:06,080 --> 00:13:10,100
+It is essentially its own, and its context is first and foremost invalid.
+
+310
+00:13:10,100 --> 00:13:11,290
+the previous prompt
+
+311
+00:13:11,290 --> 00:13:12,510
+It is actually its
+
+312
+00:13:12,510 --> 00:13:14,830
+This context is initially invalid
+
+313
+00:13:14,830 --> 00:13:17,090
+Then proceed with the relevant operations
+
+314
+00:13:17,090 --> 00:13:18,730
+If it is not invalid
+
+315
+00:13:18,730 --> 00:13:23,480
+First, we need to determine whether this context can answer the user's query.
+
+316
+00:13:23,480 --> 00:13:25,700
+If it cannot answer again, then first determine whether our context
+
+317
+00:13:25,700 --> 00:13:27,880
+whether it can answer the user's query
+
+318
+00:13:27,880 --> 00:13:29,400
+Cannot answer again what ah
+
+319
+00:13:29,400 --> 00:13:33,330
+Actually, I didn't go into much detail about the original promoter.
+
+320
+00:13:33,330 --> 00:13:35,490
+And then, as for the rest, actually, the original prompt...
+
+321
+00:13:35,490 --> 00:13:38,940
+First, I will examine what issues it inherently has.
+
+322
+00:13:38,940 --> 00:13:43,260
+The first point is that it does not clearly define our overall task.
+
+323
+00:13:43,260 --> 00:13:49,300
+Yes, you need to first determine our overall task, right
+
+324
+00:13:49,300 --> 00:13:52,300
+Then you need to first determine our overall task, as well as the user's uh Perry or whatever
+
+325
+00:13:52,300 --> 00:13:56,000
+Address the issue based on its specific instructions
+
+326
+00:13:56,000 --> 00:14:00,520
+Secondly, it did not differentiate, involving certain textual information.
+
+327
+00:14:00,520 --> 00:14:04,700
+Address the issue based on its specific instructions. Secondly, it did not differentiate
+
+328
+00:14:04,700 --> 00:14:05,920
+involves a certain amount of textual information, what if there's a large volume of text
+
+329
+00:14:05,920 --> 00:14:07,200
+Then what should be done
+
+330
+00:14:07,200 --> 00:14:09,060
+What if there are 1,000 words?
+
+331
+00:14:09,060 --> 00:14:11,660
+Secondly, the context you repeatedly mentioned
+
+332
+00:14:11,660 --> 00:14:16,240
+Your this might lead to, causing your model to
+
+333
+00:14:16,240 --> 00:14:19,250
+Secondly, the context you repeatedly mentioned might cause the model to be unable to determine this instruction, your repetition might lead to
+
+334
+00:14:19,250 --> 00:14:21,990
+cause your model, if the content we retrieved
+
+335
+00:14:21,990 --> 00:14:23,490
+is unable to determine this instruction, including some images
+
+336
+00:14:23,490 --> 00:14:24,590
+links to some images
+
+337
+00:14:24,590 --> 00:14:27,970
+the combined effect of our posts and images, do you need to consider, the combined effect of our posts and images
+
+338
+00:14:27,970 --> 00:14:31,770
+Based on these issues, then consider how to proceed with optimization. Do you need to take into account
+
+339
+00:14:31,770 --> 00:14:33,790
+the effects of our posts integration, based on these issues
+
+340
+00:14:33,790 --> 00:14:36,770
+then consider how to optimize it
+
+341
+00:14:36,770 --> 00:14:40,300
+There are roughly three directions. First, I would clarify what the overall task is.
+
+342
+00:14:40,300 --> 00:14:44,260
+You need to first read our documentation content and the users' questions.
+
+343
+00:14:44,260 --> 00:14:48,219
+Then, based on the requirements we have defined, output the corresponding results.
+
+344
+00:14:48,219 --> 00:14:51,979
+Additionally, there will be some text separators based on the requirements we have defined.
+
+345
+00:14:51,979 --> 00:14:54,030
+to output the corresponding result, and there will also be certain
+
+346
+00:14:54,030 --> 00:14:56,950
+some delimiters for the text, as well as the formulated requirements
+
+347
+00:14:56,950 --> 00:14:59,730
+some content modules between different parts
+
+348
+00:14:59,730 --> 00:15:02,630
+Finally, there will be some structured instructions.
+
+349
+00:15:02,630 --> 00:15:06,520
+For example, if you say, wait
+
+350
+00:15:06,520 --> 00:15:07,700
+Can you give an example
+
+351
+00:15:07,700 --> 00:15:09,720
+For example, if you
+
+352
+00:15:09,720 --> 00:15:10,960
+If we're talking about, what was it like before the optimization
+
+353
+00:15:10,960 --> 00:15:11,640
+after optimization
+
+354
+00:15:11,640 --> 00:15:12,640
+what it might be like
+
+355
+00:15:12,640 --> 00:15:13,540
+right
+
+356
+00:15:13,540 --> 00:15:15,340
+Give a specific example
+
+357
+00:15:15,340 --> 00:15:16,140
+Oh, okay
+
+358
+00:15:16,140 --> 00:15:17,980
+Sure, actually I just mentioned that to you
+
+359
+00:15:17,980 --> 00:15:22,210
+That actually includes the before and after, okay
+
+360
+00:15:22,210 --> 00:15:25,830
+Yeah, actually I just mentioned that to you, it's basically about the before and after, what impressed me the most was
+
+361
+00:15:25,830 --> 00:15:29,810
+That is, I have a prompt for summarizing work orders, yeah right.
+
+362
+00:15:29,810 --> 00:15:32,730
+Then what you had before was our previous one
+
+363
+00:15:32,730 --> 00:15:35,330
+What is it most likely to be like?
+
+364
+00:15:35,330 --> 00:15:38,910
+So you previously were before our that
+
+365
+00:15:38,910 --> 00:15:42,210
+What was it roughly like? Actually, what we did was relatively simple.
+
+366
+00:15:42,210 --> 00:15:46,330
+That is to say, it's just based on our customer service after the service, ah
+
+367
+00:15:46,330 --> 00:15:50,760
+He truly interacted with our, uh, agents or franchisees
+
+368
+00:15:50,760 --> 00:15:53,880
+they clarify or summarize
+
+369
+00:15:53,880 --> 00:15:56,160
+agents or franchisees
+
+370
+00:15:56,160 --> 00:15:59,200
+They go to clarify or summarize
+
+371
+00:15:59,200 --> 00:16:02,220
+Then, based on its full-context dialogue, under such a scenario, right
+
+372
+00:16:02,220 --> 00:16:05,500
+Then I will first collect the interactions between it and our customers
+
+373
+00:16:05,500 --> 00:16:06,750
+Based on this scenario,
+
+374
+00:16:06,750 --> 00:16:10,000
+I will first collect the data from our clients
+
+375
+00:16:10,000 --> 00:16:12,200
+or a certain set of result samples
+
+376
+00:16:12,200 --> 00:16:14,080
+He already had these work orders before
+
+377
+00:16:14,080 --> 00:16:18,220
+Then I will collect the corresponding data for subsequent fine-tuning.
+
+378
+00:16:18,220 --> 00:16:21,940
+adjust our prompts and establish certain evaluation criteria, then I will collect the corresponding data
+
+379
+00:16:21,940 --> 00:16:25,959
+and then, you know, how to proceed with optimization
+
+380
+00:16:25,959 --> 00:16:30,480
+Then, for instance, to proceed with optimization, specify the model
+
+381
+00:16:30,480 --> 00:16:32,380
+What roles are assigned to the responses?
+
+382
+00:16:32,380 --> 00:16:33,960
+what are the input information
+
+383
+00:16:33,960 --> 00:16:35,500
+what are the outputs of these contents
+
+384
+00:16:35,500 --> 00:16:36,760
+and the context
+
+385
+00:16:36,760 --> 00:16:38,580
+some constraints or conditions
+
+386
+00:16:38,580 --> 00:16:42,380
+For example, it's actually about what content our customer service previously output in this scenario, as well as the context and constraints.
+
+387
+00:16:42,380 --> 00:16:45,580
+some constraints and examples, in fact, it's about how our customer service previously operated in a certain scenario
+
+388
+00:16:45,580 --> 00:16:48,260
+Without using our prompt, he would base it on his interactions with our agents.
+
+389
+00:16:48,260 --> 00:16:50,420
+the complete dialogue of their communication
+
+390
+00:16:50,420 --> 00:16:59,290
+He would first summarize our, uh, certain, uh, he would first summarize our, uh
+
+391
+00:16:59,290 --> 00:17:03,110
+only then proceed based on the prompt we have already created
+
+392
+00:17:03,110 --> 00:17:05,769
+then combine it with our previous, uh,
+
+393
+00:17:05,769 --> 00:17:12,829
+false claims, or assumed ones, to compare repeatedly with these output result samples
+
+394
+00:17:12,829 --> 00:17:17,760
+Compare these output samples repeatedly. If you need a detailed breakdown of the previous prompts and the subsequent language-first prompts,
+
+395
+00:17:17,760 --> 00:17:19,119
+tell you in detail
+
+396
+00:17:19,119 --> 00:17:21,030
+Actually, this prompt is very long
+
+397
+00:17:21,030 --> 00:17:24,170
+Got it, I'll just outline my approach to you—what's the general framework and thinking process.
+
+398
+00:17:24,170 --> 00:17:25,589
+Hmm, and what about the approach?
+
+399
+00:17:25,589 --> 00:17:30,749
+Um, so, what do you think? Have you researched any competitors in this smart customer service space?
+
+400
+00:17:30,749 --> 00:17:34,229
+Um, do you think, what competitors have you researched for this smart customer service product you developed?
+
+401
+00:17:34,229 --> 00:17:37,330
+the competitors of this intelligent customer service, uh, it should have been last year
+
+402
+00:17:37,330 --> 00:17:39,950
+It should have been done in the first half of last year.
+
+403
+00:17:39,950 --> 00:17:44,820
+Well, back then, intelligent customer service actually had very few practical application scenarios.
+
+404
+00:17:44,820 --> 00:17:46,420
+they were relatively few, um
+
+405
+00:17:46,420 --> 00:17:51,400
+At that time, the actual implementation scenarios for intelligent customer service were relatively limited, so we focused on identifying viable use cases based on our own company's business scenarios.
+
+406
+00:17:51,400 --> 00:17:54,790
+will first identify some feasible implementation points
+
+407
+00:17:54,790 --> 00:17:58,910
+For example, after our service, do you know what the competitors are?
+
+408
+00:17:58,910 --> 00:18:01,370
+Have you done any research on the competitors? For example, the ones in our service sector.
+
+409
+00:18:01,370 --> 00:18:02,550
+What are the competitors
+
+410
+00:18:02,550 --> 00:18:06,760
+Do you understand these competitors, uh, have you looked into any competitors? Back then, these competitors didn't even exist.
+
+411
+00:18:06,760 --> 00:18:09,160
+We should be in 2014.
+
+412
+00:18:09,160 --> 00:18:10,139
+around 24
+
+413
+00:18:10,139 --> 00:18:11,979
+And in these workflow modules
+
+414
+00:18:11,979 --> 00:18:13,810
+Our competitors will all do these things
+
+415
+00:18:13,810 --> 00:18:17,530
+Then, in these workflow modules, because at that time it had already developed
+
+416
+00:18:17,530 --> 00:18:18,330
+Our competitors would do all these things as well.
+
+417
+00:18:18,330 --> 00:18:21,190
+Because at that time it had already developed, for example, companies like Jian Technology
+
+418
+00:18:21,190 --> 00:18:23,270
+including NetEase's Qiyu,
+
+419
+00:18:23,270 --> 00:18:25,440
+Baidu's Keyu
+
+420
+00:18:25,440 --> 00:18:27,200
+What Xiaoduo Technology and the like
+
+421
+00:18:27,200 --> 00:18:30,020
+Aren't there already many intelligent customer service products available?
+
+422
+00:18:30,020 --> 00:18:32,440
+Well, you see, like Baidu's customer service, or Xiaoduo Technology, and so on.
+
+423
+00:18:32,440 --> 00:18:36,640
+We actually implemented this aspect in early 2024.
+
+424
+00:18:36,640 --> 00:18:40,960
+Do you have any understanding of some traditional intelligent science popularization products?
+
+425
+00:18:40,960 --> 00:18:43,560
+Uh, I have some understanding.
+
+426
+00:18:43,560 --> 00:18:45,420
+Um, got it. Which one?
+
+427
+00:18:45,420 --> 00:18:48,020
+Ah, just like you mentioned, these other things of ours
+
+428
+00:18:48,020 --> 00:18:50,620
+But at that time we were just in the procurement stage
+
+429
+00:18:50,620 --> 00:18:52,980
+Ah, just like you said, the rest of ours, ah
+
+430
+00:18:52,980 --> 00:18:56,700
+but back then we were just in the procurement phase, building upon our existing purchasing framework
+
+431
+00:18:56,700 --> 00:19:00,620
+We will implement these scenarios for our own company.
+
+432
+00:19:00,620 --> 00:19:05,010
+OK, what do you think about what you've done
+
+433
+00:19:05,010 --> 00:19:07,220
+Look at these projects you've done, okay
+
+434
+00:19:07,220 --> 00:19:09,650
+What do you think about the work you've done
+
+435
+00:19:09,650 --> 00:19:11,510
+Look at these projects you've done, or what metrics would you use to quantify them?
+
+436
+00:19:11,510 --> 00:19:15,270
+Ah, these values, um, what kind of metrics
+
+437
+00:19:15,270 --> 00:19:17,090
+Right, yes, in terms of the workflow
+
+438
+00:19:17,090 --> 00:19:19,230
+Or let me talk about this AI project
+
+439
+00:19:19,230 --> 00:19:22,290
+This agent is built through workflows, right? Yes. For workflow-based or the intelligent project I worked on, it's constructed via workflows.
+
+440
+00:19:22,290 --> 00:19:23,480
+Or to put it this way, regarding the smart project I worked on
+
+441
+00:19:23,480 --> 00:19:29,150
+It is an agent built through a workflow. Previously, you used our their business, applied to different companies
+
+442
+00:19:29,150 --> 00:19:31,550
+It utilizes its nodes to perform, to perform dragging
+
+443
+00:19:31,550 --> 00:19:34,690
+The agent built here has accuracy requirements.
+
+444
+00:19:34,690 --> 00:19:36,970
+Only this, there is this, it utilizes its nodes to perform, to perform drag
+
+445
+00:19:36,970 --> 00:19:38,560
+in setting up this agent
+
+446
+00:19:38,560 --> 00:19:40,020
+It has an accuracy rate, and these requirements are the only ones.
+
+447
+00:19:40,020 --> 00:19:44,410
+Here it is, OK, accuracy is one metric, are there any others? Well, uh, just this one accuracy.
+
+448
+00:19:44,410 --> 00:19:46,830
+Furthermore, these forward-looking features
+
+449
+00:19:46,830 --> 00:19:49,120
+our field colleagues
+
+450
+00:19:49,120 --> 00:19:50,600
+he competes with our industry peers
+
+451
+00:19:50,600 --> 00:19:51,560
+whether it's Naozi or others
+
+452
+00:19:51,560 --> 00:19:52,260
+Difa or whatever
+
+453
+00:19:52,260 --> 00:19:54,480
+You need to have this kind of differentiation in your ammunition.
+
+454
+00:19:54,480 --> 00:19:55,910
+Then we are here, he goes to attack some of our competitors
+
+455
+00:19:55,910 --> 00:19:58,830
+Whether it's Naozi or Difa, you need this kind of differentiated ammunition
+
+456
+00:19:58,830 --> 00:20:01,360
+Now, for this intelligent development platform
+
+457
+00:20:01,360 --> 00:20:03,260
+We have what others don't have
+
+458
+00:20:03,260 --> 00:20:05,360
+Well then, OK, this is one aspect of the advantage.
+
+459
+00:20:05,360 --> 00:20:09,090
+Well, this intelligent development platform belongs to
+
+460
+00:20:09,090 --> 00:20:13,190
+This is one aspect of the advantage, it belongs to Tencent Cloud's CSIG business unit.
+
+461
+00:20:13,190 --> 00:20:14,450
+OK OK good
+
+462
+00:20:14,450 --> 00:20:17,910
+Then he should have his own R&D as well
+
+463
+00:20:17,910 --> 00:20:19,390
+has its own products
+
+464
+00:20:19,390 --> 00:20:21,050
+Isn't that equivalent to outsourcing? Then he should have his own research and development as well
+
+465
+00:20:21,050 --> 00:20:23,420
+has its own products
+
+466
+00:20:24,420 --> 00:20:27,450
+Isn't that equivalent to outsourcing, right?
+
+467
+00:20:27,450 --> 00:20:29,570
+Then the outsourcing might involve a few classmates working on this
+
+468
+00:20:29,570 --> 00:20:32,100
+So how many people are there in your team? How many of their own product managers do they have?
+
+469
+00:20:32,100 --> 00:20:34,300
+Uh, are you referring to the entire team?
+
+470
+00:20:34,300 --> 00:20:37,760
+So, how many AI product managers are there in this agent development platform?
+
+471
+00:20:37,760 --> 00:20:40,960
+Uh, as far as I know, there are only two AI product managers in this agent development platform.
+
+472
+00:20:40,960 --> 00:20:42,600
+How many AI product managers are there in this?
+
+473
+00:20:42,600 --> 00:20:44,340
+like, uh, sales
+
+474
+00:20:44,340 --> 00:20:46,100
+Sales and sales may also have outsourcing.
+
+475
+00:20:46,100 --> 00:20:47,540
+operations as well
+
+476
+00:20:47,540 --> 00:20:50,990
+OK, actually, I don't know much about these teams.
+
+477
+00:20:50,990 --> 00:20:52,770
+I only know about our product team.
+
+478
+00:20:52,770 --> 00:20:55,770
+OK, so how do the two of them divide the work? Actually, I’m not really clear about these teams.
+
+479
+00:20:55,810 --> 00:21:00,770
+I only know about our product team. OK, how are the two people divided in their work? Actually, in the CSIIIG division of Tencent Cloud
+
+480
+00:21:00,770 --> 00:21:03,250
+it has different product lines
+
+481
+00:21:03,250 --> 00:21:06,470
+Or, let's take Tencent Cloud's Government and Enterprise Development Platform as an example
+
+482
+00:21:06,470 --> 00:21:08,990
+it will be divided into several different modules
+
+483
+00:21:08,990 --> 00:21:12,260
+Take this Tencent Cloud government-enterprise development platform, the Knowledge base and RAG, take this Tencent Cloud government-enterprise development platform
+
+484
+00:21:12,260 --> 00:21:14,960
+it is divided into several different modules
+
+485
+00:21:14,960 --> 00:21:19,860
+The knowledge base and RAG, workflow, etc., are all part of it. Each business line will have different products under it.
+
+486
+00:21:19,860 --> 00:21:22,700
+or under this product's functional module, it will all be covered
+
+487
+00:21:23,290 --> 00:21:27,730
+Well, OK, so what do you think about the work you've done on this product, or rather, the functional modules under this product?
+
+488
+00:21:27,730 --> 00:21:29,530
+or like Code Define
+
+489
+00:21:29,530 --> 00:21:34,050
+what are the differences between what they or these N8N products have done?
+
+490
+00:21:34,050 --> 00:21:36,500
+ify them, how should I put it
+
+491
+00:21:36,500 --> 00:21:40,430
+Well first, the biggest difference is not whether it's Kuoz or
+
+492
+00:21:40,430 --> 00:21:41,710
+and in the case of M8N
+
+493
+00:21:41,710 --> 00:21:46,310
+In fact, their workflow is solely from our product perspective, um, the biggest difference is not whether it's expansion or whatever
+
+494
+00:21:46,310 --> 00:21:48,450
+and for M8N, their workflow
+
+495
+00:21:48,450 --> 00:21:50,070
+are only from our product perspective
+
+496
+00:21:50,070 --> 00:21:51,370
+proceed from, and then reach point C
+
+497
+00:21:51,370 --> 00:21:53,270
+And our workflow module is actually like some fixed-route subway, while our workflow module
+
+498
+00:21:53,270 --> 00:21:58,160
+It is initiated from a human perspective under the enterprise implementation viewpoint.
+
+499
+00:21:58,160 --> 00:21:59,790
+on top of this fixed route
+
+500
+00:21:59,790 --> 00:22:02,710
+there is also a perspective from the viewpoint of an experienced taxi driver
+
+501
+00:22:02,710 --> 00:22:04,210
+to proceed with the departure, on this fixed route
+
+502
+00:22:04,210 --> 00:22:06,950
+There is also one who knows the routes we have preset
+
+503
+00:22:06,950 --> 00:22:10,070
+can also intelligently switch to point D or point B based on real-time conversations with passengers
+
+504
+00:22:10,070 --> 00:22:12,240
+to intelligently jump to point d or point b
+
+505
+00:22:12,240 --> 00:22:14,400
+In actual scenarios like this
+
+506
+00:22:14,400 --> 00:22:15,200
+For example
+
+507
+00:22:15,200 --> 00:22:18,180
+Intelligently jump to point D or point B, based on the actual scenario
+
+508
+00:22:18,180 --> 00:22:19,840
+When the user is entering the address,
+
+509
+00:22:19,840 --> 00:22:21,790
+For example, he suddenly wants to change the product quantity
+
+510
+00:22:21,790 --> 00:22:23,930
+Then all these products should be able to
+
+511
+00:22:23,930 --> 00:22:26,170
+All of these, in terms of capability,
+
+512
+00:22:26,170 --> 00:22:28,409
+I think the current products are all pretty much the same.
+
+513
+00:22:28,429 --> 00:22:30,849
+Right, um, at that original point in time
+
+514
+00:22:30,849 --> 00:22:31,809
+They couldn't achieve it.
+
+515
+00:22:31,809 --> 00:22:32,969
+We have also conducted tests
+
+516
+00:22:32,969 --> 00:22:36,290
+Right, um, at the original time point
+
+517
+00:22:36,290 --> 00:22:38,690
+After completing the task, we will also conduct tests
+
+518
+00:22:38,690 --> 00:22:40,650
+the same process node
+
+519
+00:22:40,650 --> 00:22:43,620
+the same workflow node, for example, this order information collection workflow
+
+520
+00:22:43,620 --> 00:22:46,100
+Well, whether it's N8 or Cross DEF
+
+521
+00:22:46,100 --> 00:22:47,100
+We have conducted tests on all of them.
+
+522
+00:22:47,100 --> 00:22:49,320
+It's impossible, you can try it yourself.
+
+523
+00:22:49,320 --> 00:22:51,920
+Well, which scenario were you referring to just now? Well, whether it's N8 or Kuoz DEF, we've done tests and couldn't achieve it.
+
+524
+00:22:51,920 --> 00:22:55,440
+It can't be done, you can try it out. Um, which scenario are you referring to?
+
+525
+00:22:55,440 --> 00:22:58,900
+Ah right, so he originally found that when entering the address,
+
+526
+00:22:58,900 --> 00:22:59,500
+He also wants
+
+527
+00:22:59,500 --> 00:23:01,380
+Then the user, as you mentioned this intention
+
+528
+00:23:01,380 --> 00:23:03,380
+I want to modify the quantity of this product
+
+529
+00:23:03,380 --> 00:23:05,449
+You can check whether it can do that
+
+530
+00:23:05,449 --> 00:23:09,169
+Then the user, as you mentioned this intention, I want to modify the quantity of the product
+
+531
+00:23:09,169 --> 00:23:12,400
+You can check if it's able to do that, it might call the backend database, right?
+
+532
+00:23:12,400 --> 00:23:15,420
+and then modify the data in the database?
+
+533
+00:23:15,420 --> 00:23:17,740
+Well, you could understand it that way.
+
+534
+00:23:17,740 --> 00:23:20,630
+Actually, for us, when building with workflows
+
+535
+00:23:20,630 --> 00:23:23,490
+Actually, this process is divided into step one
+
+536
+00:23:23,490 --> 00:23:24,030
+Step two
+
+537
+00:23:24,030 --> 00:23:24,630
+the third step
+
+538
+00:23:24,630 --> 00:23:27,010
+right, traditional workflows like this
+
+539
+00:23:27,010 --> 00:23:27,890
+it must be divided into step one, step two, and step three
+
+540
+00:23:27,890 --> 00:23:28,250
+the second step
+
+541
+00:23:28,250 --> 00:23:28,850
+the third step
+
+542
+00:23:28,850 --> 00:23:31,050
+Then when I'm at step 2 or step 3
+
+543
+00:23:31,050 --> 00:23:33,280
+I want to go back to the previous step
+
+544
+00:23:33,280 --> 00:23:34,940
+The original workflow couldn't achieve this.
+
+545
+00:23:34,940 --> 00:23:36,560
+You can go and experience it yourself, when I was at step 2 and step 3
+
+546
+00:23:36,560 --> 00:23:38,140
+I want to go back to the previous step
+
+547
+00:23:38,140 --> 00:23:39,960
+The original workflow couldn't achieve this
+
+548
+00:23:39,960 --> 00:23:41,820
+You can go and experience it. OK, let me ask a question.
+
+549
+00:23:41,820 --> 00:23:44,380
+So, just now I asked a question
+
+550
+00:23:44,380 --> 00:23:46,380
+how to, right
+
+551
+00:23:46,380 --> 00:23:48,780
+to integrate with the company's internal database
+
+552
+00:23:48,780 --> 00:23:50,960
+these implemented data
+
+553
+00:23:50,960 --> 00:23:52,520
+So how to, how to do it
+
+554
+00:23:52,520 --> 00:23:55,140
+Well, for example, I need to analyze the data
+
+555
+00:23:55,140 --> 00:23:57,080
+I need to directly connect to the enterprise database. As for the implementation of this data, how should it be done?
+
+556
+00:23:57,080 --> 00:23:58,080
+do
+
+557
+00:23:58,080 --> 00:23:59,820
+Well, for example, I need to analyze data
+
+558
+00:23:59,820 --> 00:24:01,500
+Are you referring to the construction of a Knowledge base?
+
+559
+00:24:01,500 --> 00:24:06,670
+Or is it more like, uh, building a workflow to establish this kind of process
+
+560
+00:24:06,670 --> 00:24:09,030
+connect to the database for analysis
+
+561
+00:24:09,030 --> 00:24:14,310
+Build this process to exist within such an AD platform, how to implement the database
+
+562
+00:24:14,310 --> 00:24:14,810
+to perform analysis
+
+563
+00:24:14,810 --> 00:24:15,530
+Yeah, just connect to the database.
+
+564
+00:24:15,530 --> 00:24:16,530
+I'll connect to a table.
+
+565
+00:24:16,530 --> 00:24:17,810
+Perform BR analysis, right?
+
+566
+00:24:17,810 --> 00:24:18,890
+Visual analysis, right?
+
+567
+00:24:18,890 --> 00:24:22,370
+Um, oh, I understand, right, connecting to a database, I'll connect to a table, perform BR analysis, right?
+
+568
+00:24:22,370 --> 00:24:23,690
+visual analysis, right
+
+569
+00:24:23,690 --> 00:24:25,450
+Um, oh, I understand
+
+570
+00:24:25,450 --> 00:24:27,600
+Actually, whether you're doing analysis or
+
+571
+00:24:27,600 --> 00:24:32,080
+Any process, for that matter, is based on its own business workflow. And taking OA as an example,
+
+572
+00:24:32,080 --> 00:24:33,640
+you then proceed to correlate these data
+
+573
+00:24:33,640 --> 00:24:35,840
+In this context, were some MCP capabilities utilized?
+
+574
+00:24:35,840 --> 00:24:37,580
+or what
+
+575
+00:24:37,580 --> 00:24:39,820
+Oh MCP, these capabilities of MCP
+
+576
+00:24:39,820 --> 00:24:43,620
+Are we using some MCP capabilities here or what, oh MCP
+
+577
+00:24:43,620 --> 00:24:45,040
+the capabilities of MCP
+
+578
+00:24:45,360 --> 00:24:49,640
+OK, um, Tencent Cloud's data flow notarization platform, regarding some teasing of the model,
+
+579
+00:24:49,640 --> 00:24:53,429
+Do you have any experience in that?
+
+580
+00:24:53,429 --> 00:24:54,729
+Uh, yes.
+
+581
+00:24:54,729 --> 00:24:59,840
+But actually, in our case, when it comes to some teasing of the model, do you have any experience?
+
+582
+00:24:59,840 --> 00:25:02,100
+But actually, in our case, we do perform certain fine-tuning.
+
+583
+00:25:02,100 --> 00:25:04,660
+Generally speaking, model fine-tuning can be divided into two types
+
+584
+00:25:04,660 --> 00:25:09,540
+Generally speaking, it can be divided into, uh, full-parameter fine-tuning, and these landing-technique fine-tuning
+
+585
+00:25:09,540 --> 00:25:11,800
+Then we use Lora technology, which is generally divided into, uh
+
+586
+00:25:11,800 --> 00:25:13,000
+full-parameter fine-tuning
+
+587
+00:25:13,000 --> 00:25:15,940
+as well as the fine-tuning of landing technologies, and we used Lora technology
+
+588
+00:25:15,940 --> 00:25:19,309
+It has different models for various customer scenarios such as finance and healthcare.
+
+589
+00:25:19,309 --> 00:25:22,050
+We will collect some vertical industry data
+
+590
+00:25:22,050 --> 00:25:23,830
+will first conduct some collection of these
+
+591
+00:25:23,830 --> 00:25:26,070
+It mainly comes from two directions. We collect vertical industry data
+
+592
+00:25:26,070 --> 00:25:28,350
+These data will initially undergo some collection
+
+593
+00:25:28,350 --> 00:25:32,970
+It mainly comes from two sources, and one of them is our publicly available datasets.
+
+594
+00:25:32,970 --> 00:25:34,150
+as well as our company's internal
+
+595
+00:25:34,150 --> 00:25:35,250
+this professional data
+
+596
+00:25:35,250 --> 00:25:37,290
+and then proceed with a certain level of cleaning and standardization
+
+597
+00:25:37,290 --> 00:25:38,070
+such as labeling
+
+598
+00:25:38,070 --> 00:25:42,160
+Then, we feed our high-quality data to our large model.
+
+599
+00:25:42,160 --> 00:25:43,280
+What tools do you use for annotation?
+
+600
+00:25:43,280 --> 00:25:44,690
+For annotation,
+
+601
+00:25:44,690 --> 00:25:46,750
+We have dedicated teams to annotate, uh, to feed our large models with the data.
+
+602
+00:25:46,750 --> 00:25:48,310
+What tools do you use for annotation?
+
+603
+00:25:48,310 --> 00:25:51,380
+For annotation tasks, we have dedicated teams, including product managers, who handle the annotations. Mmm-hmm.
+
+604
+00:25:51,380 --> 00:25:53,940
+What is the format of the labeled data?
+
+605
+00:25:53,940 --> 00:25:55,260
+I know this
+
+606
+00:25:55,260 --> 00:25:57,480
+Um, most of them would be some FAQs
+
+607
+00:25:57,480 --> 00:26:02,030
+Then there will also be some of these images, posts that we have.
+
+608
+00:26:02,350 --> 00:26:06,890
+Most of them will be FAQs, and then there will also be some posts indicating what format the data storage is in.
+
+609
+00:26:06,890 --> 00:26:09,210
+Not sure about the data storage format, right?
+
+610
+00:26:09,210 --> 00:26:10,330
+No problem no problem
+
+611
+00:26:10,330 --> 00:26:14,549
+This I definitely can, or rather the product manager
+
+612
+00:26:14,549 --> 00:26:17,540
+Actually, regarding the annotation,
+
+613
+00:26:17,540 --> 00:26:21,640
+This is something I definitely can handle, or rather, the product manager, and just proposing these related requirements will suffice.
+
+614
+00:26:21,640 --> 00:26:25,320
+There will be algorithm and AI trainers who will collaborate with us to complete these tasks.
+
+615
+00:26:25,320 --> 00:26:28,640
+Well, in this case, for example, in the Lora, right,
+
+616
+00:26:28,640 --> 00:26:29,460
+fine-tuning
+
+617
+00:26:29,460 --> 00:26:31,840
+How many pieces of data did you use at that time, for example, in this um
+
+618
+00:26:31,840 --> 00:26:39,560
+In this Lora fine-tuning, how many data points did you use at that time, in our case
+
+619
+00:26:39,560 --> 00:26:40,740
+For our smart customer service, uh, about 5,000 pieces of data.
+
+620
+00:26:40,740 --> 00:26:44,290
+Okay, regarding this fine-tuning...
+
+621
+00:26:44,290 --> 00:26:45,750
+It's also quite costly.
+
+622
+00:26:45,750 --> 00:26:55,070
+So, what level do you think this data volume should reach?
+
+623
+00:26:55,070 --> 00:26:57,650
+How many data points do you think should be the minimum threshold?
+
+624
+00:26:57,650 --> 00:27:00,390
+First, it depends on the size of your model
+
+625
+00:27:00,390 --> 00:27:02,950
+as well as various requirements you have
+
+626
+00:27:02,950 --> 00:27:06,050
+Then, if your model is relatively small,
+
+627
+00:27:06,050 --> 00:27:09,250
+and it's related to various requirements you have, so then
+
+628
+00:27:09,250 --> 00:27:11,330
+If your model is relatively small, even a thousand samples would suffice.
+
+629
+00:27:11,330 --> 00:27:13,560
+Then you use Lora technology
+
+630
+00:27:13,560 --> 00:27:14,720
+make some fine-tuning
+
+631
+00:27:14,720 --> 00:27:17,100
+its training cost will also be lower
+
+632
+00:27:17,100 --> 00:27:20,540
+And look, if you're talking about full-parameter fine-tuning
+
+633
+00:27:20,540 --> 00:27:22,020
+Its training cost would also be lower.
+
+634
+00:27:22,020 --> 00:27:23,710
+It is related to these two aspects.
+
+635
+00:27:23,710 --> 00:27:29,060
+What potential issues do you think full-parameter fine-tuning might have, and what are the differences between them?
+
+636
+00:27:29,060 --> 00:27:32,040
+Well, first of all, this Lora fine-tuning
+
+637
+00:27:32,040 --> 00:27:39,600
+It is currently used by us, or rather, this type of enterprise, for fine-tuning
+
+638
+00:27:39,600 --> 00:27:41,640
+full-parameter fine-tuning
+
+639
+00:27:41,640 --> 00:27:43,350
+Its training cost is very high.
+
+640
+00:27:43,350 --> 00:27:47,530
+You, you adjust, you adjust the same parameters, which require feeding this amount of data.
+
+641
+00:27:47,530 --> 00:27:50,450
+If it's like before, he only needed 5,000 entries
+
+642
+00:27:50,450 --> 00:27:52,350
+then you perform full-parameter fine-tuning
+
+643
+00:27:52,350 --> 00:27:53,590
+the same model size
+
+644
+00:27:53,590 --> 00:27:54,830
+you may need more than 5,000
+
+645
+00:27:54,830 --> 00:27:55,990
+You need to go above
+
+646
+00:27:55,990 --> 00:27:57,219
+Then you proceed with full-parameter fine-tuning
+
+647
+00:27:57,219 --> 00:28:00,099
+For the same model size, you might need more than 5,000
+
+648
+00:28:00,099 --> 00:28:00,599
+Right
+
+649
+00:28:00,599 --> 00:28:03,219
+You need to go above that, at least tens of thousands, and then for full-parameter fine-tuning
+
+650
+00:28:03,219 --> 00:28:05,850
+So now, for us and these industries, you definitely won't have enough, right? Yeah, so now, for us and these industries,
+
+651
+00:28:05,850 --> 00:28:08,370
+In fact, they all use Lora technology for fine-tuning.
+
+652
+00:28:08,370 --> 00:28:09,290
+So what exactly did you do in terms of fine-tuning?
+
+653
+00:28:09,290 --> 00:28:13,080
+actually
+
+654
+00:28:13,080 --> 00:28:14,440
+uh, well, you could say
+
+655
+00:28:14,440 --> 00:28:16,260
+Actually, it's about refining the requirements. So, what exactly did you do in terms of fine-tuning?
+
+656
+00:28:16,260 --> 00:28:19,440
+For example, in terms of RAG itself, um, you could say
+
+657
+00:28:19,440 --> 00:28:22,340
+Actually, it's about refining this requirement. I need to improve the handling of irrelevant knowledge chunks, such as in the RAG itself.
+
+658
+00:28:22,340 --> 00:28:24,880
+as well as some capabilities in multimodal reading comprehension
+
+659
+00:28:24,880 --> 00:28:26,900
+Then I need to propose such a requirement
+
+660
+00:28:26,900 --> 00:28:28,639
+communicate with our algorithm team
+
+661
+00:28:28,639 --> 00:28:30,719
+So how should we approach which data
+
+662
+00:28:30,719 --> 00:28:31,919
+Then I need to make such a request
+
+663
+00:28:31,919 --> 00:28:34,520
+only then will they provide the accuracy requirements
+
+664
+00:28:34,520 --> 00:28:36,760
+these requirements
+
+665
+00:28:36,760 --> 00:28:38,940
+the requirements for accuracy, he will then provide
+
+666
+00:28:38,940 --> 00:28:41,040
+or rather, he is conducting some regional data annotation
+
+667
+00:28:41,040 --> 00:28:42,690
+through outsourcing and other various means
+
+668
+00:28:42,690 --> 00:28:44,730
+Finally, conduct the corresponding evaluation.
+
+669
+00:28:45,170 --> 00:28:48,110
+Uh-huh, let me ask you a few more questions
+
+670
+00:28:48,110 --> 00:28:50,750
+So, have you been following some of the latest technologies?
+
+671
+00:28:50,750 --> 00:28:56,870
+Um, let me ask you a few more questions, just, about some particularly interesting AI products
+
+672
+00:28:57,150 --> 00:28:59,190
+Well, some particularly interesting AI products
+
+673
+00:28:59,190 --> 00:29:00,790
+Yes, uh, I do
+
+674
+00:29:00,790 --> 00:29:03,280
+Actually, like some of the recent cutting-edge ones, the third one, uh
+
+675
+00:29:03,280 --> 00:29:06,280
+I think, in terms of its overall positioning in the industry, uh, yes
+
+676
+00:29:06,280 --> 00:29:11,400
+Actually, regarding some recent developments, thirdly, I think in terms of the overall positioning in this track, this virtual world is
+
+677
+00:29:11,400 --> 00:29:15,420
+It's not like before when we were just talking about text-based chats centered on a single word.
+
+678
+00:29:15,420 --> 00:29:17,860
+It can actually be similar to some image-related
+
+679
+00:29:17,860 --> 00:29:19,540
+these image production tools
+
+680
+00:29:19,540 --> 00:29:22,920
+In the future, this kind of text chat based on a single word can actually be similar to some tools that generate images, etc.
+
+681
+00:29:22,920 --> 00:29:24,380
+some of these image production tools
+
+682
+00:29:24,380 --> 00:29:28,320
+In the future, it may appear more sci-fi and futuristic compared to our previous ones.
+
+683
+00:29:28,320 --> 00:29:30,090
+also more futuristic
+
+684
+00:29:30,090 --> 00:29:33,730
+Next, as for our so-called cloud, the cloud's...
+
+685
+00:29:33,730 --> 00:29:35,530
+That is to say, the 4.1 version of Cloud
+
+686
+00:29:35,530 --> 00:29:41,129
+Moreover, for instance, our so-called cloud of cloud, that is to say, the cloud,
+
+687
+00:29:41,129 --> 00:29:42,569
+Actually, um
+
+688
+00:29:42,569 --> 00:29:46,300
+It seems that recently it has actually had some impact on us as a whole, or on all of us.
+
+689
+00:29:46,300 --> 00:29:46,700
+risk avoidance
+
+690
+00:29:46,700 --> 00:29:48,040
+Anyway, they just won't let us use it.
+
+691
+00:29:48,040 --> 00:29:52,580
+In this regard, it actually contributes to the overall improvement of some domestic large models.
+
+692
+00:29:52,580 --> 00:29:55,140
+will also play a certain promoting role
+
+693
+00:29:55,140 --> 00:29:55,980
+Keywords include
+
+694
+00:29:55,980 --> 00:29:57,080
+the improvement of some domestic large models
+
+695
+00:29:57,080 --> 00:29:59,020
+It also plays a certain promotional role.
+
+696
+00:29:59,020 --> 00:30:04,790
+including things like promote, which we refer to as prompts, as well as ROGO or model selection;
+
+697
+00:30:04,790 --> 00:30:06,340
+as well as these gold bars
+
+698
+00:30:06,340 --> 00:30:08,760
+Furthermore, it lacks understanding regarding the practical implementation of applications.
+
+699
+00:30:08,760 --> 00:30:10,920
+Actually, it doesn't understand.
+
+700
+00:30:10,920 --> 00:30:12,700
+And as for these gold bars, secondly, it actually doesn't understand the implementation of applications.
+
+701
+00:30:12,700 --> 00:30:16,760
+In fact, it doesn't really understand. Then, actually, for the entire process based on, uh, each enterprise's business
+
+702
+00:30:16,760 --> 00:30:20,880
+the SOPs of the business to build the process of agents
+
+703
+00:30:20,880 --> 00:30:22,680
+They feel like they don't know or understand anything.
+
+704
+00:30:22,680 --> 00:30:24,850
+including aspects like positioning
+
+705
+00:30:24,850 --> 00:30:28,370
+Actually, I think when it comes to building an agent workflow, they seem completely clueless about it.
+
+706
+00:30:28,370 --> 00:30:30,910
+Including things like positioning, actually, I think, for example, each business's
+
+707
+00:30:30,910 --> 00:30:34,190
+Their business processes are all different, and it actually varies from company to company.
+
+708
+00:30:34,190 --> 00:30:35,639
+They are based on this aspect
+
+709
+00:30:35,639 --> 00:30:38,119
+One is the construction of business processes, and this arrow A is different.
+
+710
+00:30:38,119 --> 00:30:42,220
+On the other hand, it's actually the construction of its knowledge base, which is based on this aspect, one is the establishment of business processes.
+
+711
+00:30:42,220 --> 00:30:46,480
+What I have led and understood are these two aspects.
+
+712
+00:30:46,480 --> 00:30:51,220
+In the end, it’s actually based on real-time business reviews, so to speak.
+
+713
+00:30:51,220 --> 00:30:54,320
+a review of the business, or a review of your interviews, is essentially about locating and making adjustments step by step based on it.
+
+714
+00:30:54,320 --> 00:30:56,080
+help him make adjustments
+
+715
+00:30:56,080 --> 00:30:58,200
+What I currently understand are these aspects.
+
+716
+00:30:58,200 --> 00:31:01,610
+Hmm hmm okay yes, help him make adjustments
+
+717
+00:31:01,610 --> 00:31:02,650
+Currently, what I understand mainly consists of these aspects.
+
+718
+00:31:02,650 --> 00:31:04,710
+Uh-huh uh-huh OK yeah
+
+719
+00:31:04,710 --> 00:31:05,610
+It will be optimized later
+
+720
+00:31:05,610 --> 00:31:08,010
+Optimization will take up most of the working time.
+
+721
+00:31:08,010 --> 00:31:11,350
+Right, you, because first of all, actually, for tuning or building,
+
+722
+00:31:11,350 --> 00:31:15,870
+Most importantly, you need to understand the entire process of business diagnosis.
+
+723
+00:31:15,870 --> 00:31:17,140
+For example, it's now OA
+
+724
+00:31:17,140 --> 00:31:21,100
+Just discuss the business pre-diagnosis process with the corresponding business unit.
+
+725
+00:31:21,100 --> 00:31:23,620
+So what was the entire process like when you previously requested leave?
+
+726
+00:31:23,620 --> 00:31:24,680
+this step is completed
+
+727
+00:31:24,680 --> 00:31:26,160
+What should I do next?
+
+728
+00:31:26,160 --> 00:31:28,680
+What are the conditions if I fail to achieve the next step?
+
+729
+00:31:28,680 --> 00:31:29,580
+but based on this
+
+730
+00:31:29,580 --> 00:31:32,840
+You extracted this business process, determining what the next step should be, but when I didn't achieve each of these conditions
+
+731
+00:31:32,840 --> 00:31:34,700
+What are each of these conditions, but based on this
+
+732
+00:31:34,700 --> 00:31:36,360
+you extracted this business process to build this uh
+
+733
+00:31:36,360 --> 00:31:39,060
+The agent will include certain prompts, uh
+
+734
+00:31:39,060 --> 00:31:39,900
+After the initial completion
+
+735
+00:31:39,900 --> 00:31:41,760
+you then proceed with some testing
+
+736
+00:31:41,760 --> 00:31:43,560
+At this point, you need to start positioning.
+
+737
+00:31:43,560 --> 00:31:44,960
+Then what are the unresolved issues
+
+738
+00:31:44,960 --> 00:31:46,180
+If the issue remains unresolved after attempting solutions
+
+739
+00:31:46,180 --> 00:31:48,620
+Only then should you proceed with certain tests. At this point, you need to locate the issue.
+
+740
+00:31:48,620 --> 00:31:50,300
+Then what are the unresolved issues
+
+741
+00:31:50,300 --> 00:31:51,820
+After resolving the unresolved issues
+
+742
+00:31:51,820 --> 00:31:55,390
+You need to make real-time adjustments based on this issue, whether it's your business processes or other aspects.
+
+743
+00:31:55,390 --> 00:31:57,280
+as well as some prompt words here, including examples, etc.
+

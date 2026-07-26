@@ -1,0 +1,1448 @@
+1
+00:00:01,040 --> 00:00:02,560
+Hello everyone, and welcome back!
+
+2
+00:00:02,560 --> 00:00:03,300
+Welcome back.
+
+3
+00:00:03,300 --> 00:00:04,440
+Alright, so in the last section,
+
+4
+00:00:04,440 --> 00:00:07,780
+we completed the development of a unit testing skill.
+
+5
+00:00:07,780 --> 00:00:09,740
+Alright, so next up, we're going to take this skill...
+
+6
+00:00:09,740 --> 00:00:12,120
+and assign it to a sub-agent.
+
+7
+00:00:12,120 --> 00:00:13,760
+onto a sub-agent.
+
+8
+00:00:13,760 --> 00:00:16,880
+So, let's conceptualize this sub-agent as one of our digital employees.
+
+9
+00:00:16,880 --> 00:00:19,350
+Let's call it the Test Engineer.
+
+10
+00:00:19,350 --> 00:00:20,810
+So, before we dive into the development...
+
+11
+00:00:20,810 --> 00:00:23,670
+We can also just chat with Claude directly to get help.
+
+12
+00:00:23,670 --> 00:00:25,540
+and ask it a quick question.
+
+13
+00:00:25,540 --> 00:00:28,180
+For instance, what exactly is this thing we call a 'sub-agent'?
+
+14
+00:00:28,180 --> 00:00:29,980
+and how to configure skills for it.
+
+15
+00:00:29,980 --> 00:00:31,900
+Alright, let's see what it says.
+
+16
+00:00:31,900 --> 00:00:32,780
+Okay, so I can write that down.
+
+17
+00:00:32,780 --> 00:00:35,750
+So, how do I develop a sub-agent?
+
+18
+00:00:35,750 --> 00:00:40,780
+And we'll need to configure the sub-agent with some skills. Okay.
+
+19
+00:00:40,780 --> 00:00:42,060
+Alright, let's ask it first.
+
+20
+00:00:42,060 --> 00:00:42,980
+Let's see what it says.
+
+21
+00:00:42,980 --> 00:00:45,840
+And then, we'll respond based on what it tells us.
+
+22
+00:00:45,840 --> 00:00:47,900
+Because right now, let's just pretend we're complete beginners.
+
+23
+00:00:47,900 --> 00:00:50,760
+We might not be entirely clear about what these so-called "sub-agents" are,
+
+24
+00:00:50,760 --> 00:00:51,520
+and the so-called "skills".
+
+25
+00:00:51,520 --> 00:00:52,320
+how they relate to each other.
+
+26
+00:00:52,320 --> 00:00:55,180
+So, even though I just walked you through that with a diagram,
+
+27
+00:00:55,180 --> 00:00:58,280
+But, we can also get a better idea from Claude's description.
+
+28
+00:00:58,280 --> 00:00:59,390
+to really drive that point home.
+
+29
+00:00:59,390 --> 00:01:01,410
+And this is actually a common pattern we see here.
+
+30
+00:01:01,410 --> 00:01:02,230
+For us beginners,
+
+31
+00:01:02,230 --> 00:01:05,269
+So, when you're using these AI coding tools,
+
+32
+00:01:05,269 --> 00:01:08,180
+just think of it as a programming tool.
+
+33
+00:01:08,180 --> 00:01:11,220
+And at the same time, treat it like an all-knowing...
+
+34
+00:01:11,220 --> 00:01:13,160
+or assistants like Qianwen Doubao, you know?
+
+35
+00:01:13,160 --> 00:01:13,920
+Whatever you don't know,
+
+36
+00:01:13,920 --> 00:01:14,620
+Just ask him.
+
+37
+00:01:14,620 --> 00:01:16,280
+It can answer pretty much anything you throw at it.
+
+38
+00:01:16,280 --> 00:01:17,640
+It's about to execute a command here.
+
+39
+00:01:17,640 --> 00:01:18,760
+Alright, let's give it a 'yes'.
+
+40
+00:01:18,760 --> 00:01:19,400
+Permission granted.
+
+41
+00:01:19,400 --> 00:01:21,930
+Because it needs to search for what we have currently.
+
+42
+00:01:21,930 --> 00:01:24,070
+For example, what edits are there in the project.
+
+43
+00:01:24,070 --> 00:01:25,950
+and what global imports we have.
+
+44
+00:01:25,950 --> 00:01:27,870
+First, it's going to check what edits we have right now.
+
+45
+00:01:27,870 --> 00:01:29,700
+and only then will it start to answer our question.
+
+46
+00:01:29,700 --> 00:01:30,500
+Alright, let's give it a second.
+
+47
+00:01:30,500 --> 00:01:31,640
+Let's give it a moment to think.
+
+48
+00:01:31,640 --> 00:01:32,720
+So, during this process,
+
+49
+00:01:32,720 --> 00:01:35,940
+It might also need to go online and search for relevant information.
+
+50
+00:01:35,940 --> 00:01:38,200
+OK, so it looks like it's telling us now.
+
+51
+00:01:38,200 --> 00:01:40,840
+It also says that we haven't created any custom ones yet.
+
+52
+00:01:40,840 --> 00:01:41,400
+Sub-agent.
+
+53
+00:01:41,400 --> 00:01:43,360
+It's going to break it down for us in plain English.
+
+54
+00:01:43,360 --> 00:01:44,480
+So, what exactly is a 'sub-agent'?
+
+55
+00:01:44,480 --> 00:01:46,710
+For instance, let's say we're the project manager.
+
+56
+00:01:46,710 --> 00:01:48,920
+So we can interact with Claude through our chat.
+
+57
+00:01:48,920 --> 00:01:51,600
+So, this is actually pretty similar to how we've been working all along.
+
+58
+00:01:51,600 --> 00:01:53,180
+All we have to do is give the commands.
+
+59
+00:01:53,180 --> 00:01:55,759
+And Claude will then get the work done for us.
+
+60
+00:01:55,759 --> 00:01:59,359
+So, our Claude is what we'd call the 'main agent'.
+
+61
+00:01:59,359 --> 00:02:02,200
+So, we can think of it as our 'full-stack engineer'.
+
+62
+00:02:02,200 --> 00:02:03,000
+It can do pretty much anything.
+
+63
+00:02:03,000 --> 00:02:04,380
+But a single person's energy is limited.
+
+64
+00:02:04,380 --> 00:02:06,820
+So, a sub-agent is basically like having a team of experts.
+
+65
+00:02:06,820 --> 00:02:08,789
+Or you can think of them as just additional employees.
+
+66
+00:02:08,789 --> 00:02:11,090
+Each of them will specialize in a specific area.
+
+67
+00:02:11,090 --> 00:02:12,890
+So, as the project manager,
+
+68
+00:02:12,890 --> 00:02:15,710
+So, when you make a request to Claude,
+
+69
+00:02:15,710 --> 00:02:18,960
+And Claude, based on its own judgment,
+
+70
+00:02:18,960 --> 00:02:22,060
+to decide which expert group will be assigned to help with the task.
+
+71
+00:02:22,060 --> 00:02:25,160
+And it can even assign multiple expert teams at the same time.
+
+72
+00:02:25,160 --> 00:02:26,660
+working together.
+
+73
+00:02:26,660 --> 00:02:28,360
+So, that's what we call a sub-agent.
+
+74
+00:02:28,360 --> 00:02:29,360
+Or to use its proper name, a sub-agent.
+
+75
+00:02:29,360 --> 00:02:31,760
+You can think of them as virtual digital employees.
+
+76
+00:02:31,760 --> 00:02:33,900
+And the main one, Claude, is the boss of all these virtual employees.
+
+77
+00:02:33,900 --> 00:02:37,700
+And all these virtual employees are managed by Cloud Code.
+
+78
+00:02:37,700 --> 00:02:41,250
+And it's up to Cloud Code to decide which virtual employee is the best one for the job.
+
+79
+00:02:41,250 --> 00:02:42,750
+So, right here, you can see it gives us an example.
+
+80
+00:02:42,750 --> 00:02:44,990
+It suggests, for instance, that you could create an expert in code reviews.
+
+81
+00:02:44,990 --> 00:02:45,590
+Sub-agent, that is.
+
+82
+00:02:45,590 --> 00:02:46,930
+Its sole purpose is to review code.
+
+83
+00:02:46,930 --> 00:02:49,460
+So, when the main Claude encounters a code review task,
+
+84
+00:02:49,460 --> 00:02:50,360
+He doesn't do the work himself.
+
+85
+00:02:50,360 --> 00:02:51,180
+It just gives an order,
+
+86
+00:02:51,180 --> 00:02:52,560
+Hey, just go review that for me.
+
+87
+00:02:52,560 --> 00:02:54,000
+So, this code review expert
+
+88
+00:02:54,000 --> 00:02:56,760
+So, this virtual employee is here to get the job done for us.
+
+89
+00:02:56,760 --> 00:03:00,269
+Then, the main agent just needs to wait for its response.
+
+90
+00:03:00,269 --> 00:03:02,069
+Of course, we still need to add a description in here as well.
+
+91
+00:03:02,069 --> 00:03:04,240
+So, one difference between our sub-agents and skills.
+
+92
+00:03:04,240 --> 00:03:05,640
+So, about the skills we used earlier,
+
+93
+00:03:05,640 --> 00:03:08,100
+It's the one you bring up with the forward slash.
+
+94
+00:03:08,100 --> 00:03:11,260
+So, this is what we call a Skill. A Skill.
+
+95
+00:03:11,260 --> 00:03:15,220
+As for our sub-agent, however, its invocation is determined and triggered automatically by Claude.
+
+96
+00:03:15,220 --> 00:03:16,520
+So, that's why they're two different things.
+
+97
+00:03:16,520 --> 00:03:19,180
+You can call a skill independently by using a forward slash.
+
+98
+00:03:19,180 --> 00:03:22,520
+But our sub-agent is called by Claude based on its own judgment.
+
+99
+00:03:22,520 --> 00:03:23,040
+Of course.
+
+100
+00:03:23,040 --> 00:03:23,840
+Actually, there are commands for it as well.
+
+101
+00:03:23,840 --> 00:03:25,120
+For example, with a command like /quiet.
+
+102
+00:03:25,120 --> 00:03:26,580
+Of course, you could also specify it manually.
+
+103
+00:03:26,580 --> 00:03:27,320
+But under normal circumstances,
+
+104
+00:03:27,320 --> 00:03:30,120
+we usually just let Claude decide and make the call automatically.
+
+105
+00:03:30,120 --> 00:03:31,800
+And while it's running...
+
+106
+00:03:31,800 --> 00:03:34,440
+Our SSCARE runs within the current conversation,
+
+107
+00:03:34,440 --> 00:03:36,600
+But a sub-agent runs independently.
+
+108
+00:03:36,600 --> 00:03:37,730
+It has its own context.
+
+109
+00:03:37,730 --> 00:03:38,570
+So, what does that mean?
+
+110
+00:03:38,570 --> 00:03:41,090
+So, you can think of it as our current chat with Claude.
+
+111
+00:03:41,090 --> 00:03:42,980
+We're talking to this main Claude.
+
+112
+00:03:42,980 --> 00:03:45,100
+In other words, we're chatting with Claude Code itself.
+
+113
+00:03:45,100 --> 00:03:49,399
+So, this chat history is what we're interacting with directly within Claude Code.
+
+114
+00:03:49,399 --> 00:03:52,079
+So, for example, let's say you want Claude Code to review some code.
+
+115
+00:03:52,079 --> 00:03:54,570
+And then, it'll dispatch one of its subordinates.
+
+116
+00:03:54,570 --> 00:03:56,050
+A sub-agent.
+
+117
+00:03:56,050 --> 00:03:57,290
+It just tells it,
+
+118
+00:03:57,290 --> 00:03:59,540
+You just go ahead and review the code.
+
+119
+00:03:59,540 --> 00:04:03,100
+So, in our chat history with the main Claude agent...
+
+120
+00:04:03,100 --> 00:04:05,780
+It won't tell the actual worker doing the task.
+
+121
+00:04:05,780 --> 00:04:06,580
+So, the one actually doing the work...
+
+122
+00:04:06,580 --> 00:04:08,420
+Its only job is to review the code.
+
+123
+00:04:08,420 --> 00:04:10,200
+and provide its response. That's all it needs to do.
+
+124
+00:04:10,200 --> 00:04:12,720
+This way, we can avoid any issues between these agents.
+
+125
+00:04:12,720 --> 00:04:14,360
+you avoid any confusion in their memory.
+
+126
+00:04:14,360 --> 00:04:16,039
+Or, in other words, memory interference.
+
+127
+00:04:16,039 --> 00:04:18,399
+Okay, so that's their relationship in terms of context.
+
+128
+00:04:18,399 --> 00:04:20,079
+It runs independently.
+
+129
+00:04:20,079 --> 00:04:20,858
+It runs independently.
+
+130
+00:04:20,858 --> 00:04:22,199
+So, they have different purposes.
+
+131
+00:04:22,199 --> 00:04:23,640
+So our skill is essentially the knowledge.
+
+132
+00:04:23,640 --> 00:04:25,520
+or, in other words, a template for quick commands.
+
+133
+00:04:25,520 --> 00:04:28,300
+But a sub-agent, on the other hand, is like an expert role.
+
+134
+00:04:28,300 --> 00:04:31,110
+You can run several sub-agents in parallel.
+
+135
+00:04:31,110 --> 00:04:34,030
+And on top of that, they're stored in different locations.
+
+136
+00:04:34,030 --> 00:04:37,120
+So, for example, our skills are stored in this folder called 'skills'.
+
+137
+00:04:37,120 --> 00:04:39,500
+But agents, on the other hand, are stored in a folder called 'agent'.
+
+138
+00:04:39,500 --> 00:04:41,720
+folder. Alright, so...
+
+139
+00:04:41,720 --> 00:04:42,960
+So, how do we actually create one?
+
+140
+00:04:42,960 --> 00:04:43,660
+It's actually pretty simple.
+
+141
+00:04:43,660 --> 00:04:45,300
+It's just like how we created the skill earlier.
+
+142
+00:04:45,300 --> 00:04:48,620
+Inside this dot cloud folder, go ahead and create an 'agents' folder.
+
+143
+00:04:48,620 --> 00:04:51,060
+And then, just create the corresponding .md file inside it, and you're all set.
+
+144
+00:04:51,060 --> 00:04:53,660
+And each MD file represents a different expert.
+
+145
+00:04:53,660 --> 00:04:54,600
+a specific description.
+
+146
+00:04:54,600 --> 00:04:57,060
+And it also gives us a concrete example here.
+
+147
+00:04:57,060 --> 00:04:58,780
+For example, how should we write the description for a Code Review Expert?
+
+148
+00:04:58,780 --> 00:05:01,650
+So, fundamentally, all of this is just natural language.
+
+149
+00:05:01,650 --> 00:05:03,010
+Right, it's all just natural language.
+
+150
+00:05:03,010 --> 00:05:04,510
+So, how do you configure it with new skills?
+
+151
+00:05:04,510 --> 00:05:06,550
+But it won't invoke it directly by itself.
+
+152
+00:05:06,550 --> 00:05:09,100
+But what you can do is describe what skills you have.
+
+153
+00:05:09,100 --> 00:05:12,660
+For instance, let's say we have a unit testing skill, and we'll call it 'unit test'.
+
+154
+00:05:12,660 --> 00:05:14,220
+So, you can tell it right here.
+
+155
+00:05:14,220 --> 00:05:16,060
+One of your skills is unit testing, right?
+
+156
+00:05:16,060 --> 00:05:17,780
+You just need to tell it that this is a skill you have.
+
+157
+00:05:17,780 --> 00:05:20,910
+That's because these sub-agents don't exclusively own skills.
+
+158
+00:05:20,910 --> 00:05:23,110
+Skills, on the other hand, are shared by everyone.
+
+159
+00:05:23,110 --> 00:05:26,460
+All you need to do is tell it which skills it can use.
+
+160
+00:05:26,460 --> 00:05:28,380
+Like the unit test we just set up, for instance.
+
+161
+00:05:28,380 --> 00:05:29,400
+Then you can just configure it with that skill.
+
+162
+00:05:29,400 --> 00:05:31,880
+Just tell it that it possesses the "unit testing" skill.
+
+163
+00:05:31,880 --> 00:05:32,800
+and when you need to,
+
+164
+00:05:32,800 --> 00:05:35,060
+you can then call on this skill to get the job done.
+
+165
+00:05:35,060 --> 00:05:35,780
+Oh, absolutely.
+
+166
+00:05:35,780 --> 00:05:38,100
+Like all this professional-level code in here,
+
+167
+00:05:38,100 --> 00:05:38,860
+But, as a total beginner,
+
+168
+00:05:38,860 --> 00:05:39,820
+It's possible we're not great at writing it ourselves.
+
+169
+00:05:39,820 --> 00:05:41,100
+But that's okay, right?
+
+170
+00:05:41,100 --> 00:05:43,350
+We can have Claude write it for us.
+
+171
+00:05:43,350 --> 00:05:45,570
+We're talking about a super versatile digital employee here.
+
+172
+00:05:45,570 --> 00:05:46,820
+This digital employee can do pretty much anything.
+
+173
+00:05:46,820 --> 00:05:48,620
+So, you want to configure a sub-agent.
+
+174
+00:05:48,620 --> 00:05:50,160
+For now, we just need to understand the concept.
+
+175
+00:05:50,160 --> 00:05:51,140
+time for the real heavy lifting.
+
+176
+00:05:51,140 --> 00:05:55,530
+Alright, we can just have Claude handle this for us as well.
+
+177
+00:05:55,530 --> 00:05:56,950
+Alright, let's make that happen.
+
+178
+00:05:56,950 --> 00:05:57,910
+Alright, let's tell it what to do.
+
+179
+00:05:57,910 --> 00:06:03,855
+Tell it: 'Hey, help me create a sub-agent.'
+
+180
+00:06:06,660 --> 00:06:07,760
+Right, a sub-agent.
+
+181
+00:06:07,760 --> 00:06:11,500
+And its name will be... let's call it 'test'.
+
+182
+00:06:11,500 --> 00:06:12,900
+An engineer, huh.
+
+183
+00:06:12,900 --> 00:06:15,130
+Test... ah, test, right.
+
+184
+00:06:15,130 --> 00:06:17,050
+Tester, T-E-S-T-E-R... tester.
+
+185
+00:06:17,050 --> 00:06:17,990
+Alright, let's name it 'test'.
+
+186
+00:06:17,990 --> 00:06:22,620
+It's for unit testing.
+
+187
+00:06:22,620 --> 00:06:27,290
+So, the skill it can use is called '/unit test'.
+
+188
+00:06:27,290 --> 00:06:29,210
+So, we've already configured this skill for it earlier.
+
+189
+00:06:29,210 --> 00:06:30,010
+unit test.
+
+190
+00:06:30,010 --> 00:06:31,860
+It can use this skill.
+
+191
+00:06:31,860 --> 00:06:33,700
+So, next, we're going to tell Claude...
+
+192
+00:06:33,700 --> 00:06:40,460
+So basically, whenever a user has a unit testing requirement,
+
+193
+00:06:40,460 --> 00:06:42,500
+so whenever that happens,
+
+194
+00:06:42,500 --> 00:06:46,980
+can all be handled by this sub-agent.
+
+195
+00:06:46,980 --> 00:06:48,380
+The sub-agent, got it.
+
+196
+00:06:48,380 --> 00:06:50,180
+Okay, we can just give a simple description.
+
+197
+00:06:50,180 --> 00:06:50,820
+So, generally speaking,
+
+198
+00:06:50,820 --> 00:06:52,060
+Same goes for our model here.
+
+199
+00:06:52,060 --> 00:06:54,160
+Claude will help fill in the blanks with this key information for us.
+
+200
+00:06:54,160 --> 00:06:56,480
+Later, we can take a quick look at the MD file it creates.
+
+201
+00:06:56,480 --> 00:06:57,600
+And if there's anything you think needs to be changed,
+
+202
+00:06:57,600 --> 00:06:58,860
+You can have it revise it again.
+
+203
+00:06:58,860 --> 00:06:59,820
+Just have it make the changes.
+
+204
+00:06:59,820 --> 00:07:01,160
+Alright, let's start with a simple description.
+
+205
+00:07:01,160 --> 00:07:03,100
+and then just hit Enter to submit.
+
+206
+00:07:03,100 --> 00:07:06,380
+We'll just have it handle this for us, and we're good to go.
+
+207
+00:07:08,420 --> 00:07:09,140
+Alright, same idea here.
+
+208
+00:07:09,140 --> 00:07:10,380
+Looks like it's about to run another command here.
+
+209
+00:07:10,380 --> 00:07:11,340
+to create a new folder.
+
+210
+00:07:11,340 --> 00:07:13,100
+Alright, let's give it permission.
+
+211
+00:07:13,770 --> 00:07:15,890
+Okay, so after a short wait, as you can see...
+
+212
+00:07:15,890 --> 00:07:17,130
+And it's already written it for us.
+
+213
+00:07:17,130 --> 00:07:20,810
+So, here we have our 'tester,' a unit testing expert.
+
+214
+00:07:20,810 --> 00:07:23,610
+So, this is the Markdown description for our sub-agent.
+
+215
+00:07:23,610 --> 00:07:25,730
+Alright, as you can see, its name here is 'Test'.
+
+216
+00:07:25,730 --> 00:07:27,699
+It describes a unit test expert.
+
+217
+00:07:27,699 --> 00:07:31,350
+And it can use a skill called 'unit test', alright.
+
+218
+00:07:31,350 --> 00:07:32,750
+And then, if you take a look inside...
+
+219
+00:07:32,750 --> 00:07:35,590
+And it's given us some corresponding descriptions right there.
+
+220
+00:07:35,590 --> 00:07:38,420
+The description, for instance, tells us who you are.
+
+221
+00:07:38,420 --> 00:07:40,580
+So, what can you do, and how do you operate?
+
+222
+00:07:40,580 --> 00:07:43,390
+Its working method is to call a skill called 'unit test'.
+
+223
+00:07:43,390 --> 00:07:46,070
+And then, hey, what's the tech stack?
+
+224
+00:07:46,070 --> 00:07:47,830
+And what about the important rules?
+
+225
+00:07:47,830 --> 00:07:49,270
+And what about the outputs?
+
+226
+00:07:49,270 --> 00:07:52,040
+Okay, so overall, it looks pretty good.
+
+227
+00:07:52,040 --> 00:07:52,760
+Alright, this looks good.
+
+228
+00:07:52,760 --> 00:07:53,480
+So, if there are no issues...
+
+229
+00:07:53,480 --> 00:07:56,460
+So that means this Markdown file is pretty much good to go.
+
+230
+00:07:56,460 --> 00:07:57,860
+Alright, so if we're good with that, let's click 'yes'.
+
+231
+00:07:57,860 --> 00:08:01,400
+And just like that, it'll write this Markdown file for us.
+
+232
+00:08:01,640 --> 00:08:03,160
+Alright, so now that it's created...
+
+233
+00:08:03,160 --> 00:08:04,880
+according to the memory we configured for it earlier.
+
+234
+00:08:04,880 --> 00:08:06,420
+You'll notice with this particular Claude instance,
+
+235
+00:08:06,420 --> 00:08:07,880
+It might be different from other people's versions of Claude.
+
+236
+00:08:07,880 --> 00:08:09,360
+A lot of the time, it will give us an explanation.
+
+237
+00:08:09,360 --> 00:08:11,740
+a ton of really, really detailed information.
+
+238
+00:08:11,740 --> 00:08:12,440
+So, does everyone remember...
+
+239
+00:08:12,440 --> 00:08:15,160
+We set up a global memory for it way back at the beginning.
+
+240
+00:08:15,160 --> 00:08:16,040
+We've told it before,
+
+241
+00:08:16,040 --> 00:08:16,840
+I'm a total newbie.
+
+242
+00:08:16,840 --> 00:08:19,400
+So, a lot of the time, when you come across technical terms, you need to explain them to me.
+
+243
+00:08:19,400 --> 00:08:20,040
+and explain it to me.
+
+244
+00:08:20,040 --> 00:08:21,480
+So, he went ahead and explained it for us.
+
+245
+00:08:21,480 --> 00:08:22,320
+Here's a diagram of our architecture.
+
+246
+00:08:22,320 --> 00:08:23,600
+Let's say, for example, that we are the project manager.
+
+247
+00:08:23,600 --> 00:08:25,700
+So, in here, there's a skill that needs to be triggered manually.
+
+248
+00:08:25,700 --> 00:08:27,540
+And at the same time, there's also an automatic judgment feature.
+
+249
+00:08:27,540 --> 00:08:29,660
+and it called a 'Sandbox Agent'.
+
+250
+00:08:29,660 --> 00:08:31,760
+And then, it will internally call this thing called 'unit test'.
+
+251
+00:08:31,760 --> 00:08:32,870
+Nice, this skill.
+
+252
+00:08:32,870 --> 00:08:34,490
+And then, there are also some configuration options in here.
+
+253
+00:08:34,490 --> 00:08:36,049
+But we're not going to worry about all that for now.
+
+254
+00:08:36,049 --> 00:08:36,650
+We're not going to worry about those.
+
+255
+00:08:36,650 --> 00:08:37,850
+So, what does its workflow look like?
+
+256
+00:08:37,850 --> 00:08:38,929
+And its complete directory structure.
+
+257
+00:08:38,929 --> 00:08:40,780
+Actually, you can see all of this on the left side.
+
+258
+00:08:40,780 --> 00:08:42,659
+And as you can see, there's a new folder here called 'agents'.
+
+259
+00:08:42,659 --> 00:08:46,670
+Inside, there's a file named 'test.md', which is for the 'edit' agent.
+
+260
+00:08:46,670 --> 00:08:47,330
+Alright.
+
+261
+00:08:47,330 --> 00:08:50,750
+Alright, so now that we've finished developing this agent...
+
+262
+00:08:50,750 --> 00:08:52,000
+So, let's go ahead and test it out.
+
+263
+00:08:52,000 --> 00:08:53,320
+Alright, so for this to take effect,
+
+264
+00:08:53,320 --> 00:08:55,900
+We can go ahead and close VS Code as well.
+
+265
+00:08:55,900 --> 00:08:58,280
+Let's go ahead and restart our VS Code.
+
+266
+00:08:58,280 --> 00:09:00,599
+This is basically like restarting Claude Code.
+
+267
+00:09:00,599 --> 00:09:01,719
+Alright, so once it's restarted...
+
+268
+00:09:01,719 --> 00:09:04,360
+So, it'll reload the settings.json file.
+
+269
+00:09:04,360 --> 00:09:07,360
+to see what skills it has, and which sub-agents are available.
+
+270
+00:09:07,360 --> 00:09:08,720
+So it's basically like a complete reload.
+
+271
+00:09:08,720 --> 00:09:10,480
+So, once we get back in,
+
+272
+00:09:10,480 --> 00:09:12,820
+and we can start communicating with it.
+
+273
+00:09:12,820 --> 00:09:14,280
+Alright, so now that I'm back in,
+
+274
+00:09:14,280 --> 00:09:15,920
+We can click on the chat history.
+
+275
+00:09:15,920 --> 00:09:16,200
+Right?
+
+276
+00:09:16,200 --> 00:09:18,880
+We can go back to the conversation we were just having.
+
+277
+00:09:18,880 --> 00:09:21,500
+And we can just pick up where we left off in this chat. Alright,
+
+278
+00:09:21,500 --> 00:09:28,850
+Alright, so I'm just gonna say, 'Hey, help me run the unit tests.' Okay?
+
+279
+00:09:28,850 --> 00:09:30,350
+Alright, so you can see we now have a request.
+
+280
+00:09:30,350 --> 00:09:31,470
+So, just run the unit tests for me.
+
+281
+00:09:31,470 --> 00:09:32,310
+So, it's going to think about it.
+
+282
+00:09:32,310 --> 00:09:34,970
+Normally, it would call upon our Unit Testing Expert.
+
+283
+00:09:34,970 --> 00:09:36,030
+our tester.
+
+284
+00:09:36,030 --> 00:09:39,140
+This is called a 'sub agent,' and it will handle the corresponding operations.
+
+285
+00:09:39,140 --> 00:09:39,300
+Alright.
+
+286
+00:09:39,300 --> 00:09:40,240
+Let's give it a second.
+
+287
+00:09:40,240 --> 00:09:42,020
+Let's give it a moment to think.
+
+288
+00:09:44,560 --> 00:09:46,520
+Alright, as you can see, it's already telling us here.
+
+289
+00:09:46,520 --> 00:09:50,100
+The testing task will be delegated to this 'test' sub-agent to execute.
+
+290
+00:09:50,100 --> 00:09:53,110
+So, throughout this process, you can think of our main agent as...
+
+291
+00:09:53,110 --> 00:09:54,710
+So basically, it's just waiting now.
+
+292
+00:09:54,710 --> 00:09:56,550
+During this process, you can think of it just like a manager.
+
+293
+00:09:56,550 --> 00:09:57,750
+The boss assigns a task to an employee.
+
+294
+00:09:57,750 --> 00:09:58,850
+So, the boss doesn't have to do the work anymore.
+
+295
+00:09:58,850 --> 00:10:00,270
+And the boss can go grab some coffee.
+
+296
+00:10:00,270 --> 00:10:03,130
+So, essentially, all this output you're seeing right now...
+
+297
+00:10:03,130 --> 00:10:07,170
+All of this is being executed by the sub-agent.
+
+298
+00:10:07,170 --> 00:10:10,320
+All of this is being handled by the agent we just created, the 'Test Agent'.
+
+299
+00:10:10,320 --> 00:10:11,400
+and the work it's doing.
+
+300
+00:10:11,400 --> 00:10:13,800
+The boss, also known as the group's 'Cola' code...
+
+301
+00:10:13,800 --> 00:10:15,940
+But in reality, he's just kicking back, sipping on coffee, and spacing out.
+
+302
+00:10:15,940 --> 00:10:17,940
+Sigh, it just waits for a response from it.
+
+303
+00:10:17,940 --> 00:10:18,920
+Once it returns a result,
+
+304
+00:10:18,920 --> 00:10:20,760
+Only then will the main agent take over, alright.
+
+305
+00:10:20,760 --> 00:10:22,340
+So, as far as we can see right now,
+
+306
+00:10:22,340 --> 00:10:25,280
+So, all of this output is coming from the sub-agent.
+
+307
+00:10:25,280 --> 00:10:28,530
+That's because we were talking about the sub-agent and the main agent.
+
+308
+00:10:28,530 --> 00:10:31,100
+It has its own independent context.
+
+309
+00:10:31,100 --> 00:10:32,500
+So for this current conversation we're in,
+
+310
+00:10:32,500 --> 00:10:35,100
+The context here is our conversation with the main agent, Claude-Code.
+
+311
+00:10:35,100 --> 00:10:36,500
+So here's how it all communicates.
+
+312
+00:10:36,500 --> 00:10:38,760
+So, for this test expert...
+
+313
+00:10:38,760 --> 00:10:39,960
+He just receives a command.
+
+314
+00:10:39,960 --> 00:10:41,440
+to help run some unit tests.
+
+315
+00:10:41,440 --> 00:10:44,060
+And it doesn't have access to our chat history.
+
+316
+00:10:44,060 --> 00:10:46,960
+In short, it just needs to focus on doing its unit testing and nothing else.
+
+317
+00:10:46,960 --> 00:10:50,170
+So, right now, it's like we're, or rather, Claude is...
+
+318
+00:10:50,170 --> 00:10:53,470
+The main agent is just waiting for this 'sub_agent' to finish its task.
+
+319
+00:10:53,470 --> 00:10:55,450
+And as you can see, it actually finished executing pretty quickly.
+
+320
+00:10:55,450 --> 00:10:57,590
+That's because we've already run it once before.
+
+321
+00:10:57,590 --> 00:10:59,350
+So, as for the test cases...
+
+322
+00:10:59,350 --> 00:11:01,170
+are still saved in our code.
+
+323
+00:11:01,170 --> 00:11:03,510
+So, it doesn't need to rewrite any code from scratch.
+
+324
+00:11:03,510 --> 00:11:05,240
+All we need to do is run them again.
+
+325
+00:11:05,240 --> 00:11:06,120
+Alright, so once the testing is done,
+
+326
+00:11:06,120 --> 00:11:07,360
+As you can see, it's just churning out a whole bunch of stuff over here.
+
+327
+00:11:07,360 --> 00:11:09,840
+and bang, it's spit out a whole bunch of test logic for us.
+
+328
+00:11:09,840 --> 00:11:10,680
+And once that's all generated,
+
+329
+00:11:10,680 --> 00:11:13,360
+So, we've basically finished the corresponding unit...
+
+330
+00:11:13,360 --> 00:11:14,480
+and the test requirements.
+
+331
+00:11:14,480 --> 00:11:15,040
+Alright.
+
+332
+00:11:15,040 --> 00:11:17,540
+Alright, so that's a practical demonstration of our sub-agent in action.
+
+333
+00:11:17,540 --> 00:11:19,480
+So basically, by doing this,
+
+334
+00:11:19,480 --> 00:11:21,620
+we've essentially developed a digital employee for ourselves.
+
+335
+00:11:21,620 --> 00:11:25,410
+So, whenever we need to do some unit testing,
+
+336
+00:11:25,410 --> 00:11:27,440
+we can just give it a command.
+
+337
+00:11:27,440 --> 00:11:28,480
+Just go ahead and do the unit testing.
+
+338
+00:11:28,480 --> 00:11:29,320
+So, let's bring up the code.
+
+339
+00:11:29,320 --> 00:11:32,580
+It will automatically find this sub-agent, the 'Sub Engine'.
+
+340
+00:11:32,580 --> 00:11:36,600
+And on top of that, this sub-agent has access to the one we configured earlier.
+
+341
+00:11:36,600 --> 00:11:38,340
+this skill called 'unit test'.
+
+342
+00:11:38,340 --> 00:11:41,640
+It will then automatically use this skill to run the unit tests for us.
+
+343
+00:11:41,640 --> 00:11:43,020
+and get everything it needs to do done.
+
+344
+00:11:43,020 --> 00:11:44,140
+So, it's all built up layer by layer.
+
+345
+00:11:44,140 --> 00:11:45,360
+So, let's start by developing the skill.
+
+346
+00:11:45,360 --> 00:11:47,240
+And once we have the skills, we can then create the agent.
+
+347
+00:11:47,240 --> 00:11:48,580
+So, once we have this agent in place...
+
+348
+00:11:48,580 --> 00:11:49,860
+All we need to do is give it a description.
+
+349
+00:11:49,860 --> 00:11:52,370
+Then it can bring this agent into play to get the job done.
+
+350
+00:11:52,370 --> 00:11:54,870
+And on top of that, the agents can also work in parallel.
+
+351
+00:11:54,870 --> 00:11:58,520
+So, what this means is that if our language instructions down the line...
+
+352
+00:11:58,520 --> 00:12:00,420
+Let's say you have a ton of things to get done.
+
+353
+00:12:00,420 --> 00:12:03,940
+So, it can have several of these sub-agents working at the same time.
+
+354
+00:12:03,940 --> 00:12:07,080
+And that's actually one of the most important features of configuring a sub-agent.
+
+355
+00:12:07,080 --> 00:12:09,920
+This means it can run multiple sub-agents in parallel.
+
+356
+00:12:09,920 --> 00:12:12,870
+This can drastically boost our工作效率.
+
+357
+00:12:12,870 --> 00:12:13,650
+Alright, okay.
+
+358
+00:12:13,650 --> 00:12:16,010
+Alright, so this is all about our testing expert.
+
+359
+00:12:16,010 --> 00:12:18,230
+This supervises the entire development process.
+
+360
+00:12:18,230 --> 00:12:18,670
+Alright.
+
+361
+00:12:18,670 --> 00:12:20,190
+Alright, let's save the video here.
+
+362
+00:12:20,190 --> 00:12:22,270
+See you in the next video.
+

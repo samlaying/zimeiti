@@ -1,0 +1,1832 @@
+1
+00:00:00,000 --> 00:00:00,780
+Hello everyone
+
+2
+00:00:00,780 --> 00:00:06,710
+Today, TechLine shares with you the open bg c r i r c API platform
+
+3
+00:00:06,710 --> 00:00:08,189
+API tool with API
+
+4
+00:00:08,189 --> 00:00:11,130
+The combination of the two is absolutely perfect.
+
+5
+00:00:11,130 --> 00:00:16,920
+No need to purchase such aggregated APIs from various platforms yourself
+
+6
+00:00:16,920 --> 00:00:18,840
+We can make our own
+
+7
+00:00:18,840 --> 00:00:21,440
+Then we can connect these free ones
+
+8
+00:00:21,440 --> 00:00:22,780
+such as our OpenAI
+
+9
+00:00:22,780 --> 00:00:23,580
+GEMINI
+
+10
+00:00:23,580 --> 00:00:24,720
+and anti-gravity
+
+11
+00:00:24,720 --> 00:00:27,730
+Recently, it's said that Anti-Gravity has banned some
+
+12
+00:00:27,730 --> 00:00:30,570
+Many player PC APIs are hanging
+
+13
+00:00:30,570 --> 00:00:33,570
+That might affect the current situation
+
+14
+00:00:33,570 --> 00:00:35,580
+Everything is fine on my end
+
+15
+00:00:35,580 --> 00:00:37,480
+Previously, I hadn't noticed
+
+16
+00:00:37,480 --> 00:00:40,460
+Later on, it turned out that too many people were actually using it
+
+17
+00:00:40,460 --> 00:00:41,880
+I just came into contact with it
+
+18
+00:00:41,880 --> 00:00:43,720
+This is such a panel
+
+19
+00:00:43,720 --> 00:00:46,060
+We will set up this panel later
+
+20
+00:00:46,060 --> 00:00:47,580
+We are using Docker for the setup.
+
+21
+00:00:47,580 --> 00:00:48,700
+is very convenient
+
+22
+00:00:48,700 --> 00:00:53,170
+Still following the one-click deployment approach in our tech column
+
+23
+00:00:53,170 --> 00:00:54,490
+are all managed uniformly
+
+24
+00:00:54,490 --> 00:00:57,310
+All applications follow a similar deployment approach
+
+25
+00:00:57,310 --> 00:01:00,690
+Then here you can see I have an API key
+
+26
+00:01:00,690 --> 00:01:02,150
+then you can add multiple ones
+
+27
+00:01:02,150 --> 00:01:05,800
+and then simultaneously call multiple model authentication certificates
+
+28
+00:01:05,800 --> 00:01:07,540
+This is our credential
+
+29
+00:01:07,540 --> 00:01:08,920
+Then there are three uh
+
+30
+00:01:08,920 --> 00:01:09,500
+Anti-Gravity
+
+31
+00:01:09,500 --> 00:01:11,600
+I have four GPT code x
+
+32
+00:01:11,600 --> 00:01:13,780
+I have also deployed around five or so
+
+33
+00:01:13,780 --> 00:01:17,000
+Both anti-gravity and GEMINI use Google accounts
+
+34
+00:01:17,000 --> 00:01:18,440
+can all be used directly
+
+35
+00:01:18,440 --> 00:01:19,640
+I also connected it
+
+36
+00:01:19,640 --> 00:01:21,200
+I only integrated this part
+
+37
+00:01:21,200 --> 00:01:24,140
+And services like this cloud can also be integrated
+
+38
+00:01:24,140 --> 00:01:26,300
+Such an aggregation is incredibly powerful
+
+39
+00:01:26,300 --> 00:01:28,440
+in our central information hub here
+
+40
+00:01:28,440 --> 00:01:32,300
+We can see the current version and the core version
+
+41
+00:01:32,300 --> 00:01:35,130
+Next, each of our models
+
+42
+00:01:35,130 --> 00:01:39,600
+Anti-Gravity and GEMINI actually share this model
+
+43
+00:01:39,600 --> 00:01:42,320
+So what does it mean to display this here?
+
+44
+00:01:42,320 --> 00:01:45,680
+That is to say, a dozen of my accounts may all have this GEMINI
+
+45
+00:01:45,680 --> 00:01:47,140
+as long as I use this model
+
+46
+00:01:47,140 --> 00:01:48,840
+it will perform round-robin
+
+47
+00:01:48,840 --> 00:01:52,980
+Load balancing does not mean relying on a single account.
+
+48
+00:01:52,980 --> 00:01:54,440
+It distributes the load evenly
+
+49
+00:01:54,440 --> 00:01:55,220
+In this way
+
+50
+00:01:55,220 --> 00:01:59,580
+The security of your account will be significantly enhanced
+
+51
+00:01:59,580 --> 00:02:01,580
+The stability is also robust enough
+
+52
+00:02:01,580 --> 00:02:04,520
+the latest released GPT model
+
+53
+00:02:04,520 --> 00:02:06,400
+5.3 ODERX
+
+54
+00:02:06,400 --> 00:02:08,419
+So with such a tool
+
+55
+00:02:08,419 --> 00:02:14,290
+a unified OpenAI-compliant API will be provided externally
+
+56
+00:02:14,290 --> 00:02:16,230
+open cloud to achieve
+
+57
+00:02:16,230 --> 00:02:18,070
+If you want to take a closer look
+
+58
+00:02:18,070 --> 00:02:19,390
+Welcome to the blog
+
+59
+00:02:19,390 --> 00:02:21,360
+and then check each page
+
+60
+00:02:21,360 --> 00:02:22,800
+what I'm demonstrating
+
+61
+00:02:22,800 --> 00:02:25,260
+We will use this command line to install
+
+62
+00:02:25,260 --> 00:02:27,980
+our CRI2CAPI
+
+63
+00:02:27,980 --> 00:02:32,960
+Here, we will still use the cloud server from LeCloud to demonstrate
+
+64
+00:02:32,960 --> 00:02:34,240
+Today's topic
+
+65
+00:02:34,240 --> 00:02:35,820
+They have Hong Kong
+
+66
+00:02:35,820 --> 00:02:36,400
+South Korea
+
+67
+00:02:36,400 --> 00:02:38,440
+mainstream lines such as Japan
+
+68
+00:02:38,440 --> 00:02:40,280
+as well as domestic regions like Jiangsu, Zhejiang, and Shanghai
+
+69
+00:02:40,280 --> 00:02:42,120
+Guangzhou, Chengdu, Xi'an
+
+70
+00:02:42,120 --> 00:02:45,380
+They also have such flash sales from time to time.
+
+71
+00:02:45,380 --> 00:02:49,100
+a cloud server for 26 yuan per month
+
+72
+00:02:49,100 --> 00:02:51,560
+And our open cloud is really nice
+
+73
+00:02:51,560 --> 00:02:55,150
+Then let's click on the Products & Services section for cloud servers
+
+74
+00:02:55,150 --> 00:02:59,420
+We are using today's Japan BGP Anniversary Special Offer machine
+
+75
+00:02:59,420 --> 00:03:01,600
+Here we will click on the reinstall system
+
+76
+00:03:01,600 --> 00:03:03,680
+We can also switch to Windows 13
+
+77
+00:03:03,680 --> 00:03:05,640
+Their reinstallation is very fast.
+
+78
+00:03:05,640 --> 00:03:06,280
+relatively convenient
+
+79
+00:03:06,280 --> 00:03:08,600
+We will demonstrate the IPv4 address
+
+80
+00:03:08,600 --> 00:03:12,140
+The SSH connection tool di muse has been installed
+
+81
+00:03:12,140 --> 00:03:15,010
+If you have your preferred shell like Xshell
+
+82
+00:03:15,010 --> 00:03:17,270
+Final Shell is also perfectly fine
+
+83
+00:03:17,270 --> 00:03:18,170
+same logic
+
+84
+00:03:18,170 --> 00:03:19,570
+Click to add server
+
+85
+00:03:19,570 --> 00:03:21,780
+Enter the IP and give it a name
+
+86
+00:03:21,780 --> 00:03:23,420
+The default port is 22
+
+87
+00:03:23,420 --> 00:03:26,260
+default root username with the highest privileges
+
+88
+00:03:26,260 --> 00:03:29,760
+
+
+89
+00:03:29,760 --> 00:03:31,230
+Click to connect
+
+90
+00:03:31,230 --> 00:03:33,010
+The first connection requires confirmation
+
+91
+00:03:33,010 --> 00:03:33,930
+After connecting
+
+92
+00:03:33,930 --> 00:03:36,210
+We press Ctrl+L to clear the screen
+
+93
+00:03:36,210 --> 00:03:39,680
+we can run the one-click CRIPERCY
+
+94
+00:03:39,680 --> 00:03:41,280
+API installation script
+
+95
+00:03:41,280 --> 00:03:43,340
+
+
+96
+00:03:43,340 --> 00:03:45,100
+The first time, permission is required
+
+97
+00:03:45,100 --> 00:03:46,240
+it won't be needed in the future
+
+98
+00:03:46,240 --> 00:03:48,620
+Then it will install some basic components
+
+99
+00:03:48,620 --> 00:03:51,520
+If your machine already has these basic components
+
+100
+00:03:51,520 --> 00:03:52,880
+It will automatically skip
+
+101
+00:03:52,880 --> 00:03:54,300
+This is very familiar
+
+102
+00:03:54,300 --> 00:03:57,980
+All applications in TechLine follow similar installation methods
+
+103
+00:03:57,980 --> 00:03:58,960
+as long as it's docker
+
+104
+00:03:58,960 --> 00:04:00,870
+Then we choose one to proceed with the installation.
+
+105
+00:04:00,870 --> 00:04:03,350
+You can set a familiar port
+
+106
+00:04:03,350 --> 00:04:05,490
+If your port is not in conflict
+
+107
+00:04:05,490 --> 00:04:08,650
+Just use the default 8317.
+
+108
+00:04:08,650 --> 00:04:09,540
+Press Enter directly
+
+109
+00:04:09,540 --> 00:04:13,740
+Since my current machine does not have Docker automatically detected
+
+110
+00:04:13,740 --> 00:04:16,260
+and automatically install it for us with one click
+
+111
+00:04:16,260 --> 00:04:18,370
+docker has been installed
+
+112
+00:04:18,370 --> 00:04:20,149
+git clone this project
+
+113
+00:04:20,149 --> 00:04:23,240
+At this point, it requires us to enter a login key
+
+114
+00:04:23,240 --> 00:04:25,600
+This key can be understood as a password
+
+115
+00:04:25,600 --> 00:04:27,040
+It won't be displayed
+
+116
+00:04:27,040 --> 00:04:28,040
+so just type blindly
+
+117
+00:04:28,040 --> 00:04:31,440
+Then it starts one-click deployment of this access address
+
+118
+00:04:31,440 --> 00:04:32,440
+IP and port
+
+119
+00:04:32,440 --> 00:04:34,000
+But this is not the final version
+
+120
+00:04:34,000 --> 00:04:35,940
+but currently seeing this part
+
+121
+00:04:35,940 --> 00:04:38,660
+Everyone might feel confused
+
+122
+00:04:38,660 --> 00:04:38,940
+Hey
+
+123
+00:04:38,940 --> 00:04:40,900
+Is this an error or what?
+
+124
+00:04:40,900 --> 00:04:42,860
+In fact, it already indicates normal operation.
+
+125
+00:04:42,860 --> 00:04:45,580
+It's just that we need to add a path at the end.
+
+126
+00:04:45,580 --> 00:04:47,320
+I would also like to remind everyone
+
+127
+00:04:47,320 --> 00:04:49,440
+The final format is as follows
+
+128
+00:04:49,440 --> 00:04:51,580
+Many friends reach this step
+
+129
+00:04:51,580 --> 00:04:54,060
+It feels like it wasn't installed properly
+
+130
+00:04:54,060 --> 00:04:54,900
+installation failed
+
+131
+00:04:54,900 --> 00:04:55,560
+Not really
+
+132
+00:04:55,560 --> 00:05:00,600
+Paste the path of the login panel at the back and press Enter
+
+133
+00:05:00,600 --> 00:05:03,020
+At this point, we arrive at his panel like this
+
+134
+00:05:03,020 --> 00:05:04,480
+Enter the key we just generated
+
+135
+00:05:04,480 --> 00:05:06,040
+Now we're in.
+
+136
+00:05:06,040 --> 00:05:09,240
+just like the panel my sister initially shared with everyone
+
+137
+00:05:09,240 --> 00:05:10,260
+is exactly the same
+
+138
+00:05:10,260 --> 00:05:11,060
+reverse proxy center
+
+139
+00:05:11,060 --> 00:05:12,600
+unify all APIs
+
+140
+00:05:12,600 --> 00:05:14,560
+Currently, it uses IP plus port
+
+141
+00:05:14,560 --> 00:05:17,280
+and it is HTTP which is not secure
+
+142
+00:05:17,280 --> 00:05:20,300
+The best practice is definitely to learn from TechLine
+
+143
+00:05:20,300 --> 00:05:21,600
+bring your domain
+
+144
+00:05:21,600 --> 00:05:23,320
+If you want to buy a domain name
+
+145
+00:05:23,320 --> 00:05:26,800
+go to the Me navigation website and choose the promotional event machine
+
+146
+00:05:26,800 --> 00:05:29,020
+a Singaporean domain name registrar
+
+147
+00:05:29,020 --> 00:05:33,020
+They often have great promotional offers from time to time.
+
+148
+00:05:33,020 --> 00:05:34,440
+You can purchase it here
+
+149
+00:05:34,440 --> 00:05:37,540
+and transfer it to Cloudflare
+
+150
+00:05:37,540 --> 00:05:38,760
+There is a domain name here
+
+151
+00:05:38,760 --> 00:05:42,280
+so I found cloud flair on my navigation website
+
+152
+00:05:42,280 --> 00:05:43,120
+Cloudflare
+
+153
+00:05:43,120 --> 00:05:45,600
+Click on Me Home here
+
+154
+00:05:45,600 --> 00:05:48,740
+Let's just pick a domain name L666.
+
+155
+00:05:48,740 --> 00:05:51,740
+First, let's configure the SSL/TLS
+
+156
+00:05:51,740 --> 00:05:54,000
+Set this to Full (strict)
+
+157
+00:05:54,000 --> 00:05:56,700
+If not, click the configuration on the right
+
+158
+00:05:56,700 --> 00:05:59,310
+We click on DNS records
+
+159
+00:05:59,310 --> 00:06:01,710
+Add an A record
+
+160
+00:06:01,710 --> 00:06:03,130
+Turn off the little cloud first
+
+161
+00:06:03,130 --> 00:06:04,640
+We'll turn off the CDN for now
+
+162
+00:06:04,640 --> 00:06:07,460
+Enter a secondary domain name structure like this
+
+163
+00:06:07,460 --> 00:06:09,640
+So how do we obtain the IP address here?
+
+164
+00:06:09,640 --> 00:06:11,320
+Let's go back to our terminal
+
+165
+00:06:11,320 --> 00:06:12,980
+Jump back to this page
+
+166
+00:06:12,980 --> 00:06:15,410
+We select option five to add the domain name, okay
+
+167
+00:06:15,410 --> 00:06:17,670
+
+
+168
+00:06:17,670 --> 00:06:19,770
+This is the LaiKa Cloud
+
+169
+00:06:19,770 --> 00:06:23,630
+the IPv4 IP we just set up and used
+
+170
+00:06:23,630 --> 00:06:25,560
+Now give it a minute here
+
+171
+00:06:25,560 --> 00:06:30,120
+Click to complete and resolve the domain name to the Laica Cloud server
+
+172
+00:06:30,120 --> 00:06:31,600
+such a domain name press enter
+
+173
+00:06:31,600 --> 00:06:35,890
+It will start performing NGINX reverse proxy for us
+
+174
+00:06:35,890 --> 00:06:40,160
+It means reverse-proxying our IP plus port into a domain name.
+
+175
+00:06:40,160 --> 00:06:43,680
+The current version of NGINX is 1.29.5
+
+176
+00:06:43,680 --> 00:06:46,100
+pull the container for certificate application
+
+177
+00:06:46,100 --> 00:06:49,580
+So our entire setup is conveniently running in a Docker environment
+
+178
+00:06:49,580 --> 00:06:52,780
+Here, we will begin applying for a certificate for our domain.
+
+179
+00:06:52,780 --> 00:06:55,220
+The certificate application result is displayed as follows
+
+180
+00:06:55,220 --> 00:06:57,400
+Block by IP and port
+
+181
+00:06:57,400 --> 00:07:00,330
+Because there are many scanning tools
+
+182
+00:07:00,330 --> 00:07:02,590
+can scan your ports and exploit them
+
+183
+00:07:02,590 --> 00:07:03,850
+because they are all plaintext
+
+184
+00:07:03,850 --> 00:07:05,200
+so it's not secure
+
+185
+00:07:05,200 --> 00:07:10,039
+The most secure method is to use HTTPS with a domain certificate.
+
+186
+00:07:10,039 --> 00:07:10,959
+Click to access
+
+187
+00:07:10,959 --> 00:07:12,900
+Then when we access it next
+
+188
+00:07:12,900 --> 00:07:15,700
+just like when we used the IP with the port earlier
+
+189
+00:07:15,700 --> 00:07:17,260
+is exactly the same state
+
+190
+00:07:17,260 --> 00:07:21,140
+We must still append that path of ours at the end
+
+191
+00:07:21,140 --> 00:07:22,780
+We have arrived at such a panel
+
+192
+00:07:22,780 --> 00:07:25,480
+This area now displays our domain name.
+
+193
+00:07:25,480 --> 00:07:27,600
+This is our final form
+
+194
+00:07:27,600 --> 00:07:32,360
+The management key set just now is the login password. Press Enter, and we're good to go.
+
+195
+00:07:32,360 --> 00:07:35,780
+Let's start binding your API
+
+196
+00:07:35,780 --> 00:07:39,880
+aggregate the OA login authentication on this platform
+
+197
+00:07:39,880 --> 00:07:42,520
+Let's first add the anti-gravity one
+
+198
+00:07:42,520 --> 00:07:44,960
+There is a login button on the right side of Anti-Gravity
+
+199
+00:07:44,960 --> 00:07:46,320
+Click here
+
+200
+00:07:46,320 --> 00:07:49,680
+It will generate a very long URL
+
+201
+00:07:49,680 --> 00:07:51,200
+We need to open it
+
+202
+00:07:51,200 --> 00:07:54,100
+At this point, anti-gravity will guide us to log in
+
+203
+00:07:54,100 --> 00:07:56,420
+I'll just randomly log in to an account here
+
+204
+00:07:56,420 --> 00:07:58,400
+Click to log in, hey
+
+205
+00:07:58,400 --> 00:08:00,960
+Did I encounter an error when arriving at this page?
+
+206
+00:08:00,960 --> 00:08:01,980
+Why can't it connect
+
+207
+00:08:01,980 --> 00:08:04,540
+You just need to follow the address above
+
+208
+00:08:04,540 --> 00:08:06,049
+
+
+209
+00:08:06,049 --> 00:08:10,229
+This is a callback URL provided by the author for our convenience
+
+210
+00:08:10,229 --> 00:08:12,569
+is not the actual access address
+
+211
+00:08:12,569 --> 00:08:13,649
+Back to our side
+
+212
+00:08:13,649 --> 00:08:16,000
+We can see there is a callback URL
+
+213
+00:08:16,000 --> 00:08:18,300
+
+
+214
+00:08:18,300 --> 00:08:20,080
+Click to submit the callback
+
+215
+00:08:20,080 --> 00:08:22,040
+Then it will wait for authentication
+
+216
+00:08:22,040 --> 00:08:24,860
+In this way, our authentication has been successfully completed.
+
+217
+00:08:24,860 --> 00:08:26,880
+we have downloaded this authentication file
+
+218
+00:08:26,880 --> 00:08:30,590
+OK now we can see this anti-gravity exists at this location
+
+219
+00:08:30,590 --> 00:08:32,610
+We can see the models it is associated with
+
+220
+00:08:32,610 --> 00:08:36,400
+Specially designed for three and the latest 4.6
+
+221
+00:08:36,400 --> 00:08:38,320
+This model is incredibly powerful.
+
+222
+00:08:38,320 --> 00:08:41,640
+So it immediately provides us with so many models
+
+223
+00:08:41,640 --> 00:08:42,640
+Following this approach
+
+224
+00:08:42,640 --> 00:08:47,180
+You add all your Google accounts
+
+225
+00:08:47,180 --> 00:08:51,600
+you will have many anti-gravity accounts on standby here
+
+226
+00:08:51,600 --> 00:08:55,250
+accounts that receive your token baptism and endure the same damage
+
+227
+00:08:55,250 --> 00:08:59,140
+We can add it here in GERMINICRI
+
+228
+00:08:59,140 --> 00:09:00,940
+Select a Google account, okay
+
+229
+00:09:00,940 --> 00:09:04,120
+still gives us a page that feels like an error message
+
+230
+00:09:04,120 --> 00:09:04,980
+fill it in again
+
+231
+00:09:04,980 --> 00:09:06,410
+Then we submit it again
+
+232
+00:09:06,410 --> 00:09:09,230
+Waiting for authentication to succeed
+
+233
+00:09:09,230 --> 00:09:11,330
+Let's go back to the certification file section
+
+234
+00:09:11,330 --> 00:09:12,870
+We can see that we currently have two
+
+235
+00:09:12,870 --> 00:09:14,500
+one is anti-gravity
+
+236
+00:09:14,500 --> 00:09:15,900
+one is GEMINI
+
+237
+00:09:15,900 --> 00:09:19,580
+Here you can also see that both of them exist in the central information
+
+238
+00:09:19,580 --> 00:09:20,200
+here
+
+239
+00:09:20,200 --> 00:09:23,520
+you can see all the models they have
+
+240
+00:09:23,520 --> 00:09:25,980
+I usually use GEMINNOTE3 the most
+
+241
+00:09:25,980 --> 00:09:29,580
+I've used this lightweight version to write things like radio dramas.
+
+242
+00:09:29,580 --> 00:09:30,820
+publishing articles on the blog
+
+243
+00:09:30,820 --> 00:09:32,720
+This page is pretty much done here
+
+244
+00:09:32,720 --> 00:09:37,360
+Everyone, configure our external key Settings panel
+
+245
+00:09:37,360 --> 00:09:38,320
+Scroll down
+
+246
+00:09:38,320 --> 00:09:39,760
+There are three here
+
+247
+00:09:39,760 --> 00:09:41,950
+You delete two out of these three
+
+248
+00:09:41,950 --> 00:09:43,090
+delete one more
+
+249
+00:09:43,090 --> 00:09:44,870
+Here, click to check the box
+
+250
+00:09:44,870 --> 00:09:45,790
+This must be saved
+
+251
+00:09:45,790 --> 00:09:47,500
+Some friends didn't notice
+
+252
+00:09:47,500 --> 00:09:49,220
+it feels like it wasn't saved
+
+253
+00:09:49,220 --> 00:09:50,460
+Then in this location
+
+254
+00:09:50,460 --> 00:09:54,329
+We need to set a new value for this API
+
+255
+00:09:54,329 --> 00:09:55,309
+Click Edit
+
+256
+00:09:55,309 --> 00:09:56,489
+Let's delete this
+
+257
+00:09:56,489 --> 00:09:57,629
+This is what we have now, right
+
+258
+00:09:57,629 --> 00:09:59,869
+CTRLC back to your terminal command
+
+259
+00:09:59,869 --> 00:10:01,530
+Still type K
+
+260
+00:10:01,530 --> 00:10:02,950
+After quickly entering the script
+
+261
+00:10:02,950 --> 00:10:06,000
+you don't need to download it again
+
+262
+00:10:06,000 --> 00:10:07,760
+because it already exists on your local machine
+
+263
+00:10:07,760 --> 00:10:08,820
+We select 13
+
+264
+00:10:08,820 --> 00:10:10,140
+We select 14
+
+265
+00:10:10,140 --> 00:10:12,240
+user password generator
+
+266
+00:10:12,240 --> 00:10:13,420
+32-bit is also acceptable
+
+267
+00:10:13,420 --> 00:10:14,430
+
+
+268
+00:10:14,430 --> 00:10:15,670
+This is randomly generated
+
+269
+00:10:15,670 --> 00:10:18,130
+Then paste it here and click update
+
+270
+00:10:18,130 --> 00:10:19,960
+Now we're all set
+
+271
+00:10:19,960 --> 00:10:23,060
+Okay, next we're going to install this OpenClaw
+
+272
+00:10:23,060 --> 00:10:24,860
+merge them together
+
+273
+00:10:24,860 --> 00:10:27,020
+Then we directly enter this command
+
+274
+00:10:27,020 --> 00:10:28,360
+Right-click and press Enter
+
+275
+00:10:28,360 --> 00:10:30,620
+Currently, open cloud is not installed
+
+276
+00:10:30,620 --> 00:10:32,780
+We select option 1 to proceed with the installation.
+
+277
+00:10:32,780 --> 00:10:33,780
+It seems to have been redesigned.
+
+278
+00:10:33,780 --> 00:10:36,560
+The installation page has become more visually appealing
+
+279
+00:10:36,560 --> 00:10:40,920
+The official is also continuously improving its installation commands.
+
+280
+00:10:40,920 --> 00:10:42,560
+So we are using the official version
+
+281
+00:10:42,560 --> 00:10:47,870
+The current version is 2026.2.9 initialization
+
+282
+00:10:47,870 --> 00:10:48,790
+We choose yes
+
+283
+00:10:48,790 --> 00:10:50,800
+Here you can simply select the first option by default
+
+284
+00:10:50,800 --> 00:10:53,040
+Next, we choose to skip the model selection
+
+285
+00:10:53,040 --> 00:10:55,230
+Let's just randomly pick one here
+
+286
+00:10:55,230 --> 00:10:56,630
+Let's choose Google for this one.
+
+287
+00:10:56,630 --> 00:10:57,670
+Then select the first one
+
+288
+00:10:57,670 --> 00:10:59,790
+Here, select the chat tool you want to integrate with
+
+289
+00:10:59,790 --> 00:11:02,370
+Then it supports quite a lot here
+
+290
+00:11:02,370 --> 00:11:04,819
+we still choose Telegram
+
+291
+00:11:04,819 --> 00:11:06,259
+This is the most convenient
+
+292
+00:11:06,259 --> 00:11:09,880
+Then enter our Telegram bot API key
+
+293
+00:11:09,880 --> 00:11:11,180
+How to obtain it
+
+294
+00:11:11,180 --> 00:11:14,000
+Still search for bot father here
+
+295
+00:11:14,000 --> 00:11:15,960
+/newboot here
+
+296
+00:11:15,960 --> 00:11:16,980
+Give it a name
+
+297
+00:11:16,980 --> 00:11:18,140
+Is this okay?
+
+298
+00:11:18,140 --> 00:11:18,920
+Let's try it
+
+299
+00:11:18,920 --> 00:11:20,580
+Press Enter and it's done
+
+300
+00:11:20,580 --> 00:11:23,810
+The API key has already been provided to us.
+
+301
+00:11:23,810 --> 00:11:25,870
+
+
+302
+00:11:25,870 --> 00:11:27,530
+Default enter good
+
+303
+00:11:27,530 --> 00:11:28,570
+default Enter
+
+304
+00:11:28,570 --> 00:11:29,950
+Default Enter
+
+305
+00:11:29,950 --> 00:11:31,590
+Here we are prompted to install the skills
+
+306
+00:11:31,590 --> 00:11:33,730
+We can skip installing spaces for now
+
+307
+00:11:33,730 --> 00:11:37,370
+Then we select default default default default
+
+308
+00:11:37,370 --> 00:11:38,770
+Just go with the defaults all the way.
+
+309
+00:11:38,770 --> 00:11:42,240
+Here we still choose to skip this
+
+310
+00:11:42,240 --> 00:11:44,700
+It will proceed with the installation.
+
+311
+00:11:44,700 --> 00:11:46,840
+We can choose the one below, the official one is fine
+
+312
+00:11:46,840 --> 00:11:49,539
+Here it is already running
+
+313
+00:11:49,539 --> 00:11:51,940
+Then we just press CTRLC
+
+314
+00:11:51,940 --> 00:11:54,100
+Terminate it in the terminal, okay
+
+315
+00:11:54,100 --> 00:11:56,060
+It will start terminating in a moment
+
+316
+00:11:56,060 --> 00:11:57,020
+Installation completed
+
+317
+00:11:57,020 --> 00:11:58,680
+You can see it is installed here
+
+318
+00:11:58,680 --> 00:11:59,800
+Running
+
+319
+00:11:59,800 --> 00:12:01,720
+The current version is the latest
+
+320
+00:12:01,720 --> 00:12:03,280
+if you are not using the latest version
+
+321
+00:12:03,280 --> 00:12:05,320
+It will update with a prompt
+
+322
+00:12:05,320 --> 00:12:08,709
+Next, we will connect to the Telegram bot.
+
+323
+00:12:08,709 --> 00:12:10,369
+It requires a connection code
+
+324
+00:12:10,369 --> 00:12:11,830
+We choose seven
+
+325
+00:12:11,830 --> 00:12:14,950
+We need to activate it on the bot side
+
+326
+00:12:14,950 --> 00:12:16,570
+obtain this verification code
+
+327
+00:12:16,570 --> 00:12:18,910
+Click on this bot here
+
+328
+00:12:18,910 --> 00:12:19,850
+click start
+
+329
+00:12:19,850 --> 00:12:22,510
+it will send us a verification code like this
+
+330
+00:12:22,510 --> 00:12:23,390
+
+
+331
+00:12:23,390 --> 00:12:25,690
+Right-click back here, okay
+
+332
+00:12:25,690 --> 00:12:27,430
+The connection is now successfully established.
+
+333
+00:12:27,430 --> 00:12:29,150
+After successful integration
+
+334
+00:12:29,150 --> 00:12:33,800
+Now we will start connecting to our CRIPERCYAPI
+
+335
+00:12:33,800 --> 00:12:34,440
+Select six
+
+336
+00:12:34,440 --> 00:12:35,680
+Here you can enter whatever you want
+
+337
+00:12:35,680 --> 00:12:40,680
+Then type CRI-API OK and press Enter
+
+338
+00:12:40,680 --> 00:12:42,320
+What should be filled in here?
+
+339
+00:12:42,320 --> 00:12:45,570
+I believe many of you have already followed his example
+
+340
+00:12:45,570 --> 00:12:46,910
+already know how to fill it in
+
+341
+00:12:46,910 --> 00:12:49,610
+
+
+342
+00:12:49,610 --> 00:12:52,580
+Right-click to enter bot followed by a slash one
+
+343
+00:12:52,580 --> 00:12:57,580
+This is a standard endpoint format for OpenAI integration
+
+344
+00:12:57,580 --> 00:12:58,240
+Enter
+
+345
+00:12:58,240 --> 00:13:01,240
+Next, we need to input the key. Where is the key?
+
+346
+00:13:01,240 --> 00:13:03,920
+Do you remember that we are in the Settings panel
+
+347
+00:13:03,920 --> 00:13:05,760
+This is what we just added.
+
+348
+00:13:05,760 --> 00:13:07,240
+Everyone must pay attention
+
+349
+00:13:07,240 --> 00:13:09,960
+There is a checkmark save button below
+
+350
+00:13:09,960 --> 00:13:11,440
+if you don't save it
+
+351
+00:13:11,440 --> 00:13:12,800
+it will not take effect
+
+352
+00:13:12,800 --> 00:13:13,980
+So after saving it
+
+353
+00:13:13,980 --> 00:13:15,450
+Then click edit
+
+354
+00:13:15,450 --> 00:13:17,330
+
+
+355
+00:13:17,330 --> 00:13:19,970
+This is our API token right-click access
+
+356
+00:13:19,970 --> 00:13:21,290
+He can't see it
+
+357
+00:13:21,290 --> 00:13:23,720
+but right-clicking will work just fine
+
+358
+00:13:23,720 --> 00:13:27,060
+it will list all 15 of your current models
+
+359
+00:13:27,060 --> 00:13:30,040
+You can choose the appropriate model from here
+
+360
+00:13:30,040 --> 00:13:30,960
+We select ten
+
+361
+00:13:30,960 --> 00:13:32,560
+Here we are prompted to confirm
+
+362
+00:13:32,560 --> 00:13:36,050
+Help us import all these 15 models
+
+363
+00:13:36,050 --> 00:13:37,150
+for our convenience to use
+
+364
+00:13:37,150 --> 00:13:41,130
+and we default to using this GEMINI3pro main menu
+
+365
+00:13:41,130 --> 00:13:43,440
+Let's select five to check if the models have been added.
+
+366
+00:13:43,440 --> 00:13:45,280
+Below is our current model
+
+367
+00:13:45,280 --> 00:13:48,440
+Our current selection is the pro model, which is the best one.
+
+368
+00:13:48,440 --> 00:13:52,470
+OK, here we find our own 15 models, right?
+
+369
+00:13:52,470 --> 00:13:56,050
+At this point, you can select this lightweight model
+
+370
+00:13:56,050 --> 00:13:58,730
+Then right-click to paste it here
+
+371
+00:13:58,730 --> 00:13:59,990
+We'll switch to this model
+
+372
+00:13:59,990 --> 00:14:02,280
+It switches to adding one, good
+
+373
+00:14:02,280 --> 00:14:04,280
+Let's refresh the list again
+
+374
+00:14:04,280 --> 00:14:05,180
+Let's take another look
+
+375
+00:14:05,180 --> 00:14:07,260
+We are currently using this lightweight model
+
+376
+00:14:07,260 --> 00:14:11,140
+Then the high-level model is actually the backup CRIPERCAPI
+
+377
+00:14:11,140 --> 00:14:13,560
+It actually performs intelligent polling.
+
+378
+00:14:13,560 --> 00:14:15,940
+So as long as you have one model
+
+379
+00:14:15,940 --> 00:14:17,860
+It will switch automatically, okay
+
+380
+00:14:17,860 --> 00:14:19,880
+Now we'll press zero to exit
+
+381
+00:14:19,880 --> 00:14:23,400
+We are now using the lightweight model of GEMINI3
+
+382
+00:14:23,400 --> 00:14:24,400
+This model is very fast
+
+383
+00:14:24,400 --> 00:14:26,200
+Now we go back to the bot side
+
+384
+00:14:26,200 --> 00:14:27,600
+we can now talk to it
+
+385
+00:14:27,600 --> 00:14:28,600
+He has replied
+
+386
+00:14:28,600 --> 00:14:29,760
+It has just gone online
+
+387
+00:14:29,760 --> 00:14:31,740
+So what can we ask him to do?
+
+388
+00:14:31,740 --> 00:14:34,230
+For example, it can recognize an image
+
+389
+00:14:34,230 --> 00:14:37,590
+Have it arrange them in order according to these specifications for us.
+
+390
+00:14:37,590 --> 00:14:42,020
+I also want the dragon to switch
+
+391
+00:14:42,020 --> 00:14:47,140
+However, the default model remains unchanged
+
+392
+00:14:47,140 --> 00:14:55,080
+Alternative models are ranked by capability level. This serves as a disaster recovery measure
+
+393
+00:14:55,080 --> 00:14:59,100
+This kind of disaster recovery at the OpenClaw level would be better.
+
+394
+00:14:59,100 --> 00:15:00,400
+OK, just send it directly to him
+
+395
+00:15:00,400 --> 00:15:02,020
+It will recognize this image
+
+396
+00:15:02,020 --> 00:15:04,100
+We can go to the backend to take a look
+
+397
+00:15:04,100 --> 00:15:07,370
+Open the statistics in his analytics configuration panel
+
+398
+00:15:07,370 --> 00:15:08,390
+Then click save
+
+399
+00:15:08,390 --> 00:15:12,220
+you can see which account's quota he is using
+
+400
+00:15:12,220 --> 00:15:13,860
+You can click to open it here
+
+401
+00:15:13,860 --> 00:15:14,960
+You can see
+
+402
+00:15:14,960 --> 00:15:16,720
+Currently, there is no remaining quota.
+
+403
+00:15:16,720 --> 00:15:20,660
+The anti-gravity of this account is also being used up elsewhere
+
+404
+00:15:20,660 --> 00:15:22,940
+He will send Messages here
+
+405
+00:15:22,940 --> 00:15:25,420
+He has already helped us with this disaster recovery model
+
+406
+00:15:25,420 --> 00:15:27,380
+The default model uses this lightweight one
+
+407
+00:15:27,380 --> 00:15:31,000
+Then he will sort the rest in order for us.
+
+408
+00:15:31,000 --> 00:15:32,600
+Let me share a case study with you.
+
+409
+00:15:32,600 --> 00:15:35,610
+This is a video I had him make
+
+410
+00:15:35,610 --> 00:15:38,050
+OK, of course this video is still relatively simple
+
+411
+00:15:38,050 --> 00:15:40,010
+Today, let's take a look at some hardcore干货
+
+412
+00:15:40,010 --> 00:15:41,400
+We have successfully implemented
+
+413
+00:15:41,400 --> 00:15:44,740
+One-click generation of immersive radio dramas in the Open Cloud Assistant
+
+414
+00:15:44,740 --> 00:15:45,700
+Check out this blog post
+
+415
+00:15:45,700 --> 00:15:48,420
+From multi-voice scheduling to physical and waveform smoothing
+
+416
+00:15:48,420 --> 00:15:50,860
+He posted an article on my blog
+
+417
+00:15:50,860 --> 00:15:52,680
+and then have him follow this article
+
+418
+00:15:52,680 --> 00:15:54,980
+made a promotional video for me
+
+419
+00:15:54,980 --> 00:15:56,800
+Of course this is still relatively simple
+
+420
+00:15:56,800 --> 00:15:58,740
+Turn the website into an API
+
+421
+00:15:58,740 --> 00:16:00,940
+Then he can directly use the API
+
+422
+00:16:00,940 --> 00:16:03,140
+to control my WordPress website
+
+423
+00:16:03,140 --> 00:16:07,060
+Then this article is actually a radio drama written by the AI itself.
+
+424
+00:16:07,060 --> 00:16:11,740
+I previously had an original work in the style of 'Grave Robbers' Chronicles'
+
+425
+00:16:11,740 --> 00:16:14,900
+Let me share with you an extremely covert
+
+426
+00:16:14,900 --> 00:16:16,300
+an extremely dangerous trap
+
+427
+00:16:16,300 --> 00:16:17,000
+At this moment
+
+428
+00:16:17,000 --> 00:16:18,990
+A crisp sound came from the ground.
+
+429
+00:16:18,990 --> 00:16:20,150
+I looked down
+
+430
+00:16:20,150 --> 00:16:21,470
+My scalp instantly went numb
+
+431
+00:16:21,470 --> 00:16:23,130
+It comes with sound effects
+
+432
+00:16:23,130 --> 00:16:27,869
+The human voice in the earpiece can also be simulated.
+
+433
+00:16:27,869 --> 00:16:30,989
+I also have it broadcast news at regular intervals
+
+434
+00:16:30,989 --> 00:16:33,750
+So with such an assistant
+
+435
+00:16:33,750 --> 00:16:35,890
+Everything you do is very smooth.
+
+436
+00:16:35,890 --> 00:16:38,690
+Me website has also undergone some optimizations
+
+437
+00:16:38,690 --> 00:16:39,570
+structural
+
+438
+00:16:39,570 --> 00:16:42,470
+Because the previous structure was quite messy
+
+439
+00:16:42,470 --> 00:16:43,630
+loading speed
+
+440
+00:16:43,630 --> 00:16:45,930
+There may be some improvement in various aspects
+
+441
+00:16:45,930 --> 00:16:48,450
+This is what I want to share with you
+
+442
+00:16:48,450 --> 00:16:51,370
+We can use our own API platform
+
+443
+00:16:51,370 --> 00:16:54,210
+Use open cloud for integration
+
+444
+00:16:54,210 --> 00:16:56,050
+then in our own platform
+
+445
+00:16:56,050 --> 00:17:00,210
+You can integrate all mainstream large models
+
+446
+00:17:00,210 --> 00:17:01,910
+non-API standard
+
+447
+00:17:01,910 --> 00:17:05,369
+These models can all be integrated into your own platform
+
+448
+00:17:05,369 --> 00:17:08,329
+Output with a unified standard.
+
+449
+00:17:08,329 --> 00:17:09,369
+Very useful
+
+450
+00:17:09,369 --> 00:17:11,490
+You can continue to use it this way
+
+451
+00:17:11,490 --> 00:17:13,010
+If you have multiple accounts
+
+452
+00:17:13,010 --> 00:17:14,790
+basically inexhaustible
+
+453
+00:17:14,790 --> 00:17:18,140
+So this is also our ultimate solution for free riding
+
+454
+00:17:18,140 --> 00:17:20,220
+If you find it interesting
+
+455
+00:17:20,220 --> 00:17:21,380
+Welcome to like
+
+456
+00:17:21,380 --> 00:17:26,319
+Triple Combo can explore more Open Cloud usage scenarios
+
+457
+00:17:26,319 --> 00:17:27,759
+See you in the next episode
+
+458
+00:17:27,759 --> 00:17:28,358
+Bye
+

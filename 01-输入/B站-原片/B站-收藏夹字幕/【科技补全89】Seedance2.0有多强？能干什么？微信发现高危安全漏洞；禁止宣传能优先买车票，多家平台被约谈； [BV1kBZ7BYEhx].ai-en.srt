@@ -1,0 +1,952 @@
+1
+00:00:00,460 --> 00:00:01,680
+Another week has passed
+
+2
+00:00:01,680 --> 00:00:03,460
+Let's continue to explore interesting open-source projects together
+
+3
+00:00:03,460 --> 00:00:05,780
+and this week's noteworthy tech events
+
+4
+00:00:07,840 --> 00:00:09,220
+1/stretchly
+
+5
+00:00:09,220 --> 00:00:11,780
+I previously shared a project called ProjectEye
+
+6
+00:00:11,780 --> 00:00:14,820
+Its function is to remind you to relax your eyes for 20 seconds with a full-screen notification every 20 minutes.
+
+7
+00:00:14,820 --> 00:00:15,980
+Rest your eyes for 20 seconds
+
+8
+00:00:15,980 --> 00:00:17,820
+Based on my six months of usage experience
+
+9
+00:00:17,820 --> 00:00:21,200
+This mandatory break method is indeed very helpful for the eyes.
+
+10
+00:00:21,200 --> 00:00:23,290
+The occurrence of soreness and dryness has been significantly reduced.
+
+11
+00:00:23,290 --> 00:00:25,630
+But ProjectEye hasn't been updated for a long time
+
+12
+00:00:25,630 --> 00:00:27,490
+and it only supports the Windows system
+
+13
+00:00:27,490 --> 00:00:30,130
+stretchly is an open-source project that provides similar features
+
+14
+00:00:30,130 --> 00:00:31,950
+It offers a very comprehensive range of versions
+
+15
+00:00:31,950 --> 00:00:34,260
+Mac, Linux, and Windows are all supported
+
+16
+00:00:34,260 --> 00:00:37,140
+You can customize the most suitable break schedule according to your needs
+
+17
+00:00:37,140 --> 00:00:39,760
+For example, I set it to take a 20-second break every 20 minutes
+
+18
+00:00:39,760 --> 00:00:41,830
+Take a 5-minute break every two hours
+
+19
+00:00:41,830 --> 00:00:43,050
+When the time comes
+
+20
+00:00:43,050 --> 00:00:46,010
+Stretchly will automatically pop up a window or display a full-screen reminder
+
+21
+00:00:46,010 --> 00:00:47,570
+can also set strict mode
+
+22
+00:00:47,570 --> 00:00:49,200
+Forced rest cannot be skipped
+
+23
+00:00:49,200 --> 00:00:50,880
+If you also use the computer for long periods of time
+
+24
+00:00:50,880 --> 00:00:53,440
+I highly recommend setting up a similar rest schedule for yourself.
+
+25
+00:00:53,440 --> 00:00:54,700
+It can be really useful.
+
+26
+00:00:54,700 --> 00:00:56,560
+2.MTranServer
+
+27
+00:00:56,560 --> 00:00:58,420
+This is an open-source translation engine
+
+28
+00:00:58,420 --> 00:01:00,300
+Low resource usage and fast translation speed
+
+29
+00:01:00,300 --> 00:01:02,240
+You can get the translation result in just 50 milliseconds
+
+30
+00:01:02,240 --> 00:01:04,300
+Supports most major languages worldwide
+
+31
+00:01:04,300 --> 00:01:06,240
+can be deployed on your local computer
+
+32
+00:01:06,240 --> 00:01:07,860
+It can also be deployed to a server.
+
+33
+00:01:07,860 --> 00:01:08,740
+After deployment
+
+34
+00:01:08,740 --> 00:01:10,920
+It not only provides a webpage that can directly translate
+
+35
+00:01:10,920 --> 00:01:12,060
+also provides an interface
+
+36
+00:01:12,060 --> 00:01:14,970
+can be integrated into various translation plugins and translation clients
+
+37
+00:01:14,970 --> 00:01:17,190
+3.tapword-translator
+
+38
+00:01:17,190 --> 00:01:19,430
+This is an open-source browser translation extension
+
+39
+00:01:19,430 --> 00:01:20,990
+It is very simple to use
+
+40
+00:01:20,990 --> 00:01:22,650
+When you're browsing a foreign language webpage
+
+41
+00:01:22,650 --> 00:01:24,410
+If you don't know a certain word
+
+42
+00:01:24,410 --> 00:01:25,490
+just click on it
+
+43
+00:01:25,490 --> 00:01:27,110
+the meaning will appear below
+
+44
+00:01:27,110 --> 00:01:28,850
+If you don't understand a single sentence
+
+45
+00:01:28,850 --> 00:01:29,790
+just swipe
+
+46
+00:01:29,790 --> 00:01:31,590
+The entire sentence will be translated
+
+47
+00:01:31,590 --> 00:01:34,710
+This extension is suitable for people who already have foreign language reading skills.
+
+48
+00:01:34,710 --> 00:01:35,590
+If you don't have
+
+49
+00:01:35,590 --> 00:01:37,630
+it's still more appropriate to use full-page translation
+
+50
+00:01:37,630 --> 00:01:39,690
+4.zhihu-plus-plus
+
+51
+00:01:39,690 --> 00:01:42,010
+This is an open-source client for a certain Q&A platform.
+
+52
+00:01:42,010 --> 00:01:43,150
+It occupies very little space
+
+53
+00:01:43,150 --> 00:01:43,970
+only 3M
+
+54
+00:01:43,970 --> 00:01:45,770
+It also uses a local For You algorithm
+
+55
+00:01:45,770 --> 00:01:47,530
+allows you to freely customize the For You weighting
+
+56
+00:01:47,530 --> 00:01:49,390
+better find the content you want to watch
+
+57
+00:01:50,610 --> 00:01:52,210
+It can set up blocked words, blocked users, and blocked topics
+
+58
+00:01:52,210 --> 00:01:53,810
+remove content you dislike
+
+59
+00:01:53,810 --> 00:01:55,570
+If you frequently use a certain Q&A platform
+
+60
+00:01:55,570 --> 00:01:56,900
+might be useful to you
+
+61
+00:01:56,900 --> 00:01:58,580
+5out timber
+
+62
+00:01:58,580 --> 00:02:01,340
+5.AltTaber, I previously recommended a project called AltTab
+
+63
+00:02:01,340 --> 00:02:04,210
+It enables Mac to switch between software windows like Windows does.
+
+64
+00:02:04,210 --> 00:02:06,570
+AltTaber is a project that does the opposite
+
+65
+00:02:06,570 --> 00:02:09,130
+allows Windows to switch applications like Mac
+
+66
+00:02:09,130 --> 00:02:12,350
+It also allows you to easily switch between different windows of the same application using the mouse wheel.
+
+67
+00:02:12,350 --> 00:02:13,340
+different windows
+
+68
+00:02:13,340 --> 00:02:15,060
+Such projects have relatively limited utility.
+
+69
+00:02:15,060 --> 00:02:20,900
+but perhaps someone might need it
+
+70
+00:02:20,900 --> 00:02:24,820
+1. Train tickets, Beijing Municipal Market Supervision Bureau, interviewed 12 third-party online train ticket sales platforms
+
+71
+00:02:24,820 --> 00:02:27,220
+require these platforms to explicitly or implicitly prohibit consumers
+
+72
+00:02:27,220 --> 00:02:30,450
+can obtain priority ticket purchasing privileges through paid services
+
+73
+00:02:30,450 --> 00:02:31,610
+When tickets are sold out
+
+74
+00:02:31,610 --> 00:02:32,850
+phrases such as "speed-up packages", "dual-channel", or "remaining ticket monitoring" are prohibited
+
+75
+00:02:32,850 --> 00:02:34,350
+dual-channel and ticket monitoring
+
+76
+00:02:34,350 --> 00:02:35,550
+these misleading advertisements
+
+77
+00:02:35,550 --> 00:02:38,910
+The use of 12306-related images, text, or trademarks is prohibited
+
+78
+00:02:38,910 --> 00:02:40,010
+Me
+
+79
+00:02:40,010 --> 00:02:43,329
+The fake speed-up packages on certain platforms are no different from fraud.
+
+80
+00:02:43,329 --> 00:02:46,269
+According to information from WeChat Open Class
+
+81
+00:02:46,269 --> 00:02:48,689
+In January, WeChat updated the feature for deleting friends
+
+82
+00:02:48,689 --> 00:02:51,000
+the feature to choose whether to retain chat records
+
+83
+00:02:51,000 --> 00:02:52,700
+If you choose to save chat history
+
+84
+00:02:52,700 --> 00:02:55,440
+After re-adding a friend, you can restore the historical chat history.
+
+85
+00:02:55,440 --> 00:02:57,960
+WeChat is about to launch a new product called "Sticker Account"
+
+86
+00:02:57,960 --> 00:03:00,020
+This feature is similar to Xiaohongshu and Weibo
+
+87
+00:03:00,020 --> 00:03:02,320
+Supports public posting of 9 images
+
+88
+00:03:02,320 --> 00:03:06,060
+This week, there has been a lot of news related to AI.
+
+89
+00:03:06,060 --> 00:03:09,080
+Everyone is trying to replicate the glory of DeepSeek during last year's Spring Festival.
+
+90
+00:03:09,080 --> 00:03:10,490
+Let me briefly summarize
+
+91
+00:03:10,490 --> 00:03:13,330
+ByteDance released the video generation model Seedance 2.0
+
+92
+00:03:13,330 --> 00:03:16,470
+It has now been launched in products such as Jimeng, Xiaoyunque, and Doubao.
+
+93
+00:03:16,470 --> 00:03:17,790
+Regarding its capabilities
+
+94
+00:03:17,790 --> 00:03:19,930
+I believe the past evaluations of image quality, stability, and consistency
+
+95
+00:03:19,930 --> 00:03:22,260
+does not make much sense
+
+96
+00:03:22,260 --> 00:03:25,380
+because it is currently the strongest one among video models
+
+97
+00:03:25,380 --> 00:03:27,680
+So next, I'll briefly summarize some
+
+98
+00:03:27,680 --> 00:03:29,980
+Some features and gameplay aspects I've observed so far
+
+99
+00:03:29,980 --> 00:03:31,579
+1. Director's Storyboard
+
+100
+00:03:31,579 --> 00:03:34,819
+Previous AI video models were somewhat like a photographer
+
+101
+00:03:34,819 --> 00:03:36,019
+you ask it to generate
+
+102
+00:03:36,019 --> 00:03:38,260
+the same thing
+
+103
+00:03:38,260 --> 00:03:39,640
+you write simple prompts
+
+104
+00:03:39,640 --> 00:03:41,220
+it will generate simple visuals
+
+105
+00:03:41,220 --> 00:03:43,660
+You describe the shot composition and camera movements clearly
+
+106
+00:03:43,660 --> 00:03:45,750
+then it will generate cinematic shots
+
+107
+00:03:45,750 --> 00:03:48,450
+What AI can do is turn your text into images
+
+108
+00:03:48,450 --> 00:03:50,100
+turn your pictures into videos
+
+109
+00:03:50,100 --> 00:03:53,200
+But now, Seedance 2.0 is like having a built-in director
+
+110
+00:03:53,200 --> 00:03:54,660
+You just need to describe the plot
+
+111
+00:03:54,660 --> 00:03:56,200
+it will automatically design the storyboard and camera movements
+
+112
+00:03:56,200 --> 00:03:58,100
+The visuals look highly professional
+
+113
+00:03:58,100 --> 00:04:01,340
+even capable of generating the required sound effects and BGM
+
+114
+00:04:02,940 --> 00:04:07,640
+2. Reference Capability: Seedance 2.0 has strong reference capabilities
+
+115
+00:04:07,640 --> 00:04:08,740
+text, images, video, audio
+
+116
+00:04:08,740 --> 00:04:11,530
+can all serve as its reference objects
+
+117
+00:04:11,530 --> 00:04:13,490
+There are so many things you can do
+
+118
+00:04:13,490 --> 00:04:15,630
+For example, you can upload a video
+
+119
+00:04:15,630 --> 00:04:17,690
+let it reference the video's visuals and storyboard
+
+120
+00:04:17,690 --> 00:04:19,130
+generate a new video
+
+121
+00:04:19,130 --> 00:04:20,610
+upload the image of character A, the image of character B
+
+122
+00:04:21,769 --> 00:04:22,970
+Scene A's footage, Video A's cinematography
+
+123
+00:04:22,970 --> 00:04:26,210
+combine them together
+
+124
+00:04:35,800 --> 00:04:37,300
+upload a character image
+
+125
+00:04:37,300 --> 00:04:40,240
+multiple outfits to generate a costume-changing video
+
+126
+00:04:46,230 --> 00:04:48,730
+Add any elements within a video
+
+127
+00:04:48,730 --> 00:04:50,450
+It can be a video you downloaded from the internet
+
+128
+00:04:50,450 --> 00:04:52,310
+or a video you shot yourself
+
+129
+00:04:52,310 --> 00:04:54,670
+upload classic IPs for secondary creation
+
+130
+00:04:54,670 --> 00:04:56,830
+Hamehameha
+
+131
+00:04:59,590 --> 00:05:02,390
+upload products and generate ads with AI
+
+132
+00:05:04,180 --> 00:05:05,760
+Previous AI models would have start and end frames
+
+133
+00:05:05,760 --> 00:05:08,380
+But now, Seedance 2.0 goes beyond just the start and end frames
+
+134
+00:05:08,380 --> 00:05:10,480
+For example, here are a few pictures of a roller coaster
+
+135
+00:05:10,480 --> 00:05:11,860
+generate a first-person perspective video of riding a roller coaster
+
+136
+00:05:11,860 --> 00:05:14,250
+a video traversing different scenes
+
+137
+00:05:14,250 --> 00:05:15,210
+In summary
+
+138
+00:05:15,210 --> 00:05:16,670
+It is indeed very impressive
+
+139
+00:05:16,670 --> 00:05:19,050
+and is currently extremely popular worldwide
+
+140
+00:05:19,050 --> 00:05:20,690
+Just like last year's DeepSeek
+
+141
+00:05:20,690 --> 00:05:21,510
+In addition
+
+142
+00:05:21,510 --> 00:05:24,970
+ByteDance also released the faster Seedance 2.0 fast, and the image model Seedream 5.0 Preview.
+
+143
+00:05:24,970 --> 00:05:26,350
+C dream 5.0preview
+
+144
+00:05:26,350 --> 00:05:28,220
+as well as the next-generation large language model
+
+145
+00:05:28,220 --> 00:05:31,460
+Zhipu released and open-sourced its latest flagship model GLM-5
+
+146
+00:05:31,460 --> 00:05:33,020
+The new model enhances capabilities in complex systems engineering and long-term Agent tasks
+
+147
+00:05:33,020 --> 00:05:35,120
+engineering and long-term agent task capabilities
+
+148
+00:05:35,120 --> 00:05:36,180
+According to benchmark tests
+
+149
+00:05:36,180 --> 00:05:37,380
+in terms of writing code
+
+150
+00:05:37,380 --> 00:05:39,560
+Its capabilities approach those of Claude Opus 4.5
+
+151
+00:05:39,560 --> 00:05:42,350
+It stands at the pinnacle of capability among current open-source models.
+
+152
+00:05:42,350 --> 00:05:43,710
+From actual testing
+
+153
+00:05:43,710 --> 00:05:45,290
+Its capabilities are also exceptionally strong.
+
+154
+00:05:45,290 --> 00:05:48,700
+Currently, many AI programming products have integrated it, and MiniMax has released MiniMax 2.5.
+
+155
+00:05:48,700 --> 00:05:50,160
+released MiniMax 2.5
+
+156
+00:05:50,160 --> 00:05:53,300
+In scenarios such as programming, tool invocation, search, and office work
+
+157
+00:05:53,300 --> 00:05:54,920
+has reached the current top-tier level
+
+158
+00:05:54,920 --> 00:05:56,820
+Ranked first in multiple evaluations
+
+159
+00:05:56,820 --> 00:05:59,980
+Additionally, it has optimized the decomposition capability for complex tasks
+
+160
+00:05:59,980 --> 00:06:01,420
+and the tokens consumed during the thought process
+
+161
+00:06:01,420 --> 00:06:02,890
+and it's also very cost-effective
+
+162
+00:06:02,890 --> 00:06:04,990
+at a rate of 100 tokens per second
+
+163
+00:06:04,990 --> 00:06:07,540
+Continuous operation for an hour costs only $1
+
+164
+00:06:07,540 --> 00:06:08,600
+Me
+
+165
+00:06:08,600 --> 00:06:10,680
+Domestic AI is indeed becoming more and more impressive.
+
+166
+00:06:10,680 --> 00:06:12,140
+Alibaba released the image model Qwen-Image-2.0
+
+167
+00:06:12,140 --> 00:06:15,470
+The new model enhances text rendering capabilities
+
+168
+00:06:15,470 --> 00:06:17,130
+can stably generate Chinese text
+
+169
+00:06:17,130 --> 00:06:18,430
+enhanced image quality
+
+170
+00:06:18,430 --> 00:06:20,409
+can produce 2K resolution images
+
+171
+00:06:20,409 --> 00:06:22,309
+with enhanced semantic compliance capabilities
+
+172
+00:06:22,309 --> 00:06:24,730
+can generate images and edit images simultaneously
+
+173
+00:06:24,730 --> 00:06:26,750
+DeepSeek is testing a new model
+
+174
+00:06:26,750 --> 00:06:29,230
+Its context window has 1 million tokens
+
+175
+00:06:29,230 --> 00:06:31,159
+The client has now been rolled out in a limited release.
+
+176
+00:06:31,159 --> 00:06:33,179
+Ant Group open-sourced the trillion-parameter model Ring-2.5-1T
+
+177
+00:06:33,179 --> 00:06:37,430
+and the omnimodal model Ming-flash-omni 2.0
+
+178
+00:06:37,430 --> 00:06:39,510
+Xiaohongshu open-sourced an image editing model
+
+179
+00:06:39,510 --> 00:06:41,150
+FireRed-Image-Edit
+
+180
+00:06:41,150 --> 00:06:43,970
+Xiaomi has released and open-sourced the embodied intelligent VLA model
+
+181
+00:06:43,970 --> 00:06:47,930
+Xiaomi-Robotics-0, OpenAI begins testing ads in ChatGPT, Xiaomi-Robotics-0
+
+182
+00:06:47,930 --> 00:06:49,810
+It has already been launched in the U.S. market
+
+183
+00:06:49,810 --> 00:06:52,940
+After the conversation, users may see ad content
+
+184
+00:06:52,940 --> 00:06:56,280
+Google released the Gemini 3 Deep Think model
+
+185
+00:06:56,280 --> 00:06:59,020
+Cursor released the latest model Composer 1.5
+
+186
+00:06:59,020 --> 00:07:00,039
+Me
+
+187
+00:07:00,039 --> 00:07:01,719
+Although many AI models were released this week
+
+188
+00:07:01,719 --> 00:07:03,659
+But next week is likely to see no shortage either
+
+189
+00:07:03,659 --> 00:07:05,799
+There are still many products queuing up to be launched during the Spring Festival.
+
+190
+00:07:07,079 --> 00:07:07,399
+4
+
+191
+00:07:07,399 --> 00:07:08,130
+Others
+
+192
+00:07:08,130 --> 00:07:12,940
+China has successfully conducted the first-stage recovery of the Long March 10 rocket and a critical flight test of the Mengzhou spacecraft.
+
+193
+00:07:12,940 --> 00:07:14,260
+Tianya Club announced plans to resume access on June 1, 2026
+
+194
+00:07:14,260 --> 00:07:16,600
+Planned to resume access on June 1, 2026
+
+195
+00:07:16,600 --> 00:07:18,789
+and introduced a 1999 yuan service package
+
+196
+00:07:18,789 --> 00:07:20,549
+Xunlei launched 'Light Duck Cloud Drive'
+
+197
+00:07:20,549 --> 00:07:22,189
+claimed to be login-free and speed-unlimited
+
+198
+00:07:22,189 --> 00:07:24,970
+Supports direct connection with third-party apps and poster scraping
+
+199
+00:07:24,970 --> 00:07:25,970
+Me
+
+200
+00:07:25,970 --> 00:07:29,460
+No one believes in unlimited speed claims anymore.
+
+201
+00:07:32,080 --> 00:07:35,480
+1. WeChat, the Linux client of WeChat, was found to have a critical vulnerability
+
+202
+00:07:35,480 --> 00:07:38,140
+Simply enclose the file name with backticks
+
+203
+00:07:38,140 --> 00:07:40,050
+In WeChat, clicking on this file
+
+204
+00:07:40,050 --> 00:07:43,020
+the characters in the file name will be executed as commands
+
+205
+00:07:43,020 --> 00:07:46,169
+Moreover, any executable commands will be executed.
+
+206
+00:07:46,169 --> 00:07:48,669
+Currently, WeChat has urgently fixed this vulnerability.
+
+207
+00:07:48,669 --> 00:07:52,269
+On one hand, the server-side has been configured to block file uploads containing the relevant characters.
+
+208
+00:07:52,269 --> 00:07:53,560
+cut off the transmission routes
+
+209
+00:07:53,560 --> 00:07:56,240
+On the other hand, the filtering of client-side filenames has been optimized.
+
+210
+00:07:56,240 --> 00:07:58,320
+blocked historical files from triggering the vulnerability
+
+211
+00:07:58,320 --> 00:07:59,040
+2.Windows
+
+212
+00:07:59,040 --> 00:08:01,580
+Notepad
+
+213
+00:08:01,580 --> 00:08:04,140
+was exposed as a high-risk remote code execution vulnerability with a score of 8.8
+
+214
+00:08:04,140 --> 00:08:06,280
+CVE-2026-20841
+
+215
+00:08:06,280 --> 00:08:09,200
+Attackers may trick users into opening a Markdown file
+
+216
+00:08:09,200 --> 00:08:11,250
+and click on a malicious link in Notepad
+
+217
+00:08:11,250 --> 00:08:14,170
+resulting in the application loading and executing remote files
+
+218
+00:08:14,170 --> 00:08:15,610
+unverified protocol
+
+219
+00:08:15,610 --> 00:08:19,730
+Currently, this vulnerability has been fixed in the update released on February 10th.
+
+220
+00:08:22,140 --> 00:08:24,600
+This week, there are two games available for free.
+
+221
+00:08:24,600 --> 00:08:27,020
+The first one is "Dark Detective: Groping in the Dark"
+
+222
+00:08:27,020 --> 00:08:29,160
+This is a pixel-style detective puzzle game
+
+223
+00:08:29,160 --> 00:08:30,680
+The main gameplay involves clicking to explore
+
+224
+00:08:30,680 --> 00:08:31,480
+collect items, combine items, solve puzzles
+
+225
+00:08:31,480 --> 00:08:33,169
+Combine items to solve puzzles
+
+226
+00:08:33,169 --> 00:08:35,150
+thus solving the supernatural cases in Twin Lakes City
+
+227
+00:08:35,150 --> 00:08:37,120
+The second one is 'Nobody Wants to Die'
+
+228
+00:08:37,120 --> 00:08:39,520
+This is a first-person detective puzzle game
+
+229
+00:08:39,520 --> 00:08:41,580
+It is presumably set in the year 2329.
+
+230
+00:08:41,580 --> 00:08:44,780
+The upper class achieves immortality through consciousness storage and body replacement.
+
+231
+00:08:44,780 --> 00:08:46,390
+the underclass cannot afford to renew
+
+232
+00:08:46,390 --> 00:08:49,070
+Bodies are reclaimed and auctioned off, society is deeply divided
+
+233
+00:08:49,070 --> 00:08:51,610
+Players will take on the role of a detective and partner up with their companion
+
+234
+00:08:51,610 --> 00:08:53,819
+investigate a series of murders targeting the elite
+
+235
+00:08:53,819 --> 00:08:55,539
+uncover the dark secrets of the upper echelons
+
+236
+00:08:55,539 --> 00:08:57,319
+That's all for this video
+
+237
+00:08:57,319 --> 00:08:58,479
+I'm Xuanli199
+
+238
+00:08:58,479 --> 00:09:00,299
+See you in the next episode
+

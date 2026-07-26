@@ -1,0 +1,1156 @@
+1
+00:00:00,000 --> 00:00:00,920
+Hello everyone.
+
+2
+00:00:00,920 --> 00:00:02,180
+We meet again.
+
+3
+00:00:02,180 --> 00:00:02,380
+Ah...
+
+4
+00:00:02,380 --> 00:00:05,420
+So today, let's talk about how video platforms are actually built.
+
+5
+00:00:05,420 --> 00:00:08,240
+or multimedia platforms, are actually built.
+
+6
+00:00:08,240 --> 00:00:12,270
+So, when we're just scrolling through TikTok or Bilibili in our daily lives,
+
+7
+00:00:12,270 --> 00:00:14,310
+But there's a question that rarely crosses most people's minds.
+
+8
+00:00:14,310 --> 00:00:16,690
+These platforms have to deal with users every single day.
+
+9
+00:00:16,690 --> 00:00:20,220
+millions, or even tens of millions of video uploads.
+
+10
+00:00:20,220 --> 00:00:22,080
+So, how exactly does it pull that off?
+
+11
+00:00:22,080 --> 00:00:23,770
+And it's not just about the uploads.
+
+12
+00:00:23,770 --> 00:00:26,390
+And on top of that, it has to ensure that a massive number of users
+
+13
+00:00:26,390 --> 00:00:29,610
+to watch videos online smoothly at the same time.
+
+14
+00:00:29,610 --> 00:00:31,090
+So, how can we break this problem down?
+
+15
+00:00:31,090 --> 00:00:35,080
+So, at its core, this is a complex problem of distributed systems.
+
+16
+00:00:35,080 --> 00:00:36,120
+So,
+
+17
+00:00:36,120 --> 00:00:38,760
+So, at its core, there are four key things we absolutely have to tackle.
+
+18
+00:00:38,760 --> 00:00:40,760
+So, the first thing is handling the production of large files.
+
+19
+00:00:40,760 --> 00:00:44,430
+I mean, these files can easily be several, or even tens of gigabytes.
+
+20
+00:00:44,430 --> 00:00:47,110
+So, that's why we absolutely need this chunked upload.
+
+21
+00:00:47,110 --> 00:00:48,550
+and resumable uploads.
+
+22
+00:00:48,550 --> 00:00:50,700
+This ensures a good user experience.
+
+23
+00:00:50,700 --> 00:00:52,640
+Alright, next up, we have transcoding.
+
+24
+00:00:52,640 --> 00:00:55,860
+So, a single video needs to be processed into multiple resolutions.
+
+25
+00:00:55,860 --> 00:00:57,210
+or in various formats.
+
+26
+00:00:57,210 --> 00:01:00,230
+This is to accommodate different devices and network conditions.
+
+27
+00:01:00,230 --> 00:01:02,490
+Alright, the next step is storage.
+
+28
+00:01:02,490 --> 00:01:05,860
+So, the storage system doesn't just hold our original videos.
+
+29
+00:01:05,860 --> 00:01:07,140
+but also the output from the transcoding process.
+
+30
+00:01:07,140 --> 00:01:09,200
+All these videos in different resolutions have to be stored.
+
+31
+00:01:09,200 --> 00:01:11,160
+So, we're talking about a storage scale that's definitely in the petabyte range.
+
+32
+00:01:11,160 --> 00:01:13,120
+So, we're definitely talking about a petabyte-scale storage system.
+
+33
+00:01:13,120 --> 00:01:14,560
+And finally, we have playback.
+
+34
+00:01:14,560 --> 00:01:17,920
+It needs to adjust based on the user's device and their network conditions.
+
+35
+00:01:17,920 --> 00:01:21,620
+and dynamically switch the resolution.
+
+36
+00:01:21,620 --> 00:01:24,480
+And this is what we often call adaptive streaming.
+
+37
+00:01:24,480 --> 00:01:26,080
+So, looking at the big picture,
+
+38
+00:01:26,080 --> 00:01:28,240
+So, the core capabilities of this system...
+
+39
+00:01:28,240 --> 00:01:30,310
+essentially, upload and transcoding,
+
+40
+00:01:30,310 --> 00:01:31,090
+and storage.
+
+41
+00:01:31,090 --> 00:01:32,710
+and, of course, playback.
+
+42
+00:01:32,710 --> 00:01:35,360
+So, building on that foundation, let's break it down further.
+
+43
+00:01:35,360 --> 00:01:40,900
+And that other category is, of course, the non-functional requirements.
+
+44
+00:01:40,900 --> 00:01:43,680
+For instance, supporting large file uploads.
+
+45
+00:01:43,680 --> 00:01:46,890
+And then, you have chunked uploads and resumable transfers.
+
+46
+00:01:46,890 --> 00:01:47,710
+Alright, so for the other category...
+
+47
+00:01:49,030 --> 00:01:51,830
+And for the others, we're talking about supporting the conversion of videos into multiple formats and resolutions.
+
+48
+00:01:51,830 --> 00:01:52,930
+Right.
+
+49
+00:01:52,930 --> 00:01:53,950
+like 4K, 1080P,
+
+50
+00:01:53,950 --> 00:01:55,050
+Yeah.
+
+51
+00:01:55,050 --> 00:01:56,790
+720P, 720P,
+
+52
+00:01:56,790 --> 00:01:58,250
+Of course, there are other protocols as well.
+
+53
+00:01:58,250 --> 00:02:02,570
+For example, protocols like HLS and DASH.
+
+54
+00:02:02,570 --> 00:02:04,810
+Next up, we have the video's metadata.
+
+55
+00:02:04,810 --> 00:02:07,270
+For instance, a video like this one definitely has a title.
+
+56
+00:02:07,270 --> 00:02:08,130
+its tags,
+
+57
+00:02:08,130 --> 00:02:10,190
+its thumbnails,
+
+58
+00:02:10,190 --> 00:02:11,540
+and the thumbnail image.
+
+59
+00:02:11,540 --> 00:02:14,990
+All of this is managed by the video's metadata.
+
+60
+00:02:14,990 --> 00:02:16,970
+And then, of course, there are our functional requirements.
+
+61
+00:02:16,970 --> 00:02:19,800
+It also needs to support the upload of tens of millions of videos every single day.
+
+62
+00:02:19,800 --> 00:02:23,760
+It also needs to support tens of millions of users watching videos online simultaneously.
+
+63
+00:02:23,760 --> 00:02:25,720
+So, those are our functional requirements.
+
+64
+00:02:25,720 --> 00:02:27,220
+So, what about the non-functional requirements?
+
+65
+00:02:27,220 --> 00:02:28,540
+So basically, it needs to be highly available, right?
+
+66
+00:02:28,540 --> 00:02:29,540
+There can be no single point of failure.
+
+67
+00:02:29,540 --> 00:02:30,560
+It needs to be low-latency.
+
+68
+00:02:30,560 --> 00:02:31,780
+It needs to be fault-tolerant.
+
+69
+00:02:31,780 --> 00:02:34,130
+And it needs to be scalable.
+
+70
+00:02:34,130 --> 00:02:35,390
+And then there's the data.
+
+71
+00:02:35,390 --> 00:02:36,630
+We're aiming for eventual consistency.
+
+72
+00:02:36,630 --> 00:02:38,350
+So it's definitely this kind of system.
+
+73
+00:02:38,350 --> 00:02:42,280
+Not necessarily. In fact, we definitely wouldn't build it as a strongly consistent system.
+
+74
+00:02:43,280 --> 00:02:43,580
+Okay.
+
+75
+00:02:43,580 --> 00:02:48,100
+Okay, so those are the requirements and challenges our video platform is facing.
+
+76
+00:02:48,100 --> 00:02:52,080
+Alright, so next up, we actually need to bring this system to life.
+
+77
+00:02:52,080 --> 00:02:53,660
+So, we need to break this down into services.
+
+78
+00:02:53,660 --> 00:02:57,019
+So, let's take a look at how we're going to break down this service.
+
+79
+00:02:57,019 --> 00:03:00,739
+What I mean is, we can't just cram all the logic and business rules into a single project.
+
+80
+00:03:00,739 --> 00:03:03,319
+or within a single service.
+
+81
+00:03:03,319 --> 00:03:04,559
+It absolutely has to be split up.
+
+82
+00:03:04,559 --> 00:03:07,439
+So, generally speaking, for video platforms like Bilibili or TikTok,
+
+83
+00:03:07,439 --> 00:03:09,430
+So, when we break down the core components,
+
+84
+00:03:09,430 --> 00:03:11,230
+So, we'll break it down into four main modules.
+
+85
+00:03:11,230 --> 00:03:13,170
+Alright, so the first one is our upload service.
+
+86
+00:03:13,170 --> 00:03:14,570
+And the second one is transcoding.
+
+87
+00:03:14,570 --> 00:03:15,970
+And the third one is video management.
+
+88
+00:03:15,970 --> 00:03:19,370
+And the fourth one is the streaming service.
+
+89
+00:03:19,650 --> 00:03:21,810
+Alright, so first, let's take a look at the upload service.
+
+90
+00:03:21,810 --> 00:03:24,290
+So, the upload service is actually pretty straightforward.
+
+91
+00:03:24,290 --> 00:03:25,650
+First, there's the entry point for file uploads.
+
+92
+00:03:25,650 --> 00:03:27,760
+And then there's the file verification.
+
+93
+00:03:27,760 --> 00:03:29,320
+And then there's our shard upload.
+
+94
+00:03:29,320 --> 00:03:30,200
+And resumable transfers.
+
+95
+00:03:30,200 --> 00:03:31,400
+and merging the chunks.
+
+96
+00:03:31,400 --> 00:03:34,980
+So, for shard upload, it's basically about taking a large file,
+
+97
+00:03:34,980 --> 00:03:36,959
+and breaks it down into many smaller chunks.
+
+98
+00:03:36,959 --> 00:03:38,899
+And then, each piece is uploaded individually.
+
+99
+00:03:38,899 --> 00:03:40,259
+So, once the upload is finished,
+
+100
+00:03:40,259 --> 00:03:42,399
+The system will then merge them.
+
+101
+00:03:42,399 --> 00:03:45,130
+merging these smaller chunks back into one large file.
+
+102
+00:03:45,130 --> 00:03:47,290
+And that's how you get one complete file.
+
+103
+00:03:47,290 --> 00:03:48,410
+And then there's the resume from breakpoint feature.
+
+104
+00:03:48,410 --> 00:03:50,950
+So, let's say the user refreshes the webpage.
+
+105
+00:03:50,950 --> 00:03:54,360
+or, uh, closes the browser.
+
+106
+00:03:54,360 --> 00:03:55,760
+So, the next time they come back,
+
+107
+00:03:55,760 --> 00:03:57,520
+If it finds that there's an identical file here,
+
+108
+00:03:57,520 --> 00:04:00,120
+the upload can be resumed.
+
+109
+00:04:00,480 --> 00:04:03,020
+Okay, next up, let's look at the transcoding task.
+
+110
+00:04:03,020 --> 00:04:03,960
+So, what about the transcoding task?
+
+111
+00:04:03,960 --> 00:04:06,640
+So basically, it takes the original video that was uploaded,
+
+112
+00:04:06,640 --> 00:04:07,800
+into different resolutions.
+
+113
+00:04:07,800 --> 00:04:10,380
+into different formats, each as a separate task.
+
+114
+00:04:10,380 --> 00:04:15,300
+And actually, this is a key point that we'll be covering in this series of videos.
+
+115
+00:04:15,300 --> 00:04:19,630
+This is one of the main, key points we'll be covering.
+
+116
+00:04:19,630 --> 00:04:21,630
+So, as you're learning about the transcoding tasks,
+
+117
+00:04:21,630 --> 00:04:23,340
+you really need to pay close attention and learn it well.
+
+118
+00:04:23,340 --> 00:04:25,100
+So, its main function is transcoding into multiple formats.
+
+119
+00:04:25,100 --> 00:04:27,660
+transcoding to multiple resolutions and adjusting video quality.
+
+120
+00:04:27,660 --> 00:04:32,260
+And later on, uh, in the video that covers the transcoding task,
+
+121
+00:04:32,260 --> 00:04:34,850
+I'll also walk you through that in detail.
+
+122
+00:04:34,850 --> 00:04:35,930
+And then, we have the video service.
+
+123
+00:04:35,930 --> 00:04:37,170
+Basically, it's all about managing the metadata for our videos.
+
+124
+00:04:37,170 --> 00:04:38,930
+Ah,
+
+125
+00:04:38,930 --> 00:04:41,090
+And then, for example, things like the video's title,
+
+126
+00:04:41,090 --> 00:04:42,400
+the thumbnail,
+
+127
+00:04:42,400 --> 00:04:45,420
+And then, for the 'My Videos' list,
+
+128
+00:04:45,420 --> 00:04:47,800
+And also, for example, the video list on the homepage.
+
+129
+00:04:47,800 --> 00:04:50,200
+All of these are provided through interfaces from the video service.
+
+130
+00:04:50,200 --> 00:04:51,909
+It also provides search capabilities.
+
+131
+00:04:52,269 --> 00:04:54,029
+Okay, so that's our streaming service.
+
+132
+00:04:54,029 --> 00:04:59,229
+So, when we're on this page and click on a video,
+
+133
+00:04:59,229 --> 00:05:03,089
+So, what's actually happening is, it's not playing the original video file directly.
+
+134
+00:05:03,089 --> 00:05:04,690
+So, what's actually happening is,
+
+135
+00:05:04,690 --> 00:05:07,190
+What it actually does is pull the resources in different resolutions.
+
+136
+00:05:07,190 --> 00:05:08,290
+So, for those resources in different resolutions,
+
+137
+00:05:08,290 --> 00:05:10,600
+and it will return the address for that specific resolution.
+
+138
+00:05:10,600 --> 00:05:13,060
+And then, the player on our web page...
+
+139
+00:05:13,060 --> 00:05:15,200
+or the player in the app will start playing it.
+
+140
+00:05:15,200 --> 00:05:18,160
+It can automatically switch between these different resolutions.
+
+141
+00:05:18,160 --> 00:05:19,680
+to ensure a smooth playback experience.
+
+142
+00:05:19,680 --> 00:05:23,409
+So, these are the main tasks our streaming service needs to handle.
+
+143
+00:05:23,809 --> 00:05:25,980
+Okay, so we've broken down the services.
+
+144
+00:05:25,980 --> 00:05:26,740
+So, now that we have these services,
+
+145
+00:05:26,740 --> 00:05:29,340
+So, let's take a look at how our system is actually layered.
+
+146
+00:05:29,340 --> 00:05:31,300
+Alright, so let's start from the outermost layer.
+
+147
+00:05:31,300 --> 00:05:32,140
+Which is the client side.
+
+148
+00:05:32,140 --> 00:05:34,500
+This includes our mobile app, web, and H5 clients.
+
+149
+00:05:34,500 --> 00:05:36,900
+So, all of these requests will be sent to our gateway layer.
+
+150
+00:05:36,900 --> 00:05:38,400
+This is our API entry layer.
+
+151
+00:05:38,400 --> 00:05:40,840
+So, this API entry point is what we call the gateway layer.
+
+152
+00:05:40,840 --> 00:05:43,340
+Its main job is to handle things like parameter validation,
+
+153
+00:05:43,340 --> 00:05:44,080
+routing, and authentication.
+
+154
+00:05:44,080 --> 00:05:45,659
+Right.
+
+155
+00:05:45,659 --> 00:05:46,859
+So, to dive a bit deeper...
+
+156
+00:05:46,859 --> 00:05:49,550
+There might also be some operations related to rate limiting.
+
+157
+00:05:49,550 --> 00:05:52,790
+Okay, so right below the API gateway, we have our service layer.
+
+158
+00:05:52,790 --> 00:05:53,870
+Take our user service, for example.
+
+159
+00:05:53,870 --> 00:05:54,850
+It handles things like registration,
+
+160
+00:05:54,850 --> 00:05:56,150
+login, right?
+
+161
+00:05:56,150 --> 00:05:58,210
+updating some user information,
+
+162
+00:05:58,210 --> 00:06:00,570
+And then, we have our upload service.
+
+163
+00:06:00,570 --> 00:06:02,690
+So, this is our upload service for all files.
+
+164
+00:06:02,690 --> 00:06:04,490
+All file uploads go through this service.
+
+165
+00:06:04,490 --> 00:06:05,730
+all go through our upload service.
+
+166
+00:06:05,730 --> 00:06:07,170
+And then there's our video service.
+
+167
+00:06:07,170 --> 00:06:09,790
+This is the metadata for our videos.
+
+168
+00:06:09,790 --> 00:06:12,450
+For example, things like the video list are all handled by our video service and streaming media service.
+
+169
+00:06:12,450 --> 00:06:13,390
+And then,
+
+170
+00:06:13,390 --> 00:06:17,020
+And for video playback, that's all handled by our dedicated streaming media service.
+
+171
+00:06:17,020 --> 00:06:19,900
+And then, going even deeper, we have our middleware.
+
+172
+00:06:19,900 --> 00:06:20,620
+layers.
+
+173
+00:06:20,620 --> 00:06:22,260
+For instance, we need caching, right?
+
+174
+00:06:22,260 --> 00:06:23,250
+we'll need Redis.
+
+175
+00:06:23,250 --> 00:06:26,250
+So, for our transcoding tasks, we definitely need to execute them asynchronously.
+
+176
+00:06:26,250 --> 00:06:29,310
+So, we'll use RocketMQ to handle this asynchronous transcoding.
+
+177
+00:06:29,310 --> 00:06:32,310
+Of course, you could also use something like Kafka.
+
+178
+00:06:32,310 --> 00:06:33,370
+or other MQs.
+
+179
+00:06:33,370 --> 00:06:35,350
+And then, of course, we have our file system.
+
+180
+00:06:35,350 --> 00:06:37,120
+So, for our files, they need to be stored.
+
+181
+00:06:37,120 --> 00:06:39,960
+Alright, so now, for our entire project...
+
+182
+00:06:39,960 --> 00:06:41,120
+We're using MinIO for this.
+
+183
+00:06:41,120 --> 00:06:42,760
+Of course, you could also use Alibaba Cloud's OSS.
+
+184
+00:06:42,760 --> 00:06:45,480
+or any other OSS solutions would work just fine.
+
+185
+00:06:45,480 --> 00:06:48,200
+And then we have NACOS.
+
+186
+00:06:48,200 --> 00:06:51,700
+It's mainly used for our service registration and discovery.
+
+187
+00:06:51,700 --> 00:06:53,660
+And this is what we call the entire service governance.
+
+188
+00:06:53,660 --> 00:06:57,710
+So, we're using NACOS here as our service registry and configuration center.
+
+189
+00:06:57,710 --> 00:07:01,830
+And then, we also have what's called the task layer.
+
+190
+00:07:01,830 --> 00:07:05,459
+So, the task layer is primarily responsible for our transcoding tasks.
+
+191
+00:07:05,459 --> 00:07:07,790
+Of course, there are also some other auxiliary tasks.
+
+192
+00:07:07,790 --> 00:07:09,350
+For instance, consuming messages from the message queue.
+
+193
+00:07:09,350 --> 00:07:11,930
+And then, there's updating the status of the task.
+
+194
+00:07:11,930 --> 00:07:13,390
+and outputting the corresponding deliverables, and so on.
+
+195
+00:07:13,390 --> 00:07:16,480
+All of this will be handled within our task layer.
+
+196
+00:07:16,480 --> 00:07:19,200
+Okay, and at the very bottom, we have our data layer.
+
+197
+00:07:19,200 --> 00:07:21,960
+And that's because, of course, all of our data has to be stored in a database.
+
+198
+00:07:21,960 --> 00:07:23,940
+First up, we have our user data.
+
+199
+00:07:23,940 --> 00:07:25,400
+For instance, when a user registers, right?
+
+200
+00:07:25,400 --> 00:07:28,780
+So, some of the user's information needs to be stored in the user database.
+
+201
+00:07:28,780 --> 00:07:31,790
+And of course, our upload tasks also need to be persisted in the database.
+
+202
+00:07:31,790 --> 00:07:34,110
+Because we need to implement features like chunked upload and resumable transfer, right?
+
+203
+00:07:34,110 --> 00:07:37,310
+So, it's a given that we have to store certain states in the database.
+
+204
+00:07:37,310 --> 00:07:39,790
+And then we have our video metadata. This includes information like, 'Which videos did I upload?' right?
+
+205
+00:07:39,790 --> 00:07:41,470
+So, I've uploaded some videos, right?
+
+206
+00:07:41,470 --> 00:07:42,780
+like what videos are in which lists.
+
+207
+00:07:42,780 --> 00:07:45,380
+All of this gets stored in the video metadata database.
+
+208
+00:07:45,380 --> 00:07:48,440
+And finally, we have the streaming media resources.
+
+209
+00:07:48,440 --> 00:07:50,260
+And this data... this database.
+
+210
+00:07:50,260 --> 00:07:52,660
+Now, the streaming resources are basically the output from the transcoding process.
+
+211
+00:07:52,660 --> 00:07:53,880
+like 4K and 1080p,
+
+212
+00:07:53,880 --> 00:07:57,580
+and the URLs for the different resolutions.
+
+213
+00:07:57,580 --> 00:08:00,030
+All of these will be stored in our streaming media...
+
+214
+00:08:00,030 --> 00:08:01,770
+in the database for this resource.
+
+215
+00:08:01,770 --> 00:08:04,870
+Okay, so that's a wrap on the overall layered architecture.
+
+216
+00:08:04,870 --> 00:08:06,390
+Alright, so next up, let's take a look at...
+
+217
+00:08:06,390 --> 00:08:09,090
+This involves some of the tables.
+
+218
+00:08:09,090 --> 00:08:11,980
+So, uh, because I want to give you all a general idea of this...
+
+219
+00:08:11,980 --> 00:08:13,920
+to first get a general understanding of the project as a whole.
+
+220
+00:08:13,920 --> 00:08:15,380
+So, I won't be going into too much detail on the tables.
+
+221
+00:08:15,380 --> 00:08:18,010
+So, all you really need to do is remember what tables we have.
+
+222
+00:08:18,010 --> 00:08:19,370
+Alright, so first up is the upload service.
+
+223
+00:08:19,370 --> 00:08:20,680
+So, that's our upload service.
+
+224
+00:08:20,680 --> 00:08:22,480
+So, there must be an upload task.
+
+225
+00:08:22,480 --> 00:08:24,800
+So, of course, these upload tasks have to be stored in the database.
+
+226
+00:08:24,800 --> 00:08:26,140
+And then there's the 'upload_part'.
+
+227
+00:08:26,140 --> 00:08:27,880
+And then there's the 'upload_part'...
+
+228
+00:08:27,880 --> 00:08:30,540
+Because, for a single upload task,
+
+229
+00:08:30,540 --> 00:08:33,340
+So basically, this corresponds to one of our upload_tasks.
+
+230
+00:08:33,340 --> 00:08:35,700
+So, for the chunked upload, all the information about the chunks...
+
+231
+00:08:35,700 --> 00:08:38,299
+will be stored in this 'upload_part' table.
+
+232
+00:08:38,299 --> 00:08:40,179
+Next up, we have the transcoding domain.
+
+233
+00:08:40,179 --> 00:08:42,379
+So, the transcoding process is divided into a main transcoding task,
+
+234
+00:08:42,379 --> 00:08:44,019
+and the transcoding subtasks.
+
+235
+00:08:44,019 --> 00:08:46,549
+So, each time we have an upload_task,
+
+236
+00:08:46,549 --> 00:08:49,300
+In other words, one upload task will correspond to one transcoding task.
+
+237
+00:08:49,300 --> 00:08:51,960
+And under that transcoding task, there will be many sub-tasks for transcoding.
+
+238
+00:08:51,960 --> 00:08:53,480
+So, why are there so many transcoding subtasks?
+
+239
+00:08:53,480 --> 00:08:55,610
+So, you can think of a transcoding sub-task as, for example,
+
+240
+00:08:55,610 --> 00:08:59,570
+For example, let's say I want to convert it to both 4K and 1080P.
+
+241
+00:08:59,570 --> 00:09:00,980
+So that's two transcoding tasks right there.
+
+242
+00:09:00,980 --> 00:09:05,260
+So, in other words, each resolution corresponds to a single transcoding sub-task.
+
+243
+00:09:05,260 --> 00:09:07,380
+So, for the transcoding, we're talking about this main task and its subtasks.
+
+244
+00:09:07,380 --> 00:09:09,160
+So, it's a one-to-many relationship.
+
+245
+00:09:09,160 --> 00:09:12,990
+And then, moving on, we have the video's metadata information.
+
+246
+00:09:12,990 --> 00:09:15,270
+This includes things like its thumbnails,
+
+247
+00:09:15,270 --> 00:09:15,810
+things like the title and description.
+
+248
+00:09:15,810 --> 00:09:16,670
+Right.
+
+249
+00:09:16,670 --> 00:09:19,150
+We'll store all of that in this 'video info' table.
+
+250
+00:09:19,150 --> 00:09:20,800
+and its title.
+
+251
+00:09:20,800 --> 00:09:23,480
+Okay, so I won't get into the nitty-gritty details of that.
+
+252
+00:09:23,480 --> 00:09:25,280
+Because as we go through each topic in the following videos,
+
+253
+00:09:25,280 --> 00:09:27,160
+For example, when we talk about transcoding, or dealing with the metadata,
+
+254
+00:09:27,160 --> 00:09:28,160
+and then streaming.
+
+255
+00:09:28,160 --> 00:09:31,030
+We'll go into the details of what each field in these tables means later on.
+
+256
+00:09:31,030 --> 00:09:32,120
+Alright,
+
+257
+00:09:32,120 --> 00:09:34,580
+And finally, we have the streaming media.
+
+258
+00:09:34,580 --> 00:09:37,340
+So, the streaming media? That's basically the output you get after transcoding.
+
+259
+00:09:37,340 --> 00:09:40,410
+For example, let's say we have a 7K video, not a 4K one.
+
+260
+00:09:40,410 --> 00:09:42,770
+So, where does this get stored?
+
+261
+00:09:42,770 --> 00:09:44,450
+and where it's stored in our file system.
+
+262
+00:09:44,450 --> 00:09:47,000
+And then our 1080P videos are stored in this...
+
+263
+00:09:47,000 --> 00:09:50,320
+in what location of the file system.
+
+264
+00:09:50,320 --> 00:09:53,120
+This is mainly for storing this stuff.
+
+265
+00:09:53,120 --> 00:09:56,340
+Actually, if we dig a little deeper into this part...
+
+266
+00:09:56,620 --> 00:09:59,580
+So, this part actually corresponds to two different video formats.
+
+267
+00:09:59,580 --> 00:10:01,720
+For example, HLS and DASH.
+
+268
+00:10:01,720 --> 00:10:04,070
+So, actually, when we're talking about streaming media,
+
+269
+00:10:04,070 --> 00:10:06,270
+I'll walk you through it in detail.
+
+270
+00:10:06,270 --> 00:10:08,570
+Alright, next up, we have its fields.
+
+271
+00:10:08,570 --> 00:10:11,270
+So I won't go into too much detail here.
+
+272
+00:10:12,300 --> 00:10:14,800
+Alright, so up to this point, we've basically covered the entire picture.
+
+273
+00:10:14,800 --> 00:10:16,140
+So, we're going to build something similar.
+
+274
+00:10:16,140 --> 00:10:17,380
+a video platform like Bilibili.
+
+275
+00:10:17,380 --> 00:10:18,730
+And that's the whole explanation.
+
+276
+00:10:18,730 --> 00:10:21,010
+including how it breaks down its services, right?
+
+277
+00:10:21,010 --> 00:10:22,690
+and what the challenges are, right?
+
+278
+00:10:22,690 --> 00:10:24,510
+and what challenges it presents.
+
+279
+00:10:24,510 --> 00:10:26,670
+Alright, so in the next section, let's take a deeper look.
+
+280
+00:10:26,670 --> 00:10:28,110
+How do we break down the upload service?
+
+281
+00:10:28,110 --> 00:10:31,090
+So, I'll be covering the upload service in two parts: part one and part two.
+
+282
+00:10:31,090 --> 00:10:33,700
+So, the first part will mainly cover its workflow.
+
+283
+00:10:33,700 --> 00:10:34,400
+and its architecture.
+
+284
+00:10:34,400 --> 00:10:36,940
+So, for the next video, we'll be diving into the upload service.
+
+285
+00:10:36,940 --> 00:10:41,270
+In the next video, we'll break down some of the optimization pathways.
+
+286
+00:10:41,270 --> 00:10:43,510
+Alright, that's all for today's sharing.
+
+287
+00:10:43,510 --> 00:10:44,970
+Remember, I'm your programmer, Shark.
+
+288
+00:10:44,970 --> 00:10:46,270
+We're just covering the hardcore stuff here.
+
+289
+00:10:46,270 --> 00:10:47,540
+See you in the next one.
+

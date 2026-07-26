@@ -1,0 +1,3124 @@
+1
+00:00:01,120 --> 00:00:04,980
+Today, let's share 180 essential terms that new product managers must master.
+
+2
+00:00:04,980 --> 00:00:07,960
+We will integrate these with the actual product work process
+
+3
+00:00:07,960 --> 00:00:09,580
+share in project practice
+
+4
+00:00:09,580 --> 00:00:12,820
+We will focus on explaining the most important terms.
+
+5
+00:00:12,820 --> 00:00:14,580
+The video itself is quite long
+
+6
+00:00:14,580 --> 00:00:15,420
+You can favorite it
+
+7
+00:00:15,420 --> 00:00:17,720
+watch the Knowledge base in the second video
+
+8
+00:00:17,720 --> 00:00:19,040
+like these commonly used terms
+
+9
+00:00:19,040 --> 00:00:20,200
+and frequently visited websites
+
+10
+00:00:20,200 --> 00:00:21,680
+Type 111 in the comment section
+
+11
+00:00:21,680 --> 00:00:23,440
+We will send everything to everyone
+
+12
+00:00:23,440 --> 00:00:24,450
+directly to view
+
+13
+00:00:24,450 --> 00:00:27,850
+The first term is related to the app and PC side.
+
+14
+00:00:27,850 --> 00:00:29,770
+We often see the Home
+
+15
+00:00:29,770 --> 00:00:32,880
+Let's talk about the sections involved in these areas.
+
+16
+00:00:32,880 --> 00:00:33,920
+This is called the navigation area
+
+17
+00:00:33,920 --> 00:00:34,860
+the bottom navigation
+
+18
+00:00:34,860 --> 00:00:36,280
+the bottom navigation Home
+
+19
+00:00:36,280 --> 00:00:36,840
+categories or
+
+20
+00:00:36,840 --> 00:00:37,440
+shopping cart
+
+21
+00:00:37,440 --> 00:00:38,240
+Personal Center
+
+22
+00:00:38,240 --> 00:00:39,310
+This is the navigation area
+
+23
+00:00:39,310 --> 00:00:41,950
+What we're dealing with here is the status bar.
+
+24
+00:00:41,950 --> 00:00:43,750
+The status bar has nothing to do with product managers.
+
+25
+00:00:43,750 --> 00:00:45,320
+This is built-in to the phone
+
+26
+00:00:45,320 --> 00:00:47,240
+This part is basically the title
+
+27
+00:00:47,240 --> 00:00:48,680
+Then proceed to the next page
+
+28
+00:00:48,680 --> 00:00:49,640
+Many page areas
+
+29
+00:00:49,640 --> 00:00:51,100
+For example, this is called the product details page
+
+30
+00:00:51,100 --> 00:00:52,220
+This is called the field order page
+
+31
+00:00:52,220 --> 00:00:55,300
+The page title may be involved, for example, if it's the Home page
+
+32
+00:00:55,300 --> 00:00:57,820
+basically the name of the mini-program or app will be displayed
+
+33
+00:00:57,820 --> 00:00:59,340
+Then this area is called the search section.
+
+34
+00:00:59,340 --> 00:01:00,660
+I will switch to the search field
+
+35
+00:01:00,660 --> 00:01:02,300
+Then you need to check if there's a scan-to-purchase feature
+
+36
+00:01:02,300 --> 00:01:03,970
+or membership code and other functions
+
+37
+00:01:03,970 --> 00:01:06,550
+This section changes every three seconds
+
+38
+00:01:06,550 --> 00:01:08,050
+or it changes every one or two seconds
+
+39
+00:01:08,050 --> 00:01:09,210
+This is called a BINNER
+
+40
+00:01:09,210 --> 00:01:10,100
+also called ad placement
+
+41
+00:01:10,100 --> 00:01:12,420
+There will be a dedicated section called carousel management in the backend
+
+42
+00:01:12,420 --> 00:01:15,610
+The banner ad positions all refer to the same thing.
+
+43
+00:01:15,610 --> 00:01:18,010
+There will be a dedicated section in the backend called advertisement management
+
+44
+00:01:18,010 --> 00:01:20,440
+or to make settings in the broadcast management section
+
+45
+00:01:20,440 --> 00:01:21,760
+In more established companies
+
+46
+00:01:21,760 --> 00:01:25,430
+It can also configure its carousel in the CMS decoration
+
+47
+00:01:25,430 --> 00:01:29,590
+This section can be called the grid navigation area or the diamond area.
+
+48
+00:01:29,590 --> 00:01:32,980
+because through each entry point I can reach certain areas
+
+49
+00:01:32,980 --> 00:01:36,980
+These are some of the specialized terms frequently used in my Home.
+
+50
+00:01:36,980 --> 00:01:38,720
+Then further down is the section
+
+51
+00:01:38,720 --> 00:01:40,020
+Then I have the credit financing section
+
+52
+00:01:40,020 --> 00:01:41,380
+I have a promotional zone, etc.
+
+53
+00:01:41,380 --> 00:01:43,420
+What are the things I have on these floors?
+
+54
+00:01:43,420 --> 00:01:44,320
+For the app side,
+
+55
+00:01:44,320 --> 00:01:47,630
+then enter after I click on a certain product or item
+
+56
+00:01:47,630 --> 00:01:48,590
+click on a certain category
+
+57
+00:01:48,590 --> 00:01:50,150
+Enter a certain product listing page
+
+58
+00:01:50,150 --> 00:01:51,690
+All of these are proprietary terms.
+
+59
+00:01:51,690 --> 00:01:54,300
+The second one involves our PC端.
+
+60
+00:01:54,300 --> 00:01:55,000
+For the PC端
+
+61
+00:01:55,000 --> 00:01:57,360
+We often log in using our account and password.
+
+62
+00:01:58,840 --> 00:02:00,720
+For example, all orders
+
+63
+00:02:00,720 --> 00:02:01,380
+offline orders
+
+64
+00:02:01,380 --> 00:02:02,580
+This is called a menu
+
+65
+00:02:02,580 --> 00:02:04,180
+I click on a certain page
+
+66
+00:02:04,180 --> 00:02:05,220
+it will be displayed
+
+67
+00:02:05,220 --> 00:02:07,360
+that is, in the form of a page
+
+68
+00:02:07,360 --> 00:02:08,600
+Then I will continue scrolling down
+
+69
+00:02:08,600 --> 00:02:09,800
+What about orders
+
+70
+00:02:09,800 --> 00:02:11,680
+Because the frontend can create orders
+
+71
+00:02:11,680 --> 00:02:13,380
+The backend can only record order information.
+
+72
+00:02:13,380 --> 00:02:14,780
+So in this part
+
+73
+00:02:14,780 --> 00:02:16,720
+This section is called the order list page.
+
+74
+00:02:16,720 --> 00:02:18,780
+Then, when I click into it, it's called the order details page.
+
+75
+00:02:18,780 --> 00:02:19,660
+such and such list page
+
+76
+00:02:19,660 --> 00:02:20,690
+details page of something
+
+77
+00:02:20,690 --> 00:02:23,010
+For example, if I'm working on flash sales
+
+78
+00:02:23,010 --> 00:02:24,670
+group buying and similar activities
+
+79
+00:02:24,670 --> 00:02:26,490
+then we will also involve
+
+80
+00:02:26,490 --> 00:02:28,980
+for example, this is called the new group buying activity page
+
+81
+00:02:28,980 --> 00:02:30,740
+This is our new page.
+
+82
+00:02:30,740 --> 00:02:33,460
+These are essentially the specialized terms we are covering.
+
+83
+00:02:33,460 --> 00:02:34,920
+So, what do we have on the page?
+
+84
+00:02:34,920 --> 00:02:36,720
+Take the list page as an example
+
+85
+00:02:36,720 --> 00:02:39,900
+This section of the list page is called the query condition area.
+
+86
+00:02:39,900 --> 00:02:41,900
+Then I can search by transaction order number
+
+87
+00:02:41,900 --> 00:02:43,260
+I can search by order time
+
+88
+00:02:43,260 --> 00:02:44,800
+This is called the query criteria area
+
+89
+00:02:44,800 --> 00:02:48,300
+The lower section is called the query results area.
+
+90
+00:02:48,300 --> 00:02:50,340
+At the same time, I can perform some operations
+
+91
+00:02:50,340 --> 00:02:51,500
+the order number
+
+92
+00:02:51,500 --> 00:02:52,620
+product image
+
+93
+00:02:52,620 --> 00:02:53,620
+the title of the product
+
+94
+00:02:53,620 --> 00:02:54,660
+the status of the order
+
+95
+00:02:54,660 --> 00:02:56,510
+These are called fields.
+
+96
+00:02:56,510 --> 00:02:58,750
+This is the specialized terminology we are referring to
+
+97
+00:02:58,750 --> 00:02:59,910
+When designing functional points
+
+98
+00:02:59,910 --> 00:03:01,550
+We often refer to these specialized terms
+
+99
+00:03:01,550 --> 00:03:02,550
+you need to know what it is
+
+100
+00:03:02,550 --> 00:03:04,390
+represent what kind of meaning
+
+101
+00:03:04,390 --> 00:03:07,450
+These are some commonly used parts in the app interface.
+
+102
+00:03:07,450 --> 00:03:10,290
+The second part is related to the product industry.
+
+103
+00:03:10,290 --> 00:03:11,530
+for example, what is called a moat
+
+104
+00:03:11,530 --> 00:03:12,250
+personalized recommendations
+
+105
+00:03:12,250 --> 00:03:12,870
+weight
+
+106
+00:03:12,870 --> 00:03:14,520
+Let's all take a moment to understand this.
+
+107
+00:03:14,520 --> 00:03:15,840
+Regarding the business model,
+
+108
+00:03:15,840 --> 00:03:17,000
+It is often asked during interviews
+
+109
+00:03:17,000 --> 00:03:18,840
+because I need to address the to C business model
+
+110
+00:03:18,840 --> 00:03:20,520
+There is also a to B business model.
+
+111
+00:03:20,520 --> 00:03:22,760
+The to C business model is often about advertising
+
+112
+00:03:22,760 --> 00:03:23,440
+selling ads
+
+113
+00:03:23,440 --> 00:03:24,000
+selling memberships
+
+114
+00:03:24,000 --> 00:03:24,600
+paid membership
+
+115
+00:03:24,600 --> 00:03:26,280
+For example, how much is a 1-month membership
+
+116
+00:03:26,280 --> 00:03:27,420
+How much is the annual card?
+
+117
+00:03:27,420 --> 00:03:29,140
+In the game, selling skins, for example,
+
+118
+00:03:29,140 --> 00:03:31,160
+What if I were to act as a platform
+
+119
+00:03:31,160 --> 00:03:32,620
+For example, I am Taobao
+
+120
+00:03:32,620 --> 00:03:33,660
+Tmall, etc.
+
+121
+00:03:33,660 --> 00:03:35,320
+I need to take a commission from the merchants.
+
+122
+00:03:35,320 --> 00:03:36,520
+If I proceed to payment
+
+123
+00:03:36,520 --> 00:03:37,720
+For example, if it's WeChat Pay
+
+124
+00:03:37,720 --> 00:03:38,620
+Alipay payment
+
+125
+00:03:38,620 --> 00:03:40,280
+Such a financial payment company
+
+126
+00:03:40,280 --> 00:03:41,800
+I need to deduct the payment processing fee
+
+127
+00:03:41,800 --> 00:03:44,020
+For example, if I set a thousand copies of materials at 100 yuan each
+
+128
+00:03:44,020 --> 00:03:47,500
+Out of 1000 yuan, six yuan is taken by WeChat as the involved handling fee.
+
+129
+00:03:47,500 --> 00:03:48,940
+payment processing fee
+
+130
+00:03:48,940 --> 00:03:50,540
+In the financial sector, there would be loans
+
+131
+00:03:50,540 --> 00:03:51,660
+interest and others
+
+132
+00:03:51,660 --> 00:03:54,060
+There are also commonly used price differences in buying and selling in the e-commerce field.
+
+133
+00:03:54,060 --> 00:03:56,420
+That refers to some business models that are more consumer-oriented.
+
+134
+00:03:56,420 --> 00:03:58,060
+a more B2B-oriented business model
+
+135
+00:03:58,060 --> 00:03:59,480
+for example, our company specializes in
+
+136
+00:03:59,480 --> 00:04:01,600
+Then I sell the system to the client for application
+
+137
+00:04:01,600 --> 00:04:03,640
+then through the act of selling the system
+
+138
+00:04:03,640 --> 00:04:06,420
+It's the software-based service to obtain, um,
+
+139
+00:04:06,420 --> 00:04:07,560
+business model
+
+140
+00:04:07,560 --> 00:04:10,020
+That includes the SaaS-type products I will expand on later.
+
+141
+00:04:10,020 --> 00:04:13,220
+Basically, this type will open an account for each merchant.
+
+142
+00:04:13,220 --> 00:04:14,820
+a separate account is created for each tenant
+
+143
+00:04:14,820 --> 00:04:16,519
+Then each tenant has to pay
+
+144
+00:04:16,519 --> 00:04:17,620
+for example, over 10,000 yuan
+
+145
+00:04:17,620 --> 00:04:18,800
+an annual fee of over 20,000 yuan
+
+146
+00:04:18,800 --> 00:04:20,260
+because you purchased my system
+
+147
+00:04:20,260 --> 00:04:22,820
+if you need additional customized development features
+
+148
+00:04:22,820 --> 00:04:24,020
+then pay extra
+
+149
+00:04:24,020 --> 00:04:26,060
+This is the main business model for the B2B sector.
+
+150
+00:04:26,060 --> 00:04:27,850
+As for the data analysis part
+
+151
+00:04:27,850 --> 00:04:30,250
+Later, we'll make time to do a special episode to share.
+
+152
+00:04:30,250 --> 00:04:33,060
+Speaking of that, overall in our interviews
+
+153
+00:04:33,060 --> 00:04:35,940
+and the one that makes us nervous when joining the company, uh
+
+154
+00:04:35,940 --> 00:04:37,600
+that is related to development terminology
+
+155
+00:04:40,360 --> 00:04:42,460
+This is also a key point for companies
+
+156
+00:04:42,460 --> 00:04:46,200
+high-frequency professional terms often mentioned by developers and testers
+
+157
+00:04:46,200 --> 00:04:48,640
+For example, let's start with the environment
+
+158
+00:04:48,640 --> 00:04:49,520
+environment
+
+159
+00:04:49,520 --> 00:04:50,360
+like the development environment
+
+160
+00:04:50,360 --> 00:04:50,960
+testing environment
+
+161
+00:04:50,960 --> 00:04:51,680
+staging environment
+
+162
+00:04:51,680 --> 00:04:53,280
+The online environment is also called the production environment.
+
+163
+00:04:53,280 --> 00:04:55,480
+For all development environments, if it's for development
+
+164
+00:04:55,480 --> 00:04:57,160
+Products that involve coding don't need to understand.
+
+165
+00:04:57,160 --> 00:05:01,550
+For product managers, the test environment is where they will be involved in conducting acceptance testing.
+
+166
+00:05:01,550 --> 00:05:02,870
+So when we just joined the company
+
+167
+00:05:02,870 --> 00:05:05,070
+you can request the URL of the test environment
+
+168
+00:05:05,070 --> 00:05:05,750
+account password
+
+169
+00:05:05,750 --> 00:05:06,750
+freely add, delete, or modify
+
+170
+00:05:06,750 --> 00:05:07,670
+That's all fine.
+
+171
+00:05:07,670 --> 00:05:09,120
+the pre-release environment
+
+172
+00:05:09,120 --> 00:05:10,480
+Some companies may have
+
+173
+00:05:10,480 --> 00:05:11,240
+Some companies don't have
+
+174
+00:05:11,240 --> 00:05:12,960
+generally only mid-sized and large companies have
+
+175
+00:05:12,960 --> 00:05:14,880
+If there is a pre-release environment for the product
+
+176
+00:05:14,880 --> 00:05:16,360
+it will be verified in the pre-release environment
+
+177
+00:05:16,360 --> 00:05:18,520
+If there is no pre-release environment product
+
+178
+00:05:18,520 --> 00:05:20,330
+is to conduct verification in the test environment
+
+179
+00:05:20,330 --> 00:05:24,610
+The staging environment essentially maintains data consistency with the production environment.
+
+180
+00:05:24,610 --> 00:05:27,160
+It is designed to reduce issues during the launch process
+
+181
+00:05:27,160 --> 00:05:28,640
+an additional environment was added
+
+182
+00:05:28,640 --> 00:05:31,100
+The online environment is where real business data is processed.
+
+183
+00:05:31,100 --> 00:05:32,220
+when you first join the company
+
+184
+00:05:32,220 --> 00:05:34,260
+Never perform insert, delete, or update operations in the production environment.
+
+185
+00:05:34,260 --> 00:05:35,260
+In this process
+
+186
+00:05:35,260 --> 00:05:37,080
+Generally, products can only be viewed.
+
+187
+00:05:37,080 --> 00:05:38,900
+So the upper limit we set
+
+188
+00:05:38,900 --> 00:05:41,720
+which means the developers deploy the code to the test production environment
+
+189
+00:05:41,720 --> 00:05:43,740
+The business party can then proceed to use it.
+
+190
+00:05:43,740 --> 00:05:45,060
+This is the production environment
+
+191
+00:05:45,060 --> 00:05:48,400
+If there are issues during the use of the online environment in business operations
+
+192
+00:05:48,400 --> 00:05:49,660
+will come to find the product manager
+
+193
+00:05:49,660 --> 00:05:52,820
+The product determines whether it's a bug or an incomplete requirement
+
+194
+00:05:52,820 --> 00:05:54,000
+So, what is a bug?
+
+195
+00:05:54,000 --> 00:05:55,200
+A bug is simply
+
+196
+00:05:55,200 --> 00:05:56,720
+
+
+197
+00:05:56,720 --> 00:05:57,800
+but I did not develop it
+
+198
+00:05:57,800 --> 00:05:58,820
+then that's a bug
+
+199
+00:05:58,820 --> 00:06:01,720
+
+
+200
+00:06:01,720 --> 00:06:03,950
+
+
+201
+00:06:03,950 --> 00:06:06,110
+Then it's not called a bug during this process
+
+202
+00:06:06,110 --> 00:06:08,130
+This process is called incomplete requirements.
+
+203
+00:06:08,130 --> 00:06:11,610
+
+
+204
+00:06:11,610 --> 00:06:13,600
+before simply polishing the resume
+
+205
+00:06:13,600 --> 00:06:14,480
+before the interview
+
+206
+00:06:14,480 --> 00:06:16,920
+It must be acquired before joining the company.
+
+207
+00:06:16,920 --> 00:06:19,000
+Otherwise, you won't even pass the one-week probation period.
+
+208
+00:06:19,000 --> 00:06:20,840
+All products are professionally oriented
+
+209
+00:06:20,840 --> 00:06:22,280
+During the onboarding process
+
+210
+00:06:22,280 --> 00:06:25,220
+The developers and testers you face are all professionals.
+
+211
+00:06:25,220 --> 00:06:26,560
+This is in terms of the environment
+
+212
+00:06:26,560 --> 00:06:28,980
+Overall, we will be involved with R&D engineers
+
+213
+00:06:28,980 --> 00:06:33,270
+The R&D engineers we mainly interact with are front-end developers and back-end developers.
+
+214
+00:06:33,270 --> 00:06:35,670
+The front-end development is primarily responsible for the interface.
+
+215
+00:06:35,670 --> 00:06:37,870
+Within front-end development, we can further categorize it into
+
+216
+00:06:37,870 --> 00:06:39,470
+For example, if I'm on the app side,
+
+217
+00:06:39,470 --> 00:06:41,940
+It can also be divided into iOS development and Android development.
+
+218
+00:06:41,940 --> 00:06:43,400
+These are two different people.
+
+219
+00:06:43,400 --> 00:06:47,800
+At the same time, a decision must be made on whether to use native development or H5 development.
+
+220
+00:06:47,800 --> 00:06:50,100
+Let the front-end development team make this decision.
+
+221
+00:06:50,100 --> 00:06:52,120
+If using H5 pages for development,
+
+222
+00:06:52,120 --> 00:06:56,060
+Just one developer needs to do it once for both iOS and Android to enable reuse.
+
+223
+00:06:56,060 --> 00:06:57,460
+If it's native development
+
+224
+00:06:57,460 --> 00:06:59,340
+Both engineers will have workload
+
+225
+00:06:59,340 --> 00:07:01,140
+and also the development of mini programs
+
+226
+00:07:01,140 --> 00:07:02,680
+as well as web development
+
+227
+00:07:02,680 --> 00:07:05,040
+because we will log in to the backend to see some systems
+
+228
+00:07:05,040 --> 00:07:09,919
+All these stages related to the front-end pages are handled by engineers.
+
+229
+00:07:09,919 --> 00:07:11,759
+As for the backend development engineers
+
+230
+00:07:11,759 --> 00:07:13,819
+For example, we often mention Java development.
+
+231
+00:07:13,819 --> 00:07:17,039
+and also involves C++ development
+
+232
+00:07:17,039 --> 00:07:18,050
+Philippines development
+
+233
+00:07:18,050 --> 00:07:20,830
+These are related to backend development.
+
+234
+00:07:20,830 --> 00:07:24,130
+Backend development is primarily responsible for our database
+
+235
+00:07:24,130 --> 00:07:26,400
+and is responsible for API interfaces, among other things
+
+236
+00:07:26,400 --> 00:07:28,360
+If there is an abnormality in the data,
+
+237
+00:07:28,360 --> 00:07:30,460
+At that time, ask the backend developer to take a look
+
+238
+00:07:30,460 --> 00:07:32,220
+Basically, the issue lies here.
+
+239
+00:07:32,220 --> 00:07:33,580
+That is front-end and back-end development
+
+240
+00:07:33,580 --> 00:07:36,580
+If I encounter any issues during testing and verification
+
+241
+00:07:36,580 --> 00:07:37,860
+You should first check with the frontend.
+
+242
+00:07:37,860 --> 00:07:40,460
+Let the front-end determine whether it's their issue or the back-end's problem.
+
+243
+00:07:40,460 --> 00:07:41,900
+let him handle the resolution
+
+244
+00:07:41,900 --> 00:07:45,180
+These are our development engineers, generally mainstream now
+
+245
+00:07:45,180 --> 00:07:48,080
+Currently, backend development is primarily done using Java.
+
+246
+00:07:48,080 --> 00:07:50,120
+Databases are often asked about during interviews.
+
+247
+00:07:50,120 --> 00:07:52,450
+Generally, companies use either MYSQL or Oracle.
+
+248
+00:07:52,450 --> 00:07:56,500
+For medium and small companies, using MYSQL is sufficient.
+
+249
+00:07:56,500 --> 00:08:00,780
+In large companies or industries like banking, Oracle is more commonly used.
+
+250
+00:08:00,780 --> 00:08:02,800
+All the data is stored in the database
+
+251
+00:08:02,800 --> 00:08:04,160
+On the interface
+
+252
+00:08:04,160 --> 00:08:05,440
+it will be displayed later
+
+253
+00:08:05,440 --> 00:08:07,180
+If the data is not stored in the database
+
+254
+00:08:07,180 --> 00:08:09,260
+It won't be displayed later.
+
+255
+00:08:09,260 --> 00:08:11,860
+Then for things like GitHub, it's for the developers
+
+256
+00:08:11,860 --> 00:08:14,880
+The product side doesn't need to worry about submitting the code here
+
+257
+00:08:14,880 --> 00:08:16,760
+The development team will handle their own tasks.
+
+258
+00:08:16,760 --> 00:08:18,580
+Is there a need for web scraping?
+
+259
+00:08:18,580 --> 00:08:21,320
+For example, now I want to look at recruitment data
+
+260
+00:08:21,320 --> 00:08:23,460
+Then I'll write a script to crawl the data
+
+261
+00:08:23,460 --> 00:08:24,980
+
+
+262
+00:08:24,980 --> 00:08:26,540
+or use other Java development
+
+263
+00:08:26,540 --> 00:08:29,100
+can also write such scripts for implementation
+
+264
+00:08:29,100 --> 00:08:31,100
+This is a piece of data crawled by a web scraper.
+
+265
+00:08:31,100 --> 00:08:34,020
+It crawls data from other websites that I want.
+
+266
+00:08:34,020 --> 00:08:36,840
+A script can be simply understood as code.
+
+267
+00:08:36,840 --> 00:08:38,400
+Then, all processes,
+
+268
+00:08:38,400 --> 00:08:38,840
+cookies
+
+269
+00:08:38,840 --> 00:08:39,440
+UIL
+
+270
+00:08:39,440 --> 00:08:41,960
+This requires only a basic understanding and does not need to be mastered.
+
+271
+00:08:41,960 --> 00:08:45,310
+Most importantly, we will cover the adaptation involved.
+
+272
+00:08:45,310 --> 00:08:46,870
+Because during the entire adaptation process
+
+273
+00:08:46,870 --> 00:08:48,470
+For example, in the PC client scenario
+
+274
+00:08:48,470 --> 00:08:49,610
+I am using Firefox
+
+275
+00:08:49,610 --> 00:08:50,550
+I'm using Google Chrome
+
+276
+00:08:50,550 --> 00:08:52,000
+I'm using IE browser
+
+277
+00:08:52,000 --> 00:08:55,400
+Some students will find that the font is squeezed when using it.
+
+278
+00:08:55,400 --> 00:08:56,460
+Why is this line wrapping?
+
+279
+00:08:56,460 --> 00:08:58,260
+This is because there is no front-end development
+
+280
+00:08:58,260 --> 00:08:59,680
+did not handle the adaptation for this part
+
+281
+00:08:59,680 --> 00:09:02,819
+You can request which aspects of the PC version need to be adapted.
+
+282
+00:09:02,819 --> 00:09:04,579
+Then what about the app side?
+
+283
+00:09:04,579 --> 00:09:05,819
+all the testing
+
+284
+00:09:05,819 --> 00:09:06,619
+test to test
+
+285
+00:09:06,619 --> 00:09:10,440
+For example, I need to adapt to iPhone 16 and above, iPhone 15,
+
+286
+00:09:10,440 --> 00:09:11,040
+iPhone14
+
+287
+00:09:11,040 --> 00:09:12,160
+I won't adapt it any further down
+
+288
+00:09:12,160 --> 00:09:13,640
+If you encounter issues, I won't take care of it
+
+289
+00:09:13,640 --> 00:09:16,840
+The testing team involved will then proceed to list them out.
+
+290
+00:09:16,840 --> 00:09:18,590
+Which ones do I need to adapt to?
+
+291
+00:09:18,590 --> 00:09:21,210
+At that time, testing will need to cover different versions.
+
+292
+00:09:21,210 --> 00:09:22,650
+For example, I need to test iPhone 16
+
+293
+00:09:22,650 --> 00:09:24,110
+If I need to adapt to iPhone 14
+
+294
+00:09:24,110 --> 00:09:26,190
+I need to test versions like iPhone 14
+
+295
+00:09:26,190 --> 00:09:27,320
+That's what we call adaptation
+
+296
+00:09:27,320 --> 00:09:28,640
+I need to go through the different versions
+
+297
+00:09:28,640 --> 00:09:30,040
+test across different terminals
+
+298
+00:09:30,040 --> 00:09:31,520
+Don't worry about packet loss
+
+299
+00:09:31,520 --> 00:09:33,280
+Let the tech team test and solve the problem.
+
+300
+00:09:33,280 --> 00:09:34,320
+some data was lost
+
+301
+00:09:34,320 --> 00:09:35,920
+Then he can print the logs later.
+
+302
+00:09:35,920 --> 00:09:39,520
+or implement other technical testing solutions to resolve the issue
+
+303
+00:09:39,520 --> 00:09:41,240
+Concurrency is often heard about concurrency
+
+304
+00:09:41,240 --> 00:09:42,860
+What does it simply mean?
+
+305
+00:09:42,860 --> 00:09:44,920
+For example, when I place an order on Taobao
+
+306
+00:09:44,920 --> 00:09:47,480
+when 1000 people place orders at the same second
+
+307
+00:09:47,480 --> 00:09:48,720
+or 10,000 people can place orders
+
+308
+00:09:48,720 --> 00:09:50,360
+or 500,000 people can place an order
+
+309
+00:09:50,360 --> 00:09:52,390
+This involves concurrency
+
+310
+00:09:52,390 --> 00:09:53,710
+If your concurrency is low
+
+311
+00:09:53,710 --> 00:09:55,230
+you'll find what happens
+
+312
+00:09:55,230 --> 00:09:56,290
+the server crashes
+
+313
+00:09:56,290 --> 00:09:57,230
+will directly pop up
+
+314
+00:09:57,230 --> 00:09:58,990
+System busy or server crash
+
+315
+00:09:58,990 --> 00:10:02,470
+So, concurrency optimization isn't something backend development can instantly resolve.
+
+316
+00:10:02,470 --> 00:10:05,300
+He will gradually implement technical optimization solutions.
+
+317
+00:10:05,300 --> 00:10:07,020
+Generally, developers would ask,
+
+318
+00:10:07,020 --> 00:10:09,160
+So roughly how many members does your product have?
+
+319
+00:10:09,160 --> 00:10:11,040
+How many orders do you have per day?
+
+320
+00:10:11,040 --> 00:10:15,320
+It will design the development of its technical performance based on such data.
+
+321
+00:10:15,320 --> 00:10:17,180
+He has his own experience to proceed.
+
+322
+00:10:17,180 --> 00:10:19,280
+What about MQ and API interfaces
+
+323
+00:10:19,280 --> 00:10:21,100
+I must master this, let me explain
+
+324
+00:10:21,100 --> 00:10:22,700
+Let me talk about the interface
+
+325
+00:10:22,700 --> 00:10:24,660
+The main mainstream ones are API interfaces
+
+326
+00:10:24,660 --> 00:10:26,620
+MQ API interface SDK
+
+327
+00:10:26,620 --> 00:10:28,840
+So first, let's talk about the API interface
+
+328
+00:10:28,840 --> 00:10:31,540
+as displayed on all my interfaces
+
+329
+00:10:31,540 --> 00:10:33,760
+For example, the app used by my product
+
+330
+00:10:33,760 --> 00:10:34,980
+or a mini-program
+
+331
+00:10:34,980 --> 00:10:37,680
+or when I use the OA system to clock in
+
+332
+00:10:37,680 --> 00:10:44,440
+All the data presented on these interfaces is because the front-end development engineers called
+
+333
+00:10:44,440 --> 00:10:47,080
+API interface provided by backend engineers
+
+334
+00:10:47,080 --> 00:10:48,260
+the flow of data
+
+335
+00:10:48,260 --> 00:10:49,880
+Why can I have this data
+
+336
+00:10:49,880 --> 00:10:51,060
+as long as it's not hardcoded
+
+337
+00:10:51,060 --> 00:10:54,320
+Basically, anything displayed at the frontend layer needs to call an interface.
+
+338
+00:10:54,320 --> 00:10:57,000
+These are the interfaces involved in the API
+
+339
+00:10:57,000 --> 00:11:00,620
+The front-end developers will call the API interfaces provided by the back-end developers.
+
+340
+00:11:00,620 --> 00:11:04,680
+At the same time, back-end development engineers will also call other back-end development engineers
+
+341
+00:11:04,680 --> 00:11:06,060
+For example, on the order side
+
+342
+00:11:06,060 --> 00:11:08,220
+I am a backend developer for the order system
+
+343
+00:11:08,220 --> 00:11:11,400
+but I need to send this order to WMS
+
+344
+00:11:11,400 --> 00:11:13,270
+let the WMS system handle the shipping
+
+345
+00:11:13,270 --> 00:11:14,350
+after the shipment is completed
+
+346
+00:11:14,350 --> 00:11:17,190
+WMS then sends the shipping result back to inform me
+
+347
+00:11:17,190 --> 00:11:22,640
+Therefore, the backend development of the order system and the backend development of WMS call the API interface again
+
+348
+00:11:22,640 --> 00:11:24,290
+pass this shipping order out
+
+349
+00:11:24,290 --> 00:11:27,230
+Only after the delivery order is completed will the delivery result be given to me.
+
+350
+00:11:27,230 --> 00:11:30,490
+Then this part is the system flow I have
+
+351
+00:11:30,490 --> 00:11:31,490
+First, the system flowchart
+
+352
+00:11:31,490 --> 00:11:32,820
+First, draw the system flowchart
+
+353
+00:11:32,820 --> 00:11:33,780
+Once it's drawn
+
+354
+00:11:33,780 --> 00:11:37,180
+The API interface list reveals the three main components of the product manual.
+
+355
+00:11:37,180 --> 00:11:38,200
+a system flowchart
+
+356
+00:11:38,200 --> 00:11:39,980
+an API call list
+
+357
+00:11:39,980 --> 00:11:42,480
+an input and output of Chinese character fields
+
+358
+00:11:42,480 --> 00:11:44,140
+This is the flow of data between them.
+
+359
+00:11:44,140 --> 00:11:45,620
+Because the systems are independent of each other
+
+360
+00:11:45,620 --> 00:11:48,120
+For example, my order system has a database
+
+361
+00:11:48,120 --> 00:11:49,880
+At that time, I purchased it from an external vendor.
+
+362
+00:11:49,880 --> 00:11:51,320
+So how do I pass the data down
+
+363
+00:11:51,320 --> 00:11:52,920
+How does it know to send this order
+
+364
+00:11:52,920 --> 00:11:55,720
+it is the API interface that facilitates the transmission during this process
+
+365
+00:11:55,720 --> 00:11:58,040
+We will share this later on.
+
+366
+00:11:58,040 --> 00:12:00,290
+Everyone should be aware that such a thing exists
+
+367
+00:12:00,290 --> 00:12:01,610
+In the API interface
+
+368
+00:12:01,610 --> 00:12:03,250
+we will encounter one thing
+
+369
+00:12:03,250 --> 00:12:05,340
+What R&D often refers to is
+
+370
+00:12:05,340 --> 00:12:07,120
+synchronous or asynchronous
+
+371
+00:12:07,120 --> 00:12:08,660
+So what is synchronization
+
+372
+00:12:08,660 --> 00:12:10,319
+What is asynchronous?
+
+373
+00:12:10,319 --> 00:12:13,039
+Synchronization means real-time results can be provided.
+
+374
+00:12:13,039 --> 00:12:15,959
+Asynchronous means I can't give you the result in real time right now.
+
+375
+00:12:15,959 --> 00:12:20,940
+For example, I'm now checking the list of redeemable products in the points mall.
+
+376
+00:12:20,940 --> 00:12:23,000
+As a user, I definitely need the data.
+
+377
+00:12:23,000 --> 00:12:24,560
+so here it's synchronized for you
+
+378
+00:12:24,560 --> 00:12:25,380
+You've synchronized me
+
+379
+00:12:25,380 --> 00:12:27,560
+If I synchronize, I will tell you what data I have.
+
+380
+00:12:27,560 --> 00:12:28,960
+So what does asynchronous mean?
+
+381
+00:12:28,960 --> 00:12:31,840
+Asynchrony means, for example, an order instructing WMS to handle shipping.
+
+382
+00:12:31,840 --> 00:12:33,200
+WMS can only tell you
+
+383
+00:12:33,200 --> 00:12:34,080
+in this step
+
+384
+00:12:34,080 --> 00:12:36,640
+It can only tell you whether the reception was successful or failed.
+
+385
+00:12:36,640 --> 00:12:38,520
+I cannot tell you immediately
+
+386
+00:12:38,520 --> 00:12:40,040
+how many pieces of product A have been shipped now
+
+387
+00:12:40,040 --> 00:12:41,160
+how many units of product B have been shipped
+
+388
+00:12:41,160 --> 00:12:45,180
+because my warehouse staff still need to go through a series of steps such as inspection
+
+389
+00:12:45,180 --> 00:12:47,480
+I still need to work for two to eight hours
+
+390
+00:12:47,480 --> 00:12:49,400
+After I finish shipping,
+
+391
+00:12:49,400 --> 00:12:51,150
+I will inform you of the shipping result
+
+392
+00:12:51,150 --> 00:12:53,230
+So in this process
+
+393
+00:12:53,230 --> 00:12:53,990
+we call it asynchronous
+
+394
+00:12:53,990 --> 00:12:56,530
+which means I cannot inform you of the three-dimensional result in real time
+
+395
+00:12:56,530 --> 00:13:00,100
+In asynchronous processing, we need to add another set of interfaces for connection.
+
+396
+00:13:00,100 --> 00:13:01,760
+an additional interface for connection
+
+397
+00:13:01,760 --> 00:13:03,600
+there is additional development workload involved
+
+398
+00:13:03,600 --> 00:13:05,920
+This is what we coordinate with the API interface
+
+399
+00:13:05,920 --> 00:13:07,960
+the involved extended synchronous asynchronous
+
+400
+00:13:07,960 --> 00:13:10,520
+Then the interface can be better understood
+
+401
+00:13:10,520 --> 00:13:14,380
+All corporate open platforms involve such interfaces.
+
+402
+00:13:14,380 --> 00:13:15,980
+For example, what we currently correspond to
+
+403
+00:13:15,980 --> 00:13:16,940
+Let me give you an example
+
+404
+00:13:16,940 --> 00:13:17,960
+For example, WeChat Pay
+
+405
+00:13:17,960 --> 00:13:19,920
+In the WeChat Pay open platform
+
+406
+00:13:19,920 --> 00:13:20,640
+Vipshop
+
+407
+00:13:20,640 --> 00:13:21,400
+Taobao, JD.com, etc.
+
+408
+00:13:21,400 --> 00:13:23,210
+all have that API interface
+
+409
+00:13:23,210 --> 00:13:24,210
+Then in this case
+
+410
+00:13:24,210 --> 00:13:26,930
+For example, within the API interface involved at this point
+
+411
+00:13:26,930 --> 00:13:28,290
+invoke the mini-program to place an order
+
+412
+00:13:28,290 --> 00:13:29,990
+This is the API interface
+
+413
+00:13:29,990 --> 00:13:31,570
+all the call addresses
+
+414
+00:13:31,570 --> 00:13:34,520
+This is managed by backend development and has little to do with the product.
+
+415
+00:13:34,520 --> 00:13:36,780
+Application scenarios for Chinese fields
+
+416
+00:13:36,780 --> 00:13:39,160
+Then these signatures don't need to be managed by the product team.
+
+417
+00:13:39,160 --> 00:13:40,480
+Just ignore the English part
+
+418
+00:13:40,480 --> 00:13:42,720
+Refer to the Chinese section for the app ID
+
+419
+00:13:42,720 --> 00:13:44,990
+Then which receiving account do you want to enter
+
+420
+00:13:44,990 --> 00:13:46,550
+Which product are you referring to?
+
+421
+00:13:46,550 --> 00:13:48,030
+What is your order number?
+
+422
+00:13:48,030 --> 00:13:50,710
+My own payment system needs to be transmitted to theirs.
+
+423
+00:13:50,710 --> 00:13:52,670
+corresponding WeChat involved in this
+
+424
+00:13:52,670 --> 00:13:53,790
+Then in WeChat,
+
+425
+00:13:53,790 --> 00:13:54,420
+after the deduction is completed
+
+426
+00:13:54,420 --> 00:13:55,460
+he needs to convey the result
+
+427
+00:13:55,460 --> 00:13:57,400
+I either initiate an active query from the payment system
+
+428
+00:13:57,400 --> 00:13:59,000
+Either he will notify asynchronously
+
+429
+00:13:59,000 --> 00:13:59,360
+inform me
+
+430
+00:13:59,360 --> 00:14:00,160
+The payment has been deducted.
+
+431
+00:14:00,160 --> 00:14:01,020
+Payment successful
+
+432
+00:14:01,020 --> 00:14:03,760
+This is the API interface product involved.
+
+433
+00:14:03,760 --> 00:14:05,190
+Just look at the Chinese fields.
+
+434
+00:14:05,190 --> 00:14:07,910
+Just look at the Chinese fields involved in this
+
+435
+00:14:07,910 --> 00:14:11,370
+I need to know which collection company I'm actually dealing with
+
+436
+00:14:11,370 --> 00:14:12,430
+for example, I need to call WeChat
+
+437
+00:14:12,430 --> 00:14:14,430
+In WeChat, it asks me to enter the order number
+
+438
+00:14:14,430 --> 00:14:17,170
+What I should enter is the order number from my OMS
+
+439
+00:14:17,170 --> 00:14:19,460
+or do I enter the payment order number from the payment system
+
+440
+00:14:19,460 --> 00:14:21,340
+An order can be paid multiple times
+
+441
+00:14:21,340 --> 00:14:22,540
+For example, this time I initiated
+
+442
+00:14:22,540 --> 00:14:23,320
+I didn't pay successfully
+
+443
+00:14:23,320 --> 00:14:24,420
+then I initiate it again next time
+
+444
+00:14:24,420 --> 00:14:25,540
+I need to proceed with the payment
+
+445
+00:14:25,540 --> 00:14:26,970
+That means two payment order numbers
+
+446
+00:14:26,970 --> 00:14:28,910
+So which order number did I actually submit?
+
+447
+00:14:28,910 --> 00:14:32,700
+This product test needs to understand these other English fields
+
+448
+00:14:32,700 --> 00:14:34,300
+None of these need to be managed
+
+449
+00:14:34,300 --> 00:14:36,120
+This is a Chinese input.
+
+450
+00:14:36,120 --> 00:14:38,819
+Later on, it will involve the output
+
+451
+00:14:38,819 --> 00:14:40,899
+Here are the relevant response parameters involved
+
+452
+00:14:40,899 --> 00:14:41,979
+that is the output
+
+453
+00:14:41,979 --> 00:14:45,540
+It plays a role in pre-differentiation identification with the drawing identifier
+
+454
+00:14:45,540 --> 00:14:48,640
+This field will definitely be used in the next scenario.
+
+455
+00:14:48,640 --> 00:14:50,500
+Let's take a look
+
+456
+00:14:51,790 --> 00:14:54,330
+Here you need to obtain this parameter
+
+457
+00:14:54,330 --> 00:14:56,670
+then send this parameter to them in the input
+
+458
+00:14:56,670 --> 00:15:00,060
+only then can you initiate the payment in this interlinked process to proceed
+
+459
+00:15:00,060 --> 00:15:01,640
+This is the API interface test
+
+460
+00:15:01,640 --> 00:15:04,860
+Functionally similar to API interfaces is MQ
+
+461
+00:15:04,860 --> 00:15:05,560
+As for MQ
+
+462
+00:15:05,560 --> 00:15:09,740
+In fact, you can understand it as a form of message transmission between different systems.
+
+463
+00:15:09,740 --> 00:15:11,100
+But for API interfaces,
+
+464
+00:15:11,100 --> 00:15:12,620
+in a real-time scenario of mine
+
+465
+00:15:12,620 --> 00:15:13,980
+just use the API interface
+
+466
+00:15:13,980 --> 00:15:15,320
+in non-real-time scenarios
+
+467
+00:15:15,320 --> 00:15:17,760
+and they are all our company's systems
+
+468
+00:15:17,760 --> 00:15:20,060
+For example, the order system OMS is our company's
+
+469
+00:15:20,060 --> 00:15:21,220
+the inventory system is ours
+
+470
+00:15:21,220 --> 00:15:22,980
+Then, the financial system is ours.
+
+471
+00:15:22,980 --> 00:15:26,020
+At this point, we can use MQ to send a notification message
+
+472
+00:15:26,020 --> 00:15:27,920
+This is a technical design
+
+473
+00:15:27,920 --> 00:15:29,280
+I can do it asynchronously
+
+474
+00:15:29,280 --> 00:15:30,640
+For example, after I ship the order
+
+475
+00:15:30,640 --> 00:15:32,040
+I don't need to notify the finance department in real-time
+
+476
+00:15:32,040 --> 00:15:34,820
+For finance, it's sufficient to fetch the data every 15 minutes.
+
+477
+00:15:34,820 --> 00:15:36,100
+Then you can also send MQ
+
+478
+00:15:36,100 --> 00:15:38,340
+This is something designed at the backend development technical level.
+
+479
+00:15:38,340 --> 00:15:39,680
+The product layer does not need to be managed
+
+480
+00:15:39,680 --> 00:15:43,770
+But on the product side, you just need to clarify whether you want real-time or non-real-time and things like that.
+
+481
+00:15:43,770 --> 00:15:45,570
+The fields were just mentioned earlier
+
+482
+00:15:45,570 --> 00:15:48,450
+Just now, we showed you the display on the PC end and the mobile end.
+
+483
+00:15:48,450 --> 00:15:51,240
+What is that SDDK thing about?
+
+484
+00:15:51,240 --> 00:15:54,140
+Regarding the SDK, it can be simply understood as
+
+485
+00:15:54,140 --> 00:15:56,110
+For example, I am currently a financial institution
+
+486
+00:15:56,110 --> 00:15:58,850
+I need to verify that it's you performing the operation
+
+487
+00:15:58,850 --> 00:16:00,230
+so I will use facial recognition
+
+488
+00:16:00,230 --> 00:16:02,670
+However, our company does not have the technology for facial recognition.
+
+489
+00:16:02,670 --> 00:16:06,360
+because our company does not have algorithm engineers to handle the facial recognition aspect
+
+490
+00:16:06,360 --> 00:16:08,980
+So I would outsource to third-party companies
+
+491
+00:16:08,980 --> 00:16:12,940
+Then they will encapsulate their code and packaged pages into RSDQ
+
+492
+00:16:12,940 --> 00:16:14,700
+It's actually equivalent to this part of my work
+
+493
+00:16:14,700 --> 00:16:16,900
+used someone else's code and pages for that part
+
+494
+00:16:16,900 --> 00:16:20,500
+but I integrated it within our company's system for users to use together
+
+495
+00:16:20,500 --> 00:16:22,000
+Users are unaware of this.
+
+496
+00:16:22,000 --> 00:16:23,120
+Generally, when developing games
+
+497
+00:16:23,120 --> 00:16:24,320
+or use buy point statistics
+
+498
+00:16:24,320 --> 00:16:27,600
+or when using specific functions such as facial recognition, etc.
+
+499
+00:16:27,600 --> 00:16:29,840
+We will use the SDK in this form
+
+500
+00:16:29,840 --> 00:16:31,970
+This is also a front-end development engineer
+
+501
+00:16:31,970 --> 00:16:32,850
+such as Android
+
+502
+00:16:32,850 --> 00:16:34,370
+development engineers such as iOS
+
+503
+00:16:34,370 --> 00:16:37,500
+It doesn't have much to do with product testing.
+
+504
+00:16:37,500 --> 00:16:38,860
+synchronous/asynchronous processing
+
+505
+00:16:38,860 --> 00:16:40,260
+It has just been explained
+
+506
+00:16:40,260 --> 00:16:41,500
+After the state machine,
+
+507
+00:16:41,500 --> 00:16:43,100
+Product managers need to design the state of the status
+
+508
+00:16:43,100 --> 00:16:47,040
+Throughout the entire process, we proceed based on the status of Me orders.
+
+509
+00:16:47,040 --> 00:16:49,740
+It's completely fine to design how each step state should be handled.
+
+510
+00:16:49,740 --> 00:16:53,420
+The technical team will follow a technical state machine.
+
+511
+00:16:53,420 --> 00:16:56,220
+The product can be designed according to our business flow chart or system flow chart.
+
+512
+00:16:56,220 --> 00:16:56,860
+That's fine
+
+513
+00:16:56,860 --> 00:16:58,980
+The system is a product developed by the backend.
+
+514
+00:16:58,980 --> 00:17:00,380
+no need to pay attention to
+
+515
+00:17:00,380 --> 00:17:04,700
+It essentially involves determining when to call interfaces and whether to use synchronous or asynchronous calls.
+
+516
+00:17:04,700 --> 00:17:06,980
+Then, as for what data should be stored in the dB database
+
+517
+00:17:06,980 --> 00:17:08,660
+It has been further refined.
+
+518
+00:17:08,660 --> 00:17:09,760
+This is the sequence diagram
+
+519
+00:17:09,760 --> 00:17:12,700
+The backend developers create their own technical designs,
+
+520
+00:17:12,700 --> 00:17:15,220
+Because backend development in large and medium-sized companies is also quite standardized.
+
+521
+00:17:15,220 --> 00:17:16,540
+He is conducting technical design himself.
+
+522
+00:17:16,540 --> 00:17:17,480
+he proceeds with it
+
+523
+00:17:17,480 --> 00:17:19,680
+Let me briefly mention these high-frequency terms
+
+524
+00:17:19,680 --> 00:17:21,170
+logical deletion and physical deletion
+
+525
+00:17:21,170 --> 00:17:25,609
+Generally, for self-operated companies, we should try to avoid placing delete functions on the interface.
+
+526
+00:17:25,609 --> 00:17:27,329
+For example, if I delete this product
+
+527
+00:17:27,329 --> 00:17:30,640
+but the order system or financial system has read this part of the data
+
+528
+00:17:30,640 --> 00:17:32,000
+I need this part of the data
+
+529
+00:17:32,000 --> 00:17:35,840
+Generally, self-operated companies do not allow the deletion of SARS, as we utilize some systems from others.
+
+530
+00:17:35,840 --> 00:17:38,500
+SARS-enabled enterprises can allow deletion for small and medium tenants
+
+531
+00:17:38,500 --> 00:17:39,580
+If you delete it
+
+532
+00:17:39,580 --> 00:17:41,580
+because it won't be involved
+
+533
+00:17:41,580 --> 00:17:43,300
+some things like databases
+
+534
+00:17:43,300 --> 00:17:45,340
+Let's move on to the next part then
+
+535
+00:17:45,340 --> 00:17:47,200
+Logical deletion means the data is not removed from the database
+
+536
+00:17:47,200 --> 00:17:48,380
+only the page is gone
+
+537
+00:17:48,380 --> 00:17:50,820
+Physical deletion means both your database and the page are deleted.
+
+538
+00:17:50,820 --> 00:17:52,300
+Generally, logical deletion is used.
+
+539
+00:17:52,300 --> 00:17:54,440
+Don't go for that physical deletion.
+
+540
+00:17:54,440 --> 00:17:57,440
+The chain is essentially the relationship between API interfaces
+
+541
+00:17:57,440 --> 00:17:58,840
+that is, between my interfaces
+
+542
+00:17:58,840 --> 00:18:00,160
+For example, when I navigate to this page
+
+543
+00:18:00,160 --> 00:18:03,150
+I need to view the data of the Points Mall List A.
+
+544
+00:18:03,150 --> 00:18:04,750
+The front end calls the back end interface
+
+545
+00:18:04,750 --> 00:18:07,770
+This process is called joint debugging, joint debugging, ah
+
+546
+00:18:07,770 --> 00:18:10,470
+Only after the joint debugging is passed can we proceed to the test submission.
+
+547
+00:18:10,470 --> 00:18:16,470
+Submitting for testing means developers submit the code from the development environment to the testing environment for execution.
+
+548
+00:18:16,470 --> 00:18:16,800
+go
+
+549
+00:18:16,800 --> 00:18:17,520
+launched
+
+550
+00:18:17,520 --> 00:18:22,490
+is when the development team releases all the code for this phase to the production environment to proceed.
+
+551
+00:18:22,490 --> 00:18:25,090
+Mock is often referred to as falsifying data
+
+552
+00:18:25,090 --> 00:18:26,050
+Because sometimes
+
+553
+00:18:26,050 --> 00:18:28,610
+For example, I need to debug the WMS-related
+
+554
+00:18:28,610 --> 00:18:31,920
+Integrating with the externally purchased WMSWM4, they said they don't have time to accompany you
+
+555
+00:18:31,920 --> 00:18:32,760
+go through the chain with you
+
+556
+00:18:32,760 --> 00:18:33,640
+You fabricate the data yourself
+
+557
+00:18:33,640 --> 00:18:34,700
+You mock it yourself
+
+558
+00:18:34,700 --> 00:18:35,940
+This is called falsifying data
+
+559
+00:18:35,940 --> 00:18:39,980
+For falsifying data, we can ask the testing or development team to handle it for us.
+
+560
+00:18:39,980 --> 00:18:41,060
+As for data fabrication,
+
+561
+00:18:41,060 --> 00:18:43,540
+Generally speaking, for example, I currently have historical data
+
+562
+00:18:43,540 --> 00:18:46,300
+I originally used the AA system for what was involved.
+
+563
+00:18:46,300 --> 00:18:47,560
+Now I've switched to System B
+
+564
+00:18:47,560 --> 00:18:49,280
+and then I imported the historical data
+
+565
+00:18:49,280 --> 00:18:50,920
+Or there's a bug in my system right now
+
+566
+00:18:50,920 --> 00:18:53,220
+For example, it's clear that my order has been created
+
+567
+00:18:53,220 --> 00:18:54,720
+then it is in the completed status
+
+568
+00:18:54,720 --> 00:18:56,800
+but now my system only shows 'pending payment'
+
+569
+00:18:56,800 --> 00:18:58,600
+then I would communicate with the backend developer
+
+570
+00:18:58,600 --> 00:19:00,660
+You need to mark this order as completed
+
+571
+00:19:00,660 --> 00:19:02,520
+Then this is called data download
+
+572
+00:19:02,520 --> 00:19:03,400
+Don't worry about the download
+
+573
+00:19:03,400 --> 00:19:04,560
+Just clear it later.
+
+574
+00:19:04,560 --> 00:19:06,620
+Just search on Baidu how to clear the download.
+
+575
+00:19:06,620 --> 00:19:11,130
+Then perform packet capturing to capture all the involved tests for observation
+
+576
+00:19:11,130 --> 00:19:13,810
+Because the main thing about packet capture is the packet capture tool.
+
+577
+00:19:13,810 --> 00:19:17,840
+Or use packet capture to check which interfaces are being called and which ones are not cached.
+
+578
+00:19:17,840 --> 00:19:20,040
+or if there is an issue with the interface response
+
+579
+00:19:20,040 --> 00:19:21,660
+Use packet capture tools for testing
+
+580
+00:19:21,660 --> 00:19:23,330
+find a tester
+
+581
+00:19:23,330 --> 00:19:24,490
+Generally, in most companies,
+
+582
+00:19:24,490 --> 00:19:26,090
+Testing typically involves packet capture.
+
+583
+00:19:26,090 --> 00:19:27,580
+This is a term from the R&D side.
+
+584
+00:19:27,580 --> 00:19:29,720
+must be mastered
+
+585
+00:19:29,720 --> 00:19:33,380
+Because the time spent collaborating with development and testing teams in the company is very long.
+
+586
+00:19:33,380 --> 00:19:35,120
+Then, as for the entire project management,
+
+587
+00:19:35,120 --> 00:19:36,880
+Because we will use some project tools
+
+588
+00:19:36,880 --> 00:19:38,660
+or what we often refer to as scheduling
+
+589
+00:19:38,660 --> 00:19:39,580
+What is scheduling
+
+590
+00:19:39,580 --> 00:19:40,220
+whoever is responsible for the work
+
+591
+00:19:40,220 --> 00:19:40,980
+who schedules
+
+592
+00:19:40,980 --> 00:19:43,020
+For example, the frontend and backend are working
+
+593
+00:19:43,020 --> 00:19:46,300
+Then the front-end and back-end just need to provide the date for submitting the test.
+
+594
+00:19:46,300 --> 00:19:48,140
+Then the testing team needs to perform the acceptance testing.
+
+595
+00:19:48,140 --> 00:19:50,060
+Just give the testing team the full time they need for testing.
+
+596
+00:19:50,060 --> 00:19:52,040
+The product team reserves half a day for acceptance testing
+
+597
+00:19:52,040 --> 00:19:52,920
+go live
+
+598
+00:19:52,920 --> 00:19:55,240
+So-called delays or milestones
+
+599
+00:19:55,240 --> 00:19:56,340
+that is, when I transfer it for testing
+
+600
+00:19:56,340 --> 00:19:57,720
+when the testing is completed
+
+601
+00:19:57,720 --> 00:19:58,950
+This is called a milestone.
+
+602
+00:19:58,950 --> 00:20:00,950
+or the first week we are involved in
+
+603
+00:20:00,950 --> 00:20:03,730
+I will complete the development and testing of the order placement process.
+
+604
+00:20:03,730 --> 00:20:04,940
+This is called a milestone.
+
+605
+00:20:04,940 --> 00:20:05,420
+Deadline
+
+606
+00:20:05,420 --> 00:20:06,900
+We generally refer to it as the launch time
+
+607
+00:20:06,900 --> 00:20:09,340
+For example, the business side says our deadline is August 30th.
+
+608
+00:20:09,340 --> 00:20:13,440
+which roughly means the product needs to go live by August 30th, '点内' refers to a delay, and 'cover' means whether it can be handled or resolved.
+
+609
+00:20:13,440 --> 00:20:14,460
+whether it is covered
+
+610
+00:20:14,460 --> 00:20:16,530
+or can you handle this matter
+
+611
+00:20:16,530 --> 00:20:18,210
+As for iteration, in terms of product testing,
+
+612
+00:20:18,210 --> 00:20:19,650
+Each phase is iterated upon.
+
+613
+00:20:19,650 --> 00:20:21,890
+This is the project management we are involved in.
+
+614
+00:20:21,890 --> 00:20:25,050
+some commonly mentioned ones like SCM agile development
+
+615
+00:20:25,050 --> 00:20:26,150
+Just get a general idea.
+
+616
+00:20:26,150 --> 00:20:28,910
+In the company, it basically manifests as
+
+617
+00:20:28,910 --> 00:20:32,040
+So we usually hold it either in the evening or in the morning every day.
+
+618
+00:20:32,040 --> 00:20:33,620
+Then first, each member will take turns to share
+
+619
+00:20:33,620 --> 00:20:35,000
+talk about what I did yesterday
+
+620
+00:20:35,000 --> 00:20:35,800
+What am I going to do today
+
+621
+00:20:35,800 --> 00:20:38,520
+Today, what kind of blockers do I have that need to be coordinated?
+
+622
+00:20:38,520 --> 00:20:41,880
+Basically, this form of daily stand-up meeting can solve it.
+
+623
+00:20:41,880 --> 00:20:44,590
+In the company, release notes are the release announcements
+
+624
+00:20:44,590 --> 00:20:45,830
+What content have you released?
+
+625
+00:20:45,830 --> 00:20:47,110
+What are the release points and so on
+
+626
+00:20:47,110 --> 00:20:50,160
+There will be a template for the release notes to provide to everyone at that time.
+
+627
+00:20:50,160 --> 00:20:51,280
+As for the UI design,
+
+628
+00:20:51,280 --> 00:20:52,500
+All font color codes
+
+629
+00:20:52,500 --> 00:20:54,660
+Textures and other elements can be handled by the UI team.
+
+630
+00:20:54,660 --> 00:20:58,639
+Today, we'll focus more on topics related to the system.
+
+631
+00:20:58,639 --> 00:21:00,339
+closely related to your onboarding
+
+632
+00:21:00,339 --> 00:21:03,759
+and what YP system is often mentioned during interviews
+
+633
+00:21:03,759 --> 00:21:04,839
+What's the supply chain system?
+
+634
+00:21:04,839 --> 00:21:05,880
+what is Jinyouchong
+
+635
+00:21:05,880 --> 00:21:09,740
+What are the functional modules actually available on these systems?
+
+636
+00:21:09,740 --> 00:21:12,320
+We need to maintain a broad understanding.
+
+637
+00:21:12,320 --> 00:21:15,560
+Products with over 3 years of experience must be recognized.
+
+638
+00:21:15,560 --> 00:21:17,800
+For example, YP's supply chain, finance, sales, and inventory
+
+639
+00:21:17,800 --> 00:21:20,120
+Its core modules are actually quite equivalent
+
+640
+00:21:20,120 --> 00:21:21,140
+product system
+
+641
+00:21:21,140 --> 00:21:21,920
+procurement system
+
+642
+00:21:21,920 --> 00:21:23,340
+The procurement system is also called SCM
+
+643
+00:21:23,340 --> 00:21:24,640
+demand-side management
+
+644
+00:21:24,640 --> 00:21:25,360
+plan management
+
+645
+00:21:25,360 --> 00:21:26,520
+Intelligent replenishment inquiry
+
+646
+00:21:26,520 --> 00:21:27,120
+bidding
+
+647
+00:21:27,120 --> 00:21:27,720
+purchase order
+
+648
+00:21:27,720 --> 00:21:31,160
+A series of processes such as refund reconciliation are all handled within the procurement SCM system.
+
+649
+00:21:31,160 --> 00:21:32,880
+Then there is inventory management under the M4 system
+
+650
+00:21:32,880 --> 00:21:33,380
+with ERP
+
+651
+00:21:33,380 --> 00:21:34,160
+sales order
+
+652
+00:21:34,160 --> 00:21:35,980
+OMS and other modules and after-sales
+
+653
+00:21:35,980 --> 00:21:38,060
+Then there is the WM4 system for warehousing
+
+654
+00:21:38,060 --> 00:21:39,920
+TMS refers to the logistics system
+
+655
+00:21:39,920 --> 00:21:42,100
+SRM refers to supplier relationship management
+
+656
+00:21:42,100 --> 00:21:43,180
+for example, suppliers
+
+657
+00:21:43,180 --> 00:21:44,040
+You go to register
+
+658
+00:21:44,040 --> 00:21:46,040
+Then, for inquiries, proceed to quote
+
+659
+00:21:46,040 --> 00:21:47,760
+For bidding, proceed with the tender submission
+
+660
+00:21:47,760 --> 00:21:49,720
+joint processing of purchase orders and returns
+
+661
+00:21:49,720 --> 00:21:54,200
+things like procurement reconciliation, these are called SRM systems. When you hear these specialized terms,
+
+662
+00:21:54,200 --> 00:21:55,060
+Don't panic
+
+663
+00:21:55,060 --> 00:21:57,020
+What functional modules does it roughly have
+
+664
+00:21:57,020 --> 00:21:58,040
+Just be aware of it
+
+665
+00:21:58,040 --> 00:21:59,340
+including a brief overview of what is involved
+
+666
+00:21:59,340 --> 00:22:00,980
+For example, I mentioned procurement inquiries in my resume
+
+667
+00:22:00,980 --> 00:22:02,720
+I mentioned OMS orders in my resume
+
+668
+00:22:02,720 --> 00:22:04,000
+You have worked in supply chain.
+
+669
+00:22:04,000 --> 00:22:06,480
+You've worked with ERP systems, and it's the same across companies.
+
+670
+00:22:06,480 --> 00:22:08,580
+I was responsible for certain core modules
+
+671
+00:22:08,580 --> 00:22:13,040
+In your resume, you should now include at least 8 to 10 projects.
+
+672
+00:22:13,040 --> 00:22:15,640
+So what exactly does our MAS system include?
+
+673
+00:22:15,640 --> 00:22:17,880
+In this process, I handle the management of input inventory
+
+674
+00:22:17,880 --> 00:22:19,460
+Then there's the management of inbound storage.
+
+675
+00:22:19,460 --> 00:22:20,140
+shipment management
+
+676
+00:22:20,140 --> 00:22:21,340
+For example, I need to run a wave picking
+
+677
+00:22:21,340 --> 00:22:22,720
+I need to perform inventory allocation locking
+
+678
+00:22:22,720 --> 00:22:23,740
+I need to pick the goods
+
+679
+00:22:23,740 --> 00:22:24,820
+I need to perform secondary sorting
+
+680
+00:22:24,820 --> 00:22:27,670
+I need to go for verification, packing, weighing, and shipping.
+
+681
+00:22:27,670 --> 00:22:29,630
+Most of these are already covered by Mas.
+
+682
+00:22:29,630 --> 00:22:31,070
+Then I still need to do restocking
+
+683
+00:22:31,070 --> 00:22:32,230
+I also need to do inventory.
+
+684
+00:22:32,230 --> 00:22:34,080
+then you also need to do inventory transfer
+
+685
+00:22:37,000 --> 00:22:38,880
+Because we've covered all these project topics in our course
+
+686
+00:22:38,880 --> 00:22:40,120
+After the project course is completed,
+
+687
+00:22:40,120 --> 00:22:41,100
+The job market is favorable for job seekers
+
+688
+00:22:41,100 --> 00:22:43,750
+Everyone can apply these in job hunting.
+
+689
+00:22:43,750 --> 00:22:46,230
+So what does CM customer relationship management include?
+
+690
+00:22:46,230 --> 00:22:48,210
+For example, the leads used by my sales team
+
+691
+00:22:48,210 --> 00:22:48,790
+customers
+
+692
+00:22:48,790 --> 00:22:49,310
+sales opportunities
+
+693
+00:22:49,310 --> 00:22:49,800
+contract
+
+694
+00:22:49,800 --> 00:22:53,820
+My marketing team uses it in conjunction with coupon promotions to utilize vouchers.
+
+695
+00:22:53,820 --> 00:22:55,140
+and then label grouping
+
+696
+00:22:55,140 --> 00:22:56,520
+360 user profiles
+
+697
+00:22:56,520 --> 00:22:57,760
+Then in customer service
+
+698
+00:22:57,760 --> 00:22:59,980
+Broadly speaking, it includes the Knowledge base used in customer service.
+
+699
+00:22:59,980 --> 00:23:01,240
+work orders and the like
+
+700
+00:23:01,240 --> 00:23:03,220
+and data analysis reports, among others
+
+701
+00:23:03,220 --> 00:23:05,840
+This is the CRM (Customer Relationship Management) system within
+
+702
+00:23:05,840 --> 00:23:08,300
+convert potential customers into paying customers
+
+703
+00:23:08,300 --> 00:23:11,060
+and encourage them to continuously make repeat purchases
+
+704
+00:23:11,060 --> 00:23:13,380
+So what does the production MAX system include?
+
+705
+00:23:13,380 --> 00:23:15,140
+For example, we often mention pump horse
+
+706
+00:23:15,140 --> 00:23:19,260
+For example, having a basic understanding of the commonly mentioned processes and such is sufficient.
+
+707
+00:23:19,260 --> 00:23:21,300
+MAX has not yet reached the stage of frequent recruitment.
+
+708
+00:23:21,300 --> 00:23:25,500
+max may have to wait another two or three years before reaching the peak of frequent recruitment in the manufacturing industry
+
+709
+00:23:25,500 --> 00:23:26,860
+In the financial system,
+
+710
+00:23:26,860 --> 00:23:27,860
+for example, general ledger
+
+711
+00:23:27,860 --> 00:23:29,220
+management of accounts receivable and payable
+
+712
+00:23:29,220 --> 00:23:30,740
+as well as cashier management
+
+713
+00:23:30,740 --> 00:23:31,540
+management of bills
+
+714
+00:23:31,540 --> 00:23:32,300
+the management of funds
+
+715
+00:23:32,300 --> 00:23:33,620
+expense management and reimbursement
+
+716
+00:23:33,620 --> 00:23:35,140
+and financial cost accounting
+
+717
+00:23:35,140 --> 00:23:37,020
+and the management of invoices in terms of taxation
+
+718
+00:23:37,020 --> 00:23:38,000
+tax management
+
+719
+00:23:38,000 --> 00:23:39,020
+budget management
+
+720
+00:23:39,020 --> 00:23:40,060
+management of managerial accounting
+
+721
+00:23:40,060 --> 00:23:41,780
+This is what the finance side needs to grasp.
+
+722
+00:23:41,780 --> 00:23:43,100
+As for the integration of business and finance,
+
+723
+00:23:43,100 --> 00:23:44,420
+Because we focus on procurement
+
+724
+00:23:44,420 --> 00:23:45,340
+around sales
+
+725
+00:23:45,340 --> 00:23:47,580
+We need to manage accounts receivable
+
+726
+00:23:47,580 --> 00:23:48,780
+management of accounts payable
+
+727
+00:23:48,780 --> 00:23:51,610
+This part needs to be examined together with the supply chain.
+
+728
+00:23:51,610 --> 00:23:54,050
+As for the DSP, it's primarily a marketing system
+
+729
+00:23:54,050 --> 00:23:55,070
+Everyone uses Douyin
+
+730
+00:23:55,070 --> 00:23:57,150
+Everyone uses Bilibili
+
+731
+00:23:57,150 --> 00:23:58,330
+in the entire process
+
+732
+00:23:58,330 --> 00:24:00,380
+For example, as the advertiser
+
+733
+00:24:00,380 --> 00:24:01,480
+Then I, as a UPloader,
+
+734
+00:24:01,480 --> 00:24:03,040
+I want to launch a new store promotion plan
+
+735
+00:24:03,040 --> 00:24:04,540
+then target the audience pool
+
+736
+00:24:04,540 --> 00:24:06,720
+then set the daily budget limit
+
+737
+00:24:06,720 --> 00:24:09,600
+Finally, I will check how many people the promotion has been pushed to and how it has been applied.
+
+738
+00:24:09,600 --> 00:24:10,600
+how many impressions does it have
+
+739
+00:24:10,600 --> 00:24:11,280
+how many clicks
+
+740
+00:24:11,280 --> 00:24:12,680
+what the conversion rate is, etc.
+
+741
+00:24:12,680 --> 00:24:14,440
+This is a precision marketing system
+
+742
+00:24:14,440 --> 00:24:16,980
+some tasks to be performed in the DSP platform
+
+743
+00:24:16,980 --> 00:24:18,420
+In the OA system,
+
+744
+00:24:18,420 --> 00:24:19,660
+In terms of the entire process
+
+745
+00:24:19,660 --> 00:24:20,100
+personnel
+
+746
+00:24:20,100 --> 00:24:20,620
+administrative
+
+747
+00:24:20,620 --> 00:24:22,280
+some reimbursement applications from the finance team
+
+748
+00:24:22,280 --> 00:24:23,340
+and business side
+
+749
+00:24:23,340 --> 00:24:25,140
+For example, the approval of all my procurement contracts
+
+750
+00:24:25,140 --> 00:24:26,340
+my purchase order approval
+
+751
+00:24:26,340 --> 00:24:27,500
+approval of my sales order
+
+752
+00:24:27,500 --> 00:24:28,800
+my sales discount approval
+
+753
+00:24:28,800 --> 00:24:31,300
+Automatically define Me processes
+
+754
+00:24:31,300 --> 00:24:34,150
+The SARS system is the opposite of a self-operated company.
+
+755
+00:24:34,150 --> 00:24:38,960
+SARS means I sell the system to small and medium tenants in industries like e-commerce for their use.
+
+756
+00:24:38,960 --> 00:24:42,600
+Then, all the small and medium tenants in the education industry can use it.
+
+757
+00:24:42,600 --> 00:24:43,920
+Then I don't need to
+
+758
+00:24:43,920 --> 00:24:47,900
+Then these small and medium-sized tenants of ours don't need to assemble a product R&D team.
+
+759
+00:24:47,900 --> 00:24:49,180
+I can directly purchase the system for use
+
+760
+00:24:49,180 --> 00:24:49,760
+That's it
+
+761
+00:24:49,760 --> 00:24:52,340
+Those that provide such systems are called SaaS companies
+
+762
+00:24:52,340 --> 00:24:54,220
+For example, our company uses Xiaoe Tong.
+
+763
+00:24:54,220 --> 00:24:55,800
+Additionally, there are paid mall types
+
+764
+00:24:55,800 --> 00:24:58,520
+There are also some companies with well-known IPs.
+
+765
+00:24:58,520 --> 00:25:02,060
+These competing websites have been listed and tallied for everyone.
+
+766
+00:25:02,060 --> 00:25:04,960
+In this case, its main profit model is to charge an annual fee every year.
+
+767
+00:25:04,960 --> 00:25:05,820
+do nothing
+
+768
+00:25:05,820 --> 00:25:06,960
+As long as it is sold every year,
+
+769
+00:25:06,960 --> 00:25:08,200
+Just charge an annual fee every year.
+
+770
+00:25:08,200 --> 00:25:09,700
+If there is any customized card development required
+
+771
+00:25:09,700 --> 00:25:11,820
+then proceed with some customized development costs
+
+772
+00:25:11,820 --> 00:25:14,340
+So all the more than 100 terms today
+
+773
+00:25:14,340 --> 00:25:15,880
+nearly 200 terms
+
+774
+00:25:15,880 --> 00:25:20,930
+
+
+775
+00:25:20,930 --> 00:25:24,390
+The key points are also highlighted for everyone to see.
+
+776
+00:25:24,390 --> 00:25:27,510
+Things like regression testing in the test environment, etc.
+
+777
+00:25:27,510 --> 00:25:30,070
+There are some specialized terms here
+
+778
+00:25:30,070 --> 00:25:31,930
+You can just take a look directly
+
+779
+00:25:31,930 --> 00:25:33,650
+Okay, today's share ends here.
+
+780
+00:25:33,650 --> 00:25:35,940
+Comment '1' to get the resource package
+
+781
+00:25:35,940 --> 00:25:39,320
+Product Manager Knowledge Base closed website and 200 terms
+

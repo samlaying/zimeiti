@@ -1,0 +1,468 @@
+1
+00:00:00,040 --> 00:00:01,440
+
+
+2
+00:00:01,440 --> 00:00:03,240
+It only took half an hour to build an Agent Teams monitoring panel using K2.5. Didn't I share a lot of insights about Agent Teams the other day?
+
+3
+00:00:03,240 --> 00:00:05,490
+Insights about agent teams
+
+4
+00:00:05,490 --> 00:00:08,850
+I noticed many friends in the comment section have already put it into practice,
+
+5
+00:00:08,850 --> 00:00:11,490
+especially many friends without technical backgrounds.
+
+6
+00:00:11,490 --> 00:00:14,760
+Agent Teams has opened the door to AI for ordinary people.
+
+7
+00:00:14,760 --> 00:00:19,020
+I think that simply acquiring information doesn't really change oneself.
+
+8
+00:00:19,020 --> 00:00:21,660
+But if the information drives us to take action,
+
+9
+00:00:21,660 --> 00:00:23,700
+Practice yields results.
+
+10
+00:00:23,700 --> 00:00:27,600
+Then a small positive feedback loop is formed and sustained.
+
+11
+00:00:27,600 --> 00:00:28,920
+These gains will increase incrementally.
+
+12
+00:00:28,920 --> 00:00:30,200
+On your AI journey,
+
+13
+00:00:30,200 --> 00:00:33,220
+I have several previous videos that should be able to motivate people to take action.
+
+14
+00:00:33,220 --> 00:00:35,940
+For example, how to obtain information sources,
+
+15
+00:00:35,940 --> 00:00:38,520
+how to ignite our talent for building toolchains,
+
+16
+00:00:38,520 --> 00:00:40,000
+how to build a skill effectively
+
+17
+00:00:40,000 --> 00:00:42,110
+How to effectively use Agent Teams.
+
+18
+00:00:42,110 --> 00:00:47,730
+So today I'm going to share exactly how all these pieces come together.
+
+19
+00:00:47,730 --> 00:00:50,090
+If you happen to have watched my previous content,
+
+20
+00:00:50,090 --> 00:00:53,490
+you will understand what a small closed-loop process looks like when I solve a problem.
+
+21
+00:00:53,490 --> 00:00:55,050
+From 'watch and leave' to 'see and do'
+
+22
+00:00:55,260 --> 00:00:58,260
+Let's go back to the pain point I mentioned in my previous video,
+
+23
+00:00:58,260 --> 00:01:00,840
+Agent Teams is a black box,
+
+24
+00:01:00,840 --> 00:01:05,510
+It still requires trying many orchestration combinations to test its effectiveness.
+
+25
+00:01:05,510 --> 00:01:07,220
+However, there is an issue.
+
+26
+00:01:07,220 --> 00:01:11,050
+I found that the communication between team members is not transparent,
+
+27
+00:01:11,050 --> 00:01:13,130
+All we can see is just a title,
+
+28
+00:01:13,130 --> 00:01:16,790
+and the communication information is all mixed in the Messages of Claude Code,
+
+29
+00:01:16,790 --> 00:01:18,679
+if it gets compressed,
+
+30
+00:01:18,679 --> 00:01:19,979
+it's completely invisible.
+
+31
+00:01:19,979 --> 00:01:23,730
+A few days ago, I saw a post shared by an expert on X,
+
+32
+00:01:23,730 --> 00:01:25,210
+Claude Code was reverse engineered,
+
+33
+00:01:25,210 --> 00:01:28,979
+He discovered that agents communicate by reading and writing JSON files.
+
+34
+00:01:28,979 --> 00:01:32,899
+This article should be from a senior member of the dify team.
+
+35
+00:01:32,899 --> 00:01:34,459
+This post mainly discusses some technical details about Agent Teams discovered by the expert.
+
+36
+00:01:34,459 --> 00:01:38,240
+The technical details about Agent Teams discovered by the expert
+
+37
+00:01:38,240 --> 00:01:43,990
+But to put it simply, the details of Agent Teams are all stored under this directory.
+
+38
+00:01:43,990 --> 00:01:44,990
+I have to say,
+
+39
+00:01:44,990 --> 00:01:47,570
+Nowadays, such substantive content is becoming increasingly rare on X.
+
+40
+00:01:47,570 --> 00:01:49,970
+Moreover, a new trend is increasingly emerging,
+
+41
+00:01:49,970 --> 00:01:53,450
+using AI to continuously amplify emotionally charged correctness,
+
+42
+00:01:53,450 --> 00:01:55,440
+but also articles that fool the gullible.
+
+43
+00:01:55,440 --> 00:01:58,540
+So I'm adding one principle for filtering information sources,
+
+44
+00:01:58,540 --> 00:02:02,550
+that is, what kind of content can make you take immediate action,
+
+45
+00:02:02,550 --> 00:02:04,150
+That is meaningful content.
+
+46
+00:02:04,150 --> 00:02:06,260
+I fed the expert's post to the AI.
+
+47
+00:02:06,260 --> 00:02:07,240
+I fed the post to AI to verify if it's true, and I asked him,
+
+48
+00:02:07,240 --> 00:02:09,900
+Can you verify for me whether what he said is true or not?
+
+49
+00:02:09,900 --> 00:02:11,800
+I used Kimii K2.5,
+
+50
+00:02:11,800 --> 00:02:13,520
+It didn't take him much time,
+
+51
+00:02:13,520 --> 00:02:15,510
+The verification was quickly completed,
+
+52
+00:02:15,510 --> 00:02:18,770
+The verification result is precisely in this context. I used K2.5, and it was successfully verified very quickly.
+
+53
+00:02:18,770 --> 00:02:22,280
+And this context became the foundation for our second step.
+
+54
+00:02:22,280 --> 00:02:24,730
+We need to turn it into a tool.
+
+55
+00:02:24,730 --> 00:02:27,990
+I asked if it could create a beautiful frontend and backend web panel based on the Node tech stack,
+
+56
+00:02:27,990 --> 00:02:30,390
+a beautiful web panel with both frontend and backend
+
+57
+00:02:30,390 --> 00:02:34,690
+allowing me to monitor the log files generated by these Agent Teams at any time
+
+58
+00:02:34,690 --> 00:02:38,920
+Moreover, using Agent Teams to implement K2.5 was completed quickly.
+
+59
+00:02:38,920 --> 00:02:40,920
+Of course, this wasn't completed in one shot
+
+60
+00:02:40,920 --> 00:02:43,910
+I made about two rounds of iterations through the context window,
+
+61
+00:02:43,910 --> 00:02:46,450
+Finally, I came up with a version that I'm quite satisfied with.
+
+62
+00:02:46,450 --> 00:02:47,790
+I have previously shared how to use Chrome DevTools in conjunction with K2.5's multimodal capabilities
+
+63
+00:02:47,790 --> 00:02:52,510
+How to use Chrome DevTools with K2.5's multimodal
+
+64
+00:02:52,510 --> 00:02:53,810
+basically achieve
+
+65
+00:02:53,810 --> 00:02:55,890
+I just need to say what I'm not satisfied with,
+
+66
+00:02:55,890 --> 00:02:57,950
+it can optimize according to my direction.
+
+67
+00:02:57,950 --> 00:03:01,709
+Then the third step is my frequently used Skill Creator,
+
+68
+00:03:01,709 --> 00:03:05,700
+I used Skill Creator to encapsulate this frontend and backend project into a skill.
+
+69
+00:03:05,700 --> 00:03:07,580
+Next time, simply enter the command /teams-dashboard to launch both the frontend and backend.
+
+70
+00:03:07,580 --> 00:03:10,500
+slash team dashboard can start both the frontend and backend
+
+71
+00:03:10,500 --> 00:03:11,180
+Open the webpage
+
+72
+00:03:11,180 --> 00:03:15,460
+See how convenient it is, let me demonstrate for you.
+
+73
+00:03:15,460 --> 00:03:20,560
+I currently have these teams and a dashboard,
+
+74
+00:03:25,000 --> 00:03:29,230
+As you can see, this is how it looks when opened
+
+75
+00:03:29,390 --> 00:03:33,530
+The left column here displays the teams you have previously created.
+
+76
+00:03:33,530 --> 00:03:36,480
+On the right side is the inbox of the team members.
+
+77
+00:03:36,480 --> 00:03:37,540
+for example, the leader,
+
+78
+00:03:37,540 --> 00:03:40,340
+some status updates and task logs he sent,
+
+79
+00:03:40,340 --> 00:03:41,640
+Of course, there might still be some bugs,
+
+80
+00:03:41,640 --> 00:03:43,320
+but I think it's pretty much there,
+
+81
+00:03:43,320 --> 00:03:45,160
+It's ready to use.
+
+82
+00:03:45,160 --> 00:03:46,120
+That's it for now,
+
+83
+00:03:46,120 --> 00:03:47,760
+I only spent half an hour,
+
+84
+00:03:47,760 --> 00:03:51,760
+turned a post into a part of my productivity toolchain.
+
+85
+00:03:51,760 --> 00:03:55,900
+This entire process is just a small part of my daily work routine.
+
+86
+00:03:55,900 --> 00:03:57,930
+What I want to share with everyone is,
+
+87
+00:03:57,930 --> 00:04:00,280
+This is a world of compound interest.
+
+88
+00:04:00,280 --> 00:04:02,760
+When you spend time reading a piece of information,
+
+89
+00:04:02,760 --> 00:04:04,240
+so you can take action,
+
+90
+00:04:04,240 --> 00:04:05,900
+digest some information.
+
+91
+00:04:05,900 --> 00:04:07,340
+Whether you've learned Knowledge,
+
+92
+00:04:07,340 --> 00:04:09,209
+or turned into your own toolchain,
+
+93
+00:04:09,209 --> 00:04:12,449
+These have all become assets capable of generating compound interest.
+
+94
+00:04:12,449 --> 00:04:15,710
+So if you ask me what makes a good source of information,
+
+95
+00:04:15,710 --> 00:04:18,589
+Whether it can generate compound interest is a great criterion.
+
+96
+00:04:18,589 --> 00:04:20,390
+If you often watch my videos,
+
+97
+00:04:20,390 --> 00:04:23,190
+you'll find that the content I share is actually systematic,
+
+98
+00:04:23,190 --> 00:04:24,370
+are all skill sets.
+
+99
+00:04:24,370 --> 00:04:27,770
+So if the content of this episode has also motivated you to take action,
+
+100
+00:04:27,770 --> 00:04:31,210
+You might as well revisit previous episodes and put them into practice,
+
+101
+00:04:31,210 --> 00:04:32,370
+It will definitely be better.
+
+102
+00:04:32,370 --> 00:04:35,830
+Additionally, I believe that merely reaching out for help may not lead to growth,
+
+103
+00:04:35,830 --> 00:04:40,620
+
+
+104
+00:04:40,620 --> 00:04:41,500
+Finally, while I was writing this draft.
+
+105
+00:04:41,500 --> 00:04:44,700
+It's more convenient to trace past chat records, and I've identified another pain point,
+
+106
+00:04:44,700 --> 00:04:48,340
+I wanted to use the resume command in Claude Code to restore the session,
+
+107
+00:04:48,340 --> 00:04:51,010
+Then I recorded a video to share the previous conversation with everyone.
+
+108
+00:04:51,010 --> 00:04:53,730
+But I found that once the context was compressed,
+
+109
+00:04:53,730 --> 00:04:55,030
+the session is also incomplete, making it more convenient to trace back past chat records.
+
+110
+00:04:55,030 --> 00:04:59,450
+So while I was drafting the script, I had the AI create a session-dashboard skill for me by referencing the teams-dashboard.
+
+111
+00:04:59,450 --> 00:05:02,130
+created a session dashboard for me
+
+112
+00:05:02,130 --> 00:05:05,830
+Now I can more easily trace back past chat records.
+
+113
+00:05:05,830 --> 00:05:06,490
+How about it?
+
+114
+00:05:06,490 --> 00:05:07,790
+Did you learn it? That's all for this episode.
+
+115
+00:05:07,790 --> 00:05:08,410
+Alright,
+
+116
+00:05:08,410 --> 00:05:10,210
+That's all for this episode.
+
+117
+00:05:10,210 --> 00:05:11,080
+Thank you everyone.
+

@@ -1,0 +1,1104 @@
+1
+00:00:00,080 --> 00:00:04,720
+Master AI from scratch and land a high-paying job with Heima Programmer.
+
+2
+00:00:05,530 --> 00:00:06,170
+Hello
+
+3
+00:00:06,170 --> 00:00:07,010
+Hey everyone!
+
+4
+00:00:07,010 --> 00:00:08,730
+Welcome to the Heima Programmer Web Coding course.
+
+5
+00:00:08,730 --> 00:00:10,950
+A Practical Development Series for Beginners
+
+6
+00:00:10,950 --> 00:00:15,710
+From Intelligent Agents to IG: Delivering Enterprise-Grade Projects with Natural Language
+
+7
+00:00:15,710 --> 00:00:18,549
+This course is primarily divided into four main parts.
+
+8
+00:00:18,549 --> 00:00:20,449
+First, let's dive into the first part.
+
+9
+00:00:20,449 --> 00:00:22,269
+Environment Setup and Getting Started
+
+10
+00:00:22,269 --> 00:00:23,229
+In this section,
+
+11
+00:00:23,229 --> 00:00:26,560
+First, let's get a hands-on introduction to Web Coding.
+
+12
+00:00:26,720 --> 00:00:29,240
+In Chinese, web coding is called 'Atmosphere Programming'.
+
+13
+00:00:29,240 --> 00:00:31,980
+This refers to a method where you describe your requirements in natural language,
+
+14
+00:00:31,980 --> 00:00:36,550
+a new development method where AI instantly generates executable code.
+
+15
+00:00:36,550 --> 00:00:38,830
+All we have to do is say what we want.
+
+16
+00:00:38,830 --> 00:00:40,830
+Then, large AI models can help us
+
+17
+00:00:40,830 --> 00:00:42,820
+and automatically generate the corresponding code.
+
+18
+00:00:42,820 --> 00:00:46,700
+without having to manually write the code line by line.
+
+19
+00:00:46,860 --> 00:00:49,500
+So, this 'Web Coding' has four main characteristics.
+
+20
+00:00:49,500 --> 00:00:51,460
+The first is that it's natural language-driven.
+
+21
+00:00:51,460 --> 00:00:54,840
+In other words, you don't need to know any professional programming languages.
+
+22
+00:00:54,840 --> 00:00:56,820
+All we need is our everyday language,
+
+23
+00:00:56,820 --> 00:00:59,000
+to communicate with the model.
+
+24
+00:00:59,000 --> 00:01:02,460
+and your everyday words will be converted into the corresponding code.
+
+25
+00:01:02,460 --> 00:01:05,650
+The second feature is what we call instant generation and feedback.
+
+26
+00:01:05,650 --> 00:01:08,470
+So, once we tell the model our idea,
+
+27
+00:01:08,470 --> 00:01:11,650
+the model can then instantly generate the code for us.
+
+28
+00:01:11,650 --> 00:01:14,780
+And there's virtually no delay in between.
+
+29
+00:01:14,780 --> 00:01:17,539
+Alright, the third feature is rapid trial-and-error and iteration.
+
+30
+00:01:17,539 --> 00:01:19,299
+So, whenever we have an idea,
+
+31
+00:01:19,299 --> 00:01:21,139
+and you want to bring it to life with code,
+
+32
+00:01:21,139 --> 00:01:25,020
+With Web Coding, you can quickly have the AI generate the code for you.
+
+33
+00:01:25,020 --> 00:01:26,620
+You can quickly give it a try.
+
+34
+00:01:26,620 --> 00:01:30,710
+to see if your idea is actually doable or not.
+
+35
+00:01:30,710 --> 00:01:33,170
+So, the fourth characteristic is what we call 'focusing on intent'.
+
+36
+00:01:33,170 --> 00:01:33,990
+rather than the implementation.
+
+37
+00:01:33,990 --> 00:01:36,680
+And this feature is also a core principle of our Web Coding.
+
+38
+00:01:36,680 --> 00:01:38,700
+We call this 'Web Coding'... or as I like to call it, 'Ambience Programming'.
+
+39
+00:01:38,700 --> 00:01:41,570
+And this is really embodied in the word 'atmosphere' itself.
+
+40
+00:01:41,570 --> 00:01:45,070
+So, when you want to bring a certain scenario to life,
+
+41
+00:01:45,070 --> 00:01:48,300
+All we need to do is focus on our own intentions.
+
+42
+00:01:48,300 --> 00:01:50,460
+In other words, all you need to do is tell the model
+
+43
+00:01:50,460 --> 00:01:52,180
+what it is that you actually want.
+
+44
+00:01:52,180 --> 00:01:55,009
+All you have to do is explain the task clearly to it.
+
+45
+00:01:55,009 --> 00:01:58,609
+So, a lot of the time, we're more focused on our own ideas.
+
+46
+00:01:58,609 --> 00:01:59,480
+our own intentions,
+
+47
+00:01:59,480 --> 00:02:01,960
+rather than the nitty-gritty of how the code is actually written.
+
+48
+00:02:01,960 --> 00:02:06,380
+We can just leave the actual coding to the large AI model to handle for us.
+
+49
+00:02:06,380 --> 00:02:08,990
+Alright, so Web Coding has four main characteristics.
+
+50
+00:02:08,990 --> 00:02:11,950
+So, the workflow for web coding is also pretty straightforward.
+
+51
+00:02:11,950 --> 00:02:14,390
+All you have to do is describe what you need.
+
+52
+00:02:14,390 --> 00:02:16,530
+and the AI will generate the code for you.
+
+53
+00:02:16,530 --> 00:02:19,050
+Once the code is generated, you can run it right away.
+
+54
+00:02:19,050 --> 00:02:20,370
+Run it and see how it feels.
+
+55
+00:02:20,370 --> 00:02:21,740
+So, are you happy with it?
+
+56
+00:02:21,740 --> 00:02:22,620
+If you're happy with it,
+
+57
+00:02:22,620 --> 00:02:23,920
+And that's the whole process.
+
+58
+00:02:23,920 --> 00:02:25,000
+But what if you're not satisfied?
+
+59
+00:02:25,000 --> 00:02:27,540
+So, just tweak your description a bit,
+
+60
+00:02:27,540 --> 00:02:29,780
+and have the AI generate the code again.
+
+61
+00:02:29,780 --> 00:02:31,660
+Run it again and see if you're happy with it.
+
+62
+00:02:31,660 --> 00:02:32,520
+And if you're happy with it, you're all done.
+
+63
+00:02:32,520 --> 00:02:35,480
+If you're not happy with it, you can just refine your description and try again.
+
+64
+00:02:35,480 --> 00:02:38,000
+until you get the exact result you're looking for.
+
+65
+00:02:38,000 --> 00:02:40,340
+So, this is the workflow for web coding.
+
+66
+00:02:40,340 --> 00:02:42,800
+And this is what we call its golden loop.
+
+67
+00:02:42,800 --> 00:02:43,840
+Describe the requirements.
+
+68
+00:02:43,840 --> 00:02:44,800
+and it generates the code.
+
+69
+00:02:44,800 --> 00:02:45,740
+and test it out.
+
+70
+00:02:45,740 --> 00:02:46,820
+And you're done if you're satisfied.
+
+71
+00:02:46,820 --> 00:02:49,740
+If you're not satisfied, just describe your requirements again.
+
+72
+00:02:49,740 --> 00:02:50,620
+So, all in all,
+
+73
+00:02:50,620 --> 00:02:53,310
+So, using Web Coding is actually pretty straightforward.
+
+74
+00:02:53,310 --> 00:02:55,230
+So, let's take a look at what Web Coding can actually do.
+
+75
+00:02:55,230 --> 00:02:57,990
+For instance, let's say we want to get a tomato on the left side,
+
+76
+00:02:57,990 --> 00:03:00,079
+timer in an HTML webpage.
+
+77
+00:03:00,079 --> 00:03:02,759
+So, if you want to get an effect like this,
+
+78
+00:03:02,759 --> 00:03:05,359
+The traditional approach is what we call 'old-school programming'.
+
+79
+00:03:05,359 --> 00:03:07,559
+Which means you have to do it manually, line by line.
+
+80
+00:03:07,559 --> 00:03:09,670
+and write out all this code.
+
+81
+00:03:09,670 --> 00:03:12,420
+And in the process, you have to learn a whole lot of stuff.
+
+82
+00:03:12,420 --> 00:03:14,820
+For example, the syntax and structure of HTML,
+
+83
+00:03:14,820 --> 00:03:16,960
+the corresponding syntax for CSS, and so on.
+
+84
+00:03:16,960 --> 00:03:19,630
+And all of this is going to take up a lot of your time to learn.
+
+85
+00:03:19,630 --> 00:03:21,770
+But with web coding,
+
+86
+00:03:21,770 --> 00:03:22,970
+that's still incredibly fast.
+
+87
+00:03:22,970 --> 00:03:24,920
+All we need is a simple description.
+
+88
+00:03:24,920 --> 00:03:26,200
+For instance, we can just tell the model,
+
+89
+00:03:26,200 --> 00:03:27,820
+I need a Pomodoro timer.
+
+90
+00:03:27,820 --> 00:03:29,060
+25 minutes of focus,
+
+91
+00:03:29,060 --> 00:03:30,020
+and a 5-minute break.
+
+92
+00:03:30,020 --> 00:03:32,420
+Then we have the start, pause, and reset buttons.
+
+93
+00:03:32,420 --> 00:03:34,880
+So, once you've clearly described your requirements,
+
+94
+00:03:34,880 --> 00:03:38,980
+So, in the end, Web Coding can help us generate this piece of code.
+
+95
+00:03:38,980 --> 00:03:40,840
+So, once this code is up and running,
+
+96
+00:03:40,840 --> 00:03:44,870
+And just like that, we get the Pomodoro timer effect that we were looking for.
+
+97
+00:03:44,870 --> 00:03:47,030
+Alright, enough talk. Let's see it in action.
+
+98
+00:03:47,030 --> 00:03:49,410
+Alright, let's open up the web coding tool now.
+
+99
+00:03:49,410 --> 00:03:53,390
+So, let me give you a live demo of how to generate this Pomodoro timer.
+
+100
+00:03:54,010 --> 00:03:54,510
+Alright.
+
+101
+00:03:54,510 --> 00:03:56,730
+I've opened up a terminal.
+
+102
+00:03:56,730 --> 00:03:58,010
+And then, inside this software,
+
+103
+00:03:58,010 --> 00:03:59,930
+I've created a new folder.
+
+104
+00:03:59,930 --> 00:04:04,390
+Let's CD into this folder called 'first project'.
+
+105
+00:04:04,390 --> 00:04:05,410
+Alright, so now that we're in,
+
+106
+00:04:05,410 --> 00:04:08,880
+Alright, let's run a command called 'cloud'.
+
+107
+00:04:08,880 --> 00:04:12,160
+Later on, we'll be guiding you through how to use Cloud Code.
+
+108
+00:04:12,160 --> 00:04:13,660
+So, this web coding tool...
+
+109
+00:04:13,660 --> 00:04:15,900
+So for now, let's just jump in and get a feel for it.
+
+110
+00:04:15,900 --> 00:04:17,980
+We'll learn how to install and deploy it later on.
+
+111
+00:04:17,980 --> 00:04:21,190
+as well as a detailed walkthrough of how to use it. Alright.
+
+112
+00:04:21,190 --> 00:04:22,830
+So, once I hit Enter and run it,
+
+113
+00:04:22,830 --> 00:04:25,670
+And just like that, we're in the coding page for Cloud Code.
+
+114
+00:04:25,670 --> 00:04:27,140
+Alright, so the first thing it's going to ask me is...
+
+115
+00:04:27,140 --> 00:04:28,700
+Do you trust this folder?
+
+116
+00:04:28,700 --> 00:04:29,900
+So we'll just select 'yes'.
+
+117
+00:04:29,900 --> 00:04:30,880
+Alright, trust it.
+
+118
+00:04:30,880 --> 00:04:34,200
+And now, we can start programming with natural language.
+
+119
+00:04:34,200 --> 00:04:37,000
+So, for instance, we can just describe what we want to it.
+
+120
+00:04:37,000 --> 00:04:41,820
+So I'll say, 'I need a Pomodoro timer.'
+
+121
+00:04:41,820 --> 00:04:47,680
+And it starts with a 25-minute focus session.
+
+122
+00:04:47,800 --> 00:04:50,800
+followed by a 5-minute break.
+
+123
+00:04:50,800 --> 00:04:54,680
+And it should have start and pause buttons.
+
+124
+00:04:55,150 --> 00:04:58,750
+And a reset button.
+
+125
+00:04:59,850 --> 00:05:03,910
+Okay, so once we've clearly described the requirements to it...
+
+126
+00:05:03,910 --> 00:05:05,340
+All you have to do is hit Enter.
+
+127
+00:05:05,340 --> 00:05:07,820
+And the corresponding tool can then leverage AI
+
+128
+00:05:07,820 --> 00:05:09,120
+the programming capabilities of large models
+
+129
+00:05:09,120 --> 00:05:11,400
+to automatically generate the corresponding code for us.
+
+130
+00:05:11,400 --> 00:05:12,940
+Alright, let's hit Enter and see what happens.
+
+131
+00:05:12,940 --> 00:05:14,309
+Alright, as you can all see,
+
+132
+00:05:14,309 --> 00:05:16,869
+So, the Web Coding tool is now starting to think.
+
+133
+00:05:16,869 --> 00:05:19,000
+Alright, so after it's done thinking...
+
+134
+00:05:19,000 --> 00:05:21,880
+and it starts to gradually write out the code for us.
+
+135
+00:05:21,880 --> 00:05:24,920
+Alright, let's just give it a moment.
+
+136
+00:05:30,440 --> 00:05:33,320
+Okay, as you can see, the code has been generated.
+
+137
+00:05:33,320 --> 00:05:35,040
+And now, it's asking me, hey...
+
+138
+00:05:35,040 --> 00:05:38,539
+whether to create this HTML file.
+
+139
+00:05:38,539 --> 00:05:40,379
+Alright, let's click on option number one.
+
+140
+00:05:40,379 --> 00:05:43,410
+So, just type 'yes' and hit Enter to give it permission.
+
+141
+00:05:43,410 --> 00:05:44,550
+So, once you give it permission,
+
+142
+00:05:44,550 --> 00:05:46,970
+And just like that, the web page file has been created.
+
+143
+00:05:46,970 --> 00:05:50,430
+So, that means our program is all set and ready to go.
+
+144
+00:05:50,430 --> 00:05:53,350
+Alright, so we can use 'start'...
+
+145
+00:05:53,350 --> 00:05:58,590
+and use this command to get the HTML page up and running.
+
+146
+00:05:58,590 --> 00:06:00,150
+Alright, hit Enter.
+
+147
+00:06:01,770 --> 00:06:03,610
+And now it's asking us if we want to continue. Alright.
+
+148
+00:06:03,610 --> 00:06:04,370
+So, let's type 'yes'.
+
+149
+00:06:04,370 --> 00:06:05,970
+Let's keep going.
+
+150
+00:06:09,020 --> 00:06:12,590
+Alright, as you can see, once we run it,
+
+151
+00:06:12,590 --> 00:06:14,790
+And just like that, we have an HTML webpage.
+
+152
+00:06:14,790 --> 00:06:16,970
+So, this is the webpage we were aiming for.
+
+153
+00:06:16,970 --> 00:06:18,180
+the Pomodoro timer effect.
+
+154
+00:06:18,180 --> 00:06:18,460
+And there we have it.
+
+155
+00:06:18,460 --> 00:06:22,260
+And right here, we have the buttons for 'Start' and 'Reset'.
+
+156
+00:06:22,260 --> 00:06:23,510
+So, when we click 'Start'...
+
+157
+00:06:23,510 --> 00:06:25,370
+And then it starts ticking down.
+
+158
+00:06:25,370 --> 00:06:26,970
+And then, you can hit pause.
+
+159
+00:06:26,970 --> 00:06:28,710
+or you can hit reset.
+
+160
+00:06:28,710 --> 00:06:28,990
+Alright.
+
+161
+00:06:28,990 --> 00:06:32,110
+And that's the basic Pomodoro timer effect we were going for.
+
+162
+00:06:32,110 --> 00:06:33,550
+So, during this web coding process,
+
+163
+00:06:33,550 --> 00:06:35,270
+Now, what if you're not happy with this result?
+
+164
+00:06:35,270 --> 00:06:38,490
+You can just keep on communicating with it in natural language.
+
+165
+00:06:38,490 --> 00:06:40,150
+Alright, so for example, let me show you what I mean.
+
+166
+00:06:40,150 --> 00:06:40,580
+Alright,
+
+167
+00:06:40,580 --> 00:06:46,280
+Give me a shortcut button.
+
+168
+00:06:46,280 --> 00:06:50,960
+You can quickly set the time to,
+
+169
+00:06:50,960 --> 00:06:53,670
+Like, 15 minutes. Perfect.
+
+170
+00:06:53,670 --> 00:06:56,090
+Alright, now let's have it add another button for me.
+
+171
+00:06:56,090 --> 00:06:57,510
+Oh, it defaults to 25 minutes.
+
+172
+00:06:57,510 --> 00:06:58,710
+You can add a shortcut button.
+
+173
+00:06:58,710 --> 00:07:02,180
+I can quickly change it to 15 minutes. Alright.
+
+174
+00:07:02,180 --> 00:07:03,780
+Alright, so after a short wait...
+
+175
+00:07:03,780 --> 00:07:06,440
+And you can see, hey, it's generated the corresponding code right here.
+
+176
+00:07:06,440 --> 00:07:08,080
+And it's asking us if we want to proceed, with a 'yes' or 'no'.
+
+177
+00:07:08,080 --> 00:07:09,460
+In other words, whether we want to make the changes.
+
+178
+00:07:09,460 --> 00:07:10,520
+So, let's go ahead and choose 'yes'.
+
+179
+00:07:10,520 --> 00:07:11,380
+Alright, let's hit Enter.
+
+180
+00:07:11,380 --> 00:07:12,280
+Alright, let's give it a moment.
+
+181
+00:07:12,280 --> 00:07:14,410
+Alright, once it's done modifying the file...
+
+182
+00:07:14,410 --> 00:07:16,170
+And it's telling us it's modified this section again.
+
+183
+00:07:16,170 --> 00:07:17,010
+Do you agree?
+
+184
+00:07:17,010 --> 00:07:17,970
+Alright, let's go with 'yes'.
+
+185
+00:07:17,970 --> 00:07:20,250
+Alright, let's agree to it.
+
+186
+00:07:20,250 --> 00:07:21,810
+Alright, let's give it a little more time.
+
+187
+00:07:21,810 --> 00:07:24,730
+And here it's asking us again if we want to allow this line of code to be modified.
+
+188
+00:07:24,730 --> 00:07:27,410
+So as you can see, it's actually asking for our permission with every single change.
+
+189
+00:07:27,410 --> 00:07:28,760
+So, we can go ahead and select option 2.
+
+190
+00:07:28,760 --> 00:07:29,480
+Let's go with option 2.
+
+191
+00:07:29,480 --> 00:07:29,900
+This 'yes'.
+
+192
+00:07:29,900 --> 00:07:32,520
+So that means you don't need to ask me about any further modifications.
+
+193
+00:07:32,520 --> 00:07:34,360
+Alright, I'll just assume you're good with all the defaults.
+
+194
+00:07:34,360 --> 00:07:36,920
+Let's go with option two, 'yes'.
+
+195
+00:07:40,840 --> 00:07:43,140
+Alright, as you can see, it has finished making the changes.
+
+196
+00:07:43,140 --> 00:07:44,160
+Alright, so now that the modifications are done,
+
+197
+00:07:44,160 --> 00:07:47,520
+So now it's asking us if we want to run the HTML page.
+
+198
+00:07:47,520 --> 00:07:48,990
+So, let's select 'yes'.
+
+199
+00:07:48,990 --> 00:07:49,470
+Alright.
+
+200
+00:07:49,470 --> 00:07:49,590
+Okay.
+
+201
+00:07:49,590 --> 00:07:51,110
+So, as you can see with our current webpage...
+
+202
+00:07:51,110 --> 00:07:52,659
+And it's running again.
+
+203
+00:07:52,659 --> 00:07:53,899
+Alright, so now that it's up and running,
+
+204
+00:07:53,899 --> 00:07:54,979
+And you'll notice, hey...
+
+205
+00:07:54,979 --> 00:07:58,520
+See how there's a new 15-minute button now, compared to before?
+
+206
+00:07:58,520 --> 00:07:59,720
+It was originally 25 minutes.
+
+207
+00:07:59,720 --> 00:08:01,400
+Alright, so let's click on the 15-minute button.
+
+208
+00:08:01,400 --> 00:08:03,740
+and it defaults to a 15-minute timer.
+
+209
+00:08:03,740 --> 00:08:06,560
+So, this is how we do it just by using natural language descriptions.
+
+210
+00:08:06,560 --> 00:08:09,130
+and have it modify the code for us.
+
+211
+00:08:09,130 --> 00:08:12,420
+Or, to add the corresponding features. Alright.
+
+212
+00:08:12,420 --> 00:08:12,720
+Okay.
+
+213
+00:08:12,720 --> 00:08:16,020
+Alright, so that was our first, basic experience with Web Coding.
+
+214
+00:08:16,020 --> 00:08:17,640
+Alright, so after that little experiment,
+
+215
+00:08:17,640 --> 00:08:18,900
+Alright, let's get back to the slides.
+
+216
+00:08:18,900 --> 00:08:21,280
+So, let's do a quick recap.
+
+217
+00:08:22,179 --> 00:08:24,039
+Alright, we're back to our slides.
+
+218
+00:08:24,039 --> 00:08:25,659
+Alright, so I've just given you a quick demonstration.
+
+219
+00:08:25,659 --> 00:08:27,240
+the basic usage of Web Coding.
+
+220
+00:08:27,240 --> 00:08:28,520
+So, you might have noticed,
+
+221
+00:08:28,520 --> 00:08:31,740
+So, isn't the barrier to entry for Web Coding pretty low?
+
+222
+00:08:31,740 --> 00:08:33,580
+With traditional programming,
+
+223
+00:08:33,580 --> 00:08:35,539
+you have to learn the language,
+
+224
+00:08:35,539 --> 00:08:36,679
+and frameworks.
+
+225
+00:08:36,679 --> 00:08:40,839
+But with Web Coding, all you need to do is clearly express your requirements.
+
+226
+00:08:40,839 --> 00:08:43,280
+and you'll get the corresponding program.
+
+227
+00:08:43,280 --> 00:08:45,380
+So, the barrier to entry is incredibly low.
+
+228
+00:08:45,380 --> 00:08:46,760
+Alright, the second point is development speed.
+
+229
+00:08:46,760 --> 00:08:49,360
+In traditional programming, that would take hours, or even days.
+
+230
+00:08:49,360 --> 00:08:51,110
+Take the Pomodoro timer we just made, for example.
+
+231
+00:08:51,110 --> 00:08:53,450
+Even for a highly skilled programmer,
+
+232
+00:08:53,450 --> 00:08:55,770
+to get this feature up and running,
+
+233
+00:08:55,770 --> 00:08:57,390
+that would take at least 10 minutes.
+
+234
+00:08:57,390 --> 00:08:58,580
+20 minutes of coding.
+
+235
+00:08:58,580 --> 00:09:00,320
+But with our web coding,
+
+236
+00:09:00,320 --> 00:09:03,420
+it could get this feature done in under a minute.
+
+237
+00:09:03,420 --> 00:09:05,040
+That's incredibly fast.
+
+238
+00:09:05,040 --> 00:09:08,640
+But at the same time, making changes is also incredibly simple.
+
+239
+00:09:08,640 --> 00:09:09,800
+So, what if we want to change it?
+
+240
+00:09:09,800 --> 00:09:11,740
+or add new features to it.
+
+241
+00:09:11,740 --> 00:09:14,620
+All you have to do is describe it in plain English.
+
+242
+00:09:14,620 --> 00:09:16,780
+For example, we just added a 15-minute button to it.
+
+243
+00:09:16,780 --> 00:09:19,599
+So, you just tell it what you want, and it'll make the changes for us.
+
+244
+00:09:19,599 --> 00:09:21,579
+But with traditional programming,
+
+245
+00:09:21,579 --> 00:09:23,299
+you'd have to analyze the code yourself,
+
+246
+00:09:23,299 --> 00:09:25,430
+and then rewrite it all yourself.
+
+247
+00:09:25,430 --> 00:09:27,490
+And at the same time, during the coding process...
+
+248
+00:09:27,490 --> 00:09:29,510
+Our focus is completely different.
+
+249
+00:09:29,510 --> 00:09:33,480
+In traditional coding, the focus is on how the code is written.
+
+250
+00:09:33,480 --> 00:09:34,760
+But with web coding,
+
+251
+00:09:34,760 --> 00:09:38,160
+All you really need to focus on is the effect you want to achieve.
+
+252
+00:09:38,160 --> 00:09:39,120
+So, how is the code actually written?
+
+253
+00:09:39,120 --> 00:09:40,380
+The truth is, we don't really care.
+
+254
+00:09:40,380 --> 00:09:43,600
+That's because the AI model's coding capabilities are actually incredibly powerful.
+
+255
+00:09:43,600 --> 00:09:46,730
+All we need to do is clearly describe what you want, and that's it.
+
+256
+00:09:46,730 --> 00:09:49,490
+So, after that demonstration and the comparison we just made,
+
+257
+00:09:49,490 --> 00:09:53,030
+So, you can see just how powerful Web Coding really is.
+
+258
+00:09:53,030 --> 00:09:54,830
+So, in this day and age,
+
+259
+00:09:54,830 --> 00:09:57,569
+in this new wave of AI,
+
+260
+00:09:57,569 --> 00:09:58,929
+So, coding is something that we...
+
+261
+00:09:58,929 --> 00:10:00,089
+and for future programmers,
+
+262
+00:10:00,089 --> 00:10:03,920
+and even non-programmers should master.
+
+263
+00:10:03,920 --> 00:10:05,340
+For programmers,
+
+264
+00:10:05,340 --> 00:10:07,660
+It can boost your work efficiency.
+
+265
+00:10:07,660 --> 00:10:09,220
+So, for non-programmers,
+
+266
+00:10:09,220 --> 00:10:12,140
+Well, you can approach it from a non-professional's perspective.
+
+267
+00:10:12,140 --> 00:10:14,080
+to quickly validate your ideas,
+
+268
+00:10:14,080 --> 00:10:15,600
+to test out your ideas.
+
+269
+00:10:15,600 --> 00:10:18,980
+and quickly whip up the small tools you want.
+
+270
+00:10:18,980 --> 00:10:20,280
+This allows us non-professionals...
+
+271
+00:10:20,280 --> 00:10:22,800
+can also quickly dive into the world of programming.
+
+272
+00:10:22,800 --> 00:10:24,900
+and experience the joy of programming.
+
+273
+00:10:24,900 --> 00:10:28,060
+Alright, so that's our first look at web coding.
+
+274
+00:10:28,060 --> 00:10:29,520
+Alright, so with that step out of the way,
+
+275
+00:10:29,520 --> 00:10:31,020
+Alright, let's save this.
+
+276
+00:10:31,020 --> 00:10:32,720
+See you in the next video!
+

@@ -1,0 +1,1336 @@
+1
+00:00:01,160 --> 00:00:03,880
+Alright, in this lesson, we're going to implement this constructor.
+
+2
+00:00:03,880 --> 00:00:07,430
+This constructor follows the same process we discussed earlier.
+
+3
+00:00:07,430 --> 00:00:08,050
+It's the same.
+
+4
+00:00:08,050 --> 00:00:11,300
+First, we need to configure the audio input and output channels.
+
+5
+00:00:11,300 --> 00:00:14,880
+Then, it will generate the channel buffer here.
+
+6
+00:00:14,880 --> 00:00:18,559
+Ultimately, it will create the data interface handle here.
+
+7
+00:00:18,559 --> 00:00:20,259
+And use it over here.
+
+8
+00:00:20,259 --> 00:00:22,470
+Then, it will be used for the output as well.
+
+9
+00:00:22,470 --> 00:00:24,010
+And also for the input side.
+
+10
+00:00:24,010 --> 00:00:27,050
+We also created this device instance
+
+11
+00:00:27,050 --> 00:00:29,100
+This abstract device instance
+
+12
+00:00:29,100 --> 00:00:32,060
+We follow this method to proceed
+
+13
+00:00:32,060 --> 00:00:35,280
+First, we need to install the dependencies
+
+14
+00:00:35,280 --> 00:00:37,019
+These dependencies
+
+15
+00:00:37,019 --> 00:00:40,539
+Are for our audio framework
+
+16
+00:00:40,539 --> 00:00:42,259
+This one
+
+17
+00:00:45,180 --> 00:00:49,340
+Then we execute this command
+
+18
+00:00:53,480 --> 00:00:54,600
+Then let's take a look
+
+19
+00:00:54,600 --> 00:00:56,600
+It's right in here
+
+20
+00:00:59,240 --> 00:01:00,980
+It hasn't come over yet
+
+21
+00:01:00,980 --> 00:01:02,800
+Let's see why
+
+22
+00:01:05,239 --> 00:01:07,000
+First, let's take a look at this
+
+23
+00:01:07,000 --> 00:01:08,100
+This has been added here
+
+24
+00:01:08,100 --> 00:01:11,840
+Then we'll run this
+
+25
+00:01:16,800 --> 00:01:17,560
+Sure thing
+
+26
+00:01:17,560 --> 00:01:19,520
+It's fetching now
+
+27
+00:01:21,800 --> 00:01:23,080
+It has been fetched now
+
+28
+00:01:24,080 --> 00:01:25,400
+So, moving forward
+
+29
+00:01:25,400 --> 00:01:30,300
+we need to create a class member variable
+
+30
+00:01:30,300 --> 00:01:31,780
+this class member variable
+
+31
+00:01:31,780 --> 00:01:34,720
+we will create within this section
+
+32
+00:01:34,720 --> 00:01:37,460
+inside this abstract layer
+
+33
+00:01:37,460 --> 00:01:39,040
+why do we create it here
+
+34
+00:01:39,040 --> 00:01:41,959
+and why are we using this modifier
+
+35
+00:01:41,959 --> 00:01:44,219
+let’s take a look at this modifier now
+
+36
+00:01:44,219 --> 00:01:47,100
+there are these three types of modifiers in this class
+
+37
+00:01:47,100 --> 00:01:48,240
+Now there are three types.
+
+38
+00:01:48,240 --> 00:01:49,580
+First, this one is private.
+
+39
+00:01:49,580 --> 00:01:53,050
+The private one means you can only use it within the class, right?
+
+40
+00:01:53,050 --> 00:01:55,490
+Even its derived classes can't use it.
+
+41
+00:01:55,490 --> 00:01:58,100
+The private one is very confidential.
+
+42
+00:01:58,100 --> 00:01:59,700
+Then, PUBLIC is public.
+
+43
+00:01:59,700 --> 00:02:01,780
+You can call it from anywhere.
+
+44
+00:02:01,780 --> 00:02:03,020
+As long as it's instantiated, right?
+
+45
+00:02:03,020 --> 00:02:04,030
+You can call it.
+
+46
+00:02:04,030 --> 00:02:05,590
+So this modifier
+
+47
+00:02:05,590 --> 00:02:07,270
+is used between these two
+
+48
+00:02:07,270 --> 00:02:09,539
+it can be used in the derived class
+
+49
+00:02:09,539 --> 00:02:11,220
+it can also be used within its own class
+
+50
+00:02:11,220 --> 00:02:13,500
+meaning it's accessible in the current class
+
+51
+00:02:13,500 --> 00:02:16,120
+and its derived classes inherit it
+
+52
+00:02:16,120 --> 00:02:17,160
+and can use it as well
+
+53
+00:02:17,160 --> 00:02:21,750
+Why do we put these member variables into this framework
+
+54
+00:02:21,750 --> 00:02:24,570
+which is this abstract layer
+
+55
+00:02:24,570 --> 00:02:25,850
+Because this member variable
+
+56
+00:02:25,850 --> 00:02:28,890
+These member variables are all required within this framework
+
+57
+00:02:28,890 --> 00:02:32,190
+If we define them in the derived class
+
+58
+00:02:32,190 --> 00:02:32,670
+It's also fine
+
+59
+00:02:32,670 --> 00:02:34,430
+But the code becomes more redundant
+
+60
+00:02:34,430 --> 00:02:36,190
+So we put them here
+
+61
+00:02:36,190 --> 00:02:37,310
+Like these handles, right
+
+62
+00:02:37,310 --> 00:02:38,390
+These kinds of things
+
+63
+00:02:38,390 --> 00:02:42,810
+Like the output and input sample rates
+
+64
+00:02:42,810 --> 00:02:46,270
+These are all the elements we need in this framework, right?
+
+65
+00:02:46,270 --> 00:02:49,740
+We'll put all these in the equivalent of a chicken rib section.
+
+66
+00:02:49,740 --> 00:02:52,460
+Then, these are some items we'll be using shortly.
+
+67
+00:02:52,460 --> 00:02:55,100
+We define and place them here.
+
+68
+00:02:55,380 --> 00:02:59,780
+Then let's add a bit of image verification.
+
+69
+00:03:25,420 --> 00:03:26,860
+Alright, let's organize the header folder.
+
+70
+00:03:26,860 --> 00:03:27,800
+No errors, good.
+
+71
+00:03:27,800 --> 00:03:29,480
+Let's move on.
+
+72
+00:03:29,480 --> 00:03:34,719
+We need to declare the private member functions.
+
+73
+00:03:34,719 --> 00:03:37,710
+Let's add this member function.
+
+74
+00:03:37,710 --> 00:03:41,010
+This member function includes a few parts.
+
+75
+00:03:41,010 --> 00:03:43,150
+One is its initialization.
+
+76
+00:03:43,150 --> 00:03:45,980
+Then there's this section.
+
+77
+00:03:45,980 --> 00:03:47,420
+And then there's this part.
+
+78
+00:03:47,420 --> 00:03:50,729
+These three sections of the member function.
+
+79
+00:03:50,729 --> 00:03:53,870
+We'll place them in the specific implementation area.
+
+80
+00:03:53,870 --> 00:03:56,510
+We'll put this in the private members section.
+
+81
+00:03:56,510 --> 00:03:59,230
+Because we're calling it internally.
+
+82
+00:03:59,230 --> 00:04:01,959
+These functions are all called internally.
+
+83
+00:04:02,119 --> 00:04:03,359
+We don't need to make them public.
+
+84
+00:04:03,359 --> 00:04:05,479
+Because this is an internal implementation.
+
+85
+00:04:05,479 --> 00:04:06,859
+We don't need to expose it externally.
+
+86
+00:04:06,859 --> 00:04:08,199
+We can just put it in here.
+
+87
+00:04:08,199 --> 00:04:09,279
+Only within its internal scope.
+
+88
+00:04:09,279 --> 00:04:11,560
+Each one is different.
+
+89
+00:04:11,560 --> 00:04:13,140
+It's like within your framework.
+
+90
+00:04:13,140 --> 00:04:15,120
+This is the specific hardware implementation layer.
+
+91
+00:04:15,120 --> 00:04:17,300
+So, you'll use a different piece of hardware next time, right?
+
+92
+00:04:17,300 --> 00:04:18,380
+They are all different.
+
+93
+00:04:18,380 --> 00:04:20,969
+That's why it's placed at the specific implementation level.
+
+94
+00:04:20,969 --> 00:04:24,070
+This private member function will do the job.
+
+95
+00:04:24,070 --> 00:04:24,690
+Then, 
+
+96
+00:04:24,690 --> 00:04:28,290
+This involves initializing the I2C channels.
+
+97
+00:04:28,290 --> 00:04:29,330
+We covered this before.
+
+98
+00:04:29,330 --> 00:04:30,700
+It's in this section.
+
+99
+00:04:30,700 --> 00:04:34,110
+It has been initialized here.
+
+100
+00:04:34,110 --> 00:04:35,550
+This one has been initialized.
+
+101
+00:04:35,550 --> 00:04:37,710
+And all of these have also been initialized.
+
+102
+00:04:37,710 --> 00:04:38,750
+So, we are now refactoring.
+
+103
+00:04:38,750 --> 00:04:40,510
+I won't go into the details here.
+
+104
+00:04:40,510 --> 00:04:42,500
+There is such a thing.
+
+105
+00:04:42,500 --> 00:04:45,340
+It initializes an IPNS channel.
+
+106
+00:04:45,340 --> 00:04:47,560
+Then it creates two handles.
+
+107
+00:04:47,560 --> 00:04:50,610
+These two handles will be used subsequently.
+
+108
+00:04:50,610 --> 00:04:51,330
+And
+
+109
+00:04:51,330 --> 00:04:54,850
+And then we need to initialize the ES8311 chip.
+
+110
+00:04:54,850 --> 00:04:58,600
+Because we need to use it on this platform.
+
+111
+00:04:58,600 --> 00:05:00,080
+So, we have to initialize it.
+
+112
+00:05:00,080 --> 00:05:03,400
+Also, the 7210 chip needs to be initialized as well.
+
+113
+00:05:03,400 --> 00:05:04,800
+This is right here.
+
+114
+00:05:04,800 --> 00:05:07,650
+There are three parts in here.
+
+115
+00:05:07,650 --> 00:05:08,890
+This is for the 7210.
+
+116
+00:05:08,890 --> 00:05:10,390
+And this is for the 8311.
+
+117
+00:05:10,390 --> 00:05:13,090
+Initializing it will generate this handle.
+
+118
+00:05:13,090 --> 00:05:16,230
+Finally, let's create this object here.
+
+119
+00:05:16,230 --> 00:05:19,140
+We'll minimize this.
+
+120
+00:05:20,180 --> 00:05:22,740
+Then let's add this image file.
+
+121
+00:05:25,560 --> 00:05:30,320
+Alright, let's implement these three member functions.
+
+122
+00:05:30,320 --> 00:05:31,420
+We'll implement them here.
+
+123
+00:05:31,420 --> 00:05:33,320
+Let's copy it over.
+
+124
+00:05:40,200 --> 00:05:42,060
+So, let's take a closer look.
+
+125
+00:05:42,060 --> 00:05:43,080
+Let's have a general look.
+
+126
+00:05:43,080 --> 00:05:45,320
+We covered this in the previous sections.
+
+127
+00:05:45,320 --> 00:05:47,159
+I won't go into the details.
+
+128
+00:05:47,159 --> 00:05:50,320
+Let's add this header.
+
+129
+00:06:03,000 --> 00:06:07,640
+Here, it's like we've created two handles for it.
+
+130
+00:06:07,640 --> 00:06:10,040
+We'll be using these handles next.
+
+131
+00:06:10,040 --> 00:06:11,560
+We've also created them in the previous section.
+
+132
+00:06:11,560 --> 00:06:12,800
+We won't go into the details here.
+
+133
+00:06:12,800 --> 00:06:13,340
+Fold it up.
+
+134
+00:06:13,340 --> 00:06:16,240
+Then, this part initializes the 8311.
+
+135
+00:06:16,240 --> 00:06:17,080
+This chip.
+
+136
+00:06:17,080 --> 00:06:18,820
+Then let's take a look at the parameter passing.
+
+137
+00:06:18,820 --> 00:06:22,440
+The first parameter is the IFC polymer.
+
+138
+00:06:22,440 --> 00:06:25,210
+This is initialized in the upper layer.
+
+139
+00:06:25,210 --> 00:06:26,570
+We just need to use it here.
+
+140
+00:06:26,570 --> 00:06:28,930
+Specifically, in the upper layer, you need to initialize whichever one you're using.
+
+141
+00:06:28,930 --> 00:06:30,430
+IFC, right?
+
+142
+00:06:30,430 --> 00:06:34,230
+Also, the IFC port is passed in here.
+
+143
+00:06:34,230 --> 00:06:36,510
+And this is where its address is specified.
+
+144
+00:06:36,510 --> 00:06:38,430
+The address is also configured by the hardware.
+
+145
+00:06:38,430 --> 00:06:39,750
+The address might be different, right?
+
+146
+00:06:39,750 --> 00:06:41,750
+This IPHONEC address usually refers to this type of chip, right?
+
+147
+00:06:41,750 --> 00:06:44,100
+It typically includes some wide-angle settings for configuration.
+
+148
+00:06:44,100 --> 00:06:45,820
+In our case, we don't specify it.
+
+149
+00:06:45,820 --> 00:06:48,760
+I'm not unaware of what your address is, you know.
+
+150
+00:06:48,760 --> 00:06:51,610
+This is determined by the development board.
+
+151
+00:06:51,610 --> 00:06:53,870
+We'll create a layer for the development board when the time comes.
+
+152
+00:06:53,870 --> 00:06:55,570
+We'll handle that part.
+
+153
+00:06:55,570 --> 00:06:58,309
+And this is the sound effect of its amplifier gear.
+
+154
+00:06:58,309 --> 00:07:01,469
+Then, we need to check if the amplifier gear is set to reverse.
+
+155
+00:07:01,469 --> 00:07:04,390
+That is, whether it triggers on a high level or a low current frequency.
+
+156
+00:07:04,390 --> 00:07:05,870
+This needs to be confirmed.
+
+157
+00:07:05,870 --> 00:07:10,129
+If it’s false, it means it triggers on a high level, which is non-inverted.
+
+158
+00:07:10,129 --> 00:07:11,489
+If it’s inverted,
+
+159
+00:07:11,489 --> 00:07:12,709
+it means the signal is inverted.
+
+160
+00:07:12,709 --> 00:07:14,940
+So, you would be triggering on a relatively low level.
+
+161
+00:07:14,940 --> 00:07:19,660
+Now, let’s add the header file here.
+
+162
+00:07:20,250 --> 00:07:21,370
+Let’s take a look at this.
+
+163
+00:07:21,370 --> 00:07:23,570
+So we passed in
+
+164
+00:07:23,570 --> 00:07:26,210
+we passed in this port
+
+165
+00:07:26,210 --> 00:07:28,620
+the port of IPHONEC
+
+166
+00:07:28,620 --> 00:07:29,700
+along with its address
+
+167
+00:07:29,700 --> 00:07:31,060
+and its handle
+
+168
+00:07:31,060 --> 00:07:32,490
+the handle of IPHONEC
+
+169
+00:07:32,490 --> 00:07:33,730
+here it creates a
+
+170
+00:07:33,730 --> 00:07:35,410
+this is also part of the framework
+
+171
+00:07:35,410 --> 00:07:36,670
+this is within the framework
+
+172
+00:07:36,670 --> 00:07:38,240
+He created this control.
+
+173
+00:07:38,240 --> 00:07:41,920
+Then he placed it inside here.
+
+174
+00:07:41,920 --> 00:07:45,830
+Then here, he created a GPIO operation.
+
+175
+00:07:46,070 --> 00:07:49,850
+The creation of the GPIO operation is for internal use.
+
+176
+00:07:49,850 --> 00:07:51,650
+We didn't just pass this, right?
+
+177
+00:07:51,650 --> 00:07:55,690
+Did we only pass the wide-angle feature?
+
+178
+00:07:55,690 --> 00:07:57,330
+He needs to configure the wide-angle feature.
+
+179
+00:07:57,330 --> 00:07:58,610
+To specifically operate the wide-angle feature.
+
+180
+00:07:58,610 --> 00:08:00,650
+So he needs to instantiate this.
+
+181
+00:08:00,650 --> 00:08:02,060
+Then we pass it in
+
+182
+00:08:02,060 --> 00:08:03,580
+We just need to send it there
+
+183
+00:08:03,580 --> 00:08:04,660
+For this mode
+
+184
+00:08:04,660 --> 00:08:07,010
+The first one is 8311
+
+185
+00:08:07,010 --> 00:08:09,350
+We only use its audio output here
+
+186
+00:08:09,350 --> 00:08:10,890
+That is, the DAC
+
+187
+00:08:10,890 --> 00:08:14,070
+The ADC is not used
+
+188
+00:08:14,070 --> 00:08:15,570
+If you also use the ADC
+
+189
+00:08:15,570 --> 00:08:16,430
+Then you configure this
+
+190
+00:08:16,430 --> 00:08:19,209
+This module uses both ADC and DAC.
+
+191
+00:08:19,209 --> 00:08:21,349
+But here we only use the DAC.
+
+192
+00:08:21,349 --> 00:08:22,709
+That is, the page output.
+
+193
+00:08:22,709 --> 00:08:24,809
+Then, it gets passed in here.
+
+194
+00:08:24,809 --> 00:08:27,650
+This one also gets passed in.
+
+195
+00:08:27,650 --> 00:08:29,629
+When I use it,
+
+196
+00:08:29,629 --> 00:08:31,909
+I don’t know how your board is configured, right?
+
+197
+00:08:31,909 --> 00:08:34,308
+You also used a transistor to perform the conversion.
+
+198
+00:08:34,308 --> 00:08:34,948
+After the conversion.
+
+199
+00:08:34,948 --> 00:08:37,750
+You might have reversed the logic battery.
+
+200
+00:08:37,750 --> 00:08:40,190
+In that case, I wouldn’t know.
+
+201
+00:08:40,190 --> 00:08:42,030
+I just need you to pass it in here.
+
+202
+00:08:42,030 --> 00:08:43,089
+You’ll make the decision when the time comes.
+
+203
+00:08:43,089 --> 00:08:46,249
+Then, configure this part, um,
+
+204
+00:08:46,249 --> 00:08:49,040
+Create one for 8311, ah,
+
+205
+00:08:49,040 --> 00:08:50,660
+Then we’ll pass this in.
+
+206
+00:08:50,660 --> 00:08:53,180
+That will instantiate the device object.
+
+207
+00:08:53,180 --> 00:08:54,580
+This is the abstract layer.
+
+208
+00:08:54,580 --> 00:08:57,630
+So we'll ultimately be implementing this.
+
+209
+00:08:57,630 --> 00:08:58,870
+Because within this framework,
+
+210
+00:08:58,870 --> 00:09:01,310
+we can directly use this component.
+
+211
+00:09:01,310 --> 00:09:03,690
+This is for the purpose of abstraction.
+
+212
+00:09:03,690 --> 00:09:06,970
+Then, this is equivalent to 148311.
+
+213
+00:09:06,970 --> 00:09:09,890
+The audio output has been abstracted out.
+
+214
+00:09:09,890 --> 00:09:12,710
+Then we'll abstract the ES7210 as well.
+
+215
+00:09:12,710 --> 00:09:14,610
+The abstraction process is the same for this one too.
+
+216
+00:09:14,610 --> 00:09:17,400
+Similarly, for the IPHONEC control.
+
+217
+00:09:17,400 --> 00:09:20,300
+Configure the control for the IPHONEC
+
+218
+00:09:20,300 --> 00:09:21,160
+This handle
+
+219
+00:09:21,160 --> 00:09:25,490
+Then we also pass in 7210
+
+220
+00:09:25,490 --> 00:09:26,510
+The IFC address
+
+221
+00:09:26,510 --> 00:09:27,370
+Pass it in
+
+222
+00:09:27,370 --> 00:09:31,430
+Then let's set this up.
+
+223
+00:09:31,430 --> 00:09:34,450
+Its microphone
+
+224
+00:09:34,450 --> 00:09:35,790
+For the microphone here
+
+225
+00:09:35,790 --> 00:09:39,190
+We can actually select three options
+
+226
+00:09:39,190 --> 00:09:41,920
+In the end, we didn't take the fourth one.
+
+227
+00:09:42,240 --> 00:09:43,680
+And this place is the same.
+
+228
+00:09:43,680 --> 00:09:46,260
+We input its type here.
+
+229
+00:09:46,260 --> 00:09:49,030
+It's a type of input state.
+
+230
+00:09:49,030 --> 00:09:52,210
+Then, we pass in an instance of the same here.
+
+231
+00:09:52,210 --> 00:09:56,350
+This is an instance of the abstract layer.
+
+232
+00:09:56,350 --> 00:09:58,350
+We instantiate it as an abstract layer.
+
+233
+00:09:58,350 --> 00:10:00,800
+Then, these three.
+
+234
+00:10:00,800 --> 00:10:02,460
+Should we call it here?
+
+235
+00:10:02,460 --> 00:10:03,140
+How do you call it?
+
+236
+00:10:03,140 --> 00:10:04,980
+First, here, the first time
+
+237
+00:10:04,980 --> 00:10:06,670
+The first call will definitely be to it, right?
+
+238
+00:10:06,670 --> 00:10:07,430
+Call it directly.
+
+239
+00:10:07,430 --> 00:10:08,850
+Pass this inside.
+
+240
+00:10:08,850 --> 00:10:10,090
+It will generate the handle.
+
+241
+00:10:10,090 --> 00:10:12,370
+Then we can use the handle, right?
+
+242
+00:10:12,370 --> 00:10:15,270
+And here, 8311
+
+243
+00:10:15,270 --> 00:10:16,470
+Inside here
+
+244
+00:10:16,470 --> 00:10:17,810
+Let's use this IFC here
+
+245
+00:10:17,810 --> 00:10:20,450
+Actually, we can pass it in here as well
+
+246
+00:10:20,450 --> 00:10:21,920
+Let's pass it here
+
+247
+00:10:21,920 --> 00:10:22,960
+For this AFC
+
+248
+00:10:22,960 --> 00:10:24,780
+We'll use this to pass it in
+
+249
+00:10:24,780 --> 00:10:25,680
+When instantiating
+
+250
+00:10:25,680 --> 00:10:27,600
+We'll pass it in here
+
+251
+00:10:28,460 --> 00:10:32,940
+This is the IFC
+
+252
+00:10:37,300 --> 00:10:38,620
+Let's pass it in this way
+
+253
+00:10:38,620 --> 00:10:41,260
+Then we'll pass this here.
+
+254
+00:10:41,260 --> 00:10:45,160
+And also, there's this 7311.
+
+255
+00:10:45,160 --> 00:10:46,410
+7210, that's it.
+
+256
+00:10:46,410 --> 00:10:48,450
+This one is the same as well.
+
+257
+00:10:48,450 --> 00:10:49,310
+We need to pass this in.
+
+258
+00:10:49,310 --> 00:10:52,410
+In this area, we have another thing to look at.
+
+259
+00:10:52,410 --> 00:10:55,410
+Here, we used a certain tool.
+
+260
+00:10:55,410 --> 00:10:59,270
+We used this, but we haven't initialized it yet.
+
+261
+00:10:59,270 --> 00:11:04,470
+This is where we discussed generating the data interface.
+
+262
+00:11:04,470 --> 00:11:04,990
+The handle
+
+263
+00:11:04,990 --> 00:11:07,310
+we call it to generate
+
+264
+00:11:07,310 --> 00:11:08,150
+So, for this
+
+265
+00:11:08,150 --> 00:11:12,430
+we need to initialize it here
+
+266
+00:11:12,430 --> 00:11:13,630
+generate this
+
+267
+00:11:13,630 --> 00:11:17,860
+where do we write this in here
+
+268
+00:11:17,860 --> 00:11:21,240
+because this is like between them
+
+269
+00:11:21,240 --> 00:11:23,560
+we can just write it here
+
+270
+00:11:25,560 --> 00:11:30,010
+we write this here to call this, right
+
+271
+00:11:30,010 --> 00:11:31,010
+Call this function
+
+272
+00:11:31,010 --> 00:11:32,560
+This function, right?
+
+273
+00:11:32,560 --> 00:11:34,980
+Create a channel for this data
+
+274
+00:11:34,980 --> 00:11:38,650
+We set this as a sending channel
+
+275
+00:11:38,650 --> 00:11:40,110
+One for receiving and one for sending
+
+276
+00:11:40,110 --> 00:11:43,190
+And we use IFS number 0
+
+277
+00:11:43,190 --> 00:11:44,930
+After it's created
+
+278
+00:11:44,930 --> 00:11:46,370
+We can use it here
+
+279
+00:11:46,370 --> 00:11:48,079
+It can be used internally
+
+280
+00:11:48,079 --> 00:11:50,659
+This is the entire process.
+
+281
+00:11:50,659 --> 00:11:52,239
+That completes the initialization.
+
+282
+00:11:52,239 --> 00:11:53,589
+Let's take a look.
+
+283
+00:11:53,589 --> 00:11:57,429
+Next, we need to make a change here.
+
+284
+00:11:57,429 --> 00:11:59,229
+We added an extra parameter just now.
+
+285
+00:11:59,229 --> 00:12:02,549
+We'll move this parameter to the header file.
+
+286
+00:12:03,390 --> 00:12:06,070
+Let's add one here.
+
+287
+00:12:06,070 --> 00:12:07,630
+That should do it.
+
+288
+00:12:10,360 --> 00:12:11,720
+Now, let's check it out.
+
+289
+00:12:11,720 --> 00:12:14,440
+What else is in here?
+
+290
+00:12:15,220 --> 00:12:16,020
+Ah.
+
+291
+00:12:16,020 --> 00:12:16,940
+In that case,
+
+292
+00:12:16,940 --> 00:12:20,020
+we're essentially dealing with this kind of combination,
+
+293
+00:12:20,020 --> 00:12:21,560
+this audio input and output,
+
+294
+00:12:21,560 --> 00:12:24,980
+which addresses its underlying structure, right?
+
+295
+00:12:24,980 --> 00:12:26,960
+We pass the constructor function in,
+
+296
+00:12:26,960 --> 00:12:28,100
+and then we proceed like this,
+
+297
+00:12:28,100 --> 00:12:29,440
+then let's take a look at what we have here.
+
+298
+00:12:29,440 --> 00:12:30,120
+There's one more thing
+
+299
+00:12:30,120 --> 00:12:33,800
+which is, we're here
+
+300
+00:12:35,260 --> 00:12:38,340
+here we're using a sampling rate, right
+
+301
+00:12:38,340 --> 00:12:39,540
+let me check
+
+302
+00:12:39,540 --> 00:12:41,580
+this should be here
+
+303
+00:12:43,520 --> 00:12:44,840
+the sampling rate, correct
+
+304
+00:12:44,840 --> 00:12:45,880
+regarding the sampling rate
+
+305
+00:12:45,880 --> 00:12:47,160
+we only defined it here
+
+306
+00:12:47,160 --> 00:12:48,480
+but haven't initialized it
+
+307
+00:12:48,480 --> 00:12:49,400
+how do we initialize it
+
+308
+00:12:49,400 --> 00:12:52,530
+we need to pass this in, right
+
+309
+00:12:52,530 --> 00:12:54,030
+in the constructor, right
+
+310
+00:12:54,030 --> 00:12:56,490
+we pass it in the constructor
+
+311
+00:12:56,490 --> 00:13:00,349
+so we need to add this here
+
+312
+00:13:00,709 --> 00:13:02,449
+use this, right
+
+313
+00:13:02,449 --> 00:13:04,789
+this operation to
+
+314
+00:13:07,940 --> 00:13:09,460
+output the sampling rate
+
+315
+00:13:09,460 --> 00:13:11,620
+also add it in
+
+316
+00:13:11,620 --> 00:13:12,900
+this is what we pass in, right
+
+317
+00:13:12,900 --> 00:13:14,650
+this and this, right
+
+318
+00:13:14,650 --> 00:13:16,430
+and the other parameters are used, right
+
+319
+00:13:16,430 --> 00:13:17,630
+the other parameters are all used
+
+320
+00:13:17,630 --> 00:13:18,370
+just these two parameters
+
+321
+00:13:18,370 --> 00:13:20,930
+we need to move this up here first
+
+322
+00:13:20,930 --> 00:13:22,790
+so we can use it inside, right
+
+323
+00:13:22,790 --> 00:13:24,550
+otherwise, you haven't initialized it, right
+
+324
+00:13:24,550 --> 00:13:26,530
+I haven't set it up yet
+
+325
+00:13:26,530 --> 00:13:29,300
+this needs to be added
+
+326
+00:13:29,740 --> 00:13:32,120
+we'll cover the rest in the next class
+
+327
+00:13:32,120 --> 00:13:34,780
+so in this class, we'll get these initializations done
+
+328
+00:13:34,780 --> 00:13:36,840
+in the next class, we'll specifically cover these
+
+329
+00:13:36,840 --> 00:13:40,379
+the audio output
+
+330
+00:13:40,379 --> 00:13:42,919
+audio input, reading and outputting audio
+
+331
+00:13:42,919 --> 00:13:43,899
+playing audio
+
+332
+00:13:43,899 --> 00:13:45,159
+and also the gears
+
+333
+00:13:45,159 --> 00:13:47,750
+let's write these down
+
+334
+00:13:48,790 --> 00:13:49,820
+that's it for this class
+

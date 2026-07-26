@@ -1,0 +1,1856 @@
+1
+00:00:01,060 --> 00:00:04,000
+Alright, in this lesson, we'll talk about refactoring the WiFi code.
+
+2
+00:00:04,000 --> 00:00:06,500
+Previously, our WiFi setup was quite simple.
+
+3
+00:00:06,500 --> 00:00:08,140
+We just went into the configuration.
+
+4
+00:00:08,140 --> 00:00:10,359
+Or rather, the network connection.
+
+5
+00:00:10,359 --> 00:00:12,659
+Connecting to WiFi was done rather casually.
+
+6
+00:00:12,659 --> 00:00:15,319
+In this lesson, we'll refactor this code.
+
+7
+00:00:15,319 --> 00:00:16,120
+We'll standardize it.
+
+8
+00:00:16,120 --> 00:00:18,080
+And this involves an event group.
+
+9
+00:00:18,080 --> 00:00:19,720
+I'll explain the event group later on.
+
+10
+00:00:19,720 --> 00:00:22,520
+Let's go through this step by step.
+
+11
+00:00:23,539 --> 00:00:25,279
+First, let's take a look at this code.
+
+12
+00:00:25,279 --> 00:00:28,659
+Previously, we started the network here, right?
+
+13
+00:00:28,659 --> 00:00:29,659
+Regarding the network startup,
+
+14
+00:00:29,659 --> 00:00:31,300
+we didn't consider the network configuration.
+
+15
+00:00:31,300 --> 00:00:33,340
+We should configure the network here as well.
+
+16
+00:00:33,340 --> 00:00:34,060
+That wouldn't be ideal.
+
+17
+00:00:34,060 --> 00:00:37,360
+Because this is where the business logic-related code is.
+
+18
+00:00:37,360 --> 00:00:39,580
+For each feature, it shouldn't be so complicated.
+
+19
+00:00:39,580 --> 00:00:40,460
+I just use the network
+
+20
+00:00:40,460 --> 00:00:42,940
+I just call a function to connect to the network
+
+21
+00:00:42,940 --> 00:00:44,860
+Whether your network needs configuration or not
+
+22
+00:00:44,860 --> 00:00:46,480
+is all your internal matter
+
+23
+00:00:46,480 --> 00:00:48,220
+Don’t complicate the business logic
+
+24
+00:00:48,220 --> 00:00:49,840
+Don’t make the business logic too complex
+
+25
+00:00:49,840 --> 00:00:52,080
+So we put this feature code here
+
+26
+00:00:52,080 --> 00:00:55,740
+Then we can access the network configuration here
+
+27
+00:00:55,740 --> 00:00:56,760
+Right here
+
+28
+00:00:56,760 --> 00:00:58,360
+We don't need this network configuration anymore.
+
+29
+00:00:58,360 --> 00:00:59,480
+We don't need to call it externally.
+
+30
+00:00:59,480 --> 00:01:00,660
+Let's just delete it.
+
+31
+00:01:00,660 --> 00:01:02,560
+Then we'll modify what's inside.
+
+32
+00:01:02,560 --> 00:01:04,540
+Instead of overriding this method,
+
+33
+00:01:04,540 --> 00:01:07,200
+we'll change it to a private method.
+
+34
+00:01:07,200 --> 00:01:08,960
+It still needs to use the network configuration internally,
+
+35
+00:01:08,960 --> 00:01:10,900
+so making it a private method is fine.
+
+36
+00:01:10,900 --> 00:01:15,020
+Then we'll compile it.
+
+37
+00:01:15,020 --> 00:01:16,280
+Make sure it doesn’t throw any errors
+
+38
+00:01:16,280 --> 00:01:19,260
+Then we need to modify this part
+
+39
+00:01:19,260 --> 00:01:20,820
+The event group section
+
+40
+00:01:20,820 --> 00:01:23,060
+Let’s create the event group
+
+41
+00:01:26,300 --> 00:01:27,600
+I’ll compile it first
+
+42
+00:01:27,600 --> 00:01:29,340
+Make sure there are no errors
+
+43
+00:01:30,220 --> 00:01:31,740
+Good, no errors here
+
+44
+00:01:31,740 --> 00:01:33,260
+Then we’ll create an event group
+
+45
+00:01:33,260 --> 00:01:36,220
+This event group is used internally within our WIFI
+
+46
+00:01:36,220 --> 00:01:39,270
+So we create it as a private member.
+
+47
+00:01:39,270 --> 00:01:43,080
+Then, I'll just copy this time group over.
+
+48
+00:01:44,160 --> 00:01:46,880
+Here's a new concept for you.
+
+49
+00:01:46,880 --> 00:01:48,120
+This event group, you see,
+
+50
+00:01:48,120 --> 00:01:51,440
+we will be waiting in this event.
+
+51
+00:01:51,440 --> 00:01:53,780
+If we're waiting for one of them,
+
+52
+00:01:53,780 --> 00:01:55,720
+this event group has multiple entries, you know.
+
+53
+00:01:55,720 --> 00:01:56,700
+Let's take a look.
+
+54
+00:01:56,700 --> 00:02:00,940
+So in here, we have this one.
+
+55
+00:02:01,130 --> 00:02:02,210
+Let's take a final look.
+
+56
+00:02:02,210 --> 00:02:03,670
+This is a UINT32.
+
+57
+00:02:03,670 --> 00:02:06,610
+There are many bits, 32 bits for 32 events.
+
+58
+00:02:06,610 --> 00:02:07,770
+You can wait for 32 events.
+
+59
+00:02:07,770 --> 00:02:10,818
+That's why it's called an event group.
+
+60
+00:02:10,818 --> 00:02:12,719
+Because it's a group, right?
+
+61
+00:02:12,719 --> 00:02:16,539
+The event group can, uh, have many settings.
+
+62
+00:02:16,539 --> 00:02:18,600
+If we use a specific bit,
+
+63
+00:02:18,600 --> 00:02:21,019
+we just wait for that specific bit.
+
+64
+00:02:21,019 --> 00:02:23,019
+Then, at this point
+
+65
+00:02:23,019 --> 00:02:26,419
+we create, or rather, declare an event group here
+
+66
+00:02:26,419 --> 00:02:28,350
+and let's proceed with the creation
+
+67
+00:02:28,350 --> 00:02:28,990
+for the creation process
+
+68
+00:02:28,990 --> 00:02:33,270
+we will create it inside this constructor
+
+69
+00:02:33,270 --> 00:02:39,019
+we will create the event group within the constructor
+
+70
+00:02:39,019 --> 00:02:40,799
+once the event group is created
+
+71
+00:02:40,799 --> 00:02:42,359
+we need to release it in the destructor
+
+72
+00:02:42,359 --> 00:02:45,000
+to ensure it's properly deallocated
+
+73
+00:02:45,000 --> 00:02:48,320
+In the constructor, we need to release this event group.
+
+74
+00:02:48,320 --> 00:02:50,080
+Copy it over.
+
+75
+00:02:55,040 --> 00:02:57,140
+This is for deletion.
+
+76
+00:02:57,140 --> 00:02:59,190
+Delete it using delete.
+
+77
+00:02:59,190 --> 00:03:00,350
+You don't need to remember this.
+
+78
+00:03:00,350 --> 00:03:02,150
+This is about event group operations.
+
+79
+00:03:02,150 --> 00:03:05,470
+These all fall under the mechanisms of RTOS.
+
+80
+00:03:05,470 --> 00:03:09,010
+After creating the event group,
+
+81
+00:03:09,010 --> 00:03:13,130
+we also need to create a flag for it.
+
+82
+00:03:13,130 --> 00:03:14,170
+We just talked about
+
+83
+00:03:14,170 --> 00:03:15,110
+it has 32 bits
+
+84
+00:03:15,110 --> 00:03:16,010
+with 32 bits
+
+85
+00:03:16,010 --> 00:03:19,070
+we put the flag bit in here
+
+86
+00:03:19,070 --> 00:03:20,390
+we define
+
+87
+00:03:20,390 --> 00:03:21,810
+this definition with DEFINDER
+
+88
+00:03:21,810 --> 00:03:23,270
+we don't include the header file
+
+89
+00:03:23,270 --> 00:03:26,350
+because including the header file would also pollute this
+
+90
+00:03:26,350 --> 00:03:27,470
+because why is that
+
+91
+00:03:27,470 --> 00:03:29,710
+Since we only use this internally
+
+92
+00:03:29,710 --> 00:03:31,950
+So we can't use it elsewhere, right?
+
+93
+00:03:31,950 --> 00:03:33,670
+We place it in the CPP file
+
+94
+00:03:33,670 --> 00:03:35,130
+rather than the H file
+
+95
+00:03:35,130 --> 00:03:36,750
+because the H file is included by others
+
+96
+00:03:36,750 --> 00:03:38,970
+and it would contaminate other files
+
+97
+00:03:38,970 --> 00:03:42,390
+This is the flag we define
+
+98
+00:03:42,390 --> 00:03:47,690
+This is the icon you tap to follow the zeroth position.
+
+99
+00:03:47,690 --> 00:03:48,730
+It has 32 bits
+
+100
+00:03:48,730 --> 00:03:50,040
+It ranges from 0 to 31
+
+101
+00:03:50,040 --> 00:03:52,240
+Here, we are focusing on the zeroth position.
+
+102
+00:03:52,240 --> 00:03:52,880
+It’s up to you
+
+103
+00:03:52,880 --> 00:03:54,900
+Of course, you can follow whoever you like.
+
+104
+00:03:54,900 --> 00:03:56,440
+However, it only has 32 bits
+
+105
+00:03:56,440 --> 00:03:57,160
+A single event group
+
+106
+00:03:57,160 --> 00:03:58,060
+It has 32 bits
+
+107
+00:03:58,060 --> 00:04:00,020
+We can use it
+
+108
+00:04:00,020 --> 00:04:02,020
+Here, we are talking about the WiFi connection
+
+109
+00:04:02,020 --> 00:04:03,140
+If the Wi-Fi is connected,
+
+110
+00:04:03,140 --> 00:04:05,000
+Let's follow and go to the settings for this V
+
+111
+00:04:05,000 --> 00:04:06,340
+If the Wi-Fi isn't connected,
+
+112
+00:04:06,340 --> 00:04:07,540
+we'll wait for this V.
+
+113
+00:04:07,540 --> 00:04:08,960
+We'll know what to do when we operate it.
+
+114
+00:04:08,960 --> 00:04:10,620
+This definition goes here.
+
+115
+00:04:10,620 --> 00:04:15,380
+Next, we need to handle a callback.
+
+116
+00:04:15,380 --> 00:04:18,200
+We'll deal with the Wi-Fi callback section.
+
+117
+00:04:18,200 --> 00:04:18,899
+How do we handle it?
+
+118
+00:04:18,899 --> 00:04:20,800
+When we registered earlier
+
+119
+00:04:20,800 --> 00:04:22,040
+What is this place?
+
+120
+00:04:22,040 --> 00:04:25,540
+Let's take a look at the registration, which is actually this
+
+121
+00:04:25,540 --> 00:04:28,970
+This is a parameter of the event handler callback function
+
+122
+00:04:28,970 --> 00:04:30,430
+It's one of its parameters
+
+123
+00:04:30,430 --> 00:04:31,550
+We currently have it all empty
+
+124
+00:04:31,550 --> 00:04:34,130
+Because we don't need to use this for now
+
+125
+00:04:34,130 --> 00:04:37,460
+However, we now need to include some actions in this callback function
+
+126
+00:04:37,460 --> 00:04:41,110
+To manipulate our event group
+
+127
+00:04:41,110 --> 00:04:42,450
+And this event group
+
+128
+00:04:42,450 --> 00:04:46,140
+Let's take a look at this callback function, it's static.
+
+129
+00:04:46,140 --> 00:04:47,840
+It's a static method.
+
+130
+00:04:47,840 --> 00:04:49,280
+It can't use
+
+131
+00:04:49,280 --> 00:04:53,960
+the members of our class.
+
+132
+00:04:53,960 --> 00:04:54,880
+These are class members.
+
+133
+00:04:54,880 --> 00:04:56,660
+So we can't directly use these class members here.
+
+134
+00:04:56,660 --> 00:04:58,220
+We can't use these class members in this way.
+
+135
+00:04:58,220 --> 00:05:01,810
+We must pass them in as parameters.
+
+136
+00:05:01,810 --> 00:05:02,670
+How do we pass it in?
+
+137
+00:05:02,670 --> 00:05:04,390
+This is a pointer to a bit.
+
+138
+00:05:04,390 --> 00:05:06,940
+We pass it in like this.
+
+139
+00:05:06,940 --> 00:05:07,580
+Pass it in.
+
+140
+00:05:07,580 --> 00:05:09,420
+Then we can use it inside.
+
+141
+00:05:11,700 --> 00:05:15,780
+Because this callback function is static.
+
+142
+00:05:15,780 --> 00:05:17,880
+It doesn’t have a this pointer.
+
+143
+00:05:17,880 --> 00:05:21,660
+So we can’t use the class inside it.
+
+144
+00:05:21,660 --> 00:05:22,280
+The class members.
+
+145
+00:05:22,280 --> 00:05:23,600
+We pass it directly.
+
+146
+00:05:23,600 --> 00:05:25,780
+Then, how do we use it after passing it in?
+
+147
+00:05:25,780 --> 00:05:29,220
+Here, it’s not being passed in.
+
+148
+00:05:29,220 --> 00:05:30,900
+This is one of its features.
+
+149
+00:05:30,900 --> 00:05:31,760
+In my view,
+
+150
+00:05:31,760 --> 00:05:33,580
+This handler, you see,
+
+151
+00:05:33,580 --> 00:05:35,100
+This is where the parameters are passed in.
+
+152
+00:05:35,100 --> 00:05:36,540
+We’re not using it right now, are we?
+
+153
+00:05:36,540 --> 00:05:37,680
+So, how do we use it?
+
+154
+00:05:37,680 --> 00:05:41,240
+First, let's figure out what the IP is.
+
+155
+00:05:41,240 --> 00:05:42,040
+We've got the IP.
+
+156
+00:05:42,040 --> 00:05:46,469
+Now that we have the IP, it means the connection to the WiFi was successful.
+
+157
+00:05:46,469 --> 00:05:47,469
+And we've obtained the IP.
+
+158
+00:05:47,469 --> 00:05:48,869
+This means the WiFi is working.
+
+159
+00:05:48,869 --> 00:05:50,309
+At this point, we need to do two things.
+
+160
+00:05:50,309 --> 00:05:53,920
+The first thing is to ensure that we don't need to go through the setup process again after a reboot.
+
+161
+00:05:53,920 --> 00:05:56,040
+So, the next time, we won't need to enter the network configuration.
+
+162
+00:05:56,040 --> 00:05:58,290
+Because this WiFi is already set up properly.
+
+163
+00:05:58,290 --> 00:05:59,170
+No need for network configuration
+
+164
+00:05:59,170 --> 00:06:03,450
+So we need to set this flag to indicate
+
+165
+00:06:03,450 --> 00:06:06,830
+that no network configuration is required
+
+166
+00:06:06,830 --> 00:06:07,870
+How do we do that?
+
+167
+00:06:07,870 --> 00:06:09,050
+Previously,
+
+168
+00:06:09,050 --> 00:06:13,220
+in the last class, we discussed the n vs set class, right?
+
+169
+00:06:13,220 --> 00:06:16,540
+Settings
+
+170
+00:06:16,540 --> 00:06:23,330
+Of course, we need to reconstruct this part
+
+171
+00:06:23,330 --> 00:06:25,470
+and include the header file
+
+172
+00:06:25,470 --> 00:06:29,530
+Then I'll just copy these over.
+
+173
+00:06:31,300 --> 00:06:32,540
+Writing is too slow.
+
+174
+00:06:32,540 --> 00:06:39,900
+So the first thing we need to do is to open this, um,
+
+175
+00:06:39,900 --> 00:06:41,000
+Namespace,
+
+176
+00:06:41,000 --> 00:06:42,300
+That is, the namespace
+
+177
+00:06:42,300 --> 00:06:43,620
+the namespace of WIFI
+
+178
+00:06:43,620 --> 00:06:46,630
+and this one is writable,
+
+179
+00:06:46,630 --> 00:06:47,990
+both readable and writable,
+
+180
+00:06:47,990 --> 00:06:48,850
+readable and writable.
+
+181
+00:06:48,850 --> 00:06:55,230
+Then, let's go to the settings and set this key, shall we?
+
+182
+00:06:55,230 --> 00:06:58,630
+This key determines whether the Wi-Fi should enter the network configuration mode.
+
+183
+00:06:58,630 --> 00:07:00,670
+We reset this key to zero.
+
+184
+00:07:00,670 --> 00:07:01,110
+Reset it to zero.
+
+185
+00:07:01,110 --> 00:07:03,650
+So, the next time we retrieve it, if it equals zero,
+
+186
+00:07:03,650 --> 00:07:05,909
+we don't need to go through the network configuration again.
+
+187
+00:07:05,909 --> 00:07:07,909
+That's the first thing.
+
+188
+00:07:07,909 --> 00:07:08,869
+The second thing is,
+
+189
+00:07:08,869 --> 00:07:13,459
+we enter the network configuration mode.
+
+190
+00:07:13,459 --> 00:07:15,339
+Let's go ahead and connect to this Wi-Fi.
+
+191
+00:07:15,339 --> 00:07:17,470
+We'll need to wait for it to succeed.
+
+192
+00:07:17,470 --> 00:07:19,470
+Now that we've succeeded.
+
+193
+00:07:19,470 --> 00:07:21,430
+Should we go to the settings?
+
+194
+00:07:21,430 --> 00:07:23,830
+The event flag we mentioned earlier.
+
+195
+00:07:23,830 --> 00:07:26,860
+It's one of the flags in the event group.
+
+196
+00:07:26,860 --> 00:07:28,040
+So, how do we set it up?
+
+197
+00:07:28,040 --> 00:07:32,229
+We'll set these two icons here.
+
+198
+00:07:33,789 --> 00:07:34,629
+Let's take a look.
+
+199
+00:07:34,629 --> 00:07:39,610
+First, we need to convert this into an object for us.
+
+200
+00:07:39,610 --> 00:07:41,850
+We just passed all the required parameters.
+
+201
+00:07:41,850 --> 00:07:43,450
+Because we need to set the pointer.
+
+202
+00:07:43,450 --> 00:07:46,650
+You can pass any type of these parameters.
+
+203
+00:07:46,650 --> 00:07:48,590
+But here we need to do a strong cast.
+
+204
+00:07:48,590 --> 00:07:52,250
+That is, to cast it into the event group.
+
+205
+00:07:52,250 --> 00:07:54,210
+We need to convert it into an event group object.
+
+206
+00:07:54,210 --> 00:07:58,850
+Then we will set this particular position in the object.
+
+207
+00:07:58,850 --> 00:08:02,930
+Call one of its functions to make a setting
+
+208
+00:08:02,930 --> 00:08:05,379
+This one indicates that the Bluetooth configuration was successful.
+
+209
+00:08:05,379 --> 00:08:07,279
+And this one shows that the Wi-Fi connection was successful.
+
+210
+00:08:07,279 --> 00:08:09,159
+Both of them have set it up.
+
+211
+00:08:09,159 --> 00:08:10,460
+Set both of these up
+
+212
+00:08:10,460 --> 00:08:12,660
+Actually, we'll go over this in more detail after we finish writing.
+
+213
+00:08:12,660 --> 00:08:14,020
+We'll explain it clearly afterwards.
+
+214
+00:08:14,020 --> 00:08:16,380
+This is when the settings were successfully configured.
+
+215
+00:08:16,380 --> 00:08:17,640
+So how do we wait for it?
+
+216
+00:08:17,640 --> 00:08:22,970
+We need to rewrite this method.
+
+217
+00:08:22,970 --> 00:08:25,150
+We just talked about this here, right?
+
+218
+00:08:25,150 --> 00:08:26,030
+This method, correct?
+
+219
+00:08:26,030 --> 00:08:28,630
+Now this method directly enters the WiFi connection.
+
+220
+00:08:28,630 --> 00:08:31,910
+So we should manage the connection here.
+
+221
+00:08:31,910 --> 00:08:35,309
+And the logic for entering the network configuration.
+
+222
+00:08:35,309 --> 00:08:36,289
+We'll implement it here.
+
+223
+00:08:36,289 --> 00:08:37,730
+Let's rewrite this method.
+
+224
+00:08:37,730 --> 00:08:39,120
+Copy this over.
+
+225
+00:08:39,120 --> 00:08:41,339
+Let's see how it works.
+
+226
+00:08:41,899 --> 00:08:45,059
+First, this is our
+
+227
+00:08:45,059 --> 00:08:45,779
+Let me check
+
+228
+00:08:45,779 --> 00:08:46,899
+Regarding this part
+
+229
+00:08:46,899 --> 00:08:48,059
+Actually
+
+230
+00:08:49,860 --> 00:08:53,139
+You can also set a variable for a member.
+
+231
+00:08:53,139 --> 00:08:54,619
+It's also fine not to set member variables.
+
+232
+00:08:54,619 --> 00:08:56,599
+This actually doesn't require setting member variables.
+
+233
+00:08:56,599 --> 00:08:58,139
+I won't set member variables.
+
+234
+00:08:58,139 --> 00:08:59,930
+I'll just do it here
+
+235
+00:08:59,930 --> 00:09:00,610
+Let's take a look.
+
+236
+00:09:00,610 --> 00:09:02,830
+So, how do we implement this here?
+
+237
+00:09:02,830 --> 00:09:04,550
+Let's just use this directly.
+
+238
+00:09:04,550 --> 00:09:07,060
+We can also use this flag directly.
+
+239
+00:09:07,060 --> 00:09:11,929
+Or, let me check this out.
+
+240
+00:09:11,929 --> 00:09:13,909
+We should define this part as well.
+
+241
+00:09:13,909 --> 00:09:15,589
+Let's define this.
+
+242
+00:09:16,810 --> 00:09:19,350
+But there's no need to define this as a member variable.
+
+243
+00:09:19,350 --> 00:09:22,980
+Just set this to false.
+
+244
+00:09:24,920 --> 00:09:29,120
+Let's define a variable here.
+
+245
+00:09:29,120 --> 00:09:31,360
+It represents whether it has entered the network configuration.
+
+246
+00:09:31,360 --> 00:09:33,640
+Then we get this from the
+
+247
+00:09:34,960 --> 00:09:38,880
+Get this key from the namespace of WIFI
+
+248
+00:09:38,880 --> 00:09:39,400
+This key
+
+249
+00:09:39,400 --> 00:09:42,319
+We just talked about whether it enters the network configuration, right?
+
+250
+00:09:42,319 --> 00:09:43,119
+P, right?
+
+251
+00:09:43,119 --> 00:09:45,740
+Then we pass in a default value.
+
+252
+00:09:45,740 --> 00:09:46,780
+During initialization.
+
+253
+00:09:46,780 --> 00:09:48,360
+That is, when nothing has been set up.
+
+254
+00:09:48,360 --> 00:09:50,160
+It won't be able to retrieve anything here.
+
+255
+00:09:50,160 --> 00:09:52,190
+It will return this default value of one.
+
+256
+00:09:52,190 --> 00:09:53,790
+Then, if you have set it up,
+
+257
+00:09:53,790 --> 00:09:55,150
+So the setting was zero, right?
+
+258
+00:09:55,150 --> 00:09:56,650
+that means there's no need to enter the network configuration.
+
+259
+00:09:56,650 --> 00:09:57,980
+If it's not set up
+
+260
+00:09:57,980 --> 00:09:59,900
+then it's equal to one.
+
+261
+00:09:59,900 --> 00:10:01,160
+So, one is not equal to zero.
+
+262
+00:10:01,160 --> 00:10:02,500
+So if this is set to zero
+
+263
+00:10:02,500 --> 00:10:03,580
+it means there's no need for network configuration
+
+264
+00:10:03,580 --> 00:10:05,520
+so we'll set this to false
+
+265
+00:10:05,520 --> 00:10:08,670
+if this equals, by the way, this is a ternary operator
+
+266
+00:10:08,670 --> 00:10:11,950
+and if this is not equal to zero
+
+267
+00:10:11,950 --> 00:10:13,250
+then it's either one
+
+268
+00:10:13,250 --> 00:10:14,830
+It's either set to one, I guess.
+
+269
+00:10:14,830 --> 00:10:16,649
+or in any case, if it's not zero
+
+270
+00:10:16,649 --> 00:10:17,709
+network configuration is required
+
+271
+00:10:17,709 --> 00:10:19,400
+Let's set this to true
+
+272
+00:10:19,400 --> 00:10:21,280
+Then we'll do a for loop here.
+
+273
+00:10:21,280 --> 00:10:21,980
+Don't loop it.
+
+274
+00:10:21,980 --> 00:10:22,760
+This one shouldn't be looped either.
+
+275
+00:10:22,760 --> 00:10:23,080
+Why is that?
+
+276
+00:10:23,080 --> 00:10:24,960
+Because this feature
+
+277
+00:10:24,960 --> 00:10:29,860
+Many of the voice features rely heavily on the network.
+
+278
+00:10:29,860 --> 00:10:30,700
+If you don't have a network connection,
+
+279
+00:10:30,700 --> 00:10:31,880
+We'll get stuck here.
+
+280
+00:10:31,880 --> 00:10:32,720
+It's fine.
+
+281
+00:10:32,720 --> 00:10:33,740
+Of course there are some.
+
+282
+00:10:33,740 --> 00:10:36,100
+When the time comes, we'll have some additional features.
+
+283
+00:10:36,100 --> 00:10:37,080
+For example, the display.
+
+284
+00:10:37,080 --> 00:10:38,950
+We can call it up here.
+
+285
+00:10:38,950 --> 00:10:41,810
+And everything after this relies on the network.
+
+286
+00:10:41,810 --> 00:10:42,630
+If there's no network,
+
+287
+00:10:42,630 --> 00:10:43,310
+it will get stuck here.
+
+288
+00:10:43,310 --> 00:10:44,050
+It's fine.
+
+289
+00:10:44,050 --> 00:10:46,790
+Then, this essentially blocks the while loop.
+
+290
+00:10:46,790 --> 00:10:49,910
+If it returns true, we
+
+291
+00:10:49,910 --> 00:10:52,170
+essentially need to enter the network configuration mode, right?
+
+292
+00:10:52,170 --> 00:10:53,410
+When entering the network configuration mode,
+
+293
+00:10:53,410 --> 00:10:54,320
+let's print it out.
+
+294
+00:10:54,320 --> 00:10:56,200
+Then, this will enter the network configuration mode.
+
+295
+00:10:56,200 --> 00:10:58,080
+We call the private method we had before.
+
+296
+00:10:58,080 --> 00:10:59,560
+Can we now change it to a private method?
+
+297
+00:10:59,560 --> 00:11:04,180
+Let's check it out.
+
+298
+00:11:04,180 --> 00:11:07,360
+Then, we'll move on to setting this up.
+
+299
+00:11:07,360 --> 00:11:08,460
+To enter the network configuration mode,
+
+300
+00:11:08,460 --> 00:11:11,740
+we'll wait here for 90 seconds.
+
+301
+00:11:11,740 --> 00:11:13,000
+That's 90 seconds.
+
+302
+00:11:13,000 --> 00:11:15,280
+If you set a maximum value here,
+
+303
+00:11:15,280 --> 00:11:16,480
+it will block indefinitely.
+
+304
+00:11:16,480 --> 00:11:19,440
+Or until this bit is set.
+
+305
+00:11:19,440 --> 00:11:21,000
+If it's 90 seconds,
+
+306
+00:11:21,000 --> 00:11:22,700
+there are two scenarios where it will exit.
+
+307
+00:11:22,700 --> 00:11:25,940
+One scenario is that you succeeded in that part.
+
+308
+00:11:25,940 --> 00:11:27,810
+Set this position
+
+309
+00:11:27,810 --> 00:11:28,840
+Set this position
+
+310
+00:11:28,840 --> 00:11:31,000
+Another is that your timeout period has elapsed.
+
+311
+00:11:31,000 --> 00:11:31,960
+It will also do so.
+
+312
+00:11:31,960 --> 00:11:34,060
+If the timeout period has elapsed,
+
+313
+00:11:34,060 --> 00:11:35,840
+this will not be executed.
+
+314
+00:11:35,840 --> 00:11:37,640
+It will proceed directly to the next step.
+
+315
+00:11:37,640 --> 00:11:39,260
+In other words, if it times out.
+
+316
+00:11:39,260 --> 00:11:40,340
+It means you haven't connected to the network
+
+317
+00:11:40,340 --> 00:11:42,600
+In that case, I'll proceed to this step
+
+318
+00:11:42,600 --> 00:11:43,200
+Proceed to this step
+
+319
+00:11:43,200 --> 00:11:45,600
+I'll check if you have a network connection, okay?
+
+320
+00:11:45,600 --> 00:11:47,480
+I'll directly go into the WiFi connection
+
+321
+00:11:47,480 --> 00:11:49,470
+See if it can connect, right?
+
+322
+00:11:49,470 --> 00:11:52,610
+If the previous step was successful
+
+323
+00:11:52,610 --> 00:11:55,090
+The settings have already obtained the IP.
+
+324
+00:11:55,090 --> 00:11:57,020
+That means we don't need to wait anymore
+
+325
+00:11:57,020 --> 00:11:58,760
+Just go back and turn off the Bluetooth function.
+
+326
+00:11:58,760 --> 00:11:59,600
+Then go back directly.
+
+327
+00:11:59,600 --> 00:12:01,410
+This indicates that the network has been successfully connected.
+
+328
+00:12:01,410 --> 00:12:03,210
+At this point, you can move on to the next step.
+
+329
+00:12:03,210 --> 00:12:04,990
+So, you can proceed to the next step here.
+
+330
+00:12:04,990 --> 00:12:06,170
+That's the logic.
+
+331
+00:12:06,170 --> 00:12:09,610
+And if this is false,
+
+332
+00:12:09,610 --> 00:12:10,510
+It was true just now,
+
+333
+00:12:10,510 --> 00:12:11,790
+If it's false,
+
+334
+00:12:11,790 --> 00:12:13,450
+So let's take a look at the case when it's false.
+
+335
+00:12:13,450 --> 00:12:14,690
+This means there's no need for network configuration.
+
+336
+00:12:14,690 --> 00:12:16,710
+We just connect to this WiFi.
+
+337
+00:12:16,710 --> 00:12:21,150
+And we wait for the WiFi connection to be successful.
+
+338
+00:12:21,150 --> 00:12:24,560
+Because everything after this relies on the network.
+
+339
+00:12:24,560 --> 00:12:25,520
+Once the connection is established.
+
+340
+00:12:25,520 --> 00:12:27,640
+We can proceed to the next step.
+
+341
+00:12:27,640 --> 00:12:29,440
+The WEBSC connection, right?
+
+342
+00:12:29,440 --> 00:12:32,260
+So we wait here for that to happen.
+
+343
+00:12:32,260 --> 00:12:33,480
+This is the event group.
+
+344
+00:12:33,480 --> 00:12:36,110
+We're waiting for one of the members in this event group.
+
+345
+00:12:36,110 --> 00:12:37,710
+We're just waiting for this one.
+
+346
+00:12:37,710 --> 00:12:38,710
+Which event group are we waiting for?
+
+347
+00:12:38,710 --> 00:12:39,730
+It's this event group.
+
+348
+00:12:39,730 --> 00:12:41,790
+So, that place has been set for this person.
+
+349
+00:12:41,790 --> 00:12:44,270
+We've successfully obtained the IP.
+
+350
+00:12:44,270 --> 00:12:47,079
+The timeout here is set to 30 seconds.
+
+351
+00:12:47,079 --> 00:12:48,859
+If it doesn't happen within 30 seconds,
+
+352
+00:12:48,859 --> 00:12:51,639
+You've already obtained the IP setting bit just now.
+
+353
+00:12:51,639 --> 00:12:53,219
+It returned immediately.
+
+354
+00:12:53,219 --> 00:12:54,439
+This is where it blocks.
+
+355
+00:12:54,439 --> 00:12:55,810
+It blocks right here.
+
+356
+00:12:55,810 --> 00:12:57,230
+This one is also blocked here.
+
+357
+00:12:57,230 --> 00:12:58,650
+All of these calls are blocking.
+
+358
+00:12:58,650 --> 00:12:59,930
+It waits here.
+
+359
+00:12:59,930 --> 00:13:04,230
+Then it blocks for 30 seconds at this point.
+
+360
+00:13:04,230 --> 00:13:06,540
+If it doesn't complete within 30 seconds,
+
+361
+00:13:06,540 --> 00:13:09,320
+It's been over thirty seconds, and this setting still hasn't been configured.
+
+362
+00:13:09,320 --> 00:13:10,520
+then the IP address won’t be obtained
+
+363
+00:13:10,520 --> 00:13:12,400
+So where would we be in this case
+
+364
+00:13:12,400 --> 00:13:15,400
+We would enter the network configuration and wouldn’t return
+
+365
+00:13:15,400 --> 00:13:16,400
+This function wouldn’t be called
+
+366
+00:13:16,400 --> 00:13:18,760
+If you obtain the IP address within thirty seconds
+
+367
+00:13:18,760 --> 00:13:20,210
+We've set this one, right?
+
+368
+00:13:20,210 --> 00:13:22,230
+Just now, this setting was applied to this particular item.
+
+369
+00:13:22,230 --> 00:13:24,030
+After setting this one,
+
+370
+00:13:24,030 --> 00:13:25,350
+We will enter here
+
+371
+00:13:25,350 --> 00:13:26,390
+We returned directly
+
+372
+00:13:26,390 --> 00:13:28,090
+This indicates that the network connection is established
+
+373
+00:13:28,090 --> 00:13:29,370
+Otherwise, it means there’s no connection
+
+374
+00:13:29,370 --> 00:13:30,810
+We re-enter the network setup mode
+
+375
+00:13:30,810 --> 00:13:31,970
+Set this to true, shall we?
+
+376
+00:13:31,970 --> 00:13:33,780
+It enters here again
+
+377
+00:13:33,780 --> 00:13:35,540
+This suggests that your Wi-Fi might not be working
+
+378
+00:13:35,540 --> 00:13:36,240
+There’s an issue
+
+379
+00:13:36,240 --> 00:13:37,870
+I'll enter the network configuration mode.
+
+380
+00:13:37,870 --> 00:13:39,390
+To enter the network configuration mode,
+
+381
+00:13:39,390 --> 00:13:40,590
+we're in this loop, right?
+
+382
+00:13:40,590 --> 00:13:41,410
+This while loop,
+
+383
+00:13:41,410 --> 00:13:42,850
+just keep looping here.
+
+384
+00:13:42,850 --> 00:13:45,430
+This is where we wait for the network connection to be established.
+
+385
+00:13:45,430 --> 00:13:47,310
+Then let's test it out.
+
+386
+00:13:47,310 --> 00:13:49,380
+We can record a bit here.
+
+387
+00:13:50,060 --> 00:13:52,880
+This part is essentially our network.
+
+388
+00:13:52,880 --> 00:13:54,800
+There's a blockage here
+
+389
+00:13:54,800 --> 00:13:56,500
+Everything is blocked here
+
+390
+00:13:56,500 --> 00:13:57,080
+The connection is open
+
+391
+00:13:57,080 --> 00:14:00,230
+Let's take a look at the next part
+
+392
+00:14:00,230 --> 00:14:00,950
+Right here
+
+393
+00:14:00,950 --> 00:14:04,750
+I'll check if there's anything else to cover
+
+394
+00:14:16,000 --> 00:14:18,180
+The current time is 90 seconds
+
+395
+00:14:18,180 --> 00:14:19,280
+And this one is 30 seconds
+
+396
+00:14:19,280 --> 00:14:20,920
+We can adjust this later
+
+397
+00:14:20,920 --> 00:14:21,960
+It's basically fine.
+
+398
+00:14:21,960 --> 00:14:25,660
+This place, if your WiFi is working well,
+
+399
+00:14:25,660 --> 00:14:26,740
+the connection is very fast.
+
+400
+00:14:26,740 --> 00:14:28,460
+It might take just a few seconds, or even less than a second.
+
+401
+00:14:28,460 --> 00:14:30,170
+You'll be connected very quickly.
+
+402
+00:14:30,170 --> 00:14:36,900
+Now, let's take a look.
+
+403
+00:14:36,900 --> 00:14:38,440
+It's already connected here.
+
+404
+00:14:38,440 --> 00:14:41,880
+Since I don't need to set up the network here,
+
+405
+00:14:41,880 --> 00:14:45,770
+we'll make it able to connect to the network again.
+
+406
+00:14:45,770 --> 00:14:46,770
+What should we do?
+
+407
+00:14:46,770 --> 00:14:48,390
+Let's take a look at this spot.
+
+408
+00:14:48,390 --> 00:14:52,070
+I'll set this up in advance.
+
+409
+00:14:53,210 --> 00:14:57,610
+Let's adjust this setting here.
+
+410
+00:15:03,960 --> 00:15:05,260
+This comment line.
+
+411
+00:15:05,260 --> 00:15:07,200
+Then we set this to one
+
+412
+00:15:07,200 --> 00:15:08,160
+Set it to one.
+
+413
+00:15:08,160 --> 00:15:10,030
+it will require,
+
+414
+00:15:10,030 --> 00:15:11,310
+it will need to connect to the network.
+
+415
+00:15:11,310 --> 00:15:14,380
+Let's start recording.
+
+416
+00:15:16,680 --> 00:15:17,080
+Okay.
+
+417
+00:15:17,080 --> 00:15:20,860
+We've now entered the network configuration mode.
+
+418
+00:15:20,860 --> 00:15:22,200
+We've entered the network configuration mode.
+
+419
+00:15:22,200 --> 00:15:23,500
+Now, let's delete this.
+
+420
+00:15:23,500 --> 00:15:25,540
+We don't need this, right.
+
+421
+00:15:25,540 --> 00:15:30,030
+Then, we'll cancel this and proceed with the same method.
+
+422
+00:15:30,030 --> 00:15:31,270
+Let's take a look.
+
+423
+00:15:31,270 --> 00:15:35,730
+Here, we just set it up for one-on-one.
+
+424
+00:15:35,730 --> 00:15:37,590
+If it's set to one, we need to configure the network each time.
+
+425
+00:15:37,590 --> 00:15:42,310
+Now, let's enter the network connection mode.
+
+426
+00:15:43,590 --> 00:15:46,750
+Then, we'll select a WIFI to configure.
+
+427
+00:15:52,140 --> 00:15:54,460
+I clicked on the WiFi settings.
+
+428
+00:15:54,460 --> 00:15:55,920
+It's now connected successfully.
+
+429
+00:15:55,920 --> 00:15:59,120
+Then, it directly enters this mode.
+
+430
+00:15:59,120 --> 00:16:03,079
+Now, let's reflash it.
+
+431
+00:16:03,470 --> 00:16:04,390
+Let's re-record it.
+
+432
+00:16:04,390 --> 00:16:04,750
+Why is that?
+
+433
+00:16:04,750 --> 00:16:06,830
+Because we had that piece of code earlier, right?
+
+434
+00:16:06,830 --> 00:16:07,710
+It kept writing one, didn't it?
+
+435
+00:16:07,710 --> 00:16:09,490
+Now, we'll proceed with the normal method.
+
+436
+00:16:09,490 --> 00:16:12,230
+This way, we won't need to configure the network next time.
+
+437
+00:16:12,230 --> 00:16:13,310
+We just need to press a button.
+
+438
+00:16:13,310 --> 00:16:14,440
+After a reboot,
+
+439
+00:16:14,440 --> 00:16:16,660
+it will connect to the WIFI directly.
+
+440
+00:16:16,660 --> 00:16:17,860
+We won't demonstrate this part.
+
+441
+00:16:17,860 --> 00:16:20,060
+So, the entire logic of this code is like this.
+
+442
+00:16:20,060 --> 00:16:24,030
+This section is about entering the network configuration mode.
+
+443
+00:16:24,030 --> 00:16:26,650
+We can use voice prompts in the future.
+
+444
+00:16:26,650 --> 00:16:28,590
+To give voice notifications.
+
+445
+00:16:28,590 --> 00:16:29,790
+Since we have voice capabilities,
+
+446
+00:16:29,790 --> 00:16:31,640
+the voice announcement will come later.
+
+447
+00:16:31,640 --> 00:16:34,700
+For now, our WIFI setup is simple.
+
+448
+00:16:34,700 --> 00:16:35,680
+The network part is straightforward.
+
+449
+00:16:35,680 --> 00:16:37,980
+It directly implements the entire logic.
+
+450
+00:16:37,980 --> 00:16:40,420
+You don't need to focus on the internal details.
+
+451
+00:16:40,420 --> 00:16:41,390
+Let's open it up.
+
+452
+00:16:41,390 --> 00:16:43,270
+If the network isn't connected yet,
+
+453
+00:16:43,270 --> 00:16:45,360
+it will handle the network configuration internally.
+
+454
+00:16:45,360 --> 00:16:46,520
+Once it's connected,
+
+455
+00:16:46,520 --> 00:16:47,980
+we can move on to the next step.
+
+456
+00:16:47,980 --> 00:16:49,900
+This part will be ready to go.
+
+457
+00:16:49,900 --> 00:16:51,760
+And there's no need for a delay here.
+
+458
+00:16:51,760 --> 00:16:53,329
+No need for a delay, right?
+
+459
+00:16:53,329 --> 00:16:55,460
+There's no need for a delay here.
+
+460
+00:16:55,460 --> 00:16:59,340
+Because it ensures the network is connected.
+
+461
+00:16:59,340 --> 00:17:00,180
+It has obtained an IP address.
+
+462
+00:17:00,180 --> 00:17:03,930
+We can directly establish a WEBSOCKET connection.
+
+463
+00:17:03,930 --> 00:17:05,390
+The server connection is established.
+
+464
+00:17:06,390 --> 00:17:07,720
+That's it for this lesson.
+

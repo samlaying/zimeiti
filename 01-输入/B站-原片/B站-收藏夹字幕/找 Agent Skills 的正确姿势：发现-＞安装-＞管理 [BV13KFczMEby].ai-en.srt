@@ -1,0 +1,736 @@
+1
+00:00:00,100 --> 00:00:02,160
+Today, I’d like to recommend two things to you
+
+2
+00:00:02,160 --> 00:00:05,660
+to help discover and manage skills
+
+3
+00:00:05,860 --> 00:00:08,400
+Why release a video to recommend it?
+
+4
+00:00:08,400 --> 00:00:12,570
+Because it seems like no one reads the articles I wrote, uh
+
+5
+00:00:12,570 --> 00:00:16,590
+Both of these were released by Versal Lab
+
+6
+00:00:16,590 --> 00:00:19,330
+Let's take a look at this blog post
+
+7
+00:00:19,330 --> 00:00:24,690
+This blog post was published on January 20th.
+
+8
+00:00:24,690 --> 00:00:25,710
+It says here
+
+9
+00:00:25,710 --> 00:00:27,370
+We have released skills
+
+10
+00:00:27,370 --> 00:00:33,760
+This skills is a CLI tool
+
+11
+00:00:33,760 --> 00:00:38,140
+help us to install and manage skills
+
+12
+00:00:39,040 --> 00:00:40,780
+We'll take a closer look at this later
+
+13
+00:00:40,780 --> 00:00:42,880
+Let's finish reading the blog first
+
+14
+00:00:42,880 --> 00:00:47,470
+Here it says Excel I is used to install and manage skill packages
+
+15
+00:00:47,470 --> 00:00:48,950
+agent's package
+
+16
+00:00:50,430 --> 00:00:51,770
+Install the skill package
+
+17
+00:00:51,770 --> 00:00:54,750
+With this command, uh
+
+18
+00:00:54,750 --> 00:00:55,690
+So far
+
+19
+00:00:55,690 --> 00:00:59,810
+This skill has been installed and used
+
+20
+00:00:59,810 --> 00:01:04,670
+such as amp or those like cloud code
+
+21
+00:01:04,670 --> 00:01:05,690
+call bot
+
+22
+00:01:05,690 --> 00:01:06,470
+CodeX
+
+23
+00:01:06,470 --> 00:01:08,190
+Cursor
+
+24
+00:01:08,190 --> 00:01:10,380
+GM milk and the like
+
+25
+00:01:10,380 --> 00:01:14,300
+It has already been used by these.
+
+26
+00:01:14,780 --> 00:01:18,340
+Today we are also going to introduce a website
+
+27
+00:01:18,340 --> 00:01:21,320
+this is skills.sh
+
+28
+00:01:21,320 --> 00:01:24,340
+Let's click to check it out
+
+29
+00:01:25,360 --> 00:01:28,720
+Here it says it's a directory and a ranking list
+
+30
+00:01:28,720 --> 00:01:30,460
+skill leaderboard
+
+31
+00:01:30,460 --> 00:01:34,710
+Through it, we can discover some new skills
+
+32
+00:01:34,710 --> 00:01:36,090
+for our agent
+
+33
+00:01:36,090 --> 00:01:38,650
+Then browse the skills
+
+34
+00:01:38,650 --> 00:01:43,790
+by category and popularity
+
+35
+00:01:43,790 --> 00:01:51,740
+This passage is saying that through this thing to A install oh
+
+36
+00:01:51,740 --> 00:01:56,190
+Track usage statistics and installation status across the entire ecosystem
+
+37
+00:01:57,040 --> 00:01:59,440
+It says there's a simple command
+
+38
+00:01:59,440 --> 00:02:00,980
+and explore
+
+39
+00:02:00,980 --> 00:02:05,300
+He said let's add an official skill from Versal Lab
+
+40
+00:02:05,300 --> 00:02:07,759
+and explore this website
+
+41
+00:02:07,759 --> 00:02:12,479
+First, let's talk about VERSAL's official skill
+
+42
+00:02:12,970 --> 00:02:15,450
+He has developed a set of skills
+
+43
+00:02:15,450 --> 00:02:18,130
+However, this is more frontend-oriented.
+
+44
+00:02:18,130 --> 00:02:20,940
+and also leans towards react
+
+45
+00:02:20,940 --> 00:02:25,880
+It says here that the best practice for building is React
+
+46
+00:02:25,880 --> 00:02:29,280
+It contains some things, uh
+
+47
+00:02:29,280 --> 00:02:30,460
+also pretty good
+
+48
+00:02:30,460 --> 00:02:33,160
+which are some React specifications
+
+49
+00:02:33,160 --> 00:02:35,000
+and the use of cloud AI
+
+50
+00:02:35,000 --> 00:02:39,010
+and of course the web design guide
+
+51
+00:02:41,250 --> 00:02:45,580
+Also, regarding the VEE aspect, uh
+
+52
+00:02:45,580 --> 00:02:51,010
+Ansenfu released one of his SQ the other day
+
+53
+00:02:51,770 --> 00:02:55,870
+Of course, some parts of it are his own.
+
+54
+00:02:55,870 --> 00:02:58,310
+Here are the installation instructions
+
+55
+00:02:58,310 --> 00:03:03,450
+It shows that he has some formulas here like this skill, uh
+
+56
+00:03:03,450 --> 00:03:05,330
+He named it after himself
+
+57
+00:03:05,330 --> 00:03:07,970
+his preferences and best practices
+
+58
+00:03:07,970 --> 00:03:10,230
+such as INFLINT which is more PM-oriented
+
+59
+00:03:10,230 --> 00:03:12,610
+Of course, there are also some official skills
+
+60
+00:03:12,610 --> 00:03:13,850
+like VEE
+
+61
+00:03:13,850 --> 00:03:20,340
+some ecosystem libraries of skills in the VEE direction like next pinion
+
+62
+00:03:20,620 --> 00:03:23,360
+There are also some unofficial
+
+63
+00:03:23,360 --> 00:03:28,930
+Like, uh, SLIDAVE is something developed by Ansniv
+
+64
+00:03:28,930 --> 00:03:30,210
+and ts s down
+
+65
+00:03:30,210 --> 00:03:31,440
+Turbo Rapport
+
+66
+00:03:31,440 --> 00:03:32,580
+and view use
+
+67
+00:03:32,580 --> 00:03:35,320
+These view uses are also considered official
+
+68
+00:03:35,320 --> 00:03:39,840
+because the creator had just released it a few days ago
+
+69
+00:03:39,840 --> 00:03:43,040
+was officially included by Ansif as an official Skill
+
+70
+00:03:44,080 --> 00:03:46,920
+Next, let's talk about this website
+
+71
+00:03:47,960 --> 00:03:52,100
+First of all, this website is a platform for collecting and aggregating skills.
+
+72
+00:03:52,100 --> 00:03:55,349
+Then here you can see uh
+
+73
+00:03:55,349 --> 00:03:55,949
+All time
+
+74
+00:03:55,949 --> 00:04:00,289
+
+
+75
+00:04:00,289 --> 00:04:02,910
+The top one is the find skill
+
+76
+00:04:02,910 --> 00:04:05,519
+We can take a look at this later
+
+77
+00:04:05,519 --> 00:04:09,359
+It also shows the most popular ones within 24 hours here
+
+78
+00:04:09,359 --> 00:04:12,650
+You can also see that this find skill is very popular
+
+79
+00:04:12,650 --> 00:04:17,839
+and this heart refers to the currently most popular skill
+
+80
+00:04:17,839 --> 00:04:20,660
+Then we can click into one to take a look
+
+81
+00:04:20,660 --> 00:04:23,540
+For example, take a look at this 'find' skill
+
+82
+00:04:23,540 --> 00:04:30,140
+It helps us discover skills through this skill
+
+83
+00:04:30,700 --> 00:04:31,540
+What does it mean
+
+84
+00:04:31,540 --> 00:04:34,500
+is through our human natural language
+
+85
+00:04:34,500 --> 00:04:36,640
+For example, what should I do
+
+86
+00:04:36,640 --> 00:04:38,230
+what kind of skill is needed
+
+87
+00:04:38,230 --> 00:04:42,430
+help me find a skill or similar terms uh
+
+88
+00:04:42,430 --> 00:04:45,130
+to help us find a suitable skill
+
+89
+00:04:45,130 --> 00:04:47,070
+and install and use
+
+90
+00:04:47,070 --> 00:04:50,290
+Of course, let's take a look at its detailed interface.
+
+91
+00:04:50,290 --> 00:04:52,790
+Here are the basic installation commands
+
+92
+00:04:52,790 --> 00:04:56,630
+Then skill.md introduces what it is used for
+
+93
+00:04:56,630 --> 00:04:57,930
+some commands
+
+94
+00:04:57,930 --> 00:04:59,370
+and so on
+
+95
+00:04:59,370 --> 00:05:02,930
+but here is its weekly usage
+
+96
+00:05:02,930 --> 00:05:04,530
+download
+
+97
+00:05:05,360 --> 00:05:07,720
+Of course, here is its usage distribution
+
+98
+00:05:07,720 --> 00:05:09,800
+for example in cloud code
+
+99
+00:05:09,800 --> 00:05:12,539
+how much is used in Open Code
+
+100
+00:05:12,539 --> 00:05:15,540
+and also the first time uh
+
+101
+00:05:15,540 --> 00:05:16,540
+it can be said to be released
+
+102
+00:05:16,540 --> 00:05:19,840
+or say it was first seen nine days ago
+
+103
+00:05:19,840 --> 00:05:23,020
+And here is its repository
+
+104
+00:05:24,630 --> 00:05:28,530
+corresponds to the Skill CLI we just mentioned
+
+105
+00:05:28,530 --> 00:05:31,890
+Because it is not just a management tool
+
+106
+00:05:31,890 --> 00:05:36,680
+and it can help us discover that it has some commands
+
+107
+00:05:36,680 --> 00:05:39,010
+such as basic addition
+
+108
+00:05:39,450 --> 00:05:44,420
+and to find out which skills we currently have installed
+
+109
+00:05:44,420 --> 00:05:48,660
+This find is our find_skill to search for some skills
+
+110
+00:05:48,660 --> 00:05:51,930
+through some keywords
+
+111
+00:05:51,930 --> 00:05:52,970
+delete skill
+
+112
+00:05:52,970 --> 00:05:55,370
+then check its update status
+
+113
+00:05:55,370 --> 00:05:56,780
+update skill
+
+114
+00:05:56,780 --> 00:06:00,160
+This checks whether it can be updated.
+
+115
+00:06:00,160 --> 00:06:02,510
+This is to directly update
+
+116
+00:06:02,510 --> 00:06:07,830
+Here we are creating a new sq md template
+
+117
+00:06:07,830 --> 00:06:11,110
+This should be when we create the skill ourselves
+
+118
+00:06:11,110 --> 00:06:14,965
+This can be used to quickly generate a template
+
+119
+00:06:15,740 --> 00:06:16,220
+Um
+
+120
+00:06:16,220 --> 00:06:17,900
+Now let's give it a try
+
+121
+00:06:19,020 --> 00:06:23,830
+For example, let's install Antoniev's set of skills
+
+122
+00:06:24,070 --> 00:06:25,150
+
+
+123
+00:06:25,150 --> 00:06:28,470
+then paste it in to install
+
+124
+00:06:28,790 --> 00:06:33,550
+It is now installing these skills
+
+125
+00:06:35,500 --> 00:06:39,460
+And here we can choose to install all
+
+126
+00:06:40,660 --> 00:06:43,840
+Then it prompts me to select a platform
+
+127
+00:06:43,840 --> 00:06:49,400
+I'll just use Open Code.
+
+128
+00:06:50,760 --> 00:06:56,480
+find open code, um
+
+129
+00:06:57,320 --> 00:06:58,080
+nothing else
+
+130
+00:06:58,080 --> 00:06:59,640
+Choose direct installation
+
+131
+00:06:59,640 --> 00:07:03,000
+Here it has a soft link
+
+132
+00:07:04,040 --> 00:07:07,560
+And this is also easy to update
+
+133
+00:07:07,560 --> 00:07:10,720
+So we'll choose the first one
+
+134
+00:07:10,720 --> 00:07:11,660
+Confirm installation
+
+135
+00:07:11,660 --> 00:07:13,700
+The installation is now complete here
+
+136
+00:07:13,700 --> 00:07:19,490
+Then we can use this to test it out
+
+137
+00:07:23,520 --> 00:07:29,240
+For example, we can use NPX
+
+138
+00:07:30,700 --> 00:07:32,820
+Skills list
+
+139
+00:07:32,820 --> 00:07:37,740
+to check what we have installed
+
+140
+00:07:38,510 --> 00:07:41,900
+OK, it lists what was just installed here.
+
+141
+00:07:41,900 --> 00:07:44,200
+Of course, we usually check the global
+
+142
+00:07:44,200 --> 00:07:49,120
+all require Gangji to view the global installation
+
+143
+00:07:49,240 --> 00:07:52,460
+For example, I'll take these oh
+
+144
+00:07:52,460 --> 00:07:53,380
+Let me not delete it yet
+
+145
+00:07:53,380 --> 00:07:59,400
+Let me first check with skuse check
+
+146
+00:08:01,920 --> 00:08:06,080
+Here it is checking their update status
+
+147
+00:08:06,080 --> 00:08:07,760
+Everything is up to date
+
+148
+00:08:07,760 --> 00:08:10,460
+for example, I'll execute it
+
+149
+00:08:16,280 --> 00:08:17,780
+Here it starts checking
+
+150
+00:08:17,780 --> 00:08:19,720
+then if it can be updated
+
+151
+00:08:19,720 --> 00:08:22,640
+it will update to the latest version
+
+152
+00:08:22,840 --> 00:08:26,320
+For example, I'll delete them all
+
+153
+00:08:27,360 --> 00:08:29,480
+Remove
+
+154
+00:08:30,440 --> 00:08:33,200
+I'll just delete them all
+
+155
+00:08:33,200 --> 00:08:35,220
+Here it shows the deletion is complete
+
+156
+00:08:35,220 --> 00:08:39,140
+Then let's check again
+
+157
+00:08:41,760 --> 00:08:42,700
+it's gone
+
+158
+00:08:42,700 --> 00:08:46,480
+He said look here it says
+
+159
+00:08:46,480 --> 00:08:49,700
+To view global skills
+
+160
+00:08:49,700 --> 00:08:51,730
+add a -g flag
+
+161
+00:08:52,250 --> 00:08:56,060
+Now let's find a skill
+
+162
+00:08:56,060 --> 00:08:58,940
+npx skills find
+
+163
+00:08:58,940 --> 00:09:02,260
+for example V13
+
+164
+00:09:05,180 --> 00:09:08,800
+Oh, here he gave us this list
+
+165
+00:09:08,800 --> 00:09:11,400
+and then gives us a command
+
+166
+00:09:11,400 --> 00:09:15,850
+Then we can add it here, uh
+
+167
+00:09:15,850 --> 00:09:16,710
+
+
+168
+00:09:18,470 --> 00:09:20,190
+for example
+
+169
+00:09:21,110 --> 00:09:24,670
+Let me install this one.
+
+170
+00:09:29,840 --> 00:09:32,640
+OK it starts installing
+
+171
+00:09:39,720 --> 00:09:42,770
+Ah, it's asking me to select a platform here
+
+172
+00:09:43,010 --> 00:09:46,150
+then it defaults to selecting open code
+
+173
+00:09:46,150 --> 00:09:49,490
+I'll just randomly select one
+
+174
+00:09:50,599 --> 00:09:53,479
+Then just wait for the installation to complete.
+
+175
+00:09:54,600 --> 00:09:58,160
+Then we'll delete it
+
+176
+00:10:03,060 --> 00:10:05,960
+Then let's try to create one
+
+177
+00:10:05,960 --> 00:10:09,540
+For example, I go under my project
+
+178
+00:10:10,820 --> 00:10:16,260
+then ng x gift meat
+
+179
+00:10:16,500 --> 00:10:18,500
+Let's play VEE again
+
+180
+00:10:21,220 --> 00:10:24,580
+OK then it created our LS let's take a look
+
+181
+00:10:25,900 --> 00:10:28,860
+Here we have a directory we can cd into
+
+182
+00:10:30,580 --> 00:10:33,900
+Open it with vs code and take a look
+
+183
+00:10:33,900 --> 00:10:38,220
+Here it has initialized a skill template for me
+
+184
+00:10:39,070 --> 00:10:41,560
+That's all for this video.
+

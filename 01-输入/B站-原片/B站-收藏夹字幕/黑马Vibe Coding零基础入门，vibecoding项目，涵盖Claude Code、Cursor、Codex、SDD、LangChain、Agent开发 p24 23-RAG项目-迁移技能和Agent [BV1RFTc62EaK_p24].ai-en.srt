@@ -1,0 +1,1052 @@
+1
+00:00:00,320 --> 00:00:02,000
+Hey everyone, what's up?
+
+2
+00:00:02,000 --> 00:00:02,700
+Welcome back.
+
+3
+00:00:02,700 --> 00:00:03,640
+So, up to this point,
+
+4
+00:00:03,640 --> 00:00:06,359
+our project has essentially completed its initial development phase.
+
+5
+00:00:06,359 --> 00:00:08,219
+Now, while it's not exactly perfect yet...
+
+6
+00:00:08,219 --> 00:00:11,939
+However, it's already basically functional and ready to use.
+
+7
+00:00:11,939 --> 00:00:14,200
+Alright, so now that we've reached this point...
+
+8
+00:00:14,200 --> 00:00:16,360
+We should mark this as a little milestone.
+
+9
+00:00:16,360 --> 00:00:18,700
+Which means, we're going to save a checkpoint of it with Git.
+
+10
+00:00:18,700 --> 00:00:21,460
+And we'll create a corresponding remote repository for it.
+
+11
+00:00:21,460 --> 00:00:25,360
+and push this code to the remote repository for safekeeping.
+
+12
+00:00:25,360 --> 00:00:28,360
+Okay, so back when we were working on that Heima Expense Tracking app,
+
+13
+00:00:28,360 --> 00:00:31,500
+we've actually used some agents and some custom SQL.
+
+14
+00:00:31,500 --> 00:00:32,880
+and also its hooks.
+
+15
+00:00:32,880 --> 00:00:33,750
+an interceptor,
+
+16
+00:00:33,750 --> 00:00:34,710
+So, how about these things?
+
+17
+00:00:34,710 --> 00:00:37,720
+In fact, these can be quite useful in our project as well.
+
+18
+00:00:37,720 --> 00:00:39,500
+Alright, so the very first thing we need to do...
+
+19
+00:00:39,500 --> 00:00:42,760
+is to take the agent skills from the Heima Bookkeeping app
+
+20
+00:00:42,760 --> 00:00:44,400
+And the corresponding hook as well.
+
+21
+00:00:44,400 --> 00:00:48,069
+and migrate all of them into our current project. Alright.
+
+22
+00:00:48,069 --> 00:00:49,089
+Alright, let me walk you through it.
+
+23
+00:00:49,089 --> 00:00:52,369
+Okay, so we're in this folder.
+
+24
+00:00:52,369 --> 00:00:54,829
+In the Heima Bookkeeping App,
+
+25
+00:00:54,829 --> 00:01:01,570
+This project has quite a few LiveData fields, which are of type Q.
+
+26
+00:01:03,220 --> 00:01:05,960
+and things called hooks, and hooks.
+
+27
+00:01:05,960 --> 00:01:09,240
+So you just go ahead and read, read, read...
+
+28
+00:01:09,240 --> 00:01:13,280
+Then, based on our project's tech stack,
+
+29
+00:01:13,280 --> 00:01:18,650
+And then, just migrate everything over. Alright, OK, so let's press Enter and run it.
+
+30
+00:01:18,650 --> 00:01:19,750
+So, the idea here is pretty simple.
+
+31
+00:01:19,750 --> 00:01:22,160
+So, what you do is go into the folder for the accounting app.
+
+32
+00:01:22,160 --> 00:01:23,620
+Let's check out the 'edit' section in this project.
+
+33
+00:01:23,620 --> 00:01:24,520
+and its skills,
+
+34
+00:01:24,520 --> 00:01:26,609
+And also, its hook for intercepting requests.
+
+35
+00:01:26,609 --> 00:01:27,969
+So, once you've got that,
+
+36
+00:01:27,969 --> 00:01:29,449
+and apply them to our project.
+
+37
+00:01:29,449 --> 00:01:30,780
+You'll need to adapt it.
+
+38
+00:01:30,780 --> 00:01:33,560
+And we'll follow the same process for our project.
+
+39
+00:01:33,560 --> 00:01:35,720
+Let's just move all of this stuff over.
+
+40
+00:01:35,720 --> 00:01:37,760
+and get our project ready to use.
+
+41
+00:01:37,760 --> 00:01:38,960
+Okay, let's give it a moment to think.
+
+42
+00:01:38,960 --> 00:01:42,120
+Let's just let it take its time and get this job done for us.
+
+43
+00:01:56,340 --> 00:01:59,040
+Alright, it has fully loaded the relevant skills.
+
+44
+00:01:59,040 --> 00:02:01,340
+And now it's getting ready to start the migration for us.
+
+45
+00:02:01,340 --> 00:02:03,700
+As you can see, it's correctly read everything in here.
+
+46
+00:02:03,700 --> 00:02:06,340
+So, for example, we have three corresponding edits in here.
+
+47
+00:02:06,340 --> 00:02:08,180
+And a few corresponding skills as well. Alright.
+
+48
+00:02:08,180 --> 00:02:10,239
+Alright, now let's start migrating all the files.
+
+49
+00:02:10,239 --> 00:02:11,439
+Next, let's create the three agents.
+
+50
+00:02:11,439 --> 00:02:13,919
+And in here, you can see, this is the first one, 'git commit.edit'.
+
+51
+00:02:13,919 --> 00:02:15,839
+It's asking if we want to allow it to make changes.
+
+52
+00:02:15,839 --> 00:02:17,420
+Alright, so as you can see here...
+
+53
+00:02:17,420 --> 00:02:19,820
+This is just like what we had back in the Heima app.
+
+54
+00:02:19,820 --> 00:02:21,300
+in that project.
+
+55
+00:02:21,300 --> 00:02:23,440
+So again, it's a Git commit.
+
+56
+00:02:23,440 --> 00:02:25,380
+a small agent for appId
+
+57
+00:02:25,380 --> 00:02:28,240
+So, the main workflow here is pretty much the same as what we've done before.
+
+58
+00:02:28,240 --> 00:02:29,720
+So, let's take a look, and if everything seems fine,
+
+59
+00:02:29,720 --> 00:02:31,200
+So let's just give it a 'yes'.
+
+60
+00:02:31,200 --> 00:02:32,420
+So, just allow it to make changes, and that's it.
+
+61
+00:02:32,420 --> 00:02:33,740
+And then let it take care of all this content for us.
+
+62
+00:02:33,740 --> 00:02:35,160
+and let it just whip through and edit all of this for us.
+
+63
+00:02:35,160 --> 00:02:36,400
+edit those three scripts,
+
+64
+00:02:36,400 --> 00:02:37,760
+And the corresponding custom SQL statements.
+
+65
+00:02:37,760 --> 00:02:39,140
+And also our corresponding hooks.
+
+66
+00:02:39,140 --> 00:02:39,880
+and get them all sorted out.
+
+67
+00:02:39,880 --> 00:02:42,820
+And just like that, we've completed the migration.
+
+68
+00:03:04,540 --> 00:03:08,120
+Alright, it's showing us that the migration is now complete.
+
+69
+00:03:08,120 --> 00:03:09,620
+And in total, there are three edits.
+
+70
+00:03:09,620 --> 00:03:11,580
+One is the Git commit edit.
+
+71
+00:03:11,580 --> 00:03:12,560
+So, the commit message for Git.
+
+72
+00:03:12,560 --> 00:03:14,320
+and our unit test engineer.
+
+73
+00:03:14,320 --> 00:03:15,560
+and a Quality Assurance Engineer.
+
+74
+00:03:15,560 --> 00:03:16,830
+these three edits,
+
+75
+00:03:16,830 --> 00:03:19,510
+And what it's done here is remove the electric dimension for us.
+
+76
+00:03:19,510 --> 00:03:21,810
+And that's because we don't use Electric in our current tech stack.
+
+77
+00:03:21,810 --> 00:03:23,680
+But it did add things like FastAPI, though.
+
+78
+00:03:23,680 --> 00:03:25,180
+and security checks for Python.
+
+79
+00:03:25,180 --> 00:03:27,320
+as well as some reviews for the Long Char G pipeline.
+
+80
+00:03:27,320 --> 00:03:30,080
+And, uh, our unit test quality engineering as well.
+
+81
+00:03:30,080 --> 00:03:31,180
+and unit test engineers.
+
+82
+00:03:31,180 --> 00:03:34,740
+The tech stack was shifted from purely front-end to a dual front-end and back-end setup.
+
+83
+00:03:34,740 --> 00:03:36,340
+So, these three edits...
+
+84
+00:03:36,340 --> 00:03:39,810
+And just like that, it helped us complete the migration.
+
+85
+00:03:39,810 --> 00:03:41,670
+And on top of that, it gives us five key features.
+
+86
+00:03:41,670 --> 00:03:43,410
+have also been migrated for us.
+
+87
+00:03:43,410 --> 00:03:46,170
+This also includes the review of our comments.
+
+88
+00:03:46,170 --> 00:03:48,480
+And it also handles a security audit for us.
+
+89
+00:03:48,480 --> 00:03:50,160
+from the original Electron security framework,
+
+90
+00:03:50,160 --> 00:03:52,040
+to FastAPI's web security.
+
+91
+00:03:52,040 --> 00:03:55,060
+There's also a check for JWT authentication and RBAC security.
+
+92
+00:03:55,060 --> 00:03:56,280
+And of course, our unit tests.
+
+93
+00:03:56,280 --> 00:03:57,320
+This was actually already here from the start.
+
+94
+00:03:57,320 --> 00:04:00,450
+And then, we're just going to make a few small, simple modifications.
+
+95
+00:04:00,450 --> 00:04:02,970
+And then, we also have this 'run app' script.
+
+96
+00:04:02,970 --> 00:04:04,010
+and 'rebuild app', right?
+
+97
+00:04:04,010 --> 00:04:06,130
+Now, this one, to be honest, is kind of optional.
+
+98
+00:04:06,130 --> 00:04:08,300
+But it's also fine if we just migrate it over.
+
+99
+00:04:08,300 --> 00:04:10,420
+And then, for this file called settings4.JSON,
+
+100
+00:04:10,420 --> 00:04:11,920
+This is basically what we call a webhook, right?
+
+101
+00:04:11,920 --> 00:04:14,060
+So, in this file, it actually defines our hook for us.
+
+102
+00:04:14,060 --> 00:04:15,190
+has been kept.
+
+103
+00:04:15,190 --> 00:04:18,350
+Alright, so with the migration of these skills and agents now complete,
+
+104
+00:04:18,350 --> 00:04:19,269
+and we want it to actually take effect.
+
+105
+00:04:19,269 --> 00:04:22,110
+So, what we can do is go ahead and restart our current VS Code.
+
+106
+00:04:22,110 --> 00:04:24,640
+This is basically to reload all of our current stuff.
+
+107
+00:04:24,640 --> 00:04:25,360
+all these things.
+
+108
+00:04:25,360 --> 00:04:27,180
+It could be something like Code, VS Code, or whatever editor you're using, you know.
+
+109
+00:04:27,180 --> 00:04:28,580
+Okay, let's restart it.
+
+110
+00:04:28,580 --> 00:04:32,020
+Alright, our agents and skills should all be loaded up by now.
+
+111
+00:04:32,020 --> 00:04:33,180
+Alright, so now that they're loaded,
+
+112
+00:04:33,180 --> 00:04:34,740
+Alright, so now we can have it help us out.
+
+113
+00:04:34,740 --> 00:04:37,580
+Let's go ahead and save the current project.
+
+114
+00:04:37,580 --> 00:04:39,059
+Alright, let's click that.
+
+115
+00:04:39,059 --> 00:04:39,979
+Alright, so when we kick it off...
+
+116
+00:04:39,979 --> 00:04:42,039
+you'll find that it's flagged a small error for us.
+
+117
+00:04:42,039 --> 00:04:44,979
+It says, 'setting file field to propch'...
+
+118
+00:04:44,979 --> 00:04:46,499
+So, we'll just go ahead and tell it that...
+
+119
+00:04:46,499 --> 00:04:49,720
+So, when I start it up...
+
+120
+00:04:49,720 --> 00:04:53,750
+Remind me when it starts up.
+
+121
+00:04:54,270 --> 00:04:57,150
+And now, when I start the cloud service,
+
+122
+00:04:59,320 --> 00:05:07,319
+It's telling me, 'Settings file failed for psh', alright.
+
+123
+00:05:07,319 --> 00:05:09,840
+Alright, let's give it a check.
+
+124
+00:05:09,840 --> 00:05:11,080
+So, as soon as we start it up, it gives us this message.
+
+125
+00:05:11,080 --> 00:05:12,640
+So the current settings file is the problem.
+
+126
+00:05:12,640 --> 00:05:14,200
+Right, so we definitely need to have it check itself.
+
+127
+00:05:14,200 --> 00:05:16,870
+Let's see if there are any syntax errors in this settings.py file.
+
+128
+00:05:16,870 --> 00:05:19,270
+or if a punctuation mark is missing, or something like that.
+
+129
+00:05:19,270 --> 00:05:22,230
+And that's what caused some parsing failures.
+
+130
+00:05:23,020 --> 00:05:25,540
+Alright, it's already found a corresponding bug here.
+
+131
+00:05:25,540 --> 00:05:26,480
+Alright, let's click 'yes'.
+
+132
+00:05:26,480 --> 00:05:27,540
+And then, let's go ahead and allow it.
+
+133
+00:05:27,540 --> 00:05:29,100
+Let's see if it's fixed after the repair, then we'll restart it.
+
+134
+00:05:29,100 --> 00:05:31,740
+Let's see if the warning pops up again.
+
+135
+00:05:32,020 --> 00:05:32,540
+Alright.
+
+136
+00:05:32,540 --> 00:05:33,580
+Once it's done processing,
+
+137
+00:05:33,580 --> 00:05:35,900
+Alright, let's go ahead and close this Visual Studio Code.
+
+138
+00:05:35,900 --> 00:05:37,340
+Let's give it another restart.
+
+139
+00:05:37,340 --> 00:05:40,190
+Alright, reopening it.
+
+140
+00:05:40,190 --> 00:05:42,270
+Okay, so that warning seems to be gone now.
+
+141
+00:05:42,270 --> 00:05:44,370
+Alright, so I guess that means the fix is done.
+
+142
+00:05:44,370 --> 00:05:45,750
+Alright, now that the fix is complete,
+
+143
+00:05:45,750 --> 00:05:49,250
+So now, we can go ahead and tell our, uh, Cloud...
+
+144
+00:05:49,250 --> 00:05:53,979
+Hey, go ahead and help me initialize it.
+
+145
+00:05:53,979 --> 00:05:55,410
+the project.
+
+146
+00:05:55,410 --> 00:05:57,670
+So, we're going to add Git support.
+
+147
+00:05:57,670 --> 00:05:58,990
+Add Git support.
+
+148
+00:05:58,990 --> 00:06:03,510
+And then, we'll make our first commit.
+
+149
+00:06:03,840 --> 00:06:04,160
+Alright.
+
+150
+00:06:04,160 --> 00:06:05,240
+Let's go ahead and tell it our requirements.
+
+151
+00:06:05,240 --> 00:06:07,460
+Have it help us add the entire project to Git.
+
+152
+00:06:07,460 --> 00:06:10,280
+Because I haven't actually talked to it about this myself yet.
+
+153
+00:06:10,280 --> 00:06:12,400
+We want to associate the project with Git.
+
+154
+00:06:12,400 --> 00:06:13,760
+But now, once you've brought it up,
+
+155
+00:06:13,760 --> 00:06:15,540
+It'll execute commands like git init.
+
+156
+00:06:15,540 --> 00:06:17,900
+This is the command to initialize the entire project.
+
+157
+00:06:17,900 --> 00:06:21,140
+And then, after the initialization, it will run the git add command,
+
+158
+00:06:21,140 --> 00:06:21,860
+adding the files,
+
+159
+00:06:21,860 --> 00:06:24,120
+And then use `git commit` to make the commit, and so on.
+
+160
+00:06:24,120 --> 00:06:25,260
+So let's just go ahead and tell it what to do.
+
+161
+00:06:25,260 --> 00:06:26,460
+We'll let it handle the Git operations.
+
+162
+00:06:26,460 --> 00:06:27,580
+And just make an initial commit.
+
+163
+00:06:27,580 --> 00:06:30,620
+And it'll handle all the details for us.
+
+164
+00:06:31,660 --> 00:06:32,420
+Alright, OK.
+
+165
+00:06:32,420 --> 00:06:35,540
+Alright, so it's already completed the first Git initialization.
+
+166
+00:06:35,540 --> 00:06:37,120
+and we've made our first commit.
+
+167
+00:06:37,120 --> 00:06:38,180
+Alright, looks like it's working perfectly.
+
+168
+00:06:38,180 --> 00:06:39,660
+But in reality, there's still a bit of a problem.
+
+169
+00:06:39,660 --> 00:06:41,880
+The thing is, our hook still isn't working.
+
+170
+00:06:41,880 --> 00:06:43,320
+So, we still need to investigate this a bit.
+
+171
+00:06:43,320 --> 00:06:45,080
+So, for example, let's look inside this `setting10` file.
+
+172
+00:06:45,080 --> 00:06:48,570
+If you look inside, it's actually matched to git commit.
+
+173
+00:06:48,570 --> 00:06:50,330
+But in reality, our hook isn't actually working.
+
+174
+00:06:50,330 --> 00:06:51,150
+Alright, let me go ask him.
+
+175
+00:06:51,150 --> 00:06:55,670
+So, we said we've configured this hook, right?
+
+176
+00:06:55,670 --> 00:06:58,310
+We can just give him this whole thing.
+
+177
+00:06:58,310 --> 00:06:59,910
+Let's give him the hook.
+
+178
+00:07:02,220 --> 00:07:05,700
+Alright, so... but it didn't take effect.
+
+179
+00:07:05,700 --> 00:07:08,360
+It *should* work, but it's not.
+
+180
+00:07:08,360 --> 00:07:15,150
+So, right when you were just committing to Git...
+
+181
+00:07:15,150 --> 00:07:16,030
+It didn't trigger.
+
+182
+00:07:17,150 --> 00:07:19,590
+The hook wasn't triggered.
+
+183
+00:07:25,200 --> 00:07:26,680
+Okay, so he took a look at it.
+
+184
+00:07:26,680 --> 00:07:29,400
+He's saying that in this section, the hook is actually working perfectly fine.
+
+185
+00:07:29,400 --> 00:07:32,660
+The thing is, it's probably because we didn't reload it.
+
+186
+00:07:32,660 --> 00:07:33,620
+this current session.
+
+187
+00:07:33,620 --> 00:07:36,020
+So, that's why the hook didn't actually take effect.
+
+188
+00:07:36,020 --> 00:07:37,740
+Okay, so let's have it run now.
+
+189
+00:07:37,740 --> 00:07:39,860
+So now, the git commit has been intercepted.
+
+190
+00:07:39,860 --> 00:07:42,100
+Ah, so it's prompting that you need to pass the quality gate before you can commit.
+
+191
+00:07:42,100 --> 00:07:44,380
+So in that case, it needs to do some cleanup work.
+
+192
+00:07:44,380 --> 00:07:45,780
+Let's go ahead and allow its command to run.
+
+193
+00:07:45,780 --> 00:07:48,729
+Alright, let's see if it can get this configured for us.
+
+194
+00:07:48,729 --> 00:07:50,329
+Okay, it says the initial commit hook didn't trigger.
+
+195
+00:07:50,329 --> 00:07:53,069
+That's because hooks created within the same session don't support hot reloading.
+
+196
+00:07:53,069 --> 00:07:54,680
+Alright, it's activated now.
+
+197
+00:07:54,680 --> 00:07:57,240
+Well, he may have said that, but we're still not quite sure, are we?
+
+198
+00:07:57,240 --> 00:07:58,720
+So, we can just switch it up.
+
+199
+00:07:58,720 --> 00:07:59,950
+Alright, back to our project.
+
+200
+00:07:59,950 --> 00:08:01,430
+For example, let's just switch to a different chat.
+
+201
+00:08:01,430 --> 00:08:02,190
+Let's just switch to a different session.
+
+202
+00:08:02,190 --> 00:08:04,310
+Let's get back to the chat we were just in.
+
+203
+00:08:04,310 --> 00:08:05,699
+Alright, let's just switch it up a bit.
+
+204
+00:08:05,699 --> 00:08:08,339
+Alright, so now, we've made our very first commit.
+
+205
+00:08:08,339 --> 00:08:09,299
+Alright, so now that the commit is done,
+
+206
+00:08:09,299 --> 00:08:13,700
+Alright, for the next step, let's head over to our Gitee account.
+
+207
+00:08:13,700 --> 00:08:15,340
+Just like we've done before.
+
+208
+00:08:15,340 --> 00:08:17,000
+We still need to create a repository.
+
+209
+00:08:17,000 --> 00:08:18,460
+So for our current app,
+
+210
+00:08:18,460 --> 00:08:20,460
+and push it to the remote repository.
+
+211
+00:08:20,460 --> 00:08:22,420
+This will make it much easier for us to save our work.
+
+212
+00:08:22,420 --> 00:08:24,780
+So, even if we lose our local code, it won't be a big deal.
+
+213
+00:08:24,780 --> 00:08:26,540
+But having a remote one is always good.
+
+214
+00:08:26,540 --> 00:08:27,100
+Alright, let's fill this in.
+
+215
+00:08:27,100 --> 00:08:29,000
+For example, let's call this one 'Long Chain'.
+
+216
+00:08:29,160 --> 00:08:35,280
+We'll call the project 'Web Coding'.
+
+217
+00:08:37,259 --> 00:08:40,639
+Alright, and for this one, we'll call it 'web coding'.
+
+218
+00:08:40,639 --> 00:08:45,900
+Write the LangChain IG project, okay.
+
+219
+00:08:45,900 --> 00:08:47,580
+And then click 'Create'. As for the path,
+
+220
+00:08:47,580 --> 00:08:50,100
+Let's just call it "long chain".
+
+221
+00:08:50,100 --> 00:08:55,800
+Let's call it web-coding-langchain, alright?
+
+222
+00:08:55,800 --> 00:08:57,080
+Okay, and then click 'Create'.
+
+223
+00:08:57,080 --> 00:08:58,200
+Let's create this repository.
+
+224
+00:08:58,200 --> 00:09:00,320
+Alright, now that it's been successfully created,
+
+225
+00:09:00,320 --> 00:09:02,200
+Alright, so let's go ahead and take what's in here.
+
+226
+00:09:02,200 --> 00:09:04,020
+See? It tells us we have all this kind of stuff.
+
+227
+00:09:04,020 --> 00:09:04,740
+If you can't really make sense of it,
+
+228
+00:09:04,740 --> 00:09:06,400
+just go ahead and paste the whole thing in there, boom, just like that.
+
+229
+00:09:06,400 --> 00:09:08,140
+So, next, we're gonna tell our VS Code,
+
+230
+00:09:08,140 --> 00:09:09,140
+tell our Cursor.
+
+231
+00:09:09,140 --> 00:09:14,620
+So, let me show you. I've created a repository on Gitee.
+
+232
+00:09:14,620 --> 00:09:19,850
+Then just do the connection and push for me.
+
+233
+00:09:19,850 --> 00:09:20,730
+So you just give it this information.
+
+234
+00:09:20,730 --> 00:09:23,300
+It will automatically load all this key information into the system.
+
+235
+00:09:23,300 --> 00:09:25,660
+And then it'll help you get the git configuration sorted out.
+
+236
+00:09:25,660 --> 00:09:27,040
+and then connect to the remote repository.
+
+237
+00:09:27,040 --> 00:09:30,230
+and then it'll help you push your code to the remote repository.
+
+238
+00:09:30,230 --> 00:09:31,110
+And at the same time,
+
+239
+00:09:31,110 --> 00:09:32,870
+We've already configured the S because we've substituted the lookup key for the configurable password in the database connection pool properties file.
+
+240
+00:09:32,870 --> 00:09:34,650
+the SSH key.
+
+241
+00:09:34,650 --> 00:09:35,770
+So, up to this point,
+
+242
+00:09:35,770 --> 00:09:39,060
+we should be able to just push our code over directly without any password prompts.
+
+243
+00:09:39,060 --> 00:09:40,400
+See, it ran a quick test there.
+
+244
+00:09:40,400 --> 00:09:40,960
+and it tells us...
+
+245
+00:09:40,960 --> 00:09:41,960
+You are successfully authenticated.
+
+246
+00:09:41,960 --> 00:09:43,480
+Authorization was successful!
+
+247
+00:09:43,480 --> 00:09:45,240
+And that's because we've already set up the SSH key earlier.
+
+248
+00:09:45,240 --> 00:09:47,630
+So now, I can push it directly.
+
+249
+00:09:47,630 --> 00:09:49,650
+Alright, as you can see, the push was successful.
+
+250
+00:09:49,650 --> 00:09:51,630
+The code has been uploaded to Gitee.
+
+251
+00:09:51,630 --> 00:09:55,280
+Alright, let's go back here and refresh. Okay, refresh.
+
+252
+00:09:55,280 --> 00:09:56,600
+And as you can see, our code here has...
+
+253
+00:09:56,600 --> 00:09:59,080
+has been successfully pushed to our Gitee repository.
+
+254
+00:09:59,080 --> 00:10:00,720
+And it's even automatically generated a readme for us.
+
+255
+00:10:00,720 --> 00:10:04,850
+This document, named README.md, is basically a user guide for the project.
+
+256
+00:10:04,850 --> 00:10:05,550
+Alright.
+
+257
+00:10:05,550 --> 00:10:07,210
+Alright, so with that step out of the way...
+
+258
+00:10:07,210 --> 00:10:08,630
+So, that basically means that up to this point,
+
+259
+00:10:08,630 --> 00:10:11,600
+and that's how we've committed the initial version of our project.
+
+260
+00:10:11,600 --> 00:10:15,080
+Later on, we can come back and fine-tune the details.
+
+261
+00:10:15,080 --> 00:10:15,600
+Alright.
+
+262
+00:10:15,600 --> 00:10:16,900
+Alright, let's wrap up this video here.
+
+263
+00:10:16,900 --> 00:10:19,070
+See you in the next video.
+

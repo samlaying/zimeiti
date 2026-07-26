@@ -1,0 +1,1056 @@
+1
+00:00:00,000 --> 00:00:03,640
+In the world of engineering, there's an old saying: caching is king.
+
+2
+00:00:03,640 --> 00:00:07,260
+And in the age of AI agents, that still holds true.
+
+3
+00:00:07,260 --> 00:00:10,660
+Engineers at Anthropic recently gave us ClaudeCode.
+
+4
+00:00:10,660 --> 00:00:13,590
+Best practices for prompt caching design.
+
+5
+00:00:13,590 --> 00:00:15,250
+But before we dive into the specifics,
+
+6
+00:00:15,250 --> 00:00:19,060
+First, let's take one minute to understand what prompt caching actually is.
+
+7
+00:00:19,060 --> 00:00:20,900
+Every time you send a message to a large language model,
+
+8
+00:00:20,900 --> 00:00:25,810
+the backend has to process all the text you send—your system prompt, the chat history, and the new message.
+
+9
+00:00:25,810 --> 00:00:31,810
+This process is the main culprit behind latency and costs. Every time you send a message, the backend has to encode the entire text from scratch.
+
+10
+00:00:31,810 --> 00:00:32,810
+So, here's the problem.
+
+11
+00:00:33,810 --> 00:00:35,150
+Let's say you chat with it for 20 turns.
+
+12
+00:00:35,150 --> 00:00:36,630
+So, in that 20th request, it still has to re-process the first 19 rounds from the very first word.
+
+13
+00:00:36,630 --> 00:00:39,350
+The first 19 rounds are exactly the same as before.
+
+14
+00:00:39,350 --> 00:00:42,730
+But the model still has to re-process everything from the very first word.
+
+15
+00:00:42,730 --> 00:00:45,890
+All that for 19 rounds of wasted effort.
+
+16
+00:00:45,890 --> 00:00:48,810
+And that's exactly what prompt caching is for.
+
+17
+00:00:48,810 --> 00:00:49,590
+So, how does it work in a nutshell?
+
+18
+00:00:49,590 --> 00:00:51,760
+You specify a breakpoint in your request.
+
+19
+00:00:51,760 --> 00:00:55,080
+The system then takes the encoding from the very beginning of the prompt up to that breakpoint,
+
+20
+00:00:55,080 --> 00:00:56,060
+and stores the result.
+
+21
+00:00:56,060 --> 00:00:57,760
+So next time, if the prefix is exactly the same,
+
+22
+00:00:57,760 --> 00:01:00,460
+This skips the redundant computations. It sets a breakpoint in the request, so the next time the prefix is identical, it can be reused directly.
+
+23
+00:01:00,460 --> 00:01:01,830
+Let me give you an example.
+
+24
+00:01:01,830 --> 00:01:05,410
+Imagine you had to rewrite the table of contents and the first few chapters every single time you worked on a paper.
+
+25
+00:01:05,410 --> 00:01:06,810
+and then add the new content.
+
+26
+00:01:06,810 --> 00:01:07,950
+But with caching,
+
+27
+00:01:07,950 --> 00:01:10,730
+It's like the overlapping part is just fast-forwarded.
+
+28
+00:01:10,730 --> 00:01:15,990
+Only the new segment needs to be written, while the key parts that hit the cache are reused.
+
+29
+00:01:15,990 --> 00:01:17,730
+The price drops to a tenth of the original.
+
+30
+00:01:17,730 --> 00:01:22,010
+The initial write costs 1.25 times more—you're spending an extra 25%—but after that, you save 90% on every subsequent request.
+
+31
+00:01:22,010 --> 00:01:24,670
+But after that, you save 90% every single time.
+
+32
+00:01:24,670 --> 00:01:26,430
+By default, it's stored for 5 minutes.
+
+33
+00:01:26,430 --> 00:01:29,370
+And it renews automatically if there's a request within those 5 minutes.
+
+34
+00:01:29,370 --> 00:01:30,860
+And there's no extra charge for it.
+
+35
+00:01:30,860 --> 00:01:33,260
+You can also opt for the one-hour paid version.
+
+36
+00:01:33,260 --> 00:01:34,810
+But there is a catch.
+
+37
+00:01:34,810 --> 00:01:35,930
+If the content is too short,
+
+38
+00:01:35,930 --> 00:01:37,030
+so it won't be cached.
+
+39
+00:01:37,030 --> 00:01:40,090
+Generally, you need at least 1,024 tokens.
+
+40
+00:01:40,090 --> 00:01:44,340
+And the newer models require 4,096.
+
+41
+00:01:44,340 --> 00:01:46,080
+So, for short prompts, there's no caching to help you out.
+
+42
+00:01:46,080 --> 00:01:47,560
+So, for a long conversation with about 100,000 characters, let's look at a real-world example.
+
+43
+00:01:47,560 --> 00:01:50,380
+For a 100,000-token long conversation, with caching turned off,
+
+44
+00:01:50,380 --> 00:01:53,460
+With Claude Sonnet, each round costs you 0.30 US dollars.
+
+45
+00:01:53,460 --> 00:01:54,770
+But with caching enabled,
+
+46
+00:01:54,770 --> 00:01:57,090
+The first one costs 0.375.
+
+47
+00:01:57,090 --> 00:02:02,840
+After that, each round is just 0.03, saving you about 90% on input costs for 10 rounds of conversation.
+
+48
+00:02:02,840 --> 00:02:04,500
+And it's not just about saving money.
+
+49
+00:02:04,500 --> 00:02:08,860
+The more content we don't have to recompute, the shorter the TTFT, and the lower the latency.
+
+50
+00:02:08,860 --> 00:02:10,930
+The faster the first word appears,
+
+51
+00:02:10,930 --> 00:02:14,590
+The following seven best practices all boil down to one thing: how to maximize prefix cache hits. Once you understand this, the next seven tips will be much easier to grasp.
+
+52
+00:02:14,590 --> 00:02:16,310
+And they all boil down to one thing.
+
+53
+00:02:16,310 --> 00:02:20,320
+How to maximize the chances of the prefix hitting the cache.
+
+54
+00:02:20,320 --> 00:02:23,840
+Internally at Anthropic, they treat the cache hit rate
+
+55
+00:02:23,840 --> 00:02:25,520
+as a key infrastructure-level metric.
+
+56
+00:02:25,520 --> 00:02:28,700
+Its importance is almost on par with server uptime.
+
+57
+00:02:28,700 --> 00:02:30,060
+If the hit rate drops,
+
+58
+00:02:30,060 --> 00:02:31,600
+and trigger on-call alerts.
+
+59
+00:02:31,600 --> 00:02:34,450
+Engineers have to handle it as an online incident.
+
+60
+00:02:34,450 --> 00:02:37,410
+The original term used was 'partial-level incident declaration'.
+
+61
+00:02:37,410 --> 00:02:40,730
+This means you have to go through the full incident response process.
+
+62
+00:02:40,730 --> 00:02:42,970
+This is way more serious than a regular alert.
+
+63
+00:02:42,970 --> 00:02:44,310
+But what's even more critical is this:
+
+64
+00:02:44,310 --> 00:02:47,040
+And a high cache hit rate doesn't just save money.
+
+65
+00:02:47,040 --> 00:02:49,120
+it also directly impacts the user experience.
+
+66
+00:02:49,120 --> 00:02:51,720
+This allows Anthropic to offer its paying users
+
+67
+00:02:51,720 --> 00:02:53,519
+more generous usage quotas.
+
+68
+00:02:53,519 --> 00:02:55,199
+The higher the cache hit rate, the more you can use it for the same price. The higher the cache hit rate...
+
+69
+00:02:55,199 --> 00:02:58,160
+The higher the hit rate, the more you can use it for the same price. You get more value out of your subscription.
+
+70
+00:02:58,160 --> 00:03:06,120
+It's not just a nice-to-have optimization; it's the fundamental requirement for the entire system to even function. So, for Claude Code, caching isn't just a nice little optimization.
+
+71
+00:03:06,120 --> 00:03:09,100
+Without caching, there would be no Claude Code.
+
+72
+00:03:09,100 --> 00:03:10,560
+And why is that?
+
+73
+00:03:10,560 --> 00:03:14,800
+AI programming assistants like Claude Code are inherently designed for long conversations.
+
+74
+00:03:14,800 --> 00:03:16,820
+A single session can have dozens of turns.
+
+75
+00:03:16,820 --> 00:03:23,940
+Each round, you have to resend the entire conversation history. This means it's recalculated from scratch every single time, causing latency and costs to explode.
+
+76
+00:03:23,940 --> 00:03:27,440
+And the core principle behind caching is prefix matching.
+
+77
+00:03:27,440 --> 00:03:29,780
+as long as the prefix of the next request is the same as the last one,
+
+78
+00:03:29,780 --> 00:03:31,720
+it can reuse the previous computation.
+
+79
+00:03:31,720 --> 00:03:35,160
+And the most important lesson of all stems from this very concept.
+
+80
+00:03:35,160 --> 00:03:37,640
+So, since the cache relies on prefix matching,
+
+81
+00:03:37,640 --> 00:03:41,500
+So, the order of the elements in your prompt becomes absolutely critical.
+
+82
+00:03:41,500 --> 00:03:44,800
+Here's how Anthropic lays it out in their best practices.
+
+83
+00:03:44,800 --> 00:03:48,120
+First, you put the system prompt and the tool definitions.
+
+84
+00:03:48,120 --> 00:03:51,500
+This part is fixed and shared across all interactions.
+
+85
+00:03:51,500 --> 00:03:53,640
+
+
+86
+00:03:53,640 --> 00:03:55,180
+These are shared within the same project.
+
+87
+00:03:55,180 --> 00:03:58,180
+The third layer holds the context for the current drawing.
+
+88
+00:03:58,180 --> 00:04:00,220
+This is only valid for the current conversation.
+
+89
+00:04:00,220 --> 00:04:03,460
+And finally, at the very end, you have the chat messages that grow with each round of conversation.
+
+90
+00:04:03,460 --> 00:04:06,900
+Each turn, only the last single sentence is added.
+
+91
+00:04:06,900 --> 00:04:10,180
+So, the things that are less likely to change should be placed at the very beginning.
+
+92
+00:04:10,180 --> 00:04:12,210
+It's just like tidying up a desk.
+
+93
+00:04:12,210 --> 00:04:15,010
+Reference books you rarely touch go on the bottom.
+
+94
+00:04:15,010 --> 00:04:17,350
+Put the materials you need for this week in the middle, so you don't have to rummage through your entire desk every single day.
+
+95
+00:04:17,350 --> 00:04:19,990
+and the draft you're working on today goes right on top.
+
+96
+00:04:19,990 --> 00:04:24,120
+This way, when you sit down each day, you don't have to rummage through the entire desk. It's just like organizing a desk.
+
+97
+00:04:24,120 --> 00:04:26,320
+And here are a few common pitfalls you'll want to watch out for.
+
+98
+00:04:26,320 --> 00:04:30,300
+The first one is embedding the current time into the fixed system prompt. The problem is, the current time changes every second.
+
+99
+00:04:30,300 --> 00:04:33,340
+The entire cache is just wasted.
+
+100
+00:04:33,340 --> 00:04:37,300
+The second one is using an unordered container to store the tool definitions.
+
+101
+00:04:37,300 --> 00:04:39,560
+The order of the tools in each request is different.
+
+102
+00:04:39,560 --> 00:04:41,200
+The prefixes won't match.
+
+103
+00:04:41,200 --> 00:04:44,260
+Third, the tool parameters are changed.
+
+104
+00:04:44,260 --> 00:04:45,980
+Even if you just change a single field,
+
+105
+00:04:45,980 --> 00:04:49,010
+the entire prefix cache is invalidated.
+
+106
+00:04:49,010 --> 00:04:50,630
+Miss one tiny detail,
+
+107
+00:04:50,630 --> 00:04:52,470
+the entire caching chain is broken.
+
+108
+00:04:52,470 --> 00:04:54,650
+So, what if the information gets outdated? For instance, things like the time or a file's status... what do you do when that information is actually stale?
+
+109
+00:04:54,650 --> 00:04:59,440
+So, for things like the current time or file status, here's what Anthropic does.
+
+110
+00:04:59,440 --> 00:05:04,169
+Tuck the update into the next message.
+
+111
+00:05:04,169 --> 00:05:05,309
+So, you attach a system reminder to the next user message, and the system prompt itself stays completely untouched. But how exactly does that work?
+
+112
+00:05:05,309 --> 00:05:08,480
+You just attach a system reminder to the next user message.
+
+113
+00:05:08,480 --> 00:05:10,780
+and sneak the new information in there.
+
+114
+00:05:10,780 --> 00:05:12,760
+This way, the system prompt stays completely untouched.
+
+115
+00:05:12,760 --> 00:05:14,700
+The cache remains completely intact.
+
+116
+00:05:14,700 --> 00:05:17,980
+This separation keeps the cache stable. The system prompt is the foundation, locked in place.
+
+117
+00:05:17,980 --> 00:05:20,939
+and the messages can be changed freely.
+
+118
+00:05:20,939 --> 00:05:23,520
+and the conversation history can be modified as you please.
+
+119
+00:05:23,520 --> 00:05:26,260
+With this separation, the cache becomes rock-solid.
+
+120
+00:05:26,260 --> 00:05:29,919
+Now, this next point might seem a bit counter-intuitive to many.
+
+121
+00:05:29,919 --> 00:05:33,239
+Sounds reasonable, right? You might be thinking, "That makes perfect sense." For simple questions, just switch to a smaller model to save some money.
+
+122
+00:05:33,239 --> 00:05:37,650
+And for tough questions, you switch back to the large model. It all sounds perfectly logical, right?
+
+123
+00:05:37,650 --> 00:05:42,000
+But here's the thing: the cache is tied to the specific model.
+
+124
+00:05:42,000 --> 00:05:45,920
+Switching models means all the cached data you've built up before is completely invalidated.
+
+125
+00:05:45,920 --> 00:05:47,360
+Rebuilding from scratch costs more than just having the large language model answer the simple question directly.
+
+126
+00:05:47,360 --> 00:05:50,160
+The cost of rebuilding is often higher than just having the large language model answer that simple question directly.
+
+127
+00:05:50,160 --> 00:05:51,720
+is even higher. So...
+
+128
+00:05:51,720 --> 00:05:57,760
+So, Claude Code's strategy is to use the same model for the main conversation from start to finish.
+
+129
+00:05:57,760 --> 00:06:00,640
+So, what do you do when you need a smaller model to do the work?
+
+130
+00:06:00,640 --> 00:06:02,000
+delegate subtasks.
+
+131
+00:06:02,000 --> 00:06:05,100
+These subtasks have their own independent context and cache.
+
+132
+00:06:05,100 --> 00:06:07,680
+This prevents it from contaminating the main conversation's cache chain.
+
+133
+00:06:07,680 --> 00:06:11,980
+So, the specific approach is to have the main model first create a task handover.
+
+134
+00:06:11,980 --> 00:06:13,800
+Specify that the context should be condensed.
+
+135
+00:06:13,800 --> 00:06:16,200
+and then passes it to a sub-task for execution.
+
+136
+00:06:16,200 --> 00:06:19,760
+Once it's done, it only sends the result back to the main conversation.
+
+137
+00:06:19,760 --> 00:06:22,960
+And that's exactly how the exploration mode in ClaudeCode works.
+
+138
+00:06:22,960 --> 00:06:27,340
+It uses a smaller model to perform exploration tasks within an isolated context.
+
+139
+00:06:27,340 --> 00:06:28,870
+Let me give you an analogy.
+
+140
+00:06:28,870 --> 00:06:33,430
+You wouldn't have an intern sit at your desk and use your computer. You wouldn't, just to make things easier,
+
+141
+00:06:33,430 --> 00:06:35,790
+Instead, you'd assign them their own separate machine.
+
+142
+00:06:35,790 --> 00:06:38,039
+Write out the task instructions clearly and send them over.
+
+143
+00:06:38,039 --> 00:06:40,279
+and have them send the results back when they're done.
+
+144
+00:06:40,279 --> 00:06:42,980
+And here's a word of warning for those of you thinking about using intermediaries.
+
+145
+00:06:42,980 --> 00:06:45,580
+The cache is isolated by account.
+
+146
+00:06:45,580 --> 00:06:48,350
+I've seen some people trying to use an account pool for relaying requests.
+
+147
+00:06:48,350 --> 00:06:49,650
+Once you start mixing up your account pool,
+
+148
+00:06:49,650 --> 00:06:50,690
+If the hit rate is too low,
+
+149
+00:06:50,690 --> 00:06:53,170
+You don't make any money, and on top of that, you get your account banned.
+
+150
+00:06:53,170 --> 00:06:56,360
+Don't just switch back and forth after a couple of messages. And be wary of anyone who tells you to just keep swapping accounts like it's nothing.
+
+151
+00:06:56,360 --> 00:07:00,230
+And the same goes for constantly switching to the next prompt after just a couple of messages.
+
+152
+00:07:00,230 --> 00:07:03,100
+Don't change the tool set during a conversation.
+
+153
+00:07:03,100 --> 00:07:07,700
+Intuitively, you might think the current task only needs three tools.
+
+154
+00:07:07,700 --> 00:07:11,100
+Wouldn't it be cleaner to just get rid of the other 30?
+
+155
+00:07:11,100 --> 00:07:14,060
+Adding or removing even one tool breaks the cache. That's because the tool definitions are part of the prompt prefix.
+
+156
+00:07:14,060 --> 00:07:19,000
+So, add one or remove one, and the entire cache chain is broken.
+
+157
+00:07:19,000 --> 00:07:22,040
+This means the entire conversation cache has to be rebuilt from scratch.
+
+158
+00:07:22,040 --> 00:07:26,600
+The cost is far greater than the tiny bit of space you save by not including a few extra tool definitions.
+
+159
+00:07:26,600 --> 00:07:27,900
+It might seem like an optimization,
+
+160
+00:07:27,900 --> 00:07:29,300
+But it just ends up making a mess.
+
+161
+00:07:29,300 --> 00:07:32,039
+ClaudeCode has a Plan Mode.
+
+162
+00:07:32,039 --> 00:07:34,459
+Once entered, the model only thinks.
+
+163
+00:07:34,459 --> 00:07:37,020
+It only plans, it doesn't execute.
+
+164
+00:07:37,020 --> 00:07:41,720
+Now, intuitively, you'd think that when you enter Plan Mode, you'd remove all the execution tools. But that's not what Anthropic did.
+
+165
+00:07:41,720 --> 00:07:44,020
+remove them and then add them back in.
+
+166
+00:07:44,020 --> 00:07:46,920
+But that's not what Anthropic did.
+
+167
+00:07:46,920 --> 00:07:49,740
+Instead, their approach was to keep all the tools in place.
+
+168
+00:07:49,740 --> 00:07:51,909
+They also added two special tools.
+
+169
+00:07:51,909 --> 00:07:55,309
+Entering and exiting the planning phase.
+
+170
+00:07:55,309 --> 00:07:58,370
+When the model is invoked, it switches to 'thinking mode' once it enters 'planning'.
+
+171
+00:07:58,370 --> 00:08:00,650
+and calling 'exit planning' brings it back.
+
+172
+00:08:00,650 --> 00:08:04,659
+So, how do we communicate the constraint that nothing should be executed in Plan Mode?
+
+173
+00:08:04,659 --> 00:08:07,919
+By inserting a system message into the conversation,
+
+174
+00:08:07,919 --> 00:08:10,639
+This tells the model that it's currently in the planning phase.
+
+175
+00:08:10,639 --> 00:08:15,900
+Now, keep in mind, inserting a message into the conversation flow isn't the same as changing the system prompt. You're just inserting a message into the conversation flow.
+
+176
+00:08:15,900 --> 00:08:18,000
+It's crucial to distinguish between these two. Inserting a message into the conversation flow is not the same as changing the system prompt.
+
+177
+00:08:18,000 --> 00:08:21,100
+The system prompt is fixed and part of the cache prefix.
+
+178
+00:08:21,100 --> 00:08:22,580
+while the conversation messages are dynamic.
+
+179
+00:08:22,580 --> 00:08:24,090
+This doesn't affect the prefix.
+
+180
+00:08:24,090 --> 00:08:26,110
+This way, the set of tools remains constant.
+
+181
+00:08:26,110 --> 00:08:27,750
+So the cache stays valid.
+
+182
+00:08:27,750 --> 00:08:30,669
+For complex tasks, it figures out the plan before taking action—no manual switching needed from you. And on top of that, it brings an extra benefit.
+
+183
+00:08:30,669 --> 00:08:34,188
+For complex tasks, it figures out the plan before taking action. You don't have to manually switch modes; the model can decide for itself when to enter 'Plan Mode'.
+
+184
+00:08:34,188 --> 00:08:35,708
+When it encounters a complex task,
+
+185
+00:08:35,708 --> 00:08:38,149
+It thinks things through before taking action.
+
+186
+00:08:38,149 --> 00:08:39,909
+You don't have to switch modes manually.
+
+187
+00:08:39,909 --> 00:08:43,270
+Claude Code might need to connect to dozens of external tools.
+
+188
+00:08:43,270 --> 00:08:46,810
+So, both paths are a dead end. Sticking all the full definitions in there just takes up way too much space.
+
+189
+00:08:46,810 --> 00:08:49,630
+But adding or removing them on the fly would just break the cache.
+
+190
+00:08:49,630 --> 00:08:53,410
+The compromise solution Anthropic came up with is called lazy loading.
+
+191
+00:08:53,410 --> 00:08:57,950
+Initially, you just provide a lightweight placeholder. All the model sees is the tool's name.
+
+192
+00:08:57,950 --> 00:09:00,969
+without the full parameter definitions and all that.
+
+193
+00:09:00,969 --> 00:09:02,309
+When the model actually needs to use a specific tool,
+
+194
+00:09:02,309 --> 00:09:05,969
+Then, it uses a tool search function to pull in the complete definition.
+
+195
+00:09:05,969 --> 00:09:10,870
+The advantage is that the prefix always contains only those lightweight placeholders.
+
+196
+00:09:10,870 --> 00:09:14,610
+It won't change just because a tool gets loaded.
+
+197
+00:09:14,610 --> 00:09:18,000
+This keeps the cache stable, acting just like a library's card catalog.
+
+198
+00:09:18,000 --> 00:09:20,600
+First, you consult the index to find the book you want,
+
+199
+00:09:20,600 --> 00:09:21,880
+and then go get it from the shelf.
+
+200
+00:09:21,880 --> 00:09:24,640
+Without having to haul every single book to your desk.
+
+201
+00:09:24,640 --> 00:09:25,890
+And it's worth noting,
+
+202
+00:09:25,890 --> 00:09:29,590
+This tool's search function is now publicly available through an API.
+
+203
+00:09:29,590 --> 00:09:33,500
+This allows developers to use it directly, simplifying their own tool management.
+
+204
+00:09:33,500 --> 00:09:36,840
+And the last one is about context compression.
+
+205
+00:09:36,840 --> 00:09:41,430
+This is also the most technically clever one. As a long conversation runs on...
+
+206
+00:09:41,430 --> 00:09:43,410
+the context window will get filled up.
+
+207
+00:09:43,410 --> 00:09:46,790
+At this point, you need to compress the previous conversation into a summary.
+
+208
+00:09:46,790 --> 00:09:48,670
+to make room for the conversation to continue.
+
+209
+00:09:48,670 --> 00:09:50,110
+But here's the problem.
+
+210
+00:09:50,110 --> 00:09:52,590
+If you start a whole new request just for the compression,
+
+211
+00:09:52,590 --> 00:09:54,490
+and used a different system prompt,
+
+212
+00:09:54,490 --> 00:09:56,100
+or didn't include the tool definitions,
+
+213
+00:09:56,100 --> 00:10:00,580
+So, right from the very first word, it won't match the cache from the main conversation.
+
+214
+00:10:00,580 --> 00:10:03,910
+The two cache chains are completely independent of each other.
+
+215
+00:10:03,910 --> 00:10:07,310
+The longer the conversation, the more expensive the API call. Plus, you have to send the entire conversation over just to get a summary.
+
+216
+00:10:07,310 --> 00:10:09,230
+The longer the conversation, the more expensive the call. And at this point, you're paying for the full, un-cached request.
+
+217
+00:10:09,230 --> 00:10:11,130
+the cost without any cache discount.
+
+218
+00:10:11,130 --> 00:10:13,069
+The longer the conversation, the more expensive it gets. And the longer the conversation, the more expensive this call becomes.
+
+219
+00:10:13,069 --> 00:10:17,369
+Anthropic's solution is called Cache-Safe Forking.
+
+220
+00:10:17,369 --> 00:10:21,369
+For the compression request, you must use the exact same system prompt as the main conversation.
+
+221
+00:10:21,369 --> 00:10:23,769
+user context, tool definitions,
+
+222
+00:10:23,769 --> 00:10:26,660
+Include the messages from the main conversation as the history.
+
+223
+00:10:26,660 --> 00:10:29,240
+and then append a compression instruction at the end.
+
+224
+00:10:29,240 --> 00:10:30,880
+as a new user message.
+
+225
+00:10:30,880 --> 00:10:32,500
+From a backend perspective,
+
+226
+00:10:32,500 --> 00:10:35,319
+This request is almost identical to the last one.
+
+227
+00:10:35,319 --> 00:10:36,659
+The same prefix,
+
+228
+00:10:36,659 --> 00:10:37,919
+the same tools,
+
+229
+00:10:37,919 --> 00:10:39,470
+And the same history.
+
+230
+00:10:39,470 --> 00:10:42,950
+So, the prefix cache can be reused directly.
+
+231
+00:10:42,950 --> 00:10:47,220
+This request is almost identical to the last one. The only new cost is the final compression instruction itself.
+
+232
+00:10:47,220 --> 00:10:50,000
+Allocate a buffer in advance. You can't wait for the window to be full to start compressing; you also need to reserve a compression buffer space.
+
+233
+00:10:50,000 --> 00:10:52,240
+Leave some space for the summary output.
+
+234
+00:10:52,240 --> 00:10:54,740
+You can't wait for the window to be full before you start compressing.
+
+235
+00:10:54,740 --> 00:10:57,010
+You need to leave some buffer in advance.
+
+236
+00:10:57,010 --> 00:11:00,590
+A single compression operation can reuse the entire cache from the main conversation history.
+
+237
+00:11:00,590 --> 00:11:02,210
+at almost no extra cost.
+
+238
+00:11:02,210 --> 00:11:08,090
+Looking back at these seven tips, it all boils down to one thing: caching is all about prefix matching.
+
+239
+00:11:08,090 --> 00:11:13,370
+First, prefix matching is everything. Any change, anywhere in the prefix,
+
+240
+00:11:13,370 --> 00:11:16,170
+will invalidate the cache for everything that comes after it.
+
+241
+00:11:16,170 --> 00:11:21,310
+Second, use messages instead of system prompts. If you need to change the mode, do it by sending a message.
+
+242
+00:11:21,310 --> 00:11:22,650
+Need to update the time?
+
+243
+00:11:22,650 --> 00:11:24,940
+and stuff them into the conversation messages.
+
+244
+00:11:24,940 --> 00:11:26,740
+Don't touch the system prompt.
+
+245
+00:11:26,740 --> 00:11:30,930
+Third, don't switch tools or models mid-conversation.
+
+246
+00:11:30,930 --> 00:11:33,890
+Use tools to represent state transitions.
+
+247
+00:11:33,890 --> 00:11:37,240
+Instead of adding or removing tools, use lazy loading.
+
+248
+00:11:37,240 --> 00:11:39,880
+Fourth, monitor it just like you would your system's uptime.
+
+249
+00:11:39,880 --> 00:11:41,589
+Monitor the cache hit rate.
+
+250
+00:11:41,589 --> 00:11:43,989
+Anthropic triggers an alert for any cache interruption.
+
+251
+00:11:43,989 --> 00:11:45,529
+When dealing with online incidents,
+
+252
+00:11:45,529 --> 00:11:49,690
+Fifth, any forked operations must share the prefix of the main conversation.
+
+253
+00:11:49,690 --> 00:11:54,160
+Use the same parameters for all subtasks in the summary compression.
+
+254
+00:11:54,160 --> 00:11:57,580
+Switching models, changing accounts, or starting from scratch—it's all the same principle. All design decisions must revolve around this one rule.
+
+255
+00:11:57,580 --> 00:11:58,760
+Don't change the instructions.
+
+256
+00:11:58,760 --> 00:11:59,940
+Don't touch the tools.
+
+257
+00:11:59,940 --> 00:12:02,960
+Switching models, changing accounts, or starting from scratch—it's all the same. The moment you touch it, the entire cache chain breaks.
+
+258
+00:12:02,960 --> 00:12:05,000
+Switching models, changing accounts...
+
+259
+00:12:05,000 --> 00:12:06,180
+or starting from scratch.
+
+260
+00:12:06,180 --> 00:12:07,970
+Same principle.
+
+261
+00:12:08,450 --> 00:12:10,210
+This looks like cache optimization.
+
+262
+00:12:10,210 --> 00:12:12,380
+Embrace the constraint, then build the system around it. But it's still a valid way of thinking.
+
+263
+00:12:12,380 --> 00:12:14,580
+First, you have to recognize that unavoidable constraint.
+
+264
+00:12:14,580 --> 00:12:17,580
+And then, build the entire system around it.
+

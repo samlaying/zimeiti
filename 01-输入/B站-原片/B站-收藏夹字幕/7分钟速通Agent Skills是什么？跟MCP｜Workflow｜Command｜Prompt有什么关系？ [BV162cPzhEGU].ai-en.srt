@@ -1,0 +1,800 @@
+1
+00:00:00,000 --> 00:00:02,550
+in recent years, the AI field has shown clearly
+
+2
+00:00:02,550 --> 00:00:05,600
+how piling up concepts can mask weak technical prowess
+
+3
+00:00:05,840 --> 00:00:07,116
+Lately, a hot new term '
+
+4
+00:00:07,116 --> 00:00:10,400
+'Skills' has emerged once more—what is its core meaning?
+
+5
+00:00:10,400 --> 00:00:13,869
+How do they link with Workflow, Prompt, MCP, and Command?
+
+6
+00:00:13,869 --> 00:00:17,659
+Next, we'll tie all these concepts together and clarify them.
+
+7
+00:00:17,660 --> 00:00:18,455
+Did you like it?
+
+8
+00:00:18,455 --> 00:00:19,499
+Did you follow before?
+
+9
+00:00:19,500 --> 00:00:19,500
+Continue
+
+10
+00:00:20,860 --> 00:00:23,149
+We know that to get AI to work,
+
+11
+00:00:23,149 --> 00:00:27,500
+the simplest way is to give it a command — a prompt phrase.
+
+12
+00:00:27,640 --> 00:00:29,015
+like 'Write me a resume,'
+
+13
+00:00:29,015 --> 00:00:30,509
+but what the AI spits out
+
+14
+00:00:30,509 --> 00:00:33,439
+may fall short in format and content as we hoped
+
+15
+00:00:33,720 --> 00:00:34,700
+to improve results,
+
+16
+00:00:34,700 --> 00:00:37,643
+you might add many rules — like centering personal info,
+
+17
+00:00:37,643 --> 00:00:39,134
+listing education in tables,
+
+18
+00:00:39,134 --> 00:00:41,840
+and breaking down projects using the STAR method.
+
+19
+00:00:42,170 --> 00:00:45,104
+such detailed-step prompts are called Structured Prompts
+
+20
+00:00:45,104 --> 00:00:45,890
+in our context.
+
+21
+00:00:46,840 --> 00:00:47,740
+What is Command?
+
+22
+00:00:47,740 --> 00:00:51,040
+But typing such long prompts each time isn't practical.
+
+23
+00:00:51,380 --> 00:00:53,631
+so many AI clients, like claude code,
+
+24
+00:00:53,631 --> 00:00:55,974
+let you save common prompts as files,
+
+25
+00:00:55,974 --> 00:00:59,100
+which you can summon via shortcut-like commands.
+
+26
+00:00:59,520 --> 00:01:01,808
+this 'replace fixed text with a short command'
+
+27
+00:01:01,808 --> 00:01:03,080
+feature is called Command.
+
+28
+00:01:04,290 --> 00:01:05,272
+What is a System
+
+29
+00:01:05,272 --> 00:01:08,648
+Prompt? Commands let us input long prompts more easily,
+
+30
+00:01:08,648 --> 00:01:11,779
+but as prompts grow longer, AI becomes less obedient.
+
+31
+00:01:12,020 --> 00:01:13,176
+tell it to use tables,
+
+32
+00:01:13,176 --> 00:01:14,227
+it gives plain text;
+
+33
+00:01:14,227 --> 00:01:15,699
+ask for centering, it ignores.
+
+34
+00:01:16,260 --> 00:01:16,266
+Is there a way to make it obey? Yes! What we type in the input box is called 'User Prompt' in the LLM domain.
+
+35
+00:01:23,340 --> 00:01:27,380
+there is a higher-tier command known as the system prompt
+
+36
+00:01:27,620 --> 00:01:30,630
+In general, the same request in a system prompt
+
+37
+00:01:30,630 --> 00:01:32,332
+yields better instruction-
+
+38
+00:01:32,332 --> 00:01:34,820
+-following from LLMs than User Prompts.
+
+39
+00:01:35,020 --> 00:01:38,149
+but when we use AI daily, there's just one input box —
+
+40
+00:01:38,149 --> 00:01:41,459
+whatever we type in is sent as a User Prompt to the LLM
+
+41
+00:01:41,820 --> 00:01:44,500
+system prompts are sent by the AI client in the back.
+
+42
+00:01:44,860 --> 00:01:46,902
+How can we send input text as a system
+
+43
+00:01:46,902 --> 00:01:48,300
+prompt to the LLM instead?
+
+44
+00:01:48,460 --> 00:01:50,583
+some AI tools have a dedicated slot
+
+45
+00:01:50,583 --> 00:01:53,496
+where we can use files to store system prompts
+
+46
+00:01:53,496 --> 00:01:54,406
+we want to send,
+
+47
+00:01:54,406 --> 00:01:57,379
+like cursor's cursor.ru or cloud code's cloud.md.
+
+48
+00:01:57,700 --> 00:02:00,694
+The most common one could be 'Please reply in Chinese.'
+
+49
+00:02:00,694 --> 00:02:01,259
+Enjoy that?
+
+50
+00:02:01,380 --> 00:02:03,100
+A Triple Combo click is fine?
+
+51
+00:02:03,950 --> 00:02:06,967
+What is Metadata? In daily tasks we face many scenarios,
+
+52
+00:02:06,967 --> 00:02:08,156
+like crafting resumes,
+
+53
+00:02:08,156 --> 00:02:10,990
+weekly reports, or emails—each with distinct needs.
+
+54
+00:02:11,230 --> 00:02:13,257
+stuffing them all into one system
+
+55
+00:02:13,257 --> 00:02:15,470
+prompt file just doesn't make sense
+
+56
+00:02:15,750 --> 00:02:18,892
+The simplest way is to split them into separate MD files
+
+57
+00:02:18,892 --> 00:02:19,510
+by context.
+
+58
+00:02:19,820 --> 00:02:22,860
+So the question is, how does AI know which file to use?
+
+59
+00:02:23,120 --> 00:02:24,636
+feeding all files to the LLM,
+
+60
+00:02:24,636 --> 00:02:27,181
+reading them then deciding—this isn't feasible,
+
+61
+00:02:27,181 --> 00:02:29,240
+since files turn to tokens as numbers
+
+62
+00:02:29,400 --> 00:02:32,400
+More files mean more tokens, which gets costly—what now?
+
+63
+00:02:32,720 --> 00:02:35,921
+we can add a brief description at the start of each file,
+
+64
+00:02:35,921 --> 00:02:38,011
+clearly stating what the file is for
+
+65
+00:02:38,011 --> 00:02:39,580
+and when it should be used.
+
+66
+00:02:39,820 --> 00:02:42,487
+This kind of hint data is called metadata.
+
+67
+00:02:42,487 --> 00:02:45,281
+So, when a user sends 'Help me write a resume'
+
+68
+00:02:45,281 --> 00:02:46,361
+in the AI client,
+
+69
+00:02:46,361 --> 00:02:49,918
+the client only needs to send this metadata to the model.
+
+70
+00:02:50,140 --> 00:02:52,820
+Since Metadata is small, it doesn't cost many tokens.
+
+71
+00:02:53,090 --> 00:02:55,111
+the model detects this is a resume scenario,
+
+72
+00:02:55,111 --> 00:02:56,249
+returns to the AI client,
+
+73
+00:02:56,249 --> 00:02:58,505
+which then loads the full resume expert content
+
+74
+00:02:58,505 --> 00:03:00,329
+and sends the system prompt to the AI.
+
+75
+00:03:00,640 --> 00:03:02,822
+AI uses the prompt to generate the resume,
+
+76
+00:03:02,822 --> 00:03:03,521
+then sends it
+
+77
+00:03:03,521 --> 00:03:06,213
+back to the client—this preserves prompt efficacy
+
+78
+00:03:06,213 --> 00:03:07,560
+while saving many tokens.
+
+79
+00:03:07,750 --> 00:03:08,923
+If you're still awake,
+
+80
+00:03:08,923 --> 00:03:11,549
+drop a 0 in danmu so I can see how many are left.
+
+81
+00:03:12,530 --> 00:03:15,351
+What are Reference and Script? As needs grow finer,
+
+82
+00:03:15,351 --> 00:03:17,770
+single files can still become quite large.
+
+83
+00:03:17,970 --> 00:03:18,566
+for resumes,
+
+84
+00:03:18,566 --> 00:03:21,441
+different roles need varied approaches—product roles
+
+85
+00:03:21,441 --> 00:03:22,798
+stress business insight,
+
+86
+00:03:22,798 --> 00:03:24,804
+dev roles highlight engineering depth,
+
+87
+00:03:24,804 --> 00:03:27,030
+and AI roles focus on paper achievements
+
+88
+00:03:27,330 --> 00:03:27,770
+What to do?
+
+89
+00:03:27,890 --> 00:03:29,746
+Keep splitting: in 'write-resume.md',
+
+90
+00:03:29,746 --> 00:03:31,329
+we can add a role entry point,
+
+91
+00:03:31,329 --> 00:03:33,677
+routing different roles to separate files.
+
+92
+00:03:33,677 --> 00:03:35,860
+If a single role file is still too large,
+
+93
+00:03:35,860 --> 00:03:36,789
+split it further.
+
+94
+00:03:37,060 --> 00:03:39,888
+the AI client would then use 'cat' and such sys cmds
+
+95
+00:03:39,888 --> 00:03:41,302
+to read the file outline,
+
+96
+00:03:41,302 --> 00:03:42,660
+then drill down by role
+
+97
+00:03:42,850 --> 00:03:44,584
+just read the few files you need;
+
+98
+00:03:44,584 --> 00:03:46,970
+unused ones won't consume any tokens at all.
+
+99
+00:03:47,190 --> 00:03:48,974
+this on-demand data read method
+
+100
+00:03:48,974 --> 00:03:50,990
+is known as progressive disclosure.
+
+101
+00:03:51,430 --> 00:03:54,537
+these split-out files can serve as reference materials
+
+102
+00:03:54,537 --> 00:03:57,070
+and be placed in a folder named 'references'.
+
+103
+00:03:57,240 --> 00:03:59,103
+As the name suggests, if the LLM needs it,
+
+104
+00:03:59,103 --> 00:04:00,640
+it can reference those materials.
+
+105
+00:04:01,160 --> 00:04:03,320
+If we can run system commands to read files,
+
+106
+00:04:03,320 --> 00:04:05,280
+then we should be able to run code too.
+
+107
+00:04:05,520 --> 00:04:08,453
+then write a Python script to save text into a Word doc
+
+108
+00:04:08,453 --> 00:04:10,480
+and export it as PDF — that makes sense.
+
+109
+00:04:10,680 --> 00:04:13,592
+put these code files into a folder named 'Scripts',
+
+110
+00:04:13,592 --> 00:04:14,602
+and in the prompt,
+
+111
+00:04:14,602 --> 00:04:17,279
+specify which script to run in each scenario
+
+112
+00:04:17,560 --> 00:04:19,779
+this way, the LLM can work with the AI client
+
+113
+00:04:19,779 --> 00:04:20,639
+via code scripts
+
+114
+00:04:20,639 --> 00:04:22,760
+to enable features beyond plain text chat
+
+115
+00:04:22,900 --> 00:04:24,056
+If you've made it here,
+
+116
+00:04:24,056 --> 00:04:25,924
+you've outpaced 99% of viewers—drop a '1'
+
+117
+00:04:25,924 --> 00:04:27,580
+so I can see how many there are
+
+118
+00:04:28,720 --> 00:04:29,520
+What is Skill?
+
+119
+00:04:29,920 --> 00:04:33,658
+Here, we've turned our commonly used User Prompts into system
+
+120
+00:04:33,658 --> 00:04:35,840
+prompts stored as individual files.
+
+121
+00:04:36,000 --> 00:04:38,081
+then use Metadata and split files
+
+122
+00:04:38,081 --> 00:04:40,479
+to load data by conditions and scenes,
+
+123
+00:04:40,479 --> 00:04:42,120
+cutting token use sharply
+
+124
+00:04:42,270 --> 00:04:44,519
+and place any reference materials and code
+
+125
+00:04:44,519 --> 00:04:45,966
+scripts used by the prompt
+
+126
+00:04:45,966 --> 00:04:48,163
+into the References and Scripts folders —
+
+127
+00:04:48,163 --> 00:04:50,359
+one for reading docs, one for running code.
+
+128
+00:04:50,720 --> 00:04:53,372
+rename the main prompt file to 'skill.md',
+
+129
+00:04:53,372 --> 00:04:55,626
+then bundle them all into a folder
+
+130
+00:04:55,626 --> 00:04:58,676
+with a name—like 'resume_writer.**' for resumes
+
+131
+00:04:58,676 --> 00:05:00,599
+or 'article-writer' for essays.
+
+132
+00:05:00,940 --> 00:05:02,053
+this system prompt,
+
+133
+00:05:02,053 --> 00:05:04,899
+externalized as a folder with dynamic loading,
+
+134
+00:05:04,899 --> 00:05:06,199
+is known as Skill.**.
+
+135
+00:05:06,199 --> 00:05:08,860
+Let's look at its full workflow in .** form.
+
+136
+00:05:09,140 --> 00:05:12,088
+First, place it in the 'skills' folder of Claude Code —
+
+137
+00:05:12,088 --> 00:05:14,034
+that completes the installation.
+
+138
+00:05:14,034 --> 00:05:16,569
+Now, Claude Code will recognize its commands.
+
+139
+00:05:16,920 --> 00:05:19,093
+then we, as usual, send in the chat box
+
+140
+00:05:19,093 --> 00:05:20,680
+what we want to accomplish.
+
+141
+00:05:20,880 --> 00:05:23,395
+e.g., 'write a resume PDF' — Cloud Code
+
+142
+00:05:23,395 --> 00:05:27,970
+loads local skill files and sends their metadata to the LLM.
+
+143
+00:05:28,340 --> 00:05:30,726
+the LLM identifies which skill is needed
+
+144
+00:05:30,726 --> 00:05:31,980
+and tells cloud code.
+
+145
+00:05:32,260 --> 00:05:34,834
+cloud code loads the matching skill file into the system
+
+146
+00:05:34,834 --> 00:05:36,260
+prompt and sends it to the LLM.
+
+147
+00:05:36,500 --> 00:05:39,501
+the LLM directs cloud code to read relevant files,
+
+148
+00:05:39,501 --> 00:05:42,655
+possibly multiple sources, or even run local scripts
+
+149
+00:05:42,655 --> 00:05:45,810
+to generate a PDF and return the output to the LLM.
+
+150
+00:05:46,040 --> 00:05:48,886
+The LLM then outputs the full result to the user,
+
+151
+00:05:48,886 --> 00:05:51,595
+completing the flow—so what sets Skills apart
+
+152
+00:05:51,595 --> 00:05:52,920
+from MCP and Workflow?
+
+153
+00:05:53,780 --> 00:05:56,706
+We know the difference: LLM is like the brain,
+
+154
+00:05:56,706 --> 00:05:59,300
+and MCP lets it control external tools
+
+155
+00:05:59,480 --> 00:06:00,745
+the big minds added MCP,
+
+156
+00:06:00,745 --> 00:06:03,000
+which acts like hands for the main brain
+
+157
+00:06:03,200 --> 00:06:04,950
+MCP Plugins are the tools in hand.
+
+158
+00:06:04,950 --> 00:06:06,446
+But giving a college student
+
+159
+00:06:06,446 --> 00:06:07,312
+a bunch of tools
+
+160
+00:06:07,312 --> 00:06:10,510
+won't let him fix a car—experience and process are missing,
+
+161
+00:06:10,510 --> 00:06:11,900
+hence the need for Skills.
+
+162
+00:06:12,140 --> 00:06:14,731
+you can think of it as operational know-how—guiding
+
+163
+00:06:14,731 --> 00:06:15,900
+which tools to combine,
+
+164
+00:06:15,900 --> 00:06:17,780
+in what order, for specific scenarios
+
+165
+00:06:18,090 --> 00:06:20,008
+note that the tools mentioned here
+
+166
+00:06:20,008 --> 00:06:22,547
+could be MCP Plugins or local script scripts;
+
+167
+00:06:22,547 --> 00:06:24,692
+Skills look like orchestration tools,
+
+168
+00:06:24,692 --> 00:06:26,779
+but how do they differ from Workflows?
+
+169
+00:06:27,810 --> 00:06:29,947
+The difference between Skill and Workflow:
+
+170
+00:06:29,947 --> 00:06:31,876
+many tasks can be broken into steps.
+
+171
+00:06:31,876 --> 00:06:34,482
+For example, making a video involves picking topics,
+
+172
+00:06:34,482 --> 00:06:36,619
+writing scripts, and creating storyboards.
+
+173
+00:06:36,860 --> 00:06:38,784
+to address such process-driven needs,
+
+174
+00:06:38,784 --> 00:06:41,859
+many developers have open-sourced low-code tools like n8n,
+
+175
+00:06:41,859 --> 00:06:44,450
+which let you build pipelines via drag-and-drop.
+
+176
+00:06:44,850 --> 00:06:47,421
+a process where steps are arranged and orchestrated
+
+177
+00:06:47,421 --> 00:06:48,531
+via rule-based setups
+
+178
+00:06:48,531 --> 00:06:49,490
+is called Workflow
+
+179
+00:06:49,670 --> 00:06:52,183
+skills are also about 'logic orchestration,'
+
+180
+00:06:52,183 --> 00:06:53,428
+but unlike Workflows,
+
+181
+00:06:53,428 --> 00:06:56,230
+whose flow structure is fixed at design time
+
+182
+00:06:56,230 --> 00:06:58,441
+and Skills' execution is LLM-driven,
+
+183
+00:06:58,441 --> 00:07:01,415
+offering greater flexibility—both can achieve
+
+184
+00:07:01,415 --> 00:07:02,540
+similar outcomes
+
+185
+00:07:02,820 --> 00:07:04,042
+So, 'loosely speaking,'
+
+186
+00:07:04,042 --> 00:07:07,580
+a Skill is just an 'LLM-driven Workflow' in simple terms.
+
+187
+00:07:07,880 --> 00:07:08,920
+Are folks all clear now?
+
+188
+00:07:09,200 --> 00:07:11,076
+Alright, if you found this video helpful,
+
+189
+00:07:11,076 --> 00:07:13,387
+be sure to share it with your not-so-bright bro;
+
+190
+00:07:13,387 --> 00:07:14,880
+text notes are in the comments.
+
+191
+00:07:15,040 --> 00:07:17,160
+One last question left, but I'll skip it
+
+192
+00:07:17,320 --> 00:07:18,867
+Wish you all a Happy Chinese New Year!
+
+193
+00:07:18,867 --> 00:07:20,659
+May you grow rich, look great, and be awesome!
+
+194
+00:07:20,659 --> 00:07:22,858
+Comment below and tell me what you'd like to know next.
+
+195
+00:07:22,900 --> 00:07:23,850
+This is Xiao Bai Debug.
+
+196
+00:07:23,850 --> 00:07:25,006
+We focus on all technologies
+
+197
+00:07:25,006 --> 00:07:26,907
+that might shape the course of human history.
+
+198
+00:07:26,907 --> 00:07:28,477
+If you're interested, please follow us.
+
+199
+00:07:28,477 --> 00:07:29,179
+See you next time!
+
+200
+00:07:29,340 --> 00:07:31,020
+Doo doo doo doo doo doo
+

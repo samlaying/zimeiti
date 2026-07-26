@@ -1,0 +1,1248 @@
+1
+00:00:02,540 --> 00:00:05,060
+For those of you who use Claude Code regularly, you probably already know this.
+
+2
+00:00:05,060 --> 00:00:06,820
+Claude Code is already incredibly powerful.
+
+3
+00:00:06,820 --> 00:00:09,480
+It can read code, run commands, and call all sorts of tools.
+
+4
+00:00:09,480 --> 00:00:12,059
+It can even understand screenshots we throw at it, no problem.
+
+5
+00:00:12,059 --> 00:00:13,599
+But right now, it has two main limitations.
+
+6
+00:00:13,599 --> 00:00:16,679
+First, its knowledge is limited to the information it was trained on.
+
+7
+00:00:16,679 --> 00:00:20,090
+So when we ask it about recent events, it often can't answer.
+
+8
+00:00:20,090 --> 00:00:22,410
+Second, its outputs are limited to text and code.
+
+9
+00:00:22,410 --> 00:00:24,470
+like generating images or creating videos.
+
+10
+00:00:24,470 --> 00:00:26,580
+or even speak and generate voice.
+
+11
+00:00:26,580 --> 00:00:27,580
+It can't do any of that.
+
+12
+00:00:27,580 --> 00:00:29,640
+So, to address Claude Code's shortcomings,
+
+13
+00:00:29,640 --> 00:00:31,600
+So, in this video, let's put it to the test.
+
+14
+00:00:31,600 --> 00:00:35,269
+So, can we solve all these limitations with just a single command?
+
+15
+00:00:35,269 --> 00:00:37,069
+So, to address Claude Code's shortcomings,
+
+16
+00:00:37,069 --> 00:00:37,909
+It's super simple.
+
+17
+00:00:37,909 --> 00:00:39,780
+And all we need is one tool.
+
+18
+00:00:39,780 --> 00:00:42,400
+This tool is called the Model Studio CLI.
+
+19
+00:00:42,400 --> 00:00:43,340
+The installation is super simple.
+
+20
+00:00:43,340 --> 00:00:46,300
+All we have to do is copy the prompt provided by the official documentation.
+
+21
+00:00:46,300 --> 00:00:47,520
+Now, let's go back to Claude Code.
+
+22
+00:00:47,520 --> 00:00:50,480
+And then we'll just paste in the prompt we just copied.
+
+23
+00:00:50,480 --> 00:00:52,700
+and have it read the installation documentation.
+
+24
+00:00:52,700 --> 00:00:55,880
+and install the Alibaba Cloud Model Studio CLI for me according to the instructions.
+
+25
+00:00:55,880 --> 00:00:57,890
+And just like that, we run it, and Claude Code will automatically install it for us.
+
+26
+00:00:57,890 --> 00:01:01,410
+Model Studio CLI
+
+27
+00:01:01,410 --> 00:01:03,340
+so we don't have to install it manually.
+
+28
+00:01:03,340 --> 00:01:05,360
+Here, it says the installation is complete and has been verified.
+
+29
+00:01:05,360 --> 00:01:08,570
+Alright, all we need to do now is provide it with the API key.
+
+30
+00:01:08,570 --> 00:01:11,070
+All we need to do is go to the Alibaba Cloud Model Studio console.
+
+31
+00:01:11,070 --> 00:01:12,510
+and get an API Key.
+
+32
+00:01:12,510 --> 00:01:14,430
+and provide the API Key to Claude Code.
+
+33
+00:01:14,430 --> 00:01:15,820
+And we're all set to go.
+
+34
+00:01:15,820 --> 00:01:17,500
+I'll drop the registration link in the comments section.
+
+35
+00:01:17,500 --> 00:01:18,980
+New users get a free quota.
+
+36
+00:01:18,980 --> 00:01:21,260
+You can follow along with the video as we go.
+
+37
+00:01:21,260 --> 00:01:23,940
+Then, click on the 'Create API Key' button in the top-right corner.
+
+38
+00:01:23,940 --> 00:01:25,920
+Alright, let's head back to Claude Code.
+
+39
+00:01:25,920 --> 00:01:29,080
+We'll just tell it in plain English: "configure my API Key."
+
+40
+00:01:29,080 --> 00:01:32,820
+Then, just paste the API Key we just created and copied, and Claude Code will automatically set it up for us.
+
+41
+00:01:32,820 --> 00:01:35,020
+and Claude Code will automatically set it up for us.
+
+42
+00:01:35,020 --> 00:01:36,020
+Once it's installed,
+
+43
+00:01:36,020 --> 00:01:38,220
+And just like that, Claude Code has a whole new set of capabilities.
+
+44
+00:01:38,220 --> 00:01:40,940
+This includes online searches, accessing knowledge bases, and memory banks.
+
+45
+00:01:40,940 --> 00:01:42,520
+image generation and editing,
+
+46
+00:01:42,520 --> 00:01:45,540
+video generation, text-to-speech, and speech recognition.
+
+47
+00:01:45,540 --> 00:01:49,340
+It can also call upon the workflows and Agents we've already set up on Alibaba Cloud Model Studio.
+
+48
+00:01:49,340 --> 00:01:52,310
+Alright, let's put it to the test in Claude Code.
+
+49
+00:01:52,310 --> 00:01:55,470
+So, first, let's tackle the first limitation of Claude Code.
+
+50
+00:01:55,470 --> 00:01:57,710
+and give it the ability to get real-time information.
+
+51
+00:01:57,710 --> 00:02:01,400
+In other words, we're giving it access to the latest and greatest knowledge out there.
+
+52
+00:02:01,400 --> 00:02:02,120
+Now, before we install it,
+
+53
+00:02:02,120 --> 00:02:04,340
+We asked it about a recent event.
+
+54
+00:02:04,340 --> 00:02:05,700
+As you can see, it either doesn't know,
+
+55
+00:02:05,700 --> 00:02:07,160
+or the answer is outdated.
+
+56
+00:02:07,160 --> 00:02:08,139
+So, for the question we just asked,
+
+57
+00:02:08,139 --> 00:02:10,300
+We can continue testing this out in Claude Code.
+
+58
+00:02:10,300 --> 00:02:13,490
+You can directly use the slash command plus the Bailian CLI.
+
+59
+00:02:13,490 --> 00:02:16,350
+After that, we can just describe our task in natural language.
+
+60
+00:02:16,350 --> 00:02:18,570
+the version number of the latest AutoGen agent.
+
+61
+00:02:18,570 --> 00:02:19,550
+and the major updates.
+
+62
+00:02:19,550 --> 00:02:20,600
+And then just send it.
+
+63
+00:02:20,600 --> 00:02:21,320
+So, with a prompt like this,
+
+64
+00:02:21,320 --> 00:02:24,240
+Claude Code will then use the Model Studio CLI
+
+65
+00:02:24,240 --> 00:02:26,080
+to search for this Agent for us.
+
+66
+00:02:26,080 --> 00:02:27,720
+and the version number of its latest release.
+
+67
+00:02:27,720 --> 00:02:28,880
+and the main updates.
+
+68
+00:02:28,880 --> 00:02:32,200
+And there it is. It's found the version number for the AutoGen Agent.
+
+69
+00:02:32,200 --> 00:02:33,440
+and the main updates.
+
+70
+00:02:33,440 --> 00:02:35,520
+Now, if you don't want to use the slash commands,
+
+71
+00:02:35,520 --> 00:02:37,600
+You can also just tell it in plain English.
+
+72
+00:02:37,600 --> 00:02:41,520
+invoke the Bailian CLI to search for the version number of this Agent.
+
+73
+00:02:41,520 --> 00:02:42,600
+And there's a major update.
+
+74
+00:02:42,600 --> 00:02:46,490
+And just like that, it will call the Bailian CLI to perform the search.
+
+75
+00:02:46,490 --> 00:02:47,250
+And just like that,
+
+76
+00:02:47,250 --> 00:02:50,330
+This gives Claude Code much more powerful web search capabilities.
+
+77
+00:02:50,330 --> 00:02:52,399
+This allows it to perform real-time internet searches.
+
+78
+00:02:52,399 --> 00:02:55,659
+So, after installing the Model Studio CLI for Claude Code,
+
+79
+00:02:55,659 --> 00:02:57,119
+But it's not just about searching.
+
+80
+00:02:57,119 --> 00:02:58,519
+and connect to knowledge bases.
+
+81
+00:02:58,519 --> 00:03:01,320
+Let's start by testing out its memory bank.
+
+82
+00:03:01,320 --> 00:03:02,760
+For example, I'll type in the prompt: 'Please remember...'
+
+83
+00:03:02,760 --> 00:03:05,240
+My tech stack is Swift.
+
+84
+00:03:05,240 --> 00:03:06,950
+And then, just send it.
+
+85
+00:03:06,950 --> 00:03:10,270
+And right here, it's telling me that it will be stored in the default memory bank of Model Studio.
+
+86
+00:03:10,270 --> 00:03:13,820
+And then we can see that it's calling the Model Studio CLI.
+
+87
+00:03:13,820 --> 00:03:16,500
+And here, it shows that the data has been successfully saved to the default Bailian memory bank.
+
+88
+00:03:16,500 --> 00:03:19,580
+Alright, let's head back to the Model Studio console and check it out.
+
+89
+00:03:19,580 --> 00:03:21,150
+Let's click on this memory bank.
+
+90
+00:03:21,150 --> 00:03:23,780
+And under Memory Details, we can go ahead and click to view it.
+
+91
+00:03:23,780 --> 00:03:28,040
+And right here, it's stored the tech stack that we just told it about.
+
+92
+00:03:28,040 --> 00:03:30,040
+And you can see the update time here is just a moment ago.
+
+93
+00:03:30,040 --> 00:03:30,720
+So, with something like this,
+
+94
+00:03:30,720 --> 00:03:32,920
+we can then directly use Model Studio.
+
+95
+00:03:32,920 --> 00:03:36,820
+Its memory bank serves as the long-term memory system for our Claude Code.
+
+96
+00:03:36,820 --> 00:03:38,180
+Even if we switch devices,
+
+97
+00:03:38,180 --> 00:03:40,860
+and sync the memory to the new device as well.
+
+98
+00:03:40,860 --> 00:03:42,420
+Plus, it also supports a knowledge base.
+
+99
+00:03:42,420 --> 00:03:45,560
+So for the Knowledge Base, we'll just click 'Enable Now and Create'.
+
+100
+00:03:45,560 --> 00:03:47,820
+And right here, we can set the name for our knowledge base.
+
+101
+00:03:47,820 --> 00:03:50,980
+For instance, the knowledge base I'm creating here, I'll name it 'Harness Engineering'.
+
+102
+00:03:50,980 --> 00:03:54,540
+I'll upload a document related to Harness.
+
+103
+00:03:54,540 --> 00:03:55,800
+And then, click Next.
+
+104
+00:03:55,800 --> 00:03:58,629
+And here, it shows that the file is being parsed.
+
+105
+00:03:58,629 --> 00:04:02,909
+Alright, now let's test out the knowledge base we just built, right here in Claude Code.
+
+106
+00:04:02,909 --> 00:04:05,680
+and have it use this knowledge base to retrieve information.
+
+107
+00:04:05,680 --> 00:04:08,760
+The prompt I'm using is to search for information within the Harness project.
+
+108
+00:04:08,760 --> 00:04:10,160
+an introduction to Harness.
+
+109
+00:04:10,160 --> 00:04:12,040
+And then, we just send it.
+
+110
+00:04:12,040 --> 00:04:15,760
+And right here, it's telling us that it's going to call the Bailian CLI to perform the search.
+
+111
+00:04:15,760 --> 00:04:19,298
+So, it's pulling from the knowledge base we just created.
+
+112
+00:04:19,298 --> 00:04:22,459
+and retrieved all these introductions related to Harness.
+
+113
+00:04:22,459 --> 00:04:24,359
+And the results it retrieved are incredibly detailed.
+
+114
+00:04:24,359 --> 00:04:26,660
+So, we won't go through all the details here.
+
+115
+00:04:26,660 --> 00:04:27,380
+And just like that,
+
+116
+00:04:27,380 --> 00:04:31,940
+And just like that, we've given our Claude Code an external knowledge base.
+
+117
+00:04:31,940 --> 00:04:33,540
+So now we have a knowledge base and a memory bank.
+
+118
+00:04:33,540 --> 00:04:37,419
+Over time, this will build up our own knowledge flywheel.
+
+119
+00:04:37,419 --> 00:04:40,399
+Alright, next up, let's tackle the second limitation of Claude Code.
+
+120
+00:04:40,399 --> 00:04:42,560
+enabling it to generate images and videos.
+
+121
+00:04:42,560 --> 00:04:45,500
+So, right here in Claude Code, I can just type in a natural language description.
+
+122
+00:04:45,500 --> 00:04:47,920
+Let's have it generate a set of main images for an Amazon e-commerce listing.
+
+123
+00:04:47,920 --> 00:04:49,270
+I'm asking for six images.
+
+124
+00:04:49,270 --> 00:04:51,810
+The product is a solid black, men's summer T-shirt.
+
+125
+00:04:51,810 --> 00:04:55,820
+Alright, let's just send it. And here it says it's generating 6 images.
+
+126
+00:04:55,820 --> 00:04:59,160
+So what it's using right now is the image generation capability from Alibaba Cloud Model Studio.
+
+127
+00:04:59,160 --> 00:05:00,720
+Qwen-Image 2.0.
+
+128
+00:05:00,720 --> 00:05:02,910
+And it supports multiple sizes.
+
+129
+00:05:02,910 --> 00:05:03,630
+And it's already prompting me here.
+
+130
+00:05:03,630 --> 00:05:07,110
+And it's done. Six high-quality main images for an Amazon listing.
+
+131
+00:05:07,110 --> 00:05:08,590
+Alright, let's open them up and take a look.
+
+132
+00:05:08,590 --> 00:05:10,320
+Alright, let's start with the first image.
+
+133
+00:05:10,320 --> 00:05:11,760
+This is a black T-shirt.
+
+134
+00:05:11,760 --> 00:05:15,140
+This style is a perfect fit for e-commerce product images.
+
+135
+00:05:15,140 --> 00:05:16,600
+And here's the second image.
+
+136
+00:05:16,600 --> 00:05:18,580
+As you can see, the result is pretty good too.
+
+137
+00:05:18,580 --> 00:05:20,260
+Alright, let's take a look at the third one.
+
+138
+00:05:20,260 --> 00:05:22,680
+This is also a close-up of the T-shirt's material.
+
+139
+00:05:22,680 --> 00:05:23,880
+And this is the fourth one.
+
+140
+00:05:23,880 --> 00:05:24,620
+So, with that in mind,
+
+141
+00:05:24,620 --> 00:05:26,360
+With the power of Alibaba Cloud's Model Studio,
+
+142
+00:05:26,360 --> 00:05:28,480
+our Claude Code can now generate images.
+
+143
+00:05:28,480 --> 00:05:30,640
+And it's not just about generating images.
+
+144
+00:05:30,640 --> 00:05:32,560
+It can also edit those images.
+
+145
+00:05:32,560 --> 00:05:35,480
+For example, let's have it add a logo to this T-shirt.
+
+146
+00:05:35,480 --> 00:05:36,640
+So, I'll just type in the prompt.
+
+147
+00:05:36,640 --> 00:05:39,680
+Add a nice logo to the T-shirt in the first image.
+
+148
+00:05:39,680 --> 00:05:40,760
+And then, just send it.
+
+149
+00:05:40,760 --> 00:05:41,480
+So, with a command like this,
+
+150
+00:05:41,480 --> 00:05:44,560
+And it will call upon the image editing capabilities of Alibaba Cloud's Model Studio.
+
+151
+00:05:44,560 --> 00:05:45,800
+It supports modifications,
+
+152
+00:05:45,800 --> 00:05:47,350
+as well as merging multiple images and more.
+
+153
+00:05:47,350 --> 00:05:49,950
+And here it says the logo has been added.
+
+154
+00:05:49,950 --> 00:05:51,270
+We can click to check it out.
+
+155
+00:05:51,270 --> 00:05:54,670
+As you can see, it's added a white logo to the T-shirt.
+
+156
+00:05:54,670 --> 00:05:56,650
+The result is actually pretty good.
+
+157
+00:05:56,650 --> 00:05:59,650
+Alright, next up, let's test out its video generation capabilities.
+
+158
+00:05:59,650 --> 00:06:01,210
+Let's test its video generation capabilities.
+
+159
+00:06:01,210 --> 00:06:02,310
+So, we can go ahead and pick one.
+
+160
+00:06:02,310 --> 00:06:05,460
+the image that the Bailian CLI just generated for us.
+
+161
+00:06:05,460 --> 00:06:07,420
+So, let's just go with this image, for example.
+
+162
+00:06:07,420 --> 00:06:08,680
+And now, I'll just type in the prompt.
+
+163
+00:06:08,680 --> 00:06:10,340
+and have it use this image as a reference.
+
+164
+00:06:10,340 --> 00:06:12,320
+Generate a video that's about 5 seconds long.
+
+165
+00:06:12,320 --> 00:06:13,350
+And just send it.
+
+166
+00:06:13,350 --> 00:06:16,010
+First, it will read the image we've told it to reference.
+
+167
+00:06:16,010 --> 00:06:18,350
+And then it will call the video generation model.
+
+168
+00:06:18,350 --> 00:06:20,770
+Specifically, the HappyHorse 1.0 model.
+
+169
+00:06:20,770 --> 00:06:23,990
+and generate a video for us from the image.
+
+170
+00:06:23,990 --> 00:06:26,210
+And here it tells us the video has been generated.
+
+171
+00:06:26,210 --> 00:06:27,430
+Let's find the video.
+
+172
+00:06:27,430 --> 00:06:29,410
+And then, let's hit play.
+
+173
+00:06:35,240 --> 00:06:38,620
+As you can see, the video turned out incredibly well.
+
+174
+00:06:38,620 --> 00:06:41,340
+It even generated background music for the video.
+
+175
+00:06:41,340 --> 00:06:44,660
+And the character in the video, their movements are incredibly smooth.
+
+176
+00:06:44,870 --> 00:06:47,890
+Even the leaves in the background are swaying in the breeze.
+
+177
+00:06:47,890 --> 00:06:49,640
+Everything looks incredibly realistic.
+
+178
+00:06:49,640 --> 00:06:53,000
+And the person's facial expressions look incredibly realistic, too.
+
+179
+00:06:53,000 --> 00:06:55,680
+We can even modify the video it generates.
+
+180
+00:06:55,680 --> 00:06:57,980
+All we need to do is follow the prompts from Claude Code.
+
+181
+00:06:57,980 --> 00:06:59,920
+and have it edit the video for us.
+
+182
+00:06:59,920 --> 00:07:02,480
+For instance, we can add action shots from different angles.
+
+183
+00:07:02,480 --> 00:07:03,800
+add text subtitles,
+
+184
+00:07:03,800 --> 00:07:05,380
+and even different background scenes.
+
+185
+00:07:05,380 --> 00:07:07,010
+longer video versions, and so on.
+
+186
+00:07:07,010 --> 00:07:09,990
+Next up, we can also address the third shortcoming of Claude Code.
+
+187
+00:07:09,990 --> 00:07:11,550
+Which is the voice feature.
+
+188
+00:07:11,550 --> 00:07:13,770
+With the power of the Bailian CLI,
+
+189
+00:07:13,770 --> 00:07:16,550
+This means Claude Code now has text-to-speech capabilities.
+
+190
+00:07:16,550 --> 00:07:17,830
+and even recognize speech.
+
+191
+00:07:17,830 --> 00:07:19,650
+In other words, it can both speak and listen.
+
+192
+00:07:19,650 --> 00:07:21,590
+Alright, let's start by testing out the BaiLian CLI.
+
+193
+00:07:21,590 --> 00:07:24,130
+Now, let's talk about the speech generation capabilities of the Bailian CLI.
+
+194
+00:07:24,130 --> 00:07:25,210
+So, in Claude Code,
+
+195
+00:07:25,210 --> 00:07:27,390
+I'll use a slash command to call the BAILIAN CLI.
+
+196
+00:07:27,390 --> 00:07:29,290
+Now, let's have it generate an audio reading.
+
+197
+00:07:29,290 --> 00:07:30,960
+the following poem.
+
+198
+00:07:30,960 --> 00:07:32,380
+And after that, we'll give it a poem.
+
+199
+00:07:32,380 --> 00:07:34,410
+The poem is "Farewell to Cambridge Again."
+
+200
+00:07:34,410 --> 00:07:36,410
+And it says here that the generation was successful.
+
+201
+00:07:36,410 --> 00:07:38,290
+and it's been saved to this location.
+
+202
+00:07:38,290 --> 00:07:41,190
+And it notes that the voice is gentle and delicate.
+
+203
+00:07:41,190 --> 00:07:43,430
+Alright, let's open it up and hear how it sounds.
+
+204
+00:07:43,430 --> 00:07:46,100
+Quietly I leave,
+
+205
+00:07:46,340 --> 00:07:48,160
+As I came quietly.
+
+206
+00:07:48,160 --> 00:07:49,960
+I gently wave my hand,
+
+207
+00:07:49,960 --> 00:07:52,070
+To bid farewell to the clouds in the Western Paradise.
+
+208
+00:07:52,070 --> 00:07:56,070
+The golden willows by the riverbank are brides in the setting sun.
+
+209
+00:07:56,070 --> 00:08:00,370
+The gorgeous reflection in the sparkling waves sways in my heart.
+
+210
+00:08:00,530 --> 00:08:02,490
+The green weeds on the soft mud,
+
+211
+00:08:02,490 --> 00:08:04,870
+are swaying in the gentle waves;
+
+212
+00:08:04,870 --> 00:08:06,750
+In the gentle ripples of the River Cam,
+
+213
+00:08:06,750 --> 00:08:09,200
+I would be a waterweed.
+
+214
+00:08:09,200 --> 00:08:12,480
+That pool under the elm's shade is not a clear spring,
+
+215
+00:08:12,480 --> 00:08:14,000
+It's a rainbow in the sky.
+
+216
+00:08:14,000 --> 00:08:16,370
+Crushed and scattered among the floating algae.
+
+217
+00:08:16,370 --> 00:08:17,290
+To save some time,
+
+218
+00:08:17,290 --> 00:08:19,310
+So, let's just listen to the first few seconds here.
+
+219
+00:08:19,310 --> 00:08:22,460
+And the audio it generates? The quality is seriously impressive.
+
+220
+00:08:22,460 --> 00:08:24,220
+And the voice is so gentle and delicate.
+
+221
+00:08:24,220 --> 00:08:25,780
+When it's reading this poem,
+
+222
+00:08:25,780 --> 00:08:28,289
+Both the pacing and the emotion...
+
+223
+00:08:28,289 --> 00:08:30,869
+all perfectly match the mood of the poem.
+
+224
+00:08:30,869 --> 00:08:31,649
+So, with that in place,
+
+225
+00:08:31,649 --> 00:08:35,280
+And just like that, our Claude Code now has text-to-speech capabilities.
+
+226
+00:08:35,280 --> 00:08:38,320
+Alright, next up, let's test out its speech recognition capabilities.
+
+227
+00:08:38,320 --> 00:08:40,880
+So, it can listen. I've prepared a piece of audio for this.
+
+228
+00:08:40,880 --> 00:08:42,919
+Let's have a listen first.
+
+229
+00:08:43,159 --> 00:08:45,280
+The evening wind drifts past the old street corner,
+
+230
+00:08:45,280 --> 00:08:47,520
+and gently swaying the shadows of the lights.
+
+231
+00:08:47,520 --> 00:08:50,329
+Someone turns back at dusk,
+
+232
+00:08:50,329 --> 00:08:53,260
+Like recalling a name, left half-spoken.
+
+233
+00:08:53,260 --> 00:08:56,220
+So, in Claude Code, I'll just type in the command to transcribe this audio.
+
+234
+00:08:56,220 --> 00:08:57,700
+and then follow it with the path to the audio file.
+
+235
+00:08:57,700 --> 00:08:59,220
+And then, we'll just send it.
+
+236
+00:08:59,220 --> 00:09:02,700
+And just like that, it successfully converted the audio into text.
+
+237
+00:09:02,700 --> 00:09:03,660
+Let's take a look.
+
+238
+00:09:03,660 --> 00:09:06,260
+And the text it recognized is perfectly accurate.
+
+239
+00:09:06,260 --> 00:09:09,400
+And on top of that, it even recognized this as a very beautiful piece of poetry.
+
+240
+00:09:09,400 --> 00:09:11,340
+This gives our Claude Code the ability to listen,
+
+241
+00:09:11,340 --> 00:09:13,700
+and the ability to speak.
+
+242
+00:09:13,700 --> 00:09:16,680
+Alright, so everything we've tested so far has been the model's own capabilities.
+
+243
+00:09:16,680 --> 00:09:19,180
+Model Studio also allows Claude Code to call upon
+
+244
+00:09:19,180 --> 00:09:22,120
+applications that we've already set up on the Bailian platform.
+
+245
+00:09:22,120 --> 00:09:24,240
+So, over here in the application management section of Model Studio,
+
+246
+00:09:24,240 --> 00:09:28,460
+I've created an application here that can scrape the latest AI news.
+
+247
+00:09:28,460 --> 00:09:31,640
+And then, we can directly call this application right within Claude Code.
+
+248
+00:09:31,640 --> 00:09:33,620
+to fetch the AI news.
+
+249
+00:09:33,620 --> 00:09:36,360
+The prompt I'm using is simply to call the AI news application.
+
+250
+00:09:36,360 --> 00:09:38,280
+to get the latest AI news for today.
+
+251
+00:09:38,280 --> 00:09:40,030
+And now, we'll just send it right here.
+
+252
+00:09:40,030 --> 00:09:43,850
+And just like that, it's searched for and found the latest AI-related news for today.
+
+253
+00:09:43,850 --> 00:09:45,940
+So we won't go through all the details here.
+
+254
+00:09:45,940 --> 00:09:46,660
+So, with that done,
+
+255
+00:09:46,660 --> 00:09:49,420
+And just like that, we've finished building an application on Alibaba Cloud Model Studio.
+
+256
+00:09:49,420 --> 00:09:52,860
+And then, directly within Claude Code, we can call the application we just built.
+
+257
+00:09:52,860 --> 00:09:54,350
+to get our tasks done.
+
+258
+00:09:54,350 --> 00:09:57,130
+and give Claude Code even more capabilities.
+
+259
+00:09:57,130 --> 00:10:00,390
+So far, we've only been testing the individual capabilities of the Bailian CLI.
+
+260
+00:10:00,390 --> 00:10:02,100
+And now, for the main event.
+
+261
+00:10:02,100 --> 00:10:06,100
+We're going to have Claude Code string all these capabilities of the Bailian CLI together.
+
+262
+00:10:06,100 --> 00:10:09,870
+So, for instance, let's try a more complex, multi-step task here.
+
+263
+00:10:09,870 --> 00:10:11,530
+So, the prompt I'm talking about is this:
+
+264
+00:10:11,530 --> 00:10:14,900
+Search for which open-source AI project is trending this week.
+
+265
+00:10:14,900 --> 00:10:17,320
+Pick one and create an introductory image for it.
+
+266
+00:10:17,320 --> 00:10:20,100
+And then, generate a 15-second preview video.
+
+267
+00:10:20,100 --> 00:10:22,480
+And finally, let's add a Chinese voice-over.
+
+268
+00:10:22,480 --> 00:10:23,940
+And then, we just send it.
+
+269
+00:10:23,940 --> 00:10:25,760
+And with that, we can just let it run.
+
+270
+00:10:25,760 --> 00:10:27,840
+The key to this task is Claude Code.
+
+271
+00:10:27,840 --> 00:10:29,080
+It will be responsible for figuring out the steps,
+
+272
+00:10:29,080 --> 00:10:31,240
+and what order to call them in.
+
+273
+00:10:31,240 --> 00:10:35,100
+And the Bailian CLI will act as its cognitive and generative backend.
+
+274
+00:10:35,100 --> 00:10:37,280
+and actually execute each step.
+
+275
+00:10:37,280 --> 00:10:38,000
+So, with that in place,
+
+276
+00:10:38,000 --> 00:10:39,720
+You can just use a single sentence in natural language,
+
+277
+00:10:39,720 --> 00:10:41,580
+to have your own AI agent
+
+278
+00:10:41,580 --> 00:10:44,840
+accomplish complex tasks that previously required multiple tools to complete.
+
+279
+00:10:44,840 --> 00:10:47,960
+And right here, you can see it. The prompt says the introductory image has been generated.
+
+280
+00:10:47,960 --> 00:10:50,160
+And now, it's generating the video.
+
+281
+00:10:50,160 --> 00:10:53,320
+And now it's telling us the voice-over has been generated as well.
+
+282
+00:10:53,320 --> 00:10:55,540
+And it's done. The video is now being generated.
+
+283
+00:10:55,540 --> 00:10:57,960
+So, as we've seen from the hands-on tests in this video,
+
+284
+00:10:57,960 --> 00:10:59,700
+Before installing the Bailian CLI,
+
+285
+00:10:59,700 --> 00:11:01,860
+Claude Code is limited to information from the past.
+
+286
+00:11:01,860 --> 00:11:03,600
+and could only output text and code.
+
+287
+00:11:03,600 --> 00:11:05,280
+But after installing the Bailian CLI,
+
+288
+00:11:05,280 --> 00:11:06,620
+It can search the internet,
+
+289
+00:11:06,620 --> 00:11:08,100
+and have long-term memory.
+
+290
+00:11:08,100 --> 00:11:09,400
+It can search knowledge bases,
+
+291
+00:11:09,400 --> 00:11:10,420
+It can generate images,
+
+292
+00:11:10,420 --> 00:11:11,380
+generate videos,
+
+293
+00:11:11,380 --> 00:11:12,540
+And it can even talk.
+
+294
+00:11:12,540 --> 00:11:14,030
+And it can even understand speech.
+
+295
+00:11:14,030 --> 00:11:17,390
+It can also call upon the applications we've already built on the Alibaba Cloud Model Studio platform.
+
+296
+00:11:17,390 --> 00:11:19,400
+It can even orchestrate its own applications.
+
+297
+00:11:19,400 --> 00:11:22,060
+And the best part? You can get all of this with just a single command.
+
+298
+00:11:22,060 --> 00:11:25,520
+So, if you'd also like to unlock these capabilities for your own AI or Agent,
+
+299
+00:11:25,520 --> 00:11:27,780
+I'll put the registration link for the Model Studio CLI in the comment section.
+
+300
+00:11:27,780 --> 00:11:28,840
+I've put the link in the comments section.
+
+301
+00:11:28,840 --> 00:11:30,460
+New users get a free quota.
+
+302
+00:11:30,460 --> 00:11:31,480
+So, it's first come, first served.
+
+303
+00:11:31,480 --> 00:11:35,300
+Also, if you want to stay updated on the latest developments for Bailian CLI,
+
+304
+00:11:35,300 --> 00:11:37,640
+You can search for Model Studio AI on GitHub.
+
+305
+00:11:37,640 --> 00:11:41,299
+This organization hosts the Model Studio CLI.
+
+306
+00:11:41,299 --> 00:11:44,280
+There are also some skills that can help the CLI run even better.
+
+307
+00:11:44,280 --> 00:11:47,160
+Model Studio will also continue to work with experts in the field of AI,
+
+308
+00:11:47,160 --> 00:11:48,980
+and developers to build together.
+
+309
+00:11:48,980 --> 00:11:51,040
+We're also looking forward to your support and engagement.
+
+310
+00:11:51,040 --> 00:11:52,900
+And that's all for this video.
+
+311
+00:11:52,900 --> 00:11:55,100
+Please feel free to like, follow, and share this video.
+
+312
+00:11:55,100 --> 00:11:56,600
+Thanks for watching.
+

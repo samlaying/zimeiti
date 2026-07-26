@@ -1,0 +1,36 @@
+1
+00:00:00,280 --> 00:00:03,240
+This tool can help you generate cover images for your articles,
+
+2
+00:00:03,240 --> 00:00:05,020
+infographics, or article illustrations.
+
+3
+00:00:05,020 --> 00:00:07,460
+It's already racked up 14,000 stars on GitHub.
+
+4
+00:00:07,460 --> 00:00:10,600
+So, this tool is pretty handy for creators on Xiaohongshu.
+
+5
+00:00:10,600 --> 00:00:13,260
+Whether it's the style, the layout, or the density...
+
+6
+00:00:13,260 --> 00:00:16,660
+You can specify the style, and the variety of options it supports is pretty extensive.
+
+7
+00:00:16,660 --> 00:00:18,400
+Master your skills in creating article illustrations.
+
+8
+00:00:18,400 --> 00:00:20,420
+It’s like having a complete production line all set up for you.
+
+9
+00:00:20,420 --> 00:00:22,740
+It will seriously boost your productivity.
+

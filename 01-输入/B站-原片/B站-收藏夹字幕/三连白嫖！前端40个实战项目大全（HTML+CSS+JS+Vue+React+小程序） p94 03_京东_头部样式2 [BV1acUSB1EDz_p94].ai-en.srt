@@ -1,0 +1,1084 @@
+1
+00:00:00,600 --> 00:00:04,000
+There's another button, let's take a look at it. Ah, the button!
+
+2
+00:00:04,760 --> 00:00:06,920
+Ul div input
+
+3
+00:00:06,920 --> 00:00:09,960
+This is our button, come on the button
+
+4
+00:00:10,280 --> 00:00:12,000
+Look at the button style
+
+5
+00:00:12,000 --> 00:00:12,740
+Button
+
+6
+00:00:12,740 --> 00:00:14,180
+See, I'm clicking the button
+
+7
+00:00:14,180 --> 00:00:16,239
+Look at this side, I really like to see this.
+
+8
+00:00:17,520 --> 00:00:21,130
+Five can't see 53×3
+
+9
+00:00:21,130 --> 00:00:23,130
+58×32R button
+
+10
+00:00:23,130 --> 00:00:24,270
+That's it.
+
+11
+00:00:24,270 --> 00:00:27,570
+For the button, I'll just write it inside the form.
+
+12
+00:00:28,200 --> 00:00:32,080
+Pay attention, everyone.
+
+13
+00:00:32,080 --> 00:00:34,300
+Click the button in the form
+
+14
+00:00:34,300 --> 00:00:40,000
+58×32 pixels
+
+15
+00:00:40,000 --> 00:00:40,600
+Okay
+
+16
+00:00:40,600 --> 00:00:41,400
+What else
+
+17
+00:00:41,400 --> 00:00:42,360
+No no no
+
+18
+00:00:42,360 --> 00:00:43,360
+Look at what he has used.
+
+19
+00:00:43,360 --> 00:00:45,980
+There should also be positioning, hmm.
+
+20
+00:00:45,980 --> 00:00:47,460
+It should have positioning
+
+21
+00:00:47,460 --> 00:00:50,000
+Let's take a look inside here
+
+22
+00:00:50,000 --> 00:00:51,530
+This style is a bit too much, right?
+
+23
+00:00:51,530 --> 00:00:54,359
+Actually, you don't need to write this for the button
+
+24
+00:00:54,359 --> 00:00:56,759
+You see, he said the border radius is zero
+
+25
+00:00:56,759 --> 00:00:58,119
+It's just a right angle, right?
+
+26
+00:00:58,119 --> 00:01:00,299
+Actually, whether you write it or not, isn't it just a right angle?
+
+27
+00:01:00,299 --> 00:01:01,379
+No need to write it.
+
+28
+00:01:01,379 --> 00:01:02,399
+used positioning
+
+29
+00:01:02,399 --> 00:01:03,399
+write is zero
+
+30
+00:01:03,399 --> 00:01:06,770
+Let's set it up and also fix it in place.
+
+31
+00:01:06,770 --> 00:01:09,650
+Position absolute
+
+32
+00:01:09,650 --> 00:01:11,970
+Do you still remember who its parent is?
+
+33
+00:01:11,970 --> 00:01:13,430
+Is it the form?
+
+34
+00:01:13,430 --> 00:01:15,030
+The form already has positioning.
+
+35
+00:01:15,030 --> 00:01:16,290
+So we don't need to worry about it
+
+36
+00:01:16,290 --> 00:01:17,890
+write he said it's zero
+
+37
+00:01:17,890 --> 00:01:18,470
+Okay
+
+38
+00:01:18,470 --> 00:01:22,540
+Next, we have the width and height set.
+
+39
+00:01:22,540 --> 00:01:23,800
+line-height: 32
+
+40
+00:01:23,800 --> 00:01:25,180
+Because inside this button
+
+41
+00:01:25,180 --> 00:01:26,960
+we want to put a font icon later
+
+42
+00:01:26,960 --> 00:01:29,590
+Font icons can be used just like text, right?
+
+43
+00:01:29,590 --> 00:01:32,890
+So the purpose of setting the line height equal to the height is to center it, right?
+
+44
+00:01:32,890 --> 00:01:33,870
+Okay, good.
+
+45
+00:01:33,870 --> 00:01:35,430
+To center the image.
+
+46
+00:01:35,430 --> 00:01:38,270
+The line height is also 32 pixels, okay
+
+47
+00:01:38,270 --> 00:01:39,090
+Next
+
+48
+00:01:39,090 --> 00:01:40,420
+What else
+
+49
+00:01:40,420 --> 00:01:41,580
+Border none
+
+50
+00:01:41,580 --> 00:01:44,440
+Because by default, what does this button have?
+
+51
+00:01:44,440 --> 00:01:45,780
+has a border
+
+52
+00:01:45,780 --> 00:01:48,160
+Let's remove its default border.
+
+53
+00:01:48,160 --> 00:01:49,640
+change the border to none
+
+54
+00:01:49,640 --> 00:01:51,980
+Just don't give me any border at all.
+
+55
+00:01:51,980 --> 00:01:53,980
+Next, set the background color
+
+56
+00:01:53,980 --> 00:01:54,980
+So this red color
+
+57
+00:01:54,980 --> 00:01:56,640
+Let's apply this red color.
+
+58
+00:01:56,640 --> 00:01:58,740
+background color #
+
+59
+00:01:58,740 --> 00:02:00,279
+This red color is good
+
+60
+00:02:00,279 --> 00:02:01,099
+What else
+
+61
+00:02:01,099 --> 00:02:02,980
+There should also be text inside
+
+62
+00:02:02,980 --> 00:02:05,660
+Hey, so is this font icon just text, right?
+
+63
+00:02:05,660 --> 00:02:06,240
+right
+
+64
+00:02:06,240 --> 00:02:07,900
+Just treat it like a regular character.
+
+65
+00:02:07,900 --> 00:02:09,000
+20 pixels in size
+
+66
+00:02:09,000 --> 00:02:12,370
+font size 20 pixels
+
+67
+00:02:12,370 --> 00:02:13,590
+And what else?
+
+68
+00:02:13,590 --> 00:02:15,090
+And the font weight is 700
+
+69
+00:02:15,090 --> 00:02:15,850
+Is it bold?
+
+70
+00:02:15,850 --> 00:02:17,590
+Want to make this font stand out, huh
+
+71
+00:02:17,590 --> 00:02:19,459
+font weight and stuff like that
+
+72
+00:02:19,459 --> 00:02:20,359
+Font weight
+
+73
+00:02:20,359 --> 00:02:22,000
+700 bold
+
+74
+00:02:22,000 --> 00:02:23,360
+What else
+
+75
+00:02:23,360 --> 00:02:25,480
+Font color, hey
+
+76
+00:02:25,480 --> 00:02:30,640
+color ffffff white, what else
+
+77
+00:02:32,010 --> 00:02:33,730
+What did he add here called
+
+78
+00:02:33,730 --> 00:02:35,630
+It's called a transition
+
+79
+00:02:35,630 --> 00:02:36,570
+Do you remember?
+
+80
+00:02:36,570 --> 00:02:38,310
+background 0.2s transition
+
+81
+00:02:38,310 --> 00:02:40,750
+Look, because he added this mouse hover effect
+
+82
+00:02:40,750 --> 00:02:42,880
+Look, the background color changes.
+
+83
+00:02:42,880 --> 00:02:44,000
+Add a 0.2-second transition
+
+84
+00:02:44,000 --> 00:02:44,800
+I'm not doing this
+
+85
+00:02:44,800 --> 00:02:46,060
+Do it yourself
+
+86
+00:02:46,060 --> 00:02:48,720
+Mouse hover is fine
+
+87
+00:02:48,720 --> 00:02:50,160
+or write JavaScript with the mouse
+
+88
+00:02:50,160 --> 00:02:51,320
+whether it's mouse hover
+
+89
+00:02:51,320 --> 00:02:54,360
+Change the background color, change the background color.
+
+90
+00:02:54,360 --> 00:02:55,590
+I'm not going to write this anymore
+
+91
+00:02:55,590 --> 00:02:57,250
+This is simple, this is simple.
+
+92
+00:02:57,250 --> 00:02:59,350
+Don't write this, okay
+
+93
+00:02:59,350 --> 00:03:01,190
+Well then, we're done with it.
+
+94
+00:03:01,190 --> 00:03:02,910
+Let's take a look at the effect.
+
+95
+00:03:03,030 --> 00:03:04,550
+Is there this button now?
+
+96
+00:03:04,550 --> 00:03:05,910
+This is just lacking
+
+97
+00:03:05,910 --> 00:03:07,310
+What's still missing?
+
+98
+00:03:07,310 --> 00:03:08,490
+font icon
+
+99
+00:03:08,490 --> 00:03:10,430
+Insert a font icon
+
+100
+00:03:10,780 --> 00:03:13,580
+This is how the effect looks now.
+
+101
+00:03:13,580 --> 00:03:16,680
+Look at theirs, it's just not very good-looking.
+
+102
+00:03:16,680 --> 00:03:19,310
+P&G JD Super Brand Day
+
+103
+00:03:19,310 --> 00:03:21,640
+Wait for this image to finish loading
+
+104
+00:03:21,640 --> 00:03:25,360
+You see, this box is right up against the head here.
+
+105
+00:03:25,360 --> 00:03:29,120
+Take a look at ours, it's reaching the top of the head, right?
+
+106
+00:03:29,120 --> 00:03:29,880
+later
+
+107
+00:03:29,880 --> 00:03:31,240
+Because we're only doing a part of it
+
+108
+00:03:31,240 --> 00:03:32,320
+so it looks very bad
+
+109
+00:03:32,320 --> 00:03:35,360
+Well, the main purpose is to practice this JS
+
+110
+00:03:35,360 --> 00:03:36,360
+and the previous layout
+
+111
+00:03:36,360 --> 00:03:37,450
+Let's review
+
+112
+00:03:37,450 --> 00:03:38,810
+Do you still remember the font icons?
+
+113
+00:03:38,810 --> 00:03:41,500
+Use the font icon
+
+114
+00:03:41,500 --> 00:03:42,740
+How about giving it a try
+
+115
+00:03:42,740 --> 00:03:44,460
+Hey look, when you hover over it, it shows a little hand
+
+116
+00:03:44,460 --> 00:03:46,140
+Let's also change it to a little hand cursor.
+
+117
+00:03:46,140 --> 00:03:47,780
+Change it to a small hand cursor.
+
+118
+00:03:47,780 --> 00:03:49,200
+Cursor pointer
+
+119
+00:03:49,200 --> 00:03:50,910
+Change to a little hand cursor.
+
+120
+00:03:50,910 --> 00:03:52,050
+Is that right
+
+121
+00:03:52,050 --> 00:03:54,190
+Hmm, let me also add a font icon.
+
+122
+00:03:54,190 --> 00:03:55,050
+Quickly put one together
+
+123
+00:03:55,050 --> 00:03:56,670
+font icon
+
+124
+00:03:57,310 --> 00:03:58,830
+What's the URL for the font icons?
+
+125
+00:03:58,830 --> 00:04:02,190
+iconfont.cn
+
+126
+00:04:02,890 --> 00:04:05,070
+Let's quickly set up the font icon.
+
+127
+00:04:05,070 --> 00:04:06,899
+Don't worry if you forget
+
+128
+00:04:06,899 --> 00:04:10,099
+I should have the magnifying glass here, right?
+
+129
+00:04:10,099 --> 00:04:10,939
+If you don't have it
+
+130
+00:04:10,939 --> 00:04:13,899
+You see, when you come in, you first search for something here.
+
+131
+00:04:13,899 --> 00:04:15,579
+magnifying glass
+
+132
+00:04:16,980 --> 00:04:19,220
+This is the thing we're going to make
+
+133
+00:04:19,220 --> 00:04:20,060
+P&G JD Super Brand Day
+
+134
+00:04:20,060 --> 00:04:22,100
+It's this one, oh this thing
+
+135
+00:04:22,100 --> 00:04:23,340
+First, search for a magnifying glass icon
+
+136
+00:04:23,340 --> 00:04:25,400
+If you don't have one, just search for it
+
+137
+00:04:25,400 --> 00:04:28,500
+Search for a magnifying glass and press Enter
+
+138
+00:04:28,500 --> 00:04:29,840
+Search for a suitable one
+
+139
+00:04:29,840 --> 00:04:30,700
+Search for one you like
+
+140
+00:04:30,700 --> 00:04:31,680
+then what do you do with it
+
+141
+00:04:31,680 --> 00:04:33,040
+Add to Cart
+
+142
+00:04:33,040 --> 00:04:34,080
+Click this one
+
+143
+00:04:34,080 --> 00:04:36,020
+Add to cart and add to inventory
+
+144
+00:04:36,020 --> 00:04:37,850
+Then let's take a look at our shopping cart
+
+145
+00:04:37,850 --> 00:04:38,610
+inside
+
+146
+00:04:38,610 --> 00:04:39,530
+Now you can see there are two
+
+147
+00:04:39,530 --> 00:04:40,290
+I'll delete one
+
+148
+00:04:40,290 --> 00:04:40,930
+I'll delete one.
+
+149
+00:04:40,930 --> 00:04:41,770
+Just leave one.
+
+150
+00:04:41,770 --> 00:04:43,210
+Then in this way
+
+151
+00:04:43,210 --> 00:04:45,170
+Your shopping cart now contains what you want.
+
+152
+00:04:45,170 --> 00:04:45,570
+What to do
+
+153
+00:04:45,570 --> 00:04:47,240
+Next, download the code
+
+154
+00:04:47,240 --> 00:04:48,200
+Click on this thing
+
+155
+00:04:48,200 --> 00:04:49,530
+Okay
+
+156
+00:04:49,530 --> 00:04:52,570
+then download this
+
+157
+00:04:52,570 --> 00:04:54,010
+I have already downloaded it.
+
+158
+00:04:54,010 --> 00:04:56,050
+After downloading,
+
+159
+00:04:57,700 --> 00:04:58,580
+Then what
+
+160
+00:04:58,580 --> 00:04:59,140
+Wait a second.
+
+161
+00:04:59,140 --> 00:04:59,740
+It hasn't come out yet
+
+162
+00:04:59,740 --> 00:05:03,880
+Well, just click here and it'll download right to this spot.
+
+163
+00:05:03,880 --> 00:05:05,160
+Then what does right-clicking the mouse do
+
+164
+00:05:05,160 --> 00:05:08,340
+Extract it to whatever current folder
+
+165
+00:05:08,340 --> 00:05:09,080
+whatever
+
+166
+00:05:09,080 --> 00:05:12,700
+Unzip download1, open it, open it
+
+167
+00:05:12,700 --> 00:05:15,380
+Where should all this stuff be placed?
+
+168
+00:05:16,120 --> 00:05:18,220
+Just move them all into the CSS file.
+
+169
+00:05:18,220 --> 00:05:19,080
+Move it in
+
+170
+00:05:19,080 --> 00:05:20,990
+Actually, some of them don't need to be done.
+
+171
+00:05:20,990 --> 00:05:23,390
+Alright, it's in now
+
+172
+00:05:23,390 --> 00:05:24,710
+Do you know what to do next?
+
+173
+00:05:24,710 --> 00:05:26,050
+You click on that thing
+
+174
+00:05:26,050 --> 00:05:27,830
+Open this demo file
+
+175
+00:05:27,830 --> 00:05:31,200
+Then press Alt+B
+
+176
+00:05:31,200 --> 00:05:32,960
+Do you want to use this magnifying glass
+
+177
+00:05:32,960 --> 00:05:34,880
+
+
+178
+00:05:34,880 --> 00:05:35,840
+Remember?
+
+179
+00:05:35,840 --> 00:05:36,280
+Okay
+
+180
+00:05:36,280 --> 00:05:38,020
+Let's use the magnifying glass now.
+
+181
+00:05:38,020 --> 00:05:39,000
+How to use it?
+
+182
+00:05:39,000 --> 00:05:40,800
+First, you need to understand
+
+183
+00:05:40,800 --> 00:05:42,120
+You have to again, oh dear
+
+184
+00:05:42,120 --> 00:05:43,360
+Put it away a bit first.
+
+185
+00:05:43,360 --> 00:05:45,490
+Hey, put this away too
+
+186
+00:05:45,490 --> 00:05:48,130
+You need to use the font icon on your page
+
+187
+00:05:48,130 --> 00:05:50,370
+Don't you think you should import something first?
+
+188
+00:05:50,370 --> 00:05:51,830
+the style of the font icon
+
+189
+00:05:51,830 --> 00:05:52,470
+Remember?
+
+190
+00:05:52,470 --> 00:05:53,590
+Where should it be
+
+191
+00:05:53,590 --> 00:05:54,990
+Where do you think it should be referenced?
+
+192
+00:05:54,990 --> 00:05:58,410
+It should be placed after the global scope
+
+193
+00:05:58,410 --> 00:05:59,190
+Here
+
+194
+00:05:59,190 --> 00:06:01,070
+There are placement requirements for this.
+
+195
+00:06:01,070 --> 00:06:02,090
+There are requirements.
+
+196
+00:06:02,090 --> 00:06:06,460
+You can't just say, teacher, I'll write the font icon styles here, tsk
+
+197
+00:06:06,460 --> 00:06:07,480
+Then you thought
+
+198
+00:06:07,480 --> 00:06:08,660
+if you write it here
+
+199
+00:06:08,660 --> 00:06:09,780
+introduce it here
+
+200
+00:06:09,780 --> 00:06:11,520
+Your font icon was originally styled
+
+201
+00:06:11,520 --> 00:06:13,420
+Should we proceed with this line of code next?
+
+202
+00:06:13,420 --> 00:06:15,140
+What are you doing to them again?
+
+203
+00:06:15,140 --> 00:06:16,420
+Everything is cleared.
+
+204
+00:06:16,420 --> 00:06:17,660
+Do you understand what I mean?
+
+205
+00:06:17,660 --> 00:06:19,120
+Please pay attention.
+
+206
+00:06:19,120 --> 00:06:22,350
+This global thing needs to be placed at the very front.
+
+207
+00:06:22,350 --> 00:06:25,630
+Next, let's introduce the font icon.
+
+208
+00:06:25,630 --> 00:06:27,580
+Why don't you give it a preview later
+
+209
+00:06:27,580 --> 00:06:29,740
+link dot slash
+
+210
+00:06:29,740 --> 00:06:32,360
+in CSS there's one called icon font
+
+211
+00:06:32,360 --> 00:06:33,860
+Take a closer look
+
+212
+00:06:33,860 --> 00:06:35,159
+Don't get it wrong
+
+213
+00:06:35,159 --> 00:06:37,659
+The file extension must definitely be CSS.
+
+214
+00:06:37,659 --> 00:06:41,940
+It should be this, introducing the font icon style.
+
+215
+00:06:43,500 --> 00:06:44,960
+After importing it
+
+216
+00:06:44,960 --> 00:06:45,580
+And then
+
+217
+00:06:45,580 --> 00:06:47,620
+Don't you want to use it on the button?
+
+218
+00:06:47,620 --> 00:06:47,940
+right
+
+219
+00:06:47,940 --> 00:06:49,240
+What can you do inside it
+
+220
+00:06:49,240 --> 00:06:50,540
+You can use an i tag
+
+221
+00:06:50,540 --> 00:06:52,800
+Hey, we used to prefer using span tags, right?
+
+222
+00:06:52,860 --> 00:06:53,940
+Anything will do
+
+223
+00:06:53,940 --> 00:06:55,660
+You must write a class, right?
+
+224
+00:06:55,660 --> 00:06:58,750
+called ICFONT
+
+225
+00:06:58,750 --> 00:06:59,610
+Do you remember?
+
+226
+00:06:59,610 --> 00:07:01,920
+Then what should be written in the middle?
+
+227
+00:07:01,920 --> 00:07:03,760
+Write your thing
+
+228
+00:07:03,760 --> 00:07:05,360
+Hey, what was that thing you were writing?
+
+229
+00:07:05,360 --> 00:07:08,830
+It's this, it's this code.
+
+230
+00:07:08,830 --> 00:07:09,870
+Ah, didn't see the code
+
+231
+00:07:10,990 --> 00:07:11,990
+Or actually, let me tell you
+
+232
+00:07:11,990 --> 00:07:13,130
+How about this or that
+
+233
+00:07:13,130 --> 00:07:13,670
+You know what
+
+234
+00:07:13,670 --> 00:07:15,270
+Actually, this works too
+
+235
+00:07:15,650 --> 00:07:17,810
+Do you understand what I mean?
+
+236
+00:07:17,810 --> 00:07:19,290
+It's not that you have to use span
+
+237
+00:07:19,290 --> 00:07:20,330
+How about I do this
+
+238
+00:07:20,330 --> 00:07:21,090
+How about we try it first
+
+239
+00:07:21,090 --> 00:07:23,860
+Can you understand what I mean by looking at it like this?
+
+240
+00:07:23,860 --> 00:07:25,740
+Directly add a class to this button
+
+241
+00:07:25,740 --> 00:07:26,780
+called icon font
+
+242
+00:07:26,780 --> 00:07:28,760
+Should we put this code in the middle?
+
+243
+00:07:28,760 --> 00:07:29,900
+unicorn code here
+
+244
+00:07:29,900 --> 00:07:31,660
+Why not check if there is one?
+
+245
+00:07:32,409 --> 00:07:33,469
+Is there also one
+
+246
+00:07:33,469 --> 00:07:35,449
+Well, isn't that just perfect.
+
+247
+00:07:36,050 --> 00:07:38,810
+But our magnifying glass is definitely different from his.
+
+248
+00:07:38,810 --> 00:07:41,090
+Because we because the one we downloaded
+
+249
+00:07:41,090 --> 00:07:43,210
+It doesn't necessarily have to be exactly the same as his.
+
+250
+00:07:43,210 --> 00:07:44,159
+You know what I mean, right?
+
+251
+00:07:44,159 --> 00:07:45,159
+It's different, it's different
+
+252
+00:07:45,159 --> 00:07:46,099
+It doesn't matter
+
+253
+00:07:46,099 --> 00:07:47,879
+If in the future Jingdong was your creation
+
+254
+00:07:47,879 --> 00:07:49,879
+Others will still imitate what you've done.
+
+255
+00:07:49,879 --> 00:07:50,510
+Right?
+
+256
+00:07:50,510 --> 00:07:51,690
+Do you understand what I'm saying?
+
+257
+00:07:51,690 --> 00:07:51,990
+right
+
+258
+00:07:51,990 --> 00:07:53,490
+It doesn't have to be exactly the same as it.
+
+259
+00:07:53,490 --> 00:07:54,789
+Alright
+
+260
+00:07:55,069 --> 00:07:57,369
+Well, you've finished it now
+
+261
+00:07:57,369 --> 00:07:58,969
+That's all for our layout here
+
+262
+00:07:58,969 --> 00:07:59,789
+That's it
+
+263
+00:07:59,789 --> 00:08:01,469
+Let me check the final result
+
+264
+00:08:03,200 --> 00:08:04,740
+Ah, making it like this is fine.
+
+265
+00:08:04,740 --> 00:08:06,420
+We've achieved the desired look and that's it.
+
+266
+00:08:06,420 --> 00:08:08,730
+Alright, okay
+
+267
+00:08:08,730 --> 00:08:11,410
+I'll finally crop this effect down
+
+268
+00:08:11,410 --> 00:08:13,680
+Just make it like this and it's done.
+
+269
+00:08:13,960 --> 00:08:15,560
+Of course, I didn't remove the background color
+
+270
+00:08:15,560 --> 00:08:16,960
+You can remove the unused colors later
+
+271
+00:08:19,560 --> 00:08:19,840
+Okay
+

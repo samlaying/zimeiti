@@ -1,0 +1,2668 @@
+1
+00:00:01,240 --> 00:00:01,400
+Alright
+
+2
+00:00:01,400 --> 00:00:01,880
+In this lesson
+
+3
+00:00:01,880 --> 00:00:02,800
+we're going to talk about
+
+4
+00:00:02,800 --> 00:00:05,860
+implementing audio sending using a queue
+
+5
+00:00:05,860 --> 00:00:09,860
+since we often have many short phrases
+
+6
+00:00:09,860 --> 00:00:11,140
+short phrases like this are examples of speech synthesis
+
+7
+00:00:11,140 --> 00:00:11,960
+and then send them
+
+8
+00:00:11,960 --> 00:00:14,400
+so we use this event-driven approach
+
+9
+00:00:14,400 --> 00:00:17,139
+to ensure first-in, first-out
+
+10
+00:00:17,139 --> 00:00:19,039
+In that case, we'll
+
+11
+00:00:19,039 --> 00:00:21,200
+send them strictly in order.
+
+12
+00:00:21,200 --> 00:00:22,880
+Now, let's take a look.
+
+13
+00:00:22,880 --> 00:00:26,200
+First, we need to create a queue.
+
+14
+00:00:26,200 --> 00:00:27,920
+The queue we're creating
+
+15
+00:00:27,920 --> 00:00:30,000
+is a regular first-in-first-out queue.
+
+16
+00:00:30,000 --> 00:00:31,030
+In a synchronous manner.
+
+17
+00:00:31,030 --> 00:00:32,630
+Next, for creating it,
+
+18
+00:00:32,630 --> 00:00:34,410
+we'll put it in this link.
+
+19
+00:00:34,410 --> 00:00:35,790
+It's the connector
+
+20
+00:00:35,790 --> 00:00:37,450
+right here
+
+21
+00:00:37,450 --> 00:00:41,490
+put it in here for the connection
+
+22
+00:00:42,700 --> 00:00:45,380
+because this queue is for this connection
+
+23
+00:00:45,380 --> 00:00:46,500
+create a new connection
+
+24
+00:00:46,500 --> 00:00:47,740
+we need one, right
+
+25
+00:00:47,740 --> 00:00:52,060
+then we'll place it here
+
+26
+00:00:52,060 --> 00:00:55,340
+we're getting the current thread
+
+27
+00:00:55,340 --> 00:00:56,640
+what is the current thread
+
+28
+00:00:56,640 --> 00:00:58,540
+What it calls is its initialization
+
+29
+00:00:58,540 --> 00:01:00,410
+It's its main thread
+
+30
+00:01:00,410 --> 00:01:01,470
+Here
+
+31
+00:01:01,470 --> 00:01:02,930
+Although this is asynchronous here
+
+32
+00:01:02,930 --> 00:01:04,870
+It ultimately calls this, right?
+
+33
+00:01:04,870 --> 00:01:06,950
+It's its main thread
+
+34
+00:01:06,950 --> 00:01:07,830
+Let's start
+
+35
+00:01:07,830 --> 00:01:08,930
+It's the main thread
+
+36
+00:01:08,930 --> 00:01:13,270
+What we get here is the main thread's
+
+37
+00:01:13,270 --> 00:01:15,460
+An event loop
+
+38
+00:01:15,460 --> 00:01:17,040
+We have obtained this event loop
+
+39
+00:01:17,040 --> 00:01:19,740
+And later, we will add to this loop
+
+40
+00:01:19,740 --> 00:01:20,930
+A coroutine
+
+41
+00:01:20,930 --> 00:01:23,490
+It will run this coroutine in the main thread
+
+42
+00:01:23,490 --> 00:01:24,450
+The specific reasons for doing so
+
+43
+00:01:24,450 --> 00:01:26,730
+We will explain shortly
+
+44
+00:01:26,730 --> 00:01:29,140
+Here, a queue is created
+
+45
+00:01:29,420 --> 00:01:31,200
+And we also need to create a thread
+
+46
+00:01:31,200 --> 00:01:33,320
+Here we declare a thread variable.
+
+47
+00:01:33,320 --> 00:01:35,900
+Here we declare a regular variable.
+
+48
+00:01:35,900 --> 00:01:38,340
+Ultimately, this is equal to when we create a thread.
+
+49
+00:01:38,340 --> 00:01:39,160
+We use it for that.
+
+50
+00:01:39,160 --> 00:01:42,660
+So let's define this as well.
+
+51
+00:01:51,280 --> 00:01:52,960
+Set the thread.
+
+52
+00:01:57,540 --> 00:02:00,020
+Then, this will be set to now.
+
+53
+00:02:01,650 --> 00:02:03,410
+So, how do we proceed?
+
+54
+00:02:03,410 --> 00:02:06,690
+We need to create this thread.
+
+55
+00:02:06,690 --> 00:02:10,330
+We create a thread to handle this queue, right?
+
+56
+00:02:10,330 --> 00:02:12,800
+And for each connection that comes in here,
+
+57
+00:02:12,800 --> 00:02:13,560
+when a new connection arrives,
+
+58
+00:02:13,560 --> 00:02:15,200
+we create a new thread,
+
+59
+00:02:15,200 --> 00:02:19,720
+and this thread is directly responsible for the sending process.
+
+60
+00:02:19,720 --> 00:02:22,240
+What does this mean?
+
+61
+00:02:22,240 --> 00:02:23,660
+When creating this thread,
+
+62
+00:02:23,660 --> 00:02:25,460
+we use,
+
+63
+00:02:31,480 --> 00:02:33,760
+and let's take a look at how it's created inside.
+
+64
+00:02:33,760 --> 00:02:37,760
+First, we need to create and pass a method.
+
+65
+00:02:37,760 --> 00:02:41,300
+We'll leave the implementation of this method for now.
+
+66
+00:02:41,300 --> 00:02:42,360
+It's not written yet.
+
+67
+00:02:42,360 --> 00:02:43,500
+This method.
+
+68
+00:02:43,500 --> 00:02:45,160
+So, how do we proceed?
+
+69
+00:02:45,160 --> 00:02:49,720
+We just need to adjust this setting.
+
+70
+00:03:00,880 --> 00:03:01,720
+Oops, that's a mistake.
+
+71
+00:03:01,720 --> 00:03:03,160
+This is
+
+72
+00:03:05,800 --> 00:03:08,880
+Here we create a thread manually.
+
+73
+00:03:08,880 --> 00:03:11,300
+If this is set to true, it will be the main thread.
+
+74
+00:03:11,300 --> 00:03:14,610
+Then we'll just start right away.
+
+75
+00:03:14,610 --> 00:03:16,690
+We'll start this thread directly.
+
+76
+00:03:18,180 --> 00:03:20,460
+Here, running it is equivalent to running this thread.
+
+77
+00:03:20,460 --> 00:03:22,300
+This thread will run this function.
+
+78
+00:03:22,300 --> 00:03:24,440
+Let's take this function, this method.
+
+79
+00:03:24,440 --> 00:03:26,320
+Let's implement this method now.
+
+80
+00:03:26,320 --> 00:03:31,140
+We've written this method here.
+
+81
+00:03:32,920 --> 00:03:33,680
+Let's write a method.
+
+82
+00:03:35,000 --> 00:03:38,650
+Then, this method, this synchronous method
+
+83
+00:03:39,770 --> 00:03:44,160
+We'll directly use a while loop here
+
+84
+00:03:44,160 --> 00:03:44,920
+While true
+
+85
+00:03:44,920 --> 00:03:47,360
+This is something we won't consider stopping for now
+
+86
+00:03:47,360 --> 00:03:49,300
+Let's get this running first
+
+87
+00:03:49,300 --> 00:03:53,460
+Here, what we'll do directly is
+
+88
+00:03:53,460 --> 00:03:56,200
+First, we get a get
+
+89
+00:03:56,200 --> 00:03:59,920
+In this spot, we should use this
+
+90
+00:04:01,550 --> 00:04:04,390
+To get one of its
+
+91
+00:04:06,860 --> 00:04:10,100
+Let's start by explaining why we obtain it this way in this place.
+
+92
+00:04:10,100 --> 00:04:12,240
+We'll cover the acquisition process in more detail later.
+
+93
+00:04:12,240 --> 00:04:14,120
+Here, this is a queue.
+
+94
+00:04:14,120 --> 00:04:15,840
+We retrieve an item from the queue.
+
+95
+00:04:15,840 --> 00:04:18,640
+We'll also write 'tom out' for this item.
+
+96
+00:04:18,640 --> 00:04:20,790
+One second to set it up, one second
+
+97
+00:04:20,790 --> 00:04:22,770
+We won't be able to retrieve it within one second.
+
+98
+00:04:22,770 --> 00:04:24,650
+If we can't retrieve it, it will jump to this point.
+
+99
+00:04:24,650 --> 00:04:25,250
+Error.
+
+100
+00:04:25,250 --> 00:04:25,850
+There's an error
+
+101
+00:04:25,850 --> 00:04:27,560
+Then we don't want this part
+
+102
+00:04:27,560 --> 00:04:30,480
+Then this part, we'll report an error
+
+103
+00:04:30,480 --> 00:04:31,700
+This part is just empty, right?
+
+104
+00:04:31,700 --> 00:04:35,760
+It's like an empty queue
+
+105
+00:04:35,760 --> 00:04:37,600
+If there's an empty spot here
+
+106
+00:04:42,080 --> 00:04:44,620
+Then we can just carry on from here
+
+107
+00:04:44,620 --> 00:04:46,520
+Move on to the next one
+
+108
+00:04:48,180 --> 00:04:49,860
+We'll do the next one like this
+
+109
+00:04:49,860 --> 00:04:52,520
+If we add another condition to check here
+
+110
+00:04:52,520 --> 00:04:53,460
+Sure, that works
+
+111
+00:04:53,460 --> 00:04:54,100
+Let's end it
+
+112
+00:04:54,100 --> 00:04:56,149
+End this loop
+
+113
+00:04:56,149 --> 00:04:58,249
+We can do it this way
+
+114
+00:04:58,249 --> 00:05:01,400
+If it doesn't enter
+
+115
+00:05:01,400 --> 00:05:03,080
+It means it has obtained an item
+
+116
+00:05:03,080 --> 00:05:04,120
+Once an item is obtained
+
+117
+00:05:04,120 --> 00:05:06,160
+Let's check it
+
+118
+00:05:07,000 --> 00:05:10,500
+Determine if this item is missing
+
+119
+00:05:10,500 --> 00:05:12,300
+If not, we'll continue the loop
+
+120
+00:05:12,300 --> 00:05:13,160
+If it's there
+
+121
+00:05:13,160 --> 00:05:13,780
+What do we do then?
+
+122
+00:05:13,780 --> 00:05:18,380
+Here, we'll get the return value from it
+
+123
+00:05:18,380 --> 00:05:20,580
+Let's leave it at that for now
+
+124
+00:05:20,580 --> 00:05:22,860
+Since we're getting the return value here
+
+125
+00:05:22,860 --> 00:05:24,200
+We don't know what it will return, right?
+
+126
+00:05:24,200 --> 00:05:27,640
+Let's just write this part for now
+
+127
+00:05:27,640 --> 00:05:30,660
+Because we need to figure out how to put things into this queue
+
+128
+00:05:30,660 --> 00:05:32,720
+Only after putting them in do we know how to retrieve them, right?
+
+129
+00:05:32,720 --> 00:05:33,480
+So how do we put things in?
+
+130
+00:05:33,480 --> 00:05:35,080
+We are here now, right?
+
+131
+00:05:35,080 --> 00:05:38,680
+How do we place them here for cloud synthesis?
+
+132
+00:05:38,680 --> 00:05:42,960
+First, let's take this queue
+
+133
+00:05:42,960 --> 00:05:43,980
+Let's start like this
+
+134
+00:05:43,980 --> 00:05:45,740
+What is this part supposed to do?
+
+135
+00:05:45,740 --> 00:05:48,380
+We're going to do speech synthesis, right?
+
+136
+00:05:48,380 --> 00:05:51,810
+It involves synthesizing speech from this complete sentence.
+
+137
+00:05:51,810 --> 00:05:54,150
+How exactly do we go about synthesizing it?
+
+138
+00:05:54,150 --> 00:05:58,230
+Synthesizing it is a time-consuming task, right?
+
+139
+00:05:58,230 --> 00:06:01,539
+How do we submit this task to the thread pool?
+
+140
+00:06:01,539 --> 00:06:02,839
+As we mentioned earlier,
+
+141
+00:06:02,839 --> 00:06:09,170
+there’s a thread pool inside the connect method, right?
+
+142
+00:06:09,170 --> 00:06:12,539
+This thread pool is associated with the connect method.
+
+143
+00:06:12,539 --> 00:06:13,979
+Let’s copy this.
+
+144
+00:06:13,979 --> 00:06:17,740
+This thread pool is the one we’re talking about, right?
+
+145
+00:06:17,740 --> 00:06:19,660
+Let's just submit a task.
+
+146
+00:06:19,660 --> 00:06:20,920
+What kind of task should we submit?
+
+147
+00:06:20,920 --> 00:06:23,010
+This is our speech synthesis task.
+
+148
+00:06:23,010 --> 00:06:26,890
+Here, click on SUBMIT.
+
+149
+00:06:27,690 --> 00:06:29,190
+What exactly are we submitting?
+
+150
+00:06:29,190 --> 00:06:33,350
+Let's check out what we're submitting for synthesis.
+
+151
+00:06:33,350 --> 00:06:35,530
+What parameters do we need to input for the synthesis?
+
+152
+00:06:35,530 --> 00:06:38,970
+The parameters we need to input are right here.
+
+153
+00:06:38,970 --> 00:06:41,410
+These are the parameters we need to input for the test.
+
+154
+00:06:41,410 --> 00:06:42,450
+Let's take a look.
+
+155
+00:06:42,450 --> 00:06:45,370
+We previously discussed the method of submission.
+
+156
+00:06:45,370 --> 00:06:46,430
+This is its method.
+
+157
+00:06:46,430 --> 00:06:48,939
+You need to submit this method.
+
+158
+00:06:48,939 --> 00:06:51,499
+That is, to put this task into the thread for execution.
+
+159
+00:06:51,499 --> 00:06:54,169
+And this is the parameter we provide for it.
+
+160
+00:06:54,169 --> 00:06:55,529
+Let's look at this parameter.
+
+161
+00:06:55,529 --> 00:06:57,409
+The parameter is 'test', right?
+
+162
+00:06:57,409 --> 00:07:00,479
+It's the text we want to convert.
+
+163
+00:07:00,479 --> 00:07:02,859
+So, we're converting this text into speech, right?
+
+164
+00:07:02,859 --> 00:07:06,080
+What will this text ultimately return to us?
+
+165
+00:07:06,080 --> 00:07:08,900
+Here, it returns three things, right?
+
+166
+00:07:08,900 --> 00:07:10,800
+One is a binary audio file.
+
+167
+00:07:10,800 --> 00:07:12,000
+Another is its duration.
+
+168
+00:07:12,000 --> 00:07:13,120
+The duration of the audio file.
+
+169
+00:07:13,120 --> 00:07:16,360
+And then there's the test itself, right?
+
+170
+00:07:16,360 --> 00:07:18,880
+So, why do we need to pass it in here?
+
+171
+00:07:18,880 --> 00:07:20,000
+And have it return back to us?
+
+172
+00:07:20,000 --> 00:07:21,320
+Because when we pass it in
+
+173
+00:07:21,320 --> 00:07:22,340
+it's not used here
+
+174
+00:07:22,340 --> 00:07:24,409
+we can just use it directly here
+
+175
+00:07:24,409 --> 00:07:27,089
+but when we use it, it's in a different place
+
+176
+00:07:27,089 --> 00:07:28,809
+which is when the queue owner retrieves it
+
+177
+00:07:28,809 --> 00:07:31,360
+at that point, it won't know what you passed in initially
+
+178
+00:07:31,360 --> 00:07:33,220
+so we need to specify what we pass in
+
+179
+00:07:33,220 --> 00:07:34,520
+and what it returns
+
+180
+00:07:34,520 --> 00:07:36,140
+this is the part that returns
+
+181
+00:07:36,140 --> 00:07:40,129
+We'll also use something to, um
+
+182
+00:07:40,129 --> 00:07:42,940
+get its return value
+
+183
+00:07:42,940 --> 00:07:45,500
+obtain the return value of this thread
+
+184
+00:07:46,040 --> 00:07:48,400
+but in this case, it won't return immediately
+
+185
+00:07:48,400 --> 00:07:49,840
+it actually won't return at that moment
+
+186
+00:07:49,840 --> 00:07:51,200
+because this thread is a time-consuming task
+
+187
+00:07:51,200 --> 00:07:52,660
+we can't just wait for it here
+
+188
+00:07:52,660 --> 00:07:53,900
+that would be pointless, right?
+
+189
+00:07:53,900 --> 00:07:54,700
+so you hand it over to the thread
+
+190
+00:07:54,700 --> 00:07:56,480
+We're stuck here again.
+
+191
+00:07:56,480 --> 00:07:57,500
+Waiting for it to return.
+
+192
+00:07:57,500 --> 00:07:58,820
+That would be pointless.
+
+193
+00:07:58,820 --> 00:08:01,680
+So, you can think of this as a placeholder.
+
+194
+00:08:01,680 --> 00:08:03,640
+It's an agreed-upon spot.
+
+195
+00:08:03,640 --> 00:08:06,580
+I'm agreeing that there's a return here, right?
+
+196
+00:08:06,580 --> 00:08:07,320
+So, it returns.
+
+197
+00:08:07,320 --> 00:08:08,949
+We put this agreement,
+
+198
+00:08:08,949 --> 00:08:13,200
+which is this placeholder, into the queue.
+
+199
+00:08:13,200 --> 00:08:14,580
+push it into this queue
+
+200
+00:08:14,580 --> 00:08:15,700
+what is this queue?
+
+201
+00:08:15,700 --> 00:08:17,540
+it's the queue we just created
+
+202
+00:08:17,540 --> 00:08:18,380
+Connector
+
+203
+00:08:18,380 --> 00:08:21,040
+click on this audio queue
+
+204
+00:08:21,040 --> 00:08:25,620
+send this agreed-upon response
+
+205
+00:08:25,620 --> 00:08:27,289
+into here
+
+206
+00:08:27,289 --> 00:08:28,489
+in that case
+
+207
+00:08:28,489 --> 00:08:32,009
+the response will only come back when it's ready
+
+208
+00:08:32,009 --> 00:08:33,169
+We will go and get it
+
+209
+00:08:33,169 --> 00:08:34,909
+Let's take a look at this point
+
+210
+00:08:34,909 --> 00:08:36,110
+It's been input here
+
+211
+00:08:36,110 --> 00:08:37,190
+One has been input, right?
+
+212
+00:08:37,190 --> 00:08:39,620
+So it's like we have this here
+
+213
+00:08:39,620 --> 00:08:42,840
+What we're actually doing is putting the TTS time-consuming task
+
+214
+00:08:42,840 --> 00:08:45,480
+into this thread pool to execute
+
+215
+00:08:45,480 --> 00:08:48,720
+After execution, it will definitely return something
+
+216
+00:08:48,720 --> 00:08:51,329
+Since this method itself has a return, right?
+
+217
+00:08:51,329 --> 00:08:53,309
+This method returns these three things.
+
+218
+00:08:53,309 --> 00:08:58,090
+Then we use a placeholder to get its return.
+
+219
+00:08:58,090 --> 00:08:58,770
+Its return.
+
+220
+00:08:58,770 --> 00:09:00,010
+It currently doesn’t return anything.
+
+221
+00:09:00,010 --> 00:09:02,930
+But this placeholder represents its future return.
+
+222
+00:09:02,930 --> 00:09:04,640
+That’s what it means.
+
+223
+00:09:04,640 --> 00:09:06,140
+You can understand it like that.
+
+224
+00:09:06,140 --> 00:09:08,200
+You can think of it as a placeholder.
+
+225
+00:09:08,200 --> 00:09:09,460
+It doesn’t return anything right now.
+
+226
+00:09:09,460 --> 00:09:11,610
+But it's located in the county town.
+
+227
+00:09:11,610 --> 00:09:12,770
+After execution,
+
+228
+00:09:12,770 --> 00:09:15,790
+the thread in the thread pool completes the task.
+
+229
+00:09:15,790 --> 00:09:16,710
+It executes this task.
+
+230
+00:09:16,710 --> 00:09:17,700
+That's time-consuming, right?
+
+231
+00:09:17,700 --> 00:09:19,220
+After it's completed,
+
+232
+00:09:19,220 --> 00:09:20,020
+it will return something.
+
+233
+00:09:20,020 --> 00:09:23,080
+Now I have a reference, right?
+
+234
+00:09:23,080 --> 00:09:24,680
+Just a reference, a placeholder.
+
+235
+00:09:24,680 --> 00:09:28,240
+Then we can get its return value.
+
+236
+00:09:28,240 --> 00:09:29,069
+That's right.
+
+237
+00:09:29,069 --> 00:09:31,109
+Similarly, in this part,
+
+238
+00:09:31,109 --> 00:09:32,909
+we also need to combine it here, right?
+
+239
+00:09:32,909 --> 00:09:35,049
+including the remaining text,
+
+240
+00:09:35,049 --> 00:09:37,250
+we need to combine this as well.
+
+241
+00:09:37,250 --> 00:09:38,030
+if there is any,
+
+242
+00:09:38,030 --> 00:09:38,690
+we will combine it.
+
+243
+00:09:38,690 --> 00:09:41,710
+Similarly, we can also get a return value from this.
+
+244
+00:09:41,710 --> 00:09:42,770
+Hit it in here
+
+245
+00:09:42,770 --> 00:09:43,990
+Hit it into the queue
+
+246
+00:09:43,990 --> 00:09:47,670
+After that, we need to hit another one
+
+247
+00:09:47,670 --> 00:09:51,270
+Hit another one into the queue, what should we hit?
+
+248
+00:09:51,270 --> 00:09:55,590
+Hit an empty one, we talked about now before
+
+249
+00:09:56,860 --> 00:09:58,260
+Let's take another look
+
+250
+00:09:58,260 --> 00:09:59,760
+In this case
+
+251
+00:09:59,760 --> 00:10:01,750
+Here
+
+252
+00:10:01,750 --> 00:10:03,330
+If we are talking about now
+
+253
+00:10:03,330 --> 00:10:04,530
+It directly returns this.
+
+254
+00:10:04,530 --> 00:10:05,630
+Then we know.
+
+255
+00:10:05,630 --> 00:10:08,260
+This is for this chat session.
+
+256
+00:10:08,260 --> 00:10:10,260
+This chat session is over, right?
+
+257
+00:10:10,260 --> 00:10:12,280
+Just the end of this line of dialogue.
+
+258
+00:10:12,280 --> 00:10:13,680
+This line is finished.
+
+259
+00:10:13,680 --> 00:10:16,160
+So after we end it,
+
+260
+00:10:16,160 --> 00:10:18,970
+We can send the swap signal, right?
+
+261
+00:10:18,970 --> 00:10:21,650
+Then we remove this marker.
+
+262
+00:10:21,650 --> 00:10:23,069
+The other party doesn't need it.
+
+263
+00:10:23,069 --> 00:10:28,169
+Then, this is like a queue where it gets added.
+
+264
+00:10:28,169 --> 00:10:29,400
+Now we know.
+
+265
+00:10:29,400 --> 00:10:32,120
+We put this reference into the queue.
+
+266
+00:10:32,120 --> 00:10:33,560
+We put this placeholder, right?
+
+267
+00:10:33,560 --> 00:10:36,180
+So, we know how to retrieve it next, right?
+
+268
+00:10:36,180 --> 00:10:38,260
+Let's take a look at how to retrieve it.
+
+269
+00:10:38,260 --> 00:10:40,300
+In this connector,
+
+270
+00:10:40,300 --> 00:10:42,220
+In this queue, right?
+
+271
+00:10:42,220 --> 00:10:42,900
+In this queue
+
+272
+00:10:42,900 --> 00:10:44,820
+what we're currently taking out
+
+273
+00:10:44,820 --> 00:10:47,870
+is one of its objects
+
+274
+00:10:47,870 --> 00:10:49,910
+you can think of it as one of its objects
+
+275
+00:10:49,910 --> 00:10:53,570
+then we need to retrieve its return value from this object
+
+276
+00:10:53,570 --> 00:10:54,650
+how do we do that
+
+277
+00:10:54,650 --> 00:10:58,170
+we need to access it like this
+
+278
+00:11:00,300 --> 00:11:02,080
+this is an object, by the way
+
+279
+00:11:02,080 --> 00:11:04,340
+so we retrieve one of its
+
+280
+00:11:11,760 --> 00:11:13,600
+Let's do it this way
+
+281
+00:11:13,600 --> 00:11:13,960
+Similarly
+
+282
+00:11:13,960 --> 00:11:15,400
+We'll set a timeout for this
+
+283
+00:11:15,400 --> 00:11:17,120
+Let's give it a timeout as well
+
+284
+00:11:17,120 --> 00:11:18,440
+Come out
+
+285
+00:11:24,480 --> 00:11:26,640
+tom equals
+
+286
+00:11:28,640 --> 00:11:29,400
+ten
+
+287
+00:11:30,640 --> 00:11:31,200
+ten seconds
+
+288
+00:11:32,960 --> 00:11:35,870
+Then we'll wait for ten seconds here
+
+289
+00:11:35,870 --> 00:11:36,750
+Wait for ten seconds
+
+290
+00:11:36,750 --> 00:11:39,550
+Basically, this is a brief couplet created through speech synthesis.
+
+291
+00:11:39,550 --> 00:11:40,930
+Ten seconds is definitely enough
+
+292
+00:11:40,930 --> 00:11:43,690
+Of course, we can also open this up to set the value.
+
+293
+00:11:43,690 --> 00:11:45,370
+For now, let's hard-code it here
+
+294
+00:11:45,370 --> 00:11:46,560
+It's not about indentation
+
+295
+00:11:46,560 --> 00:11:47,080
+Be mindful
+
+296
+00:11:47,080 --> 00:11:48,980
+Here, if it's not empty
+
+297
+00:11:48,980 --> 00:11:52,700
+Then we can get its return value from here
+
+298
+00:11:52,700 --> 00:11:53,540
+So how do we get it?
+
+299
+00:11:53,540 --> 00:11:55,020
+Let's copy this.
+
+300
+00:11:55,020 --> 00:11:56,490
+I won't write it.
+
+301
+00:11:56,770 --> 00:11:59,430
+Now we know what to return here.
+
+302
+00:11:59,430 --> 00:12:02,140
+This is for getting its return value.
+
+303
+00:12:02,140 --> 00:12:04,220
+And it waits here.
+
+304
+00:12:04,220 --> 00:12:06,680
+Meaning the queue processes synchronously.
+
+305
+00:12:06,680 --> 00:12:08,280
+I get it here.
+
+306
+00:12:08,280 --> 00:12:10,000
+As long as there's an item in the queue.
+
+307
+00:12:10,000 --> 00:12:11,800
+We just get its return.
+
+308
+00:12:11,800 --> 00:12:13,120
+If it didn’t return at that time,
+
+309
+00:12:13,120 --> 00:12:14,190
+we wait here.
+
+310
+00:12:14,190 --> 00:12:16,650
+We must wait for its current return.
+
+311
+00:12:16,650 --> 00:12:18,940
+Here, if we don’t get a return,
+
+312
+00:12:18,940 --> 00:12:21,380
+we fetch the next item from the queue to return.
+
+313
+00:12:21,380 --> 00:12:22,980
+Then this sentence gets jumbled.
+
+314
+00:12:22,980 --> 00:12:24,370
+The sequence gets messed up.
+
+315
+00:12:24,370 --> 00:12:26,819
+So here, we wait for its return.
+
+316
+00:12:26,819 --> 00:12:28,419
+We are aware of this return.
+
+317
+00:12:28,419 --> 00:12:29,479
+We just proceed to retrieve it this way.
+
+318
+00:12:29,479 --> 00:12:32,039
+It's about what you put into the queue.
+
+319
+00:12:32,039 --> 00:12:35,280
+What you placed was a placeholder, right?
+
+320
+00:12:35,280 --> 00:12:36,680
+We have obtained this.
+
+321
+00:12:36,680 --> 00:12:39,880
+Then we can proceed by calling its method to do so.
+
+322
+00:12:39,880 --> 00:12:42,490
+To retrieve its several returns.
+
+323
+00:12:42,490 --> 00:12:43,670
+We have OPEX.
+
+324
+00:12:43,670 --> 00:12:44,950
+We have open data.
+
+325
+00:12:44,950 --> 00:12:46,960
+the data after speech synthesis
+
+326
+00:12:46,960 --> 00:12:50,160
+And then there’s the text of that sentence, right?
+
+327
+00:12:50,160 --> 00:12:51,540
+We’ve obtained it, haven’t we?
+
+328
+00:12:51,540 --> 00:12:53,680
+Next, we can proceed with sending it.
+
+329
+00:12:53,680 --> 00:12:55,360
+Now, how do we send it?
+
+330
+00:12:55,360 --> 00:12:57,560
+Here, the sending process actually starts like this.
+
+331
+00:12:57,560 --> 00:12:58,760
+Ideally, it should be sent this way.
+
+332
+00:12:58,760 --> 00:12:59,560
+How exactly do we send this?
+
+333
+00:12:59,560 --> 00:13:02,280
+I’ll copy this over.
+
+334
+00:13:04,460 --> 00:13:06,280
+Is this where the message is sent?
+
+335
+00:13:06,280 --> 00:13:09,680
+We should call this method in this class, right?
+
+336
+00:13:09,680 --> 00:13:12,180
+This method, correct?
+
+337
+00:13:12,450 --> 00:13:15,510
+Then, we pass these values into it, right?
+
+338
+00:13:15,510 --> 00:13:18,500
+So, the first value is connect.
+
+339
+00:13:18,500 --> 00:13:20,500
+It just so happens that this is in connect.
+
+340
+00:13:20,500 --> 00:13:23,070
+So, we call it with self, right?
+
+341
+00:13:23,070 --> 00:13:24,430
+And then there’s OPEX.
+
+342
+00:13:24,430 --> 00:13:25,730
+And test is passed in as well.
+
+343
+00:13:25,730 --> 00:13:27,130
+And pass the CONFIG in
+
+344
+00:13:27,130 --> 00:13:28,510
+Would that work?
+
+345
+00:13:28,510 --> 00:13:29,710
+That definitely wouldn’t work
+
+346
+00:13:29,710 --> 00:13:30,410
+Why not?
+
+347
+00:13:30,410 --> 00:13:31,990
+What is this?
+
+348
+00:13:31,990 --> 00:13:33,470
+This is a new thread
+
+349
+00:13:33,470 --> 00:13:34,730
+This is a new thread
+
+350
+00:13:34,730 --> 00:13:36,430
+So we’ve created a new thread
+
+351
+00:13:36,430 --> 00:13:38,910
+Let’s take a look at what’s inside this thread
+
+352
+00:13:38,910 --> 00:13:40,270
+Inside this county,
+
+353
+00:13:40,270 --> 00:13:41,890
+we need to invoke it,
+
+354
+00:13:41,890 --> 00:13:46,129
+we can directly call that,
+
+355
+00:13:46,129 --> 00:13:50,790
+there’s a WEBSOCKET in the CONNECTOR,
+
+356
+00:13:50,790 --> 00:13:52,680
+that won’t work,
+
+357
+00:13:52,680 --> 00:13:54,420
+let me check,
+
+358
+00:13:54,420 --> 00:13:57,080
+oh, that won’t work like this,
+
+359
+00:13:57,080 --> 00:13:57,920
+why is that?
+
+360
+00:13:57,920 --> 00:14:01,480
+because this is an asynchronous method.
+
+361
+00:14:01,480 --> 00:14:03,160
+If we execute this synchronously
+
+362
+00:14:03,160 --> 00:14:04,600
+execute this asynchronous method synchronously
+
+363
+00:14:04,600 --> 00:14:05,740
+it won’t wait here
+
+364
+00:14:05,740 --> 00:14:07,540
+Before that, we mentioned
+
+365
+00:14:07,540 --> 00:14:09,750
+we need to do it in the loop, right?
+
+366
+00:14:09,750 --> 00:14:11,610
+we need to do it in the event loop
+
+367
+00:14:11,610 --> 00:14:14,510
+So, we need to get to this event loop
+
+368
+00:14:14,510 --> 00:14:17,410
+Of course, we can create an event loop here
+
+369
+00:14:17,410 --> 00:14:18,450
+just like before
+
+370
+00:14:18,450 --> 00:14:20,680
+We were talking about messaging before, right?
+
+371
+00:14:20,680 --> 00:14:22,700
+There’s an event loop created in here, isn’t there?
+
+372
+00:14:22,700 --> 00:14:23,440
+Where is it?
+
+373
+00:14:23,440 --> 00:14:25,040
+Let me find it.
+
+374
+00:14:27,260 --> 00:14:29,660
+We mentioned this in the thread pool before.
+
+375
+00:14:29,660 --> 00:14:32,500
+We create an event loop within the thread pool.
+
+376
+00:14:32,500 --> 00:14:34,260
+Let’s see where it is.
+
+377
+00:14:35,740 --> 00:14:37,360
+Ah, it was right here.
+
+378
+00:14:37,360 --> 00:14:39,480
+This is where we discussed it.
+
+379
+00:14:39,480 --> 00:14:42,900
+This is called by a thread in a thread pool.
+
+380
+00:14:42,900 --> 00:14:44,180
+After it's called,
+
+381
+00:14:44,180 --> 00:14:48,840
+it will create and acquire here,
+
+382
+00:14:48,840 --> 00:14:52,480
+essentially creating an event-driven mechanism right here,
+
+383
+00:14:52,480 --> 00:14:54,980
+an event loop to drive this asynchronous method,
+
+384
+00:14:54,980 --> 00:14:57,279
+and this is how coroutines work.
+
+385
+00:14:57,279 --> 00:14:59,039
+This is the current thread.
+
+386
+00:14:59,039 --> 00:15:02,519
+So, what are we calling here?
+
+387
+00:15:02,519 --> 00:15:04,439
+It's his audio sending function.
+
+388
+00:15:04,439 --> 00:15:06,850
+This involves IO operations.
+
+389
+00:15:06,850 --> 00:15:07,810
+And it's using WEBSOCKET.
+
+390
+00:15:07,810 --> 00:15:12,940
+The WEBSOCKET is created in the main thread.
+
+391
+00:15:12,940 --> 00:15:17,000
+When we use it in a child thread,
+
+392
+00:15:17,000 --> 00:15:18,980
+it can lead to a lot of issues.
+
+393
+00:15:18,980 --> 00:15:20,550
+It can quickly lead to many problems.
+
+394
+00:15:20,550 --> 00:15:22,470
+We can't operate here.
+
+395
+00:15:22,470 --> 00:15:23,190
+How do we operate then?
+
+396
+00:15:23,190 --> 00:15:26,290
+First, we need to get the current main thread here.
+
+397
+00:15:26,290 --> 00:15:27,570
+Here we need to use
+
+398
+00:15:27,570 --> 00:15:30,580
+it's about getting the main thread's event loop
+
+399
+00:15:30,580 --> 00:15:33,000
+Here, we're obtaining the event loop of the main thread
+
+400
+00:15:33,000 --> 00:15:35,760
+Because CONFIG is created in the main thread
+
+401
+00:15:35,760 --> 00:15:39,750
+So here we need to put what we're talking about
+
+402
+00:15:39,750 --> 00:15:42,830
+into the main thread's event loop
+
+403
+00:15:42,830 --> 00:15:44,550
+to drive how it's called
+
+404
+00:15:44,550 --> 00:15:46,510
+We need to remove this call
+
+405
+00:15:46,510 --> 00:15:47,830
+How is this call made, then
+
+406
+00:15:48,870 --> 00:15:55,190
+We come here to submit a travel itinerary.
+
+407
+00:15:55,190 --> 00:15:56,510
+What is submitting a travel itinerary?
+
+408
+00:15:56,510 --> 00:15:58,010
+This is the travel itinerary he submitted.
+
+409
+00:15:58,010 --> 00:15:59,430
+It's an asynchronous method.
+
+410
+00:15:59,430 --> 00:16:00,790
+Where does it get submitted to?
+
+411
+00:16:00,790 --> 00:16:03,730
+It gets submitted to the main thread's event loop.
+
+412
+00:16:03,730 --> 00:16:07,030
+In this way, it ultimately calls this method.
+
+413
+00:16:07,030 --> 00:16:10,329
+The call actually happens in the main thread.
+
+414
+00:16:10,329 --> 00:16:14,209
+Then we wait for this call to complete.
+
+415
+00:16:14,209 --> 00:16:15,460
+This is how it's done.
+
+416
+00:16:15,460 --> 00:16:17,600
+This is the entire invocation process.
+
+417
+00:16:17,600 --> 00:16:18,920
+Let's go over it again.
+
+418
+00:16:18,920 --> 00:16:22,010
+First, we created a queue, right?
+
+419
+00:16:22,010 --> 00:16:24,570
+We created this queue.
+
+420
+00:16:24,570 --> 00:16:28,690
+Then we need to send it.
+
+421
+00:16:28,890 --> 00:16:32,850
+The place where we need to send it is in the message.
+
+422
+00:16:32,850 --> 00:16:35,250
+We need to send it in the
+
+423
+00:16:36,110 --> 00:16:37,830
+Where can I do it?
+
+424
+00:16:39,310 --> 00:16:40,410
+Right here, right?
+
+425
+00:16:40,410 --> 00:16:43,010
+We need to send it over to the queue for processing.
+
+426
+00:16:43,010 --> 00:16:44,230
+When we do this,
+
+427
+00:16:44,230 --> 00:16:47,930
+we first need to execute the synthesis in the county.
+
+428
+00:16:47,930 --> 00:16:49,990
+Since the synthesis is a time-consuming task,
+
+429
+00:16:49,990 --> 00:16:51,410
+we carry it out here.
+
+430
+00:16:51,410 --> 00:16:52,170
+After execution,
+
+431
+00:16:52,170 --> 00:16:55,720
+we receive a placeholder as a response.
+
+432
+00:16:55,720 --> 00:16:57,760
+We return this placeholder.
+
+433
+00:16:57,760 --> 00:16:58,980
+It was sent to the queue
+
+434
+00:16:58,980 --> 00:17:00,780
+Then, over here
+
+435
+00:17:00,780 --> 00:17:03,160
+Inside this connection
+
+436
+00:17:03,160 --> 00:17:05,119
+We created a new thread
+
+437
+00:17:05,119 --> 00:17:07,260
+This thread is dedicated to processing the queue
+
+438
+00:17:07,260 --> 00:17:10,020
+It loops through and fetches items from the queue
+
+439
+00:17:10,020 --> 00:17:11,099
+When it retrieves an item
+
+440
+00:17:11,099 --> 00:17:13,618
+We can obtain the information from that item
+
+441
+00:17:13,618 --> 00:17:15,059
+Including its return value
+
+442
+00:17:15,059 --> 00:17:15,939
+Regarding the return,
+
+443
+00:17:15,939 --> 00:17:18,280
+if he goes to the county town,
+
+444
+00:17:18,280 --> 00:17:19,579
+once the synthesis is successful,
+
+445
+00:17:19,579 --> 00:17:20,780
+it will return this much.
+
+446
+00:17:20,780 --> 00:17:22,380
+If it hasn't been successfully synthesized yet,
+
+447
+00:17:22,380 --> 00:17:24,300
+we'll wait here for ten seconds.
+
+448
+00:17:24,300 --> 00:17:27,230
+After we obtain this information here,
+
+449
+00:17:27,230 --> 00:17:29,150
+we need to send out the OPEDS, right?
+
+450
+00:17:29,150 --> 00:17:30,450
+At this point, we need to send the audio.
+
+451
+00:17:30,450 --> 00:17:32,460
+We need to call this WebSocket to send.
+
+452
+00:17:32,460 --> 00:17:33,520
+Now, for this sending process,
+
+453
+00:17:33,520 --> 00:17:36,540
+if we create an event loop here,
+
+454
+00:17:36,540 --> 00:17:39,100
+it can also drive this thread.
+
+455
+00:17:39,100 --> 00:17:41,450
+But that's not ideal.
+
+456
+00:17:41,450 --> 00:17:44,810
+Ideally, we should create an event here,
+
+457
+00:17:44,810 --> 00:17:49,120
+this event loop to drive the asynchronous function,
+
+458
+00:17:49,120 --> 00:17:50,700
+which is its coroutine.
+
+459
+00:17:50,700 --> 00:17:54,040
+However, we are calling this WebSocket here.
+
+460
+00:17:54,040 --> 00:17:56,160
+Involving the IO event
+
+461
+00:17:56,160 --> 00:17:58,239
+some parameters
+
+462
+00:17:58,239 --> 00:17:59,579
+various resource competitions
+
+463
+00:17:59,579 --> 00:18:01,679
+that's why we can't directly invoke it here
+
+464
+00:18:01,679 --> 00:18:06,070
+so here we obtain the main thread's event loop
+
+465
+00:18:06,070 --> 00:18:11,119
+ultimately, this will be passed to the main thread's loop
+
+466
+00:18:11,119 --> 00:18:12,259
+to process
+
+467
+00:18:12,259 --> 00:18:14,719
+although we are invoking it here
+
+468
+00:18:14,719 --> 00:18:16,479
+it feels like we're calling it in this thread
+
+469
+00:18:16,479 --> 00:18:17,619
+Actually, this method
+
+470
+00:18:17,619 --> 00:18:20,670
+ultimately runs in the main thread
+
+471
+00:18:20,670 --> 00:18:21,750
+This is crucial to remember
+
+472
+00:18:21,750 --> 00:18:23,750
+It runs in the main thread
+
+473
+00:18:23,750 --> 00:18:25,630
+This makes things quite straightforward
+
+474
+00:18:25,630 --> 00:18:28,090
+It’s relatively simple
+
+475
+00:18:28,090 --> 00:18:30,910
+Regarding the audio sending
+
+476
+00:18:30,910 --> 00:18:33,490
+Send this message using the WebSocket protocol.
+
+477
+00:18:33,490 --> 00:18:35,430
+All of these operations are performed in the main thread
+
+478
+00:18:35,430 --> 00:18:36,550
+As you can see here
+
+479
+00:18:36,550 --> 00:18:38,150
+We have a lot going on in here
+
+480
+00:18:38,150 --> 00:18:38,690
+Right?
+
+481
+00:18:38,690 --> 00:18:40,535
+This method involves quite a bit
+
+482
+00:18:40,560 --> 00:18:42,500
+One of its aspects is
+
+483
+00:18:42,500 --> 00:18:44,440
+It's an asynchronous method
+
+484
+00:18:44,440 --> 00:18:46,760
+It has a WA wait
+
+485
+00:18:46,760 --> 00:18:49,569
+All of these are driven by the event loop
+
+486
+00:18:49,569 --> 00:18:50,209
+That's it
+
+487
+00:18:50,209 --> 00:18:52,969
+And all these event loops are executed in the main thread.
+
+488
+00:18:52,969 --> 00:18:54,880
+These are the ones that get sent out.
+
+489
+00:18:54,880 --> 00:18:56,000
+Let's start, shall we?
+
+490
+00:18:56,000 --> 00:18:57,580
+And then there's the audio signal.
+
+491
+00:18:57,580 --> 00:18:59,130
+And then there's the end.
+
+492
+00:18:59,130 --> 00:19:01,130
+And this marks the end of this sentence.
+
+493
+00:19:01,130 --> 00:19:02,610
+And this is the final conclusion.
+
+494
+00:19:02,610 --> 00:19:03,550
+Stop, right?
+
+495
+00:19:03,550 --> 00:19:05,570
+Everything is executed in the main thread.
+
+496
+00:19:05,570 --> 00:19:07,310
+So, relatively speaking, it's simpler.
+
+497
+00:19:07,310 --> 00:19:09,170
+Then we stop here.
+
+498
+00:19:09,170 --> 00:19:10,650
+We wait for this to complete.
+
+499
+00:19:10,650 --> 00:19:12,490
+We wait for the execution to finish.
+
+500
+00:19:12,490 --> 00:19:14,690
+After waiting for it to complete here,
+
+501
+00:19:14,690 --> 00:19:18,490
+we take the next one and loop through it like this.
+
+502
+00:19:18,490 --> 00:19:20,570
+Here, we won't write about it.
+
+503
+00:19:20,570 --> 00:19:21,650
+How resources are released.
+
+504
+00:19:21,650 --> 00:19:23,330
+We'll cover how to release resources later.
+
+505
+00:19:23,330 --> 00:19:25,160
+Now we've got it written.
+
+506
+00:19:25,160 --> 00:19:26,100
+It's all set up.
+
+507
+00:19:26,100 --> 00:19:28,060
+We can go ahead and test it.
+
+508
+00:19:28,060 --> 00:19:30,500
+There's an issue here, though.
+
+509
+00:19:30,500 --> 00:19:32,429
+Let's test it out first.
+
+510
+00:19:32,429 --> 00:19:34,509
+Actually, we covered this problem in the last class.
+
+511
+00:19:34,509 --> 00:19:35,569
+It doesn't return anything, you see.
+
+512
+00:19:35,569 --> 00:19:37,649
+Let's take a look at this part.
+
+513
+00:19:37,649 --> 00:19:41,580
+In the S-class, there's a section here, right?
+
+514
+00:19:41,580 --> 00:19:45,550
+Let's revisit what we just talked about.
+
+515
+00:19:45,550 --> 00:19:49,350
+This is also where WebSocket messages are sent.
+
+516
+00:19:49,350 --> 00:19:52,680
+Now, is this process running in a thread pool?
+
+517
+00:19:52,680 --> 00:19:55,760
+Previously, we mentioned that the chat runs in a thread pool.
+
+518
+00:19:55,760 --> 00:19:57,040
+That means it's a new thread.
+
+519
+00:19:57,040 --> 00:19:58,220
+It doesn't run in the main thread.
+
+520
+00:19:58,220 --> 00:19:59,870
+We can't directly call this method.
+
+521
+00:19:59,870 --> 00:20:01,430
+That won't work.
+
+522
+00:20:01,430 --> 00:20:04,390
+Because this method is asynchronous.
+
+523
+00:20:04,390 --> 00:20:05,250
+Some are from Ctrip
+
+524
+00:20:05,250 --> 00:20:08,370
+So we need to integrate this into the loop
+
+525
+00:20:08,370 --> 00:20:10,500
+to execute within the event loop
+
+526
+00:20:10,500 --> 00:20:11,980
+And for this event loop
+
+527
+00:20:11,980 --> 00:20:16,399
+we also integrate it into the main thread
+
+528
+00:20:16,399 --> 00:20:17,319
+So how do we do it
+
+529
+00:20:17,319 --> 00:20:18,439
+Just copy it over
+
+530
+00:20:18,439 --> 00:20:19,219
+Comment it out
+
+531
+00:20:19,219 --> 00:20:20,179
+How do we do that
+
+532
+00:20:20,179 --> 00:20:21,559
+Do it this way
+
+533
+00:20:21,890 --> 00:20:25,130
+We use the same method as before
+
+534
+00:20:25,130 --> 00:20:26,410
+You don't need to memorize this method
+
+535
+00:20:26,410 --> 00:20:29,320
+It's about running this method
+
+536
+00:20:29,320 --> 00:20:30,920
+Submit this thread
+
+537
+00:20:30,920 --> 00:20:33,520
+Submit the coroutine to the loop
+
+538
+00:20:33,520 --> 00:20:36,360
+What is this loop, the connector?
+
+539
+00:20:36,360 --> 00:20:39,140
+It's what we obtained here just now
+
+540
+00:20:39,140 --> 00:20:43,179
+Is this the main thread's event loop?
+
+541
+00:20:43,179 --> 00:20:44,459
+So, we'll do it in this place
+
+542
+00:20:44,459 --> 00:20:46,279
+submit it to this loop to process
+
+543
+00:20:46,279 --> 00:20:49,139
+and the waiting will be the same afterwards
+
+544
+00:20:49,139 --> 00:20:50,099
+if we wait here
+
+545
+00:20:50,099 --> 00:20:53,170
+the main thread will send this out
+
+546
+00:20:53,170 --> 00:20:56,720
+and then proceed to the next step after it's done
+
+547
+00:20:56,720 --> 00:20:58,060
+let's give it another try
+
+548
+00:20:58,060 --> 00:21:00,380
+see if it can send this out
+
+549
+00:21:00,380 --> 00:21:01,520
+let's verify it
+
+550
+00:21:01,520 --> 00:21:02,540
+Let's run it.
+
+551
+00:21:02,540 --> 00:21:04,600
+Then we'll test it.
+
+552
+00:21:09,400 --> 00:21:11,080
+Let's connect again.
+
+553
+00:21:11,750 --> 00:21:13,770
+Now, let's ask a question.
+
+554
+00:21:13,770 --> 00:21:15,370
+It should respond with voice as well.
+
+555
+00:21:15,370 --> 00:21:16,990
+The entire voice response is now in place.
+
+556
+00:21:16,990 --> 00:21:18,600
+Let's give it a try.
+
+557
+00:21:18,600 --> 00:21:22,240
+Look at that text; the speech recognition will also return it promptly.
+
+558
+00:21:22,240 --> 00:21:23,909
+Let's try it out.
+
+559
+00:21:24,429 --> 00:21:25,869
+Hi, what are you up to?
+
+560
+00:21:26,869 --> 00:21:28,409
+See, it's back again, isn't it?
+
+561
+00:21:28,409 --> 00:21:31,610
+This shows that he functions as an AI assistant.
+
+562
+00:21:33,730 --> 00:21:38,560
+This includes not using emojis or non-text symbols in responses.
+
+563
+00:21:38,560 --> 00:21:41,280
+If you have any questions or need assistance,
+
+564
+00:21:41,280 --> 00:21:42,640
+feel free to let me know.
+
+565
+00:21:42,640 --> 00:21:44,400
+I will respond in text.
+
+566
+00:21:44,400 --> 00:21:47,540
+Is there anything I can help you with?
+
+567
+00:21:47,700 --> 00:21:49,100
+See, is it working now?
+
+568
+00:21:49,100 --> 00:21:51,860
+So, this should follow the exact order, right?
+
+569
+00:21:51,860 --> 00:21:53,200
+I don't know how to respond.
+
+570
+00:21:53,200 --> 00:21:53,580
+Hello.
+
+571
+00:21:53,580 --> 00:21:54,400
+Move it to the back.
+
+572
+00:21:54,400 --> 00:21:56,300
+If the queue isn't handled properly,
+
+573
+00:21:56,300 --> 00:21:58,490
+will it say something like, 'Hello'?
+
+574
+00:21:58,490 --> 00:22:00,930
+If it quickly identifies the fast one,
+
+575
+00:22:00,930 --> 00:22:04,030
+it might directly say that the first sentence is particularly long,
+
+576
+00:22:04,030 --> 00:22:06,570
+while the second sentence is quite short.
+
+577
+00:22:06,570 --> 00:22:08,270
+That might have messed up the order.
+
+578
+00:22:08,270 --> 00:22:09,790
+This is strictly in sequence.
+
+579
+00:22:09,790 --> 00:22:12,310
+Then, the message was sent out from here.
+
+580
+00:22:12,310 --> 00:22:13,470
+We verified this before.
+
+581
+00:22:13,470 --> 00:22:14,790
+In the last class, we verified this message.
+
+582
+00:22:14,790 --> 00:22:16,870
+It wouldn't work this way, right?
+
+583
+00:22:16,870 --> 00:22:17,930
+Now it does.
+
+584
+00:22:17,930 --> 00:22:18,890
+This is the submission.
+
+585
+00:22:18,890 --> 00:22:20,210
+It's about confirming the trip.
+
+586
+00:22:20,210 --> 00:22:24,349
+This method can be considered as submitting to the Ctrip process.
+
+587
+00:22:24,349 --> 00:22:26,440
+Where does Ctrip submit this?
+
+588
+00:22:26,440 --> 00:22:28,320
+It submits to the main loop.
+
+589
+00:22:28,320 --> 00:22:31,950
+Rather than submitting to its own thread.
+
+590
+00:22:31,950 --> 00:22:34,550
+This thread currently doesn’t have a loop; it’s just a regular thread.
+
+591
+00:22:34,550 --> 00:22:35,630
+It doesn’t have a loop.
+
+592
+00:22:35,630 --> 00:22:38,630
+If you haven’t created an event loop,
+
+593
+00:22:38,630 --> 00:22:39,430
+It doesn’t have a loop.
+
+594
+00:22:39,430 --> 00:22:41,840
+Because it’s just a regular thread.
+
+595
+00:22:41,840 --> 00:22:44,160
+It executes from top to bottom, and the thread is done.
+
+596
+00:22:44,160 --> 00:22:45,400
+Because we're dealing with time-consuming tasks.
+
+597
+00:22:45,400 --> 00:22:46,240
+After execution is complete,
+
+598
+00:22:46,240 --> 00:22:49,030
+the thread has fulfilled its mission and can be idle.
+
+599
+00:22:49,030 --> 00:22:50,330
+It can be put on hold.
+
+600
+00:22:50,330 --> 00:22:52,530
+It won't be executed again until another program calls it.
+
+601
+00:22:52,530 --> 00:22:55,380
+It doesn't need to create a loop, right?
+
+602
+00:22:55,380 --> 00:22:57,340
+If we need a loop,
+
+603
+00:22:57,340 --> 00:22:58,500
+we have to create one, right?
+
+604
+00:22:58,500 --> 00:23:01,500
+Just like what we did earlier, right?
+
+605
+00:23:01,500 --> 00:23:04,640
+This is called within the current thread.
+
+606
+00:23:04,640 --> 00:23:05,380
+Who calls it?
+
+607
+00:23:05,380 --> 00:23:09,150
+It's the thread that creates an event loop.
+
+608
+00:23:09,150 --> 00:23:11,070
+Then it drives the thread, right?
+
+609
+00:23:11,070 --> 00:23:14,870
+So, we follow this approach here.
+
+610
+00:23:14,870 --> 00:23:17,020
+This fixes the bug here.
+
+611
+00:23:17,020 --> 00:23:18,580
+Let's go over it again.
+
+612
+00:23:18,580 --> 00:23:19,580
+So, here's the thing,
+
+613
+00:23:19,580 --> 00:23:21,460
+it's actually quite simple.
+
+614
+00:23:21,460 --> 00:23:21,980
+I've talked a lot,
+
+615
+00:23:21,980 --> 00:23:22,920
+but it's really simple.
+
+616
+00:23:22,920 --> 00:23:24,880
+First, we create a queue.
+
+617
+00:23:24,880 --> 00:23:26,760
+When we need to send something,
+
+618
+00:23:26,760 --> 00:23:28,670
+we put it into the queue.
+
+619
+00:23:28,670 --> 00:23:31,050
+We place items in the queue, right?
+
+620
+00:23:31,050 --> 00:23:33,300
+We place a placeholder in it.
+
+621
+00:23:33,300 --> 00:23:36,980
+This placeholder is expected to return something.
+
+622
+00:23:36,980 --> 00:23:38,700
+When does it return?
+
+623
+00:23:38,700 --> 00:23:40,380
+In the thread,
+
+624
+00:23:40,380 --> 00:23:43,060
+after the task in the thread pool is completed,
+
+625
+00:23:43,060 --> 00:23:43,760
+it will return.
+
+626
+00:23:43,760 --> 00:23:45,940
+We wait here to get the return value.
+
+627
+00:23:45,940 --> 00:23:48,950
+Once we get the return value,
+
+628
+00:23:48,950 --> 00:23:50,060
+we get the return value again.
+
+629
+00:23:50,060 --> 00:23:50,940
+We get the return value.
+
+630
+00:23:50,940 --> 00:23:51,580
+If it hasn't finished yet,
+
+631
+00:23:51,580 --> 00:23:52,700
+we wait here,
+
+632
+00:23:52,700 --> 00:23:53,780
+then we get the return value after it's done.
+
+633
+00:23:53,780 --> 00:23:55,160
+Once we get the return value,
+
+634
+00:23:55,160 --> 00:23:59,090
+we send the synthesized audio here.
+
+635
+00:23:59,090 --> 00:24:00,010
+To send it,
+
+636
+00:24:00,010 --> 00:24:02,170
+we post it to the main thread's
+
+637
+00:24:02,170 --> 00:24:04,190
+event loop to handle it.
+
+638
+00:24:04,190 --> 00:24:06,650
+The sending process is like this,
+
+639
+00:24:06,650 --> 00:24:10,409
+all WebSocket sending is done in the main thread.
+
+640
+00:24:10,409 --> 00:24:11,569
+After that,
+
+641
+00:24:11,569 --> 00:24:14,180
+if we talk about this kind of scenario,
+
+642
+00:24:14,180 --> 00:24:16,340
+if a WebSocket,
+
+643
+00:24:16,340 --> 00:24:16,700
+because now a WebSocket is essentially a server,
+
+644
+00:24:16,700 --> 00:24:19,660
+right?
+
+645
+00:24:19,660 --> 00:24:20,080
+Let's look at this here,
+
+646
+00:24:20,080 --> 00:24:21,330
+a WebSocket creates a server.
+
+647
+00:24:21,330 --> 00:24:23,290
+If the concurrency is not sufficient,
+
+648
+00:24:23,290 --> 00:24:26,990
+what do we do?
+
+649
+00:24:26,990 --> 00:24:27,550
+That's a topic for later.
+
+650
+00:24:27,550 --> 00:24:29,150
+Now, let's talk about this,
+
+651
+00:24:29,150 --> 00:24:30,310
+if it's not enough,
+
+652
+00:24:30,310 --> 00:24:31,630
+we can use NGINX for reverse proxy and load balancing.
+
+653
+00:24:31,630 --> 00:24:35,100
+This means that for the client,
+
+654
+00:24:35,100 --> 00:24:36,920
+it's just a single port listening,
+
+655
+00:24:36,920 --> 00:24:40,440
+but after reverse proxying in NGINX,
+
+656
+00:24:40,440 --> 00:24:43,800
+it can forward to multiple ports on different servers,
+
+657
+00:24:43,800 --> 00:24:47,550
+different WebSocket servers.
+
+658
+00:24:47,550 --> 00:24:49,270
+This way, the concurrency can be much higher.
+
+659
+00:24:49,270 --> 00:24:53,480
+That's a topic for later.
+
+660
+00:24:53,480 --> 00:24:54,900
+Let's briefly cover this now.
+
+661
+00:24:54,900 --> 00:24:57,240
+This is the entire process using a message queue,
+
+662
+00:24:57,240 --> 00:25:01,740
+This is the entire message queue system.
+
+663
+00:25:01,740 --> 00:25:03,180
+to achieve the entire sending process.
+
+664
+00:25:03,180 --> 00:25:05,900
+Otherwise, without the queue method, how would you send all these?
+
+665
+00:25:05,900 --> 00:25:08,020
+How would you know when to send, right?
+
+666
+00:25:08,020 --> 00:25:08,780
+So, with this method, the sending order won't be wrong.
+
+667
+00:25:13,780 --> 00:25:14,920
+That's it for this lesson.
+

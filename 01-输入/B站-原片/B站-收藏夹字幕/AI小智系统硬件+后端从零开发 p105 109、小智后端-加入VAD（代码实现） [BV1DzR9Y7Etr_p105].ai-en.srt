@@ -1,0 +1,1408 @@
+1
+00:00:00,600 --> 00:00:03,840
+Alright, in the last class, we've already added the backend for this VD.
+
+2
+00:00:03,840 --> 00:00:06,800
+We've also added the model files for this VD.
+
+3
+00:00:06,800 --> 00:00:08,160
+And we've set up the environment as well.
+
+4
+00:00:08,160 --> 00:00:11,140
+Now, in this class, we'll dive into implementing the code.
+
+5
+00:00:11,140 --> 00:00:14,330
+First, let's create this just like we did before.
+
+6
+00:00:14,330 --> 00:00:16,329
+In the AI repository,
+
+7
+00:00:16,329 --> 00:00:19,930
+create a VD directory.
+
+8
+00:00:21,640 --> 00:00:25,040
+Then, we'll create two files in this directory.
+
+9
+00:00:26,700 --> 00:00:28,100
+Just like this one, okay?
+
+10
+00:00:28,100 --> 00:00:29,540
+There are two files in here, right?
+
+11
+00:00:29,540 --> 00:00:30,420
+We do it the same way.
+
+12
+00:00:31,460 --> 00:00:32,920
+One is the base.
+
+13
+00:00:32,920 --> 00:00:35,700
+The other one is the SLR.
+
+14
+00:00:41,620 --> 00:00:45,980
+In this base file,
+
+15
+00:00:45,980 --> 00:00:47,500
+we
+
+16
+00:00:48,390 --> 00:00:50,890
+will write our code.
+
+17
+00:00:50,890 --> 00:00:55,010
+First, we need to create a class.
+
+18
+00:00:55,810 --> 00:00:57,850
+And this is VD.
+
+19
+00:01:02,880 --> 00:01:04,959
+This is ABC
+
+20
+00:01:10,680 --> 00:01:12,440
+Can you add it?
+
+21
+00:01:17,520 --> 00:01:19,380
+This is the same as before, right?
+
+22
+00:01:19,380 --> 00:01:21,120
+What we create here is the same, right?
+
+23
+00:01:21,120 --> 00:01:23,770
+All these names need to meet this requirement
+
+24
+00:01:23,770 --> 00:01:26,370
+Then we will create them uniformly here
+
+25
+00:01:26,370 --> 00:01:28,430
+Like creating instances
+
+26
+00:01:28,790 --> 00:01:32,070
+Oops, I just put this in here
+
+27
+00:01:32,070 --> 00:01:33,390
+I made a mistake
+
+28
+00:01:35,720 --> 00:01:37,280
+It's not here.
+
+29
+00:01:37,640 --> 00:01:41,320
+This is essentially creating an abstract method.
+
+30
+00:01:41,320 --> 00:01:43,980
+To check if it's muted.
+
+31
+00:01:43,980 --> 00:01:48,200
+The input is the instance of your connection.
+
+32
+00:01:48,200 --> 00:01:51,380
+Then, the audio is passed in.
+
+33
+00:01:51,380 --> 00:01:53,850
+Specifically, the user's audio is passed in.
+
+34
+00:01:53,850 --> 00:01:56,010
+And it ultimately returns whether it's muted.
+
+35
+00:01:56,010 --> 00:01:58,490
+Here, we'll specifically implement it.
+
+36
+00:01:58,490 --> 00:01:59,450
+Of course, before implementation,
+
+37
+00:01:59,450 --> 00:02:00,850
+Let's start by writing the configuration.
+
+38
+00:02:00,850 --> 00:02:02,690
+In this configuration,
+
+39
+00:02:02,690 --> 00:02:05,590
+we'll first write the configuration in this template.
+
+40
+00:02:05,590 --> 00:02:11,580
+First, we'll write a VD here,
+
+41
+00:02:12,520 --> 00:02:14,380
+capital VAD,
+
+42
+00:02:14,380 --> 00:02:19,160
+then we'll write the SLR here,
+
+43
+00:02:25,800 --> 00:02:26,500
+and then,
+
+44
+00:02:26,500 --> 00:02:32,760
+we'll write the TDVD configuration here.
+
+45
+00:02:35,060 --> 00:02:36,780
+for this type.
+
+46
+00:02:36,780 --> 00:02:37,860
+This name
+
+47
+00:02:37,860 --> 00:02:41,210
+needs to match the file name
+
+48
+00:02:41,570 --> 00:02:44,810
+make sure it aligns with the file name here
+
+49
+00:02:44,810 --> 00:02:47,710
+and also, the directory for our model
+
+50
+00:02:47,710 --> 00:02:51,600
+the model directory is under the module directory
+
+51
+00:02:51,600 --> 00:02:53,880
+under this directory
+
+52
+00:02:53,880 --> 00:02:56,050
+let's change this
+
+53
+00:02:56,290 --> 00:02:58,050
+to VD
+
+54
+00:03:01,660 --> 00:03:02,320
+and then
+
+55
+00:03:02,320 --> 00:03:05,140
+And then, the smallest one
+
+56
+00:03:05,140 --> 00:03:08,820
+We copy this over
+
+57
+00:03:09,730 --> 00:03:13,030
+The shortest silent time in milliseconds
+
+58
+00:03:13,030 --> 00:03:18,470
+That is, if it remains silent for 600 milliseconds
+
+59
+00:03:18,470 --> 00:03:20,510
+It is considered to be in a silent state
+
+60
+00:03:20,710 --> 00:03:24,970
+Then we need to set a threshold value.
+
+61
+00:03:25,490 --> 00:03:27,350
+A threshold, basically
+
+62
+00:03:27,350 --> 00:03:31,650
+If it exceeds this threshold, it’s considered to have sound
+
+63
+00:03:31,650 --> 00:03:34,670
+If it’s below this threshold, it’s considered noise
+
+64
+00:03:34,670 --> 00:03:36,550
+There might be some noise or silence.
+
+65
+00:03:36,550 --> 00:03:39,170
+After this configuration is done,
+
+66
+00:03:39,170 --> 00:03:41,910
+let's write our class.
+
+67
+00:03:41,910 --> 00:03:44,290
+How should we write this class?
+
+68
+00:03:44,290 --> 00:03:47,190
+First, let's initialize it.
+
+69
+00:03:47,190 --> 00:03:48,930
+We'll copy it over.
+
+70
+00:03:52,540 --> 00:03:54,140
+Add it in.
+
+71
+00:04:01,040 --> 00:04:02,720
+Let's write this part.
+
+72
+00:04:16,480 --> 00:04:17,680
+Alright, let's take a look.
+
+73
+00:04:17,680 --> 00:04:18,940
+How is this initialization done?
+
+74
+00:04:18,940 --> 00:04:21,600
+The first step is to load the model.
+
+75
+00:04:21,600 --> 00:04:24,700
+We use this method to load the model.
+
+76
+00:04:24,700 --> 00:04:26,840
+It's loaded using the PYTORCH method.
+
+77
+00:04:26,840 --> 00:04:27,520
+It's loaded.
+
+78
+00:04:27,520 --> 00:04:30,660
+First, we need to specify the directory.
+
+79
+00:04:30,660 --> 00:04:33,080
+The model directory is in the configuration file.
+
+80
+00:04:33,080 --> 00:04:36,540
+The CONFIG passed in is from this episode.
+
+81
+00:04:36,540 --> 00:04:41,790
+This episode has already reached this level.
+
+82
+00:04:41,790 --> 00:04:45,869
+Then we'll make a copy of this and place it here.
+
+83
+00:04:45,869 --> 00:04:47,689
+Because we'll be using this one in the end.
+
+84
+00:04:47,689 --> 00:04:49,989
+Let's copy and place it here.
+
+85
+00:04:50,150 --> 00:04:51,150
+Like this.
+
+86
+00:04:51,150 --> 00:04:55,170
+Then we can continue looking.
+
+87
+00:04:55,170 --> 00:04:56,860
+In this spot.
+
+88
+00:04:56,860 --> 00:04:59,900
+We're loading the local model on our end.
+
+89
+00:04:59,900 --> 00:05:00,840
+To load the local model.
+
+90
+00:05:00,840 --> 00:05:03,680
+Then let's take a look at this.
+
+91
+00:05:03,680 --> 00:05:06,210
+We don't need to reload this one.
+
+92
+00:05:06,210 --> 00:05:10,430
+Then, the model file is named this way.
+
+93
+00:05:10,430 --> 00:05:12,490
+This name will be taken from this directory.
+
+94
+00:05:12,490 --> 00:05:15,730
+That is, from our model directory.
+
+95
+00:05:15,730 --> 00:05:19,470
+It will look for a file with the same name in there.
+
+96
+00:05:19,470 --> 00:05:21,570
+And it's loaded in the doge style.
+
+97
+00:05:21,570 --> 00:05:24,310
+It loads this JIP format.
+
+98
+00:05:24,310 --> 00:05:27,950
+Then let's see the model it returns after loading.
+
+99
+00:05:27,950 --> 00:05:28,550
+After loading.
+
+100
+00:05:28,550 --> 00:05:29,630
+It will return two items.
+
+101
+00:05:29,630 --> 00:05:32,420
+One is the model itself.
+
+102
+00:05:32,420 --> 00:05:35,860
+That is, a mod of the model.
+
+103
+00:05:35,860 --> 00:05:38,020
+The other is a utility class.
+
+104
+00:05:38,020 --> 00:05:40,020
+We only need the model itself.
+
+105
+00:05:40,020 --> 00:05:40,940
+The utility class is not required.
+
+106
+00:05:40,940 --> 00:05:41,580
+So we won't take it.
+
+107
+00:05:41,580 --> 00:05:45,069
+Here, it's crucial to select the zeroth element of the array.
+
+108
+00:05:45,069 --> 00:05:48,120
+The very first item in the list.
+
+109
+00:05:48,120 --> 00:05:49,080
+After obtaining it
+
+110
+00:05:49,080 --> 00:05:51,020
+then this is the registration log
+
+111
+00:05:51,020 --> 00:05:53,120
+it's essentially importing the log
+
+112
+00:05:53,120 --> 00:05:57,019
+and here we are creating the OPEDS encoder
+
+113
+00:05:57,019 --> 00:05:57,639
+the decoder, that is
+
+114
+00:05:57,639 --> 00:06:00,979
+because we ultimately need to decode the incoming audio as well
+
+115
+00:06:00,979 --> 00:06:03,399
+the incoming audio is in OPEX format
+
+116
+00:06:03,399 --> 00:06:06,400
+so we add an OPEC decoder
+
+117
+00:06:06,400 --> 00:06:08,960
+and this channel is a single channel
+
+118
+00:06:08,960 --> 00:06:10,000
+And 16K Hz
+
+119
+00:06:10,000 --> 00:06:12,690
+This should be consistent with what we had before, right?
+
+120
+00:06:12,690 --> 00:06:16,790
+This is where we get the threshold value for the configuration
+
+121
+00:06:16,790 --> 00:06:19,890
+Which is 0.5 by default, as we just set
+
+122
+00:06:19,890 --> 00:06:22,210
+And this is where we get the
+
+123
+00:06:22,210 --> 00:06:24,770
+Duration of the operation
+
+124
+00:06:24,770 --> 00:06:26,290
+The default is 800
+
+125
+00:06:26,290 --> 00:06:28,490
+But we configured it to be 600, right?
+
+126
+00:06:28,490 --> 00:06:31,490
+And here is where we parse it when needed
+
+127
+00:06:31,490 --> 00:06:34,370
+Use a buffer to receive this uh
+
+128
+00:06:34,370 --> 00:06:39,180
+Place the decoded PCM data into this buffer
+
+129
+00:06:39,180 --> 00:06:40,940
+Let's take a look at how to parse it in a moment
+
+130
+00:06:40,940 --> 00:06:43,780
+Then, let's define a few variables here
+
+131
+00:06:43,780 --> 00:06:46,060
+Let's look at these two variables
+
+132
+00:06:46,060 --> 00:06:47,920
+So, how do we proceed?
+
+133
+00:06:47,920 --> 00:06:51,830
+Let's copy this over first
+
+134
+00:06:59,940 --> 00:07:00,840
+Let me check it out
+
+135
+00:07:00,840 --> 00:07:05,450
+First, we'll start here
+
+136
+00:07:05,450 --> 00:07:07,890
+Through this decoder
+
+137
+00:07:07,890 --> 00:07:11,410
+we decode the OPEX data we input
+
+138
+00:07:11,410 --> 00:07:16,020
+since it's 60 milliseconds per frame, right?
+
+139
+00:07:16,020 --> 00:07:17,260
+This is minus six
+
+140
+00:07:17,260 --> 00:07:17,900
+960
+
+141
+00:07:17,900 --> 00:07:22,040
+After obtaining the PCM data
+
+142
+00:07:22,040 --> 00:07:23,700
+we place it in this buffer
+
+143
+00:07:23,700 --> 00:07:24,720
+put it in the buffer
+
+144
+00:07:24,720 --> 00:07:25,240
+after that
+
+145
+00:07:25,240 --> 00:07:28,700
+We process 512 sample points each time
+
+146
+00:07:28,700 --> 00:07:30,200
+which means multiplying by two
+
+147
+00:07:30,200 --> 00:07:32,180
+that’s the number of bytes, right?
+
+148
+00:07:32,180 --> 00:07:33,960
+each sample point is two bytes, right?
+
+149
+00:07:33,960 --> 00:07:36,880
+so two bytes, correct?
+
+150
+00:07:36,880 --> 00:07:43,000
+then we define a variable here, which is
+
+151
+00:07:43,000 --> 00:07:44,919
+whether there is any voice
+
+152
+00:07:44,919 --> 00:07:46,039
+set it to false initially
+
+153
+00:07:46,039 --> 00:07:47,239
+meaning no voice, right?
+
+154
+00:07:47,239 --> 00:07:48,659
+Then, let's move on to this part.
+
+155
+00:07:48,659 --> 00:07:52,600
+The while loop continuously parses the array in this buffer.
+
+156
+00:07:52,600 --> 00:07:53,960
+It parses the array inside.
+
+157
+00:07:53,960 --> 00:07:55,600
+Now, let's take a look.
+
+158
+00:07:55,600 --> 00:07:56,420
+Regarding this part,
+
+159
+00:07:56,420 --> 00:07:59,600
+if its length, the BP length, is greater than what we need to parse,
+
+160
+00:07:59,600 --> 00:08:01,659
+we start parsing it.
+
+161
+00:08:01,659 --> 00:08:03,059
+We keep parsing it continuously.
+
+162
+00:08:03,059 --> 00:08:04,499
+Let's review this section here.
+
+163
+00:08:04,499 --> 00:08:07,299
+First, let's grab this one quickly.
+
+164
+00:08:07,299 --> 00:08:08,970
+We've covered this step before.
+
+165
+00:08:08,970 --> 00:08:14,130
+Here, we start from zero and take the numbers from 1 to 10.
+
+166
+00:08:14,130 --> 00:08:15,130
+Right, 2 and 4.
+
+167
+00:08:15,130 --> 00:08:16,790
+Actually, it takes 1023.
+
+168
+00:08:16,790 --> 00:08:18,060
+1024 won't be included.
+
+169
+00:08:18,060 --> 00:08:20,700
+This is what we get after fetching all these blocks.
+
+170
+00:08:20,700 --> 00:08:22,220
+These are the blocks we need to work with.
+
+171
+00:08:22,220 --> 00:08:25,960
+Then, we'll remove this block from the buffer.
+
+172
+00:08:25,960 --> 00:08:27,630
+It's about reducing and removing force, right?
+
+173
+00:08:27,630 --> 00:08:28,630
+We've talked about this before.
+
+174
+00:08:29,630 --> 00:08:30,150
+So, moving on.
+
+175
+00:08:30,150 --> 00:08:34,090
+Here, we convert the PCM binary digits
+
+176
+00:08:34,090 --> 00:08:35,169
+the cash flow
+
+177
+00:08:35,169 --> 00:08:36,809
+data into tensor data.
+
+178
+00:08:36,809 --> 00:08:38,740
+Let's see how we can implement this later.
+
+179
+00:08:38,740 --> 00:08:40,100
+Let's move forward for now.
+
+180
+00:08:40,100 --> 00:08:42,659
+Because when we do inference, we use PyTorch.
+
+181
+00:08:42,659 --> 00:08:43,260
+When making inferences,
+
+182
+00:08:43,260 --> 00:08:44,720
+he uses Zhang Liang's data.
+
+183
+00:08:44,720 --> 00:08:46,979
+And here,
+
+184
+00:08:46,979 --> 00:08:48,679
+we prohibit gradient computation during inference.
+
+185
+00:08:48,679 --> 00:08:49,759
+If you don't understand this,
+
+186
+00:08:49,759 --> 00:08:50,479
+you can think of it as
+
+187
+00:08:50,479 --> 00:08:53,380
+we simplify the inference process.
+
+188
+00:08:53,380 --> 00:08:56,700
+This means that during the process, there would be many gradient outputs,
+
+189
+00:08:56,700 --> 00:08:59,680
+as well as recording these intermediate values.
+
+190
+00:08:59,680 --> 00:09:00,640
+Store intermediate values
+
+191
+00:09:00,640 --> 00:09:02,340
+We won't let it store here
+
+192
+00:09:02,340 --> 00:09:04,030
+This makes the inference faster
+
+193
+00:09:04,030 --> 00:09:07,290
+Because our main goal is to identify it
+
+194
+00:09:07,290 --> 00:09:08,640
+Whether there's any audio
+
+195
+00:09:08,640 --> 00:09:11,320
+Then we start the inference at this step
+
+196
+00:09:11,320 --> 00:09:12,340
+This is the inference
+
+197
+00:09:12,340 --> 00:09:15,270
+We loaded the model just now
+
+198
+00:09:15,270 --> 00:09:17,930
+And then we pass in the tensor data
+
+199
+00:09:17,930 --> 00:09:20,350
+That is, the tensor data of our audio.
+
+200
+00:09:20,350 --> 00:09:23,680
+Then, for the 16K frequency band.
+
+201
+00:09:23,680 --> 00:09:24,180
+And then,
+
+202
+00:09:24,180 --> 00:09:29,159
+Here, the conversion is to a threshold value.
+
+203
+00:09:29,159 --> 00:09:30,719
+Converting it to a threshold value.
+
+204
+00:09:30,719 --> 00:09:35,890
+Here, it's converted into the flow format.
+
+205
+00:09:35,890 --> 00:09:38,210
+Then, we evaluate this threshold value.
+
+206
+00:09:38,210 --> 00:09:40,210
+This threshold value is greater than the one we set in the Settings.
+
+207
+00:09:40,210 --> 00:09:42,650
+greater than or equal to our threshold setting
+
+208
+00:09:42,650 --> 00:09:44,140
+This means there's audio.
+
+209
+00:09:44,140 --> 00:09:45,980
+This is what we're working with.
+
+210
+00:09:47,100 --> 00:09:48,540
+Then we start the evaluation here.
+
+211
+00:09:48,540 --> 00:09:52,670
+If the previous one...
+
+212
+00:09:52,670 --> 00:09:53,810
+If the current one...
+
+213
+00:09:53,810 --> 00:09:55,070
+If the current one is silent.
+
+214
+00:09:55,070 --> 00:09:56,010
+It's a node, right?
+
+215
+00:09:56,010 --> 00:09:57,290
+False, correct?
+
+216
+00:09:57,290 --> 00:09:58,810
+We set it to false here.
+
+217
+00:09:58,810 --> 00:10:00,590
+Then, if it's currently muted,
+
+218
+00:10:00,590 --> 00:10:03,470
+and the last time there was audio,
+
+219
+00:10:03,470 --> 00:10:06,930
+this is similar to what we implemented on the hardware side,
+
+220
+00:10:06,930 --> 00:10:07,570
+it works the same way here.
+
+221
+00:10:07,570 --> 00:10:11,890
+First, we need to ensure it has audio before determining if it's muted, right?
+
+222
+00:10:11,890 --> 00:10:13,850
+It wouldn't make sense to check for muting at the very beginning.
+
+223
+00:10:13,850 --> 00:10:17,320
+So, we need to confirm that it is currently,
+
+224
+00:10:17,320 --> 00:10:18,480
+in a muted state,
+
+225
+00:10:18,480 --> 00:10:19,980
+while the last time there was audio.
+
+226
+00:10:19,980 --> 00:10:23,440
+So we'll calculate the current silent period.
+
+227
+00:10:23,440 --> 00:10:25,960
+Let's import this first.
+
+228
+00:10:26,080 --> 00:10:30,480
+This is how we calculate the duration.
+
+229
+00:10:30,480 --> 00:10:31,440
+What's the issue?
+
+230
+00:10:31,440 --> 00:10:34,370
+Subtract the current timestamp in milliseconds from
+
+231
+00:10:34,370 --> 00:10:37,550
+the last time there was speech.
+
+232
+00:10:37,550 --> 00:10:38,510
+The time when there was activity.
+
+233
+00:10:38,510 --> 00:10:40,070
+We'll record that in the next step, right?
+
+234
+00:10:40,070 --> 00:10:42,670
+This is the duration of the silence.
+
+235
+00:10:42,670 --> 00:10:46,350
+This duration exceeds our settings.
+
+236
+00:10:46,350 --> 00:10:48,230
+This minimum silence duration.
+
+237
+00:10:48,230 --> 00:10:51,010
+So the 600ms we set, right?
+
+238
+00:10:51,010 --> 00:10:52,210
+If it's longer than 600ms,
+
+239
+00:10:52,210 --> 00:10:53,830
+we consider it as silence.
+
+240
+00:10:53,830 --> 00:10:55,090
+It means the sentence has ended.
+
+241
+00:10:55,090 --> 00:10:58,880
+So we set this to true.
+
+242
+00:10:58,880 --> 00:11:01,440
+It indicates it has stopped.
+
+243
+00:11:01,440 --> 00:11:04,060
+Then we set this to false.
+
+244
+00:11:04,060 --> 00:11:05,700
+We'll wait for the next one.
+
+245
+00:11:05,700 --> 00:11:07,100
+Then it returns TRU here.
+
+246
+00:11:07,100 --> 00:11:09,930
+That means we've completed this sentence.
+
+247
+00:11:09,930 --> 00:11:12,290
+Otherwise, in this case,
+
+248
+00:11:12,290 --> 00:11:13,490
+If not,
+
+249
+00:11:13,490 --> 00:11:15,650
+If it is true,
+
+250
+00:11:15,650 --> 00:11:17,579
+it indicates there is currently audio.
+
+251
+00:11:17,579 --> 00:11:18,579
+If there is audio,
+
+252
+00:11:18,579 --> 00:11:20,259
+Let's set this to true
+
+253
+00:11:20,259 --> 00:11:22,910
+Then, record the time when there is audio.
+
+254
+00:11:22,910 --> 00:11:24,690
+This is ultimately used here, right?
+
+255
+00:11:24,690 --> 00:11:28,100
+So, this records the last time there was audio.
+
+256
+00:11:28,100 --> 00:11:30,200
+Here, subtract the current time from
+
+257
+00:11:30,200 --> 00:11:31,940
+the last time there was audio.
+
+258
+00:11:31,940 --> 00:11:33,710
+Wouldn’t that be the time it was silent?
+
+259
+00:11:33,710 --> 00:11:35,750
+Then, this part returns false.
+
+260
+00:11:35,750 --> 00:11:36,950
+Meaning there is audio.
+
+261
+00:11:36,950 --> 00:11:38,070
+So, it returns false.
+
+262
+00:11:38,070 --> 00:11:39,630
+No voice response, return true
+
+263
+00:11:39,630 --> 00:11:41,050
+This is the entire implementation process
+
+264
+00:11:41,050 --> 00:11:42,870
+Then, for the tensor conversion here
+
+265
+00:11:42,870 --> 00:11:44,210
+Let's write a piece of code
+
+266
+00:11:44,210 --> 00:11:47,109
+Let's copy this part over
+
+267
+00:11:47,109 --> 00:11:47,889
+Where should we put it?
+
+268
+00:11:47,889 --> 00:11:50,329
+We'll put it in this base
+
+269
+00:11:50,329 --> 00:11:52,560
+We'll implement it here
+
+270
+00:11:52,880 --> 00:11:54,960
+Because this is a more general approach
+
+271
+00:11:54,960 --> 00:11:56,780
+We might need to use this here.
+
+272
+00:11:56,780 --> 00:11:59,640
+So we'll use it here.
+
+273
+00:12:02,180 --> 00:12:02,980
+Let's add it.
+
+274
+00:12:04,660 --> 00:12:06,430
+Let's see how it converts.
+
+275
+00:12:06,430 --> 00:12:08,170
+It starts off like this.
+
+276
+00:12:08,170 --> 00:12:11,560
+Our PCM data is a
+
+277
+00:12:11,560 --> 00:12:13,940
+binary byte stream.
+
+278
+00:12:13,940 --> 00:12:17,380
+Although it's in an array format,
+
+279
+00:12:17,380 --> 00:12:18,860
+it's actually a byte stream.
+
+280
+00:12:18,860 --> 00:12:21,920
+We need to convert it into an NP array.
+
+281
+00:12:21,920 --> 00:12:23,440
+An Intel 16 array.
+
+282
+00:12:23,440 --> 00:12:25,840
+Our P4M data is in Intel 16 format, right?
+
+283
+00:12:25,840 --> 00:12:27,420
+Because it has both positive and negative values, right?
+
+284
+00:12:27,420 --> 00:12:28,940
+It's two bytes.
+
+285
+00:12:28,940 --> 00:12:31,480
+So it's of the Intel 16 type.
+
+286
+00:12:31,480 --> 00:12:35,300
+We will use this method for the blue screen issue.
+
+287
+00:12:35,300 --> 00:12:38,440
+Then we pass the byte stream data of our P4M into it.
+
+288
+00:12:38,440 --> 00:12:41,520
+And the type conversion is to NP's int16.
+
+289
+00:12:41,520 --> 00:12:45,100
+This becomes an array of PCM int16 after the conversion.
+
+290
+00:12:45,100 --> 00:12:46,320
+This is an array of NIN.
+
+291
+00:12:46,320 --> 00:12:49,200
+Then we convert this int array
+
+292
+00:12:49,200 --> 00:12:51,600
+into a float32 array.
+
+293
+00:12:51,600 --> 00:12:53,740
+We use the same method for this.
+
+294
+00:12:53,740 --> 00:12:58,110
+Here we pass in float32.
+
+295
+00:12:58,110 --> 00:13:00,210
+After this conversion,
+
+296
+00:13:00,210 --> 00:13:03,660
+the data will have decimal points.
+
+297
+00:13:03,660 --> 00:13:05,100
+This one doesn't have decimal points.
+
+298
+00:13:05,100 --> 00:13:07,370
+It's an integer, right?
+
+299
+00:13:07,370 --> 00:13:09,370
+But this one we have with a decimal point.
+
+300
+00:13:09,370 --> 00:13:10,700
+And it's 32-bit.
+
+301
+00:13:10,700 --> 00:13:13,100
+Then, we need to perform normalization here.
+
+302
+00:13:13,100 --> 00:13:14,260
+This normalization,
+
+303
+00:13:14,260 --> 00:13:16,460
+is actually for when we do the inference,
+
+304
+00:13:16,460 --> 00:13:18,460
+as it requires normalized data.
+
+305
+00:13:18,460 --> 00:13:21,320
+Because it only needs probability data, you see.
+
+306
+00:13:21,320 --> 00:13:24,550
+Probabilities ranging from 0 to 1 or -1 to 1, right?
+
+307
+00:13:24,550 --> 00:13:27,190
+This is like a percentage, right?
+
+308
+00:13:27,190 --> 00:13:28,150
+It's normalized.
+
+309
+00:13:28,150 --> 00:13:29,670
+So we normalize it here.
+
+310
+00:13:29,670 --> 00:13:31,690
+We take the entire dataset and
+
+311
+00:13:31,690 --> 00:13:34,930
+divide it by 32768.0.
+
+312
+00:13:34,930 --> 00:13:38,090
+This data represents the range of our int values,
+
+313
+00:13:38,090 --> 00:13:40,850
+which is the positive and negative range.
+
+314
+00:13:40,850 --> 00:13:44,690
+If you consider it as such, you can calculate it.
+
+315
+00:13:44,690 --> 00:13:47,510
+For example, if it's 32768
+
+316
+00:13:47,510 --> 00:13:49,030
+It's essentially the largest data value.
+
+317
+00:13:49,030 --> 00:13:50,100
+It's one, yeah.
+
+318
+00:13:50,100 --> 00:13:50,900
+If it's negative,
+
+319
+00:13:50,900 --> 00:13:52,740
+32768 is the smallest data value.
+
+320
+00:13:52,740 --> 00:13:53,500
+It's one, indeed.
+
+321
+00:13:53,500 --> 00:13:54,460
+It divides by one.
+
+322
+00:13:54,460 --> 00:13:56,300
+Ultimately, the data here,
+
+323
+00:13:56,300 --> 00:13:59,899
+is a value between -1 and 1.
+
+324
+00:13:59,899 --> 00:14:01,059
+It's structured like this.
+
+325
+00:14:01,059 --> 00:14:04,899
+Then, here we use the touch method to
+
+326
+00:14:04,899 --> 00:14:09,240
+convert this normalized data into tensor data.
+
+327
+00:14:09,240 --> 00:14:12,760
+The final step is to return this to the upper layer.
+
+328
+00:14:12,760 --> 00:14:15,640
+Then it will use this tensor data for inference.
+
+329
+00:14:15,640 --> 00:14:16,840
+This is how it's implemented.
+
+330
+00:14:16,840 --> 00:14:17,880
+Let's take a look now.
+
+331
+00:14:17,880 --> 00:14:20,180
+This is where the logic lies.
+
+332
+00:14:21,340 --> 00:14:22,960
+It's not that complicated overall.
+
+333
+00:14:22,960 --> 00:14:26,540
+We mainly focus on its activity detection,
+
+334
+00:14:26,540 --> 00:14:28,000
+voice activity, to be precise.
+
+335
+00:14:28,000 --> 00:14:30,760
+The core inference happens here.
+
+336
+00:14:30,760 --> 00:14:32,589
+That's the extent of the inference.
+
+337
+00:14:32,589 --> 00:14:35,449
+We can understand this part simply for now.
+
+338
+00:14:35,449 --> 00:14:37,409
+We'll go into more detail later.
+
+339
+00:14:37,409 --> 00:14:38,589
+Regarding the inference here,
+
+340
+00:14:38,589 --> 00:14:41,220
+it uses the tensor data input to the model,
+
+341
+00:14:41,220 --> 00:14:43,080
+the main point is how this tensor data is transformed, right?
+
+342
+00:14:43,080 --> 00:14:44,840
+After the transformation, the inference follows,
+
+343
+00:14:44,840 --> 00:14:47,900
+and the output is quite straightforward.
+
+344
+00:14:47,900 --> 00:14:51,680
+The output is a neatly organized result for us,
+
+345
+00:14:51,680 --> 00:14:53,880
+whether it meets a certain threshold or not,
+
+346
+00:14:53,880 --> 00:14:55,180
+it's about whether it meets the criteria or not,
+
+347
+00:14:55,180 --> 00:14:56,440
+it's a threshold value,
+
+348
+00:14:56,440 --> 00:14:59,140
+it's a probability value,
+
+349
+00:14:59,140 --> 00:15:00,900
+regarding this probability value,
+
+350
+00:15:00,900 --> 00:15:03,840
+we compare it with the set threshold,
+
+351
+00:15:03,840 --> 00:15:07,390
+to determine if it's silent or not silent, right?
+
+352
+00:15:07,390 --> 00:15:08,840
+That's all for this lesson.
+

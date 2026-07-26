@@ -1,0 +1,428 @@
+1
+00:00:00,000 --> 00:00:03,020
+Absolutely amazing, wow, it's a pity you can't come work with us
+
+2
+00:00:03,020 --> 00:00:06,630
+but you're always welcome to come for internships or anything like that, everything is open to you
+
+3
+00:00:06,630 --> 00:00:07,950
+I mentioned in my previous two videos
+
+4
+00:00:07,950 --> 00:00:10,210
+This time, our Cheetah Mobile hosted an AI hackathon
+
+5
+00:00:10,210 --> 00:00:12,020
+The most dazzling dark horse was a junior high school student.
+
+6
+00:00:12,020 --> 00:00:13,620
+He was far ahead the entire afternoon
+
+7
+00:00:13,620 --> 00:00:15,100
+was only caught up in the final minutes
+
+8
+00:00:16,280 --> 00:00:17,120
+He came very close to winning the championship. Right after the competition, I
+
+9
+00:00:17,120 --> 00:00:18,520
+quickly sought his advice
+
+10
+00:00:18,520 --> 00:00:20,160
+Listening to the whole thing gave me goosebumps
+
+11
+00:00:20,160 --> 00:00:21,520
+Everyone will understand why I was so shocked after watching it
+
+12
+00:00:21,520 --> 00:00:23,140
+Why was I so shocked at that time
+
+13
+00:00:23,140 --> 00:00:24,340
+I heard that during the competition
+
+14
+00:00:24,340 --> 00:00:26,400
+Were you leading for a long time, so you had a lot of strategies?
+
+15
+00:00:26,400 --> 00:00:26,820
+Yes
+
+16
+00:00:26,820 --> 00:00:27,680
+I first
+
+17
+00:00:27,680 --> 00:00:29,080
+Because there are some small projects
+
+18
+00:00:29,080 --> 00:00:31,040
+actually don't require my time to intervene
+
+19
+00:00:31,040 --> 00:00:34,860
+So I first let those small projects, batch create virtual environments for them
+
+20
+00:00:34,860 --> 00:00:35,700
+let them run on their own
+
+21
+00:00:35,700 --> 00:00:37,340
+Once they're finished running, just submit them directly.
+
+22
+00:00:37,340 --> 00:00:38,100
+Most of the morning and afternoon
+
+23
+00:00:38,100 --> 00:00:39,980
+and energy were concentrated on
+
+24
+00:00:39,980 --> 00:00:41,300
+the last 160-point project
+
+25
+00:00:41,300 --> 00:00:44,390
+to create a standalone, lightweight tool for managing chat logs
+
+26
+00:00:44,390 --> 00:00:46,590
+I kept optimizing the logic of that thing
+
+27
+00:00:46,590 --> 00:00:48,730
+turning it into something resembling a product
+
+28
+00:00:48,730 --> 00:00:51,489
+packaged into an executable file that can be launched with one click
+
+29
+00:00:51,489 --> 00:00:52,929
+With just a few simple words
+
+30
+00:00:52,929 --> 00:00:55,440
+The first thing he knew was the current state of AI programming
+
+31
+00:00:55,440 --> 00:00:57,480
+For example, what are the fundamental capabilities, right?
+
+32
+00:00:57,480 --> 00:01:00,080
+For some simple tasks, they just directly trust the AI
+
+33
+00:01:00,080 --> 00:01:02,240
+without requiring much of your involvement
+
+34
+00:01:03,600 --> 00:01:06,140
+This time, before the competition,
+
+35
+00:01:06,140 --> 00:01:09,000
+I first built a few skills that I thought might be useful.
+
+36
+00:01:09,000 --> 00:01:10,960
+Because I don't have my own skill library either
+
+37
+00:01:10,960 --> 00:01:12,720
+So I temporarily made a few myself
+
+38
+00:01:12,720 --> 00:01:15,260
+including this front-end design
+
+39
+00:01:15,260 --> 00:01:17,540
+and some strategies that might be useful during the competition
+
+40
+00:01:17,540 --> 00:01:19,380
+I had AI first develop a set of
+
+41
+00:01:19,380 --> 00:01:21,280
+a strategy for selecting topics
+
+42
+00:01:21,280 --> 00:01:23,540
+and then as soon as the questions were posted on the webpage
+
+43
+00:01:23,540 --> 00:01:24,860
+before the PDF was released
+
+44
+00:01:24,860 --> 00:01:26,140
+crawl down that question
+
+45
+00:01:26,140 --> 00:01:27,780
+then let the AI help me make decisions
+
+46
+00:01:27,780 --> 00:01:31,640
+Then, based on this decision, launch different instances to execute separately
+
+47
+00:01:31,640 --> 00:01:33,880
+This way, it saves me the trouble of evaluating each question myself
+
+48
+00:01:33,880 --> 00:01:36,360
+and then the time spent on understanding the questions and conveying them to the AI
+
+49
+00:01:36,360 --> 00:01:37,720
+So basically I didn't even look at the questions
+
+50
+00:01:37,720 --> 00:01:39,560
+All I did was let the AI generate the strategy
+
+51
+00:01:39,560 --> 00:01:40,400
+then analyzing the questions
+
+52
+00:01:40,400 --> 00:01:42,360
+and then finally submit it. What was the opportunity that got you into programming?
+
+53
+00:01:43,940 --> 00:01:46,260
+Actually, I was exposed to programming at a very young age, and the opportunity probably came from
+
+54
+00:01:46,260 --> 00:01:48,860
+Probably in a certain book
+
+55
+00:01:48,860 --> 00:01:52,120
+saw a case about how technology can change lives
+
+56
+00:01:52,120 --> 00:01:55,160
+and then became very interested in this kind of magical thing
+
+57
+00:01:55,160 --> 00:01:56,400
+At the beginning, I taught myself.
+
+58
+00:01:56,400 --> 00:01:57,960
+Later, my parents noticed my interest in this.
+
+59
+00:01:57,960 --> 00:02:01,080
+
+
+60
+00:02:01,080 --> 00:02:03,380
+basic case usage and the like
+
+61
+00:02:03,380 --> 00:02:04,820
+which is like the most basic skill in the current AI era
+
+62
+00:02:04,820 --> 00:02:07,100
+your most basic skills were introduced
+
+63
+00:02:07,100 --> 00:02:08,020
+After AI programming
+
+64
+00:02:08,020 --> 00:02:10,049
+What projects have you done? The one you just mentioned that got over 100 stars?
+
+65
+00:02:10,049 --> 00:02:10,649
+all left
+
+66
+00:02:10,649 --> 00:02:13,069
+
+
+67
+00:02:13,069 --> 00:02:17,949
+using local models to perform Deepseek and
+
+68
+00:02:17,949 --> 00:02:21,300
+some previous small models for lightweight
+
+69
+00:02:21,300 --> 00:02:24,780
+
+
+70
+00:02:24,780 --> 00:02:25,900
+It allows batch summarization
+
+71
+00:02:25,900 --> 00:02:28,520
+batch modification, and functions like distillation
+
+72
+00:02:28,520 --> 00:02:29,900
+When developing it, I prioritized security considerations
+
+73
+00:02:29,900 --> 00:02:31,140
+is purely locally run
+
+74
+00:02:31,140 --> 00:02:32,940
+I tested it even with just a CPU
+
+75
+00:02:32,940 --> 00:02:33,960
+it can actually handle it
+
+76
+00:02:33,960 --> 00:02:36,010
+Because I used a very small distilled model
+
+77
+00:02:36,010 --> 00:02:37,330
+Wow, this is really great
+
+78
+00:02:37,330 --> 00:02:38,610
+Look at this, it's really amazing.
+
+79
+00:02:38,610 --> 00:02:40,269
+It's the dawn of a new era.
+
+80
+00:02:40,269 --> 00:02:41,909
+His social identity is that of a middle school student
+
+81
+00:02:41,909 --> 00:02:46,360
+But in the field of AI, he is absolutely a master. These new skills are things
+
+82
+00:02:46,360 --> 00:02:47,820
+I haven't even had time to learn it yet
+
+83
+00:02:47,820 --> 00:02:49,160
+he has already started using it
+
+84
+00:02:49,160 --> 00:02:51,280
+and directly applied it to specific strategies
+
+85
+00:02:51,280 --> 00:02:53,560
+In today's competition, he managed to stay in first place the whole time
+
+86
+00:02:53,560 --> 00:02:55,630
+Although he came in second place, it was just by a narrow margin.
+
+87
+00:02:55,630 --> 00:02:56,910
+This is no coincidence
+
+88
+00:02:56,910 --> 00:02:58,270
+Actually, using AI effectively
+
+89
+00:02:58,270 --> 00:03:00,390
+It is a transformation of the mindset system
+
+90
+00:03:00,390 --> 00:03:03,440
+And there are many new techniques involved in using the tool itself.
+
+91
+00:03:03,440 --> 00:03:05,620
+What you just said is quite impressive
+
+92
+00:03:05,620 --> 00:03:06,580
+Truly amazing
+
+93
+00:03:06,580 --> 00:03:09,060
+Oh, what a pity you can't come work for us, haha
+
+94
+00:03:09,060 --> 00:03:11,300
+but you're always welcome to come for internships or anything like that
+
+95
+00:03:11,300 --> 00:03:12,460
+You're welcome to come and exchange ideas, right
+
+96
+00:03:12,460 --> 00:03:13,620
+We can provide such an atmosphere
+
+97
+00:03:13,620 --> 00:03:15,700
+including we are also working on robotics-related stuff
+
+98
+00:03:15,700 --> 00:03:16,740
+If you're interested
+
+99
+00:03:16,740 --> 00:03:18,380
+You're also welcome to join in more often
+
+100
+00:03:18,380 --> 00:03:19,400
+It's all open to you
+
+101
+00:03:19,400 --> 00:03:20,300
+all open to you
+
+102
+00:03:20,300 --> 00:03:22,380
+The AI-native young generation is indeed different
+
+103
+00:03:22,380 --> 00:03:24,040
+Later, some of our colleagues communicated with him
+
+104
+00:03:24,040 --> 00:03:25,340
+It's said that he's even easier to communicate with than our R&D staff
+
+105
+00:03:25,340 --> 00:03:26,160
+How about it
+
+106
+00:03:26,160 --> 00:03:28,220
+Are you also amazed by this 14-year-old middle school student?
+
+107
+00:03:28,220 --> 00:03:30,440
+Welcome to discuss in the comment section
+

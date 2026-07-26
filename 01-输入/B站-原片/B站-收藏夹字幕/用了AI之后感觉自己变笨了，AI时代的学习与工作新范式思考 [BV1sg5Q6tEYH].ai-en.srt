@@ -1,0 +1,2044 @@
+1
+00:00:00,040 --> 00:00:04,410
+Actually, it's mainly about how to learn in the Age of AI.
+
+2
+00:00:04,410 --> 00:00:07,570
+In my last video, I talked about how in this Age of AI...
+
+3
+00:00:07,570 --> 00:00:09,550
+So, how should you structure your note-taking system?
+
+4
+00:00:09,550 --> 00:00:10,990
+to become truly efficient?
+
+5
+00:00:10,990 --> 00:00:14,430
+So, what I'm going to talk about now is, in this Age of AI,
+
+6
+00:00:14,430 --> 00:00:16,230
+Our current workflow...
+
+7
+00:00:16,230 --> 00:00:18,720
+This is a complete departure from how we used to work.
+
+8
+00:00:18,720 --> 00:00:21,320
+So, the way we work now, as human beings...
+
+9
+00:00:21,320 --> 00:00:22,340
+as a single person,
+
+10
+00:00:22,340 --> 00:00:23,700
+For example, let's say I have a task.
+
+11
+00:00:23,700 --> 00:00:24,720
+I have a task.
+
+12
+00:00:24,720 --> 00:00:27,400
+I hand it over to the AI, and the AI gives me a result.
+
+13
+00:00:27,400 --> 00:00:29,810
+And then I have to think about the task myself.
+
+14
+00:00:29,810 --> 00:00:31,350
+and then hand it back to the AI.
+
+15
+00:00:31,350 --> 00:00:34,470
+So, within this kind of interaction loop,
+
+16
+00:00:34,470 --> 00:00:37,489
+But this is leading to a problem that's becoming more and more apparent.
+
+17
+00:00:37,489 --> 00:00:39,329
+The thing is, the AI will spend a long time thinking.
+
+18
+00:00:39,329 --> 00:00:42,019
+For example, a task that takes you two minutes to complete,
+
+19
+00:00:42,019 --> 00:00:44,999
+the AI might take 40 minutes to get it done.
+
+20
+00:00:44,999 --> 00:00:46,520
+Now, for this part, you might spend...
+
+21
+00:00:46,520 --> 00:00:49,280
+For instance, writing a piece of code might take you two to three minutes.
+
+22
+00:00:49,280 --> 00:00:51,140
+or maybe even a little longer.
+
+23
+00:00:51,140 --> 00:00:54,340
+But generally speaking, the testing phase takes less than 10 minutes.
+
+24
+00:00:54,500 --> 00:00:56,700
+And this is where you run into a problem.
+
+25
+00:00:56,700 --> 00:01:00,020
+From a human perspective,
+
+26
+00:01:00,020 --> 00:01:02,880
+So, there's this thing between AI and humans,
+
+27
+00:01:02,880 --> 00:01:06,250
+you could say there's a pretty significant amount of misalignment.
+
+28
+00:01:06,250 --> 00:01:10,610
+But there are ways you can bridge this misalignment.
+
+29
+00:01:10,610 --> 00:01:12,930
+Let's say, for example, you're a really capable person.
+
+30
+00:01:12,930 --> 00:01:15,040
+you might be able to get it right in one go, so to speak.
+
+31
+00:01:15,040 --> 00:01:18,780
+you can get the final result in just one go.
+
+32
+00:01:18,780 --> 00:01:20,080
+You don't need to rework it.
+
+33
+00:01:20,080 --> 00:01:22,710
+So, for you, this 40-minute period...
+
+34
+00:01:22,710 --> 00:01:23,970
+you can just pretend it doesn't exist.
+
+35
+00:01:23,970 --> 00:01:26,690
+All you need to do is just keep thinking, discussing, and then thinking and discussing some more.
+
+36
+00:01:26,690 --> 00:01:28,650
+Just keep thinking, discussing, and you'll get it done.
+
+37
+00:01:28,650 --> 00:01:32,019
+But for the vast majority of people, if you're facing a complex project,
+
+38
+00:01:32,019 --> 00:01:33,239
+it's impossible not to run some tests.
+
+39
+00:01:33,239 --> 00:01:37,130
+So, this is where you're going to see a massive gap between you and AI.
+
+40
+00:01:37,130 --> 00:01:38,590
+a gap in efficiency.
+
+41
+00:01:38,590 --> 00:01:41,070
+This is something that never existed before.
+
+42
+00:01:41,070 --> 00:01:46,040
+In the past, let's say you'd spend 10 minutes on thinking.
+
+43
+00:01:46,040 --> 00:01:49,650
+you'd then spend a huge amount of time actually executing that task.
+
+44
+00:01:49,650 --> 00:01:51,550
+And once you were done executing that task,
+
+45
+00:01:51,550 --> 00:01:53,350
+Hmm, and then you'd probably just move on to the next task.
+
+46
+00:01:53,350 --> 00:01:55,580
+So, with this situation now on our hands,
+
+47
+00:01:55,580 --> 00:01:59,530
+This is what we call the misalignment between the agent, the AI, and the human.
+
+48
+00:01:59,530 --> 00:02:02,530
+So, there are two ways to tackle this problem.
+
+49
+00:02:02,530 --> 00:02:05,759
+The first method is to adopt a parallel strategy.
+
+50
+00:02:05,759 --> 00:02:08,559
+Or, as we call it, assembly line parallelism.
+
+51
+00:02:08,559 --> 00:02:09,959
+What this means is...
+
+52
+00:02:09,959 --> 00:02:12,239
+For example, let's say I can finish one task in 2 minutes.
+
+53
+00:02:12,239 --> 00:02:15,009
+So, at this point, I'm chatting with eight AIs at the same time.
+
+54
+00:02:15,009 --> 00:02:17,609
+So, two times eight is sixteen.
+
+55
+00:02:17,609 --> 00:02:21,269
+And what about the time it takes for them to give me an answer?
+
+56
+00:02:21,269 --> 00:02:23,090
+So, the whole process could be done in less than 20 minutes.
+
+57
+00:02:23,090 --> 00:02:25,050
+So, in a sense,
+
+58
+00:02:25,050 --> 00:02:27,850
+It's like I'm closing the gap between me and the AI.
+
+59
+00:02:27,850 --> 00:02:29,880
+and that gap is bridged.
+
+60
+00:02:29,880 --> 00:02:31,280
+Plus, we'll be running some tests.
+
+61
+00:02:31,280 --> 00:02:33,360
+So basically, you're chatting with eight AIs at the same time.
+
+62
+00:02:33,360 --> 00:02:35,610
+So, generally speaking, you're always in execution mode.
+
+63
+00:02:35,610 --> 00:02:37,140
+So, for you,
+
+64
+00:02:37,140 --> 00:02:40,340
+And this 'work' is what makes you more efficient.
+
+65
+00:02:40,340 --> 00:02:41,860
+But there's a problem with this, though.
+
+66
+00:02:41,860 --> 00:02:46,100
+But that's just looking at it from a purely task-oriented perspective.
+
+67
+00:02:46,100 --> 00:02:48,440
+For instance, let's say you're assigned a bunch of miscellaneous tasks,
+
+68
+00:02:48,440 --> 00:02:49,200
+If you do it this way,
+
+69
+00:02:49,200 --> 00:02:51,240
+You have a high enough level of performance.
+
+70
+00:02:51,240 --> 00:02:53,040
+So, tackling them in parallel is totally fine.
+
+71
+00:02:53,040 --> 00:02:55,710
+But when it comes to more creative tasks,
+
+72
+00:02:55,710 --> 00:02:57,610
+it becomes very difficult to pull off.
+
+73
+00:02:57,610 --> 00:02:59,750
+Or, to put it another way, what I call 'creative tasks'.
+
+74
+00:02:59,750 --> 00:03:01,870
+I mean the kind of tasks that require you to actually think.
+
+75
+00:03:01,870 --> 00:03:03,320
+For example, let's say I give you a task.
+
+76
+00:03:03,320 --> 00:03:05,120
+Let's say, 'Change the style of this button.'
+
+77
+00:03:05,120 --> 00:03:06,520
+So, obviously, this is a very simple task.
+
+78
+00:03:06,520 --> 00:03:08,360
+So, that's not what you'd call a creative task.
+
+79
+00:03:08,360 --> 00:03:11,620
+But what if I told you to go and build a whole module?
+
+80
+00:03:11,620 --> 00:03:13,000
+You need to implement a feature.
+
+81
+00:03:13,000 --> 00:03:15,010
+So, for example, let's take this feature of yours.
+
+82
+00:03:15,010 --> 00:03:17,290
+So, for this part right here, what kind of function does it need?
+
+83
+00:03:17,290 --> 00:03:18,290
+What kind of interaction does it need?
+
+84
+00:03:18,290 --> 00:03:19,970
+What kind of operations does it need?
+
+85
+00:03:19,970 --> 00:03:20,850
+And for you,
+
+86
+00:03:20,850 --> 00:03:22,750
+It's actually a creative act.
+
+87
+00:03:22,750 --> 00:03:24,070
+Right, so for you,
+
+88
+00:03:24,070 --> 00:03:25,410
+that's when you need to start thinking.
+
+89
+00:03:25,410 --> 00:03:28,030
+And this brings me to a very crucial point.
+
+90
+00:03:28,030 --> 00:03:30,810
+The thing is, humans are serial processors.
+
+91
+00:03:30,810 --> 00:03:33,230
+Humans are serial creatures.
+
+92
+00:03:33,230 --> 00:03:34,330
+So, what does that mean?
+
+93
+00:03:34,330 --> 00:03:36,090
+When you're in the process of thinking,
+
+94
+00:03:36,090 --> 00:03:37,920
+can only think in a serial fashion.
+
+95
+00:03:37,920 --> 00:03:40,740
+When humans think, we tend to make a comparison,
+
+96
+00:03:40,740 --> 00:03:42,280
+Here's an issue I've personally observed.
+
+97
+00:03:42,280 --> 00:03:44,220
+So, when you're trying to think about something,
+
+98
+00:03:44,220 --> 00:03:45,790
+Or, let's say, this thought process...
+
+99
+00:03:45,790 --> 00:03:46,310
+You know what, never mind.
+
+100
+00:03:46,310 --> 00:03:47,350
+Let me just move on for now.
+
+101
+00:03:47,350 --> 00:03:50,990
+And this 'seriality' refers to the way you think.
+
+102
+00:03:50,990 --> 00:03:54,090
+Generally speaking, you need to go through at least two processes.
+
+103
+00:03:54,090 --> 00:03:56,510
+One is a process of refusing.
+
+104
+00:03:56,510 --> 00:03:58,980
+The other process is thinking.
+
+105
+00:03:58,980 --> 00:04:01,320
+In other words, when you're in the process of thinking,
+
+106
+00:04:01,320 --> 00:04:03,470
+you need to load the context.
+
+107
+00:04:03,470 --> 00:04:06,990
+Let's say, for instance, you're studying.
+
+108
+00:04:06,990 --> 00:04:08,900
+You might come to realize something.
+
+109
+00:04:08,900 --> 00:04:09,820
+So, when you're learning,
+
+110
+00:04:09,820 --> 00:04:11,440
+you probably can't get into it at first.
+
+111
+00:04:11,440 --> 00:04:13,620
+It's only after you've gotten into it for a while,
+
+112
+00:04:13,620 --> 00:04:14,700
+Let's say you start reading a book.
+
+113
+00:04:14,700 --> 00:04:16,050
+and after about 10 minutes,
+
+114
+00:04:16,050 --> 00:04:18,290
+that's when you start to enter a state we call...
+
+115
+00:04:18,290 --> 00:04:20,110
+something we call 'the flow state'.
+
+116
+00:04:20,110 --> 00:04:21,990
+So, when it comes to this state,
+
+117
+00:04:21,990 --> 00:04:24,470
+We can think of it as a relatively efficient traditional approach.
+
+118
+00:04:24,470 --> 00:04:25,890
+This way of thinking,
+
+119
+00:04:25,890 --> 00:04:29,900
+The way it works is that we first go through an uphill climb.
+
+120
+00:04:29,900 --> 00:04:31,260
+So, what happens after that climb?
+
+121
+00:04:31,260 --> 00:04:34,640
+We maintain a steady, slow decline.
+
+122
+00:04:34,640 --> 00:04:37,000
+This is what our traditional way of thinking looks like.
+
+123
+00:04:37,000 --> 00:04:38,180
+Now, this turning point...
+
+124
+00:04:38,180 --> 00:04:39,200
+So, as for this turning point...
+
+125
+00:04:39,200 --> 00:04:41,680
+Generally speaking, it really just depends on the depth of your own thinking.
+
+126
+00:04:41,680 --> 00:04:45,480
+But objectively speaking, the first half of that is definitely true.
+
+127
+00:04:45,480 --> 00:04:47,040
+So, when you combine this with our current situation...
+
+128
+00:04:47,040 --> 00:04:49,300
+So, if we combine that with our current workload,
+
+129
+00:04:49,300 --> 00:04:51,400
+You'll find that when you're working in parallel,
+
+130
+00:04:51,400 --> 00:04:53,080
+you're parallelizing a massive number of tasks.
+
+131
+00:04:53,080 --> 00:04:55,280
+So, when you're parallelizing a ton of tasks,
+
+132
+00:04:55,280 --> 00:04:58,740
+your contexts are bound to get all mixed up.
+
+133
+00:04:58,740 --> 00:04:59,860
+When you're trying to do something,
+
+134
+00:04:59,860 --> 00:05:01,200
+So, when you're thinking about task A,
+
+135
+00:05:01,200 --> 00:05:03,940
+Then, all of a sudden, Task B might pop up.
+
+136
+00:05:03,940 --> 00:05:05,900
+And at that point, you might just set it aside for a moment, or something like that.
+
+137
+00:05:05,900 --> 00:05:08,309
+You finish thinking through task A first, or something like that.
+
+138
+00:05:08,309 --> 00:05:11,449
+So, let's take your work output as an example.
+
+139
+00:05:11,449 --> 00:05:14,389
+So, the output of your work is obviously you.
+
+140
+00:05:14,389 --> 00:05:16,980
+until you've pushed your thinking to its absolute limit.
+
+141
+00:05:16,980 --> 00:05:18,800
+to structure the AI's work as much as possible.
+
+142
+00:05:18,800 --> 00:05:22,840
+But your thinking, that's a serial process.
+
+143
+00:05:22,840 --> 00:05:23,840
+Here's my take on it.
+
+144
+00:05:23,840 --> 00:05:26,400
+The thing is, this process just can't be parallelized.
+
+145
+00:05:26,400 --> 00:05:29,950
+And I'm not going to offer some kind of weird or outlandish solution for that.
+
+146
+00:05:29,950 --> 00:05:32,030
+and that is to serialize your thinking process.
+
+147
+00:05:32,030 --> 00:05:33,230
+or something like that.
+
+148
+00:05:33,230 --> 00:05:35,780
+But, well, how should I put this...
+
+149
+00:05:35,780 --> 00:05:37,580
+And this is a very important point, um...
+
+150
+00:05:37,580 --> 00:05:39,580
+Human thinking involves these two things.
+
+151
+00:05:39,580 --> 00:05:41,230
+Or at least, there are these two stages.
+
+152
+00:05:41,230 --> 00:05:43,190
+So, with that in mind,
+
+153
+00:05:43,190 --> 00:05:44,330
+So, when we're working with AI now,
+
+154
+00:05:44,330 --> 00:05:46,960
+So, for example, the way we work now is actually...
+
+155
+00:05:46,960 --> 00:05:48,160
+is incredibly interactive.
+
+156
+00:05:48,160 --> 00:05:49,920
+So, what should we do in a situation like this?
+
+157
+00:05:49,920 --> 00:05:52,360
+So, here's how I see it.
+
+158
+00:05:52,360 --> 00:05:53,440
+So, there are a few key points here.
+
+159
+00:05:53,440 --> 00:05:56,309
+For example, I'm sure you all have your own thoughts on this.
+
+160
+00:05:56,309 --> 00:05:57,169
+Just some thoughts, really.
+
+161
+00:05:57,169 --> 00:05:58,249
+I've been using Cloud Code.
+
+162
+00:05:58,249 --> 00:05:59,209
+I've been using it for six months now.
+
+163
+00:05:59,209 --> 00:05:59,769
+I've gotten dumber.
+
+164
+00:05:59,769 --> 00:06:02,080
+I've noticed I'm thinking less.
+
+165
+00:06:02,080 --> 00:06:04,850
+I'm going to try and interact with AI as much as I possibly can.
+
+166
+00:06:04,850 --> 00:06:05,970
+to interact with AI.
+
+167
+00:06:05,970 --> 00:06:09,210
+For instance, back when AI wasn't as good,
+
+168
+00:06:09,210 --> 00:06:10,970
+I might write a 400-word prompt,
+
+169
+00:06:10,970 --> 00:06:12,840
+and have it revise it properly.
+
+170
+00:06:12,840 --> 00:06:15,240
+But now, with AI getting so much better,
+
+171
+00:06:15,240 --> 00:06:18,220
+But my own thought process... I've actually found myself thinking less.
+
+172
+00:06:18,220 --> 00:06:19,140
+I'd just say it straight out.
+
+173
+00:06:19,140 --> 00:06:20,280
+Hey, can you fix this bug?
+
+174
+00:06:20,280 --> 00:06:21,220
+So, after the bug is fixed,
+
+175
+00:06:21,220 --> 00:06:23,500
+I might not even know why it caused this bug in the first place.
+
+176
+00:06:23,500 --> 00:06:24,500
+I don't even look at it.
+
+177
+00:06:24,500 --> 00:06:25,340
+So I just gave it a quick test,
+
+178
+00:06:25,340 --> 00:06:26,350
+Alright, this thing's done.
+
+179
+00:06:26,350 --> 00:06:27,450
+Alright, I'm submitting it then.
+
+180
+00:06:27,450 --> 00:06:28,750
+So, here's a scenario that might come up.
+
+181
+00:06:28,750 --> 00:06:30,410
+Now, in the long run,
+
+182
+00:06:30,410 --> 00:06:33,510
+Personally, I think this has a pretty big impact on your career development.
+
+183
+00:06:33,510 --> 00:06:36,279
+Because at that point, you're just dealing with one AI.
+
+184
+00:06:36,279 --> 00:06:38,619
+this word for 'coordinator' that starts with an O,
+
+185
+00:06:38,619 --> 00:06:42,659
+to some extent, have all taken on this kind of form.
+
+186
+00:06:42,659 --> 00:06:45,899
+So, now that we've covered the background on work,
+
+187
+00:06:45,899 --> 00:06:49,179
+So, let's talk about learning in the Age of AI, and...
+
+188
+00:06:49,179 --> 00:06:50,699
+I mean, I'm about to become a corporate drone myself.
+
+189
+00:06:50,699 --> 00:06:53,230
+So, that's why I'll definitely be talking about learning and work together.
+
+190
+00:06:53,230 --> 00:06:55,730
+So, learning in this new era has one key characteristic.
+
+191
+00:06:55,730 --> 00:06:58,290
+So, what do I mean by 'question-driven'?
+
+192
+00:06:58,290 --> 00:06:59,210
+Generally speaking,
+
+193
+00:06:59,210 --> 00:07:00,130
+When you're trying to learn something,
+
+194
+00:07:00,130 --> 00:07:03,190
+You're always learning within the context of a specific project.
+
+195
+00:07:03,190 --> 00:07:07,110
+So, this is when you'll start asking questions.
+
+196
+00:07:07,110 --> 00:07:08,050
+And when you ask a question...
+
+197
+00:07:08,050 --> 00:07:11,559
+Generally speaking, this is all based on the context of your project.
+
+198
+00:07:11,559 --> 00:07:13,199
+So, after you've asked a question,
+
+199
+00:07:13,199 --> 00:07:14,479
+and you'll find yourself constantly probing the AI with more questions.
+
+200
+00:07:14,479 --> 00:07:17,559
+You have it expand on A, then B, and then you bring in C.
+
+201
+00:07:17,559 --> 00:07:20,820
+You'll find that all these generalizations you make in your learning,
+
+202
+00:07:20,820 --> 00:07:22,980
+They are all centered around a single question.
+
+203
+00:07:22,980 --> 00:07:24,900
+It's all concentrated within a single conversation.
+
+204
+00:07:24,900 --> 00:07:28,760
+This is a completely different approach from our traditional note-taking systems.
+
+205
+00:07:28,760 --> 00:07:29,880
+a completely different format.
+
+206
+00:07:29,880 --> 00:07:31,440
+Normally, we'd be looking at the content.
+
+207
+00:07:31,440 --> 00:07:32,160
+Instead of looking at the content,
+
+208
+00:07:32,160 --> 00:07:34,160
+and we would take notes.
+
+209
+00:07:34,160 --> 00:07:36,240
+and jot it down directly in our notebooks.
+
+210
+00:07:36,240 --> 00:07:37,850
+But that's not how it works anymore.
+
+211
+00:07:37,850 --> 00:07:40,090
+Nowadays, a lot of the things we do...
+
+212
+00:07:40,090 --> 00:07:43,050
+are actually游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离于游离
+
+213
+00:07:43,050 --> 00:07:46,090
+I once tried asking questions within my note-taking system.
+
+214
+00:07:46,090 --> 00:07:47,360
+But I found it was not very effective.
+
+215
+00:07:47,360 --> 00:07:48,520
+and it just didn't work for me at all.
+
+216
+00:07:48,520 --> 00:07:49,880
+This might improve in the future, though.
+
+217
+00:07:49,880 --> 00:07:50,800
+But as it stands right now,
+
+218
+00:07:50,800 --> 00:07:53,890
+Your questions, generally speaking, are going to be based on the project's context.
+
+219
+00:07:53,890 --> 00:07:57,669
+And that leads to a ton of information getting mixed into the conversation.
+
+220
+00:07:57,669 --> 00:07:58,909
+So, that's the first point.
+
+221
+00:07:58,909 --> 00:08:00,509
+So, about this shift towards asking questions in our learning...
+
+222
+00:08:00,509 --> 00:08:01,429
+And that's a good thing.
+
+223
+00:08:01,429 --> 00:08:02,109
+Objectively speaking,
+
+224
+00:08:02,109 --> 00:08:04,310
+It makes our learning more efficient.
+
+225
+00:08:04,310 --> 00:08:06,370
+It helps us establish a clear context.
+
+226
+00:08:06,370 --> 00:08:07,110
+and we get left behind.
+
+227
+00:08:11,240 --> 00:08:14,040
+Now, this isn't about learning by just asking the AI questions.
+
+228
+00:08:14,040 --> 00:08:15,960
+and then its efficiency drops, or something like that.
+
+229
+00:08:15,960 --> 00:08:17,480
+So basically, this is the method we're using to get things done.
+
+230
+00:08:17,480 --> 00:08:19,000
+Its efficiency is more than high enough.
+
+231
+00:08:19,000 --> 00:08:21,180
+If you want to keep doing things the old way,
+
+232
+00:08:21,180 --> 00:08:23,080
+you try to organize everything within a single note-taking system.
+
+233
+00:08:23,080 --> 00:08:24,360
+That's doable.
+
+234
+00:08:24,360 --> 00:08:25,860
+But it's just so inefficient.
+
+235
+00:08:25,860 --> 00:08:28,660
+To put it simply, what I mentioned in my last video was all about note-taking.
+
+236
+00:08:28,660 --> 00:08:31,460
+The whole system of note-taking has been completely revolutionized.
+
+237
+00:08:31,460 --> 00:08:35,320
+My specific take on this is that it's all about how we acquire information, piece by piece.
+
+238
+00:08:35,320 --> 00:08:37,880
+The cost of acquiring information has dropped ten, or even a hundred times.
+
+239
+00:08:37,880 --> 00:08:39,360
+So, in that case, taking notes on information...
+
+240
+00:08:39,360 --> 00:08:40,320
+becomes pretty much meaningless.
+
+241
+00:08:40,320 --> 00:08:42,530
+Because the cost of retrieval is incredibly low.
+
+242
+00:08:42,530 --> 00:08:45,230
+The third point is what we call 'spare moments'.
+
+243
+00:08:45,230 --> 00:08:46,730
+I won't go into detail about spare moments.
+
+244
+00:08:46,730 --> 00:08:47,690
+Because, like I said before,
+
+245
+00:08:47,690 --> 00:08:50,350
+So, here's what our current work paradigm looks like.
+
+246
+00:08:50,350 --> 00:08:52,930
+There's a concept called 'misalignment' between humans and AI.
+
+247
+00:08:52,930 --> 00:08:54,790
+So, to boost our operational efficiency,
+
+248
+00:08:54,790 --> 00:08:55,950
+we've adopted a parallel approach.
+
+249
+00:08:55,950 --> 00:08:58,810
+In fact, what determines how skilled an engineer you are these days,
+
+250
+00:08:58,810 --> 00:09:00,070
+In fact, it all comes down to, more or less,
+
+251
+00:09:00,070 --> 00:09:03,579
+So, how many AIs can you chat with at the same time?
+
+252
+00:09:03,579 --> 00:09:05,339
+And in a way, that's really how it is.
+
+253
+00:09:05,339 --> 00:09:07,899
+Because, let's say you have a conversation with an AI.
+
+254
+00:09:07,899 --> 00:09:10,430
+The problems it can solve are pretty much fixed.
+
+255
+00:09:10,430 --> 00:09:11,670
+So, when you're talking to an AI,
+
+256
+00:09:11,670 --> 00:09:12,870
+So, it's definitely better to have more.
+
+257
+00:09:12,870 --> 00:09:14,790
+This isn't just about isolating different contexts from each other.
+
+258
+00:09:14,790 --> 00:09:16,350
+and your understanding of the entire project.
+
+259
+00:09:16,350 --> 00:09:18,800
+or whatever, and we'll get sidetracked.
+
+260
+00:09:18,800 --> 00:09:21,000
+So, this is what I consider to be AI-based learning.
+
+261
+00:09:21,000 --> 00:09:22,940
+Three Characteristics of Learning in the Age of AI
+
+262
+00:09:22,940 --> 00:09:23,940
+and that's pretty much it.
+
+263
+00:09:23,940 --> 00:09:25,400
+So, let's talk about the things on the left.
+
+264
+00:09:25,400 --> 00:09:26,440
+Personally, I think...
+
+265
+00:09:26,440 --> 00:09:28,350
+You, in the Age of AI.
+
+266
+00:09:28,350 --> 00:09:31,850
+So, you can think of it this way: execution and thinking have been separated.
+
+267
+00:09:31,850 --> 00:09:33,690
+And the gap between execution and thinking has become huge.
+
+268
+00:09:33,690 --> 00:09:35,350
+I mean the cost of execution.
+
+269
+00:09:35,350 --> 00:09:36,740
+Let's say, it's been reduced by a factor of ten.
+
+270
+00:09:36,740 --> 00:09:39,540
+Yeah, and we can even think in parallel.
+
+271
+00:09:39,540 --> 00:09:42,260
+that's going to become the bulk of our thinking.
+
+272
+00:09:42,260 --> 00:09:43,260
+The problem is that we're serializing it.
+
+273
+00:09:43,260 --> 00:09:44,340
+We need to preview.
+
+274
+00:09:44,340 --> 00:09:45,820
+We need to think.
+
+275
+00:09:45,820 --> 00:09:48,390
+We're not able to, uh, do certain things.
+
+276
+00:09:48,390 --> 00:09:50,490
+or what we call, uh, leveling up.
+
+277
+00:09:50,490 --> 00:09:54,250
+So, my point is, execution and thinking are going to be much more separate.
+
+278
+00:09:54,250 --> 00:09:55,510
+And another thing is,
+
+279
+00:09:55,510 --> 00:09:59,730
+In the past, we could actually learn a lot from the execution process itself.
+
+280
+00:09:59,730 --> 00:10:02,730
+In other words, our execution process inherently involves thinking.
+
+281
+00:10:02,730 --> 00:10:04,210
+For example, let's say I'm writing some code.
+
+282
+00:10:04,210 --> 00:10:04,690
+I'd be thinking,
+
+283
+00:10:04,690 --> 00:10:05,890
+How can I write this code more efficiently?
+
+284
+00:10:05,890 --> 00:10:06,870
+And that leads to the code I write...
+
+285
+00:10:06,870 --> 00:10:07,990
+And then it hit me.
+
+286
+00:10:07,990 --> 00:10:10,310
+Oh, so that's what this code was meant to do.
+
+287
+00:10:10,310 --> 00:10:12,390
+And that's a thing that happens.
+
+288
+00:10:12,390 --> 00:10:14,370
+But there's a problem with thinking nowadays.
+
+289
+00:10:14,370 --> 00:10:16,430
+But that's actually part of the thinking process.
+
+290
+00:10:16,430 --> 00:10:17,910
+It's just that execution is parallel.
+
+291
+00:10:17,910 --> 00:10:19,550
+But the execution part, that's serial.
+
+292
+00:10:19,550 --> 00:10:21,060
+So you just haven't noticed it.
+
+293
+00:10:21,060 --> 00:10:23,780
+Now, execution and thinking are completely separate.
+
+294
+00:10:23,780 --> 00:10:27,400
+So, if you want to learn in the Age of AI,
+
+295
+00:10:27,400 --> 00:10:30,260
+You have to engage in serial thinking.
+
+296
+00:10:30,260 --> 00:10:32,290
+And this is, without a doubt, thinking.
+
+297
+00:10:32,290 --> 00:10:33,750
+When we talk about thinking,
+
+298
+00:10:33,750 --> 00:10:34,430
+Let's say, for example, creation.
+
+299
+00:10:34,430 --> 00:10:35,690
+what we call creation,
+
+300
+00:10:35,690 --> 00:10:37,830
+or, let's say, something that's creative.
+
+301
+00:10:37,830 --> 00:10:39,830
+When you're learning,
+
+302
+00:10:39,830 --> 00:10:40,550
+So, here's my take on it.
+
+303
+00:10:40,550 --> 00:10:42,110
+Learning, at its core, is a creative act.
+
+304
+00:10:42,110 --> 00:10:45,410
+Because, let's say I learn A, and after A comes B.
+
+305
+00:10:45,410 --> 00:10:46,610
+Now, I'm inputting B.
+
+306
+00:10:46,610 --> 00:10:47,670
+I input a C.
+
+307
+00:10:47,670 --> 00:10:48,410
+and the output is C.
+
+308
+00:10:48,410 --> 00:10:49,320
+So I learn to input again.
+
+309
+00:10:49,320 --> 00:10:50,440
+So I input a C, right?
+
+310
+00:10:50,440 --> 00:10:51,100
+The output is a D.
+
+311
+00:10:51,100 --> 00:10:52,760
+So, at this point, I've entered a D.
+
+312
+00:10:52,760 --> 00:10:55,319
+You'd instinctively think the output should be an F.
+
+313
+00:10:55,319 --> 00:10:57,039
+But in reality, that's not the case at all.
+
+314
+00:10:57,039 --> 00:10:58,719
+in your specific use case,
+
+315
+00:10:58,719 --> 00:11:00,559
+He's been trained on these three cases.
+
+316
+00:11:00,559 --> 00:11:03,519
+What you've actually done is create a use case like this.
+
+317
+00:11:03,519 --> 00:11:07,119
+This is the result you came up with.
+
+318
+00:11:07,119 --> 00:11:08,479
+You get an answer.
+
+319
+00:11:08,479 --> 00:11:09,699
+And then you went and verified it.
+
+320
+00:11:09,699 --> 00:11:10,760
+And I think that's the right way to see it.
+
+321
+00:11:10,760 --> 00:11:13,760
+So, what this really is, is your prediction of the unknown.
+
+322
+00:11:13,760 --> 00:11:15,810
+At its core, it's a creative process.
+
+323
+00:11:15,810 --> 00:11:19,370
+So, you can simply take what we call 'thinking'...
+
+324
+00:11:19,370 --> 00:11:20,410
+creative learning,
+
+325
+00:11:20,410 --> 00:11:23,060
+or just lump the other two together.
+
+326
+00:11:23,060 --> 00:11:25,100
+For anything, you can either simply use the result...
+
+327
+00:11:25,100 --> 00:11:27,470
+Anything that requires intensive study,
+
+328
+00:11:27,470 --> 00:11:30,570
+requires intensive study, deep thought, or profound creativity.
+
+329
+00:11:30,570 --> 00:11:33,630
+But any problem that gets solved can be seen as a form of entrepreneurial flattening.
+
+330
+00:11:33,630 --> 00:11:34,990
+So, when it comes to work...
+
+331
+00:11:34,990 --> 00:11:39,060
+The effectiveness of this whole thing really just comes down to how you execute it.
+
+332
+00:11:39,060 --> 00:11:43,140
+This, more or less, depends on the intensity of your own thinking.
+
+333
+00:11:43,140 --> 00:11:44,680
+and your pipeline.
+
+334
+00:11:44,680 --> 00:11:45,700
+In other words, your assembly line.
+
+335
+00:11:45,700 --> 00:11:46,940
+and whether it's long enough.
+
+336
+00:11:46,940 --> 00:11:49,480
+I can give you an example from my own game development experience.
+
+337
+00:11:49,480 --> 00:11:50,140
+For me,
+
+338
+00:11:50,140 --> 00:11:51,060
+Game development...
+
+339
+00:11:51,060 --> 00:11:52,420
+I was writing a mod.
+
+340
+00:11:52,420 --> 00:11:53,220
+game development.
+
+341
+00:11:53,220 --> 00:11:54,740
+What really gets me stuck,
+
+342
+00:11:54,740 --> 00:11:57,320
+What I'm doing is writing a design proposal.
+
+343
+00:11:57,320 --> 00:11:58,869
+It's a proposal.
+
+344
+00:11:58,869 --> 00:12:00,269
+So, how do we actually use this thing, right?
+
+345
+00:12:00,269 --> 00:12:01,169
+So, how do we actually use this thing?
+
+346
+00:12:01,169 --> 00:12:03,409
+For example, what features should something have, right?
+
+347
+00:12:03,409 --> 00:12:04,669
+and what other features it should have.
+
+348
+00:12:04,669 --> 00:12:06,380
+So, after I've gone through process A,
+
+349
+00:12:06,380 --> 00:12:07,780
+and what kind of result it's supposed to achieve.
+
+350
+00:12:07,780 --> 00:12:10,340
+But you might be thinking, 'Hey, couldn't you just use AI for that?'
+
+351
+00:12:10,340 --> 00:12:12,020
+But, let me be real with you.
+
+352
+00:12:12,020 --> 00:12:13,140
+The AI just isn't good enough.
+
+353
+00:12:13,140 --> 00:12:14,550
+For me, it's just not good enough.
+
+354
+00:12:14,550 --> 00:12:15,750
+Let me elaborate on that.
+
+355
+00:12:15,750 --> 00:12:18,790
+So, why does the Age of AI widen the gap between the top and the bottom?
+
+356
+00:12:18,790 --> 00:12:20,410
+widening the gap between the best and the worst.
+
+357
+00:12:20,410 --> 00:12:21,510
+For a lot of people,
+
+358
+00:12:21,510 --> 00:12:23,870
+The reason they don't get something done,
+
+359
+00:12:23,870 --> 00:12:27,470
+is because, um, they have too many ideas.
+
+360
+00:12:27,470 --> 00:12:31,230
+This means they don't have enough time to actually get anything done.
+
+361
+00:12:31,230 --> 00:12:33,070
+Now, thinking and execution have been decoupled.
+
+362
+00:12:33,070 --> 00:12:34,390
+The cost of execution has dropped tenfold.
+
+363
+00:12:34,390 --> 00:12:38,829
+And that means a lot more ideas can actually be put into practice.
+
+364
+00:12:38,829 --> 00:12:39,869
+So, as we've mentioned,
+
+365
+00:12:39,869 --> 00:12:42,649
+So, what's limiting the number of things you can do at once right now...
+
+366
+00:12:42,649 --> 00:12:45,349
+is essentially your ability to think.
+
+367
+00:12:45,349 --> 00:12:47,069
+It's your... your creative ability.
+
+368
+00:12:47,069 --> 00:12:48,049
+or something like that.
+
+369
+00:12:48,049 --> 00:12:50,400
+And the reality is, right now...
+
+370
+00:12:50,400 --> 00:12:52,320
+If you're, say, a kid who's not particularly bright,
+
+371
+00:12:52,320 --> 00:12:54,300
+Or, let's just say, things could get pretty rough.
+
+372
+00:12:54,300 --> 00:12:56,240
+So, the core idea is that thinking is a serial process.
+
+373
+00:12:56,240 --> 00:12:57,560
+It's a serial process.
+
+374
+00:12:57,560 --> 00:12:58,690
+Just like what I've written here.
+
+375
+00:12:58,690 --> 00:13:01,290
+So, what can we do about it?
+
+376
+00:13:01,290 --> 00:13:03,130
+This is also something mentioned in that book by Nais.
+
+377
+00:13:03,130 --> 00:13:05,390
+First, let's talk about our thinking.
+
+378
+00:13:05,590 --> 00:13:07,670
+And this is what he said, right.
+
+379
+00:13:07,670 --> 00:13:10,230
+So, our thinking process basically goes through these few stages.
+
+380
+00:13:10,230 --> 00:13:11,670
+So, first, he brought up a point.
+
+381
+00:13:11,670 --> 00:13:13,359
+our preview stage,
+
+382
+00:13:13,359 --> 00:13:15,439
+So, our preview stage...
+
+383
+00:13:15,439 --> 00:13:17,019
+It can be compressed.
+
+384
+00:13:17,019 --> 00:13:20,119
+You can take its curve, which originally looked like this,
+
+385
+00:13:20,119 --> 00:13:21,170
+into something like this.
+
+386
+00:13:21,170 --> 00:13:24,450
+You can schedule your work with it for specific times.
+
+387
+00:13:24,450 --> 00:13:26,410
+The author believes that with just three to...
+
+388
+00:13:26,410 --> 00:13:27,410
+Through practice,
+
+389
+00:13:27,410 --> 00:13:29,570
+It only takes about three to five minutes.
+
+390
+00:13:29,570 --> 00:13:32,830
+and get into a pretty high-efficiency learning state in just three to five minutes.
+
+391
+00:13:32,830 --> 00:13:36,099
+and enter a state of intensive study or deep thought.
+
+392
+00:13:36,099 --> 00:13:37,459
+And that's something you can train.
+
+393
+00:13:37,459 --> 00:13:38,439
+That's his point of view.
+
+394
+00:13:38,439 --> 00:13:41,280
+Instead, it's about him explaining a point.
+
+395
+00:13:41,280 --> 00:13:43,180
+So, let's talk about learning.
+
+396
+00:13:43,180 --> 00:13:45,370
+So, his point is that learning is not memorization.
+
+397
+00:13:45,370 --> 00:13:46,370
+Learning is not memorization.
+
+398
+00:13:46,370 --> 00:13:47,570
+Learning isn't the same as memorizing.
+
+399
+00:13:47,570 --> 00:13:49,890
+Of course, this is a pretty common view.
+
+400
+00:13:49,890 --> 00:13:51,010
+Learning is not the same as memorizing.
+
+401
+00:13:51,010 --> 00:13:53,370
+So, when you're trying to learn something,
+
+402
+00:13:53,370 --> 00:13:55,110
+You should be drawing analogies and making deductions.
+
+403
+00:13:55,110 --> 00:13:57,500
+analogy and deduction.
+
+404
+00:13:57,500 --> 00:14:00,380
+Only when you've completed all of these steps,
+
+405
+00:14:00,380 --> 00:14:03,140
+Only then can you say you've truly learned it.
+
+406
+00:14:03,140 --> 00:14:05,020
+It's like, let's say you're learning React.
+
+407
+00:14:05,020 --> 00:14:06,260
+You should be building projects.
+
+408
+00:14:06,260 --> 00:14:07,860
+You should be building projects.
+
+409
+00:14:07,860 --> 00:14:09,520
+
+
+410
+00:14:09,520 --> 00:14:11,360
+
+
+411
+00:14:11,360 --> 00:14:13,600
+You should have the AI quiz you on it.
+
+412
+00:14:13,600 --> 00:14:15,880
+or have it generalize things for you.
+
+413
+00:14:15,880 --> 00:14:17,120
+Have it come up with some analogies.
+
+414
+00:14:17,120 --> 00:14:18,540
+So, in short, in this Age of AI,
+
+415
+00:14:18,540 --> 00:14:20,340
+I'm not worried about your learning,
+
+416
+00:14:20,340 --> 00:14:21,280
+He's not learning efficiently.
+
+417
+00:14:21,280 --> 00:14:22,720
+I'm just really into Aibang.
+
+418
+00:14:22,720 --> 00:14:24,500
+It's basically like having a really great teacher.
+
+419
+00:14:24,500 --> 00:14:26,520
+As long as you have the idea, you can do it.
+
+420
+00:14:26,520 --> 00:14:28,760
+and you'll be able to learn it.
+
+421
+00:14:28,760 --> 00:14:31,040
+He also brought up the idea of exclusivity.
+
+422
+00:14:31,040 --> 00:14:33,660
+The length of this period of time...
+
+423
+00:14:33,660 --> 00:14:37,140
+Or, to be more precise, it's the length of this period of time.
+
+424
+00:14:37,140 --> 00:14:38,380
+He called them...
+
+425
+00:14:38,380 --> 00:14:39,820
+He also mentioned that this ability can be trained.
+
+426
+00:14:39,820 --> 00:14:43,790
+And you can see some people who spend a huge amount of time on this.
+
+427
+00:14:43,790 --> 00:14:48,070
+He can just sit there and think for three hours straight.
+
+428
+00:14:48,070 --> 00:14:49,520
+And that's a truly terrifying thing.
+
+429
+00:14:49,520 --> 00:14:51,240
+But for most people,
+
+430
+00:14:51,240 --> 00:14:55,610
+Their focus, the intensity of their concentration, can only last for two hours at most.
+
+431
+00:14:55,610 --> 00:14:57,050
+So, here's my take on it.
+
+432
+00:14:57,050 --> 00:15:00,090
+Because, think back to your middle school days.
+
+433
+00:15:00,090 --> 00:15:03,250
+and in high school, your longest exams...
+
+434
+00:15:03,250 --> 00:15:04,810
+Generally speaking, it was about two and a half hours, right?
+
+435
+00:15:04,810 --> 00:15:05,750
+And that's for a language arts exam.
+
+436
+00:15:05,750 --> 00:15:07,330
+But Chinese and math are two different things.
+
+437
+00:15:07,330 --> 00:15:08,810
+But for math, you only have two hours.
+
+438
+00:15:08,810 --> 00:15:10,790
+But for an individual,
+
+439
+00:15:10,790 --> 00:15:12,640
+You've been trained for it, you know.
+
+440
+00:15:12,640 --> 00:15:14,360
+Of course, for you guys, the science section of the exam might be three hours.
+
+441
+00:15:14,360 --> 00:15:17,760
+You've been trained for the longest periods of concentration.
+
+442
+00:15:17,760 --> 00:15:19,590
+So, about two hours.
+
+443
+00:15:19,590 --> 00:15:20,980
+That's pretty much the limit.
+
+444
+00:15:20,980 --> 00:15:24,820
+And a typical class for you guys is about 45 minutes long, right?
+
+445
+00:15:24,820 --> 00:15:26,220
+assuming you're not zoning out in class,
+
+446
+00:15:26,220 --> 00:15:27,700
+So, that's a full, proper class right there.
+
+447
+00:15:27,700 --> 00:15:28,700
+Even if we factor in the teacher running over time,
+
+448
+00:15:28,700 --> 00:15:30,329
+Let's say, 50 or 55 minutes.
+
+449
+00:15:30,329 --> 00:15:31,249
+50 minutes.
+
+450
+00:15:31,249 --> 00:15:32,009
+Generally speaking,
+
+451
+00:15:32,009 --> 00:15:33,329
+our level of concentration
+
+452
+00:15:33,329 --> 00:15:36,390
+typically lasts anywhere from 50 minutes to two hours.
+
+453
+00:15:36,390 --> 00:15:40,630
+And this isn't just my opinion—it's that people aren't born with this ability.
+
+454
+00:15:40,630 --> 00:15:44,210
+And of course, there's a certain scientific basis for this.
+
+455
+00:15:44,210 --> 00:15:45,330
+So, my take on this is...
+
+456
+00:15:45,330 --> 00:15:47,919
+It's not that people are naturally good at it.
+
+457
+00:15:47,919 --> 00:15:51,039
+the intensity of work during that 40 minutes to two hours,
+
+458
+00:15:51,039 --> 00:15:55,160
+Instead, it's a skill acquired through long-term school training.
+
+459
+00:15:55,160 --> 00:15:58,300
+Perhaps people are just naturally good at this kind of school training.
+
+460
+00:15:58,300 --> 00:15:59,160
+That's also true.
+
+461
+00:15:59,160 --> 00:16:00,360
+and you're trained to think in that specific way.
+
+462
+00:16:00,360 --> 00:16:03,280
+So, to sum it up, this is a skill that can be trained.
+
+463
+00:16:03,280 --> 00:16:04,640
+After you leave school,
+
+464
+00:16:04,640 --> 00:16:06,650
+Your brain might get affected by your phone,
+
+465
+00:16:06,650 --> 00:16:08,530
+or just a bunch of random stuff.
+
+466
+00:16:08,530 --> 00:16:10,050
+cause your ability to focus to deteriorate over time.
+
+467
+00:16:10,050 --> 00:16:12,170
+Like, for me right now, the absolute maximum I can study is, like, an hour.
+
+468
+00:16:12,170 --> 00:16:13,599
+and I just can't take anything in anymore.
+
+469
+00:16:13,599 --> 00:16:15,079
+So that's just how it is for me right now.
+
+470
+00:16:15,079 --> 00:16:16,279
+But this duration is something you can actually extend.
+
+471
+00:16:16,279 --> 00:16:17,239
+So, for those of you who might be interested,
+
+472
+00:16:17,239 --> 00:16:18,760
+You could consider extending it.
+
+473
+00:16:18,760 --> 00:16:19,720
+But here's the thing,
+
+474
+00:16:19,720 --> 00:16:21,920
+is something that only students can do.
+
+475
+00:16:21,920 --> 00:16:24,080
+I'm already a fucking burnt-out old-timer at work, man.
+
+476
+00:16:24,080 --> 00:16:27,650
+So, what I really need to learn is how to slack off strategically.
+
+477
+00:16:27,650 --> 00:16:30,010
+to carve out an hour for yourself.
+
+478
+00:16:30,010 --> 00:16:31,770
+Or maybe an hour and a half.
+
+479
+00:16:31,770 --> 00:16:35,190
+And another point he brought up was context switching.
+
+480
+00:16:35,190 --> 00:16:36,190
+So, about that context switch.
+
+481
+00:16:36,190 --> 00:16:37,510
+Actually, he mentioned that this is something you can train for.
+
+482
+00:16:37,510 --> 00:16:40,270
+Now, there are a few factors that can affect how efficiently you switch contexts.
+
+483
+00:16:40,270 --> 00:16:42,020
+First off, you have unfinished tasks.
+
+484
+00:16:42,020 --> 00:16:43,180
+And that's when you might find yourself...
+
+485
+00:16:43,180 --> 00:16:43,820
+Oh, right, that assignment you were writing.
+
+486
+00:16:43,820 --> 00:16:45,440
+And then it hits you, 'Oh crap, I haven't done this thing yet.'
+
+487
+00:16:45,440 --> 00:16:46,410
+So, what's the solution?
+
+488
+00:16:46,410 --> 00:16:49,630
+Someone might write you a note, like, "Hey, I haven't finished my homework for Jack Ma's class yet."
+
+489
+00:16:49,630 --> 00:16:51,290
+Oh, right, this thingy for my so-and-so class...
+
+490
+00:16:51,290 --> 00:16:52,180
+I haven't written it yet.
+
+491
+00:16:52,180 --> 00:16:54,000
+And this is the kind of situation you might run into.
+
+492
+00:16:54,000 --> 00:16:58,400
+The second point is, you have to do your best to avoid distractions and temptations.
+
+493
+00:16:58,400 --> 00:16:59,720
+I won't go on and on about this.
+
+494
+00:16:59,720 --> 00:17:01,800
+For instance, when you're doing your homework, just toss your phone aside.
+
+495
+00:17:01,800 --> 00:17:03,560
+Or, what kind of steps are we talking about?
+
+496
+00:17:03,560 --> 00:17:05,819
+Once you get it done, that's it. There's nothing more to it.
+
+497
+00:17:05,819 --> 00:17:07,579
+His main point is basically this.
+
+498
+00:17:07,579 --> 00:17:09,220
+So, my core argument is this.
+
+499
+00:17:09,220 --> 00:17:10,140
+First, let's talk about our work.
+
+500
+00:17:10,140 --> 00:17:12,368
+Our workload looks something like this.
+
+501
+00:17:12,368 --> 00:17:14,608
+And our thinking process looks something like this.
+
+502
+00:17:14,608 --> 00:17:16,560
+And our PREFU comes at a cost.
+
+503
+00:17:16,560 --> 00:17:18,119
+So, based on these premises,
+
+504
+00:17:18,119 --> 00:17:21,560
+So, we should try to deduce some things to help us...
+
+505
+00:17:21,560 --> 00:17:25,079
+And then, on top of that... let me see, where was I...
+
+506
+00:17:25,079 --> 00:17:26,800
+So, execution and thinking.
+
+507
+00:17:27,040 --> 00:17:29,420
+Execution and thinking are now separate, you see.
+
+508
+00:17:29,420 --> 00:17:30,580
+So, with all that in mind,
+
+509
+00:17:30,580 --> 00:17:32,360
+So, what can we come up with?
+
+510
+00:17:32,360 --> 00:17:34,000
+So, that's my personal take on it.
+
+511
+00:17:34,000 --> 00:17:34,660
+And that's a wrap.
+

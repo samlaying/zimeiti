@@ -1,0 +1,852 @@
+1
+00:00:00,200 --> 00:00:00,720
+Hi everyone
+
+2
+00:00:00,720 --> 00:00:01,760
+I'm Eagle
+
+3
+00:00:01,760 --> 00:00:04,720
+Welcome to EVOX SoundAI
+
+4
+00:00:04,720 --> 00:00:06,480
+AI Digital Human Workstation
+
+5
+00:00:06,480 --> 00:00:09,550
+This software has many unique features
+
+6
+00:00:09,550 --> 00:00:14,070
+For example, the operation method of multiple AI voice roles speaking simultaneously in AI dubbing
+
+7
+00:00:14,070 --> 00:00:16,500
+more convenient sound effect insertion
+
+8
+00:00:16,500 --> 00:00:18,590
+ultimate layered output
+
+9
+00:00:18,590 --> 00:00:20,310
+In terms of AI lip-syncing
+
+10
+00:00:20,310 --> 00:00:23,890
+The software supports multi-character selection to assign voices.
+
+11
+00:00:23,890 --> 00:00:25,990
+Here it is divided into two video segments in total, supporting head tilting, subtitle matching, and preservation of ambient sounds.
+
+12
+00:00:25,990 --> 00:00:28,770
+Subtitle matching with ambient sound retention
+
+13
+00:00:28,770 --> 00:00:30,110
+I’ve seen pictures. It’s full of history. Let's first listen to
+
+14
+00:00:30,110 --> 00:00:33,140
+What kind of effect can this dubbing software achieve?
+
+15
+00:00:33,620 --> 00:00:35,900
+The young hero knelt before the Buddha in the ancient temple
+
+16
+00:00:35,900 --> 00:00:37,760
+In this silent late night
+
+17
+00:00:37,760 --> 00:00:41,510
+He heard two voices from the depths of his soul
+
+18
+00:00:42,030 --> 00:00:46,870
+Give up. Do you really think you can save the world?
+
+19
+00:00:47,270 --> 00:00:48,910
+Turn back before it's too late
+
+20
+00:00:48,910 --> 00:00:51,050
+Put down your sword
+
+21
+00:00:51,050 --> 00:00:55,090
+You can live a peaceful and stable life.
+
+22
+00:00:55,090 --> 00:00:58,430
+Isn't this what you've always wanted?
+
+23
+00:00:58,430 --> 00:00:59,850
+Don't listen to him
+
+24
+00:00:59,850 --> 00:01:01,310
+Pick up the sword
+
+25
+00:01:01,310 --> 00:01:02,870
+Just kill them all
+
+26
+00:01:02,870 --> 00:01:06,600
+All the power and wealth in this world will be yours.
+
+27
+00:01:06,600 --> 00:01:08,540
+Those are all illusions
+
+28
+00:01:08,540 --> 00:01:10,220
+Only power is eternal. Take action now.
+
+29
+00:01:10,220 --> 00:01:12,160
+Take no action
+
+30
+00:01:13,800 --> 00:01:19,280
+Tell me what your choice really is, what is it
+
+31
+00:01:21,640 --> 00:01:23,220
+Well, this feels pretty good
+
+32
+00:01:23,220 --> 00:01:26,440
+Right then, let me quickly demonstrate this process first
+
+33
+00:01:26,440 --> 00:01:29,400
+and then explain in detail
+
+34
+00:01:30,350 --> 00:01:35,700
+
+
+35
+00:01:35,700 --> 00:01:38,480
+We can use AI tools to generate this text.
+
+36
+00:01:38,480 --> 00:01:39,900
+There are currently 4 columns
+
+37
+00:01:39,900 --> 00:01:41,840
+They correspond to the text, sentences, and audio output respectively.
+
+38
+00:01:41,840 --> 00:01:46,170
+You can temporarily disable some columns
+
+39
+00:01:46,170 --> 00:01:48,530
+Clear the sentences first
+
+40
+00:01:48,530 --> 00:01:51,310
+The text enclosed in curly braces is the character's name
+
+41
+00:01:51,310 --> 00:01:54,510
+If the character name is followed by 'left' or 'right'
+
+42
+00:01:54,510 --> 00:01:57,890
+it means that these two characters are speaking different lines simultaneously
+
+43
+00:01:57,890 --> 00:02:00,190
+if there is a plus sign between character names
+
+44
+00:02:00,190 --> 00:02:02,500
+represents speaking the same lines simultaneously
+
+45
+00:02:02,780 --> 00:02:06,400
+Click on multi-character settings for multi-character recognition
+
+46
+00:02:06,400 --> 00:02:09,019
+Three roles have now been identified
+
+47
+00:02:09,019 --> 00:02:11,999
+Bind each of these three roles to an audio. First, the narrator, the prince's current choice of this audio.
+
+48
+00:02:11,999 --> 00:02:16,819
+Select this audio and click
+
+49
+00:02:16,819 --> 00:02:19,710
+Xiao Wang
+
+50
+00:02:21,990 --> 00:02:25,110
+Your item, we use Master Kumarajiva
+
+51
+00:02:26,800 --> 00:02:29,320
+Xiao Zhang, I'll use this great monk
+
+52
+00:02:31,000 --> 00:02:34,360
+After selecting, click 'Add to Sentence'
+
+53
+00:02:36,239 --> 00:02:40,119
+We can see that as long as they are speaking simultaneously
+
+54
+00:02:40,119 --> 00:02:42,479
+On the left side, there is a color like this
+
+55
+00:02:42,479 --> 00:02:44,219
+indicates that it belongs to a group
+
+56
+00:02:44,219 --> 00:02:46,140
+Then turn off the text column
+
+57
+00:02:46,300 --> 00:02:48,260
+You can select any line
+
+58
+00:02:48,260 --> 00:02:48,660
+take a look
+
+59
+00:02:49,660 --> 00:02:50,380
+Click to preview the young hero
+
+60
+00:02:50,380 --> 00:02:54,429
+kneeling before the Buddha in the ancient temple
+
+61
+00:02:54,429 --> 00:02:56,349
+In this silent late night
+
+62
+00:02:56,349 --> 00:02:59,959
+heard two voices from the depths of the soul
+
+63
+00:02:59,959 --> 00:03:03,559
+Chief Tao's voice indeed lives up to what Prime Minister Lü had anticipated
+
+64
+00:03:03,559 --> 00:03:05,259
+If you think this voice doesn't suit us
+
+65
+00:03:05,259 --> 00:03:06,579
+Change to another voice
+
+66
+00:03:06,579 --> 00:03:08,839
+Click to lose the tone
+
+67
+00:03:09,100 --> 00:03:10,180
+Press the scroll wheel
+
+68
+00:03:10,180 --> 00:03:13,420
+Use the scroll wheel here to turn the volume down a bit
+
+69
+00:03:14,730 --> 00:03:16,950
+Select composition
+
+70
+00:03:16,950 --> 00:03:18,630
+The young hero kneels before the Buddha in the ancient temple
+
+71
+00:03:18,630 --> 00:03:21,690
+In this silence, not bad
+
+72
+00:03:22,180 --> 00:03:25,900
+Ctrl a to select all and add sound effects
+
+73
+00:03:26,840 --> 00:03:28,380
+Click on the sound effects panel
+
+74
+00:03:28,380 --> 00:03:30,400
+You can favorite your own sound effects
+
+75
+00:03:30,400 --> 00:03:32,080
+Place it in the sound effects folder
+
+76
+00:03:32,080 --> 00:03:34,090
+Let's find a background sound
+
+77
+00:03:34,090 --> 00:03:35,390
+Select a sound effect
+
+78
+00:03:35,390 --> 00:03:37,650
+Press the spacebar to preview
+
+79
+00:03:44,260 --> 00:03:46,260
+Double-click this sound effect to insert it
+
+80
+00:03:46,260 --> 00:03:48,240
+If we select multiple lines
+
+81
+00:03:48,240 --> 00:03:49,160
+After insertion
+
+82
+00:03:49,160 --> 00:03:50,700
+It says 8R here
+
+83
+00:03:50,700 --> 00:03:52,140
+that is 8 lines
+
+84
+00:03:52,360 --> 00:03:54,980
+Look at the bottom right corner of this line, there's an identifier
+
+85
+00:03:54,980 --> 00:03:57,120
+represents the association of this row, this sound effect
+
+86
+00:03:58,160 --> 00:04:00,770
+Hold down the Ctrl key and scroll
+
+87
+00:04:00,770 --> 00:04:01,990
+If changed to 5
+
+88
+00:04:01,990 --> 00:04:03,010
+there are only 5 lines left
+
+89
+00:04:03,010 --> 00:04:06,510
+You can see that the sixth line does not have this identifier.
+
+90
+00:04:06,830 --> 00:04:08,030
+Let's change it to 8
+
+91
+00:04:09,390 --> 00:04:12,150
+Press the spacebar to preview sound effects and audio
+
+92
+00:04:12,150 --> 00:04:14,590
+The young hero kneels before the ancient temple Buddha
+
+93
+00:04:14,590 --> 00:04:16,350
+In this silent late night
+
+94
+00:04:16,350 --> 00:04:19,070
+The sound effect is a bit loud
+
+95
+00:04:20,980 --> 00:04:23,300
+The young hero knelt before the Buddha in the ancient temple
+
+96
+00:04:23,300 --> 00:04:25,080
+In this silent late night
+
+97
+00:04:25,080 --> 00:04:26,900
+he heard it from me, I hope
+
+98
+00:04:26,900 --> 00:04:30,889
+Sound effect appears first, then the cursor
+
+99
+00:04:30,889 --> 00:04:31,889
+Place it here
+
+100
+00:04:31,889 --> 00:04:33,440
+double-click pause
+
+101
+00:04:33,720 --> 00:04:35,560
+Press the Ctrl key to scroll
+
+102
+00:04:35,560 --> 00:04:37,580
+This pause is a stop
+
+103
+00:04:37,580 --> 00:04:38,600
+2 seconds
+
+104
+00:04:40,040 --> 00:04:41,960
+Finally, also pause for 1 second
+
+105
+00:04:43,350 --> 00:04:45,070
+If you don't add pauses
+
+106
+00:04:45,070 --> 00:04:48,950
+There will also be a pause of 0.3 seconds between these two lines
+
+107
+00:04:51,720 --> 00:04:53,320
+These two lines are spoken simultaneously
+
+108
+00:04:53,320 --> 00:04:56,440
+I can make them have a slight time offset
+
+109
+00:04:57,660 --> 00:04:58,820
+Xiao Zhang speaks first
+
+110
+00:04:58,820 --> 00:05:02,660
+Xiao Wang speaks later, these two lines are spoken in unison
+
+111
+00:05:02,660 --> 00:05:04,240
+Let's continue to listen to the sound effects
+
+112
+00:05:04,240 --> 00:05:12,220
+You can search in the sound effects panel, then expand all
+
+113
+00:05:13,160 --> 00:05:15,880
+Double-click it and it will be inserted here
+
+114
+00:05:25,500 --> 00:05:27,940
+Ahhh
+
+115
+00:05:29,220 --> 00:05:29,740
+Enter 'crow' to find a sound effect
+
+116
+00:05:29,740 --> 00:05:32,420
+Insert it here
+
+117
+00:05:46,000 --> 00:05:47,380
+Insert a sound effect
+
+118
+00:05:47,380 --> 00:05:49,560
+after a short segment of sound
+
+119
+00:05:55,680 --> 00:05:57,680
+Insert sound effect here
+
+120
+00:06:04,500 --> 00:06:06,420
+We'll insert a few sound effects
+
+121
+00:06:11,100 --> 00:06:18,300
+Double-click to add a pause
+
+122
+00:06:18,300 --> 00:06:20,880
+Hold down the Ctrl key and place the cursor at this location
+
+123
+00:06:20,880 --> 00:06:23,340
+Finally, add another pause
+
+124
+00:06:24,510 --> 00:06:25,790
+The person has already stopped speaking
+
+125
+00:06:25,790 --> 00:06:28,630
+but the sound gradually fades away
+
+126
+00:06:30,180 --> 00:06:30,940
+Regarding sound effects
+
+127
+00:06:30,940 --> 00:06:32,840
+I'll just briefly match these few
+
+128
+00:06:32,840 --> 00:06:34,140
+Ctrl a select all
+
+129
+00:06:35,860 --> 00:06:37,460
+select synthesis
+
+130
+00:06:41,120 --> 00:06:43,230
+Output completed, click on the output directory
+
+131
+00:06:43,230 --> 00:06:46,210
+These files with timestamps are the final audio outputs.
+
+132
+00:06:46,210 --> 00:06:47,870
+Several versions have been output in total
+
+133
+00:06:47,870 --> 00:06:49,430
+with sound effects only
+
+134
+00:06:49,430 --> 00:06:52,230
+Let's listen to the mixed version
+
+135
+00:06:52,230 --> 00:06:53,850
+The young hero knelt before the Buddha in the ancient temple
+
+136
+00:06:53,850 --> 00:06:55,710
+In this silent late night
+
+137
+00:06:55,710 --> 00:06:59,450
+He heard two voices from the depths of his soul
+
+138
+00:06:59,970 --> 00:07:04,050
+Give it up. Do you really think you can save the common people?
+
+139
+00:07:05,450 --> 00:07:06,920
+Turn back before it's too late
+
+140
+00:07:06,920 --> 00:07:09,000
+Put down your sword
+
+141
+00:07:09,000 --> 00:07:13,050
+You can live a peaceful and stable life
+
+142
+00:07:13,050 --> 00:07:16,390
+Isn't that what you've always wanted?
+
+143
+00:07:16,390 --> 00:07:17,810
+Don't listen to him
+
+144
+00:07:17,810 --> 00:07:19,380
+Pick up the sword
+
+145
+00:07:19,500 --> 00:07:20,940
+Just kill them all
+
+146
+00:07:20,940 --> 00:07:24,540
+All the power and wealth in this world will be yours.
+
+147
+00:07:24,540 --> 00:07:26,500
+Those are all illusions
+
+148
+00:07:26,500 --> 00:07:28,180
+Only power is eternal
+
+149
+00:07:28,180 --> 00:07:37,220
+Make your move and tell me what your choice really is
+
+150
+00:07:38,240 --> 00:07:40,480
+Now I'll switch to another project
+
+151
+00:07:40,480 --> 00:07:43,000
+Let's quickly explain batch rendering again.
+
+152
+00:07:43,000 --> 00:07:46,039
+Batch rendering can achieve the ultimate, detailed output.
+
+153
+00:07:46,039 --> 00:07:47,119
+Select the composition
+
+154
+00:07:47,119 --> 00:07:48,959
+It is only used for some debugging.
+
+155
+00:07:48,959 --> 00:07:51,259
+When you think the project is good
+
+156
+00:07:51,259 --> 00:07:54,060
+Save the project and use batch rendering
+
+157
+00:07:54,060 --> 00:07:57,740
+Let's briefly make this edit and save the project
+
+158
+00:07:57,980 --> 00:07:59,840
+By default, it will assign a name
+
+159
+00:07:59,840 --> 00:08:01,060
+You can also change it
+
+160
+00:08:01,060 --> 00:08:02,400
+Click Save
+
+161
+00:08:02,400 --> 00:08:03,380
+after that
+
+162
+00:08:03,380 --> 00:08:04,820
+Click Batch Render
+
+163
+00:08:04,820 --> 00:08:06,420
+if you have multiple projects
+
+164
+00:08:06,420 --> 00:08:09,000
+It can all be batch rendered.
+
+165
+00:08:09,000 --> 00:08:12,810
+Select it to open and start synthesis
+
+166
+00:08:12,810 --> 00:08:13,770
+Normally
+
+167
+00:08:13,770 --> 00:08:15,090
+If selected for synthesis
+
+168
+00:08:15,090 --> 00:08:17,710
+we can only output a combined audio effect
+
+169
+00:08:18,980 --> 00:08:20,580
+but during batch rendering
+
+170
+00:08:20,580 --> 00:08:22,260
+We can separate the sound effects
+
+171
+00:08:22,260 --> 00:08:23,460
+This is the background sound
+
+172
+00:08:23,460 --> 00:08:24,440
+This is the sound effect
+
+173
+00:08:24,440 --> 00:08:26,630
+Oops
+
+174
+00:08:26,630 --> 00:08:28,510
+If you think the sound effect is too loud
+
+175
+00:08:28,510 --> 00:08:30,750
+lower the volume
+
+176
+00:08:33,740 --> 00:08:35,679
+But this is not precise enough
+
+177
+00:08:35,679 --> 00:08:40,539
+For more precision, drag the sound effect in
+
+178
+00:08:41,730 --> 00:08:43,919
+Drag this sound effect 2 in
+
+179
+00:08:44,198 --> 00:08:46,859
+This sound effect can be preserved in segments
+
+180
+00:08:46,859 --> 00:08:47,759
+Look here
+
+181
+00:08:49,719 --> 00:08:53,130
+For example, if you don't want this sound, just delete it.
+
+182
+00:08:53,330 --> 00:08:54,370
+It is lossless
+
+183
+00:08:56,770 --> 00:08:57,650
+feel this sound is too loud
+
+184
+00:08:57,650 --> 00:08:59,730
+we'll just turn down the volume
+
+185
+00:09:01,840 --> 00:09:03,840
+Let's check the voice retention again
+
+186
+00:09:03,840 --> 00:09:08,280
+This old monk only said one sentence.
+
+187
+00:09:09,060 --> 00:09:09,900
+this Jiumozhi
+
+188
+00:09:11,940 --> 00:09:13,580
+said two sentences
+
+189
+00:09:14,320 --> 00:09:17,660
+Qiao Feng also said a few words
+
+190
+00:09:17,660 --> 00:09:19,160
+We overlay them together
+
+191
+00:09:19,160 --> 00:09:22,600
+The achieved effect is exactly the same as our overall mix.
+
+192
+00:09:22,600 --> 00:09:24,840
+This is the overall mix
+
+193
+00:09:26,280 --> 00:09:27,880
+We can place it at the back and compare it.
+
+194
+00:09:29,880 --> 00:09:32,000
+I'm dragging the subtitles in as well
+
+195
+00:09:33,860 --> 00:09:38,010
+Everyone, today we're not talking about the Muscle Change Classic
+
+196
+00:09:38,010 --> 00:09:41,510
+let's talk about the passive voice in English
+
+197
+00:09:41,510 --> 00:09:43,260
+In the martial world
+
+198
+00:09:43,540 --> 00:09:45,740
+Are you the one hitting or getting hit
+
+199
+00:09:45,740 --> 00:09:50,860
+This status must, the sound effect volume is a bit too loud, turn it down a little.
+
+200
+00:09:51,520 --> 00:09:54,760
+The status of getting beaten must be clearly understood
+
+201
+00:09:56,320 --> 00:09:57,880
+Amitabha
+
+202
+00:09:58,780 --> 00:10:02,559
+Patron Qiao is absolutely right
+
+203
+00:10:02,559 --> 00:10:07,679
+When I was in Tibet, I often felt that the passive voice was full of philosophy.
+
+204
+00:10:07,679 --> 00:10:10,270
+Well said, well said
+
+205
+00:10:10,870 --> 00:10:14,970
+The Discipline Hall teaches that those who make mistakes must be punished
+
+206
+00:10:14,970 --> 00:10:19,390
+Being punished is the most authentic passive
+
+207
+00:10:19,390 --> 00:10:23,380
+Then just prefer to use it directly, go for the ultimate move
+
+208
+00:10:23,380 --> 00:10:24,380
+eat the best that's
+
+209
+00:10:24,380 --> 00:10:26,780
+Qiao Feng took a deep breath
+
+210
+00:10:26,780 --> 00:10:30,500
+It is said that Qiao Feng is a hero.
+
+211
+00:10:30,990 --> 00:10:33,510
+This is a quick demonstration of AI voiceover.
+
+212
+00:10:33,510 --> 00:10:35,430
+We'll go into more detail in the next lesson
+
+213
+00:10:35,430 --> 00:10:37,380
+That's all for this lesson.
+

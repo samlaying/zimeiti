@@ -1,0 +1,844 @@
+1
+00:00:00,160 --> 00:00:04,700
+What we just introduced was a relatively simple
+
+2
+00:00:04,700 --> 00:00:05,760
+deployment process
+
+3
+00:00:05,760 --> 00:00:07,680
+is a relatively basic process
+
+4
+00:00:07,680 --> 00:00:10,080
+because the demo application we selected
+
+5
+00:00:10,080 --> 00:00:12,000
+Its functionality is relatively simple.
+
+6
+00:00:12,000 --> 00:00:14,630
+However, in real-world scenarios
+
+7
+00:00:14,630 --> 00:00:16,329
+In fact, there are many products nowadays
+
+8
+00:00:16,329 --> 00:00:20,230
+all require the integration of AI large model capabilities
+
+9
+00:00:20,230 --> 00:00:22,670
+we will explain to you
+
+10
+00:00:22,670 --> 00:00:25,340
+how to build upon the existing foundational workflows
+
+11
+00:00:25,340 --> 00:00:27,080
+to make some advancements and optimizations
+
+12
+00:00:27,080 --> 00:00:30,100
+The most straightforward way to introduce large AI models
+
+13
+00:00:30,100 --> 00:00:31,360
+this capability solution
+
+14
+00:00:31,360 --> 00:00:36,480
+is to call the online large model service
+
+15
+00:00:36,480 --> 00:00:40,100
+the process of invoking the online large model service
+
+16
+00:00:40,100 --> 00:00:41,160
+or this solution
+
+17
+00:00:41,160 --> 00:00:42,110
+this capability
+
+18
+00:00:42,110 --> 00:00:45,350
+integrate into our existing application code
+
+19
+00:00:45,350 --> 00:00:48,990
+Here we continue using the official case provided by Google
+
+20
+00:00:48,990 --> 00:00:51,110
+to illustrate
+
+21
+00:00:53,180 --> 00:00:55,940
+For example, let's continue to find one of these
+
+22
+00:00:55,940 --> 00:00:58,420
+For example, let's switch to the gallery section here
+
+23
+00:00:58,420 --> 00:01:00,879
+you can see more of these uh
+
+24
+00:01:00,879 --> 00:01:04,078
+the sample applications provided by the official
+
+25
+00:01:04,078 --> 00:01:07,679
+For example, let's select this SVG generator here
+
+26
+00:01:07,679 --> 00:01:09,379
+Let's click in to take a look at this application
+
+27
+00:01:10,619 --> 00:01:13,180
+The main functionality of this application is
+
+28
+00:01:13,180 --> 00:01:16,800
+it generates this SVG image based on your input
+
+29
+00:01:16,800 --> 00:01:18,740
+and it also supports download
+
+30
+00:01:18,740 --> 00:01:20,100
+this is such a simple capability
+
+31
+00:01:20,100 --> 00:01:22,140
+So we can actually see that
+
+32
+00:01:22,140 --> 00:01:23,180
+let's take a look at the code
+
+33
+00:01:23,180 --> 00:01:25,320
+Actually, we can know that behind the scenes
+
+34
+00:01:25,320 --> 00:01:27,960
+it's actually calling the Gemini 3
+
+35
+00:01:27,960 --> 00:01:31,300
+GEMINI 3 Pro Preview's large model
+
+36
+00:01:31,300 --> 00:01:32,940
+the ability to create images
+
+37
+00:01:32,940 --> 00:01:35,580
+So that's how such an online invocation process works
+
+38
+00:01:35,580 --> 00:01:38,180
+It's a very simple pure frontend application
+
+39
+00:01:38,180 --> 00:01:39,780
+the main calling logic is
+
+40
+00:01:39,780 --> 00:01:42,009
+it's stored in the frontend
+
+41
+00:01:42,009 --> 00:01:46,089
+in the service.ts frontend file
+
+42
+00:01:46,089 --> 00:01:48,969
+It can be seen that the environment variables are being referenced here
+
+43
+00:01:48,969 --> 00:01:51,010
+the Gemini API key
+
+44
+00:01:51,010 --> 00:01:54,270
+That is to say, when the image generation capability is needed
+
+45
+00:01:54,270 --> 00:01:56,290
+via this API key
+
+46
+00:01:56,290 --> 00:02:00,210
+to call Google's online image generation service
+
+47
+00:02:00,210 --> 00:02:01,930
+For such projects,
+
+48
+00:02:01,930 --> 00:02:05,500
+if we still use the method we demonstrated earlier, uh,
+
+49
+00:02:05,500 --> 00:02:08,320
+the process of deploying with three tools and three steps
+
+50
+00:02:08,320 --> 00:02:11,550
+There is a potential risk that in the code
+
+51
+00:02:11,550 --> 00:02:14,290
+will directly write the API key into the code
+
+52
+00:02:14,290 --> 00:02:16,170
+The resulting consequence is
+
+53
+00:02:16,170 --> 00:02:19,130
+your API key will be exposed
+
+54
+00:02:19,130 --> 00:02:21,430
+After we deploy this application
+
+55
+00:02:21,430 --> 00:02:25,270
+when others access our service through this domain name
+
+56
+00:02:25,270 --> 00:02:27,520
+For example,
+
+57
+00:02:27,520 --> 00:02:30,240
+As long as they right-click
+
+58
+00:02:30,240 --> 00:02:32,560
+then click here to inspect its source code
+
+59
+00:02:32,560 --> 00:02:35,080
+it can find it in the webpage's source code
+
+60
+00:02:35,080 --> 00:02:36,700
+in the front-end source code
+
+61
+00:02:36,700 --> 00:02:39,580
+find this API key in the frontend code
+
+62
+00:02:39,580 --> 00:02:42,760
+This API key can indeed be exposed.
+
+63
+00:02:42,760 --> 00:02:46,910
+If they use this API key to call the online services
+
+64
+00:02:46,910 --> 00:02:49,250
+that will be charged to your account
+
+65
+00:02:49,250 --> 00:02:51,190
+so when we deploy
+
+66
+00:02:51,190 --> 00:02:53,250
+Always maintain this sense of risk awareness
+
+67
+00:02:53,250 --> 00:02:57,040
+confidential account information such as API keys
+
+68
+00:02:57,040 --> 00:02:58,140
+information-type data
+
+69
+00:02:58,140 --> 00:03:00,040
+cannot be directly exposed to the outside
+
+70
+00:03:00,040 --> 00:03:02,080
+So how can we solve this issue?
+
+71
+00:03:02,080 --> 00:03:04,080
+The fundamental reason for this issue to arise is
+
+72
+00:03:04,080 --> 00:03:05,800
+The fundamental reason for this issue is
+
+73
+00:03:05,800 --> 00:03:09,660
+We have written the account information in the front-end code.
+
+74
+00:03:09,660 --> 00:03:10,360
+right
+
+75
+00:03:10,360 --> 00:03:12,800
+One approach to solve this issue
+
+76
+00:03:12,800 --> 00:03:17,640
+is to separate the frontend from the code that calls the large model capability
+
+77
+00:03:17,640 --> 00:03:19,560
+extract this piece of code
+
+78
+00:03:19,560 --> 00:03:20,720
+do not place it in the frontend
+
+79
+00:03:20,720 --> 00:03:22,690
+So here we introduce a method
+
+80
+00:03:22,690 --> 00:03:24,890
+through this project
+
+81
+00:03:24,890 --> 00:03:26,610
+the demonstration process of this project
+
+82
+00:03:26,610 --> 00:03:29,790
+add a lightweight backend system to it
+
+83
+00:03:29,790 --> 00:03:34,210
+move the step of calling the large model to the backend for execution
+
+84
+00:03:34,210 --> 00:03:38,370
+the API key in use can be hidden
+
+85
+00:03:38,370 --> 00:03:40,290
+Let me briefly demonstrate how to do this.
+
+86
+00:03:40,290 --> 00:03:41,210
+The first step is
+
+87
+00:03:41,210 --> 00:03:42,750
+we still go
+
+88
+00:03:42,750 --> 00:03:46,750
+save the project code to GitHub
+
+89
+00:03:46,750 --> 00:03:51,800
+Also, we need to, uh, come up with a name.
+
+90
+00:03:51,800 --> 00:03:53,820
+Give a name to this project
+
+91
+00:03:53,820 --> 00:03:57,240
+for example, let's call it deploy_svg
+
+92
+00:03:58,120 --> 00:03:58,960
+Generator
+
+93
+00:03:58,960 --> 00:04:01,960
+Then, uh, deploy it.
+
+94
+00:04:01,960 --> 00:04:05,940
+Then set the permission of the following project to private.
+
+95
+00:04:05,940 --> 00:04:08,940
+Then click to create the project
+
+96
+00:04:09,300 --> 00:04:11,120
+then push it to
+
+97
+00:04:11,120 --> 00:04:15,340
+Push it to the remote GitHub platform.
+
+98
+00:04:15,340 --> 00:04:18,379
+In this way, we can proceed as before
+
+99
+00:04:18,379 --> 00:04:22,220
+Click on this link to access the current project's
+
+100
+00:04:22,220 --> 00:04:24,640
+to this GitHub repository
+
+101
+00:04:24,640 --> 00:04:26,060
+Now, this operation
+
+102
+00:04:26,060 --> 00:04:28,500
+it's a bit different from the previous process
+
+103
+00:04:28,500 --> 00:04:30,040
+because in this process
+
+104
+00:04:30,040 --> 00:04:34,180
+We need to use a large model to assist us in secondary development.
+
+105
+00:04:34,180 --> 00:04:36,020
+So this development process
+
+106
+00:04:36,020 --> 00:04:38,420
+we cannot do this on the webpage anymore
+
+107
+00:04:38,420 --> 00:04:40,200
+We need to download it to local D
+
+108
+00:04:40,200 --> 00:04:41,860
+the code of this repository
+
+109
+00:04:41,860 --> 00:04:43,900
+Clone it locally for secondary development
+
+110
+00:04:43,900 --> 00:04:44,980
+But don't worry
+
+111
+00:04:44,980 --> 00:04:46,300
+this development process
+
+112
+00:04:46,300 --> 00:04:49,170
+We will let the large model assist us in completing it
+
+113
+00:04:49,170 --> 00:04:51,690
+Basically, there's no need to do the coding yourself, okay
+
+114
+00:04:51,690 --> 00:04:56,120
+
+
+115
+00:04:56,120 --> 00:04:58,840
+or are not very familiar with the commands for managing code,
+
+116
+00:04:58,840 --> 00:05:02,089
+that is, for those who are not familiar with the git commands
+
+117
+00:05:02,089 --> 00:05:06,220
+So, uh, at the beginning when I introduced the preliminary preparations,
+
+118
+00:05:06,220 --> 00:05:11,140
+let everyone download the GitHub desktop client in advance
+
+119
+00:05:11,140 --> 00:05:14,260
+Let's open the GitHub desktop client
+
+120
+00:05:15,440 --> 00:05:17,880
+that is, the GitHub Desktop
+
+121
+00:05:17,880 --> 00:05:19,520
+For first-time users,
+
+122
+00:05:19,520 --> 00:05:21,820
+You may need to log in first
+
+123
+00:05:21,820 --> 00:05:22,740
+After logging in
+
+124
+00:05:22,740 --> 00:05:26,720
+When we are creating or cloning a new project,
+
+125
+00:05:26,720 --> 00:05:30,320
+you will be able to find the one we just mentioned in this list
+
+126
+00:05:30,320 --> 00:05:33,680
+the newly created deploy svg generator
+
+127
+00:05:33,680 --> 00:05:36,340
+this new project
+
+128
+00:05:36,340 --> 00:05:39,700
+We select the newly created project
+
+129
+00:05:39,700 --> 00:05:42,230
+Then confirm this local path
+
+130
+00:05:42,230 --> 00:05:43,090
+If there are no issues
+
+131
+00:05:43,090 --> 00:05:46,080
+you can click clone
+
+132
+00:05:54,420 --> 00:05:57,660
+Okay, now that the cloning is complete
+
+133
+00:05:59,680 --> 00:06:01,880
+we choose to
+
+134
+00:06:04,000 --> 00:06:10,160
+We choose to open the current project in VS Code
+
+135
+00:06:20,140 --> 00:06:21,820
+Ah, after opening it successfully,
+
+136
+00:06:21,820 --> 00:06:25,060
+you can see all the files on the left side
+
+137
+00:06:25,060 --> 00:06:29,409
+all the code files contained in this project
+
+138
+00:06:29,409 --> 00:06:33,229
+The first thing is to find the index.
+
+139
+00:06:33,229 --> 00:06:34,870
+the HTML file uh
+
+140
+00:06:34,870 --> 00:06:36,490
+Similarly, scroll to the bottom
+
+141
+00:06:36,490 --> 00:06:42,160
+add our initial step operation into it
+
+142
+00:06:49,540 --> 00:06:52,470
+This step still needs to be done.
+
+143
+00:06:52,470 --> 00:06:53,350
+Then,
+
+144
+00:06:53,350 --> 00:06:56,710
+we can proceed to make some slight modifications to this project
+
+145
+00:06:56,710 --> 00:07:00,220
+The purpose is to hide this API key.
+
+146
+00:07:00,220 --> 00:07:01,780
+The method is quite simple
+
+147
+00:07:01,780 --> 00:07:05,960
+let the large language model help us automatically add a lightweight backend to this project
+
+148
+00:07:05,960 --> 00:07:07,630
+a lightweight backend
+
+149
+00:07:07,630 --> 00:07:11,720
+Let's take a look at how I instructed the large model
+
+150
+00:07:40,340 --> 00:07:41,940
+Alright, I told the large model
+
+151
+00:07:41,940 --> 00:07:46,800
+Transform this project into a Next.js full-stack application
+
+152
+00:07:46,800 --> 00:07:52,159
+require the Gemini API key to be securely stored on the backend
+
+153
+00:07:52,159 --> 00:07:55,559
+then calling the AI's penetration capabilities in the backend
+
+154
+00:07:55,559 --> 00:07:58,499
+ensure that the API key I provided to you will not be leaked
+
+155
+00:07:58,499 --> 00:08:00,820
+So my goal is actually very clear.
+
+156
+00:08:00,820 --> 00:08:04,400
+The frontend is merely an information collection entry point
+
+157
+00:08:04,400 --> 00:08:06,380
+he hands over this task
+
+158
+00:08:06,380 --> 00:08:09,090
+the task of invoking this large model is handed over to the backend to handle
+
+159
+00:08:09,090 --> 00:08:11,530
+The backend won't be exposed, right?
+
+160
+00:08:11,530 --> 00:08:13,819
+This way my API key is secure.
+
+161
+00:08:13,819 --> 00:08:15,859
+and I asked him to use Next.js
+
+162
+00:08:15,859 --> 00:08:17,779
+to achieve frontend-backend interaction
+
+163
+00:08:17,779 --> 00:08:19,870
+Because it is a full-stack framework
+
+164
+00:08:19,870 --> 00:08:21,490
+can be used for both frontend development
+
+165
+00:08:21,490 --> 00:08:23,590
+can also be used to write backend code
+
+166
+00:08:23,590 --> 00:08:27,930
+Here, the large model I'm using for programming is Codex.
+
+167
+00:08:27,930 --> 00:08:31,780
+is one of the few large AI programming models that I personally find quite effective in practice.
+
+168
+00:08:31,780 --> 00:08:34,220
+one of the better-performing large models
+
+169
+00:08:34,220 --> 00:08:37,299
+Of course, you can also configure other large model services.
+
+170
+00:08:37,299 --> 00:08:39,500
+There's no problem at all.
+
+171
+00:08:41,720 --> 00:08:44,159
+OK, after entering this PROT
+
+172
+00:08:44,159 --> 00:08:46,200
+we click run
+
+173
+00:08:53,100 --> 00:08:55,380
+We can see the large model on the left side
+
+174
+00:08:55,380 --> 00:08:58,810
+gradually presents its transformation plan
+
+175
+00:08:58,810 --> 00:09:01,210
+as well as the progress of its execution
+
+176
+00:09:01,210 --> 00:09:04,290
+First of all, he is going to take this project
+
+177
+00:09:04,290 --> 00:09:06,760
+all the code is read in
+
+178
+00:09:06,760 --> 00:09:07,040
+Sigh
+
+179
+00:09:07,040 --> 00:09:10,160
+So why do we say using large models helps us automate
+
+180
+00:09:10,160 --> 00:09:10,760
+to code
+
+181
+00:09:10,760 --> 00:09:12,680
+it generally takes a longer time
+
+182
+00:09:12,680 --> 00:09:15,550
+because its context window is very long
+
+183
+00:09:15,550 --> 00:09:18,509
+So why in some large projects
+
+184
+00:09:18,509 --> 00:09:21,989
+The effectiveness of using large models for AI coding may not be so easy
+
+185
+00:09:21,989 --> 00:09:23,529
+or the effect may be relatively poor
+
+186
+00:09:23,529 --> 00:09:26,400
+or it might be more challenging to implement
+
+187
+00:09:26,400 --> 00:09:27,840
+a very clear reason
+
+188
+00:09:27,840 --> 00:09:31,060
+that is to say, it needs to dynamically identify
+
+189
+00:09:31,060 --> 00:09:31,260
+it
+
+190
+00:09:31,260 --> 00:09:34,260
+what information content needs to be included
+
+191
+00:09:34,260 --> 00:09:35,890
+This step is crucial.
+
+192
+00:09:35,890 --> 00:09:38,770
+Fortunately, next we can gradually see that
+
+193
+00:09:38,770 --> 00:09:41,190
+
+
+194
+00:09:41,190 --> 00:09:42,330
+after the file
+
+195
+00:09:42,330 --> 00:09:44,170
+it will provide some operational steps
+
+196
+00:09:44,170 --> 00:09:48,120
+as well as some of the planning processes
+
+197
+00:09:48,120 --> 00:09:50,940
+This is actually a process of a small agent.
+
+198
+00:09:50,940 --> 00:09:52,380
+During the execution process
+
+199
+00:09:52,380 --> 00:09:55,580
+will also consider whether the previous step was executed correctly
+
+200
+00:09:55,580 --> 00:09:57,260
+all the changed content
+
+201
+00:09:57,260 --> 00:09:59,740
+are all displayed in this dialog box
+
+202
+00:09:59,740 --> 00:10:01,420
+This process is relatively slow
+
+203
+00:10:01,420 --> 00:10:02,700
+It will take a bit longer.
+
+204
+00:10:02,700 --> 00:10:04,460
+We can also skip it
+
+205
+00:10:04,460 --> 00:10:06,740
+Now you can see it's already displayed on the page
+
+206
+00:10:06,740 --> 00:10:09,740
+its plan and the progress bar of its execution
+
+207
+00:10:09,740 --> 00:10:13,190
+Currently, it has only reached the first stage.
+
+208
+00:10:13,190 --> 00:10:14,630
+This process might be a bit slow.
+
+209
+00:10:14,630 --> 00:10:15,850
+We can just skip it
+
+210
+00:10:15,850 --> 00:10:18,390
+until it completes execution
+
+211
+00:10:18,390 --> 00:10:20,520
+Let's take a look at its final effect
+

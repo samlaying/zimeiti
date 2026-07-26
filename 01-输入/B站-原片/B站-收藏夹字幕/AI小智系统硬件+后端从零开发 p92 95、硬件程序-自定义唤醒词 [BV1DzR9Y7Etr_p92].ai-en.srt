@@ -1,0 +1,292 @@
+1
+00:00:00,720 --> 00:00:00,960
+Alright
+
+2
+00:00:00,960 --> 00:00:01,600
+In today's lesson
+
+3
+00:00:01,600 --> 00:00:04,000
+we're going to talk about custom wake-up words
+
+4
+00:00:04,000 --> 00:00:06,400
+Before we dive into this topic
+
+5
+00:00:06,400 --> 00:00:07,460
+let's fix a bug
+
+6
+00:00:07,460 --> 00:00:09,860
+Let's take a look at the code here
+
+7
+00:00:09,860 --> 00:00:12,049
+Right here
+
+8
+00:00:12,049 --> 00:00:13,209
+Okay
+
+9
+00:00:13,209 --> 00:00:16,088
+We don't need to handle this channel here
+
+10
+00:00:16,088 --> 00:00:17,409
+Because when we make the call
+
+11
+00:00:17,409 --> 00:00:18,460
+Let's take a look
+
+12
+00:00:18,460 --> 00:00:19,960
+When making this call
+
+13
+00:00:19,960 --> 00:00:22,780
+We have already specified how many channels to retrieve here
+
+14
+00:00:22,780 --> 00:00:24,259
+It has already been passed in here
+
+15
+00:00:24,259 --> 00:00:26,339
+So when we retrieve it here
+
+16
+00:00:26,339 --> 00:00:28,299
+The channel number has already been calculated
+
+17
+00:00:28,299 --> 00:00:29,259
+This is a dual-channel setup
+
+18
+00:00:29,259 --> 00:00:30,990
+It has already been calculated here
+
+19
+00:00:30,990 --> 00:00:33,490
+So, we'll comment that out.
+
+20
+00:00:33,490 --> 00:00:37,550
+Then, let's take a look at the effect, shall we?
+
+21
+00:00:38,530 --> 00:00:40,130
+Hi, Xiao Zhou.
+
+22
+00:00:41,220 --> 00:00:42,740
+Ah, it recognized it, right?
+
+23
+00:00:42,740 --> 00:00:46,300
+We can try calling out some other names as well.
+
+24
+00:00:48,240 --> 00:00:49,880
+Hi, Xiao Zhi.
+
+25
+00:00:50,350 --> 00:00:52,130
+See, it recognized that too.
+
+26
+00:00:52,130 --> 00:00:54,190
+Xiao Zhi was recognized as well.
+
+27
+00:00:54,190 --> 00:00:56,110
+The score is 0.8, huh.
+
+28
+00:00:56,110 --> 00:00:57,669
+Um
+
+29
+00:00:57,669 --> 00:00:58,449
+So then
+
+30
+00:00:58,449 --> 00:01:01,800
+it's not the welcome message we specified
+
+31
+00:01:01,800 --> 00:01:04,340
+which means he didn't print that sentence
+
+32
+00:01:04,340 --> 00:01:07,100
+this sentence indicates we've found the phantom word
+
+33
+00:01:07,100 --> 00:01:12,360
+and we've already done this
+
+34
+00:01:12,360 --> 00:01:13,920
+we added it here
+
+35
+00:01:13,920 --> 00:01:15,040
+you can add any phantom word
+
+36
+00:01:15,040 --> 00:01:17,140
+this is the custom method
+
+37
+00:01:17,140 --> 00:01:20,749
+You can add whatever you like using the Pinyin method.
+
+38
+00:01:20,749 --> 00:01:22,149
+Using this Pinyin method.
+
+39
+00:01:22,149 --> 00:01:23,909
+We've added quite a few here.
+
+40
+00:01:23,909 --> 00:01:28,039
+And now we're using HII Xiao Zhou.
+
+41
+00:01:28,359 --> 00:01:29,599
+Let's give it another try.
+
+42
+00:01:31,279 --> 00:01:32,879
+Hi, Xiao Zhou.
+
+43
+00:01:33,719 --> 00:01:35,279
+See, it recognized it, right?
+
+44
+00:01:35,279 --> 00:01:36,279
+That's how it gets activated.
+
+45
+00:01:36,279 --> 00:01:38,079
+This is similar to the wake-up word.
+
+46
+00:01:39,079 --> 00:01:42,539
+Then, this is done using command words, you see.
+
+47
+00:01:42,539 --> 00:01:44,339
+Well, it’s definitely not as good as those phantom words.
+
+48
+00:01:44,339 --> 00:01:44,639
+Using
+
+49
+00:01:44,639 --> 00:01:45,779
+those phantom words,
+
+50
+00:01:45,779 --> 00:01:50,130
+it’s like the Lexing official team has trained us,
+
+51
+00:01:50,130 --> 00:01:51,530
+with a lot of data,
+
+52
+00:01:51,530 --> 00:01:53,150
+usually around 20,000 sets,
+
+53
+00:01:53,150 --> 00:01:54,860
+I think the minimum is 20,000 sets of data.
+
+54
+00:01:54,860 --> 00:01:56,500
+They conduct vertical training.
+
+55
+00:01:56,500 --> 00:01:59,420
+It's like using command words.
+
+56
+00:01:59,420 --> 00:02:01,020
+It's more like a horizontal approach.
+
+57
+00:02:01,020 --> 00:02:02,600
+A broad direction, you might say.
+
+58
+00:02:02,600 --> 00:02:04,080
+A more general kind of thing.
+
+59
+00:02:04,080 --> 00:02:07,460
+It hasn't been specifically trained on this particular phrase.
+
+60
+00:02:07,460 --> 00:02:09,979
+It has been trained on many characters, though.
+
+61
+00:02:09,979 --> 00:02:11,760
+And a lot of words as well.
+
+62
+00:02:11,760 --> 00:02:13,670
+So, it's definitely not as effective.
+
+63
+00:02:13,670 --> 00:02:16,870
+But, with some optimization, it can still work fine.
+
+64
+00:02:16,870 --> 00:02:20,010
+If you really think it's not feasible
+
+65
+00:02:20,010 --> 00:02:24,079
+you should go to the official Lexing website for customization
+
+66
+00:02:24,079 --> 00:02:27,259
+the details of how to achieve this
+
+67
+00:02:27,259 --> 00:02:30,170
+I'll put the notes from this video into my notebook.
+
+68
+00:02:30,170 --> 00:02:32,270
+I'll put it at the bottom of the notes
+
+69
+00:02:32,270 --> 00:02:33,900
+I'll add the links
+
+70
+00:02:33,900 --> 00:02:36,940
+we've already implemented this feature
+
+71
+00:02:36,940 --> 00:02:38,980
+we'll cover the details later
+
+72
+00:02:38,980 --> 00:02:40,960
+Place it after this video note.
+
+73
+00:02:40,960 --> 00:02:42,260
+that's all for this lesson
+

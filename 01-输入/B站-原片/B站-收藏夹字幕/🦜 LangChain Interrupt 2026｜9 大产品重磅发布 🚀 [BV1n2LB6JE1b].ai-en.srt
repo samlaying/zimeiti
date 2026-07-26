@@ -1,0 +1,2508 @@
+1
+00:00:00,740 --> 00:00:01,300
+Hey everyone,
+
+2
+00:00:01,300 --> 00:00:03,100
+I'm Canghai Jiu, the community ambassador for Lanche.
+
+3
+00:00:03,100 --> 00:00:05,000
+Welcome to LANCHEN Express.
+
+4
+00:00:05,000 --> 00:00:07,000
+And it's been a while since we've done a video in this series.
+
+5
+00:00:07,000 --> 00:00:08,680
+So, this episode is actually going to be a special one.
+
+6
+00:00:08,680 --> 00:00:12,600
+We're going to introduce what Lianquan presented at the second Global Developer Conference last week,
+
+7
+00:00:12,600 --> 00:00:16,170
+specifically, the series of products they released at Lanche Interrupt 2026.
+
+8
+00:00:16,170 --> 00:00:19,210
+and how they can be used to build...
+
+9
+00:00:19,210 --> 00:00:24,360
+a commercial-grade, end-to-end solution for an agent engineering platform.
+
+10
+00:00:24,360 --> 00:00:27,000
+We'll help you understand, uh...
+
+11
+00:00:27,000 --> 00:00:31,400
+As a leading global company in agent engineering like Lianquan,
+
+12
+00:00:31,400 --> 00:00:37,690
+and how we're currently helping developers and enterprises actually deploy these agent systems into production environments.
+
+13
+00:00:37,690 --> 00:00:40,840
+to build a production-grade agent system.
+
+14
+00:00:40,840 --> 00:00:43,080
+First, let's give you a brief introduction.
+
+15
+00:00:43,080 --> 00:00:45,940
+So, what we're going to introduce today is actually a product.
+
+16
+00:00:45,940 --> 00:00:47,450
+So, it's more of an overview.
+
+17
+00:00:47,450 --> 00:00:49,890
+Now, as for the detailed product introductions,
+
+18
+00:00:49,890 --> 00:00:52,870
+You can all head over to Lianquan's official blog.
+
+19
+00:00:54,810 --> 00:00:56,050
+And on this link,
+
+20
+00:00:56,050 --> 00:00:59,150
+You can find it in the featured article on their blog.
+
+21
+00:00:59,150 --> 00:01:03,620
+and get a first look at all the new products we've just released.
+
+22
+00:01:03,620 --> 00:01:05,740
+And through this link,
+
+23
+00:01:05,740 --> 00:01:07,880
+It includes introductions to all of our products.
+
+24
+00:01:07,880 --> 00:01:10,700
+And it also includes links to the corresponding introductory articles for each one.
+
+25
+00:01:10,700 --> 00:01:12,260
+And through this indexed article,
+
+26
+00:01:12,260 --> 00:01:14,940
+and you can find the specific details for each of these right below.
+
+27
+00:01:14,940 --> 00:01:18,740
+Each one links to a detailed introduction of the specific product content below.
+
+28
+00:01:18,740 --> 00:01:21,620
+So, this introduction really covered all the bases.
+
+29
+00:01:21,620 --> 00:01:23,519
+So, if you're interested,
+
+30
+00:01:23,519 --> 00:01:25,999
+You can go ahead and open up the articles in these official blogs one by one.
+
+31
+00:01:25,999 --> 00:01:30,320
+to really dive into all the nitty-gritty details of this update.
+
+32
+00:01:30,320 --> 00:01:34,040
+So, what we've prepared for you is a set of slides that gives you the big picture.
+
+33
+00:01:34,040 --> 00:01:37,260
+And this will help you get a quick overview of what's included in this release.
+
+34
+00:01:37,260 --> 00:01:38,630
+To be honest, uh...
+
+35
+00:01:38,630 --> 00:01:39,970
+Now, even though there's a lot to unpack from this release,
+
+36
+00:01:39,970 --> 00:01:41,410
+We've listed nine major products here.
+
+37
+00:01:41,410 --> 00:01:42,810
+But it's actually quite simple.
+
+38
+00:01:42,810 --> 00:01:45,040
+Essentially, it's about taking what we did last year...
+
+39
+00:01:45,040 --> 00:01:49,120
+This is the core concept of 'Agent Engineering' that was proposed at the first Global Developer Conference.
+
+40
+00:01:49,120 --> 00:01:51,720
+and this concept of Agent Engineering has now been brought to life.
+
+41
+00:01:51,720 --> 00:01:55,960
+And it's been turned into a commercial, closed-loop product that's ready for implementation.
+
+42
+00:01:55,960 --> 00:01:56,840
+So, where is this all implemented?
+
+43
+00:01:56,840 --> 00:02:01,309
+And that is, of course, Lianquan's one and only closed-source, commercial-grade product.
+
+44
+00:02:01,309 --> 00:02:02,329
+And that's on LSMEE.
+
+45
+00:02:02,329 --> 00:02:05,150
+So, looking back over this past year, from last year to now...
+
+46
+00:02:05,150 --> 00:02:06,690
+The Lianquan team has poured a tremendous amount of effort into this.
+
+47
+00:02:06,690 --> 00:02:11,540
+and aggregated all of their enterprise deployment experience onto this LanchenMiss platform.
+
+48
+00:02:11,540 --> 00:02:13,640
+This has truly brought about a quantum leap.
+
+49
+00:02:13,640 --> 00:02:17,330
+In the past, what most people, uh, were probably most familiar with was their TRACY.
+
+50
+00:02:17,330 --> 00:02:19,410
+But what a lot of people don't know is that its evaluation capabilities are actually really impressive.
+
+51
+00:02:19,410 --> 00:02:22,250
+And then there are some of its other, uh, evaluation and assessment features.
+
+52
+00:02:22,250 --> 00:02:25,020
+And its production-grade monitoring is also really well-developed.
+
+53
+00:02:25,020 --> 00:02:29,610
+So, up to this point, it's actually been covering everything from tracing...
+
+54
+00:02:29,610 --> 00:02:31,950
+all the way from, you know, debugging your code,
+
+55
+00:02:31,950 --> 00:02:36,370
+And it includes support for the model gateway.
+
+56
+00:02:36,370 --> 00:02:37,970
+And that includes the sandbox environment within it.
+
+57
+00:02:37,970 --> 00:02:40,890
+Basically, any agent system you can think of,
+
+58
+00:02:40,890 --> 00:02:42,450
+whether you need it online or offline.
+
+59
+00:02:42,450 --> 00:02:43,950
+That's because it has a private deployment version.
+
+60
+00:02:43,950 --> 00:02:45,800
+and it can run both online and offline.
+
+61
+00:02:45,800 --> 00:02:47,560
+As a developer, all you have to do is write the code.
+
+62
+00:02:47,560 --> 00:02:49,640
+You write a program for Lianquan or DeepAgent,
+
+63
+00:02:49,640 --> 00:02:50,200
+Just a few lines of code.
+
+64
+00:02:50,200 --> 00:02:51,760
+Maybe a few dozen lines of code, and you're done.
+
+65
+00:02:51,760 --> 00:02:56,240
+And then, you have to turn it into a functional service and a real product.
+
+66
+00:02:56,240 --> 00:02:57,080
+To get it to that level,
+
+67
+00:02:57,080 --> 00:02:57,920
+This includes, because once you have a product,
+
+68
+00:02:57,920 --> 00:02:59,840
+You need to monitor it in real-time and iterate on it.
+
+69
+00:02:59,840 --> 00:03:00,620
+to evaluate and assess it.
+
+70
+00:03:00,620 --> 00:03:04,909
+And all of this work can be done right within LME.
+
+71
+00:03:04,909 --> 00:03:06,769
+So, let's take a look at what we've released, one by one.
+
+72
+00:03:06,769 --> 00:03:09,340
+Alright, the first item is called the LSSpace Engine.
+
+73
+00:03:09,340 --> 00:03:10,740
+So, what exactly is this?
+
+74
+00:03:10,740 --> 00:03:16,310
+So, to put it simply, what it does is, uh, it takes the existing tracing and evaluation...
+
+75
+00:03:16,310 --> 00:03:19,230
+as well as an open-source project he did before called OpenSWEET.
+
+76
+00:03:19,230 --> 00:03:21,870
+So, you can basically think of this project as an online version of CLCODE.
+
+77
+00:03:21,870 --> 00:03:22,810
+Projects like this one,
+
+78
+00:03:22,810 --> 00:03:26,010
+He actually rebuilt it from the ground up, uh, based on DeepAgent.
+
+79
+00:03:26,010 --> 00:03:31,389
+So, essentially, this brings together all the core capabilities of Lianquan's LSSpace platform.
+
+80
+00:03:31,389 --> 00:03:33,069
+So, based on the tracing,
+
+81
+00:03:33,069 --> 00:03:34,690
+Based on the data from our monitoring and tracing,
+
+82
+00:03:34,690 --> 00:03:36,850
+And then, uh, we perform cluster analysis.
+
+83
+00:03:36,850 --> 00:03:38,490
+We can then perform an analysis on the trace.
+
+84
+00:03:38,490 --> 00:03:40,329
+Previously, this feature was called 'Insights'.
+
+85
+00:03:40,329 --> 00:03:42,009
+And the results from that analysis...
+
+86
+00:03:42,009 --> 00:03:44,600
+This time, they've newly added the ability to diagnose and fix issues.
+
+87
+00:03:44,600 --> 00:03:49,080
+And both of these features rely on this engine, which allows you to link your online repositories.
+
+88
+00:03:49,080 --> 00:03:50,280
+So, why link to an offline repository?
+
+89
+00:03:50,280 --> 00:03:51,160
+Because, for one thing, you need the code.
+
+90
+00:03:51,160 --> 00:03:54,700
+For one thing, the LESWITCH platform itself has a deployment feature called LESMIX Deployment.
+
+91
+00:03:54,700 --> 00:03:57,340
+This part itself supports binding at the code level.
+
+92
+00:03:57,340 --> 00:03:58,380
+And based on this binding,
+
+93
+00:03:58,380 --> 00:03:59,500
+Only then will it help you create the image.
+
+94
+00:03:59,500 --> 00:04:00,640
+and then help you generate microservices.
+
+95
+00:04:00,640 --> 00:04:04,240
+So, the integration of code originally only went as far as the packaging and deployment stage.
+
+96
+00:04:04,240 --> 00:04:08,600
+But now, it's evolved to where I can directly take the code you provide and analyze it.
+
+97
+00:04:08,600 --> 00:04:11,060
+And then I'll submit a PR for you with suggestions on how to fix it.
+
+98
+00:04:11,060 --> 00:04:12,420
+And once the fix is done, it doesn't just end there.
+
+99
+00:04:12,420 --> 00:04:13,620
+I'll even run an evaluation for you.
+
+100
+00:04:13,620 --> 00:04:14,780
+And it'll even tell you, 'Hey, was this fix any good?'
+
+101
+00:04:14,780 --> 00:04:16,899
+or how you should further iterate on it.
+
+102
+00:04:16,899 --> 00:04:19,740
+They've turned this into a complete, self-contained loop.
+
+103
+00:04:19,740 --> 00:04:21,820
+And keep in mind, because it has monitoring capabilities,
+
+104
+00:04:21,820 --> 00:04:22,980
+It has production-grade monitoring capabilities.
+
+105
+00:04:22,980 --> 00:04:25,240
+So it can provide 24/7 monitoring.
+
+106
+00:04:25,240 --> 00:04:28,640
+So, what this means is that this entire series of actions is, in fact, a complete, closed loop.
+
+107
+00:04:28,640 --> 00:04:29,600
+And it does all this in the background,
+
+108
+00:04:29,600 --> 00:04:32,540
+Or, you could say, it's a process that just runs on its own.
+
+109
+00:04:32,540 --> 00:04:34,980
+Now, this might sound similar to something like, uh, Claude Code...
+
+110
+00:04:34,980 --> 00:04:40,110
+and some of the recently launched, uh, back-end products like engine, band, and agent are quite similar.
+
+111
+00:04:40,110 --> 00:04:42,539
+But what sets it apart is that it has an evaluation component.
+
+112
+00:04:42,539 --> 00:04:43,619
+and online analysis.
+
+113
+00:04:43,619 --> 00:04:44,259
+and tracing.
+
+114
+00:04:44,259 --> 00:04:46,359
+So it's a very complete set of capabilities from the LSMISS platform.
+
+115
+00:04:46,359 --> 00:04:49,499
+So, it's taking these concepts that were first proposed by others and actually making them happen.
+
+116
+00:04:49,499 --> 00:04:50,479
+In fact, they've done it even faster.
+
+117
+00:04:50,479 --> 00:04:52,029
+It's even more comprehensive.
+
+118
+00:04:52,029 --> 00:04:57,000
+And in fact, some companies, like Cogent Labs and Canva, are already using it for their internal testing.
+
+119
+00:04:57,000 --> 00:05:00,280
+Right now, for users on the team plan,
+
+120
+00:05:00,280 --> 00:05:03,140
+or Plus users, it's also publicly available for testing and use.
+
+121
+00:05:03,140 --> 00:05:06,300
+If I have the time, I'll also make a dedicated video on this topic for you all later on.
+
+122
+00:05:06,300 --> 00:05:08,100
+So, let me walk you through it.
+
+123
+00:05:08,100 --> 00:05:12,879
+Alright, so this is the absolute core of what they're pushing at this conference.
+
+124
+00:05:12,879 --> 00:05:14,970
+So basically, once you've developed your agent,
+
+125
+00:05:14,970 --> 00:05:16,210
+And then you just deploy it online.
+
+126
+00:05:16,210 --> 00:05:18,490
+And it's fully managed, helping you fix your code on its own.
+
+127
+00:05:18,490 --> 00:05:20,250
+and detect issues on its own.
+
+128
+00:05:20,250 --> 00:05:21,410
+Of course, it can't handle the actual business logic itself.
+
+129
+00:05:21,410 --> 00:05:24,920
+But overall, it's like having a partner you can completely trust.
+
+130
+00:05:24,920 --> 00:05:27,560
+and handle maintenance for you in the background.
+
+131
+00:05:27,560 --> 00:05:30,380
+Plus, it provides complete monitoring for your production systems.
+
+132
+00:05:30,380 --> 00:05:31,520
+Now, that's something worth thinking about.
+
+133
+00:05:31,520 --> 00:05:32,840
+So, this is actually a very broad topic.
+
+134
+00:05:32,840 --> 00:05:35,440
+And as for its usability, if they've done a good enough job with this part,
+
+135
+00:05:35,440 --> 00:05:39,109
+In fact, its capabilities for evaluation, assessment, and, uh, detection are done well enough.
+
+136
+00:05:39,109 --> 00:05:41,829
+So, its entire chain actually hits the mark at every single point.
+
+137
+00:05:41,829 --> 00:05:44,470
+So, it actually has some really strong usability.
+
+138
+00:05:44,470 --> 00:05:45,950
+Alright, let's move on to the second part.
+
+139
+00:05:45,950 --> 00:05:48,630
+But the second major product they rolled out is even more interesting.
+
+140
+00:05:48,630 --> 00:05:50,740
+It's called SmithDB.
+
+141
+00:05:50,740 --> 00:05:54,740
+And just from the name, you can probably already guess what's so interesting about it.
+
+142
+00:05:54,740 --> 00:05:59,330
+Can you imagine a company that, uh, makes agent frameworks...
+
+143
+00:05:59,330 --> 00:06:00,770
+It all started with just 760 lines of code.
+
+144
+00:06:00,770 --> 00:06:02,330
+A company that builds agent frameworks,
+
+145
+00:06:02,330 --> 00:06:04,290
+And last year, they were pretty quiet about it.
+
+146
+00:06:04,290 --> 00:06:07,759
+Actually, this is something we haven't really talked about at all within the community.
+
+147
+00:06:07,759 --> 00:06:08,939
+any of this description,
+
+148
+00:06:08,939 --> 00:06:10,599
+Unlike the other thing we're about to talk about.
+
+149
+00:06:10,599 --> 00:06:13,639
+Ah, the Model Gateway, actually, we talked about it in the community over a year ago.
+
+150
+00:06:13,639 --> 00:06:15,210
+We've briefly talked about this in our community group before.
+
+151
+00:06:15,210 --> 00:06:17,450
+But SmithDB is something we haven't talked about at all.
+
+152
+00:06:17,450 --> 00:06:19,050
+So, you can see some metrics up there.
+
+153
+00:06:19,050 --> 00:06:20,690
+But actually, you don't really need to worry about this.
+
+154
+00:06:20,690 --> 00:06:21,370
+So, why?
+
+155
+00:06:21,370 --> 00:06:25,200
+Because, at its core, the real takeaway here is that you have a company that builds frameworks...
+
+156
+00:06:25,200 --> 00:06:26,860
+So, naturally, they went and built their own database.
+
+157
+00:06:26,860 --> 00:06:28,400
+So, what about its performance right now?
+
+158
+00:06:28,400 --> 00:06:31,070
+To be honest, the current performance... well, it has seen some improvement.
+
+159
+00:06:31,070 --> 00:06:31,810
+Looks pretty good.
+
+160
+00:06:31,810 --> 00:06:33,470
+But I believe there's still a lot of room for improvement.
+
+161
+00:06:33,470 --> 00:06:35,290
+So, just take this number with a grain of salt for now.
+
+162
+00:06:35,290 --> 00:06:37,459
+All you need to know is, um, they went and built a database.
+
+163
+00:06:37,459 --> 00:06:38,339
+And it turns out this database is actually pretty good.
+
+164
+00:06:38,339 --> 00:06:39,699
+And, well, it's a great fit for its specific use case.
+
+165
+00:06:39,699 --> 00:06:40,979
+But what's more important is what we should be thinking about.
+
+166
+00:06:40,979 --> 00:06:44,440
+So, why did the LANCHEN team decide to build a database?
+
+167
+00:06:44,440 --> 00:06:46,000
+So, there are really two key points here.
+
+168
+00:06:46,000 --> 00:06:48,360
+First, it's built specifically for agents.
+
+169
+00:06:48,360 --> 00:06:50,700
+And the other is its strong emphasis on observability.
+
+170
+00:06:51,100 --> 00:06:52,460
+So, besides those two points,
+
+171
+00:06:52,460 --> 00:06:55,860
+We could start by assuming they might be using, say, some open-source databases like ClickHouse.
+
+172
+00:06:55,860 --> 00:06:58,810
+you might run into some issues with, uh, performance and horizontal scaling.
+
+173
+00:06:58,810 --> 00:06:59,810
+So, they decided to build their own database from scratch.
+
+174
+00:06:59,810 --> 00:07:00,830
+And then, they did a lot of fine-tuning.
+
+175
+00:07:00,830 --> 00:07:02,770
+A lot of work was done on Arch-based data fusion.
+
+176
+00:07:02,770 --> 00:07:04,500
+And from all that, they came up with this database.
+
+177
+00:07:04,500 --> 00:07:05,960
+I think that's pretty easy to understand.
+
+178
+00:07:05,960 --> 00:07:08,840
+But there's another point that's kind of implied here.
+
+179
+00:07:08,840 --> 00:07:12,680
+So, what I'm saying is, the current development of agents in our industry...
+
+180
+00:07:12,680 --> 00:07:14,640
+Or, to be more precise, overseas.
+
+181
+00:07:14,640 --> 00:07:20,190
+In the US and Europe, we're probably really starting to see an order-of-magnitude explosion.
+
+182
+00:07:20,190 --> 00:07:21,520
+This data explosion
+
+183
+00:07:21,520 --> 00:07:24,560
+This surge is inundating our traditional databases.
+
+184
+00:07:24,560 --> 00:07:28,920
+So, when it comes to handling observability or certain specific scenarios within the agent domain,
+
+185
+00:07:28,920 --> 00:07:31,100
+we started running into more and more problems.
+
+186
+00:07:31,100 --> 00:07:32,450
+So, in this situation,
+
+187
+00:07:32,450 --> 00:07:34,070
+So, a company like Lianquan can't just sit back and wait.
+
+188
+00:07:34,070 --> 00:07:35,730
+I mean, sure, I have a lot of open-source projects,
+
+189
+00:07:35,730 --> 00:07:36,250
+and everyone can go and use them.
+
+190
+00:07:36,250 --> 00:07:37,570
+But I can't just wait around.
+
+191
+00:07:37,570 --> 00:07:39,330
+They'd be like, 'Hey, could you help support our LanchSmith or something?'
+
+192
+00:07:39,330 --> 00:07:40,840
+Besides, Lansmith is closed-source.
+
+193
+00:07:40,840 --> 00:07:42,160
+So, in this kind of situation,
+
+194
+00:07:42,160 --> 00:07:46,310
+So, what this means is that industry-specific agents have indeed reached a certain level of maturity.
+
+195
+00:07:46,310 --> 00:07:49,390
+Because Lanchen started focusing on enterprise deployment very early on.
+
+196
+00:07:49,390 --> 00:07:50,990
+They got this information very early on.
+
+197
+00:07:50,990 --> 00:07:53,820
+And after a final evaluation, we realized it would be better to just build it ourselves.
+
+198
+00:07:53,820 --> 00:07:54,500
+and have more control over it.
+
+199
+00:07:54,500 --> 00:07:57,299
+And it also allows us to make specific optimizations in a more targeted way.
+
+200
+00:07:57,299 --> 00:07:58,539
+And that's what led to the creation of this solution.
+
+201
+00:07:58,539 --> 00:08:00,939
+So, the good news is about the current development of intelligent agents.
+
+202
+00:08:00,939 --> 00:08:03,660
+And it's true that we're doing this SmithDB project through Lianquan.
+
+203
+00:08:03,660 --> 00:08:09,380
+And we can see that this is a potential shift from a quantitative change to a qualitative one.
+
+204
+00:08:09,380 --> 00:08:11,800
+And on top of that, what we're also seeing is...
+
+205
+00:08:11,800 --> 00:08:14,930
+In the future, we might see more database vendors,
+
+206
+00:08:14,930 --> 00:08:18,870
+to be able to, in the field of agent and AI applications,
+
+207
+00:08:18,870 --> 00:08:23,739
+to provide more, uh, effective and targeted support for these kinds of capabilities.
+
+208
+00:08:23,739 --> 00:08:27,740
+and help us tackle many of the upcoming challenges in the AI agent ecosystem.
+
+209
+00:08:27,740 --> 00:08:29,780
+and tackle some of the specific issues that arise in agent systems.
+
+210
+00:08:29,780 --> 00:08:31,100
+Of course, this is just a preliminary assessment.
+
+211
+00:08:31,100 --> 00:08:35,100
+I just, uh, want to say that I was absolutely blown away by what I saw in this story.
+
+212
+00:08:35,100 --> 00:08:38,730
+And, you know, some of the key takeaways I got from really digging into this.
+
+213
+00:08:38,730 --> 00:08:40,690
+So I'd like to share them with you all.
+
+214
+00:08:40,690 --> 00:08:43,099
+The third offering is the Managed Deep Agent.
+
+215
+00:08:43,099 --> 00:08:44,779
+Simply put, this is DeepAgent.
+
+216
+00:08:44,779 --> 00:08:46,519
+Now you can directly host it.
+
+217
+00:08:46,519 --> 00:08:50,609
+So, how does this compare to what we had before, where we could host this LangGraph agent?
+
+218
+00:08:50,609 --> 00:08:53,089
+We can host our local LancheRAFT programs on the LESMISS platform.
+
+219
+00:08:53,089 --> 00:08:55,289
+So, what's the difference when you use LESMIPMENT for hosting instead?
+
+220
+00:08:55,289 --> 00:08:56,829
+Sounds pretty similar, right?
+
+221
+00:08:56,829 --> 00:08:59,229
+But there's a fundamental difference here.
+
+222
+00:08:59,229 --> 00:09:01,129
+So, bear with me here.
+
+223
+00:09:01,129 --> 00:09:06,500
+And a really great feature is that it can, uh...
+
+224
+00:09:06,500 --> 00:09:07,420
+So, if you're following along now,
+
+225
+00:09:07,420 --> 00:09:08,740
+This also includes the DeepAgent, which we'll get into later.
+
+226
+00:09:08,740 --> 00:09:09,520
+0.6.
+
+227
+00:09:09,520 --> 00:09:14,000
+One of its great features is that it supports profiles...
+
+228
+00:09:14,000 --> 00:09:16,470
+This means that our approach to developing agents has shifted from what it used to be.
+
+229
+00:09:16,470 --> 00:09:18,110
+You had to write the code correctly, right?
+
+230
+00:09:18,110 --> 00:09:21,350
+
+
+231
+00:09:21,350 --> 00:09:22,750
+Only then can you deploy it.
+
+232
+00:09:22,750 --> 00:09:24,830
+Once it's in production,
+
+233
+00:09:24,830 --> 00:09:30,450
+So, just because I'm talking about a minimal setup, doesn't mean I wouldn't deploy a DeepAgent program on it.
+
+234
+00:09:30,450 --> 00:09:32,290
+Because, at its core, the low-spec Agent program is just a program that connects to the graph.
+
+235
+00:09:32,290 --> 00:09:33,330
+So, it's the same as the original managed service.
+
+236
+00:09:33,330 --> 00:09:34,250
+Its nature hasn't changed at all.
+
+237
+00:09:34,250 --> 00:09:36,710
+And on the supported features side, we've also added a few new things to DeepAgent.
+
+238
+00:09:36,710 --> 00:09:38,359
+So, once you have the profile,
+
+239
+00:09:38,359 --> 00:09:41,999
+
+
+240
+00:09:41,999 --> 00:09:42,879
+a series of files.
+
+241
+00:09:42,879 --> 00:09:45,020
+For example, things like the agent's Markdown skills.
+
+242
+00:09:45,020 --> 00:09:46,720
+And this could include some scripts.
+
+243
+00:09:46,720 --> 00:09:48,960
+including the description of, uh, the device volume.
+
+244
+00:09:48,960 --> 00:09:50,640
+and finally, some configuration files.
+
+245
+00:09:50,640 --> 00:09:53,270
+or, say, some of the, uh, informational files for the MCP.
+
+246
+00:09:53,270 --> 00:09:58,069
+In fact, in a minimal setup, you could just upload these things for hosting.
+
+247
+00:09:58,069 --> 00:10:00,609
+and you'll have a deep agent up and running online.
+
+248
+00:10:00,609 --> 00:10:04,020
+And at the same time, you get to enjoy all the online observability features this platform offers.
+
+249
+00:10:04,020 --> 00:10:07,280
+And when you run it, it even includes a new official interface.
+
+250
+00:10:07,280 --> 00:10:09,280
+It's called the V-D-E-P-E-N-C-E API.
+
+251
+00:10:09,280 --> 00:10:12,120
+Our original API was called the Agent Protocol API.
+
+252
+00:10:12,120 --> 00:10:12,920
+It's all about threads.
+
+253
+00:10:12,920 --> 00:10:13,320
+and so on.
+
+254
+00:10:13,320 --> 00:10:13,960
+blah, blah, blah.
+
+255
+00:10:13,960 --> 00:10:15,440
+Man, that thing is so complicated.
+
+256
+00:10:15,440 --> 00:10:17,240
+To be honest, for a lot of people, getting this to work is a real pain.
+
+257
+00:10:17,240 --> 00:10:19,920
+And besides, people probably wouldn't really know how to use this 'useStream' thing anyway.
+
+258
+00:10:19,920 --> 00:10:22,750
+This means using the Lanchen-Graph SDK to connect and develop for both the front-end and back-end.
+
+259
+00:10:22,750 --> 00:10:23,950
+So, what about the D-training now?
+
+260
+00:10:23,950 --> 00:10:25,430
+It packages this into a simplified API.
+
+261
+00:10:25,430 --> 00:10:29,759
+This lets everyone focus more on, uh, the sandbox.
+
+262
+00:10:29,759 --> 00:10:31,800
+
+
+263
+00:10:31,800 --> 00:10:33,600
+It's like you're getting a whole API suite.
+
+264
+00:10:33,600 --> 00:10:35,000
+the processing layer of this API set.
+
+265
+00:10:35,000 --> 00:10:39,450
+It's like Open Cloud, a higher-dimensional layer for agent processing.
+
+266
+00:10:39,450 --> 00:10:41,430
+So, that's where the value of its hosting service comes in.
+
+267
+00:10:41,430 --> 00:10:44,480
+In fact, you can also use some of the interfaces from your underlying agents.
+
+268
+00:10:44,480 --> 00:10:46,420
+So, it's like you can also have higher-level interfaces on top of that.
+
+269
+00:10:46,420 --> 00:10:48,990
+And that means better support for developers of all kinds.
+
+270
+00:10:48,990 --> 00:10:51,790
+So, in the most streamlined scenario right now,
+
+271
+00:10:51,790 --> 00:10:53,300
+so that everyone can build an agent,
+
+272
+00:10:53,300 --> 00:10:56,660
+You can directly use LanChen's DeepAgent for rapid deep agent development.
+
+273
+00:10:56,660 --> 00:10:58,740
+And then with this managed deep agent,
+
+274
+00:10:58,740 --> 00:11:00,520
+and then deploy and run it online in no time.
+
+275
+00:11:00,520 --> 00:11:03,740
+This is much faster than developing the Lianquan-LangChain-LangGraph agents you've worked on before.
+
+276
+00:11:03,740 --> 00:11:04,240
+and then have it hosted.
+
+277
+00:11:04,240 --> 00:11:05,580
+It's even faster and more convenient.
+
+278
+00:11:05,580 --> 00:11:06,870
+This makes it a much better fit for everyone.
+
+279
+00:11:06,870 --> 00:11:09,350
+Out of habit, we probably just use whatever prompts the operating system gives us.
+
+280
+00:11:09,350 --> 00:11:13,550
+This is the kind of setup we're hoping for, where you just add MCPs and skills, and it's ready to go, which fits perfectly with some of our use cases.
+
+281
+00:11:13,550 --> 00:11:15,220
+So, that's the third item on our list.
+
+282
+00:11:15,220 --> 00:11:15,900
+The fourth item.
+
+283
+00:11:15,900 --> 00:11:17,540
+And for the fifth point, we've grouped these together.
+
+284
+00:11:17,540 --> 00:11:18,740
+So, what do we have here?
+
+285
+00:11:18,740 --> 00:11:20,140
+First off, Sandbox is now officially released.
+
+286
+00:11:20,140 --> 00:11:25,270
+Now, I'm not sure if we've covered this circular part of the sandbox before, have we?
+
+287
+00:11:25,270 --> 00:11:25,830
+and its features.
+
+288
+00:11:25,830 --> 00:11:32,590
+So, this is a sandbox capability that the Lianquan team specifically built themselves on Lancher.
+
+289
+00:11:32,590 --> 00:11:34,320
+It was originally in DeepAgent,
+
+290
+00:11:34,320 --> 00:11:36,840
+Whereas, in DeepAgent, it's more about integrating third-party solutions.
+
+291
+00:11:36,840 --> 00:11:37,200
+Sandbox.
+
+292
+00:11:37,200 --> 00:11:38,000
+For instance, the models.
+
+293
+00:11:38,000 --> 00:11:39,569
+Detona rain loop
+
+294
+00:11:39,569 --> 00:11:43,860
+So, right now, because they want to make the entire SB platform a closed loop...
+
+295
+00:11:43,860 --> 00:11:46,740
+And within this closed loop, a sandbox is absolutely essential.
+
+296
+00:11:46,740 --> 00:11:47,740
+Because without a sandbox,
+
+297
+00:11:47,740 --> 00:11:48,860
+your skills are completely unusable.
+
+298
+00:11:48,860 --> 00:11:51,450
+Because nowadays, pretty much all of our skills need to have it.
+
+299
+00:11:51,450 --> 00:11:53,810
+Or, it's making an external API call.
+
+300
+00:11:53,810 --> 00:11:54,910
+or calling external web APIs.
+
+301
+00:11:54,910 --> 00:11:56,430
+or you have scripts that execute locally.
+
+302
+00:11:56,430 --> 00:12:00,580
+So, at their core, all these things are really just about executing some local scripts.
+
+303
+00:12:00,580 --> 00:12:01,820
+Or even if you're just a guest user running it.
+
+304
+00:12:01,820 --> 00:12:05,350
+
+
+305
+00:12:05,350 --> 00:12:06,270
+So in a situation like this,
+
+306
+00:12:06,270 --> 00:12:07,710
+The thing is, you absolutely need a secure environment.
+
+307
+00:12:07,710 --> 00:12:08,870
+Because if you're running it online,
+
+308
+00:12:08,870 --> 00:12:10,430
+you don't have a secure, isolated environment to run it in.
+
+309
+00:12:10,430 --> 00:12:11,480
+And that's just terrifying.
+
+310
+00:12:11,480 --> 00:12:12,920
+So, a sandbox is a must-have.
+
+311
+00:12:12,920 --> 00:12:15,140
+So, to really nail this down, Leon Smith...
+
+312
+00:12:15,140 --> 00:12:17,220
+So, they've gone and built their own sandbox.
+
+313
+00:12:17,220 --> 00:12:20,020
+And as we'll mention later, this sandbox can also be integrated into, oh...
+
+314
+00:12:20,020 --> 00:12:23,260
+So, LSWIFLEET is their own no-code programming tool, right.
+
+315
+00:12:23,260 --> 00:12:24,100
+So, that's where Sandbox comes in.
+
+316
+00:12:24,100 --> 00:12:26,820
+But at the same time, who is this sandbox really for?
+
+317
+00:12:26,820 --> 00:12:28,130
+Well, it's obviously for the skills.
+
+318
+00:12:28,130 --> 00:12:30,970
+Alright, so for skills, they originally came from Lanchen Smith.
+
+319
+00:12:30,970 --> 00:12:33,370
+So, on LSMITH, there's something called the Lanchen Hub.
+
+320
+00:12:33,370 --> 00:12:37,340
+It's where you put, uh, your prompts.
+
+321
+00:12:37,340 --> 00:12:38,540
+So, these prompts are basically just a collection of files.
+
+322
+00:12:38,540 --> 00:12:39,740
+And it supports version control, right?
+
+323
+00:12:39,740 --> 00:12:40,540
+And then you can iterate over them.
+
+324
+00:12:40,540 --> 00:12:41,560
+and share them.
+
+325
+00:12:41,560 --> 00:12:42,740
+So, since prompts can be exposed,
+
+326
+00:12:42,740 --> 00:12:45,700
+So, nowadays, when people work with prompts, they tend to put them into what's called a 'skill'.
+
+327
+00:12:45,700 --> 00:12:49,130
+So naturally, this elevates the concept from just a prompt to a full context.
+
+328
+00:12:49,130 --> 00:12:50,730
+So, in that case, I can have a skill.
+
+329
+00:12:50,730 --> 00:12:52,270
+I can have my prompts,
+
+330
+00:12:52,270 --> 00:12:56,520
+I can have my agents, the markdown, and these system prompts all in one place.
+
+331
+00:12:56,520 --> 00:12:58,040
+So, it's still using the same management method as the previous hub, right?
+
+332
+00:12:58,040 --> 00:13:00,080
+And then you can branch it, or you can fork it.
+
+333
+00:13:00,080 --> 00:13:00,860
+So what can you do with it?
+
+334
+00:13:00,860 --> 00:13:03,240
+So, with all this, you don't even need to host your stuff on GitHub anymore.
+
+335
+00:13:03,240 --> 00:13:05,120
+And then, you can have dynamic skill pulling.
+
+336
+00:13:05,120 --> 00:13:06,620
+dynamic skill pulling.
+
+337
+00:13:06,620 --> 00:13:09,280
+And it's exactly the same as how we managed the prompts for 'print' back then.
+
+338
+00:13:09,280 --> 00:13:11,840
+So now, they've renamed this thing to...
+
+339
+00:13:11,840 --> 00:13:12,980
+It should be a new module.
+
+340
+00:13:12,980 --> 00:13:13,980
+called 'context'.
+
+341
+00:13:13,980 --> 00:13:14,980
+Pro-context.
+
+342
+00:13:14,980 --> 00:13:16,670
+So the Hub's scope is much broader now.
+
+343
+00:13:16,670 --> 00:13:19,390
+The original prompt capabilities are actually still retained within LSmith.
+
+344
+00:13:19,390 --> 00:13:20,290
+But don't worry,
+
+345
+00:13:20,290 --> 00:13:22,370
+So, these two components actually form a very effective combination.
+
+346
+00:13:22,370 --> 00:13:27,610
+It's more about creating a reliable, production-grade environment for using these skills.
+
+347
+00:13:27,610 --> 00:13:29,030
+So, that's why we're talking about these two parts together.
+
+348
+00:13:29,030 --> 00:13:29,930
+Moving on,
+
+349
+00:13:29,930 --> 00:13:32,590
+So, this was something we started working on over a year ago.
+
+350
+00:13:32,590 --> 00:13:34,590
+It was even mentioned in our ambassador group chat two years ago.
+
+351
+00:13:34,590 --> 00:13:36,829
+And back then, we were like, 'Alright everyone, this is what we're going to build.'
+
+352
+00:13:36,829 --> 00:13:38,109
+So, the Model Gateway.
+
+353
+00:13:38,109 --> 00:13:39,229
+And we were like, 'So, who wants to give it a try?'
+
+354
+00:13:39,229 --> 00:13:40,029
+And we raised our hands.
+
+355
+00:13:40,029 --> 00:13:41,339
+And that's pretty much it.
+
+356
+00:13:41,339 --> 00:13:43,239
+But this is something you just have to have.
+
+357
+00:13:43,239 --> 00:13:45,720
+So, now that we've fully integrated this Agent Engineering Platform,
+
+358
+00:13:45,720 --> 00:13:48,320
+Nowadays, everyone is doing Model as a Service.
+
+359
+00:13:48,320 --> 00:13:49,640
+or in other words, MaaS, Model as a Service.
+
+360
+00:13:49,640 --> 00:13:51,890
+So, how could you possibly not have SmithDB?
+
+361
+00:13:51,890 --> 00:13:52,470
+Right?
+
+362
+00:13:52,470 --> 00:13:53,050
+If you don't have it,
+
+363
+00:13:53,050 --> 00:13:54,570
+and then you have all these hosted programs connected to it.
+
+364
+00:13:54,570 --> 00:13:54,890
+What the heck is that?
+
+365
+00:13:54,890 --> 00:13:55,900
+It's just a total nightmare.
+
+366
+00:13:55,900 --> 00:13:58,560
+So, that's why a solution like Lianquan is a must-have.
+
+367
+00:13:58,560 --> 00:14:01,060
+So, something like this was bound to exist, right?
+
+368
+00:14:01,060 --> 00:14:02,180
+And then, a little over a year later...
+
+369
+00:14:02,180 --> 00:14:03,460
+And now, we have it.
+
+370
+00:14:03,460 --> 00:14:04,300
+And I'm not surprised at all.
+
+371
+00:14:04,300 --> 00:14:05,730
+And it's definitely a must-have.
+
+372
+00:14:05,730 --> 00:14:08,130
+So, everyone, pay attention. Besides just making connections...
+
+373
+00:14:08,130 --> 00:14:10,750
+besides connecting to different database providers, right?
+
+374
+00:14:10,750 --> 00:14:12,150
+So, what other capabilities does it have?
+
+375
+00:14:12,150 --> 00:14:13,040
+Now, pay attention to the bottom.
+
+376
+00:14:13,040 --> 00:14:14,520
+First off, I won't spend much time on its tracing capabilities.
+
+377
+00:14:14,520 --> 00:14:16,200
+This is the best part about LSSpace.
+
+378
+00:14:16,200 --> 00:14:17,360
+It can monitor absolutely everything for you.
+
+379
+00:14:17,360 --> 00:14:19,010
+So you don't have to worry about tracing at all.
+
+380
+00:14:19,010 --> 00:14:21,450
+And then there's the real-time spending on security.
+
+381
+00:14:21,450 --> 00:14:22,530
+So that's about the cost, right?
+
+382
+00:14:22,530 --> 00:14:24,070
+And of course, regulatory monitoring is a must-have.
+
+383
+00:14:24,070 --> 00:14:27,230
+Additionally, it offers some supplementary security capabilities.
+
+384
+00:14:27,230 --> 00:14:31,640
+This includes the detection and anonymization of personal information and keys.
+
+385
+00:14:31,640 --> 00:14:33,920
+So, they've actually built all of that related functionality right in.
+
+386
+00:14:33,920 --> 00:14:37,680
+Actually, speaking of this area, there's COOPPILOT, which just secured its Series A funding.
+
+387
+00:14:37,680 --> 00:14:40,539
+So, this COPILOT, it's actually the one behind AGUI.
+
+388
+00:14:40,539 --> 00:14:41,779
+Their, uh, company.
+
+389
+00:14:41,779 --> 00:14:45,419
+So, the whole point of them creating this AGUI in the first place was to build this kind of broker.
+
+390
+00:14:45,419 --> 00:14:48,640
+So, besides connecting to the backend services of various, uh, agents,
+
+391
+00:14:48,640 --> 00:14:50,840
+Another huge part of what they do is providing value-added services.
+
+392
+00:14:50,840 --> 00:14:53,580
+This includes tracing and security hardening.
+
+393
+00:14:53,580 --> 00:14:54,500
+to handle the governance.
+
+394
+00:14:54,500 --> 00:14:57,180
+So, for all of this, you won't need to look for anyone else.
+
+395
+00:14:57,180 --> 00:14:59,780
+You can get everything done just by using our Lanche Miss.
+
+396
+00:14:59,780 --> 00:15:03,200
+So, everything you need is definitely there. And moving on, we have Fleet.
+
+397
+00:15:03,200 --> 00:15:05,160
+Lantern Fleet, which was formerly known as Lantern Agent Builder.
+
+398
+00:15:05,160 --> 00:15:06,440
+We've actually made a few videos about this for you all.
+
+399
+00:15:06,440 --> 00:15:08,189
+So, to put it simply,
+
+400
+00:15:11,389 --> 00:15:12,749
+And it's undergone some evolution since then.
+
+401
+00:15:12,749 --> 00:15:14,040
+So basically, it makes things super convenient.
+
+402
+00:15:14,040 --> 00:15:15,280
+So you just start right in with a conversation, right?
+
+403
+00:15:15,280 --> 00:15:15,840
+and after you're done talking,
+
+404
+00:15:15,840 --> 00:15:16,880
+And it does this right in the middle of the conversation.
+
+405
+00:15:16,880 --> 00:15:19,000
+It's actually already performing some intelligent processing for you in the background.
+
+406
+00:15:19,000 --> 00:15:20,880
+And then you think, 'Hey, it handled that task pretty well.'
+
+407
+00:15:20,880 --> 00:15:22,000
+And then, you just have to click a single button.
+
+408
+00:15:22,000 --> 00:15:24,510
+and say, 'Turn this conversation into an agent.'
+
+409
+00:15:24,510 --> 00:15:25,890
+And just like that, it becomes an agent.
+
+410
+00:15:25,890 --> 00:15:28,910
+And this whole experience is actually designed to be incredibly natural.
+
+411
+00:15:28,910 --> 00:15:30,170
+So, what exactly is this agent?
+
+412
+00:15:30,170 --> 00:15:32,699
+And once the agent is built, it becomes a deep agent.
+
+413
+00:15:32,699 --> 00:15:34,519
+And for this Deep Agent, you'll notice, hey, can we host it right from the get-go?
+
+414
+00:15:34,519 --> 00:15:36,539
+So you can see how it all comes together.
+
+415
+00:15:36,539 --> 00:15:38,459
+So, what's the new feature they've added here?
+
+416
+00:15:38,459 --> 00:15:39,599
+The sandbox is now ready.
+
+417
+00:15:39,599 --> 00:15:40,519
+And that's exactly what we mentioned earlier.
+
+418
+00:15:40,519 --> 00:15:44,540
+So, you'll see the combination of the SBOX GA we mentioned earlier and the Context Hub.
+
+419
+00:15:44,540 --> 00:15:46,200
+I mean, isn't that exactly what it was built for?
+
+420
+00:15:46,200 --> 00:15:47,240
+So with all these components in place,
+
+421
+00:15:47,240 --> 00:15:49,320
+On top of that, they've also newly customized a batch of...
+
+422
+00:15:49,320 --> 00:15:52,789
+And what we're looking at next is a new batch of custom-built preview agents.
+
+423
+00:15:52,789 --> 00:15:53,929
+Basically, it's there for you to use as a template.
+
+424
+00:15:53,929 --> 00:15:56,149
+For instance, let's say you want to build your own CM system.
+
+425
+00:15:56,149 --> 00:15:58,309
+Lianquan has actually published an official article about this.
+
+426
+00:15:58,309 --> 00:16:01,009
+to explain how they built their own internal CIM for clients.
+
+427
+00:16:01,009 --> 00:16:02,129
+a system for collecting customer research.
+
+428
+00:16:02,129 --> 00:16:04,329
+And of course, behind the scenes, it's all powered by DeepAgent.
+
+429
+00:16:04,329 --> 00:16:06,049
+And you can pair that with some official templates.
+
+430
+00:16:06,049 --> 00:16:09,850
+And when you combine that with the official, uh, online no-code programming capabilities...
+
+431
+00:16:09,850 --> 00:16:13,550
+So basically, you can just think of it as an enterprise-grade version of OpenCore.
+
+432
+00:16:13,550 --> 00:16:14,470
+And it actually has that capability as well.
+
+433
+00:16:14,470 --> 00:16:16,070
+This also includes support for channels, which is already available now.
+
+434
+00:16:16,070 --> 00:16:16,870
+You can go ahead and connect to it.
+
+435
+00:16:16,870 --> 00:16:17,990
+Of course, these are all connections to overseas platforms.
+
+436
+00:16:17,990 --> 00:16:19,390
+Things like, you know, Slack,
+
+437
+00:16:19,390 --> 00:16:21,470
+and then there's Microsoft Teams, and all that stuff.
+
+438
+00:16:21,470 --> 00:16:25,450
+But anyway, at its core, it's really just an enterprise version of an open-source core.
+
+439
+00:16:25,450 --> 00:16:27,079
+So, it's a tool that's pretty much like that.
+
+440
+00:16:27,079 --> 00:16:27,879
+It's ready to use right out of the box.
+
+441
+00:16:27,879 --> 00:16:31,279
+And it's designed to be used by anyone, whether you're a programmer or a non-technical person.
+
+442
+00:16:31,279 --> 00:16:32,350
+and it's also incredibly easy to use.
+
+443
+00:16:32,350 --> 00:16:34,970
+And it also comes with free model usage credits.
+
+444
+00:16:34,970 --> 00:16:36,500
+And it's all powered by Fireworks.
+
+445
+00:16:36,500 --> 00:16:38,140
+So, with this upgrade in capability,
+
+446
+00:16:38,140 --> 00:16:40,300
+And that just turns Fleet into a toy.
+
+447
+00:16:40,300 --> 00:16:43,750
+Because the biggest problem with it being just a toy is that it doesn't have a sandbox.
+
+448
+00:16:43,750 --> 00:16:45,670
+So, the vast majority of the skills you find are basically unusable.
+
+449
+00:16:45,670 --> 00:16:46,990
+I mean, those great skills you find online,
+
+450
+00:16:46,990 --> 00:16:47,910
+most of them are just unusable.
+
+451
+00:16:47,910 --> 00:16:49,340
+So now that we have the skills,
+
+452
+00:16:49,340 --> 00:16:50,520
+And basically, that's all there is to it.
+
+453
+00:16:50,520 --> 00:16:51,540
+And just like that, it's ready for production.
+
+454
+00:16:51,540 --> 00:16:54,180
+And on top of that, you have the tracing capabilities of LanchSmith itself.
+
+455
+00:16:54,180 --> 00:16:57,020
+All the conversational elements you use within Fleet...
+
+456
+00:16:57,020 --> 00:16:59,580
+All the tracing is done silently in the background, all at once.
+
+457
+00:16:59,580 --> 00:17:01,180
+It helps you log that into LSSmith.
+
+458
+00:17:01,180 --> 00:17:02,200
+And then you can run your analysis.
+
+459
+00:17:02,200 --> 00:17:04,880
+And then you can use the LSSmith engine.
+
+460
+00:17:04,880 --> 00:17:09,450
+and then it will help you with that silent, offline, autonomous code debugging.
+
+461
+00:17:09,450 --> 00:17:11,210
+And you'll find this thing is just incredibly useful.
+
+462
+00:17:11,210 --> 00:17:13,510
+It's a complete, end-to-end, fully integrated solution for you.
+
+463
+00:17:13,750 --> 00:17:15,990
+Alright, so we've covered a lot so far.
+
+464
+00:17:15,990 --> 00:17:18,550
+The good news is, wow, Lianquan's stuff has become incredibly powerful.
+
+465
+00:17:18,550 --> 00:17:21,250
+The bad news is, all that stuff you just saw...
+
+466
+00:17:21,250 --> 00:17:24,970
+And all of this happens within Lianquan's one and only commercialized product.
+
+467
+00:17:24,970 --> 00:17:25,790
+on the Lianchuan platform.
+
+468
+00:17:25,790 --> 00:17:29,579
+So, what that means is, everyone will have to, um, pay for it.
+
+469
+00:17:29,579 --> 00:17:32,419
+or through a private, on-premise deployment of the enterprise edition.
+
+470
+00:17:32,419 --> 00:17:35,230
+to be able to use these capabilities.
+
+471
+00:17:35,230 --> 00:17:38,950
+And for the last two, well, the open-source community still has contributions to make.
+
+472
+00:17:38,950 --> 00:17:42,950
+But if you compare it to the previous ones, you'll find that the stuff in this conference is actually relatively open-source.
+
+473
+00:17:42,950 --> 00:17:46,320
+So, the amount of work involved here is gradually decreasing, relatively speaking.
+
+474
+00:17:46,320 --> 00:17:48,240
+Unlike the last couple of days, where everything was all about open-source stuff.
+
+475
+00:17:48,240 --> 00:17:50,550
+Everything was about open-source or experimental stuff, not so much on the commercial side.
+
+476
+00:17:50,550 --> 00:17:52,350
+And that's actually pretty easy to understand.
+
+477
+00:17:52,350 --> 00:17:54,510
+After all, Lianquan did secure its Series B funding last year.
+
+478
+00:17:54,510 --> 00:17:56,790
+So after that Series B, their goal is to make money from their skills.
+
+479
+00:17:56,790 --> 00:17:59,330
+And then, you know, you can make more money, right?
+
+480
+00:17:59,330 --> 00:18:01,330
+And then, they're pushing for an IPO.
+
+481
+00:18:01,330 --> 00:18:04,450
+So, you'll probably see that the main focus now is on Lancher.
+
+482
+00:18:04,450 --> 00:18:05,050
+So, during the open-source phase,
+
+483
+00:18:05,050 --> 00:18:06,250
+So, what have we brought for you this time?
+
+484
+00:18:06,250 --> 00:18:08,260
+First up is DeepAgent 0.6.
+
+485
+00:18:08,260 --> 00:18:10,100
+This version will be packed with some new capabilities.
+
+486
+00:18:10,100 --> 00:18:11,640
+This includes things like a code interpreter.
+
+487
+00:18:11,640 --> 00:18:12,860
+a lightweight, local sandbox.
+
+488
+00:18:12,860 --> 00:18:15,230
+So, you can think of typed streaming output like this...
+
+489
+00:18:15,230 --> 00:18:17,390
+And this is all made possible by the ever-increasing capabilities of the models we rely on.
+
+490
+00:18:17,390 --> 00:18:19,910
+And our structured outputs can also be streamed.
+
+491
+00:18:19,910 --> 00:18:21,170
+And we'll have relevant support for this as well.
+
+492
+00:18:21,170 --> 00:18:23,030
+As long as the channel part is happening within LangGraph,
+
+493
+00:18:23,030 --> 00:18:25,830
+So, more importantly, LangGraph is, uh, a state graph, right?
+
+494
+00:18:25,830 --> 00:18:27,970
+It will pass the state to you as it moves through the different workflows.
+
+495
+00:18:27,970 --> 00:18:28,950
+So, originally, it was a full refresh.
+
+496
+00:18:28,950 --> 00:18:30,600
+So now, when we factor in performance and cost,
+
+497
+00:18:30,600 --> 00:18:32,920
+So, it's pretty much a given that using deltas is the better option.
+
+498
+00:18:32,920 --> 00:18:35,230
+So, this feature isn't turned on by default.
+
+499
+00:18:35,230 --> 00:18:37,670
+But you can do that through these integration methods in Upin.
+
+500
+00:18:37,670 --> 00:18:39,200
+when you're defining your channel.
+
+501
+00:18:39,200 --> 00:18:40,080
+the method of transmission.
+
+502
+00:18:40,080 --> 00:18:40,800
+It has a parameter.
+
+503
+00:18:40,800 --> 00:18:43,320
+So, you can use this parameter to enable its delta channel.
+
+504
+00:18:43,320 --> 00:18:45,590
+This part actually happens on the zero-GPU instance.
+
+505
+00:18:45,590 --> 00:18:49,870
+Additionally, on the application side, it helps everyone better integrate D on the front end.
+
+506
+00:18:49,870 --> 00:18:51,250
+There's also more support available for training.
+
+507
+00:18:51,250 --> 00:18:53,690
+Now, for the front-end SDK, as you all know, it originally only supported React.
+
+508
+00:18:53,690 --> 00:18:55,130
+So now, we've got support for React and Vue.
+
+509
+00:18:55,130 --> 00:19:00,300
+And now we have support for Angular, Vue, and other frameworks as well.
+
+510
+00:19:00,300 --> 00:19:02,020
+So, these four are basically the mainstream ones.
+
+511
+00:19:02,020 --> 00:19:04,060
+So, we've got support for all four major front-end frameworks now.
+
+512
+00:19:04,060 --> 00:19:07,980
+
+
+513
+00:19:07,980 --> 00:19:11,500
+This allows you to quickly use an interface function like 'useDream'.
+
+514
+00:19:11,500 --> 00:19:14,180
+to leverage the capabilities behind your DeepAgent, and so on.
+
+515
+00:19:14,180 --> 00:19:16,040
+and all that... you know...
+
+516
+00:19:16,040 --> 00:19:17,280
+including human-in-the-loop interventions,
+
+517
+00:19:17,280 --> 00:19:19,810
+and the human-in-the-loop capabilities—all of these features are just thrown into the mix at once.
+
+518
+00:19:19,810 --> 00:19:21,210
+So, they are now making it open-source.
+
+519
+00:19:21,210 --> 00:19:22,730
+And this time, it's actually a really great opportunity.
+
+520
+00:19:22,730 --> 00:19:24,530
+So, on top of the fundamental capabilities,
+
+521
+00:19:24,530 --> 00:19:27,920
+This expansion also puts a strong emphasis on enhancing its end-to-end capabilities.
+
+522
+00:19:27,920 --> 00:19:28,760
+
+
+523
+00:19:28,760 --> 00:19:32,100
+
+
+524
+00:19:32,100 --> 00:19:35,780
+For instance, they've even set up a, uh, chatbot right on the page for you to try out.
+
+525
+00:19:35,780 --> 00:19:38,540
+This just goes to show you how easily all this stuff can be turned into a full-fledged application.
+
+526
+00:19:38,540 --> 00:19:39,420
+and you can just go ahead and use it.
+
+527
+00:19:39,420 --> 00:19:40,520
+So, yeah, it's got stuff like that.
+
+528
+00:19:40,520 --> 00:19:42,200
+So, what's the other open-source offering?
+
+529
+00:19:42,200 --> 00:19:43,520
+So, this thing is basically a forward-looking product.
+
+530
+00:19:43,520 --> 00:19:45,240
+And that's LANCHLSE.
+
+531
+00:19:45,240 --> 00:19:46,720
+So, why does this thing even exist?
+
+532
+00:19:46,720 --> 00:19:47,520
+And it's actually pretty easy to see why.
+
+533
+00:19:47,520 --> 00:19:48,880
+So, basically, over the past year,
+
+534
+00:19:48,880 --> 00:19:53,430
+They've poured a ton of effort and time into closing the loop for this Lanchen platform.
+
+535
+00:19:53,430 --> 00:19:55,430
+to deploy production-grade, enterprise-level intelligent agents.
+
+536
+00:19:55,430 --> 00:19:56,610
+This whole process is now a complete, closed loop.
+
+537
+00:19:56,610 --> 00:19:57,720
+They've completely打通了 the entire chain.
+
+538
+00:19:57,720 --> 00:19:59,280
+So, what's missing now?
+
+539
+00:19:59,280 --> 00:20:00,460
+So, Lianquan is now open-source.
+
+540
+00:20:00,460 --> 00:20:01,760
+And that's not even getting into the closed-source parts.
+
+541
+00:20:01,760 --> 00:20:02,600
+So, I'm looking at the open-source community,
+
+542
+00:20:02,600 --> 00:20:03,660
+So, what's missing right now?
+
+543
+00:20:03,660 --> 00:20:05,670
+It does have some pretty obvious gaps.
+
+544
+00:20:05,670 --> 00:20:06,890
+Take the open-source community, for example.
+
+545
+00:20:06,890 --> 00:20:08,790
+And now, when it comes to channels like open source,
+
+546
+00:20:08,790 --> 00:20:10,650
+He hasn't done much in that regard.
+
+547
+00:20:10,650 --> 00:20:11,630
+They've basically done nothing.
+
+548
+00:20:11,630 --> 00:20:15,390
+And another thing is, he compromised on the file system for cloud code back then.
+
+549
+00:20:15,390 --> 00:20:16,830
+Although, to be fair, LangChain does have a virtual file system.
+
+550
+00:20:16,830 --> 00:20:18,230
+But in reality, it was still a compromise.
+
+551
+00:20:18,230 --> 00:20:19,389
+It's primarily file-system-based.
+
+552
+00:20:19,389 --> 00:20:20,549
+And on top of that,
+
+553
+00:20:20,549 --> 00:20:21,949
+Because it's based on a file system,
+
+554
+00:20:21,949 --> 00:20:23,709
+So, it's also made some compromises when it comes to its memory capabilities.
+
+555
+00:20:23,709 --> 00:20:26,640
+So, they didn't really dig deep into the original Land Memory project.
+
+556
+00:20:26,640 --> 00:20:31,290
+So now, it mostly uses things like Agent Markdown as a system-level memory, and so on and so forth.
+
+557
+00:20:31,290 --> 00:20:32,650
+So its memory capabilities are also a weak point.
+
+558
+00:20:32,650 --> 00:20:34,770
+Take frameworks like Hermit, for example.
+
+559
+00:20:34,770 --> 00:20:35,890
+Actually, things like self-purifying memory...
+
+560
+00:20:35,890 --> 00:20:37,770
+all sorts of things are popping up and flying around everywhere.
+
+561
+00:20:37,770 --> 00:20:38,170
+And all that stuff...
+
+562
+00:20:38,170 --> 00:20:39,830
+But you'll notice that Lantern hasn't been making much noise about all this stuff.
+
+563
+00:20:39,830 --> 00:20:44,380
+So, looking ahead, I believe all these things will eventually be handled through Lantern Lapse.
+
+564
+00:20:44,380 --> 00:20:45,900
+to conduct relevant experiments and make releases.
+
+565
+00:20:45,900 --> 00:20:47,860
+Because this Lapse is designed to carry a very important objective.
+
+566
+00:20:47,860 --> 00:20:52,250
+This is all about incubating the capability for continuous learning.
+
+567
+00:20:52,250 --> 00:20:56,330
+Now, to incubate this capability, we'll be using a lot of tools, including things like evaluation and assessment.
+
+568
+00:20:56,330 --> 00:21:01,050
+This includes the reinforcement of various new frameworks and capabilities.
+
+569
+00:21:01,050 --> 00:21:02,570
+and the support systems for learning.
+
+570
+00:21:02,570 --> 00:21:05,290
+So, all of this will be done in collaboration with even more partners.
+
+571
+00:21:05,290 --> 00:21:06,090
+including NVIDIA,
+
+572
+00:21:06,090 --> 00:21:08,920
+and partners like Fireworks to work on this together.
+
+573
+00:21:08,920 --> 00:21:11,520
+This was specifically mentioned in an article on their Labs.
+
+574
+00:21:11,520 --> 00:21:14,500
+And we'll be bringing more open-source offerings to you all in the future as well.
+
+575
+00:21:14,500 --> 00:21:17,460
+So, you guys don't need to worry too much about not having open-source stuff to use in the future.
+
+576
+00:21:17,460 --> 00:21:19,040
+and Lianquan would become a purely commercial entity.
+
+577
+00:21:19,040 --> 00:21:22,759
+All I can say is that commercialization is absolutely essential for Lianquan, the company, to survive.
+
+578
+00:21:22,759 --> 00:21:25,620
+and a crucial foundation for it to grow bigger and stronger.
+
+579
+00:21:25,620 --> 00:21:26,680
+But open source, though...
+
+580
+00:21:26,680 --> 00:21:27,460
+the very essence of open source,
+
+581
+00:21:27,460 --> 00:21:28,220
+the very essence of open source,
+
+582
+00:21:30,040 --> 00:21:33,670
+So, we're also hoping to collaborate more with different communities.
+
+583
+00:21:33,670 --> 00:21:37,740
+So that we can do a great job on both open source and commercialization at the same time.
+
+584
+00:21:37,740 --> 00:21:38,500
+Because I've always believed that...
+
+585
+00:21:38,500 --> 00:21:39,300
+if your business side isn't solid,
+
+586
+00:21:39,300 --> 00:21:40,740
+then your open-source efforts will also struggle to survive.
+
+587
+00:21:40,740 --> 00:21:43,420
+So, we're also looking forward to seeing how we can create a better connection and integration between them.
+
+588
+00:21:43,420 --> 00:21:46,940
+This way, everyone, especially individual users, can benefit from great open-source products.
+
+589
+00:21:46,940 --> 00:21:48,220
+and solve a lot of personal problems for everyone.
+
+590
+00:21:48,220 --> 00:21:50,180
+and then scale that up to the enterprise level.
+
+591
+00:21:50,180 --> 00:21:52,000
+And this also opens up more commercial options for everyone.
+
+592
+00:21:52,000 --> 00:21:55,040
+Alright, so let's wrap things up.
+
+593
+00:21:55,040 --> 00:21:57,040
+So, what you'll see after this latest release is...
+
+594
+00:21:57,040 --> 00:21:58,500
+Especially with the LSSpace product.
+
+595
+00:21:58,500 --> 00:22:02,210
+We've got everything covered, from development and testing to deployment, governance, and infrastructure.
+
+596
+00:22:02,210 --> 00:22:04,980
+We've got a complete, end-to-end solution covered.
+
+597
+00:22:04,980 --> 00:22:07,440
+So, for those of you who are looking to expand internationally,
+
+598
+00:22:07,440 --> 00:22:10,339
+So, if you start getting into Lianquan's ecosystem right now,
+
+599
+00:22:10,339 --> 00:22:12,119
+and get started with Lianquan's low-configuration version,
+
+600
+00:22:12,119 --> 00:22:15,220
+This includes using our Lianquan V1 framework to learn how to develop intelligent agents.
+
+601
+00:22:15,220 --> 00:22:18,960
+You'll be able to get a commercially viable agent up and running in no time.
+
+602
+00:22:18,960 --> 00:22:20,350
+and put it to work for your business.
+
+603
+00:22:20,350 --> 00:22:21,670
+So, for our friends here in China,
+
+604
+00:22:21,670 --> 00:22:25,750
+And we're also looking forward to sharing more with you all in the future, uh...
+
+605
+00:22:25,750 --> 00:22:27,110
+more options.
+
+606
+00:22:27,110 --> 00:22:31,330
+to help everyone understand where we are with Lianquan right now.
+
+607
+00:22:31,330 --> 00:22:34,270
+We've actually already outlined a vision for our future development.
+
+608
+00:22:34,270 --> 00:22:36,330
+It's just that a lot of it has already been commercialized.
+
+609
+00:22:36,330 --> 00:22:37,600
+So, what other options do we have?
+
+610
+00:22:37,600 --> 00:22:38,880
+So, from an open-source perspective,
+
+611
+00:22:38,880 --> 00:22:41,200
+So what other options do we have, um...
+
+612
+00:22:41,200 --> 00:22:44,280
+so that we can enjoy these near-commercial-grade capabilities,
+
+613
+00:22:44,280 --> 00:22:46,400
+while still maintaining its open-source nature.
+
+614
+00:22:46,400 --> 00:22:50,640
+And at the same time, it empowers our peers here in China to experiment and explore even more.
+
+615
+00:22:50,640 --> 00:22:52,090
+So, is that even possible?
+
+616
+00:22:52,090 --> 00:22:56,090
+I'll be covering more on this in some of my future videos.
+
+617
+00:22:56,090 --> 00:22:59,660
+And yes, we do have quite a few good options like this available in China as well.
+
+618
+00:22:59,660 --> 00:23:01,900
+So, if you've made it this far into the video,
+
+619
+00:23:01,900 --> 00:23:03,820
+We also look forward to hearing from you in the comments section,
+
+620
+00:23:03,820 --> 00:23:06,060
+and continue the conversation in our Lark group chat.
+
+621
+00:23:06,060 --> 00:23:08,660
+And so, as the Lianquan community, we also...
+
+622
+00:23:08,660 --> 00:23:13,050
+And we're really keen to hear more of your thoughts on the open-source versus commercial side of things.
+
+623
+00:23:13,050 --> 00:23:14,930
+Or, to put it another way, what are your expectations?
+
+624
+00:23:14,930 --> 00:23:17,000
+Because, you know, we are definitely going to keep the open-source part going.
+
+625
+00:23:17,000 --> 00:23:18,720
+So, I'm really looking forward to the discussion and exchange of ideas from all of you.
+
+626
+00:23:18,720 --> 00:23:20,120
+Alright, that's all we have for our sharing session today.
+
+627
+00:23:20,120 --> 00:23:21,180
+Thank you, everyone.
+

@@ -1,0 +1,2536 @@
+1
+00:00:00,260 --> 00:00:01,380
+As an AI product manager
+
+2
+00:00:01,380 --> 00:00:04,640
+What kind of products should we implement within the enterprise?
+
+3
+00:00:04,640 --> 00:00:06,960
+when applying AI technologies
+
+4
+00:00:06,960 --> 00:00:09,140
+So what are the three main paradigms that exist?
+
+5
+00:00:09,140 --> 00:00:10,440
+like and favorite
+
+6
+00:00:10,440 --> 00:00:12,790
+You will definitely come back to review this video.
+
+7
+00:00:12,790 --> 00:00:16,400
+The first type is the copilot intelligent assistant category.
+
+8
+00:00:16,400 --> 00:00:19,700
+for example, iFlytek Spark, such a personal assistant
+
+9
+00:00:19,700 --> 00:00:22,580
+This AI plays a supporting role.
+
+10
+00:00:22,580 --> 00:00:26,540
+providing writing polishing, content generation suggestions, and alternative options
+
+11
+00:00:26,540 --> 00:00:29,240
+but the AI does not perform critical operations
+
+12
+00:00:29,240 --> 00:00:31,420
+Ultimately, whether to adopt it or not is still decided by the user.
+
+13
+00:00:32,500 --> 00:00:34,480
+The second type is the embedding category
+
+14
+00:00:34,480 --> 00:00:34,880
+Embedding
+
+15
+00:00:34,880 --> 00:00:37,850
+Embedding refers to incorporating AI capabilities as an independent module
+
+16
+00:00:37,850 --> 00:00:40,650
+or as a node, embedded into our current complex
+
+17
+00:00:40,650 --> 00:00:43,700
+a specific node within such a workflow
+
+18
+00:00:43,700 --> 00:00:46,900
+This AI is only responsible for this small segment
+
+19
+00:00:46,900 --> 00:00:47,720
+such an output
+
+20
+00:00:47,720 --> 00:00:49,940
+It usually does not interfere with other processes.
+
+21
+00:00:49,940 --> 00:00:52,330
+The third one is Agent
+
+22
+00:00:52,330 --> 00:00:55,530
+the agent category, where the entire product or business process
+
+23
+00:00:55,530 --> 00:00:57,690
+is entirely autonomously operated by AI
+
+24
+00:00:57,690 --> 00:00:59,570
+AI can make autonomous decisions
+
+25
+00:00:59,570 --> 00:01:00,569
+autonomous decision-making
+
+26
+00:01:00,569 --> 00:01:02,509
+and then verify the input and output
+
+27
+00:01:02,509 --> 00:01:05,480
+and directly provide the final answer or result
+
+28
+00:01:05,480 --> 00:01:07,580
+and take responsibility for the entire workflow
+
+29
+00:01:07,580 --> 00:01:11,239
+So how do we determine which paradigm to apply in different scenarios?
+
+30
+00:01:11,239 --> 00:01:13,499
+We can consider it from two dimensions.
+
+31
+00:01:13,499 --> 00:01:15,739
+one is the difficulty of decision-making
+
+32
+00:01:15,739 --> 00:01:17,579
+Another aspect is the complexity.
+
+33
+00:01:17,579 --> 00:01:19,500
+In this diagram,
+
+34
+00:01:19,500 --> 00:01:22,640
+This y-axis represents the difficulty of decision-making.
+
+35
+00:01:22,640 --> 00:01:24,200
+What is decision difficulty?
+
+36
+00:01:24,200 --> 00:01:26,480
+to complete a certain task
+
+37
+00:01:26,480 --> 00:01:29,750
+or how difficult it is to judge decision points in the process
+
+38
+00:01:29,750 --> 00:01:32,950
+whether it requires human beings' profound experience
+
+39
+00:01:32,950 --> 00:01:34,100
+complex trade-offs
+
+40
+00:01:34,100 --> 00:01:36,040
+What does the x-axis represent?
+
+41
+00:01:36,040 --> 00:01:37,400
+is the workflow itself
+
+42
+00:01:37,400 --> 00:01:40,940
+Does it include a large number of such steps
+
+43
+00:01:40,940 --> 00:01:43,560
+Are there many branches and complex interaction logic?
+
+44
+00:01:43,560 --> 00:01:45,580
+Then based on these two dimensions
+
+45
+00:01:45,580 --> 00:01:48,430
+Here we have formed a four-quadrant
+
+46
+00:01:48,430 --> 00:01:52,350
+We place the previously mentioned copilots, embedding, and these agents into this diagram.
+
+47
+00:01:52,350 --> 00:01:54,910
+These agents are placed in this diagram
+
+48
+00:01:54,910 --> 00:01:57,670
+Now let's take a look at each of these quadrants
+
+49
+00:01:57,670 --> 00:01:59,810
+What are its characteristics?
+
+50
+00:01:59,810 --> 00:02:01,949
+Let's first look at the first quadrant
+
+51
+00:02:01,949 --> 00:02:05,509
+The first quadrant is characterized by high decision difficulty and high complexity.
+
+52
+00:02:05,509 --> 00:02:09,538
+For this category, it's suitable for copilot or similar intelligent assistant types.
+
+53
+00:02:09,538 --> 00:02:12,119
+this type of task is complex
+
+54
+00:02:12,119 --> 00:02:13,319
+and involves significant decision-making
+
+55
+00:02:13,319 --> 00:02:15,179
+This is an area where humans excel.
+
+56
+00:02:15,179 --> 00:02:16,859
+AI plays a role
+
+57
+00:02:16,859 --> 00:02:18,820
+just play a supporting role
+
+58
+00:02:18,820 --> 00:02:20,060
+It provides Knowledge
+
+59
+00:02:20,060 --> 00:02:21,000
+but does not dominate
+
+60
+00:02:21,000 --> 00:02:23,540
+So what is the characteristic of such a feature?
+
+61
+00:02:23,540 --> 00:02:27,010
+The characteristic of this type of product is human-machine collaboration
+
+62
+00:02:27,010 --> 00:02:30,050
+So AI here provides some creative, writing-assisting design tools.
+
+63
+00:02:30,050 --> 00:02:31,690
+tools for auxiliary design
+
+64
+00:02:31,690 --> 00:02:33,070
+can quickly
+
+65
+00:02:33,070 --> 00:02:34,850
+improve efficiency
+
+66
+00:02:34,850 --> 00:02:38,210
+Then, the second one is the second quadrant, which is high complexity
+
+67
+00:02:38,210 --> 00:02:39,740
+low decision difficulty
+
+68
+00:02:39,740 --> 00:02:43,900
+When AI actually faces such highly complex problems,
+
+69
+00:02:43,900 --> 00:02:47,580
+Actually, it can't be solved very well at present.
+
+70
+00:02:47,580 --> 00:02:50,820
+However, as the capabilities of agents improve in the future, they will be able to cover this area.
+
+71
+00:02:50,820 --> 00:02:53,740
+The third quadrant is low decision difficulty
+
+72
+00:02:53,740 --> 00:02:54,930
+low complexity
+
+73
+00:02:54,930 --> 00:02:56,630
+Then for this type of scenario
+
+74
+00:02:56,630 --> 00:02:58,950
+This is currently what the Agent excels at
+
+75
+00:02:58,950 --> 00:03:01,550
+because its processes and rules are relatively simple
+
+76
+00:03:01,550 --> 00:03:02,940
+clear and well-defined
+
+77
+00:03:02,940 --> 00:03:06,260
+AI can autonomously handle the entire process.
+
+78
+00:03:06,260 --> 00:03:08,570
+For example, standardized customer service Q&A
+
+79
+00:03:08,570 --> 00:03:11,410
+or when we create a script-based text game, etc.
+
+80
+00:03:11,410 --> 00:03:14,380
+Then, the fourth quadrant is the embedding category.
+
+81
+00:03:14,380 --> 00:03:17,440
+The workflow itself is very clear
+
+82
+00:03:17,440 --> 00:03:18,880
+Although there are many steps
+
+83
+00:03:18,880 --> 00:03:20,190
+but very clear
+
+84
+00:03:20,190 --> 00:03:24,590
+AI can just handle one small part of this process and that's sufficient.
+
+85
+00:03:25,340 --> 00:03:27,280
+So what are the characteristics of this type?
+
+86
+00:03:27,280 --> 00:03:29,060
+The user's input is very broad
+
+87
+00:03:29,060 --> 00:03:31,920
+but the output requirements are highly standardized and structured
+
+88
+00:03:31,920 --> 00:03:37,180
+Alright, some of you might still feel a bit confused after hearing this.
+
+89
+00:03:37,180 --> 00:03:39,500
+what kind of product should we actually develop
+
+90
+00:03:39,500 --> 00:03:41,840
+Alright, next, let's delve into these three paradigms one by one.
+
+91
+00:03:41,840 --> 00:03:44,080
+and we'll use examples to illustrate
+
+92
+00:03:44,080 --> 00:03:45,760
+Alright, the first one, let's take a look at copilot
+
+93
+00:03:45,760 --> 00:03:48,910
+The core idea of Copilot is
+
+94
+00:03:48,910 --> 00:03:51,610
+AI adds the finishing touch to our work
+
+95
+00:03:51,610 --> 00:03:55,170
+Don't expect it to solve every problem.
+
+96
+00:03:55,170 --> 00:03:57,610
+Most of the AIGC applications we see today
+
+97
+00:03:57,610 --> 00:04:00,330
+is actually the Copilot type
+
+98
+00:04:00,330 --> 00:04:01,850
+Many companies develop products
+
+99
+00:04:01,850 --> 00:04:03,260
+To expand AI capabilities
+
+100
+00:04:03,260 --> 00:04:07,720
+The simplest way to implement it is to add such a copilot
+
+101
+00:04:07,720 --> 00:04:08,680
+an add-on assistant
+
+102
+00:04:08,680 --> 00:04:10,160
+in product design
+
+103
+00:04:10,160 --> 00:04:12,520
+Right, there's a button, or a floating window, placed there
+
+104
+00:04:12,520 --> 00:04:14,579
+it appears that I have AI capabilities
+
+105
+00:04:14,579 --> 00:04:16,738
+What problems can it actually solve?
+
+106
+00:04:16,738 --> 00:04:18,990
+It probably can't solve any problems.
+
+107
+00:04:18,990 --> 00:04:19,990
+but without it
+
+108
+00:04:19,990 --> 00:04:21,390
+People will say your product is too low-end
+
+109
+00:04:21,390 --> 00:04:22,650
+lacks any AI capabilities
+
+110
+00:04:22,650 --> 00:04:25,510
+For example, current various document processing software
+
+111
+00:04:25,510 --> 00:04:28,460
+have basically introduced AI-assisted writing features
+
+112
+00:04:28,460 --> 00:04:32,110
+such as automatic continuation, elaboration, and polishing
+
+113
+00:04:32,110 --> 00:04:33,530
+but in your actual experience
+
+114
+00:04:33,530 --> 00:04:35,530
+Most of these features seem quite gimmicky
+
+115
+00:04:35,530 --> 00:04:37,210
+hard to be truly useful
+
+116
+00:04:37,210 --> 00:04:41,979
+In many cases, users may only give it a try
+
+117
+00:04:41,979 --> 00:04:43,779
+right, rather than directly inserting the AI-generated content
+
+118
+00:04:43,779 --> 00:04:45,059
+insert into this document
+
+119
+00:04:45,059 --> 00:04:47,219
+it's more about drawing inspiration from the ideas
+
+120
+00:04:47,219 --> 00:04:50,380
+Ultimately, it's up to you to complete the task yourself.
+
+121
+00:04:50,380 --> 00:04:53,340
+Similarly, in various browser extensions
+
+122
+00:04:53,340 --> 00:04:55,289
+similar designs have also emerged
+
+123
+00:04:55,289 --> 00:04:58,010
+for example, drawing lines
+
+124
+00:04:58,010 --> 00:04:59,690
+underline a piece of text
+
+125
+00:04:59,690 --> 00:05:01,270
+After drawing the line, a pop-up window may appear
+
+126
+00:05:01,270 --> 00:05:03,450
+with a small button on it
+
+127
+00:05:03,450 --> 00:05:05,670
+Click to query the meaning
+
+128
+00:05:05,670 --> 00:05:08,419
+or for polishing
+
+129
+00:05:08,419 --> 00:05:11,779
+This button operation is pretty much the same as those in document tools.
+
+130
+00:05:11,779 --> 00:05:12,539
+Moreover
+
+131
+00:05:12,539 --> 00:05:15,289
+There are also many floating windows on the market
+
+132
+00:05:15,289 --> 00:05:18,689
+or AI tools that appear in the form of floating windows or sidebars
+
+133
+00:05:18,689 --> 00:05:23,380
+Users simply need to click this button to quickly summarize the content of the current page.
+
+134
+00:05:23,380 --> 00:05:25,440
+What is this article roughly about?
+
+135
+00:05:25,440 --> 00:05:28,270
+The application scenarios here are already very common.
+
+136
+00:05:28,270 --> 00:05:30,510
+Of course, there are many other forms as well.
+
+137
+00:05:30,510 --> 00:05:32,380
+Here we won't list them one by one
+
+138
+00:05:32,380 --> 00:05:33,980
+Now let's focus on
+
+139
+00:05:33,980 --> 00:05:35,000
+Like Tencent Docs
+
+140
+00:05:35,000 --> 00:05:39,020
+because I think there are some features in here that are quite useful
+
+141
+00:05:39,020 --> 00:05:39,600
+Um
+
+142
+00:05:39,600 --> 00:05:43,990
+For example, within this platform, we need to create an online Excel
+
+143
+00:05:43,990 --> 00:05:46,550
+In the upper right corner, there is a personal assistant
+
+144
+00:05:46,550 --> 00:05:48,720
+There is an option for AI analysis in it
+
+145
+00:05:48,720 --> 00:05:51,400
+It can directly visualize the data in the Excel spreadsheet
+
+146
+00:05:51,400 --> 00:05:54,480
+Moreover, it can also help you perform some analysis.
+
+147
+00:05:55,040 --> 00:05:58,000
+So how does it actually work
+
+148
+00:05:58,000 --> 00:05:59,640
+It reads a table header
+
+149
+00:05:59,640 --> 00:06:00,880
+then wrote a piece of code
+
+150
+00:06:00,880 --> 00:06:02,180
+Then after finishing the code
+
+151
+00:06:02,180 --> 00:06:04,020
+to analyze the data in this table
+
+152
+00:06:04,020 --> 00:06:05,020
+After the analysis
+
+153
+00:06:05,020 --> 00:06:08,190
+The conclusions are extracted and presented to you in this manner.
+
+154
+00:06:08,190 --> 00:06:09,130
+This is the first highlight
+
+155
+00:06:09,130 --> 00:06:10,290
+What is the second one
+
+156
+00:06:10,290 --> 00:06:13,530
+some Excel formulas
+
+157
+00:06:13,530 --> 00:06:15,690
+writing it is particularly complex
+
+158
+00:06:15,690 --> 00:06:16,950
+Right? It can help us write formulas.
+
+159
+00:06:16,950 --> 00:06:19,909
+Well, I've tried this, and it's quite handy.
+
+160
+00:06:19,909 --> 00:06:21,249
+Another one is error analysis
+
+161
+00:06:21,249 --> 00:06:22,449
+because there are many formulas
+
+162
+00:06:22,449 --> 00:06:23,729
+right
+
+163
+00:06:23,729 --> 00:06:24,789
+For working professionals
+
+164
+00:06:24,789 --> 00:06:25,929
+you don't use it often
+
+165
+00:06:25,929 --> 00:06:28,630
+You just can't remember these formulas, right?
+
+166
+00:06:28,630 --> 00:06:31,150
+Then when this data is incorrect
+
+167
+00:06:31,150 --> 00:06:32,030
+When an error occurs
+
+168
+00:06:32,030 --> 00:06:33,130
+It will display an exclamation mark
+
+169
+00:06:33,130 --> 00:06:34,550
+It can help you analyze it
+
+170
+00:06:34,550 --> 00:06:36,300
+Where might the problem be
+
+171
+00:06:36,300 --> 00:06:39,140
+In this case, AI can really help you out a lot, right?
+
+172
+00:06:39,140 --> 00:06:41,110
+Right, so this is also very useful.
+
+173
+00:06:41,110 --> 00:06:43,030
+However, such products also have their drawbacks.
+
+174
+00:06:44,190 --> 00:06:47,500
+Suppose you are a creator
+
+175
+00:06:47,500 --> 00:06:49,640
+you want to polish your article
+
+176
+00:06:49,640 --> 00:06:51,620
+Every time you instruct the large model
+
+177
+00:06:51,620 --> 00:06:52,820
+Please polish this for me
+
+178
+00:06:52,820 --> 00:06:54,980
+You need to know that the term 'polish'
+
+179
+00:06:54,980 --> 00:06:56,650
+That's way too broad.
+
+180
+00:06:56,650 --> 00:06:59,770
+Your specific business domain has requirements.
+
+181
+00:06:59,770 --> 00:07:00,970
+How exactly should it be polished?
+
+182
+00:07:00,970 --> 00:07:01,810
+what format
+
+183
+00:07:01,810 --> 00:07:06,959
+What are the output restrictions, etc. If every time you write
+
+184
+00:07:06,959 --> 00:07:09,499
+you have to tell the large model every time
+
+185
+00:07:09,499 --> 00:07:12,670
+This is actually quite troublesome.
+
+186
+00:07:12,670 --> 00:07:14,450
+Moreover, asking you to remember it
+
+187
+00:07:14,450 --> 00:07:15,810
+it's also very difficult to remember
+
+188
+00:07:15,810 --> 00:07:17,940
+So, in such products
+
+189
+00:07:17,940 --> 00:07:19,500
+What is currently missing is
+
+190
+00:07:19,500 --> 00:07:21,720
+predefined prompt section
+
+191
+00:07:21,720 --> 00:07:25,080
+If you are not an AI product manager
+
+192
+00:07:25,080 --> 00:07:27,590
+or a professional practitioner
+
+193
+00:07:27,590 --> 00:07:29,290
+you're even less likely to remember
+
+194
+00:07:29,290 --> 00:07:31,290
+So, this is a significant drawback.
+
+195
+00:07:31,290 --> 00:07:33,550
+Of course, there are also some features that are rather gimmicky.
+
+196
+00:07:33,550 --> 00:07:36,920
+For example, creating such a document through commands
+
+197
+00:07:36,920 --> 00:07:39,520
+Actually, you can just click with your mouse and it's done.
+
+198
+00:07:39,520 --> 00:07:44,210
+Right? Such features, I think, are purely for the sake of AI.
+
+199
+00:07:44,210 --> 00:07:45,410
+This is just meaningless
+
+200
+00:07:45,410 --> 00:07:47,130
+It serves no practical purpose
+
+201
+00:07:47,130 --> 00:07:50,650
+Okay, next let's take a look at the Embedding pattern
+
+202
+00:07:50,650 --> 00:07:53,630
+The embedding paradigm refers to integrating AI into our interactions
+
+203
+00:07:53,630 --> 00:07:56,289
+or at a certain node in the implementation logic
+
+204
+00:07:56,289 --> 00:07:59,329
+Then, when we decide which step to embed AI into
+
+205
+00:07:59,329 --> 00:08:00,949
+The key is not to blindly follow the trend
+
+206
+00:08:00,949 --> 00:08:03,200
+we need to adhere to a core principle
+
+207
+00:08:03,200 --> 00:08:04,820
+the output of this step, in other words, the result
+
+208
+00:08:04,820 --> 00:08:08,400
+it must be standardized
+
+209
+00:08:08,400 --> 00:08:10,440
+So what constitutes standardized output?
+
+210
+00:08:10,440 --> 00:08:15,670
+the results provided by AI each time are in a stable and predictable format and type
+
+211
+00:08:15,670 --> 00:08:16,780
+predictable
+
+212
+00:08:16,780 --> 00:08:20,440
+For example, we need to extract from a paragraph the company name, person name
+
+213
+00:08:20,440 --> 00:08:21,340
+time
+
+214
+00:08:21,340 --> 00:08:23,520
+The result must always consist of these three fields.
+
+215
+00:08:23,520 --> 00:08:25,520
+Don't say 'extract once,' right?
+
+216
+00:08:25,520 --> 00:08:28,160
+Sometimes it gets extracted, right?
+
+217
+00:08:28,160 --> 00:08:29,320
+company name, sometimes it might extract other things
+
+218
+00:08:29,320 --> 00:08:30,920
+it might be something else like this
+
+219
+00:08:30,920 --> 00:08:33,259
+that is it, and the result must be fixed
+
+220
+00:08:33,259 --> 00:08:35,499
+Then why is this important?
+
+221
+00:08:35,499 --> 00:08:36,980
+Imagine
+
+222
+00:08:37,179 --> 00:08:39,559
+If you replace it with an AI robot
+
+223
+00:08:39,559 --> 00:08:41,000
+it produces screws at one moment
+
+224
+00:08:41,000 --> 00:08:42,140
+producing bread at one moment
+
+225
+00:08:42,140 --> 00:08:43,539
+Then the entire production line would be thrown into chaos.
+
+226
+00:08:43,539 --> 00:08:44,540
+Right?
+
+227
+00:08:44,820 --> 00:08:47,600
+Because we are in the entire production line, letting AI replace a certain step
+
+228
+00:08:47,600 --> 00:08:51,139
+Ah
+
+229
+00:08:51,139 --> 00:08:53,219
+So this is a characteristic of the embedding category.
+
+230
+00:08:53,219 --> 00:08:55,620
+So, what is the key to decision-making?
+
+231
+00:08:55,620 --> 00:08:58,300
+If AI can do it better, faster, and cheaper
+
+232
+00:08:58,300 --> 00:09:01,020
+then we decisively replace it and use AI to solve the problem
+
+233
+00:09:01,020 --> 00:09:06,200
+If the original method is already highly efficient and stable, and using AI makes it worse instead
+
+234
+00:09:06,200 --> 00:09:10,370
+Then there's absolutely no need to adopt AI just for the sake of using AI, right?
+
+235
+00:09:10,370 --> 00:09:12,630
+Now, let's take a look at the embedding approach
+
+236
+00:09:12,630 --> 00:09:14,370
+that is to say, its common scenarios
+
+237
+00:09:14,370 --> 00:09:17,520
+The first category is data processing and extraction
+
+238
+00:09:17,760 --> 00:09:21,870
+In this case, the information extraction from unstructured text
+
+239
+00:09:21,870 --> 00:09:23,190
+So how did we do it before
+
+240
+00:09:23,190 --> 00:09:25,510
+Previously, we needed to extract from this text
+
+241
+00:09:25,510 --> 00:09:26,450
+the content we want
+
+242
+00:09:26,450 --> 00:09:29,500
+we may need to write extremely complex regular expressions
+
+243
+00:09:29,500 --> 00:09:32,200
+writing extremely complex regular expressions
+
+244
+00:09:32,200 --> 00:09:33,420
+it can be quite painful
+
+245
+00:09:33,420 --> 00:09:35,000
+Now with AI
+
+246
+00:09:35,000 --> 00:09:38,580
+It's very easy to extract the content we want
+
+247
+00:09:38,580 --> 00:09:39,970
+extract it
+
+248
+00:09:39,970 --> 00:09:43,530
+The second point is the standardization of information in different document formats
+
+249
+00:09:43,530 --> 00:09:44,250
+processing
+
+250
+00:09:45,290 --> 00:09:48,389
+For example, you might receive it from multiple channels or different individuals
+
+251
+00:09:48,389 --> 00:09:50,670
+it also involves various types of documents
+
+252
+00:09:50,670 --> 00:09:55,170
+Some people may send you a TXT file
+
+253
+00:09:55,170 --> 00:09:56,390
+Some people might use Excel
+
+254
+00:09:56,390 --> 00:09:57,430
+some people may use Word
+
+255
+00:09:57,430 --> 00:10:00,110
+Right? There are all sorts of
+
+256
+00:10:00,110 --> 00:10:03,970
+There is no universal tool to handle this
+
+257
+00:10:03,970 --> 00:10:05,510
+right, dealing with such complex content
+
+258
+00:10:05,510 --> 00:10:09,050
+You can only rely on humans to handle such organization
+
+259
+00:10:09,050 --> 00:10:11,670
+Now, such tasks can be fully handled by introducing AI.
+
+260
+00:10:11,670 --> 00:10:18,120
+In the subsequent calculation and processing stages, embedding an AI processing module beforehand can optimize
+
+261
+00:10:18,120 --> 00:10:19,800
+effectively optimize this intermediate process
+
+262
+00:10:19,800 --> 00:10:21,140
+The third one I've drawn a line
+
+263
+00:10:21,140 --> 00:10:28,550
+Why is data cleaning and transformation in spreadsheets difficult to achieve?
+
+264
+00:10:28,550 --> 00:10:30,330
+I crossed out the 'difficult to achieve' part
+
+265
+00:10:30,330 --> 00:10:33,690
+Because, especially when your data volume is particularly large,
+
+266
+00:10:33,690 --> 00:10:36,270
+For example, if your spreadsheet has hundreds of thousands of rows
+
+267
+00:10:36,270 --> 00:10:39,230
+The cost-effectiveness of using AI for processing would be very low
+
+268
+00:10:39,230 --> 00:10:40,230
+Why is that
+
+269
+00:10:40,230 --> 00:10:42,890
+Because using a large model would consume a significant amount of TOKENS.
+
+270
+00:10:42,890 --> 00:10:44,550
+the context window of the webpage cannot handle it either
+
+271
+00:10:44,550 --> 00:10:46,430
+Because this model
+
+272
+00:10:46,590 --> 00:10:50,770
+Large models have this limitation on their webpage context window.
+
+273
+00:10:50,770 --> 00:10:53,450
+So, if your content is particularly extensive
+
+274
+00:10:53,450 --> 00:10:55,530
+it must be split and processed
+
+275
+00:10:55,530 --> 00:10:56,810
+If it's processed by splitting,
+
+276
+00:10:56,810 --> 00:10:59,810
+it cannot comprehend the complete semantic context of your content, you see
+
+277
+00:10:59,810 --> 00:11:01,840
+Therefore, it cannot handle such tasks
+
+278
+00:11:01,840 --> 00:11:05,359
+However, AI can play an auxiliary role in this process.
+
+279
+00:11:05,359 --> 00:11:07,739
+For example, by understanding the basic structure of a table
+
+280
+00:11:07,739 --> 00:11:11,480
+It can automatically generate Python or R scripts
+
+281
+00:11:11,480 --> 00:11:14,880
+then use the program to complete the cleaning and conversion
+
+282
+00:11:14,880 --> 00:11:16,000
+strictly speaking
+
+283
+00:11:16,000 --> 00:11:19,680
+This is not the data cleaning work directly performed by AI.
+
+284
+00:11:19,680 --> 00:11:21,180
+The fourth scenario is
+
+285
+00:11:21,180 --> 00:11:23,970
+Text recognition and structuring in images
+
+286
+00:11:23,970 --> 00:11:26,170
+Then this case is not quite suitable
+
+287
+00:11:26,170 --> 00:11:29,150
+Although it is said that, with today's large models
+
+288
+00:11:29,150 --> 00:11:30,130
+These are large models
+
+289
+00:11:30,130 --> 00:11:32,480
+it can outperform previous OCR
+
+290
+00:11:32,480 --> 00:11:33,780
+can achieve better results
+
+291
+00:11:33,780 --> 00:11:36,370
+However, the cost of OCR is very low.
+
+292
+00:11:36,370 --> 00:11:38,770
+currently using this multimodal large model
+
+293
+00:11:38,770 --> 00:11:40,370
+its cost is still quite high
+
+294
+00:11:40,370 --> 00:11:42,190
+So, in such scenarios
+
+295
+00:11:42,190 --> 00:11:44,700
+it is also not suitable to use large models for solving this problem now
+
+296
+00:11:44,700 --> 00:11:46,000
+The second category
+
+297
+00:11:46,000 --> 00:11:51,549
+content generation and transformation, such as automatic product description generation
+
+298
+00:11:51,549 --> 00:11:52,109
+for example
+
+299
+00:11:52,109 --> 00:11:54,669
+For example, if you purchase a phone on an e-commerce platform
+
+300
+00:11:54,669 --> 00:11:55,609
+right, you want to exchange the product
+
+301
+00:11:55,609 --> 00:11:56,909
+When shipping the package
+
+302
+00:11:56,909 --> 00:11:59,800
+You paste the return information sent by the merchant
+
+303
+00:11:59,800 --> 00:12:01,840
+you paste it into that box
+
+304
+00:12:01,840 --> 00:12:03,680
+it automatically parses it for you
+
+305
+00:12:03,680 --> 00:12:04,460
+phone number and shipping address
+
+306
+00:12:04,460 --> 00:12:08,259
+You don't need to fill in the name one by one
+
+307
+00:12:08,259 --> 00:12:09,199
+What about the user experience?
+
+308
+00:12:09,199 --> 00:12:11,499
+Well, that makes things much better.
+
+309
+00:12:11,499 --> 00:12:12,870
+much more flexible
+
+310
+00:12:12,870 --> 00:12:14,150
+You don't need to care about the user
+
+311
+00:12:14,150 --> 00:12:16,670
+what format his input actually is, ah
+
+312
+00:12:16,670 --> 00:12:20,369
+I can ultimately parse it out for you, your address
+
+313
+00:12:20,369 --> 00:12:21,469
+name and phone number
+
+314
+00:12:21,469 --> 00:12:23,809
+So his output is also deterministic
+
+315
+00:12:23,809 --> 00:12:26,609
+so it can be solved using Damenyin
+
+316
+00:12:27,590 --> 00:12:31,490
+Similarly, the second one, for such multilingual localization,
+
+317
+00:12:31,490 --> 00:12:33,470
+copywriting style conversion
+
+318
+00:12:33,470 --> 00:12:35,730
+its output is also deterministic
+
+319
+00:12:35,730 --> 00:12:36,970
+So it can also be used
+
+320
+00:12:36,970 --> 00:12:38,760
+such an embedding approach to solve
+
+321
+00:12:38,760 --> 00:12:39,820
+The fourth one
+
+322
+00:12:39,820 --> 00:12:42,080
+automatically generate summaries of data reports
+
+323
+00:12:42,080 --> 00:12:43,920
+How was data analysis report writing done in the past?
+
+324
+00:12:43,920 --> 00:12:45,170
+the data analyst
+
+325
+00:12:45,170 --> 00:12:49,450
+Then, a data visualization chart needs to be paired with corresponding copy.
+
+326
+00:12:49,450 --> 00:12:51,970
+So, completing a data analysis report used to take several days.
+
+327
+00:12:51,970 --> 00:12:53,490
+This step can completely
+
+328
+00:12:53,490 --> 00:12:57,050
+Now leverage large language models to automatically generate
+
+329
+00:12:57,880 --> 00:12:58,880
+What it needs to do is to say
+
+330
+00:12:58,880 --> 00:13:02,120
+There is a chart, and I will provide the corresponding interpretation for it.
+
+331
+00:13:02,120 --> 00:13:03,950
+There is a chart that requires corresponding interpretation
+
+332
+00:13:03,950 --> 00:13:06,270
+Therefore, its output is also deterministic.
+
+333
+00:13:06,270 --> 00:13:08,670
+it also falls under this embedding category
+
+334
+00:13:08,670 --> 00:13:09,840
+such a category
+
+335
+00:13:09,840 --> 00:13:12,080
+The third category is classification and labeling
+
+336
+00:13:13,440 --> 00:13:15,730
+For example, this customer service work order
+
+337
+00:13:15,730 --> 00:13:16,690
+then to classify
+
+338
+00:13:16,690 --> 00:13:18,930
+To put it simply, it's about user intent recognition, right?
+
+339
+00:13:18,930 --> 00:13:20,370
+whether the user is pre-sale
+
+340
+00:13:20,370 --> 00:13:21,370
+during-sale after-sale
+
+341
+00:13:21,370 --> 00:13:22,930
+Is it about returns within after-sales service?
+
+342
+00:13:22,930 --> 00:13:24,980
+exchange or price adjustment
+
+343
+00:13:24,980 --> 00:13:28,120
+Well, perhaps further subdivisions can be made
+
+344
+00:13:28,120 --> 00:13:30,260
+This is essentially a classification problem.
+
+345
+00:13:31,380 --> 00:13:35,020
+So, when the user submits this work order
+
+346
+00:13:35,020 --> 00:13:36,829
+input a sentence
+
+347
+00:13:36,829 --> 00:13:38,889
+is to perform a very specific task
+
+348
+00:13:38,889 --> 00:13:40,890
+I just need to complete the classification.
+
+349
+00:13:40,890 --> 00:13:43,590
+Therefore, the output of this task is also deterministic.
+
+350
+00:13:43,590 --> 00:13:47,210
+So it also belongs to this embedding type, to solve it using AI
+
+351
+00:13:47,210 --> 00:13:50,170
+using large models to address such a scenario
+
+352
+00:13:51,230 --> 00:13:52,110
+In this scenario
+
+353
+00:13:52,110 --> 00:13:55,350
+can replace the original manual annotation process
+
+354
+00:13:55,350 --> 00:13:58,750
+This step significantly saves time.
+
+355
+00:13:59,660 --> 00:14:02,910
+The fourth category also involves verification and auditing
+
+356
+00:14:02,910 --> 00:14:05,810
+this content, this compliance review
+
+357
+00:14:05,810 --> 00:14:07,550
+for example, whether the contract is compliant
+
+358
+00:14:07,550 --> 00:14:09,550
+The finance manager submitted a budget sheet
+
+359
+00:14:09,550 --> 00:14:11,950
+whether it complies with financial regulations
+
+360
+00:14:11,950 --> 00:14:15,280
+Then we can utilize the large model and rule database for verification
+
+361
+00:14:15,280 --> 00:14:18,160
+Regardless of what content the user inputs
+
+362
+00:14:18,160 --> 00:14:21,690
+Identify all non-compliant areas
+
+363
+00:14:21,690 --> 00:14:23,610
+In a complex workflow
+
+364
+00:14:23,610 --> 00:14:26,090
+This step can be addressed using large models.
+
+365
+00:14:26,090 --> 00:14:29,400
+So these types of scenarios also fall under the category of embedding scenarios.
+
+366
+00:14:29,400 --> 00:14:31,000
+The following types
+
+367
+00:14:31,000 --> 00:14:33,020
+error correction optimization suggestions
+
+368
+00:14:33,020 --> 00:14:34,240
+data anomaly monitoring, etc.
+
+369
+00:14:34,240 --> 00:14:36,800
+Actually, it's the same as this reasonableness review
+
+370
+00:14:36,800 --> 00:14:37,740
+no difference
+
+371
+00:14:37,740 --> 00:14:40,640
+The scenarios I've explained to you all have corresponding practical operations.
+
+372
+00:14:40,640 --> 00:14:42,180
+OK, we won't elaborate here
+
+373
+00:14:42,180 --> 00:14:43,640
+Because it's too time-consuming
+
+374
+00:14:43,640 --> 00:14:46,280
+We can just look at the corresponding practical implementation modules.
+
+375
+00:14:46,280 --> 00:14:47,620
+Let's take a look at
+
+376
+00:14:47,620 --> 00:14:49,600
+say i'm waiting to
+
+377
+00:14:52,100 --> 00:14:54,540
+Let's talk about embedding again
+
+378
+00:14:54,540 --> 00:14:57,430
+This other type is the interaction optimization category.
+
+379
+00:14:57,430 --> 00:14:59,870
+Interaction optimization is most typically represented by search.
+
+380
+00:14:59,870 --> 00:15:01,270
+In the past when we performed searches
+
+381
+00:15:01,270 --> 00:15:04,090
+The user's input keywords are treated very strictly.
+
+382
+00:15:04,090 --> 00:15:05,980
+when the user inputs a sentence
+
+383
+00:15:05,980 --> 00:15:08,400
+you might not be able to find the answer
+
+384
+00:15:08,400 --> 00:15:11,440
+or maybe you mentioned some of your keywords in here
+
+385
+00:15:11,440 --> 00:15:13,200
+For example, if you input too much content
+
+386
+00:15:13,200 --> 00:15:17,120
+causing the keywords in your input to be weakened
+
+387
+00:15:17,120 --> 00:15:18,920
+Right, so it didn't match the answer.
+
+388
+00:15:18,920 --> 00:15:22,660
+or when you input both English and Chinese simultaneously
+
+389
+00:15:22,660 --> 00:15:24,069
+It is also difficult to make a match
+
+390
+00:15:24,069 --> 00:15:25,549
+or if you mistyped a word
+
+391
+00:15:25,549 --> 00:15:28,389
+it will also ask you to go to this error correction website
+
+392
+00:15:28,389 --> 00:15:31,340
+to confirm if, well, this is the meaning
+
+393
+00:15:31,340 --> 00:15:33,420
+But with the help of AI technology,
+
+394
+00:15:33,420 --> 00:15:34,860
+you leverage the technology of large models
+
+395
+00:15:34,860 --> 00:15:37,300
+These issues can all be effectively resolved.
+
+396
+00:15:37,300 --> 00:15:40,540
+your product no longer needs to do
+
+397
+00:15:40,540 --> 00:15:42,140
+so many complex functions
+
+398
+00:15:42,140 --> 00:15:44,320
+to solve the problem of semantic understanding
+
+399
+00:15:44,320 --> 00:15:47,490
+Now, large models are capable of understanding your entire semantics.
+
+400
+00:15:47,490 --> 00:15:49,370
+identify the key information from it
+
+401
+00:15:49,370 --> 00:15:52,770
+or utilize modern technologies for similarity matching
+
+402
+00:15:52,770 --> 00:15:55,190
+Right, it can also achieve this kind of keyword correction and perform
+
+403
+00:15:55,190 --> 00:15:57,860
+this suggestion
+
+404
+00:15:57,860 --> 00:16:00,540
+and intelligent equity, etc., can all be achieved
+
+405
+00:16:00,540 --> 00:16:02,800
+Therefore, when we perform semantic understanding
+
+406
+00:16:02,800 --> 00:16:03,850
+it's much simpler
+
+407
+00:16:03,850 --> 00:16:05,830
+We previously discussed Copilot
+
+408
+00:16:05,830 --> 00:16:09,730
+also discussed the embedding-style, so these AI scenarios
+
+409
+00:16:09,730 --> 00:16:13,270
+Now let's talk about the agent type, as for the agent,
+
+410
+00:16:13,270 --> 00:16:16,830
+Its core lies in AI taking full control of the task
+
+411
+00:16:16,830 --> 00:16:18,090
+scheduling and decision-making
+
+412
+00:16:18,090 --> 00:16:20,310
+The entire process is autonomously completed by AI.
+
+413
+00:16:20,310 --> 00:16:22,670
+Users only need to provide the input
+
+414
+00:16:22,670 --> 00:16:25,550
+The AI can independently execute the entire process.
+
+415
+00:16:25,550 --> 00:16:29,190
+The key to this model lies in assigning rules and decision-making basis
+
+416
+00:16:29,190 --> 00:16:31,210
+empowered a leading AI
+
+417
+00:16:31,210 --> 00:16:33,569
+then it coordinates the collaboration among multiple AIs
+
+418
+00:16:33,569 --> 00:16:35,089
+The leading AI
+
+419
+00:16:35,089 --> 00:16:38,289
+He masters the rules and decision-making logic of the task
+
+420
+00:16:38,289 --> 00:16:41,230
+It can decompose the input task throughout the entire process.
+
+421
+00:16:41,230 --> 00:16:44,350
+and then supervise the execution of all subsequent AI tasks
+
+422
+00:16:44,350 --> 00:16:47,420
+Ensure that each step can be completed
+
+423
+00:16:47,660 --> 00:16:48,700
+In this context,
+
+424
+00:16:48,700 --> 00:16:50,800
+Let me give you a few common examples
+
+425
+00:16:50,800 --> 00:16:53,340
+In fact, there are countless examples of this.
+
+426
+00:16:53,340 --> 00:16:55,300
+I just listed a few common examples
+
+427
+00:16:55,300 --> 00:16:56,920
+For example, the first one
+
+428
+00:16:57,210 --> 00:16:59,490
+For example, we want to do this
+
+429
+00:16:59,490 --> 00:17:02,400
+Well, in customer service, there are actually many scenarios.
+
+430
+00:17:02,400 --> 00:17:05,089
+Then why am I talking about customer service scenarios?
+
+431
+00:17:05,089 --> 00:17:06,089
+Right, some students might say, hey
+
+432
+00:17:06,089 --> 00:17:08,450
+Teacher, AI-powered customer service is everywhere these days.
+
+433
+00:17:08,450 --> 00:17:10,770
+Why do we still list the customer service scenario here?
+
+434
+00:17:10,770 --> 00:17:12,970
+Because mastering the customer service scenario
+
+435
+00:17:12,970 --> 00:17:16,890
+you can master the vast majority of Q&A scenarios, Agent.
+
+436
+00:17:16,890 --> 00:17:20,119
+This involves the use of large models
+
+437
+00:17:20,119 --> 00:17:23,859
+used in practical applications, intent recognition and data processing
+
+438
+00:17:23,859 --> 00:17:25,020
+build a knowledge base
+
+439
+00:17:25,020 --> 00:17:28,420
+prompt engineering, post-launch data validation to identify issues through data
+
+440
+00:17:28,420 --> 00:17:31,380
+then address the bad cases
+
+441
+00:17:31,380 --> 00:17:34,510
+your complete closed-loop capability
+
+442
+00:17:34,510 --> 00:17:37,280
+So, why am I talking about this scenario here?
+
+443
+00:17:37,280 --> 00:17:39,520
+what we need to master is the underlying capability
+
+444
+00:17:39,520 --> 00:17:41,140
+As long as you master the underlying capabilities
+
+445
+00:17:41,140 --> 00:17:45,520
+you can cover many other scenarios
+
+446
+00:17:45,520 --> 00:17:47,000
+can all be implemented
+
+447
+00:17:47,000 --> 00:17:48,300
+Alright, back to our main topic
+
+448
+00:17:48,300 --> 00:17:49,560
+Was there any smart customer service before?
+
+449
+00:17:49,560 --> 00:17:50,340
+Of course there is
+
+450
+00:17:50,340 --> 00:17:52,360
+but it's a bit dumb
+
+451
+00:17:52,360 --> 00:17:56,679
+Why? Because the previous customer service was primarily based on Q&A pairs
+
+452
+00:17:56,679 --> 00:17:58,419
+then transfer unsolvable issues to human agents
+
+453
+00:17:58,419 --> 00:18:01,399
+Therefore, its transfer-to-human-agent rate remains relatively high.
+
+454
+00:18:01,399 --> 00:18:03,059
+particularly labor-intensive, consuming significant manpower especially for long-tail
+
+455
+00:18:03,059 --> 00:18:08,180
+complex user issues
+
+456
+00:18:08,180 --> 00:18:10,500
+It couldn't be done before, just couldn't.
+
+457
+00:18:10,500 --> 00:18:11,780
+AI-powered customer service couldn't handle it
+
+458
+00:18:11,780 --> 00:18:13,380
+Now we have large models
+
+459
+00:18:13,380 --> 00:18:15,740
+The user rambled on and on
+
+460
+00:18:15,740 --> 00:18:18,790
+OK this system can understand normally
+
+461
+00:18:18,790 --> 00:18:20,690
+can understand the user's intent
+
+462
+00:18:20,690 --> 00:18:22,550
+So then, it can solve
+
+463
+00:18:22,550 --> 00:18:26,380
+most scenarios that the original customer service couldn't handle
+
+464
+00:18:26,380 --> 00:18:28,060
+There is also the management of multi-party conversations here
+
+465
+00:18:28,060 --> 00:18:29,020
+It used to be particularly complex
+
+466
+00:18:29,020 --> 00:18:32,550
+For example, this diagram was quite cumbersome to design.
+
+467
+00:18:32,550 --> 00:18:34,930
+Now we can probably get it done with just one sentence.
+
+468
+00:18:34,930 --> 00:18:36,230
+We instruct the large model
+
+469
+00:18:36,230 --> 00:18:37,790
+we just need to give it a prompt
+
+470
+00:18:37,790 --> 00:18:38,780
+Give it an instruction
+
+471
+00:18:38,780 --> 00:18:40,840
+We tell him, hey, you need to buy a train ticket
+
+472
+00:18:40,840 --> 00:18:42,880
+You ask yourself, right?
+
+473
+00:18:42,880 --> 00:18:44,180
+ask the user for the departure point
+
+474
+00:18:44,180 --> 00:18:46,100
+destination date, train number, and then based on the user's response
+
+475
+00:18:46,100 --> 00:18:49,980
+automatically form multi-turn Q&A
+
+476
+00:18:49,980 --> 00:18:51,380
+This sentence does the trick
+
+477
+00:18:51,380 --> 00:18:53,720
+it will automatically engage in multi-turn conversations during interactions with users
+
+478
+00:18:53,720 --> 00:18:56,900
+automatically forms multi-turn conversations, right?
+
+479
+00:18:57,520 --> 00:18:59,330
+Well, this is quite straightforward.
+
+480
+00:18:59,330 --> 00:19:03,170
+Additionally, at the scheduling layer, it can also recognize the user's emotions.
+
+481
+00:19:03,170 --> 00:19:04,410
+can also autonomously query the Knowledge base
+
+482
+00:19:04,410 --> 00:19:07,469
+invoke some plugins to meet user needs
+
+483
+00:19:07,469 --> 00:19:11,069
+Everything is automatically planned and scheduled in the background based on the user's query.
+
+484
+00:19:11,069 --> 00:19:15,139
+decision execution
+
+485
+00:19:15,899 --> 00:19:19,539
+The second scenario is the data analysis report.
+
+486
+00:19:19,539 --> 00:19:21,919
+As for data analysis,
+
+487
+00:19:21,919 --> 00:19:24,299
+How do humans do it?
+
+488
+00:19:24,740 --> 00:19:25,820
+Let me show you
+
+489
+00:19:25,820 --> 00:19:28,160
+What does a data analysis report look like?
+
+490
+00:19:28,160 --> 00:19:29,380
+This contains arguments.
+
+491
+00:19:29,380 --> 00:19:30,460
+there are sub-arguments
+
+492
+00:19:30,460 --> 00:19:33,410
+Finally, the report includes a summary.
+
+493
+00:19:33,410 --> 00:19:38,350
+These arguments and sub-points are supported by data, right?
+
+494
+00:19:38,350 --> 00:19:40,770
+Therefore, in each argument
+
+495
+00:19:40,770 --> 00:19:43,800
+we conduct such analysis
+
+496
+00:19:43,800 --> 00:19:45,760
+There are corresponding visual charts, ah
+
+497
+00:19:45,760 --> 00:19:46,900
+with corresponding analysis
+
+498
+00:19:46,900 --> 00:19:48,980
+and then generate this data analysis report
+
+499
+00:19:48,980 --> 00:19:52,159
+Actually, manual work would take several days.
+
+500
+00:19:52,159 --> 00:19:53,479
+Let me show you
+
+501
+00:19:53,479 --> 00:19:54,679
+Now with large language models
+
+502
+00:19:54,679 --> 00:19:56,139
+how can we do it
+
+503
+00:19:56,139 --> 00:19:58,899
+This is for generating data analysis reports
+
+504
+00:19:58,899 --> 00:20:00,480
+such a prompt
+
+505
+00:20:00,480 --> 00:20:01,800
+As you can see, right
+
+506
+00:20:01,800 --> 00:20:03,340
+then what role to play
+
+507
+00:20:03,340 --> 00:20:06,240
+And then there are corresponding examples, right?
+
+508
+00:20:06,240 --> 00:20:09,060
+with corresponding Knowledge backgrounds
+
+509
+00:20:09,060 --> 00:20:11,220
+with metrics, analytical approaches, etc.
+
+510
+00:20:11,220 --> 00:20:13,860
+This is a slightly more complex prompt
+
+511
+00:20:13,860 --> 00:20:16,060
+Then the large model, based on this prompt
+
+512
+00:20:16,060 --> 00:20:19,330
+Then, it can generate a data analysis report for us.
+
+513
+00:20:19,330 --> 00:20:22,010
+So if we want to build such an agent
+
+514
+00:20:22,010 --> 00:20:23,590
+The user's requirement is
+
+515
+00:20:23,590 --> 00:20:25,690
+will involve data queries
+
+516
+00:20:25,690 --> 00:20:28,310
+conduct causal analysis
+
+517
+00:20:28,310 --> 00:20:29,790
+predict the data
+
+518
+00:20:29,790 --> 00:20:31,080
+these four major demands
+
+519
+00:20:31,080 --> 00:20:33,060
+So in this case, um
+
+520
+00:20:33,060 --> 00:20:35,120
+When the user mentions this issue, right
+
+521
+00:20:35,120 --> 00:20:36,480
+how to dispatch it
+
+522
+00:20:36,480 --> 00:20:39,720
+First, understand the user and determine which dimensions to query.
+
+523
+00:20:39,720 --> 00:20:40,500
+Assign, right
+
+524
+00:20:40,500 --> 00:20:44,139
+So he needs to select the corresponding data source
+
+525
+00:20:44,139 --> 00:20:46,259
+Then, based on the prompt, right
+
+526
+00:20:46,259 --> 00:20:48,339
+consider what kind of analysis method to use
+
+527
+00:20:48,339 --> 00:20:50,040
+possible strategies, etc.
+
+528
+00:20:50,040 --> 00:20:52,720
+Then, the specific execution will be assigned to different agents
+
+529
+00:20:52,720 --> 00:20:56,240
+For example, some agents may be responsible for corresponding data collection and cleaning
+
+530
+00:20:56,240 --> 00:20:59,740
+Some agents might specialize in processing these data
+
+531
+00:20:59,740 --> 00:21:01,000
+conduct statistical analysis
+
+532
+00:21:01,000 --> 00:21:04,009
+Then some agents specialize in generating charts
+
+533
+00:21:04,009 --> 00:21:07,829
+Similarly, some agents are specifically responsible for report writing.
+
+534
+00:21:07,829 --> 00:21:12,520
+Therefore, it's equivalent to having a master agent
+
+535
+00:21:12,520 --> 00:21:14,180
+and then add a few sub-agents
+
+536
+00:21:14,180 --> 00:21:15,540
+then multi-agent collaboration
+
+537
+00:21:15,540 --> 00:21:17,920
+and then complete the solution
+
+538
+00:21:17,920 --> 00:21:20,440
+Alright, let's move on to the previous section. Alright, let's move on to the previous section, and as for how to implement this case,
+
+539
+00:21:20,440 --> 00:21:23,200
+I have also prepared corresponding scenarios for everyone.
+
+540
+00:21:23,200 --> 00:21:24,820
+allow it to autonomously invoke the eCharts specification for practical operation, and then for this practical operation content
+
+541
+00:21:24,820 --> 00:21:28,240
+If we want to productize such an agent
+
+542
+00:21:28,240 --> 00:21:29,980
+How should the page be designed?
+
+543
+00:21:29,980 --> 00:21:33,700
+Here we also have corresponding practical cases.
+
+544
+00:21:34,390 --> 00:21:36,830
+Let's look at the third scenario, the recruitment process.
+
+545
+00:21:36,830 --> 00:21:39,630
+In fact, many recruitment platforms nowadays
+
+546
+00:21:39,630 --> 00:21:41,710
+It has already been implemented.
+
+547
+00:21:41,710 --> 00:21:44,349
+including independent platforms such as goals and GOSE goals
+
+548
+00:21:44,349 --> 00:21:47,189
+some independent platforms like Ghost
+
+549
+00:21:47,189 --> 00:21:50,090
+also developed some of these products, created some such products
+
+550
+00:21:50,370 --> 00:21:52,610
+This scenario is actually quite easy to understand
+
+551
+00:21:52,610 --> 00:21:54,290
+As a company
+
+552
+00:21:54,290 --> 00:21:57,090
+The company needs to publish the corresponding job requirement descriptions.
+
+553
+00:21:57,090 --> 00:21:59,650
+Then, it's necessary to screen the resumes of the candidates.
+
+554
+00:21:59,650 --> 00:22:01,410
+and then arrange the interviews
+
+555
+00:22:01,410 --> 00:22:04,650
+the interview performance of the candidates
+
+556
+00:22:04,650 --> 00:22:06,210
+and then conduct an evaluation
+
+557
+00:22:06,490 --> 00:22:08,370
+When we were working on this workflow, of course, this scenario has already been implemented.
+
+558
+00:22:08,370 --> 00:22:10,690
+organize it into corresponding cases
+
+559
+00:22:10,690 --> 00:22:11,490
+This is very easy to implement
+
+560
+00:22:11,490 --> 00:22:15,770
+Similarly, when we talk about an agent again
+
+561
+00:22:15,770 --> 00:22:17,130
+including the entry layer
+
+562
+00:22:17,130 --> 00:22:18,490
+scheduling layer execution layer
+
+563
+00:22:18,490 --> 00:22:19,370
+the verification layer
+
+564
+00:22:19,370 --> 00:22:21,890
+In the future, you can also organize your approach based on these four aspects.
+
+565
+00:22:21,890 --> 00:22:24,960
+Here, I won't go into further detail.
+
+566
+00:22:25,440 --> 00:22:27,260
+What is the fourth scenario?
+
+567
+00:22:27,260 --> 00:22:30,680
+This is content operation.
+
+568
+00:22:30,680 --> 00:22:32,900
+For example, if you want to publish an article
+
+569
+00:22:32,900 --> 00:22:35,200
+In this process, there may also be involvement from multiple AI agents
+
+570
+00:22:35,200 --> 00:22:36,020
+different divisions of labor
+
+571
+00:22:36,020 --> 00:22:38,139
+It's like multiple roles collaborating together
+
+572
+00:22:38,139 --> 00:22:39,539
+responsible for topic selection
+
+573
+00:22:39,539 --> 00:22:40,659
+there is one responsible for generation
+
+574
+00:22:40,659 --> 00:22:41,559
+there are those responsible for reviewing
+
+575
+00:22:41,559 --> 00:22:43,950
+there is someone responsible for content distribution
+
+576
+00:22:44,190 --> 00:22:46,170
+Now everyone, pay attention
+
+577
+00:22:46,170 --> 00:22:48,070
+in this scenario
+
+578
+00:22:48,070 --> 00:22:49,810
+I've crossed out the verification layer.
+
+579
+00:22:49,810 --> 00:22:51,470
+Why wasn't it crossed out in other scenarios
+
+580
+00:22:51,470 --> 00:22:53,290
+this is crossed out
+
+581
+00:22:53,530 --> 00:22:56,470
+because for AI-generated content
+
+582
+00:22:56,470 --> 00:22:58,730
+AI cannot verify itself.
+
+583
+00:22:58,730 --> 00:23:00,810
+Because everyone should, right
+
+584
+00:23:00,810 --> 00:23:03,570
+already understand the principles of large models very clearly
+
+585
+00:23:03,570 --> 00:23:05,510
+when large language models generate content
+
+586
+00:23:05,510 --> 00:23:07,179
+It is based on probability
+
+587
+00:23:07,179 --> 00:23:08,959
+so the large model itself
+
+588
+00:23:08,959 --> 00:23:10,899
+It has no idea about the quality of the content it generates.
+
+589
+00:23:10,899 --> 00:23:12,119
+what the quality is like
+
+590
+00:23:12,119 --> 00:23:14,219
+So let alone verifying it
+
+591
+00:23:14,219 --> 00:23:15,179
+his verification
+
+592
+00:23:15,179 --> 00:23:17,820
+In other words, it's just some empty talk, right?
+
+593
+00:23:17,820 --> 00:23:19,400
+It is of no use to me
+
+594
+00:23:19,400 --> 00:23:22,740
+So when it comes to content quality assessment
+
+595
+00:23:22,740 --> 00:23:27,230
+Therefore, content quality assessment is not acceptable.
+
+596
+00:23:27,230 --> 00:23:31,190
+Then for this communication effect analysis, and user feedback collection
+
+597
+00:23:31,190 --> 00:23:33,830
+What is one key point to note about this task?
+
+598
+00:23:33,830 --> 00:23:36,020
+When everyone is designing a product again,
+
+599
+00:23:36,020 --> 00:23:39,780
+Then you must focus and converge into a specific workflow.
+
+600
+00:23:39,780 --> 00:23:42,300
+This involves matters concerning multiple workflows.
+
+601
+00:23:42,300 --> 00:23:45,850
+So this approach is not quite appropriate here
+
+602
+00:23:46,290 --> 00:23:48,090
+Finally, let's summarize
+
+603
+00:23:48,090 --> 00:23:49,710
+As an AI product manager
+
+604
+00:23:49,710 --> 00:23:52,690
+Our core mission is not to chase the coolest technology
+
+605
+00:23:52,690 --> 00:23:55,230
+but to use AI to solve real business problems
+
+606
+00:23:55,230 --> 00:23:56,830
+when facing a specific scenario
+
+607
+00:23:56,830 --> 00:23:58,590
+So how to choose among these three approaches
+
+608
+00:23:58,590 --> 00:24:01,090
+approach? Ah, remember the following simple idea
+
+609
+00:24:01,090 --> 00:24:03,930
+The first consideration is whether the job requires human expertise
+
+610
+00:24:03,930 --> 00:24:06,480
+and complex decision-making
+
+611
+00:24:06,480 --> 00:24:08,760
+If there is a strong need for it
+
+612
+00:24:08,760 --> 00:24:10,960
+then prioritize copilot
+
+613
+00:24:10,960 --> 00:24:12,600
+the category of intelligent assistants
+
+614
+00:24:12,600 --> 00:24:14,020
+let AI play a supporting role
+
+615
+00:24:14,020 --> 00:24:16,220
+The second approach is to break down the process
+
+616
+00:24:16,220 --> 00:24:19,530
+Let's break down the entire process
+
+617
+00:24:19,530 --> 00:24:22,790
+see which node can be replaced by AI
+
+618
+00:24:22,790 --> 00:24:25,830
+Then, in this way, it's the embedding approach
+
+619
+00:24:25,830 --> 00:24:28,270
+implementing AI through an embedded approach
+
+620
+00:24:28,270 --> 00:24:31,290
+The third approach is to examine the rules
+
+621
+00:24:31,290 --> 00:24:33,690
+Is the entire task rule-based and clearly defined
+
+622
+00:24:33,690 --> 00:24:34,970
+fixed steps
+
+623
+00:24:34,970 --> 00:24:35,830
+If so
+
+624
+00:24:35,830 --> 00:24:37,230
+boldly try Agent
+
+625
+00:24:37,230 --> 00:24:39,180
+Let AI execute automatically
+
+626
+00:24:39,180 --> 00:24:41,400
+achieve everything with just one sentence
+
+627
+00:24:41,400 --> 00:24:43,640
+I hope this framework can assist you in the extraordinary world of AI.
+
+628
+00:24:43,640 --> 00:24:45,320
+in the intricate world of AI
+
+629
+00:24:45,320 --> 00:24:47,969
+find that clear path to product implementation
+
+630
+00:24:47,969 --> 00:24:49,789
+Thank you all for the Triple Combo
+
+631
+00:24:49,789 --> 00:24:52,249
+Next, we'll break down each paradigm for you.
+
+632
+00:24:52,249 --> 00:24:54,069
+real-world implementation cases
+
+633
+00:24:54,069 --> 00:24:56,009
+not only understand the theory
+
+634
+00:24:56,009 --> 00:24:56,900
+better in practice
+

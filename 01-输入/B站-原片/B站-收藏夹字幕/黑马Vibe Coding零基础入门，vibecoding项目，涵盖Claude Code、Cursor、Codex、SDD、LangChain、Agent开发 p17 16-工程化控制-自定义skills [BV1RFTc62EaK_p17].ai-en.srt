@@ -1,0 +1,1928 @@
+1
+00:00:00,800 --> 00:00:01,340
+Hello
+
+2
+00:00:01,340 --> 00:00:02,320
+Hey everyone!
+
+3
+00:00:02,320 --> 00:00:02,960
+Welcome back.
+
+4
+00:00:02,960 --> 00:00:06,500
+In this section, we'll learn how to create custom slash commands.
+
+5
+00:00:06,500 --> 00:00:08,620
+So, for the Cloud Code we're currently using,
+
+6
+00:00:08,620 --> 00:00:11,340
+You'll notice it has a built-in slash command.
+
+7
+00:00:11,340 --> 00:00:13,060
+So, once you click on this slash command,
+
+8
+00:00:13,060 --> 00:00:15,800
+In fact, there are a lot of built-in, common shortcut commands.
+
+9
+00:00:15,800 --> 00:00:18,020
+These commands are basically for performing predefined actions.
+
+10
+00:00:18,020 --> 00:00:19,540
+For example, the /code review command.
+
+11
+00:00:19,540 --> 00:00:22,530
+So, what it's really doing is triggering its code review action.
+
+12
+00:00:22,530 --> 00:00:24,650
+And then there's the /context command.
+
+13
+00:00:24,650 --> 00:00:26,850
+what it does is basically trigger a... uh...
+
+14
+00:00:26,850 --> 00:00:28,530
+a context check.
+
+15
+00:00:28,530 --> 00:00:30,490
+So, right here in our current project,
+
+16
+00:00:30,490 --> 00:00:31,970
+there are also a lot of fixed, routine actions.
+
+17
+00:00:31,970 --> 00:00:34,400
+For example, let's say I want to run my app.
+
+18
+00:00:34,400 --> 00:00:36,580
+Or maybe, repackage our app.
+
+19
+00:00:36,580 --> 00:00:39,180
+and regenerate the latest .EXE file.
+
+20
+00:00:39,180 --> 00:00:41,780
+Or, push our code to Git.
+
+21
+00:00:41,780 --> 00:00:44,840
+It's basically like setting a save point for us, and so on.
+
+22
+00:00:44,840 --> 00:00:47,180
+Now, all of these are pretty standard, repetitive tasks.
+
+23
+00:00:47,180 --> 00:00:49,410
+And they're things we use all the time.
+
+24
+00:00:49,410 --> 00:00:51,770
+So, for these kinds of fixed and frequently used operations,
+
+25
+00:00:51,770 --> 00:00:54,310
+you can set it up as a slash command.
+
+26
+00:00:54,310 --> 00:00:56,190
+So, how do we set up these slash commands?
+
+27
+00:00:56,190 --> 00:00:59,110
+Essentially, what you're doing is just adding a custom one.
+
+28
+00:00:59,110 --> 00:01:00,720
+We just call it a 'skill'.
+
+29
+00:01:00,720 --> 00:01:02,140
+Basically, it's about the operations we want to perform.
+
+30
+00:01:02,140 --> 00:01:04,879
+and configure it as a skill for Cloud Code.
+
+31
+00:01:04,879 --> 00:01:06,839
+So, once we've got our skill configured,
+
+32
+00:01:06,839 --> 00:01:09,299
+this allows us to take the skill we've configured
+
+33
+00:01:09,299 --> 00:01:12,079
+and then invoke it directly with a slash command.
+
+34
+00:01:12,079 --> 00:01:14,220
+So, it's pretty convenient, right?
+
+35
+00:01:14,220 --> 00:01:14,500
+Okay.
+
+36
+00:01:14,500 --> 00:01:16,860
+So, let's take a look at how to configure this.
+
+37
+00:01:16,860 --> 00:01:18,390
+So, what about creating custom slash commands?
+
+38
+00:01:18,390 --> 00:01:19,950
+So, what if you don't know how to do it?
+
+39
+00:01:19,950 --> 00:01:22,880
+Normally, the first thing we'd do is ask Cloud Code, right?
+
+40
+00:01:22,880 --> 00:01:25,120
+Because, you know, we're the ones in charge here, and it's our job to direct our 'employee'.
+
+41
+00:01:25,120 --> 00:01:25,840
+If there's anything you don't get,
+
+42
+00:01:25,840 --> 00:01:26,840
+Just ask it directly.
+
+43
+00:01:26,840 --> 00:01:28,790
+Just have it explain it for us.
+
+44
+00:01:28,790 --> 00:01:31,990
+So, down here, we can just type out our questions as usual.
+
+45
+00:01:31,990 --> 00:01:33,050
+But then we thought about it.
+
+46
+00:01:33,050 --> 00:01:34,990
+So, for our current app, generally speaking...
+
+47
+00:01:34,990 --> 00:01:38,420
+This chat window is all about developing the app's features.
+
+48
+00:01:38,420 --> 00:01:40,640
+So, to avoid cluttering up this conversation,
+
+49
+00:01:40,640 --> 00:01:42,580
+So, let's just create a new conversation.
+
+50
+00:01:42,580 --> 00:01:45,069
+This way, we can focus on these specific, separate tasks.
+
+51
+00:01:45,069 --> 00:01:47,009
+Otherwise, if you're in this conversation writing code,
+
+52
+00:01:47,009 --> 00:01:49,709
+and then you're also messing with custom slash commands, like the 'scale' command, and so on.
+
+53
+00:01:49,709 --> 00:01:50,689
+and then ask it questions.
+
+54
+00:01:50,689 --> 00:01:52,749
+And that's just going to clutter up the conversation.
+
+55
+00:01:52,749 --> 00:01:54,960
+Basically, the conversation is no longer focused.
+
+56
+00:01:54,960 --> 00:01:55,440
+Right?
+
+57
+00:01:55,440 --> 00:01:57,020
+So, let's start a new chat session.
+
+58
+00:01:57,020 --> 00:01:58,449
+to handle separate tasks.
+
+59
+00:01:58,449 --> 00:02:00,809
+Alright, so inside our VS Code extension here,
+
+60
+00:02:00,809 --> 00:02:01,969
+So, there are two Cloud Code instances here.
+
+61
+00:02:01,969 --> 00:02:05,400
+So, on the left, you can see the content from our current conversation.
+
+62
+00:02:05,400 --> 00:02:07,840
+And on the right, you've got all your session management.
+
+63
+00:02:07,840 --> 00:02:09,520
+So, on the right side of these two pages, you've got the session management.
+
+64
+00:02:09,520 --> 00:02:12,860
+We can click on 'New Session' here to start a new conversation.
+
+65
+00:02:12,860 --> 00:02:13,660
+Alright, once you click it,
+
+66
+00:02:13,660 --> 00:02:15,780
+And you see, a new session window just popped up over here, right?
+
+67
+00:02:15,780 --> 00:02:16,880
+And now we're ready to chat.
+
+68
+00:02:16,880 --> 00:02:18,040
+But some of you might be thinking, "Hey..."
+
+69
+00:02:18,040 --> 00:02:19,840
+Hey, can we do it the way we used to?
+
+70
+00:02:19,840 --> 00:02:21,900
+and chat over here in this sidebar?
+
+71
+00:02:21,900 --> 00:02:23,000
+And yes, you absolutely can.
+
+72
+00:02:23,000 --> 00:02:23,580
+But hold on.
+
+73
+00:02:23,580 --> 00:02:26,040
+So first, let's work within this newly created conversation.
+
+74
+00:02:26,040 --> 00:02:28,460
+Let's finish up this first conversation.
+
+75
+00:02:28,460 --> 00:02:30,580
+After that, you can take this newly created conversation
+
+76
+00:02:30,580 --> 00:02:33,120
+and move it over to the right side to display.
+
+77
+00:02:33,120 --> 00:02:33,620
+Alright.
+
+78
+00:02:33,620 --> 00:02:36,320
+Alright, let me ask it a simple question now.
+
+79
+00:02:36,320 --> 00:02:40,500
+So, what I want to do is create my own custom skills.
+
+80
+00:02:40,500 --> 00:02:45,830
+So I can easily call it up with a slash command. Alright.
+
+81
+00:02:45,830 --> 00:02:47,010
+So, how do we do that?
+
+82
+00:02:47,010 --> 00:02:48,210
+Alright, can you take a look for me?
+
+83
+00:02:48,210 --> 00:02:49,750
+So basically, I have this need.
+
+84
+00:02:49,750 --> 00:02:51,070
+But I'm not sure about the specifics.
+
+85
+00:02:51,070 --> 00:02:52,490
+Hey, you can just ask Cloud.
+
+86
+00:02:52,490 --> 00:02:55,320
+So, it will go and consult its own knowledge base.
+
+87
+00:02:55,320 --> 00:02:57,880
+Or, it'll go online to search for the relevant information.
+
+88
+00:02:57,880 --> 00:03:00,520
+and then show you how to customize skills, and so on.
+
+89
+00:03:00,520 --> 00:03:03,300
+So basically, it's going to show you how to use it.
+
+90
+00:03:03,300 --> 00:03:05,140
+And then, after I wait for it to, you know, finish thinking,
+
+91
+00:03:05,140 --> 00:03:07,660
+So, let me show you how to create your own custom skills.
+
+92
+00:03:07,660 --> 00:03:08,840
+So, how do you actually write this skill?
+
+93
+00:03:08,840 --> 00:03:09,700
+So, what does it look like, generally speaking?
+
+94
+00:03:09,700 --> 00:03:12,230
+So you can see, everything's all set up in here, isn't it?
+
+95
+00:03:12,230 --> 00:03:12,910
+Right, okay.
+
+96
+00:03:12,910 --> 00:03:14,750
+Alright, let's take a quick look.
+
+97
+00:03:14,750 --> 00:03:17,150
+So, he's saying that if we want to implement this feature,
+
+98
+00:03:17,150 --> 00:03:19,510
+So, what we need to do is define a custom skill, which is called a 'skill'.
+
+99
+00:03:19,510 --> 00:03:22,880
+And then, you can quickly call it up by typing a forward slash followed by the skill name.
+
+100
+00:03:22,880 --> 00:03:25,000
+So, there are actually two places where you can store these skills.
+
+101
+00:03:25,000 --> 00:03:26,800
+The first one is your project's root directory.
+
+102
+00:03:26,800 --> 00:03:29,640
+So, inside our project, there's a folder called .cloud.
+
+103
+00:03:29,640 --> 00:03:32,720
+Inside here, create a folder called 'sq4'.
+
+104
+00:03:32,720 --> 00:03:34,600
+Then, create another folder with the name of your skill.
+
+105
+00:03:34,600 --> 00:03:37,740
+And inside the folder for your skill, you'll place a file called skill.md.
+
+106
+00:03:37,740 --> 00:03:40,140
+Alright, so this is the core file for the skill.
+
+107
+00:03:40,140 --> 00:03:42,800
+So, this .md file is essentially just a text document.
+
+108
+00:03:42,800 --> 00:03:43,860
+It's just a Markdown file.
+
+109
+00:03:43,860 --> 00:03:47,500
+And in here, you just write the prompts for the actions you want it to take.
+
+110
+00:03:47,500 --> 00:03:51,080
+So, in other words, when it triggers this skill,
+
+111
+00:03:51,080 --> 00:03:53,900
+Essentially, it's like you're giving it a set of instructions.
+
+112
+00:03:53,900 --> 00:03:55,550
+So, for example, take a look inside here.
+
+113
+00:03:55,550 --> 00:03:58,130
+So, you just need to describe what the skill's name is.
+
+114
+00:03:58,130 --> 00:03:59,170
+and a description.
+
+115
+00:03:59,170 --> 00:04:00,810
+Describe in one sentence what this skill does.
+
+116
+00:04:00,810 --> 00:04:02,820
+And then in here, you write down what it's actually supposed to do.
+
+117
+00:04:02,820 --> 00:04:04,840
+For instance, let's say we want to run this app.
+
+118
+00:04:04,840 --> 00:04:08,000
+So, you can create a file called 'sq.md'.
+
+119
+00:04:08,000 --> 00:04:09,160
+So, what you write in here is...
+
+120
+00:04:09,160 --> 00:04:11,620
+we should run it in development mode.
+
+121
+00:04:11,620 --> 00:04:13,160
+So, for the current黑马记账app...
+
+122
+00:04:13,160 --> 00:04:13,440
+Alright.
+
+123
+00:04:13,440 --> 00:04:16,140
+All you have to do is describe the skill in plain English.
+
+124
+00:04:16,140 --> 00:04:17,640
+You don't need any specialized knowledge.
+
+125
+00:04:17,640 --> 00:04:20,519
+So, just describe the skill the way you would in plain English.
+
+126
+00:04:20,519 --> 00:04:21,640
+And that's all there is to it.
+
+127
+00:04:21,640 --> 00:04:22,400
+So, for example,
+
+128
+00:04:22,400 --> 00:04:24,240
+See? It works exactly as we thought.
+
+129
+00:04:24,240 --> 00:04:26,720
+So, let's say we want to create a skill called 'run-app'.
+
+130
+00:04:26,720 --> 00:04:27,460
+to start the application.
+
+131
+00:04:27,460 --> 00:04:28,660
+So, you can just write it like this.
+
+132
+00:04:28,660 --> 00:04:31,120
+Please follow the steps below to start the Heima Accounting app.
+
+133
+00:04:31,120 --> 00:04:32,320
+First, make sure it's installed.
+
+134
+00:04:32,320 --> 00:04:33,240
+If you haven't installed it,
+
+135
+00:04:33,240 --> 00:04:34,320
+And then, run it.
+
+136
+00:04:34,320 --> 00:04:36,670
+This will start the development server and open the window.
+
+137
+00:04:36,670 --> 00:04:37,670
+And once it's successfully launched,
+
+138
+00:04:37,670 --> 00:04:39,090
+And it tells me the app is now up and running.
+
+139
+00:04:39,090 --> 00:04:41,870
+And just like that, you've essentially created a new skill.
+
+140
+00:04:41,870 --> 00:04:45,040
+and you can get it done just by using a slash command.
+
+141
+00:04:45,040 --> 00:04:47,300
+Of course, we can take this even further and make it more powerful.
+
+142
+00:04:47,300 --> 00:04:47,920
+to make it even more powerful.
+
+143
+00:04:47,920 --> 00:04:49,980
+But for now, let's not worry about all those more advanced features.
+
+144
+00:04:49,980 --> 00:04:51,900
+So first, let's go ahead and create this skill.
+
+145
+00:04:51,900 --> 00:04:54,420
+So now it's asking me if I want it to create it for me.
+
+146
+00:04:54,420 --> 00:04:55,340
+So I'm gonna say yes.
+
+147
+00:04:55,340 --> 00:04:56,660
+Alright, so before we run it,
+
+148
+00:04:56,660 --> 00:04:58,409
+Alright, first, let's take this conversation...
+
+149
+00:04:58,409 --> 00:05:00,389
+First, let's move it over to the right side here.
+
+150
+00:05:00,389 --> 00:05:01,969
+Alright, so over here on the right.
+
+151
+00:05:01,969 --> 00:05:04,449
+You can see there's this thing here called the 'little clock'.
+
+152
+00:05:04,449 --> 00:05:06,469
+See? You can find it right there with this little clock icon.
+
+153
+00:05:06,469 --> 00:05:08,069
+And what we just saw on the left is called 'Custom Skills'.
+
+154
+00:05:08,069 --> 00:05:08,949
+The conversation for calling the method.
+
+155
+00:05:08,949 --> 00:05:10,040
+Just click on this.
+
+156
+00:05:10,040 --> 00:05:10,880
+Just give it a click.
+
+157
+00:05:10,880 --> 00:05:13,160
+Okay, so now the conversation has moved over to the right.
+
+158
+00:05:13,160 --> 00:05:14,320
+So now we can just go ahead and close this.
+
+159
+00:05:14,320 --> 00:05:14,720
+And it's gone.
+
+160
+00:05:14,720 --> 00:05:16,690
+So now we can just focus on the right side.
+
+161
+00:05:16,690 --> 00:05:18,370
+and chat with our Cloud Code.
+
+162
+00:05:18,370 --> 00:05:19,410
+and have a conversation. Alright.
+
+163
+00:05:19,410 --> 00:05:20,390
+Alright, let's give it a go.
+
+164
+00:05:20,390 --> 00:05:27,789
+Just create this skill for me called 'run-app'.
+
+165
+00:05:31,600 --> 00:05:32,080
+Alright.
+
+166
+00:05:32,080 --> 00:05:32,960
+So, we've just given it the command.
+
+167
+00:05:32,960 --> 00:05:33,400
+So, what happens next is,
+
+168
+00:05:33,400 --> 00:05:35,560
+It will then go ahead and read our current code.
+
+169
+00:05:35,560 --> 00:05:37,280
+and then it'll check out how your code is actually written.
+
+170
+00:05:37,280 --> 00:05:38,880
+and then decide how to get it started.
+
+171
+00:05:38,880 --> 00:05:41,720
+And then it asks me if I want to allow it to execute the corresponding command.
+
+172
+00:05:41,720 --> 00:05:44,400
+See, this command, 'mkdir', is for creating a directory.
+
+173
+00:05:44,400 --> 00:05:46,000
+It's located in our .cloud directory.
+
+174
+00:05:46,000 --> 00:05:48,919
+to create a folder called sq4.
+
+175
+00:05:48,919 --> 00:05:51,159
+And then inside that, we'll create another folder called 'run app'. Alright.
+
+176
+00:05:51,159 --> 00:05:52,079
+So, we'll just say 'yes'.
+
+177
+00:05:52,079 --> 00:05:53,879
+Let it run.
+
+178
+00:05:56,500 --> 00:05:58,780
+Alright, so normally, once the folder is created,
+
+179
+00:05:58,780 --> 00:06:02,260
+and it should now start writing the file.
+
+180
+00:06:02,260 --> 00:06:04,220
+Alright, so as you can see, it's all set up in here.
+
+181
+00:06:04,220 --> 00:06:06,040
+This is a document called sq.e.md.
+
+182
+00:06:06,040 --> 00:06:07,320
+So, this is our skill.
+
+183
+00:06:07,320 --> 00:06:10,180
+So, this skill is basically just a plain MD file, purely descriptive.
+
+184
+00:06:10,180 --> 00:06:12,080
+Let's say, for example, this is some kind of application.
+
+185
+00:06:12,080 --> 00:06:14,140
+Alright, to start the development mode, follow these steps.
+
+186
+00:06:14,140 --> 00:06:15,660
+Startup steps: confirm dependencies are installed.
+
+187
+00:06:15,660 --> 00:06:17,460
+Start the development server and verify it's running successfully.
+
+188
+00:06:17,460 --> 00:06:19,260
+And then you can include important notes, FAQs, and so on.
+
+189
+00:06:19,260 --> 00:06:21,180
+So, to put it simply, what exactly are these 'skills'?
+
+190
+00:06:21,180 --> 00:06:24,140
+So, a 'skill' is basically taking your daily interactions with Cloud Code,
+
+191
+00:06:24,140 --> 00:06:25,700
+chat with Cloud Code,
+
+192
+00:06:25,700 --> 00:06:28,270
+Or in other words, it turns your request into a shortcut command.
+
+193
+00:06:28,270 --> 00:06:29,950
+For example, if you didn't have this skill,
+
+194
+00:06:29,950 --> 00:06:31,390
+So, how would you get it to start the app for you?
+
+195
+00:06:31,390 --> 00:06:32,830
+You'd probably just chat with Cloud Code and say,
+
+196
+00:06:32,830 --> 00:06:35,190
+Hey, could you start up my Heima Accounting app for me?
+
+197
+00:06:35,190 --> 00:06:36,480
+So you'd have to type that whole sentence, right?
+
+198
+00:06:36,480 --> 00:06:37,920
+So now, you've turned that into a skill.
+
+199
+00:06:37,920 --> 00:06:40,120
+So basically, your slash command is just 'run app'.
+
+200
+00:06:40,120 --> 00:06:41,460
+It's basically the same as that sentence you just said.
+
+201
+00:06:41,460 --> 00:06:44,520
+The only difference is that we're having Cloud Code itself write it for us.
+
+202
+00:06:44,520 --> 00:06:45,240
+Yep, it's the large language model at work again.
+
+203
+00:06:45,240 --> 00:06:47,080
+The skills it generates for us might be a bit wordier.
+
+204
+00:06:47,080 --> 00:06:47,980
+to be a bit more detailed.
+
+205
+00:06:47,980 --> 00:06:51,020
+But all of this text, boiled down, is really just one simple sentence.
+
+206
+00:06:51,020 --> 00:06:53,580
+Launch my Heima Bookkeeping app for me.
+
+207
+00:06:53,580 --> 00:06:55,060
+So, it really all boils down to this one sentence.
+
+208
+00:06:55,060 --> 00:06:55,580
+Natural language.
+
+209
+00:06:55,580 --> 00:06:57,980
+So yeah, that's what a skill described in natural language is.
+
+210
+00:06:57,980 --> 00:06:58,700
+Nothing too special about it.
+
+211
+00:06:58,700 --> 00:07:00,520
+All you have to do is describe it in plain English, and you're good to go.
+
+212
+00:07:00,520 --> 00:07:03,420
+Alright, so now it's asking me if I want to write this thing.
+
+213
+00:07:03,420 --> 00:07:04,340
+Of course, yes.
+
+214
+00:07:04,340 --> 00:07:05,080
+Sure, allow it.
+
+215
+00:07:05,080 --> 00:07:06,470
+Alright, let's allow it.
+
+216
+00:07:06,470 --> 00:07:07,790
+Alright, so once we've granted permission,
+
+217
+00:07:07,790 --> 00:07:10,250
+And just like that, the current file will be saved.
+
+218
+00:07:10,250 --> 00:07:11,070
+Alright, once that's saved,
+
+219
+00:07:11,070 --> 00:07:14,640
+Now, you can just go ahead and type a forward slash in the chat box.
+
+220
+00:07:14,640 --> 00:07:15,480
+run app.
+
+221
+00:07:15,480 --> 00:07:18,530
+And it will directly call the skill we just wrote.
+
+222
+00:07:18,530 --> 00:07:20,970
+So, you'll see there's a folder called 'skills' in here.
+
+223
+00:07:20,970 --> 00:07:23,570
+and inside that, I've created another folder called 'run app'.
+
+224
+00:07:23,570 --> 00:07:26,400
+And in here, we have the skill.md file we just saw. Alright.
+
+225
+00:07:26,400 --> 00:07:27,480
+Alright, so the skill is all set up now.
+
+226
+00:07:27,480 --> 00:07:28,120
+Alright, let's give it a try.
+
+227
+00:07:28,120 --> 00:07:32,620
+Alright, let's execute this command, slash run-app.
+
+228
+00:07:32,620 --> 00:07:34,969
+Press Enter... whoops, sorry.
+
+229
+00:07:34,969 --> 00:07:37,080
+And it automatically does this for us.
+
+230
+00:07:37,080 --> 00:07:38,980
+It automatically changed it to that, uh, /loop command.
+
+231
+00:07:38,980 --> 00:07:40,200
+Oh, it has this thing called auto-suggestion.
+
+232
+00:07:40,200 --> 00:07:42,180
+Alright, let's do /run-app.
+
+233
+00:07:42,180 --> 00:07:45,430
+See? It's automatically assuming we're typing 'loop'.
+
+234
+00:07:45,430 --> 00:07:46,590
+Let's just press ESC.
+
+235
+00:07:46,590 --> 00:07:47,070
+Let's cancel that.
+
+236
+00:07:47,070 --> 00:07:48,830
+We don't want its auto-suggestions to get in our way.
+
+237
+00:07:48,830 --> 00:07:51,209
+Alright, let's just go ahead and run `/run-app`.
+
+238
+00:07:51,209 --> 00:07:52,029
+So, when we run it,
+
+239
+00:07:52,029 --> 00:07:54,610
+See? It's telling us it's an unknown command.
+
+240
+00:07:54,610 --> 00:07:56,170
+It's saying it doesn't recognize the command.
+
+241
+00:07:56,170 --> 00:07:57,150
+So, what's going on here?
+
+242
+00:07:57,150 --> 00:07:58,230
+Alright, this is expected.
+
+243
+00:07:58,230 --> 00:08:00,680
+That's because we just created this skill.
+
+244
+00:08:00,680 --> 00:08:02,880
+And the thing is, Cloud has already pre-loaded it.
+
+245
+00:08:02,880 --> 00:08:03,680
+and it's up and running.
+
+246
+00:08:03,680 --> 00:08:04,280
+So, it's pretty simple.
+
+247
+00:08:04,280 --> 00:08:06,760
+All we need to do is restart our Cloud Code.
+
+248
+00:08:06,760 --> 00:08:07,980
+So, once it's up and running,
+
+249
+00:08:07,980 --> 00:08:10,640
+and it will read what's inside our skill packages.
+
+250
+00:08:10,640 --> 00:08:12,920
+So, we can just go ahead and close our VS Code.
+
+251
+00:08:12,920 --> 00:08:14,580
+And then just open it back up.
+
+252
+00:08:14,580 --> 00:08:15,880
+Alright, so I'm going to close it now.
+
+253
+00:08:15,880 --> 00:08:17,320
+Let's give it a restart.
+
+254
+00:08:25,240 --> 00:08:28,240
+Alright, so my Cloud Code has just finished restarting.
+
+255
+00:08:28,240 --> 00:08:31,099
+Alright, let's try running `/run-app` again.
+
+256
+00:08:31,099 --> 00:08:32,499
+As you can see, after we've restarted,
+
+257
+00:08:32,499 --> 00:08:34,500
+See? It automatically gives you the suggestion.
+
+258
+00:08:34,500 --> 00:08:36,100
+See? It has the command right there.
+
+259
+00:08:36,100 --> 00:08:37,780
+Alright, let's just run it.
+
+260
+00:08:37,780 --> 00:08:39,870
+Let's see... run-app, alright.
+
+261
+00:08:39,870 --> 00:08:41,110
+Alright, let's run it again.
+
+262
+00:08:41,110 --> 00:08:41,429
+And it will
+
+263
+00:08:41,429 --> 00:08:44,590
+and it will follow the instructions we've laid out in this run-app.md file.
+
+264
+00:08:44,590 --> 00:08:46,680
+and get our application up and running, step by step.
+
+265
+00:08:46,680 --> 00:08:48,560
+For example, you can see our description has three steps.
+
+266
+00:08:48,560 --> 00:08:49,960
+dependencies and the development server.
+
+267
+00:08:49,960 --> 00:08:50,520
+and validation.
+
+268
+00:08:50,520 --> 00:08:52,280
+See? First, it checks the dependencies.
+
+269
+00:08:52,280 --> 00:08:53,540
+Step two: start the development server.
+
+270
+00:08:53,540 --> 00:08:55,460
+And the third step is to just run our program.
+
+271
+00:08:55,460 --> 00:08:57,800
+And just like that, you can see our program is now up and running.
+
+272
+00:08:57,800 --> 00:08:58,140
+Alright.
+
+273
+00:08:58,140 --> 00:09:00,760
+So, as you can see, if we want it to help us with something later on,
+
+274
+00:09:00,760 --> 00:09:03,040
+to get our current program up and running,
+
+275
+00:09:03,040 --> 00:09:05,400
+So you don't have to go clacking away at the keyboard typing a whole bunch of stuff.
+
+276
+00:09:05,400 --> 00:09:08,840
+So, all we need is a simple command, let's call it 'run-app'.
+
+277
+00:09:08,840 --> 00:09:10,800
+Just hit Enter, and you're all set.
+
+278
+00:09:10,800 --> 00:09:11,880
+No more typing out long commands.
+
+279
+00:09:11,880 --> 00:09:14,319
+So yeah, that's one of the perks of creating your own custom skills.
+
+280
+00:09:14,319 --> 00:09:16,879
+Alright, so now that we've finished defining this skill,
+
+281
+00:09:16,879 --> 00:09:19,399
+Alright, let's have it create another skill for us as well.
+
+282
+00:09:19,399 --> 00:09:25,030
+So, the next skill will be... hey, help me create another skill.
+
+283
+00:09:25,030 --> 00:09:30,690
+And the skill's name will be, let's call it, slash rebuild.
+
+284
+00:09:30,890 --> 00:09:32,910
+Rebuild the app.
+
+285
+00:09:32,910 --> 00:09:33,270
+Alright.
+
+286
+00:09:33,270 --> 00:09:38,230
+So, what this does is, its function is to take our app...
+
+287
+00:09:38,230 --> 00:09:41,680
+Just repackage it.
+
+288
+00:09:41,680 --> 00:09:42,740
+and just repackage it.
+
+289
+00:09:42,740 --> 00:09:45,140
+Alright, OK, so let's go ahead and create this skill for us.
+
+290
+00:09:45,140 --> 00:09:46,900
+So, this will make things much easier for us later on.
+
+291
+00:09:46,900 --> 00:09:47,860
+So, if you ever need to,
+
+292
+00:09:47,860 --> 00:09:51,430
+and just run the command called 'rebuild app'.
+
+293
+00:09:51,430 --> 00:09:55,610
+and it will quickly rebuild our entire app for us.
+
+294
+00:09:55,610 --> 00:09:56,330
+And once that's rebuilt,
+
+295
+00:09:56,330 --> 00:09:58,690
+So now, this is the latest version of ESE.
+
+296
+00:09:58,690 --> 00:10:01,170
+Alright, let's just wait for it to create this skill for us.
+
+297
+00:10:01,170 --> 00:10:02,930
+And the skill description is all set up now.
+
+298
+00:10:02,930 --> 00:10:04,800
+See? It's called 'Repackaging the app'.
+
+299
+00:10:04,800 --> 00:10:06,440
+Generate an EXE installer file.
+
+300
+00:10:06,440 --> 00:10:09,080
+Then, the packaging steps are: clean up the old files, and confirm dependencies.
+
+301
+00:10:09,080 --> 00:10:11,319
+Compile, package, and then verify the package results.
+
+302
+00:10:11,319 --> 00:10:12,959
+So, the main process boils down to these four key steps.
+
+303
+00:10:12,959 --> 00:10:13,959
+Okay, this skill looks good.
+
+304
+00:10:13,959 --> 00:10:15,639
+So, let's click 'yes' to allow it.
+
+305
+00:10:15,639 --> 00:10:17,970
+And just like that, our skill is all set up.
+
+306
+00:10:17,970 --> 00:10:19,050
+Alright, so once that's done,
+
+307
+00:10:19,050 --> 00:10:23,110
+Alright, so by the same token, we can go ahead and close VS Code.
+
+308
+00:10:23,110 --> 00:10:23,770
+Alright, once it's closed,
+
+309
+00:10:23,770 --> 00:10:26,380
+and then go ahead and restart it.
+
+310
+00:10:26,380 --> 00:10:28,240
+Because once you've written these skills,
+
+311
+00:10:28,240 --> 00:10:28,940
+for them to take effect,
+
+312
+00:10:28,940 --> 00:10:31,380
+you have to restart Visual Studio.
+
+313
+00:10:31,380 --> 00:10:33,120
+But of course, you're not actually restarting Visual Studio itself.
+
+314
+00:10:33,120 --> 00:10:35,340
+It's actually the Cloud Code extension that we're restarting.
+
+315
+00:10:35,340 --> 00:10:36,940
+Alright, so after the restart,
+
+316
+00:10:36,940 --> 00:10:40,570
+Alright, let's try running a command, like /re...
+
+317
+00:10:40,570 --> 00:10:41,090
+app, and there we go.
+
+318
+00:10:41,090 --> 00:10:41,970
+Alright, let's just hit Enter.
+
+319
+00:10:41,970 --> 00:10:44,370
+And as you can see, our skill has now been loaded.
+
+320
+00:10:44,370 --> 00:10:45,890
+And now it's starting to...
+
+321
+00:10:45,890 --> 00:10:48,450
+and execute the tasks as we've defined in the skill.
+
+322
+00:10:48,450 --> 00:10:49,949
+For example, cleaning up,
+
+323
+00:10:49,949 --> 00:10:50,869
+verifying dependencies,
+
+324
+00:10:50,869 --> 00:10:52,049
+compiling, packaging, and so on.
+
+325
+00:10:52,049 --> 00:10:53,389
+Some of these commands require...
+
+326
+00:10:53,389 --> 00:10:55,089
+All we need to do is grant the permission, so let's click 'yes'.
+
+327
+00:10:55,089 --> 00:10:56,160
+Just allow it and you're all set.
+
+328
+00:10:56,160 --> 00:10:57,640
+Alright, OK, so let's just wait a moment.
+
+329
+00:10:57,640 --> 00:10:58,920
+Let's wait for it to finish running.
+
+330
+00:10:58,920 --> 00:11:01,200
+And we should be able to see the latest Windows...
+
+331
+00:11:01,200 --> 00:11:03,800
+the .EXE installer file.
+
+332
+00:11:05,760 --> 00:11:08,360
+Alright, so it's in the middle of packaging right now.
+
+333
+00:11:08,360 --> 00:11:09,680
+Alright, so we'll just let that run in the background for now.
+
+334
+00:11:09,680 --> 00:11:11,260
+Let's just let it finish packaging.
+
+335
+00:11:11,260 --> 00:11:12,720
+And on top of that, let me also mention something.
+
+336
+00:11:12,720 --> 00:11:15,340
+So, for this skill we've just created...
+
+337
+00:11:15,340 --> 00:11:19,219
+In reality, it can only be used for the current project.
+
+338
+00:11:19,219 --> 00:11:21,779
+So, let's think about the skills we've just created.
+
+339
+00:11:21,779 --> 00:11:23,319
+Now, let's see where its folder is located.
+
+340
+00:11:23,319 --> 00:11:25,420
+It's in the folder for our current project.
+
+341
+00:11:25,420 --> 00:11:27,280
+And inside that, there's a folder called .cloud.
+
+342
+00:11:27,280 --> 00:11:28,940
+And inside, there's a folder called .skills.
+
+343
+00:11:28,940 --> 00:11:31,960
+And inside, we have our two skill packages, right?
+
+344
+00:11:31,960 --> 00:11:35,820
+So, what this means is, for the skills we've just written...
+
+345
+00:11:35,820 --> 00:11:38,500
+This means it's only specific to the Heima-Bookkeeping app.
+
+346
+00:11:38,500 --> 00:11:41,020
+In other words, when we use 'cd' to load this folder,
+
+347
+00:11:41,020 --> 00:11:42,859
+only then will it be able to load this skill.
+
+348
+00:11:42,859 --> 00:11:45,239
+So, what if we switch to a different project?
+
+349
+00:11:45,239 --> 00:11:47,360
+So this skill won't be universal anymore.
+
+350
+00:11:47,360 --> 00:11:50,480
+So, if you want to create a universal skill,
+
+351
+00:11:50,480 --> 00:11:53,640
+In other words, a skill that you can use in any project.
+
+352
+00:11:53,640 --> 00:11:57,440
+For example, our git commit and push workflow, right?
+
+353
+00:11:57,440 --> 00:11:58,520
+Commands like this one,
+
+354
+00:11:58,520 --> 00:12:01,660
+This is something we'll definitely need for any project, no matter what it is.
+
+355
+00:12:01,660 --> 00:12:04,970
+So, for these kinds of skills that are universal across projects,
+
+356
+00:12:04,970 --> 00:12:06,950
+So, we'll definitely need to store it somewhere else.
+
+357
+00:12:06,950 --> 00:12:08,270
+So, where should we store it instead?
+
+358
+00:12:08,270 --> 00:12:09,190
+Alright, let's stop that.
+
+359
+00:12:09,190 --> 00:12:10,430
+The background process is running way too slow.
+
+360
+00:12:10,430 --> 00:12:12,170
+Alright, let's try a new approach.
+
+361
+00:12:12,170 --> 00:12:15,290
+Alright, so what we've just created are two project-level skills.
+
+362
+00:12:15,290 --> 00:12:16,530
+So, if we want to get this done,
+
+363
+00:12:16,530 --> 00:12:18,170
+So, for example, how do you create a global skill?
+
+364
+00:12:18,170 --> 00:12:20,640
+So basically, it's just about taking our skill file and...
+
+365
+00:12:20,640 --> 00:12:21,880
+just put it somewhere else.
+
+366
+00:12:21,880 --> 00:12:22,960
+Let's ask Cloud.
+
+367
+00:12:22,960 --> 00:12:27,940
+For example, let's say I want to create a global skill.
+
+368
+00:12:27,940 --> 00:12:28,660
+Like global skills,
+
+369
+00:12:28,660 --> 00:12:31,990
+In other words, it doesn't matter what the project is.
+
+370
+00:12:31,990 --> 00:12:33,730
+no matter what
+
+371
+00:12:34,810 --> 00:12:38,209
+So, it doesn't matter what project it is.
+
+372
+00:12:38,209 --> 00:12:41,969
+It doesn't matter what project it is, you can use it in all of them.
+
+373
+00:12:41,969 --> 00:12:42,929
+So you can use it anywhere.
+
+374
+00:12:42,929 --> 00:12:44,329
+So, how do we do it?
+
+375
+00:12:48,580 --> 00:12:53,540
+Alright, so that's because of the build we just ran.
+
+376
+00:12:53,540 --> 00:12:54,540
+Even though I told it to stop,
+
+377
+00:12:54,540 --> 00:12:56,380
+But in reality, the system registered it as a failure.
+
+378
+00:12:56,380 --> 00:12:57,940
+And then it just kept on going.
+
+379
+00:12:57,940 --> 00:12:59,300
+Alright, so let's ignore the packaging for now.
+
+380
+00:12:59,300 --> 00:13:02,520
+Because, you know, this whole packaging thing just takes way too much time.
+
+381
+00:13:02,520 --> 00:13:04,640
+Alright, so let's focus on our global skills.
+
+382
+00:13:04,640 --> 00:13:06,400
+So, how exactly does it respond?
+
+383
+00:13:06,400 --> 00:13:09,200
+Alright, so the output here is actually a bit of a mess.
+
+384
+00:13:09,200 --> 00:13:09,720
+It's a bit messy.
+
+385
+00:13:09,720 --> 00:13:11,720
+But basically, you can still see what's going on.
+
+386
+00:13:11,720 --> 00:13:13,890
+So, for example, how do you create a global skill?
+
+387
+00:13:13,890 --> 00:13:16,410
+So, skills can be stored in the .cloud/code/skills directory.
+
+388
+00:13:16,410 --> 00:13:18,120
+This means it's only effective within the current project.
+
+389
+00:13:18,120 --> 00:13:21,040
+In other words, it's only effective within our current黑马 (Hēimǎ) Skill App project.
+
+390
+00:13:21,040 --> 00:13:22,680
+So, what if you want it to be globally effective?
+
+391
+00:13:22,680 --> 00:13:25,110
+See? All you have to do is change the storage location for the skills.
+
+392
+00:13:25,110 --> 00:13:26,570
+You just need to change one thing.
+
+393
+00:13:26,570 --> 00:13:30,149
+just switch to the `.cloud` folder in your current user directory.
+
+394
+00:13:30,149 --> 00:13:31,229
+Inside the `.cloud` folder, right?
+
+395
+00:13:31,229 --> 00:13:32,109
+You just put it in here.
+
+396
+00:13:32,109 --> 00:13:35,160
+This way, it won't be tied to any specific project.
+
+397
+00:13:35,160 --> 00:13:37,600
+Alright, so now that we know how to do that,
+
+398
+00:13:37,600 --> 00:13:38,720
+So let's go ahead and create a skill.
+
+399
+00:13:38,720 --> 00:13:43,890
+So, I'm gonna have it write a global skill for me.
+
+400
+00:13:43,890 --> 00:13:49,700
+And we'll name it 'git-save'.
+
+401
+00:13:49,700 --> 00:13:51,900
+Basically, it uses Git to save our checkpoints.
+
+402
+00:13:51,900 --> 00:13:57,530
+And its function? Well, its function is to use git to create a save point.
+
+403
+00:13:57,530 --> 00:14:02,300
+and then push it to the remote server.
+
+404
+00:14:02,300 --> 00:14:04,080
+So basically, it's about taking this whole set of fixed procedures we have...
+
+405
+00:14:04,080 --> 00:14:05,220
+So, let's get this set up for us.
+
+406
+00:14:05,220 --> 00:14:06,740
+This is what we'll call 'git-shift'.
+
+407
+00:14:06,740 --> 00:14:08,200
+The only thing is, for this skill we're working on...
+
+408
+00:14:08,200 --> 00:14:09,740
+We need it to be written to the global settings for us.
+
+409
+00:14:09,740 --> 00:14:09,920
+Alright.
+
+410
+00:14:09,920 --> 00:14:11,520
+So we'll just hit Enter to confirm.
+
+411
+00:14:11,520 --> 00:14:14,579
+And then, we'll have it edit this skill into the global settings for us.
+
+412
+00:14:14,579 --> 00:14:16,179
+Alright, so, before it actually edits that file...
+
+413
+00:14:16,179 --> 00:14:17,299
+First, let's go ahead and check.
+
+414
+00:14:17,299 --> 00:14:20,069
+Let's see what we have in this current folder.
+
+415
+00:14:20,069 --> 00:14:22,169
+For instance, let me open up my file explorer.
+
+416
+00:14:22,169 --> 00:14:23,929
+In my current C drive, under Users,
+
+417
+00:14:23,929 --> 00:14:26,190
+and under my username, I'll click on 'cloud'. Okay.
+
+418
+00:14:26,190 --> 00:14:27,390
+And as you can see in here...
+
+419
+00:14:27,390 --> 00:14:31,990
+So right now, there's still nothing in here related to this 'sq' thing.
+
+420
+00:14:33,400 --> 00:14:34,680
+Alright, so since it's not there...
+
+421
+00:14:34,680 --> 00:14:36,960
+Alright, let's switch back. As you can see, it's about to run another command.
+
+422
+00:14:36,960 --> 00:14:38,500
+Alright, let's go ahead and allow it.
+
+423
+00:14:38,500 --> 00:14:39,580
+Let's let it finish running the command.
+
+424
+00:14:39,580 --> 00:14:41,100
+In a moment, it should help us...
+
+425
+00:14:41,100 --> 00:14:43,660
+and create it in our user folder.
+
+426
+00:14:43,660 --> 00:14:44,320
+the corresponding skill.
+
+427
+00:14:44,320 --> 00:14:45,820
+Alright, let's go back and take a look.
+
+428
+00:14:45,820 --> 00:14:47,460
+Alright, so as you can see, here we have the 'SKILLS' folder.
+
+429
+00:14:47,460 --> 00:14:48,680
+And just like that, it's automatically created for us.
+
+430
+00:14:48,680 --> 00:14:50,760
+And as you can see, the GCF has been created inside as well.
+
+431
+00:14:50,760 --> 00:14:51,920
+Alright, let's give it a moment.
+
+432
+00:14:51,920 --> 00:14:53,600
+Let's wait for it to finish the final editing process.
+
+433
+00:14:53,600 --> 00:14:56,120
+Alright, let's just let it finish this editing process.
+
+434
+00:14:56,120 --> 00:14:58,260
+And just like that, our skill is all set up.
+
+435
+00:14:58,260 --> 00:14:59,700
+Alright, you see? The skill is all set.
+
+436
+00:14:59,700 --> 00:15:00,020
+Once we're in,
+
+437
+00:15:00,020 --> 00:15:01,140
+See, right here we have one called 'git save'.
+
+438
+00:15:01,140 --> 00:15:02,540
+Inside, there's a file called sq.md.
+
+439
+00:15:02,540 --> 00:15:03,340
+Let's double-click to open it.
+
+440
+00:15:03,340 --> 00:15:06,220
+So, let's see what's actually written inside this MD file.
+
+441
+00:15:10,240 --> 00:15:11,280
+Alright, so once we're in,
+
+442
+00:15:11,280 --> 00:15:13,200
+So, you can see this is the skill we're working with right now.
+
+443
+00:15:13,200 --> 00:15:14,620
+Its name is 'git save'.
+
+444
+00:15:14,620 --> 00:15:16,770
+And the description is 'push to the remote repository'.
+
+445
+00:15:16,770 --> 00:15:18,730
+And the execution steps are, first, we'll do a few things.
+
+446
+00:15:18,730 --> 00:15:19,410
+git status.
+
+447
+00:15:19,410 --> 00:15:20,570
+Let's see which files...
+
+448
+00:15:20,570 --> 00:15:22,550
+Then, use 'git add' to stage all the changes.
+
+449
+00:15:22,550 --> 00:15:24,740
+And then, we'll use 'git commit' to commit the changes.
+
+450
+00:15:24,740 --> 00:15:27,180
+And then, git push to push it to the remote repository.
+
+451
+00:15:27,180 --> 00:15:27,420
+And...
+
+452
+00:15:27,420 --> 00:15:29,340
+So, this is basically what we were just talking about.
+
+453
+00:15:29,340 --> 00:15:30,980
+This is what we've been automating all along.
+
+454
+00:15:30,980 --> 00:15:33,710
+So, this part right here handles the commit and push.
+
+455
+00:15:33,710 --> 00:15:34,750
+Alright, so for the corresponding command...
+
+456
+00:15:34,750 --> 00:15:35,990
+Alright, so once we've created this skill,
+
+457
+00:15:35,990 --> 00:15:36,710
+So, by the same token,
+
+458
+00:15:36,710 --> 00:15:40,260
+So, by the same token, we still need to restart it.
+
+459
+00:15:40,260 --> 00:15:42,220
+our VS Code.
+
+460
+00:15:42,220 --> 00:15:45,160
+So basically, the whole point is to restart this thing called, uh, Cloud Code.
+
+461
+00:15:45,160 --> 00:15:46,940
+Or, we can just do it directly in this terminal.
+
+462
+00:15:46,940 --> 00:15:48,260
+Let's just open a new terminal.
+
+463
+00:15:48,260 --> 00:15:51,150
+and in this terminal, you just run 'cloud'.
+
+464
+00:15:51,150 --> 00:15:53,910
+Alright, so this is a completely fresh start.
+
+465
+00:15:53,910 --> 00:15:55,990
+Now, let's see if we can find that skill in here.
+
+466
+00:15:55,990 --> 00:15:58,960
+For example, let's say we have one called 'git-save'.
+
+467
+00:15:58,960 --> 00:16:01,690
+And as you can see, the skill has already popped up, right?
+
+468
+00:16:01,690 --> 00:16:03,610
+And it's got 'user' in parentheses right after it.
+
+469
+00:16:03,610 --> 00:16:07,150
+And that tells you it's a custom skill created by the user.
+
+470
+00:16:07,150 --> 00:16:11,020
+So from now on, whenever we want to save our code progress,
+
+471
+00:16:11,020 --> 00:16:12,380
+or push it to the server,
+
+472
+00:16:12,380 --> 00:16:14,240
+You don't have to type out a whole long command.
+
+473
+00:16:14,240 --> 00:16:17,029
+All you have to do is type /git-cf, and boom.
+
+474
+00:16:17,029 --> 00:16:19,859
+And just like that, the whole process is automated.
+
+475
+00:16:19,859 --> 00:16:22,219
+Alright, so after going through that whole process,
+
+476
+00:16:22,219 --> 00:16:23,619
+So, I've just given you a quick demonstration.
+
+477
+00:16:23,619 --> 00:16:26,240
+on how to customize skills in Cloud Code.
+
+478
+00:16:26,240 --> 00:16:28,840
+or, in other words, a way to customize slash commands.
+
+479
+00:16:28,840 --> 00:16:31,490
+So, I encourage you all to give it a try on your own time.
+
+480
+00:16:31,490 --> 00:16:32,010
+Alright.
+
+481
+00:16:32,010 --> 00:16:33,310
+Alright, let's save this video.
+
+482
+00:16:33,310 --> 00:16:35,620
+See you in the next video.
+

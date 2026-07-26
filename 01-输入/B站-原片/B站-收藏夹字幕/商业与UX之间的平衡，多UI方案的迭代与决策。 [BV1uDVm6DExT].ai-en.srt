@@ -1,0 +1,524 @@
+1
+00:00:00,080 --> 00:00:03,480
+Let me walk you through a case study, which is actually an interface design question from a major tech company's written exam.
+
+2
+00:00:03,480 --> 00:00:07,340
+This will reveal the business considerations and the decision-making trade-offs behind this design.
+
+3
+00:00:07,340 --> 00:00:09,360
+So, for the student who got this 1-on-1 coaching, if you happen to see this...
+
+4
+00:00:09,360 --> 00:00:10,240
+so you can take it as a reference.
+
+5
+00:00:10,240 --> 00:00:11,320
+Alright, let's get started.
+
+6
+00:00:11,320 --> 00:00:12,000
+real short dramas.
+
+7
+00:00:12,000 --> 00:00:15,100
+It's the world's leading short drama consumption platform.
+
+8
+00:00:15,100 --> 00:00:18,760
+the playback experience for new users, and the transmission of high-definition value.
+
+9
+00:00:18,760 --> 00:00:20,360
+And they've done a really great job with this kind of experience.
+
+10
+00:00:20,360 --> 00:00:22,740
+But in this episode, we're going to be looking at the personal page.
+
+11
+00:00:22,740 --> 00:00:25,480
+And at the same time, this is also a question their company...
+
+12
+00:00:25,480 --> 00:00:26,830
+This is an optimization challenge for UX candidates.
+
+13
+00:00:26,830 --> 00:00:27,630
+Before we begin,
+
+14
+00:00:27,630 --> 00:00:28,870
+So, what I want to talk about is this:
+
+15
+00:00:28,870 --> 00:00:30,630
+no matter what page we optimize,
+
+16
+00:00:30,630 --> 00:00:32,759
+we must first understand its business. we first need to get a clear picture of its business logic.
+
+17
+00:00:32,759 --> 00:00:34,199
+So, looking at the original interface...
+
+18
+00:00:34,199 --> 00:00:36,900
+From a business perspective, there are two key short-term metrics.
+
+19
+00:00:36,900 --> 00:00:39,400
+One is the login conversion rate of tourists.
+
+20
+00:00:39,400 --> 00:00:42,870
+The second one is the first recharge opening rate of VIP, which is the rate at which users subscribe to the VIP membership for the first time.
+
+21
+00:00:42,870 --> 00:00:44,270
+From a visual perspective,
+
+22
+00:00:44,270 --> 00:00:46,170
+and the latter is obviously more important than the former.
+
+23
+00:00:46,170 --> 00:00:48,030
+You can charge membership without logging in.
+
+24
+00:00:48,030 --> 00:00:48,730
+So, why is that?
+
+25
+00:00:48,730 --> 00:00:51,700
+See, it gives you this UID even before you've logged in.
+
+26
+00:00:51,700 --> 00:00:53,600
+And that's where it's different from other platforms.
+
+27
+00:00:53,600 --> 00:00:55,380
+So, if I can watch without logging in,
+
+28
+00:00:55,380 --> 00:00:56,600
+So why would I even need to log in?
+
+29
+00:00:56,600 --> 00:01:00,260
+Because after logging in, you can cross devices and retain your assets.
+
+30
+00:01:00,260 --> 00:01:01,980
+like your viewing history.
+
+31
+00:01:01,980 --> 00:01:04,440
+Meanwhile, the platform can send emails.
+
+32
+00:01:04,440 --> 00:01:06,080
+and when they release new content, they can bring you back.
+
+33
+00:01:06,080 --> 00:01:08,540
+and also control the behavior of free-riding. It can also implement risk control for users trying to game the system.
+
+34
+00:01:08,540 --> 00:01:09,840
+If you don't log in,
+
+35
+00:01:09,840 --> 00:01:11,160
+purely relying on device identification,
+
+36
+00:01:11,160 --> 00:01:12,580
+then they can just repeatedly reinstall the app,
+
+37
+00:01:12,580 --> 00:01:13,820
+and repeatedly get freebies. Just keep getting stuff for free, right?
+
+38
+00:01:13,820 --> 00:01:15,600
+So, with an account, it's much easier to manage.
+
+39
+00:01:15,600 --> 00:01:21,060
+This makes it easier to calculate the long-term core business indicators: LTV and UP value.
+
+40
+00:01:21,060 --> 00:01:25,289
+LTV is the total amount of money a user will spend on the platform throughout their entire lifetime.
+
+41
+00:01:25,289 --> 00:01:28,670
+And the UP value is the average customer unit price. Basically, it's the average amount each paying customer spends.
+
+42
+00:01:28,670 --> 00:01:29,770
+So, let's wrap this up.
+
+43
+00:01:29,770 --> 00:01:31,610
+The short-term value of that first recharge is incredibly high.
+
+44
+00:01:31,610 --> 00:01:34,090
+So, the platform really pushes for making the visual design as strong as possible.
+
+45
+00:01:34,090 --> 00:01:36,380
+But the long-term value of getting users to log in can't be ignored either.
+
+46
+00:01:36,380 --> 00:01:40,060
+So, the first problem is that the VIP paywall is visually very aggressive.
+
+47
+00:01:40,060 --> 00:01:41,440
+And its performance data is probably not bad at all.
+
+48
+00:01:41,440 --> 00:01:42,820
+But precisely because it's so prominent,
+
+49
+00:01:42,820 --> 00:01:44,810
+it might turn some users away.
+
+50
+00:01:44,810 --> 00:01:45,650
+In other words, how should I put it...
+
+51
+00:01:45,650 --> 00:01:46,750
+It's like a store.
+
+52
+00:01:46,750 --> 00:01:50,350
+the moment you walk in, you'll see signs screaming, 'Come spend your money!'
+
+53
+00:01:50,350 --> 00:01:51,650
+They're plastered all over the walls.
+
+54
+00:01:51,650 --> 00:01:54,030
+Instead, it's like getting a membership card first, which is free.
+
+55
+00:01:54,030 --> 00:01:55,080
+and just tossed it into this corner.
+
+56
+00:01:55,080 --> 00:01:56,240
+The result is, it just gives you this feeling...
+
+57
+00:01:56,240 --> 00:01:57,500
+You're asking people to pay right off the bat.
+
+58
+00:01:57,500 --> 00:01:59,600
+So, for those who aren't willing to pay, they're naturally going to be turned off.
+
+59
+00:01:59,600 --> 00:02:00,860
+And you might just lose them.
+
+60
+00:02:00,860 --> 00:02:04,010
+Actually, these 50 coins are a pretty sweet deal.
+
+61
+00:02:04,010 --> 00:02:06,790
+But the problem is, the whole section is just way too visually weak.
+
+62
+00:02:06,790 --> 00:02:08,410
+which makes it seem insincere.
+
+63
+00:02:08,410 --> 00:02:09,530
+So, let's come up with a solution.
+
+64
+00:02:09,530 --> 00:02:13,410
+So, what if we let them register first, and then tone down the VIP promotion? Would that work?
+
+65
+00:02:13,410 --> 00:02:14,190
+That's definitely not going to work.
+
+66
+00:02:14,190 --> 00:02:16,130
+The revenue from VIP subscriptions would take a huge hit.
+
+67
+00:02:16,130 --> 00:02:17,630
+So what if we make both stronger?
+
+68
+00:02:17,630 --> 00:02:19,290
+This would be a bit better than the previous options.
+
+69
+00:02:19,290 --> 00:02:21,780
+But there's also the risk that both metrics could actually get worse.
+
+70
+00:02:21,780 --> 00:02:23,320
+Because the difference isn't obvious.
+
+71
+00:02:23,320 --> 00:02:25,420
+This makes it a bit harder for users to choose.
+
+72
+00:02:25,420 --> 00:02:26,340
+So, what's the solution?
+
+73
+00:02:26,340 --> 00:02:28,010
+Let's put that aside for a moment.
+
+74
+00:02:28,010 --> 00:02:29,830
+Instead, let's look at the original interface.
+
+75
+00:02:29,830 --> 00:02:31,430
+But this brings up another issue.
+
+76
+00:02:31,430 --> 00:02:34,710
+So, when I first looked at this interface, I was a bit confused.
+
+77
+00:02:34,710 --> 00:02:37,790
+So, what exactly is the relationship between VIP and coins?
+
+78
+00:02:37,790 --> 00:02:41,149
+So, does this mean that even after I buy the VIP, I still have to buy coins to watch content?
+
+79
+00:02:41,149 --> 00:02:44,810
+And another thing, let's say I buy the coins but not the VIP membership,
+
+80
+00:02:44,810 --> 00:02:48,050
+can I still enjoy 1080P high-definition quality?
+
+81
+00:02:48,050 --> 00:02:48,770
+So, for me,
+
+82
+00:02:48,770 --> 00:02:50,450
+So, when it comes to the decision to pay, it's a pretty tough one to make.
+
+83
+00:02:50,450 --> 00:02:52,840
+So, as you can see, this page doesn't really answer any of those questions.
+
+84
+00:02:52,840 --> 00:02:54,860
+So, let's walk through the normal user journey again and see what happens.
+
+85
+00:02:54,860 --> 00:02:56,260
+First, let's head over to the homepage.
+
+86
+00:02:56,260 --> 00:02:57,700
+Let's pick a good show.
+
+87
+00:02:57,700 --> 00:02:59,080
+After you finish the free part,
+
+88
+00:02:59,080 --> 00:03:01,160
+and then when unlocking the paid content,
+
+89
+00:03:01,160 --> 00:03:02,740
+a payment pop-up will appear.
+
+90
+00:03:02,740 --> 00:03:05,149
+So, from the information here, I can tell that...
+
+91
+00:03:05,149 --> 00:03:07,209
+So, there are actually three ways to play this.
+
+92
+00:03:07,209 --> 00:03:09,109
+The first option is for when I only want to watch this one specific show.
+
+93
+00:03:09,109 --> 00:03:11,630
+Then I just need to top up a small amount of coins, and I can watch it.
+
+94
+00:03:11,630 --> 00:03:13,290
+The second is for VIP users.
+
+95
+00:03:13,290 --> 00:03:14,650
+They get to unlock all the content.
+
+96
+00:03:14,650 --> 00:03:17,000
+and can get a considerable amount of coins every day.
+
+97
+00:03:17,000 --> 00:03:21,580
+These coins can be used for content that requires coins to unlock, or as gifts from members.
+
+98
+00:03:21,580 --> 00:03:23,300
+And the third type is the free user.
+
+99
+00:03:23,300 --> 00:03:27,060
+They can earn a limited number of coins by watching ads or completing tasks.
+
+100
+00:03:27,060 --> 00:03:28,340
+and then unlock content.
+
+101
+00:03:28,340 --> 00:03:29,680
+So, once we've figured this out,
+
+102
+00:03:29,680 --> 00:03:30,600
+So, I had an idea.
+
+103
+00:03:30,600 --> 00:03:33,680
+Actually, this structure, compared to the one on the personal page...
+
+104
+00:03:33,680 --> 00:03:35,380
+To make this clearer,
+
+105
+00:03:35,380 --> 00:03:38,020
+So, could the personal page also follow this same structure?
+
+106
+00:03:38,020 --> 00:03:40,020
+This way, it can maintain the logic of paid content,
+
+107
+00:03:40,020 --> 00:03:42,020
+but also maintain the familiar structure.
+
+108
+00:03:42,020 --> 00:03:42,700
+Look, check this out.
+
+109
+00:03:42,700 --> 00:03:46,060
+And topping up coins is also related to coins, of course.
+
+110
+00:03:46,060 --> 00:03:47,980
+So, it can be placed right in this module.
+
+111
+00:03:47,980 --> 00:03:51,300
+So, building on the second version of the structure, I came up with a new design.
+
+112
+00:03:51,300 --> 00:03:54,260
+This visually increases the weight of the login module.
+
+113
+00:03:54,260 --> 00:03:56,480
+while also making the distinction clear.
+
+114
+00:03:56,480 --> 00:03:57,740
+So, take a look at this interface now.
+
+115
+00:03:57,740 --> 00:03:59,100
+When users first land on the page, their initial reaction is like, 'Wow!'
+
+116
+00:03:59,100 --> 00:04:00,300
+I'm out of coins.
+
+117
+00:04:00,300 --> 00:04:02,740
+Plus, there are 50 coins you can claim for free.
+
+118
+00:04:02,740 --> 00:04:05,840
+This way, we can effectively leverage the pull of these 50 coins.
+
+119
+00:04:05,840 --> 00:04:08,220
+This way, while keeping the VIP's priority intact,
+
+120
+00:04:08,220 --> 00:04:10,520
+This tones down that feeling of being hit up for money right from the get-go.
+
+121
+00:04:10,520 --> 00:04:12,320
+This will naturally boost the login conversion rate.
+
+122
+00:04:12,320 --> 00:04:14,200
+Now, for the visual design of the avatar,
+
+123
+00:04:14,200 --> 00:04:16,200
+I also added another touchpoint for brand exposure.
+
+124
+00:04:16,200 --> 00:04:18,279
+So, I didn't go any further with this particular solution.
+
+125
+00:04:18,279 --> 00:04:19,440
+This is all just a hypothetical, of course.
+
+126
+00:04:19,440 --> 00:04:21,760
+So, right after you log in, this area here, it shows the tasks, right?
+
+127
+00:04:21,760 --> 00:04:24,520
+It may also affect, to some extent, the conversion of VIPs.
+
+128
+00:04:24,520 --> 00:04:27,120
+We could even expand on some of the core VIP benefits.
+
+129
+00:04:27,120 --> 00:04:30,390
+But what I really want to convey is the whole thought process behind it.
+
+130
+00:04:30,390 --> 00:04:32,430
+the thinking behind this design decision.
+
+131
+00:04:32,430 --> 00:04:33,920
+I hope that all makes sense.
+

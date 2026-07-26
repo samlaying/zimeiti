@@ -1,0 +1,1084 @@
+1
+00:00:00,680 --> 00:00:00,960
+Alright
+
+2
+00:00:00,960 --> 00:00:01,560
+In this lesson
+
+3
+00:00:01,560 --> 00:00:04,920
+we're going to talk about standardizing log output
+
+4
+00:00:04,920 --> 00:00:06,580
+since we're about to start writing actual code
+
+5
+00:00:06,580 --> 00:00:09,499
+we need to write out the entire process
+
+6
+00:00:09,499 --> 00:00:12,119
+so we'll standardize the logs
+
+7
+00:00:12,119 --> 00:00:16,540
+previously, we just used print statements for logging
+
+8
+00:00:16,540 --> 00:00:18,760
+which means we were printing directly
+
+9
+00:00:18,760 --> 00:00:19,600
+What messages are you printing?
+
+10
+00:00:19,600 --> 00:00:21,020
+What message does he directly output?
+
+11
+00:00:21,020 --> 00:00:22,700
+After we standardize the output,
+
+12
+00:00:22,700 --> 00:00:24,400
+we will drag this time out,
+
+13
+00:00:24,400 --> 00:00:25,140
+if there is time,
+
+14
+00:00:25,140 --> 00:00:27,180
+the current time is what gets printed.
+
+15
+00:00:27,180 --> 00:00:31,020
+This time depends on which file you print from,
+
+16
+00:00:31,020 --> 00:00:33,440
+and what your log level is, right?
+
+17
+00:00:33,440 --> 00:00:35,960
+Then, this includes the content of the message.
+
+18
+00:00:35,960 --> 00:00:39,250
+After our formatted output, the log looks like this.
+
+19
+00:00:39,250 --> 00:00:41,550
+And we will output it to a file.
+
+20
+00:00:41,550 --> 00:00:42,910
+So, how exactly do we do this?
+
+21
+00:00:42,910 --> 00:00:45,910
+First, we need to optimize a few things.
+
+22
+00:00:45,910 --> 00:00:50,390
+One of these is the way we previously obtained the project directory.
+
+23
+00:00:50,390 --> 00:00:53,420
+It had to be called within a specific file.
+
+24
+00:00:53,420 --> 00:00:54,860
+After our optimization, however,
+
+25
+00:00:54,860 --> 00:00:57,580
+the call can be made from any file.
+
+26
+00:00:57,580 --> 00:00:59,600
+Let's make this change.
+
+27
+00:01:00,210 --> 00:01:05,690
+In this script here
+
+28
+00:01:06,119 --> 00:01:09,159
+Let's update this.
+
+29
+00:01:10,279 --> 00:01:14,590
+The principle is to search through this.
+
+30
+00:01:14,590 --> 00:01:15,870
+Then find these files.
+
+31
+00:01:15,870 --> 00:01:18,140
+For example, files like this are usually found in
+
+32
+00:01:18,140 --> 00:01:19,480
+Python projects.
+
+33
+00:01:19,480 --> 00:01:22,220
+This is a file under the top-level directory.
+
+34
+00:01:22,220 --> 00:01:25,180
+So its content is to locate this.
+
+35
+00:01:25,180 --> 00:01:27,840
+By doing this, you can find the root directory.
+
+36
+00:01:27,840 --> 00:01:28,820
+That's how it works.
+
+37
+00:01:28,820 --> 00:01:31,790
+So you can find it in any of the files.
+
+38
+00:01:31,790 --> 00:01:32,850
+You can always find it.
+
+39
+00:01:32,850 --> 00:01:35,590
+And for the second point, in this context,
+
+40
+00:01:35,590 --> 00:01:38,250
+we also need to update it.
+
+41
+00:01:38,250 --> 00:01:40,730
+This method,
+
+42
+00:01:44,540 --> 00:01:48,380
+it's mainly about achieving cross-platform compatibility.
+
+43
+00:01:48,380 --> 00:01:50,080
+Previously, we hard-coded it.
+
+44
+00:01:50,080 --> 00:01:51,780
+We hard-coded it with a forward slash.
+
+45
+00:01:51,780 --> 00:01:54,320
+Now we're using this approach.
+
+46
+00:01:54,320 --> 00:01:56,080
+Just update it and we're good to go.
+
+47
+00:01:56,920 --> 00:01:57,660
+So, what's next?
+
+48
+00:01:57,660 --> 00:02:01,340
+Next, we'll work on standardizing the log output.
+
+49
+00:02:01,340 --> 00:02:04,870
+First, we need to add this.
+
+50
+00:02:04,870 --> 00:02:06,910
+Let's add this dependency.
+
+51
+00:02:08,340 --> 00:02:10,020
+We'll add this dependency here.
+
+52
+00:02:10,020 --> 00:02:10,979
+In
+
+53
+00:02:12,440 --> 00:02:13,320
+It's not written here.
+
+54
+00:02:13,320 --> 00:02:15,080
+Let's write it out.
+
+55
+00:02:28,340 --> 00:02:32,719
+Let's put this dependency in here.
+
+56
+00:02:33,719 --> 00:02:35,779
+Then we'll go to the terminal and run it.
+
+57
+00:02:35,779 --> 00:02:40,719
+First, we need to activate it.
+
+58
+00:02:42,240 --> 00:02:46,890
+After activating the AI server,
+
+59
+00:02:46,890 --> 00:02:55,650
+we'll use pip to install the file in store bar R.
+
+60
+00:02:55,650 --> 00:02:56,730
+That's installed.
+
+61
+00:02:56,730 --> 00:02:57,930
+Once it's installed,
+
+62
+00:02:57,930 --> 00:03:01,170
+we'll move on to modify the configuration file.
+
+63
+00:03:01,170 --> 00:03:02,790
+This is basically the same as this one.
+
+64
+00:03:02,790 --> 00:03:06,300
+If you've worked with Spring Boot,
+
+65
+00:03:06,300 --> 00:03:08,670
+you know what I mean when I say Spring Boot,
+
+66
+00:03:08,670 --> 00:03:12,350
+you'd know how to handle standardized logging and output,
+
+67
+00:03:12,350 --> 00:03:13,870
+right?
+
+68
+00:03:13,870 --> 00:03:14,950
+Pretty much,
+
+69
+00:03:14,950 --> 00:03:19,989
+basically, it involves adding dependencies in Spring Boot,
+
+70
+00:03:19,989 --> 00:03:20,989
+writing configurations, right?
+
+71
+00:03:20,989 --> 00:03:22,700
+and then coding accordingly.
+
+72
+00:03:22,700 --> 00:03:25,880
+This is a configuration for standardized logging output.
+
+73
+00:03:25,880 --> 00:03:27,740
+We'll place them in both of these.
+
+74
+00:03:27,740 --> 00:03:30,190
+We'll put them in this template and this one as well.
+
+75
+00:03:30,190 --> 00:03:33,210
+Firstly, this is the configuration for the logs.
+
+76
+00:03:33,210 --> 00:03:34,640
+Then, the log level.
+
+77
+00:03:34,640 --> 00:03:35,920
+And there's also the output directory.
+
+78
+00:03:35,920 --> 00:03:36,880
+This output directory,
+
+79
+00:03:36,880 --> 00:03:41,769
+we'll use the same configuration as before.
+
+80
+00:03:41,769 --> 00:03:43,749
+This way, we don't need to create the directory.
+
+81
+00:03:43,749 --> 00:03:44,829
+We had done it previously.
+
+82
+00:03:44,829 --> 00:03:46,829
+He will take advantage of this convenience.
+
+83
+00:03:46,829 --> 00:03:48,269
+Didn't we write it down?
+
+84
+00:03:48,269 --> 00:03:50,290
+He will make the configuration file more convenient.
+
+85
+00:03:50,290 --> 00:03:52,110
+All the configuration items.
+
+86
+00:03:52,110 --> 00:03:55,320
+It will create the directories for us.
+
+87
+00:03:55,320 --> 00:03:56,580
+So we can write it directly here.
+
+88
+00:03:56,580 --> 00:03:58,440
+We don't need to worry about whether it has been created.
+
+89
+00:03:58,440 --> 00:03:59,780
+We don't need to check that anymore.
+
+90
+00:03:59,780 --> 00:04:01,150
+That's the benefit of it.
+
+91
+00:04:01,150 --> 00:04:03,570
+So, the log level is like this
+
+92
+00:04:03,570 --> 00:04:06,230
+Now, let's write the code
+
+93
+00:04:06,569 --> 00:04:07,369
+This piece of code
+
+94
+00:04:07,369 --> 00:04:11,089
+is where we need to create a file
+
+95
+00:04:11,089 --> 00:04:13,289
+create a log file
+
+96
+00:04:16,918 --> 00:04:21,478
+we create a Python file in UTA
+
+97
+00:04:26,300 --> 00:04:28,820
+and then copy this piece of code over
+
+98
+00:04:28,820 --> 00:04:30,900
+I'll just copy it directly
+
+99
+00:04:33,700 --> 00:04:35,540
+let's take a look at this piece of code
+
+100
+00:04:35,540 --> 00:04:36,900
+Actually, it's quite simple.
+
+101
+00:04:36,900 --> 00:04:38,560
+It's about creating a daily class.
+
+102
+00:04:38,560 --> 00:04:40,200
+Then, an initialization is carried out within it.
+
+103
+00:04:40,200 --> 00:04:43,970
+This initialization is mainly for standardizing the format.
+
+104
+00:04:43,970 --> 00:04:46,270
+We'll pass in a name.
+
+105
+00:04:46,270 --> 00:04:49,059
+This name refers to where you're printing.
+
+106
+00:04:49,059 --> 00:04:50,459
+Which file is logging the information.
+
+107
+00:04:50,459 --> 00:04:53,979
+You pass in the identifier for logging.
+
+108
+00:04:53,979 --> 00:04:55,600
+Initialization is essentially setting up the initial state.
+
+109
+00:04:55,600 --> 00:04:57,740
+This will eventually return a
+
+110
+00:04:57,740 --> 00:05:01,470
+object that is bound to that name
+
+111
+00:05:01,470 --> 00:05:03,850
+and then you can use this object for output
+
+112
+00:05:03,850 --> 00:05:07,100
+Actually, we don’t necessarily need to
+
+113
+00:05:07,100 --> 00:05:09,060
+know how to write it at all
+
+114
+00:05:09,060 --> 00:05:11,870
+This is in our video writing department.
+
+115
+00:05:11,870 --> 00:05:13,750
+or working on the Java backend
+
+116
+00:05:13,750 --> 00:05:14,470
+It’s just that
+
+117
+00:05:14,470 --> 00:05:18,030
+this is essentially a standard file
+
+118
+00:05:18,030 --> 00:05:19,940
+You can consider it as a standard
+
+119
+00:05:19,940 --> 00:05:21,610
+Let's take a quick look
+
+120
+00:05:21,610 --> 00:05:25,050
+First, we obtained a configuration here
+
+121
+00:05:25,050 --> 00:05:27,510
+Because we need to work with the configuration items we've obtained
+
+122
+00:05:27,510 --> 00:05:28,440
+These configurations
+
+123
+00:05:28,440 --> 00:05:30,280
+Regarding our configuration
+
+124
+00:05:30,280 --> 00:05:33,640
+Why did we optimize these items in YOUTUS
+
+125
+00:05:33,640 --> 00:05:34,700
+These elements
+
+126
+00:05:34,700 --> 00:05:37,300
+It's because we're working within this file
+
+127
+00:05:37,300 --> 00:05:38,900
+We also need to obtain this configuration.
+
+128
+00:05:38,900 --> 00:05:40,280
+After we get the configuration,
+
+129
+00:05:40,280 --> 00:05:43,860
+we then need to fetch the log option within it, right?
+
+130
+00:05:43,860 --> 00:05:46,800
+We just wrote this down a moment ago.
+
+131
+00:05:46,800 --> 00:05:50,210
+We need the level and the output directory for this.
+
+132
+00:05:50,210 --> 00:05:51,630
+So, we will use this.
+
+133
+00:05:51,630 --> 00:05:52,390
+Then,
+
+134
+00:05:52,390 --> 00:05:55,090
+this is where we print to the console.
+
+135
+00:05:55,090 --> 00:05:57,130
+That is, this terminal.
+
+136
+00:05:57,130 --> 00:05:59,070
+This is a format within the terminal.
+
+137
+00:05:59,070 --> 00:06:01,550
+Firstly, this is a color indicator.
+
+138
+00:06:01,550 --> 00:06:02,250
+Green.
+
+139
+00:06:02,250 --> 00:06:04,010
+Then, this is the time.
+
+140
+00:06:04,010 --> 00:06:07,730
+The time format is year, month, day, hour, minute, second.
+
+141
+00:06:07,730 --> 00:06:09,610
+This area here is the square brackets.
+
+142
+00:06:09,610 --> 00:06:13,410
+Inside here, it fetches what you pass in.
+
+143
+00:06:13,410 --> 00:06:15,110
+This NEMO.
+
+144
+00:06:15,110 --> 00:06:17,930
+And it also has a color indicator.
+
+145
+00:06:17,930 --> 00:06:19,670
+There's not much to say about this, really.
+
+146
+00:06:19,670 --> 00:06:21,000
+There's no need to memorize it.
+
+147
+00:06:21,000 --> 00:06:23,200
+This is just a standard output.
+
+148
+00:06:23,200 --> 00:06:24,800
+If you want to make changes later,
+
+149
+00:06:24,800 --> 00:06:26,560
+you can just make them around here.
+
+150
+00:06:26,560 --> 00:06:27,720
+You'll know how to do it.
+
+151
+00:06:27,720 --> 00:06:28,880
+This is the log level.
+
+152
+00:06:28,880 --> 00:06:31,280
+It's the level we pass in.
+
+153
+00:06:31,280 --> 00:06:34,500
+It's the current log level we're using.
+
+154
+00:06:34,500 --> 00:06:35,940
+There's this info
+
+155
+00:06:35,940 --> 00:06:37,980
+There are some errors to note
+
+156
+00:06:37,980 --> 00:06:39,680
+There's this debugging stuff
+
+157
+00:06:39,680 --> 00:06:41,860
+Then we pass our messages into here.
+
+158
+00:06:41,860 --> 00:06:43,300
+The messages you printed out
+
+159
+00:06:43,300 --> 00:06:44,000
+Are right here
+
+160
+00:06:44,000 --> 00:06:45,780
+Then this is the output to a file
+
+161
+00:06:45,780 --> 00:06:48,100
+The format for the file output is like this
+
+162
+00:06:48,100 --> 00:06:50,040
+There's the time and the log
+
+163
+00:06:50,040 --> 00:06:51,700
+Where did you print it?
+
+164
+00:06:51,700 --> 00:06:53,180
+And the log level as well.
+
+165
+00:06:53,180 --> 00:06:54,510
+And that's it for the messages.
+
+166
+00:06:54,510 --> 00:06:57,690
+Then, we obtain this level here.
+
+167
+00:06:57,690 --> 00:06:58,400
+Right here.
+
+168
+00:06:58,400 --> 00:07:00,320
+And ultimately, it's passed in here.
+
+169
+00:07:00,320 --> 00:07:01,760
+Pass the level into this.
+
+170
+00:07:01,760 --> 00:07:03,280
+This is output to the console.
+
+171
+00:07:03,280 --> 00:07:04,400
+That is, this spot here.
+
+172
+00:07:04,400 --> 00:07:05,810
+What we'll see here is
+
+173
+00:07:05,810 --> 00:07:07,690
+Then, this is the output to the file
+
+174
+00:07:07,690 --> 00:07:09,370
+This file is in this file directory
+
+175
+00:07:09,370 --> 00:07:14,270
+We have configured this directory here
+
+176
+00:07:14,270 --> 00:07:17,270
+Let's take a look at this directory
+
+177
+00:07:17,270 --> 00:07:19,820
+The configuration is in this
+
+178
+00:07:19,820 --> 00:07:23,710
+It's the logo in this project directory
+
+179
+00:07:23,710 --> 00:07:24,830
+Since we are here
+
+180
+00:07:24,830 --> 00:07:27,270
+We ultimately added a project directory here
+
+181
+00:07:27,270 --> 00:07:30,270
+This is for getting the project path.
+
+182
+00:07:30,270 --> 00:07:32,490
+Then it will concatenate this directory.
+
+183
+00:07:32,490 --> 00:07:34,270
+And then concatenate this file.
+
+184
+00:07:34,270 --> 00:07:36,510
+The filename is hard-coded here.
+
+185
+00:07:36,510 --> 00:07:37,650
+It's directly written here.
+
+186
+00:07:37,650 --> 00:07:38,870
+So the whole process is like this.
+
+187
+00:07:38,870 --> 00:07:41,390
+The object we return is bound to this object.
+
+188
+00:07:41,390 --> 00:07:42,510
+We can directly output it.
+
+189
+00:07:42,510 --> 00:07:44,304
+Let's take a look.
+
+190
+00:07:45,349 --> 00:07:46,449
+Let's try it again.
+
+191
+00:07:46,449 --> 00:07:50,060
+As you can see, the time is like this now.
+
+192
+00:07:50,060 --> 00:07:52,920
+This is because we are in the current state.
+
+193
+00:07:52,920 --> 00:07:54,320
+It's not the way of importing.
+
+194
+00:07:54,320 --> 00:07:57,860
+So, the target you passed in is this.
+
+195
+00:07:57,860 --> 00:07:59,020
+This is the name.
+
+196
+00:07:59,020 --> 00:08:01,379
+This is the current main.
+
+197
+00:08:01,379 --> 00:08:03,539
+If you call it in a different way, it would be different.
+
+198
+00:08:03,539 --> 00:08:05,079
+Let's try the calling method.
+
+199
+00:08:05,079 --> 00:08:08,210
+We're here to use this log.
+
+200
+00:08:08,210 --> 00:08:09,370
+We were just at this spot.
+
+201
+00:08:09,370 --> 00:08:11,610
+We've pretty much got the log all set up.
+
+202
+00:08:11,610 --> 00:08:13,470
+We can use it right here directly.
+
+203
+00:08:13,470 --> 00:08:14,470
+How do we use it?
+
+204
+00:08:14,470 --> 00:08:18,410
+First, we need to initialize it here.
+
+205
+00:08:26,520 --> 00:08:28,400
+When initializing, well, this initialization step.
+
+206
+00:08:28,400 --> 00:08:29,900
+Here we are,
+
+207
+00:08:29,900 --> 00:08:31,280
+that's it.
+
+208
+00:08:45,740 --> 00:08:49,380
+This is where we use it
+
+209
+00:08:52,020 --> 00:08:55,020
+Target is set to the one we just had
+
+210
+00:08:55,020 --> 00:08:57,820
+So let's pass this in
+
+211
+00:09:02,860 --> 00:09:06,740
+Then we import this
+
+212
+00:09:10,120 --> 00:09:12,200
+After doing this
+
+213
+00:09:12,200 --> 00:09:14,580
+We can use it now
+
+214
+00:09:14,580 --> 00:09:16,200
+Let's see how to use it
+
+215
+00:09:16,200 --> 00:09:18,910
+Here we can call it
+
+216
+00:09:28,660 --> 00:09:31,300
+For example, we need to add a member here
+
+217
+00:09:31,510 --> 00:09:33,850
+This is one of its member variables.
+
+218
+00:09:33,850 --> 00:09:36,770
+We call the info method here.
+
+219
+00:09:36,770 --> 00:09:40,640
+This is where we create it.
+
+220
+00:09:43,480 --> 00:09:45,240
+Write it down here.
+
+221
+00:09:48,100 --> 00:09:49,820
+AI Factory
+
+222
+00:09:52,860 --> 00:09:56,580
+Create an ASR instance, right?
+
+223
+00:09:56,580 --> 00:09:58,820
+And this part also has a significant impact.
+
+224
+00:09:59,820 --> 00:10:01,540
+Create a TDS instance.
+
+225
+00:10:03,840 --> 00:10:06,880
+Then let's take a look at this part.
+
+226
+00:10:06,880 --> 00:10:09,560
+In the main.** file
+
+227
+00:10:09,560 --> 00:10:11,840
+aren't we instantiating the factory here?
+
+228
+00:10:11,840 --> 00:10:13,840
+it should print this out
+
+229
+00:10:13,840 --> 00:10:16,920
+let's take a look at this round here
+
+230
+00:10:25,240 --> 00:10:26,380
+okay, let's check it out
+
+231
+00:10:26,380 --> 00:10:29,800
+right now, it prints in this format
+
+232
+00:10:29,800 --> 00:10:30,790
+the date
+
+233
+00:10:30,790 --> 00:10:34,190
+and this is because you're calling it through an import
+
+234
+00:10:34,190 --> 00:10:35,990
+so it can print this out
+
+235
+00:10:35,990 --> 00:10:38,280
+Where is this located?
+
+236
+00:10:38,280 --> 00:10:39,900
+We are in this file, right?
+
+237
+00:10:39,900 --> 00:10:42,560
+It prints out within this file.
+
+238
+00:10:42,560 --> 00:10:44,829
+The log level is set to info.
+
+239
+00:10:44,829 --> 00:10:48,809
+Then, this is where you can see its messages.
+
+240
+00:10:48,809 --> 00:10:50,600
+The color of this message is like this.
+
+241
+00:10:50,600 --> 00:10:54,140
+If we want to change the log level here,
+
+242
+00:10:54,140 --> 00:10:55,840
+we can modify it in the configuration file.
+
+243
+00:10:55,840 --> 00:10:59,160
+Currently, this is set to info.
+
+244
+00:10:59,160 --> 00:11:02,000
+Then we can change it to a different log level.
+
+245
+00:11:02,000 --> 00:11:02,880
+After making the change,
+
+246
+00:11:02,880 --> 00:11:03,760
+it will output accordingly.
+
+247
+00:11:03,760 --> 00:11:06,380
+For instance, if you change it to a warning level,
+
+248
+00:11:06,380 --> 00:11:08,420
+then the info level logs won't be output.
+
+249
+00:11:08,420 --> 00:11:09,480
+It will filter them out.
+
+250
+00:11:09,480 --> 00:11:13,380
+Currently, our log level is set to debug,
+
+251
+00:11:13,380 --> 00:11:14,340
+which means,
+
+252
+00:11:14,340 --> 00:11:18,900
+both the regular logs and the warnings,
+
+253
+00:11:18,900 --> 00:11:22,000
+as well as the error logs, will all be printed out.
+
+254
+00:11:22,000 --> 00:11:26,280
+And it also created the log file,
+
+255
+00:11:26,280 --> 00:11:27,960
+and printed the file content out.
+
+256
+00:11:27,960 --> 00:11:29,880
+Let's check here to see if it has output as well.
+
+257
+00:11:29,880 --> 00:11:30,680
+Here,
+
+258
+00:11:30,680 --> 00:11:32,400
+this is the entire file.
+
+259
+00:11:32,400 --> 00:11:34,200
+Since this is from China,
+
+260
+00:11:34,200 --> 00:11:36,850
+it won't stay like this for long, right?
+
+261
+00:11:36,850 --> 00:11:39,990
+Ultimately, the output should be directed to a file.
+
+262
+00:11:39,990 --> 00:11:43,130
+This way, if we need to check the logs later,
+
+263
+00:11:43,130 --> 00:11:44,610
+it will be easier to review.
+
+264
+00:11:44,610 --> 00:11:46,850
+This is a simple implementation of logging.
+
+265
+00:11:46,850 --> 00:11:48,730
+For all future print statements,
+
+266
+00:11:48,730 --> 00:11:51,200
+we won't need to print them the old way,
+
+267
+00:11:51,200 --> 00:11:52,900
+we used to print them like this, right?
+
+268
+00:11:52,900 --> 00:11:56,620
+From now on, we'll use this standard method,
+
+269
+00:11:56,620 --> 00:11:58,440
+to print logs using the logging output method.
+
+270
+00:11:58,440 --> 00:11:59,660
+To print logs,
+
+271
+00:11:59,660 --> 00:12:00,980
+That's it for this lesson.
+

@@ -1,0 +1,900 @@
+1
+00:00:00,780 --> 00:00:01,060
+Alright
+
+2
+00:00:01,060 --> 00:00:02,420
+Let's go over what we have in this lesson
+
+3
+00:00:02,420 --> 00:00:04,520
+The current architecture of our hardware
+
+4
+00:00:04,520 --> 00:00:08,860
+Because we're about to move on to writing the WEBSOCKET service on the backend
+
+5
+00:00:08,860 --> 00:00:12,540
+So let's review the overall structure of our hardware
+
+6
+00:00:12,540 --> 00:00:14,710
+The current architecture
+
+7
+00:00:15,190 --> 00:00:17,190
+We've done a lot so far
+
+8
+00:00:17,190 --> 00:00:18,770
+And laid a lot of groundwork
+
+9
+00:00:18,770 --> 00:00:21,490
+And now we've finally got the framework in place
+
+10
+00:00:21,490 --> 00:00:22,490
+Let's take a look.
+
+11
+00:00:22,490 --> 00:00:24,490
+First, we wrote an audio code.
+
+12
+00:00:24,490 --> 00:00:26,330
+We used this component for the audio code.
+
+13
+00:00:26,330 --> 00:00:29,830
+It's the component officially provided by Lexin.
+
+14
+00:00:29,830 --> 00:00:32,130
+This component includes a lot of features.
+
+15
+00:00:32,130 --> 00:00:34,090
+A combination of these chips.
+
+16
+00:00:34,090 --> 00:00:34,950
+All sorts of things.
+
+17
+00:00:34,950 --> 00:00:38,170
+Now, let's look at the code in our architecture.
+
+18
+00:00:38,170 --> 00:00:41,120
+First, we wrote
+
+19
+00:00:41,120 --> 00:00:44,100
+This serves as an abstraction layer for the audio.
+
+20
+00:00:44,100 --> 00:00:45,220
+We provide this abstraction layer.
+
+21
+00:00:45,220 --> 00:00:48,130
+Because when we instantiate later,
+
+22
+00:00:48,130 --> 00:00:51,710
+we use a reference to this abstraction layer.
+
+23
+00:00:51,710 --> 00:00:55,190
+Additionally, we've written a combination here.
+
+24
+00:00:55,190 --> 00:00:57,610
+Since our current board is assembled in this way,
+
+25
+00:00:57,610 --> 00:00:58,970
+our hardware drivers,
+
+26
+00:00:58,970 --> 00:01:02,550
+are written in this combination format in the file.
+
+27
+00:01:02,550 --> 00:01:04,430
+And this serves as the audio type.
+
+28
+00:01:04,430 --> 00:01:05,349
+This type
+
+29
+00:01:05,349 --> 00:01:09,250
+encapsulates the ES8311 and ES72101
+
+30
+00:01:09,250 --> 00:01:10,920
+two chip combinations
+
+31
+00:01:10,920 --> 00:01:12,440
+one for playback
+
+32
+00:01:12,440 --> 00:01:14,700
+and the other for audio capture
+
+33
+00:01:14,700 --> 00:01:16,030
+these two chips
+
+34
+00:01:16,030 --> 00:01:18,910
+if your board uses the same combination later
+
+35
+00:01:18,910 --> 00:01:19,830
+no modifications are needed
+
+36
+00:01:19,830 --> 00:01:21,830
+you can use this file directly
+
+37
+00:01:21,830 --> 00:01:23,650
+If you're not, that's fine.
+
+38
+00:01:23,650 --> 00:01:24,890
+It's like your combination.
+
+39
+00:01:24,890 --> 00:01:28,990
+This kind of audio combination isn't set up that way.
+
+40
+00:01:28,990 --> 00:01:31,490
+If you're using 8311, right?
+
+41
+00:01:31,490 --> 00:01:34,510
+You can directly use it for input and output.
+
+42
+00:01:34,510 --> 00:01:35,690
+It all uses a single chip.
+
+43
+00:01:35,690 --> 00:01:37,470
+Then, under this audio setup,
+
+44
+00:01:37,470 --> 00:01:41,340
+You need to write a file,
+
+45
+00:01:41,340 --> 00:01:44,760
+To drive the single chip for input and output.
+
+46
+00:01:44,760 --> 00:01:48,650
+Then, similarly, inherit this class
+
+47
+00:01:48,650 --> 00:01:50,610
+and implement the methods within this class
+
+48
+00:01:50,610 --> 00:01:51,410
+provide this method
+
+49
+00:01:51,410 --> 00:01:54,410
+and when we instantiate it later in this place
+
+50
+00:01:54,410 --> 00:01:57,450
+we won't need to touch anything inside, right?
+
+51
+00:01:57,450 --> 00:01:58,770
+we just need to modify this part
+
+52
+00:01:58,770 --> 00:02:01,560
+let's take a quick look
+
+53
+00:02:01,560 --> 00:02:04,280
+the audio abstraction layer provides the following methods
+
+54
+00:02:04,280 --> 00:02:04,960
+let's have a look
+
+55
+00:02:04,960 --> 00:02:06,940
+It mainly enables audio input
+
+56
+00:02:06,940 --> 00:02:08,080
+enables audio output
+
+57
+00:02:08,080 --> 00:02:10,570
+and also closes audio input and output
+
+58
+00:02:10,570 --> 00:02:12,830
+then plays the audio
+
+59
+00:02:12,830 --> 00:02:14,270
+we just pass this in
+
+60
+00:02:14,270 --> 00:02:16,390
+then read the audio
+
+61
+00:02:16,390 --> 00:02:18,690
+These are the methods for adjusting the volume.
+
+62
+00:02:18,690 --> 00:02:21,890
+so when we develop applications later
+
+63
+00:02:21,890 --> 00:02:23,750
+Just focus on these methods.
+
+64
+00:02:23,750 --> 00:02:25,530
+We don't need to worry about the underlying layer.
+
+65
+00:02:25,530 --> 00:02:28,850
+In this architecture, we have
+
+66
+00:02:28,850 --> 00:02:30,970
+a file storage system as well.
+
+67
+00:02:30,970 --> 00:02:33,010
+We developed a file storage system too.
+
+68
+00:02:33,010 --> 00:02:34,520
+It's for SD card storage.
+
+69
+00:02:34,520 --> 00:02:38,020
+We also provide an abstract layer interface here.
+
+70
+00:02:38,020 --> 00:02:39,680
+This is the interface class.
+
+71
+00:02:39,680 --> 00:02:44,350
+This interface class is an abstract one.
+
+72
+00:02:44,350 --> 00:02:45,670
+For audio storage.
+
+73
+00:02:45,670 --> 00:02:47,030
+This is about file storage.
+
+74
+00:02:47,030 --> 00:02:48,830
+We use an SD card here.
+
+75
+00:02:48,830 --> 00:02:50,430
+We implement it using an SD card.
+
+76
+00:02:50,430 --> 00:02:53,710
+This is where we instantiate it.
+
+77
+00:02:53,710 --> 00:02:58,769
+Then, we connect this to the IO ports inside.
+
+78
+00:02:58,769 --> 00:03:00,229
+When we instantiate it here,
+
+79
+00:03:02,069 --> 00:03:04,320
+it's passed in during the upper-level instantiation.
+
+80
+00:03:04,320 --> 00:03:06,920
+This way, the code is independent of the hardware.
+
+81
+00:03:06,920 --> 00:03:09,760
+It's just an SD card driver.
+
+82
+00:03:09,760 --> 00:03:11,480
+Then, in this context,
+
+83
+00:03:11,480 --> 00:03:13,300
+the interface provides the following methods:
+
+84
+00:03:13,300 --> 00:03:14,620
+which is to open a file,
+
+85
+00:03:14,620 --> 00:03:15,540
+close a file,
+
+86
+00:03:15,540 --> 00:03:16,820
+and also read from a file,
+
+87
+00:03:16,820 --> 00:03:17,820
+write to a file,
+
+88
+00:03:17,820 --> 00:03:18,940
+writing a single line,
+
+89
+00:03:18,940 --> 00:03:20,620
+select these,
+
+90
+00:03:20,620 --> 00:03:25,770
+and these are the files we have here.
+
+91
+00:03:25,770 --> 00:03:27,970
+It encapsulates all the onboard resources.
+
+92
+00:03:27,970 --> 00:03:30,370
+First, this file, this class
+
+93
+00:03:30,370 --> 00:03:33,700
+serves as an abstract layer for the board.
+
+94
+00:03:33,700 --> 00:03:37,440
+It provides a unified method for the application layer.
+
+95
+00:03:37,440 --> 00:03:39,620
+Here is our board.
+
+96
+00:03:39,620 --> 00:03:43,010
+This is the driver for our current development board.
+
+97
+00:03:43,010 --> 00:03:46,090
+If we need to add other boards in the future,
+
+98
+00:03:46,090 --> 00:03:48,820
+we can create similar folders in this board.
+
+99
+00:03:48,820 --> 00:03:51,540
+And write your new version of the driver in that folder.
+
+100
+00:03:51,540 --> 00:03:52,730
+This kind of logic
+
+101
+00:03:52,730 --> 00:03:56,050
+Then this board serves as an abstraction layer
+
+102
+00:03:56,050 --> 00:03:58,170
+This is the code
+
+103
+00:03:58,170 --> 00:04:00,420
+The code here acts as an abstraction layer
+
+104
+00:04:00,420 --> 00:04:03,440
+And it uniformly provides for
+
+105
+00:04:03,440 --> 00:04:04,940
+The upper-level abstract resources
+
+106
+00:04:04,940 --> 00:04:06,760
+The entire set of resources on the board
+
+107
+00:04:06,760 --> 00:04:08,140
+It uses the singleton pattern
+
+108
+00:04:08,140 --> 00:04:11,410
+And employs a static factory method
+
+109
+00:04:11,410 --> 00:04:13,650
+It provides registration for the underlying board
+
+110
+00:04:13,650 --> 00:04:17,320
+That means we register this board here
+
+111
+00:04:17,320 --> 00:04:18,399
+It's also instantiation
+
+112
+00:04:18,399 --> 00:04:20,720
+When it gets instantiated
+
+113
+00:04:20,720 --> 00:04:23,909
+It retrieves it, but it's not a
+
+114
+00:04:23,909 --> 00:04:25,909
+Is it using the Singleton pattern?
+
+115
+00:04:25,909 --> 00:04:27,689
+When retrieving it with the Singleton pattern
+
+116
+00:04:27,689 --> 00:04:29,370
+It performs a
+
+117
+00:04:29,370 --> 00:04:30,850
+It retrieves from there
+
+118
+00:04:30,850 --> 00:04:35,050
+It uses a static factory to create this object, right?
+
+119
+00:04:35,050 --> 00:04:35,750
+That's correct.
+
+120
+00:04:35,750 --> 00:04:37,730
+Because it registers it here.
+
+121
+00:04:37,730 --> 00:04:41,450
+And we configure it through MANUCONFIG.
+
+122
+00:04:41,450 --> 00:04:42,990
+So when it compiles, it will call the method inside.
+
+123
+00:04:42,990 --> 00:04:45,270
+It will call the method inside here.
+
+124
+00:04:45,270 --> 00:04:46,870
+This static factory method.
+
+125
+00:04:46,870 --> 00:04:49,700
+There can only be one file containing it.
+
+126
+00:04:49,700 --> 00:04:52,880
+So we'll cover this configuration in a bit.
+
+127
+00:04:52,880 --> 00:04:54,159
+Let's configure that
+
+128
+00:04:54,159 --> 00:04:57,759
+Then, in here, we handle the hardware-related configurations
+
+129
+00:04:57,759 --> 00:04:59,639
+For example, the pin configurations, right
+
+130
+00:04:59,639 --> 00:05:00,359
+In this section
+
+131
+00:05:00,359 --> 00:05:04,110
+Within this layer of our board driver
+
+132
+00:05:04,110 --> 00:05:08,210
+We instantiate the audio object and pass in the audio-related interfaces
+
+133
+00:05:08,210 --> 00:05:09,730
+It's its IO port
+
+134
+00:05:09,730 --> 00:05:13,290
+Then, the audio is passed through the audio-related IO ports
+
+135
+00:05:13,290 --> 00:05:14,730
+First
+
+136
+00:05:15,690 --> 00:05:18,850
+Then, it also instantiates the file storage object for the SD card.
+
+137
+00:05:18,850 --> 00:05:20,710
+And it passes the corresponding IO port.
+
+138
+00:05:20,710 --> 00:05:21,370
+In this way,
+
+139
+00:05:21,370 --> 00:05:25,060
+we effectively instantiate at the board level.
+
+140
+00:05:25,060 --> 00:05:25,360
+These,
+
+141
+00:05:25,360 --> 00:05:28,820
+because only at the board level can we determine which ones are used,
+
+142
+00:05:28,820 --> 00:05:30,090
+which IO, right?
+
+143
+00:05:30,090 --> 00:05:32,850
+And there will be display-related components later on,
+
+144
+00:05:32,850 --> 00:05:34,710
+as well as other related instantiations.
+
+145
+00:05:34,710 --> 00:05:37,650
+Anyway, the instantiation of the board resources will be placed here.
+
+146
+00:05:37,650 --> 00:05:39,070
+They will all be placed here.
+
+147
+00:05:39,070 --> 00:05:44,310
+Then, it provides this to the abstraction layer above.
+
+148
+00:05:44,310 --> 00:05:45,330
+It provides some interfaces.
+
+149
+00:05:45,330 --> 00:05:46,950
+Let's take a look.
+
+150
+00:05:46,950 --> 00:05:52,350
+Currently, this board section provides the following methods:
+
+151
+00:05:52,350 --> 00:05:54,010
+One is to obtain the audio object.
+
+152
+00:05:54,010 --> 00:05:56,459
+And to get the file storage object.
+
+153
+00:05:56,459 --> 00:05:57,559
+These are the two objects we have.
+
+154
+00:05:57,559 --> 00:05:59,839
+We actually use the audio object for this.
+
+155
+00:05:59,839 --> 00:06:03,510
+With this method, we can complete our recording and playback.
+
+156
+00:06:03,510 --> 00:06:06,610
+So, in essence, our entire structure is like this.
+
+157
+00:06:06,610 --> 00:06:07,809
+The code architecture is as follows.
+
+158
+00:06:07,809 --> 00:06:09,849
+And our application layer code,
+
+159
+00:06:09,849 --> 00:06:11,809
+which is our application layer,
+
+160
+00:06:11,809 --> 00:06:13,320
+is basically written here.
+
+161
+00:06:13,320 --> 00:06:14,500
+Subsequent code will be written here as well.
+
+162
+00:06:14,500 --> 00:06:16,800
+And the background tasks we set up earlier are also ready.
+
+163
+00:06:16,800 --> 00:06:18,880
+This background task primarily handles some
+
+164
+00:06:18,880 --> 00:06:21,769
+CPU-intensive tasks
+
+165
+00:06:21,769 --> 00:06:23,940
+which are placed in the background task queue
+
+166
+00:06:23,940 --> 00:06:25,980
+Regarding compilation-related tasks
+
+167
+00:06:25,980 --> 00:06:27,300
+we do it this way
+
+168
+00:06:27,300 --> 00:06:31,140
+we have a KCONFIG here
+
+169
+00:06:31,140 --> 00:06:34,670
+which we use with menu config
+
+170
+00:06:34,670 --> 00:06:35,950
+it reads this file
+
+171
+00:06:35,950 --> 00:06:37,950
+we have a board configuration here
+
+172
+00:06:37,950 --> 00:06:40,510
+Then, in the configuration menu of this board, there's an option.
+
+173
+00:06:40,510 --> 00:06:42,130
+This option on the board.
+
+174
+00:06:42,130 --> 00:06:44,590
+Currently, we're using this development board, right?
+
+175
+00:06:44,590 --> 00:06:45,890
+The back is white.
+
+176
+00:06:45,890 --> 00:06:48,990
+And for the ESP32-S3 development board,
+
+177
+00:06:48,990 --> 00:06:51,070
+if you add new items later,
+
+178
+00:06:51,070 --> 00:06:52,010
+for new development boards,
+
+179
+00:06:52,010 --> 00:06:54,130
+you need to add similar entries here.
+
+180
+00:06:54,130 --> 00:06:55,860
+Add this menu item.
+
+181
+00:06:55,860 --> 00:06:58,180
+This menu is where you name your development board.
+
+182
+00:06:58,180 --> 00:06:59,400
+Now, for this part up front,
+
+183
+00:06:59,400 --> 00:07:01,160
+you can name this macro definition whatever you like.
+
+184
+00:07:01,160 --> 00:07:04,530
+But once you name it, you need to keep it consistent with the one below.
+
+185
+00:07:04,530 --> 00:07:05,650
+It needs to be consistent with this one.
+
+186
+00:07:05,650 --> 00:07:09,200
+The configurations here and here need to match.
+
+187
+00:07:09,200 --> 00:07:12,500
+After we’ve set this up here,
+
+188
+00:07:12,500 --> 00:07:15,300
+we also need to write a CMakeLists file here.
+
+189
+00:07:15,300 --> 00:07:18,500
+In here, we need to add the corresponding macro.
+
+190
+00:07:18,500 --> 00:07:18,960
+Compilation
+
+191
+00:07:18,960 --> 00:07:23,630
+Then, this particular configuration here
+
+192
+00:07:23,630 --> 00:07:26,710
+This configuration is ultimately based on this type
+
+193
+00:07:26,710 --> 00:07:28,510
+This type is eventually passed here
+
+194
+00:07:28,510 --> 00:07:30,550
+That means in this folder below
+
+195
+00:07:30,550 --> 00:07:32,820
+So, you need to do this on the onboard
+
+196
+00:07:32,820 --> 00:07:35,340
+This is the onboard folder
+
+197
+00:07:35,340 --> 00:07:37,929
+Then create your new board
+
+198
+00:07:37,929 --> 00:07:39,569
+The corresponding folder should be the same
+
+199
+00:07:39,569 --> 00:07:40,829
+We also need to create such a folder
+
+200
+00:07:40,829 --> 00:07:42,489
+Then inside that folder
+
+201
+00:07:42,489 --> 00:07:45,820
+Write the corresponding driver for your board
+
+202
+00:07:45,820 --> 00:07:46,640
+It works like this
+
+203
+00:07:46,640 --> 00:07:47,520
+Right here
+
+204
+00:07:47,520 --> 00:07:48,380
+Let's take a look
+
+205
+00:07:48,380 --> 00:07:51,260
+Whatever name you write here
+
+206
+00:07:51,260 --> 00:07:52,620
+You need to create a folder with the same name under this board
+
+207
+00:07:52,620 --> 00:07:54,990
+And in this folder
+
+208
+00:07:54,990 --> 00:07:56,110
+You should write the driver for your version
+
+209
+00:07:56,110 --> 00:07:58,490
+This is the overall framework of the current hardware code
+
+210
+00:07:58,490 --> 00:08:03,410
+It's prepared like this
+
+211
+00:08:03,410 --> 00:08:05,250
+Now we've organized everything
+
+212
+00:08:05,250 --> 00:08:08,030
+We're ready to write the backend code
+
+213
+00:08:08,030 --> 00:08:10,670
+It will be much easier to come back and look at this part
+
+214
+00:08:10,670 --> 00:08:13,640
+It's very clear, right?
+
+215
+00:08:13,640 --> 00:08:14,520
+We've organized it
+
+216
+00:08:14,520 --> 00:08:15,360
+At least now we've got the architecture set up
+
+217
+00:08:15,360 --> 00:08:17,840
+It will be relatively simple to use it later
+
+218
+00:08:17,840 --> 00:08:20,420
+Because we can directly use the resources on this board
+
+219
+00:08:20,420 --> 00:08:23,500
+There are just these two
+
+220
+00:08:23,500 --> 00:08:24,820
+To get
+
+221
+00:08:24,820 --> 00:08:25,400
+We don't need to
+
+222
+00:08:25,400 --> 00:08:26,240
+We don't need to worry about how it gets them right now
+
+223
+00:08:26,240 --> 00:08:29,080
+We don't need to care about how it operates inside
+
+224
+00:08:29,080 --> 00:08:30,360
+We just need to call the methods inside, which makes it very simple
+
+225
+00:08:30,360 --> 00:08:33,919
+Alright, that's it for this lesson
+

@@ -1,0 +1,816 @@
+1
+00:00:00,040 --> 00:00:01,980
+Hi everyone, welcome to Lao E's channel
+
+2
+00:00:01,980 --> 00:00:06,240
+This season's Microsoft 365 Premium academic discount is still very practical.
+
+3
+00:00:06,240 --> 00:00:07,560
+First, the five-year subscription
+
+4
+00:00:07,560 --> 00:00:10,960
+First of all, for a five-year subscription at a monthly rate of $19.99,
+
+5
+00:00:10,960 --> 00:00:13,000
+That totals over $1000.
+
+6
+00:00:13,000 --> 00:00:16,610
+In addition, the premium version includes the entire Office suite.
+
+7
+00:00:16,610 --> 00:00:18,979
+1T OneDrive cloud storage
+
+8
+00:00:18,979 --> 00:00:23,959
+Additionally, using the latest ChatGPT 5.2-powered Microsoft Copilot
+
+9
+00:00:23,959 --> 00:00:26,320
+It is also unlimited and omnipresent.
+
+10
+00:00:26,320 --> 00:00:29,240
+It also allows us to add 5 family group members
+
+11
+00:00:29,240 --> 00:00:31,340
+Each member is independent
+
+12
+00:00:31,340 --> 00:00:33,269
+1T OneDrive cloud storage and more
+
+13
+00:00:33,269 --> 00:00:34,789
+Without further ado, let's get started
+
+14
+00:00:34,789 --> 00:00:37,029
+Before we start, please like and subscribe to Old E's channel
+
+15
+00:00:37,029 --> 00:00:39,790
+Support me in creating more and better content
+
+16
+00:00:39,790 --> 00:00:41,490
+Since the goal is 5 years, the Microsoft account we bind
+
+17
+00:00:41,490 --> 00:00:43,170
+which is our Outlook email
+
+18
+00:00:43,170 --> 00:00:45,430
+We need to check its account information
+
+19
+00:00:45,430 --> 00:00:48,270
+Don't be too outrageous, as I believe from an algorithmic perspective
+
+20
+00:00:48,270 --> 00:00:50,830
+This constitutes whether it's a 4-year or 5-year
+
+21
+00:00:50,830 --> 00:00:52,570
+such a criterion
+
+22
+00:00:52,570 --> 00:00:54,330
+Alright, let's open the Outlook email
+
+23
+00:00:54,330 --> 00:00:57,340
+Then click on the Settings in the upper right corner, the second option: Account
+
+24
+00:00:57,340 --> 00:01:00,960
+After opening the account, we click on the 'Manage' option on the right side
+
+25
+00:01:00,960 --> 00:01:04,000
+you can view your account information
+
+26
+00:01:04,000 --> 00:01:06,260
+including personal information, etc.
+
+27
+00:01:06,260 --> 00:01:08,789
+This is one method, the second method is to directly click on our avatar
+
+28
+00:01:08,789 --> 00:01:13,149
+then click on my Microsoft account
+
+29
+00:01:13,149 --> 00:01:16,320
+Then it opens my account management page
+
+30
+00:01:16,320 --> 00:01:19,440
+On the account management page, we can see it includes many
+
+31
+00:01:19,440 --> 00:01:21,820
+The second item is your information
+
+32
+00:01:21,820 --> 00:01:26,170
+Your info, we can take a look at your personal information
+
+33
+00:01:26,170 --> 00:01:29,090
+At the same time, we recommend checking the bottom section
+
+34
+00:01:29,090 --> 00:01:31,860
+Change its language to American English
+
+35
+00:01:31,860 --> 00:01:34,720
+which means changing your region to the US in Microsoft
+
+36
+00:01:34,720 --> 00:01:36,020
+the second item your info
+
+37
+00:01:36,020 --> 00:01:37,380
+the second item, Your info
+
+38
+00:01:37,380 --> 00:01:38,580
+We click on
+
+39
+00:01:38,580 --> 00:01:43,319
+What should you check? The key points are your date of birth and country/region.
+
+40
+00:01:43,319 --> 00:01:45,879
+Your birthday cannot be that of a fifty or sixty-year-old uncle
+
+41
+00:01:45,879 --> 00:01:48,880
+to apply for a student discount for a twenty-year-old
+
+42
+00:01:48,880 --> 00:01:50,860
+This is obviously not right.
+
+43
+00:01:50,860 --> 00:01:54,770
+If something seems off, why would I give you a five-year discount?
+
+44
+00:01:54,770 --> 00:01:56,250
+Of course
+
+45
+00:01:56,250 --> 00:01:57,630
+This is one-sided opinion
+
+46
+00:01:57,630 --> 00:01:58,650
+Logically speaking
+
+47
+00:01:58,650 --> 00:02:00,850
+That should be it. If there are any issues, you can make edits or modifications.
+
+48
+00:02:00,850 --> 00:02:02,970
+your linked Microsoft account
+
+49
+00:02:02,970 --> 00:02:04,810
+
+
+50
+00:02:04,810 --> 00:02:06,450
+Step one and step two cannot be wrong
+
+51
+00:02:06,450 --> 00:02:09,139
+First, claim the Personal edition
+
+52
+00:02:09,139 --> 00:02:10,940
+Then, to claim the Premium version, we click on this link for the Personal version
+
+53
+00:02:10,940 --> 00:02:13,140
+It will directly jump to the corresponding page
+
+54
+00:02:13,140 --> 00:02:16,260
+Of course, I can also paste it into other browsers
+
+55
+00:02:16,260 --> 00:02:17,700
+for example, paste it into Chrome
+
+56
+00:02:17,700 --> 00:02:19,110
+for example, paste it into Chrome
+
+57
+00:02:19,110 --> 00:02:21,830
+I'll proceed with the claim. Now, let's look at the top left corner.
+
+58
+00:02:21,830 --> 00:02:25,470
+At the same time, if everyone hasn't switched the language
+
+59
+00:02:25,470 --> 00:02:27,390
+If you switch to American English, your interface should be different from mine
+
+60
+00:02:27,390 --> 00:02:29,860
+At least you won't have Google Pay
+
+61
+00:02:29,860 --> 00:02:32,380
+If we click next
+
+62
+00:02:32,380 --> 00:02:37,210
+Then we choose Google Pay as the payment method
+
+63
+00:02:37,210 --> 00:02:38,710
+Okay, now it starts loading
+
+64
+00:02:38,710 --> 00:02:42,930
+The second step is to verify our student email.
+
+65
+00:02:42,930 --> 00:02:45,760
+Of course, you can also modify your payment method here.
+
+66
+00:02:45,760 --> 00:02:48,200
+As for the displayed 12-month free trial
+
+67
+00:02:48,200 --> 00:02:49,960
+We can ignore this here
+
+68
+00:02:49,960 --> 00:02:53,340
+Our goal is not the personal edition, but the 5-year premium version.
+
+69
+00:02:53,340 --> 00:02:56,020
+If you don't have a personal email, you can also click here
+
+70
+00:02:56,020 --> 00:02:59,680
+use alternative methods for academic verification
+
+71
+00:02:59,680 --> 00:03:01,160
+for example, upload a student ID
+
+72
+00:03:01,160 --> 00:03:02,080
+upload transcript
+
+73
+00:03:02,080 --> 00:03:04,400
+Okay, here I enter Marry Cube's EDU email address
+
+74
+00:03:04,400 --> 00:03:05,890
+after entering the maricopa.edu email address
+
+75
+00:03:05,890 --> 00:03:06,570
+Click to verify email
+
+76
+00:03:06,570 --> 00:03:09,200
+Hold on a moment, there are a series of actions happening in the background.
+
+77
+00:03:09,200 --> 00:03:11,660
+Please note, there will be a line of small text prompting you
+
+78
+00:03:11,660 --> 00:03:14,120
+A verification link has been sent
+
+79
+00:03:14,120 --> 00:03:16,220
+to your bound email address
+
+80
+00:03:16,220 --> 00:03:17,960
+There won't be any page jump.
+
+81
+00:03:17,960 --> 00:03:19,740
+I opened my edu email
+
+82
+00:03:19,740 --> 00:03:23,620
+Open this email, we can directly click on the verification link here
+
+83
+00:03:23,620 --> 00:03:26,430
+
+
+84
+00:03:26,430 --> 00:03:30,620
+Here, I just copied it and then
+
+85
+00:03:30,620 --> 00:03:34,900
+paste it into the address bar, or go back to the previous application page
+
+86
+00:03:34,900 --> 00:03:36,420
+Open a new tab and paste it in
+
+87
+00:03:36,660 --> 00:03:41,280
+Then, after a short wait, it will congratulate us on successfully claiming the offer.
+
+88
+00:03:41,280 --> 00:03:45,820
+First, it will display an academic verification status like this
+
+89
+00:03:45,940 --> 00:03:47,740
+We will soon be reminded
+
+90
+00:03:47,740 --> 00:03:51,100
+Congratulations, your academic status has been successfully verified.
+
+91
+00:03:51,100 --> 00:03:54,500
+Here, you can skip clicking 'Continue' and simply close this page.
+
+92
+00:03:54,500 --> 00:03:56,140
+It doesn't matter if you click it
+
+93
+00:03:56,140 --> 00:03:58,240
+After clicking it
+
+94
+00:03:58,240 --> 00:03:59,860
+Because it's checked out, it gives you the illusion
+
+95
+00:03:59,860 --> 00:04:01,880
+as if the discount is gone
+
+96
+00:04:01,880 --> 00:04:03,600
+That's not the case
+
+97
+00:04:03,600 --> 00:04:04,720
+because we haven't made the payment yet
+
+98
+00:04:04,720 --> 00:04:06,660
+Even if it's a zero-dollar purchase, I still have to go through with the zero-dollar purchase
+
+99
+00:04:06,660 --> 00:04:08,440
+I still have to pay, so even if you click
+
+100
+00:04:08,440 --> 00:04:09,860
+Don't panic when you see this page
+
+101
+00:04:09,860 --> 00:04:11,840
+
+
+102
+00:04:11,840 --> 00:04:17,000
+Click the first step again, the link to redeem the personal version of Microsoft 365
+
+103
+00:04:17,000 --> 00:04:20,240
+After clicking, we will still see
+
+104
+00:04:20,240 --> 00:04:21,200
+still a personal
+
+105
+00:04:21,200 --> 00:04:22,450
+We haven't completed this yet
+
+106
+00:04:22,450 --> 00:04:25,570
+We haven't made the payment yet, so if you find that your payment method is missing
+
+107
+00:04:25,570 --> 00:04:29,629
+you just click again to add a new payment method
+
+108
+00:04:29,629 --> 00:04:32,110
+Open it and still select GPay
+
+109
+00:04:32,110 --> 00:04:36,230
+Please make sure to confirm that the language and region in the bottom left corner
+
+110
+00:04:36,230 --> 00:04:39,540
+Is it in American English to have GPay as an option?
+
+111
+00:04:39,540 --> 00:04:41,280
+After selecting GPay
+
+112
+00:04:41,280 --> 00:04:44,440
+At this point, there will be 'Add billing address'
+
+113
+00:04:44,440 --> 00:04:46,910
+Add a billing address
+
+114
+00:04:46,910 --> 00:04:50,350
+so we click on the one below
+
+115
+00:04:50,350 --> 00:04:51,910
+Add billing address
+
+116
+00:04:51,910 --> 00:04:53,710
+This billing address can be filled in randomly, but don't make it too outrageous
+
+117
+00:04:53,710 --> 00:04:57,360
+You can't just fill in your home street address here
+
+118
+00:04:57,360 --> 00:04:58,820
+It is a U.S. address
+
+119
+00:04:58,820 --> 00:05:01,020
+If you want to be lazy, this kind of laziness
+
+120
+00:05:01,020 --> 00:05:04,500
+That's definitely not correct. I'll enter a real U.S. address here
+
+121
+00:05:05,330 --> 00:05:10,010
+Then click Save, and you're done.
+
+122
+00:05:10,699 --> 00:05:14,050
+Wait a moment, it's loading, and after loading
+
+123
+00:05:14,050 --> 00:05:16,110
+then it will prompt you
+
+124
+00:05:16,110 --> 00:05:17,250
+It's done
+
+125
+00:05:17,250 --> 00:05:19,560
+You have succeeded
+
+126
+00:05:19,560 --> 00:05:21,260
+Verification completed, discount claimed
+
+127
+00:05:21,260 --> 00:05:24,800
+Then we click Start Trial
+
+128
+00:05:28,460 --> 00:05:29,460
+What is this
+
+129
+00:05:29,460 --> 00:05:32,740
+Start the payment, because we haven't paid yet.
+
+130
+00:05:32,740 --> 00:05:38,419
+Right, at this point, I'll bring up the GPay that I've already pre-bound.
+
+131
+00:05:38,419 --> 00:05:41,570
+Then check the box and click 'Pay Now'
+
+132
+00:05:41,570 --> 00:05:42,530
+After the payment is completed
+
+133
+00:05:42,530 --> 00:05:45,290
+After the payment, we will not demonstrate the subsequent processing steps.
+
+134
+00:05:45,290 --> 00:05:49,210
+Fast forward, and now we've successfully completed the first step of claiming the personal edition.
+
+135
+00:05:49,210 --> 00:05:51,450
+Then we reopen
+
+136
+00:05:51,450 --> 00:05:54,890
+
+
+137
+00:05:54,890 --> 00:05:56,350
+The page after clicking looks like this
+
+138
+00:05:56,350 --> 00:06:02,420
+It prompts us that we are switching from Microsoft Personal to Premium.
+
+139
+00:06:02,420 --> 00:06:04,160
+What does the premium version include?
+
+140
+00:06:04,160 --> 00:06:08,020
+It prompts that we can expand this green notification bar
+
+141
+00:06:08,020 --> 00:06:10,360
+Here, I'll click Next
+
+142
+00:06:10,360 --> 00:06:13,400
+Here it prompts a one-month Free Trial
+
+143
+00:06:13,400 --> 00:06:15,280
+Ignore it
+
+144
+00:06:15,280 --> 00:06:17,260
+We add the payment method and then click Next
+
+145
+00:06:17,260 --> 00:06:18,060
+The addition of the payment method is the same as before
+
+146
+00:06:18,060 --> 00:06:19,780
+I'll quickly skip over it
+
+147
+00:06:19,780 --> 00:06:22,560
+After adding, it will still show loading
+
+148
+00:06:22,560 --> 00:06:25,320
+At this point, we won't be asked to add a billing address
+
+149
+00:06:25,320 --> 00:06:28,990
+but prompts us to Select and choose a billing address
+
+150
+00:06:28,990 --> 00:06:31,770
+We click to select the billing address
+
+151
+00:06:31,770 --> 00:06:35,490
+The following process is essentially the verification of academic status.
+
+152
+00:06:35,490 --> 00:06:38,260
+Of course, it no longer requires us to repeatedly submit the email.
+
+153
+00:06:38,260 --> 00:06:41,260
+it will directly inform us that the identity verification has been successful
+
+154
+00:06:41,260 --> 00:06:45,490
+Then we continue to click on 'Start Trial Pay Later'
+
+155
+00:06:45,490 --> 00:06:47,270
+Here,
+
+156
+00:06:47,270 --> 00:06:51,570
+We need to pay attention to the fact that its price is $19.99 per month
+
+157
+00:06:51,570 --> 00:06:54,020
+and it's under the annual payment plan
+
+158
+00:06:54,020 --> 00:06:55,060
+It's still the same
+
+159
+00:06:55,060 --> 00:06:58,220
+We still get it for free, but we need to make one payment. Click 'Pay Now'
+
+160
+00:06:59,460 --> 00:07:01,380
+Payment completed
+
+161
+00:07:02,500 --> 00:07:03,220
+Just a moment
+
+162
+00:07:03,220 --> 00:07:06,460
+We will soon receive a notification confirming our successful subscription.
+
+163
+00:07:09,160 --> 00:07:12,740
+It prompts us that we can start immediately
+
+164
+00:07:12,740 --> 00:07:18,330
+our one-month free Microsoft 365 Premium edition
+
+165
+00:07:18,330 --> 00:07:21,030
+Ignore it, even though it shows a one-month period here
+
+166
+00:07:21,030 --> 00:07:26,230
+However, we should refer to the subscription status in our Microsoft account as the authoritative source.
+
+167
+00:07:26,510 --> 00:07:28,110
+Okay
+
+168
+00:07:29,150 --> 00:07:31,130
+Here,
+
+169
+00:07:31,130 --> 00:07:34,960
+We emphasize two points. First, you must switch it to
+
+170
+00:07:34,960 --> 00:07:36,540
+American English
+
+171
+00:07:36,540 --> 00:07:38,520
+the US region of Microsoft, otherwise your interface
+
+172
+00:07:38,520 --> 00:07:40,380
+including options, many aspects
+
+173
+00:07:40,380 --> 00:07:42,400
+is different from mine. Secondly, it's the premium subscription for 365
+
+174
+00:07:42,400 --> 00:07:47,850
+the personal email account, and it is not bound to our
+
+175
+00:07:47,850 --> 00:07:48,770
+the EDU account we applied for in advance
+
+176
+00:07:48,770 --> 00:07:51,930
+Finally, don't forget to like and subscribe to Lao E's channel.
+
+177
+00:07:51,930 --> 00:07:53,110
+Okay
+
+178
+00:07:53,110 --> 00:07:56,490
+We open the mailbox and will see that we have two emails from Microsoft
+
+179
+00:07:56,490 --> 00:08:00,930
+The notifications for both the Personal and Advanced editions have been successfully processed.
+
+180
+00:08:00,930 --> 00:08:03,970
+Moreover, you will see at the top right corner of your email
+
+181
+00:08:03,970 --> 00:08:06,720
+you should see the Copilot icon
+
+182
+00:08:06,720 --> 00:08:09,900
+It is everywhere. Then we click on Me account
+
+183
+00:08:09,900 --> 00:08:12,280
+Me Microsoft account
+
+184
+00:08:12,400 --> 00:08:17,280
+On the Home page of the account, our subscription information will be clearly displayed
+
+185
+00:08:17,280 --> 00:08:22,260
+Next billing date: 2031
+
+186
+00:08:22,260 --> 00:08:25,780
+Five years achieved! Of course, what's displayed here is only
+
+187
+00:08:25,780 --> 00:08:26,820
+expiration date information
+
+188
+00:08:26,820 --> 00:08:29,140
+For more details, we can check the subscription on the left side
+
+189
+00:08:29,140 --> 00:08:31,070
+After clicking on it
+
+190
+00:08:31,070 --> 00:08:35,130
+We can see that, in addition to the 5-year subscription period until January 2031,
+
+191
+00:08:35,130 --> 00:08:36,830
+And also,
+
+192
+00:08:36,830 --> 00:08:38,190
+our billing information
+
+193
+00:08:38,190 --> 00:08:40,429
+$19.99 per month, along with 1TB of OneDrive storage
+
+194
+00:08:40,429 --> 00:08:44,630
+There are also other features, including a 5-person shared subscription, and so on.
+
+195
+00:08:44,950 --> 00:08:46,510
+So to avoid being taken advantage of
+
+196
+00:08:46,510 --> 00:08:50,180
+We can select the third option in the left navigation bar: Subscription
+
+197
+00:08:50,180 --> 00:08:51,560
+In the subscription
+
+198
+00:08:51,560 --> 00:08:55,440
+In addition to what we just mentioned, you can view detailed subscription information
+
+199
+00:08:55,440 --> 00:08:58,360
+Additionally, we can manage the subscription
+
+200
+00:08:58,360 --> 00:09:00,620
+Click on the management in the upper right corner
+
+201
+00:09:00,620 --> 00:09:04,960
+After opening it, we select the second last option to turn off recurring payments.
+
+202
+00:09:04,960 --> 00:09:06,460
+Well, that's all for this video share.
+
+203
+00:09:06,460 --> 00:09:07,380
+See you next time
+
+204
+00:09:07,380 --> 00:09:07,800
+Thank you
+

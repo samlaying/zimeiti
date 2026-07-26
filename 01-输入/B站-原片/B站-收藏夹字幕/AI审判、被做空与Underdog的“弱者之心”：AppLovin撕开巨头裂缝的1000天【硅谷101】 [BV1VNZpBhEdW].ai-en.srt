@@ -1,0 +1,8992 @@
+1
+00:00:00,220 --> 00:00:02,480
+Meta and Google, as global ad giants,
+
+2
+00:00:02,480 --> 00:00:04,740
+saw a crack in their dominant hold.
+
+3
+00:00:04,840 --> 00:00:07,654
+this crack allowed one firm to rise swiftly,
+
+4
+00:00:07,654 --> 00:00:10,403
+with its stock soaring 25-fold in two years,
+
+5
+00:00:10,403 --> 00:00:12,825
+joining the S&P 500 and the $100B club —
+
+6
+00:00:12,825 --> 00:00:14,199
+that firm is AppLovin
+
+7
+00:00:14,320 --> 00:00:16,201
+yet controversies and short-seller
+
+8
+00:00:16,201 --> 00:00:18,360
+reports on this firm have never ceased
+
+9
+00:00:18,580 --> 00:00:20,661
+this epic surge was followed by a Muddy Waters
+
+10
+00:00:20,661 --> 00:00:22,019
+short-sell attack on the firm
+
+11
+00:00:22,020 --> 00:00:23,931
+I think this is at least the third
+
+12
+00:00:23,931 --> 00:00:25,899
+we've seen in the past month or so.
+
+13
+00:00:25,980 --> 00:00:28,019
+these short-sellers are questioning
+
+14
+00:00:28,019 --> 00:00:30,000
+its AI platform's trustworthiness
+
+15
+00:00:30,000 --> 00:00:31,097
+In early November 2025,
+
+16
+00:00:31,097 --> 00:00:33,188
+I was invited to AppLovin's annual event
+
+17
+00:00:33,188 --> 00:00:34,600
+at San Francisco City Hall.
+
+18
+00:00:34,770 --> 00:00:37,309
+here, executives and staff, with families in tow,
+
+19
+00:00:37,309 --> 00:00:39,541
+donned formal gowns and sipped champagne
+
+20
+00:00:39,541 --> 00:00:42,499
+to celebrate the firm hitting a $20 billion market cap.
+
+21
+00:00:42,780 --> 00:00:45,486
+Heading upstairs, the game odds laid out by the firm
+
+22
+00:00:45,486 --> 00:00:47,853
+hint that the love-hate dance of Wall Street
+
+23
+00:00:47,853 --> 00:00:49,360
+for AppLovin isn't over yet.
+
+24
+00:00:49,600 --> 00:00:52,547
+the key figure in this game is this man—Giovanni Ge,
+
+25
+00:00:52,547 --> 00:00:55,467
+the Chinese executive who nearly missed his speech
+
+26
+00:00:55,467 --> 00:00:57,980
+due to a basketball clash with a colleague
+
+27
+00:01:03,380 --> 00:01:04,437
+Giovanni Ge doesn't look like
+
+28
+00:01:04,437 --> 00:01:06,467
+a typical Silicon Valley engineer—he graduated from the
+
+29
+00:01:06,467 --> 00:01:06,911
+USTC School
+
+30
+00:01:06,911 --> 00:01:07,466
+of the Gifted
+
+31
+00:01:07,466 --> 00:01:09,399
+Young, earned his PhD in Italy, and then came to the US.
+
+32
+00:01:09,440 --> 00:01:10,532
+after leaving Meta,
+
+33
+00:01:10,532 --> 00:01:14,236
+he joined AppLovin just as it was undergoing a pivotal shift
+
+34
+00:01:14,236 --> 00:01:16,240
+and led the team with key impact.
+
+35
+00:01:16,320 --> 00:01:17,520
+Teach me one Italian phrase
+
+36
+00:01:17,680 --> 00:01:17,680
+Buongiorno
+
+37
+00:01:18,440 --> 00:01:20,600
+So tough, heh heh.
+
+38
+00:01:20,760 --> 00:01:21,640
+From 2023 to 2025,
+
+39
+00:01:21,640 --> 00:01:25,160
+Giovanni Ge's promotions mirrored AppLovin's stock surge
+
+40
+00:01:25,320 --> 00:01:26,895
+in three years, from engineer,
+
+41
+00:01:26,895 --> 00:01:29,338
+he rose swiftly to become a top tech leader
+
+42
+00:01:29,338 --> 00:01:32,520
+and now serves as Chief Product and Engineering Officer.
+
+43
+00:01:32,850 --> 00:01:35,237
+though there are many reports and analyses
+
+44
+00:01:35,237 --> 00:01:36,659
+on AppLovin from outside,
+
+45
+00:01:36,659 --> 00:01:39,730
+in-depth interviews with top executives remain scarce
+
+46
+00:01:39,900 --> 00:01:42,460
+many facts and conclusions clash with one another
+
+47
+00:01:42,460 --> 00:01:44,039
+when the short report first came out,
+
+48
+00:01:44,039 --> 00:01:45,180
+we took it very seriously,
+
+49
+00:01:45,180 --> 00:01:47,179
+cross-checking each point against our systems —
+
+50
+00:01:47,179 --> 00:01:48,780
+and later found they were all wrong
+
+51
+00:01:49,010 --> 00:01:52,727
+so what fascinates me about this company is that I wonder,
+
+52
+00:01:52,727 --> 00:01:56,250
+how does it thrive behind giants like Meta and Google
+
+53
+00:01:56,460 --> 00:01:58,380
+what did this firm do right,
+
+54
+00:01:58,380 --> 00:02:00,300
+and what timing let it carve
+
+55
+00:02:00,300 --> 00:02:02,700
+a niche in the giants' market space?
+
+56
+00:02:02,840 --> 00:02:05,245
+We lack the resources Google and Meta have,
+
+57
+00:02:05,245 --> 00:02:08,280
+so we can't use their approaches to solve our issues.
+
+58
+00:02:08,360 --> 00:02:10,448
+from the moment I joined AppLovin,
+
+59
+00:02:10,448 --> 00:02:13,360
+I dreamed that one day we'd move beyond games
+
+60
+00:02:13,520 --> 00:02:16,695
+how does AppLovin view the praise and doubts from outside?
+
+61
+00:02:16,695 --> 00:02:18,501
+How did Giovanni Ge lead his team
+
+62
+00:02:18,501 --> 00:02:21,129
+in tackling the modern recommendation algorithm?
+
+63
+00:02:21,130 --> 00:02:23,260
+the toughest challenge here was finding staff.
+
+64
+00:02:23,260 --> 00:02:24,880
+the market didn't trust us much.
+
+65
+00:02:24,880 --> 00:02:27,860
+That year, hiring was extremely tough—just very, very hard.
+
+66
+00:02:27,980 --> 00:02:29,462
+driven by this curiosity,
+
+67
+00:02:29,462 --> 00:02:30,903
+we at 'Silicon Valley 101'
+
+68
+00:02:30,903 --> 00:02:33,973
+did an exclusive video interview with Giovanni Ge,
+
+69
+00:02:33,973 --> 00:02:35,580
+his first ever in Chinese.
+
+70
+00:02:35,740 --> 00:02:37,580
+the past three years felt like a decade;
+
+71
+00:02:37,580 --> 00:02:39,420
+each day was a battle. In Silicon Valley,
+
+72
+00:02:39,420 --> 00:02:42,180
+I believe the underdog spirit is the most cherished one here.
+
+73
+00:02:42,220 --> 00:02:46,080
+Our interview with Giovanni Ge was filmed on Dec 21, 2025
+
+74
+00:02:46,320 --> 00:02:48,597
+the full interview lasted over two hours,
+
+75
+00:02:48,597 --> 00:02:49,430
+yet to be frank,
+
+76
+00:02:49,430 --> 00:02:52,320
+our conversation at times felt a bit back-and-forth
+
+77
+00:02:52,510 --> 00:02:55,296
+The reason is, I desperately wanted to know —
+
+78
+00:02:55,296 --> 00:02:58,150
+what did AppLovin do right to rise so fast?
+
+79
+00:02:58,340 --> 00:02:59,752
+but I found this was not
+
+80
+00:02:59,752 --> 00:03:02,460
+how Giovanni Ge and AppLovin framed the issue
+
+81
+00:03:02,540 --> 00:03:03,702
+I noticed when we chatted,
+
+82
+00:03:03,702 --> 00:03:04,547
+you wanted to know
+
+83
+00:03:04,547 --> 00:03:07,132
+if our success stemmed from just one specific decision —
+
+84
+00:03:07,132 --> 00:03:08,260
+but that's not the case.
+
+85
+00:03:08,340 --> 00:03:10,163
+The decision itself was simple;
+
+86
+00:03:10,163 --> 00:03:12,103
+what drove the company to success
+
+87
+00:03:12,103 --> 00:03:13,809
+was the 365 days that followed.
+
+88
+00:03:13,810 --> 00:03:15,193
+How do we live each day?
+
+89
+00:03:15,193 --> 00:03:16,980
+Outsiders always seek an answer
+
+90
+00:03:16,980 --> 00:03:19,229
+to make our success seem simple indeed.
+
+91
+00:03:19,390 --> 00:03:21,500
+I find such doubts and undervaluing
+
+92
+00:03:21,500 --> 00:03:23,430
+have become quite routine to me.
+
+93
+00:03:23,510 --> 00:03:24,061
+In Q1 2026,
+
+94
+00:03:24,061 --> 00:03:26,082
+AppLovin continued facing attacks
+
+95
+00:03:26,082 --> 00:03:27,860
+from short-sellers once more
+
+96
+00:03:27,940 --> 00:03:29,463
+AI's threats to ad sectors,
+
+97
+00:03:29,463 --> 00:03:32,100
+plus rivals vying for market share dominance
+
+98
+00:03:32,280 --> 00:03:33,935
+After U.S. stocks closed on Feb 11,
+
+99
+00:03:33,935 --> 00:03:36,160
+AppLovin released its Q4 2025 earnings report
+
+100
+00:03:36,360 --> 00:03:37,836
+revenue, profits, and outlook
+
+101
+00:03:37,836 --> 00:03:38,835
+all beat analysts'
+
+102
+00:03:38,835 --> 00:03:41,280
+forecasts—this was a stellar earnings report.
+
+103
+00:03:41,420 --> 00:03:43,841
+yet the stock price plummeted sharply;
+
+104
+00:03:43,841 --> 00:03:46,771
+this divergence hints at capital markets' fears
+
+105
+00:03:46,771 --> 00:03:47,918
+that AI may upend
+
+106
+00:03:47,918 --> 00:03:48,619
+SaaS firms.
+
+107
+00:03:48,780 --> 00:03:50,983
+At this moment, we launch this interview,
+
+108
+00:03:50,983 --> 00:03:53,379
+aiming to gain insights from Giovanni Ge's
+
+109
+00:03:53,379 --> 00:03:56,860
+in-depth reflections on the past three years—roughly 1,000 days.
+
+110
+00:03:57,060 --> 00:04:00,860
+how he led AppLovin to split giants' grip and cross the chasm
+
+111
+00:04:00,920 --> 00:04:05,399
+How did this firm rise amid Google and Meta's duopoly?
+
+112
+00:04:05,399 --> 00:04:07,804
+And how did it break through
+
+113
+00:04:07,804 --> 00:04:10,640
+using the 'underdog' mindset? First?
+
+114
+00:04:10,640 --> 00:04:13,309
+Before we dive into Giovanni Ge's interview,
+
+115
+00:04:13,309 --> 00:04:16,600
+let's spend a moment on AppLovin's business and rise.
+
+116
+00:04:20,579 --> 00:04:22,582
+In 2018, Silicon Valley's digital ad
+
+117
+00:04:22,582 --> 00:04:24,586
+landscape was rigid—Google ruled
+
+118
+00:04:24,586 --> 00:04:25,437
+search intent,
+
+119
+00:04:25,437 --> 00:04:27,260
+Meta controlled social graphs.
+
+120
+00:04:27,460 --> 00:04:28,427
+at that time,
+
+121
+00:04:28,427 --> 00:04:32,540
+AppLovin was just a small mobile ad network player.
+
+122
+00:04:32,720 --> 00:04:34,746
+in short, it's a middleman platform
+
+123
+00:04:34,746 --> 00:04:36,501
+linking mobile app developers —
+
+124
+00:04:36,501 --> 00:04:38,680
+the ad space hosts — with advertisers.
+
+125
+00:04:38,840 --> 00:04:43,134
+for such a 'middleman,' the fatal flaw is that it has no clue
+
+126
+00:04:43,134 --> 00:04:45,800
+what users are doing inside the app.
+
+127
+00:04:46,000 --> 00:04:49,706
+Think—how can you compete with giants like Google and Meta
+
+128
+00:04:49,706 --> 00:04:51,880
+if you lack first-party user data?
+
+129
+00:04:52,200 --> 00:04:53,586
+To break this stalemate,
+
+130
+00:04:53,586 --> 00:04:56,480
+AppLovin began aggressively buying game studios.
+
+131
+00:04:56,680 --> 00:04:59,240
+from 2018 up till just before its IPO
+
+132
+00:04:59,480 --> 00:05:03,032
+AppLovin rapidly expanded via M&A, strategic investments,
+
+133
+00:05:03,032 --> 00:05:04,453
+and studio incubation,
+
+134
+00:05:04,453 --> 00:05:07,360
+with game deals totaling billions of dollars
+
+135
+00:05:07,400 --> 00:05:09,520
+and via its ad and distribution platforms,
+
+136
+00:05:09,520 --> 00:05:12,520
+it reached hundreds of millions of mobile users worldwide.
+
+137
+00:05:12,660 --> 00:05:15,496
+At the time, AppLovin bought these studios
+
+138
+00:05:15,496 --> 00:05:16,950
+not for game profits,
+
+139
+00:05:16,950 --> 00:05:19,580
+but to capture key conversion signals
+
+140
+00:05:19,810 --> 00:05:20,975
+these 'in-house' games
+
+141
+00:05:20,975 --> 00:05:23,890
+served as the early labs for the algorithm engine
+
+142
+00:05:24,150 --> 00:05:28,036
+At the same time, AppLovin made a series of key acquisitions.
+
+143
+00:05:28,036 --> 00:05:31,469
+The first was MAX, the in-app bidding tech firm, in 2018.
+
+144
+00:05:35,260 --> 00:05:39,700
+Before 2018, AppLovin was essentially an ad-serving platform.
+
+145
+00:05:39,920 --> 00:05:43,470
+but for developers, it didn't help them fetch top prices
+
+146
+00:05:43,470 --> 00:05:45,600
+for their ad inventory very well.
+
+147
+00:05:45,810 --> 00:05:46,402
+At the time,
+
+148
+00:05:46,402 --> 00:05:49,690
+the most common method in the industry was 'Waterfall Layout'.
+
+149
+00:05:49,920 --> 00:05:51,884
+In short, developers would first try
+
+150
+00:05:51,884 --> 00:05:53,737
+offering ad slots to platform A;
+
+151
+00:05:53,737 --> 00:05:56,319
+if A declined, then try B, and if B failed, try C.
+
+152
+00:05:56,360 --> 00:06:01,008
+one after another, in a preset order based on past eCPM ,
+
+153
+00:06:01,008 --> 00:06:04,710
+or effective cost per thousand impressions
+
+154
+00:06:04,800 --> 00:06:07,760
+and fill rate , along with other historical metrics
+
+155
+00:06:07,880 --> 00:06:11,496
+the problem is that this process is queue-based, slow,
+
+156
+00:06:11,496 --> 00:06:14,070
+and often sells slots for low prices
+
+157
+00:06:14,420 --> 00:06:15,590
+Once MAX came along,
+
+158
+00:06:15,590 --> 00:06:19,100
+the rules changed completely—it added in-app RTB bidding.
+
+159
+00:06:19,260 --> 00:06:21,671
+drop the ad slot to all advertisers at once,
+
+160
+00:06:21,671 --> 00:06:24,980
+let them bid simultaneously, and sell to the highest bidder
+
+161
+00:06:25,240 --> 00:06:27,488
+developers just get top bids straight away,
+
+162
+00:06:27,488 --> 00:06:28,880
+and income jumps right up
+
+163
+00:06:29,080 --> 00:06:32,409
+advertisers aren't worse off—say they spent ¥1.50,
+
+164
+00:06:32,409 --> 00:06:35,600
+but if they earn ¥2 back, it's still a good deal.
+
+165
+00:06:35,720 --> 00:06:37,656
+The result? Developers earned more,
+
+166
+00:06:37,656 --> 00:06:41,000
+and advertisers got better users—both sides were pleased.
+
+167
+00:06:41,160 --> 00:06:42,402
+Thanks to MAX, AppLovin
+
+168
+00:06:42,402 --> 00:06:45,315
+evolved from a 'just-for-buyers' role into a platform
+
+169
+00:06:45,315 --> 00:06:47,600
+serving both advertisers and developers.
+
+170
+00:06:47,720 --> 00:06:50,060
+the second major acquisition was in 2021,
+
+171
+00:06:50,060 --> 00:06:53,120
+when $1 billion was spent to buy Adjust, a mobile app
+
+172
+00:06:53,120 --> 00:06:55,040
+data tracking and marketing firm
+
+173
+00:06:58,860 --> 00:07:02,646
+in the ad industry, advertisers care about just one thing:
+
+174
+00:07:02,646 --> 00:07:06,499
+how much return can I get from every single dollar I spend.
+
+175
+00:07:06,660 --> 00:07:10,180
+but in mobile ads, this question is quite hard to answer.
+
+176
+00:07:10,360 --> 00:07:13,248
+because an ad goes from being shown to clicked,
+
+177
+00:07:13,248 --> 00:07:14,567
+then downloaded, used,
+
+178
+00:07:14,567 --> 00:07:17,080
+and even paid for—many steps in between
+
+179
+00:07:17,200 --> 00:07:20,322
+and these data points are often scattered across systems
+
+180
+00:07:20,322 --> 00:07:21,159
+or just unseen
+
+181
+00:07:21,240 --> 00:07:24,080
+for advertisers, this feels like a black box indeed.
+
+182
+00:07:24,180 --> 00:07:27,085
+by contrast, platforms that track data more clearly—like
+
+183
+00:07:27,085 --> 00:07:29,780
+Meta—can more easily secure funds from advertisers
+
+184
+00:07:29,920 --> 00:07:32,600
+AppLovin's growth thus faced certain limitations as well.
+
+185
+00:07:32,720 --> 00:07:35,440
+and Adjust precisely solves this very issue
+
+186
+00:07:35,660 --> 00:07:39,500
+Adjust is a mobile ad tracking and attribution tool at core
+
+187
+00:07:39,720 --> 00:07:42,825
+it offers full-funnel tracking and precise attribution,
+
+188
+00:07:42,825 --> 00:07:46,032
+helping advertisers see exactly where each dollar spent
+
+189
+00:07:46,032 --> 00:07:47,082
+delivers results —
+
+190
+00:07:47,082 --> 00:07:48,519
+like where the money went
+
+191
+00:07:48,760 --> 00:07:50,840
+how many users came, and how much profit was made
+
+192
+00:07:50,960 --> 00:07:52,207
+and more importantly,
+
+193
+00:07:52,207 --> 00:07:55,764
+this data can then be fed back into AppLovin's AI system
+
+194
+00:07:55,764 --> 00:07:57,200
+to refine ad targeting.
+
+195
+00:07:57,490 --> 00:08:00,477
+Adjust helped AppLovin evolve from a platform
+
+196
+00:08:00,477 --> 00:08:02,602
+that merely served ads into one
+
+197
+00:08:02,602 --> 00:08:04,887
+that, from the client's perspective,
+
+198
+00:08:04,887 --> 00:08:07,980
+could be accountable for campaign performance.
+
+199
+00:08:08,220 --> 00:08:11,460
+that is why AppLovin places great emphasis on LTV
+
+200
+00:08:11,460 --> 00:08:11,460
+v.
+
+201
+00:08:11,620 --> 00:08:12,905
+that is lifetime value.
+
+202
+00:08:12,905 --> 00:08:16,257
+We'll discuss this in detail during our exclusive interview.
+
+203
+00:08:16,257 --> 00:08:17,597
+The MAX and Adjust moves
+
+204
+00:08:17,597 --> 00:08:20,559
+have propelled AppLovin into a phase of rapid growth.
+
+205
+00:08:20,680 --> 00:08:24,960
+Yet just as AppLovin completed its IPO in April 2021,
+
+206
+00:08:25,160 --> 00:08:30,035
+Apple's IDFA, or the ATT policy, ended cross-app user tracking,
+
+207
+00:08:30,035 --> 00:08:34,179
+plunging the mobile ad market into chaos overnight.
+
+208
+00:08:34,380 --> 00:08:36,960
+In 2022, AppLovin's stock plummeted,
+
+209
+00:08:36,960 --> 00:08:39,380
+dropping 80% from its prior peak.
+
+210
+00:08:39,500 --> 00:08:41,359
+yet amidst this widespread turmoil,
+
+211
+00:08:41,359 --> 00:08:43,164
+AppLovin did not, like its rivals,
+
+212
+00:08:43,164 --> 00:08:46,120
+cut costs by laying off staff to tighten its defenses
+
+213
+00:08:46,320 --> 00:08:50,280
+but made a key acquisition from Twitter at that time instead
+
+214
+00:08:54,240 --> 00:08:58,095
+this $1.05 billion all-cash deal acquired MoPub,
+
+215
+00:08:58,095 --> 00:09:02,740
+the mobile ad platform that was once part of Twitter.
+
+216
+00:09:02,740 --> 00:09:05,404
+You can think of it as a 'big ad space marketplace.'
+
+217
+00:09:05,404 --> 00:09:07,375
+It aggregates ad slots from many apps,
+
+218
+00:09:07,375 --> 00:09:10,359
+sells them to advertisers, and takes a cut in the middle.
+
+219
+00:09:10,520 --> 00:09:12,297
+this acquisition brought about three
+
+220
+00:09:12,297 --> 00:09:13,680
+very clear and major shifts.
+
+221
+00:09:13,920 --> 00:09:16,600
+First, it can reach far more people right away
+
+222
+00:09:16,960 --> 00:09:20,640
+At the time, MoPub served tens of thousands of apps,
+
+223
+00:09:20,640 --> 00:09:23,553
+including news, tools, and lifestyle apps,
+
+224
+00:09:23,553 --> 00:09:25,720
+reaching about 700 million DAU
+
+225
+00:09:25,900 --> 00:09:28,650
+once AppLovin integrated these ad slots,
+
+226
+00:09:28,650 --> 00:09:32,078
+the ad inventory surged by an order of magnitude,
+
+227
+00:09:32,078 --> 00:09:34,080
+and reach doubled overnight
+
+228
+00:09:34,320 --> 00:09:37,200
+Second, ads can reach the 'right' audience segments
+
+229
+00:09:37,480 --> 00:09:38,506
+MoPub's ad slots
+
+230
+00:09:38,506 --> 00:09:41,649
+weren't just from games—they came from news apps,
+
+231
+00:09:41,649 --> 00:09:44,280
+fitness apps, and lifestyle tools as well
+
+232
+00:09:44,400 --> 00:09:45,874
+this means female users,
+
+233
+00:09:45,874 --> 00:09:49,080
+middle-aged users, and non-gamers are now included.
+
+234
+00:09:49,320 --> 00:09:52,086
+ads are no longer 'one ad for every person,'
+
+235
+00:09:52,086 --> 00:09:54,920
+but tailored to match different audiences
+
+236
+00:09:55,100 --> 00:09:58,148
+AppLovin, too, has evolved from a gaming ad platform
+
+237
+00:09:58,148 --> 00:10:01,014
+into a full-fledged, cross-industry ad network.
+
+238
+00:10:01,014 --> 00:10:03,819
+Third, it's now more stable and more profitable.
+
+239
+00:10:04,220 --> 00:10:07,715
+before, AppLovin's ad slots mainly came from its own games,
+
+240
+00:10:07,715 --> 00:10:09,187
+as we mentioned earlier,
+
+241
+00:10:09,187 --> 00:10:11,580
+and the user base skewed toward gamers
+
+242
+00:10:11,780 --> 00:10:15,182
+with MoPub, AppLovin no longer needs to churn out games
+
+243
+00:10:15,182 --> 00:10:16,820
+just to generate ad slots.
+
+244
+00:10:17,060 --> 00:10:18,000
+A clever analogy:
+
+245
+00:10:18,000 --> 00:10:20,387
+it shifted from growing your own veggies
+
+246
+00:10:20,387 --> 00:10:21,880
+to running a supermarket,
+
+247
+00:10:21,880 --> 00:10:24,820
+with stock from all corners—stable and manageable
+
+248
+00:10:25,010 --> 00:10:28,079
+To sum it up, Max solves the issue of poor pricing,
+
+249
+00:10:28,079 --> 00:10:30,425
+Adjust AS tackles unclear performance,
+
+250
+00:10:30,425 --> 00:10:33,090
+and More Pop addresses insufficient scale.
+
+251
+00:10:33,280 --> 00:10:36,416
+Meanwhile, this MoPub acquisition brought AppLovin
+
+252
+00:10:36,416 --> 00:10:38,720
+a crucial and vital new data source.
+
+253
+00:10:39,040 --> 00:10:41,506
+these constant, real-time bid signals
+
+254
+00:10:41,506 --> 00:10:45,480
+laid the groundwork for enhancing the algorithms later on.
+
+255
+00:10:45,620 --> 00:10:46,435
+At this point,
+
+256
+00:10:46,435 --> 00:10:50,260
+AppLovin urgently needed a top-tier algorithm expert to join
+
+257
+00:10:50,500 --> 00:10:52,795
+so after those three key acquisitions,
+
+258
+00:10:52,795 --> 00:10:55,340
+AppLovin sought yet another leap forward.
+
+259
+00:10:55,500 --> 00:10:56,859
+So this is a major backdrop
+
+260
+00:10:56,859 --> 00:10:58,622
+in AppLovin's development history.
+
+261
+00:10:58,622 --> 00:10:59,226
+At this time,
+
+262
+00:10:59,226 --> 00:11:02,299
+the key algorithm expert who joined AppLovin was Giovanni Ge.
+
+263
+00:11:02,500 --> 00:11:04,312
+just three months after he joined,
+
+264
+00:11:04,312 --> 00:11:06,620
+AppLovin launched a new model called AXON.
+
+265
+00:11:06,740 --> 00:11:09,032
+this model laid the groundwork for the company's
+
+266
+00:11:09,032 --> 00:11:09,844
+explosive growth
+
+267
+00:11:09,844 --> 00:11:11,134
+over the next three years —
+
+268
+00:11:11,134 --> 00:11:13,139
+here's my video interview with Giovanni Ge
+
+269
+00:11:16,360 --> 00:11:18,105
+So you've been with AppLovin
+
+270
+00:11:18,105 --> 00:11:20,163
+for three whole years now, right?
+
+271
+00:11:20,163 --> 00:11:23,779
+How would you reflect on those past three years as a whole?
+
+272
+00:11:23,780 --> 00:11:25,092
+Thank you for inviting me.
+
+273
+00:11:25,092 --> 00:11:28,119
+The first thing in the past three years was to start working,
+
+274
+00:11:28,119 --> 00:11:30,289
+and then tackle issues daily as they arose.
+
+275
+00:11:30,370 --> 00:11:33,052
+sometimes it feels truly as though not just me,
+
+276
+00:11:33,052 --> 00:11:34,821
+but other team members as well,
+
+277
+00:11:34,821 --> 00:11:38,360
+feel like the past three years have stretched into a decade
+
+278
+00:11:38,400 --> 00:11:40,130
+because so many things have happened here
+
+279
+00:11:40,290 --> 00:11:41,810
+Is it like waging war each day?
+
+280
+00:11:41,850 --> 00:11:42,770
+Yes, fights each day here
+
+281
+00:11:42,850 --> 00:11:44,610
+You were at Meta before
+
+282
+00:11:44,610 --> 00:11:44,610
+Yes.
+
+283
+00:11:44,890 --> 00:11:48,119
+Yes. Then, uh, why did you decide to leave Meta back then,
+
+284
+00:11:48,119 --> 00:11:50,879
+and why did you pick AppLovin as your next move?
+
+285
+00:11:51,120 --> 00:11:53,918
+I felt that by then, most of what I wanted to learn at Meta,
+
+286
+00:11:53,918 --> 00:11:54,980
+I had already learned.
+
+287
+00:11:55,060 --> 00:11:57,049
+Hmm, if I stayed there longer,
+
+288
+00:11:57,049 --> 00:11:58,853
+I felt it would slow down
+
+289
+00:11:58,853 --> 00:12:01,740
+my career growth and progress over time.
+
+290
+00:12:02,010 --> 00:12:06,178
+I wasn't someone who really liked just following processes
+
+291
+00:12:06,178 --> 00:12:09,536
+and sticking strictly to established workflows
+
+292
+00:12:09,536 --> 00:12:10,850
+and rigid systems.
+
+293
+00:12:10,850 --> 00:12:11,793
+so at that point,
+
+294
+00:12:11,793 --> 00:12:14,069
+I felt leaving Meta aligned quite well
+
+295
+00:12:14,069 --> 00:12:15,510
+with my own personality
+
+296
+00:12:15,830 --> 00:12:18,750
+At that time, what was the moment that moved you the most?
+
+297
+00:12:19,070 --> 00:12:20,120
+The moment that moved me
+
+298
+00:12:20,120 --> 00:12:21,870
+was when everyone was very open-hearted.
+
+299
+00:12:22,490 --> 00:12:25,570
+when I had interviews with AppLovin back then
+
+300
+00:12:25,880 --> 00:12:25,889
+Hmm, I spoke with the CTO and had a battle, and also chatted with the MM CEO; they were very open about the biggest challenges the company faced at that time.
+
+301
+00:12:35,880 --> 00:12:38,377
+and the sorts of people they needed to solve which problems —
+
+302
+00:12:38,377 --> 00:12:39,520
+I felt they were very open.
+
+303
+00:12:39,840 --> 00:12:42,566
+especially after I'd spent so long at Big Tech,
+
+304
+00:12:42,566 --> 00:12:45,375
+where I got used to dealing with loyal Big Tech
+
+305
+00:12:45,375 --> 00:12:48,165
+folks whose chats were full of roundabout talk
+
+306
+00:12:48,165 --> 00:12:49,500
+and indirect flanking.
+
+307
+00:12:49,760 --> 00:12:51,191
+and that was my first time
+
+308
+00:12:51,191 --> 00:12:54,440
+talking directly and honestly with such C-level executives.
+
+309
+00:12:54,640 --> 00:12:56,709
+I felt that part left quite an impression on me back then
+
+310
+00:12:56,709 --> 00:12:57,000
+as well.
+
+311
+00:12:57,120 --> 00:12:59,120
+I saw in your earlier talk that back then you,
+
+312
+00:12:59,350 --> 00:13:01,217
+and when we talked about 'up loving,'
+
+313
+00:13:01,217 --> 00:13:04,018
+it became clear the firm wanted to expand into ads,
+
+314
+00:13:04,018 --> 00:13:07,149
+yet lacked exactly the skill set you happened to possess.
+
+315
+00:13:07,280 --> 00:13:08,903
+Yes, could you say what they lacked back then,
+
+316
+00:13:08,903 --> 00:13:11,080
+and what stage was their advertising business at that time?
+
+317
+00:13:11,280 --> 00:13:12,479
+What skill set do you have
+
+318
+00:13:12,479 --> 00:13:14,280
+that could fill their gap in that area?
+
+319
+00:13:14,320 --> 00:13:15,885
+From a business standpoint,
+
+320
+00:13:15,885 --> 00:13:18,775
+the company had already reached a mature stage;
+
+321
+00:13:18,775 --> 00:13:19,918
+what it lacked most
+
+322
+00:13:19,918 --> 00:13:22,869
+was a modern recommendation algorithm and system.
+
+323
+00:13:22,950 --> 00:13:25,031
+At the time in North America,
+
+324
+00:13:25,031 --> 00:13:28,581
+the top firms in recommendation algorithms were
+
+325
+00:13:28,581 --> 00:13:29,790
+Google and Meta?
+
+326
+00:13:29,870 --> 00:13:32,573
+of course, the same type of recommendation algorithm
+
+327
+00:13:32,573 --> 00:13:34,534
+is widely used in many Chinese firms,
+
+328
+00:13:34,534 --> 00:13:36,230
+like TikTok, Alibaba, and rednote
+
+329
+00:13:36,790 --> 00:13:40,210
+those firms had already adopted them too
+
+330
+00:13:40,570 --> 00:13:43,480
+but at that time, many mid-sized firms in North America —
+
+331
+00:13:43,480 --> 00:13:46,428
+like AppLovin and other smaller-to-mid-sized companies —
+
+332
+00:13:46,428 --> 00:13:47,630
+were still using them.
+
+333
+00:13:47,630 --> 00:13:50,470
+maybe a decade ago, the prior recommendation algorithm.
+
+334
+00:13:50,860 --> 00:13:53,285
+so they wanted me to come and help them
+
+335
+00:13:53,285 --> 00:13:56,830
+shift the company to the latest recommendation algorithm
+
+336
+00:13:56,830 --> 00:13:59,901
+What did traditional recommendation algorithms look like
+
+337
+00:13:59,901 --> 00:14:00,615
+a decade ago?
+
+338
+00:14:00,615 --> 00:14:02,700
+And what do modern ones look like now?
+
+339
+00:14:02,700 --> 00:14:04,074
+OK, so ten years ago,
+
+340
+00:14:04,074 --> 00:14:07,003
+many recommendation algorithms back then
+
+341
+00:14:07,003 --> 00:14:09,860
+were primarily based on Boosting Trees.
+
+342
+00:14:10,340 --> 00:14:10,350
+at that time, although deep learning theory was quite mature, it didn't achieve major success in recommendation algorithm applications?
+
+343
+00:14:21,420 --> 00:14:25,178
+The turning point came roughly between 2015 and 2017.
+
+344
+00:14:25,178 --> 00:14:29,779
+Several key and significant works emerged during that period.
+
+345
+00:14:30,120 --> 00:14:34,087
+after that, top-tier companies swiftly shifted to the Deep
+
+346
+00:14:34,087 --> 00:14:37,080
+Learning models that are widely used today
+
+347
+00:14:37,420 --> 00:14:39,379
+what were the key works from that time period?
+
+348
+00:14:39,860 --> 00:14:43,810
+one key aspect was that in your recommendation algorithm,
+
+349
+00:14:43,810 --> 00:14:47,690
+there were many so-called 'high cuanality' SPSS features.
+
+350
+00:14:47,690 --> 00:14:48,828
+What's an example?
+
+351
+00:14:48,828 --> 00:14:50,724
+Well, when you recommend things,
+
+352
+00:14:50,724 --> 00:14:53,569
+aren't you just recommending folks and items?
+
+353
+00:14:53,810 --> 00:14:57,013
+so within this, the items—just one item from a firm
+
+354
+00:14:57,013 --> 00:15:00,452
+like Meta or Google—can easily reach tens of millions,
+
+355
+00:15:00,452 --> 00:15:02,140
+even hundreds of millions
+
+356
+00:15:02,260 --> 00:15:05,020
+in the tens of billions of that scale
+
+357
+00:15:05,270 --> 00:15:07,545
+and the users you recommend—there
+
+358
+00:15:07,545 --> 00:15:09,545
+are easily billions of them.
+
+359
+00:15:09,545 --> 00:15:10,855
+Each user has an ID,
+
+360
+00:15:10,855 --> 00:15:13,820
+and each item or asset also has its own ID?
+
+361
+00:15:13,820 --> 00:15:16,110
+Of course, there are also less granular IDs,
+
+362
+00:15:16,110 --> 00:15:18,620
+like country IDs or ZIP code IDs and the like.
+
+363
+00:15:19,150 --> 00:15:22,444
+so how do we use these IDs in the model,
+
+364
+00:15:22,444 --> 00:15:24,749
+and how do we represent them?
+
+365
+00:15:24,750 --> 00:15:27,550
+how to handle the cross-relationships between these IDs
+
+366
+00:15:27,830 --> 00:15:29,840
+before 2015, people weren't quite sure
+
+367
+00:15:29,840 --> 00:15:33,230
+how to use Deep Learning to tackle these kinds of problems
+
+368
+00:15:33,510 --> 00:15:35,513
+but in those three years I just mentioned,
+
+369
+00:15:35,513 --> 00:15:37,030
+many key papers were published
+
+370
+00:15:37,220 --> 00:15:40,100
+it discussed how to embed these IDs into models
+
+371
+00:15:40,100 --> 00:15:42,980
+and allow cross-interactions between these IDs.
+
+372
+00:15:43,780 --> 00:15:46,538
+once these works emerged, at that time,
+
+373
+00:15:46,538 --> 00:15:50,385
+the deep learning framework just rose to prominence
+
+374
+00:15:50,385 --> 00:15:52,800
+in the recommendation algorithm.
+
+375
+00:15:53,000 --> 00:15:54,418
+Once you joined AppLovin,
+
+376
+00:15:54,418 --> 00:15:56,158
+you launched your first model
+
+377
+00:15:56,158 --> 00:15:58,380
+in just three months—why such a rush?
+
+378
+00:15:58,540 --> 00:16:00,540
+since time is brief, I feel life is quite short
+
+379
+00:16:00,660 --> 00:16:02,860
+we tend to approach things this way over here
+
+380
+00:16:02,860 --> 00:16:05,616
+when you see a goal right in front of you,
+
+381
+00:16:05,616 --> 00:16:09,180
+we aim to build it out as quickly as we possibly can.
+
+382
+00:16:09,500 --> 00:16:12,515
+Back then, before I came to work on EVD,
+
+383
+00:16:12,515 --> 00:16:16,880
+my own mindset hadn't quite, hadn't yet become that way.
+
+384
+00:16:17,120 --> 00:16:19,600
+because I spent years working at Big Tech firms
+
+385
+00:16:19,880 --> 00:16:21,296
+when I first arrived,
+
+386
+00:16:21,296 --> 00:16:24,732
+I still planned to follow the Meta approach—like
+
+387
+00:16:24,732 --> 00:16:26,379
+discussing the roadmap
+
+388
+00:16:26,379 --> 00:16:27,740
+first, for instance
+
+389
+00:16:28,060 --> 00:16:32,007
+draft a plan first, then assign staff and tasks accordingly,
+
+390
+00:16:32,007 --> 00:16:34,730
+and just proceed step by step like that?
+
+391
+00:16:34,890 --> 00:16:37,303
+But soon after I arrived, within just a week or so,
+
+392
+00:16:37,303 --> 00:16:40,210
+I realized this wasn't how the company operated — not at all.
+
+393
+00:16:40,250 --> 00:16:43,740
+a few small things led me to make this very shift
+
+394
+00:16:44,060 --> 00:16:47,220
+once the shift came, the work process became clear
+
+395
+00:16:47,300 --> 00:16:49,865
+get my head down — start by writing code,
+
+396
+00:16:49,865 --> 00:16:53,780
+and as issues pop up during the process, just resolve them
+
+397
+00:16:53,980 --> 00:16:55,367
+so when we started out,
+
+398
+00:16:55,367 --> 00:16:59,090
+we hadn't really thought about how much time it would take.
+
+399
+00:16:59,210 --> 00:17:00,010
+And then, well,
+
+400
+00:17:00,460 --> 00:17:02,700
+the company's leadership never put any pressure on us at all
+
+401
+00:17:02,700 --> 00:17:04,727
+put pressure on us or set a demand
+
+402
+00:17:04,727 --> 00:17:06,056
+that this must be done
+
+403
+00:17:06,056 --> 00:17:09,140
+within a certain, certain timeframe or span of time.
+
+404
+00:17:09,400 --> 00:17:12,094
+but the whole team was fully committed back then,
+
+405
+00:17:12,094 --> 00:17:14,377
+and we all wanted to get this thing done
+
+406
+00:17:14,377 --> 00:17:15,520
+as soon as possible
+
+407
+00:17:15,670 --> 00:17:16,685
+how many were on the team
+
+408
+00:17:16,685 --> 00:17:18,230
+when we built the first model version?
+
+409
+00:17:18,230 --> 00:17:20,390
+the first model — back then, the team was indeed quite small.
+
+410
+00:17:20,670 --> 00:17:23,527
+those who worked directly on the core tasks
+
+411
+00:17:23,527 --> 00:17:26,765
+at that time—probably around five of us in total,
+
+412
+00:17:26,765 --> 00:17:27,980
+including the CTO
+
+413
+00:17:28,098 --> 00:17:31,433
+and when you launched the first version of the model,
+
+414
+00:17:31,433 --> 00:17:32,460
+how did it fare?
+
+415
+00:17:32,540 --> 00:17:35,046
+Yes, uh, did it meet the standards you had in mind?
+
+416
+00:17:35,046 --> 00:17:37,961
+I know you're quite a perfectionist—did it hit that ideal
+
+417
+00:17:37,961 --> 00:17:38,729
+you envisioned?
+
+418
+00:17:38,730 --> 00:17:40,970
+or did you just want to launch it and see the results
+
+419
+00:17:41,100 --> 00:17:42,751
+I am a reasonable perfectionist;
+
+420
+00:17:42,751 --> 00:17:45,486
+I certainly wouldn't expect this model to be flawless
+
+421
+00:17:45,486 --> 00:17:47,140
+on its very first day of launch
+
+422
+00:17:47,360 --> 00:17:50,520
+but right after launch, the results were truly excellent then
+
+423
+00:17:50,600 --> 00:17:51,840
+I can't recall the stats
+
+424
+00:17:52,080 --> 00:17:53,280
+But from back then,
+
+425
+00:17:53,710 --> 00:17:54,985
+from the earnings report,
+
+426
+00:17:54,985 --> 00:17:57,430
+it seems the launch had a stellar performance
+
+427
+00:17:57,550 --> 00:17:59,457
+a clear generational leap—surely
+
+428
+00:17:59,457 --> 00:18:01,960
+a ji shi -percent jump in performance then.
+
+429
+00:18:02,280 --> 00:18:03,258
+Could you explain
+
+430
+00:18:03,258 --> 00:18:05,792
+how AppLovin approached their ad placements
+
+431
+00:18:05,792 --> 00:18:07,520
+back when they first launched?
+
+432
+00:18:07,560 --> 00:18:10,096
+and for instance, how was it different from Meta,
+
+433
+00:18:10,096 --> 00:18:11,839
+and how did it differ from Google?
+
+434
+00:18:11,840 --> 00:18:14,097
+and later, with your models versus Meta and Google —
+
+435
+00:18:14,097 --> 00:18:16,448
+even though all are modern recommendation systems,
+
+436
+00:18:16,448 --> 00:18:17,600
+what made yours different?
+
+437
+00:18:17,640 --> 00:18:19,769
+OK, I think the framework is the same.
+
+438
+00:18:19,769 --> 00:18:22,396
+But the key difference between us and Google,
+
+439
+00:18:22,396 --> 00:18:24,427
+Meta lies not in the model itself,
+
+440
+00:18:24,427 --> 00:18:25,980
+but in the business model.
+
+441
+00:18:26,270 --> 00:18:30,364
+Google and Meta — their main ad targets
+
+442
+00:18:30,364 --> 00:18:36,120
+are still their own in-house user bases and traffic?
+
+443
+00:18:36,120 --> 00:18:38,935
+like Google's YouTube and Google search,
+
+444
+00:18:38,935 --> 00:18:42,400
+and Meta runs ads on its Facebook and Instagram?
+
+445
+00:18:42,760 --> 00:18:44,937
+Hmm, Ebola Even is quite intriguing.
+
+446
+00:18:44,937 --> 00:18:46,090
+As an ad platform,
+
+447
+00:18:46,090 --> 00:18:48,747
+Ebola Even likely ranks among the top few
+
+448
+00:18:48,747 --> 00:18:51,470
+in international markets outside of China.
+
+449
+00:18:51,670 --> 00:18:54,044
+we are the sole firm among top ad platforms
+
+450
+00:18:54,044 --> 00:18:56,750
+that lacks its own in-house traffic or user base
+
+451
+00:18:57,110 --> 00:18:58,265
+our ad placements
+
+452
+00:18:58,265 --> 00:19:02,070
+are mostly on third-party transaction platforms instead.
+
+453
+00:19:02,180 --> 00:19:04,100
+this is our key difference from Google and Meta
+
+454
+00:19:04,180 --> 00:19:05,393
+this is a key difference,
+
+455
+00:19:05,393 --> 00:19:07,820
+yet it highlights your gaming strengths as well
+
+456
+00:19:08,020 --> 00:19:09,511
+in gaming, what do you think
+
+457
+00:19:09,511 --> 00:19:11,610
+are our strengths in the gaming space?
+
+458
+00:19:11,690 --> 00:19:11,690
+data
+
+459
+00:19:12,680 --> 00:19:15,720
+we no longer own any gaming companies at this point in time
+
+460
+00:19:15,760 --> 00:19:17,874
+but in 2022, people thought that
+
+461
+00:19:17,874 --> 00:19:22,030
+since you had acquired many gaming companies in the past
+
+462
+00:19:22,030 --> 00:19:22,030
+Yes
+
+463
+00:19:22,670 --> 00:19:25,380
+so you had vast amounts of game data and user data,
+
+464
+00:19:25,380 --> 00:19:26,754
+and outsiders would think
+
+465
+00:19:26,754 --> 00:19:29,230
+that was once your key strength or advantage
+
+466
+00:19:29,650 --> 00:19:33,243
+I'm not sure, and I don't know the exact numbers
+
+467
+00:19:33,243 --> 00:19:35,690
+or how much impact it truly had
+
+468
+00:19:35,970 --> 00:19:38,760
+because, as you know, in recommendation algorithms,
+
+469
+00:19:38,760 --> 00:19:41,260
+there's a common tool called Ablation Test
+
+470
+00:19:41,420 --> 00:19:45,473
+when you suppose that one of your model's processes,
+
+471
+00:19:45,473 --> 00:19:49,130
+or a specific dataset, or a particular feature,
+
+472
+00:19:49,370 --> 00:19:51,894
+when you want to gauge how much it affects your whole system,
+
+473
+00:19:51,894 --> 00:19:53,704
+you use something called an Ablation Test —
+
+474
+00:19:53,704 --> 00:19:54,209
+what is that?
+
+475
+00:19:54,210 --> 00:19:57,090
+you duplicate your system into two copies
+
+476
+00:19:57,610 --> 00:19:59,852
+then, in one copy, you remove the factor
+
+477
+00:19:59,852 --> 00:20:02,330
+you think you want to measure or test out.
+
+478
+00:20:02,730 --> 00:20:04,003
+then one stays as it is,
+
+479
+00:20:04,003 --> 00:20:06,329
+and we compare the performance of the two?
+
+480
+00:20:06,650 --> 00:20:08,005
+we often run such tests,
+
+481
+00:20:08,005 --> 00:20:10,829
+but regarding the in-house data you just mentioned,
+
+482
+00:20:10,829 --> 00:20:13,089
+we haven't done that test ourselves yet
+
+483
+00:20:13,330 --> 00:20:17,210
+so it's hard to quantify just how much it helps
+
+484
+00:20:17,650 --> 00:20:17,656
+Ah, or perhaps, just how much of a role did it play in this process? Yes, but this year, as of today, we no longer have this set of data.
+
+485
+00:20:26,010 --> 00:20:27,211
+our ad performance,
+
+486
+00:20:27,211 --> 00:20:30,350
+our campaign results, and the growth of our ads
+
+487
+00:20:30,350 --> 00:20:34,290
+have not been affected at all by losing those gaming firms.
+
+488
+00:20:34,610 --> 00:20:35,288
+so I wonder,
+
+489
+00:20:35,288 --> 00:20:38,930
+were those data points from back then truly that important?
+
+490
+00:20:38,970 --> 00:20:42,100
+so folks would indeed, say for instance, in positioning
+
+491
+00:20:42,340 --> 00:20:45,402
+for instance, Meta and Google — and back then you would say,
+
+492
+00:20:45,402 --> 00:20:46,013
+for example,
+
+493
+00:20:46,013 --> 00:20:48,740
+Meta's positioning was around social connections
+
+494
+00:20:49,080 --> 00:20:50,719
+Yes, plus this information graph
+
+495
+00:20:51,120 --> 00:20:53,315
+Yes, Google's positioning is search intent
+
+496
+00:20:53,315 --> 00:20:54,600
+plus full-channel reach
+
+497
+00:20:54,960 --> 00:20:56,276
+and for Apple lovin',
+
+498
+00:20:56,276 --> 00:20:58,118
+what kind of keywords define
+
+499
+00:20:58,118 --> 00:21:00,619
+its ad positioning and campaign focus?
+
+500
+00:21:00,660 --> 00:21:00,664
+I think with IP loving, when we are designing our products, well,
+
+501
+00:21:05,170 --> 00:21:07,750
+we won't blindly steer our tech roadmap
+
+502
+00:21:07,750 --> 00:21:11,390
+just to chase the latest Trending topics in the market.
+
+503
+00:21:11,670 --> 00:21:15,360
+we look at what problems we need to solve the most right now
+
+504
+00:21:15,800 --> 00:21:17,880
+and use this to steer our technical growth path
+
+505
+00:21:18,240 --> 00:21:22,184
+I think precisely because of this, from a product standpoint,
+
+506
+00:21:22,184 --> 00:21:24,423
+we were among the first to tackle
+
+507
+00:21:24,423 --> 00:21:26,730
+many issues in ad recommendations.
+
+508
+00:21:27,010 --> 00:21:29,370
+some of the biggest pain points in the product.
+
+509
+00:21:29,810 --> 00:21:31,757
+Let me give some examples;
+
+510
+00:21:31,757 --> 00:21:34,379
+the first is this 'value estimation'
+
+511
+00:21:34,780 --> 00:21:35,914
+What does that mean?
+
+512
+00:21:35,914 --> 00:21:37,842
+Well, when many firms run their ads,
+
+513
+00:21:37,842 --> 00:21:38,991
+you tend to optimize
+
+514
+00:21:38,991 --> 00:21:42,209
+for things like click-through rates, or conversion rates?
+
+515
+00:21:42,450 --> 00:21:43,774
+but for most advertisers,
+
+516
+00:21:43,774 --> 00:21:46,352
+what they care about isn't click-through rates
+
+517
+00:21:46,352 --> 00:21:47,473
+or conversion rates,
+
+518
+00:21:47,473 --> 00:21:50,400
+but the value these conversions bring them afterward
+
+519
+00:21:50,520 --> 00:21:52,265
+for instance, as an advertiser,
+
+520
+00:21:52,265 --> 00:21:55,437
+you wouldn't care whether exactly five people bought
+
+521
+00:21:55,437 --> 00:21:56,840
+after you spent 100 yuan
+
+522
+00:21:56,960 --> 00:21:57,993
+what you care more about
+
+523
+00:21:57,993 --> 00:22:00,261
+is how much value these five or ten people bring you
+
+524
+00:22:00,261 --> 00:22:01,440
+after they make a purchase
+
+525
+00:22:01,750 --> 00:22:05,350
+many firms are creating such value-driven products?
+
+526
+00:22:05,630 --> 00:22:09,070
+but we believe we have truly focused on this very aspect.
+
+527
+00:22:09,070 --> 00:22:11,423
+We are surely the first in the industry
+
+528
+00:22:11,423 --> 00:22:14,019
+to scale value-driven products effectively.
+
+529
+00:22:14,340 --> 00:22:17,000
+for instance, our value products at AppLovin
+
+530
+00:22:17,000 --> 00:22:19,660
+account for most of the company's ad spend.
+
+531
+00:22:20,190 --> 00:22:21,812
+this is because our value model
+
+532
+00:22:21,812 --> 00:22:23,750
+is the finest in the entire industry.
+
+533
+00:22:24,430 --> 00:22:27,961
+and what ties into this value model is that, as an advertiser,
+
+534
+00:22:27,961 --> 00:22:31,119
+you care about how much value it can generate for you
+
+535
+00:22:31,119 --> 00:22:32,730
+over a long period of time
+
+536
+00:22:32,730 --> 00:22:35,610
+once I run this ad, will I break even within a year,
+
+537
+00:22:35,610 --> 00:22:38,490
+or even double my returns by then, or maybe in two?
+
+538
+00:22:38,730 --> 00:22:43,042
+if your ad optimizations can extend the time window,
+
+539
+00:22:43,042 --> 00:22:47,440
+that would deliver far greater value to advertisers.
+
+540
+00:22:47,630 --> 00:22:51,689
+But before us, most optimization windows in the market
+
+541
+00:22:51,689 --> 00:22:53,068
+were just one day,
+
+542
+00:22:53,068 --> 00:22:55,290
+with rare ones lasting seven
+
+543
+00:22:55,650 --> 00:22:58,904
+but no one had ever used a rigorous model
+
+544
+00:22:58,904 --> 00:23:00,810
+beyond a seven-day span
+
+545
+00:23:01,010 --> 00:23:04,249
+we are the first firm globally to extend it from 7 to 28 days
+
+546
+00:23:04,530 --> 00:23:05,797
+once our product launched,
+
+547
+00:23:05,797 --> 00:23:08,890
+it became the hottest item in the entire industry right away.
+
+548
+00:23:09,180 --> 00:23:11,797
+I believe that compared to many other firms,
+
+549
+00:23:11,797 --> 00:23:15,062
+we truly place the problems our product aims to solve
+
+550
+00:23:15,062 --> 00:23:16,850
+at the top of our priorities.
+
+551
+00:23:17,170 --> 00:23:18,664
+then we seek out and ponder
+
+552
+00:23:18,664 --> 00:23:21,930
+which technological advances could help us reach this goal
+
+553
+00:23:22,100 --> 00:23:24,617
+rather than picking the most Trending topic first,
+
+554
+00:23:24,617 --> 00:23:26,755
+then thinking about what tech innovations
+
+555
+00:23:26,755 --> 00:23:28,060
+we could build around it
+
+556
+00:23:28,140 --> 00:23:30,805
+this is all about LTV—products
+
+557
+00:23:30,805 --> 00:23:33,560
+and algorithms built around it.
+
+558
+00:23:33,720 --> 00:23:35,928
+And who came up with this idea?
+
+559
+00:23:35,928 --> 00:23:40,059
+Or is it tied to the company's core values and its mission?
+
+560
+00:23:40,540 --> 00:23:42,386
+many might think it doesn't matter
+
+561
+00:23:42,386 --> 00:23:43,962
+who came up with these ideas,
+
+562
+00:23:43,962 --> 00:23:45,948
+since anyone working in the industry
+
+563
+00:23:45,948 --> 00:23:47,440
+knows how crucial they are
+
+564
+00:23:47,560 --> 00:23:50,980
+Then why don't Meta and Google build around this very thing?
+
+565
+00:23:50,980 --> 00:23:53,940
+Well, I don't know—I'm not Meta's CPO
+
+566
+00:23:54,220 --> 00:23:56,420
+I think what matters more here
+
+567
+00:23:56,420 --> 00:23:59,355
+is that once you know this is important,
+
+568
+00:23:59,355 --> 00:24:03,390
+how you manage and allocate internal company resources
+
+569
+00:24:03,670 --> 00:24:09,599
+how to effectively help your team tackle this very problem
+
+570
+00:24:09,680 --> 00:24:11,497
+I think this is the most crucial thing;
+
+571
+00:24:11,497 --> 00:24:13,919
+I believe everyone in the industry knows it is vital
+
+572
+00:24:14,040 --> 00:24:16,880
+whether we can solve it — that might be the key issue indeed
+
+573
+00:24:16,920 --> 00:24:19,985
+Let's talk about other competitors—besides Meta and Google,
+
+574
+00:24:19,985 --> 00:24:22,739
+are there smaller ones that might be potential rivals?
+
+575
+00:24:22,980 --> 00:24:26,062
+I saw folks asking—like Unity, Iron Source,
+
+576
+00:24:26,062 --> 00:24:30,413
+Char Boost, Lift Off—so why is it AppLovin that's emerging,
+
+577
+00:24:30,413 --> 00:24:31,100
+not them?
+
+578
+00:24:31,380 --> 00:24:34,329
+you've been calling these firms 'competitors,'
+
+579
+00:24:34,329 --> 00:24:38,240
+but to us, we don't see them as actual competitors at all
+
+580
+00:24:38,640 --> 00:24:41,360
+I think these firms are more like partner companies
+
+581
+00:24:41,760 --> 00:24:43,939
+because we ultimately serve folks
+
+582
+00:24:43,939 --> 00:24:46,516
+like mobile developers and advertisers —
+
+583
+00:24:46,516 --> 00:24:47,970
+that sort of audience.
+
+584
+00:24:48,300 --> 00:24:49,757
+especially for mobile developers,
+
+585
+00:24:49,757 --> 00:24:51,580
+you might wonder why our platform would...
+
+586
+00:24:51,940 --> 00:24:55,185
+would allow and welcome Google, Meta, Amazon
+
+587
+00:24:55,185 --> 00:24:57,040
+to bid on our platform,
+
+588
+00:24:57,040 --> 00:24:57,890
+wouldn't we?
+
+589
+00:24:58,090 --> 00:25:00,151
+because their purchasing power
+
+590
+00:25:00,151 --> 00:25:02,420
+actually benefits our developers
+
+591
+00:25:02,540 --> 00:25:04,704
+so in my view, we are all partners
+
+592
+00:25:04,704 --> 00:25:07,460
+working together within the same industry
+
+593
+00:25:07,740 --> 00:25:10,310
+and why have we come out on top in this space?
+
+594
+00:25:10,310 --> 00:25:12,785
+but in fact there are two distinct industries
+
+595
+00:25:12,785 --> 00:25:15,590
+here — we are indeed talking about two separate ones
+
+596
+00:25:15,980 --> 00:25:19,260
+just two distinct branches within one broad industry
+
+597
+00:25:19,500 --> 00:25:21,965
+one is the ad exchange—today
+
+598
+00:25:21,965 --> 00:25:26,130
+Google and Applovin are the two largest exchanges?
+
+599
+00:25:26,510 --> 00:25:28,388
+and there are also some smaller ad exchanges,
+
+600
+00:25:28,388 --> 00:25:30,310
+like Unity's ironSource, which is one as well
+
+601
+00:25:30,350 --> 00:25:33,682
+but I think the main purpose of this ad exchange platform
+
+602
+00:25:33,682 --> 00:25:36,430
+is not to generate direct revenue for the firm
+
+603
+00:25:36,790 --> 00:25:38,366
+its greatest value
+
+604
+00:25:38,366 --> 00:25:42,920
+lies in supporting the broader mobile app ecosystem
+
+605
+00:25:43,200 --> 00:25:45,437
+gives these developers a platform
+
+606
+00:25:45,437 --> 00:25:47,810
+where they can monetize their apps?
+
+607
+00:25:47,890 --> 00:25:48,617
+so for Applovin,
+
+608
+00:25:48,617 --> 00:25:50,996
+this platform isn't their main source of revenue
+
+609
+00:25:50,996 --> 00:25:52,210
+or primary income stream
+
+610
+00:25:52,370 --> 00:25:53,561
+but its or its revenue
+
+611
+00:25:53,561 --> 00:25:56,160
+makes up just a very tiny fraction of the total.
+
+612
+00:25:56,440 --> 00:25:58,760
+the other arm of this is the ad-serving segment
+
+613
+00:25:59,040 --> 00:26:01,158
+once we had such an ecosystem in place,
+
+614
+00:26:01,158 --> 00:26:03,705
+of course we'd hope that one day we could, say,
+
+615
+00:26:03,705 --> 00:26:04,840
+run our ads on Meta
+
+616
+00:26:04,840 --> 00:26:05,634
+run ads on Google,
+
+617
+00:26:05,634 --> 00:26:08,160
+but I doubt they’ll ever let us do that in the future
+
+618
+00:26:08,440 --> 00:26:10,203
+so we can only place our ads
+
+619
+00:26:10,203 --> 00:26:12,848
+on that third-party aggregation platform
+
+620
+00:26:12,848 --> 00:26:14,359
+I just mentioned earlier.
+
+621
+00:26:14,460 --> 00:26:16,347
+this is why, from my perspective,
+
+622
+00:26:16,347 --> 00:26:19,940
+sustaining such an ecosystem is truly of utmost importance
+
+623
+00:26:20,440 --> 00:26:22,144
+once we run ads in this space,
+
+624
+00:26:22,144 --> 00:26:25,320
+you could say we now have competitors to contend with
+
+625
+00:26:25,480 --> 00:26:28,465
+the competitors here aren't just Unity or ironSource,
+
+626
+00:26:28,465 --> 00:26:31,169
+but all potential bidders like Google and others.
+
+627
+00:26:31,170 --> 00:26:31,967
+everyone at Meta,
+
+628
+00:26:31,967 --> 00:26:32,577
+so in my view,
+
+629
+00:26:32,577 --> 00:26:35,299
+our main competitors are more Google and Meta than others
+
+630
+00:26:35,300 --> 00:26:37,397
+because looking at our purchase volumes,
+
+631
+00:26:37,397 --> 00:26:38,598
+their volumes and ours
+
+632
+00:26:38,598 --> 00:26:41,000
+tend to rise and fall in tandem quite often.
+
+633
+00:26:41,160 --> 00:26:43,232
+In 2023, your models became more stable,
+
+634
+00:26:43,232 --> 00:26:46,400
+and you started preparing your Asia-based team as well.
+
+635
+00:26:46,480 --> 00:26:46,480
+Yes
+
+636
+00:26:47,350 --> 00:26:49,736
+and you also joined the senior leadership team,
+
+637
+00:26:49,736 --> 00:26:50,471
+taking on more
+
+638
+00:26:50,471 --> 00:26:53,464
+business responsibilities—what was the biggest challenge
+
+639
+00:26:53,464 --> 00:26:53,990
+you faced?
+
+640
+00:26:54,070 --> 00:26:58,263
+about six months after I joined the company,
+
+641
+00:26:58,263 --> 00:27:02,360
+which would be around April or May of 2023
+
+642
+00:27:02,560 --> 00:27:06,780
+at that time, we launched the AXON 2.0 model for the first time.
+
+643
+00:27:06,780 --> 00:27:10,930
+But only part of the models were deployed, not all of them.
+
+644
+00:27:11,330 --> 00:27:12,461
+but I think that marked
+
+645
+00:27:12,461 --> 00:27:14,330
+a rather significant milestone indeed
+
+646
+00:27:14,530 --> 00:27:17,058
+because before that, we weren't quite sure
+
+647
+00:27:17,058 --> 00:27:20,019
+just how much benefit this approach would yield
+
+648
+00:27:20,019 --> 00:27:21,130
+once it went live.
+
+649
+00:27:21,440 --> 00:27:25,354
+I recall that before our first model went live,
+
+650
+00:27:25,354 --> 00:27:28,291
+the team would often prepare a bit
+
+651
+00:27:28,291 --> 00:27:30,970
+and then run small-scale tests.
+
+652
+00:27:31,370 --> 00:27:33,994
+at that time our Infrastructure was quite weak,
+
+653
+00:27:33,994 --> 00:27:36,506
+so whenever we deployed and tested this model,
+
+654
+00:27:36,506 --> 00:27:39,020
+we'd have to wait roughly an hour in between
+
+655
+00:27:39,380 --> 00:27:40,918
+then we started joking —
+
+656
+00:27:40,918 --> 00:27:42,991
+maybe during that one-hour wait,
+
+657
+00:27:42,991 --> 00:27:46,670
+everyone should buy tickets to Vegas and throw a party
+
+658
+00:27:46,710 --> 00:27:50,150
+the model went live then, but it wasn't a hit
+
+659
+00:27:50,310 --> 00:27:53,190
+They said OK, let's delay; we'll head back and iterate
+
+660
+00:27:53,520 --> 00:27:55,375
+we just kept at it like that,
+
+661
+00:27:55,375 --> 00:27:57,960
+on and off, for about one or two months.
+
+662
+00:27:57,960 --> 00:27:59,930
+Of course, when the model finally went live,
+
+663
+00:27:59,930 --> 00:28:02,510
+I felt people had lost that sense of wild, euphoric joy.
+
+664
+00:28:02,830 --> 00:28:04,926
+but this was surely a milestone for the company —
+
+665
+00:28:04,926 --> 00:28:06,310
+one I deemed quite significant
+
+666
+00:28:07,310 --> 00:28:09,549
+Then, after another six months passed,
+
+667
+00:28:09,549 --> 00:28:13,119
+the following half-year was just constant, nonstop iteration.
+
+668
+00:28:13,200 --> 00:28:15,103
+once the first model went live,
+
+669
+00:28:15,103 --> 00:28:18,530
+one major issue we faced was quite significant for us
+
+670
+00:28:18,950 --> 00:28:22,141
+because that first model marked a clear leap —
+
+671
+00:28:22,141 --> 00:28:24,390
+a generational shift in models
+
+672
+00:28:24,510 --> 00:28:27,210
+we took AppLovin's model from one that was
+
+673
+00:28:27,810 --> 00:28:30,308
+a model that lagged the state-of-the-art
+
+674
+00:28:30,308 --> 00:28:31,933
+by one or two generations
+
+675
+00:28:31,933 --> 00:28:34,870
+was brought up to a much more advanced version
+
+676
+00:28:35,150 --> 00:28:38,711
+so the next question is: once the generational gap is closed,
+
+677
+00:28:38,711 --> 00:28:41,707
+does your model still have the capacity to evolve
+
+678
+00:28:41,707 --> 00:28:43,420
+and keep generating returns?
+
+679
+00:28:43,660 --> 00:28:45,500
+Indeed, from the outside at that time,
+
+680
+00:28:45,500 --> 00:28:48,620
+this was one of the biggest doubts people had about AppLovin.
+
+681
+00:28:48,960 --> 00:28:50,735
+You can see that in 2023,
+
+682
+00:28:50,735 --> 00:28:52,278
+our earnings reports
+
+683
+00:28:52,278 --> 00:28:55,598
+consistently far outperformed expectations
+
+684
+00:28:55,598 --> 00:28:56,370
+each time.
+
+685
+00:28:56,730 --> 00:29:00,970
+but after the earnings report, our stock price barely budged.
+
+686
+00:29:01,310 --> 00:29:04,811
+the reason back then was that the industry always thought
+
+687
+00:29:04,811 --> 00:29:06,118
+our one-time earnings
+
+688
+00:29:06,118 --> 00:29:09,480
+would not be repeatable or sustainable moving forward.
+
+689
+00:29:09,640 --> 00:29:10,632
+As for ourselves,
+
+690
+00:29:10,632 --> 00:29:11,387
+I think—well,
+
+691
+00:29:11,387 --> 00:29:14,600
+because I've seen how this industry actually works?
+
+692
+00:29:14,600 --> 00:29:17,375
+I do have some confidence in its iterability,
+
+693
+00:29:17,375 --> 00:29:19,710
+though it will take time to prove it.
+
+694
+00:29:20,430 --> 00:29:22,950
+so by the end of 2023 then
+
+695
+00:29:23,340 --> 00:29:24,594
+during that period,
+
+696
+00:29:24,594 --> 00:29:27,591
+I believe we proved this model is iterable
+
+697
+00:29:27,591 --> 00:29:30,100
+and didn't falter once it went live?
+
+698
+00:29:30,180 --> 00:29:32,093
+Ah, profits are just... uh,
+
+699
+00:29:32,093 --> 00:29:35,669
+further profits would just stop right there.
+
+700
+00:29:39,200 --> 00:29:39,205
+By early 2024, AppLovin's ambitions had outgrown its $10-billion gaming ads focus.
+
+701
+00:29:45,000 --> 00:29:48,400
+its aim was global digital ads worth trillions of dollars
+
+702
+00:29:48,600 --> 00:29:51,840
+and the first sector to enter was e-commerce, indeed
+
+703
+00:29:52,120 --> 00:29:52,812
+In May 2024,
+
+704
+00:29:52,812 --> 00:29:56,480
+Giovanni Ge formally announced a push into e-commerce
+
+705
+00:29:56,640 --> 00:29:59,196
+this seemed almost mad in tech circles,
+
+706
+00:29:59,196 --> 00:30:02,560
+for game ads rely on virtual sense of achievement
+
+707
+00:30:02,720 --> 00:30:06,160
+and e-commerce ads rely on tangible goods and re-sales
+
+708
+00:30:06,280 --> 00:30:10,145
+there was widespread doubt about whether AppLovin's ad model
+
+709
+00:30:10,145 --> 00:30:12,400
+could work in the e-commerce space
+
+710
+00:30:12,860 --> 00:30:13,778
+By 2024, this year
+
+711
+00:30:13,778 --> 00:30:16,780
+I feel is when you truly started to shine bright
+
+712
+00:30:17,180 --> 00:30:21,578
+and gradually, the underdog was embraced by the mainstream,
+
+713
+00:30:21,578 --> 00:30:24,510
+as your stock prices soared that year.
+
+714
+00:30:24,510 --> 00:30:26,235
+there were also many doubts raised
+
+715
+00:30:26,235 --> 00:30:27,657
+this year—what three things
+
+716
+00:30:27,657 --> 00:30:29,840
+do you think your team got right this year?
+
+717
+00:30:30,000 --> 00:30:31,291
+OK, let me correct you
+
+718
+00:30:31,291 --> 00:30:33,539
+first—you said we went from 'ana dog'
+
+719
+00:30:33,539 --> 00:30:35,351
+to being mainstream-accepted,
+
+720
+00:30:35,351 --> 00:30:38,979
+but I think we've always been a self-recognized 'on the dog'.
+
+721
+00:30:39,300 --> 00:30:42,540
+and I have always felt proud to carry this identity myself
+
+722
+00:30:42,580 --> 00:30:44,220
+What is 'self-recognized'
+
+723
+00:30:44,460 --> 00:30:47,330
+I don't know how the world sees us right now, mind.
+
+724
+00:30:47,530 --> 00:30:47,530
+Right?
+
+725
+00:30:47,890 --> 00:30:48,741
+some folks might think
+
+726
+00:30:48,741 --> 00:30:50,290
+you see yourselves as the underdog here
+
+727
+00:30:50,290 --> 00:30:51,718
+Yeah, some might think that AppLovin
+
+728
+00:30:51,718 --> 00:30:52,983
+has done quite well these days,
+
+729
+00:30:52,983 --> 00:30:55,129
+but others might say that AppLovin is just a company
+
+730
+00:30:55,129 --> 00:30:56,740
+that got lucky in a short span of time
+
+731
+00:30:57,320 --> 00:30:59,410
+Hmm, got lucky briefly, hyped up
+
+732
+00:30:59,410 --> 00:31:01,920
+one viral hit company after another?
+
+733
+00:31:02,130 --> 00:31:04,170
+but I think none of these matter much to us at all
+
+734
+00:31:04,250 --> 00:31:06,930
+we see ourselves as the underdog in this race
+
+735
+00:31:06,970 --> 00:31:07,841
+I think this is,
+
+736
+00:31:07,841 --> 00:31:09,552
+and we use the 'underdog' ethos
+
+737
+00:31:09,552 --> 00:31:11,501
+to shape our cultural foundation
+
+738
+00:31:11,501 --> 00:31:13,360
+and many of our working methods.
+
+739
+00:31:13,780 --> 00:31:15,740
+this, to me, is the most important
+
+740
+00:31:15,780 --> 00:31:18,820
+You translate 'underdog' as 'Heart of the Weak' in Chinese?
+
+741
+00:31:19,020 --> 00:31:20,728
+Could you explain once more
+
+742
+00:31:20,728 --> 00:31:23,260
+what your understanding of this term is?
+
+743
+00:31:23,260 --> 00:31:26,510
+I think a better, perhaps more accurate translation
+
+744
+00:31:26,510 --> 00:31:27,940
+would be 'the underdog,'
+
+745
+00:31:27,940 --> 00:31:31,580
+while 'weak heart' was just to fit a four-character idiom
+
+746
+00:31:31,770 --> 00:31:33,215
+I think 'underdog'
+
+747
+00:31:33,215 --> 00:31:37,210
+carries quite a few distinct layers of meaning,
+
+748
+00:31:37,210 --> 00:31:38,570
+wouldn't you say?
+
+749
+00:31:38,850 --> 00:31:40,710
+First, I think 'underdog'
+
+750
+00:31:40,710 --> 00:31:43,784
+means that you won't, won't be arrogant
+
+751
+00:31:43,784 --> 00:31:45,160
+or overconfident?
+
+752
+00:31:45,160 --> 00:31:48,140
+you lack the right to be conceited, for others
+
+753
+00:31:48,140 --> 00:31:49,200
+see you as weak
+
+754
+00:31:49,840 --> 00:31:52,788
+and secondly, I think as an underdog,
+
+755
+00:31:52,788 --> 00:31:57,760
+you don't carry the weight of fear of failing when you act.
+
+756
+00:31:58,200 --> 00:32:00,536
+because you're the underdog anyway—yes,
+
+757
+00:32:00,536 --> 00:32:02,320
+no one thinks you'll succeed?
+
+758
+00:32:02,440 --> 00:32:05,330
+the opposite case — someone who has known nothing but success,
+
+759
+00:32:05,330 --> 00:32:06,800
+a true prodigy all their life
+
+760
+00:32:07,120 --> 00:32:09,961
+you might be less likely to make a choice
+
+761
+00:32:09,961 --> 00:32:12,110
+that carries huge risks indeed
+
+762
+00:32:12,110 --> 00:32:13,854
+because you've been so successful,
+
+763
+00:32:13,854 --> 00:32:16,691
+you don't want to break that image—unlike an underdog,
+
+764
+00:32:16,691 --> 00:32:18,190
+who doesn't face this issue.
+
+765
+00:32:18,690 --> 00:32:23,010
+and I think underdogs tend to have a much lower sense of ego
+
+766
+00:32:23,230 --> 00:32:26,369
+in one problem after problem, in one city or one mission,
+
+767
+00:32:26,369 --> 00:32:29,110
+he does not see himself as being very important.
+
+768
+00:32:29,470 --> 00:32:31,558
+he would value the mission and the team
+
+769
+00:32:31,558 --> 00:32:32,790
+above his own concerns
+
+770
+00:32:33,270 --> 00:32:35,254
+I think also, many underdogs
+
+771
+00:32:35,254 --> 00:32:38,488
+have this strong desire to prove themselves,
+
+772
+00:32:38,488 --> 00:32:41,870
+since most people don't expect much from them?
+
+773
+00:32:42,110 --> 00:32:43,858
+and this desire to prove oneself,
+
+774
+00:32:43,858 --> 00:32:46,410
+well, it can generate a massive amount of drive
+
+775
+00:32:46,410 --> 00:32:47,465
+for an individual.
+
+776
+00:32:47,465 --> 00:32:49,760
+You mentioned the three right things to do?
+
+777
+00:32:50,140 --> 00:32:52,997
+I don't think this is how we approach things
+
+778
+00:32:52,997 --> 00:32:55,660
+here at AppLovin in our thinking process
+
+779
+00:32:55,980 --> 00:33:00,747
+I would never reduce 365 days of hard work
+
+780
+00:33:00,747 --> 00:33:07,540
+to just three correct decisions in such a simplistic way?
+
+781
+00:33:07,660 --> 00:33:11,382
+I think such a claim would actually harm the entire team
+
+782
+00:33:11,382 --> 00:33:12,180
+quite a bit
+
+783
+00:33:12,290 --> 00:33:14,743
+because there are dozens of people on the team,
+
+784
+00:33:14,743 --> 00:33:16,343
+each doing small bits of work,
+
+785
+00:33:16,343 --> 00:33:19,010
+and those small bits of work come together as one
+
+786
+00:33:19,490 --> 00:33:21,170
+led to our success
+
+787
+00:33:21,410 --> 00:33:22,089
+I don't think
+
+788
+00:33:22,089 --> 00:33:24,653
+there are three things you can isolate and claim
+
+789
+00:33:24,653 --> 00:33:27,270
+those three things alone made AppLovin successful
+
+790
+00:33:27,350 --> 00:33:29,910
+No, I don't think that is what actually happened
+
+791
+00:33:30,330 --> 00:33:30,338
+Okay, no problem. Hmm, so this year, many institutional research reports had headlines stating AppLovin is an 'AI beneficiary stock,' right?
+
+792
+00:33:39,080 --> 00:33:40,103
+and how does your team
+
+793
+00:33:40,103 --> 00:33:42,081
+inside view this matter—does AI truly play
+
+794
+00:33:42,081 --> 00:33:43,024
+such a crucial role
+
+795
+00:33:43,024 --> 00:33:43,920
+in your algorithms?
+
+796
+00:33:44,440 --> 00:33:48,722
+First, on AI — I think the definition of AI itself
+
+797
+00:33:48,722 --> 00:33:50,910
+is quite vague nowadays
+
+798
+00:33:50,910 --> 00:33:50,910
+Yes
+
+799
+00:33:51,990 --> 00:33:53,515
+in today's mainstream,
+
+800
+00:33:53,515 --> 00:33:56,348
+and what I see as the common narrative,
+
+801
+00:33:56,348 --> 00:33:58,335
+AI is largely taken to mean
+
+802
+00:33:58,335 --> 00:34:01,870
+LLMs — Large Language Models — and related concepts.
+
+803
+00:34:01,870 --> 00:34:02,230
+for Large LLMs
+
+804
+00:34:02,630 --> 00:34:03,885
+but the term 'AI' itself
+
+805
+00:34:03,885 --> 00:34:06,910
+was often mentioned long before LLMs came into being.
+
+806
+00:34:07,110 --> 00:34:09,982
+In fact, the recommendation algorithm
+
+807
+00:34:09,982 --> 00:34:13,094
+was the most successful AI application
+
+808
+00:34:13,094 --> 00:34:14,690
+before LLMs emerged?
+
+809
+00:34:14,850 --> 00:34:17,157
+so Applion, as a top-tier firm
+
+810
+00:34:17,157 --> 00:34:20,179
+in the recommendation algorithm space,
+
+811
+00:34:20,179 --> 00:34:22,925
+surely employs all AI technologies
+
+812
+00:34:22,925 --> 00:34:25,670
+tied to recommendation algorithms.
+
+813
+00:34:26,170 --> 00:34:28,782
+And regarding large language models, right?
+
+814
+00:34:28,782 --> 00:34:29,688
+It's no secret
+
+815
+00:34:29,688 --> 00:34:32,860
+that AppLovin is not training its own LLMs today.
+
+816
+00:34:33,139 --> 00:34:36,100
+but we do indeed use large language models
+
+817
+00:34:36,100 --> 00:34:37,510
+across our products
+
+818
+00:34:37,510 --> 00:34:41,460
+to enhance and refine both our offerings and algorithms
+
+819
+00:34:41,860 --> 00:34:44,371
+This includes our products and algorithms —
+
+820
+00:34:44,371 --> 00:34:46,583
+we do use LLMs within our algorithms.
+
+821
+00:34:46,583 --> 00:34:47,898
+That is, indeed, a given.
+
+822
+00:34:48,260 --> 00:34:52,112
+And, uh, as for what the outside world thinks—do we say,
+
+823
+00:34:52,112 --> 00:34:53,929
+uh, is EbolaMi an AI firm,
+
+824
+00:34:53,929 --> 00:34:55,530
+or does Iepilog exist?
+
+825
+00:34:55,770 --> 00:34:56,650
+Uh, because,
+
+826
+00:34:56,920 --> 00:34:59,320
+Hmm, AI benefits — well, inside the company,
+
+827
+00:34:59,320 --> 00:35:01,300
+we never think about this at all,
+
+828
+00:35:01,300 --> 00:35:04,720
+nor do we care what others might say or how they judge us.
+
+829
+00:35:04,720 --> 00:35:07,213
+In our view, AppLovin is not an AI firm,
+
+830
+00:35:07,213 --> 00:35:10,560
+and it has no bearing on our daily decision-making.
+
+831
+00:35:10,600 --> 00:35:13,924
+You just said AI would be involved in every stage —
+
+832
+00:35:13,924 --> 00:35:16,450
+when you mention AI here, you mean LLMs,
+
+833
+00:35:16,450 --> 00:35:18,910
+which empower decisions at each step
+
+834
+00:35:19,230 --> 00:35:20,870
+such an approach then
+
+835
+00:35:21,470 --> 00:35:22,330
+Hmm, methods.
+
+836
+00:35:22,330 --> 00:35:25,290
+In this industry, I believe other firms would do the same
+
+837
+00:35:25,290 --> 00:35:25,290
+Yes
+
+838
+00:35:25,850 --> 00:35:26,730
+Meta has too
+
+839
+00:35:26,730 --> 00:35:27,797
+so why did we see it —
+
+840
+00:35:27,797 --> 00:35:30,034
+its stock price surged quite a bit back then,
+
+841
+00:35:30,034 --> 00:35:32,729
+and they claimed their ads had become more effective
+
+842
+00:35:32,850 --> 00:35:35,470
+Are there big gaps? Like, how do we use AI,
+
+843
+00:35:35,470 --> 00:35:37,370
+and how does AI boost models?
+
+844
+00:35:37,500 --> 00:35:39,187
+Do each firm differ this much?
+
+845
+00:35:39,187 --> 00:35:41,099
+Then, where lies your key advantage?
+
+846
+00:35:41,180 --> 00:35:43,728
+Oh, I think in this current, uh, scenario,
+
+847
+00:35:43,728 --> 00:35:47,253
+one major strength we have is that our company isn't
+
+848
+00:35:47,253 --> 00:35:49,830
+building our own large language model .
+
+849
+00:35:50,170 --> 00:35:52,510
+since we don't build our own LLM,
+
+850
+00:35:52,510 --> 00:35:54,587
+we have full freedom to pick
+
+851
+00:35:54,587 --> 00:35:57,629
+the best models available on the market —
+
+852
+00:35:57,629 --> 00:35:58,799
+isn't that right?
+
+853
+00:35:59,000 --> 00:36:01,647
+although many firms are building their own,
+
+854
+00:36:01,647 --> 00:36:03,492
+I think most would agree that
+
+855
+00:36:03,492 --> 00:36:06,738
+the best large language models available today are
+
+856
+00:36:06,738 --> 00:36:08,330
+Gemini and OpenAI's LLMs
+
+857
+00:36:08,530 --> 00:36:10,770
+and Gemini, plus OpenAI models?
+
+858
+00:36:11,050 --> 00:36:12,846
+since we didn't build our own,
+
+859
+00:36:12,846 --> 00:36:14,228
+we gained more freedom
+
+860
+00:36:14,228 --> 00:36:17,120
+to pick the top language models on the market.
+
+861
+00:36:17,390 --> 00:36:17,398
+Hmm, and that's why I think in terms of LLM adoption and application, we've actually led the world in many ways.
+
+862
+00:36:25,720 --> 00:36:28,522
+for instance, more than a year ago,
+
+863
+00:36:28,522 --> 00:36:33,280
+we successfully used LLMs to tackle challenges we faced
+
+864
+00:36:33,760 --> 00:36:36,898
+we faced some Fraud and Integrity issues
+
+865
+00:36:36,898 --> 00:36:39,880
+in the ad delivery and campaign space
+
+866
+00:36:40,080 --> 00:36:41,839
+and, well, in recent months,
+
+867
+00:36:41,839 --> 00:36:44,183
+we became the first in the market
+
+868
+00:36:44,183 --> 00:36:47,423
+to launch fully automated ad asset generation
+
+869
+00:36:47,423 --> 00:36:49,440
+using Large Language Models .
+
+870
+00:36:49,840 --> 00:36:51,072
+this, this right here —
+
+871
+00:36:51,072 --> 00:36:53,478
+yes — we've already rolled out this product
+
+872
+00:36:53,478 --> 00:36:54,652
+to our advertisers;
+
+873
+00:36:54,652 --> 00:36:56,999
+we're leading the industry in this space.
+
+874
+00:36:57,200 --> 00:37:00,018
+and the reason we managed to achieve this
+
+875
+00:37:00,018 --> 00:37:01,393
+ahead of our rivals
+
+876
+00:37:01,393 --> 00:37:03,975
+is because I made a decision early on
+
+877
+00:37:03,975 --> 00:37:05,930
+that I believed strongly in
+
+878
+00:37:06,050 --> 00:37:09,250
+for instance, in ad content generation here,
+
+879
+00:37:09,970 --> 00:37:12,302
+I believe that in the short term,
+
+880
+00:37:12,302 --> 00:37:16,530
+only two firms excel: Google and OpenAI stand out the most.
+
+881
+00:37:16,690 --> 00:37:18,750
+we don't need to do in this space
+
+882
+00:37:18,750 --> 00:37:21,560
+what they've already done exceptionally well?
+
+883
+00:37:21,760 --> 00:37:25,585
+and we, in turn, focused on how to use their models
+
+884
+00:37:25,585 --> 00:37:29,490
+and integrate them into our own product offerings.
+
+885
+00:37:29,760 --> 00:37:32,633
+and this decision — you should know it was made one year ago,
+
+886
+00:37:32,633 --> 00:37:35,160
+when Google and OpenAI's models were not yet ready
+
+887
+00:37:35,440 --> 00:37:36,612
+one of our choices back then
+
+888
+00:37:36,612 --> 00:37:38,080
+was to trust our partner companies
+
+889
+00:37:38,330 --> 00:37:38,330
+Right?
+
+890
+00:37:38,530 --> 00:37:40,507
+we at Google, Magoogle, and Open I — to us,
+
+891
+00:37:40,507 --> 00:37:41,622
+they are our partners.
+
+892
+00:37:41,622 --> 00:37:43,092
+Because we trust our partners,
+
+893
+00:37:43,092 --> 00:37:45,729
+we do things they wouldn't necessarily do ourselves.
+
+894
+00:37:45,930 --> 00:37:47,519
+we waited on the other end of time,
+
+895
+00:37:47,519 --> 00:37:49,810
+knowing they'd build this model one day for sure.
+
+896
+00:37:50,050 --> 00:37:52,085
+so when Veo 3 and Sora 2 were released,
+
+897
+00:37:52,085 --> 00:37:54,660
+that was the moment — The Right Moment comes.
+
+898
+00:37:55,180 --> 00:37:57,359
+so by then our entire product flow was fully ready,
+
+899
+00:37:57,359 --> 00:37:58,710
+just waiting for their models —
+
+900
+00:37:58,710 --> 00:38:01,019
+once theirs were done, our product launched right away.
+
+901
+00:38:01,280 --> 00:38:02,150
+so it still feels
+
+902
+00:38:02,150 --> 00:38:04,917
+like a race for speed—whomever can use this tool best
+
+903
+00:38:04,917 --> 00:38:06,608
+and bring it to state-of-the-art,
+
+904
+00:38:06,608 --> 00:38:08,760
+that is the cutting-edge level we aim for
+
+905
+00:38:08,820 --> 00:38:08,820
+Yes.
+
+906
+00:38:09,140 --> 00:38:09,860
+launch the product
+
+907
+00:38:09,860 --> 00:38:11,774
+Yes, I think it's not just speed,
+
+908
+00:38:11,774 --> 00:38:14,740
+but also an art of making choices and decisions
+
+909
+00:38:15,140 --> 00:38:18,129
+there are many things—even the most trending ones,
+
+910
+00:38:18,129 --> 00:38:20,101
+even the most exciting ones—that
+
+911
+00:38:20,101 --> 00:38:22,135
+choosing not to do them yourself
+
+912
+00:38:22,135 --> 00:38:24,170
+can sometimes be a wise decision
+
+913
+00:38:24,250 --> 00:38:25,702
+But for some reason, I feel
+
+914
+00:38:25,702 --> 00:38:29,000
+many people in this world struggle to accept such a choice.
+
+915
+00:38:29,280 --> 00:38:31,537
+I always feel that if something is the most exciting,
+
+916
+00:38:31,537 --> 00:38:32,840
+I must choose to do it myself.
+
+917
+00:38:32,880 --> 00:38:35,311
+Let's imagine Google in the future
+
+918
+00:38:35,311 --> 00:38:37,600
+might decide to cut off its API
+
+919
+00:38:37,680 --> 00:38:40,751
+then these model firms might want to run ads themselves,
+
+920
+00:38:40,751 --> 00:38:43,067
+and Peng Da would want to run ads himself,
+
+921
+00:38:43,067 --> 00:38:45,610
+and might cut off access to this Model A API.
+
+922
+00:38:45,850 --> 00:38:46,890
+I don't think this will.
+
+923
+00:38:47,250 --> 00:38:49,479
+I think if someone truly believed that,
+
+924
+00:38:49,479 --> 00:38:51,650
+their decision might be rather naive.
+
+925
+00:38:52,330 --> 00:38:52,330
+Yes.
+
+926
+00:38:53,250 --> 00:38:57,553
+Today, we are still one of Google's largest clients, right?
+
+927
+00:38:57,553 --> 00:39:01,479
+Because we are a major user of Google Cloud services.
+
+928
+00:39:01,800 --> 00:39:05,334
+if we are worried that Google might cut off our access,
+
+929
+00:39:05,334 --> 00:39:08,725
+shouldn't we also worry about not being able to use
+
+930
+00:39:08,725 --> 00:39:09,590
+Google Cloud?
+
+931
+00:39:10,230 --> 00:39:13,847
+In 2024, one of the biggest things—and what outsiders
+
+932
+00:39:13,847 --> 00:39:15,729
+are most curious about—is
+
+933
+00:39:15,729 --> 00:39:18,190
+that you've moved into e-commerce .
+
+934
+00:39:18,190 --> 00:39:19,672
+Yes, could you share with us
+
+935
+00:39:19,672 --> 00:39:21,539
+the reasoning and thought process
+
+936
+00:39:21,539 --> 00:39:24,120
+behind your decision to expand into e-commerce?
+
+937
+00:39:24,200 --> 00:39:27,009
+Oh, this line of thinking is actually quite simple.
+
+938
+00:39:27,009 --> 00:39:29,360
+When we chat, I notice you're quite eager.
+
+939
+00:39:30,110 --> 00:39:34,350
+Was our success due to a single, specific decision?
+
+940
+00:39:34,350 --> 00:39:35,841
+But that's not quite right —
+
+941
+00:39:35,841 --> 00:39:37,553
+the decision itself was simple.
+
+942
+00:39:37,553 --> 00:39:39,596
+What truly led the company to success
+
+943
+00:39:39,596 --> 00:39:42,579
+was how we lived each of the 365 days after that choice.
+
+944
+00:39:42,820 --> 00:39:44,785
+So when we look back to early 2024,
+
+945
+00:39:44,785 --> 00:39:46,334
+there were several factors
+
+946
+00:39:46,334 --> 00:39:48,956
+I think were quite significant at the time —
+
+947
+00:39:48,956 --> 00:39:51,339
+first, our tech in mobile app advertising
+
+948
+00:39:51,810 --> 00:39:53,038
+in mobile app ads,
+
+949
+00:39:53,038 --> 00:39:54,355
+we've proven we're
+
+950
+00:39:54,355 --> 00:39:57,795
+at least on par with top-tier global companies
+
+951
+00:39:57,795 --> 00:39:58,820
+in this space
+
+952
+00:39:58,940 --> 00:40:01,540
+we are fully capable of competing with them head-on
+
+953
+00:40:01,880 --> 00:40:04,194
+Second, the mobile app sector we're in
+
+954
+00:40:04,194 --> 00:40:06,760
+doesn't have a particularly high ceiling.
+
+955
+00:40:07,200 --> 00:40:08,870
+so the market feels that
+
+956
+00:40:08,870 --> 00:40:12,143
+even if AppLovin excels greatly in mobile apps,
+
+957
+00:40:12,143 --> 00:40:14,580
+our ceiling isn't that high either
+
+958
+00:40:15,260 --> 00:40:18,965
+thirdly, I have a clear view on e-commerce
+
+959
+00:40:18,965 --> 00:40:22,400
+and what algorithms can achieve there
+
+960
+00:40:22,560 --> 00:40:25,520
+I have a fairly solid grasp of its feasibility
+
+961
+00:40:25,560 --> 00:40:28,172
+I believe our tech at that time
+
+962
+00:40:28,172 --> 00:40:31,290
+could be fully applied to e-commerce
+
+963
+00:40:31,420 --> 00:40:32,533
+so given this context,
+
+964
+00:40:32,533 --> 00:40:34,654
+we had a very brief internal discussion
+
+965
+00:40:34,654 --> 00:40:36,429
+and didn't spend much time before
+
+966
+00:40:36,429 --> 00:40:38,260
+we decided to pursue this project
+
+967
+00:40:38,620 --> 00:40:42,790
+This happened roughly around May of the year 2024.
+
+968
+00:40:42,990 --> 00:40:46,503
+when you venture into a different industry,
+
+969
+00:40:46,503 --> 00:40:48,344
+or a new market track,
+
+970
+00:40:48,344 --> 00:40:52,360
+what is it called when the model is transferred?
+
+971
+00:40:54,910 --> 00:40:57,388
+Hardness is a highly subjective notion.
+
+972
+00:40:57,388 --> 00:40:59,549
+I believe this is what one must do.
+
+973
+00:40:59,710 --> 00:41:00,910
+what needs to be done.
+
+974
+00:41:00,910 --> 00:41:03,344
+I think first, this should be feasible,
+
+975
+00:41:03,344 --> 00:41:04,369
+wouldn't you say?
+
+976
+00:41:04,650 --> 00:41:09,160
+I think you need a team that excels at solving problems
+
+977
+00:41:09,160 --> 00:41:12,030
+and thinking via 'First Principles'.
+
+978
+00:41:12,670 --> 00:41:15,902
+Yes, at this point when you move—from a domain
+
+979
+00:41:15,902 --> 00:41:17,870
+you're familiar with—to one
+
+980
+00:41:17,870 --> 00:41:20,859
+you're not, or not quite as familiar with.
+
+981
+00:41:21,090 --> 00:41:24,650
+the most dangerous mistake is blindly applying past wisdom
+
+982
+00:41:25,230 --> 00:41:27,209
+at this point, it was indeed necessary —
+
+983
+00:41:27,209 --> 00:41:30,229
+I recall the small decisions our whole team made back then.
+
+984
+00:41:30,230 --> 00:41:32,758
+I think First Principles thinking was especially crucial
+
+985
+00:41:32,758 --> 00:41:33,210
+back then.
+
+986
+00:41:33,290 --> 00:41:35,050
+For instance, could you share some examples with us?
+
+987
+00:41:35,050 --> 00:41:35,770
+For instance,
+
+988
+00:41:35,930 --> 00:41:40,194
+Yes, for instance, how does it work in gaming,
+
+989
+00:41:40,194 --> 00:41:45,650
+and what are the challenges when applied to e-commerce?
+
+990
+00:41:45,650 --> 00:41:48,769
+for instance, its data—I don't know—what sorts of challenges
+
+991
+00:41:48,769 --> 00:41:49,404
+might arise
+
+992
+00:41:49,404 --> 00:41:51,096
+with the data or the algorithms,
+
+993
+00:41:51,096 --> 00:41:53,000
+and how did you tackle those issues
+
+994
+00:41:53,040 --> 00:41:56,211
+OK, first you need to realize it's a different product —
+
+995
+00:41:56,211 --> 00:41:58,701
+and that means every part of this product
+
+996
+00:41:58,701 --> 00:42:00,160
+has changed in some way.
+
+997
+00:42:00,520 --> 00:42:02,197
+the advertisers are different,
+
+998
+00:42:02,197 --> 00:42:04,511
+their data-sharing methods have changed,
+
+999
+00:42:04,511 --> 00:42:07,520
+and the ad creatives used are now different as well
+
+1000
+00:42:07,640 --> 00:42:10,241
+once the ad is clicked, the landing page changes,
+
+1001
+00:42:10,241 --> 00:42:12,400
+and indeed, everything is different now
+
+1002
+00:42:12,640 --> 00:42:14,160
+So at this point
+
+1003
+00:42:14,600 --> 00:42:17,173
+the value of First Principles lies in discerning
+
+1004
+00:42:17,173 --> 00:42:19,587
+which differences can be directly translated,
+
+1005
+00:42:19,587 --> 00:42:21,840
+and which require new approaches from you.
+
+1006
+00:42:22,060 --> 00:42:24,020
+you need different handling methods
+
+1007
+00:42:24,020 --> 00:42:25,700
+and changes within your model?
+
+1008
+00:42:26,030 --> 00:42:29,076
+once you've deployed your first, fairly simple model
+
+1009
+00:42:29,076 --> 00:42:30,630
+and a basic system online
+
+1010
+00:42:30,710 --> 00:42:33,138
+it will surely fall short of expectations,
+
+1011
+00:42:33,138 --> 00:42:34,679
+since you're a new system?
+
+1012
+00:42:34,880 --> 00:42:36,626
+when it falls short of expectations,
+
+1013
+00:42:36,626 --> 00:42:38,573
+you should know which part to examine —
+
+1014
+00:42:38,573 --> 00:42:40,520
+you might think this part is quite good
+
+1015
+00:42:40,680 --> 00:42:42,883
+you can then figure out what went wrong in that part
+
+1016
+00:42:42,883 --> 00:42:44,240
+and trace the root of the issue
+
+1017
+00:42:44,360 --> 00:42:45,440
+was it a data issue,
+
+1018
+00:42:45,440 --> 00:42:48,680
+an attribution flaw, a model problem, or a feature problem?
+
+1019
+00:42:48,880 --> 00:42:51,595
+so in this case, you need quite a bit of — well,
+
+1020
+00:42:51,595 --> 00:42:55,360
+I think very solid and extremely rigorous thinking to assess.
+
+1021
+00:42:55,520 --> 00:42:56,898
+and back then, when we did this,
+
+1022
+00:42:56,898 --> 00:42:58,920
+our team was extremely small and quite lean
+
+1023
+00:42:59,120 --> 00:43:01,411
+for the first phase of e-commerce,
+
+1024
+00:43:01,411 --> 00:43:04,050
+we had roughly ten engineers on board
+
+1025
+00:43:04,090 --> 00:43:06,272
+I feel this explanation is still a bit vague;
+
+1026
+00:43:06,272 --> 00:43:08,649
+perhaps the audience still finds it hard to grasp
+
+1027
+00:43:08,810 --> 00:43:11,411
+for instance, shifting from games to e-commerce —
+
+1028
+00:43:11,411 --> 00:43:13,335
+though they’re distinct products,
+
+1029
+00:43:13,335 --> 00:43:14,919
+what were the key challenges?
+
+1030
+00:43:14,920 --> 00:43:16,360
+and what problems did you then resolve
+
+1031
+00:43:16,600 --> 00:43:17,904
+I think you could treat it
+
+1032
+00:43:17,904 --> 00:43:19,760
+as building a new model from scratch.
+
+1033
+00:43:20,330 --> 00:43:23,905
+when you have a team that just built the world's
+
+1034
+00:43:23,905 --> 00:43:25,097
+most successful
+
+1035
+00:43:25,097 --> 00:43:26,960
+recommendation algorithm
+
+1036
+00:43:26,960 --> 00:43:28,600
+model for mobile apps?
+
+1037
+00:43:28,960 --> 00:43:32,983
+then much of your infrastructure can be reused —
+
+1038
+00:43:32,983 --> 00:43:37,862
+for instance, the infrastructure I used to train my models
+
+1039
+00:43:37,862 --> 00:43:39,490
+can also be reused
+
+1040
+00:43:39,850 --> 00:43:43,220
+but how do you gather your backend data
+
+1041
+00:43:43,260 --> 00:43:45,660
+what architecture does your model use
+
+1042
+00:43:46,030 --> 00:43:49,196
+and what features the model uses may differ greatly,
+
+1043
+00:43:49,196 --> 00:43:51,845
+since e-commerce features and app features
+
+1044
+00:43:51,845 --> 00:43:53,170
+can vary quite a lot.
+
+1045
+00:43:53,610 --> 00:43:56,223
+Yes, so you could see it as almost a fresh startup,
+
+1046
+00:43:56,223 --> 00:43:57,930
+starting from scratch once more.
+
+1047
+00:43:58,250 --> 00:43:59,730
+the only thing we had,
+
+1048
+00:43:59,730 --> 00:44:02,690
+and the only thing that stood back in 2024
+
+1049
+00:44:02,930 --> 00:44:04,617
+what we have gained compared to 2023
+
+1050
+00:44:04,617 --> 00:44:06,690
+is a full year of trial-and-error learnings
+
+1051
+00:44:08,390 --> 00:44:10,091
+Yes. So I think the challenge you just mentioned
+
+1052
+00:44:10,091 --> 00:44:11,830
+is grasping the abstract nature of this problem
+
+1053
+00:44:12,000 --> 00:44:14,121
+I think the challenge is that you assume
+
+1054
+00:44:14,121 --> 00:44:16,297
+there are many things you can copy-paste,
+
+1055
+00:44:16,297 --> 00:44:17,200
+but there aren't
+
+1056
+00:44:17,200 --> 00:44:20,308
+you assume that this—everything is almost starting fresh,
+
+1057
+00:44:20,308 --> 00:44:21,323
+and the only extra
+
+1058
+00:44:21,323 --> 00:44:23,749
+is the past year’s experience in your mind
+
+1059
+00:44:24,110 --> 00:44:25,803
+So would it be fair to say that
+
+1060
+00:44:25,803 --> 00:44:28,207
+since e-commerce is something you can treat
+
+1061
+00:44:28,207 --> 00:44:30,448
+as a fresh startup to build from scratch,
+
+1062
+00:44:30,448 --> 00:44:33,180
+you could do the same in other industries as well?
+
+1063
+00:44:33,710 --> 00:44:36,100
+that wouldn't be just copying this model
+
+1064
+00:44:36,140 --> 00:44:37,967
+meaning you'll launch new products,
+
+1065
+00:44:37,967 --> 00:44:38,895
+and in the future,
+
+1066
+00:44:38,895 --> 00:44:41,300
+you'll target different sectors and markets.
+
+1067
+00:44:41,380 --> 00:44:42,380
+You are quite right here
+
+1068
+00:44:42,620 --> 00:44:45,506
+I've never thought AppLovin's strength lies in excelling
+
+1069
+00:44:45,506 --> 00:44:47,156
+at solving one specific problem —
+
+1070
+00:44:47,156 --> 00:44:49,940
+which is exactly what I've urged the team to focus on.
+
+1071
+00:44:50,260 --> 00:44:52,940
+I’ve told the team time and again that,
+
+1072
+00:44:53,280 --> 00:44:55,610
+Apple-loving our current approach
+
+1073
+00:44:55,610 --> 00:44:56,898
+gives us the power
+
+1074
+00:44:56,898 --> 00:45:01,120
+to tackle any meaningful challenge this world has to offer?
+
+1075
+00:45:01,320 --> 00:45:03,420
+for instance, today AppLovin is not doing that —
+
+1076
+00:45:03,420 --> 00:45:06,159
+as I said, AppLovin is not training large language models now
+
+1077
+00:45:06,380 --> 00:45:08,831
+In my view, the best ROI for us right now
+
+1078
+00:45:08,831 --> 00:45:11,100
+isn't training large language models .
+
+1079
+00:45:11,300 --> 00:45:14,978
+but if one day we decide we must pursue such a path,
+
+1080
+00:45:14,978 --> 00:45:17,467
+we could swiftly become a top-tier,
+
+1081
+00:45:17,467 --> 00:45:19,810
+Tier-1 player on the global stage.
+
+1082
+00:45:20,050 --> 00:45:21,409
+Yes, I think the outside world
+
+1083
+00:45:21,409 --> 00:45:23,050
+still misperceives you quite a lot.
+
+1084
+00:45:23,050 --> 00:45:23,050
+Misread.
+
+1085
+00:45:23,410 --> 00:45:25,980
+because I read many reports and research notes
+
+1086
+00:45:26,100 --> 00:45:27,268
+outsiders think that you've
+
+1087
+00:45:27,268 --> 00:45:28,740
+been making games for so long now
+
+1088
+00:45:29,270 --> 00:45:31,555
+you had amassed many game assets before,
+
+1089
+00:45:31,555 --> 00:45:34,780
+so your game-related data gave you an edge over others
+
+1090
+00:45:35,060 --> 00:45:37,440
+so your models could function effectively
+
+1091
+00:45:37,440 --> 00:45:38,660
+in the gaming sector
+
+1092
+00:45:39,020 --> 00:45:42,032
+so when you shifted from games to e-commerce,
+
+1093
+00:45:42,032 --> 00:45:44,702
+the outside world was quite skeptical,
+
+1094
+00:45:44,702 --> 00:45:46,620
+yet your e-commerce took off
+
+1095
+00:45:46,900 --> 00:45:46,906
+Hmm, so folks might think that this is a model transfer, and what exactly did you do during the migration process?
+
+1096
+00:45:53,940 --> 00:45:57,000
+Yes, folks out there always want some reason given
+
+1097
+00:45:57,200 --> 00:45:57,200
+Yes.
+
+1098
+00:45:57,760 --> 00:46:01,927
+make our success seem simple and routine.
+
+1099
+00:46:01,927 --> 00:46:07,009
+I've grown used to such doubts and underestimation.
+
+1100
+00:46:07,290 --> 00:46:11,050
+and it hasn't made me feel the least bit uneasy
+
+1101
+00:46:11,530 --> 00:46:12,465
+but in Bao's sector,
+
+1102
+00:46:12,465 --> 00:46:15,024
+if one day the outside world changed its view of us,
+
+1103
+00:46:15,024 --> 00:46:16,967
+and we tried to enter a brand-new field,
+
+1104
+00:46:16,967 --> 00:46:19,209
+the world might say of AppLovin this company
+
+1105
+00:46:19,590 --> 00:46:21,621
+they are all very skilled and smart;
+
+1106
+00:46:21,621 --> 00:46:23,708
+they can succeed at anything they try,
+
+1107
+00:46:23,708 --> 00:46:25,909
+and they will surely pull this off too
+
+1108
+00:46:26,060 --> 00:46:27,636
+if that day ever truly comes,
+
+1109
+00:46:27,636 --> 00:46:30,620
+I think I might feel uneasy and out of place instead
+
+1110
+00:46:30,820 --> 00:46:33,180
+This is what I mean—this underdog spirit
+
+1111
+00:46:33,180 --> 00:46:35,079
+we excel at, turning things around
+
+1112
+00:46:35,079 --> 00:46:37,439
+when no one believed in us to begin with.
+
+1113
+00:46:37,760 --> 00:46:39,236
+So, do you think your team's strength
+
+1114
+00:46:39,236 --> 00:46:40,960
+is precisely the fact that it's your team?
+
+1115
+00:46:40,960 --> 00:46:40,960
+Yes
+
+1116
+00:46:41,600 --> 00:46:44,480
+This point is quite contrary to what folks think.
+
+1117
+00:46:44,600 --> 00:46:46,160
+Then let me ask you instead
+
+1118
+00:46:46,160 --> 00:46:49,729
+So, you're running your own content channel now, right?
+
+1119
+00:46:49,729 --> 00:46:53,568
+And before that, you worked at a pretty big media platform,
+
+1120
+00:46:53,568 --> 00:46:54,309
+didn't you?
+
+1121
+00:46:54,470 --> 00:46:56,551
+when you left to start your own business,
+
+1122
+00:46:56,551 --> 00:46:57,760
+did everyone around you
+
+1123
+00:46:57,760 --> 00:47:00,104
+cheer and shout, 'That's brilliant—this choice
+
+1124
+00:47:00,104 --> 00:47:01,650
+will surely lead to success'?
+
+1125
+00:47:01,650 --> 00:47:04,210
+No, my mom asks me every day why I chose to go it alone
+
+1126
+00:47:04,340 --> 00:47:04,347
+Is that right? Yes, do you feel that such doubts, in your life, have in many ways actually served as a source of motivation for you?
+
+1127
+00:47:12,700 --> 00:47:14,300
+Hmm, that doesn't matter to me.
+
+1128
+00:47:14,500 --> 00:47:15,740
+Not important
+
+1129
+00:47:16,020 --> 00:47:16,028
+Okay, let's get back to your story. Right. Hmm, this year, you sold off your gaming business. I should probably ask—why did you decide to sell it?
+
+1130
+00:47:24,490 --> 00:47:25,200
+OK, I think, uh,
+
+1131
+00:47:25,200 --> 00:47:26,364
+I can only guess here —
+
+1132
+00:47:26,364 --> 00:47:28,970
+I wasn't directly involved in this role at all.
+
+1133
+00:47:29,290 --> 00:47:31,378
+Once the events unfolded,
+
+1134
+00:47:31,378 --> 00:47:33,763
+Adam told me, 'We're thinking
+
+1135
+00:47:33,763 --> 00:47:37,120
+of selling the game—what do you think?'
+
+1136
+00:47:37,120 --> 00:47:39,209
+I said, 'That makes sense.'
+
+1137
+00:47:39,640 --> 00:47:43,103
+Right? Of course, Adam was the key player and decision-maker,
+
+1138
+00:47:43,103 --> 00:47:46,090
+and he drove the entire process to make it happen.
+
+1139
+00:47:46,170 --> 00:47:49,970
+From my own perspective, I think it makes sense too
+
+1140
+00:47:49,970 --> 00:47:56,800
+before AXON 2.0 was a success
+
+1141
+00:47:56,960 --> 00:48:00,280
+the company had many different business lines back then.
+
+1142
+00:48:00,360 --> 00:48:04,085
+but once our recommendation algorithm started working well
+
+1143
+00:48:04,085 --> 00:48:06,590
+and the e-commerce future became clear
+
+1144
+00:48:07,070 --> 00:48:08,552
+Hmm, and you can see that,
+
+1145
+00:48:08,552 --> 00:48:12,196
+well, the ad business—its profit margins are extremely high,
+
+1146
+00:48:12,196 --> 00:48:15,100
+and the talent concentration is also very high.
+
+1147
+00:48:15,380 --> 00:48:16,887
+so in this context,
+
+1148
+00:48:16,887 --> 00:48:19,693
+I think exiting the gaming sector
+
+1149
+00:48:19,693 --> 00:48:22,330
+was a perfectly sound decision?
+
+1150
+00:48:22,690 --> 00:48:25,750
+for games, of course, we mentioned that the game data —
+
+1151
+00:48:25,750 --> 00:48:26,786
+these data points
+
+1152
+00:48:26,786 --> 00:48:29,470
+aren't that crucial for our core algorithms
+
+1153
+00:48:29,670 --> 00:48:31,709
+so I think this is a perfectly sound decision,
+
+1154
+00:48:31,709 --> 00:48:33,840
+even though I did not make the decision myself
+
+1155
+00:48:33,920 --> 00:48:35,798
+Yes, did folks inside push back back then?
+
+1156
+00:48:35,798 --> 00:48:37,160
+Were there any doubts raised?
+
+1157
+00:48:37,320 --> 00:48:38,210
+Hmm, nope, none.
+
+1158
+00:48:38,610 --> 00:48:38,610
+Nope
+
+1159
+00:48:38,930 --> 00:48:41,760
+Everyone thinks we'll just go all-in now,
+
+1160
+00:48:41,760 --> 00:48:42,440
+I think this is AppLovin as well
+
+1161
+00:48:42,480 --> 00:48:44,805
+Hmm, that's one interesting aspect of Apple Lion.
+
+1162
+00:48:44,805 --> 00:48:47,007
+I'm not sure if I mentioned this before—that
+
+1163
+00:48:47,007 --> 00:48:49,160
+we don't have many meetings at the company.
+
+1164
+00:48:49,710 --> 00:48:53,396
+one reason we rarely hold meetings
+
+1165
+00:48:53,396 --> 00:48:59,360
+is that everyone is extremely aligned on the direction
+
+1166
+00:48:59,800 --> 00:49:02,790
+just one matter—even if folks don't talk directly,
+
+1167
+00:49:02,790 --> 00:49:04,133
+just ask and confirm:
+
+1168
+00:49:04,133 --> 00:49:07,429
+what do you think is the broad direction of this thing?
+
+1169
+00:49:07,430 --> 00:49:10,403
+you'll find that everyone shares a remarkably aligned view
+
+1170
+00:49:10,403 --> 00:49:11,480
+on the big direction
+
+1171
+00:49:11,960 --> 00:49:13,488
+with this as a starting point,
+
+1172
+00:49:13,488 --> 00:49:16,440
+you'd find that when everyone agrees on the big picture,
+
+1173
+00:49:16,720 --> 00:49:18,991
+when each person decides the next steps
+
+1174
+00:49:18,991 --> 00:49:21,146
+based on their most logical judgment,
+
+1175
+00:49:21,146 --> 00:49:22,624
+you'll find that everyone
+
+1176
+00:49:22,624 --> 00:49:24,990
+ends up quite similar in their approach
+
+1177
+00:49:25,470 --> 00:49:28,368
+so we don't need to spend hours in meetings
+
+1178
+00:49:28,368 --> 00:49:30,390
+hashing out every tiny detail.
+
+1179
+00:49:30,670 --> 00:49:34,226
+once everyone gives a brief line on what we should do next,
+
+1180
+00:49:34,226 --> 00:49:37,170
+then each person can rely on their common sense
+
+1181
+00:49:37,570 --> 00:49:40,354
+you'll find that the common sense each person uses
+
+1182
+00:49:40,354 --> 00:49:42,360
+leads to remarkably similar details
+
+1183
+00:49:42,560 --> 00:49:45,285
+in 2025, you also tried to bid to buy TikTok
+
+1184
+00:49:45,285 --> 00:49:47,280
+through a competitive process
+
+1185
+00:49:47,920 --> 00:49:51,333
+though the TikTok deal has now been finalized, yes —
+
+1186
+00:49:51,333 --> 00:49:54,269
+so why did you want to buy TikTok back then?
+
+1187
+00:49:54,390 --> 00:49:55,670
+because at that time,
+
+1188
+00:49:55,670 --> 00:49:58,296
+when TikTok was being discussed publicly,
+
+1189
+00:49:58,296 --> 00:49:59,784
+we did consider whether
+
+1190
+00:49:59,784 --> 00:50:02,761
+having such a massive in-house traffic source
+
+1191
+00:50:02,761 --> 00:50:04,380
+would be valuable for us.
+
+1192
+00:50:04,900 --> 00:50:08,105
+having such a massive in-house traffic source —
+
+1193
+00:50:08,105 --> 00:50:11,310
+would that be a highly valuable asset for us?
+
+1194
+00:50:11,670 --> 00:50:11,670
+Right?
+
+1195
+00:50:12,390 --> 00:50:14,990
+Adam had given many interviews during that time
+
+1196
+00:50:15,310 --> 00:50:19,131
+he also mentioned that if AppLovin and TikTok were to merge,
+
+1197
+00:50:19,131 --> 00:50:22,416
+the immense value they could create for each other
+
+1198
+00:50:22,416 --> 00:50:23,730
+would be tremendous.
+
+1199
+00:50:24,090 --> 00:50:27,215
+So, I think this is actually a very sensible
+
+1200
+00:50:27,215 --> 00:50:29,250
+and sound business decision.
+
+1201
+00:50:29,900 --> 00:50:31,836
+So, will you be building your own media,
+
+1202
+00:50:31,836 --> 00:50:33,620
+or your own social media platforms?
+
+1203
+00:50:33,700 --> 00:50:33,700
+Yes
+
+1204
+00:50:34,940 --> 00:50:36,020
+Is this a public news
+
+1205
+00:50:36,100 --> 00:50:36,949
+this should be public news,
+
+1206
+00:50:36,949 --> 00:50:38,420
+since we've already posted open job listings.
+
+1207
+00:50:38,420 --> 00:50:41,580
+Can you share what roadmap or plan is currently set?
+
+1208
+00:50:41,740 --> 00:50:47,107
+we aim to build a brand-new, next-gen social media platform
+
+1209
+00:50:47,107 --> 00:50:48,310
+from scratch.
+
+1210
+00:50:49,010 --> 00:50:50,799
+and such a social media platform
+
+1211
+00:50:50,799 --> 00:50:53,930
+could bring AppLovin a valuable in-house traffic stream.
+
+1212
+00:50:54,180 --> 00:50:55,860
+Will we tread Meta's path?
+
+1213
+00:50:56,100 --> 00:50:58,680
+I think our path is the reverse of Meta's — Meta
+
+1214
+00:50:58,680 --> 00:51:00,980
+started off with its own organic traffic
+
+1215
+00:51:01,180 --> 00:51:02,787
+once it had its own traffic,
+
+1216
+00:51:02,787 --> 00:51:06,300
+it built its ad and algorithm teams on top of that traffic.
+
+1217
+00:51:06,660 --> 00:51:10,086
+then it took the tech from its algorithms and ad teams
+
+1218
+00:51:10,086 --> 00:51:12,688
+and applied it to third-party platforms —
+
+1219
+00:51:12,688 --> 00:51:14,910
+we started on third-party platforms
+
+1220
+00:51:15,510 --> 00:51:18,974
+once we achieved success on third-party platforms,
+
+1221
+00:51:18,974 --> 00:51:21,450
+we then built our own traffic base
+
+1222
+00:51:21,810 --> 00:51:24,483
+I think the path we've chosen is quite challenging,
+
+1223
+00:51:24,483 --> 00:51:26,730
+but challenges bring their own advantages.
+
+1224
+00:51:27,130 --> 00:51:29,930
+I think on our own traffic streams,
+
+1225
+00:51:30,410 --> 00:51:32,318
+building an ad platform here
+
+1226
+00:51:32,318 --> 00:51:35,387
+is somewhat easier than on third-party sites,
+
+1227
+00:51:35,387 --> 00:51:39,410
+or at least faces less competition than those platforms do.
+
+1228
+00:51:39,650 --> 00:51:42,544
+breaking through on third-party platforms is tough indeed,
+
+1229
+00:51:42,544 --> 00:51:45,440
+as you face countless bidders vying for the same traffic
+
+1230
+00:51:45,760 --> 00:51:48,680
+your traffic isn't reserved exclusively for yourself
+
+1231
+00:51:49,030 --> 00:51:50,293
+but I think this is like a plant
+
+1232
+00:51:50,293 --> 00:51:52,110
+that grows in a harsh, unforgiving environment
+
+1233
+00:51:52,670 --> 00:51:54,889
+though you face many hardships,
+
+1234
+00:51:54,889 --> 00:51:58,810
+these very challenges make you stronger and sturdier
+
+1235
+00:51:59,330 --> 00:51:59,330
+Right?
+
+1236
+00:51:59,810 --> 00:52:00,474
+I think that
+
+1237
+00:52:00,474 --> 00:52:03,522
+after years of battling on these third-party platforms,
+
+1238
+00:52:03,522 --> 00:52:05,936
+both our technology and our company culture
+
+1239
+00:52:05,936 --> 00:52:07,790
+have become remarkably resilient.
+
+1240
+00:52:08,270 --> 00:52:12,565
+so now, building such a platform with our own traffic stream —
+
+1241
+00:52:12,565 --> 00:52:16,570
+I personally hold a very, very optimistic vision for it.
+
+1242
+00:52:16,690 --> 00:52:19,068
+but social media is still tough to manage,
+
+1243
+00:52:19,068 --> 00:52:21,910
+since its traffic is now dominated by the giants
+
+1244
+00:52:21,990 --> 00:52:21,991
+Yes.
+
+1245
+00:52:23,230 --> 00:52:25,830
+Do you recall what was still tough to do three years back?
+
+1246
+00:52:26,140 --> 00:52:26,700
+ads, yes?
+
+1247
+00:52:26,980 --> 00:52:27,580
+ads, yes
+
+1248
+00:52:27,940 --> 00:52:29,580
+this might be yet another miracle in store
+
+1249
+00:52:29,660 --> 00:52:30,620
+Yes, so there would be,
+
+1250
+00:52:30,780 --> 00:52:30,780
+So,
+
+1251
+00:52:31,100 --> 00:52:33,057
+so many will doubt us and lack faith,
+
+1252
+00:52:33,057 --> 00:52:35,320
+and many will question—how could AppLovin
+
+1253
+00:52:35,320 --> 00:52:36,756
+thrive in such a climate,
+
+1254
+00:52:36,756 --> 00:52:38,279
+though it's not about buying.
+
+1255
+00:52:38,360 --> 00:52:41,240
+What will be your next strategic focus moving on?
+
+1256
+00:52:41,300 --> 00:52:43,939
+I know you're expanding your teams in Asia,
+
+1257
+00:52:43,939 --> 00:52:47,499
+yes, and you'll keep hiring top talent in AI-related fields
+
+1258
+00:52:47,780 --> 00:52:50,880
+Yes, what will be your next strategic focus moving forward?
+
+1259
+00:52:50,880 --> 00:52:52,588
+I think there are several key points.
+
+1260
+00:52:52,588 --> 00:52:54,666
+First, people tend to think of new initiatives
+
+1261
+00:52:54,666 --> 00:52:55,959
+when talking about strategy.
+
+1262
+00:52:56,360 --> 00:52:59,200
+But, uh, right now, I think the things we already have,
+
+1263
+00:52:59,830 --> 00:53:02,192
+our existing businesses—mobile apps
+
+1264
+00:53:02,192 --> 00:53:06,026
+and e-commerce—will remain a cornerstone of our strategy
+
+1265
+00:53:06,026 --> 00:53:07,054
+going forward,
+
+1266
+00:53:07,054 --> 00:53:08,269
+wouldn't you agree?
+
+1267
+00:53:08,270 --> 00:53:11,187
+they will, for many years to come,
+
+1268
+00:53:11,187 --> 00:53:15,472
+continue to shape the baseline of our company.
+
+1269
+00:53:15,472 --> 00:53:17,659
+So this is clearly vital.
+
+1270
+00:53:18,220 --> 00:53:22,425
+Hmm, and beyond that, we have another strategic focus
+
+1271
+00:53:22,425 --> 00:53:24,570
+known as Supply Expansion —
+
+1272
+00:53:24,570 --> 00:53:28,200
+essentially expanding our ad traffic volume.
+
+1273
+00:53:28,760 --> 00:53:29,800
+ad traffic growth
+
+1274
+00:53:29,960 --> 00:53:31,956
+and here were some things—maybe I,
+
+1275
+00:53:31,956 --> 00:53:33,859
+or perhaps Adam M—had mentioned
+
+1276
+00:53:33,859 --> 00:53:36,071
+as far back as one or two years ago,
+
+1277
+00:53:36,071 --> 00:53:38,310
+about traffic growth on the CTV side?
+
+1278
+00:53:38,530 --> 00:53:41,264
+there is another traffic-expansion plan
+
+1279
+00:53:41,264 --> 00:53:44,210
+we see as quite ambitious and bold indeed
+
+1280
+00:53:44,410 --> 00:53:45,700
+as you just mentioned,
+
+1281
+00:53:45,700 --> 00:53:47,573
+we will start building our own
+
+1282
+00:53:47,573 --> 00:53:49,510
+in-house social media platform
+
+1283
+00:53:49,830 --> 00:53:51,030
+Hmm, social media site.
+
+1284
+00:53:51,620 --> 00:53:52,205
+To sum up,
+
+1285
+00:53:52,205 --> 00:53:56,042
+the reasons why AppLovin chose to sell its gaming business
+
+1286
+00:53:56,042 --> 00:53:59,100
+may stem from deeper commercial considerations.
+
+1287
+00:53:59,370 --> 00:54:02,410
+First, the Data Lab's original mission has concluded.
+
+1288
+00:54:02,730 --> 00:54:05,508
+CEO Adam said in the earnings report that seven years ago
+
+1289
+00:54:05,508 --> 00:54:07,069
+we began acquiring game studios,
+
+1290
+00:54:07,069 --> 00:54:09,800
+which helped train our earliest Machine Learning models
+
+1291
+00:54:10,040 --> 00:54:13,360
+this was a key step in building the AI our AXON relies on.
+
+1292
+00:54:13,560 --> 00:54:16,000
+yet at our core, we are not game developers
+
+1293
+00:54:16,200 --> 00:54:17,815
+now that AXON 2.0 is mature,
+
+1294
+00:54:17,815 --> 00:54:21,430
+the algorithms can pull sufficient signals from MAX's
+
+1295
+00:54:21,430 --> 00:54:23,000
+global bidding streams.
+
+1296
+00:54:23,180 --> 00:54:24,789
+so-called First-Party Data —
+
+1297
+00:54:24,789 --> 00:54:27,615
+the data firms gather directly from consumers
+
+1298
+00:54:27,615 --> 00:54:29,060
+via their own channels —
+
+1299
+00:54:29,060 --> 00:54:30,980
+now contributes almost nothing.
+
+1300
+00:54:31,100 --> 00:54:33,139
+Second, the valuation reset.
+
+1301
+00:54:33,520 --> 00:54:35,444
+the games business is stable,
+
+1302
+00:54:35,444 --> 00:54:39,359
+yet 19% EBITOA margin is deemed 'mediocre assets' by Wall Street
+
+1303
+00:54:39,360 --> 00:54:42,129
+By contrast, AppLovin's ad business —
+
+1304
+00:54:42,129 --> 00:54:46,719
+its software platform — has an EBITDA margin of a stunning 81%.
+
+1305
+00:54:46,860 --> 00:54:50,693
+this meant it had fully shifted from a games-plus-ads firm
+
+1306
+00:54:50,693 --> 00:54:52,940
+to a premium AI software platform.
+
+1307
+00:54:53,170 --> 00:54:55,992
+Third, extreme resource bets: e-commerce hosts
+
+1308
+00:54:55,992 --> 00:54:59,650
+over 10 million potential advertisers, far outpacing gaming.
+
+1309
+00:54:59,780 --> 00:55:02,958
+To achieve 'step-function' growth in this $100B market,
+
+1310
+00:55:02,958 --> 00:55:05,700
+AppLovin must shed its bloated gaming teams
+
+1311
+00:55:05,800 --> 00:55:09,240
+pour each watt of compute into e-commerce model tweaks
+
+1312
+00:55:09,520 --> 00:55:12,147
+the subsequent growth in AppLovin's ad business
+
+1313
+00:55:12,147 --> 00:55:14,160
+proved the shift was the right move
+
+1314
+00:55:14,160 --> 00:55:16,324
+AppLovin's stock began surging sharply,
+
+1315
+00:55:16,324 --> 00:55:19,800
+with more reports dubbing it the 'first AI beneficiary stock'
+
+1316
+00:55:20,120 --> 00:55:22,034
+yet as the firm rose swiftly,
+
+1317
+00:55:22,034 --> 00:55:23,840
+doubts and bets against it
+
+1318
+00:55:23,840 --> 00:55:26,480
+from the outside never ceased to grow.
+
+1319
+00:55:30,320 --> 00:55:33,660
+as AppLovin's market cap neared $200 billion,
+
+1320
+00:55:33,660 --> 00:55:37,000
+three short attacks came just as expected.
+
+1321
+00:55:37,140 --> 00:55:37,686
+First clash:
+
+1322
+00:55:37,686 --> 00:55:40,220
+Culper and Fuzzy Panda's 'AI Camouflage Allegation'
+
+1323
+00:55:40,540 --> 00:55:41,614
+On February 26, 2025,
+
+1324
+00:55:41,614 --> 00:55:43,637
+the firms Culper and Fuzzy Panda
+
+1325
+00:55:43,637 --> 00:55:45,660
+jointly released a major report.
+
+1326
+00:55:45,890 --> 00:55:48,316
+at that time, AppLovin's stock was at a peak
+
+1327
+00:55:48,316 --> 00:55:50,010
+fueled by the AXON 2.0 narrative
+
+1328
+00:55:50,290 --> 00:55:52,062
+In its report, Culper claimed that
+
+1329
+00:55:52,062 --> 00:55:54,371
+so-called AXON 2.0 was not advanced AI at all,
+
+1330
+00:55:54,371 --> 00:55:55,626
+but a promotional patch
+
+1331
+00:55:55,626 --> 00:55:57,809
+leveraging low-level system permissions.
+
+1332
+00:55:58,130 --> 00:56:00,369
+the report accused the firm of misusing
+
+1333
+00:56:00,369 --> 00:56:01,977
+Android install permissions,
+
+1334
+00:56:01,977 --> 00:56:03,543
+using Single-click download
+
+1335
+00:56:03,543 --> 00:56:06,076
+to silently install games in the background
+
+1336
+00:56:06,076 --> 00:56:07,490
+without users' knowledge.
+
+1337
+00:56:07,800 --> 00:56:10,278
+Fuzzy Panda further alleged that AppLovin,
+
+1338
+00:56:10,278 --> 00:56:11,971
+in its push into e-commerce,
+
+1339
+00:56:11,971 --> 00:56:13,060
+used illegal SDKs.
+
+1340
+00:56:13,060 --> 00:56:15,494
+that is, the SDK tracked minors' data
+
+1341
+00:56:15,494 --> 00:56:19,460
+and stole Meta's attribution model to inflate ad results.
+
+1342
+00:56:19,780 --> 00:56:21,873
+In today's Apple privacy regime,
+
+1343
+00:56:21,873 --> 00:56:24,980
+this is akin to claiming a bank spies on PINs.
+
+1344
+00:56:25,200 --> 00:56:27,516
+the second clash: Muddy Waters questions
+
+1345
+00:56:27,516 --> 00:56:29,120
+growth claims' authenticity.
+
+1346
+00:56:29,320 --> 00:56:31,946
+If the first battle questioned technical methods,
+
+1347
+00:56:31,946 --> 00:56:33,443
+then 'King of Short Selling'
+
+1348
+00:56:33,443 --> 00:56:35,996
+Carson Block and Muddy Waters entered the fray,
+
+1349
+00:56:35,996 --> 00:56:38,240
+targeting AppLovin's core business logic.
+
+1350
+00:56:38,700 --> 00:56:40,735
+Muddy Waters' report lambasts AppLovin;
+
+1351
+00:56:40,735 --> 00:56:43,100
+its 'incremental conversion' logic is flawed
+
+1352
+00:56:43,610 --> 00:56:46,616
+the report, via independent audits of advertiser data,
+
+1353
+00:56:46,616 --> 00:56:48,783
+claimed the true uplift from AppLovin
+
+1354
+00:56:48,783 --> 00:56:51,010
+was just one-third of what it claimed
+
+1355
+00:56:51,330 --> 00:56:52,512
+Muddy Waters claims
+
+1356
+00:56:52,512 --> 00:56:55,500
+AppLovin cleverly merged cross-platform ID data
+
+1357
+00:56:55,500 --> 00:56:59,049
+to credit natural traffic from Meta or TikTok as its own
+
+1358
+00:56:59,220 --> 00:57:01,361
+thus crafting AI-driven growth illusions
+
+1359
+00:57:01,361 --> 00:57:02,700
+in its financial reports.
+
+1360
+00:57:02,980 --> 00:57:05,024
+this deconstruction of 'black box
+
+1361
+00:57:05,024 --> 00:57:07,580
+attribution' shook investors deeply once
+
+1362
+00:57:07,820 --> 00:57:10,205
+The third clash came recently with Capital Watch,
+
+1363
+00:57:10,205 --> 00:57:12,217
+which accused AppLovin of 'Southeast Asia
+
+1364
+00:57:12,217 --> 00:57:14,180
+money laundering' and geopolitical ties.
+
+1365
+00:57:14,340 --> 00:57:17,341
+Yet soon, CapitalWatch apologized for some factual errors
+
+1366
+00:57:17,341 --> 00:57:19,110
+and retracted part of its claims,
+
+1367
+00:57:19,110 --> 00:57:22,220
+though it vowed to raise further questions about AppLovin.
+
+1368
+00:57:22,460 --> 00:57:24,000
+these back-and-forth clashes
+
+1369
+00:57:24,000 --> 00:57:25,925
+not only reveal Wall Street's deep
+
+1370
+00:57:25,925 --> 00:57:27,630
+concerns over such high-growth,
+
+1371
+00:57:27,630 --> 00:57:29,500
+low-transparency algorithm models
+
+1372
+00:57:29,730 --> 00:57:31,179
+it also saw AppLovin's stock
+
+1373
+00:57:31,179 --> 00:57:33,250
+endure extreme price swings and turmoil
+
+1374
+00:57:33,550 --> 00:57:35,470
+for a very long stretch of time
+
+1375
+00:57:35,630 --> 00:57:38,580
+the sellers' claims and buyers' bullish bets on AppLovin
+
+1376
+00:57:38,580 --> 00:57:40,821
+clashed fiercely in the secondary market,
+
+1377
+00:57:40,821 --> 00:57:43,280
+sending shares on wild swings multiple times.
+
+1378
+00:57:43,650 --> 00:57:47,313
+You joined the S&P 500 Index in September
+
+1379
+00:57:47,313 --> 00:57:49,850
+2025—does that matter to you?
+
+1380
+00:57:50,470 --> 00:57:52,190
+Not much of an impact, to be frank.
+
+1381
+00:57:52,190 --> 00:57:53,528
+But over the past year,
+
+1382
+00:57:53,528 --> 00:57:56,173
+we often joked that our team would get busy
+
+1383
+00:57:56,173 --> 00:57:59,127
+each time the S&P 500 Index underwent a rebalance,
+
+1384
+00:57:59,127 --> 00:58:01,440
+which happened right around this time.
+
+1385
+00:58:01,840 --> 00:58:04,680
+like, about a week after the earnings report?
+
+1386
+00:58:04,760 --> 00:58:06,888
+once the earnings report came out,
+
+1387
+00:58:06,888 --> 00:58:10,307
+our team would gather up and often discuss one topic:
+
+1388
+00:58:10,307 --> 00:58:12,630
+whether we'd be added to the S&P 500
+
+1389
+00:58:12,720 --> 00:58:14,912
+then folks would treat this as a bit of fun,
+
+1390
+00:58:14,912 --> 00:58:17,920
+and sometimes we'd even joke around and say, 'Bet ten bucks'
+
+1391
+00:58:18,240 --> 00:58:20,535
+Yes, and when it actually happened,
+
+1392
+00:58:20,535 --> 00:58:23,040
+we weren't really surprised, were we?
+
+1393
+00:58:23,040 --> 00:58:26,520
+although the S&P itself is decided by the committee,
+
+1394
+00:58:26,520 --> 00:58:27,835
+unlike some indices
+
+1395
+00:58:27,835 --> 00:58:31,160
+that are fully rule-driven in their composition.
+
+1396
+00:58:31,280 --> 00:58:32,342
+but the S&P itself
+
+1397
+00:58:32,342 --> 00:58:35,000
+still operates within a set of defined rules?
+
+1398
+00:58:35,120 --> 00:58:36,830
+those checkboxes in the rules —
+
+1399
+00:58:36,830 --> 00:58:39,463
+we had already ticked them off months before,
+
+1400
+00:58:39,463 --> 00:58:40,900
+during that time period.
+
+1401
+00:58:41,020 --> 00:58:42,700
+so within our team back then,
+
+1402
+00:58:42,700 --> 00:58:44,980
+joining S&P was just a matter of time.
+
+1403
+00:58:45,100 --> 00:58:47,405
+this means you've finally gained recognition
+
+1404
+00:58:47,405 --> 00:58:48,820
+from the mainstream market
+
+1405
+00:58:49,290 --> 00:58:50,990
+Not important. I truly don't care.
+
+1406
+00:58:50,990 --> 00:58:52,329
+After years as an underdog,
+
+1407
+00:58:52,329 --> 00:58:53,218
+we no longer care
+
+1408
+00:58:53,218 --> 00:58:55,729
+whether the mainstream market accepts us or not.
+
+1409
+00:58:56,040 --> 00:58:56,046
+another downside of being an underdog is that many questioned you — yes, in 2015 you faced numerous rounds of short-selling
+
+1410
+00:59:03,280 --> 00:59:06,120
+I see your CEO has addressed these claims many times over
+
+1411
+00:59:06,120 --> 00:59:08,651
+I still want to ask this: regarding the short-sellers,
+
+1412
+00:59:08,651 --> 00:59:10,210
+especially those who target you
+
+1413
+00:59:10,730 --> 00:59:13,332
+the compliance of some of your data,
+
+1414
+00:59:13,332 --> 00:59:16,503
+or whether you used somewhat shady methods
+
+1415
+00:59:16,503 --> 00:59:18,240
+to improve your models?
+
+1416
+00:59:18,480 --> 00:59:19,680
+What is your response to this?
+
+1417
+00:59:19,880 --> 00:59:23,850
+I think all those claims from the short-sellers
+
+1418
+00:59:23,850 --> 00:59:26,470
+are surely completely baseless.
+
+1419
+00:59:26,830 --> 00:59:29,124
+Regarding this, I can say that during the period
+
+1420
+00:59:29,124 --> 00:59:30,638
+when the short report came out,
+
+1421
+00:59:30,638 --> 00:59:31,420
+I played a role.
+
+1422
+00:59:31,420 --> 00:59:33,095
+when this short report first came out,
+
+1423
+00:59:33,095 --> 00:59:35,179
+we all took it very seriously, as did I myself.
+
+1424
+00:59:35,320 --> 00:59:36,672
+so my main role back then
+
+1425
+00:59:36,672 --> 00:59:39,000
+was that I carefully read the short report
+
+1426
+00:59:39,280 --> 00:59:40,072
+then I checked
+
+1427
+00:59:40,072 --> 00:59:42,847
+whether the technical claims in the short report
+
+1428
+00:59:42,847 --> 00:59:44,490
+actually occurred in reality
+
+1429
+00:59:44,930 --> 00:59:49,960
+then I checked each point one by one against our system data
+
+1430
+00:59:50,160 --> 00:59:53,208
+and later on, we found that all of them were wrong —
+
+1431
+00:59:53,208 --> 00:59:54,366
+once that was clear,
+
+1432
+00:59:54,366 --> 00:59:57,049
+I no longer took direct part in this matter.
+
+1433
+00:59:57,090 --> 00:59:59,090
+I passed this information
+
+1434
+00:59:59,090 --> 01:00:02,050
+to Adam and our other PR departments.
+
+1435
+01:00:02,370 --> 01:00:04,553
+then I went back to my own role and tasks,
+
+1436
+01:00:04,553 --> 01:00:07,110
+and no longer followed up on this matter at all.
+
+1437
+01:00:07,390 --> 01:00:11,210
+so for you all, those mistakes were indeed entirely wrong
+
+1438
+01:00:11,250 --> 01:00:12,994
+I think in that context back then,
+
+1439
+01:00:12,994 --> 01:00:15,850
+it was hard to argue whether they were right or wrong?
+
+1440
+01:00:16,130 --> 01:00:20,658
+this is why I think we've always, when handling this matter,
+
+1441
+01:00:20,658 --> 01:00:23,470
+chosen to let time speak for itself
+
+1442
+01:00:23,470 --> 01:00:24,869
+once some time had passed,
+
+1443
+01:00:24,869 --> 01:00:27,928
+you'd find that the claims of short-sellers against us
+
+1444
+01:00:27,928 --> 01:00:29,460
+would crumble on their own
+
+1445
+01:00:29,460 --> 01:00:31,756
+In 2025, as shares surged, outside
+
+1446
+01:00:31,756 --> 01:00:34,360
+follow-up led to the short report.
+
+1447
+01:00:34,640 --> 01:00:35,803
+so during this time,
+
+1448
+01:00:35,803 --> 01:00:38,560
+did you notice any changes within yourselves?
+
+1449
+01:00:38,740 --> 01:00:44,190
+I think the whole team has remained fairly stable overall.
+
+1450
+01:00:44,590 --> 01:00:46,185
+when the down-report came out,
+
+1451
+01:00:46,185 --> 01:00:48,631
+I was quite worried too—whether team members
+
+1452
+01:00:48,631 --> 01:00:50,300
+might face any sort of impact
+
+1453
+01:00:50,300 --> 01:00:51,080
+at this stage
+
+1454
+01:00:51,080 --> 01:00:51,080
+Yes.
+
+1455
+01:00:51,560 --> 01:00:51,560
+Right?
+
+1456
+01:00:52,300 --> 01:00:55,030
+including team members—whether they might face doubts
+
+1457
+01:00:55,030 --> 01:00:57,195
+from those close to them—during that time,
+
+1458
+01:00:57,195 --> 01:01:00,030
+I sent some memos to the team to address such concerns
+
+1459
+01:01:00,030 --> 01:01:02,070
+just to say that if you have anything
+
+1460
+01:01:02,590 --> 01:01:04,710
+let me briefly explain what has been happening
+
+1461
+01:01:04,830 --> 01:01:08,800
+if anyone has concerns, feel free to come and talk to me
+
+1462
+01:01:09,040 --> 01:01:12,389
+in the end, not many people came to talk to me—perhaps
+
+1463
+01:01:12,389 --> 01:01:13,717
+everyone on the team
+
+1464
+01:01:13,717 --> 01:01:16,120
+had already grasped the issue clearly
+
+1465
+01:01:21,400 --> 01:01:24,341
+AppLovin has been quite restrained in hiring talent.
+
+1466
+01:01:24,341 --> 01:01:26,130
+Walking into its Palo Alto HQ,
+
+1467
+01:01:26,130 --> 01:01:27,283
+the first thought is:
+
+1468
+01:01:27,283 --> 01:01:30,399
+it feels very empty—few people in the entire building.
+
+1469
+01:01:30,580 --> 01:01:33,051
+the company now has over 100 engineers,
+
+1470
+01:01:33,051 --> 01:01:34,929
+and per the earnings report,
+
+1471
+01:01:34,929 --> 01:01:38,200
+each one generates roughly $40 million in profit
+
+1472
+01:01:38,400 --> 01:01:40,971
+but Giovanni Ge still faces his toughest challenge:
+
+1473
+01:01:40,971 --> 01:01:41,640
+hiring staff
+
+1474
+01:01:42,020 --> 01:01:42,027
+the challenge lies in sustaining an 'underdog' culture internally while the company grows fast and faces external downgrades
+
+1475
+01:01:49,780 --> 01:01:51,445
+I think the biggest hurdle is
+
+1476
+01:01:51,445 --> 01:01:53,340
+that the talent market doubts us
+
+1477
+01:01:53,810 --> 01:01:57,210
+we found it extremely tough to hire people that year in 2023
+
+1478
+01:01:57,450 --> 01:02:00,090
+because folks all want to join well-known big firms.
+
+1479
+01:02:00,370 --> 01:02:02,699
+Yes, and not quite — in North America,
+
+1480
+01:02:02,699 --> 01:02:06,400
+I think the diversity of talent options is quite good
+
+1481
+01:02:06,680 --> 01:02:08,121
+many are also keen to join
+
+1482
+01:02:08,121 --> 01:02:10,560
+small firms or startups with good prospects.
+
+1483
+01:02:10,820 --> 01:02:13,112
+but in the eyes of many of our top talents,
+
+1484
+01:02:13,112 --> 01:02:15,460
+we aren't even seen as a promising startup.
+
+1485
+01:02:15,940 --> 01:02:17,300
+in the year 2023
+
+1486
+01:02:17,340 --> 01:02:19,340
+why didn't folks see your company as promising
+
+1487
+01:02:19,340 --> 01:02:21,610
+we were quite small in size
+
+1488
+01:02:21,890 --> 01:02:24,550
+second, in this industry we're in — well,
+
+1489
+01:02:24,550 --> 01:02:27,840
+at that time, Google and MT were seen as already
+
+1490
+01:02:27,840 --> 01:02:30,500
+extremely mature and well-established?
+
+1491
+01:02:30,500 --> 01:02:30,506
+had already cornered that market. Hence, folks likely saw the field as not particularly exciting. Hmm, so hiring was tough back then.
+
+1492
+01:02:37,610 --> 01:02:39,370
+How did you tackle this problem back then?
+
+1493
+01:02:39,410 --> 01:02:41,720
+Hmm, wait—some issues, perhaps you then,
+
+1494
+01:02:41,720 --> 01:02:43,906
+and I tried many approaches myself,
+
+1495
+01:02:43,906 --> 01:02:45,780
+but none worked all that well?
+
+1496
+01:02:45,940 --> 01:02:48,340
+later on, I came to see it clearly
+
+1497
+01:02:48,340 --> 01:02:49,925
+I felt that the most important thing then
+
+1498
+01:02:49,925 --> 01:02:51,240
+was just to get the product built
+
+1499
+01:02:51,280 --> 01:02:53,788
+we used some resources the team already had back then,
+
+1500
+01:02:53,788 --> 01:02:56,343
+but one great thing about AppLovin is its top-to-bottom
+
+1501
+01:02:56,343 --> 01:02:57,319
+technical leadership
+
+1502
+01:02:57,780 --> 01:02:59,175
+Hmm, the tech leaders at all levels —
+
+1503
+01:02:59,175 --> 01:03:00,900
+they are quite hands-on in their approach.
+
+1504
+01:03:00,900 --> 01:03:00,900
+Morn.
+
+1505
+01:03:01,640 --> 01:03:04,568
+this is something we have that many other firms,
+
+1506
+01:03:04,568 --> 01:03:07,560
+including many Big Tech companies, simply do not
+
+1507
+01:03:07,600 --> 01:03:10,065
+that is when we want to build something new,
+
+1508
+01:03:10,065 --> 01:03:12,699
+but can't find the right talent to carry it out.
+
+1509
+01:03:13,220 --> 01:03:14,627
+our top tech leader
+
+1510
+01:03:14,627 --> 01:03:18,110
+can step in and personally tackle this project
+
+1511
+01:03:18,110 --> 01:03:18,750
+wrote code myself
+
+1512
+01:03:18,830 --> 01:03:20,001
+Yes, wrote the code ourselves, right?
+
+1513
+01:03:20,001 --> 01:03:21,339
+So that was one choice we made back then.
+
+1514
+01:03:21,980 --> 01:03:23,372
+Of course, after that, right?
+
+1515
+01:03:23,372 --> 01:03:25,246
+We achieved some level of success.
+
+1516
+01:03:25,246 --> 01:03:27,870
+Then, our—well, we gained recognition in the market,
+
+1517
+01:03:27,870 --> 01:03:29,959
+and our stock prices rose quite nicely.
+
+1518
+01:03:30,280 --> 01:03:33,596
+and once our financial footing became more solid,
+
+1519
+01:03:33,596 --> 01:03:36,124
+our ability to offer competitive pay
+
+1520
+01:03:36,124 --> 01:03:37,880
+for talent also improved.
+
+1521
+01:03:38,040 --> 01:03:41,440
+so after 2024, we made a few key changes in our path
+
+1522
+01:03:41,440 --> 01:03:43,310
+One was that our pay rates
+
+1523
+01:03:43,310 --> 01:03:46,188
+were the highest across Silicon Valley.
+
+1524
+01:03:46,188 --> 01:03:48,777
+Of course, once AI emerged, the bubble —
+
+1525
+01:03:48,777 --> 01:03:51,079
+yes — came crashing over us again.
+
+1526
+01:03:51,200 --> 01:03:53,094
+but outside the AI realm,
+
+1527
+01:03:53,094 --> 01:03:57,910
+we remain the top-paying firm in all of Silicon Valley today.
+
+1528
+01:03:58,310 --> 01:04:00,150
+and another key shift back then
+
+1529
+01:04:00,150 --> 01:04:01,990
+was that we completely dropped
+
+1530
+01:04:02,230 --> 01:04:06,649
+the industry's focus on seasoned candidates shifted entirely —
+
+1531
+01:04:06,649 --> 01:04:09,080
+our hiring now centers elsewhere.
+
+1532
+01:04:09,360 --> 01:04:13,350
+new hires include those who just graduated from college,
+
+1533
+01:04:13,350 --> 01:04:17,050
+or have less than two years of industry experience
+
+1534
+01:04:17,290 --> 01:04:18,930
+Why did we make this particular shift then?
+
+1535
+01:04:19,170 --> 01:04:21,270
+we found, which aspect did you shift?
+
+1536
+01:04:21,550 --> 01:04:24,779
+it was a new pay shift—senior industry folks were dropped,
+
+1537
+01:04:24,779 --> 01:04:26,480
+as they were tough to recruit
+
+1538
+01:04:26,600 --> 01:04:28,418
+Hmm, there are many factors.
+
+1539
+01:04:28,418 --> 01:04:30,639
+One key point I noticed this year
+
+1540
+01:04:30,639 --> 01:04:33,939
+is that the value of Experience is overestimated.
+
+1541
+01:04:34,420 --> 01:04:36,450
+This finding is key.
+
+1542
+01:04:36,450 --> 01:04:36,450
+Yes
+
+1543
+01:04:36,890 --> 01:04:38,650
+Why so, how did you come to this view?
+
+1544
+01:04:38,850 --> 01:04:41,887
+you realize that if you run a company
+
+1545
+01:04:41,887 --> 01:04:44,186
+and want to solve a problem
+
+1546
+01:04:44,186 --> 01:04:48,620
+you believe has already been addressed by other firms
+
+1547
+01:04:48,700 --> 01:04:51,452
+the most direct approach you might instinctively take
+
+1548
+01:04:51,452 --> 01:04:53,034
+is to poach a Director—someone
+
+1549
+01:04:53,034 --> 01:04:54,933
+who excels at this—from the company
+
+1550
+01:04:54,933 --> 01:04:56,960
+that's best at solving this very issue
+
+1551
+01:04:57,210 --> 01:04:59,370
+have him rebuild the team
+
+1552
+01:04:59,930 --> 01:05:01,370
+then the issue gets solved
+
+1553
+01:05:01,730 --> 01:05:04,986
+but if you look closely through history for such a case,
+
+1554
+01:05:04,986 --> 01:05:07,688
+you'll find that most of these kinds of cases
+
+1555
+01:05:07,688 --> 01:05:09,130
+actually end up failing.
+
+1556
+01:05:09,680 --> 01:05:12,240
+There are many reasons here, but I won't go through them all.
+
+1557
+01:05:12,460 --> 01:05:13,678
+go through it once more.
+
+1558
+01:05:13,678 --> 01:05:14,642
+But I believe that
+
+1559
+01:05:14,642 --> 01:05:16,946
+truly outstanding people—what matters most
+
+1560
+01:05:16,946 --> 01:05:18,339
+is their learning ability.
+
+1561
+01:05:18,620 --> 01:05:20,316
+but all these past experiences don't reflect
+
+1562
+01:05:20,316 --> 01:05:21,725
+one's learning skills—they just show
+
+1563
+01:05:21,725 --> 01:05:22,900
+what the person already knows.
+
+1564
+01:05:23,580 --> 01:05:26,248
+but in truth, I don't need to hire someone
+
+1565
+01:05:26,248 --> 01:05:27,616
+just to do something
+
+1566
+01:05:27,616 --> 01:05:29,440
+they already know how to do
+
+1567
+01:05:29,480 --> 01:05:31,788
+What matters more is that the person you hire
+
+1568
+01:05:31,788 --> 01:05:32,660
+can grow quickly
+
+1569
+01:05:32,660 --> 01:05:35,020
+and figure out things they didn't know before
+
+1570
+01:05:35,180 --> 01:05:38,107
+the value of this far surpasses the knowledge
+
+1571
+01:05:38,107 --> 01:05:41,100
+already stored and crystallized in one's mind
+
+1572
+01:05:41,620 --> 01:05:43,859
+so new hires tend to have strong growth potential.
+
+1573
+01:05:44,020 --> 01:05:44,691
+And then, ah,
+
+1574
+01:05:44,691 --> 01:05:47,743
+as for the way we approach things here — we want to,
+
+1575
+01:05:47,743 --> 01:05:49,880
+we aim to break away from the norm.
+
+1576
+01:05:50,020 --> 01:05:52,286
+Often, such pre-existing knowledge
+
+1577
+01:05:52,286 --> 01:05:54,346
+ends up becoming a hindrance.
+
+1578
+01:05:54,346 --> 01:05:57,779
+Hence, starting in 2024, our hiring philosophy shifted.
+
+1579
+01:05:58,020 --> 01:06:00,260
+I want to challenge you on one specific point
+
+1580
+01:06:00,300 --> 01:06:03,677
+but I think AppLovin's ad campaign taking off wasn't
+
+1581
+01:06:03,677 --> 01:06:06,340
+mainly because we hired you specifically
+
+1582
+01:06:06,380 --> 01:06:07,197
+and did the skill set
+
+1583
+01:06:07,197 --> 01:06:09,300
+you had help drive this business forward successfully?
+
+1584
+01:06:09,300 --> 01:06:11,718
+Yes, so I often joke about myself —
+
+1585
+01:06:11,718 --> 01:06:13,330
+I'd never hire myself.
+
+1586
+01:06:13,330 --> 01:06:16,187
+I feel lucky that I joined this company
+
+1587
+01:06:16,187 --> 01:06:18,459
+before I even came to AppLovin.
+
+1588
+01:06:18,660 --> 01:06:19,180
+As for me
+
+1589
+01:06:19,220 --> 01:06:21,647
+because the stages were different—back then
+
+1590
+01:06:21,647 --> 01:06:23,511
+you were building something new,
+
+1591
+01:06:23,511 --> 01:06:25,939
+so you needed the skill set you already had
+
+1592
+01:06:26,100 --> 01:06:27,412
+but now you have a methodology,
+
+1593
+01:06:27,412 --> 01:06:28,900
+so scaling is what you need to do
+
+1594
+01:06:28,900 --> 01:06:31,700
+so hiring bright young folks would be quite reasonable
+
+1595
+01:06:31,740 --> 01:06:32,802
+Yes, I think that
+
+1596
+01:06:32,802 --> 01:06:36,190
+relying solely on folks with zero prior experience...
+
+1597
+01:06:36,550 --> 01:06:39,232
+Hmm, if you try to build a team with folks
+
+1598
+01:06:39,232 --> 01:06:40,868
+who have zero experience,
+
+1599
+01:06:40,868 --> 01:06:44,010
+then your team truly needs a seed, a seed player?
+
+1600
+01:06:44,240 --> 01:06:47,237
+this seed player could be someone with vast experience,
+
+1601
+01:06:47,237 --> 01:06:49,099
+or someone with little experience
+
+1602
+01:06:49,099 --> 01:06:50,680
+but who learns very quickly.
+
+1603
+01:06:50,840 --> 01:06:52,082
+That could work too.
+
+1604
+01:06:52,082 --> 01:06:53,822
+When I first joined AppLovin,
+
+1605
+01:06:53,822 --> 01:06:57,489
+I didn't know most of the things I ended up learning there
+
+1606
+01:06:58,210 --> 01:07:00,772
+I figured things out myself through hands-on practice
+
+1607
+01:07:00,772 --> 01:07:01,450
+once I joined
+
+1608
+01:07:02,010 --> 01:07:05,466
+so I think the roughly ten years of industry experience
+
+1609
+01:07:05,466 --> 01:07:08,545
+I had before joining AppLovin was overestimated —
+
+1610
+01:07:08,545 --> 01:07:10,870
+I don't think it held that much value
+
+1611
+01:07:11,030 --> 01:07:14,263
+If I had just spent two years in the industry, say at Meta,
+
+1612
+01:07:14,263 --> 01:07:16,590
+I think I could have done similar things.
+
+1613
+01:07:16,830 --> 01:07:18,630
+What traits do you think set you apart here
+
+1614
+01:07:19,190 --> 01:07:21,880
+and that is what makes you the right person,
+
+1615
+01:07:21,880 --> 01:07:24,999
+then led 'up loving' to thrive over these three years.
+
+1616
+01:07:25,400 --> 01:07:26,640
+I think it is, hmm,
+
+1617
+01:07:27,150 --> 01:07:29,190
+just dare to challenge the norm
+
+1618
+01:07:29,190 --> 01:07:32,285
+when doing things—don't stick rigidly to rules,
+
+1619
+01:07:32,285 --> 01:07:34,283
+and don't copy Google and Meta
+
+1620
+01:07:34,283 --> 01:07:38,080
+just because they're the undisputed giants in this field.
+
+1621
+01:07:38,560 --> 01:07:42,000
+and I have always reminded myself and urged my team as well
+
+1622
+01:07:42,000 --> 01:07:45,190
+since we don't have as many resources as Google and Meta,
+
+1623
+01:07:45,190 --> 01:07:48,380
+we simply can't use their methods to solve our problems
+
+1624
+01:07:48,780 --> 01:07:50,172
+Yes, in fact, I've noticed
+
+1625
+01:07:50,172 --> 01:07:52,872
+that many firms in the industry—be they in ads
+
+1626
+01:07:52,872 --> 01:07:55,280
+or other sectors—follow similar patterns
+
+1627
+01:07:55,640 --> 01:07:57,720
+I think these firms often approach things in this way,
+
+1628
+01:07:58,180 --> 01:08:00,904
+Hmm, a common mistake is that they copy Big Tech,
+
+1629
+01:08:00,904 --> 01:08:03,860
+and mimic the ways Big Tech uses to solve problems.
+
+1630
+01:08:04,140 --> 01:08:07,500
+yet failed to realize they lack the resources Big Tech has
+
+1631
+01:08:07,580 --> 01:08:09,019
+if you lack the resources of Big Tech
+
+1632
+01:08:09,019 --> 01:08:10,925
+yet still try to solve problems as Big Tech does,
+
+1633
+01:08:10,925 --> 01:08:11,820
+you are doomed to fail.
+
+1634
+01:08:11,960 --> 01:08:14,617
+So AppLovin will surely grow larger over time,
+
+1635
+01:08:14,617 --> 01:08:17,665
+yes—but so far, I see that you remain quite cautious
+
+1636
+01:08:17,665 --> 01:08:19,520
+when it comes to hiring people
+
+1637
+01:08:19,680 --> 01:08:22,305
+though you are now a company with a huge market cap,
+
+1638
+01:08:22,305 --> 01:08:23,800
+I assume you have ample cash.
+
+1639
+01:08:24,029 --> 01:08:27,510
+and how do you approach growth as you scale up
+
+1640
+01:08:27,939 --> 01:08:30,999
+will you keep 'restraint' as a core value
+
+1641
+01:08:30,999 --> 01:08:32,805
+across the whole team,
+
+1642
+01:08:32,805 --> 01:08:36,179
+and how do you avoid falling into the traps
+
+1643
+01:08:36,179 --> 01:08:37,749
+of big corporations?
+
+1644
+01:08:37,750 --> 01:08:40,310
+I think 'restraint' is a term you used most aptly and well
+
+1645
+01:08:40,590 --> 01:08:43,984
+we aren't trying to keep the team tiny at all—we are hiring,
+
+1646
+01:08:43,984 --> 01:08:45,710
+and we keep hiring constantly
+
+1647
+01:08:45,830 --> 01:08:48,069
+but we have indeed stayed self-restrained
+
+1648
+01:08:48,390 --> 01:08:50,064
+we won't hire just to hire,
+
+1649
+01:08:50,064 --> 01:08:52,234
+and we won't squander our resources
+
+1650
+01:08:52,234 --> 01:08:54,469
+just because we have enough of them.
+
+1651
+01:08:54,819 --> 01:08:55,975
+because in my view,
+
+1652
+01:08:55,975 --> 01:08:59,899
+when a team becomes overly bloated or just too large in size,
+
+1653
+01:09:00,290 --> 01:09:02,478
+the extra pay you hand out
+
+1654
+01:09:02,478 --> 01:09:06,770
+is just a tiny fraction of all the losses you face
+
+1655
+01:09:07,930 --> 01:09:11,050
+once a team becomes bloated, it harms the existing team
+
+1656
+01:09:11,450 --> 01:09:14,698
+the impact on future iteration speeds
+
+1657
+01:09:14,698 --> 01:09:17,421
+and the opportunity costs lost
+
+1658
+01:09:17,421 --> 01:09:20,319
+will grow by orders of magnitude.
+
+1659
+01:09:20,880 --> 01:09:22,661
+so from this perspective,
+
+1660
+01:09:22,661 --> 01:09:25,481
+yes — this is why we truly wish to stay,
+
+1661
+01:09:25,481 --> 01:09:27,113
+to remain restrained —
+
+1662
+01:09:27,113 --> 01:09:28,448
+that is our motive?
+
+1663
+01:09:28,689 --> 01:09:32,933
+and as for how to avoid repeating the mistakes
+
+1664
+01:09:32,933 --> 01:09:36,439
+that other big firms have made before
+
+1665
+01:09:36,520 --> 01:09:39,685
+I'm quite puzzled too—everyone knows this path is wrong,
+
+1666
+01:09:39,685 --> 01:09:40,871
+yet so many companies
+
+1667
+01:09:40,871 --> 01:09:43,358
+keep making the same mistake time and again.
+
+1668
+01:09:43,510 --> 01:09:45,750
+because with more people, politics is bound to come.
+
+1669
+01:09:46,069 --> 01:09:48,483
+Right? A person might just slip
+
+1670
+01:09:48,483 --> 01:09:50,979
+and take that first wrong step.
+
+1671
+01:09:51,180 --> 01:09:52,790
+because I think most companies
+
+1672
+01:09:52,790 --> 01:09:54,723
+where the founders are still around
+
+1673
+01:09:54,723 --> 01:09:56,281
+tend to be quite restrained,
+
+1674
+01:09:56,281 --> 01:09:59,019
+but you might have taken that first step by mistake
+
+1675
+01:09:59,520 --> 01:10:02,390
+took that first step and made the wrong choice
+
+1676
+01:10:02,390 --> 01:10:03,546
+then the team grew larger;
+
+1677
+01:10:03,546 --> 01:10:04,880
+once it grew, you lost control,
+
+1678
+01:10:04,880 --> 01:10:07,148
+and once you lost control, it just kept growing more
+
+1679
+01:10:07,670 --> 01:10:09,232
+we'll do our best
+
+1680
+01:10:09,232 --> 01:10:13,460
+to avoid making that first mistake altogether.
+
+1681
+01:10:13,700 --> 01:10:15,220
+Things are fine now; I think things are
+
+1682
+01:10:15,540 --> 01:10:17,397
+Hmm, across our company,
+
+1683
+01:10:17,397 --> 01:10:20,905
+no one treats the headcount in their team
+
+1684
+01:10:20,905 --> 01:10:23,730
+as a metric worth boasting about.
+
+1685
+01:10:24,210 --> 01:10:27,510
+So, I myself don't want the team to become overly bloated.
+
+1686
+01:10:27,510 --> 01:10:28,454
+My subordinates,
+
+1687
+01:10:28,454 --> 01:10:29,810
+the managers under me,
+
+1688
+01:10:29,810 --> 01:10:33,170
+also don't wish for these teams to grow excessively large.
+
+1689
+01:10:33,290 --> 01:10:35,819
+so culturally, we still have a fair degree
+
+1690
+01:10:35,819 --> 01:10:38,720
+of resistance to teams becoming overly bloated.
+
+1691
+01:10:38,760 --> 01:10:42,680
+After 2025, will you find it easier to hire people?
+
+1692
+01:10:42,940 --> 01:10:45,858
+Hmm, it is somewhat easier, somewhat easier indeed.
+
+1693
+01:10:45,858 --> 01:10:48,002
+But then, because our hiring criteria
+
+1694
+01:10:48,002 --> 01:10:51,219
+still differ from those of many firms in the industry.
+
+1695
+01:10:51,740 --> 01:10:52,580
+What are your criteria?
+
+1696
+01:10:52,860 --> 01:10:54,240
+when it comes to talent,
+
+1697
+01:10:54,240 --> 01:10:56,063
+I think most firms when hiring
+
+1698
+01:10:56,063 --> 01:10:58,800
+would naturally aim to recruit the very best
+
+1699
+01:10:58,920 --> 01:11:00,957
+but how we judge the very top talents —
+
+1700
+01:11:00,957 --> 01:11:02,719
+I think that varies quite a bit.
+
+1701
+01:11:02,800 --> 01:11:04,107
+in this AI talent race,
+
+1702
+01:11:04,107 --> 01:11:07,234
+you'll find that many firms truly prefer to seek out
+
+1703
+01:11:07,234 --> 01:11:09,220
+those who stand in the spotlight
+
+1704
+01:11:09,220 --> 01:11:10,300
+Yes, strong pedigree.
+
+1705
+01:11:10,300 --> 01:11:14,073
+with strong academic backgrounds and some media exposure,
+
+1706
+01:11:14,073 --> 01:11:16,230
+having published notable papers
+
+1707
+01:11:16,430 --> 01:11:20,432
+but many of these spotlight talents are overhyped,
+
+1708
+01:11:20,432 --> 01:11:24,600
+I think, because so many firms want to recruit them
+
+1709
+01:11:25,120 --> 01:11:27,280
+they might then be Overpriced
+
+1710
+01:11:27,570 --> 01:11:29,507
+but there might be one more key point:
+
+1711
+01:11:29,507 --> 01:11:31,550
+these individuals under the spotlight,
+
+1712
+01:11:31,550 --> 01:11:33,487
+I think they lack the Underdog spirit
+
+1713
+01:11:33,487 --> 01:11:34,849
+that AppLovin truly needs
+
+1714
+01:11:35,430 --> 01:11:37,646
+we actually focus more on those talents
+
+1715
+01:11:37,646 --> 01:11:39,750
+who sit at the edge of the spotlight.
+
+1716
+01:11:40,490 --> 01:11:42,104
+they are quite close to the spotlight,
+
+1717
+01:11:42,104 --> 01:11:43,370
+and they are truly excellent.
+
+1718
+01:11:43,730 --> 01:11:44,570
+I think they as well
+
+1719
+01:11:44,810 --> 01:11:46,233
+from a statistical standpoint,
+
+1720
+01:11:46,233 --> 01:11:48,737
+they're not much worse than those in the spotlight,
+
+1721
+01:11:48,737 --> 01:11:51,340
+but they might be more reliable — that underdog spirit
+
+1722
+01:11:51,660 --> 01:11:53,603
+or perhaps they never sought the spotlight
+
+1723
+01:11:53,603 --> 01:11:54,483
+in the first place —
+
+1724
+01:11:54,483 --> 01:11:55,610
+and that's precisely why
+
+1725
+01:11:55,610 --> 01:11:57,630
+these folks are who we follow most closely.
+
+1726
+01:11:57,970 --> 01:12:00,286
+thanks to our growth over the past few years,
+
+1727
+01:12:00,286 --> 01:12:02,581
+we've been able to attract such individuals
+
+1728
+01:12:02,581 --> 01:12:04,130
+and convince them to join us.
+
+1729
+01:12:04,410 --> 01:12:06,482
+how to spot those who are underdogs
+
+1730
+01:12:06,482 --> 01:12:08,377
+on the fringes of the spotlight
+
+1731
+01:12:08,377 --> 01:12:11,339
+yet still highly talented — no efficient way exists
+
+1732
+01:12:11,340 --> 01:12:13,988
+No super-efficient method—just talking
+
+1733
+01:12:13,988 --> 01:12:15,940
+one-on-one, person by person.
+
+1734
+01:12:15,940 --> 01:12:17,383
+we are also working hard
+
+1735
+01:12:17,383 --> 01:12:20,510
+to build our brand and employer image in the market
+
+1736
+01:12:20,670 --> 01:12:21,884
+we need to find ways
+
+1737
+01:12:21,884 --> 01:12:24,677
+to clearly convey to our potential candidates
+
+1738
+01:12:24,677 --> 01:12:28,320
+what kind of company we are and what kind of people we seek.
+
+1739
+01:12:28,390 --> 01:12:30,422
+this often draws in candidates
+
+1740
+01:12:30,422 --> 01:12:32,590
+who reach out to us voluntarily
+
+1741
+01:12:32,710 --> 01:12:34,272
+In interviews, what single question
+
+1742
+01:12:34,272 --> 01:12:35,790
+do you value most when assessing?
+
+1743
+01:12:35,790 --> 01:12:37,877
+The question I value most
+
+1744
+01:12:37,877 --> 01:12:41,300
+is whether candidates often make choices
+
+1745
+01:12:41,300 --> 01:12:44,390
+that stand out from the norm in life.
+
+1746
+01:12:44,950 --> 01:12:46,910
+What does this mean?
+
+1747
+01:12:47,180 --> 01:12:49,460
+for instance, I had an offer from a big firm
+
+1748
+01:12:49,460 --> 01:12:50,900
+I won't, I'll start up
+
+1749
+01:12:50,900 --> 01:12:50,901
+This counts as one, yes
+
+1750
+01:12:52,260 --> 01:12:54,494
+for instance, in the Gaokao system in China,
+
+1751
+01:12:54,494 --> 01:12:56,007
+when you were in high school,
+
+1752
+01:12:56,007 --> 01:12:57,900
+you got into a top-tier university
+
+1753
+01:12:58,020 --> 01:13:02,660
+you also had some extracurricular hobbies?
+
+1754
+01:13:02,660 --> 01:13:04,714
+or you might have done some sports,
+
+1755
+01:13:04,714 --> 01:13:06,182
+or perhaps engaged in, uh,
+
+1756
+01:13:06,182 --> 01:13:09,610
+some, like, charitable or philanthropy-related activities?
+
+1757
+01:13:09,810 --> 01:13:11,209
+then I would be quite curious —
+
+1758
+01:13:11,209 --> 01:13:12,816
+back then, everyone saw the Gaokao
+
+1759
+01:13:12,816 --> 01:13:14,375
+as the most vital thing in life
+
+1760
+01:13:14,375 --> 01:13:16,130
+and poured all their energy into it
+
+1761
+01:13:16,320 --> 01:13:18,480
+what drove you to do other things as well
+
+1762
+01:13:18,600 --> 01:13:19,650
+those tiny details
+
+1763
+01:13:19,650 --> 01:13:22,159
+where you can see that when making choices,
+
+1764
+01:13:22,159 --> 01:13:24,494
+he infused his own deliberate thinking —
+
+1765
+01:13:24,494 --> 01:13:26,769
+that is the kind of person I value most.
+
+1766
+01:13:26,890 --> 01:13:29,170
+I value this point very highly indeed.
+
+1767
+01:13:29,250 --> 01:13:31,886
+one thing I was quite curious about
+
+1768
+01:13:31,886 --> 01:13:34,900
+was, right after you graduated from USTC
+
+1769
+01:13:35,200 --> 01:13:36,666
+many went to study in the US,
+
+1770
+01:13:36,666 --> 01:13:39,860
+since folks thought that for PhDs, the US was the top choice,
+
+1771
+01:13:39,860 --> 01:13:40,959
+yet you went to Italy
+
+1772
+01:13:41,320 --> 01:13:44,190
+this choice was truly quite distinctive
+
+1773
+01:13:44,190 --> 01:13:44,663
+Yeah, yeah.
+
+1774
+01:13:44,663 --> 01:13:46,983
+But many of these things, I think, are just chance
+
+1775
+01:13:46,983 --> 01:13:48,356
+occurrences in people's lives.
+
+1776
+01:13:48,356 --> 01:13:50,629
+I don't think we should read too much into them?
+
+1777
+01:13:50,790 --> 01:13:51,877
+when you graduated,
+
+1778
+01:13:51,877 --> 01:13:55,020
+did you find Europe more appealing to you back then?
+
+1779
+01:13:55,060 --> 01:13:57,225
+then you gave up many things for the US
+
+1780
+01:13:57,225 --> 01:13:58,670
+and chose to go to Europe
+
+1781
+01:13:58,670 --> 01:14:00,869
+I think back then, in that context,
+
+1782
+01:14:00,869 --> 01:14:04,470
+it was a rather random choice and not very indicative
+
+1783
+01:14:04,590 --> 01:14:07,140
+Do you think a person might be like that, right?
+
+1784
+01:14:07,140 --> 01:14:08,713
+Like, when making choices, does
+
+1785
+01:14:08,713 --> 01:14:10,559
+one tend to stand out quite a lot?
+
+1786
+01:14:10,560 --> 01:14:14,026
+Do you think your time studying and living in Europe
+
+1787
+01:14:14,026 --> 01:14:15,560
+changed you in any way?
+
+1788
+01:14:15,840 --> 01:14:20,338
+there might be some, there might be some. For
+
+1789
+01:14:20,338 --> 01:14:24,939
+I think life in Europe is more diverse indeed.
+
+1790
+01:14:25,220 --> 01:14:26,416
+in such an environment,
+
+1791
+01:14:26,416 --> 01:14:28,183
+I feel it might have inspired me
+
+1792
+01:14:28,183 --> 01:14:29,841
+to embrace more possibilities
+
+1793
+01:14:29,841 --> 01:14:32,560
+when making choices and thinking through problems
+
+1794
+01:14:32,760 --> 01:14:35,096
+I think Italy is a truly remarkable place,
+
+1795
+01:14:35,096 --> 01:14:37,490
+one steeped in a rich and ancient history
+
+1796
+01:14:37,730 --> 01:14:37,730
+Yes.
+
+1797
+01:14:38,410 --> 01:14:42,429
+very romantic, yet feels a tad sluggish at times.
+
+1798
+01:14:43,070 --> 01:14:45,590
+What does Italy mean to you in your own view?
+
+1799
+01:14:45,790 --> 01:14:47,156
+I think for me, Italy —
+
+1800
+01:14:47,156 --> 01:14:48,782
+well, Italy feels like, hmm,
+
+1801
+01:14:48,782 --> 01:14:51,189
+half of my hometown, wouldn't you say?
+
+1802
+01:14:51,190 --> 01:14:54,825
+I think that during those years when I was in my twenties,
+
+1803
+01:14:54,825 --> 01:14:55,846
+living in Italy,
+
+1804
+01:14:55,846 --> 01:14:58,909
+I experienced a truly wonderful time in my life.
+
+1805
+01:14:59,080 --> 01:15:04,110
+and during that time, I learned a different perspective
+
+1806
+01:15:04,110 --> 01:15:07,930
+on the various choices one makes in life
+
+1807
+01:15:07,930 --> 01:15:09,547
+You say Italy is lazy —
+
+1808
+01:15:09,547 --> 01:15:13,001
+well, I think stereotypes aren't really 'a thing,'
+
+1809
+01:15:13,001 --> 01:15:13,589
+are they?
+
+1810
+01:15:13,590 --> 01:15:16,326
+people tend to fall into, fall quite deeply
+
+1811
+01:15:16,326 --> 01:15:19,780
+into, a classic case of confirmation bias quite often.
+
+1812
+01:15:20,060 --> 01:15:24,090
+In fact, many lazy folks can be found worldwide as well.
+
+1813
+01:15:24,130 --> 01:15:25,965
+if you look at the overall stats,
+
+1814
+01:15:25,965 --> 01:15:27,011
+perhaps on average,
+
+1815
+01:15:27,011 --> 01:15:30,440
+Italians might indeed be a bit lazier than folks elsewhere.
+
+1816
+01:15:30,440 --> 01:15:32,118
+but on an individual basis,
+
+1817
+01:15:32,118 --> 01:15:34,636
+not every Italian is necessarily lazy —
+
+1818
+01:15:34,636 --> 01:15:36,959
+we do have some staff based in Italy.
+
+1819
+01:15:37,100 --> 01:15:39,890
+AppLovin staff in Italy work with high intensity
+
+1820
+01:15:39,890 --> 01:15:42,390
+and maintain excellent productivity levels.
+
+1821
+01:15:42,550 --> 01:15:44,630
+Since you came to Silicon Valley,
+
+1822
+01:15:44,630 --> 01:15:47,230
+do you feel it changed you in some ways?
+
+1823
+01:15:47,480 --> 01:15:49,659
+Yes, yes, I think Silicon Valley is...
+
+1824
+01:15:49,659 --> 01:15:52,479
+I have lived in quite a few different places?
+
+1825
+01:15:52,600 --> 01:15:54,353
+especially in Italy—yes, I lived there,
+
+1826
+01:15:54,353 --> 01:15:56,382
+and to this day I still talk with my friends
+
+1827
+01:15:56,382 --> 01:15:57,259
+who are from Italy.
+
+1828
+01:15:57,660 --> 01:15:58,785
+Hmm, when we chat,
+
+1829
+01:15:58,785 --> 01:16:01,785
+they feel that their lives are far removed
+
+1830
+01:16:01,785 --> 01:16:03,428
+from the lofty heights
+
+1831
+01:16:03,428 --> 01:16:05,820
+of being able to change the world.
+
+1832
+01:16:05,900 --> 01:16:07,128
+so they never think about it,
+
+1833
+01:16:07,128 --> 01:16:08,620
+never even consider this question
+
+1834
+01:16:08,920 --> 01:16:12,546
+I think the biggest lesson Silicon Valley taught me
+
+1835
+01:16:12,546 --> 01:16:14,680
+is that every ordinary person
+
+1836
+01:16:15,150 --> 01:16:19,339
+the gap between him and the power to change the world
+
+1837
+01:16:19,339 --> 01:16:21,790
+is actually quite small indeed.
+
+1838
+01:16:21,950 --> 01:16:23,070
+What you need is just,
+
+1839
+01:16:23,490 --> 01:16:27,170
+it's the courage to take that first step,
+
+1840
+01:16:27,170 --> 01:16:31,310
+and then 365 days of hard work after that step?
+
+1841
+01:16:31,350 --> 01:16:34,470
+this is why you just now asked me a lot about
+
+1842
+01:16:34,470 --> 01:16:36,759
+whether there was one key moment
+
+1843
+01:16:36,759 --> 01:16:38,910
+or one right move for AppLovin?
+
+1844
+01:16:38,990 --> 01:16:42,750
+I don't think this is a key reason Silicon Valley thrived
+
+1845
+01:16:42,840 --> 01:16:44,482
+once many things succeed,
+
+1846
+01:16:44,482 --> 01:16:45,594
+people look back
+
+1847
+01:16:45,594 --> 01:16:49,000
+and wish to pinpoint one or two standout moments.
+
+1848
+01:16:49,440 --> 01:16:53,366
+but the true Silicon Valley success stems from daily efforts,
+
+1849
+01:16:53,366 --> 01:16:55,460
+not just those standout moments.
+
+1850
+01:16:55,780 --> 01:16:57,534
+Hmm, that was said quite well.
+
+1851
+01:16:57,534 --> 01:16:59,529
+Uh, why do you ride a bike to work?
+
+1852
+01:16:59,960 --> 01:17:01,559
+I don't ride my bike to work each day
+
+1853
+01:17:01,800 --> 01:17:03,628
+Hmm, I—I live near the office;
+
+1854
+01:17:03,628 --> 01:17:06,109
+on a good day, it takes about 30 minutes,
+
+1855
+01:17:06,109 --> 01:17:09,570
+but in traffic, it could stretch to 50 or even 60 minutes.
+
+1856
+01:17:09,890 --> 01:17:13,246
+sometimes, if my work hours clash with rush hour traffic,
+
+1857
+01:17:13,246 --> 01:17:15,810
+I might opt for a motorcycle to save time.
+
+1858
+01:17:16,120 --> 01:17:17,960
+So you take US Route 101?
+
+1859
+01:17:18,000 --> 01:17:18,520
+two eight zero.
+
+1860
+01:17:18,520 --> 01:17:18,520
+280
+
+1861
+01:17:19,360 --> 01:17:20,880
+the view on 180 is lovely.
+
+1862
+01:17:21,560 --> 01:17:24,592
+that lake at Crystal Spring—what's it like
+
+1863
+01:17:24,592 --> 01:17:26,470
+to speed along Highway 280?
+
+1864
+01:17:26,470 --> 01:17:27,150
+no speeding
+
+1865
+01:17:27,150 --> 01:17:29,430
+just ride a bike
+
+1866
+01:17:29,430 --> 01:17:33,110
+Yeah, about 70 mph usually—feels quite pleasant to me indeed
+
+1867
+01:17:33,110 --> 01:17:34,593
+the wind would brush past both sides,
+
+1868
+01:17:34,593 --> 01:17:36,900
+and you could hear it through the inside of your helmet.
+
+1869
+01:17:37,060 --> 01:17:38,380
+Does fog often form on 280?
+
+1870
+01:17:38,500 --> 01:17:40,616
+Aren't there mountains on both sides of 280,
+
+1871
+01:17:40,616 --> 01:17:42,179
+with mist drifting through them?
+
+1872
+01:17:42,390 --> 01:17:44,760
+and when you ride the bike, your view is much clearer,
+
+1873
+01:17:44,760 --> 01:17:47,346
+and you can sense the things on both your left and right —
+
+1874
+01:17:47,346 --> 01:17:48,270
+that's great indeed
+
+1875
+01:17:48,350 --> 01:17:50,910
+Are you someone who enjoys speed to some extent?
+
+1876
+01:17:51,290 --> 01:17:52,274
+Hmm, not bad.
+
+1877
+01:17:52,274 --> 01:17:56,459
+I am someone—actually, not a reckless person at all.
+
+1878
+01:17:56,459 --> 01:17:57,854
+I love adventures,
+
+1879
+01:17:57,854 --> 01:18:01,958
+but the risks I take are usually Calculated Risks?
+
+1880
+01:18:02,120 --> 01:18:04,240
+If I ride a bike, I won't go all that fast.
+
+1881
+01:18:04,240 --> 01:18:07,960
+you could just drive along quite easily, say, at 80 mph
+
+1882
+01:18:08,130 --> 01:18:11,561
+you wouldn't even feel that if you drove an SUV at 80 mph,
+
+1883
+01:18:11,561 --> 01:18:12,810
+it feels quite slow
+
+1884
+01:18:12,990 --> 01:18:12,994
+but if you ride a bike at 70 mph, you can definitely feel how fast that speed is, right? Hmm.
+
+1885
+01:18:17,750 --> 01:18:20,420
+so feeling the speed makes you enjoy that sense of motion
+
+1886
+01:18:20,420 --> 01:18:20,980
+Yes, yes indeed.
+
+1887
+01:18:21,020 --> 01:18:23,414
+I heard your job is quite a rat race;
+
+1888
+01:18:23,414 --> 01:18:25,419
+you reply late at night too. Yes,
+
+1889
+01:18:25,540 --> 01:18:26,627
+I, I always tell others,
+
+1890
+01:18:26,627 --> 01:18:28,130
+I say we don't do the rat race —
+
+1891
+01:18:28,130 --> 01:18:30,336
+we don't make you join the rat race at all.
+
+1892
+01:18:30,336 --> 01:18:31,819
+I think we're just hardworking.
+
+1893
+01:18:32,270 --> 01:18:33,400
+OK, what's the difference,
+
+1894
+01:18:33,400 --> 01:18:34,349
+rat race vs. diligence?
+
+1895
+01:18:34,590 --> 01:18:35,470
+What do you see as the gap?
+
+1896
+01:18:35,750 --> 01:18:40,090
+I think 'rat race' is more about what the environment demands,
+
+1897
+01:18:40,090 --> 01:18:43,990
+while 'diligence' is about what one demands of oneself
+
+1898
+01:18:43,990 --> 01:18:45,817
+So in that sense, we are a diligent firm,
+
+1899
+01:18:45,817 --> 01:18:47,270
+not a 'rat race' kind of company
+
+1900
+01:18:47,590 --> 01:18:49,502
+We never require clock-ins,
+
+1901
+01:18:49,502 --> 01:18:52,740
+and we never impose strict work-hour limits?
+
+1902
+01:18:52,980 --> 01:18:56,703
+but many people are— I think it's because they, like me,
+
+1903
+01:18:56,703 --> 01:19:00,990
+feel a deep and genuine eagerness about the work we're doing
+
+1904
+01:19:01,310 --> 01:19:04,050
+so they would choose to do so
+
+1905
+01:19:04,050 --> 01:19:04,610
+very hardworking
+
+1906
+01:19:04,850 --> 01:19:08,104
+you mentioned before that, indeed from a young age,
+
+1907
+01:19:08,104 --> 01:19:10,960
+I know you might not like the term 'genius'
+
+1908
+01:19:10,960 --> 01:19:13,924
+but you were indeed smarter than most from a young age
+
+1909
+01:19:13,924 --> 01:19:16,670
+and joined USTC's Special Class for Gifted Youths
+
+1910
+01:19:16,710 --> 01:19:16,710
+Right?
+
+1911
+01:19:17,510 --> 01:19:21,668
+then you went to Italy for your PhD at a young age.
+
+1912
+01:19:21,668 --> 01:19:26,041
+You mentioned that the period before you joined Meta
+
+1913
+01:19:26,041 --> 01:19:29,070
+was, indeed, a low point in your life.
+
+1914
+01:19:29,590 --> 01:19:32,270
+Yes, I did voice that view in certain settings indeed
+
+1915
+01:19:32,270 --> 01:19:36,740
+Do you think, will I just end up as an ordinary person?
+
+1916
+01:19:36,740 --> 01:19:39,442
+not the person others expected of you as a child,
+
+1917
+01:19:39,442 --> 01:19:41,300
+nor the one you thought you were.
+
+1918
+01:19:41,600 --> 01:19:43,960
+Do you think why there's such a gap like this?
+
+1919
+01:19:44,360 --> 01:19:45,295
+I think for me,
+
+1920
+01:19:45,295 --> 01:19:48,006
+the first major turning point in my life
+
+1921
+01:19:48,006 --> 01:19:50,040
+was when I started university.
+
+1922
+01:19:50,080 --> 01:19:53,017
+I think the biggest gap I had back then
+
+1923
+01:19:53,017 --> 01:19:55,654
+was that, after starting university,
+
+1924
+01:19:55,654 --> 01:19:57,990
+I lacked solid career guidance.
+
+1925
+01:19:58,200 --> 01:19:59,377
+when I started college,
+
+1926
+01:19:59,377 --> 01:20:02,000
+I had immense uncertainty about my future career.
+
+1927
+01:20:02,000 --> 01:20:03,011
+I studied physics,
+
+1928
+01:20:03,011 --> 01:20:05,868
+and back then I wondered—why did I pick physics,
+
+1929
+01:20:05,868 --> 01:20:08,190
+and what kind of jobs could it lead to?
+
+1930
+01:20:08,870 --> 01:20:11,019
+I was deeply puzzled back then;
+
+1931
+01:20:11,019 --> 01:20:13,276
+due to various personal reasons
+
+1932
+01:20:13,276 --> 01:20:15,462
+and some external constraints,
+
+1933
+01:20:15,462 --> 01:20:17,970
+I never found satisfactory answers.
+
+1934
+01:20:18,400 --> 01:20:23,267
+that one impact had a very deep and lasting negative effect
+
+1935
+01:20:23,267 --> 01:20:25,000
+on my life afterward
+
+1936
+01:20:25,280 --> 01:20:25,284
+indeed, because of this, I have always been like this now
+
+1937
+01:20:30,010 --> 01:20:32,789
+I hope that through my own life, this life, this phase,
+
+1938
+01:20:32,789 --> 01:20:35,890
+these various experiences I've gone through in this stage.
+
+1939
+01:20:36,170 --> 01:20:37,871
+I hope to turn things around
+
+1940
+01:20:37,871 --> 01:20:40,059
+and help today's students in school
+
+1941
+01:20:40,059 --> 01:20:42,308
+resolve some of the dilemmas I faced
+
+1942
+01:20:42,308 --> 01:20:44,010
+back in my own student days.
+
+1943
+01:20:44,610 --> 01:20:46,186
+Yes, sometimes I reach out
+
+1944
+01:20:46,186 --> 01:20:48,456
+and talk with some college students
+
+1945
+01:20:48,456 --> 01:20:49,970
+still studying in China.
+
+1946
+01:20:50,330 --> 01:20:53,410
+I noticed that many of these students
+
+1947
+01:20:53,410 --> 01:20:56,490
+still face the same challenges today
+
+1948
+01:20:56,490 --> 01:20:58,536
+Twenty years ago, I started college in 2005.
+
+1949
+01:20:58,536 --> 01:20:59,784
+And now, two decades later,
+
+1950
+01:20:59,784 --> 01:21:02,730
+many students still face the same dilemmas I did back then.
+
+1951
+01:21:02,930 --> 01:21:05,546
+so I'm doing quite a few things now to help them out;
+
+1952
+01:21:05,546 --> 01:21:07,569
+I set up a personal charitable foundation
+
+1953
+01:21:07,690 --> 01:21:08,570
+And then,
+
+1954
+01:21:08,650 --> 01:21:11,548
+one of the focuses of the foundation
+
+1955
+01:21:11,548 --> 01:21:14,930
+is to work with universities across China
+
+1956
+01:21:15,450 --> 01:21:17,876
+and help college students by offering them
+
+1957
+01:21:17,876 --> 01:21:19,668
+ample guidance on career paths,
+
+1958
+01:21:19,668 --> 01:21:22,540
+as well as giving them more courage and resources
+
+1959
+01:21:22,540 --> 01:21:23,830
+to pursue their goals.
+
+1960
+01:21:24,150 --> 01:21:26,435
+so they can make more diverse choices
+
+1961
+01:21:26,435 --> 01:21:29,030
+right at the very start of their journeys
+
+1962
+01:21:29,110 --> 01:21:30,230
+because we back then were
+
+1963
+01:21:30,510 --> 01:21:33,253
+on one hand, we lacked information and knew not what to do;
+
+1964
+01:21:33,253 --> 01:21:34,766
+on the other, when making choices,
+
+1965
+01:21:34,766 --> 01:21:36,990
+we lacked the courage to take a different path
+
+1966
+01:21:37,030 --> 01:21:39,830
+in the end, everyone picked the very same path
+
+1967
+01:21:39,870 --> 01:21:41,512
+but once you joined Meta,
+
+1968
+01:21:41,512 --> 01:21:45,070
+did you feel you found a way to rediscover yourself?
+
+1969
+01:21:45,620 --> 01:21:48,355
+just a career where you stand out,
+
+1970
+01:21:48,355 --> 01:21:52,699
+or perhaps a sacred turning point of sorts, if you will.
+
+1971
+01:21:53,060 --> 01:21:55,977
+Do you see this as a fortunate outcome,
+
+1972
+01:21:55,977 --> 01:21:58,968
+or is it something you'd eventually find
+
+1973
+01:21:58,968 --> 01:22:00,689
+through constant trial?
+
+1974
+01:22:00,690 --> 01:22:05,198
+because I think many geniuses were extremely outstanding
+
+1975
+01:22:05,198 --> 01:22:07,533
+and stood out in high school,
+
+1976
+01:22:07,533 --> 01:22:10,030
+yet later faded into the crowd.
+
+1977
+01:22:10,350 --> 01:22:11,374
+Yes, I think in life
+
+1978
+01:22:11,374 --> 01:22:13,964
+many things can't be shaped by so many 'what-ifs,'
+
+1979
+01:22:13,964 --> 01:22:15,960
+and you don't know what follows them.
+
+1980
+01:22:16,280 --> 01:22:18,973
+but in objective terms, before joining Meta,
+
+1981
+01:22:18,973 --> 01:22:22,630
+I indeed made several wrong career choices along the way
+
+1982
+01:22:23,470 --> 01:22:24,563
+when I joined Meta,
+
+1983
+01:22:24,563 --> 01:22:27,660
+I had also received offers from a few other places.
+
+1984
+01:22:28,060 --> 01:22:29,440
+If I hadn't joined Meta
+
+1985
+01:22:29,440 --> 01:22:32,320
+and had taken one of those other offers instead,
+
+1986
+01:22:32,320 --> 01:22:35,320
+I think that might have been another wrong choice.
+
+1987
+01:22:35,560 --> 01:22:39,960
+so I think buying it at that time was quite fortunate indeed.
+
+1988
+01:22:40,040 --> 01:22:41,646
+How do you define a 'wrong choice'?
+
+1989
+01:22:41,646 --> 01:22:43,836
+A 'wrong choice' is clearly one you see as such
+
+1990
+01:22:43,836 --> 01:22:46,320
+in hindsight, though you didn't know it at the time
+
+1991
+01:22:46,320 --> 01:22:47,641
+Yes, we didn't know back then.
+
+1992
+01:22:47,641 --> 01:22:48,871
+Yes, even when I was at Meta,
+
+1993
+01:22:48,871 --> 01:22:51,083
+the few wrong choices I made before joining Meta —
+
+1994
+01:22:51,083 --> 01:22:53,019
+I didn't know they were wrong at the time.
+
+1995
+01:22:53,180 --> 01:22:55,424
+you joined AppLovin three years ago
+
+1996
+01:22:55,424 --> 01:22:57,220
+and rose so swiftly in rank
+
+1997
+01:22:57,460 --> 01:22:57,460
+Yes.
+
+1998
+01:22:57,660 --> 01:22:59,940
+Yes, such cases are quite rare in Silicon Valley
+
+1999
+01:23:00,180 --> 01:23:02,135
+I believe many Chinese engineers
+
+2000
+01:23:02,135 --> 01:23:04,580
+have quite strong and solid backgrounds
+
+2001
+01:23:04,580 --> 01:23:07,026
+when they aim to move into leadership roles,
+
+2002
+01:23:07,026 --> 01:23:09,700
+there are indeed major ceilings they must face.
+
+2003
+01:23:09,860 --> 01:23:12,840
+Yes, what advice would you offer to them in this case?
+
+2004
+01:23:12,840 --> 01:23:15,088
+for instance, if he wants to move
+
+2005
+01:23:15,088 --> 01:23:17,970
+from senior engineer to leadership roles,
+
+2006
+01:23:17,970 --> 01:23:19,824
+what traits and skill sets
+
+2007
+01:23:19,824 --> 01:23:22,820
+would help him break through this ceiling?
+
+2008
+01:23:23,180 --> 01:23:24,556
+I think first and foremost
+
+2009
+01:23:24,556 --> 01:23:26,620
+is having the right mindset and vision
+
+2010
+01:23:26,890 --> 01:23:30,492
+many who build careers in big firms
+
+2011
+01:23:30,492 --> 01:23:36,050
+still seek validation from the system they operate in.
+
+2012
+01:23:36,690 --> 01:23:39,330
+the big firm system, seeking that system's approval
+
+2013
+01:23:39,530 --> 01:23:41,615
+for instance, they care deeply about
+
+2014
+01:23:41,615 --> 01:23:43,701
+what rating they get in the system
+
+2015
+01:23:43,701 --> 01:23:45,310
+during performance reviews,
+
+2016
+01:23:45,310 --> 01:23:48,230
+and when the system decides to give them a raise.
+
+2017
+01:23:48,350 --> 01:23:50,070
+the system sees him as which professional level
+
+2018
+01:23:50,310 --> 01:23:51,750
+everyone would follow this quite closely.
+
+2019
+01:23:51,960 --> 01:23:54,720
+but I think if you truly wish to become a leader
+
+2020
+01:23:54,950 --> 01:23:56,333
+at some stage in your life,
+
+2021
+01:23:56,333 --> 01:23:59,511
+you should focus more on the standards you set for yourself
+
+2022
+01:23:59,511 --> 01:24:00,750
+and your self-approval.
+
+2023
+01:24:00,990 --> 01:24:03,862
+I think once you break free from this mindset,
+
+2024
+01:24:03,862 --> 01:24:07,310
+it becomes much easier to step into a leadership role?
+
+2025
+01:24:07,310 --> 01:24:08,271
+once you become a leader,
+
+2026
+01:24:08,271 --> 01:24:10,516
+the measure of your work is no longer set by the system,
+
+2027
+01:24:10,516 --> 01:24:12,200
+but by the standards you set for yourself.
+
+2028
+01:24:12,400 --> 01:24:13,615
+Earlier you mentioned
+
+2029
+01:24:13,615 --> 01:24:16,335
+growing into leadership—there's a second point
+
+2030
+01:24:16,335 --> 01:24:17,840
+I'd like to share as well.
+
+2031
+01:24:18,130 --> 01:24:19,434
+Hmm, in this world
+
+2032
+01:24:19,434 --> 01:24:23,810
+it seems like there are choices with very high certainty?
+
+2033
+01:24:23,810 --> 01:24:26,610
+it is well-priced indeed
+
+2034
+01:24:27,130 --> 01:24:29,785
+when you see an option with very high certainty,
+
+2035
+01:24:29,785 --> 01:24:31,820
+even if it seems like a good choice,
+
+2036
+01:24:31,820 --> 01:24:34,420
+the cost you pay afterward will be quite high?
+
+2037
+01:24:34,420 --> 01:24:35,433
+or the fixed cost you pay
+
+2038
+01:24:35,433 --> 01:24:37,380
+will yield only limited returns in the long run.
+
+2039
+01:24:37,420 --> 01:24:39,918
+because a choice with high certainty
+
+2040
+01:24:39,918 --> 01:24:42,348
+is one whose value is known to all,
+
+2041
+01:24:42,348 --> 01:24:44,570
+so you'll face more competition?
+
+2042
+01:24:44,890 --> 01:24:46,514
+so one key point here
+
+2043
+01:24:46,514 --> 01:24:50,614
+is how you can identify and truly appreciate choices
+
+2044
+01:24:50,614 --> 01:24:53,090
+that carry a lot of uncertainty.
+
+2045
+01:24:53,840 --> 01:24:55,990
+when facing uncertain choices,
+
+2046
+01:24:55,990 --> 01:24:58,438
+you must have a broader mindset —
+
+2047
+01:24:58,438 --> 01:25:02,739
+treat such choices as an investment, not just a transaction.
+
+2048
+01:25:03,020 --> 01:25:05,180
+I've spoken with many candidates myself?
+
+2049
+01:25:05,380 --> 01:25:07,751
+candidates who left a poor impression
+
+2050
+01:25:07,751 --> 01:25:11,020
+treated this job opportunity as just a transaction
+
+2051
+01:25:11,600 --> 01:25:14,632
+he might think that joining this firm right now
+
+2052
+01:25:14,632 --> 01:25:18,052
+means he should get certain things from it right now,
+
+2053
+01:25:18,052 --> 01:25:20,440
+and thus fail to truly appreciate it.
+
+2054
+01:25:20,730 --> 01:25:21,888
+this is an investment
+
+2055
+01:25:21,888 --> 01:25:24,370
+by both the firm and the individual involved
+
+2056
+01:25:24,690 --> 01:25:27,831
+the company is willing to hand him a major chance
+
+2057
+01:25:27,831 --> 01:25:29,370
+despite the uncertainty.
+
+2058
+01:25:29,740 --> 01:25:32,311
+so he is willing, at this point, in this very uncertainty,
+
+2059
+01:25:32,311 --> 01:25:34,257
+to give the firm the benefit of the doubt —
+
+2060
+01:25:34,257 --> 01:25:35,445
+that is quite important,
+
+2061
+01:25:35,445 --> 01:25:35,819
+isn't it?
+
+2062
+01:25:36,050 --> 01:25:38,993
+seeing a job opportunity as an investment,
+
+2063
+01:25:38,993 --> 01:25:41,650
+with returns that come in the future ?
+
+2064
+01:25:41,650 --> 01:25:43,786
+investing—when you invest, in the short term
+
+2065
+01:25:43,786 --> 01:25:44,880
+it always costs money
+
+2066
+01:25:44,960 --> 01:25:46,823
+if you spend 100 yuan to invest in something,
+
+2067
+01:25:46,823 --> 01:25:47,800
+you lose 100 yuan today
+
+2068
+01:25:47,880 --> 01:25:50,480
+but if you see this chance merely as a transaction
+
+2069
+01:25:50,480 --> 01:25:52,261
+that if I give you 100 yuan today,
+
+2070
+01:25:52,261 --> 01:25:55,020
+I must get a 100-yuan return right at that moment
+
+2071
+01:25:55,020 --> 01:25:56,687
+you are effectively turning away
+
+2072
+01:25:56,687 --> 01:25:58,460
+many truly precious opportunities.
+
+2073
+01:25:58,500 --> 01:26:00,220
+That was well said
+
+2074
+01:26:00,300 --> 01:26:02,650
+And one last point for you folks,
+
+2075
+01:26:03,370 --> 01:26:05,915
+to those young folks thinking of joining AppLovin,
+
+2076
+01:26:05,915 --> 01:26:09,033
+or recent grads who are still a bit unsure about their path,
+
+2077
+01:26:09,033 --> 01:26:11,320
+is there anything you'd like to say to them?
+
+2078
+01:26:11,320 --> 01:26:14,200
+please encourage folks to apply for this AppLovin role
+
+2079
+01:26:14,200 --> 01:26:15,680
+when young folks are making their choices
+
+2080
+01:26:15,800 --> 01:26:18,895
+Hmm, when young folks are making choices, right?
+
+2081
+01:26:18,895 --> 01:26:22,610
+The simplest pick is to go with the most popular ones.
+
+2082
+01:26:22,650 --> 01:26:24,577
+the reason it's popular is clear —
+
+2083
+01:26:24,577 --> 01:26:26,445
+they're rarely the worst options,
+
+2084
+01:26:26,445 --> 01:26:28,489
+and often quite basic ones at that.
+
+2085
+01:26:28,880 --> 01:26:33,690
+but if you wish to become truly exceptional
+
+2086
+01:26:33,810 --> 01:26:35,885
+if you wish to be among the greatest
+
+2087
+01:26:35,885 --> 01:26:37,558
+and do what others cannot do,
+
+2088
+01:26:37,558 --> 01:26:39,958
+you must have the courage to make choices
+
+2089
+01:26:39,958 --> 01:26:41,480
+that differ from the norm.
+
+2090
+01:26:41,480 --> 01:26:46,960
+you must trust your own judgment to find what suits you best.
+
+2091
+01:26:47,120 --> 01:26:47,125
+I think at i love in, we have a company culture just like this, we,
+
+2092
+01:26:52,670 --> 01:26:55,492
+We strongly encourage folks to challenge the status quo
+
+2093
+01:26:55,492 --> 01:26:57,750
+and to make choices that are quite distinct.
+
+2094
+01:26:57,910 --> 01:27:02,569
+And then, although our company has a small team size, right?
+
+2095
+01:27:02,569 --> 01:27:06,820
+We're a major firm with a market cap over $20 billion.
+
+2096
+01:27:06,820 --> 01:27:09,403
+but our company culture and working style
+
+2097
+01:27:09,403 --> 01:27:11,105
+still feel like a startup —
+
+2098
+01:27:11,105 --> 01:27:13,499
+we have fewer than 100 engineers to date
+
+2099
+01:27:13,860 --> 01:27:18,621
+so I believe any candidate who is exceptionally skilled
+
+2100
+01:27:18,621 --> 01:27:23,470
+and eager to shape the future through their own efforts.
+
+2101
+01:27:23,470 --> 01:27:25,325
+I think our AppLovin is a perfect stage
+
+2102
+01:27:25,325 --> 01:27:26,990
+for both of them to shine and grow.
+
+2103
+01:27:27,340 --> 01:27:28,523
+AppLovin's engineers —
+
+2104
+01:27:28,523 --> 01:27:31,679
+I believe in this core, this fundamental trait they share.
+
+2105
+01:27:31,840 --> 01:27:33,290
+I've been thinking lately about
+
+2106
+01:27:33,290 --> 01:27:33,906
+how to sum up
+
+2107
+01:27:33,906 --> 01:27:36,171
+what the most successful Apple-loving engineers
+
+2108
+01:27:36,171 --> 01:27:36,895
+have in common,
+
+2109
+01:27:36,895 --> 01:27:38,440
+that shared trait they all share.
+
+2110
+01:27:38,740 --> 01:27:43,191
+I found five words—English words—the first one is 'humility,'
+
+2111
+01:27:43,191 --> 01:27:44,420
+meaning modesty.
+
+2112
+01:27:44,420 --> 01:27:47,064
+this aligns closely with the underdog ethos
+
+2113
+01:27:47,064 --> 01:27:49,770
+I have stressed and reiterated time and again
+
+2114
+01:27:50,250 --> 01:27:51,327
+Second is empathy —
+
+2115
+01:27:51,327 --> 01:27:53,481
+this means caring for your teammates
+
+2116
+01:27:53,481 --> 01:27:56,114
+and showing deep concern for our customers.
+
+2117
+01:27:56,114 --> 01:27:58,208
+I think this is extremely important.
+
+2118
+01:27:58,370 --> 01:28:01,227
+I found that there are quite a few, indeed,
+
+2119
+01:28:01,227 --> 01:28:02,970
+very top-notch engineers
+
+2120
+01:28:03,370 --> 01:28:04,636
+when they lack empathy,
+
+2121
+01:28:04,636 --> 01:28:06,858
+they become obsessed with figuring out
+
+2122
+01:28:06,858 --> 01:28:08,437
+what's the fanciest method
+
+2123
+01:28:08,437 --> 01:28:10,280
+they used to solve this problem.
+
+2124
+01:28:10,520 --> 01:28:13,704
+the sense of technical pride and satisfaction
+
+2125
+01:28:13,704 --> 01:28:17,030
+I felt here—yet he lost sight of the core need.
+
+2126
+01:28:17,190 --> 01:28:20,288
+the empathy around the problem the product aims to solve
+
+2127
+01:28:20,288 --> 01:28:22,060
+and the help it brings to users
+
+2128
+01:28:22,060 --> 01:28:23,970
+Okay, the third point is—uh, 'ability.'
+
+2129
+01:28:23,970 --> 01:28:26,917
+That one is quite straightforward—it just means 'skill,'
+
+2130
+01:28:26,917 --> 01:28:29,155
+right? Then the next one is—uh, 'receilence.'
+
+2131
+01:28:29,155 --> 01:28:30,628
+That is extremely important.
+
+2132
+01:28:30,670 --> 01:28:34,193
+I believe that in this world, when you build from 0 to 1,
+
+2133
+01:28:34,193 --> 01:28:36,700
+nothing goes smoothly without a hitch.
+
+2134
+01:28:36,700 --> 01:28:38,260
+when you do things no one else has done,
+
+2135
+01:28:38,260 --> 01:28:39,620
+nothing goes smoothly all the way.
+
+2136
+01:28:39,780 --> 01:28:41,630
+how you can keep pushing forward
+
+2137
+01:28:41,630 --> 01:28:44,407
+after facing setbacks—this is extremely crucial.
+
+2138
+01:28:44,407 --> 01:28:46,260
+And the final trait is tenacity
+
+2139
+01:28:46,870 --> 01:28:48,678
+These five together form the English word '
+
+2140
+01:28:48,678 --> 01:28:49,870
+'heart' — quite fitting indeed.
+
+2141
+01:28:51,190 --> 01:28:53,633
+these are the five key traits I just summarized for
+
+2142
+01:28:53,633 --> 01:28:55,310
+AppLovin's top engineers right now
+
+2143
+01:29:00,160 --> 01:29:02,550
+This is not the end of AppLovin's tale,
+
+2144
+01:29:02,550 --> 01:29:05,982
+and in the narrative of AI poised to upend the ad sector,
+
+2145
+01:29:05,982 --> 01:29:08,619
+markets now face unprecedented uncertainty.
+
+2146
+01:29:08,720 --> 01:29:11,320
+Over the past two years, in US SaaS software stocks,
+
+2147
+01:29:11,320 --> 01:29:14,440
+AppLovin was seen as a 'cash cow' and algorithm gold standard.
+
+2148
+01:29:14,560 --> 01:29:17,186
+yet this feast once shaped by software
+
+2149
+01:29:17,186 --> 01:29:20,020
+now faces an unprecedented 'AI reckoning'
+
+2150
+01:29:20,220 --> 01:29:21,762
+Right at the start of February,
+
+2151
+01:29:21,762 --> 01:29:24,180
+the U.S. stocks software sector plunged sharply.
+
+2152
+01:29:24,380 --> 01:29:26,340
+this 'software purge' was brutal indeed
+
+2153
+01:29:26,340 --> 01:29:28,776
+from Unity's 40% plunge to Adobe,
+
+2154
+01:29:28,776 --> 01:29:32,976
+SAP, ServiceNow, Snowflake all tanking—panic spread,
+
+2155
+01:29:32,976 --> 01:29:35,580
+and investors began to rethink.
+
+2156
+01:29:35,820 --> 01:29:37,401
+when more advanced AI tools,
+
+2157
+01:29:37,401 --> 01:29:39,392
+like Anthropic's automation suite
+
+2158
+01:29:39,392 --> 01:29:41,560
+and Google's generative world models,
+
+2159
+01:29:41,560 --> 01:29:43,260
+began reshaping productivity
+
+2160
+01:29:43,530 --> 01:29:46,032
+Have the moats of traditional software firms
+
+2161
+01:29:46,032 --> 01:29:47,170
+now become obsolete?
+
+2162
+01:29:47,500 --> 01:29:49,187
+Amid this industry-wide upheaval,
+
+2163
+01:29:49,187 --> 01:29:52,140
+AppLovin's stock plunged sharply within just a few days
+
+2164
+01:29:52,300 --> 01:29:54,728
+just before the early-February earnings report,
+
+2165
+01:29:54,728 --> 01:29:57,188
+the stock had nearly halved since mid-December
+
+2166
+01:29:57,188 --> 01:29:58,740
+when Giovanni Ge and I spoke.
+
+2167
+01:29:58,970 --> 01:30:00,666
+Behind AppLovin's plunge,
+
+2168
+01:30:00,666 --> 01:30:03,211
+three factors may be at play. First,
+
+2169
+01:30:03,211 --> 01:30:05,049
+Google's new Project Genie.
+
+2170
+01:30:05,180 --> 01:30:07,624
+this model that can, with simple commands,
+
+2171
+01:30:07,624 --> 01:30:09,580
+generate 720p, real-time 3D worlds
+
+2172
+01:30:09,620 --> 01:30:11,879
+it accomplished in mere seconds
+
+2173
+01:30:11,879 --> 01:30:15,479
+what traditional game engines take weeks to achieve.
+
+2174
+01:30:15,740 --> 01:30:18,230
+though some analysts tried to calm the market,
+
+2175
+01:30:18,230 --> 01:30:21,531
+noting it lacks the numeric balance and deterministic logic
+
+2176
+01:30:21,531 --> 01:30:23,100
+needed for commercial games
+
+2177
+01:30:23,320 --> 01:30:26,480
+but panic has already spread across the market now
+
+2178
+01:30:26,760 --> 01:30:29,151
+For AppLovin, the threat from Project Genie
+
+2179
+01:30:29,151 --> 01:30:32,000
+lies in its potential to reshape ad supply chains
+
+2180
+01:30:32,280 --> 01:30:33,243
+markets fear that
+
+2181
+01:30:33,243 --> 01:30:36,005
+if Google can use AI to mass-produce lightweight
+
+2182
+01:30:36,005 --> 01:30:37,156
+interactive content
+
+2183
+01:30:37,156 --> 01:30:40,220
+and vertically integrate it into its own ad ecosystem
+
+2184
+01:30:40,500 --> 01:30:42,419
+then AppLovin's current gaming ad
+
+2185
+01:30:42,419 --> 01:30:44,340
+inventory value would be diluted
+
+2186
+01:30:44,570 --> 01:30:47,422
+this theory tanked the entire gaming stock sector,
+
+2187
+01:30:47,422 --> 01:30:49,867
+including AppLovin, Unity, Roblox, and more,
+
+2188
+01:30:49,867 --> 01:30:51,030
+revealing investors'
+
+2189
+01:30:51,030 --> 01:30:53,999
+extreme fragility toward the 'AI replacement theory'
+
+2190
+01:30:54,260 --> 01:30:57,700
+Second, a past hero has returned to the fray once more.
+
+2191
+01:30:57,820 --> 01:30:57,825
+On February 4th, ad-tech startup CloudX announced full product launch officially
+
+2192
+01:31:03,700 --> 01:31:06,118
+and boldly declared using AI agents
+
+2193
+01:31:06,118 --> 01:31:09,920
+to rebuild the mobile ad tech stack from the ground up
+
+2194
+01:31:10,120 --> 01:31:13,437
+CloudX could impact AppLovin mainly due to its founder,
+
+2195
+01:31:13,437 --> 01:31:15,280
+Jim Payne, the key figure here
+
+2196
+01:31:15,510 --> 01:31:16,868
+he founded MoPub,
+
+2197
+01:31:16,868 --> 01:31:18,066
+as we mentioned
+
+2198
+01:31:18,066 --> 01:31:22,461
+at the start—he built the bedrock of AppLovin’s empire:
+
+2199
+01:31:22,461 --> 01:31:24,779
+the MAX aggregation platform
+
+2200
+01:31:24,940 --> 01:31:28,512
+now this original architect aims to build a new system,
+
+2201
+01:31:28,512 --> 01:31:30,460
+while AppLovin's core profits
+
+2202
+01:31:30,460 --> 01:31:32,880
+stem from MAX's algorithmic bidding
+
+2203
+01:31:33,120 --> 01:31:35,216
+Payne-led CloudX claims that
+
+2204
+01:31:35,216 --> 01:31:39,484
+LLMs can turn ad stacks into programmable infrastructure,
+
+2205
+01:31:39,484 --> 01:31:41,880
+with AI agents as its core tool
+
+2206
+01:31:42,090 --> 01:31:44,006
+these agents no longer stick to
+
+2207
+01:31:44,006 --> 01:31:47,717
+rigid preset bid rules—they act like human negotiation pros,
+
+2208
+01:31:47,717 --> 01:31:50,810
+generating code in real time via 'TEE' environments
+
+2209
+01:31:51,060 --> 01:31:53,188
+bypassed traditional platforms like MAX,
+
+2210
+01:31:53,188 --> 01:31:54,499
+a black-box setup model.
+
+2211
+01:31:54,880 --> 01:31:57,582
+then if top developers find that CloudX
+
+2212
+01:31:57,582 --> 01:31:59,976
+lets them bypass middlemen markups
+
+2213
+01:31:59,976 --> 01:32:01,880
+and gain more transparency
+
+2214
+01:32:02,110 --> 01:32:04,027
+AppLovin's hard-won network effects
+
+2215
+01:32:04,027 --> 01:32:06,110
+will face significant headwinds ahead.
+
+2216
+01:32:06,380 --> 01:32:07,964
+Third, Meta's revenge.
+
+2217
+01:32:07,964 --> 01:32:09,699
+Now, Meta—AppLovin's top
+
+2218
+01:32:09,699 --> 01:32:13,020
+rival—has quietly returned to the territory
+
+2219
+01:32:13,020 --> 01:32:14,379
+it once abandoned.
+
+2220
+01:32:14,620 --> 01:32:18,183
+Since Apple rolled out its IDFA privacy rules in 2021,
+
+2221
+01:32:18,183 --> 01:32:18,799
+Meta's ad
+
+2222
+01:32:18,799 --> 01:32:22,500
+targeting on unauthorized traffic has dropped sharply
+
+2223
+01:32:22,730 --> 01:32:24,306
+this gave AppLovin's AXON engine
+
+2224
+01:32:24,306 --> 01:32:26,130
+a prime chance to leap ahead swiftly.
+
+2225
+01:32:26,410 --> 01:32:29,837
+Yet as Meta poured tens of billions into capital,
+
+2226
+01:32:29,837 --> 01:32:33,480
+its Advantage+AI system showed remarkable progress.
+
+2227
+01:32:33,720 --> 01:32:37,366
+Meta sharply boosted eCPM bid density for iOS in-app ads
+
+2228
+01:32:37,366 --> 01:32:39,060
+in late January this year
+
+2229
+01:32:39,140 --> 01:32:40,720
+some third-party publishers
+
+2230
+01:32:40,720 --> 01:32:43,180
+saw their revenues jump three to fivefold
+
+2231
+01:32:43,360 --> 01:32:44,909
+Meta is trying to show that,
+
+2232
+01:32:44,909 --> 01:32:48,353
+with vast user behavior data and advanced predictive models,
+
+2233
+01:32:48,353 --> 01:32:51,510
+it can still deliver precise ad targeting without IOFA.
+
+2234
+01:32:51,750 --> 01:32:54,517
+this would be a tough fight for AppLovin,
+
+2235
+01:32:54,517 --> 01:32:56,870
+which sees iOS as its core market.
+
+2236
+01:32:57,100 --> 01:33:00,615
+our interview looks back at how, over the past 1,000 days,
+
+2237
+01:33:00,615 --> 01:33:03,106
+AppLovin carved a niche in the market
+
+2238
+01:33:03,106 --> 01:33:05,060
+dominated by Google and Meta.
+
+2239
+01:33:05,300 --> 01:33:08,114
+yet as AI seeks to upend every industry,
+
+2240
+01:33:08,114 --> 01:33:12,300
+this rift marks just the start of ad formats being tested
+
+2241
+01:33:12,570 --> 01:33:15,650
+AppLovin won't be the last; we'll see what comes next, indeed.
+
+2242
+01:33:15,740 --> 01:33:18,797
+AppLovin, with its underdog 'weak-heart' ethos,
+
+2243
+01:33:18,797 --> 01:33:22,780
+and Giovanni Ge — where will they steer this company next?
+
+2244
+01:33:23,260 --> 01:33:25,700
+Alright, that's all for this episode of our video series.
+
+2245
+01:33:25,700 --> 01:33:27,138
+Your comments, likes, and shares
+
+2246
+01:33:27,138 --> 01:33:29,345
+are the best way to support Silicon Valley 101
+
+2247
+01:33:29,345 --> 01:33:31,120
+in our deep tech and business content.
+
+2248
+01:33:31,280 --> 01:33:34,720
+I'm Chen Qian; see you in our next video! Goodbye!
+

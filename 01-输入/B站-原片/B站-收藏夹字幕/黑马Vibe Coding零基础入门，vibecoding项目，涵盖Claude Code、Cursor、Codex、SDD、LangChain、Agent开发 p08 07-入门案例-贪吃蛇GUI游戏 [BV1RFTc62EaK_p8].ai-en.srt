@@ -1,0 +1,1688 @@
+1
+00:00:00,940 --> 00:00:02,500
+Hey everyone, what's up?
+
+2
+00:00:02,500 --> 00:00:03,120
+Welcome back.
+
+3
+00:00:03,120 --> 00:00:04,140
+So, up to this point,
+
+4
+00:00:04,140 --> 00:00:06,620
+We have now completed the installation of Claude Code on our system.
+
+5
+00:00:06,620 --> 00:00:09,700
+the basic setup for this programming tool.
+
+6
+00:00:09,700 --> 00:00:11,760
+installation and testing process.
+
+7
+00:00:11,760 --> 00:00:14,920
+Alright, so next up, let's dive into a beginner's project.
+
+8
+00:00:14,920 --> 00:00:20,180
+Let's use Claude Code to build a simple Snake game in Python.
+
+9
+00:00:20,180 --> 00:00:21,680
+Alright, so for this current example,
+
+10
+00:00:21,680 --> 00:00:24,860
+And this works perfectly for both Windows and macOS.
+
+11
+00:00:24,860 --> 00:00:26,480
+Because once we have the environment set up,
+
+12
+00:00:26,480 --> 00:00:27,900
+So the process is the same for everyone.
+
+13
+00:00:27,900 --> 00:00:30,020
+All you have to do is use it within the terminal.
+
+14
+00:00:30,020 --> 00:00:32,680
+Alright, so for my demonstration, I'll be using the Windows system.
+
+15
+00:00:32,680 --> 00:00:34,020
+to walk you through the process.
+
+16
+00:00:34,020 --> 00:00:37,120
+Alright, so first off, when Claude Code is doing the programming,
+
+17
+00:00:37,120 --> 00:00:39,000
+you need to provide it with a folder.
+
+18
+00:00:39,000 --> 00:00:41,340
+Because all the code files it generates,
+
+19
+00:00:41,340 --> 00:00:43,650
+all need a folder to reside in.
+
+20
+00:00:43,650 --> 00:00:44,530
+So, under normal circumstances,
+
+21
+00:00:44,530 --> 00:00:47,970
+So, let's go ahead and open up our file manager.
+
+22
+00:00:47,970 --> 00:00:51,700
+And then, you'll want to find a folder where you want to store your code.
+
+23
+00:00:51,700 --> 00:00:53,360
+For example, I'll just put it on my D drive.
+
+24
+00:00:53,360 --> 00:00:55,300
+So, on my D drive, I'll right-click and create a new folder.
+
+25
+00:00:55,300 --> 00:00:56,999
+Let's call it 'snack'. Okay.
+
+26
+00:00:56,999 --> 00:00:57,119
+Alright.
+
+27
+00:00:57,119 --> 00:00:59,279
+Alright, so this is the folder we're going to use.
+
+28
+00:00:59,279 --> 00:01:01,399
+a folder for our little Snake game.
+
+29
+00:01:01,399 --> 00:01:03,039
+Alright, so once you've found this folder,
+
+30
+00:01:03,039 --> 00:01:06,989
+Now, right-click and open this folder in the terminal.
+
+31
+00:01:06,989 --> 00:01:07,529
+And that's it.
+
+32
+00:01:07,529 --> 00:01:09,349
+Alright, you can follow my lead for this next part.
+
+33
+00:01:09,349 --> 00:01:10,889
+You have to be really, really careful with this.
+
+34
+00:01:10,889 --> 00:01:13,880
+We're going to hold down the Shift key on your keyboard.
+
+35
+00:01:13,880 --> 00:01:16,100
+Make sure you're holding down the Shift key.
+
+36
+00:01:16,100 --> 00:01:18,820
+While holding that down, right-click your mouse.
+
+37
+00:01:18,820 --> 00:01:23,210
+And then a menu will pop up with an option called 'Open in Terminal'.
+
+38
+00:01:23,210 --> 00:01:25,530
+Click that 'Open in Terminal' button.
+
+39
+00:01:25,530 --> 00:01:27,310
+And just like that, you'll have a terminal window open.
+
+40
+00:01:27,310 --> 00:01:30,400
+So, this terminal will be set to the D drive by default.
+
+41
+00:01:30,400 --> 00:01:32,840
+in the 'snake' folder.
+
+42
+00:01:32,840 --> 00:01:35,580
+So, you can do this by right-clicking with your mouse.
+
+43
+00:01:35,580 --> 00:01:37,860
+and open the terminal directly in the folder.
+
+44
+00:01:37,860 --> 00:01:39,760
+and that will set the terminal's working directory to this folder.
+
+45
+00:01:39,760 --> 00:01:40,660
+Of course.
+
+46
+00:01:40,660 --> 00:01:44,680
+Or, if you prefer, you can also use a command to point to this folder.
+
+47
+00:01:44,680 --> 00:01:46,100
+So, for example, let's open up the terminal.
+
+48
+00:01:46,100 --> 00:01:48,130
+By default, it's set to your C drive.
+
+49
+00:01:48,130 --> 00:01:50,090
+The user is under the 'Cao Yu' folder.
+
+50
+00:01:50,090 --> 00:01:51,690
+Which is your user's home directory.
+
+51
+00:01:51,690 --> 00:01:55,170
+So, you can do that by typing in the command 'D colon', like this.
+
+52
+00:01:55,170 --> 00:01:56,990
+This will switch you over to your D drive.
+
+53
+00:01:56,990 --> 00:01:59,010
+And then type 'cd snack'.
+
+54
+00:01:59,010 --> 00:02:02,080
+or you can switch to the 'snack' folder on your D drive.
+
+55
+00:02:02,080 --> 00:02:06,000
+So, both of these methods will let you navigate to the right folder in your terminal.
+
+56
+00:02:06,000 --> 00:02:07,750
+so you can work in this folder.
+
+57
+00:02:07,750 --> 00:02:09,870
+Alright, so that's how you do it on Windows.
+
+58
+00:02:09,870 --> 00:02:13,530
+Alright, now let's see how to set the working directory in macOS.
+
+59
+00:02:13,730 --> 00:02:16,330
+Alright, now that we've switched over to our macOS system,
+
+60
+00:02:16,330 --> 00:02:17,850
+Alright, so the very first thing we need to do is...
+
+61
+00:02:17,850 --> 00:02:19,490
+is to create a new folder first.
+
+62
+00:02:19,490 --> 00:02:21,160
+for us to use later on.
+
+63
+00:02:21,160 --> 00:02:24,579
+So, for example, I'm going to create it in my user's home directory.
+
+64
+00:02:24,579 --> 00:02:27,019
+Alright, select the one with the house icon.
+
+65
+00:02:27,019 --> 00:02:28,019
+Navigate to the user's home directory.
+
+66
+00:02:28,019 --> 00:02:30,649
+Then, right-click, create a new folder, and name it 'snake'.
+
+67
+00:02:30,649 --> 00:02:31,669
+Alright, once that's created,
+
+68
+00:02:31,669 --> 00:02:34,029
+So, how do we navigate to this folder in the terminal?
+
+69
+00:02:34,029 --> 00:02:36,249
+Alright, first thing's first, open up your terminal.
+
+70
+00:02:36,249 --> 00:02:38,589
+Then, type in 'CD' followed by a space.
+
+71
+00:02:38,589 --> 00:02:39,789
+Type 'CD' and a space.
+
+72
+00:02:39,789 --> 00:02:42,450
+Then just drag this folder right in here, and you're all set.
+
+73
+00:02:42,450 --> 00:02:44,830
+And just like that, the path will be filled in automatically for you.
+
+74
+00:02:44,830 --> 00:02:46,450
+And then just hit Enter.
+
+75
+00:02:46,450 --> 00:02:50,280
+Okay, and that will lock in this folder called 'snack'.
+
+76
+00:02:50,280 --> 00:02:50,680
+Alright.
+
+77
+00:02:50,680 --> 00:02:52,460
+Alright, so once we've locked onto that folder,
+
+78
+00:02:52,460 --> 00:02:55,540
+The following steps are exactly the same, whether you're on a Windows or a Mac system.
+
+79
+00:02:55,540 --> 00:02:56,580
+the steps are exactly the same.
+
+80
+00:02:56,580 --> 00:02:59,030
+All you need to do is continue in the terminal.
+
+81
+00:02:59,030 --> 00:03:01,310
+and just follow the corresponding steps for Claude Code.
+
+82
+00:03:01,310 --> 00:03:04,400
+Alright, let's get back to the Windows system.
+
+83
+00:03:04,720 --> 00:03:06,560
+Alright, we're back in our Windows system.
+
+84
+00:03:06,560 --> 00:03:09,460
+Alright, so my terminal is now locked into the 'snake' folder.
+
+85
+00:03:09,460 --> 00:03:10,900
+Which is our working directory.
+
+86
+00:03:10,900 --> 00:03:12,980
+Alright, so now we can get into Claude Code.
+
+87
+00:03:12,980 --> 00:03:13,920
+and start programming.
+
+88
+00:03:13,920 --> 00:03:16,500
+So, you can just type in Claude.
+
+89
+00:03:16,500 --> 00:03:17,600
+And with this command,
+
+90
+00:03:17,600 --> 00:03:21,340
+This will directly launch the Claude Code command-line terminal.
+
+91
+00:03:21,340 --> 00:03:23,140
+Alright, so first, when you switch to your project folder,
+
+92
+00:03:23,140 --> 00:03:25,280
+So, the first thing it's going to do is ask you about this folder.
+
+93
+00:03:25,280 --> 00:03:26,480
+Do you trust it or not?
+
+94
+00:03:26,480 --> 00:03:28,540
+So, normally, you'd just select 'yes'.
+
+95
+00:03:28,540 --> 00:03:30,290
+I'll trust it. Alright, press Enter.
+
+96
+00:03:30,290 --> 00:03:32,050
+Okay, and just like that, we're in.
+
+97
+00:03:32,050 --> 00:03:32,770
+Alright, now that we're in,
+
+98
+00:03:32,770 --> 00:03:36,220
+And now we can start interacting with Claude just like normal.
+
+99
+00:03:36,220 --> 00:03:38,020
+And by the way, there are also some hotkeys in here.
+
+100
+00:03:38,020 --> 00:03:39,500
+For instance, if you hit the question mark key, hey...
+
+101
+00:03:39,500 --> 00:03:41,920
+and it'll show you a whole bunch of shortcuts.
+
+102
+00:03:41,920 --> 00:03:42,980
+Just to give you a general idea of what they do.
+
+103
+00:03:42,980 --> 00:03:44,200
+So, as for these specific hotkeys,
+
+104
+00:03:44,200 --> 00:03:46,000
+and we'll walk you through all of them later.
+
+105
+00:03:46,000 --> 00:03:47,900
+and we'll gradually walk you through how to use them all.
+
+106
+00:03:47,900 --> 00:03:49,940
+Or, you can also just type a forward slash.
+
+107
+00:03:49,940 --> 00:03:51,880
+And it also comes with a lot of commands.
+
+108
+00:03:51,880 --> 00:03:52,860
+some functional commands.
+
+109
+00:03:52,860 --> 00:03:55,420
+Now, as for these function commands, we'll get to them later on as needed.
+
+110
+00:03:55,420 --> 00:03:57,840
+and I'll show you how to apply some of them later on.
+
+111
+00:03:57,840 --> 00:03:59,700
+But we don't need all of that for now.
+
+112
+00:03:59,700 --> 00:04:02,040
+All we need to do is describe what we want.
+
+113
+00:04:02,040 --> 00:04:03,200
+and have it generate the code for us.
+
+114
+00:04:03,200 --> 00:04:04,880
+and you can do it through web coding.
+
+115
+00:04:04,880 --> 00:04:05,800
+or 'Vibe Coding', as it's also known.
+
+116
+00:04:05,800 --> 00:04:09,240
+So, in essence, it's really an intent-driven approach.
+
+117
+00:04:09,240 --> 00:04:09,940
+programming method.
+
+118
+00:04:09,940 --> 00:04:13,349
+So, it doesn't actually require much programming skill from you.
+
+119
+00:04:13,349 --> 00:04:16,228
+You can even be a complete beginner with zero experience.
+
+120
+00:04:16,228 --> 00:04:19,589
+All you have to do is describe what you want clearly and you're good to go.
+
+121
+00:04:19,589 --> 00:04:22,350
+So, our video will also be presented from a beginner's perspective.
+
+122
+00:04:22,350 --> 00:04:23,750
+or in other words, programming.
+
+123
+00:04:23,750 --> 00:04:25,980
+the perspective of someone who isn't very familiar with computers.
+
+124
+00:04:25,980 --> 00:04:27,040
+So, from that perspective,
+
+125
+00:04:27,040 --> 00:04:29,750
+So, let's see what we can come up with.
+
+126
+00:04:29,750 --> 00:04:31,510
+So, for example, let's start by describing what we need.
+
+127
+00:04:31,510 --> 00:04:36,280
+So, just help me make a Snake game program written in Python.
+
+128
+00:04:36,280 --> 00:04:36,960
+So, here's what we need.
+
+129
+00:04:36,960 --> 00:04:37,800
+So, you can start by describing it.
+
+130
+00:04:37,800 --> 00:04:41,040
+Alright, help me make a...
+
+131
+00:04:43,520 --> 00:04:45,800
+written in Python.
+
+132
+00:04:46,560 --> 00:04:51,060
+a Snake game, okay.
+
+133
+00:04:51,060 --> 00:04:52,000
+And then, hit Enter.
+
+134
+00:04:52,000 --> 00:04:53,200
+Alright, so at this point...
+
+135
+00:04:53,200 --> 00:04:55,480
+And now, our Claude Code is starting to think.
+
+136
+00:04:55,480 --> 00:04:58,680
+So, behind the scenes, it's going to connect to the DeepSeek model we just configured.
+
+137
+00:04:58,680 --> 00:04:59,760
+the V4pro model,
+
+138
+00:04:59,760 --> 00:05:02,600
+And the V4pro model will then handle the rest for us.
+
+139
+00:05:02,600 --> 00:05:04,360
+the actual coding.
+
+140
+00:05:04,360 --> 00:05:06,860
+Alright, so let's just give it a moment.
+
+141
+00:05:21,480 --> 00:05:23,520
+Alright, so after a short wait...
+
+142
+00:05:23,520 --> 00:05:26,200
+As you can see, it has already written the code for us.
+
+143
+00:05:26,200 --> 00:05:29,680
+So, as you can see, this is the corresponding Python code. Alright.
+
+144
+00:05:29,680 --> 00:05:31,640
+Alright, so I've taken a quick look.
+
+145
+00:05:31,640 --> 00:05:32,600
+So, let's just pretend,
+
+146
+00:05:32,600 --> 00:05:33,360
+We're total newbies.
+
+147
+00:05:33,360 --> 00:05:34,060
+We have no idea what this means.
+
+148
+00:05:34,060 --> 00:05:35,960
+So basically, under normal circumstances, you don't really need to worry about what it is.
+
+149
+00:05:35,960 --> 00:05:37,380
+Just go ahead and type 'yes'.
+
+150
+00:05:37,380 --> 00:05:39,420
+Just let it create the files, and you'll be all set.
+
+151
+00:05:39,420 --> 00:05:40,660
+So, you'll see two options here.
+
+152
+00:05:40,660 --> 00:05:41,280
+One is 'yes'.
+
+153
+00:05:41,280 --> 00:05:42,340
+One is 'yes'
+
+154
+00:05:42,340 --> 00:05:43,230
+Allow all.
+
+155
+00:05:43,230 --> 00:05:47,150
+So, the first 'yes' means you're only allowing this file creation for a single time.
+
+156
+00:05:47,150 --> 00:05:48,550
+Now, if you choose the second option,
+
+157
+00:05:48,550 --> 00:05:51,570
+So, for all future file creation and editing,
+
+158
+00:05:51,570 --> 00:05:53,620
+and it won't ask you again.
+
+159
+00:05:53,620 --> 00:05:55,640
+Alright, let's go with the second option and allow it.
+
+160
+00:05:55,640 --> 00:05:57,360
+So, for any files you want to create later on,
+
+161
+00:05:57,360 --> 00:05:58,240
+And you don't need to ask me.
+
+162
+00:05:58,240 --> 00:05:59,580
+Oh man, as a total beginner, I can't make heads or tails of this either.
+
+163
+00:05:59,580 --> 00:06:01,020
+Just go ahead and create it.
+
+164
+00:06:01,020 --> 00:06:01,900
+Alright, let me show you how it's done.
+
+165
+00:06:01,900 --> 00:06:06,200
+Or, let's just see how it looks. Okay, let's pick the second option, 'yes'. Alright.
+
+166
+00:06:06,200 --> 00:06:06,960
+Alright, let's just give it a moment.
+
+167
+00:06:06,960 --> 00:06:10,040
+It's going to go ahead and create this file for us.
+
+168
+00:06:10,040 --> 00:06:12,040
+Alright, so once that's created,
+
+169
+00:06:12,040 --> 00:06:14,870
+Oh, and you'll see some prompts pop up here.
+
+170
+00:06:14,870 --> 00:06:18,630
+It says it needs to install something called PyGame.
+
+171
+00:06:18,630 --> 00:06:20,290
+a Python library.
+
+172
+00:06:20,290 --> 00:06:22,330
+So, it's asking if we should allow this process.
+
+173
+00:06:22,330 --> 00:06:24,690
+So, under normal circumstances, we can just select 'yes'.
+
+174
+00:06:24,690 --> 00:06:26,290
+Or, you could just pick the second option.
+
+175
+00:06:26,290 --> 00:06:31,160
+So, for any other packages PIP needs to install later on,
+
+176
+00:06:31,160 --> 00:06:32,760
+and it won't ask you again.
+
+177
+00:06:32,760 --> 00:06:33,560
+So, from our perspective,
+
+178
+00:06:33,560 --> 00:06:34,480
+We're gonna go with the second option.
+
+179
+00:06:34,480 --> 00:06:36,760
+So from now on, don't ask me the same question twice.
+
+180
+00:06:36,760 --> 00:06:37,660
+Alright, select 'yes'.
+
+181
+00:06:37,660 --> 00:06:38,660
+Alright, go ahead and install it.
+
+182
+00:06:38,660 --> 00:06:38,920
+Alright.
+
+183
+00:06:38,920 --> 00:06:40,360
+Alright, we'll have to wait for it to do its thing for a bit here.
+
+184
+00:06:40,360 --> 00:06:42,940
+Alright, let's get the essential environment installed.
+
+185
+00:06:42,940 --> 00:06:43,660
+Alright, as you can see,
+
+186
+00:06:43,660 --> 00:06:45,920
+Actually, Claude Code is pretty smart.
+
+187
+00:06:45,920 --> 00:06:48,320
+It will automatically scan your system to check what's inside.
+
+188
+00:06:48,320 --> 00:06:50,360
+and other environment-related stuff.
+
+189
+00:06:50,360 --> 00:06:52,160
+For example, if you're missing certain libraries,
+
+190
+00:06:52,160 --> 00:06:53,020
+or which packages are missing.
+
+191
+00:06:53,020 --> 00:06:56,890
+It will automatically take care of the installation for you.
+
+192
+00:06:56,890 --> 00:06:58,610
+And it can even handle our Python installation.
+
+193
+00:06:58,610 --> 00:07:00,370
+If you don't have Claude Code installed,
+
+194
+00:07:00,370 --> 00:07:02,400
+it can even automatically install Python for us.
+
+195
+00:07:02,400 --> 00:07:02,880
+Alright.
+
+196
+00:07:02,880 --> 00:07:05,160
+Okay, so it's prompting us again here.
+
+197
+00:07:05,160 --> 00:07:07,720
+asking if it's okay to run a command.
+
+198
+00:07:07,720 --> 00:07:08,840
+Let's say we're a total beginner.
+
+199
+00:07:08,840 --> 00:07:10,400
+And we have no idea what it's doing.
+
+200
+00:07:10,400 --> 00:07:11,580
+So, for this kind of prompt it's giving us,
+
+201
+00:07:11,580 --> 00:07:13,340
+So, we'll just go ahead and select 'yes'.
+
+202
+00:07:13,340 --> 00:07:14,380
+Just grant the permission and you're good to go.
+
+203
+00:07:14,380 --> 00:07:17,020
+And for any similar things in the future, don't even ask me, alright?
+
+204
+00:07:17,020 --> 00:07:18,820
+Just hit Enter.
+
+205
+00:07:20,960 --> 00:07:22,400
+Alright, so as you can see,
+
+206
+00:07:22,400 --> 00:07:24,600
+And it gives us some prompts here, saying...
+
+207
+00:07:24,600 --> 00:07:26,360
+The Snake game has been created.
+
+208
+00:07:26,360 --> 00:07:28,760
+The project files are in the 'snack' directory on the D drive.
+
+209
+00:07:28,760 --> 00:07:30,940
+Oh, so it gives us two files.
+
+210
+00:07:30,940 --> 00:07:31,960
+One is a dependency list.
+
+211
+00:07:31,960 --> 00:07:32,420
+What's this?
+
+212
+00:07:32,420 --> 00:07:33,940
+Alright, let's say... I don't know either.
+
+213
+00:07:33,940 --> 00:07:34,500
+Don't worry about it.
+
+214
+00:07:34,500 --> 00:07:38,010
+Alright, the second one, see? There's the main game program, called 'snake game'.
+
+215
+00:07:38,010 --> 00:07:40,310
+And some other features and stuff, you know.
+
+216
+00:07:40,310 --> 00:07:42,730
+Alright, so how do we run this thing?
+
+217
+00:07:42,730 --> 00:07:44,500
+Oh, look, it's telling us to use the 'CD' command.
+
+218
+00:07:44,500 --> 00:07:45,740
+This one is called 'snack'.
+
+219
+00:07:45,740 --> 00:07:47,740
+And then, pip install something-or-other.
+
+220
+00:07:47,740 --> 00:07:49,180
+and then some Python command.
+
+221
+00:07:49,180 --> 00:07:52,400
+Oh, looks like it's ready to run with just these commands.
+
+222
+00:07:52,400 --> 00:07:54,040
+Alright, let's give it a shot then.
+
+223
+00:07:54,040 --> 00:07:56,760
+Alright, let's just ignore this window for now.
+
+224
+00:07:56,760 --> 00:07:59,000
+See that little plus sign in our terminal window?
+
+225
+00:07:59,000 --> 00:08:00,440
+You can go ahead and click on it again.
+
+226
+00:08:00,440 --> 00:08:02,560
+We can just copy the command from this plus sign.
+
+227
+00:08:02,560 --> 00:08:04,890
+For instance, it tells us to CD into the D drive, to the 'snack' folder. Okay.
+
+228
+00:08:04,890 --> 00:08:07,130
+We'll just paste it in: CD D drive, snack. Alright.
+
+229
+00:08:07,130 --> 00:08:07,610
+Alright, we're in.
+
+230
+00:08:07,610 --> 00:08:09,370
+Alright, once we're in, you can see what it says for the second step.
+
+231
+00:08:09,370 --> 00:08:11,130
+Alright, now run 'pip install'.
+
+232
+00:08:11,130 --> 00:08:12,680
+We'll just left-click to select it.
+
+233
+00:08:12,680 --> 00:08:14,200
+Then, just right-click to copy it.
+
+234
+00:08:14,200 --> 00:08:15,560
+And then we'll right-click again.
+
+235
+00:08:15,560 --> 00:08:16,240
+And that pastes it.
+
+236
+00:08:16,240 --> 00:08:18,120
+Alright, let's do what it's asking for.
+
+237
+00:08:18,120 --> 00:08:19,060
+Let's run it.
+
+238
+00:08:19,060 --> 00:08:19,720
+And then we're back.
+
+239
+00:08:19,720 --> 00:08:20,300
+Step three.
+
+240
+00:08:20,300 --> 00:08:21,900
+Alright, the Python Snake game.
+
+241
+00:08:21,900 --> 00:08:23,060
+Select this command.
+
+242
+00:08:23,060 --> 00:08:24,930
+Then, just copy, paste, and run it. Let's go!
+
+243
+00:08:24,930 --> 00:08:26,130
+Hello.
+
+244
+00:08:26,130 --> 00:08:26,870
+Alright, let's see what we've got.
+
+245
+00:08:26,870 --> 00:08:30,090
+OK, and hey, a little window actually popped up.
+
+246
+00:08:30,090 --> 00:08:33,370
+Alright, so in this window, look, if we press WASD...
+
+247
+00:08:33,370 --> 00:08:36,500
+So it can actually create a basic Snake game.
+
+248
+00:08:36,500 --> 00:08:37,080
+Oh, let's eat.
+
+249
+00:08:37,080 --> 00:08:39,269
+And now I'll go left... okay, and I hit the wall.
+
+250
+00:08:39,269 --> 00:08:40,769
+And that's game over, right?
+
+251
+00:08:40,769 --> 00:08:42,828
+Alright, and press R to restart.
+
+252
+00:08:42,828 --> 00:08:45,350
+Press ESC to exit, and so on.
+
+253
+00:08:45,350 --> 00:08:45,790
+And just like that,
+
+254
+00:08:45,790 --> 00:08:48,690
+And just like that, we've got ourselves a basic Snake game.
+
+255
+00:08:48,690 --> 00:08:50,090
+Alright, so now let's get back to it.
+
+256
+00:08:50,090 --> 00:08:51,410
+Now, let's pretend we're complete beginners.
+
+257
+00:08:51,410 --> 00:08:54,250
+So we can say, "Hey, can you just run this game for me?"
+
+258
+00:08:54,250 --> 00:08:58,180
+Let's say I don't know how to run a Python program.
+
+259
+00:08:58,500 --> 00:09:05,830
+Alright, just run the program for me so I can test it out.
+
+260
+00:09:05,830 --> 00:09:06,790
+So let's say we're complete beginners, right?
+
+261
+00:09:06,790 --> 00:09:08,430
+We don't know these commands either.
+
+262
+00:09:08,430 --> 00:09:09,510
+You have no idea how to do any of this stuff.
+
+263
+00:09:09,510 --> 00:09:10,960
+So, see? When you make that request...
+
+264
+00:09:10,960 --> 00:09:12,640
+And you'll see, this program, right?
+
+265
+00:09:12,640 --> 00:09:15,100
+And just like that, it's up and running automatically.
+
+266
+00:09:15,100 --> 00:09:18,890
+So yeah, that's why Claude Code is actually pretty smart.
+
+267
+00:09:18,890 --> 00:09:19,850
+Yeah, it's pretty, pretty smart.
+
+268
+00:09:19,850 --> 00:09:20,590
+Normally speaking,
+
+269
+00:09:20,590 --> 00:09:21,790
+You just give it your requirements,
+
+270
+00:09:21,790 --> 00:09:25,420
+And it'll help you get a ton of other things done as well.
+
+271
+00:09:25,420 --> 00:09:25,960
+Okay.
+
+272
+00:09:25,960 --> 00:09:28,040
+Alright, so now we've got a basic version done.
+
+273
+00:09:28,040 --> 00:09:30,260
+the creation of a basic Snake game.
+
+274
+00:09:30,260 --> 00:09:32,320
+But, we'll notice something about this game...
+
+275
+00:09:32,320 --> 00:09:35,470
+Let's say there are some features you're not quite happy with.
+
+276
+00:09:35,470 --> 00:09:37,190
+For example, we can now have it complete a...
+
+277
+00:09:37,190 --> 00:09:38,090
+and make some modifications.
+
+278
+00:09:38,090 --> 00:09:42,130
+So, you could say, "Hey, I want the snake..."
+
+279
+00:09:42,130 --> 00:09:46,320
+to wrap around the screen when it hits the boundary.
+
+280
+00:09:46,320 --> 00:09:50,400
+For instance, it goes through the left border,
+
+281
+00:09:50,400 --> 00:09:55,690
+and then it'll just come out from the right side.
+
+282
+00:09:55,690 --> 00:09:56,210
+Something like that.
+
+283
+00:09:56,210 --> 00:09:58,310
+I'm sure we've all played similar Snake games before, right?
+
+284
+00:09:58,310 --> 00:10:00,150
+But right now, our game doesn't have that feature.
+
+285
+00:10:00,150 --> 00:10:02,940
+So, you can just describe what you want in plain English and tell it.
+
+286
+00:10:02,940 --> 00:10:06,300
+Alright, go ahead and make that change to the code for me.
+
+287
+00:10:06,300 --> 00:10:08,740
+So, we don't need any fancy or advanced tech for this.
+
+288
+00:10:08,740 --> 00:10:10,340
+And you don't need to know anything about programming either.
+
+289
+00:10:10,340 --> 00:10:11,800
+Just tell it what you're thinking.
+
+290
+00:10:11,800 --> 00:10:12,880
+You're the boss here.
+
+291
+00:10:12,880 --> 00:10:14,220
+They are the programmers.
+
+292
+00:10:14,220 --> 00:10:16,940
+All you have to do is tell them your idea, and the programmers will write the code for you.
+
+293
+00:10:16,940 --> 00:10:18,980
+as long as the programmer can understand your idea.
+
+294
+00:10:18,980 --> 00:10:20,420
+and it'll write the code for you. Alright,
+
+295
+00:10:20,420 --> 00:10:21,780
+Alright, let's just hit Enter.
+
+296
+00:10:21,780 --> 00:10:25,380
+Let's see if it can help us make this code change.
+
+297
+00:10:25,670 --> 00:10:28,590
+Alright, so as you can see, it's giving us some suggestions for code modifications here.
+
+298
+00:10:28,590 --> 00:10:31,170
+And it even automatically ran the program for us.
+
+299
+00:10:31,170 --> 00:10:34,530
+Alright, let's give it a try. Go... hey, it actually went right through!
+
+300
+00:10:34,530 --> 00:10:36,619
+Alright, let's see... okay, down it goes.
+
+301
+00:10:36,619 --> 00:10:38,239
+And it can pass through from this side too. Nice.
+
+302
+00:10:38,239 --> 00:10:40,559
+Alright, so with that, our little Snake game...
+
+303
+00:10:40,559 --> 00:10:42,759
+it can be modified to meet our requirements.
+
+304
+00:10:42,759 --> 00:10:45,360
+and we can make a simple modification to it.
+
+305
+00:10:45,360 --> 00:10:46,740
+Alright, now that we've made the changes, let's test it out.
+
+306
+00:10:46,740 --> 00:10:49,530
+For example, what if the snake runs into itself?
+
+307
+00:10:49,530 --> 00:10:50,970
+So, will it crash?
+
+308
+00:10:50,970 --> 00:10:52,150
+Alright, let's give this game a try.
+
+309
+00:10:52,150 --> 00:10:53,170
+Seems to be working fine.
+
+310
+00:10:53,170 --> 00:10:56,470
+And what if it bites itself? That should also be game over, right?
+
+311
+00:10:56,470 --> 00:11:00,040
+Alright, let's press ESC to stop it.
+
+312
+00:11:00,040 --> 00:11:01,540
+Alright, so after we've stopped it,
+
+313
+00:11:01,540 --> 00:11:02,800
+Alright, let's think about this again. Hmm...
+
+314
+00:11:02,800 --> 00:11:05,620
+So, the game is basically complete.
+
+315
+00:11:05,620 --> 00:11:07,720
+But, hey, I want to add a new feature.
+
+316
+00:11:07,720 --> 00:11:11,320
+For example, when I press the W, A, S, or D keys on the keyboard,
+
+317
+00:11:11,320 --> 00:11:12,140
+I can control the direction.
+
+318
+00:11:12,140 --> 00:11:13,860
+But what if I press the space bar?
+
+319
+00:11:13,860 --> 00:11:15,960
+make the snake speed up.
+
+320
+00:11:15,960 --> 00:11:17,260
+I'm sure you've all seen this before.
+
+321
+00:11:17,260 --> 00:11:19,250
+Sometimes, when the map is pretty big,
+
+322
+00:11:19,250 --> 00:11:20,630
+This food pellet is pretty far away.
+
+323
+00:11:20,630 --> 00:11:22,770
+But I think the snake is moving a bit too slow.
+
+324
+00:11:22,770 --> 00:11:23,430
+So, what can we do about it?
+
+325
+00:11:23,430 --> 00:11:24,170
+Let's speed it up!
+
+326
+00:11:24,170 --> 00:11:26,140
+So, let's just go ahead and add this feature for it.
+
+327
+00:11:26,140 --> 00:11:28,530
+Help me add a feature.
+
+328
+00:11:28,530 --> 00:11:32,030
+Alright, so, hold down the space bar.
+
+329
+00:11:32,030 --> 00:11:32,890
+the space bar.
+
+330
+00:11:32,890 --> 00:11:40,710
+And the snake's movement speed will double.
+
+331
+00:11:40,710 --> 00:11:42,530
+Alright, so with that requirement, let's hit Enter.
+
+332
+00:11:42,530 --> 00:11:46,550
+Let's see if it can actually get this feature done for us.
+
+333
+00:11:50,880 --> 00:11:51,280
+Alright.
+
+334
+00:11:51,280 --> 00:11:53,860
+And just like that, you can see it's given us the corresponding code modifications.
+
+335
+00:11:53,860 --> 00:11:55,160
+Alright, so in these code modifications...
+
+336
+00:11:55,160 --> 00:11:55,920
+So, to put it simply...
+
+337
+00:11:55,920 --> 00:11:59,110
+So, for example, the green parts up here indicate new additions.
+
+338
+00:11:59,110 --> 00:12:01,890
+And the red minus sign means that code was deleted.
+
+339
+00:12:01,890 --> 00:12:04,790
+So basically, what it's doing here is taking the wall collision detection...
+
+340
+00:12:04,790 --> 00:12:05,700
+First, let's minimize this.
+
+341
+00:12:05,700 --> 00:12:08,040
+So it deleted these three lines of code for the wall collision detection.
+
+342
+00:12:08,040 --> 00:12:09,600
+And replaced them with these two lines.
+
+343
+00:12:09,600 --> 00:12:10,140
+So, by the same token,
+
+344
+00:12:10,140 --> 00:12:11,220
+Now, look at all these plus signs down here.
+
+345
+00:12:11,220 --> 00:12:13,920
+So, the plus signs mean these are all new lines of code it's added.
+
+346
+00:12:13,920 --> 00:12:15,540
+And the minus signs represent the code that was deleted.
+
+347
+00:12:15,540 --> 00:12:17,000
+The plus signs mean it's new code.
+
+348
+00:12:17,000 --> 00:12:18,920
+So, you'll notice that it's made a bunch of changes here and there.
+
+349
+00:12:18,920 --> 00:12:19,900
+and some code modifications.
+
+350
+00:12:19,900 --> 00:12:23,100
+And it's all highlighted for you in red and green.
+
+351
+00:12:23,100 --> 00:12:23,880
+Alright, let's give it a try.
+
+352
+00:12:23,880 --> 00:12:24,820
+Alright, let's give it a shot.
+
+353
+00:12:24,820 --> 00:12:27,900
+Alright, looks like I need to come back here and hold the spacebar to speed up.
+
+354
+00:12:27,900 --> 00:12:28,580
+Wow, it actually sped up!
+
+355
+00:12:28,580 --> 00:12:31,160
+And hey, look at the top right corner, it even says 'Speeding Up x2'!
+
+356
+00:12:31,160 --> 00:12:35,320
+Alright, after eating this one, let's speed up again.
+
+357
+00:12:35,320 --> 00:12:37,560
+Let's speed up again and go.
+
+358
+00:12:37,560 --> 00:12:39,440
+Ah, I missed it, didn't I?
+
+359
+00:12:39,440 --> 00:12:40,620
+Alright, let's hit the gas.
+
+360
+00:12:40,620 --> 00:12:42,390
+Alright, let's speed it up.
+
+361
+00:12:42,390 --> 00:12:43,630
+Anyway, I'm pretty bad at games, so...
+
+362
+00:12:43,630 --> 00:12:45,030
+And then, we'll have it eat itself. Alright.
+
+363
+00:12:45,030 --> 00:12:46,250
+And that's game over.
+
+364
+00:12:46,250 --> 00:12:48,530
+Alright, OK, so at this point...
+
+365
+00:12:48,530 --> 00:12:51,450
+So, for our little Snake game here,
+
+366
+00:12:51,450 --> 00:12:53,200
+And with that, the development is pretty much done.
+
+367
+00:12:53,200 --> 00:12:56,500
+So, are you guys getting a feel for this whole 'web coding' vibe we've got going on here?
+
+368
+00:12:56,500 --> 00:12:58,160
+So, the core idea behind this whole programming thing is...
+
+369
+00:12:58,160 --> 00:13:02,410
+And this core concept is all about describing your intentions.
+
+370
+00:13:02,410 --> 00:13:04,450
+to get the actual code.
+
+371
+00:13:04,450 --> 00:13:07,350
+So, what we're going to do is basically follow a golden loop.
+
+372
+00:13:07,350 --> 00:13:08,720
+Describe what you need.
+
+373
+00:13:08,720 --> 00:13:10,400
+Then, the AI generates the code.
+
+374
+00:13:10,400 --> 00:13:11,860
+You test it out.
+
+375
+00:13:11,860 --> 00:13:13,660
+If you think it's good, you can sign off on it.
+
+376
+00:13:13,660 --> 00:13:15,460
+If you spot any issues, just ask it to fix them.
+
+377
+00:13:15,460 --> 00:13:16,340
+And it will go and fix it.
+
+378
+00:13:16,340 --> 00:13:18,200
+And once it's done, it'll spit out the new code.
+
+379
+00:13:18,200 --> 00:13:21,720
+If it works fine during your testing, then it's good to go, you can just accept it.
+
+380
+00:13:21,720 --> 00:13:24,000
+If there's a problem, just tell it what you need.
+
+381
+00:13:24,000 --> 00:13:25,470
+And then have it make the changes for you.
+
+382
+00:13:25,470 --> 00:13:25,910
+Alright.
+
+383
+00:13:25,910 --> 00:13:28,870
+See? This is the vibe you get from coding with AI.
+
+384
+00:13:28,870 --> 00:13:30,690
+This is the golden loop of programming.
+
+385
+00:13:30,690 --> 00:13:33,130
+And that golden loop is a fundamental principle that applies to everything.
+
+386
+00:13:33,130 --> 00:13:35,900
+So, starting with this basic project we're working on right now,
+
+387
+00:13:35,900 --> 00:13:37,340
+a relatively simple Snake game.
+
+388
+00:13:37,340 --> 00:13:41,220
+and even later on when we work on larger projects like LangChain and ChatGPT.
+
+389
+00:13:41,220 --> 00:13:43,920
+They all essentially follow these same cycles.
+
+390
+00:13:43,920 --> 00:13:44,580
+Alright.
+
+391
+00:13:44,580 --> 00:13:46,280
+Alright, so that was just a quick demonstration for you all.
+
+392
+00:13:46,280 --> 00:13:47,200
+this little snake game.
+
+393
+00:13:47,200 --> 00:13:49,240
+Alright, so once you've got Claude Code all set up,
+
+394
+00:13:49,240 --> 00:13:51,460
+Alright, so once you've got the environment installed and set up,
+
+395
+00:13:51,460 --> 00:13:53,080
+So, why don't you all give it a try?
+
+396
+00:13:53,080 --> 00:13:55,020
+and see what kind of game you can create on your own computer.
+
+397
+00:13:55,020 --> 00:13:56,480
+So, what kind of Snake game are we talking about?
+
+398
+00:13:56,480 --> 00:13:56,740
+Alright.
+
+399
+00:13:56,740 --> 00:13:59,870
+By the way, let me quickly touch on AI programming here.
+
+400
+00:13:59,870 --> 00:14:04,329
+The code it generates isn't exactly the same every single time.
+
+401
+00:14:04,329 --> 00:14:06,369
+So, take a look at the Snake game I'm running right now.
+
+402
+00:14:06,369 --> 00:14:07,520
+Alright, let me run it again.
+
+403
+00:14:07,520 --> 00:14:09,140
+So I'm running the game now.
+
+404
+00:14:09,140 --> 00:14:10,720
+So, this is what it looks like.
+
+405
+00:14:10,720 --> 00:14:13,920
+But the version you guys get might be a little bit different from mine.
+
+406
+00:14:13,920 --> 00:14:15,940
+Because with AI, every time you give it a command,
+
+407
+00:14:15,940 --> 00:14:17,080
+So, the code it writes...
+
+408
+00:14:17,080 --> 00:14:20,360
+So the output might be a little different each time.
+
+409
+00:14:20,360 --> 00:14:21,210
+But that's okay.
+
+410
+00:14:21,210 --> 00:14:22,570
+So what makes it different?
+
+411
+00:14:22,570 --> 00:14:23,850
+Just go with your own ideas,
+
+412
+00:14:23,850 --> 00:14:25,980
+All you have to do is describe your requirements to it.
+
+413
+00:14:25,980 --> 00:14:27,000
+Based on your description,
+
+414
+00:14:27,000 --> 00:14:28,900
+Ultimately, you can always align it to...
+
+415
+00:14:28,900 --> 00:14:31,560
+and get an identical program out of it.
+
+416
+00:14:31,560 --> 00:14:34,590
+Alright, so that's our introduction to Vibe Coding.
+
+417
+00:14:34,590 --> 00:14:35,710
+called Claude Code.
+
+418
+00:14:35,710 --> 00:14:36,890
+So, let's give it a try.
+
+419
+00:14:36,890 --> 00:14:38,750
+Alright, let's kick things off with our first beginner project.
+
+420
+00:14:38,750 --> 00:14:40,910
+So, I encourage you all to go ahead and practice this on your own.
+
+421
+00:14:40,910 --> 00:14:42,490
+Alright, let's save this for now.
+
+422
+00:14:42,490 --> 00:14:44,900
+Alright, I'll see you in the next video. Bye!
+

@@ -1,0 +1,204 @@
+1
+00:00:00,040 --> 00:00:02,719
+This is the Hakimi job search website I created using AI.
+
+2
+00:00:02,719 --> 00:00:04,339
+The initial version still has a strong AI vibe
+
+3
+00:00:04,339 --> 00:00:06,239
+but after optimization, it instantly transforms into a dopamine-inducing style
+
+4
+00:00:06,239 --> 00:00:09,099
+and have compiled it into a step-by-step tutorial to share with you
+
+5
+00:00:09,099 --> 00:00:10,399
+It is recommended to like and favorite it first
+
+6
+00:00:10,399 --> 00:00:13,220
+so you won't have trouble finding it when needed
+
+7
+00:00:13,220 --> 00:00:15,480
+This time we'll directly use Claudecode to create the webpage
+
+8
+00:00:15,480 --> 00:00:17,520
+Open ClaudeCode and upload Mi's resume
+
+9
+00:00:17,520 --> 00:00:19,640
+generate a job-seeking website based on the resume
+
+10
+00:00:19,640 --> 00:00:21,720
+we get a classic blue-purple color scheme
+
+11
+00:00:21,720 --> 00:00:23,720
+cookie-cutter AI assembly line website
+
+12
+00:00:23,720 --> 00:00:24,240
+Don't worry
+
+13
+00:00:24,240 --> 00:00:26,500
+Next, we'll gradually adjust it to a dopamine style.
+
+14
+00:00:26,500 --> 00:00:27,780
+The first step is to build the framework
+
+15
+00:00:27,780 --> 00:00:30,500
+Because AI's replication capability far surpasses its imaginative power
+
+16
+00:00:30,500 --> 00:00:31,380
+before writing the code
+
+17
+00:00:31,380 --> 00:00:33,380
+You can first build a framework on this website
+
+18
+00:00:33,380 --> 00:00:35,420
+page layout, where to place buttons and images
+
+19
+00:00:35,420 --> 00:00:36,540
+first get it clear
+
+20
+00:00:36,540 --> 00:00:37,580
+then upload the image
+
+21
+00:00:37,580 --> 00:00:39,320
+Tell the AI 'Write according to this structure'
+
+22
+00:00:39,320 --> 00:00:41,060
+we get a webpage like this
+
+23
+00:00:41,060 --> 00:00:44,620
+However, the current color scheme and typography still lack aesthetic appeal and consistency.
+
+24
+00:00:44,620 --> 00:00:47,120
+We can use Nano banana to unify the website color scheme
+
+25
+00:00:47,120 --> 00:00:48,040
+upload reference image
+
+26
+00:00:48,040 --> 00:00:50,240
+Then generate a color palette based on this image
+
+27
+00:00:50,240 --> 00:00:53,800
+Then let the AI pre-define the spacing and typographic hierarchy of this webpage
+
+28
+00:00:53,800 --> 00:00:55,160
+maintain page consistency
+
+29
+00:00:55,160 --> 00:00:56,780
+There is also a skill on GitHub
+
+30
+00:00:56,780 --> 00:00:59,120
+specifically designed to make our webpage stand out
+
+31
+00:00:59,120 --> 00:01:00,440
+Combine these three techniques
+
+32
+00:01:00,440 --> 00:01:01,840
+after several rounds of fine-tuning
+
+33
+00:01:01,840 --> 00:01:04,060
+we can obtain a dopamine-style webpage
+
+34
+00:01:04,060 --> 00:01:05,920
+During fine-tuning, use screenshots for communication whenever possible
+
+35
+00:01:05,920 --> 00:01:06,940
+do not use typing
+
+36
+00:01:06,940 --> 00:01:09,060
+The more visual information we provide to the AI
+
+37
+00:01:09,060 --> 00:01:10,640
+the more stable its understanding becomes
+
+38
+00:01:10,640 --> 00:01:13,320
+For example, this is the text and rounded-corner style I want
+
+39
+00:01:13,320 --> 00:01:14,979
+upload the screenshot, and ClaudeCode instantly understands
+
+40
+00:01:14,979 --> 00:01:16,659
+This is much better than using a prompt
+
+41
+00:01:16,659 --> 00:01:18,279
+say 'make the font on the webpage look good'
+
+42
+00:01:18,279 --> 00:01:20,139
+The conveyed content is much clearer.
+
+43
+00:01:20,139 --> 00:01:21,610
+To summarize again
+
+44
+00:01:21,610 --> 00:01:23,490
+To make the AI-generated page look good
+
+45
+00:01:23,490 --> 00:01:25,160
+you need to understand at least these 2 principles
+
+46
+00:01:25,160 --> 00:01:27,600
+First, build the webpage framework and unify the visual style
+
+47
+00:01:27,600 --> 00:01:28,300
+then write the code
+
+48
+00:01:28,300 --> 00:01:30,840
+Second, use screenshots as the primary method of communication with AI.
+
+49
+00:01:30,840 --> 00:01:32,340
+Did you learn it?
+
+50
+00:01:32,340 --> 00:01:33,540
+Welcome to the Triple Combo
+
+51
+00:01:33,540 --> 00:01:35,280
+Explore the fascinating world of AI
+

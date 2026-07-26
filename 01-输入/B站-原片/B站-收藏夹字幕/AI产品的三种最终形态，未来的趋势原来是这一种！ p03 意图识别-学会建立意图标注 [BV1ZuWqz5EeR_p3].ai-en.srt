@@ -1,0 +1,1148 @@
+1
+00:00:00,000 --> 00:00:02,000
+Step 2: Label user intent
+
+2
+00:00:02,000 --> 00:00:03,520
+Because we just learned about individual cases such as
+
+3
+00:00:03,520 --> 00:00:05,950
+It's about how to analyze the intent of a single K word.
+
+4
+00:00:05,950 --> 00:00:07,310
+OK, we tell the algorithm
+
+5
+00:00:07,310 --> 00:00:09,470
+We now know the intent of applying for meal subsidy
+
+6
+00:00:09,470 --> 00:00:10,610
+Start training now.
+
+7
+00:00:10,610 --> 00:00:13,010
+Then guess what the algorithm would say to you at this moment
+
+8
+00:00:13,010 --> 00:00:16,970
+He would ask what the proportion of this intent is
+
+9
+00:00:16,970 --> 00:00:18,570
+How significant is it? What business value can we achieve by optimizing this?
+
+10
+00:00:18,570 --> 00:00:19,970
+What business value can this address?
+
+11
+00:00:19,970 --> 00:00:21,250
+He will definitely ask you this question
+
+12
+00:00:21,250 --> 00:00:23,119
+Some participants might wonder why algorithm engineers care about business metrics.
+
+13
+00:00:23,119 --> 00:00:25,479
+Why do algorithms care about business metrics
+
+14
+00:00:25,479 --> 00:00:29,390
+One reason is that AI products are relatively very important
+
+15
+00:00:29,390 --> 00:00:34,840
+Many AI products and teams are assigned key metrics, which are quite core in nature.
+
+16
+00:00:34,840 --> 00:00:35,620
+under tremendous pressure
+
+17
+00:00:35,620 --> 00:00:37,820
+If the value of your solution is too insignificant
+
+18
+00:00:37,820 --> 00:00:39,510
+The algorithm and business teams will not cooperate.
+
+19
+00:00:39,510 --> 00:00:42,350
+So at this point, you might think
+
+20
+00:00:42,350 --> 00:00:45,820
+If we know the proportion of each intent
+
+21
+00:00:45,820 --> 00:00:49,860
+We prioritize optimizing the intent with the largest proportion first.
+
+22
+00:00:49,860 --> 00:00:51,060
+if there is an issue with it
+
+23
+00:00:51,060 --> 00:00:52,460
+We optimize it first
+
+24
+00:00:52,460 --> 00:00:55,780
+This might be a more acceptable way for everyone.
+
+25
+00:00:55,780 --> 00:00:58,920
+This might be a more acceptable approach for everyone.
+
+26
+00:00:58,920 --> 00:00:59,940
+But now the problem arises
+
+27
+00:00:59,940 --> 00:01:02,180
+we hope to identify the most prevalent intent
+
+28
+00:01:02,180 --> 00:01:04,379
+
+
+29
+00:01:04,379 --> 00:01:07,460
+it needs to go through our intent labeling
+
+30
+00:01:07,460 --> 00:01:08,540
+Let me explain it to you again
+
+31
+00:01:08,540 --> 00:01:10,460
+These elements are actually interconnected
+
+32
+00:01:10,460 --> 00:01:12,920
+First, we need to learn to analyze individual cases
+
+33
+00:01:12,920 --> 00:01:13,600
+This is the first point
+
+34
+00:01:13,600 --> 00:01:15,120
+but I have to emphasize once again
+
+35
+00:01:15,120 --> 00:01:17,700
+Everyone here really needs to practice, practice, practice, and practice some more.
+
+36
+00:01:17,700 --> 00:01:20,750
+We will also provide such practice exercises in the future.
+
+37
+00:01:20,750 --> 00:01:22,230
+single intent analysis case
+
+38
+00:01:22,230 --> 00:01:23,690
+Although we have talked about
+
+39
+00:01:23,690 --> 00:01:27,200
+a skill that requires extensive practice
+
+40
+00:01:27,200 --> 00:01:31,220
+Secondly, we may learn this evaluation method
+
+41
+00:01:31,220 --> 00:01:38,070
+let us more clearly understand which intentions currently have the highest proportion in the business
+
+42
+00:01:38,070 --> 00:01:40,669
+which of these intents account for the least proportion
+
+43
+00:01:40,669 --> 00:01:43,609
+This way we can have a comprehensive overview of the intentions.
+
+44
+00:01:43,609 --> 00:01:46,109
+OK, it still involves some matters of evaluation.
+
+45
+00:01:46,109 --> 00:01:48,520
+Evaluation is truly a fundamental skill in AI product development, and it's no exaggeration to say
+
+46
+00:01:48,520 --> 00:01:49,960
+30%-40% of the time is actually spent analyzing user intent and various evaluations.
+
+47
+00:01:49,960 --> 00:01:53,160
+In fact, it's all used for analyzing such user intents and various evaluations.
+
+48
+00:01:53,160 --> 00:01:58,110
+Moreover, evaluations here fundamentally involve some theories of random sampling.
+
+49
+00:01:58,110 --> 00:02:00,270
+This random sampling is actually a relatively important concept
+
+50
+00:02:00,270 --> 00:02:02,250
+This is actually something that can be extended for learning.
+
+51
+00:02:02,250 --> 00:02:04,700
+It will help you avoid pitfalls during the evaluation.
+
+52
+00:02:04,700 --> 00:02:05,980
+In simple terms, the intent evaluation here is essentially about randomly sampling a subset of cases
+
+53
+00:02:05,980 --> 00:02:09,660
+Simply put, it's about randomly sampling a subset of cases.
+
+54
+00:02:09,660 --> 00:02:11,829
+Calculate the proportion based on these cases
+
+55
+00:02:11,829 --> 00:02:14,229
+If this randomness is properly managed
+
+56
+00:02:14,229 --> 00:02:17,540
+the proportion in your randomness is actually the same as the overall proportion
+
+57
+00:02:17,540 --> 00:02:20,340
+So in summary, this entire evaluation workflow
+
+58
+00:02:20,340 --> 00:02:22,420
+To put it simply, it can be divided into three points.
+
+59
+00:02:22,420 --> 00:02:25,320
+The first point is to determine the evaluation set
+
+60
+00:02:25,320 --> 00:02:27,740
+There are three evaluation sets in this
+
+61
+00:02:27,740 --> 00:02:30,540
+There are three major key points here.
+
+62
+00:02:30,540 --> 00:02:33,960
+The first point is the evaluation scale, which requires at least 1,000 entries.
+
+63
+00:02:33,960 --> 00:02:35,260
+If you are a large-scale business
+
+64
+00:02:35,260 --> 00:02:37,840
+such as large-scale platforms like JD.com or Meituan
+
+65
+00:02:37,840 --> 00:02:39,180
+At least 10,000 entries are required.
+
+66
+00:02:39,180 --> 00:02:41,020
+because if you can't reach that scale
+
+67
+00:02:41,020 --> 00:02:44,710
+Actually, some of these randomly generated data may be missing
+
+68
+00:02:44,710 --> 00:02:47,950
+and your proportions may not align with the normal distribution
+
+69
+00:02:47,950 --> 00:02:51,070
+Secondly, your sampling timing is crucial
+
+70
+00:02:51,070 --> 00:02:52,890
+Try to simulate the real environment
+
+71
+00:02:52,890 --> 00:02:56,089
+It is necessary to eliminate the influence of major promotions and holidays.
+
+72
+00:02:56,089 --> 00:02:59,889
+Because in some cases, the user demands during major promotions themselves are inherently
+
+73
+00:02:59,889 --> 00:03:01,640
+relatively speaking, it is quite special
+
+74
+00:03:01,640 --> 00:03:02,400
+peaked
+
+75
+00:03:02,400 --> 00:03:03,580
+including certain special holidays
+
+76
+00:03:03,580 --> 00:03:07,070
+your overall volume of such inquiries is very low
+
+77
+00:03:07,070 --> 00:03:11,020
+This actually prevents you from sampling and simulating the real environment
+
+78
+00:03:11,020 --> 00:03:12,420
+This is also extremely critical
+
+79
+00:03:12,420 --> 00:03:13,460
+What is the third point?
+
+80
+00:03:13,460 --> 00:03:14,480
+data processing method
+
+81
+00:03:14,480 --> 00:03:16,780
+First, it's about your randomization method
+
+82
+00:03:16,780 --> 00:03:18,800
+Are you choosing random without deduplication
+
+83
+00:03:18,800 --> 00:03:19,860
+or random deduplication
+
+84
+00:03:19,860 --> 00:03:21,959
+or what kind of random method
+
+85
+00:03:21,959 --> 00:03:24,340
+stratified random sampling and a series of such methods
+
+86
+00:03:24,340 --> 00:03:27,340
+Brother Xun suggests that if it's relatively normal,
+
+87
+00:03:27,340 --> 00:03:28,460
+you actually just randomly sample without deduplication, which best represents the real environment
+
+88
+00:03:28,460 --> 00:03:31,160
+it actually best represents the real environment
+
+89
+00:03:31,160 --> 00:03:32,920
+The second step is to extract cases.
+
+90
+00:03:32,920 --> 00:03:36,180
+For extracting cases, if you're in the search business
+
+91
+00:03:36,180 --> 00:03:38,050
+then you extract the search terms
+
+92
+00:03:38,050 --> 00:03:38,870
+search query
+
+93
+00:03:38,870 --> 00:03:40,150
+search time, location
+
+94
+00:03:40,150 --> 00:03:42,530
+Here, we might take intelligent customer service as an example.
+
+95
+00:03:42,530 --> 00:03:45,740
+That would likely refer to the conversation, time, and location.
+
+96
+00:03:45,740 --> 00:03:47,660
+The most important thing is your order information.
+
+97
+00:03:47,660 --> 00:03:50,280
+Generally, 3-5 dialogue samples are extracted.
+
+98
+00:03:50,280 --> 00:03:52,460
+Because if you only sample one piece of data
+
+99
+00:03:52,460 --> 00:03:53,820
+may lack context
+
+100
+00:03:53,820 --> 00:03:54,840
+Sample 3-5 entries
+
+101
+00:03:54,840 --> 00:03:56,540
+some only extract the user's dialogue
+
+102
+00:03:56,540 --> 00:03:59,130
+Some may involve both user-to-user and user-to-customer conversations that could all be sampled
+
+103
+00:03:59,130 --> 00:04:02,090
+But this indeed depends on your specific scenarios
+
+104
+00:04:02,090 --> 00:04:04,450
+But this is a general guiding principle
+
+105
+00:04:04,450 --> 00:04:07,930
+The general principle is that you should strive to simulate a real-world environment as much as possible.
+
+106
+00:04:07,930 --> 00:04:09,610
+This is the first point, the evaluation set
+
+107
+00:04:09,610 --> 00:04:11,670
+The second point is to output the evaluation document
+
+108
+00:04:11,670 --> 00:04:13,490
+There is actually a point here
+
+109
+00:04:13,490 --> 00:04:17,160
+The key point here is what matters most in this document.
+
+110
+00:04:17,160 --> 00:04:20,790
+You need to include three parts for each intent
+
+111
+00:04:20,790 --> 00:04:22,270
+First, a general introduction to the intent
+
+112
+00:04:22,270 --> 00:04:23,650
+For example, it's the meal damage intent
+
+113
+00:04:23,650 --> 00:04:24,890
+What is the general nature of this intent
+
+114
+00:04:24,890 --> 00:04:26,570
+You should provide a brief written explanation.
+
+115
+00:04:26,570 --> 00:04:27,890
+Secondly, representative queries
+
+116
+00:04:27,890 --> 00:04:32,210
+For example, the three to five that best represent this intent
+
+117
+00:04:32,210 --> 00:04:34,270
+the way of posing such advisory questions
+
+118
+00:04:34,270 --> 00:04:35,830
+including the query method
+
+119
+00:04:35,830 --> 00:04:38,550
+Third, what is it? Similar questions
+
+120
+00:04:38,550 --> 00:04:40,290
+The representative query best represents this intent
+
+121
+00:04:40,290 --> 00:04:41,430
+but some similar queries
+
+122
+00:04:41,430 --> 00:04:43,740
+it is not as representative as the standard question
+
+123
+00:04:43,740 --> 00:04:46,000
+but it can also have some similar and related relationships
+
+124
+00:04:46,000 --> 00:04:47,280
+some related relationships
+
+125
+00:04:47,280 --> 00:04:49,790
+Once you meet these conditions
+
+126
+00:04:49,790 --> 00:04:52,330
+It can actually be considered as one of these representative questions.
+
+127
+00:04:52,330 --> 00:04:53,150
+Generally speaking,
+
+128
+00:04:53,150 --> 00:04:54,670
+Each of your intents includes these three components
+
+129
+00:04:54,670 --> 00:04:55,580
+intent introduction
+
+130
+00:04:55,580 --> 00:04:57,860
+representative questions, similar questions, these three parts
+
+131
+00:04:57,860 --> 00:04:59,740
+For this document, let's say there are a total of 10 intents
+
+132
+00:04:59,740 --> 00:05:02,780
+Then list out these three components for all 10 intents
+
+133
+00:05:02,780 --> 00:05:05,440
+This allows everyone to understand as much as possible
+
+134
+00:05:05,440 --> 00:05:07,360
+Which cases should be labeled with which intent
+
+135
+00:05:07,360 --> 00:05:09,540
+what kind of cases should not be labeled as the second one
+
+136
+00:05:09,540 --> 00:05:10,100
+Secondly, everyone should remember
+
+137
+00:05:10,100 --> 00:05:13,760
+This document, in its initial stage, is certainly not perfect.
+
+138
+00:05:13,760 --> 00:05:16,760
+Because you are about to conduct large-scale intent labeling
+
+139
+00:05:16,760 --> 00:05:18,500
+it is definitely not perfect at this stage
+
+140
+00:05:18,500 --> 00:05:21,300
+but as more and more evaluations are conducted
+
+141
+00:05:21,300 --> 00:05:23,580
+The evaluation document will undoubtedly become increasingly refined.
+
+142
+00:05:23,580 --> 00:05:24,510
+This is the second point
+
+143
+00:05:24,510 --> 00:05:27,890
+You need to have such a thing to align with everyone
+
+144
+00:05:27,890 --> 00:05:29,490
+Align the text with the team to determine what kind of case should be labeled and to what extent
+
+145
+00:05:29,490 --> 00:05:31,090
+what kind of kiss
+
+146
+00:05:31,090 --> 00:05:32,470
+what intent should be labeled
+
+147
+00:05:32,470 --> 00:05:34,370
+Just like what we did in the first step
+
+148
+00:05:34,370 --> 00:05:38,170
+You might have four different ways to ask about a case
+
+149
+00:05:38,170 --> 00:05:40,150
+If you don't properly annotate these cases
+
+150
+00:05:40,150 --> 00:05:42,420
+then others won't understand
+
+151
+00:05:42,420 --> 00:05:46,990
+The third point is that the evaluation requires at least 2-3 people.
+
+152
+00:05:46,990 --> 00:05:50,430
+This is also why we need this document.
+
+153
+00:05:50,430 --> 00:05:52,550
+Because cross-evaluation is required
+
+154
+00:05:52,550 --> 00:05:55,809
+Because evaluating intent is a highly subjective matter
+
+155
+00:05:55,809 --> 00:05:57,689
+It's not like, after I define this intent
+
+156
+00:05:57,689 --> 00:06:00,249
+it's something that can be calculated by some objective formula
+
+157
+00:06:00,249 --> 00:06:01,130
+No
+
+158
+00:06:01,130 --> 00:06:02,330
+This is something everyone should keep in mind
+
+159
+00:06:02,330 --> 00:06:03,730
+Although we are developing AI products
+
+160
+00:06:03,730 --> 00:06:05,210
+But in terms of intent evaluation
+
+161
+00:06:05,210 --> 00:06:07,340
+it is a relatively subjective process
+
+162
+00:06:07,340 --> 00:06:09,500
+Just like our previous search evaluation
+
+163
+00:06:09,500 --> 00:06:11,600
+the ranking of search results
+
+164
+00:06:11,600 --> 00:06:12,480
+this intent recognition
+
+165
+00:06:12,480 --> 00:06:14,260
+It is all precisely and uniformly controlled
+
+166
+00:06:14,260 --> 00:06:18,740
+but ultimately the search evaluation part is entirely subjectively assessed by humans
+
+167
+00:06:18,740 --> 00:06:20,080
+This is something everyone should keep in mind
+
+168
+00:06:20,080 --> 00:06:21,800
+Since it's subjective
+
+169
+00:06:21,800 --> 00:06:25,320
+Therefore, generally speaking, it requires two to three people
+
+170
+00:06:25,320 --> 00:06:27,080
+everyone during this process
+
+171
+00:06:27,080 --> 00:06:30,330
+For different points, output evaluation documents
+
+172
+00:06:30,330 --> 00:06:31,730
+continuously improve this process
+
+173
+00:06:31,730 --> 00:06:33,070
+in this process
+
+174
+00:06:33,070 --> 00:06:35,410
+It is best to involve all relevant business stakeholders
+
+175
+00:06:35,410 --> 00:06:37,479
+such as algorithm, business, operations
+
+176
+00:06:37,479 --> 00:06:39,639
+At least one person should be involved
+
+177
+00:06:39,639 --> 00:06:41,459
+Because this is an excellent opportunity
+
+178
+00:06:41,459 --> 00:06:44,780
+it can align the understanding of user intent among different roles in your AI project
+
+179
+00:06:44,780 --> 00:06:46,860
+regarding everyone's understanding of such user intents
+
+180
+00:06:46,860 --> 00:06:49,700
+Finally, the intent of each case can be determined, and after each case is evaluated
+
+181
+00:06:49,700 --> 00:06:51,360
+each case is evaluated
+
+182
+00:06:51,360 --> 00:06:56,240
+then use the number of each type of case divided by the total number of evaluations
+
+183
+00:06:56,520 --> 00:06:57,760
+then we can determine the intent distribution
+
+184
+00:06:57,760 --> 00:06:59,840
+For example, let's say we evaluated 1000 cases
+
+185
+00:06:59,840 --> 00:07:03,190
+among which 100 cases were identified as meal damage claims
+
+186
+00:07:03,190 --> 00:07:06,130
+then the meal damage application accounts for 100 out of 1,000
+
+187
+00:07:06,130 --> 00:07:07,270
+that would be 10%
+
+188
+00:07:07,270 --> 00:07:09,879
+then we can determine its proportion. Many AI product managers, once they complete this step,
+
+189
+00:07:09,879 --> 00:07:11,519
+you are once you complete this step
+
+190
+00:07:11,519 --> 00:07:13,679
+you'll understand what your scenario is like
+
+191
+00:07:13,679 --> 00:07:15,439
+For what kind of users are you developing this AI product
+
+192
+00:07:15,439 --> 00:07:17,190
+At this point, you'll have a solid grasp of the situation.
+
+193
+00:07:17,190 --> 00:07:19,050
+Please note there are many pitfalls here
+
+194
+00:07:19,050 --> 00:07:20,360
+What you actually need to avoid
+
+195
+00:07:20,360 --> 00:07:22,400
+First, regarding random data
+
+196
+00:07:22,400 --> 00:07:26,040
+You must verify the logic of random sampling
+
+197
+00:07:26,040 --> 00:07:28,370
+This is really a huge pitfall
+
+198
+00:07:28,370 --> 00:07:31,470
+Because everyone has a different understanding of randomness.
+
+199
+00:07:31,470 --> 00:07:34,310
+especially when you get into specific business scenarios
+
+200
+00:07:34,310 --> 00:07:36,280
+after imposing many specific conditions
+
+201
+00:07:36,280 --> 00:07:37,680
+The understanding of randomness varies
+
+202
+00:07:37,680 --> 00:07:39,740
+This is very likely to cause problems
+
+203
+00:07:39,740 --> 00:07:42,340
+This renders your proportion completely unusable.
+
+204
+00:07:42,340 --> 00:07:44,220
+You might have finished evaluating all 1,000 entries
+
+205
+00:07:44,220 --> 00:07:45,920
+but your proportion is completely inaccurate
+
+206
+00:07:45,920 --> 00:07:47,789
+because it's not truly randomly sampled
+
+207
+00:07:47,789 --> 00:07:50,669
+This is a point that everyone must definitely verify.
+
+208
+00:07:50,669 --> 00:07:51,429
+Second point
+
+209
+00:07:51,429 --> 00:07:54,390
+The evaluator is not diligent, resulting in low assessment quality
+
+210
+00:07:54,390 --> 00:07:56,390
+This will render a significant amount of evaluation data unusable.
+
+211
+00:07:56,390 --> 00:07:58,390
+in addition to your own commitment to quality
+
+212
+00:07:58,390 --> 00:08:00,590
+others may not take this seriously
+
+213
+00:08:00,590 --> 00:08:04,170
+Right, the suggestion is not to let them evaluate separately.
+
+214
+00:08:04,170 --> 00:08:05,430
+I assigned an evaluation task
+
+215
+00:08:05,430 --> 00:08:06,470
+Everyone should evaluate together
+
+216
+00:08:06,470 --> 00:08:09,710
+Everyone must submit it by next Friday.
+
+217
+00:08:09,710 --> 00:08:12,150
+In your impression, probably everyone would behave like you
+
+218
+00:08:12,150 --> 00:08:13,310
+I evaluate a little bit after finishing work each day
+
+219
+00:08:13,310 --> 00:08:16,230
+You set it for next Friday, right?
+
+220
+00:08:16,230 --> 00:08:18,330
+Right, everyone will start evaluating on Thursday night or Friday morning
+
+221
+00:08:18,330 --> 00:08:20,070
+or watch videos on Friday morning
+
+222
+00:08:20,070 --> 00:08:21,650
+Then you will find the quality is very poor
+
+223
+00:08:21,650 --> 00:08:23,590
+then everyone will just go through the motions
+
+224
+00:08:23,590 --> 00:08:26,590
+your evaluation efficiency will be very low
+
+225
+00:08:26,590 --> 00:08:28,940
+Then your supervisor may not be satisfied
+
+226
+00:08:28,940 --> 00:08:30,660
+The solution to this is
+
+227
+00:08:30,660 --> 00:08:33,919
+You need to find a time slot to gather them together
+
+228
+00:08:33,919 --> 00:08:38,200
+Perhaps this will take an entire afternoon.
+
+229
+00:08:38,200 --> 00:08:42,039
+Then you make up your mind to reserve a meeting room for the entire afternoon
+
+230
+00:08:42,039 --> 00:08:44,360
+Then the three of them sit there together to evaluate
+
+231
+00:08:44,360 --> 00:08:46,490
+You review whatever they evaluate, right
+
+232
+00:08:46,490 --> 00:08:47,910
+discuss any issues on the spot
+
+233
+00:08:47,910 --> 00:08:48,810
+It must be done this way
+
+234
+00:08:48,810 --> 00:08:50,890
+Otherwise, the quality of your data will become highly unreliable.
+
+235
+00:08:50,890 --> 00:08:53,470
+Thirdly, evaluation time
+
+236
+00:08:53,470 --> 00:08:54,610
+evaluation criteria
+
+237
+00:08:54,610 --> 00:08:55,770
+If you blindly evaluate
+
+238
+00:08:55,770 --> 00:08:56,690
+you will find that everyone actually has inconsistent evaluation criteria
+
+239
+00:08:56,690 --> 00:08:58,730
+There is actually no unified standard among everyone regarding the evaluation criteria.
+
+240
+00:08:58,730 --> 00:09:02,870
+Especially since the evaluation criteria involve many subsequent business processes
+
+241
+00:09:02,870 --> 00:09:04,230
+algorithm business
+
+242
+00:09:04,230 --> 00:09:06,670
+and it's very easy to be inconsistent with the product
+
+243
+00:09:06,670 --> 00:09:08,290
+Moreover, everyone's positions are different.
+
+244
+00:09:08,290 --> 00:09:10,120
+Sometimes, debates can go on for a very long time.
+
+245
+00:09:10,120 --> 00:09:11,260
+If encountering this situation
+
+246
+00:09:11,260 --> 00:09:13,380
+If it's an isolated case, skip it
+
+247
+00:09:13,380 --> 00:09:15,820
+If this occurs in multiple cases
+
+248
+00:09:15,820 --> 00:09:16,900
+As an AI product manager
+
+249
+00:09:16,900 --> 00:09:18,700
+You need to step up and make the call
+
+250
+00:09:18,700 --> 00:09:21,450
+and provide such a solution and recommendation
+
+251
+00:09:21,450 --> 00:09:23,270
+What is the most taboo at this moment
+
+252
+00:09:23,270 --> 00:09:25,630
+The most taboo thing is having the AI product manager hiding in the back.
+
+253
+00:09:25,630 --> 00:09:27,940
+Then you will find that it is impossible to reach a conclusion
+
+254
+00:09:27,940 --> 00:09:32,020
+And then this matter will be stuck due to these one or two cases
+
+255
+00:09:32,020 --> 00:09:33,150
+This is indeed the truth
+
+256
+00:09:33,150 --> 00:09:35,250
+These are actually some common pitfalls
+
+257
+00:09:35,250 --> 00:09:37,230
+Finally, let me address a common misconception
+
+258
+00:09:37,230 --> 00:09:41,350
+Many people tend to think that AI product managers shouldn't be involved in evaluation and annotation, right?
+
+259
+00:09:41,350 --> 00:09:44,910
+Evaluation and annotation shouldn't be done, right?
+
+260
+00:09:44,910 --> 00:09:48,640
+This is the work of interns or outsourced personnel.
+
+261
+00:09:48,640 --> 00:09:50,200
+Many people hold such views
+
+262
+00:09:50,200 --> 00:09:52,560
+But based on over a decade of work experience, I can tell you
+
+263
+00:09:52,560 --> 00:09:58,560
+This is a very, very serious mistake, as the effectiveness is directly proportional to the thoroughness of your evaluation
+
+264
+00:09:58,560 --> 00:10:02,460
+is also evaluation and product, optimization effectiveness
+
+265
+00:10:02,460 --> 00:10:04,300
+To put it bluntly, it's directly proportional.
+
+266
+00:10:04,300 --> 00:10:07,680
+The more you evaluate in detail, the better you understand user needs
+
+267
+00:10:07,680 --> 00:10:12,750
+then you will be able to design more reasonable AI products
+
+268
+00:10:12,750 --> 00:10:15,550
+For example, the founding father of our AI product, right?
+
+269
+00:10:15,550 --> 00:10:16,760
+Who?
+
+270
+00:10:16,760 --> 00:10:18,680
+Definitely Yu Jun
+
+271
+00:10:18,680 --> 00:10:20,560
+Everyone should know who Yu Jun is, right?
+
+272
+00:10:20,560 --> 00:10:23,770
+Back then at Baidu, he literally stayed in the office without going home
+
+273
+00:10:23,770 --> 00:10:26,270
+was examining each and every one of the users' search queries one by one
+
+274
+00:10:26,270 --> 00:10:27,270
+and then conduct an analysis
+
+275
+00:10:27,270 --> 00:10:29,350
+and then annotate the search results
+
+276
+00:10:29,350 --> 00:10:32,590
+That's how many of Baidu's classic products came about back then.
+
+277
+00:10:32,590 --> 00:10:34,800
+So it's truly an AI product
+
+278
+00:10:34,800 --> 00:10:37,400
+It is still in the field of products
+
+279
+00:10:37,400 --> 00:10:41,900
+it must require him to understand users better
+
+280
+00:10:41,900 --> 00:10:43,820
+how to better understand users
+
+281
+00:10:43,820 --> 00:10:45,620
+essentially evaluation
+
+282
+00:10:45,620 --> 00:10:46,800
+session evaluation, speed term query evaluation
+
+283
+00:10:46,800 --> 00:10:50,820
+right then your intent recognition evaluation and so on and so forth
+
+284
+00:10:50,820 --> 00:10:52,220
+You just need to focus on user evaluation
+
+285
+00:10:52,220 --> 00:10:52,980
+you need to look more
+
+286
+00:10:52,980 --> 00:10:55,240
+This is actually the second part we discussed
+
+287
+00:10:55,240 --> 00:10:57,760
+that is, to learn intent annotation
+

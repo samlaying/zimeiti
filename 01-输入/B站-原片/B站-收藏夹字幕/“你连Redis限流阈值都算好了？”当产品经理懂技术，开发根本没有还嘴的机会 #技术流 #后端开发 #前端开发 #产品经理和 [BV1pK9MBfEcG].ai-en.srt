@@ -1,0 +1,696 @@
+1
+00:00:00,080 --> 00:00:01,080
+The problem isn't on the frontend.
+
+2
+00:00:01,080 --> 00:00:01,720
+It's not the backend.
+
+3
+00:00:01,720 --> 00:00:02,340
+Not the network. It's Redis.
+
+4
+00:00:02,340 --> 00:00:02,940
+It's in Redis.
+
+5
+00:00:02,940 --> 00:00:04,320
+Impossible. I set up the Redis cluster myself.
+
+6
+00:00:04,320 --> 00:00:07,920
+A three-master, three-slave sentinel setup. It's rock-solid.
+
+7
+00:00:22,380 --> 00:00:23,500
+Sorry to drag you all out here in the middle of the night.
+
+8
+00:00:23,500 --> 00:00:24,140
+And you know why, don't you?
+
+9
+00:00:24,140 --> 00:00:25,140
+Alright, who wants to throw the first stone?
+
+10
+00:00:25,140 --> 00:00:26,060
+Well, it's not a backend issue anyway.
+
+11
+00:00:26,060 --> 00:00:28,100
+I checked the service status before I went to bed, and the logs were clean.
+
+12
+00:00:28,100 --> 00:00:29,080
+And it's not my front-end either.
+
+13
+00:00:29,080 --> 00:00:30,300
+What about our CDA cache?
+
+14
+00:00:30,300 --> 00:00:31,940
+The cache hit rate has been consistently above 98%.
+
+15
+00:00:31,940 --> 00:00:33,040
+Then it's a problem with the network layer.
+
+16
+00:00:33,040 --> 00:00:34,880
+Zihao, that's on you. What's it got to do with me?
+
+17
+00:00:34,880 --> 00:00:39,440
+I just inspected the network yesterday. The bandwidth utilization is only at 40%.
+
+18
+00:00:39,440 --> 00:00:40,280
+What's the problem?
+
+19
+00:00:40,280 --> 00:00:41,740
+Who are you calling a spaghetti code monkey?
+
+20
+00:00:41,740 --> 00:00:43,340
+Well, it's not my front-end that's screwed up.
+
+21
+00:00:43,340 --> 00:00:45,090
+
+
+22
+00:00:45,090 --> 00:00:46,490
+My pre-launch test report...
+
+23
+00:00:46,490 --> 00:00:49,470
+Page 17 clearly states the risk of cache penetration in high-throughput scenarios.
+
+24
+00:00:49,470 --> 00:00:50,790
+I recommend we optimize the hot key strategy.
+
+25
+00:00:50,790 --> 00:00:52,190
+You all signed off on it, but you didn't make the changes.
+
+26
+00:00:52,190 --> 00:00:52,960
+And I have proof.
+
+27
+00:00:52,960 --> 00:00:54,680
+So, nobody knows what the problem is, and it's already been 61 minutes.
+
+28
+00:00:54,680 --> 00:00:55,360
+36,000 users are now getting a blank screen when they open the app.
+
+29
+00:00:55,360 --> 00:00:56,620
+Right now, opening the app just gives you a blank white screen.
+
+30
+00:00:56,620 --> 00:00:57,320
+You guys just keep arguing.
+
+31
+00:00:57,320 --> 00:00:58,100
+And they kept arguing until 8 AM.
+
+32
+00:00:58,100 --> 00:00:59,800
+The first thing the Ops team does when they get in is send a company-wide email.
+
+33
+00:00:59,800 --> 00:01:01,660
+Subject line: Tech team blames each other in the middle of the night.
+
+34
+00:01:01,660 --> 00:01:04,190
+Does 'user churn' sound good to you?
+
+35
+00:01:04,190 --> 00:01:05,450
+What are you doing here?
+
+36
+00:01:05,450 --> 00:01:06,630
+Besides, Product Managers don't have to be on call.
+
+37
+00:01:06,630 --> 00:01:08,030
+What does a PM like you know about tech?
+
+38
+00:01:08,030 --> 00:01:09,280
+I was awake at 12.
+
+39
+00:01:09,280 --> 00:01:10,600
+The first message in the alert group was at 12:47.
+
+40
+00:01:10,600 --> 00:01:12,960
+It was sent by Zihao's automated alert bot.
+
+41
+00:01:12,960 --> 00:01:13,760
+And you guys didn't get here until 3.
+
+42
+00:01:13,760 --> 00:01:15,740
+I've been going through the logs for the past two hours.
+
+43
+00:01:15,740 --> 00:01:17,860
+So, what have you found?
+
+44
+00:01:18,900 --> 00:01:20,020
+The problem isn't on the front end.
+
+45
+00:01:20,020 --> 00:01:20,580
+And not on the backend either.
+
+46
+00:01:20,580 --> 00:01:21,180
+It's not the network. It's Redis.
+
+47
+00:01:21,180 --> 00:01:22,980
+No way! I set up the Redis cluster myself.
+
+48
+00:01:22,980 --> 00:01:25,560
+A three-master, three-slave Sentinel setup. It's rock-solid.
+
+49
+00:01:25,560 --> 00:01:26,200
+Mr. Haoyu.
+
+50
+00:01:26,200 --> 00:01:27,240
+Hold on, let's not jump to conclusions.
+
+51
+00:01:27,240 --> 00:01:28,280
+Look at this line.
+
+52
+00:01:29,500 --> 00:01:31,420
+Sometime between 11 PM and midnight tonight.
+
+53
+00:01:31,420 --> 00:01:35,460
+Redis's memory usage mysteriously spiked from 62% to 98%.
+
+54
+00:01:35,460 --> 00:01:37,820
+Then, at 12:43 AM,
+
+55
+00:01:37,820 --> 00:01:39,580
+The master node auto-restarted due to OOM.
+
+56
+00:01:39,580 --> 00:01:42,320
+After the restart, the entire cache was wiped out.
+
+57
+00:01:42,320 --> 00:01:43,830
+The entire cache was wiped clean.
+
+58
+00:01:43,830 --> 00:01:44,850
+30,000 user requests at the same time...
+
+59
+00:01:44,850 --> 00:01:46,930
+In a millisecond, they went straight through to the MySQL database.
+
+60
+00:01:46,930 --> 00:01:48,030
+It can't handle this at all. The cache is in a complete avalanche.
+
+61
+00:01:48,030 --> 00:01:51,820
+Exactly. But the real culprit behind this avalanche isn't Redis's configuration.
+
+62
+00:01:51,820 --> 00:01:53,820
+It was that marketing campaign that went live at 8 PM tonight.
+
+63
+00:01:53,820 --> 00:01:54,580
+What marketing campaign?
+
+64
+00:01:54,580 --> 00:01:56,700
+It was the pre-Qingming Festival campaign. The ops team sent out a push notification at 8 PM.
+
+65
+00:01:56,700 --> 00:01:58,100
+The open rate was a full three times higher than expected.
+
+66
+00:01:58,100 --> 00:01:59,860
+A massive influx of new users started frantically requesting cold data.
+
+67
+00:01:59,860 --> 00:02:01,540
+But the problem was, those keys didn't even exist in Redis.
+
+68
+00:02:01,540 --> 00:02:03,300
+The cache miss rate skyrocketed from 2% to 35%.
+
+69
+00:02:03,300 --> 00:02:04,340
+MySQL was instantly overwhelmed.
+
+70
+00:02:04,340 --> 00:02:05,300
+Then, Redis's memory was completely maxed out.
+
+71
+00:02:05,300 --> 00:02:05,940
+The OAD restart triggered a secondary avalanche.
+
+72
+00:02:05,940 --> 00:02:06,780
+triggering a secondary avalanche.
+
+73
+00:02:06,780 --> 00:02:08,300
+It was a perfect, cascading collapse.
+
+74
+00:02:08,300 --> 00:02:10,639
+So it has absolutely nothing to do with my front-end. I'm clean.
+
+75
+00:02:10,639 --> 00:02:12,200
+But that wasn't even the worst part.
+
+76
+00:02:12,200 --> 00:02:13,240
+The real problem was...
+
+77
+00:02:13,240 --> 00:02:14,720
+We could have stopped all of this.
+
+78
+00:02:14,720 --> 00:02:16,120
+We didn't have a cache pre-warming mechanism.
+
+79
+00:02:16,120 --> 00:02:17,120
+Before the new campaign went live.
+
+80
+00:02:17,120 --> 00:02:19,440
+We should have preloaded the hot data into Redis during the pre-launch check.
+
+81
+00:02:19,440 --> 00:02:21,030
+It was clearly stated in item 4 of the meeting minutes.
+
+82
+00:02:21,030 --> 00:02:22,830
+I suggest we add a cache pre-warming script.
+
+83
+00:02:22,830 --> 00:02:24,610
+It should run automatically 30 minutes before the event goes live.
+
+84
+00:02:24,610 --> 00:02:27,060
+The conclusion at the time was to push it to phase two.
+
+85
+00:02:27,060 --> 00:02:29,160
+The reason was that we didn't have any caching issues at the time.
+
+86
+00:02:29,160 --> 00:02:30,380
+It wasn't a high priority.
+
+87
+00:02:30,380 --> 00:02:39,610
+And the person who signed off on that decision... was you, Haoyu. Alright, we know the reason now.
+
+88
+00:02:39,610 --> 00:02:41,050
+So, how do we fix it now?
+
+89
+00:02:41,050 --> 00:02:42,330
+The fastest solution.
+
+90
+00:02:42,330 --> 00:02:42,730
+I've already drafted a three-step plan.
+
+91
+00:02:42,730 --> 00:02:43,290
+And there's an owner for each step.
+
+92
+00:02:43,290 --> 00:02:43,810
+And I've got an estimated time for each.
+
+93
+00:02:43,810 --> 00:02:44,970
+First step: don't use the default configuration.
+
+94
+00:02:44,970 --> 00:02:47,980
+Change the maxmemory-policy to allkeys-lfu, and enable lazy-free on expire and on eviction.
+
+95
+00:02:47,980 --> 00:02:49,420
+This will speed up memory reclamation after a restart.
+
+96
+00:02:49,420 --> 00:02:50,960
+This should prevent another OOM. ETA is 5 minutes.
+
+97
+00:02:50,960 --> 00:02:52,720
+You're a product manager, and you're reading the Redis docs?
+
+98
+00:02:52,720 --> 00:02:55,040
+Step two, Haoyu, add a token bucket rate limiter to the MySQL access layer.
+
+99
+00:02:55,040 --> 00:02:55,880
+Set the QPS limit to 3,000.
+
+100
+00:02:55,880 --> 00:02:57,360
+And at the same time, temporarily degrade the 7 interfaces related to slow queries.
+
+101
+00:02:57,360 --> 00:02:58,160
+Huaihui, you're on fallback data.
+
+102
+00:02:58,160 --> 00:02:58,760
+Prioritize the red ones.
+
+103
+00:02:58,760 --> 00:02:59,360
+The yellow ones are next.
+
+104
+00:02:59,360 --> 00:03:00,660
+Estimated time: 15 minutes.
+
+105
+00:03:00,660 --> 00:03:01,660
+He even factored in the rate limiting maintenance.
+
+106
+00:03:01,660 --> 00:03:02,300
+Where did the three thousand come from?
+
+107
+00:03:02,300 --> 00:03:03,860
+So, for MySQL, without any caching or a safety net...
+
+108
+00:03:03,860 --> 00:03:04,980
+The safe QPS for a single machine is 4,000.
+
+109
+00:03:04,980 --> 00:03:05,260
+So, we take 20% off.
+
+110
+00:03:05,260 --> 00:03:06,900
+So, a 20% buffer brings it down to 3,200. Then, round it down to the nearest thousand, which is 3,000.
+
+111
+00:03:06,900 --> 00:03:07,500
+I've run the numbers three different ways.
+
+112
+00:03:07,500 --> 00:03:09,130
+This is the most conservative approach.
+
+113
+00:03:09,530 --> 00:03:12,710
+Step three, Zihan. Front-end, add a loading fallback page and an exponential backoff for the 'Rich 10' feature.
+
+114
+00:03:12,710 --> 00:03:14,510
+Change the white screen to 'System Busy'.
+
+115
+00:03:14,510 --> 00:03:15,910
+ETA for recovery is 10 minutes.
+
+116
+00:03:15,910 --> 00:03:16,750
+For the exponential backoff, start with a 3-second interval.
+
+117
+00:03:16,750 --> 00:03:17,990
+Double the interval each time, with some random jitter.
+
+118
+00:03:17,990 --> 00:03:20,209
+This prevents all users from retrying at the exact same second, which would overwhelm the backend.
+
+119
+00:03:20,209 --> 00:03:21,669
+3 seconds, 6 seconds, 12 seconds.
+
+120
+00:03:21,669 --> 00:03:23,349
+Jitter range is plus or minus 30%.
+
+121
+00:03:23,349 --> 00:03:24,789
+I know you well, but what about me?
+
+122
+00:03:24,789 --> 00:03:25,489
+Mr. Haoxuan.
+
+123
+00:03:25,489 --> 00:03:26,369
+You're on recovery metrics.
+
+124
+00:03:26,369 --> 00:03:28,000
+I've put together a checklist for you.
+
+125
+00:03:28,000 --> 00:03:29,920
+There are three metrics. First, get the error rate down to below 5%.
+
+126
+00:03:30,680 --> 00:03:32,160
+P99 latency back under 200 milliseconds.
+
+127
+00:03:32,160 --> 00:03:32,800
+Only then can we say we're back in business.
+
+128
+00:03:32,800 --> 00:03:33,800
+Report the numbers in the group chat every five minutes.
+
+129
+00:03:33,800 --> 00:03:35,560
+Got it. When did you even write this plan?
+
+130
+00:03:35,560 --> 00:03:37,600
+Writing a failure预案 on the day of the launch.
+
+131
+00:03:37,600 --> 00:03:38,480
+So you don't write a预案 on launch day?
+
+132
+00:03:38,480 --> 00:03:39,020
+When did you write it?
+
+133
+00:03:39,020 --> 00:03:39,760
+And that's not all.
+
+134
+00:03:39,760 --> 00:03:41,660
+This is the failover plan for the master-slave database in case the switch fails.
+
+135
+00:03:41,660 --> 00:03:43,260
+This one's the contingency plan for CDN node failures.
+
+136
+00:03:43,260 --> 00:03:44,720
+This is the contingency plan for payment gateway reconciliation.
+
+137
+00:03:44,720 --> 00:03:46,320
+This one's for third-party API timeouts.
+
+138
+00:03:46,320 --> 00:03:47,220
+
+
+139
+00:03:47,220 --> 00:03:49,200
+And the third one is the one we're using today.
+
+140
+00:03:49,200 --> 00:03:51,820
+But weren't you just sitting at your desk the whole afternoon on launch day?
+
+141
+00:03:51,820 --> 00:03:52,940
+I thought you were just slacking off.
+
+142
+00:03:52,940 --> 00:03:54,800
+I was writing seven different contingency plans.
+
+143
+00:03:55,650 --> 00:03:57,350
+Error rate's down from 15%, and dropping.
+
+144
+00:03:57,350 --> 00:04:00,210
+All three metrics are green.
+
+145
+00:04:01,330 --> 00:04:03,110
+From identification to recovery: 64 minutes.
+
+146
+00:04:03,110 --> 00:04:05,470
+The recovery time we estimated in the预案 was 60 minutes.
+
+147
+00:04:05,470 --> 00:04:06,310
+Four minutes over.
+
+148
+00:04:06,310 --> 00:04:08,500
+Because Haoyu misspelled an interface name in the middle of it all.
+
+149
+00:04:08,500 --> 00:04:09,180
+I had to change it twice.
+
+150
+00:04:09,180 --> 00:04:11,500
+The interface name you wrote in your proposal was different from the one I actually used.
+
+151
+00:04:11,500 --> 00:04:12,420
+Yeah, that was my bad.
+
+152
+00:04:12,420 --> 00:04:14,440
+I'll double-check your interface docs with you beforehand next time.
+
+153
+00:04:14,440 --> 00:04:15,780
+By the time you get the update out...
+
+154
+00:04:15,780 --> 00:04:17,899
+He can even recite the Redis configurations and parameters from memory.
+
+155
+00:04:17,899 --> 00:04:19,760
+Even with 8 years of Ops experience, I still have to look up the docs.
+
+156
+00:04:19,760 --> 00:04:21,620
+Seven different预案s.
+
+157
+00:04:21,620 --> 00:04:23,480
+Seven of them? I can't even be bothered to write a single RDBMS plan.
+
+158
+00:04:23,480 --> 00:04:24,870
+Guys, don't you think he's...
+
+159
+00:04:24,870 --> 00:04:28,110
+He's becoming more and more like us.
+
+160
+00:04:28,110 --> 00:04:29,790
+No, he's better than us.
+
+161
+00:04:29,790 --> 00:04:30,570
+We write the code.
+
+162
+00:04:30,570 --> 00:04:31,310
+He writes contingency plans.
+
+163
+00:04:31,310 --> 00:04:32,310
+We fix bugs.
+
+164
+00:04:32,310 --> 00:04:33,310
+He prevents bugs.
+
+165
+00:04:33,310 --> 00:04:34,280
+We cure the symptoms.
+
+166
+00:04:34,280 --> 00:04:35,960
+He prevents the illness. From now on, for all requirement reviews...
+
+167
+00:04:35,960 --> 00:04:37,120
+He said it's not that we didn't have a technical solution.
+
+168
+00:04:37,120 --> 00:04:38,320
+I was honestly too scared to say anything.
+
+169
+00:04:38,320 --> 00:04:39,280
+Because he actually knows his stuff.
+
+170
+00:04:39,280 --> 00:04:41,650
+I should've listened to him before going live.
+
+171
+00:04:41,850 --> 00:04:43,690
+and get the cache preheating done.
+
+172
+00:04:43,690 --> 00:04:46,810
+What do you guys think would happen if he actually learned how to code?
+
+173
+00:04:46,810 --> 00:04:48,640
+No way.
+
+174
+00:04:49,900 --> 00:04:51,220
+But what if?
+

@@ -1,0 +1,1544 @@
+1
+00:00:01,980 --> 00:00:04,880
+So I'll just create a new window, right?
+
+2
+00:00:04,880 --> 00:00:05,700
+Let's create a new window.
+
+3
+00:00:05,700 --> 00:00:07,440
+So, it's obviously going to ask me to open a folder.
+
+4
+00:00:07,440 --> 00:00:10,730
+So, if I just drag and drop it in, it should work, right?
+
+5
+00:00:10,730 --> 00:00:11,920
+And then, just close it. Alright.
+
+6
+00:00:11,920 --> 00:00:14,340
+It'll ask you if you want to grant it permission.
+
+7
+00:00:14,340 --> 00:00:15,620
+Okay, so it's empty right now.
+
+8
+00:00:15,620 --> 00:00:16,780
+Because there's nothing in it.
+
+9
+00:00:16,780 --> 00:00:20,680
+Alright, so now, let's start building within this folder.
+
+10
+00:00:20,680 --> 00:00:21,320
+So, let's get back to it.
+
+11
+00:00:21,320 --> 00:00:23,040
+Alright, let's start building inside this folder.
+
+12
+00:00:23,040 --> 00:00:23,740
+Alright, let's get back to it.
+
+13
+00:00:23,740 --> 00:00:25,300
+So, what are we going to create here?
+
+14
+00:00:25,300 --> 00:00:28,280
+Or, let me see... uh...
+
+15
+00:00:30,200 --> 00:00:31,040
+Alright, let's go with this one.
+
+16
+00:00:31,040 --> 00:00:31,560
+Let's follow this one.
+
+17
+00:00:31,560 --> 00:00:32,759
+This one's a bit more comprehensive.
+
+18
+00:00:32,759 --> 00:00:33,700
+Alright, let's follow along with this.
+
+19
+00:00:33,700 --> 00:00:35,760
+Let's go ahead and collapse this.
+
+20
+00:00:35,760 --> 00:00:36,440
+Let's collapse this one.
+
+21
+00:00:36,440 --> 00:00:38,320
+Let's get this sorted out.
+
+22
+00:00:38,320 --> 00:00:39,260
+Let's collapse this one too.
+
+23
+00:00:39,260 --> 00:00:41,330
+Okay, and now let's take a screenshot of this.
+
+24
+00:00:41,330 --> 00:00:42,810
+And then, we'll place it right here.
+
+25
+00:00:42,810 --> 00:00:44,990
+So, for this part, I'd actually recommend creating it manually. It's just better that way.
+
+26
+00:00:44,990 --> 00:00:48,280
+Alright, so the first thing we definitely need to do is talk to the AI.
+
+27
+00:00:48,280 --> 00:00:49,000
+We need to establish the context.
+
+28
+00:00:49,000 --> 00:00:50,160
+So, let's start by creating a context folder.
+
+29
+00:00:50,160 --> 00:00:51,580
+Let's call it 'Project Background'.
+
+30
+00:00:51,580 --> 00:00:53,080
+So for 'Project Background', I'm going to give it a number.
+
+31
+00:00:53,080 --> 00:00:55,260
+Because, you see, you can't just drag and drop to sort things in here.
+
+32
+00:00:55,260 --> 00:00:56,380
+So, what kind of... thing is this for a folder?
+
+33
+00:00:56,380 --> 00:00:58,700
+like sorting from A to Z, or by creation time, you know?
+
+34
+00:00:58,700 --> 00:01:01,690
+Alright, so let's start with '01', okay?
+
+35
+00:01:01,690 --> 00:01:03,310
+This is for the project background.
+
+36
+00:01:03,310 --> 00:01:04,229
+Let's create a folder.
+
+37
+00:01:04,229 --> 00:01:05,269
+And then, click right here, okay?
+
+38
+00:01:05,269 --> 00:01:05,869
+No, don't click here.
+
+39
+00:01:05,869 --> 00:01:07,589
+Clicking here will create another folder, right inside this one.
+
+40
+00:01:07,589 --> 00:01:09,020
+I'm going to click on the root directory.
+
+41
+00:01:09,020 --> 00:01:10,160
+Then, we'll create '02'.
+
+42
+00:01:10,160 --> 00:01:11,600
+So, once we have the project background in place,
+
+43
+00:01:11,600 --> 00:01:15,140
+So, the next thing we'll probably need to produce is what we call the PRD.
+
+44
+00:01:15,140 --> 00:01:17,100
+We'll call it PRD.
+
+45
+00:01:18,310 --> 00:01:19,430
+
+
+46
+00:01:19,430 --> 00:01:20,070
+Sounds good, right?
+
+47
+00:01:20,070 --> 00:01:20,930
+Alright, let's move on.
+
+48
+00:01:20,930 --> 00:01:22,670
+
+
+49
+00:01:22,670 --> 00:01:26,030
+We'll probably need a frontend prototype demo.
+
+50
+00:01:26,030 --> 00:01:27,510
+Alright, that works too, right?
+
+51
+00:01:27,510 --> 00:01:29,070
+Alright, so once we have that front-end prototype demo,
+
+52
+00:01:29,070 --> 00:01:32,610
+And let's add another one: 00-Draft Conversations.
+
+53
+00:01:32,610 --> 00:01:33,010
+So, why do that?
+
+54
+00:01:33,010 --> 00:01:35,050
+Because sometimes, I want the draft to be at the very top.
+
+55
+00:01:35,050 --> 00:01:36,250
+But if you want it at the very bottom,
+
+56
+00:01:36,250 --> 00:01:37,090
+Then just go ahead and code it yourself.
+
+57
+00:01:37,090 --> 00:01:38,850
+Whatever, it doesn't matter. Okay.
+
+58
+00:01:38,850 --> 00:01:40,530
+So, once we have the front-end prototype demo,
+
+59
+00:01:40,530 --> 00:01:42,220
+I might also need a 04.
+
+60
+00:01:42,220 --> 00:01:44,540
+So, this is for reference materials, right?
+
+61
+00:01:44,540 --> 00:01:46,680
+So I can just drop any reference materials I have in here.
+
+62
+00:01:46,680 --> 00:01:47,700
+And then, moving on down the line...
+
+63
+00:01:47,700 --> 00:01:50,610
+And that would be '05, Common Templates', right?
+
+64
+00:01:50,610 --> 00:01:52,390
+I'll just drop some templates in here.
+
+65
+00:01:52,390 --> 00:01:56,670
+And then, moving on to 06, that's for our common prompts, right?
+
+66
+00:01:56,670 --> 00:01:59,150
+Alright, so this is my complete file structure.
+
+67
+00:01:59,150 --> 00:02:00,390
+There's nothing in it.
+
+68
+00:02:00,390 --> 00:02:02,030
+There's nothing in here, right?
+
+69
+00:02:02,030 --> 00:02:03,390
+Yep, they're all empty. Good.
+
+70
+00:02:03,390 --> 00:02:04,470
+Alright, so what's next?
+
+71
+00:02:04,470 --> 00:02:08,820
+So, I'm going to create a set of rules for this project.
+
+72
+00:02:08,820 --> 00:02:09,880
+So, we have this 'rules' thing here, right?
+
+73
+00:02:09,880 --> 00:02:10,560
+See, there's a 'Rules' section.
+
+74
+00:02:10,560 --> 00:02:11,980
+Let's click on 'New'.
+
+75
+00:02:11,980 --> 00:02:13,920
+And then, we'll click on 'Project Rules'.
+
+76
+00:02:13,920 --> 00:02:15,600
+So, for example, what should I call this one?
+
+77
+00:02:15,600 --> 00:02:19,399
+Uh, so, the first project rule.
+
+78
+00:02:19,399 --> 00:02:20,619
+
+
+79
+00:02:20,619 --> 00:02:22,699
+This is the first project rule, let's put it right here.
+
+80
+00:02:22,699 --> 00:02:26,750
+Then, click 'down'... Oh, wait, that's not what it wants, oh.
+
+81
+00:02:26,750 --> 00:02:27,590
+It needs to be in English.
+
+82
+00:02:27,590 --> 00:02:28,990
+Alright, I'll just write it then.
+
+83
+00:02:30,620 --> 00:02:33,080
+First project rules.
+
+84
+00:02:33,080 --> 00:02:34,160
+Okay, down.
+
+85
+00:02:34,160 --> 00:02:34,560
+Alright.
+
+86
+00:02:34,560 --> 00:02:37,190
+See? It automatically created a .cursor folder for me.
+
+87
+00:02:37,190 --> 00:02:38,970
+and then RTS under the .cursor directory.
+
+88
+00:02:38,970 --> 00:02:42,149
+So, what if I want to create another RTS?
+
+89
+00:02:42,149 --> 00:02:42,969
+And then, back over here.
+
+90
+00:02:42,969 --> 00:02:44,749
+And then, in this spot, there's another rule.
+
+91
+00:02:44,749 --> 00:02:45,569
+Then, click 'new' again.
+
+92
+00:02:45,569 --> 00:02:46,909
+And let's add another project directory.
+
+93
+00:02:46,909 --> 00:02:49,540
+And this one I'm calling 'second'.
+
+94
+00:02:49,820 --> 00:02:50,820
+And this one will be called...
+
+95
+00:02:52,940 --> 00:02:53,680
+Right?
+
+96
+00:02:53,680 --> 00:02:57,999
+Alright, the second project rule.
+
+97
+00:02:57,999 --> 00:02:59,239
+And then click 'down'.
+
+98
+00:02:59,239 --> 00:03:00,819
+If you need to modify them individually,
+
+99
+00:03:00,819 --> 00:03:03,200
+For this one, I'll probably let it auto-recognize.
+
+100
+00:03:03,200 --> 00:03:04,540
+And then, click 'Save'.
+
+101
+00:03:04,540 --> 00:03:06,360
+And as for this one, it doesn't really matter what you do with it.
+
+102
+00:03:06,360 --> 00:03:07,400
+So, we've got it set up now, right?
+
+103
+00:03:07,400 --> 00:03:09,360
+So, this is for the project rules, right?
+
+104
+00:03:09,360 --> 00:03:10,260
+Alright, all set.
+
+105
+00:03:10,260 --> 00:03:11,160
+So, this is a...
+
+106
+00:03:11,160 --> 00:03:12,300
+Alright, so what's next?
+
+107
+00:03:12,300 --> 00:03:14,300
+We might also need to initialize it.
+
+108
+00:03:14,300 --> 00:03:15,940
+For example, I might have some...
+
+109
+00:03:15,940 --> 00:03:18,260
+So, once the AI opens up this project folder,
+
+110
+00:03:18,260 --> 00:03:19,460
+I have no idea what this project is about.
+
+111
+00:03:19,460 --> 00:03:20,980
+I need to let it know what this project is all about.
+
+112
+00:03:20,980 --> 00:03:23,520
+So, just a quick rundown of what this project is all about.
+
+113
+00:03:23,520 --> 00:03:28,150
+Alright, so I'm gonna manually create an 'agent.md' file, uh...
+
+114
+00:03:28,150 --> 00:03:30,010
+.md, lowercase. There we go.
+
+115
+00:03:30,010 --> 00:03:31,290
+And just like that, it creates one.
+
+116
+00:03:31,290 --> 00:03:36,280
+This is a general description for this project.
+
+117
+00:03:36,280 --> 00:03:37,320
+It's not a rule.
+
+118
+00:03:37,320 --> 00:03:39,580
+But some agents do define it as a rule.
+
+119
+00:03:39,580 --> 00:03:42,870
+So, for our purposes here, we're going to define it as something called an 'agent'.
+
+120
+00:03:42,870 --> 00:03:46,670
+a reference material to help understand the project.
+
+121
+00:03:46,670 --> 00:03:50,710
+Or, you could say, something like a README file.
+
+122
+00:03:51,210 --> 00:03:53,360
+Alright, let's just define it like this for now.
+
+123
+00:03:53,360 --> 00:03:53,680
+Alright.
+
+124
+00:03:53,680 --> 00:03:54,660
+And we've already got one here as well.
+
+125
+00:03:54,660 --> 00:03:57,000
+So, why do we need a 'cloud.md' file then?
+
+126
+00:03:57,000 --> 00:04:00,920
+That's because when you're in Cloud Code, Cloud needs to use this file.
+
+127
+00:04:00,920 --> 00:04:04,050
+Agent.md is what it needs to use.
+
+128
+00:04:04,050 --> 00:04:05,930
+So, what if I want it to be exactly the same?
+
+129
+00:04:05,930 --> 00:04:09,170
+So, it's fine for me to just maintain both of them at the same time, right?
+
+130
+00:04:09,170 --> 00:04:10,090
+Now, if you're going to use Cloud,
+
+131
+00:04:10,090 --> 00:04:10,810
+If you're not using Cloud,
+
+132
+00:04:10,810 --> 00:04:11,530
+then you don't need this thing.
+
+133
+00:04:11,530 --> 00:04:12,380
+just go ahead and delete it.
+
+134
+00:04:12,380 --> 00:04:13,920
+So just go ahead and delete it.
+
+135
+00:04:13,920 --> 00:04:16,399
+And further down, there's something called .gitignore.
+
+136
+00:04:16,399 --> 00:04:17,959
+So, what's this thing for?
+
+137
+00:04:17,959 --> 00:04:19,010
+You can just leave it out.
+
+138
+00:04:19,010 --> 00:04:22,970
+So, what if I initialize a Git repository in this project? Okay.
+
+139
+00:04:22,970 --> 00:04:24,740
+So let's have it help me out here.
+
+140
+00:04:24,740 --> 00:04:27,420
+to create a Git repository for this project.
+
+141
+00:04:28,500 --> 00:04:31,360
+OK, so it automatically does this... uh...
+
+142
+00:04:31,360 --> 00:04:33,700
+to initialize this project.
+
+143
+00:04:33,700 --> 00:04:36,060
+And it will generate a .gitignore file for me.
+
+144
+00:04:36,060 --> 00:04:37,860
+Alright, so this is what we've got.
+
+145
+00:04:37,860 --> 00:04:39,790
+See? It's already there.
+
+146
+00:04:39,790 --> 00:04:41,350
+It's added a .gitignore file.
+
+147
+00:04:41,350 --> 00:04:41,830
+Here it comes.
+
+148
+00:04:41,830 --> 00:04:43,630
+Let's see where it is, uh...
+
+149
+00:04:43,630 --> 00:04:46,600
+It's not showing up here.
+
+150
+00:04:46,600 --> 00:04:47,600
+If it's not showing up,
+
+151
+00:04:47,600 --> 00:04:50,760
+Alright, let's head back here and take a look at my... what's it called...
+
+152
+00:04:51,370 --> 00:04:52,490
+But it hasn't been committed yet, okay?
+
+153
+00:04:52,490 --> 00:04:53,930
+I didn't have it add anything here.
+
+154
+00:04:58,500 --> 00:04:59,560
+So, for this ignore file...
+
+155
+00:04:59,560 --> 00:05:01,440
+So, once it's created in the root directory...
+
+156
+00:05:01,440 --> 00:05:04,080
+It will then help me ignore some of the unnecessary stuff.
+
+157
+00:05:04,080 --> 00:05:04,720
+And here it comes.
+
+158
+00:05:04,720 --> 00:05:06,490
+And right here, it'll show you.
+
+159
+00:05:06,490 --> 00:05:09,210
+It will ignore these things in Mac OS.
+
+160
+00:05:09,210 --> 00:05:10,690
+And it'll also ignore all this stuff.
+
+161
+00:05:10,690 --> 00:05:11,130
+and stuff like that.
+
+162
+00:05:11,130 --> 00:05:13,440
+It'll also ignore things like environment keys and all that stuff.
+
+163
+00:05:13,440 --> 00:05:15,280
+and it'll also ignore things like build dependencies,
+
+164
+00:05:15,280 --> 00:05:16,460
+build artifacts, and so on and so forth.
+
+165
+00:05:16,460 --> 00:05:19,040
+The AI will take care of all this for you automatically.
+
+166
+00:05:19,040 --> 00:05:20,360
+Alright, so with that in place...
+
+167
+00:05:20,360 --> 00:05:21,580
+And there's one more thing, what is it called?
+
+168
+00:05:21,580 --> 00:05:22,320
+It's called Cursor.
+
+169
+00:05:22,320 --> 00:05:22,840
+Ignore.
+
+170
+00:05:22,840 --> 00:05:23,080
+Cursor...
+
+171
+00:05:23,080 --> 00:05:23,960
+So, where is this 'ignore' file?
+
+172
+00:05:23,960 --> 00:05:25,920
+Oh, right, this is a new feature they just rolled out recently.
+
+173
+00:05:25,920 --> 00:05:27,360
+Let me just search for it.
+
+174
+00:05:27,790 --> 00:05:28,550
+Ah, here we go.
+
+175
+00:05:28,550 --> 00:05:30,310
+Right here... yeah, it should be this one.
+
+176
+00:05:30,310 --> 00:05:31,830
+Right here in this index file.
+
+177
+00:05:31,830 --> 00:05:34,070
+So, I can go ahead and create it.
+
+178
+00:05:34,070 --> 00:05:37,380
+So, uh, let's create this ignore file.
+
+179
+00:05:37,380 --> 00:05:39,340
+So, what's this thing for?
+
+180
+00:05:39,340 --> 00:05:40,080
+Hey, this is pretty cool.
+
+181
+00:05:40,080 --> 00:05:42,220
+I can start a draft conversation right here.
+
+182
+00:05:42,220 --> 00:05:46,299
+There's one called 'test'... let's test this DMD file.
+
+183
+00:05:46,299 --> 00:05:47,819
+Alright, so now I'm gonna open this up here.
+
+184
+00:05:47,819 --> 00:05:48,099
+Let me see.
+
+185
+00:05:48,099 --> 00:05:49,479
+Let me just try dragging it in, will that work?
+
+186
+00:05:49,479 --> 00:05:50,299
+Doesn't look like it's working.
+
+187
+00:05:50,299 --> 00:05:51,819
+And it needs to be in this specific syntax.
+
+188
+00:05:51,819 --> 00:05:53,650
+
+
+189
+00:05:53,650 --> 00:05:58,440
+Let's see... uh... okay, so first, this pound sign here...
+
+190
+00:05:58,440 --> 00:06:00,060
+So it means... oh, wait, that's not right.
+
+191
+00:06:00,060 --> 00:06:00,560
+That's not right.
+
+192
+00:06:00,560 --> 00:06:03,000
+And right here, I was like, hahaha.
+
+193
+00:06:03,400 --> 00:06:04,720
+Is this my file?
+
+194
+00:06:04,720 --> 00:06:06,160
+So, how do I get my ignore file to actually ignore it?
+
+195
+00:06:06,160 --> 00:06:06,900
+Alright, so here's how it works.
+
+196
+00:06:06,900 --> 00:06:08,320
+The pound sign is for comments.
+
+197
+00:06:08,320 --> 00:06:09,240
+So, what do you want to ignore?
+
+198
+00:06:09,240 --> 00:06:11,340
+You'll need to use an asterisk for the pattern matching.
+
+199
+00:06:11,340 --> 00:06:15,110
+Alright, let's call this one 'test'.
+
+200
+00:06:15,110 --> 00:06:16,030
+dot ND.
+
+201
+00:06:18,030 --> 00:06:18,890
+Okay.
+
+202
+00:06:18,890 --> 00:06:21,090
+So, it shouldn't be able to match this.
+
+203
+00:06:21,090 --> 00:06:21,630
+And why is that?
+
+204
+00:06:21,630 --> 00:06:24,770
+Because this thing requires what's called an 'absolute path'.
+
+205
+00:06:24,770 --> 00:06:25,530
+Or a relative path.
+
+206
+00:06:25,530 --> 00:06:27,760
+Alright, let's take a look at the zero-zero... huh.
+
+207
+00:06:27,760 --> 00:06:29,380
+Here we go, here we go, here we go.
+
+208
+00:06:29,380 --> 00:06:32,750
+Right here, perfect.
+
+209
+00:06:32,750 --> 00:06:34,750
+Wait, why is it... oh.
+
+210
+00:06:34,750 --> 00:06:35,310
+He's not even trying.
+
+211
+00:06:35,310 --> 00:06:36,470
+Let's just have it do it like this.
+
+212
+00:06:36,470 --> 00:06:39,270
+Let's see if it works just like this.
+
+213
+00:06:44,420 --> 00:06:46,390
+Oh, this might be a total flop.
+
+214
+00:06:46,390 --> 00:06:47,070
+Alright, forget it.
+
+215
+00:06:47,070 --> 00:06:47,750
+Let's not get hung up on it.
+
+216
+00:06:47,750 --> 00:06:49,630
+There's also a more brute-force method.
+
+217
+00:06:49,630 --> 00:06:50,530
+Just go ahead and delete this.
+
+218
+00:06:50,530 --> 00:06:51,350
+Let me show you how it's done.
+
+219
+00:06:51,350 --> 00:06:52,950
+See? Right now, there's nothing in this spot.
+
+220
+00:06:52,950 --> 00:06:55,400
+Just go ahead and do this, right.
+
+221
+00:06:55,400 --> 00:06:58,960
+And add this file to the cursor ignore.
+
+222
+00:07:00,360 --> 00:07:00,960
+It's alright.
+
+223
+00:07:00,960 --> 00:07:03,040
+It's just that sometimes, it doesn't quite get what you mean.
+
+224
+00:07:03,040 --> 00:07:04,040
+It'll handle that for you.
+
+225
+00:07:04,040 --> 00:07:05,240
+I just blanked on the syntax for a second.
+
+226
+00:07:05,240 --> 00:07:08,490
+I just figured this out today, this thing.
+
+227
+00:07:08,490 --> 00:07:09,450
+See, it's already editing it.
+
+228
+00:07:09,450 --> 00:07:11,170
+Oh, it's already put it in there.
+
+229
+00:07:11,170 --> 00:07:13,010
+So it just uses this path to put it right in there.
+
+230
+00:07:14,050 --> 00:07:16,200
+Alright, hey, everyone, did you see that?
+
+231
+00:07:16,200 --> 00:07:17,760
+It's got a little 'no entry' sign on it.
+
+232
+00:07:17,760 --> 00:07:18,260
+See that?
+
+233
+00:07:18,260 --> 00:07:19,640
+See? It's got a 'no entry' symbol on it.
+
+234
+00:07:19,640 --> 00:07:21,260
+So, what does this prohibition symbol do?
+
+235
+00:07:21,260 --> 00:07:23,820
+See? When you select it, you can't drag it in anymore.
+
+236
+00:07:23,820 --> 00:07:25,140
+See? It won't let me drag it in.
+
+237
+00:07:25,140 --> 00:07:25,940
+Alright, let's try that again.
+
+238
+00:07:25,940 --> 00:07:28,700
+Let's create a second one.
+
+239
+00:07:33,120 --> 00:07:34,600
+Okay, this is the second test.
+
+240
+00:07:34,600 --> 00:07:36,800
+Yeah, hahaha.
+
+241
+00:07:37,840 --> 00:07:40,360
+Okay, let's drag it... and... it's in, right?
+
+242
+00:07:40,360 --> 00:07:43,340
+But when I try to drag this thing, it won't drop in.
+
+243
+00:07:43,340 --> 00:07:44,760
+Why is there a prohibition symbol here?
+
+244
+00:07:44,760 --> 00:07:45,660
+Why is it blocked?
+
+245
+00:07:45,660 --> 00:07:47,980
+Because it's been disabled by this thing.
+
+246
+00:07:47,980 --> 00:07:48,420
+So where is it?
+
+247
+00:07:48,420 --> 00:07:50,010
+It's in this cursor ignore file.
+
+248
+00:07:50,010 --> 00:07:52,299
+It's been inserted right here.
+
+249
+00:07:52,499 --> 00:07:54,159
+Alright, so let's take this thing...
+
+250
+00:07:54,159 --> 00:07:56,679
+
+
+251
+00:07:56,679 --> 00:08:00,099
+Alright, let's just paste it right here and save.
+
+252
+00:08:00,099 --> 00:08:02,150
+And just wait a sec... yep, that one's gone too.
+
+253
+00:08:02,150 --> 00:08:03,710
+Alright, let's try dragging this one away again.
+
+254
+00:08:03,710 --> 00:08:04,890
+And then, try dragging it over again.
+
+255
+00:08:04,890 --> 00:08:06,710
+And on the second try, it won't drag in either.
+
+256
+00:08:06,710 --> 00:08:07,350
+Got it?
+
+257
+00:08:07,350 --> 00:08:08,440
+If you got that, drop a '1' in the comments.
+
+258
+00:08:08,440 --> 00:08:10,680
+So this is a new feature that Cursor recently added.
+
+259
+00:08:10,680 --> 00:08:11,740
+It's a really useful tool.
+
+260
+00:08:11,740 --> 00:08:14,569
+The thing is, some of the context is just garbage.
+
+261
+00:08:14,569 --> 00:08:15,749
+It's just garbage information.
+
+262
+00:08:15,749 --> 00:08:17,229
+I don't want the AI to process it.
+
+263
+00:08:17,229 --> 00:08:17,789
+to process it.
+
+264
+00:08:17,789 --> 00:08:18,729
+So I'll just ignore it.
+
+265
+00:08:18,729 --> 00:08:19,880
+So, how do we actually ignore it?
+
+266
+00:08:19,880 --> 00:08:21,240
+So, we're just going to have it initialize one.
+
+267
+00:08:21,240 --> 00:08:22,160
+So, where is this library?
+
+268
+00:08:22,160 --> 00:08:23,440
+Initialize it to get into the settings.
+
+269
+00:08:23,440 --> 00:08:25,450
+Click to search for 'ignore'.
+
+270
+00:08:25,450 --> 00:08:27,270
+And then, we need to find this thing... what's it called?
+
+271
+00:08:27,270 --> 00:08:28,650
+So, the ignore file is right here.
+
+272
+00:08:28,650 --> 00:08:30,130
+Here, you can use path patterns to match files.
+
+273
+00:08:30,130 --> 00:08:31,450
+Or, you can just do it directly in the settings.
+
+274
+00:08:31,450 --> 00:08:33,010
+So, right here in the 'indexing' section.
+
+275
+00:08:33,010 --> 00:08:34,620
+And here, it's a beta.
+
+276
+00:08:34,620 --> 00:08:35,100
+Oh, right, it's a...
+
+277
+00:08:35,100 --> 00:08:36,059
+And right here, it has this thing.
+
+278
+00:08:36,059 --> 00:08:37,100
+Then you just click 'Edit'.
+
+279
+00:08:37,100 --> 00:08:38,700
+And it will automatically create a file just like this one.
+
+280
+00:08:38,700 --> 00:08:39,780
+Or, you can just have the AI create it for you.
+
+281
+00:08:39,780 --> 00:08:40,520
+Alright, so once that's created...
+
+282
+00:08:40,520 --> 00:08:42,620
+So, which file or folder do you want to ignore?
+
+283
+00:08:42,620 --> 00:08:44,159
+
+
+284
+00:08:44,159 --> 00:08:45,200
+and just paste it right in.
+
+285
+00:08:45,200 --> 00:08:46,480
+Save it.
+
+286
+00:08:46,480 --> 00:08:48,380
+The entire folder gets ignored.
+
+287
+00:08:48,380 --> 00:08:49,280
+See that?
+
+288
+00:08:49,280 --> 00:08:50,760
+This thing doesn't have anti-gravity.
+
+289
+00:08:50,760 --> 00:08:51,480
+He's so bad at this.
+
+290
+00:08:51,480 --> 00:08:54,680
+You're expecting him to have it? No way, he's not gonna have that.
+
+291
+00:08:58,220 --> 00:08:59,420
+But I'm gonna need it later!
+
+292
+00:08:59,420 --> 00:09:00,180
+You deleted it.
+
+293
+00:09:00,180 --> 00:09:01,180
+But what if I need it later?
+
+294
+00:09:01,180 --> 00:09:02,140
+But I can still see it right here.
+
+295
+00:09:02,140 --> 00:09:03,900
+I just don't want the AI to try and understand it.
+
+296
+00:09:03,900 --> 00:09:04,580
+to process it.
+
+297
+00:09:04,580 --> 00:09:06,440
+So, I'm going to ignore it.
+
+298
+00:09:06,600 --> 00:09:08,200
+This isn't what I'd call junk information.
+
+299
+00:09:08,200 --> 00:09:09,800
+It's information that would interfere with the context.
+
+300
+00:09:09,800 --> 00:09:11,450
+So first, I'm going to block it.
+
+301
+00:09:11,450 --> 00:09:12,050
+Got it?
+
+302
+00:09:12,050 --> 00:09:13,770
+I'm not actually deleting it.
+
+303
+00:09:13,770 --> 00:09:15,810
+So, there's a fundamental difference here.
+
+304
+00:09:15,810 --> 00:09:18,700
+So, everyone needs to be careful about what you don't feed into the AI.
+
+305
+00:09:18,700 --> 00:09:19,860
+Don't let the AI try to understand it.
+
+306
+00:09:19,860 --> 00:09:21,600
+Alright, let's add this to the context.
+
+307
+00:09:21,600 --> 00:09:22,300
+Alright, so that's it for this part.
+
+308
+00:09:22,300 --> 00:09:23,340
+Alright, we have one last folder to create.
+
+309
+00:09:23,340 --> 00:09:24,930
+This one is called 'agent'.
+
+310
+00:09:24,930 --> 00:09:25,610
+Right, this one.
+
+311
+00:09:25,610 --> 00:09:28,330
+Alright, so let's head back to this directory.
+
+312
+00:09:28,330 --> 00:09:29,710
+Wait, did I close it?
+
+313
+00:09:29,710 --> 00:09:30,450
+I did close it.
+
+314
+00:09:30,450 --> 00:09:32,330
+Alright, so I'll just come over here and randomly select a file.
+
+315
+00:09:32,330 --> 00:09:35,180
+Right-click and open it in Finder, right?
+
+316
+00:09:35,180 --> 00:09:36,660
+Alright, so now I've got the Finder open.
+
+317
+00:09:36,660 --> 00:09:38,700
+Alright, let's go back here.
+
+318
+00:09:38,700 --> 00:09:39,760
+OK, let's delete this.
+
+319
+00:09:39,760 --> 00:09:41,840
+And then, let's open up our anti-gravity project.
+
+320
+00:09:41,840 --> 00:09:43,320
+Let's minimize and close this.
+
+321
+00:09:43,320 --> 00:09:45,740
+Then, let's open a new window.
+
+322
+00:09:45,740 --> 00:09:47,040
+Alright, let's minimize that.
+
+323
+00:09:47,040 --> 00:09:49,800
+Okay, same thing, just drag and drop it in here.
+
+324
+00:09:49,800 --> 00:09:51,500
+Okay, so now the anti-gravity feature is on.
+
+325
+00:09:51,500 --> 00:09:53,480
+So, should we just trust this folder?
+
+326
+00:09:53,480 --> 00:09:57,520
+Alright, let's click on this option called 'Custom'.
+
+327
+00:09:57,520 --> 00:09:59,860
+And then, right here, we're gonna add something called... what should we call it?
+
+328
+00:09:59,860 --> 00:10:02,280
+So, 'NT'.
+
+329
+00:10:06,740 --> 00:10:07,280
+Right?
+
+330
+00:10:07,280 --> 00:10:08,100
+Integrity.
+
+331
+00:10:08,100 --> 00:10:10,250
+And then, RULES.
+
+332
+00:10:10,370 --> 00:10:13,630
+Alright, pay attention. See how this spot is empty right now? Let's save it.
+
+333
+00:10:13,630 --> 00:10:15,850
+See? It's added an 'agents' folder.
+
+334
+00:10:15,850 --> 00:10:18,370
+And then, the 'rules' folder gets placed right in here.
+
+335
+00:10:18,370 --> 00:10:19,130
+See that?
+
+336
+00:10:19,130 --> 00:10:20,370
+And this is me, hahaha.
+
+337
+00:10:20,370 --> 00:10:24,760
+Alright, so these are the rules inside the 'anti-gravity' folder.
+
+338
+00:10:24,760 --> 00:10:25,720
+So it's been placed right here.
+
+339
+00:10:25,720 --> 00:10:28,920
+Alright, so let's head back to the folder we were just in.
+
+340
+00:10:28,920 --> 00:10:31,040
+So now, this is what we've created.
+
+341
+00:10:31,860 --> 00:10:34,440
+Alright, so this is what we've created so far.
+
+342
+00:10:34,440 --> 00:10:34,740
+Alright.
+
+343
+00:10:34,740 --> 00:10:35,760
+Alright, let's head back here.
+
+344
+00:10:35,760 --> 00:10:36,980
+Alright, let's get back to it and follow along.
+
+345
+00:10:36,980 --> 00:10:39,920
+See, the 'Project Background' is our context.
+
+346
+00:10:39,920 --> 00:10:40,800
+Alright, we've created it.
+
+347
+00:10:40,800 --> 00:10:43,160
+
+
+348
+00:10:43,160 --> 00:10:45,020
+The reference template is right here, uh...
+
+349
+00:10:45,020 --> 00:10:46,980
+This reference template is just a commonly used one.
+
+350
+00:10:46,980 --> 00:10:48,980
+Then, the front-end demo is here, along with the reference materials.
+
+351
+00:10:48,980 --> 00:10:50,620
+And here are the commonly used prompts.
+
+352
+00:10:50,620 --> 00:10:52,020
+So, agent.md. Got it?
+
+353
+00:10:52,020 --> 00:10:53,740
+So, it's basically a general description for the entire project.
+
+354
+00:10:53,740 --> 00:10:55,840
+This helps the AI understand what this project is all about.
+
+355
+00:10:55,840 --> 00:10:57,860
+And the cloud.md file? That's for Cloud.
+
+356
+00:10:57,860 --> 00:10:58,260
+It's pretty slick.
+
+357
+00:10:58,260 --> 00:10:59,740
+It forces you to create one.
+
+358
+00:10:59,740 --> 00:11:01,140
+Alright, so this one here, the .gitignore...
+
+359
+00:11:01,140 --> 00:11:03,220
+It's used to ignore files that don't need to be added to Git.
+
+360
+00:11:03,220 --> 00:11:04,300
+certain tracked files.
+
+361
+00:11:04,300 --> 00:11:06,460
+And then there's the cursor.ignore, which is for the Cursor IDE.
+
+362
+00:11:06,460 --> 00:11:08,820
+It needs to exclude some files that are unnecessary to feed into the context.
+
+363
+00:11:08,820 --> 00:11:10,420
+the files that are fed to the AI as context.
+
+364
+00:11:10,420 --> 00:11:11,860
+This includes ignoring entire folders.
+
+365
+00:11:11,860 --> 00:11:14,260
+And then, for the 'rules' under Cursor...
+
+366
+00:11:14,260 --> 00:11:15,680
+So, this is the rule, right?
+
+367
+00:11:15,680 --> 00:11:17,700
+This means that the rules for Cursor go in here.
+
+368
+00:11:17,700 --> 00:11:19,140
+And we'll put the agent's RTS in here.
+
+369
+00:11:19,140 --> 00:11:21,220
+Well, that's because it depends on which IDE you're using.
+
+370
+00:11:21,220 --> 00:11:23,300
+Or if you're using one of those Chinese-made IDEs,
+
+371
+00:11:23,300 --> 00:11:25,460
+And other stuff like 'work', 'code', 'body', and so on.
+
+372
+00:11:25,460 --> 00:11:26,760
+Or if you're using any of these other IDEs.
+
+373
+00:11:26,760 --> 00:11:28,580
+So, you just go ahead and create different folders.
+
+374
+00:11:28,580 --> 00:11:30,340
+So, how do you know which specific folders to create?
+
+375
+00:11:30,340 --> 00:11:32,240
+Actually, it's not about how I know this is the right project.
+
+376
+00:11:32,240 --> 00:11:36,100
+You'll see that what I actually need are just the folders in this specific area.
+
+377
+00:11:36,100 --> 00:11:38,320
+So, all I really need is this whole bunch of stuff right here.
+
+378
+00:11:38,320 --> 00:11:39,780
+I really only need this stack of stuff.
+
+379
+00:11:39,780 --> 00:11:41,660
+And at most, maybe these two down here as well.
+
+380
+00:11:41,660 --> 00:11:43,940
+As for everything else, that's all because I have specific needs for them.
+
+381
+00:11:43,940 --> 00:11:45,500
+And then, it just gradually grew and grew from there.
+
+382
+00:11:45,500 --> 00:11:46,340
+And once it's all set up,
+
+383
+00:11:46,340 --> 00:11:47,200
+And that's how it ended up with all this stuff.
+
+384
+00:11:47,200 --> 00:11:48,180
+So, up to this point,
+
+385
+00:11:48,180 --> 00:11:50,040
+So, does everyone get how to set up the project?
+
+386
+00:11:50,040 --> 00:11:52,400
+If you got all that, drop a '1' in the chat.
+

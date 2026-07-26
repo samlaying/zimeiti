@@ -1,0 +1,648 @@
+1
+00:00:00,040 --> 00:00:00,880
+In 2026
+
+2
+00:00:00,880 --> 00:00:04,440
+If you're still using prompts to remove the AI flavor from your articles
+
+3
+00:00:04,440 --> 00:00:07,280
+you might still be stuck in the 1.0 phase of writing
+
+4
+00:00:07,280 --> 00:00:08,960
+I believe the most effective way to solve this problem currently
+
+5
+00:00:08,960 --> 00:00:11,800
+the most effective method is to establish a skill
+
+6
+00:00:11,800 --> 00:00:12,880
+As for me here,
+
+7
+00:00:12,880 --> 00:00:15,240
+Recently, I built one for myself that can continuously learn
+
+8
+00:00:15,240 --> 00:00:17,499
+a skill for my writing style
+
+9
+00:00:17,499 --> 00:00:19,219
+As I feed it more samples
+
+10
+00:00:19,219 --> 00:00:20,920
+increasingly such a situation
+
+11
+00:00:20,920 --> 00:00:23,940
+The articles it produces will increasingly resemble my own style
+
+12
+00:00:23,940 --> 00:00:26,980
+Unlike the past when we used prompts to solve this problem
+
+13
+00:00:26,980 --> 00:00:28,060
+This set of skills
+
+14
+00:00:28,060 --> 00:00:31,320
+It is actually more like a writing manual tailored specifically to your personal style
+
+15
+00:00:31,320 --> 00:00:32,659
+such a writing handbook
+
+16
+00:00:32,659 --> 00:00:36,000
+Within this, you can record some of your expression preferences
+
+17
+00:00:36,000 --> 00:00:36,870
+writing habits
+
+18
+00:00:36,870 --> 00:00:38,950
+banned words and style boundaries, etc.
+
+19
+00:00:38,950 --> 00:00:40,790
+and you can continuously make updates
+
+20
+00:00:40,790 --> 00:00:44,340
+Before each writing task, the AI will refer to this manual of yours.
+
+21
+00:00:44,340 --> 00:00:46,420
+Previously, we used prompts to address this issue
+
+22
+00:00:46,420 --> 00:00:47,940
+what is it actually more like
+
+23
+00:00:47,940 --> 00:00:50,080
+It's like we temporarily assign to a new employee
+
+24
+00:00:50,080 --> 00:00:52,610
+to communicate some of our company's regulations
+
+25
+00:00:52,610 --> 00:00:53,570
+So this 'skill' here
+
+26
+00:00:53,570 --> 00:00:54,570
+It actually functions more like a
+
+27
+00:00:54,570 --> 00:00:58,130
+a handbook we wrote for new employees' onboarding
+
+28
+00:00:58,130 --> 00:01:00,730
+Each time, we just need to let the AI review our manual first
+
+29
+00:01:00,730 --> 00:01:01,810
+and then proceed with the task
+
+30
+00:01:01,810 --> 00:01:05,390
+Moreover, every time you identify where it is most prone to making mistakes
+
+31
+00:01:05,390 --> 00:01:07,370
+then you can correct it in this way
+
+32
+00:01:07,370 --> 00:01:09,080
+add this piece in
+
+33
+00:01:09,080 --> 00:01:11,820
+
+
+34
+00:01:11,820 --> 00:01:13,140
+used over time
+
+35
+00:01:13,140 --> 00:01:16,160
+This onboarding manual will become increasingly accurate
+
+36
+00:01:16,160 --> 00:01:17,780
+The AI will also understand better
+
+37
+00:01:17,780 --> 00:01:19,190
+what you write
+
+38
+00:01:19,190 --> 00:01:22,140
+it will increasingly align with your personal style
+
+39
+00:01:22,140 --> 00:01:25,060
+So how exactly do you implement the method I mentioned above?
+
+40
+00:01:25,060 --> 00:01:27,140
+I've broken it down into four steps.
+
+41
+00:01:27,140 --> 00:01:28,620
+First, there is a prerequisite
+
+42
+00:01:28,620 --> 00:01:30,540
+you need to install Cloud Code properly
+
+43
+00:01:30,540 --> 00:01:32,320
+If you don't know how to install it
+
+44
+00:01:32,320 --> 00:01:35,540
+I will provide my detailed installation guide here
+
+45
+00:01:35,540 --> 00:01:37,500
+As for the materials related to today's video
+
+46
+00:01:37,500 --> 00:01:38,500
+I can release it
+
+47
+00:01:38,500 --> 00:01:40,820
+You can leave a comment to get it
+
+48
+00:01:40,820 --> 00:01:41,940
+The first step is
+
+49
+00:01:41,940 --> 00:01:45,090
+You need to let the AI understand your writing preferences first
+
+50
+00:01:45,090 --> 00:01:48,130
+then you need to find 3 to 5
+
+51
+00:01:48,130 --> 00:01:49,630
+your most satisfactory
+
+52
+00:01:49,630 --> 00:01:51,320
+your original articles
+
+53
+00:01:51,320 --> 00:01:51,840
+Note that
+
+54
+00:01:51,840 --> 00:01:53,960
+this must be something you wrote by yourself
+
+55
+00:01:53,960 --> 00:01:55,340
+rather than being written by AI for you
+
+56
+00:01:55,340 --> 00:01:56,900
+Then after you have these articles
+
+57
+00:01:56,900 --> 00:01:58,200
+you send it to cloud code
+
+58
+00:01:58,200 --> 00:02:00,970
+have it analyze your writing style for you
+
+59
+00:02:00,970 --> 00:02:03,910
+Then it will list out these elements point by point as 1, 2, 3, 4.
+
+60
+00:02:03,910 --> 00:02:04,870
+Then what?
+
+61
+00:02:04,870 --> 00:02:05,610
+At this point
+
+62
+00:02:05,610 --> 00:02:07,270
+you can have cloud code help you
+
+63
+00:02:07,270 --> 00:02:11,170
+first generate a published writing style skill
+
+64
+00:02:11,170 --> 00:02:14,390
+In this regard, it is recommended that you also install this skill
+
+65
+00:02:14,390 --> 00:02:15,030
+Creator
+
+66
+00:02:15,030 --> 00:02:16,250
+Regarding this skill
+
+67
+00:02:16,250 --> 00:02:19,490
+I've also included it in our manual.
+
+68
+00:02:19,490 --> 00:02:21,690
+This skill can be tailored to your specific needs
+
+69
+00:02:21,690 --> 00:02:24,510
+a tool to help you create skills
+
+70
+00:02:24,510 --> 00:02:26,150
+You can see that I've invoked the skill here
+
+71
+00:02:26,150 --> 00:02:29,390
+help me draft a relatively basic version of this skill
+
+72
+00:02:29,390 --> 00:02:33,060
+which includes some basic principles and conditions
+
+73
+00:02:33,060 --> 00:02:35,980
+Of course, please note that the output at this stage is not the final version.
+
+74
+00:02:35,980 --> 00:02:37,980
+It's just a very rough version
+
+75
+00:02:37,980 --> 00:02:39,260
+This is just the starting point
+
+76
+00:02:39,260 --> 00:02:41,020
+If you want to make this skill effective
+
+77
+00:02:41,020 --> 00:02:44,020
+it must be through your repeated practice
+
+78
+00:02:44,020 --> 00:02:46,710
+continuously iterate and optimize it
+
+79
+00:02:46,710 --> 00:02:47,830
+Now, this first step
+
+80
+00:02:47,830 --> 00:02:49,390
+We have created this skill
+
+81
+00:02:49,390 --> 00:02:50,270
+Then in the second step
+
+82
+00:02:50,270 --> 00:02:53,289
+we'll have it follow the requirements in our skill
+
+83
+00:02:53,289 --> 00:02:54,489
+write a draft according to these requirements
+
+84
+00:02:54,489 --> 00:02:56,109
+and then you make revisions
+
+85
+00:02:56,109 --> 00:02:58,329
+For example, we give it a topic like this
+
+86
+00:02:58,329 --> 00:02:58,809
+Okay
+
+87
+00:02:58,809 --> 00:03:00,149
+first run 100
+
+88
+00:03:00,149 --> 00:03:01,409
+Then write this article
+
+89
+00:03:01,409 --> 00:03:03,829
+You will definitely find some issues more or less
+
+90
+00:03:03,829 --> 00:03:05,029
+The most crucial step is
+
+91
+00:03:05,029 --> 00:03:07,109
+You now need to focus on the content it has output
+
+92
+00:03:07,109 --> 00:03:09,780
+make a word-by-word revision
+
+93
+00:03:09,780 --> 00:03:11,880
+into the version you're most satisfied with
+
+94
+00:03:11,880 --> 00:03:14,080
+the revised version of this article
+
+95
+00:03:14,080 --> 00:03:15,720
+and the version written by AI
+
+96
+00:03:15,720 --> 00:03:17,560
+don't let it make a comparison
+
+97
+00:03:17,560 --> 00:03:19,440
+You can provide this set of prompts to it
+
+98
+00:03:19,440 --> 00:03:20,790
+let it identify the gaps
+
+99
+00:03:20,790 --> 00:03:21,550
+And then
+
+100
+00:03:21,550 --> 00:03:23,610
+the AI will recognize your preferences
+
+101
+00:03:23,610 --> 00:03:25,910
+what kind of expression style it tends to favor
+
+102
+00:03:25,910 --> 00:03:27,850
+what kind of expression style is disliked
+
+103
+00:03:27,850 --> 00:03:29,450
+Through such a specific case,
+
+104
+00:03:29,450 --> 00:03:33,050
+he can more accurately capture some key information
+
+105
+00:03:33,050 --> 00:03:35,000
+This is also the most valuable part.
+
+106
+00:03:35,000 --> 00:03:37,820
+This whole system isn't something you do just once and it's over, okay?
+
+107
+00:03:37,820 --> 00:03:40,910
+You can update it like this every time you write a new piece.
+
+108
+00:03:40,910 --> 00:03:42,590
+Now, everyone should pay attention here
+
+109
+00:03:42,590 --> 00:03:44,190
+So if you want to create such a writing
+
+110
+00:03:44,190 --> 00:03:44,840
+skill
+
+111
+00:03:44,840 --> 00:03:47,380
+there must be several essential files included
+
+112
+00:03:47,380 --> 00:03:49,920
+What are the several files I recommend everyone to design?
+
+113
+00:03:49,920 --> 00:03:51,280
+The first essential component must be the skill dot
+
+114
+00:03:51,280 --> 00:03:52,940
+MD is an essential file
+
+115
+00:03:52,940 --> 00:03:55,660
+In this section, regarding the composition of prompts
+
+116
+00:03:55,660 --> 00:03:58,460
+You can start from these aspects
+
+117
+00:03:58,460 --> 00:04:00,380
+If you have any additional reference materials
+
+118
+00:04:00,380 --> 00:04:02,460
+such as commonly used terminology
+
+119
+00:04:02,460 --> 00:04:04,660
+fixed expressions and so on
+
+120
+00:04:04,660 --> 00:04:06,990
+You can add a new file
+
+121
+00:04:06,990 --> 00:04:09,130
+through a reference file
+
+122
+00:04:09,130 --> 00:04:10,010
+in here
+
+123
+00:04:10,010 --> 00:04:12,600
+you can include your relevant reference materials in it
+
+124
+00:04:12,600 --> 00:04:15,480
+If there are any specific requirements for the file format
+
+125
+00:04:15,480 --> 00:04:17,260
+You can write a script
+
+126
+00:04:17,260 --> 00:04:18,320
+that is our script
+
+127
+00:04:18,320 --> 00:04:19,300
+what I just mentioned
+
+128
+00:04:19,300 --> 00:04:21,260
+You don't actually need to get everything done perfectly at once
+
+129
+00:04:21,260 --> 00:04:22,620
+Because you'll find that
+
+130
+00:04:22,620 --> 00:04:24,060
+during this process
+
+131
+00:04:24,060 --> 00:04:24,820
+where there is an issue
+
+132
+00:04:24,820 --> 00:04:25,820
+we optimize that specific part
+
+133
+00:04:25,820 --> 00:04:27,480
+
+
+134
+00:04:27,480 --> 00:04:29,960
+Moreover, the set of skills we've developed above
+
+135
+00:04:29,960 --> 00:04:32,040
+not just for writing articles
+
+136
+00:04:32,040 --> 00:04:33,880
+you can actually apply it to other scenarios
+
+137
+00:04:33,880 --> 00:04:35,540
+for application
+
+138
+00:04:35,540 --> 00:04:38,660
+For example, if you input a rough piece of voice-over
+
+139
+00:04:38,660 --> 00:04:40,200
+then let AI help you polish it
+
+140
+00:04:40,200 --> 00:04:41,880
+Can you then invoke this skill
+
+141
+00:04:41,880 --> 00:04:45,080
+let it read your past preferences and style
+
+142
+00:04:45,080 --> 00:04:46,610
+Based on this foundation, proceed with polishing
+
+143
+00:04:46,610 --> 00:04:48,050
+There are many such scenarios
+
+144
+00:04:48,050 --> 00:04:49,790
+For example, if you come across some great podcasts
+
+145
+00:04:49,790 --> 00:04:52,490
+Then you draft an initial version in your own style
+
+146
+00:04:52,490 --> 00:04:54,800
+then let the AI process it according to your set of skills
+
+147
+00:04:54,800 --> 00:04:56,200
+the content you personally wrote
+
+148
+00:04:56,200 --> 00:04:58,560
+organize it into a tutorial-style article
+
+149
+00:04:58,560 --> 00:05:00,240
+You can directly publish it with one click
+
+150
+00:05:00,240 --> 00:05:01,320
+So this set of skills
+
+151
+00:05:01,320 --> 00:05:03,740
+In fact, it can be applied to any writing scenario.
+
+152
+00:05:03,740 --> 00:05:04,700
+Because this aspect
+
+153
+00:05:04,700 --> 00:05:07,860
+It contains your personal writing flavor. Okay
+
+154
+00:05:07,860 --> 00:05:10,179
+That's all for today's content.
+
+155
+00:05:10,179 --> 00:05:12,699
+So if you're interested in AI-powered content creation
+
+156
+00:05:12,699 --> 00:05:14,779
+if you're interested in this systematic process
+
+157
+00:05:14,779 --> 00:05:16,579
+
+
+158
+00:05:16,579 --> 00:05:18,710
+It contains detailed product introductions
+
+159
+00:05:18,710 --> 00:05:21,290
+If you find today's video helpful,
+
+160
+00:05:21,290 --> 00:05:22,690
+You can give it a Triple Combo
+
+161
+00:05:22,690 --> 00:05:23,830
+OK, see you in the next video
+
+162
+00:05:23,830 --> 00:05:24,380
+Bye
+

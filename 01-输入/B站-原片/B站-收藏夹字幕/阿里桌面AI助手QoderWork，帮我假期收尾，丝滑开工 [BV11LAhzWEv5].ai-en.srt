@@ -1,0 +1,980 @@
+1
+00:00:00,000 --> 00:00:02,160
+The domestic version of Claude Cowork is here
+
+2
+00:00:02,160 --> 00:00:02,740
+Last month, Anthropic launched a
+
+3
+00:00:02,740 --> 00:00:04,220
+ANTHROPIC launched a
+
+4
+00:00:04,220 --> 00:00:06,380
+a desktop AI assistant that can automatically handle tasks
+
+5
+00:00:06,380 --> 00:00:07,340
+Claude cowork
+
+6
+00:00:07,340 --> 00:00:09,500
+has sparked heated discussions in overseas communities
+
+7
+00:00:09,500 --> 00:00:12,640
+However, using Claude Cowork in China is quite inconvenient
+
+8
+00:00:12,640 --> 00:00:14,120
+requires resolving network environment issues
+
+9
+00:00:14,120 --> 00:00:16,379
+also face issues such as supply cuts and account bans
+
+10
+00:00:16,379 --> 00:00:17,139
+Just recently
+
+11
+00:00:17,139 --> 00:00:20,599
+Alibaba has launched a domestically-produced desktop AI assistant, QoderWork
+
+12
+00:00:20,599 --> 00:00:23,220
+serves as the perfect domestic alternative to Claude Cowork
+
+13
+00:00:23,220 --> 00:00:25,780
+QoderWork features a simple and user-friendly UI interface
+
+14
+00:00:25,780 --> 00:00:27,100
+No complicated configuration required
+
+15
+00:00:27,100 --> 00:00:28,980
+Domestically accessible, ready to use out of the box
+
+16
+00:00:28,980 --> 00:00:30,560
+Everyone can easily get started
+
+17
+00:00:30,560 --> 00:00:33,840
+With simple natural language, you can complete file organization
+
+18
+00:00:33,840 --> 00:00:34,720
+
+
+19
+00:00:34,720 --> 00:00:36,120
+
+
+20
+00:00:36,120 --> 00:00:38,360
+Fully automate various work scenarios
+
+21
+00:00:38,360 --> 00:00:41,400
+Compared to traditional web-based conversational AI tools
+
+22
+00:00:41,400 --> 00:00:45,160
+The biggest advantage of QoderWork is that it can directly read and write files on your computer.
+
+23
+00:00:45,160 --> 00:00:48,020
+and through capabilities such as Skills MCP
+
+24
+00:00:48,020 --> 00:00:49,620
+directly operate external tools
+
+25
+00:00:49,620 --> 00:00:51,820
+Simply describe your needs in natural language
+
+26
+00:00:51,820 --> 00:00:54,480
+QoderWork can break down tasks into plans
+
+27
+00:00:54,480 --> 00:00:56,180
+step by step execution
+
+28
+00:00:56,180 --> 00:00:58,120
+finally deliver the complete results directly
+
+29
+00:00:58,120 --> 00:00:59,400
+The Spring Festival holiday has come to an end
+
+30
+00:00:59,400 --> 00:01:01,480
+I'm going to leverage the capabilities of QoderWork
+
+31
+00:01:01,480 --> 00:01:05,660
+Help me smoothly transition from holiday mode to work mode
+
+32
+00:01:06,180 --> 00:01:08,300
+During the Spring Festival, Papaxia went out for a trip
+
+33
+00:01:08,300 --> 00:01:09,560
+took a lot of photos
+
+34
+00:01:09,560 --> 00:01:12,420
+I usually back up these photos to the cloud drive.
+
+35
+00:01:12,420 --> 00:01:14,540
+However, these photos are very scattered
+
+36
+00:01:14,540 --> 00:01:17,760
+I want to organize them by shooting location or date format
+
+37
+00:01:17,760 --> 00:01:19,240
+organize into folders
+
+38
+00:01:19,240 --> 00:01:22,260
+This task can be automatically completed by QoderWork.
+
+39
+00:01:22,260 --> 00:01:24,140
+First, we select the working directory
+
+40
+00:01:24,140 --> 00:01:26,100
+the folder where the photos are stored
+
+41
+00:01:26,100 --> 00:01:26,880
+Enter the command
+
+42
+00:01:26,880 --> 00:01:28,820
+all the photos in this folder
+
+43
+00:01:28,820 --> 00:01:30,440
+organize by the tourist attractions where they were taken
+
+44
+00:01:30,440 --> 00:01:32,100
+different folders
+
+45
+00:01:32,100 --> 00:01:33,640
+QoderWork is very intelligent
+
+46
+00:01:33,640 --> 00:01:35,360
+It didn't start by reading the photos first
+
+47
+00:01:35,360 --> 00:01:38,020
+but first called exiftool
+
+48
+00:01:38,020 --> 00:01:40,820
+in the EXIF information of each photo
+
+49
+00:01:40,820 --> 00:01:43,520
+read the GPS coordinates of each photo
+
+50
+00:01:43,520 --> 00:01:47,140
+Then, he grouped photos with similar GPS coordinates together.
+
+51
+00:01:47,140 --> 00:01:50,360
+For each group of photos, a comprehensive analysis of the scenes was conducted.
+
+52
+00:01:50,360 --> 00:01:51,920
+deduced the shooting location
+
+53
+00:01:51,920 --> 00:01:53,360
+For locations that are uncertain
+
+54
+00:01:53,360 --> 00:01:56,540
+QoderWork conducted an online search for the GPS coordinates
+
+55
+00:01:56,540 --> 00:01:57,840
+found the exact location
+
+56
+00:01:57,840 --> 00:01:59,580
+Finally, the folders were categorized.
+
+57
+00:01:59,580 --> 00:02:00,980
+I went in to check it out
+
+58
+00:02:00,980 --> 00:02:02,060
+100% accurate
+
+59
+00:02:02,060 --> 00:02:03,160
+The results are excellent.
+
+60
+00:02:03,160 --> 00:02:04,540
+In addition to categorization by location
+
+61
+00:02:04,540 --> 00:02:05,980
+It can also be categorized by time
+
+62
+00:02:05,980 --> 00:02:07,240
+Then I enter the command
+
+63
+00:02:07,240 --> 00:02:08,680
+
+
+64
+00:02:08,680 --> 00:02:10,740
+then by the photo's capture date
+
+65
+00:02:10,740 --> 00:02:12,760
+move to different subfolders
+
+66
+00:02:12,760 --> 00:02:14,240
+This is also no problem for him
+
+67
+00:02:14,240 --> 00:02:15,360
+It was quickly completed.
+
+68
+00:02:15,360 --> 00:02:19,120
+Group the photos into folders by shooting date
+
+69
+00:02:19,520 --> 00:02:20,920
+The Spring Festival holiday has ended
+
+70
+00:02:20,920 --> 00:02:23,720
+all kinds of tedious and repetitive tasks have also resumed
+
+71
+00:02:23,720 --> 00:02:29,760
+In daily work, it's inevitable to frequently deal with the three major office tools: Word, Excel, and PPT.
+
+72
+00:02:29,760 --> 00:02:30,440
+QoderWork utilizes the Skills mechanism
+
+73
+00:02:30,440 --> 00:02:34,280
+integrated the capability to process these files
+
+74
+00:02:34,280 --> 00:02:37,340
+Skills are a professional skill package for AI Agent
+
+75
+00:02:37,340 --> 00:02:39,640
+or rather a cataloged instruction manual
+
+76
+00:02:39,640 --> 00:02:42,940
+enable the Agent to perform specific tasks more stably
+
+77
+00:02:42,940 --> 00:02:44,840
+more efficient output with greater reliability
+
+78
+00:02:44,840 --> 00:02:48,720
+Click on the avatar in the lower left corner of QoderWork, go to Settings --> Skills
+
+79
+00:02:48,720 --> 00:02:51,600
+you can open the Skills management page of QoderWork
+
+80
+00:02:51,600 --> 00:02:55,040
+As you can see, QoderWork has already built in many useful Skills
+
+81
+00:02:55,040 --> 00:02:57,790
+such as docx, xlsx, pptx, etc.
+
+82
+00:02:57,790 --> 00:02:59,410
+and PPTX, etc.
+
+83
+00:02:59,410 --> 00:03:00,530
+Let's take a look at an example
+
+84
+00:03:00,530 --> 00:03:03,880
+In this folder, there are two contracts in docx format
+
+85
+00:03:03,880 --> 00:03:05,140
+one is the original version
+
+86
+00:03:05,140 --> 00:03:07,400
+and the other is the revised version sent by the client
+
+87
+00:03:07,400 --> 00:03:08,760
+If manually compared
+
+88
+00:03:08,760 --> 00:03:10,800
+it's difficult to find all the modifications made by the client
+
+89
+00:03:10,800 --> 00:03:13,400
+At this point, we can directly use QoderWork to
+
+90
+00:03:13,400 --> 00:03:15,180
+Open the folder containing the contracts
+
+91
+00:03:15,180 --> 00:03:16,560
+Enter this prompt
+
+92
+00:03:16,560 --> 00:03:18,280
+There are two contracts in the working directory
+
+93
+00:03:18,280 --> 00:03:21,520
+Compare and identify the differences between the revised version and the original version.
+
+94
+00:03:21,520 --> 00:03:24,130
+QoderWork invoked the docx skill
+
+95
+00:03:24,130 --> 00:03:26,730
+
+
+96
+00:03:26,730 --> 00:03:29,130
+Then it cleverly installed Pandoc
+
+97
+00:03:29,130 --> 00:03:32,420
+converted the Word file into Markdown format for easier comparison
+
+98
+00:03:32,420 --> 00:03:33,860
+Then the comparison was completed
+
+99
+00:03:33,860 --> 00:03:35,660
+located all the modification points
+
+100
+00:03:35,660 --> 00:03:36,740
+and also summarized
+
+101
+00:03:36,740 --> 00:03:38,100
+The results are fast and accurate
+
+102
+00:03:38,100 --> 00:03:38,880
+The quality is very high
+
+103
+00:03:38,880 --> 00:03:41,880
+We can also have QoderWork review these contracts
+
+104
+00:03:41,880 --> 00:03:43,280
+Review the revised version
+
+105
+00:03:43,280 --> 00:03:44,880
+see what potential issues there are
+
+106
+00:03:44,880 --> 00:03:46,840
+Directly annotate on the file
+
+107
+00:03:46,840 --> 00:03:48,720
+Mark the potential issues
+
+108
+00:03:48,720 --> 00:03:51,140
+QoderWork still invoked the Word skill
+
+109
+00:03:51,140 --> 00:03:52,160
+completed the annotations
+
+110
+00:03:52,160 --> 00:03:54,240
+identified over a dozen potential issues
+
+111
+00:03:54,240 --> 00:03:55,400
+perfectly completed the task
+
+112
+00:03:55,400 --> 00:03:56,980
+In addition to handling Word formats
+
+113
+00:03:56,980 --> 00:04:00,740
+QoderWork also supports the use of skills to handle Excel files
+
+114
+00:04:00,740 --> 00:04:03,720
+In this folder, there are invoices filled out by colleagues.
+
+115
+00:04:03,720 --> 00:04:06,080
+I need to consolidate them into an Excel file
+
+116
+00:04:06,080 --> 00:04:08,960
+Identify these invoices and consolidate them into an Excel file
+
+117
+00:04:08,960 --> 00:04:11,320
+must include at least the employee's name
+
+118
+00:04:11,320 --> 00:04:12,460
+date, seller, name, goods, tax amount, etc.
+
+119
+00:04:12,460 --> 00:04:13,960
+goods tax amount etc.
+
+120
+00:04:13,960 --> 00:04:15,720
+and then generate statistical charts
+
+121
+00:04:15,720 --> 00:04:18,300
+QoderWork first read the file structure
+
+122
+00:04:18,300 --> 00:04:20,940
+analyzed 6 employees and 28 invoices
+
+123
+00:04:20,940 --> 00:04:23,500
+then it recognized the image of each invoice
+
+124
+00:04:23,500 --> 00:04:26,200
+Next, it invoked the xlsx skill
+
+125
+00:04:26,200 --> 00:04:27,540
+created an Excel file
+
+126
+00:04:27,540 --> 00:04:29,840
+containing 4 worksheets and 5 charts
+
+127
+00:04:29,840 --> 00:04:31,140
+Let's take a look at the results
+
+128
+00:04:31,140 --> 00:04:33,880
+First, the Excel file contains a detailed sheet
+
+129
+00:04:33,880 --> 00:04:36,420
+Supports filtering and sorting by employee, amount, etc.
+
+130
+00:04:36,420 --> 00:04:40,250
+QoderWork also generated pie charts categorized by employees for us.
+
+131
+00:04:40,250 --> 00:04:42,250
+line chart showing annual trends
+
+132
+00:04:42,250 --> 00:04:43,930
+and expense statistics charts, etc.
+
+133
+00:04:43,930 --> 00:04:45,340
+very clear and understandable
+
+134
+00:04:45,340 --> 00:04:46,120
+QoderWork compresses this
+
+135
+00:04:46,120 --> 00:04:48,580
+a whole day's financial accounting work
+
+136
+00:04:48,580 --> 00:04:49,860
+compressed to just a few minutes
+
+137
+00:04:49,860 --> 00:04:53,060
+delivers tangible efficiency improvements
+
+138
+00:04:53,530 --> 00:04:55,870
+Many red envelopes were given out during the Spring Festival
+
+139
+00:04:55,870 --> 00:04:58,600
+Traveling and purchasing New Year goods also cost a lot of money
+
+140
+00:04:58,600 --> 00:05:01,120
+It would be quite troublesome to keep track of each transaction one by one.
+
+141
+00:05:01,120 --> 00:05:03,900
+We can utilize the image recognition capability of QoderWork
+
+142
+00:05:03,900 --> 00:05:05,280
+recognize bill screenshots
+
+143
+00:05:05,280 --> 00:05:06,880
+then automatically extract the data
+
+144
+00:05:06,880 --> 00:05:08,360
+generate an Excel statistical table
+
+145
+00:05:08,360 --> 00:05:10,460
+I took screenshots of this month's bills with my phone
+
+146
+00:05:10,460 --> 00:05:12,100
+A total of 4 images were generated
+
+147
+00:05:12,100 --> 00:05:14,700
+then paste these images to QoderWork
+
+148
+00:05:14,700 --> 00:05:17,720
+Please summarize and organize these billing data into an Excel file.
+
+149
+00:05:17,720 --> 00:05:19,080
+categorize into red envelopes, New Year goods purchases, and travel
+
+150
+00:05:19,080 --> 00:05:21,760
+four major categories of living expenses
+
+151
+00:05:21,760 --> 00:05:23,780
+QoderWork read the image input
+
+152
+00:05:23,780 --> 00:05:24,960
+then it started to think
+
+153
+00:05:24,960 --> 00:05:27,260
+invoked the xlsx skill
+
+154
+00:05:27,260 --> 00:05:29,740
+mastered the skill of creating Excel
+
+155
+00:05:29,740 --> 00:05:31,060
+
+
+156
+00:05:31,060 --> 00:05:33,960
+wrote a script specifically designed for writing Excel sheets
+
+157
+00:05:33,960 --> 00:05:36,960
+Next, the script was executed to complete the creation of the Excel file.
+
+158
+00:05:36,960 --> 00:05:39,560
+delivered an Excel file summarizing the bills
+
+159
+00:05:39,560 --> 00:05:41,100
+Let's click to check the result
+
+160
+00:05:41,100 --> 00:05:43,220
+The format of this Excel is very nice.
+
+161
+00:05:43,220 --> 00:05:46,100
+It has set up four columns: date, item, amount, and category
+
+162
+00:05:46,100 --> 00:05:48,060
+Types are marked with colors
+
+163
+00:05:48,060 --> 00:05:50,260
+It also supports filtering, sorting, and more.
+
+164
+00:05:50,260 --> 00:05:51,420
+on the second sheet
+
+165
+00:05:51,420 --> 00:05:53,300
+There are more detailed categorized summaries
+
+166
+00:05:53,300 --> 00:05:55,180
+The effect is very impressive.
+
+167
+00:05:55,580 --> 00:05:57,300
+I went out and had a blast during the Spring Festival
+
+168
+00:05:57,300 --> 00:05:59,520
+missed a lot of trending tech video materials
+
+169
+00:05:59,520 --> 00:06:02,540
+Next, I'm going to utilize QoderWork's PPT skill
+
+170
+00:06:02,540 --> 00:06:03,980
+to generate a PPT
+
+171
+00:06:03,980 --> 00:06:05,920
+Organize the hot topics in the computer and AI fields during the Spring Festival holiday
+
+172
+00:06:05,920 --> 00:06:08,460
+hot news in the AI field
+
+173
+00:06:10,200 --> 00:06:11,380
+Enter the command here
+
+174
+00:06:11,380 --> 00:06:15,380
+Search for the latest news in the computer and AI fields during the recent Spring Festival holiday
+
+175
+00:06:15,380 --> 00:06:16,940
+and create a PowerPoint presentation
+
+176
+00:06:16,940 --> 00:06:18,660
+Let's take a look at the final result
+
+177
+00:06:18,660 --> 00:06:22,340
+The PPT generated by QoderWork adopts a dark-toned tech-style color scheme
+
+178
+00:06:22,340 --> 00:06:23,700
+comprehensive content
+
+179
+00:06:23,700 --> 00:06:24,440
+well-structured
+
+180
+00:06:24,440 --> 00:06:26,320
+Each page effectively highlights the key points
+
+181
+00:06:26,320 --> 00:06:28,500
+rather than simply piling up text
+
+182
+00:06:28,500 --> 00:06:29,500
+Information is conveyed more efficiently
+
+183
+00:06:29,500 --> 00:06:30,580
+The overall quality has reached a level suitable for presentations.
+
+184
+00:06:30,580 --> 00:06:33,160
+presentation-level
+
+185
+00:06:33,160 --> 00:06:33,720
+Another important source of information for mantis shrimp
+
+186
+00:06:33,720 --> 00:06:36,740
+is Deep Research
+
+187
+00:06:36,740 --> 00:06:39,920
+Google's NotebookLM comes with a built-in Deep Research feature
+
+188
+00:06:39,920 --> 00:06:41,760
+and can also generate text summaries
+
+189
+00:06:41,760 --> 00:06:43,500
+audio blogs and PPTs
+
+190
+00:06:43,500 --> 00:06:47,400
+can help me grasp the latest AI news during the holiday more quickly
+
+191
+00:06:47,400 --> 00:06:51,140
+Next, I'm going to install the NotebookLM Skill into QoderWork.
+
+192
+00:06:51,140 --> 00:06:53,560
+Enter the command here to install this skill
+
+193
+00:06:53,560 --> 00:06:55,500
+Enter his GitHub address here
+
+194
+00:06:55,500 --> 00:06:56,100
+Hold work
+
+195
+00:06:56,100 --> 00:06:58,500
+
+
+196
+00:06:58,500 --> 00:07:01,520
+
+
+197
+00:07:01,520 --> 00:07:03,080
+Next, create a virtual environment
+
+198
+00:07:03,080 --> 00:07:04,300
+and completed the installation
+
+199
+00:07:04,300 --> 00:07:07,600
+Next, we follow the prompts to log into the Google account first
+
+200
+00:07:07,600 --> 00:07:09,120
+The setup is now complete.
+
+201
+00:07:09,120 --> 00:07:10,380
+Then I entered the command
+
+202
+00:07:10,380 --> 00:07:13,080
+ask it to create a NotebookLM notebook
+
+203
+00:07:13,080 --> 00:07:14,640
+using the deep search feature
+
+204
+00:07:14,640 --> 00:07:17,440
+search for trending topics in the computer and AI fields
+
+205
+00:07:17,440 --> 00:07:18,860
+as a source of information for notes
+
+206
+00:07:18,860 --> 00:07:20,800
+QoderWork created a notebook
+
+207
+00:07:20,800 --> 00:07:22,960
+then launched two in-depth research tasks
+
+208
+00:07:22,960 --> 00:07:23,600
+After a while
+
+209
+00:07:23,600 --> 00:07:24,280
+Task completed
+
+210
+00:07:24,280 --> 00:07:26,680
+A total of 131 information sources were imported
+
+211
+00:07:26,680 --> 00:07:27,600
+covering AI
+
+212
+00:07:27,600 --> 00:07:31,440
+computers, as well as various topics related to the Spring Festival Gala
+
+213
+00:07:31,440 --> 00:07:33,240
+QoderWork delivered a link
+
+214
+00:07:33,240 --> 00:07:35,740
+We open this link to see the notes
+
+215
+00:07:35,740 --> 00:07:38,960
+Next, we can use these notes to generate a PPT.
+
+216
+00:07:38,960 --> 00:07:41,600
+After a while, a very cool PPT was generated.
+
+217
+00:07:41,600 --> 00:07:42,900
+Then we enter the command
+
+218
+00:07:42,900 --> 00:07:45,640
+Generate a text summary from the above notes
+
+219
+00:07:45,640 --> 00:07:46,360
+After a while
+
+220
+00:07:46,360 --> 00:07:48,960
+QoderWork delivered a complete text summary
+
+221
+00:07:48,960 --> 00:07:50,300
+The content is very rich.
+
+222
+00:07:50,300 --> 00:07:51,800
+Next, we will enter the command
+
+223
+00:07:51,800 --> 00:07:54,720
+Have it generate an audio blog based on the above content
+
+224
+00:07:54,720 --> 00:07:55,440
+After a while
+
+225
+00:07:55,440 --> 00:07:57,800
+QoderWork delivered a half-hour-long
+
+226
+00:07:57,800 --> 00:07:59,540
+audio blog featuring a dialogue between two individuals
+
+227
+00:07:59,540 --> 00:08:01,220
+From the surge in underlying computing power
+
+228
+00:08:01,220 --> 00:08:03,000
+AI's comprehensive invasion into reality
+
+229
+00:08:03,000 --> 00:08:05,840
+and then to the laboratory, where hardcore algorithms tackle specific pain points
+
+230
+00:08:05,840 --> 00:08:09,540
+It's a pleasure to work with you to untangle these intricate clues.
+
+231
+00:08:09,540 --> 00:08:12,200
+You can listen slowly with headphones during your commute
+
+232
+00:08:12,200 --> 00:08:15,159
+easily grasp the latest news and summarize
+
+233
+00:08:15,519 --> 00:08:17,899
+In this video, I used QoderWork
+
+234
+00:08:17,899 --> 00:08:19,780
+organized photos from the Spring Festival
+
+235
+00:08:19,780 --> 00:08:23,480
+experienced its capabilities in handling Word, Excel, and PPT files
+
+236
+00:08:23,480 --> 00:08:24,860
+summarized the holiday bills
+
+237
+00:08:27,280 --> 00:08:28,000
+also generated missing information during the internet outage period
+
+238
+00:08:28,000 --> 00:08:31,640
+QoderWork helped me smoothly switch from holiday mode to work mode
+
+239
+00:08:31,640 --> 00:08:33,419
+has brought tangible assistance
+
+240
+00:08:33,419 --> 00:08:34,058
+QoderWork
+
+241
+00:08:34,058 --> 00:08:36,799
+The Mac and Windows versions are now available.
+
+242
+00:08:36,799 --> 00:08:38,539
+Highly recommend everyone to give it a try
+
+243
+00:08:38,539 --> 00:08:39,899
+That's all for this video
+
+244
+00:08:39,899 --> 00:08:41,458
+Thank you for your likes and support
+
+245
+00:08:41,458 --> 00:08:42,600
+See you in the next episode
+

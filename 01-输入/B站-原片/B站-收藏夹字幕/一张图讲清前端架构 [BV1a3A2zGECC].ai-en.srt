@@ -1,0 +1,4704 @@
+1
+00:00:00,300 --> 00:00:03,700
+This diagram is probably the most important frontend architecture diagram
+
+2
+00:00:03,700 --> 00:00:07,660
+because it includes all the most crucial elements of frontend architecture
+
+3
+00:00:07,660 --> 00:00:09,160
+design elements
+
+4
+00:00:09,160 --> 00:00:10,620
+In this video
+
+5
+00:00:10,620 --> 00:00:15,400
+I will demonstrate with a real frontend project
+
+6
+00:00:15,400 --> 00:00:17,820
+with the help of the elements in this diagram
+
+7
+00:00:17,820 --> 00:00:18,860
+how we
+
+8
+00:00:18,860 --> 00:00:22,000
+saved at least 50% of code development effort
+
+9
+00:00:22,000 --> 00:00:25,560
+At the same time, it enables our front-end project to handle
+
+10
+00:00:25,560 --> 00:00:27,220
+very complex videos
+
+11
+00:00:27,220 --> 00:00:28,860
+such as video compression
+
+12
+00:00:28,860 --> 00:00:30,100
+transcoding and the like
+
+13
+00:00:30,100 --> 00:00:33,760
+but it does not affect the user experience at all
+
+14
+00:00:33,760 --> 00:00:38,910
+your UI won't feel the slightest bit slowed down
+
+15
+00:00:38,910 --> 00:00:39,870
+The third point is
+
+16
+00:00:39,870 --> 00:00:43,810
+It also allows us to develop just like a regular website
+
+17
+00:00:43,810 --> 00:00:46,010
+but when we deliver it
+
+18
+00:00:46,010 --> 00:00:49,910
+Users get a mobile app-like experience
+
+19
+00:00:49,910 --> 00:00:53,230
+I don't want to be like those typical architecture videos
+
+20
+00:00:53,230 --> 00:00:57,150
+
+
+21
+00:00:57,150 --> 00:01:02,630
+but rather to demonstrate through a real-world frontend development project
+
+22
+00:01:02,630 --> 00:01:05,690
+take you step by step to see
+
+23
+00:01:05,690 --> 00:01:09,130
+all these architectural design elements in the diagram
+
+24
+00:01:09,130 --> 00:01:13,470
+how they are applied in a real frontend project
+
+25
+00:01:13,470 --> 00:01:16,710
+Spend 12 minutes to talk about this project
+
+26
+00:01:16,830 --> 00:01:21,889
+First of all, this project is not a small toy-like project
+
+27
+00:01:21,889 --> 00:01:25,729
+It is a real social media project
+
+28
+00:01:25,729 --> 00:01:29,070
+and it's specifically designed for us Chinese people
+
+29
+00:01:29,070 --> 00:01:30,110
+As we all know
+
+30
+00:01:30,110 --> 00:01:35,030
+It's very difficult for us Chinese to access external messages online.
+
+31
+00:01:35,030 --> 00:01:39,010
+This website allows you to do so without installing anything
+
+32
+00:01:39,010 --> 00:01:41,400
+can browse international news
+
+33
+00:01:41,400 --> 00:01:45,530
+Meanwhile, if you have the need to chat with friends
+
+34
+00:01:45,530 --> 00:01:48,950
+It can also serve as an instant messaging tool
+
+35
+00:01:48,950 --> 00:01:51,500
+but you don't have to worry at all
+
+36
+00:01:51,500 --> 00:01:53,570
+You can say whatever you want
+
+37
+00:01:53,570 --> 00:01:56,970
+Finally, as we all know, China's internet environment
+
+38
+00:01:56,970 --> 00:01:58,570
+any social media platform
+
+39
+00:01:58,570 --> 00:02:02,110
+its servers may all potentially fail to function
+
+40
+00:02:02,110 --> 00:02:04,150
+but this social platform
+
+41
+00:02:04,150 --> 00:02:07,950
+It can automatically switch its servers at any time
+
+42
+00:02:07,950 --> 00:02:11,350
+so it won't suddenly become unusable while you're using it
+
+43
+00:02:11,350 --> 00:02:12,190
+this risk
+
+44
+00:02:13,190 --> 00:02:14,950
+The reason I'm telling you all this
+
+45
+00:02:14,950 --> 00:02:17,540
+is to let everyone know
+
+46
+00:02:17,540 --> 00:02:21,280
+This is a genuinely highly complex project
+
+47
+00:02:21,280 --> 00:02:26,320
+And I believe only by presenting these in such a complex project
+
+48
+00:02:26,320 --> 00:02:31,360
+the dilemmas and decision-making processes behind all these architectural choices
+
+49
+00:02:31,360 --> 00:02:32,800
+present to everyone
+
+50
+00:02:32,800 --> 00:02:35,980
+then everyone can learn front-end architecture design
+
+51
+00:02:35,980 --> 00:02:39,840
+can truly learn quickly and most effectively
+
+52
+00:02:40,240 --> 00:02:43,720
+So I created a discussion group on Changliao
+
+53
+00:02:43,720 --> 00:02:46,860
+and placed the link to the discussion group below the video
+
+54
+00:02:46,860 --> 00:02:50,480
+Just click to join the discussion group
+
+55
+00:02:50,480 --> 00:02:52,050
+discuss with us
+
+56
+00:02:52,050 --> 00:02:57,020
+At the same time, you can also experience how to use Changliao.
+
+57
+00:02:57,020 --> 00:03:00,280
+This is highly relevant to our video explanation.
+
+58
+00:03:00,280 --> 00:03:03,720
+Finally, as with previous videos
+
+59
+00:03:03,720 --> 00:03:07,830
+I will include the materials related to this video
+
+60
+00:03:07,830 --> 00:03:09,010
+code or whatnot
+
+61
+00:03:09,010 --> 00:03:12,270
+will also be shared in this discussion group
+
+62
+00:03:12,870 --> 00:03:16,330
+So what exactly does this architecture diagram contain
+
+63
+00:03:16,330 --> 00:03:22,430
+important architectural design elements and front-end architecture design principles
+
+64
+00:03:22,430 --> 00:03:25,850
+Before we introduce the various principles of this diagram
+
+65
+00:03:25,850 --> 00:03:28,050
+Let's start with a foundational concept
+
+66
+00:03:28,050 --> 00:03:29,300
+is the foundation
+
+67
+00:03:29,300 --> 00:03:33,780
+All subsequent discussions are based on an architectural premise
+
+68
+00:03:33,780 --> 00:03:36,080
+called single-page architecture
+
+69
+00:03:36,080 --> 00:03:38,040
+frontend single-page architecture
+
+70
+00:03:38,040 --> 00:03:42,360
+So the single-page architecture is a relatively old architecture.
+
+71
+00:03:42,360 --> 00:03:44,990
+Now when you look at things like React View
+
+72
+00:03:44,990 --> 00:03:48,750
+are almost all fundamentally designed based on this architecture
+
+73
+00:03:48,750 --> 00:03:51,650
+So what exactly is a single-page architecture?
+
+74
+00:03:52,330 --> 00:03:54,890
+Before the advent of single-page architecture
+
+75
+00:03:54,890 --> 00:03:57,450
+every time you visit a website
+
+76
+00:03:57,450 --> 00:04:00,269
+not only retrieve the webpage
+
+77
+00:04:00,269 --> 00:04:05,200
+its HTML and various CSS files are retrieved
+
+78
+00:04:05,200 --> 00:04:08,740
+as well as its business data and business logic
+
+79
+00:04:08,740 --> 00:04:09,840
+fetch together
+
+80
+00:04:09,840 --> 00:04:14,470
+So every time you visit it, the traffic is quite heavy.
+
+81
+00:04:14,470 --> 00:04:16,570
+relatively rich video information
+
+82
+00:04:16,570 --> 00:04:20,918
+UI information should also include your data information
+
+83
+00:04:21,159 --> 00:04:24,959
+The core concept of a single-page architecture
+
+84
+00:04:24,959 --> 00:04:26,879
+That is to say, your code
+
+85
+00:04:26,879 --> 00:04:30,400
+Your HTML doesn't have significant changes
+
+86
+00:04:30,400 --> 00:04:31,040
+right
+
+87
+00:04:31,040 --> 00:04:31,960
+you even if there are changes
+
+88
+00:04:31,960 --> 00:04:34,000
+also your JavaScript file
+
+89
+00:04:34,000 --> 00:04:35,650
+it's your JS file
+
+90
+00:04:35,650 --> 00:04:39,680
+The first time your application starts up
+
+91
+00:04:39,680 --> 00:04:42,660
+I take all these things from you
+
+92
+00:04:42,660 --> 00:04:44,600
+Then your subsequent access
+
+93
+00:04:44,600 --> 00:04:46,340
+for example, when you click a button
+
+94
+00:04:46,340 --> 00:04:48,610
+you want to read a news
+
+95
+00:04:48,610 --> 00:04:51,890
+I just need to fetch the data from the backend.
+
+96
+00:04:51,890 --> 00:04:55,789
+This approach significantly speeds up
+
+97
+00:04:55,789 --> 00:05:02,600
+the effectiveness or speed performance of your front-end program is excellent
+
+98
+00:05:02,600 --> 00:05:04,640
+After covering these basics
+
+99
+00:05:04,640 --> 00:05:08,610
+Let's start talking about our principles and Space
+
+100
+00:05:08,610 --> 00:05:12,370
+First and foremost, the most crucial frontend design principle
+
+101
+00:05:12,370 --> 00:05:16,860
+you must divide your frontend program into
+
+102
+00:05:16,860 --> 00:05:21,080
+This diagram illustrates the three most critical layers
+
+103
+00:05:21,080 --> 00:05:22,500
+or called layer
+
+104
+00:05:22,500 --> 00:05:24,970
+The first one is our UI layer
+
+105
+00:05:24,970 --> 00:05:27,790
+The second layer is our business entity layer.
+
+106
+00:05:27,790 --> 00:05:30,750
+All our business logic must be placed within this layer.
+
+107
+00:05:30,750 --> 00:05:35,820
+The third is our database and network communication layer
+
+108
+00:05:36,850 --> 00:05:45,370
+95% of the code should be placed within one of these layers
+
+109
+00:05:45,370 --> 00:05:47,730
+This is the first point.
+
+110
+00:05:48,140 --> 00:05:49,700
+The second most important element
+
+111
+00:05:49,700 --> 00:05:53,100
+that is, all these hierarchical calls
+
+112
+00:05:53,100 --> 00:05:56,280
+can only be called from top to bottom
+
+113
+00:05:56,280 --> 00:06:00,360
+So you can see these arrows all go from top to bottom in the UI program
+
+114
+00:06:00,360 --> 00:06:01,780
+call the business logic layer
+
+115
+00:06:01,780 --> 00:06:06,300
+the business logic layer calls the dB or network communication layer, etc.
+
+116
+00:06:06,820 --> 00:06:08,300
+You cannot call in reverse
+
+117
+00:06:08,300 --> 00:06:09,430
+why
+
+118
+00:06:09,430 --> 00:06:14,250
+Because this will reduce your code complexity by 50%
+
+119
+00:06:14,250 --> 00:06:18,210
+Because only the upper layers depend on the lower layers
+
+120
+00:06:18,570 --> 00:06:21,840
+Thirdly, some friends might ask, uh,
+
+121
+00:06:21,840 --> 00:06:24,620
+What if I really need to call from the bottom layer to the upper layer
+
+122
+00:06:24,620 --> 00:06:25,580
+what should we do
+
+123
+00:06:25,580 --> 00:06:26,520
+Of course you can
+
+124
+00:06:26,520 --> 00:06:29,510
+We will explain this in the practical demonstration below.
+
+125
+00:06:29,510 --> 00:06:35,430
+But this is the Event Bus message bus you're seeing
+
+126
+00:06:35,430 --> 00:06:36,170
+its role
+
+127
+00:06:36,170 --> 00:06:37,810
+Of course, we also have some other solutions
+
+128
+00:06:37,810 --> 00:06:41,380
+We will introduce all of these to you here.
+
+129
+00:06:41,380 --> 00:06:42,440
+This is the third point
+
+130
+00:06:42,440 --> 00:06:48,220
+The UI layer must be kept very thin
+
+131
+00:06:48,220 --> 00:06:54,500
+only allow user interactions and the look and feel of your front-end program
+
+132
+00:06:54,500 --> 00:06:56,850
+what it looks like
+
+133
+00:06:56,850 --> 00:06:57,990
+placed here
+
+134
+00:06:57,990 --> 00:07:01,010
+It must never involve business logic
+
+135
+00:07:01,010 --> 00:07:02,350
+This is the fourth point
+
+136
+00:07:02,350 --> 00:07:05,810
+Fifth, your top priority
+
+137
+00:07:05,810 --> 00:07:10,610
+The focus of the entire program should be on your business entity layer.
+
+138
+00:07:10,610 --> 00:07:13,810
+but this business entity layer should not be aware of
+
+139
+00:07:13,810 --> 00:07:16,980
+the existence of the upper UI layer
+
+140
+00:07:16,980 --> 00:07:20,000
+Sixth, the frontend can have a database.
+
+141
+00:07:20,000 --> 00:07:24,860
+The frontend should also have a very independent communication layer.
+
+142
+00:07:25,380 --> 00:07:29,880
+Each layer must not have upward dependencies.
+
+143
+00:07:29,880 --> 00:07:32,490
+the existence of this layer
+
+144
+00:07:32,690 --> 00:07:37,730
+Seventh, if you have some very computationally intensive tasks
+
+145
+00:07:37,730 --> 00:07:40,570
+You must place it in a web worker.
+
+146
+00:07:40,570 --> 00:07:44,730
+so your users, especially the UI experience, will remain smooth
+
+147
+00:07:44,730 --> 00:07:48,490
+Otherwise, your entire program will appear very slow.
+
+148
+00:07:48,490 --> 00:07:50,430
+The user experience will be very poor.
+
+149
+00:07:50,430 --> 00:07:51,970
+Eighth
+
+150
+00:07:53,110 --> 00:07:58,310
+If you want to develop just like an ordinary website
+
+151
+00:07:58,310 --> 00:08:02,910
+but you want to deliver a user experience as good as an app
+
+152
+00:08:02,910 --> 00:08:04,630
+such a great user experience
+
+153
+00:08:04,630 --> 00:08:07,490
+then you can utilize the bottommost layer
+
+154
+00:08:07,490 --> 00:08:10,710
+called PWA Service Worker
+
+155
+00:08:10,710 --> 00:08:11,700
+this layer
+
+156
+00:08:11,700 --> 00:08:13,840
+Fortunately, in the following video
+
+157
+00:08:13,840 --> 00:08:17,460
+We will explain all these concepts through
+
+158
+00:08:17,460 --> 00:08:21,140
+the frontend project we just introduced to you
+
+159
+00:08:21,140 --> 00:08:23,520
+explain them one by one
+
+160
+00:08:23,520 --> 00:08:28,460
+and will explain which one we call a component
+
+161
+00:08:28,460 --> 00:08:34,890
+Which component and its principle are designed to address what problem
+
+162
+00:08:35,049 --> 00:08:36,650
+In this decision-making process
+
+163
+00:08:36,650 --> 00:08:39,590
+In the decision-making process to solve this problem
+
+164
+00:08:39,590 --> 00:08:42,739
+what considerations should you make
+
+165
+00:08:42,739 --> 00:08:44,499
+Let's get started now.
+
+166
+00:08:44,499 --> 00:08:47,579
+Let's first take a look at how the layering principle works
+
+167
+00:08:48,779 --> 00:08:50,150
+First, answer a question
+
+168
+00:08:50,150 --> 00:08:51,950
+Why am I so full with nothing to do
+
+169
+00:08:51,950 --> 00:08:55,350
+to divide my entire perfectly good front-end project
+
+170
+00:08:55,350 --> 00:08:57,990
+divided into different layers
+
+171
+00:08:57,990 --> 00:09:01,030
+The answer to this hassle is actually quite simple
+
+172
+00:09:02,070 --> 00:09:05,990
+Layering, layering reduces code complexity
+
+173
+00:09:06,530 --> 00:09:12,250
+reduce your code volume by at least 30% to 50%
+
+174
+00:09:12,250 --> 00:09:13,250
+As we mentioned
+
+175
+00:09:13,250 --> 00:09:16,610
+This diagram helped our project reduce by at least 50%
+
+176
+00:09:16,610 --> 00:09:19,060
+at least 50% of the code
+
+177
+00:09:19,060 --> 00:09:20,600
+a significant portion
+
+178
+00:09:20,600 --> 00:09:24,860
+because we strictly adhered to the principle of layering
+
+179
+00:09:24,860 --> 00:09:28,610
+Next, I'll use a practical example to explain it to everyone.
+
+180
+00:09:28,610 --> 00:09:30,630
+Why does this effect occur
+
+181
+00:09:30,630 --> 00:09:33,730
+I'd like to use our project called ChatFlow as an example
+
+182
+00:09:33,730 --> 00:09:39,940
+The layering principle helps the chat feature in Changliao avoid major code refactoring
+
+183
+00:09:39,940 --> 00:09:44,780
+Let me demonstrate the importance of the layering principle.
+
+184
+00:09:45,400 --> 00:09:47,680
+Communication tools are something everyone uses
+
+185
+00:09:47,680 --> 00:09:48,000
+right?
+
+186
+00:09:48,000 --> 00:09:49,120
+just like WeChat
+
+187
+00:09:49,120 --> 00:09:50,850
+I'm typing here, okay
+
+188
+00:09:50,850 --> 00:09:52,370
+you can receive it
+
+189
+00:09:52,370 --> 00:09:53,990
+I'm holding it here for you
+
+190
+00:09:53,990 --> 00:09:56,210
+The speech can also be searched over there
+
+191
+00:09:56,210 --> 00:09:58,050
+I'm sending you the pictures here
+
+192
+00:09:58,050 --> 00:09:59,310
+it can also be found over there
+
+193
+00:09:59,310 --> 00:10:00,590
+right
+
+194
+00:10:00,830 --> 00:10:03,690
+If you look at this UI
+
+195
+00:10:03,690 --> 00:10:07,010
+There are several most important UI components
+
+196
+00:10:07,010 --> 00:10:08,510
+in this chat room
+
+197
+00:10:08,510 --> 00:10:11,450
+The chat room itself is a UI component.
+
+198
+00:10:11,450 --> 00:10:16,240
+The one above the chat room is what we call the chat dialog box
+
+199
+00:10:16,240 --> 00:10:17,480
+or history box
+
+200
+00:10:17,480 --> 00:10:17,860
+right
+
+201
+00:10:17,860 --> 00:10:20,140
+Because everything you say will be stored inside
+
+202
+00:10:20,140 --> 00:10:24,520
+so it's called a chat history box dialog
+
+203
+00:10:24,520 --> 00:10:27,320
+So the following part is what we call the input bar
+
+204
+00:10:27,320 --> 00:10:27,740
+right
+
+205
+00:10:27,740 --> 00:10:31,560
+This input bar contains the text input box where you type
+
+206
+00:10:31,560 --> 00:10:33,400
+there's this send button next to it
+
+207
+00:10:33,400 --> 00:10:37,090
+there are also buttons for selecting files
+
+208
+00:10:37,090 --> 00:10:40,910
+On the left side, there's also a button you need to hold to speak.
+
+209
+00:10:40,910 --> 00:10:41,850
+Okay
+
+210
+00:10:42,570 --> 00:10:44,490
+What is the worst design?
+
+211
+00:10:44,490 --> 00:10:48,099
+The worst design is when inside this input bar
+
+212
+00:10:48,099 --> 00:10:49,339
+after typing this word
+
+213
+00:10:49,339 --> 00:10:50,979
+I need to press the send button
+
+214
+00:10:50,979 --> 00:10:53,419
+then the entire sending logic
+
+215
+00:10:53,419 --> 00:10:57,520
+I will write it in the send button's
+
+216
+00:10:57,520 --> 00:10:59,560
+on click such a function
+
+217
+00:10:59,560 --> 00:11:00,640
+handler
+
+218
+00:11:00,640 --> 00:11:02,750
+inside the function body, okay
+
+219
+00:11:02,750 --> 00:11:04,530
+If you do this
+
+220
+00:11:04,530 --> 00:11:08,560
+then your UI code
+
+221
+00:11:08,560 --> 00:11:12,750
+is intertwined with your business logic code
+
+222
+00:11:12,750 --> 00:11:14,330
+Let's take a look at this code
+
+223
+00:11:14,330 --> 00:11:19,490
+First, let me show you how the Changliao code is structured
+
+224
+00:11:20,050 --> 00:11:26,040
+Okay, let's take a look at how this TalkCode is divided into two layers here
+
+225
+00:11:26,040 --> 00:11:27,950
+one is its business layer
+
+226
+00:11:27,950 --> 00:11:28,950
+business layer
+
+227
+00:11:28,950 --> 00:11:30,670
+There is also its UI layer
+
+228
+00:11:30,670 --> 00:11:32,810
+which are various controls
+
+229
+00:11:32,810 --> 00:11:36,630
+Let's take a look at what's inside these layers
+
+230
+00:11:36,630 --> 00:11:37,930
+at the convenience level
+
+231
+00:11:37,930 --> 00:11:41,750
+You can see they are all pure JavaScript files
+
+232
+00:11:41,750 --> 00:11:44,970
+Fortunately, at the control level, everything is JSX
+
+233
+00:11:45,970 --> 00:11:50,650
+JSX is the file for writing controls in React.
+
+234
+00:11:50,650 --> 00:11:52,810
+So all the functions in this layer
+
+235
+00:11:52,810 --> 00:11:55,370
+are all used for writing UI components
+
+236
+00:11:55,370 --> 00:11:58,610
+So this layer is a pure UI layer
+
+237
+00:11:58,610 --> 00:11:59,850
+in this code
+
+238
+00:11:59,850 --> 00:12:03,810
+Let's use the input field handling as an example.
+
+239
+00:12:03,810 --> 00:12:06,830
+The input field naturally needs to handle keyboard
+
+240
+00:12:06,830 --> 00:12:07,630
+press down
+
+241
+00:12:07,630 --> 00:12:08,930
+the keyboard is released
+
+242
+00:12:08,930 --> 00:12:10,790
+the content has changed, and so on
+
+243
+00:12:10,790 --> 00:12:13,770
+Are these user inputs correct?
+
+244
+00:12:13,770 --> 00:12:16,410
+Therefore, for every user input
+
+245
+00:12:16,410 --> 00:12:20,240
+there will be your input event handler function
+
+246
+00:12:20,240 --> 00:12:20,700
+Okay
+
+247
+00:12:20,700 --> 00:12:25,120
+The worst design we mentioned is putting all the business logic
+
+248
+00:12:25,120 --> 00:12:27,720
+for example, the logic of our chat
+
+249
+00:12:27,720 --> 00:12:33,360
+all placed within these user input event handler functions
+
+250
+00:12:33,360 --> 00:12:35,210
+In Changetalk
+
+251
+00:12:35,210 --> 00:12:38,810
+The user input handler is very simple
+
+252
+00:12:38,810 --> 00:12:39,930
+Let's take an example
+
+253
+00:12:39,930 --> 00:12:41,710
+use this key down
+
+254
+00:12:41,710 --> 00:12:45,970
+The handler function for when a user presses a keyboard key to explain
+
+255
+00:12:45,970 --> 00:12:48,710
+You can see it's actually very simple.
+
+256
+00:12:48,710 --> 00:12:52,440
+So essentially, after obtaining the character
+
+257
+00:12:52,440 --> 00:12:55,300
+if the user presses Enter
+
+258
+00:12:55,300 --> 00:12:56,400
+he needs to send
+
+259
+00:12:56,400 --> 00:12:57,319
+right
+
+260
+00:12:57,319 --> 00:12:57,959
+Uh
+
+261
+00:12:57,959 --> 00:13:01,219
+This send function itself is also very simple
+
+262
+00:13:01,219 --> 00:13:06,150
+Look at how simple this function is, just a few lines and it's done.
+
+263
+00:13:06,150 --> 00:13:08,870
+The reason it can be so simple
+
+264
+00:13:08,870 --> 00:13:10,410
+There are several key points
+
+265
+00:13:10,410 --> 00:13:11,370
+The first point is that
+
+266
+00:13:11,370 --> 00:13:14,190
+Look at these two green ones
+
+267
+00:13:14,190 --> 00:13:20,080
+These are actually what we call business entities in our architecture.
+
+268
+00:13:20,080 --> 00:13:23,300
+it all belongs to what we just showed you earlier
+
+269
+00:13:23,300 --> 00:13:26,200
+Pure JavaScript is placed in the business layer
+
+270
+00:13:26,200 --> 00:13:28,950
+Therefore, at the user layer
+
+271
+00:13:28,950 --> 00:13:31,430
+When you want to send this message
+
+272
+00:13:31,430 --> 00:13:32,730
+You will do many things
+
+273
+00:13:32,730 --> 00:13:36,519
+For example, you have many chat groups
+
+274
+00:13:36,519 --> 00:13:37,730
+right?
+
+275
+00:13:37,730 --> 00:13:41,090
+All your chat rooms share a single input bar
+
+276
+00:13:41,090 --> 00:13:43,610
+then the message sent by this input bar
+
+277
+00:13:43,610 --> 00:13:44,730
+First, I need to find
+
+278
+00:13:44,730 --> 00:13:48,190
+which chat room you currently want to send to
+
+279
+00:13:48,190 --> 00:13:52,450
+So it first needs to use a business logic to locate your
+
+280
+00:13:52,450 --> 00:13:54,360
+the current chat room
+
+281
+00:13:54,360 --> 00:13:55,980
+After finding it
+
+282
+00:13:55,980 --> 00:13:59,980
+you also need to generate another business logic or business entity
+
+283
+00:13:59,980 --> 00:14:01,060
+which is the chat item
+
+284
+00:14:01,060 --> 00:14:04,040
+that is our chat record after finishing
+
+285
+00:14:04,040 --> 00:14:05,560
+The third most important
+
+286
+00:14:05,560 --> 00:14:07,100
+You see, it invokes an onInvent
+
+287
+00:14:07,100 --> 00:14:07,800
+An invent
+
+288
+00:14:07,800 --> 00:14:08,920
+Actually, in our case
+
+289
+00:14:08,920 --> 00:14:16,370
+just pass this new chat record back to the chat room
+
+290
+00:14:16,370 --> 00:14:17,670
+let it handle
+
+291
+00:14:17,670 --> 00:14:19,880
+Therefore, the entire logic
+
+292
+00:14:19,880 --> 00:14:24,920
+In the UI layer, I only handle very simple and lightweight tasks
+
+293
+00:14:24,920 --> 00:14:29,210
+and then move all the actual logic back to the business layer
+
+294
+00:14:29,210 --> 00:14:32,450
+So why is the chat room in Changliao designed this way
+
+295
+00:14:32,450 --> 00:14:36,270
+What are the potential drawbacks if we don't design it this way?
+
+296
+00:14:36,270 --> 00:14:39,680
+First of all, the UI layer would become extremely complex
+
+297
+00:14:39,680 --> 00:14:42,080
+What are the drawbacks of having a complex UI layer?
+
+298
+00:14:42,080 --> 00:14:44,900
+Now, let me use the actual case of Changchat as an example
+
+299
+00:14:44,900 --> 00:14:47,490
+share with you
+
+300
+00:14:47,490 --> 00:14:50,130
+When we were initially developing Chang Liao
+
+301
+00:14:50,130 --> 00:14:51,990
+The first development goal was to
+
+302
+00:14:51,990 --> 00:14:55,010
+to make sure we Chinese can chat smoothly
+
+303
+00:14:55,010 --> 00:14:59,070
+Smooth chatting means private and intimate conversations.
+
+304
+00:14:59,070 --> 00:15:04,170
+So you can see there's a private chat page in the Changliao interface
+
+305
+00:15:04,170 --> 00:15:06,970
+so all our chat features
+
+306
+00:15:06,970 --> 00:15:10,530
+are all designed specifically for this single page
+
+307
+00:15:11,070 --> 00:15:16,710
+But we developed it for about half a year to over a year
+
+308
+00:15:16,710 --> 00:15:17,930
+suddenly realized hey
+
+309
+00:15:17,930 --> 00:15:22,790
+People don't just communicate one-on-one
+
+310
+00:15:22,790 --> 00:15:24,950
+one-on-two private chats
+
+311
+00:15:24,950 --> 00:15:28,130
+He also wants a public discussion space
+
+312
+00:15:28,130 --> 00:15:32,740
+can discuss topics that were previously off-limits on WeChat
+
+313
+00:15:32,740 --> 00:15:34,089
+discuss together
+
+314
+00:15:34,089 --> 00:15:37,960
+then this would be a completely new page
+
+315
+00:15:38,240 --> 00:15:39,240
+Just think about it
+
+316
+00:15:39,240 --> 00:15:43,580
+If we had coupled the chat logic
+
+317
+00:15:43,580 --> 00:15:47,770
+bound to this private chat page
+
+318
+00:15:47,770 --> 00:15:51,520
+Now you have a public chat page
+
+319
+00:15:51,680 --> 00:15:54,480
+then you have to move such complex logic
+
+320
+00:15:54,760 --> 00:15:57,840
+completely different UI logic
+
+321
+00:15:57,840 --> 00:16:02,990
+to migrate to the new UI logic for public discussion
+
+322
+00:16:02,990 --> 00:16:04,850
+That was an extremely complex task
+
+323
+00:16:04,850 --> 00:16:08,030
+Just like performing brain surgery
+
+324
+00:16:08,030 --> 00:16:12,830
+Fortunately, we strictly adhered to the principle of layering at that time.
+
+325
+00:16:12,830 --> 00:16:15,160
+You can take a look at our code
+
+326
+00:16:15,160 --> 00:16:17,240
+in our code
+
+327
+00:16:17,240 --> 00:16:21,590
+The UI of the chat room is just this code
+
+328
+00:16:21,590 --> 00:16:25,780
+However, its business logic layer is extensively divided
+
+329
+00:16:25,780 --> 00:16:29,000
+The most important thing is his chat room
+
+330
+00:16:29,000 --> 00:16:32,000
+this JavaScript entity
+
+331
+00:16:32,000 --> 00:16:34,650
+plus your chat room
+
+332
+00:16:34,650 --> 00:16:36,370
+regardless of who comes to chat
+
+333
+00:16:36,370 --> 00:16:36,770
+right
+
+334
+00:16:36,770 --> 00:16:38,610
+he has to take the T-shirt or his member
+
+335
+00:16:38,610 --> 00:16:39,590
+his members
+
+336
+00:16:39,590 --> 00:16:41,760
+plus your chat history
+
+337
+00:16:41,760 --> 00:16:43,480
+and some other things
+
+338
+00:16:43,480 --> 00:16:43,960
+right
+
+339
+00:16:45,240 --> 00:16:48,340
+Well, all these logics
+
+340
+00:16:48,340 --> 00:16:50,280
+plus you chat and chat
+
+341
+00:16:50,280 --> 00:16:51,760
+You definitely need to send messages.
+
+342
+00:16:51,760 --> 00:16:56,190
+so there is the following communication channel
+
+343
+00:16:56,190 --> 00:17:00,510
+Additionally, your previous chat history
+
+344
+00:17:00,510 --> 00:17:01,910
+you need to store it in the database
+
+345
+00:17:01,910 --> 00:17:04,530
+So it also has the logic for storing data in the database
+
+346
+00:17:04,530 --> 00:17:07,210
+Okay, all these logics
+
+347
+00:17:07,210 --> 00:17:11,960
+If we hadn't separated it from the UI back then
+
+348
+00:17:11,960 --> 00:17:15,680
+Now you need to move these logics to the public chat
+
+349
+00:17:15,680 --> 00:17:17,400
+in the public discussion area
+
+350
+00:17:17,400 --> 00:17:18,770
+what would you do
+
+351
+00:17:18,770 --> 00:17:21,230
+Do you first spend half a day splitting it
+
+352
+00:17:21,230 --> 00:17:22,410
+and then proceed
+
+353
+00:17:22,410 --> 00:17:26,770
+But now because we've strictly separated it in advance
+
+354
+00:17:26,770 --> 00:17:29,910
+Take a look at this new code
+
+355
+00:17:29,910 --> 00:17:33,150
+The public chat room code is so simple
+
+356
+00:17:33,150 --> 00:17:34,710
+just a few lines of code
+
+357
+00:17:34,710 --> 00:17:41,160
+So the migration didn't even take us a full day at that time
+
+358
+00:17:41,160 --> 00:17:46,510
+All the time was spent on developing new features for the public discussion.
+
+359
+00:17:46,510 --> 00:17:49,930
+The migration itself is a very simple task.
+
+360
+00:17:50,590 --> 00:17:54,310
+If you hadn't separated it in advance
+
+361
+00:17:54,440 --> 00:17:57,720
+not to mention a month, at least more than half of it
+
+362
+00:17:57,720 --> 00:17:59,120
+it is definitely unavoidable
+
+363
+00:17:59,120 --> 00:18:01,110
+This workload is substantial.
+
+364
+00:18:01,110 --> 00:18:04,070
+That's why layering is so important
+
+365
+00:18:04,070 --> 00:18:07,310
+In this video we discussed many principles
+
+366
+00:18:07,310 --> 00:18:09,670
+but if I had to pick one
+
+367
+00:18:09,670 --> 00:18:12,790
+can only choose the most important principle
+
+368
+00:18:12,790 --> 00:18:18,360
+I would say it's layering, layering, layering—it must be layered, oh
+
+369
+00:18:18,360 --> 00:18:20,000
+After separating the layers
+
+370
+00:18:20,000 --> 00:18:22,800
+dependencies between layers
+
+371
+00:18:22,800 --> 00:18:26,219
+the invocation relationships between these three layers
+
+372
+00:18:26,219 --> 00:18:28,299
+Here I'd like to explain to everyone
+
+373
+00:18:28,299 --> 00:18:30,339
+You can see in our code
+
+374
+00:18:30,339 --> 00:18:36,460
+all UI layers, whether in private discussions or public discussions
+
+375
+00:18:36,460 --> 00:18:41,210
+Look, the code directly calls the room below
+
+376
+00:18:41,210 --> 00:18:42,190
+right
+
+377
+00:18:42,190 --> 00:18:46,190
+And when you look at the room code
+
+378
+00:18:46,190 --> 00:18:48,670
+He has no idea who is calling from above
+
+379
+00:18:48,670 --> 00:18:50,190
+and it doesn't care
+
+380
+00:18:50,190 --> 00:18:56,610
+this absolute top-down invocation approach
+
+381
+00:18:56,610 --> 00:19:00,290
+It also saved us a lot of effort during the migration process
+
+382
+00:19:00,290 --> 00:19:03,980
+Because Me can ensure that what's below me, like room
+
+383
+00:19:03,980 --> 00:19:06,440
+business logic such as participant
+
+384
+00:19:06,440 --> 00:19:09,180
+I don't care at all who is calling me from above
+
+385
+00:19:09,180 --> 00:19:13,440
+As long as you call me, I'll give you a unified answer, and that's fine.
+
+386
+00:19:14,000 --> 00:19:19,280
+The same sequence also occurs within the intermediate business layer
+
+387
+00:19:19,280 --> 00:19:21,380
+communication layer entity
+
+388
+00:19:21,380 --> 00:19:22,590
+either DB1
+
+389
+00:19:22,590 --> 00:19:25,170
+either is Me communication layer
+
+390
+00:19:25,170 --> 00:19:29,360
+Here, the WebSocket layer is used for demonstration
+
+391
+00:19:29,360 --> 00:19:31,700
+You see, whether starting from the basics or
+
+392
+00:19:31,700 --> 00:19:36,810
+The code for calling from the logic layer to the communication layer is extremely simple
+
+393
+00:19:36,810 --> 00:19:40,330
+It actually only requires an SMESSAGE.
+
+394
+00:19:40,330 --> 00:19:42,110
+However, you must understand
+
+395
+00:19:42,110 --> 00:19:47,340
+like ChatFlow that needs to combat extremely poor network conditions
+
+396
+00:19:47,340 --> 00:19:49,820
+the poor network conditions I mentioned here
+
+397
+00:19:49,820 --> 00:19:52,190
+You all know what I mean, right?
+
+398
+00:19:52,430 --> 00:19:55,900
+Its underlying logic is actually extremely complex.
+
+399
+00:19:55,900 --> 00:19:58,940
+Let me briefly explain to everyone
+
+400
+00:19:58,940 --> 00:20:00,020
+The first one
+
+401
+00:20:00,020 --> 00:20:04,750
+You need to prevent the server that originally provided me with content
+
+402
+00:20:04,750 --> 00:20:06,780
+suddenly got blocked
+
+403
+00:20:06,780 --> 00:20:09,220
+or prevented me from accessing it anymore
+
+404
+00:20:09,220 --> 00:20:13,280
+then your WebSocket manager
+
+405
+00:20:13,280 --> 00:20:16,740
+need to automatically switch to another server
+
+406
+00:20:16,740 --> 00:20:19,639
+continue to fetch data
+
+407
+00:20:19,999 --> 00:20:24,559
+If you walk from inside a room to outside
+
+408
+00:20:24,559 --> 00:20:27,520
+switching from WIFI to 5G
+
+409
+00:20:27,520 --> 00:20:29,000
+the same thing will happen
+
+410
+00:20:29,000 --> 00:20:32,429
+because all your network connections will be briefly interrupted
+
+411
+00:20:32,429 --> 00:20:34,989
+then you lose connection with the original server
+
+412
+00:20:34,989 --> 00:20:37,349
+At this point, you need to automatically recover
+
+413
+00:20:37,349 --> 00:20:43,480
+So how about your player side or your chat room side
+
+414
+00:20:44,600 --> 00:20:46,920
+when your network is disconnected
+
+415
+00:20:46,920 --> 00:20:49,360
+knows how to automatically retrieve the data again
+
+416
+00:20:49,360 --> 00:20:55,140
+All these logics are handled by the communication program itself.
+
+417
+00:20:55,140 --> 00:20:58,319
+Don't let Me chat room
+
+418
+00:20:58,319 --> 00:21:00,479
+I also have to worry about your network
+
+419
+00:21:00,479 --> 00:21:02,690
+because of all this messy situation
+
+420
+00:21:02,690 --> 00:21:05,910
+If I also put this logic in the business layer
+
+421
+00:21:05,910 --> 00:21:07,530
+placed in my chat room
+
+422
+00:21:07,530 --> 00:21:09,179
+Just imagine how complicated it is
+
+423
+00:21:09,179 --> 00:21:12,459
+The chat room has to manage the network communication environment
+
+424
+00:21:12,459 --> 00:21:13,959
+We'll take a look later
+
+425
+00:21:13,959 --> 00:21:15,039
+I'll go check the news
+
+426
+00:21:15,039 --> 00:21:16,120
+watch video
+
+427
+00:21:16,120 --> 00:21:19,560
+Then I also have to worry about your network environment
+
+428
+00:21:19,560 --> 00:21:20,520
+there are still many
+
+429
+00:21:20,520 --> 00:21:22,160
+I'll download pictures and so on
+
+430
+00:21:22,160 --> 00:21:23,460
+endless
+
+431
+00:21:23,460 --> 00:21:24,350
+right
+
+432
+00:21:24,350 --> 00:21:27,670
+So the communication layer itself
+
+433
+00:21:27,670 --> 00:21:31,560
+must take care of all the messy things properly
+
+434
+00:21:31,560 --> 00:21:32,880
+As the business layer
+
+435
+00:21:32,880 --> 00:21:33,960
+I trust you
+
+436
+00:21:33,960 --> 00:21:37,360
+I just give you one command and you execute it.
+
+437
+00:21:37,360 --> 00:21:40,159
+So from this architecture
+
+438
+00:21:40,159 --> 00:21:43,759
+you can see that our business layer is very clean
+
+439
+00:21:43,759 --> 00:21:47,500
+I don't have to worry at all about your communication layer breaking down
+
+440
+00:21:47,500 --> 00:21:50,120
+because you can handle it yourself
+
+441
+00:21:50,120 --> 00:21:53,500
+This is from top to bottom
+
+442
+00:21:54,000 --> 00:21:55,700
+We just mentioned
+
+443
+00:21:55,700 --> 00:21:57,420
+invocation hierarchy
+
+444
+00:21:57,420 --> 00:21:59,580
+there are also bottom-up calls
+
+445
+00:21:59,580 --> 00:22:01,780
+but at the same time we're also saying
+
+446
+00:22:01,780 --> 00:22:05,060
+if you call from both top-down
+
+447
+00:22:05,060 --> 00:22:06,940
+and also call from bottom to top
+
+448
+00:22:06,940 --> 00:22:09,440
+your code will become extremely complex
+
+449
+00:22:09,440 --> 00:22:14,480
+As we just discussed when talking about the business layer and UI layer
+
+450
+00:22:14,480 --> 00:22:17,440
+If you only allow top-down calls
+
+451
+00:22:17,440 --> 00:22:18,720
+then our underlying layer
+
+452
+00:22:18,720 --> 00:22:20,000
+for example Me chat room
+
+453
+00:22:20,000 --> 00:22:22,160
+I simply don't care who calls me
+
+454
+00:22:22,160 --> 00:22:22,600
+right
+
+455
+00:22:22,600 --> 00:22:24,900
+so my code is extremely simple
+
+456
+00:22:24,900 --> 00:22:29,420
+You can add 10,000 different UI network configurations calling from above
+
+457
+00:22:29,420 --> 00:22:31,639
+I have no problem with it
+
+458
+00:22:31,879 --> 00:22:33,699
+Me communication layer is the same
+
+459
+00:22:33,699 --> 00:22:35,639
+You call me in the chat room
+
+460
+00:22:35,639 --> 00:22:37,359
+You just watch the video and call me
+
+461
+00:22:37,359 --> 00:22:39,899
+your public discussion area calls me
+
+462
+00:22:39,899 --> 00:22:41,599
+You need to have an avatar in here
+
+463
+00:22:41,599 --> 00:22:43,510
+You have to display it and also call me
+
+464
+00:22:43,510 --> 00:22:44,830
+No matter who calls me
+
+465
+00:22:44,830 --> 00:22:46,830
+I'll just do one thing and be done with it
+
+466
+00:22:46,830 --> 00:22:47,550
+Right?
+
+467
+00:22:47,550 --> 00:22:50,850
+But in many cases
+
+468
+00:22:50,850 --> 00:22:52,650
+Your single unit won't work
+
+469
+00:22:52,650 --> 00:22:54,730
+take our chat room as an example
+
+470
+00:22:54,730 --> 00:22:57,060
+I sent it to you over here
+
+471
+00:22:57,060 --> 00:22:59,860
+Does the receiver need to receive the message?
+
+472
+00:22:59,860 --> 00:23:02,220
+After you receive the message
+
+473
+00:23:02,220 --> 00:23:05,400
+How does the chat room above know?
+
+474
+00:23:05,400 --> 00:23:12,530
+This is where the Event Bus message bus in this diagram comes into play
+
+475
+00:23:12,530 --> 00:23:14,990
+Of course, we will also introduce some other
+
+476
+00:23:14,990 --> 00:23:17,370
+methods called from bottom to top
+
+477
+00:23:17,370 --> 00:23:21,680
+However, the message bus is the most commonly used and the most important.
+
+478
+00:23:21,680 --> 00:23:26,170
+The message bus we're referring to here is not the strict sense of
+
+479
+00:23:26,170 --> 00:23:31,960
+You must use a message bus component to send and receive messages
+
+480
+00:23:31,960 --> 00:23:34,580
+but rather this way of thinking
+
+481
+00:23:34,580 --> 00:23:39,200
+That is to say, you use a data structure throughout your entire program
+
+482
+00:23:39,200 --> 00:23:44,510
+pass messages between various modules
+
+483
+00:23:44,510 --> 00:23:45,390
+and then
+
+484
+00:23:45,390 --> 00:23:49,690
+another module receives the Messages and processes it
+
+485
+00:23:49,690 --> 00:23:52,420
+This is a design pattern
+
+486
+00:23:52,900 --> 00:23:57,180
+So in the code I'm about to show you
+
+487
+00:23:57,180 --> 00:23:59,950
+has various different applications
+
+488
+00:23:59,950 --> 00:24:02,950
+this Event Bus pattern code
+
+489
+00:24:02,950 --> 00:24:06,850
+Some of them have a relatively high coupling between two modules
+
+490
+00:24:06,850 --> 00:24:08,490
+slightly higher
+
+491
+00:24:08,490 --> 00:24:12,760
+Some have very loose coupling.
+
+492
+00:24:12,760 --> 00:24:16,140
+So I'll demonstrate these commonly used methods
+
+493
+00:24:16,140 --> 00:24:18,770
+I'll demonstrate all of these with code
+
+494
+00:24:18,770 --> 00:24:19,210
+Okay
+
+495
+00:24:19,210 --> 00:24:21,290
+Let's take a look at free chat
+
+496
+00:24:21,290 --> 00:24:25,070
+how to receive messages using WEBSOCKET
+
+497
+00:24:25,070 --> 00:24:28,520
+and then pass it up to the chat room
+
+498
+00:24:28,520 --> 00:24:30,080
+to the chat room
+
+499
+00:24:30,080 --> 00:24:34,600
+There are two pieces of code on this screen
+
+500
+00:24:34,600 --> 00:24:40,320
+On the left is the message handling class for the WebSocket communication layer
+
+501
+00:24:40,320 --> 00:24:43,740
+On the right is our chat room code
+
+502
+00:24:43,740 --> 00:24:47,340
+Let's start by looking at the first version
+
+503
+00:24:47,780 --> 00:24:53,900
+This function on message is actually free chat
+
+504
+00:24:53,900 --> 00:24:57,740
+receives all WebSocket messages
+
+505
+00:24:57,740 --> 00:24:59,000
+it is performed here
+
+506
+00:24:59,000 --> 00:25:02,339
+a unified message processing and distribution function
+
+507
+00:25:02,339 --> 00:25:05,899
+So it serves as the central hub for message processing, alright
+
+508
+00:25:05,899 --> 00:25:07,099
+Who will call it?
+
+509
+00:25:07,099 --> 00:25:11,320
+Of course, it is called by the system's WEBSOCKET class.
+
+510
+00:25:11,320 --> 00:25:13,800
+So we don't need to worry about this mechanism
+
+511
+00:25:13,800 --> 00:25:19,780
+We just look at what happens after receiving the WEBSOCKET message
+
+512
+00:25:19,780 --> 00:25:21,380
+The message has arrived here
+
+513
+00:25:21,380 --> 00:25:25,030
+then how should we handle this function
+
+514
+00:25:25,030 --> 00:25:29,130
+The reason it's called a message distribution mechanism
+
+515
+00:25:29,130 --> 00:25:35,860
+because it will determine based on the different types of our Messages
+
+516
+00:25:35,860 --> 00:25:39,400
+Look, there's a conditional statement here
+
+517
+00:25:39,400 --> 00:25:40,260
+Switch
+
+518
+00:25:40,260 --> 00:25:46,230
+It will determine the type of the incoming message based on its category.
+
+519
+00:25:46,230 --> 00:25:50,710
+If this message happens to be our chat message
+
+520
+00:25:50,710 --> 00:25:54,550
+The identifier code for chat messages is p to p send message
+
+521
+00:25:54,550 --> 00:25:55,700
+is sending a message
+
+522
+00:25:56,489 --> 00:26:00,049
+This segment of code is processed right here
+
+523
+00:26:00,049 --> 00:26:02,789
+Let me briefly explain to everyone here
+
+524
+00:26:02,789 --> 00:26:05,750
+The logic of this processing code
+
+525
+00:26:05,750 --> 00:26:08,650
+Here we can see the first step
+
+526
+00:26:08,650 --> 00:26:13,139
+is to find and use a room manager object
+
+527
+00:26:13,139 --> 00:26:16,860
+to locate the target chat room for sending
+
+528
+00:26:16,860 --> 00:26:21,719
+The room manager is a management tool that oversees all chat rooms.
+
+529
+00:26:21,719 --> 00:26:23,559
+One of its key tasks
+
+530
+00:26:23,559 --> 00:26:26,440
+is to help you find the chat room you're looking for
+
+531
+00:26:26,440 --> 00:26:28,640
+After finding this chat room
+
+532
+00:26:28,640 --> 00:26:30,580
+is the current room variable
+
+533
+00:26:30,580 --> 00:26:37,160
+he directly calls the room's process data
+
+534
+00:26:37,160 --> 00:26:42,240
+in fact, it is the message distribution hub of this chat room
+
+535
+00:26:42,240 --> 00:26:46,290
+and the message distribution hub of the communication layer we are currently seeing
+
+536
+00:26:46,290 --> 00:26:49,530
+or the distribution center is exactly the same
+
+537
+00:26:49,530 --> 00:26:51,050
+One thing everyone should note
+
+538
+00:26:51,050 --> 00:26:52,550
+is this data
+
+539
+00:26:52,550 --> 00:26:57,700
+This message is almost passed through unchanged to
+
+540
+00:26:57,700 --> 00:26:59,890
+zoom's function
+
+541
+00:26:59,890 --> 00:27:01,590
+Messages distribution center function
+
+542
+00:27:01,590 --> 00:27:06,849
+This is what we call the event bus design pattern.
+
+543
+00:27:06,849 --> 00:27:10,369
+or rather, message distribution is driven by messages
+
+544
+00:27:10,369 --> 00:27:11,569
+It has many such names
+
+545
+00:27:11,569 --> 00:27:16,650
+This design pattern is called event bus or message-driven.
+
+546
+00:27:16,650 --> 00:27:20,090
+A major characteristic of this design pattern
+
+547
+00:27:20,090 --> 00:27:25,400
+Messages are passed between different modules
+
+548
+00:27:25,400 --> 00:27:26,900
+almost without modification
+
+549
+00:27:26,900 --> 00:27:32,100
+After each module receives the Messages it wants
+
+550
+00:27:32,100 --> 00:27:38,240
+different modules process the same message
+
+551
+00:27:38,240 --> 00:27:42,720
+Let's take a look at what our room will do after receiving this message
+
+552
+00:27:42,720 --> 00:27:44,590
+what will it do
+
+553
+00:27:44,590 --> 00:27:47,970
+First, after our communication layer receives this message
+
+554
+00:27:47,970 --> 00:27:54,559
+we pass it to the ROM's process data message processing center
+
+555
+00:27:54,559 --> 00:27:57,400
+Okay, this code is on our right
+
+556
+00:27:57,400 --> 00:27:58,700
+You can see it's room
+
+557
+00:27:58,700 --> 00:27:59,060
+right
+
+558
+00:27:59,060 --> 00:27:59,220
+Okay
+
+559
+00:27:59,220 --> 00:28:01,600
+Let’s now zoom in and take a look
+
+560
+00:28:01,600 --> 00:28:02,540
+Okay
+
+561
+00:28:02,540 --> 00:28:05,480
+In this function
+
+562
+00:28:05,480 --> 00:28:09,140
+it actually lies within the room's process data
+
+563
+00:28:09,140 --> 00:28:11,340
+just like our communication layer
+
+564
+00:28:11,340 --> 00:28:13,820
+It handles all kinds of Messages
+
+565
+00:28:13,820 --> 00:28:14,240
+right
+
+566
+00:28:14,240 --> 00:28:17,919
+Alright, this Messages is handled right here.
+
+567
+00:28:17,919 --> 00:28:21,479
+So let's take a brief look at how this is handled
+
+568
+00:28:21,479 --> 00:28:22,900
+Right?
+
+569
+00:28:22,900 --> 00:28:25,140
+This is our chat room
+
+570
+00:28:25,140 --> 00:28:26,140
+our chat room
+
+571
+00:28:26,140 --> 00:28:30,050
+the function that handles received Messages
+
+572
+00:28:30,050 --> 00:28:32,330
+We don't need to worry about the preceding parts
+
+573
+00:28:32,330 --> 00:28:36,860
+All of these are part of its business logic, okay
+
+574
+00:28:36,860 --> 00:28:40,700
+What I want to show you here is the most important thing
+
+575
+00:28:40,700 --> 00:28:45,130
+it's this window.dispatchEvent
+
+576
+00:28:45,879 --> 00:28:48,679
+Everyone, think about it in my chat room
+
+577
+00:28:48,679 --> 00:28:51,319
+This business layer contains no UI logic.
+
+578
+00:28:51,319 --> 00:28:52,480
+right
+
+579
+00:28:52,480 --> 00:28:53,980
+After it has finished processing
+
+580
+00:28:53,980 --> 00:28:55,960
+in the business logic of the chat room
+
+581
+00:28:55,960 --> 00:29:01,110
+He always needs to pass these processing results up to the UI layer
+
+582
+00:29:01,110 --> 00:29:02,810
+Should we make it display something
+
+583
+00:29:02,810 --> 00:29:06,460
+you either display your Messages itself
+
+584
+00:29:06,460 --> 00:29:08,740
+either display a red dot
+
+585
+00:29:08,740 --> 00:29:11,720
+Notify the user that there are new Messages
+
+586
+00:29:11,720 --> 00:29:13,990
+Either way is fine
+
+587
+00:29:13,990 --> 00:29:18,520
+So how does our communication layer inform our UI layer
+
+588
+00:29:18,520 --> 00:29:20,240
+Now there is a new message
+
+589
+00:29:20,240 --> 00:29:22,760
+I can't directly call your API
+
+590
+00:29:22,760 --> 00:29:23,160
+right
+
+591
+00:29:23,160 --> 00:29:26,400
+As we mentioned, the lower layer cannot directly call the upper layer.
+
+592
+00:29:26,400 --> 00:29:33,100
+So this is the important role of our windows dispatch event
+
+593
+00:29:33,100 --> 00:29:39,069
+The function here, windows dispatch event, is a system function
+
+594
+00:29:39,069 --> 00:29:46,830
+It sends an event to Windows, which acts as a message bus.
+
+595
+00:29:47,310 --> 00:29:50,510
+This message bus is managed by the browser itself
+
+596
+00:29:50,510 --> 00:29:51,890
+we don't need to worry about it
+
+597
+00:29:51,890 --> 00:29:57,870
+Then, various UI controls that are interested in this message
+
+598
+00:29:57,870 --> 00:30:03,090
+For example, our chat room is interested in this message
+
+599
+00:30:03,090 --> 00:30:07,159
+it will listen for this event okay
+
+600
+00:30:07,159 --> 00:30:09,619
+Once this event is detected
+
+601
+00:30:09,619 --> 00:30:11,599
+it will perform some logical processing
+
+602
+00:30:11,599 --> 00:30:15,340
+check if this message is sent to my chat room
+
+603
+00:30:15,340 --> 00:30:17,940
+If all these logical checks are passed
+
+604
+00:30:17,940 --> 00:30:23,220
+he will process this message about the arrival of a new message
+
+605
+00:30:23,220 --> 00:30:26,080
+process this message event
+
+606
+00:30:26,080 --> 00:30:27,540
+You either display a red dot
+
+607
+00:30:27,540 --> 00:30:31,679
+either display the content of this message in the chat window
+
+608
+00:30:31,679 --> 00:30:35,259
+So how does the UI component listen to these events?
+
+609
+00:30:35,259 --> 00:30:41,120
+That's where the ADD event listener function comes into play
+
+610
+00:30:41,120 --> 00:30:46,740
+The listener function is set during UI initialization.
+
+611
+00:30:46,740 --> 00:30:51,060
+he added what we call an event listener
+
+612
+00:30:51,060 --> 00:30:53,460
+he added a listener
+
+613
+00:30:53,460 --> 00:30:57,700
+This function is also automatically provided by the browser.
+
+614
+00:30:57,700 --> 00:30:59,480
+is a system-level API
+
+615
+00:30:59,480 --> 00:31:03,460
+So the browser provides us with a pair of APIs
+
+616
+00:31:03,460 --> 00:31:04,720
+The previous one was for sending
+
+617
+00:31:04,720 --> 00:31:06,840
+This is for receiving and listening
+
+618
+00:31:06,840 --> 00:31:10,910
+Well, this receiving or listening is actually very simple
+
+619
+00:31:10,910 --> 00:31:15,919
+First, you look at him getting the ID of the message
+
+620
+00:31:15,919 --> 00:31:16,399
+right
+
+621
+00:31:16,399 --> 00:31:17,279
+to distribute
+
+622
+00:31:17,279 --> 00:31:19,259
+We have two Messages here
+
+623
+00:31:19,259 --> 00:31:20,819
+He listened to two different Messages
+
+624
+00:31:20,819 --> 00:31:22,570
+but the mechanism is the same
+
+625
+00:31:22,570 --> 00:31:25,890
+Then, the second one is that after I receive the message
+
+626
+00:31:25,890 --> 00:31:27,050
+I need to process you
+
+627
+00:31:27,050 --> 00:31:29,830
+Then the latter is a function
+
+628
+00:31:29,830 --> 00:31:33,500
+It's a JAVASCRIPT function to handle it.
+
+629
+00:31:33,500 --> 00:31:37,500
+Either of these two functions can be explained.
+
+630
+00:31:37,500 --> 00:31:40,909
+Let's take a look at the simplest on chat history change
+
+631
+00:31:40,909 --> 00:31:43,549
+After I receive such a message
+
+632
+00:31:43,549 --> 00:31:44,949
+I handle it here
+
+633
+00:31:44,949 --> 00:31:45,589
+handle it here
+
+634
+00:31:45,589 --> 00:31:46,679
+It's actually very simple
+
+635
+00:31:46,679 --> 00:31:47,819
+He does nothing
+
+636
+00:31:47,819 --> 00:31:51,839
+First, just check whether your room m id is valid
+
+637
+00:31:51,839 --> 00:31:52,719
+if valid
+
+638
+00:31:52,719 --> 00:31:56,250
+I just update the page and that's it
+
+639
+00:31:56,250 --> 00:32:01,930
+So you can see the entire UI layer logic is extremely simple
+
+640
+00:32:01,930 --> 00:32:03,139
+I just listen
+
+641
+00:32:03,139 --> 00:32:07,010
+and then I received the message that belongs to Me
+
+642
+00:32:07,010 --> 00:32:08,730
+then I will process it
+
+643
+00:32:08,730 --> 00:32:10,970
+and the processing involves no business logic
+
+644
+00:32:10,970 --> 00:32:12,370
+which is to update the UI
+
+645
+00:32:12,370 --> 00:32:16,830
+Just refresh the UI again and it's done.
+
+646
+00:32:16,830 --> 00:32:20,370
+Well, we left a foreshadowing when talking about the communication layer
+
+647
+00:32:20,370 --> 00:32:23,270
+This is the first version of the code
+
+648
+00:32:23,660 --> 00:32:28,450
+This actually means there is room for improvement in this version of the code.
+
+649
+00:32:28,450 --> 00:32:31,410
+You can pause the video now
+
+650
+00:32:31,410 --> 00:32:33,210
+Take a look at this code
+
+651
+00:32:33,210 --> 00:32:36,770
+how exactly would you go about improving it
+
+652
+00:32:37,050 --> 00:32:41,570
+The flaw in this code is that, although it's quite concise
+
+653
+00:32:41,570 --> 00:32:42,930
+He has done a good job
+
+654
+00:32:42,930 --> 00:32:47,280
+but there are still some business codes and business logic
+
+655
+00:32:47,280 --> 00:32:50,120
+mixed into the communication layer
+
+656
+00:32:50,120 --> 00:32:52,120
+Where is this business logic code
+
+657
+00:32:52,120 --> 00:32:53,469
+right here
+
+658
+00:32:53,749 --> 00:32:57,789
+This room manager is a piece of business logic code
+
+659
+00:32:57,789 --> 00:33:01,429
+this find room is the classroom manager
+
+660
+00:33:01,429 --> 00:33:04,900
+it's a class for managing chat rooms
+
+661
+00:33:04,900 --> 00:33:09,530
+a function to find the chatroom you want
+
+662
+00:33:09,530 --> 00:33:11,710
+Then as a communication layer
+
+663
+00:33:11,710 --> 00:33:12,770
+As we mentioned earlier
+
+664
+00:33:12,770 --> 00:33:15,170
+I actually don't care who calls me from above
+
+665
+00:33:15,170 --> 00:33:16,280
+right
+
+666
+00:33:16,680 --> 00:33:20,580
+In reverse, it's best if I can also achieve
+
+667
+00:33:20,580 --> 00:33:26,250
+even if I want to send this message to a certain room of yours
+
+668
+00:33:26,250 --> 00:33:29,170
+Should I also try to avoid
+
+669
+00:33:29,170 --> 00:33:33,320
+I know too much business logic
+
+670
+00:33:33,320 --> 00:33:36,640
+so here the room manager
+
+671
+00:33:36,640 --> 00:33:41,000
+and also need to find a room to call this function
+
+672
+00:33:41,000 --> 00:33:42,600
+Do I know too much?
+
+673
+00:33:42,600 --> 00:33:43,840
+I also need to know
+
+674
+00:33:43,840 --> 00:33:46,360
+there is a class called room manager
+
+675
+00:33:46,360 --> 00:33:49,030
+also need to know there is a find room inside it
+
+676
+00:33:49,030 --> 00:33:51,470
+After finding the room
+
+677
+00:33:51,470 --> 00:33:56,240
+I also need to know that this room has a function called process data
+
+678
+00:33:56,240 --> 00:33:59,780
+This posture actually has quite tight coupling
+
+679
+00:33:59,780 --> 00:34:01,800
+So what's the solution
+
+680
+00:34:01,800 --> 00:34:03,460
+The solution is actually quite simple
+
+681
+00:34:03,460 --> 00:34:08,239
+We need to locate these previous logics in the central manager
+
+682
+00:34:08,239 --> 00:34:09,710
+It also needs to distribute to the data
+
+683
+00:34:09,710 --> 00:34:14,429
+Shouldn't all this logic actually be handled within the room manager?
+
+684
+00:34:14,429 --> 00:34:18,190
+If I put all this logic into the room manager
+
+685
+00:34:18,190 --> 00:34:23,070
+then our communication layer simply needs to see, oh
+
+686
+00:34:23,070 --> 00:34:24,310
+this Messages
+
+687
+00:34:24,310 --> 00:34:28,670
+I just let the room manager handle this Messages and that's it
+
+688
+00:34:28,670 --> 00:34:30,750
+Many students might ask you
+
+689
+00:34:30,750 --> 00:34:34,380
+Why was it decided to place it in the room manager?
+
+690
+00:34:34,380 --> 00:34:41,330
+Because the core task of the room manager is to manage each chat room.
+
+691
+00:34:41,489 --> 00:34:46,449
+We should not distribute this task at our communication layer
+
+692
+00:34:46,449 --> 00:34:48,090
+but should be in the room manager
+
+693
+00:34:48,090 --> 00:34:53,039
+Because all its work is to find this chat room
+
+694
+00:34:53,039 --> 00:34:54,438
+and then pass it to him
+
+695
+00:34:54,438 --> 00:34:55,018
+right
+
+696
+00:34:55,018 --> 00:34:59,019
+So this logic should be placed in the room manager
+
+697
+00:34:59,019 --> 00:35:05,940
+The most natural room manager, like many other modules,
+
+698
+00:35:05,940 --> 00:35:09,140
+it has its own message handling function or
+
+699
+00:35:09,140 --> 00:35:10,960
+Messages processing center
+
+700
+00:35:10,960 --> 00:35:16,660
+Here we can see that this is the room manager's process data
+
+701
+00:35:16,660 --> 00:35:18,640
+It is the same with our introduction
+
+702
+00:35:18,640 --> 00:35:20,240
+and our communication module as well
+
+703
+00:35:20,240 --> 00:35:21,980
+It is also the same
+
+704
+00:35:21,980 --> 00:35:25,969
+handles all the messages it wants to process
+
+705
+00:35:25,969 --> 00:35:28,140
+Here it hasn't yet
+
+706
+00:35:28,140 --> 00:35:30,660
+the newly received Messages just now
+
+707
+00:35:30,660 --> 00:35:32,580
+process the chat Messages
+
+708
+00:35:32,580 --> 00:35:33,100
+Right?
+
+709
+00:35:33,100 --> 00:35:36,020
+We just need to add one
+
+710
+00:35:36,760 --> 00:35:37,880
+So let's take a look
+
+711
+00:35:37,880 --> 00:35:42,120
+we directly moved the logic from the communication layer
+
+712
+00:35:42,120 --> 00:35:45,740
+moved intact into the room manager
+
+713
+00:35:45,740 --> 00:35:49,710
+So this very familiar piece of code has now moved here
+
+714
+00:35:49,710 --> 00:35:51,670
+Okay, now that we're here
+
+715
+00:35:51,670 --> 00:35:53,590
+As you can see
+
+716
+00:35:53,590 --> 00:35:58,279
+our original code in the communication layer
+
+717
+00:35:58,279 --> 00:36:01,059
+becomes very simple
+
+718
+00:36:01,059 --> 00:36:02,810
+This single line of code
+
+719
+00:36:02,810 --> 00:36:06,380
+then just directly pass the Messages to him
+
+720
+00:36:06,380 --> 00:36:11,100
+This way, we've offloaded a tiny bit of the business logic
+
+721
+00:36:11,100 --> 00:36:15,919
+The residual business logic is completely offloaded to ROMANAGER
+
+722
+00:36:15,919 --> 00:36:18,199
+offloaded to our business layer
+
+723
+00:36:18,199 --> 00:36:22,370
+The reason I spent so much time explaining this design here
+
+724
+00:36:22,370 --> 00:36:27,710
+is to introduce you to a very important design pattern
+
+725
+00:36:27,710 --> 00:36:32,360
+you use this message to pass around between various modules
+
+726
+00:36:33,680 --> 00:36:35,560
+this is the design pattern
+
+727
+00:36:35,560 --> 00:36:38,180
+is very widely applied
+
+728
+00:36:38,180 --> 00:36:39,480
+Let me give you a random example
+
+729
+00:36:39,480 --> 00:36:41,700
+Do you usually use Windows, right?
+
+730
+00:36:41,700 --> 00:36:47,520
+How do the Windows operating systems cooperate with each other?
+
+731
+00:36:47,520 --> 00:36:50,620
+How does Windows cooperate with the operating system?
+
+732
+00:36:50,620 --> 00:36:53,620
+It uses the same approach as our ChatFlow
+
+733
+00:36:53,620 --> 00:36:57,380
+uses the exact same Messages-driven design pattern
+
+734
+00:36:57,380 --> 00:36:59,910
+For example, when you click a mouse
+
+735
+00:36:59,910 --> 00:37:03,210
+The operating system collects mouse events
+
+736
+00:37:03,210 --> 00:37:06,529
+sent to a system's message bus
+
+737
+00:37:06,529 --> 00:37:10,409
+The system's message bus is the only one in the entire operating system.
+
+738
+00:37:10,409 --> 00:37:13,220
+the large message bus then decomposes it
+
+739
+00:37:13,220 --> 00:37:17,280
+This mouse is now to be sent to the current user
+
+740
+00:37:17,280 --> 00:37:19,510
+the currently active Windows
+
+741
+00:37:19,510 --> 00:37:20,090
+Okay
+
+742
+00:37:20,090 --> 00:37:21,750
+This message is sent to the Windows
+
+743
+00:37:21,750 --> 00:37:24,930
+is equivalent to our chat messages
+
+744
+00:37:24,930 --> 00:37:30,650
+is sent by the system's message bus to a certain chat room
+
+745
+00:37:30,650 --> 00:37:33,010
+Windows sends it to a specific window
+
+746
+00:37:33,010 --> 00:37:35,690
+Just like in our previous code, inside the windows
+
+747
+00:37:35,690 --> 00:37:36,970
+during processing
+
+748
+00:37:36,970 --> 00:37:39,410
+do exactly the same thing
+
+749
+00:37:39,410 --> 00:37:42,590
+So this design pattern
+
+750
+00:37:42,590 --> 00:37:45,750
+If you really want to develop some large-scale applications
+
+751
+00:37:45,750 --> 00:37:50,000
+complex programs are unavoidable for you
+
+752
+00:37:50,000 --> 00:37:53,060
+a design pattern you must use
+
+753
+00:37:53,060 --> 00:37:55,220
+Alright, let's go back to this diagram
+
+754
+00:37:55,220 --> 00:37:56,260
+let's take a look
+
+755
+00:37:56,260 --> 00:37:57,900
+In addition to the lower layer
+
+756
+00:37:57,900 --> 00:38:00,940
+besides our communication layer
+
+757
+00:38:00,940 --> 00:38:02,260
+at the same level
+
+758
+00:38:02,260 --> 00:38:03,340
+we also have a database
+
+759
+00:38:03,340 --> 00:38:04,700
+right
+
+760
+00:38:05,300 --> 00:38:06,500
+It really surprised me
+
+761
+00:38:06,500 --> 00:38:10,900
+Many front-end programmers have actually never heard of index b b b
+
+762
+00:38:10,900 --> 00:38:13,640
+all browsers
+
+763
+00:38:13,640 --> 00:38:17,140
+In fact, it has a built-in database
+
+764
+00:38:17,140 --> 00:38:20,750
+This database is called IndexedDB
+
+765
+00:38:22,170 --> 00:38:24,450
+All frontend content that needs to be downloaded
+
+766
+00:38:24,450 --> 00:38:26,970
+especially when you have a large amount of data to download
+
+767
+00:38:26,970 --> 00:38:28,770
+for example, if you want to cache a video
+
+768
+00:38:28,770 --> 00:38:32,330
+download that video for later playback
+
+769
+00:38:32,330 --> 00:38:35,530
+then you can only use indexDB at this point
+
+770
+00:38:35,530 --> 00:38:40,260
+because things like localStorage and sessionStorage
+
+771
+00:38:40,260 --> 00:38:44,090
+It is only suitable for things with very little content
+
+772
+00:38:44,090 --> 00:38:47,390
+You must store truly large data here
+
+773
+00:38:47,390 --> 00:38:51,490
+So the front-end does have a database.
+
+774
+00:38:51,650 --> 00:38:55,760
+but there's not much to say about indexDB
+
+775
+00:38:55,760 --> 00:38:57,680
+You can check the information yourself
+
+776
+00:38:57,680 --> 00:38:58,880
+It's just like a database.
+
+777
+00:38:58,880 --> 00:39:01,640
+it's just a component and a value
+
+778
+00:39:01,640 --> 00:39:05,900
+This type of database is not like our SQL database
+
+779
+00:39:05,900 --> 00:39:08,660
+You can find out how to use it by looking up the information yourself.
+
+780
+00:39:08,660 --> 00:39:12,740
+However, it is a very useful thing.
+
+781
+00:39:12,740 --> 00:39:15,240
+Next, let me explain to you
+
+782
+00:39:15,240 --> 00:39:20,310
+how to use web worker to enhance
+
+783
+00:39:20,310 --> 00:39:24,870
+the performance efficiency of our front-end application
+
+784
+00:39:26,420 --> 00:39:29,020
+At the beginning of our introduction, we mentioned
+
+785
+00:39:29,020 --> 00:39:30,800
+a website
+
+786
+00:39:30,800 --> 00:39:32,620
+a mobile app
+
+787
+00:39:32,620 --> 00:39:36,110
+a mobile web application
+
+788
+00:39:36,110 --> 00:39:40,380
+can all perform highly complex tasks
+
+789
+00:39:40,380 --> 00:39:41,640
+such as Changliao
+
+790
+00:39:41,640 --> 00:39:45,380
+It is capable of video compression and video transcoding
+
+791
+00:39:45,380 --> 00:39:49,030
+It can even convert a video into audio
+
+792
+00:39:49,030 --> 00:39:52,310
+and it can also split a one-hour video
+
+793
+00:39:52,310 --> 00:39:53,570
+split into small chunks
+
+794
+00:39:53,570 --> 00:39:56,830
+and then distribute it to various servers
+
+795
+00:39:56,830 --> 00:40:00,619
+so when the network in China is not accessible
+
+796
+00:40:00,619 --> 00:40:05,410
+It can autonomously locate servers that remain accessible
+
+797
+00:40:05,410 --> 00:40:08,130
+This ensures smooth chatting
+
+798
+00:40:08,130 --> 00:40:10,450
+in China's network environment
+
+799
+00:40:10,450 --> 00:40:12,680
+it can still run smoothly
+
+800
+00:40:12,680 --> 00:40:17,000
+but we all know that video compression and transcoding
+
+801
+00:40:17,000 --> 00:40:20,230
+these computationally intensive tasks
+
+802
+00:40:20,230 --> 00:40:23,420
+It is very CPU-intensive
+
+803
+00:40:23,420 --> 00:40:24,820
+The trouble is
+
+804
+00:40:24,820 --> 00:40:27,480
+We all know that in the browser
+
+805
+00:40:27,480 --> 00:40:32,370
+All our world tasks are queued up
+
+806
+00:40:32,370 --> 00:40:34,870
+processed by a single queue
+
+807
+00:40:34,870 --> 00:40:35,630
+What does it mean
+
+808
+00:40:35,630 --> 00:40:40,600
+It can only function as shown in our diagram.
+
+809
+00:40:40,600 --> 00:40:42,780
+I have finished processing task six
+
+810
+00:40:42,780 --> 00:40:44,500
+then I will proceed to Task 5
+
+811
+00:40:44,500 --> 00:40:46,960
+then I'll proceed to task four and so on
+
+812
+00:40:46,960 --> 00:40:49,310
+Why is this the case?
+
+813
+00:40:49,310 --> 00:40:52,830
+That's because browsers are designed this way by default.
+
+814
+00:40:52,830 --> 00:40:57,560
+A web page can only utilize one CPU core
+
+815
+00:40:57,560 --> 00:41:01,080
+so it can only handle one thing at a time
+
+816
+00:41:02,080 --> 00:41:04,520
+So here comes the problem
+
+817
+00:41:04,680 --> 00:41:06,480
+I need to compress a video
+
+818
+00:41:07,520 --> 00:41:08,800
+It would take several minutes to run
+
+819
+00:41:08,800 --> 00:41:09,560
+right
+
+820
+00:41:09,560 --> 00:41:12,550
+Do you really expect users to wait for several minutes?
+
+821
+00:41:12,550 --> 00:41:15,810
+None of the buttons work no matter which one you press
+
+822
+00:41:15,810 --> 00:41:17,590
+For example, in my task six here
+
+823
+00:41:17,590 --> 00:41:19,870
+If it's a 5-minute compression
+
+824
+00:41:19,870 --> 00:41:22,810
+a video that takes 5 minutes to compress
+
+825
+00:41:22,810 --> 00:41:26,530
+So within those 5 minutes, should my users just sit and watch?
+
+826
+00:41:26,530 --> 00:41:29,310
+Do any buttons not work?
+
+827
+00:41:29,310 --> 00:41:31,950
+Obviously, this design is unreasonable.
+
+828
+00:41:31,950 --> 00:41:32,970
+right
+
+829
+00:41:32,970 --> 00:41:38,310
+But in the past, browsers couldn't handle these things.
+
+830
+00:41:38,310 --> 00:41:43,670
+until we had this web worker technology we just mentioned
+
+831
+00:41:43,910 --> 00:41:45,830
+what is it
+
+832
+00:41:45,830 --> 00:41:51,010
+It means when I'm handling these tasks
+
+833
+00:41:51,010 --> 00:41:54,700
+if it is a very complex task
+
+834
+00:41:54,700 --> 00:41:57,680
+I'm not putting it in the main queue
+
+835
+00:41:57,680 --> 00:41:59,180
+wait in line together with everyone
+
+836
+00:41:59,180 --> 00:42:01,470
+wait for Me to take the opportunity
+
+837
+00:42:01,470 --> 00:42:05,570
+instead, it creates another thread
+
+838
+00:42:05,570 --> 00:42:08,510
+place this task in this thread
+
+839
+00:42:08,510 --> 00:42:13,920
+This thread is being processed on another CPU.
+
+840
+00:42:13,920 --> 00:42:19,740
+Therefore, it will not affect your main queue at all
+
+841
+00:42:19,740 --> 00:42:20,960
+the speed of processing Messages
+
+842
+00:42:20,960 --> 00:42:24,200
+The queues we assemble here mainly refer to our UI
+
+843
+00:42:24,200 --> 00:42:25,560
+You click a button
+
+844
+00:42:25,560 --> 00:42:28,160
+You flip a page
+
+845
+00:42:28,160 --> 00:42:30,800
+scrolling up and down a page
+
+846
+00:42:30,800 --> 00:42:32,800
+are all handled there
+
+847
+00:42:32,800 --> 00:42:37,170
+So once you offload these computationally intensive tasks
+
+848
+00:42:37,170 --> 00:42:39,900
+offloaded to another CPU
+
+849
+00:42:39,900 --> 00:42:43,080
+through the technology of Web Worker
+
+850
+00:42:43,080 --> 00:42:48,160
+then your entire user experience instantly becomes incredibly smooth. Okay
+
+851
+00:42:48,160 --> 00:42:52,680
+Let's first take a look at how Changliao performs during video compression
+
+852
+00:42:52,680 --> 00:42:56,970
+How is the UI user experience?
+
+853
+00:42:58,060 --> 00:42:59,940
+In the chat room of Changliao
+
+854
+00:42:59,940 --> 00:43:02,060
+we can upload a video
+
+855
+00:43:02,060 --> 00:43:06,109
+So here I've selected an 800 MB video
+
+856
+00:43:06,109 --> 00:43:09,180
+convert the video into audio
+
+857
+00:43:09,180 --> 00:43:11,600
+Okay, here we have an option
+
+858
+00:43:11,600 --> 00:43:13,160
+Now I will proceed with it
+
+859
+00:43:13,160 --> 00:43:16,920
+You can convert the video to audio and send it to your friends
+
+860
+00:43:16,920 --> 00:43:21,600
+or you can directly send the compressed video to your friend okay
+
+861
+00:43:21,600 --> 00:43:24,120
+We choose video compression, okay
+
+862
+00:43:24,120 --> 00:43:26,320
+Video compression is done in Changliao
+
+863
+00:43:26,320 --> 00:43:30,430
+He first cuts a large video into many small segments
+
+864
+00:43:30,430 --> 00:43:31,870
+as I mentioned
+
+865
+00:43:31,870 --> 00:43:35,570
+Then, he compresses each small segment of the video individually
+
+866
+00:43:35,570 --> 00:43:39,800
+Then, these multiple videos are uploaded to the server.
+
+867
+00:43:39,800 --> 00:43:44,000
+This way, when you play it back in the future,
+
+868
+00:43:44,000 --> 00:43:47,940
+it can utilize multiple different workers
+
+869
+00:43:47,940 --> 00:43:50,500
+retrieve from various different websites
+
+870
+00:43:50,500 --> 00:43:53,020
+This will greatly improve performance.
+
+871
+00:43:53,020 --> 00:43:55,060
+You see, it slices itself very quickly.
+
+872
+00:43:55,060 --> 00:43:58,580
+Now you can see it's starting to compress
+
+873
+00:43:59,940 --> 00:44:03,130
+while it's compressing
+
+874
+00:44:03,130 --> 00:44:06,030
+I can still send him Messages
+
+875
+00:44:06,030 --> 00:44:09,470
+that is, I as this user can still send out Messages
+
+876
+00:44:11,160 --> 00:44:13,220
+Look, it's received immediately here
+
+877
+00:44:13,220 --> 00:44:16,100
+Meanwhile, others can also send him messages
+
+878
+00:44:16,180 --> 00:44:18,620
+Then what is a bit
+
+879
+00:44:19,780 --> 00:44:23,660
+People can still, for example, even send pictures and things like that.
+
+880
+00:44:25,960 --> 00:44:29,500
+You see, he can receive it perfectly.
+
+881
+00:44:29,500 --> 00:44:31,760
+You just heard it on my phone
+
+882
+00:44:31,760 --> 00:44:34,240
+Actually, Messages have also been received on the phone
+
+883
+00:44:34,240 --> 00:44:36,130
+That's a group message, good.
+
+884
+00:44:36,130 --> 00:44:39,160
+I think the demonstration just now has sufficiently illustrated
+
+885
+00:44:39,160 --> 00:44:43,620
+Even for tasks as demanding as video compression and transcoding
+
+886
+00:44:43,620 --> 00:44:47,920
+You see, sometimes when I was recording, there was even some audio lag
+
+887
+00:44:47,920 --> 00:44:51,150
+That's because the transcoding consumes too much CPU
+
+888
+00:44:51,150 --> 00:44:55,070
+even my other recording programs have been blocked
+
+889
+00:44:55,070 --> 00:44:57,120
+
+
+890
+00:44:57,120 --> 00:45:01,540
+but you see when we send our images in SmoothChat
+
+891
+00:45:01,540 --> 00:45:03,220
+is completely unaffected
+
+892
+00:45:03,220 --> 00:45:04,100
+right
+
+893
+00:45:04,100 --> 00:45:06,660
+Since web workers are so powerful
+
+894
+00:45:06,660 --> 00:45:08,280
+So how should we do it?
+
+895
+00:45:08,280 --> 00:45:08,980
+Actually, the answer is no
+
+896
+00:45:08,980 --> 00:45:11,800
+Let's take a look at this code, okay
+
+897
+00:45:11,800 --> 00:45:15,360
+The first step to using a web worker
+
+898
+00:45:15,360 --> 00:45:19,990
+of course, you need to create a Web Worker
+
+899
+00:45:19,990 --> 00:45:21,330
+just one line
+
+900
+00:45:21,330 --> 00:45:24,300
+which is the new Worker here
+
+901
+00:45:24,300 --> 00:45:27,620
+This worker is also a system class, um
+
+902
+00:45:27,620 --> 00:45:29,690
+You can use it directly
+
+903
+00:45:29,690 --> 00:45:31,610
+It comes with several parameters
+
+904
+00:45:31,610 --> 00:45:33,750
+Let's start with the first parameter
+
+905
+00:45:33,750 --> 00:45:36,370
+The first parameter you need to provide is a URL
+
+906
+00:45:36,370 --> 00:45:41,960
+This URL is your actual walker
+
+907
+00:45:41,960 --> 00:45:44,020
+where the code is located
+
+908
+00:45:44,020 --> 00:45:45,780
+So it's the address of a file
+
+909
+00:45:45,780 --> 00:45:47,320
+So what exactly is it?
+
+910
+00:45:47,320 --> 00:45:48,700
+Let’s take a look at it
+
+911
+00:45:48,700 --> 00:45:53,100
+The actual code is, you see, our Web Worker's code
+
+912
+00:45:53,100 --> 00:45:53,880
+right here
+
+913
+00:45:53,880 --> 00:45:59,280
+This parameter simply specifies the location of the file, and that's it.
+
+914
+00:45:59,630 --> 00:46:01,950
+the second and third parameters
+
+915
+00:46:01,950 --> 00:46:04,870
+is related to our JAVASCRIPT version
+
+916
+00:46:04,870 --> 00:46:07,730
+So just follow my code and write it.
+
+917
+00:46:07,730 --> 00:46:11,220
+Don't worry about why once a web worker is created
+
+918
+00:46:11,220 --> 00:46:14,370
+So half the work regarding the web worker is done.
+
+919
+00:46:14,370 --> 00:46:15,930
+What's the other half?
+
+920
+00:46:15,930 --> 00:46:19,560
+The other half is of course to get your main program
+
+921
+00:46:19,560 --> 00:46:22,520
+the main thread and web broker collaborate with each other
+
+922
+00:46:22,520 --> 00:46:23,020
+right?
+
+923
+00:46:23,020 --> 00:46:24,210
+Take a look at this diagram
+
+924
+00:46:24,210 --> 00:46:26,090
+The reason why web worker is so powerful
+
+925
+00:46:26,090 --> 00:46:27,750
+can significantly enhance performance to such a high level
+
+926
+00:46:27,750 --> 00:46:30,450
+without affecting our UI experience
+
+927
+00:46:30,450 --> 00:46:36,319
+That's because it and our main program, which is also the main thread,
+
+928
+00:46:36,319 --> 00:46:38,919
+lives in a different county
+
+929
+00:46:38,919 --> 00:46:41,279
+so I'm using this dividing line here
+
+930
+00:46:41,279 --> 00:46:42,850
+separated for everyone
+
+931
+00:46:42,850 --> 00:46:45,430
+Our main program runs in the main thread
+
+932
+00:46:45,430 --> 00:46:49,040
+The web worker is a separate thread.
+
+933
+00:46:49,400 --> 00:46:52,840
+We all know that tasks in two threads
+
+934
+00:46:52,840 --> 00:46:55,280
+cannot call each other
+
+935
+00:46:55,280 --> 00:46:59,780
+So if the main thread wants the web worker to do something
+
+936
+00:46:59,780 --> 00:47:04,060
+just like we needed to have it compress a video earlier, what should we do
+
+937
+00:47:04,060 --> 00:47:07,520
+it can only send him a message
+
+938
+00:47:07,520 --> 00:47:10,360
+Okay, once the video compression is completed
+
+939
+00:47:10,360 --> 00:47:12,700
+it will return a message
+
+940
+00:47:12,700 --> 00:47:15,130
+tell me the video compression is complete
+
+941
+00:47:15,130 --> 00:47:17,550
+or during my compression process
+
+942
+00:47:17,550 --> 00:47:20,570
+I will return my compression progress bar at 5%
+
+943
+00:47:20,570 --> 00:47:22,610
+10% returned to you
+
+944
+00:47:22,610 --> 00:47:28,279
+So between your main thread main program and your web worker
+
+945
+00:47:28,279 --> 00:47:31,119
+cannot directly call each other's APIs
+
+946
+00:47:31,119 --> 00:47:33,499
+can only send messages to each other
+
+947
+00:47:33,499 --> 00:47:35,350
+Once you understand this point
+
+948
+00:47:35,350 --> 00:47:38,690
+the entire web worker becomes very simple
+
+949
+00:47:38,690 --> 00:47:43,700
+First, when our main thread creates a Web Worker
+
+950
+00:47:43,700 --> 00:47:47,460
+make sure this worker knows where to send Messages
+
+951
+00:47:47,460 --> 00:47:48,690
+send back
+
+952
+00:47:48,690 --> 00:47:50,170
+where to send
+
+953
+00:47:50,170 --> 00:47:54,170
+So in addition to just creating a new worker earlier
+
+954
+00:47:54,170 --> 00:47:56,250
+The second sentence is also very important
+
+955
+00:47:56,250 --> 00:47:58,940
+That is to say, I need to tell this worker
+
+956
+00:47:58,940 --> 00:48:01,240
+his onmessage gives it sin
+
+957
+00:48:01,240 --> 00:48:04,200
+attach my own function to it
+
+958
+00:48:04,200 --> 00:48:08,980
+this walker's on message is not ChangLiao
+
+959
+00:48:08,980 --> 00:48:11,420
+nor is it a function of your project
+
+960
+00:48:11,420 --> 00:48:13,100
+but a system function
+
+961
+00:48:13,100 --> 00:48:15,290
+So as long as you assign a value to it
+
+962
+00:48:15,290 --> 00:48:18,690
+worker->main thread message
+
+963
+00:48:18,690 --> 00:48:24,140
+this handler function for messages sent from the worker
+
+964
+00:48:24,140 --> 00:48:24,620
+Okay
+
+965
+00:48:24,620 --> 00:48:27,920
+This is the function from the worker to the main thread
+
+966
+00:48:27,920 --> 00:48:29,960
+Just set it up like this and it's done.
+
+967
+00:48:29,960 --> 00:48:32,450
+Then you can write anything inside
+
+968
+00:48:32,450 --> 00:48:35,420
+You can write any of your business logic
+
+969
+00:48:35,860 --> 00:48:38,540
+Another one, of course, is this sentence
+
+970
+00:48:38,540 --> 00:48:40,020
+that is our wrapped
+
+971
+00:48:40,020 --> 00:48:44,060
+sending messages from the main thread to the worker thread
+
+972
+00:48:44,060 --> 00:48:48,180
+So let's take a look at what exactly is going on underneath
+
+973
+00:48:48,180 --> 00:48:50,500
+Let's take a look at what this post is all about.
+
+974
+00:48:50,500 --> 00:48:52,580
+post is actually the most core
+
+975
+00:48:52,580 --> 00:48:54,000
+You don't need to worry about any other code
+
+976
+00:48:54,000 --> 00:48:56,930
+The most crucial piece of code is just like this
+
+977
+00:48:56,930 --> 00:48:59,610
+This line of code is in this worker
+
+978
+00:48:59,610 --> 00:49:01,910
+send a message on the web worker
+
+979
+00:49:01,910 --> 00:49:05,390
+Moreover, postMessage is not our function
+
+980
+00:49:05,390 --> 00:49:06,940
+but a system function
+
+981
+00:49:06,940 --> 00:49:09,520
+postMessage only takes one parameter
+
+982
+00:49:09,520 --> 00:49:11,820
+This parameter is an object
+
+983
+00:49:11,820 --> 00:49:16,110
+This object has two fields
+
+984
+00:49:16,110 --> 00:49:17,770
+there are two jades
+
+985
+00:49:17,770 --> 00:49:19,210
+one is type
+
+986
+00:49:19,210 --> 00:49:21,130
+is to tell the worker
+
+987
+00:49:21,130 --> 00:49:23,090
+I am sending this message now
+
+988
+00:49:23,090 --> 00:49:25,610
+what is its id
+
+989
+00:49:26,030 --> 00:49:29,370
+The following data is the actual content of the message I am sending
+
+990
+00:49:29,370 --> 00:49:31,649
+What is the actual content of the message?
+
+991
+00:49:31,649 --> 00:49:32,929
+As for what this content is
+
+992
+00:49:32,929 --> 00:49:34,789
+You can define it yourself
+
+993
+00:49:34,789 --> 00:49:36,609
+So it's very simple
+
+994
+00:49:36,609 --> 00:49:40,110
+This is within the main thread
+
+995
+00:49:40,110 --> 00:49:42,550
+all the code you need to write
+
+996
+00:49:42,550 --> 00:49:45,290
+If you're still interested in watching till the end
+
+997
+00:49:45,290 --> 00:49:48,550
+Let's take a look at an example of how to write it
+
+998
+00:49:48,550 --> 00:49:52,890
+the message receiving function in our main thread
+
+999
+00:49:52,890 --> 00:49:54,070
+message
+
+1000
+00:49:54,070 --> 00:49:54,830
+Processor
+
+1001
+00:49:54,830 --> 00:49:59,000
+Let me show you the code we've written.
+
+1002
+00:49:59,150 --> 00:50:01,070
+this process message
+
+1003
+00:50:01,070 --> 00:50:07,120
+it's actually the function handler that was just passed to the worker
+
+1004
+00:50:07,120 --> 00:50:08,300
+Then inside this
+
+1005
+00:50:08,300 --> 00:50:09,680
+Look at how it's written
+
+1006
+00:50:09,680 --> 00:50:14,090
+and our video's communication layer at the beginning
+
+1007
+00:50:14,090 --> 00:50:16,330
+The way of handling Messages is exactly the same
+
+1008
+00:50:16,330 --> 00:50:20,600
+You see he also has this attitude towards your message, what is it?
+
+1009
+00:50:20,600 --> 00:50:22,000
+then based on your attitude
+
+1010
+00:50:22,000 --> 00:50:25,260
+you have defined what major categories of Messages there are
+
+1011
+00:50:25,260 --> 00:50:29,030
+Then you just write your code to handle it and that's it.
+
+1012
+00:50:29,030 --> 00:50:33,040
+Okay, this is on the main thread
+
+1013
+00:50:33,040 --> 00:50:36,780
+web worker and web worker-related code
+
+1014
+00:50:36,780 --> 00:50:38,040
+just this little bit
+
+1015
+00:50:38,040 --> 00:50:42,680
+Now let's look at how the actual web worker operates
+
+1016
+00:50:42,680 --> 00:50:47,710
+Okay, let's take a look at this worker's code.
+
+1017
+00:50:47,710 --> 00:50:50,230
+The most important thing in this code is that
+
+1018
+00:50:50,230 --> 00:50:53,050
+It needs to receive messages sent from the main thread.
+
+1019
+00:50:53,050 --> 00:50:53,470
+right
+
+1020
+00:50:53,470 --> 00:50:56,700
+This is the very first step of all his work
+
+1021
+00:50:56,700 --> 00:51:01,900
+Then receiving Messages is also a system function
+
+1022
+00:51:01,900 --> 00:51:04,240
+which is the on message here
+
+1023
+00:51:04,240 --> 00:51:06,330
+This function is system-level
+
+1024
+00:51:06,330 --> 00:51:08,069
+You just need to call it yourself.
+
+1025
+00:51:08,069 --> 00:51:11,349
+When to call it is determined by the system.
+
+1026
+00:51:11,349 --> 00:51:14,489
+When we just sent a message on the main thread earlier
+
+1027
+00:51:14,489 --> 00:51:18,690
+Your browser knows how to locate this onmessage
+
+1028
+00:51:18,690 --> 00:51:22,830
+and then accurately sends this message to you, okay
+
+1029
+00:51:22,830 --> 00:51:24,410
+after you receive this message
+
+1030
+00:51:24,410 --> 00:51:26,510
+you can do whatever you want
+
+1031
+00:51:26,510 --> 00:51:27,270
+just like us
+
+1032
+00:51:27,270 --> 00:51:30,569
+Look at our own message handler function
+
+1033
+00:51:30,569 --> 00:51:34,369
+Just like the way we handle it in the communication layer
+
+1034
+00:51:34,369 --> 00:51:37,050
+check the type of the message
+
+1035
+00:51:37,050 --> 00:51:40,330
+and then call different functions for processing based on the type
+
+1036
+00:51:40,330 --> 00:51:40,950
+that's it
+
+1037
+00:51:40,950 --> 00:51:42,540
+it's very simple
+
+1038
+00:51:42,540 --> 00:51:43,920
+So to summarize
+
+1039
+00:51:43,920 --> 00:51:48,520
+There are only two concepts to understand and use WEBER
+
+1040
+00:51:48,520 --> 00:51:49,660
+The first concept
+
+1041
+00:51:49,660 --> 00:51:55,020
+Web Worker lives in another thread
+
+1042
+00:51:55,020 --> 00:51:59,330
+between this second WEBER and the main thread
+
+1043
+00:51:59,330 --> 00:52:02,520
+can only communicate via Messages
+
+1044
+00:52:02,520 --> 00:52:04,960
+You've understood these two workers
+
+1045
+00:52:04,960 --> 00:52:06,380
+you can easily understand it
+
+1046
+00:52:06,380 --> 00:52:08,940
+You just saw our code
+
+1047
+00:52:08,940 --> 00:52:12,740
+Communication between two threads is as simple as sending a message.
+
+1048
+00:52:12,740 --> 00:52:14,020
+it's very simple
+
+1049
+00:52:14,020 --> 00:52:17,490
+so how to use web worker
+
+1050
+00:52:17,490 --> 00:52:21,330
+is likely to enhance your frontend architecture
+
+1051
+00:52:21,330 --> 00:52:24,360
+a very cost-effective and user-friendly
+
+1052
+00:52:24,360 --> 00:52:28,670
+but an immediately effective design pattern
+
+1053
+00:52:28,670 --> 00:52:29,390
+That's all for
+
+1054
+00:52:29,390 --> 00:52:34,150
+Now, all that's left to introduce after web worker is PWA.
+
+1055
+00:52:34,150 --> 00:52:37,350
+Why are we introducing PWA here
+
+1056
+00:52:37,350 --> 00:52:39,569
+What are its benefits?
+
+1057
+00:52:39,569 --> 00:52:43,249
+It can significantly enhance our user experience
+
+1058
+00:52:43,249 --> 00:52:46,739
+is to transform a website without the need for
+
+1059
+00:52:46,739 --> 00:52:49,059
+almost no additional code is needed
+
+1060
+00:52:49,059 --> 00:52:53,380
+transform it into an app-like experience
+
+1061
+00:52:53,660 --> 00:52:59,040
+So-called endowing a website with the user experience of a mobile app
+
+1062
+00:52:59,040 --> 00:53:01,420
+What exactly does it refer to?
+
+1063
+00:53:01,559 --> 00:53:02,959
+It refers to several aspects
+
+1064
+00:53:02,959 --> 00:53:08,310
+First, you can so-called install your website
+
+1065
+00:53:08,310 --> 00:53:09,670
+home screen
+
+1066
+00:53:09,670 --> 00:53:12,470
+or on your computer desktop
+
+1067
+00:53:12,470 --> 00:53:14,890
+just like the illustration shown here
+
+1068
+00:53:14,890 --> 00:53:16,680
+installed as an icon
+
+1069
+00:53:16,680 --> 00:53:21,980
+Then you just click to launch your website
+
+1070
+00:53:21,980 --> 00:53:24,860
+or what we call a PWA application
+
+1071
+00:53:24,860 --> 00:53:27,680
+It's not like a regular website
+
+1072
+00:53:27,680 --> 00:53:29,100
+every time you visit
+
+1073
+00:53:29,100 --> 00:53:30,620
+you still need to enter the web address
+
+1074
+00:53:30,620 --> 00:53:31,220
+right
+
+1075
+00:53:32,260 --> 00:53:34,820
+Greatly convenient for your users
+
+1076
+00:53:34,820 --> 00:53:35,850
+This is the first
+
+1077
+00:53:35,850 --> 00:53:39,650
+The second point is that it allows you to perform many offline operations.
+
+1078
+00:53:39,650 --> 00:53:42,290
+especially for our chat application
+
+1079
+00:53:42,290 --> 00:53:43,550
+right
+
+1080
+00:53:43,550 --> 00:53:45,110
+When I chat with others
+
+1081
+00:53:45,110 --> 00:53:46,710
+I usually send a message and then
+
+1082
+00:53:46,710 --> 00:53:48,690
+turn off the phone screen
+
+1083
+00:53:48,690 --> 00:53:51,640
+At this moment, like in WeChat when someone sends me a message
+
+1084
+00:53:51,640 --> 00:53:53,120
+I will receive notifications
+
+1085
+00:53:53,120 --> 00:53:53,900
+right
+
+1086
+00:53:54,529 --> 00:53:57,789
+For a regular website, once you turn off your phone
+
+1087
+00:53:57,789 --> 00:53:59,969
+the entire network connection is cut off
+
+1088
+00:53:59,969 --> 00:54:02,270
+you will no longer receive messages
+
+1089
+00:54:02,270 --> 00:54:07,090
+while PWA applications allow you to receive notifications even after turning off the screen
+
+1090
+00:54:07,090 --> 00:54:09,830
+can still receive push notifications
+
+1091
+00:54:09,830 --> 00:54:12,490
+So this is very important for chat applications
+
+1092
+00:54:12,490 --> 00:54:15,130
+but it's important to note
+
+1093
+00:54:15,130 --> 00:54:18,350
+If you are using an iPhone
+
+1094
+00:54:18,350 --> 00:54:20,630
+and being in mainland China is not a problem
+
+1095
+00:54:20,630 --> 00:54:25,819
+you just need to install ChangLiao on your iPhone's home screen
+
+1096
+00:54:25,819 --> 00:54:29,159
+you can use it just like using WeChat
+
+1097
+00:54:29,159 --> 00:54:34,179
+but if you are using an Android system
+
+1098
+00:54:34,750 --> 00:54:37,230
+In mainland China, there's no way.
+
+1099
+00:54:37,230 --> 00:54:42,980
+because the push notification system on Android relies on Google's push service
+
+1100
+00:54:42,980 --> 00:54:46,580
+The push notification we're referring to here means browser push notifications
+
+1101
+00:54:46,580 --> 00:54:50,210
+So mainland users won't be able to find you
+
+1102
+00:54:54,030 --> 00:54:56,850
+but for users outside of China
+
+1103
+00:54:56,850 --> 00:55:01,190
+All users can receive it just like using a normal app
+
+1104
+00:55:01,190 --> 00:55:03,240
+receive your offline notifications
+
+1105
+00:55:03,240 --> 00:55:04,760
+Let me elaborate a bit here
+
+1106
+00:55:05,800 --> 00:55:09,580
+If you are using a domestic browser
+
+1107
+00:55:09,580 --> 00:55:17,770
+We have tested and found that two browsers support partial PWA technologies
+
+1108
+00:55:17,770 --> 00:55:20,690
+namely QQ Browser and UC Browser
+
+1109
+00:55:20,690 --> 00:55:22,930
+Of course I didn't test all of them
+
+1110
+00:55:23,250 --> 00:55:26,450
+but at least we know there are two that don't support it at all
+
+1111
+00:55:26,450 --> 00:55:30,250
+Baidu Browser and Sogou Browser
+
+1112
+00:55:30,750 --> 00:55:33,180
+They don't even support installation
+
+1113
+00:55:33,180 --> 00:55:33,860
+Additionally,
+
+1114
+00:55:33,860 --> 00:55:38,060
+I personally also strongly advise you not to use these two browsers
+
+1115
+00:55:38,060 --> 00:55:40,220
+Apart from its incomplete functionality
+
+1116
+00:55:40,220 --> 00:55:43,390
+Privacy is also completely unprotected.
+
+1117
+00:55:43,390 --> 00:55:44,990
+I was recording the program when
+
+1118
+00:55:44,990 --> 00:55:47,410
+A friend left me a message on Changliao.
+
+1119
+00:55:47,410 --> 00:55:50,770
+So let me show you all
+
+1120
+00:55:54,920 --> 00:55:58,680
+Look, there's a message notification on the Changliao icon
+
+1121
+00:55:58,680 --> 00:55:59,040
+right
+
+1122
+00:55:59,040 --> 00:56:02,610
+The red one, you can click here to open it
+
+1123
+00:56:02,610 --> 00:56:06,490
+You can also do it like on the Android system
+
+1124
+00:56:07,040 --> 00:56:10,000
+The Messages at the top are also Changliao's notifications
+
+1125
+00:56:10,000 --> 00:56:12,200
+You can click it to open Changliao
+
+1126
+00:56:12,200 --> 00:56:14,160
+and then you can open Changliao
+
+1127
+00:56:14,160 --> 00:56:18,040
+then you can reply directly to WeChat just like WeChat
+
+1128
+00:56:18,040 --> 00:56:21,660
+just like your mobile app
+
+1129
+00:56:22,940 --> 00:56:29,210
+Moreover, the reason why PWA technology is crucial for ChatFlow
+
+1130
+00:56:29,210 --> 00:56:33,910
+because Changliao needs to combat poor network conditions
+
+1131
+00:56:33,910 --> 00:56:37,350
+Everyone understands what a poor network environment means
+
+1132
+00:56:37,350 --> 00:56:40,970
+when your server is not working
+
+1133
+00:56:40,970 --> 00:56:44,250
+It can also automatically upgrade
+
+1134
+00:56:44,250 --> 00:56:48,050
+It can also automatically find other servers
+
+1135
+00:56:48,050 --> 00:56:52,450
+then if you use a traditional website, it gets stuck
+
+1136
+00:56:52,450 --> 00:56:53,570
+it gets stuck
+
+1137
+00:56:53,570 --> 00:56:54,149
+right?
+
+1138
+00:56:54,149 --> 00:56:56,989
+but Changliao, being a PWA
+
+1139
+00:56:56,989 --> 00:56:59,020
+All its code has been cached
+
+1140
+00:56:59,020 --> 00:57:01,480
+saved on your phone or computer
+
+1141
+00:57:01,480 --> 00:57:04,140
+the next time you launch it
+
+1142
+00:57:04,140 --> 00:57:08,840
+First, it can automatically detect if there's a new version to upgrade for you
+
+1143
+00:57:08,840 --> 00:57:11,940
+even if the original main site becomes inaccessible
+
+1144
+00:57:11,940 --> 00:57:15,950
+Secondly, it can still function through other servers
+
+1145
+00:57:15,950 --> 00:57:19,110
+continue to operate as usual as if nothing had happened
+
+1146
+00:57:19,110 --> 00:57:20,270
+browse news as usual
+
+1147
+00:57:20,270 --> 00:57:21,450
+chat as usual
+
+1148
+00:57:21,450 --> 00:57:26,570
+So PWA technology is what I consider to be a groundbreaking technology in front-end development
+
+1149
+00:57:26,570 --> 00:57:28,450
+a groundbreaking technology
+
+1150
+00:57:28,450 --> 00:57:31,430
+Front-end technology is advancing by leaps and bounds.
+
+1151
+00:57:31,430 --> 00:57:35,180
+including the WAA4M we haven't covered
+
+1152
+00:57:35,180 --> 00:57:36,620
+and WebGL
+
+1153
+00:57:36,620 --> 00:57:38,020
+such as gaming
+
+1154
+00:57:44,390 --> 00:57:48,750
+developing graphical features and many other technologies
+
+1155
+00:57:48,750 --> 00:57:52,060
+But why did I specifically single out PWA technology
+
+1156
+00:57:52,060 --> 00:57:56,100
+because I think it is extremely important for most of us programmers
+
+1157
+00:57:56,100 --> 00:57:58,970
+Developing front-end programs is extremely important
+
+1158
+00:58:00,050 --> 00:58:03,350
+Well, today in this video
+
+1159
+00:58:03,350 --> 00:58:08,270
+we have introduced several of the most important design
+
+1160
+00:58:08,270 --> 00:58:10,350
+front-end program architecture
+
+1161
+00:58:10,350 --> 00:58:16,390
+As long as you master these key principles of front-end architecture
+
+1162
+00:58:16,390 --> 00:58:19,770
+I believe it will greatly benefit your frontend projects
+
+1163
+00:58:19,770 --> 00:58:22,090
+a significant boost
+
+1164
+00:58:22,090 --> 00:58:23,590
+Also, as usual,
+
+1165
+00:58:23,590 --> 00:58:28,680
+I have also posted the address of this video's discussion group on Changliao
+
+1166
+00:58:28,680 --> 00:58:30,140
+left below the video
+
+1167
+00:58:30,140 --> 00:58:32,810
+Just click to join the discussion
+
+1168
+00:58:32,810 --> 00:58:37,070
+I have included the materials and some source code related to this video
+
+1169
+00:58:37,070 --> 00:58:39,130
+are also available in our discussion group
+
+1170
+00:58:39,130 --> 00:58:41,590
+You can download and watch it anytime you want. Okay
+
+1171
+00:58:41,590 --> 00:58:43,290
+Thank you all
+
+1172
+00:58:43,290 --> 00:58:45,670
+Also, if you like this video
+
+1173
+00:58:45,670 --> 00:58:46,830
+Please help like
+
+1174
+00:58:46,830 --> 00:58:48,550
+share and recommend
+
+1175
+00:58:48,550 --> 00:58:51,590
+This greatly helps with the dissemination of our video.
+
+1176
+00:58:51,590 --> 00:58:52,640
+Thank you everyone
+

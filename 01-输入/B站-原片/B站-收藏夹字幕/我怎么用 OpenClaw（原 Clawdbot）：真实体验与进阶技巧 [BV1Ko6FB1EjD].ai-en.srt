@@ -1,0 +1,1428 @@
+1
+00:00:00,000 --> 00:00:00,360
+Hello everyone
+
+2
+00:00:00,920 --> 00:00:02,600
+Recently, Moltbot has been very popular
+
+3
+00:00:02,600 --> 00:00:04,480
+It was originally called Clawbot
+
+4
+00:00:04,480 --> 00:00:08,210
+Recently renamed, some people say this product is hype
+
+5
+00:00:08,210 --> 00:00:10,870
+but personally I think if you haven't used it
+
+6
+00:00:10,870 --> 00:00:12,230
+then you definitely shouldn't say that
+
+7
+00:00:12,230 --> 00:00:17,140
+I was the first to learn about it through Karpathy at the end of last year.
+
+8
+00:00:17,140 --> 00:00:19,840
+learned about this product from the comments in his post
+
+9
+00:00:19,840 --> 00:00:21,080
+in mid-January
+
+10
+00:00:21,080 --> 00:00:23,320
+I also cloned its repository locally
+
+11
+00:00:23,320 --> 00:00:26,620
+However, since I haven't actually experienced this product
+
+12
+00:00:26,620 --> 00:00:28,500
+I don't know how this product actually performs
+
+13
+00:00:28,500 --> 00:00:31,430
+Recently, I followed the official Moltbot website
+
+14
+00:00:31,430 --> 00:00:34,510
+deployed it according to the Railway tutorial
+
+15
+00:00:34,510 --> 00:00:39,019
+However, during usage, service interruptions frequently occur.
+
+16
+00:00:39,299 --> 00:00:42,019
+Troubleshooting is not as convenient as it is locally.
+
+17
+00:00:42,019 --> 00:00:44,159
+So recently I've deployed Clawbot
+
+18
+00:00:44,159 --> 00:00:46,979
+deployed on my other idle Mac
+
+19
+00:00:46,979 --> 00:00:52,410
+At the end of this video, I will also introduce how to use Mac's dual-machine collaboration
+
+20
+00:00:52,410 --> 00:00:54,150
+In today's video
+
+21
+00:00:54,150 --> 00:00:56,390
+I won't explain how to install it
+
+22
+00:00:56,390 --> 00:00:59,600
+Because there are already many excellent tutorials available in the market.
+
+23
+00:00:59,600 --> 00:01:01,800
+It can be installed on a VPS
+
+24
+00:01:01,800 --> 00:01:04,239
+including our domestic cloud service providers
+
+25
+00:01:04,239 --> 00:01:06,990
+actually provides detailed related tutorials
+
+26
+00:01:06,990 --> 00:01:09,690
+allows you to deploy to DingTalk
+
+27
+00:01:09,690 --> 00:01:11,060
+Red, etc.
+
+28
+00:01:11,060 --> 00:01:14,800
+I will introduce the tasks I've accomplished using Clawbot
+
+29
+00:01:14,800 --> 00:01:17,300
+Moltbot's very detailed gameplay
+
+30
+00:01:17,300 --> 00:01:19,220
+and brilliant community use cases
+
+31
+00:01:19,220 --> 00:01:22,069
+including reproducible prompt templates
+
+32
+00:01:22,069 --> 00:01:25,929
+and a guide on how to enable Clawbot for multitasking in parallel
+
+33
+00:01:25,929 --> 00:01:29,720
+Finally, we will also introduce the Telegram operation commands.
+
+34
+00:01:29,720 --> 00:01:31,570
+First, let's take a look at what Moltbot is
+
+35
+00:01:31,570 --> 00:01:34,470
+It is not purely a standalone chatbot
+
+36
+00:01:34,470 --> 00:01:38,310
+more like a system of agents with execution capabilities
+
+37
+00:01:38,310 --> 00:01:39,490
+You send a message to the Gateway
+
+38
+00:01:39,490 --> 00:01:40,310
+get away
+
+39
+00:01:40,310 --> 00:01:41,510
+The agent receives messages and runs once
+
+40
+00:01:41,510 --> 00:01:44,030
+agent loop
+
+41
+00:01:44,030 --> 00:01:46,759
+then route the result back to the original chat window
+
+42
+00:01:46,759 --> 00:01:49,399
+These key terms, everyone can take a look to understand
+
+43
+00:01:49,399 --> 00:01:51,799
+We will frequently use the file locations
+
+44
+00:01:51,799 --> 00:01:53,550
+For example, the global configuration
+
+45
+00:01:53,550 --> 00:01:56,850
+It is located in the moltbot.json file.
+
+46
+00:01:56,850 --> 00:01:58,810
+After connecting to Telegram
+
+47
+00:01:58,810 --> 00:02:02,040
+The first thing to do is to pair by entering /start
+
+48
+00:02:02,040 --> 00:02:04,000
+First, type /start
+
+49
+00:02:04,000 --> 00:02:07,090
+then you will receive a reply from the bot like this
+
+50
+00:02:07,090 --> 00:02:10,070
+At the bottom, we can see this line of command
+
+51
+00:02:10,070 --> 00:02:13,510
+Because here I also have the command from before it was renamed
+
+52
+00:02:13,510 --> 00:02:15,870
+If you are now using the new version
+
+53
+00:02:15,870 --> 00:02:17,710
+then pay attention to how Telegram replies to you
+
+54
+00:02:17,710 --> 00:02:19,600
+Just use the new command
+
+55
+00:02:19,600 --> 00:02:23,320
+Moltbot by default folds all DMs
+
+56
+00:02:23,320 --> 00:02:26,250
+placed in a main session, and the /commands
+
+57
+00:02:26,250 --> 00:02:28,390
+It can skyrocket our efficiency
+
+58
+00:02:28,390 --> 00:02:31,230
+I will also provide a detailed introduction later.
+
+59
+00:02:31,230 --> 00:02:34,450
+One of the great things about Moltbot is its Skills.
+
+60
+00:02:34,450 --> 00:02:36,430
+There's a lot of content here. You just need to send it a GitHub link
+
+61
+00:02:36,430 --> 00:02:38,790
+You just need to send it a GitHub link
+
+62
+00:02:38,790 --> 00:02:40,210
+then let it install
+
+63
+00:02:40,210 --> 00:02:41,390
+It will be installed quickly
+
+64
+00:02:41,390 --> 00:02:43,510
+ClawdHub is created by the author of Clawd
+
+65
+00:02:43,510 --> 00:02:45,750
+a skill repository website built by
+
+66
+00:02:45,750 --> 00:02:47,450
+We come to the official Moltbot website
+
+67
+00:02:47,450 --> 00:02:49,580
+Finally, there is a ClawdHub
+
+68
+00:02:49,580 --> 00:02:51,940
+There are a lot of Skills here
+
+69
+00:02:51,940 --> 00:02:54,440
+We can enter such a username
+
+70
+00:02:54,440 --> 00:02:56,940
+This is Clawd, the author himself
+
+71
+00:02:56,940 --> 00:03:00,089
+He has built a great number of Skills.
+
+72
+00:03:00,089 --> 00:03:01,289
+super awesome
+
+73
+00:03:01,289 --> 00:03:02,529
+By the way,
+
+74
+00:03:02,529 --> 00:03:07,230
+Such an awesome Moltbot skills, it aggregates
+
+75
+00:03:11,880 --> 00:03:15,980
+There are numerous amazing Skills in ClawdHub, and you can browse through this repository to pick the Skill you want to use.
+
+76
+00:03:15,980 --> 00:03:18,790
+Moltbot's default Memory has two layers
+
+77
+00:03:18,790 --> 00:03:22,710
+First is the daily journal, which is organized in a date-based format.
+
+78
+00:03:22,710 --> 00:03:24,730
+The second one is long-term memory.
+
+79
+00:03:24,730 --> 00:03:25,790
+after prolonged use
+
+80
+00:03:25,790 --> 00:03:30,720
+your conversations will undergo Compaction or Pruning
+
+81
+00:03:30,720 --> 00:03:33,640
+Its search tool defaults to using Brave
+
+82
+00:03:33,640 --> 00:03:34,840
+is very good
+
+83
+00:03:34,840 --> 00:03:36,320
+It also provides for free users
+
+84
+00:03:36,320 --> 00:03:39,960
+2,000 calls per month are completely sufficient
+
+85
+00:03:39,960 --> 00:03:43,130
+Its query results are cached for 15 minutes by default.
+
+86
+00:03:43,130 --> 00:03:46,950
+Moreover, it also features a wide range of Browser tool plugins.
+
+87
+00:03:46,950 --> 00:03:49,170
+It also has an Exec tool
+
+88
+00:03:49,170 --> 00:03:51,620
+allows the Bot to execute commands within the workspace
+
+89
+00:03:51,620 --> 00:03:54,500
+This is why people say Clawbot
+
+90
+00:03:54,500 --> 00:03:55,920
+you should isolate it
+
+91
+00:03:55,920 --> 00:03:59,340
+Do not let it run on your main computer
+
+92
+00:03:59,340 --> 00:04:01,460
+The main point is that there is significant risk in this area.
+
+93
+00:04:01,460 --> 00:04:03,640
+If you don't want to rely entirely on CLI
+
+94
+00:04:03,640 --> 00:04:05,320
+Control UI is very useful
+
+95
+00:04:05,320 --> 00:04:07,210
+By default, it's this address
+
+96
+00:04:07,210 --> 00:04:11,950
+It will display in detail every conversation you have with the bot.
+
+97
+00:04:11,950 --> 00:04:14,720
+You can see the detailed tool invocation flow
+
+98
+00:04:14,720 --> 00:04:18,060
+Let's take a look at some of the popular trends on social media.
+
+99
+00:04:18,060 --> 00:04:23,079
+It can proactively send you morning briefings and handle email follow-ups.
+
+100
+00:04:23,079 --> 00:04:24,879
+schedule arrangement
+
+101
+00:04:24,879 --> 00:04:27,830
+the production pipeline for project research content
+
+102
+00:04:27,830 --> 00:04:29,910
+Of course, it can also help you with Vibe Coding
+
+103
+00:04:29,910 --> 00:04:31,390
+as long as it is given a good skill
+
+104
+00:04:31,390 --> 00:04:32,960
+its capabilities are expanded
+
+105
+00:04:32,960 --> 00:04:34,240
+From this perspective
+
+106
+00:04:34,240 --> 00:04:35,840
+The more popular Moltbot becomes
+
+107
+00:04:35,840 --> 00:04:37,919
+the entire ecosystem will become more prosperous
+
+108
+00:04:37,919 --> 00:04:39,019
+Let's take a quick look
+
+109
+00:04:39,019 --> 00:04:40,199
+For different use cases,
+
+110
+00:04:40,199 --> 00:04:42,000
+how to give it prompts
+
+111
+00:04:42,200 --> 00:04:46,000
+I'll put this part of the content on the Planet.
+
+112
+00:04:46,000 --> 00:04:48,040
+If you're interested, you can take a look
+
+113
+00:04:48,040 --> 00:04:50,970
+For example, the company here is researching content production pipelines
+
+114
+00:04:50,970 --> 00:04:54,390
+how to develop prompts
+
+115
+00:04:54,630 --> 00:04:56,850
+and skill self-evolution
+
+116
+00:04:56,850 --> 00:04:58,150
+Now let's take a detailed look at what Clawbot
+
+117
+00:04:58,150 --> 00:05:00,550
+What tasks has it helped me complete
+
+118
+00:05:00,550 --> 00:05:03,159
+After I paired with it,
+
+119
+00:05:03,479 --> 00:05:07,530
+First, I had it help me search for the trending news from the past 24 hours.
+
+120
+00:05:07,530 --> 00:05:10,990
+It prompted me to first obtain the Brave API key
+
+121
+00:05:10,990 --> 00:05:11,830
+After setting it up
+
+122
+00:05:11,830 --> 00:05:15,010
+it can immediately provide me with the search results
+
+123
+00:05:15,150 --> 00:05:18,070
+After that, I asked it to install a new Skill
+
+124
+00:05:18,070 --> 00:05:20,620
+This Skill can download videos
+
+125
+00:05:20,900 --> 00:05:22,500
+It was quickly installed
+
+126
+00:05:22,500 --> 00:05:25,320
+It told me I had to restart Clawdbot
+
+127
+00:05:25,320 --> 00:05:26,680
+After I restarted it
+
+128
+00:05:26,680 --> 00:05:30,550
+let it summarize this video
+
+129
+00:05:30,550 --> 00:05:33,310
+Soon it downloaded the subtitles and summarized them.
+
+130
+00:05:33,310 --> 00:05:38,530
+Here, I'm using MiniMax M2.1, which is very fast.
+
+131
+00:05:38,530 --> 00:05:40,530
+Its programming capabilities are quite impressive.
+
+132
+00:05:40,530 --> 00:05:42,600
+particularly suitable for writing small scripts
+
+133
+00:05:42,600 --> 00:05:44,960
+So it's very suitable to use in Clawbot
+
+134
+00:05:44,960 --> 00:05:46,620
+After that, I prompted it
+
+135
+00:05:46,620 --> 00:05:49,540
+I said only the text is needed, no subtitle formatting
+
+136
+00:05:49,540 --> 00:05:54,010
+It will convert it into plain text for me within seconds.
+
+137
+00:05:54,010 --> 00:05:55,890
+and save it locally
+
+138
+00:05:55,890 --> 00:05:56,650
+After that,
+
+139
+00:05:56,650 --> 00:05:59,470
+
+
+140
+00:05:59,470 --> 00:06:02,659
+have it write a high-quality article
+
+141
+00:06:02,659 --> 00:06:05,579
+and ask it to search for more information
+
+142
+00:06:05,579 --> 00:06:07,899
+Here I prompt it to remember
+
+143
+00:06:07,899 --> 00:06:10,460
+Whenever I mention the download directory in the future
+
+144
+00:06:10,460 --> 00:06:15,100
+then help me put it in such a local directory on my computer
+
+145
+00:06:15,100 --> 00:06:18,909
+We can see that it replied saying it has remembered my preference.
+
+146
+00:06:18,909 --> 00:06:22,570
+
+
+147
+00:06:22,570 --> 00:06:24,230
+It quickly found the search results
+
+148
+00:06:24,230 --> 00:06:25,010
+But I took a look
+
+149
+00:06:25,010 --> 00:06:27,870
+These two images are not related to Ollama.
+
+150
+00:06:27,870 --> 00:06:29,940
+So I asked it to modify it again
+
+151
+00:06:29,940 --> 00:06:32,300
+and it provided an image in which
+
+152
+00:06:32,300 --> 00:06:34,789
+Initially it used the PNG format
+
+153
+00:06:34,789 --> 00:06:39,850
+Later, it helped me change it to SVG format before it worked.
+
+154
+00:06:39,850 --> 00:06:43,610
+I checked the SVG it provided
+
+155
+00:06:43,610 --> 00:06:45,560
+the Ollama SVG
+
+156
+00:06:45,560 --> 00:06:47,460
+which means it helped me find
+
+157
+00:06:47,460 --> 00:06:49,560
+and downloaded it to my local device
+
+158
+00:06:49,560 --> 00:06:52,950
+When we chat with it on Telegram
+
+159
+00:06:52,950 --> 00:06:56,720
+It supports sending multiple messages to it
+
+160
+00:06:56,720 --> 00:06:58,940
+It can invoke sub-agents
+
+161
+00:06:58,940 --> 00:07:00,960
+can help you complete tasks in parallel
+
+162
+00:07:00,960 --> 00:07:04,040
+For example, here, I ask it to search for usage examples of Clawbot users
+
+163
+00:07:04,040 --> 00:07:05,750
+excellent cases
+
+164
+00:07:05,750 --> 00:07:08,930
+at least 5 articles into the download directory and
+
+165
+00:07:08,930 --> 00:07:14,070
+and search for 10 high-quality YouTube videos, download the subtitles
+
+166
+00:07:14,070 --> 00:07:16,090
+also needs to be placed in the same folder
+
+167
+00:07:16,090 --> 00:07:18,890
+it then starts the sub-agent
+
+168
+00:07:18,890 --> 00:07:22,520
+Moreover, each step is briefly explained.
+
+169
+00:07:22,520 --> 00:07:23,660
+After that,
+
+170
+00:07:23,660 --> 00:07:25,300
+we can see this
+
+171
+00:07:25,300 --> 00:07:28,020
+I see that the searched information has not been displayed yet
+
+172
+00:07:28,020 --> 00:07:29,840
+I sent it a new message again
+
+173
+00:07:29,840 --> 00:07:31,700
+Search for information on Kimi 2.5
+
+174
+00:07:31,700 --> 00:07:33,280
+and also summarize it
+
+175
+00:07:33,280 --> 00:07:35,760
+After that, you'll see it
+
+176
+00:07:35,760 --> 00:07:38,940
+Here it shows what the sub-agent is doing
+
+177
+00:07:38,940 --> 00:07:42,040
+In other words, we can send it multiple tasks simultaneously.
+
+178
+00:07:42,040 --> 00:07:43,220
+Here I need to add a point
+
+179
+00:07:43,220 --> 00:07:47,740
+I don't usually let AI download multiple YouTube videos for me.
+
+180
+00:07:47,740 --> 00:07:50,660
+Moreover, the topic of this video is very similar to the topic of the video I want to create.
+
+181
+00:07:50,660 --> 00:07:52,300
+Ah
+
+182
+00:07:52,300 --> 00:07:53,520
+This is something I wouldn't do
+
+183
+00:07:53,520 --> 00:07:55,590
+Here, it's just to test it.
+
+184
+00:07:55,590 --> 00:07:57,750
+The quality of its completion is very good
+
+185
+00:07:57,750 --> 00:08:01,030
+Then I had it convert the subtitle file into plain text
+
+186
+00:08:01,030 --> 00:08:03,050
+Ask it to summarize again
+
+187
+00:08:03,050 --> 00:08:06,290
+and also had it generate Mermaid diagrams with rich styling
+
+188
+00:08:07,330 --> 00:08:09,369
+It did a very good job
+
+189
+00:08:09,369 --> 00:08:11,489
+only one Mermaid diagram
+
+190
+00:08:11,489 --> 00:08:12,480
+rendering issue
+
+191
+00:08:12,480 --> 00:08:17,600
+Later, I converted the corresponding Mermaid diagram into ASCII.
+
+192
+00:08:17,600 --> 00:08:19,480
+Here it mentions sub-agents
+
+193
+00:08:19,480 --> 00:08:23,030
+Let's take a look at the Moltbot Multi-task Parallelism Guide
+
+194
+00:08:23,030 --> 00:08:25,550
+I was in the cloned official Moltbot repository
+
+195
+00:08:25,550 --> 00:08:28,010
+asked the AI
+
+196
+00:08:28,010 --> 00:08:28,830
+is asking how many main agents it supports concurrent execution
+
+197
+00:08:28,830 --> 00:08:31,530
+Then how many main agents does it support for concurrent execution?
+
+198
+00:08:31,530 --> 00:08:34,530
+and sub-agent parallelism, etc.
+
+199
+00:08:34,530 --> 00:08:38,309
+Then, the AI searched for information and told me that the Telegram bot
+
+200
+00:08:38,309 --> 00:08:42,270
+It has a message debounce
+
+201
+00:08:42,270 --> 00:08:45,370
+and it also has concurrent queue processing
+
+202
+00:08:45,370 --> 00:08:47,750
+The default is 4 concurrent tasks.
+
+203
+00:08:47,750 --> 00:08:50,400
+Tasks are automatically queued and prioritized.
+
+204
+00:08:50,400 --> 00:08:51,320
+efficient execution
+
+205
+00:08:51,320 --> 00:08:54,280
+Moltbot has a sessions_spawn tool
+
+206
+00:08:54,280 --> 00:08:55,800
+We then send complex tasks
+
+207
+00:08:55,800 --> 00:08:57,140
+the main agent analyzes it
+
+208
+00:08:57,140 --> 00:08:59,190
+and then calls the sub-agent
+
+209
+00:08:59,190 --> 00:09:00,930
+finally report the results
+
+210
+00:09:00,930 --> 00:09:03,270
+This advantage lies in long-running tasks
+
+211
+00:09:03,270 --> 00:09:06,130
+slow tools do not block the main process
+
+212
+00:09:06,130 --> 00:09:08,350
+Usage scenario comparison table, and the sessions will also be isolated
+
+213
+00:09:08,350 --> 00:09:10,250
+The cost will also be more optimized
+
+214
+00:09:11,570 --> 00:09:13,540
+Even if you don't use Moltbot
+
+215
+00:09:13,540 --> 00:09:16,300
+I think it's also necessary to study
+
+216
+00:09:16,300 --> 00:09:18,160
+how its code is written
+
+217
+00:09:18,160 --> 00:09:19,970
+The author of Moltbot, Peter,
+
+218
+00:09:19,970 --> 00:09:24,790
+In 2021, his product generated $110 million in sales.
+
+219
+00:09:24,790 --> 00:09:26,170
+He had already retired.
+
+220
+00:09:26,170 --> 00:09:28,089
+he made a comeback last year
+
+221
+00:09:28,089 --> 00:09:30,429
+The amount of code written every week is terrifying.
+
+222
+00:09:30,429 --> 00:09:32,889
+If we send multiple messages in the same Telegram chat
+
+223
+00:09:32,889 --> 00:09:34,509
+quickly send multiple Messages
+
+224
+00:09:34,509 --> 00:09:37,010
+it will merge the messages
+
+225
+00:09:37,290 --> 00:09:41,610
+If you wait for a reply before sending a new task, it will be processed in a queue.
+
+226
+00:09:41,610 --> 00:09:42,770
+Now let's take a look at
+
+227
+00:09:42,770 --> 00:09:46,890
+How to get Moltbot to help me create a Skill
+
+228
+00:09:46,890 --> 00:09:50,350
+Link to Replicate to call image or voice generation models
+
+229
+00:09:50,350 --> 00:09:53,530
+It first needs to understand some details
+
+230
+00:09:53,530 --> 00:09:55,070
+This counter-question is excellent.
+
+231
+00:09:55,070 --> 00:09:56,390
+I told it
+
+232
+00:09:56,390 --> 00:10:00,970
+it quickly prompted me, saying that this Skill has been created and is ready for testing
+
+233
+00:10:00,970 --> 00:10:02,770
+and it's ready for testing
+
+234
+00:10:02,770 --> 00:10:06,090
+I then sent the Replicate key to it
+
+235
+00:10:06,740 --> 00:10:11,450
+After that, it started prompting me that as long as I provided the prompt
+
+236
+00:10:11,450 --> 00:10:13,870
+it can generate images
+
+237
+00:10:13,870 --> 00:10:16,930
+It will run a test in the background on its own.
+
+238
+00:10:16,930 --> 00:10:19,430
+After that, I sent it a new link
+
+239
+00:10:19,430 --> 00:10:22,009
+about the seedream model
+
+240
+00:10:22,009 --> 00:10:23,829
+have it add this new model
+
+241
+00:10:23,829 --> 00:10:25,529
+
+
+242
+00:10:25,529 --> 00:10:27,900
+
+
+243
+00:10:27,900 --> 00:10:31,340
+After that, the test results came out quite well.
+
+244
+00:10:31,340 --> 00:10:34,810
+I also asked it to search for the weather in Shanghai for the next 15 days
+
+245
+00:10:34,810 --> 00:10:37,450
+and have it create a line chart
+
+246
+00:10:37,450 --> 00:10:39,910
+I think the quality is still very good
+
+247
+00:10:39,910 --> 00:10:42,130
+And the speed is also very fast
+
+248
+00:10:42,130 --> 00:10:43,550
+In addition to what was just mentioned
+
+249
+00:10:43,550 --> 00:10:46,760
+how it guided me to configure the Brave API key
+
+250
+00:10:46,760 --> 00:10:49,120
+help me install
+
+251
+00:10:49,120 --> 00:10:50,220
+video download Skill
+
+252
+00:10:50,220 --> 00:10:54,110
+It can also be set up to handle some other tasks, such as creating a local project
+
+253
+00:10:54,110 --> 00:10:58,000
+Create a cBode project
+
+254
+00:10:58,000 --> 00:11:00,180
+for storing coding projects
+
+255
+00:11:00,180 --> 00:11:02,420
+including having it configure Deepgram
+
+256
+00:11:02,420 --> 00:11:04,250
+for speech-to-text
+
+257
+00:11:04,250 --> 00:11:05,330
+Now let's take a look at
+
+258
+00:11:05,330 --> 00:11:07,470
+How to get Moltbot to help me with coding
+
+259
+00:11:07,470 --> 00:11:10,569
+First, I want it to help me come up with a file name
+
+260
+00:11:10,569 --> 00:11:15,949
+Then, I will prompt it to create a new subfolder in cbode
+
+261
+00:11:15,949 --> 00:11:17,549
+help me create one using remotion
+
+262
+00:11:17,549 --> 00:11:21,380
+Introduction video about Clawbot
+
+263
+00:11:21,380 --> 00:11:23,720
+I will definitely have it help me start it up
+
+264
+00:11:23,720 --> 00:11:26,500
+and have it add some content
+
+265
+00:11:26,500 --> 00:11:29,839
+Later, we will see such a video structure
+
+266
+00:11:29,839 --> 00:11:32,879
+and it will also have some simple UGC Anime effects
+
+267
+00:11:32,879 --> 00:11:35,659
+Finally, I also had it export the video
+
+268
+00:11:35,659 --> 00:11:38,620
+send it to the current bot window
+
+269
+00:11:38,620 --> 00:11:42,180
+This is the effect of the video it generated
+
+270
+00:11:42,380 --> 00:11:44,780
+This was all done entirely by itself.
+
+271
+00:11:44,780 --> 00:11:46,280
+I didn't write a single line of code.
+
+272
+00:11:46,280 --> 00:11:49,310
+After that, I had it search for a piece of background music
+
+273
+00:11:49,310 --> 00:11:51,630
+add voiceover to this remotion project
+
+274
+00:11:51,630 --> 00:11:55,710
+This is the final effect with the added Music it showcased
+
+275
+00:11:59,720 --> 00:12:01,720
+I think it's quite good
+
+276
+00:12:01,720 --> 00:12:06,210
+We can do it completely in any outdoor scenario
+
+277
+00:12:06,210 --> 00:12:09,170
+With a mobile phone, you can prompt Moltbot to help us do it
+
+278
+00:12:09,170 --> 00:12:11,680
+produce videos
+
+279
+00:12:11,680 --> 00:12:13,800
+It produces good results
+
+280
+00:12:13,800 --> 00:12:15,700
+we can have it rendered
+
+281
+00:12:15,700 --> 00:12:18,410
+send it to the current chat window
+
+282
+00:12:18,410 --> 00:12:20,890
+Let you see which areas can be adjusted
+
+283
+00:12:20,890 --> 00:12:23,230
+This is the new encoding mode.
+
+284
+00:12:23,230 --> 00:12:25,660
+This is why many people like Moltbot
+
+285
+00:12:25,660 --> 00:12:28,260
+It offers an exceptionally high degree of freedom.
+
+286
+00:12:28,260 --> 00:12:30,900
+compatible with multiple mobile applications
+
+287
+00:12:30,900 --> 00:12:35,250
+In addition to using this method to have Moltbot write code for me
+
+288
+00:12:35,250 --> 00:12:38,920
+You can also utilize a coding agent Skill
+
+289
+00:12:38,920 --> 00:12:42,620
+call Codex, or Claude Code
+
+290
+00:12:42,620 --> 00:12:46,760
+or other coding tools to help you write code
+
+291
+00:12:46,760 --> 00:12:49,520
+You can unleash your creativity anytime, anywhere.
+
+292
+00:12:49,520 --> 00:12:52,120
+Let's take a look at how to set up Deepgram.
+
+293
+00:12:52,120 --> 00:12:54,250
+I just directly send the key to it
+
+294
+00:12:54,250 --> 00:12:56,030
+let it set it up for me
+
+295
+00:12:56,030 --> 00:12:58,650
+as long as I send it voice files
+
+296
+00:12:58,650 --> 00:13:01,610
+or it obtains the audio from another source
+
+297
+00:13:01,610 --> 00:13:04,090
+can help me convert it into text
+
+298
+00:13:04,370 --> 00:13:07,540
+Soon, it told me that the Settings were configured to support various formats
+
+299
+00:13:07,540 --> 00:13:13,980
+After that, I sent a Chinese language snippet to it
+
+300
+00:13:13,980 --> 00:13:16,240
+It quickly converted it for me
+
+301
+00:13:16,240 --> 00:13:20,120
+After that, I sent it another English audio clip.
+
+302
+00:13:20,120 --> 00:13:23,550
+It told me that the quality of this speech transcription was poor
+
+303
+00:13:23,550 --> 00:13:25,630
+It might be an issue with the audio itself.
+
+304
+00:13:25,630 --> 00:13:28,520
+In fact, the audio quality is actually very good
+
+305
+00:13:28,520 --> 00:13:31,920
+That's because when it was initially set up,
+
+306
+00:13:31,920 --> 00:13:34,940
+did not add automatic audio language recognition
+
+307
+00:13:35,300 --> 00:13:38,480
+So I had it make the changes
+
+308
+00:13:38,480 --> 00:13:40,329
+it can then be used normally
+
+309
+00:13:40,329 --> 00:13:43,760
+We can see that adding a third-party API
+
+310
+00:13:43,760 --> 00:13:45,160
+is so incredibly simple
+
+311
+00:13:45,160 --> 00:13:46,440
+Now let's take a look at
+
+312
+00:13:46,440 --> 00:13:49,930
+Moltbot's operation commands in Telegram
+
+313
+00:13:50,210 --> 00:13:53,670
+The basic commands include /help, /commands, and /status.
+
+314
+00:13:53,670 --> 00:13:57,460
+Status allows you to check which model is currently being used.
+
+315
+00:13:57,460 --> 00:13:59,159
+context
+
+316
+00:13:59,159 --> 00:14:00,719
+how much of the length has been occupied
+
+317
+00:14:00,719 --> 00:14:03,639
+Use /think to set the thinking depth
+
+318
+00:14:03,639 --> 00:14:07,359
+/verbose can control the output of Tools and called information
+
+319
+00:14:07,359 --> 00:14:09,379
+/reasoning can control the visibility of the reasoning process
+
+320
+00:14:09,379 --> 00:14:11,999
+visibility, /model can switch models
+
+321
+00:14:11,999 --> 00:14:15,220
+/models lists the available models
+
+322
+00:14:15,220 --> 00:14:17,460
+/new starts a new conversation
+
+323
+00:14:17,460 --> 00:14:19,220
+We can use /skill
+
+324
+00:14:19,220 --> 00:14:23,400
+then specify the name to make it run the designated skill
+
+325
+00:14:23,400 --> 00:14:26,040
+/debug enter debug settings
+
+326
+00:14:26,040 --> 00:14:28,960
+/queue here to adjust queue settings
+
+327
+00:14:28,960 --> 00:14:33,220
+/subagents can manage sub-agents, and /queue's queue settings
+
+328
+00:14:33,220 --> 00:14:36,160
+Settings require some considerations.
+
+329
+00:14:36,160 --> 00:14:40,860
+By default, it's a new message that will guide the ongoing reply.
+
+330
+00:14:40,860 --> 00:14:45,069
+interrupt means new Messages will interrupt the current reply
+
+331
+00:14:45,069 --> 00:14:47,149
+followup is
+
+332
+00:14:47,149 --> 00:14:49,429
+New messages wait in queue, etc.
+
+333
+00:14:49,429 --> 00:14:52,010
+So if we use it at night
+
+334
+00:14:52,010 --> 00:14:54,630
+you can let it perform follow-up
+
+335
+00:14:54,630 --> 00:14:56,830
+We can also use inline commands
+
+336
+00:14:56,830 --> 00:14:59,990
+This way, sending it becomes a bit simpler.
+
+337
+00:14:59,990 --> 00:15:03,250
+Finally, let's talk about how to enable dual-machine collaboration on Mac
+
+338
+00:15:03,250 --> 00:15:05,930
+enable screen sharing and file transfer
+
+339
+00:15:05,930 --> 00:15:09,250
+allows you to easily operate on Mac A
+
+340
+00:15:09,250 --> 00:15:11,410
+and record the screen of Mac B
+
+341
+00:15:11,410 --> 00:15:14,730
+
+
+342
+00:15:14,970 --> 00:15:18,730
+First, we can proceed on the controlled Mac computer
+
+343
+00:15:18,730 --> 00:15:22,310
+enable screen sharing in Settings
+
+344
+00:15:22,310 --> 00:15:24,730
+You can also enable file sharing
+
+345
+00:15:24,730 --> 00:15:26,370
+Remember the computer's name
+
+346
+00:15:26,370 --> 00:15:30,330
+Next, we can open Finder on Mac A's computer
+
+347
+00:15:30,330 --> 00:15:31,490
+left sidebar
+
+348
+00:15:31,490 --> 00:15:33,190
+locate the network location
+
+349
+00:15:33,190 --> 00:15:37,120
+Double-click on Mac B to connect, and then you can quickly access Mac B's hard drive.
+
+350
+00:15:37,120 --> 00:15:40,200
+Ah, the hard drive of B can be quickly opened.
+
+351
+00:15:40,200 --> 00:15:42,080
+screen sharing and file transfer
+
+352
+00:15:42,080 --> 00:15:46,440
+allows you to control two hosts from a single computer
+
+353
+00:15:46,440 --> 00:15:48,800
+It will be more convenient when you debug Moltbot.
+
+354
+00:15:48,800 --> 00:15:52,660
+That's all for today's introduction about Moltbot.
+
+355
+00:15:52,660 --> 00:15:53,880
+A great tool
+
+356
+00:15:53,880 --> 00:15:57,000
+For You to try it on an independent device
+
+357
+00:15:57,000 --> 00:15:58,900
+or try it on a VPS
+

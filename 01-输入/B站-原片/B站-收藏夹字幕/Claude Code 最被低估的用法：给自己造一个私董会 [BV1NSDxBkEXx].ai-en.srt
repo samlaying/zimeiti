@@ -1,0 +1,480 @@
+1
+00:00:00,000 --> 00:00:00,460
+Hey everyone, Huang Shu here, open-sourcing my very first skill.
+
+2
+00:00:00,460 --> 00:00:05,060
+It's a Private Board Skill.
+
+3
+00:00:05,060 --> 00:00:08,640
+It'll bring in 12 top-tier thinkers for you.
+
+4
+00:00:08,640 --> 00:00:11,720
+and form a think tank based on one of your business decisions.
+
+5
+00:00:11,720 --> 00:00:14,240
+Alright, let me just show you how it works.
+
+6
+00:00:14,240 --> 00:00:16,180
+For example, let's say Uncle Huang used to be an OPC.
+
+7
+00:00:16,180 --> 00:00:17,380
+and can make a million a year.
+
+8
+00:00:17,380 --> 00:00:20,860
+So, I was thinking, could I just build a team to hit that 10 million mark?
+
+9
+00:00:20,860 --> 00:00:23,500
+So, we just throw this topic in, without giving it too much information.
+
+10
+00:00:23,500 --> 00:00:25,400
+and fed it directly to our Board of Directors.
+
+11
+00:00:25,400 --> 00:00:29,050
+And so, it brought out six members of the board to attend the meeting.
+
+12
+00:00:29,050 --> 00:00:30,630
+And so, after three rounds of debate,
+
+13
+00:00:30,630 --> 00:00:32,810
+And finally, it presents a conclusion.
+
+14
+00:00:32,810 --> 00:00:33,710
+Let's take a look.
+
+15
+00:00:33,710 --> 00:00:37,770
+First off, among the advisors for this private board meeting, we have Nan Tian, who's a personal favorite of Uncle Huang's.
+
+16
+00:00:37,770 --> 00:00:38,410
+Nantian.
+
+17
+00:00:38,410 --> 00:00:39,510
+And there's that guy.
+
+18
+00:00:40,830 --> 00:00:41,770
+We've got Lao Mao, and Zhang Yiming.
+
+19
+00:00:41,770 --> 00:00:42,710
+Steve Jobs.
+
+20
+00:00:42,710 --> 00:00:43,850
+And Charlie Munger.
+
+21
+00:00:43,850 --> 00:00:47,900
+Alright, so, let's see what kind of discussion they have in the first round.
+
+22
+00:00:47,900 --> 00:00:49,740
+Alright, so in the first round, Southern Sky kicks things off by asking, "Hey..."
+
+23
+00:00:49,740 --> 00:00:51,500
+First, let's ask: how did I get this one million in the first place?
+
+24
+00:00:51,500 --> 00:00:52,780
+If I can do that,
+
+25
+00:00:52,780 --> 00:00:54,910
+This proves that the demand is real.
+
+26
+00:00:54,910 --> 00:00:58,370
+So, you first need to get a clear picture of the profit structure for that one million, and the time investment involved.
+
+27
+00:00:58,370 --> 00:01:00,000
+Alright, let's talk about the ten-million mark.
+
+28
+00:01:00,280 --> 00:01:04,410
+And then we have Naval Ravikant. He's conditionally against working in teams.
+
+29
+00:01:04,410 --> 00:01:06,690
+The core of it is your specific knowledge.
+
+30
+00:01:06,690 --> 00:01:08,560
+It's about AI efficiency and content creation.
+
+31
+00:01:08,560 --> 00:01:11,000
+and it might not be your specific knowledge.
+
+32
+00:01:11,000 --> 00:01:12,420
+You're leading a team of 20 people.
+
+33
+00:01:12,420 --> 00:01:14,120
+But then, he's going to ask me,
+
+34
+00:01:14,120 --> 00:01:16,240
+Do you actually enjoy that process?
+
+35
+00:01:20,640 --> 00:01:22,420
+The key is to first identify the core conflict. It's like the strategy of 'encircling the cities from the rural areas'.
+
+36
+00:01:22,420 --> 00:01:24,760
+It's not about going up against the regular army right from the start.
+
+37
+00:01:24,760 --> 00:01:27,360
+You have to know in advance what the mission of our guerrilla unit is.
+
+38
+00:01:27,360 --> 00:01:29,040
+And Zhang Yiming's logic is this:
+
+39
+00:01:29,040 --> 00:01:30,780
+I break my work down into two categories.
+
+40
+00:01:30,780 --> 00:01:32,900
+One category is the work that doesn't require me.
+
+41
+00:01:32,900 --> 00:01:34,820
+and the tasks that don't require my unique skills can be delegated.
+
+42
+00:01:34,820 --> 00:01:39,450
+So the question then becomes, how much of my time is spent on work that doesn't actually need me?
+
+43
+00:01:39,450 --> 00:01:42,170
+So, Steve Jobs's advice is to just go for it directly.
+
+44
+00:01:42,170 --> 00:01:44,470
+So, the counter-argument to his advice is to focus first, right?
+
+45
+00:01:44,470 --> 00:01:46,470
+Focus first, team later. That's Munger's advice.
+
+46
+00:01:46,470 --> 00:01:49,010
+The thing is, you've hired people.
+
+47
+00:01:49,010 --> 00:01:52,610
+Your revenue certainty has to be greater than their cost before you can hire them. And then what?
+
+48
+00:01:52,610 --> 00:01:57,310
+And it will then present three key points of disagreement.
+
+49
+00:01:57,310 --> 00:02:00,740
+So, the first point of contention is about using AI as leverage: can it replace a human team?
+
+50
+00:02:00,740 --> 00:02:03,800
+The second point of contention is whether to focus first, or to identify the main problem first.
+
+51
+00:02:03,800 --> 00:02:07,120
+And the third one is the family factor when scaling from a million to ten million.
+
+52
+00:02:07,120 --> 00:02:10,820
+And for each of these points, it provides a key insight.
+
+53
+00:02:10,820 --> 00:02:14,760
+And finally, it presents a summary of everything that came out of this discussion.
+
+54
+00:02:14,760 --> 00:02:16,320
+a resolution from the board.
+
+55
+00:02:16,320 --> 00:02:18,149
+This includes some points of consensus,
+
+56
+00:02:18,149 --> 00:02:20,209
+as well as some of the key disagreements.
+
+57
+00:02:20,209 --> 00:02:26,220
+Then it provides a risk map and actionable recommendations. It's a three-step plan: the first step is to diagnose.
+
+58
+00:02:26,220 --> 00:02:28,680
+Step two: Focus, plus leveraging AI.
+
+59
+00:02:28,680 --> 00:02:31,200
+And for the third step, after you've validated your idea, then you can think about building a team.
+
+60
+00:02:31,200 --> 00:02:35,360
+So, the final evaluation, combining the perspectives of Nantian and Munger, is that going from one million to ten million...
+
+61
+00:02:35,360 --> 00:02:36,680
+So, going from one million to ten million.
+
+62
+00:02:36,680 --> 00:02:40,000
+It's not about doing more of the same thing. It's about doing a completely different thing.
+
+63
+00:02:40,000 --> 00:02:41,580
+So, the team is the amplifier.
+
+64
+00:02:41,580 --> 00:02:42,440
+It's not the engine.
+
+65
+00:02:42,440 --> 00:02:46,160
+If you don't change the engine, adding more amplifiers is useless.
+
+66
+00:02:46,160 --> 00:02:48,440
+So, how was this entire Skill actually built?
+
+67
+00:02:48,440 --> 00:02:49,440
+And it's also incredibly simple.
+
+68
+00:02:49,440 --> 00:02:51,720
+Like, just recently, there's this 'Nuwa Skill' or something.
+
+69
+00:02:51,720 --> 00:02:52,740
+Colleague Skill,
+
+70
+00:02:52,740 --> 00:02:53,360
+There are just so many of them.
+
+71
+00:02:53,360 --> 00:02:56,510
+So, 'Ex.Skill' might just be a collection of these distilled Skills.
+
+72
+00:02:56,510 --> 00:02:57,640
+Look at all these!
+
+73
+00:02:57,640 --> 00:02:59,160
+And then I was like, hey...
+
+74
+00:02:59,160 --> 00:03:00,660
+So, since everyone's already done the distilling,
+
+75
+00:03:00,660 --> 00:03:03,920
+And that reminded me of a prompt that was all the rage for a while.
+
+76
+00:03:03,920 --> 00:03:05,529
+the one for running a private advisory board.
+
+77
+00:03:05,529 --> 00:03:09,809
+So, is it possible to take all this 'distilled' knowledge from these different masterminds,
+
+78
+00:03:09,809 --> 00:03:12,789
+and turn them into my own personal, all-star think tank.
+
+79
+00:03:12,789 --> 00:03:14,480
+So I was like, "Ah!"
+
+80
+00:03:14,480 --> 00:03:18,260
+So, just pull up their skills for me.
+
+81
+00:03:18,260 --> 00:03:20,380
+And then, come up with a plan for it.
+
+82
+00:03:20,380 --> 00:03:22,960
+and turn them into my own personal board of advisors.
+
+83
+00:03:22,960 --> 00:03:26,160
+Then, CC will dispatch agents for 11 different Skills to start their research.
+
+84
+00:03:26,160 --> 00:03:27,980
+So, after each of these top-tier thinkers has finished their analysis,
+
+85
+00:03:27,980 --> 00:03:30,300
+And it will know, hey, these 12 advisors...
+
+86
+00:03:30,300 --> 00:03:31,959
+what their thought map looks like,
+
+87
+00:03:31,959 --> 00:03:33,879
+What might the disagreements between each pair look like?
+
+88
+00:03:33,879 --> 00:03:35,579
+Because the more thoroughly they debate,
+
+89
+00:03:35,579 --> 00:03:38,519
+the more it can spark and give us deeper insights.
+
+90
+00:03:38,519 --> 00:03:40,919
+So, let's just go ahead and create the whole skill.
+
+91
+00:03:40,919 --> 00:03:43,380
+Alright, see? The skill was created in no time.
+
+92
+00:03:43,380 --> 00:03:46,550
+The key is to blend all sorts of different techniques.
+
+93
+00:03:46,550 --> 00:03:48,270
+And then it breaks it down into these stages.
+
+94
+00:03:48,270 --> 00:03:50,770
+And each stage handles a different task.
+
+95
+00:03:50,770 --> 00:03:55,690
+So, the core logic is, first, it takes our topic, and then analyzes what type of content that topic is.
+
+96
+00:03:55,690 --> 00:03:58,610
+Then, they'll pose 3 to 5 key questions from different perspectives.
+
+97
+00:03:58,610 --> 00:04:00,070
+and have me answer them.
+
+98
+00:04:00,070 --> 00:04:02,340
+to fill in the complete information.
+
+99
+00:04:02,340 --> 00:04:05,920
+Then, it will select the 5 to 7 most relevant advisors.
+
+100
+00:04:05,920 --> 00:04:07,420
+and they all give their own assessments.
+
+101
+00:04:07,420 --> 00:04:11,320
+Then, the advisors will debate with each other, focusing on these points of disagreement.
+
+102
+00:04:11,320 --> 00:04:13,300
+and finally, a resolution is reached.
+
+103
+00:04:13,300 --> 00:04:15,880
+And this whole process is actually really simple.
+
+104
+00:04:15,880 --> 00:04:17,440
+So, when it comes to actually using it,
+
+105
+00:04:17,440 --> 00:04:18,120
+And it's actually pretty simple too.
+
+106
+00:04:18,120 --> 00:04:19,440
+So I'll just type in 'Private Board'.
+
+107
+00:04:19,440 --> 00:04:21,540
+And then, I just add my question.
+
+108
+00:04:21,540 --> 00:04:24,230
+Then it will receive my core question.
+
+109
+00:04:24,230 --> 00:04:27,200
+to ask me some important, key questions.
+
+110
+00:04:27,200 --> 00:04:30,000
+So, after it asked, I just gave it a quick answer.
+
+111
+00:04:30,000 --> 00:04:35,150
+So, it starts by pulling together the list of board members who will be attending the meeting.
+
+112
+00:04:35,150 --> 00:04:36,390
+And then they start speaking, round after round.
+
+113
+00:04:36,390 --> 00:04:40,990
+And finally, I had it generate an HTML webpage.
+
+114
+00:04:40,990 --> 00:04:42,909
+This makes it super convenient for us to read.
+
+115
+00:04:42,909 --> 00:04:45,149
+So, that's the whole mechanism behind how this Skill is built.
+
+116
+00:04:45,149 --> 00:04:49,189
+So, I invite you all to head over to my GitHub and download it to try it out for yourselves.
+
+117
+00:04:49,189 --> 00:04:53,039
+You can even submit pull requests to help optimize the entire skill.
+
+118
+00:04:53,039 --> 00:04:55,659
+Alright, that's all we have for today.
+
+119
+00:04:55,659 --> 00:04:56,839
+We'll see you in the next one.
+
+120
+00:04:56,839 --> 00:04:58,380
+I'm Huang Shu, your AI product expert.
+

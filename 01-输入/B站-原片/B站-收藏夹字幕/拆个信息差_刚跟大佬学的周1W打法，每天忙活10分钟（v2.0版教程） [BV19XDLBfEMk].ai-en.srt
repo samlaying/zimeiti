@@ -1,0 +1,2856 @@
+1
+00:00:00,340 --> 00:00:01,940
+So today, let's quickly get you up to speed on this.
+
+2
+00:00:01,940 --> 00:00:05,440
+The first piece of information I want to share is about the tutorial series for Thunder Browser 2.0.
+
+3
+00:00:05,440 --> 00:00:08,180
+We actually recorded a 1.0 tutorial for this on Polopoly before.
+
+4
+00:00:08,180 --> 00:00:09,540
+If you haven't seen it, you can go check it out.
+
+5
+00:00:09,540 --> 00:00:11,420
+So, in that 1.0 tutorial,
+
+6
+00:00:11,420 --> 00:00:13,940
+What I'll be explaining in more detail is our complete...
+
+7
+00:00:13,940 --> 00:00:17,560
+the detailed application process, and also give you some ideas to get started.
+
+8
+00:00:17,560 --> 00:00:19,500
+So, after we finished recording that,
+
+9
+00:00:19,500 --> 00:00:20,580
+I was saying, it's a blue ocean opportunity.
+
+10
+00:00:20,580 --> 00:00:21,370
+And it's still a blue ocean.
+
+11
+00:00:21,370 --> 00:00:22,330
+And we've been getting feedback all along.
+
+12
+00:00:22,330 --> 00:00:23,960
+But I just never really got around to organizing it all.
+
+13
+00:00:23,960 --> 00:00:26,340
+What you're seeing today is version 2.0.
+
+14
+00:00:26,340 --> 00:00:29,820
+And the data you're about to see was just taken today.
+
+15
+00:00:29,820 --> 00:00:32,780
+ranging from a few thousand to ten thousand a week.
+
+16
+00:00:32,780 --> 00:00:35,700
+So, I'm going to break down the entire playbook for making 10k a week.
+
+17
+00:00:35,700 --> 00:00:37,260
+And along the way, I'll also help you guys level up your understanding of the game.
+
+18
+00:00:37,260 --> 00:00:40,090
+and then break down some other approaches and strategies.
+
+19
+00:00:40,090 --> 00:00:41,710
+But I'll get through it quickly.
+
+20
+00:00:41,710 --> 00:00:43,680
+First off, let's take a look at the site library.
+
+21
+00:00:43,680 --> 00:00:45,040
+You can join our project group chat.
+
+22
+00:00:45,040 --> 00:00:46,160
+updating the network from time to time.
+
+23
+00:00:46,160 --> 00:00:47,640
+We're constantly rolling out new activities, projects, software, and tutorials.
+
+24
+00:00:47,640 --> 00:00:50,949
+If you're interested, you can check out the Thunder Browser.
+
+25
+00:00:50,949 --> 00:00:53,309
+I used to have it up on the homepage of the website for a while.
+
+26
+00:00:53,309 --> 00:00:55,749
+I actually had it running for a while in the 'Newbie Breakthrough' section.
+
+27
+00:00:55,749 --> 00:00:57,800
+But in reality, very few people are actually running with this strategy.
+
+28
+00:00:57,800 --> 00:00:59,400
+So, not many people have really been running with it.
+
+29
+00:00:59,400 --> 00:01:02,520
+Most people probably focus more on things like driving new sign-ups for cloud storage services.
+
+30
+00:01:02,520 --> 00:01:05,680
+But the thing is, the data from Xunlei has always been really solid.
+
+31
+00:01:05,680 --> 00:01:07,840
+We're connected with all the major platforms.
+
+32
+00:01:07,840 --> 00:01:09,460
+And we're on a first-name basis with their bosses.
+
+33
+00:01:09,460 --> 00:01:12,370
+So today, we're going to use Dorami as our case study.
+
+34
+00:01:12,370 --> 00:01:13,690
+Back in version 1.0, we were using Rentobang.
+
+35
+00:01:13,690 --> 00:01:14,970
+But today, we're going to use Dorami as our case study.
+
+36
+00:01:14,970 --> 00:01:16,330
+Because all the data we're breaking down today,
+
+37
+00:01:16,330 --> 00:01:18,490
+And all the pictures you're seeing are from DoraMi.
+
+38
+00:01:18,490 --> 00:01:18,970
+Anyway, let's continue.
+
+39
+00:01:18,970 --> 00:01:19,890
+It doesn't matter which platform you use.
+
+40
+00:01:19,890 --> 00:01:20,800
+It doesn't matter which one you use.
+
+41
+00:01:20,800 --> 00:01:23,830
+They say we're the top dogs on Dorami, the one and only, four sixes.
+
+42
+00:01:23,830 --> 00:01:25,270
+So, about this project from Thunder...
+
+43
+00:01:25,270 --> 00:01:26,030
+Just search for Thunder directly.
+
+44
+00:01:26,030 --> 00:01:27,550
+Alright, take a good look. There are three different Thunder options.
+
+45
+00:01:27,550 --> 00:01:28,410
+Search for Thunder.
+
+46
+00:01:28,410 --> 00:01:30,170
+Thunder Drive and Thunder Browser.
+
+47
+00:01:30,170 --> 00:01:32,030
+The data for Thunder Drive isn't great.
+
+48
+00:01:32,030 --> 00:01:35,010
+Its performance just isn't as good as other cloud storage services like UCL or whatever.
+
+49
+00:01:35,010 --> 00:01:36,950
+And the difference is actually huge.
+
+50
+00:01:36,950 --> 00:01:38,690
+But when you look at the data for Thunder Browser versus Thunder Drive...
+
+51
+00:01:38,690 --> 00:01:40,350
+They're not even in the same league.
+
+52
+00:01:40,350 --> 00:01:44,510
+A lot of people have used Thunder Drive, but for the younger generation, the post-2000s kids...
+
+53
+00:01:44,510 --> 00:01:45,830
+But this younger generation? They probably don't use it much at all.
+
+54
+00:01:45,830 --> 00:01:47,370
+But for people like my parents' generation,
+
+55
+00:01:47,370 --> 00:01:49,550
+Back when I was a little kid, my dad and his generation...
+
+56
+00:01:49,550 --> 00:01:52,710
+Back then, every computer they used had to have a download manager installed.
+
+57
+00:01:52,710 --> 00:01:53,490
+And that was, without a doubt, Thunder.
+
+58
+00:01:53,490 --> 00:01:57,400
+So, Thunder Drive and the regular Thunder downloader are actually part of the same ecosystem.
+
+59
+00:01:57,400 --> 00:01:58,940
+Their user bases are the same.
+
+60
+00:01:58,940 --> 00:02:01,800
+So, make no mistake, their user bases are one and the same.
+
+61
+00:02:01,800 --> 00:02:04,160
+And a lot of them are in their 50s and 60s.
+
+62
+00:02:04,160 --> 00:02:06,910
+So, for people like this, they've definitely used Xunlei before.
+
+63
+00:02:06,910 --> 00:02:08,789
+So, when it comes to the project itself,
+
+64
+00:02:08,789 --> 00:02:11,008
+So, your job is to get them to come and use Thunder.
+
+65
+00:02:11,008 --> 00:02:12,649
+But chances are, they won't be able to bring in any new users.
+
+66
+00:02:12,649 --> 00:02:15,489
+But Thunder Browser is a whole separate thing.
+
+67
+00:02:15,489 --> 00:02:17,389
+Its user base is separate from the Thunder Drive.
+
+68
+00:02:17,389 --> 00:02:20,090
+So, I'm going to walk you through some of the basic strategies here.
+
+69
+00:02:20,090 --> 00:02:20,910
+Let me show you guys first.
+
+70
+00:02:20,910 --> 00:02:21,770
+So, I'll just walk you through it.
+
+71
+00:02:21,770 --> 00:02:23,250
+For those of you who've seen the 1.0 version before,
+
+72
+00:02:23,250 --> 00:02:24,770
+So let's just do a quick run-through.
+
+73
+00:02:24,770 --> 00:02:25,690
+So, for users who have used Xunlei before,
+
+74
+00:02:25,690 --> 00:02:27,010
+So, does that count as a new user for Thunder Browser?
+
+75
+00:02:27,010 --> 00:02:28,130
+No, they're considered different apps.
+
+76
+00:02:28,130 --> 00:02:29,000
+Yes, they count as a new user.
+
+77
+00:02:29,000 --> 00:02:29,760
+Thunder Drive
+
+78
+00:02:29,760 --> 00:02:32,900
+For these, the CP model is that users have to sign up for a membership to download the resources.
+
+79
+00:02:32,900 --> 00:02:34,400
+We're looking at the CPA conversion rate.
+
+80
+00:02:34,400 --> 00:02:36,760
+But for the Thunder Browser, we're not looking at the conversion rate.
+
+81
+00:02:36,760 --> 00:02:37,740
+What really matters is user retention.
+
+82
+00:02:37,740 --> 00:02:39,040
+So, once they've downloaded the app,
+
+83
+00:02:39,040 --> 00:02:40,810
+and they don't delete it after a day or two, that kind of thing.
+
+84
+00:02:40,810 --> 00:02:42,330
+and stick around for a long time.
+
+85
+00:02:42,330 --> 00:02:44,490
+So, on a normal level of social media promotion,
+
+86
+00:02:44,490 --> 00:02:48,740
+So, its user retention rate is within a pretty effective range.
+
+87
+00:02:48,740 --> 00:02:50,580
+I've seen 100 people promote this project,
+
+88
+00:02:50,580 --> 00:02:52,020
+Based on the average for everyone,
+
+89
+00:02:52,020 --> 00:02:52,980
+So, within that average range,
+
+90
+00:02:52,980 --> 00:02:54,900
+Even if all your account's metrics look normal,
+
+91
+00:02:54,900 --> 00:02:55,420
+1.0
+
+92
+00:02:55,420 --> 00:02:55,900
+I've seen it.
+
+93
+00:02:55,900 --> 00:02:57,420
+I've seen the 1.0 version you recorded.
+
+94
+00:02:57,420 --> 00:02:58,440
+So, what's different now?
+
+95
+00:02:58,440 --> 00:03:00,200
+Right now, it's mainly in the form of bookmarks.
+
+96
+00:03:00,200 --> 00:03:01,800
+You can specify the sites yourself.
+
+97
+00:03:01,800 --> 00:03:04,380
+For example, you can specifically target movie and TV show sites without any restrictions.
+
+98
+00:03:04,380 --> 00:03:06,160
+You just put it in your bookmarks and share it.
+
+99
+00:03:06,160 --> 00:03:07,880
+Once you've registered, you can start sharing.
+
+100
+00:03:07,880 --> 00:03:08,750
+What does that mean?
+
+101
+00:03:08,750 --> 00:03:10,330
+This is where the cognitive gap comes in.
+
+102
+00:03:10,330 --> 00:03:11,310
+It's all about the information gap.
+
+103
+00:03:11,310 --> 00:03:12,770
+So, what's this 'awareness gap' all about?
+
+104
+00:03:12,770 --> 00:03:13,190
+Now, take a close look.
+
+105
+00:03:13,190 --> 00:03:15,210
+So, where is this account I'm showing you guys?
+
+106
+00:03:15,210 --> 00:03:19,330
+It's on, uh, WeChat Channels.
+
+107
+00:03:19,330 --> 00:03:21,410
+Not on Douyin, but on WeChat Channels.
+
+108
+00:03:21,410 --> 00:03:23,770
+That's why so many people are just grinding it out on Douyin.
+
+109
+00:03:23,770 --> 00:03:26,030
+We've recorded so many tutorials for you guys.
+
+110
+00:03:26,030 --> 00:03:26,950
+Things like game boosters and whatnot.
+
+111
+00:03:26,950 --> 00:03:29,570
+So everyone just jumps on the Douyin bandwagon right away.
+
+112
+00:03:29,570 --> 00:03:32,810
+But in reality, a lot of other platforms actually have pretty high traffic.
+
+113
+00:03:32,810 --> 00:03:33,810
+I never said that.
+
+114
+00:03:33,810 --> 00:03:36,250
+Now, I've barely mentioned Video Accounts in my tutorials.
+
+115
+00:03:36,250 --> 00:03:37,330
+But Video Channels has always had traffic.
+
+116
+00:03:37,330 --> 00:03:38,310
+Yeah, I'm aware of that too.
+
+117
+00:03:38,310 --> 00:03:40,580
+It's just that, in my tutorials, I usually prefer to show you other methods first.
+
+118
+00:03:40,580 --> 00:03:41,900
+Could be our competitors from Douyin.
+
+119
+00:03:41,900 --> 00:03:42,520
+or my peers on Kuaishou.
+
+120
+00:03:42,520 --> 00:03:45,360
+And the content moderation on Video Accounts, where you're seeing this, is actually pretty lax.
+
+121
+00:03:45,360 --> 00:03:47,880
+And you can see they've got a pinned post on their Video Account.
+
+122
+00:03:47,880 --> 00:03:48,800
+Let me just break it down for you guys.
+
+123
+00:03:48,800 --> 00:03:49,760
+I'm not going to click on it for you guys.
+
+124
+00:03:49,760 --> 00:03:51,720
+Because, you know, it's not great to expose other people's stuff like that.
+
+125
+00:03:51,720 --> 00:03:54,730
+So, when you click on this part, it takes you to a guide.
+
+126
+00:03:54,730 --> 00:03:56,710
+So, let me show you how to download this app.
+
+127
+00:03:56,710 --> 00:03:57,790
+So, what exactly is this app?
+
+128
+00:03:57,790 --> 00:04:01,820
+When they see the icon, they'll know it's the Thunder browser app.
+
+129
+00:04:01,820 --> 00:04:03,240
+Then, just open up the app.
+
+130
+00:04:03,240 --> 00:04:04,500
+and search for this keyword.
+
+131
+00:04:04,500 --> 00:04:06,580
+and they'll see this movie and TV site.
+
+132
+00:04:06,580 --> 00:04:09,800
+So, the keyword you're searching for is actually the one you've applied for.
+
+133
+00:04:09,800 --> 00:04:12,120
+For instance, let's say the keyword they applied for is 'Website Library'.
+
+134
+00:04:12,120 --> 00:04:13,060
+Let's say it's called 'Website Library'.
+
+135
+00:04:13,060 --> 00:04:16,970
+The keyword you apply for will redirect to your bookmark page.
+
+136
+00:04:16,970 --> 00:04:17,930
+It's a bookmark.
+
+137
+00:04:17,930 --> 00:04:20,279
+It's the bookmark you've saved in your browser.
+
+138
+00:04:20,279 --> 00:04:22,079
+The redirect goes to the bookmark you've registered.
+
+139
+00:04:22,079 --> 00:04:24,959
+So, when you click on this bookmark, it'll take you to the corresponding website.
+
+140
+00:04:24,959 --> 00:04:26,999
+And it redirects to a website for movies and TV shows.
+
+141
+00:04:26,999 --> 00:04:30,320
+Across this entire account, there are 156 likes.
+
+142
+00:04:30,320 --> 00:04:31,080
+23 likes.
+
+143
+00:04:31,080 --> 00:04:32,000
+So, these are all for movies and TV shows.
+
+144
+00:04:32,000 --> 00:04:33,840
+So, how was he able to pull in several thousand a week?
+
+145
+00:04:33,840 --> 00:04:35,190
+So, why are his numbers so good?
+
+146
+00:04:35,190 --> 00:04:36,330
+Let's not even get into the whole matrix thing.
+
+147
+00:04:36,330 --> 00:04:37,230
+They're running several accounts for it.
+
+148
+00:04:37,230 --> 00:04:37,850
+Let's not even get into the whole matrix thing.
+
+149
+00:04:37,850 --> 00:04:38,630
+Check this out.
+
+150
+00:04:38,630 --> 00:04:41,210
+First off, this piece of content about movies and TV shows, the creator's name is 'Feng Jie'.
+
+151
+00:04:41,210 --> 00:04:44,110
+For his movie and TV stuff, I'll find some similar ones for you all.
+
+152
+00:04:44,110 --> 00:04:47,470
+His videos are basically just about telling stories that skirt the edge of what's allowed.
+
+153
+00:04:47,470 --> 00:04:49,170
+A lot of people will save the video by giving it a like.
+
+154
+00:04:49,170 --> 00:04:50,230
+They might not watch it right away,
+
+155
+00:04:50,230 --> 00:04:52,330
+But I'll give it a like, 'cause I might want to watch it later.
+
+156
+00:04:52,330 --> 00:04:55,530
+That's why for movie and TV content, the save and like rates are super high.
+
+157
+00:04:55,530 --> 00:04:56,450
+The frequency of these 'three-part interactions' is high.
+
+158
+00:04:56,450 --> 00:04:58,980
+It's just like how we don't get a high frequency of triple interactions and comments.
+
+159
+00:04:58,980 --> 00:05:00,680
+So there's a logic to why these posts go viral more easily.
+
+160
+00:05:00,680 --> 00:05:01,980
+And that's why.
+
+161
+00:05:01,980 --> 00:05:05,789
+So, his account doesn't have any hooks on any of the other platforms.
+
+162
+00:05:05,789 --> 00:05:08,340
+For a movie or TV show clip, it could just be a few screenshots.
+
+163
+00:05:08,340 --> 00:05:09,780
+He just threw together a few poster images.
+
+164
+00:05:09,780 --> 00:05:10,480
+Or maybe a recording,
+
+165
+00:05:10,480 --> 00:05:11,820
+and in the middle, there might be a short screen recording or something like that.
+
+166
+00:05:11,820 --> 00:05:13,409
+But most of them are just poster images.
+
+167
+00:05:13,409 --> 00:05:16,029
+Some of his competitors just post plain pictures.
+
+168
+00:05:16,029 --> 00:05:17,609
+Just a few pictures will do the trick.
+
+169
+00:05:17,609 --> 00:05:18,989
+But this one still has a clear call-to-action.
+
+170
+00:05:18,989 --> 00:05:20,240
+So, when you click on this video,
+
+171
+00:05:20,240 --> 00:05:21,120
+So, once you click on it,
+
+172
+00:05:21,120 --> 00:05:22,280
+The voice-over behind it...
+
+173
+00:05:22,280 --> 00:05:24,680
+So, what I'm saying is, all the videos you're seeing right now use the exact same voice-over.
+
+174
+00:05:24,680 --> 00:05:25,380
+What kind of voice-over?
+
+175
+00:05:25,380 --> 00:05:26,340
+Holy shit, bro!
+
+176
+00:05:26,340 --> 00:05:27,500
+This is so good!
+
+177
+00:05:27,500 --> 00:05:28,220
+I just finished watching it.
+
+178
+00:05:28,220 --> 00:05:28,980
+I'm a genius!
+
+179
+00:05:28,980 --> 00:05:29,760
+You guys have to go watch it right now!
+
+180
+00:05:29,760 --> 00:05:31,460
+This is seriously insane.
+
+181
+00:05:31,460 --> 00:05:35,540
+So basically, the whole thing is just this voice-over and a few of these picture assets.
+
+182
+00:05:35,540 --> 00:05:38,040
+Just a few poster images and some internal screenshots.
+
+183
+00:05:38,040 --> 00:05:40,180
+to create a TikTok-style compilation video.
+
+184
+00:05:40,180 --> 00:05:43,080
+So, the entire process, even at its busiest, only takes about 10 minutes.
+
+185
+00:05:43,080 --> 00:05:44,740
+So, how do you actually make one of these TikTok-style mashup videos?
+
+186
+00:05:44,740 --> 00:05:46,850
+We can use Bilibili's Bcut.
+
+187
+00:05:46,850 --> 00:05:47,890
+You can also use CapCut.
+
+188
+00:05:47,890 --> 00:05:48,450
+Or you can use Bcut.
+
+189
+00:05:48,450 --> 00:05:48,810
+It doesn't really matter.
+
+190
+00:05:48,810 --> 00:05:51,110
+Because from what I can see, they all have pretty much the same features.
+
+191
+00:05:51,110 --> 00:05:53,470
+like the Bole or the mobile version of Bcut.
+
+192
+00:05:53,470 --> 00:05:55,410
+You guys have used TikTok, right?
+
+193
+00:05:55,410 --> 00:05:56,670
+You all know about those videos made from just a few clips.
+
+194
+00:05:56,670 --> 00:05:58,750
+Just a few pictures can be turned into a video like that.
+
+195
+00:05:58,750 --> 00:05:59,560
+So yeah, that's pretty much it.
+
+196
+00:05:59,560 --> 00:06:00,720
+And it's the same for Jianying.
+
+197
+00:06:00,720 --> 00:06:02,730
+Or, you can use CapCut to turn images and text into a video.
+
+198
+00:06:02,730 --> 00:06:05,230
+Just a few pictures, and it'll instantly turn them into a video with transitions.
+
+199
+00:06:05,230 --> 00:06:06,910
+And the pictures don't even have to be high-quality.
+
+200
+00:06:06,910 --> 00:06:07,730
+I just grabbed a few posters,
+
+201
+00:06:07,730 --> 00:06:08,830
+I just grabbed a few internal screenshots.
+
+202
+00:06:08,830 --> 00:06:11,460
+And just like that, you've nailed the essence of it.
+
+203
+00:06:11,460 --> 00:06:13,580
+So now we know their playbook.
+
+204
+00:06:13,580 --> 00:06:14,480
+Pin one of them to the top.
+
+205
+00:06:14,480 --> 00:06:16,980
+I'll show you how to guide people to download the videos.
+
+206
+00:06:16,980 --> 00:06:19,410
+So, they're all just these kinds of movie and TV show mashup videos.
+
+207
+00:06:19,410 --> 00:06:20,290
+And let's add some background music.
+
+208
+00:06:20,290 --> 00:06:20,810
+Holy shit, bro!
+
+209
+00:06:20,810 --> 00:06:21,290
+This is insane!
+
+210
+00:06:21,290 --> 00:06:22,490
+This one is seriously good.
+
+211
+00:06:22,490 --> 00:06:23,880
+And that's all there is to it.
+
+212
+00:06:23,880 --> 00:06:25,460
+So, about this Thunder Browser...
+
+213
+00:06:25,460 --> 00:06:26,820
+Back when I was doing the tutorial for version 1.0,
+
+214
+00:06:26,820 --> 00:06:27,860
+I mentioned one thing back then.
+
+215
+00:06:27,860 --> 00:06:29,860
+And here's what I really like about it.
+
+216
+00:06:29,860 --> 00:06:31,220
+And I mentioned it back then,
+
+217
+00:06:31,220 --> 00:06:36,200
+What I'm saying is, it guides users to search for a specific code by using a bookmark.
+
+218
+00:06:36,200 --> 00:06:39,870
+It uses bookmarks to redirect you to the corresponding websites.
+
+219
+00:06:39,870 --> 00:06:41,470
+And on these websites of his,
+
+220
+00:06:41,470 --> 00:06:46,750
+Now, the videos you're seeing here are all K-dramas or American shows,
+
+221
+00:06:46,750 --> 00:06:49,340
+There are no Chinese mainland or Hong Kong dramas.
+
+222
+00:06:49,340 --> 00:06:50,580
+and very few Chinese shows.
+
+223
+00:06:50,580 --> 00:06:52,020
+And that's because, when it comes to the film and TV category...
+
+224
+00:06:52,020 --> 00:06:53,680
+
+
+225
+00:06:53,680 --> 00:06:54,900
+
+
+226
+00:06:54,900 --> 00:06:55,380
+So, this is for the movie and TV show category.
+
+227
+00:06:55,380 --> 00:06:57,160
+We're here to break down all the top-performing niches for you.
+
+228
+00:06:57,160 --> 00:06:59,000
+What they're linking to is a movie and TV site.
+
+229
+00:06:59,000 --> 00:07:01,060
+And this site doesn't have to be theirs.
+
+230
+00:07:01,060 --> 00:07:02,780
+He just bookmarked this site.
+
+231
+00:07:02,780 --> 00:07:03,520
+So, what does that mean?
+
+232
+00:07:03,520 --> 00:07:07,210
+All I have to do is search on Baidu for sites like 'watch movies' or similar.
+
+233
+00:07:07,210 --> 00:07:07,650
+Let's find one.
+
+234
+00:07:07,650 --> 00:07:08,410
+For example, like me...
+
+235
+00:07:08,410 --> 00:07:10,250
+Right now, I'm not sure if this can be played online.
+
+236
+00:07:10,250 --> 00:07:11,290
+In theory, it should work.
+
+237
+00:07:11,290 --> 00:07:13,570
+So you just need to find one site, and you're good to go.
+
+238
+00:07:13,570 --> 00:07:15,010
+You're redirecting to their site.
+
+239
+00:07:15,010 --> 00:07:16,550
+It's playing movies and TV shows.
+
+240
+00:07:16,550 --> 00:07:17,890
+
+
+241
+00:07:17,890 --> 00:07:19,350
+That's his problem.
+
+242
+00:07:19,350 --> 00:07:21,680
+You don't know if they actually have the rights for it or not.
+
+243
+00:07:21,680 --> 00:07:23,100
+Does that make sense to you?
+
+244
+00:07:23,100 --> 00:07:26,560
+So, this way, you completely sidestep a ton of risks.
+
+245
+00:07:26,560 --> 00:07:29,300
+And this is where we take it to the next level.
+
+246
+00:07:29,300 --> 00:07:31,240
+What I'm talking to you about right now is the project itself.
+
+247
+00:07:31,240 --> 00:07:32,960
+If you haven't seen it before,
+
+248
+00:07:32,960 --> 00:07:34,720
+You can go check out our 1.0 tutorial.
+
+249
+00:07:34,720 --> 00:07:36,380
+Or you can find it in this article of ours.
+
+250
+00:07:36,380 --> 00:07:38,680
+I also have the legacy 1.0 tutorials available for you to check out.
+
+251
+00:07:38,680 --> 00:07:40,680
+Plus, there are official tutorials available.
+
+252
+00:07:40,680 --> 00:07:41,840
+What's the process for submitting bookmarks?
+
+253
+00:07:41,840 --> 00:07:42,880
+It's all in one video.
+
+254
+00:07:42,880 --> 00:07:44,720
+They walk you through everything, step-by-step, and it's all explained very clearly.
+
+255
+00:07:44,720 --> 00:07:46,340
+So I won't get into the details of that part.
+
+256
+00:07:46,340 --> 00:07:48,460
+Alright, let's get back to 2.0.
+
+257
+00:07:48,460 --> 00:07:49,140
+The main point: 2.0.
+
+258
+00:07:49,140 --> 00:07:50,580
+I'm not here to just nitpick the project with you.
+
+259
+00:07:50,580 --> 00:07:51,260
+How do you sign up?
+
+260
+00:07:51,260 --> 00:07:51,700
+So, this is the process.
+
+261
+00:07:51,700 --> 00:07:53,420
+I'm here to break down the other details for you.
+
+262
+00:07:53,420 --> 00:07:54,900
+See this clearly.
+
+263
+00:07:54,900 --> 00:07:56,520
+We're creating a knowledge gap here.
+
+264
+00:07:56,520 --> 00:08:01,030
+So, we've just established that the reason the movie and TV niche is so explosive is because of these specific works.
+
+265
+00:08:01,030 --> 00:08:02,850
+Even though they might not be watching it right now, they'll still give it a like.
+
+266
+00:08:02,850 --> 00:08:03,510
+and the save count is super high.
+
+267
+00:08:03,510 --> 00:08:05,290
+This creates a similar conversion effect.
+
+268
+00:08:05,290 --> 00:08:08,080
+We also have some other strategies to share that could be a huge game-changer.
+
+269
+00:08:08,080 --> 00:08:10,400
+What I can offer you is a bit of an information gap.
+
+270
+00:08:10,400 --> 00:08:11,440
+Or, to put it another way, creating a knowledge gap.
+
+271
+00:08:11,440 --> 00:08:12,480
+A lot of people are clueless about this stuff.
+
+272
+00:08:12,480 --> 00:08:17,570
+But for the most part, it all comes down to how much hype your own flash sale community can generate.
+
+273
+00:08:17,570 --> 00:08:18,290
+Not really.
+
+274
+00:08:18,290 --> 00:08:20,730
+So, can we find flash sale websites to work with?
+
+275
+00:08:20,730 --> 00:08:22,690
+Well, they do exist.
+
+276
+00:08:22,690 --> 00:08:26,770
+But for me, when I used to do ticket scalping, I had the whole process down pat.
+
+277
+00:08:26,770 --> 00:08:29,130
+I've actually broken down the whole ticket-sniping thing before.
+
+278
+00:08:29,130 --> 00:08:30,090
+But we stopped doing that later on.
+
+279
+00:08:30,090 --> 00:08:34,100
+Because this field puts you in touch with scalpers very easily, which is risky.
+
+280
+00:08:34,100 --> 00:08:36,570
+So, after I stopped doing the ticket-grabbing thing,
+
+281
+00:08:36,570 --> 00:08:40,770
+So, I ended up breaking down the entire industry for everyone in our resource library.
+
+282
+00:08:40,770 --> 00:08:42,390
+and recorded a guide on how to avoid the pitfalls.
+
+283
+00:08:42,390 --> 00:08:45,079
+And in just half an hour, I broke down every single point.
+
+284
+00:08:45,079 --> 00:08:45,799
+This is a piece...
+
+285
+00:08:45,799 --> 00:08:48,439
+But, when I was looking into this area,
+
+286
+00:08:48,439 --> 00:08:49,759
+He was driving traffic to me back then.
+
+287
+00:08:49,759 --> 00:08:52,970
+And he brought me in tens of thousands of followers at that time.
+
+288
+00:08:52,970 --> 00:08:54,490
+So, that's like, a dozen or so 2,000-member groups.
+
+289
+00:08:54,490 --> 00:08:55,190
+tens of thousands of followers.
+
+290
+00:08:55,190 --> 00:08:57,210
+So, these are the kinds of tips and tricks for snagging tickets.
+
+291
+00:08:57,210 --> 00:08:59,640
+I can put these in the 'tips and tricks' category and go through them one by one.
+
+292
+00:08:59,640 --> 00:09:01,540
+Some people talk about snagging spots for river rafting, or other similar things.
+
+293
+00:09:01,540 --> 00:09:02,480
+Like I was just showing you,
+
+294
+00:09:02,480 --> 00:09:03,450
+Snagging POP MART toys.
+
+295
+00:09:03,450 --> 00:09:04,770
+and stuff like that.
+
+296
+00:09:04,770 --> 00:09:06,090
+And for Maozi, there's a dedicated website for pre-orders.
+
+297
+00:09:06,090 --> 00:09:07,550
+POP MART has a monitoring system.
+
+298
+00:09:07,550 --> 00:09:09,030
+Monitoring for real-time stock availability.
+
+299
+00:09:09,030 --> 00:09:10,350
+So, did you know all this stuff?
+
+300
+00:09:10,350 --> 00:09:11,770
+See? It's all about the information gap.
+
+301
+00:09:11,770 --> 00:09:14,110
+POP MART restock.
+
+302
+00:09:14,110 --> 00:09:16,069
+See? Just check the stats.
+
+303
+00:09:16,069 --> 00:09:18,869
+There's always a demand for these things, no matter what.
+
+304
+00:09:18,869 --> 00:09:20,629
+A while back, when Pop Mart was all over the news,
+
+305
+00:09:20,629 --> 00:09:22,180
+It was blowing up back then.
+
+306
+00:09:22,180 --> 00:09:25,620
+They might use things like group monitoring, you know, keeping an eye on chat groups.
+
+307
+00:09:25,620 --> 00:09:28,020
+to check if the item is in stock, and stuff like that.
+
+308
+00:09:28,020 --> 00:09:30,340
+Let me break it down for you one by one. All this stuff I'm talking about, this is just the first layer.
+
+309
+00:09:30,340 --> 00:09:33,160
+But what if these guys don't have a website? How does that work?
+
+310
+00:09:33,160 --> 00:09:34,000
+So, I need to save it as a bookmark.
+
+311
+00:09:34,000 --> 00:09:35,000
+So what if they don't have a website?
+
+312
+00:09:35,000 --> 00:09:36,630
+If you think about it, it's pretty simple.
+
+313
+00:09:36,630 --> 00:09:38,350
+I can just use the cloud drive directly.
+
+314
+00:09:38,350 --> 00:09:39,230
+The tutorial for version 1.0.
+
+315
+00:09:39,230 --> 00:09:40,599
+So, what was the method I taught you guys back then?
+
+316
+00:09:40,599 --> 00:09:42,359
+Using Thunder Browser with the cloud drive.
+
+317
+00:09:42,359 --> 00:09:45,119
+So, we've covered the search commands for getting new users on Thunder Browser.
+
+318
+00:09:45,119 --> 00:09:46,179
+Jump to the bookmark.
+
+319
+00:09:46,179 --> 00:09:48,220
+And that bookmark? It's a link to the cloud drive.
+
+320
+00:09:48,220 --> 00:09:49,500
+and then jump to the cloud drive link.
+
+321
+00:09:49,500 --> 00:09:50,320
+Got it?
+
+322
+00:09:50,320 --> 00:09:52,650
+So with Thunder Browser, you get double-dipped by jumping straight to the cloud drive.
+
+323
+00:09:52,650 --> 00:09:53,890
+But hold on, don't rush.
+
+324
+00:09:53,890 --> 00:09:55,270
+But that's not the best option.
+
+325
+00:09:55,270 --> 00:09:57,730
+Because the follow-up to this is in the article.
+
+326
+00:09:57,730 --> 00:09:59,270
+Later on, for our entire project...
+
+327
+00:09:59,270 --> 00:10:01,550
+There are some other really killer feedback loops.
+
+328
+00:10:01,550 --> 00:10:02,750
+And that's just what I've told you so far.
+
+329
+00:10:02,750 --> 00:10:03,950
+The dual-link system that redirects to the cloud drive.
+
+330
+00:10:03,950 --> 00:10:05,569
+And we're also cashing in on the cloud drive's new user bonuses.
+
+331
+00:10:05,569 --> 00:10:07,289
+Alright, let's break down some other games.
+
+332
+00:10:07,289 --> 00:10:08,569
+Delta Force Key War
+
+333
+00:10:09,649 --> 00:10:11,609
+So, is Delta Force popular enough?
+
+334
+00:10:11,609 --> 00:10:15,049
+Delta Force keygen, or maybe Delta Force gun modding guides.
+
+335
+00:10:15,049 --> 00:10:16,249
+700,000 views, 120,000...
+
+336
+00:10:16,249 --> 00:10:16,849
+200,000 views.
+
+337
+00:10:16,849 --> 00:10:18,350
+1.4 million views.
+
+338
+00:10:18,350 --> 00:10:20,010
+19,000 views.
+
+339
+00:10:20,010 --> 00:10:22,310
+It's definitely way more popular than, say, the ticket-grabbing niche.
+
+340
+00:10:22,310 --> 00:10:23,980
+Because it's in the gaming category.
+
+341
+00:10:23,980 --> 00:10:25,700
+As long as it's in the gaming category, it's the same deal.
+
+342
+00:10:25,700 --> 00:10:27,600
+So the related topics will be way more popular.
+
+343
+00:10:27,600 --> 00:10:31,009
+Trading in Honor of Kings, uh...
+
+344
+00:10:31,009 --> 00:10:32,969
+Custom maps,
+
+345
+00:10:33,109 --> 00:10:34,369
+Custom maps.
+
+346
+00:10:34,369 --> 00:10:35,449
+Customizable dual defenses.
+
+347
+00:10:35,449 --> 00:10:36,849
+So, these are the things we're talking about.
+
+348
+00:10:36,849 --> 00:10:37,729
+Create a custom room.
+
+349
+00:10:37,729 --> 00:10:40,620
+All of these are features of the web version.
+
+350
+00:10:40,620 --> 00:10:42,160
+And you can save bookmarks in it as well.
+
+351
+00:10:42,160 --> 00:10:44,080
+Tutorial on customizing your profile card.
+
+352
+00:10:44,080 --> 00:10:45,740
+Tutorial on Customizing Your Profile Card
+
+353
+00:10:45,740 --> 00:10:47,010
+and 2,000 views.
+
+354
+00:10:47,010 --> 00:10:48,370
+How many followers on April 6th?
+
+355
+00:10:48,370 --> 00:10:49,230
+100 followers.
+
+356
+00:10:49,230 --> 00:10:50,050
+2000 views.
+
+357
+00:10:50,050 --> 00:10:53,250
+100 followers is actually considered a lot for a custom gaming channel.
+
+358
+00:10:53,250 --> 00:10:56,370
+This might involve using some tools, like photo editors and stuff like that.
+
+359
+00:10:56,370 --> 00:10:57,210
+All of this can be bundled together.
+
+360
+00:10:57,210 --> 00:10:58,690
+The entire amount comes from the cloud drive.
+
+361
+00:10:58,690 --> 00:11:00,210
+If you're not going to build a website,
+
+362
+00:11:00,210 --> 00:11:00,970
+It's the cloud drive.
+
+363
+00:11:00,970 --> 00:11:01,690
+Alright, let's keep going.
+
+364
+00:11:01,690 --> 00:11:02,650
+So, let me break down a few things for you.
+
+365
+00:11:02,650 --> 00:11:03,610
+I'll let you guys figure out the rest on your own.
+
+366
+00:11:03,610 --> 00:11:06,340
+Of course, project-based content won't perform as well as other types when you try to fit it into this framework.
+
+367
+00:11:06,340 --> 00:11:07,000
+Don't you worry about that.
+
+368
+00:11:07,000 --> 00:11:08,220
+I'm just including it here for the sake of completeness.
+
+369
+00:11:08,220 --> 00:11:09,640
+Project-related content is definitely not as good as other types.
+
+370
+00:11:09,640 --> 00:11:11,320
+Unless, of course, your project is something really special.
+
+371
+00:11:11,320 --> 00:11:13,400
+For instance, let's say my entire site is all about flash sales.
+
+372
+00:11:13,400 --> 00:11:14,940
+So, my site gets a ton of traffic.
+
+373
+00:11:14,940 --> 00:11:18,420
+But for something like Wangzhuan Ku, which has that cloud drive user acquisition program,
+
+374
+00:11:18,420 --> 00:11:20,060
+Or, you know, some of those 'get-rich-quick' schemes.
+
+375
+00:11:20,060 --> 00:11:20,980
+or getting new users for cloud storage services, and so on.
+
+376
+00:11:20,980 --> 00:11:24,900
+But ironically, project tutorials like these aren't actually that appealing.
+
+377
+00:11:24,900 --> 00:11:26,580
+Because a lot of people, you just can't get them to see it your way.
+
+378
+00:11:26,580 --> 00:11:28,640
+They have no idea that this niche is a blank slate.
+
+379
+00:11:28,640 --> 00:11:30,340
+So, the strategy for Wangzhuangku is to target its own user base.
+
+380
+00:11:30,340 --> 00:11:32,790
+So this website is targeting an existing user base.
+
+381
+00:11:32,790 --> 00:11:33,990
+The target is existing users.
+
+382
+00:11:33,990 --> 00:11:34,990
+Their user base isn't that large.
+
+383
+00:11:34,990 --> 00:11:36,590
+Next up, we have sites for manhua, dramas, movies, and novels.
+
+384
+00:11:36,590 --> 00:11:37,230
+You guys all know this one.
+
+385
+00:11:37,230 --> 00:11:38,910
+Alright, I won't go into too much detail on this one.
+
+386
+00:11:38,910 --> 00:11:40,730
+The demand in this area is also pretty good.
+
+387
+00:11:40,730 --> 00:11:42,490
+Ad-free games, discounts, and agency opportunities.
+
+388
+00:11:42,490 --> 00:11:45,200
+So, for ad-free games, what are some good options to link to?
+
+389
+00:11:45,200 --> 00:11:45,700
+Alright, that's it for this part.
+
+390
+00:11:45,700 --> 00:11:48,540
+So, let me walk you through the whole linking process for this.
+
+391
+00:11:48,540 --> 00:11:54,580
+
+
+392
+00:11:55,620 --> 00:11:58,740
+And the resources on that site are cloud storage files.
+
+393
+00:11:58,740 --> 00:12:00,400
+And you can also build your private traffic pool.
+
+394
+00:12:00,400 --> 00:12:00,800
+Alright.
+
+395
+00:12:00,800 --> 00:12:03,810
+
+
+396
+00:12:03,810 --> 00:12:04,470
+
+
+397
+00:12:04,470 --> 00:12:04,970
+What you're looking at,
+
+398
+00:12:04,970 --> 00:12:06,090
+
+
+399
+00:12:06,090 --> 00:12:07,280
+
+
+400
+00:12:07,280 --> 00:12:08,240
+Like I was saying,
+
+401
+00:12:08,240 --> 00:12:10,160
+Another category is ad-free games.
+
+402
+00:12:10,160 --> 00:12:13,000
+I haven't really been keeping up with the ad-free games lately.
+
+403
+00:12:13,000 --> 00:12:13,740
+I love playing games.
+
+404
+00:12:13,740 --> 00:12:15,790
+But I haven't really organized much on that front lately.
+
+405
+00:12:15,790 --> 00:12:17,690
+I haven't really been keeping up with organizing this part.
+
+406
+00:12:17,690 --> 00:12:18,650
+Sunshine Mini Games.
+
+407
+00:12:18,650 --> 00:12:21,540
+So, what kind of sites were these that I bought back then?
+
+408
+00:12:21,540 --> 00:12:22,860
+Taobao shops, no ads.
+
+409
+00:12:22,860 --> 00:12:23,900
+So you can get rid of ads for good.
+
+410
+00:12:23,900 --> 00:12:25,920
+Play ad-free games, the right way.
+
+411
+00:12:25,920 --> 00:12:28,370
+See that? A tutorial on how to skip ads in ad-free games.
+
+412
+00:12:28,370 --> 00:12:29,890
+And for the ones that pay out,
+
+413
+00:12:29,890 --> 00:12:32,170
+And inside these treasure boxes, everything is completely ad-free.
+
+414
+00:12:32,170 --> 00:12:33,770
+This is all to promote his own site.
+
+415
+00:12:33,770 --> 00:12:35,000
+And it's ad-free.
+
+416
+00:12:35,000 --> 00:12:36,060
+But the gaming niche itself isn't actually that hot.
+
+417
+00:12:36,060 --> 00:12:38,900
+And there's also this other thing you've all seen, where you can just keep raking in cash like crazy.
+
+418
+00:12:38,900 --> 00:12:41,200
+So, what exactly is this niche all about?
+
+419
+00:12:41,200 --> 00:12:43,100
+This niche is seriously hot.
+
+420
+00:12:43,100 --> 00:12:43,950
+It's huge.
+
+421
+00:12:43,950 --> 00:12:44,830
+So, what's this all about?
+
+422
+00:12:44,830 --> 00:12:45,790
+And why do I say it's *so* hot?
+
+423
+00:12:45,790 --> 00:12:47,510
+Let's take a look at this account and see how many followers it has.
+
+424
+00:12:47,510 --> 00:12:48,590
+This one's already at 21,000 followers.
+
+425
+00:12:48,590 --> 00:12:51,000
+So, you can't just compare this to an infinite cashback scheme.
+
+426
+00:12:51,000 --> 00:12:54,020
+GG Modifier, a game-modifying tool, and the GG Modifier itself.
+
+427
+00:12:54,020 --> 00:12:56,120
+Ranked 1.53 million on the leaderboard modification list.
+
+428
+00:12:56,120 --> 00:12:58,340
+Now, let's play a tutorial on how to use the GG Modifier to walk on air.
+
+429
+00:12:58,340 --> 00:12:59,680
+This is actually for the GG Modder.
+
+430
+00:12:59,680 --> 00:13:03,110
+Then the GG Modifier will jump to some similar sites,
+
+431
+00:13:03,110 --> 00:13:04,430
+Alright, let me think of another one for you guys.
+
+432
+00:13:04,430 --> 00:13:04,750
+You know what, never mind.
+
+433
+00:13:04,750 --> 00:13:05,110
+You know what, I'm done.
+
+434
+00:13:05,110 --> 00:13:06,030
+Alright, let me just show you guys real quick.
+
+435
+00:13:06,030 --> 00:13:09,410
+I don't really want to show this demo to any of my peers in the gaming niche.
+
+436
+00:13:09,410 --> 00:13:10,170
+I'm just gonna jump on this real quick.
+
+437
+00:13:10,170 --> 00:13:10,970
+recommended on their own site.
+
+438
+00:13:10,970 --> 00:13:15,250
+Let me just show you some game modding sites right here on Xianyu.
+
+439
+00:13:15,250 --> 00:13:18,410
+So, just how easy is it to make it in this niche for these guys?
+
+440
+00:13:18,410 --> 00:13:21,540
+It's like, out of 250 people who want something worth over 7,000, all of these are them.
+
+441
+00:13:21,540 --> 00:13:22,420
+This is the Chong Chong Forum.
+
+442
+00:13:22,420 --> 00:13:24,700
+You've got stuff like Aiqu Game's infinite modded gift vouchers,
+
+443
+00:13:24,700 --> 00:13:26,460
+Or something like 'Ten Miles of Peach Blossoms' from the 'Three Lives Three Worlds' series.
+
+444
+00:13:26,460 --> 00:13:27,900
+Infinite Soul Linking, and so on.
+
+445
+00:13:27,900 --> 00:13:30,080
+So, how easy is it to get traffic with these?
+
+446
+00:13:30,080 --> 00:13:31,840
+Alright, let me give you a quick rundown.
+
+447
+00:13:31,840 --> 00:13:33,720
+So, for 150 people, you're looking at getting over 3000 views.
+
+448
+00:13:33,720 --> 00:13:34,880
+This website was set up by Xiao Kai.
+
+449
+00:13:34,880 --> 00:13:36,420
+That one's dead in the water.
+
+450
+00:13:36,420 --> 00:13:39,320
+But it will also send you to other sites at the same time you enter this one.
+
+451
+00:13:39,320 --> 00:13:42,830
+So, for two-eighty-eight, what you're actually buying is just the website's URL.
+
+452
+00:13:42,830 --> 00:13:44,450
+So, after you've bought the website URL,
+
+453
+00:13:44,450 --> 00:13:45,530
+If you want to see the tutorials inside,
+
+454
+00:13:45,530 --> 00:13:46,410
+You've got to pay up.
+
+455
+00:13:46,410 --> 00:13:47,490
+And you still have to get a membership.
+
+456
+00:13:47,490 --> 00:13:48,630
+So, you get to this point,
+
+457
+00:13:48,630 --> 00:13:53,370
+So basically, all the users on his site are coming from Xianyu.
+
+458
+00:13:53,370 --> 00:13:56,390
+So after you've been brought in, you have to pay them again just to see the tutorial.
+
+459
+00:13:56,390 --> 00:13:57,350
+But even so,
+
+460
+00:13:57,350 --> 00:13:59,070
+That's 150 conversions for every 3,000 views.
+
+461
+00:13:59,070 --> 00:14:00,310
+And you need to understand what this conversion rate means.
+
+462
+00:14:00,310 --> 00:14:04,530
+Even for Xianyu, that's considered incredibly high.
+
+463
+00:14:04,530 --> 00:14:08,130
+And for those guys, their websites are just selling memberships, and you have to pay just to get in.
+
+464
+00:14:08,130 --> 00:14:10,170
+Even for Xianyu, that's a really high conversion rate.
+
+465
+00:14:10,170 --> 00:14:12,470
+So, out of 3000 visitors, you get 151 conversions, uh...
+
+466
+00:14:12,470 --> 00:14:14,630
+150 conversions, and for each one, it's just like, cha-ching, cha-ching.
+
+467
+00:14:14,630 --> 00:14:15,850
+And then, convert them into actual orders.
+
+468
+00:14:15,850 --> 00:14:18,090
+So, out of these 30 people, you get one conversion.
+
+469
+00:14:18,090 --> 00:14:20,810
+And all of this is from his 4990.
+
+470
+00:14:20,810 --> 00:14:21,870
+Two hundred... two hundred and eleven.
+
+471
+00:14:21,870 --> 00:14:24,090
+So, this actually gets even more traffic than the ad-free games.
+
+472
+00:14:24,090 --> 00:14:25,030
+So I'll just give it a click.
+
+473
+00:14:25,030 --> 00:14:25,750
+And you know what?
+
+474
+00:14:25,750 --> 00:14:28,930
+And these ad-free games, in turn, will redirect to discount offers.
+
+475
+00:14:28,930 --> 00:14:29,890
+game agency
+
+476
+00:14:29,890 --> 00:14:31,460
+and then they jump to mobile game reseller offers.
+
+477
+00:14:31,460 --> 00:14:33,680
+I can't just record a discount for you guys, can I?
+
+478
+00:14:33,680 --> 00:14:35,340
+One-tenth of the price... mobile game agency.
+
+479
+00:14:35,340 --> 00:14:37,620
+Because they're playing ad-free games,
+
+480
+00:14:37,620 --> 00:14:39,420
+Playing modded games is a slightly better option.
+
+481
+00:14:39,420 --> 00:14:41,740
+Once you get infinite gold in a game with no ads, it just gets boring.
+
+482
+00:14:41,740 --> 00:14:43,020
+And then, they'll go on to become mobile game agents.
+
+483
+00:14:43,020 --> 00:14:45,319
+So, they'll try to find mobile game agencies that offer steep discounts.
+
+484
+00:14:45,319 --> 00:14:46,599
+And that's the money they're making.
+
+485
+00:14:46,599 --> 00:14:48,159
+The ad-free version makes money from VIP subscriptions.
+
+486
+00:14:48,159 --> 00:14:49,559
+Game mods also make money from VIP memberships.
+
+487
+00:14:49,559 --> 00:14:52,570
+Alright, as for the street-style, gossip, and stockings niches, I won't go into too much detail.
+
+488
+00:14:52,570 --> 00:14:53,850
+There's no such thing as small traffic in this game.
+
+489
+00:14:53,850 --> 00:14:55,050
+ASML, and so on.
+
+490
+00:14:55,050 --> 00:14:56,380
+There's no such thing as small traffic.
+
+491
+00:14:56,380 --> 00:14:57,540
+Any site you build will blow up.
+
+492
+00:14:57,540 --> 00:14:58,600
+So, the traffic is massive.
+
+493
+00:14:58,600 --> 00:15:01,820
+Because we've seen a lot of our competitors building sites with our web asset library.
+
+494
+00:15:01,820 --> 00:15:03,020
+the websites in our site library
+
+495
+00:15:03,020 --> 00:15:08,129
+Our website's 3-year user registration count, compared to their street-style photography site...
+
+496
+00:15:08,129 --> 00:15:10,869
+The number of registered users is just on a whole different level.
+
+497
+00:15:10,869 --> 00:15:13,950
+In the same three years, their user registrations were in the hundreds of thousands.
+
+498
+00:15:13,950 --> 00:15:15,590
+while our registration count is just in the tens of thousands.
+
+499
+00:15:15,590 --> 00:15:17,650
+That's more than ten times what we have.
+
+500
+00:15:17,650 --> 00:15:18,850
+So, that's what I mean when I say we've reached this point.
+
+501
+00:15:18,850 --> 00:15:21,290
+Alright, I'm just pointing you in a few directions here.
+
+502
+00:15:21,290 --> 00:15:22,390
+Let's circle back.
+
+503
+00:15:22,390 --> 00:15:23,450
+Let's circle back.
+
+504
+00:15:23,450 --> 00:15:24,730
+For the complete beginners,
+
+505
+00:15:24,730 --> 00:15:25,530
+This tutorial you're watching,
+
+506
+00:15:25,530 --> 00:15:27,190
+So, this right here is a perfect example.
+
+507
+00:15:27,190 --> 00:15:30,639
+First, you'll want to pin this video to the top of your feed.
+
+508
+00:15:30,639 --> 00:15:32,519
+And the rest of it is just a demonstration.
+
+509
+00:15:32,519 --> 00:15:33,739
+So, if I were running a gaming site,
+
+510
+00:15:33,739 --> 00:15:35,419
+For example, for game mods, you'd pin the first post.
+
+511
+00:15:35,419 --> 00:15:37,080
+So, how do you get to this game site?
+
+512
+00:15:37,080 --> 00:15:39,440
+It's telling you what keywords to search for in the Thunder Browser.
+
+513
+00:15:39,440 --> 00:15:41,260
+For everything else, I'll just show you how it's done.
+
+514
+00:15:41,260 --> 00:15:44,040
+Things like unlimited vouchers, or game cheat tools, and so on.
+
+515
+00:15:44,040 --> 00:15:47,640
+Latest tutorials, quick and easy... or how about 'AI Fun New Games'?
+
+516
+00:15:47,640 --> 00:15:49,300
+And things like these are all about the information gap.
+
+517
+00:15:49,300 --> 00:15:53,890
+For the Delta Force resource site, how do you find the latest Delta Force key in the top post?
+
+518
+00:15:53,890 --> 00:15:55,010
+Delta Force key.
+
+519
+00:15:55,010 --> 00:15:58,300
+Delta Force Gun Modification Site
+
+520
+00:15:58,300 --> 00:16:00,580
+You know, a lot of these websites are actually built on open-source code.
+
+521
+00:16:00,580 --> 00:16:01,320
+And there we have it.
+
+522
+00:16:01,320 --> 00:16:04,070
+Why are the search results from Baidu so weird?
+
+523
+00:16:04,070 --> 00:16:05,070
+Let's try another search engine.
+
+524
+00:16:05,070 --> 00:16:07,750
+Okay, today's password is just a complete mess.
+
+525
+00:16:07,750 --> 00:16:11,160
+So for the Delta Force gun-modding site, it doesn't really matter where you link to.
+
+526
+00:16:11,160 --> 00:16:11,640
+It doesn't matter where it links to.
+
+527
+00:16:11,640 --> 00:16:13,480
+You can link to his video demo page, that's an option too.
+
+528
+00:16:13,480 --> 00:16:15,160
+The first step is to guide everyone after they've searched.
+
+529
+00:16:15,160 --> 00:16:18,440
+You can find all the latest gun modification codes and all the newest keys.
+
+530
+00:16:18,440 --> 00:16:20,590
+So go ahead and save this for later.
+
+531
+00:16:20,590 --> 00:16:22,010
+Check back daily for the latest updates.
+
+532
+00:16:22,010 --> 00:16:23,470
+Because he plays Delta Force.
+
+533
+00:16:23,470 --> 00:16:24,830
+It requires a daily password.
+
+534
+00:16:24,830 --> 00:16:27,750
+And that retention rate also boosts his other videos to the max.
+
+535
+00:16:27,750 --> 00:16:29,390
+And just look at how popular his other videos on gun customization are!
+
+536
+00:16:29,390 --> 00:16:32,930
+Just look at this recent video on the 'hip-fire' build for the Evil Light. It got 700,000 views.
+
+537
+00:16:32,930 --> 00:16:34,590
+700,000 views on March 28th.
+
+538
+00:16:34,590 --> 00:16:35,670
+And they're targeting gaming accounts.
+
+539
+00:16:35,670 --> 00:16:36,950
+and you'll gain followers fast, stuff like that.
+
+540
+00:16:36,950 --> 00:16:38,730
+So, what about Honor of Kings? Does it have this too? Yes, it does. They all do.
+
+541
+00:16:38,730 --> 00:16:40,360
+We've found the right angle for all of them.
+
+542
+00:16:40,360 --> 00:16:41,260
+And that's what creates the knowledge gap.
+
+543
+00:16:41,260 --> 00:16:42,720
+I haven't played that many games myself.
+
+544
+00:16:42,720 --> 00:16:44,390
+I might not know a lot of games,
+
+545
+00:16:44,390 --> 00:16:46,030
+But for the games that I do know,
+
+546
+00:16:46,030 --> 00:16:48,270
+I can always spot similar points like that.
+
+547
+00:16:48,270 --> 00:16:50,070
+So, Honor of Kings just rolled out a new farm feature.
+
+548
+00:16:50,070 --> 00:16:51,430
+So, I've been thinking these past couple of days, is there anything out there...
+
+549
+00:16:51,430 --> 00:16:53,630
+Man, it would be great if the farm had an auto-account-boosting assistant.
+
+550
+00:16:53,630 --> 00:16:55,330
+But the farm feature in Honor of Kings hasn't been released yet.
+
+551
+00:16:55,330 --> 00:16:57,760
+QQ Farm, on the other hand, has this whole 'invite-to-play' cognitive gap thing going on.
+
+552
+00:16:57,760 --> 00:16:58,620
+Alright, so at this point...
+
+553
+00:16:58,620 --> 00:17:00,020
+So, that's pretty much the whole project breakdown.
+
+554
+00:17:00,020 --> 00:17:01,640
+Because the project itself is very simple.
+
+555
+00:17:01,640 --> 00:17:04,000
+And its biggest advantage is that it uses bookmarks to redirect.
+
+556
+00:17:04,000 --> 00:17:06,720
+Using bookmarks allows you to perfectly avoid any risks from other people's websites.
+
+557
+00:17:06,720 --> 00:17:08,520
+And I need to be clear on this step.
+
+558
+00:17:08,520 --> 00:17:09,359
+And this is the key point.
+
+559
+00:17:09,359 --> 00:17:10,560
+Jumping to bookmarks in Thunder Browser.
+
+560
+00:17:10,560 --> 00:17:12,500
+
+
+561
+00:17:12,500 --> 00:17:13,680
+
+
+562
+00:17:13,680 --> 00:17:14,859
+But what I'm showing you now is Feishu.
+
+563
+00:17:14,859 --> 00:17:17,099
+It could have QR codes or all sorts of other random stuff.
+
+564
+00:17:17,099 --> 00:17:18,710
+So, you use these things as the landing page.
+
+565
+00:17:18,710 --> 00:17:20,710
+Or, it could contain download links for all sorts of resources.
+
+566
+00:17:20,710 --> 00:17:21,349
+to serve as a landing page.
+
+567
+00:17:21,349 --> 00:17:22,950
+Or, you can just use a website directly.
+
+568
+00:17:22,950 --> 00:17:24,470
+But what if I don't have a website of my own?
+
+569
+00:17:24,470 --> 00:17:25,430
+But what if I don't want to use bookmarks?
+
+570
+00:17:25,430 --> 00:17:27,388
+Actually, there's another way to make money at this stage.
+
+571
+00:17:27,388 --> 00:17:28,669
+This is a whole other revenue stream.
+
+572
+00:17:29,829 --> 00:17:32,720
+So you've already found a resource that you know is super popular.
+
+573
+00:17:32,720 --> 00:17:35,000
+Because you're definitely not going to bother with resources that don't have enough buzz.
+
+574
+00:17:35,000 --> 00:17:36,660
+So, once you've found a resource that's already super popular,
+
+575
+00:17:36,660 --> 00:17:38,600
+And what you're jumping to is the website, the website itself.
+
+576
+00:17:38,600 --> 00:17:39,920
+For example, street photography.
+
+577
+00:17:39,920 --> 00:17:41,360
+For gossip content, you'd search these sites.
+
+578
+00:17:41,360 --> 00:17:45,200
+And it's not a hundred percent, but let's say, for the most part, they all have a membership system.
+
+579
+00:17:45,200 --> 00:17:47,000
+I might have multiple bookmarks.
+
+580
+00:17:47,000 --> 00:17:49,920
+So, make sure you get this: multiple bookmarks are packed into this one command.
+
+581
+00:17:49,920 --> 00:17:51,000
+It's not just jumping to a single bookmark.
+
+582
+00:17:51,000 --> 00:17:51,760
+So, once I'm in,
+
+583
+00:17:51,760 --> 00:17:54,180
+So, there are ten bookmarks here, and they're all for these street-style photo sites.
+
+584
+00:17:54,180 --> 00:17:58,580
+Out of these ten bookmarked sites, at least nine of them are streaming platforms.
+
+585
+00:17:58,580 --> 00:18:00,620
+And out of those nine, you have to sign up for a membership.
+
+586
+00:18:00,620 --> 00:18:05,360
+So, what I've put here are the invitation links for those specific websites.
+
+587
+00:18:05,360 --> 00:18:06,180
+an invitation link.
+
+588
+00:18:07,220 --> 00:18:09,360
+and gets hooked.
+
+589
+00:18:09,360 --> 00:18:12,500
+They come in because they're interested in what you're offering.
+
+590
+00:18:12,500 --> 00:18:15,180
+So, on the website level, that 'hook' is created by the website itself.
+
+591
+00:18:15,180 --> 00:18:16,740
+But getting them hooked? That has absolutely nothing to do with you.
+
+592
+00:18:16,740 --> 00:18:18,380
+Without their website, how would you even do it?
+
+593
+00:18:18,380 --> 00:18:19,940
+This leads to a much better user conversion rate.
+
+594
+00:18:19,940 --> 00:18:21,380
+That's their problem to solve.
+
+595
+00:18:21,380 --> 00:18:24,580
+and get them hooked enough to pay for a VIP membership.
+
+596
+00:18:24,580 --> 00:18:25,929
+And you get a cut of that, too.
+
+597
+00:18:25,929 --> 00:18:27,889
+And if you can make that site your own,
+
+598
+00:18:27,889 --> 00:18:29,029
+Then you've got follow-up pathways.
+
+599
+00:18:29,029 --> 00:18:29,889
+Otherwise, you're just a complete newbie.
+
+600
+00:18:29,889 --> 00:18:31,329
+In the beginning, you can only really work with these two channels.
+
+601
+00:18:31,329 --> 00:18:32,249
+And as you're doing it, you'll start to realize...
+
+602
+00:18:32,249 --> 00:18:33,489
+If I can just find the right direction,
+
+603
+00:18:33,489 --> 00:18:34,960
+And it's such a massive amount of traffic!
+
+604
+00:18:34,960 --> 00:18:37,680
+
+
+605
+00:18:37,680 --> 00:18:38,280
+Wouldn't I be losing my shirt?
+
+606
+00:18:38,280 --> 00:18:39,180
+I'm driving traffic to other people's sites all day long.
+
+607
+00:18:39,180 --> 00:18:40,080
+But you will.
+
+608
+00:18:40,080 --> 00:18:41,160
+When you're just starting out as a newbie,
+
+609
+00:18:41,160 --> 00:18:42,570
+You might not want to make the first move.
+
+610
+00:18:42,570 --> 00:18:43,350
+So, how do you sign up?
+
+611
+00:18:43,350 --> 00:18:44,800
+So, how do you do it?
+
+612
+00:18:44,800 --> 00:18:47,860
+So, how do we do it? Let's not even talk about making three, four, or even ten thousand a week right off the bat.
+
+613
+00:18:47,860 --> 00:18:48,740
+Let's just say, 1000 a week.
+
+614
+00:18:48,740 --> 00:18:50,480
+So, let's start with the main goal of dedicating one day a week to this.
+
+615
+00:18:50,480 --> 00:18:50,960
+A hundred a day.
+
+616
+00:18:50,960 --> 00:18:51,920
+Once you get this thing up and running,
+
+617
+00:18:51,920 --> 00:18:55,120
+Then, you'll start thinking, 'What if I'm just wasting all this traffic I've got?'
+
+618
+00:18:55,120 --> 00:18:56,800
+
+
+619
+00:18:56,800 --> 00:18:59,159
+Plus, your own website gets referral bonuses for bringing in new users.
+
+620
+00:18:59,159 --> 00:19:01,919
+And you'll even get the members of your own membership site to do the same.
+
+621
+00:19:01,919 --> 00:19:03,260
+So you can apply this same logic to your own strategy.
+
+622
+00:19:03,260 --> 00:19:04,340
+You should also go after this angle.
+
+623
+00:19:04,340 --> 00:19:05,660
+So you've already got all these resources sorted out.
+
+624
+00:19:05,660 --> 00:19:06,740
+Because I can make it work on my own.
+
+625
+00:19:06,740 --> 00:19:07,860
+So, you've signed up for a membership on my website.
+
+626
+00:19:07,860 --> 00:19:08,940
+So why not join me and do the same?
+
+627
+00:19:08,940 --> 00:19:11,940
+You guys can make five, six, or even a thousand bucks a week with me.
+
+628
+00:19:11,940 --> 00:19:14,860
+You can also follow my logic and just spend 10 to 20 minutes a day on it.
+
+629
+00:19:14,860 --> 00:19:17,300
+and you can be making 500, 600, or even a thousand a week.
+
+630
+00:19:17,300 --> 00:19:21,100
+They'll also help you promote the invitation link to your website.
+
+631
+00:19:21,100 --> 00:19:24,180
+And once users land on your site and click that invitation link,
+
+632
+00:19:24,180 --> 00:19:25,940
+So, they can download stuff from your website, right?
+
+633
+00:19:25,940 --> 00:19:27,280
+And to download stuff, they have to go through the cloud drive, right?
+
+634
+00:19:27,280 --> 00:19:28,060
+without using the cloud drive.
+
+635
+00:19:28,060 --> 00:19:29,260
+The Practical Guide to Jumping to Cloud Storage for User Acquisition
+
+636
+00:19:29,260 --> 00:19:31,240
+For cloud storage referrals, you get 10 to 12 RMB per user.
+
+637
+00:19:31,240 --> 00:19:34,909
+The daily settlement for Xunlei Browser is 6 to 10 yuan per user.
+
+638
+00:19:34,909 --> 00:19:37,569
+So, let's break it down based on your retention rate.
+
+639
+00:19:37,569 --> 00:19:40,649
+It all depends on your user retention rate.
+
+640
+00:19:40,649 --> 00:19:44,100
+Even if it says 6 to 10, just base your calculation on the lowest, which is six.
+
+641
+00:19:44,100 --> 00:19:46,660
+For the cloud drive, just calculate it at the minimum, which is 88 plus 6.
+
+642
+00:19:46,660 --> 00:19:47,460
+So that's two layers of income.
+
+643
+00:19:47,460 --> 00:19:48,340
+This is a guaranteed win for you.
+
+644
+00:19:48,340 --> 00:19:50,940
+So whether they actually sign up for a membership or not isn't even the main point anymore.
+
+645
+00:19:50,940 --> 00:19:53,520
+So, why do we say it doesn't matter if they don't get a membership for the cloud drive?
+
+646
+00:19:53,520 --> 00:19:55,320
+So, how can they even get access to the cloud storage resources?
+
+647
+00:19:55,320 --> 00:19:58,380
+So, shouldn't your website have some free articles on it?
+
+648
+00:19:59,100 --> 00:20:00,440
+Plus, you can drive traffic to your own private channels.
+
+649
+00:20:00,440 --> 00:20:02,920
+This opens up a lot more monetization paths for your private traffic.
+
+650
+00:20:02,920 --> 00:20:07,869
+You know, deals on freebies, tips for shopping apps, all sorts of random stuff... anything goes.
+
+651
+00:20:07,869 --> 00:20:09,389
+And aren't all of these just ways to monetize your private traffic?
+
+652
+00:20:09,389 --> 00:20:10,949
+Alright, so at this point,
+
+653
+00:20:10,949 --> 00:20:12,789
+So that's pretty much the whole logic laid out.
+
+654
+00:20:12,789 --> 00:20:14,029
+And I've also given you a bit of an edge with some insider knowledge.
+
+655
+00:20:14,029 --> 00:20:16,850
+But I'm sure many of you can come up with even better ideas on your own.
+
+656
+00:20:16,850 --> 00:20:18,910
+They might not necessarily go down the same path I'm taking with this 'wait-and-publish' model.
+
+657
+00:20:18,910 --> 00:20:21,210
+Right now, we're in the internal beta testing phase.
+
+658
+00:20:21,210 --> 00:20:24,210
+So basically, it's the logic for our internal self-testing and pending release.
+
+659
+00:20:24,570 --> 00:20:27,050
+Later on, we'll probably release an article about this.
+
+660
+00:20:27,050 --> 00:20:28,210
+So, you guys can keep an eye out for that.
+
+661
+00:20:28,210 --> 00:20:29,850
+We're starting to bring on proxy posters.
+
+662
+00:20:29,850 --> 00:20:32,010
+So, once we've completely nailed down our entire template,
+
+663
+00:20:32,010 --> 00:20:32,970
+and start recruiting team leaders.
+
+664
+00:20:32,970 --> 00:20:33,610
+and recruit team leaders.
+
+665
+00:20:33,610 --> 00:20:35,590
+And this 'pending post' logic is actually effective.
+
+666
+00:20:35,590 --> 00:20:38,450
+We've already run extensive tests on several of these projects,
+
+667
+00:20:38,450 --> 00:20:40,380
+And by 'a dozen or so,' I mean a dozen team leaders.
+
+668
+00:20:40,380 --> 00:20:41,420
+I've got a dozen or so accounts under my belt,
+
+669
+00:20:41,420 --> 00:20:44,040
+I've recruited over a dozen stay-at-home moms to do the posting for me.
+
+670
+00:20:44,040 --> 00:20:46,720
+So, the traffic revenue sharing is structured based on this model.
+
+671
+00:20:46,720 --> 00:20:48,300
+Because the template is pretty good.
+
+672
+00:20:48,300 --> 00:20:49,460
+And the commission rates are super high too.
+
+673
+00:20:49,460 --> 00:20:50,660
+Alright, so at this point,
+
+674
+00:20:50,660 --> 00:20:52,220
+And the entire back-end chain will also run smoothly.
+
+675
+00:20:52,220 --> 00:20:53,420
+and the front-end funnel can be streamlined as well.
+
+676
+00:20:53,420 --> 00:20:55,040
+So that's pretty much the gist of this project.
+
+677
+00:20:55,040 --> 00:20:56,800
+So, once you've moved them over to your private domain,
+
+678
+00:20:56,800 --> 00:20:57,820
+But you still don't know how to do it.
+
+679
+00:20:57,820 --> 00:21:00,040
+If you can actually manage to drive traffic to your private domain,
+
+680
+00:21:00,040 --> 00:21:01,270
+but you have no idea what to do with them.
+
+681
+00:21:01,270 --> 00:21:03,350
+Well, that means you're starting to get some traffic.
+
+682
+00:21:03,350 --> 00:21:04,350
+So, as a small team leader, you come to me,
+
+683
+00:21:04,350 --> 00:21:05,270
+Let me help you out, hehe.
+
+684
+00:21:05,270 --> 00:21:08,900
+Lately, I haven't been updating the article library very frequently.
+
+685
+00:21:08,900 --> 00:21:09,960
+Maybe sometimes when I have some free time,
+
+686
+00:21:09,960 --> 00:21:11,400
+I'll start pumping out a bunch of new posts.
+
+687
+00:21:11,400 --> 00:21:12,180
+and when I don't, I just don't post.
+
+688
+00:21:12,180 --> 00:21:14,130
+But the thing is, there's actually a lot more to it.
+
+689
+00:21:14,130 --> 00:21:15,570
+Take Thunder, for example, the one you're seeing today.
+
+690
+00:21:15,570 --> 00:21:16,410
+So, let me show you.
+
+691
+00:21:16,410 --> 00:21:17,490
+Because this is all being recorded as a video,
+
+692
+00:21:17,490 --> 00:21:19,330
+So, I need to break it down for you guys.
+
+693
+00:21:19,330 --> 00:21:21,139
+Let me expand on that and give you some more ideas.
+
+694
+00:21:21,139 --> 00:21:24,519
+But in reality, all the data I got was just a screenshot.
+
+695
+00:21:24,519 --> 00:21:26,619
+I can quickly figure out their strategy just by looking at it.
+
+696
+00:21:26,619 --> 00:21:28,139
+Because he had just taken those screenshots.
+
+697
+00:21:28,139 --> 00:21:29,099
+So I knew right away what his strategy was.
+
+698
+00:21:29,099 --> 00:21:30,990
+But I'm going to record this as a video.
+
+699
+00:21:30,990 --> 00:21:32,390
+He's the one who spends a lot of time in the middle.
+
+700
+00:21:32,390 --> 00:21:35,200
+So, we're also thinking about starting a podcast down the line.
+
+701
+00:21:35,200 --> 00:21:36,880
+So, I came across an idea today.
+
+702
+00:21:36,880 --> 00:21:38,440
+I can break it down in just a few sentences.
+
+703
+00:21:38,440 --> 00:21:39,690
+Let's see what we've got tomorrow.
+
+704
+00:21:39,690 --> 00:21:40,530
+So, I saw this idea today.
+
+705
+00:21:40,530 --> 00:21:41,410
+I'll break it all down in just a few sentences.
+
+706
+00:21:41,410 --> 00:21:42,410
+Let's break down the latest info directly.
+
+707
+00:21:42,410 --> 00:21:45,650
+This way, it might be a bit easier for everyone to follow along than just watching the video.
+
+708
+00:21:45,650 --> 00:21:46,330
+Alright then.
+
+709
+00:21:46,330 --> 00:21:48,390
+If you have any other questions, feel free to follow us.
+
+710
+00:21:48,390 --> 00:21:51,209
+So, what are some of the detailed feedbacks we've gotten?
+
+711
+00:21:51,209 --> 00:21:52,589
+Remember to give us feedback on this article.
+
+712
+00:21:52,589 --> 00:21:54,329
+We're still not getting a lot of feedback on this project.
+
+713
+00:21:54,329 --> 00:21:55,829
+A huge thank you to all of you.
+
+714
+00:21:55,829 --> 00:21:57,000
+Please like, share, and subscribe. Thanks a lot!
+

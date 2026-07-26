@@ -1,0 +1,652 @@
+1
+00:00:00,020 --> 00:00:02,980
+In the previous episode, we discussed the working cycle of the Cloud Agent SDK.
+
+2
+00:00:02,980 --> 00:00:07,360
+Today we continue reading Building Agents with the Cloud Agent SDK
+
+3
+00:00:07,360 --> 00:00:09,280
+the first step into the agent's loop
+
+4
+00:00:09,280 --> 00:00:12,200
+how does the agent collect the context required for tasks
+
+5
+00:00:12,200 --> 00:00:14,960
+In this chapter, Cloud discusses four strategies
+
+6
+00:00:14,960 --> 00:00:15,800
+divided into two categories
+
+7
+00:00:15,800 --> 00:00:17,320
+The first category is the collection strategy
+
+8
+00:00:17,320 --> 00:00:19,440
+addresses how to acquire external information
+
+9
+00:00:19,440 --> 00:00:22,790
+including Agretic search and semantic search
+
+10
+00:00:22,790 --> 00:00:24,230
+The second category is maintenance strategies
+
+11
+00:00:24,230 --> 00:00:26,610
+addresses how to manage context capacity
+
+12
+00:00:26,610 --> 00:00:28,440
+including sub-agents and compression
+
+13
+00:00:28,440 --> 00:00:29,760
+Why are they divided into these two categories
+
+14
+00:00:29,760 --> 00:00:32,220
+because the agent faces two fundamental challenges
+
+15
+00:00:32,220 --> 00:00:33,840
+The first challenge is information retrieval
+
+16
+00:00:33,840 --> 00:00:36,970
+agents need to retrieve relevant information from massive data
+
+17
+00:00:36,970 --> 00:00:38,810
+This is what the collection strategy aims to address
+
+18
+00:00:38,810 --> 00:00:40,690
+The second challenge is capacity limitation
+
+19
+00:00:40,690 --> 00:00:42,650
+The context window of large models is also limited.
+
+20
+00:00:42,650 --> 00:00:45,760
+When the Agent runs for a long time or processes a large amount of information
+
+21
+00:00:45,760 --> 00:00:47,000
+the context window will overflow
+
+22
+00:00:47,000 --> 00:00:48,660
+This is what the maintenance strategy aims to address.
+
+23
+00:00:48,660 --> 00:00:50,320
+These two types of strategies are used in combination
+
+24
+00:00:50,320 --> 00:00:52,800
+so that the agent can find information while
+
+25
+00:00:52,800 --> 00:00:54,340
+the context window won't explode
+
+26
+00:00:54,340 --> 00:00:55,900
+Let's start with the two collection strategies
+
+27
+00:00:55,900 --> 00:00:56,440
+The first type
+
+28
+00:00:56,440 --> 00:00:57,460
+Aggentic search
+
+29
+00:00:57,460 --> 00:01:01,570
+The file system represents information that can be pulled into the lower layer of the model cabin.
+
+30
+00:01:01,570 --> 00:01:03,590
+when CD encounters large files
+
+31
+00:01:03,590 --> 00:01:05,610
+such as logs or files uploaded by users
+
+32
+00:01:05,610 --> 00:01:06,850
+it uses bash scripts
+
+33
+00:01:06,850 --> 00:01:10,310
+such as grep and tail to determine how to load this content
+
+34
+00:01:10,310 --> 00:01:11,210
+into the context
+
+35
+00:01:11,210 --> 00:01:13,130
+First, let me explain what grep and tail are
+
+36
+00:01:13,130 --> 00:01:15,540
+grep is a commonly used text search tool
+
+37
+00:01:15,540 --> 00:01:19,160
+Its function is to search for lines containing specific keywords in a file.
+
+38
+00:01:19,160 --> 00:01:21,580
+For example, if you have a log file with 100,000 lines
+
+39
+00:01:21,580 --> 00:01:23,860
+You want to find all lines containing ERROR
+
+40
+00:01:23,860 --> 00:01:26,720
+grep error log dot t x t
+
+41
+00:01:26,720 --> 00:01:29,610
+It will print out all lines containing 'error'.
+
+42
+00:01:29,610 --> 00:01:31,430
+tail is another commonly used tool
+
+43
+00:01:31,430 --> 00:01:34,010
+Its function is to read the last few lines of a file
+
+44
+00:01:34,010 --> 00:01:36,229
+For example, if you want to view the last 100 lines of a log file
+
+45
+00:01:36,229 --> 00:01:39,189
+use tail -N100 log.txt
+
+46
+00:01:39,189 --> 00:01:41,750
+This is particularly useful when checking the latest logs.
+
+47
+00:01:41,750 --> 00:01:43,690
+Why using grep and tail is effective
+
+48
+00:01:43,690 --> 00:01:45,949
+The first reason: precise filtering
+
+49
+00:01:45,949 --> 00:01:48,469
+Suppose you have a 100MB log file
+
+50
+00:01:48,469 --> 00:01:51,229
+If you directly dump the entire file into the Agent's context
+
+51
+00:01:51,229 --> 00:01:52,780
+the upload window would crash
+
+52
+00:01:52,780 --> 00:01:55,500
+but if you use grep to filter out lines containing 'error' first
+
+53
+00:01:55,500 --> 00:01:56,800
+probably only 100 lines
+
+54
+00:01:56,800 --> 00:01:58,120
+only occupies 10KB
+
+55
+00:01:58,120 --> 00:02:00,230
+The upper and lower door windows in Town A are sufficient.
+
+56
+00:02:00,230 --> 00:02:02,090
+The second reason is traceable
+
+57
+00:02:02,090 --> 00:02:03,310
+When the agent tells you
+
+58
+00:02:03,310 --> 00:02:04,550
+he found an error
+
+59
+00:02:04,550 --> 00:02:06,070
+You can see the commands it executed
+
+60
+00:02:06,070 --> 00:02:08,410
+Grab erroog dot xt
+
+61
+00:02:08,410 --> 00:02:09,990
+Do you know how he found it?
+
+62
+00:02:09,990 --> 00:02:11,610
+You can verify whether the result is correct
+
+63
+00:02:11,610 --> 00:02:14,290
+Transparency is slightly compromised when using vector search.
+
+64
+00:02:14,290 --> 00:02:16,330
+The third reason is combinability
+
+65
+00:02:16,330 --> 00:02:19,750
+grep and tail can be combined with other batch commands
+
+66
+00:02:19,750 --> 00:02:22,390
+for example, grab error log dot t x t
+
+67
+00:02:22,390 --> 00:02:23,540
+Tail -n 10
+
+68
+00:02:23,540 --> 00:02:24,980
+first find all error lines
+
+69
+00:02:24,980 --> 00:02:26,240
+then take the last ten lines
+
+70
+00:02:26,240 --> 00:02:29,459
+or grab e five ever log dot t x t
+
+71
+00:02:29,459 --> 00:02:30,859
+After finding the error line
+
+72
+00:02:30,859 --> 00:02:33,180
+then display the following five lines of context
+
+73
+00:02:33,180 --> 00:02:36,120
+This combination of capabilities allows Agent to accomplish very complex information extraction tasks with minimal tools
+
+74
+00:02:36,120 --> 00:02:38,380
+accomplish highly complex information extraction tasks
+
+75
+00:02:38,380 --> 00:02:41,100
+Next, let's look at the second context collection strategy
+
+76
+00:02:41,100 --> 00:02:43,140
+semantic search
+
+77
+00:02:43,140 --> 00:02:46,079
+It works by chunking the relevant context
+
+78
+00:02:46,079 --> 00:02:47,959
+embed these chunks into vectors
+
+79
+00:02:47,959 --> 00:02:51,179
+and then searches for concepts by querying these vectors
+
+80
+00:02:51,179 --> 00:02:53,510
+To understand the difference between the two with an analogy
+
+81
+00:02:53,510 --> 00:02:56,030
+Semantic search is like going to the archives to look up files
+
+82
+00:02:56,030 --> 00:02:58,570
+you search by year and department with precision
+
+83
+00:02:58,570 --> 00:03:00,010
+open the complete case file
+
+84
+00:03:00,010 --> 00:03:01,519
+transparent and precise
+
+85
+00:03:01,519 --> 00:03:04,359
+semantic search is like dissecting the contents of the file
+
+86
+00:03:04,359 --> 00:03:06,690
+cut into individual paragraph segments
+
+87
+00:03:06,690 --> 00:03:08,330
+and then categorizes them by meaning
+
+88
+00:03:08,330 --> 00:03:10,530
+when you ask about the financial minting system
+
+89
+00:03:10,530 --> 00:03:12,830
+will quickly pick out all the relevant segments
+
+90
+00:03:12,830 --> 00:03:14,050
+quickly aggregated for you
+
+91
+00:03:14,050 --> 00:03:15,269
+but with low accuracy
+
+92
+00:03:15,269 --> 00:03:16,229
+difficult to maintain
+
+93
+00:03:16,229 --> 00:03:18,249
+So when should each search method be used?
+
+94
+00:03:18,249 --> 00:03:20,579
+cloud's suggestion in this article is
+
+95
+00:03:20,579 --> 00:03:23,399
+Semantic Search is usually faster than agretic search
+
+96
+00:03:23,399 --> 00:03:24,419
+but less accurate
+
+97
+00:03:24,419 --> 00:03:25,339
+high maintenance difficulty
+
+98
+00:03:25,339 --> 00:03:26,540
+transparency is also lower
+
+99
+00:03:26,540 --> 00:03:28,420
+Given the limitations of semantic search
+
+100
+00:03:28,420 --> 00:03:31,760
+It is recommended for agent scenarios that require exploring contextual structures
+
+101
+00:03:31,760 --> 00:03:33,730
+should start with ijtic search
+
+102
+00:03:33,730 --> 00:03:37,330
+only when faster results or more expressive variations are needed
+
+103
+00:03:37,330 --> 00:03:38,870
+then introduce semantic search
+
+104
+00:03:38,870 --> 00:03:40,370
+Here are two scenarios
+
+105
+00:03:40,370 --> 00:03:42,810
+First, when faster search results are needed
+
+106
+00:03:42,810 --> 00:03:44,810
+when IJTC search cannot meet the requirements
+
+107
+00:03:44,810 --> 00:03:46,370
+Semantic search can be introduced
+
+108
+00:03:46,370 --> 00:03:49,340
+Secondly, when user queries have many variations
+
+109
+00:03:49,340 --> 00:03:51,140
+For example, users might use terms like 'error'
+
+110
+00:03:51,140 --> 00:03:53,959
+exception failures to describe the same concept
+
+111
+00:03:53,959 --> 00:03:55,829
+Semantic search can match all of these.
+
+112
+00:03:55,829 --> 00:03:58,329
+while grep can only match keywords exactly
+
+113
+00:03:58,329 --> 00:04:00,949
+This is what the original text refers to as more expressive variants
+
+114
+00:04:00,949 --> 00:04:03,740
+The first two strategies address how to acquire information
+
+115
+00:04:03,740 --> 00:04:05,300
+Now let's talk about two maintenance strategies
+
+116
+00:04:05,300 --> 00:04:07,680
+addresses how to manage context capacity
+
+117
+00:04:07,680 --> 00:04:08,660
+The first maintenance strategy
+
+118
+00:04:08,660 --> 00:04:10,940
+Subligence cloud agent sdk
+
+119
+00:04:10,940 --> 00:04:12,810
+supports sub-agents by default
+
+120
+00:04:12,810 --> 00:04:14,950
+Sub-agents have two main purposes
+
+121
+00:04:14,950 --> 00:04:16,190
+The first is parallelization
+
+122
+00:04:17,589 --> 00:04:18,750
+Parallelization is easy to understand
+
+123
+00:04:18,750 --> 00:04:22,000
+You can launch multiple sub-agents to handle different tasks simultaneously
+
+124
+00:04:22,000 --> 00:04:23,360
+What does context isolation mean?
+
+125
+00:04:23,360 --> 00:04:25,900
+Sub-agents use their own independent context windows
+
+126
+00:04:25,900 --> 00:04:27,240
+can handle large amounts of information
+
+127
+00:04:27,240 --> 00:04:29,740
+but only returns the relevant portions to the main agent
+
+128
+00:04:29,740 --> 00:04:30,650
+For example
+
+129
+00:04:30,650 --> 00:04:32,230
+When designing an email agent
+
+130
+00:04:32,230 --> 00:04:35,070
+we may give it a search sub-agent capability
+
+131
+00:04:35,070 --> 00:04:38,690
+The email agent can launch multiple search sub-agents in parallel
+
+132
+00:04:38,690 --> 00:04:41,640
+each performs a different query on your email history
+
+133
+00:04:41,640 --> 00:04:43,500
+and have them return only relevant excerpts
+
+134
+00:04:43,500 --> 00:04:45,220
+rather than the entire email thread
+
+135
+00:04:45,220 --> 00:04:48,000
+This approach prevents the main agent's context from exploding
+
+136
+00:04:48,000 --> 00:04:49,160
+The second maintenance strategy
+
+137
+00:04:49,160 --> 00:04:50,650
+compaction
+
+138
+00:04:50,650 --> 00:04:53,510
+SUBVERANCE addresses the granularity in the spatial dimension
+
+139
+00:04:53,510 --> 00:04:56,030
+Isolation is used to prevent the main agent from being overwhelmed
+
+140
+00:04:58,840 --> 00:05:01,260
+Through compression, agents are enabled to run for extended periods
+
+141
+00:05:01,260 --> 00:05:05,880
+The compression feature of Cloud Agent SDK activates when approaching context limits
+
+142
+00:05:05,880 --> 00:05:07,500
+automatically summarize previous messages
+
+143
+00:05:07,500 --> 00:05:09,500
+so the agent won't run out of context
+
+144
+00:05:09,500 --> 00:05:12,700
+This is built based on the Cloud Code compression slash command.
+
+145
+00:05:12,700 --> 00:05:14,110
+To summarize briefly
+
+146
+00:05:14,110 --> 00:05:16,510
+There are four strategies for gathering context
+
+147
+00:05:16,510 --> 00:05:18,410
+There are two information gathering strategies
+
+148
+00:05:18,410 --> 00:05:20,050
+First, Agretic Search
+
+149
+00:05:20,050 --> 00:05:23,670
+Searching the file system with grep and tail is transparent and accurate
+
+150
+00:05:23,670 --> 00:05:27,650
+Second, semantic search with vector retrieval is fast but lacks transparency
+
+151
+00:05:27,650 --> 00:05:28,590
+low accuracy
+
+152
+00:05:28,590 --> 00:05:29,679
+high maintenance difficulty
+
+153
+00:05:29,679 --> 00:05:31,259
+Use only when necessary
+
+154
+00:05:36,910 --> 00:05:39,490
+prevent the main agent from being overwhelmed by excessive information
+
+155
+00:05:39,490 --> 00:05:42,700
+Second, compaction automatically summarizes history
+
+156
+00:05:42,700 --> 00:05:44,600
+enable the agent to run for extended periods
+
+157
+00:05:44,600 --> 00:05:47,999
+The core design philosophy is the file system and context framework
+
+158
+00:05:47,999 --> 00:05:50,439
+let the agent decide where to find information
+
+159
+00:05:50,439 --> 00:05:53,260
+Next episode we will delve into the 'take action' step.
+
+160
+00:05:53,260 --> 00:05:54,940
+How exactly does the Agent execute tasks?
+
+161
+00:05:54,940 --> 00:05:56,780
+what tools does cloud provide
+
+162
+00:05:56,780 --> 00:05:57,920
+This is Slow Learn AI
+
+163
+00:05:57,920 --> 00:05:59,380
+See you in the next episode
+

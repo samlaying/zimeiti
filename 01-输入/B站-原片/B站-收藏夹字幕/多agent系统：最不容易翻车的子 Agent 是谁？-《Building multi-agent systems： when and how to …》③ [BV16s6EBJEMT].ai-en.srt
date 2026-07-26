@@ -1,0 +1,456 @@
+1
+00:00:00,040 --> 00:00:03,680
+In the previous two videos, we understood when to adopt a multi-Agent architecture,
+
+2
+00:00:03,680 --> 00:00:05,680
+and how the boundaries of Agents should be partitioned.
+
+3
+00:00:05,680 --> 00:00:07,570
+If you've already decided to take this step,
+
+4
+00:00:07,570 --> 00:00:09,010
+So where should we make the safest and least risky 'first cut'?
+
+5
+00:00:09,010 --> 00:00:12,450
+Where exactly should the cut be made?
+
+6
+00:00:12,450 --> 00:00:15,030
+Claude did not recommend those fancy collaboration modes,
+
+7
+00:00:15,030 --> 00:00:18,480
+but emphasized a seemingly "not so smart" role: the verification sub-agent
+
+8
+00:00:18,480 --> 00:00:23,280
+Why is the 'Verification Agent' the most stable splitting point?
+
+9
+00:00:23,280 --> 00:00:24,860
+Let's first look at its typical pattern.
+
+10
+00:00:24,860 --> 00:00:26,120
+There are two roles here:
+
+11
+00:00:26,120 --> 00:00:27,660
+one is the main Agent,
+
+12
+00:00:27,660 --> 00:00:30,560
+It is responsible for the actual work: writing code and generating content.
+
+13
+00:00:30,560 --> 00:00:32,020
+It possesses complete contextual understanding and comprehends 'why this needs to be done'.
+
+14
+00:00:32,020 --> 00:00:33,280
+understand why this needs to be done
+
+15
+00:00:33,280 --> 00:00:34,640
+The other one is the verification Agent, which doesn't care about the process at all.
+
+16
+00:00:34,640 --> 00:00:36,180
+It doesn't care about the process at all.
+
+17
+00:00:36,180 --> 00:00:38,200
+It does not need to understand how this result was obtained,
+
+18
+00:00:38,200 --> 00:00:39,769
+It only needs to answer one question:
+
+19
+00:00:39,769 --> 00:00:42,189
+Does the result meet the predefined criteria?
+
+20
+00:00:42,189 --> 00:00:43,149
+Speaking of which,
+
+21
+00:00:43,149 --> 00:00:45,729
+Attentive viewers might have a major question:
+
+22
+00:00:45,729 --> 00:00:48,780
+Wait a minute! In your last video, didn't you just say that
+
+23
+00:00:48,780 --> 00:00:51,940
+Is splitting 'testing' out the wrong 'messenger architecture'?
+
+24
+00:00:51,940 --> 00:00:54,580
+Why is splitting 'verification' considered the safest approach today?
+
+25
+00:00:54,580 --> 00:00:55,900
+Isn't this contradictory?
+
+26
+00:00:55,900 --> 00:00:59,520
+The answer to this question lies at the heart of multi-agent design.
+
+27
+00:00:59,520 --> 00:01:00,520
+Please note: in the second episode, we opposed
+
+28
+00:01:00,520 --> 00:01:04,319
+is to split 'writing tests';
+
+29
+00:01:04,319 --> 00:01:07,760
+And what we recommend today is to split 'executing verification'
+
+30
+00:01:07,760 --> 00:01:09,020
+What's the difference between the two?
+
+31
+00:01:09,020 --> 00:01:10,759
+"Writing tests" is a white-box task.
+
+32
+00:01:10,759 --> 00:01:12,799
+To write good test code,
+
+33
+00:01:12,799 --> 00:01:15,740
+The Agent must understand the business logic and comprehend the code structure.
+
+34
+00:01:15,740 --> 00:01:17,620
+understand 'why the developer implemented it this way'
+
+35
+00:01:17,620 --> 00:01:19,140
+This requires a significant amount of context.
+
+36
+00:01:19,140 --> 00:01:22,340
+If forcibly separated, the testing Agent would become blind,
+
+37
+00:01:22,340 --> 00:01:24,040
+must constantly ask the development Agent,
+
+38
+00:01:24,040 --> 00:01:25,760
+This falls into the messenger trap.
+
+39
+00:01:25,760 --> 00:01:29,040
+However, during 'execution verification', it is a black-box task. The verification Agent does not need to know how the code is written.
+
+40
+00:01:29,040 --> 00:01:30,940
+Agent A doesn't need to know how the code is written.
+
+41
+00:01:30,940 --> 00:01:33,280
+nor does it need to know why this line of code uses a for loop.
+
+42
+00:01:33,280 --> 00:01:34,720
+It only needs to obtain the output, compare it against the standards,
+
+43
+00:01:34,720 --> 00:01:37,500
+mechanically perform the inspection.
+
+44
+00:01:37,500 --> 00:01:38,540
+To draw an analogy:
+
+45
+00:01:38,540 --> 00:01:40,660
+"Writing tests" is like students writing an essay,
+
+46
+00:01:40,660 --> 00:01:43,540
+You must conceive the ideas yourself; you can't have someone else write it for you.
+
+47
+00:01:43,540 --> 00:01:47,220
+This is called contextual cohesion. 'Performing verification' is like a teacher grading exam papers.
+
+48
+00:01:47,220 --> 00:01:49,420
+The teacher doesn't care at all about your thought process while writing.
+
+49
+00:01:49,420 --> 00:01:51,280
+only checking if the word count is sufficient and whether you've stayed on topic.
+
+50
+00:01:51,280 --> 00:01:55,880
+This type of standardized, objective, and independent work is most suitable for delegation to a sub-agent.
+
+51
+00:01:55,880 --> 00:02:01,910
+Therefore, verification tasks naturally align with the 'context-centric decomposition principle' we discussed in the second episode.
+
+52
+00:02:01,910 --> 00:02:04,110
+It is the cleanest type of work in terms of context
+
+53
+00:02:04,110 --> 00:02:06,300
+Understanding this logic opens up your mind
+
+54
+00:02:06,300 --> 00:02:08,699
+The verification agent can not only be used to test code,
+
+55
+00:02:08,699 --> 00:02:10,100
+Any task with 'clear standards and
+
+56
+00:02:10,100 --> 00:02:12,500
+Tasks that "do not require understanding the process" can all be assigned to it.
+
+57
+00:02:12,500 --> 00:02:15,550
+For example, compliance checks. The main Agent drafts the contract,
+
+58
+00:02:15,550 --> 00:02:18,650
+The verification Agent checks against the 'company legal manual'.
+
+59
+00:02:18,650 --> 00:02:21,050
+It doesn't need to understand legal logic; it just checks whether the clauses are present or not.
+
+60
+00:02:21,050 --> 00:02:24,100
+For example, fact-checking. The main Agent writes the article, while the verification Agent specifically searches Google to verify each piece of data.
+
+61
+00:02:24,100 --> 00:02:26,160
+The verification agent specifically searches Google.
+
+62
+00:02:26,160 --> 00:02:28,060
+Verify the authenticity of each piece of data.
+
+63
+00:02:28,060 --> 00:02:29,100
+For example, format validation.
+
+64
+00:02:29,100 --> 00:02:31,550
+Specifically checking whether the JSON fields in the output are correct.
+
+65
+00:02:31,550 --> 00:02:35,250
+It is the lowest-cost yet highest-return 'gatekeeper' in your system.
+
+66
+00:02:35,250 --> 00:02:38,500
+However, even with such a safe starting point for decomposition,
+
+67
+00:02:38,500 --> 00:02:41,180
+In practice, there's also a major pitfall: the 'premature victory problem'
+
+68
+00:02:41,180 --> 00:02:45,190
+Claude found that verification sub-agents often have a 'lazy' tendency
+
+69
+00:02:45,190 --> 00:02:49,120
+Because LLMs tend to comply with users and want to end the conversation as quickly as possible.
+
+70
+00:02:49,120 --> 00:02:50,520
+A common occurrence is:
+
+71
+00:02:50,520 --> 00:02:52,900
+The verifier only ran one or two of the simplest tests,
+
+72
+00:02:52,900 --> 00:02:56,160
+upon finding it passed, immediately declared: 'Mission accomplished!'
+
+73
+00:02:56,160 --> 00:02:57,420
+But this is actually an illusion.
+
+74
+00:02:57,420 --> 00:03:00,830
+Once deployed, when encountering complex edge cases, the system will crash.
+
+75
+00:03:00,830 --> 00:03:02,190
+How to prevent the Agent from slacking off?
+
+76
+00:03:02,190 --> 00:03:04,790
+The official provided four 'anti-laziness ironclad rules',
+
+77
+00:03:04,790 --> 00:03:06,829
+It is recommended to directly include it in the System Prompt:
+
+78
+00:03:06,829 --> 00:03:09,769
+First, specific standards. Don't say 'make sure it can run',
+
+79
+00:03:09,769 --> 00:03:12,240
+Say 'run the complete test suite,
+
+80
+00:03:12,240 --> 00:03:14,180
+and report all failed items”
+
+81
+00:03:14,180 --> 00:03:15,890
+Second, comprehensive inspection.
+
+82
+00:03:15,890 --> 00:03:18,030
+Mandate coverage of edge cases, such as null values and excessively long text.
+
+83
+00:03:18,030 --> 00:03:20,050
+such as null values or excessively long text
+
+84
+00:03:20,050 --> 00:03:21,710
+Third, negative testing.
+
+85
+00:03:21,710 --> 00:03:23,300
+You need to instruct the verifier:
+
+86
+00:03:23,300 --> 00:03:25,800
+"Try entering some data that would cause a failure,
+
+87
+00:03:25,800 --> 00:03:27,720
+and confirm that the system indeed reports an error
+
+88
+00:03:27,720 --> 00:03:28,820
+If it says 'success' no matter what is input,
+
+89
+00:03:28,820 --> 00:03:29,700
+it always says 'success'
+
+90
+00:03:29,700 --> 00:03:31,130
+it means the test is fake.
+
+91
+00:03:31,130 --> 00:03:34,550
+Fourth, explicit instructions. Use strong imperative sentences, such as: 'You must
+
+92
+00:03:34,550 --> 00:03:37,590
+You must run all tests before marking them as passed.
+
+93
+00:03:37,590 --> 00:03:38,310
+Having said that
+
+94
+00:03:38,310 --> 00:03:40,120
+Building multi-agent systems
+
+95
+00:03:40,120 --> 00:03:42,080
+At this point, 'Building multi-agent systems: when and how to use them'
+
+96
+00:03:42,080 --> 00:03:43,500
+The series has officially concluded.
+
+97
+00:03:43,500 --> 00:03:45,710
+Finally, let's return to the origin.
+
+98
+00:03:45,710 --> 00:03:48,750
+Claude provided a 'Implementation Checklist' at the end
+
+99
+00:03:48,750 --> 00:03:50,160
+Before you start writing code,
+
+100
+00:03:50,160 --> 00:03:52,180
+Once again, ask yourself these three questions:
+
+101
+00:03:52,180 --> 00:03:54,200
+First, are there truly physical constraints?
+
+102
+00:03:54,200 --> 00:03:56,540
+If a monolithic architecture can solve the problem, stick with it.
+
+103
+00:03:56,540 --> 00:03:59,050
+Second, is it split by context?
+
+104
+00:03:59,050 --> 00:04:03,230
+Is the division boundary based on "Knowledge" requirements, or is it blindly imitating an assembly line?
+
+105
+00:04:03,230 --> 00:04:05,800
+Third, are there clear verification points?
+
+106
+00:04:05,800 --> 00:04:07,560
+Can you define clear criteria,
+
+107
+00:04:07,560 --> 00:04:09,560
+Let the sub-agent perform black-box verification?
+
+108
+00:04:09,560 --> 00:04:11,600
+If I had to summarize the entire article in one sentence, it would be:
+
+109
+00:04:11,600 --> 00:04:13,300
+Start with a monolith;
+
+110
+00:04:13,300 --> 00:04:16,050
+Introduce multiple agents only when real constraints emerge;
+
+111
+00:04:16,050 --> 00:04:20,279
+The most stable starting point for multi-Agent splitting is the verification sub-Agent.
+
+112
+00:04:20,279 --> 00:04:22,959
+rather than more complex reasoning Agents.
+
+113
+00:04:22,959 --> 00:04:23,999
+Alright, that concludes this series.
+
+114
+00:04:23,999 --> 00:04:26,500
+This is Slow Learn AI. See you next time.
+

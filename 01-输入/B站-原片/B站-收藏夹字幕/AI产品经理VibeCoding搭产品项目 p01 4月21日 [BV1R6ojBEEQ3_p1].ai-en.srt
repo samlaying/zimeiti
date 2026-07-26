@@ -1,0 +1,1092 @@
+1
+00:00:00,000 --> 00:00:02,460
+How can you build your own AI product using vibe coding?
+
+2
+00:00:02,460 --> 00:00:03,840
+So, here's a student I was mentoring who used...
+
+3
+00:00:03,840 --> 00:00:06,100
+In just a few days, he built four projects.
+
+4
+00:00:06,100 --> 00:00:08,230
+And they're commercially viable, all built in a very short amount of time.
+
+5
+00:00:08,230 --> 00:00:09,250
+And the results are impressive.
+
+6
+00:00:09,250 --> 00:00:10,350
+Ever since last year,
+
+7
+00:00:10,350 --> 00:00:11,830
+We're seeing more and more people from non-technical backgrounds,
+
+8
+00:00:11,830 --> 00:00:14,610
+started using AI to build their own little products and tools.
+
+9
+00:00:14,610 --> 00:00:17,150
+And get this, they might not even know how to write a single line of code.
+
+10
+00:00:17,150 --> 00:00:20,800
+But somehow, they manage to whip up a fully functional, working product.
+
+11
+00:00:20,800 --> 00:00:22,820
+So, how do they do it?
+
+12
+00:00:22,820 --> 00:00:25,520
+So today, I'm going to share the workflow that I use the most.
+
+13
+00:00:25,520 --> 00:00:26,580
+and share it with you all.
+
+14
+00:00:26,580 --> 00:00:28,840
+I'll walk you through the entire process from start to finish.
+
+15
+00:00:28,840 --> 00:00:32,060
+how to use Figma Make to quickly validate an idea.
+
+16
+00:00:32,060 --> 00:00:34,860
+and then how to take that validated prototype and put it into a professional-grade tool like Cursor.
+
+17
+00:00:34,860 --> 00:00:39,640
+to turn it into a real, usable product.
+
+18
+00:00:39,640 --> 00:00:40,820
+And by the way,
+
+19
+00:00:40,820 --> 00:00:42,960
+So, the workflow I'm going to show you today...
+
+20
+00:00:42,960 --> 00:00:45,440
+is actually just a small part of our Vibe Coding Practical Guide.
+
+21
+00:00:45,440 --> 00:00:48,920
+and it's just a tiny part of our full-stack development course for AI product managers.
+
+22
+00:00:48,920 --> 00:00:51,780
+So, in this video, I'm going to first give you a taste of what it's like to command AI with natural language.
+
+23
+00:00:51,780 --> 00:00:54,880
+So, what does development actually feel like?
+
+24
+00:00:54,880 --> 00:00:58,640
+The actual course content is much more comprehensive than this, but alright, let's not waste any more time.
+
+25
+00:00:58,640 --> 00:01:00,020
+So, let's just dive right into the hands-on part.
+
+26
+00:01:00,020 --> 00:01:02,120
+Alright, so let's start by talking about this tool.
+
+27
+00:01:02,120 --> 00:01:03,120
+Figma Make.
+
+28
+00:01:03,120 --> 00:01:06,960
+Figma Make is a tool that's super popular in the industry right now for vibe coding.
+
+29
+00:01:06,960 --> 00:01:08,540
+And its biggest feature? It's just incredibly fast.
+
+30
+00:01:08,540 --> 00:01:09,700
+So, just how fast are we talking?
+
+31
+00:01:09,700 --> 00:01:11,480
+Let's say you have a vague idea in your head.
+
+32
+00:01:11,480 --> 00:01:12,600
+And once you've told it what you want,
+
+33
+00:01:12,600 --> 00:01:13,580
+And in just a few seconds,
+
+34
+00:01:13,580 --> 00:01:15,380
+a fully functional webpage, just like that.
+
+35
+00:01:15,380 --> 00:01:16,960
+and a fully functional app just pops right out.
+
+36
+00:01:16,960 --> 00:01:18,440
+So, first things first, how do you sign up and get it installed?
+
+37
+00:01:18,440 --> 00:01:19,740
+The easiest way is
+
+38
+00:01:19,740 --> 00:01:21,940
+Just go to their official website directly in your browser.
+
+39
+00:01:21,940 --> 00:01:24,000
+Just use your Google account to log in, and you're all set.
+
+40
+00:01:24,000 --> 00:01:25,820
+To make the experience a bit smoother,
+
+41
+00:01:25,820 --> 00:01:27,500
+I'd recommend using it with an accelerator on.
+
+42
+00:01:27,500 --> 00:01:29,920
+Otherwise, the connection can be a bit unstable in some regions.
+
+43
+00:01:29,920 --> 00:01:32,320
+Alternatively, you can also download the desktop app.
+
+44
+00:01:32,320 --> 00:01:34,310
+It's available for both Mac and Windows.
+
+45
+00:01:34,310 --> 00:01:36,870
+Function-wise, it's exactly the same as the web version.
+
+46
+00:01:36,870 --> 00:01:37,770
+So it really just depends on your personal preference.
+
+47
+00:01:37,770 --> 00:01:39,510
+Personally, I use the desktop app.
+
+48
+00:01:39,510 --> 00:01:41,070
+Right after you sign up, you get the free version.
+
+49
+00:01:41,070 --> 00:01:44,120
+It limits you to creating just one project.
+
+50
+00:01:44,120 --> 00:01:45,460
+and it lets you have up to three design files inside.
+
+51
+00:01:45,460 --> 00:01:48,090
+So, for those of you who are just getting started,
+
+52
+00:01:48,090 --> 00:01:51,590
+So, just start with the free version to get a feel for it. That's totally fine.
+
+53
+00:01:51,590 --> 00:01:53,510
+Once you feel like this thing is actually useful,
+
+54
+00:01:53,510 --> 00:01:54,630
+and your development needs ramp up,
+
+55
+00:01:54,630 --> 00:01:56,290
+that's when you can upgrade to the professional version.
+
+56
+00:01:56,290 --> 00:01:57,910
+That's just over ten bucks a month.
+
+57
+00:01:57,910 --> 00:01:58,530
+So, just do what you can afford.
+
+58
+00:01:58,530 --> 00:01:59,720
+Step two.
+
+59
+00:01:59,960 --> 00:02:02,040
+Three ways to get AI to do the work for you.
+
+60
+00:02:02,040 --> 00:02:03,540
+So, once you open up Figma Make,
+
+61
+00:02:03,540 --> 00:02:05,680
+We're greeted with a really clean interface.
+
+62
+00:02:05,680 --> 00:02:07,800
+And right in the middle, there's a big input box.
+
+63
+00:02:07,800 --> 00:02:09,160
+So, I've broken it down.
+
+64
+00:02:09,160 --> 00:02:11,900
+So, to get the AI to do the work for us, there are three main ways we can feed it information. The first one...
+
+65
+00:02:11,900 --> 00:02:14,930
+pure text-based commands.
+
+66
+00:02:14,930 --> 00:02:19,410
+Basically, you just describe what you want clearly in text and feed it to the AI.
+
+67
+00:02:19,410 --> 00:02:22,370
+This method requires a bit more skill in writing descriptions.
+
+68
+00:02:22,370 --> 00:02:26,310
+You need to clearly explain the layout, the features, and the navigation logic between the pages.
+
+69
+00:02:26,310 --> 00:02:30,480
+For example, "Help me build an app for collecting recipes."
+
+70
+00:02:30,480 --> 00:02:32,360
+The homepage is a card-based list.
+
+71
+00:02:32,360 --> 00:02:34,600
+Clicking on it takes you to the details page.
+
+72
+00:02:34,600 --> 00:02:36,240
+And at the bottom, there's an 'add' button.
+
+73
+00:02:36,240 --> 00:02:39,680
+Then it will generate it based on your description. The second method is to use a design draft as a reference.
+
+74
+00:02:39,680 --> 00:02:41,120
+This is my favorite method, by far.
+
+75
+00:02:41,120 --> 00:02:42,310
+and it's also the most effective.
+
+76
+00:02:42,310 --> 00:02:43,830
+So, let's say you have a designer on your team.
+
+77
+00:02:43,830 --> 00:02:45,820
+They've designed the UI mockup in Figma.
+
+78
+00:02:45,820 --> 00:02:48,900
+
+
+79
+00:02:48,900 --> 00:02:51,920
+Then, paste it right into the input box in Figma Make.
+
+80
+00:02:51,920 --> 00:02:55,320
+And it will strictly follow the designer's specified colors and layout.
+
+81
+00:02:55,320 --> 00:02:56,280
+spacing, and generate the code just like that.
+
+82
+00:02:56,280 --> 00:02:59,510
+Because what the designer provides is basically a source-code-level reference.
+
+83
+00:02:59,510 --> 00:03:02,070
+So, it's way more accurate than just trying to describe it with words.
+
+84
+00:03:02,070 --> 00:03:04,930
+So the page that's generated is pretty much exactly what the designer had in mind.
+
+85
+00:03:04,930 --> 00:03:07,350
+The second method is using a reference screenshot.
+
+86
+00:03:07,350 --> 00:03:10,030
+But a lot of the time, we don't have a ready-made design to work with.
+
+87
+00:03:10,030 --> 00:03:12,410
+But what if we're browsing online and see an app we really like,
+
+88
+00:03:12,410 --> 00:03:13,510
+and you think, "Wow, a certain page is exceptionally well-designed."
+
+89
+00:03:13,510 --> 00:03:14,110
+So, what do we do then?
+
+90
+00:03:14,110 --> 00:03:15,450
+Let's just take a screenshot.
+
+91
+00:03:15,450 --> 00:03:17,550
+and drag the image into Figma Make.
+
+92
+00:03:17,550 --> 00:03:18,490
+and tell it,
+
+93
+00:03:18,490 --> 00:03:21,030
+Build me a similar product in this style.
+
+94
+00:03:21,030 --> 00:03:22,710
+It might not be as precise as the second method,
+
+95
+00:03:22,710 --> 00:03:23,770
+But the convenience is a huge plus.
+
+96
+00:03:23,770 --> 00:03:25,470
+You can just take a quick screenshot and make changes.
+
+97
+00:03:25,470 --> 00:03:27,030
+Alright, step three: the live demo.
+
+98
+00:03:27,030 --> 00:03:28,990
+Let's create an interactive prototype for a recipe app.
+
+99
+00:03:28,990 --> 00:03:29,750
+To save some time,
+
+100
+00:03:29,750 --> 00:03:31,590
+So, I've already run an example beforehand.
+
+101
+00:03:31,590 --> 00:03:33,860
+Let me show you exactly how it works.
+
+102
+00:03:33,860 --> 00:03:36,020
+For instance, the requirement I typed into the input box...
+
+103
+00:03:36,020 --> 00:03:38,860
+I want to create a detail page for a recipe app.
+
+104
+00:03:38,860 --> 00:03:41,740
+And as you swipe up, you can see more information.
+
+105
+00:03:41,740 --> 00:03:44,560
+And what's more, I can just take these two design mockups the designer gave me,
+
+106
+00:03:44,560 --> 00:03:46,079
+
+
+107
+00:03:46,079 --> 00:03:47,279
+So, once we hit 'generate'...
+
+108
+00:03:47,279 --> 00:03:48,039
+And it starts running.
+
+109
+00:03:48,039 --> 00:03:49,739
+The first version finished in just over ten seconds.
+
+110
+00:03:49,739 --> 00:03:54,030
+Alright, let's switch over to the mobile preview mode, and we can see what it looks like.
+
+111
+00:03:54,030 --> 00:03:54,990
+Overall, it's not bad.
+
+112
+00:03:54,990 --> 00:03:55,910
+But there's one small issue.
+
+113
+00:03:55,910 --> 00:03:58,550
+You'll notice it's made the main dish image way too big.
+
+114
+00:03:58,550 --> 00:04:01,050
+All you see on the entire screen is a single leaf of a vegetable.
+
+115
+00:04:01,050 --> 00:04:03,260
+You can't even tell what the dish actually looks like.
+
+116
+00:04:03,260 --> 00:04:04,380
+So, what do you do in this situation?
+
+117
+00:04:04,380 --> 00:04:05,120
+It's simple.
+
+118
+00:04:05,120 --> 00:04:07,960
+So, I'm just gonna keep typing in this chat box down here in the bottom-left corner.
+
+119
+00:04:07,960 --> 00:04:08,810
+So I tell it,
+
+120
+00:04:08,810 --> 00:04:10,530
+This main image is too big.
+
+121
+00:04:10,530 --> 00:04:11,450
+Make it a bit smaller.
+
+122
+00:04:11,450 --> 00:04:13,330
+So you can see the whole dish.
+
+123
+00:04:13,330 --> 00:04:14,790
+So, once it gets the instruction,
+
+124
+00:04:14,790 --> 00:04:17,329
+And just like that, it's already generated a second version for me.
+
+125
+00:04:17,329 --> 00:04:19,829
+Let's switch over to the second version and see how it looks.
+
+126
+00:04:19,829 --> 00:04:21,589
+And now the dimensions are correct.
+
+127
+00:04:21,589 --> 00:04:23,630
+And just like that, the whole dish has taken shape.
+
+128
+00:04:23,630 --> 00:04:25,179
+And just like that, it's perfect.
+
+129
+00:04:25,179 --> 00:04:27,619
+Plus, Figma Make has this one really cool feature.
+
+130
+00:04:27,619 --> 00:04:28,999
+And that is version control.
+
+131
+00:04:28,999 --> 00:04:30,639
+It saves the result of every single change you make,
+
+132
+00:04:30,639 --> 00:04:32,319
+and saves each one as a separate version.
+
+133
+00:04:32,319 --> 00:04:34,240
+You can switch between versions right on the page.
+
+134
+00:04:34,240 --> 00:04:35,460
+and compare the differences after your edits.
+
+135
+00:04:35,460 --> 00:04:36,480
+So what if you mess something up?
+
+136
+00:04:36,480 --> 00:04:38,060
+you can always switch back to the original version.
+
+137
+00:04:38,060 --> 00:04:41,120
+There's also an even more intuitive feature called Magic Wand Editing.
+
+138
+00:04:41,120 --> 00:04:43,320
+If you feel like a component needs a little tweak,
+
+139
+00:04:43,320 --> 00:04:47,240
+For example, let's change the color of this 'favorite' button from red to yellow.
+
+140
+00:04:47,240 --> 00:04:48,340
+You don't have to type a thing.
+
+141
+00:04:48,340 --> 00:04:51,289
+Just click on that magic wand button in the bottom-left corner.
+
+142
+00:04:51,289 --> 00:04:54,509
+Just use your mouse to select that button on the preview screen on the right.
+
+143
+00:04:54,509 --> 00:04:57,569
+Then, in the dropdown menu, you can directly change its font size.
+
+144
+00:04:57,569 --> 00:04:59,620
+the color, the corner radius...
+
+145
+00:04:59,620 --> 00:05:02,620
+This is a true WYSIWYG experience, which is just fantastic.
+
+146
+00:05:02,620 --> 00:05:04,420
+Alright, the prototype is pretty much ready.
+
+147
+00:05:04,420 --> 00:05:07,940
+So you can just click 'publish' in the top-right corner to get it live with one click.
+
+148
+00:05:07,940 --> 00:05:10,680
+And it'll generate a public URL for this project.
+
+149
+00:05:10,680 --> 00:05:12,220
+Then you can just shoot that link over to anyone.
+
+150
+00:05:12,220 --> 00:05:15,020
+When they open it in their browser, they can directly experience what you just made.
+
+151
+00:05:15,020 --> 00:05:17,150
+this interactive demo you just made.
+
+152
+00:05:17,150 --> 00:05:20,970
+This is way more convincing than putting together a 100-page PowerPoint to pitch to your boss.
+
+153
+00:05:20,970 --> 00:05:23,929
+You can also paste this link right into your resume.
+
+154
+00:05:23,929 --> 00:05:27,089
+Alright, now let's move on to the professional tools.
+
+155
+00:05:27,089 --> 00:05:29,720
+and turn this prototype into a real, live product.
+
+156
+00:05:29,720 --> 00:05:31,280
+Step one: download, install, and subscribe.
+
+157
+00:05:31,280 --> 00:05:32,680
+Let's head over to the Cursor website.
+
+158
+00:05:32,680 --> 00:05:35,060
+Download the installer for your specific operating system.
+
+159
+00:05:35,060 --> 00:05:36,940
+The first time you open it, it'll open up a browser window.
+
+160
+00:05:36,940 --> 00:05:38,720
+It'll prompt you to log in with your email.
+
+161
+00:05:38,720 --> 00:05:40,520
+Just like Figma Make,
+
+162
+00:05:40,520 --> 00:05:42,340
+Cursor also works on a subscription model.
+
+163
+00:05:42,340 --> 00:05:44,820
+So, for those of us learning on our own, and for developers,
+
+164
+00:05:44,820 --> 00:05:46,660
+I'd recommend just going for the Pro plan.
+
+165
+00:05:46,660 --> 00:05:47,870
+It's 20 dollars a month.
+
+166
+00:05:47,870 --> 00:05:49,410
+This plan is more than enough for what you need.
+
+167
+00:05:49,410 --> 00:05:52,650
+It supports all the major large language models like Claude and GPT.
+
+168
+00:05:52,650 --> 00:05:54,450
+And now, it also supports Alipay.
+
+169
+00:05:54,450 --> 00:05:55,570
+And the payment process is super convenient.
+
+170
+00:05:55,570 --> 00:05:58,570
+The Pro plan comes with a certain amount of API call credits.
+
+171
+00:05:58,570 --> 00:06:00,870
+And in the settings, you can see exactly how much you've used.
+
+172
+00:06:00,870 --> 00:06:03,170
+Alright, for the second step, let's configure the model.
+
+173
+00:06:03,170 --> 00:06:04,450
+Alright, so once you open up Cursor,
+
+174
+00:06:04,450 --> 00:06:06,990
+The interface is pretty much the same as VS Code or Trae.
+
+175
+00:06:06,990 --> 00:06:08,250
+On the left, you have the directory panel.
+
+176
+00:06:08,250 --> 00:06:10,330
+And on the right, you have the chat window for the large language model.
+
+177
+00:06:10,330 --> 00:06:12,670
+First, let's click on the settings in the top-right corner.
+
+178
+00:06:12,670 --> 00:06:14,690
+and go into the models section.
+
+179
+00:06:14,690 --> 00:06:16,590
+Check the model you want to use.
+
+180
+00:06:16,590 --> 00:06:18,470
+Now, there's a little catch here you need to be aware of.
+
+181
+00:06:18,470 --> 00:06:20,230
+due to certain network issues.
+
+182
+00:06:20,230 --> 00:06:23,850
+If you don't use a global proxy, or switch it to TUN mode,
+
+183
+00:06:23,850 --> 00:06:26,320
+Then you probably won't be able to use foreign models like Claude.
+
+184
+00:06:26,320 --> 00:06:27,280
+There are plenty of tutorials online for that.
+
+185
+00:06:27,280 --> 00:06:30,180
+Just go ahead and search for 'Cursor' yourself. Configuring a proxy should get you all set.
+
+186
+00:06:30,180 --> 00:06:31,480
+So, what's the third step?
+
+187
+00:06:31,480 --> 00:06:32,780
+So, before we start writing any code...
+
+188
+00:06:32,780 --> 00:06:35,220
+First, you absolutely need to understand Cursor's four working modes.
+
+189
+00:06:35,220 --> 00:06:35,820
+This is super important.
+
+190
+00:06:35,820 --> 00:06:37,990
+In the bottom-left corner of the chat box, there's a dropdown menu.
+
+191
+00:06:37,990 --> 00:06:39,210
+And there are four options in here.
+
+192
+00:06:39,210 --> 00:06:40,570
+The first one is Agent mode.
+
+193
+00:06:40,570 --> 00:06:42,070
+This is the most comprehensive mode.
+
+194
+00:06:42,070 --> 00:06:44,890
+And it's also the mode most commonly used by our non-technical folks.
+
+195
+00:06:44,890 --> 00:06:46,330
+You just tell it what you need.
+
+196
+00:06:46,330 --> 00:06:47,870
+It doesn't just give you the answers,
+
+197
+00:06:47,870 --> 00:06:50,110
+It will also actually get to work and write the code for you.
+
+198
+00:06:50,110 --> 00:06:50,930
+creating files,
+
+199
+00:06:50,930 --> 00:06:51,850
+modify files,
+
+200
+00:06:51,850 --> 00:06:53,800
+to build this project from the ground up.
+
+201
+00:06:53,800 --> 00:06:56,140
+The second one is the Plan Mode.
+
+202
+00:06:56,140 --> 00:06:59,160
+So this mode basically takes the planning capability and breaks it out as a separate function.
+
+203
+00:06:59,160 --> 00:07:00,790
+It's all talk and no action.
+
+204
+00:07:00,790 --> 00:07:03,270
+It will lay out a very detailed plan for you to make changes.
+
+205
+00:07:03,270 --> 00:07:05,190
+It tells you which file to modify in the first step,
+
+206
+00:07:05,190 --> 00:07:06,840
+what logic to add in the second step,
+
+207
+00:07:06,840 --> 00:07:08,820
+Once you've confirmed that the plan looks good,
+
+208
+00:07:08,820 --> 00:07:10,900
+Then you switch to Agent mode to execute it.
+
+209
+00:07:10,900 --> 00:07:12,620
+So, what about when you're dealing with complex logic?
+
+210
+00:07:12,620 --> 00:07:14,200
+First, let's use 'plan', and we can take a look.
+
+211
+00:07:14,200 --> 00:07:16,830
+This way, you can prevent the AI from messing up your code.
+
+212
+00:07:16,830 --> 00:07:18,730
+The third one is Debug mode.
+
+213
+00:07:18,730 --> 00:07:19,750
+And this one, as the name suggests...
+
+214
+00:07:19,750 --> 00:07:21,280
+It's specifically for fixing bugs.
+
+215
+00:07:21,280 --> 00:07:22,780
+You just feed it the error log,
+
+216
+00:07:22,780 --> 00:07:25,440
+It will analyze the cause by looking at the code across your entire project.
+
+217
+00:07:25,440 --> 00:07:27,590
+and gives you the fix directly.
+
+218
+00:07:27,590 --> 00:07:30,070
+The fourth option is the Ask mode.
+
+219
+00:07:30,070 --> 00:07:32,540
+It's basically a pure Q&A mode.
+
+220
+00:07:32,540 --> 00:07:33,600
+It only reads, it doesn't write.
+
+221
+00:07:33,600 --> 00:07:34,980
+It won't touch your code.
+
+222
+00:07:34,980 --> 00:07:36,180
+If you come across a concept you don't understand,
+
+223
+00:07:36,180 --> 00:07:38,460
+or if you want the AI to explain the logic of a piece of code.
+
+224
+00:07:38,460 --> 00:07:39,940
+So just use it, it's super convenient.
+
+225
+00:07:39,940 --> 00:07:41,420
+So, speaking of these four modes,
+
+226
+00:07:41,420 --> 00:07:44,600
+Now, a lot of people who are new to Cursor tend to get them mixed up pretty easily.
+
+227
+00:07:44,600 --> 00:07:46,280
+So, when you're frequently using the 'Plan' mode,
+
+228
+00:07:46,280 --> 00:07:47,680
+and just jump straight into Agent mode,
+
+229
+00:07:47,680 --> 00:07:48,880
+And what happens? The AI just goes on a wild spree of changes.
+
+230
+00:07:48,880 --> 00:07:50,720
+Step Four: A Practical Demonstration
+
+231
+00:07:50,720 --> 00:07:53,460
+I'll have the AI write a personal homepage for me.
+
+232
+00:07:53,460 --> 00:07:55,400
+Let's walk through a very simple example.
+
+233
+00:07:55,400 --> 00:07:58,920
+So, on my local desktop, I've created a new folder called 'cursor demo'.
+
+234
+00:07:58,920 --> 00:08:00,800
+and then open that folder in Cursor.
+
+235
+00:08:00,800 --> 00:08:04,230
+Then, in this new chat window,
+
+236
+00:08:04,230 --> 00:08:09,280
+For the mode, I'll select Agent. And for the model, I'm going to choose Claude Sonnet.
+
+237
+00:08:09,280 --> 00:08:11,790
+So, I'll just tell it in the chat box.
+
+238
+00:08:11,790 --> 00:08:13,290
+Help me build a personal homepage.
+
+239
+00:08:13,290 --> 00:08:15,370
+to be the landing page for my personal website.
+
+240
+00:08:15,370 --> 00:08:17,970
+And I want the style to be clean and modern.
+
+241
+00:08:17,970 --> 00:08:20,310
+See? Once it gets the command,
+
+242
+00:08:20,310 --> 00:08:22,250
+and it just gets right to work.
+
+243
+00:08:22,250 --> 00:08:25,159
+And it's automatically created three files for me in the left-hand directory.
+
+244
+00:08:25,159 --> 00:08:27,899
+The first one is index.html,
+
+245
+00:08:27,899 --> 00:08:30,319
+one is style.css,
+
+246
+00:08:30,319 --> 00:08:34,589
+And the last one is script.js. It's incredibly fast.
+
+247
+00:08:34,589 --> 00:08:36,730
+And it was all written in just about ten seconds.
+
+248
+00:08:36,730 --> 00:08:37,730
+So, once that's done,
+
+249
+00:08:37,730 --> 00:08:40,690
+It will also explain everything in text, right here in the chat box.
+
+250
+00:08:40,690 --> 00:08:42,630
+I've created three files for you.
+
+251
+00:08:42,630 --> 00:08:45,860
+HTML handles the structure,
+
+252
+00:08:45,860 --> 00:08:47,520
+CSS handles the styling.
+
+253
+00:08:47,520 --> 00:08:49,540
+And JS handles some simple interactions.
+
+254
+00:08:49,540 --> 00:08:51,060
+
+
+255
+00:08:51,060 --> 00:08:54,750
+For example, let's say I think the background should be a bit darker.
+
+256
+00:08:54,870 --> 00:08:58,270
+I don't need to go in and change the CSS code myself.
+
+257
+00:08:58,270 --> 00:09:00,349
+So I'll just keep typing in the chat box and tell it,
+
+258
+00:09:00,349 --> 00:09:02,589
+Change the background color to dark gray for me.
+
+259
+00:09:02,589 --> 00:09:03,909
+and change the font to white.
+
+260
+00:09:03,909 --> 00:09:08,190
+It's going to go and modify the style.css file.
+
+261
+00:09:08,190 --> 00:09:09,650
+And you can see this window is refreshing automatically.
+
+262
+00:09:09,650 --> 00:09:12,450
+You can just right-click on index.html,
+
+263
+00:09:12,450 --> 00:09:13,190
+So I'll just do as it says.
+
+264
+00:09:13,190 --> 00:09:16,170
+Right-click on index.html.
+
+265
+00:09:16,170 --> 00:09:17,970
+Or, you can just open it directly in the built-in browser.
+
+266
+00:09:17,970 --> 00:09:20,870
+And just like that, we've got a pretty decent-looking personal homepage.
+
+267
+00:09:20,870 --> 00:09:21,910
+There's a profile picture section,
+
+268
+00:09:21,910 --> 00:09:22,930
+a personal bio section,
+
+269
+00:09:22,930 --> 00:09:24,930
+And a few social media link buttons.
+
+270
+00:09:24,930 --> 00:09:26,369
+The layout is clean and crisp.
+
+271
+00:09:26,369 --> 00:09:28,529
+This back-and-forth, interactive feeling...
+
+272
+00:09:28,529 --> 00:09:30,629
+It honestly makes you forget you're even writing code.
+
+273
+00:09:30,629 --> 00:09:32,660
+Alright, that's all I have for this demo. Skills & Tools.
+

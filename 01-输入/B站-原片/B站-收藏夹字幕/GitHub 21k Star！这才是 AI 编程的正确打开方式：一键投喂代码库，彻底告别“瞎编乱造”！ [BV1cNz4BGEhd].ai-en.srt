@@ -1,0 +1,176 @@
+1
+00:00:00,000 --> 00:00:00,940
+Hello everyone
+
+2
+00:00:00,940 --> 00:00:05,570
+Let's take a look at today's niche tools
+
+3
+00:00:05,570 --> 00:00:07,170
+the emergence of oi programming
+
+4
+00:00:07,170 --> 00:00:10,860
+allows many people to easily develop their own software
+
+5
+00:00:10,860 --> 00:00:12,860
+But if you don't have a foundation
+
+6
+00:00:12,860 --> 00:00:17,500
+Relying solely on AI may lead to issues like laziness, hallucinations, and sycophancy from AI models
+
+7
+00:00:17,500 --> 00:00:18,710
+driven crazy
+
+8
+00:00:18,710 --> 00:00:20,930
+so some experts developed this tool
+
+9
+00:00:20,930 --> 00:00:26,230
+can package projects in a GitHub repository into an AI-friendly file
+
+10
+00:00:26,230 --> 00:00:28,150
+can be directly uploaded to AI
+
+11
+00:00:28,150 --> 00:00:30,950
+let it help you analyze the entire codebase
+
+12
+00:00:30,950 --> 00:00:32,409
+many open-source treasures
+
+13
+00:00:32,409 --> 00:00:35,710
+you can easily add the functions you need
+
+14
+00:00:35,710 --> 00:00:37,670
+even upload branches
+
+15
+00:00:37,670 --> 00:00:39,970
+has received 21.3k stars
+
+16
+00:00:39,970 --> 00:00:43,310
+an absolute must-have tool for AI programming users
+
+17
+00:00:43,310 --> 00:00:47,260
+easy skills, claude previously released the MEP protocol
+
+18
+00:00:47,260 --> 00:00:49,280
+just like a USB interface
+
+19
+00:00:49,280 --> 00:00:54,050
+enables AI models to truly possess hands and feet through this universal interface
+
+20
+00:00:54,050 --> 00:00:56,070
+personally search, look, and do
+
+21
+00:00:56,070 --> 00:00:57,650
+However, as we mentioned earlier
+
+22
+00:00:57,650 --> 00:00:58,550
+with limbs
+
+23
+00:00:58,550 --> 00:01:00,620
+He can also be lazy and make things up.
+
+24
+00:01:00,620 --> 00:01:02,580
+And these skills have existed before
+
+25
+00:01:02,580 --> 00:01:04,080
+it's just that they couldn't interoperate before
+
+26
+00:01:04,080 --> 00:01:05,920
+Now with the MCP protocol
+
+27
+00:01:05,920 --> 00:01:10,190
+we can now uniformly install skill packages for various AI models
+
+28
+00:01:10,190 --> 00:01:12,430
+Compared to the previous approach of letting AI improvise freely
+
+29
+00:01:12,430 --> 00:01:16,190
+Now it will strictly follow the instructions and tools in the skills
+
+30
+00:01:16,190 --> 00:01:18,530
+complete specified tasks
+
+31
+00:01:18,530 --> 00:01:20,310
+Interested parties can explore on their own
+
+32
+00:01:20,310 --> 00:01:22,410
+This tool will come in handy for you
+
+33
+00:01:22,410 --> 00:01:26,220
+It can help you quickly install and manage skill packages
+
+34
+00:01:26,220 --> 00:01:28,120
+LDStatus Pro
+
+35
+00:01:28,120 --> 00:01:29,220
+I wonder how many people have heard of the Linux Do community
+
+36
+00:01:29,220 --> 00:01:31,340
+Ah
+
+37
+00:01:31,340 --> 00:01:34,180
+Anyway, it's known as the cyber utopia of the Chinese-speaking community.
+
+38
+00:01:34,180 --> 00:01:36,740
+It contains a wealth of hardcore tech content and perks.
+
+39
+00:01:36,740 --> 00:01:38,350
+deeply loved by geeks
+
+40
+00:01:38,350 --> 00:01:40,130
+And this tool
+
+41
+00:01:40,130 --> 00:01:43,750
+is specifically designed for this site, providing a script for reading enhancement
+
+42
+00:01:43,750 --> 00:01:47,250
+Cross-platform and cross-browser synchronization, view reading leaderboard
+
+43
+00:01:47,250 --> 00:01:50,610
+AI-powered post summaries and many other practical features
+
+44
+00:01:50,610 --> 00:01:53,520
+Linux Do veterans should definitely install this one
+

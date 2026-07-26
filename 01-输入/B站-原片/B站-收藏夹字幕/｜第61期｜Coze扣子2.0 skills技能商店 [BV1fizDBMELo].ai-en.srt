@@ -1,0 +1,300 @@
+1
+00:00:00,000 --> 00:00:01,280
+Challenge to do 100 things with AI
+
+2
+00:00:01,280 --> 00:00:02,080
+Episode 61
+
+3
+00:00:02,080 --> 00:00:03,140
+Learned a new skill again
+
+4
+00:00:03,140 --> 00:00:04,920
+This kid is my little brother
+
+5
+00:00:04,920 --> 00:00:06,740
+And this is his story
+
+6
+00:00:06,740 --> 00:00:08,870
+Late at night, our little boy
+
+7
+00:00:08,870 --> 00:00:11,070
+already nestled in the warm little quilt
+
+8
+00:00:11,070 --> 00:00:12,590
+sweetly asleep
+
+9
+00:00:12,590 --> 00:00:16,820
+Suddenly, a soft, twinkling, magical beam of light
+
+10
+00:00:16,820 --> 00:00:21,060
+Whoosh, it fell down from the night sky outside the window.
+
+11
+00:00:22,740 --> 00:00:25,180
+But is this really just a dream?
+
+12
+00:00:25,180 --> 00:00:25,860
+Look, in his little hand
+
+13
+00:00:25,860 --> 00:00:29,310
+still holding a sparkling little crystal
+
+14
+00:00:29,310 --> 00:00:31,910
+is flickering and glowing
+
+15
+00:00:31,910 --> 00:00:33,570
+The story just now was naturally fake
+
+16
+00:00:33,570 --> 00:00:35,240
+But this picture book is real
+
+17
+00:00:35,240 --> 00:00:37,380
+This is a little New Year's gift I gave him this year.
+
+18
+00:00:37,380 --> 00:00:39,020
+If he likes it and wants more
+
+19
+00:00:39,020 --> 00:00:39,900
+I can whip up countless for him in no time
+
+20
+00:00:39,900 --> 00:00:42,380
+a physical picture book featuring him as the protagonist
+
+21
+00:00:42,380 --> 00:00:43,940
+that skill of mine to create picture books
+
+22
+00:00:43,940 --> 00:00:45,400
+This time it was given to me by Kouzi
+
+23
+00:00:45,400 --> 00:00:47,580
+And this physical picture book was created through the official event 'Shake Off the Button' on Kozi
+
+24
+00:00:47,580 --> 00:00:49,660
+New Year's gift is coming soon
+
+25
+00:00:49,660 --> 00:00:51,360
+The production process is very simple
+
+26
+00:00:51,360 --> 00:00:53,540
+Click the arrow in the bottom right corner of the Home in Kozi Space
+
+27
+00:00:53,540 --> 00:00:54,560
+pop up more menus
+
+28
+00:00:54,560 --> 00:00:57,940
+Select the Skill Store, install and use this New Year picture book skill
+
+29
+00:00:57,940 --> 00:00:59,280
+Then upload a photo
+
+30
+00:00:59,280 --> 00:01:00,540
+whether it's your family or friends
+
+31
+00:01:00,540 --> 00:01:01,900
+cats or dogs
+
+32
+00:01:01,900 --> 00:01:02,570
+even complete strangers can
+
+33
+00:01:02,570 --> 00:01:04,690
+Then enter very simple prompt words
+
+34
+00:01:04,690 --> 00:01:06,250
+Describe the requirements for this picture book
+
+35
+00:01:06,250 --> 00:01:08,030
+Tell me roughly what the story is about
+
+36
+00:01:08,030 --> 00:01:09,470
+you can directly click send
+
+37
+00:01:09,470 --> 00:01:11,120
+Just wait a moment
+
+38
+00:01:11,120 --> 00:01:12,380
+A new storybook is just created like this.
+
+39
+00:01:12,380 --> 00:01:14,020
+Look at this 20-page picture book
+
+40
+00:01:14,020 --> 00:01:14,760
+consistent style
+
+41
+00:01:14,760 --> 00:01:16,300
+consistent character
+
+42
+00:01:16,300 --> 00:01:17,400
+consistent format, along with fully automated stories
+
+43
+00:01:17,400 --> 00:01:18,320
+
+
+44
+00:01:18,320 --> 00:01:19,300
+fully automated voice-over
+
+45
+00:01:19,300 --> 00:01:21,000
+Everything can be done at once
+
+46
+00:01:21,000 --> 00:01:22,600
+No complex workflows are needed, no complicated workflow connections are required, no complex workflows are necessary
+
+47
+00:01:22,600 --> 00:01:23,600
+no complex workflow connections are needed
+
+48
+00:01:23,600 --> 00:01:25,860
+nor does it require programming, let alone the hassle of traditional AI chat tools
+
+49
+00:01:25,860 --> 00:01:28,140
+even if you chat back and forth with the AI over and over again
+
+50
+00:01:28,140 --> 00:01:29,880
+still have to face the same task requirements
+
+51
+00:01:29,880 --> 00:01:32,100
+the frustration of getting varying results each time
+
+52
+00:01:32,100 --> 00:01:32,900
+In Kouzi
+
+53
+00:01:32,900 --> 00:01:35,620
+In Kouzi's case, it directly adds a fixed skill to the large AI model.
+
+54
+00:01:35,620 --> 00:01:37,180
+This skill is like an SOP
+
+55
+00:01:37,180 --> 00:01:39,100
+allows the AI to follow a fixed process and steps
+
+56
+00:01:39,100 --> 00:01:41,460
+more completely and carefully execute tasks for you
+
+57
+00:01:41,460 --> 00:01:43,620
+and only use it when you need it
+
+58
+00:01:43,620 --> 00:01:45,480
+just like the picture book skill I showed you earlier
+
+59
+00:01:45,480 --> 00:01:48,400
+No matter who uses this skill, the format and results of the output picture book
+
+60
+00:01:48,400 --> 00:01:50,280
+will be exactly the same as what I showed you
+
+61
+00:01:50,280 --> 00:01:52,140
+And such complete and powerful skills
+
+62
+00:01:52,140 --> 00:01:53,740
+There are many more in the Skill Store.
+
+63
+00:01:53,740 --> 00:01:55,200
+You see, there are ones specifically for writing novels
+
+64
+00:01:55,200 --> 00:01:56,240
+specializing in map-making
+
+65
+00:01:56,240 --> 00:01:57,160
+generate games
+
+66
+00:01:57,160 --> 00:01:58,620
+making Comics and so on
+
+67
+00:01:58,620 --> 00:02:00,880
+As for the physical picture book I mentioned earlier
+
+68
+00:02:00,880 --> 00:02:03,500
+Just log in to Kouzi now to claim your free points.
+
+69
+00:02:03,500 --> 00:02:05,680
+Invite friends to participate together and you can also earn points
+
+70
+00:02:05,680 --> 00:02:08,800
+
+
+71
+00:02:08,800 --> 00:02:09,740
+Alright, that's all for this video.
+
+72
+00:02:09,740 --> 00:02:10,860
+If you like my video
+
+73
+00:02:10,860 --> 00:02:11,960
+Remember to like, follow, and favorite
+
+74
+00:02:11,960 --> 00:02:12,680
+I'm Bob
+
+75
+00:02:12,680 --> 00:02:13,720
+See you in the next episode
+

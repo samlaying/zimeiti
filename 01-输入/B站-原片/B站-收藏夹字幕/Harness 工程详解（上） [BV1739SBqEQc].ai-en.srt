@@ -1,0 +1,596 @@
+1
+00:00:00,120 --> 00:00:00,800
+Hello everyone.
+
+2
+00:00:00,800 --> 00:00:02,420
+Welcome to this episode's video.
+
+3
+00:00:02,420 --> 00:00:04,600
+In this episode, we're going to take a deep dive into...
+
+4
+00:00:04,600 --> 00:00:07,080
+the Harness engineering framework offered by Expert AI.
+
+5
+00:00:07,080 --> 00:00:08,720
+Before we dive into the details,
+
+6
+00:00:08,720 --> 00:00:10,760
+But first, let's take a look at another product.
+
+7
+00:00:10,760 --> 00:00:12,480
+In April 2026,
+
+8
+00:00:12,480 --> 00:00:14,940
+Anthropic launched a product for businesses.
+
+9
+00:00:14,940 --> 00:00:16,800
+Cloud Manager Agents.
+
+10
+00:00:16,800 --> 00:00:19,869
+This product offers a managed runtime solution.
+
+11
+00:00:19,869 --> 00:00:22,709
+the sandbox state for tool execution,
+
+12
+00:00:22,709 --> 00:00:25,629
+and encapsulates memory and permission management.
+
+13
+00:00:25,629 --> 00:00:28,189
+This allows businesses to offload open-ended tasks to the cloud.
+
+14
+00:00:28,189 --> 00:00:32,590
+The agent can directly produce code, reports, spreadsheets, or business outcomes.
+
+15
+00:00:32,590 --> 00:00:37,280
+Its goal is to lower the engineering barrier for enterprises to build and deploy agents.
+
+16
+00:00:37,280 --> 00:00:40,400
+This allows teams to integrate agents into real-world business operations more quickly.
+
+17
+00:00:40,400 --> 00:00:43,580
+while consistently delivering traceable results.
+
+18
+00:00:44,060 --> 00:00:47,020
+This is the official architecture diagram provided by Anthropic.
+
+19
+00:00:47,020 --> 00:00:50,140
+Harness is built around an agent loop that is code-centric.
+
+20
+00:00:50,140 --> 00:00:51,820
+responsible for tool planning,
+
+21
+00:00:51,820 --> 00:00:53,020
+invoking the context,
+
+22
+00:00:53,020 --> 00:00:55,680
+managing error recovery and iterative results.
+
+23
+00:00:55,680 --> 00:00:59,280
+Tools are the interface that allows the agent to connect to external capabilities.
+
+24
+00:00:59,280 --> 00:01:01,320
+This includes reading and writing files, as well as executing code.
+
+25
+00:01:01,320 --> 00:01:03,020
+perform web access,
+
+26
+00:01:03,020 --> 00:01:05,730
+as well as calls to MCP servers and business systems.
+
+27
+00:01:06,900 --> 00:01:09,440
+This provides an isolated environment for tool execution.
+
+28
+00:01:09,440 --> 00:01:11,960
+This allows the agent to execute commands securely.
+
+29
+00:01:11,960 --> 00:01:14,479
+processing files and accessing controlled resources.
+
+30
+00:01:14,479 --> 00:01:17,739
+A session holds the state for a long-running task.
+
+31
+00:01:17,739 --> 00:01:19,200
+Events and Outputs
+
+32
+00:01:19,200 --> 00:01:21,200
+enabling tasks to run asynchronously.
+
+33
+00:01:21,200 --> 00:01:23,500
+Resume from breakpoints and track progress continuously.
+
+34
+00:01:23,500 --> 00:01:24,820
+Orchestration
+
+35
+00:01:24,820 --> 00:01:27,200
+responsible for the model tool sandbox,
+
+36
+00:01:27,200 --> 00:01:30,400
+orchestrating memory permissions and the event stream.
+
+37
+00:01:30,400 --> 00:01:31,760
+to create a managed service.
+
+38
+00:01:31,760 --> 00:01:32,660
+observable,
+
+39
+00:01:32,660 --> 00:01:35,780
+and an auditable production runtime layer.
+
+40
+00:01:37,010 --> 00:01:38,330
+But with managed agents,
+
+41
+00:01:38,330 --> 00:01:41,810
+And the biggest problem stems precisely from its closed, hosted nature.
+
+42
+00:01:41,810 --> 00:01:42,490
+enterprise
+
+43
+00:01:42,490 --> 00:01:45,340
+handing over the most critical control to an external platform.
+
+44
+00:01:45,340 --> 00:01:46,500
+The first problem is...
+
+45
+00:01:46,500 --> 00:01:48,289
+Harness becomes a black box.
+
+46
+00:01:48,289 --> 00:01:51,469
+If this layer is hidden behind the Agent API,
+
+47
+00:01:51,469 --> 00:01:53,409
+all the enterprise gets is the final output.
+
+48
+00:01:53,409 --> 00:01:56,010
+making it difficult to inspect and modify the agent itself.
+
+49
+00:01:56,010 --> 00:01:57,110
+The second issue...
+
+50
+00:01:57,110 --> 00:01:58,310
+Memory Lock-in.
+
+51
+00:01:58,310 --> 00:02:00,390
+And this lock-in isn't just about the model.
+
+52
+00:02:00,390 --> 00:02:01,440
+And then there's memory.
+
+53
+00:02:01,440 --> 00:02:02,120
+Memory.
+
+54
+00:02:02,120 --> 00:02:03,220
+This includes conversation history,
+
+55
+00:02:03,220 --> 00:02:04,400
+long-term memory, and so on.
+
+56
+00:02:04,400 --> 00:02:07,320
+But the problem is, businesses can't manage or utilize this memory.
+
+57
+00:02:07,320 --> 00:02:08,500
+The third issue is...
+
+58
+00:02:08,500 --> 00:02:10,220
+Limited model selection.
+
+59
+00:02:10,220 --> 00:02:13,140
+Managed agents can only use twelve models.
+
+60
+00:02:13,140 --> 00:02:14,360
+The fourth issue is observability.
+
+61
+00:02:14,360 --> 00:02:16,089
+Observability boundaries.
+
+62
+00:02:16,089 --> 00:02:19,009
+Enterprises can only see the events that the platform is willing to expose.
+
+63
+00:02:19,009 --> 00:02:23,460
+This makes it difficult for them to conduct their own audits, reviews, evaluations, and compliance checks.
+
+64
+00:02:23,460 --> 00:02:27,780
+The Expert platform, on the other hand, is an agent natively built for the enterprise.
+
+65
+00:02:27,780 --> 00:02:28,840
+Building the platform
+
+66
+00:02:28,840 --> 00:02:31,000
+The platform is deployed within the enterprise's own environment.
+
+67
+00:02:31,000 --> 00:02:31,540
+Going forward,
+
+68
+00:02:31,540 --> 00:02:34,829
+All resources can be brought within the enterprise's own control perimeter.
+
+69
+00:02:34,829 --> 00:02:36,769
+As for the black box issue with Harness,
+
+70
+00:02:36,769 --> 00:02:38,889
+On the Expert platform, enterprises can
+
+71
+00:02:38,889 --> 00:02:40,949
+tailored to their specific business needs.
+
+72
+00:02:40,949 --> 00:02:43,269
+to build and manage their own agents.
+
+73
+00:02:43,269 --> 00:02:45,069
+Now, regarding the issue of memory lock-in,
+
+74
+00:02:45,069 --> 00:02:47,429
+The Expert platform will take memory information,
+
+75
+00:02:47,429 --> 00:02:48,309
+knowledge base,
+
+76
+00:02:48,309 --> 00:02:51,540
+and resources like log information are all persistently stored.
+
+77
+00:02:51,540 --> 00:02:54,300
+These resources reside within the enterprise's own deployment environment.
+
+78
+00:02:54,300 --> 00:02:56,850
+This allows enterprises to review and manage them at any time.
+
+79
+00:02:56,850 --> 00:02:58,950
+As for the issue of limited model selection,
+
+80
+00:02:58,950 --> 00:03:01,710
+The Expert platform supports the selection of different models.
+
+81
+00:03:01,710 --> 00:03:04,070
+Enterprises can fully tailor their choices based on the complexity of their business.
+
+82
+00:03:04,070 --> 00:03:06,100
+and select the right model provider.
+
+83
+00:03:06,100 --> 00:03:07,760
+Regarding observability,
+
+84
+00:03:07,760 --> 00:03:10,220
+The Expert platform imposes no such restrictions.
+
+85
+00:03:10,220 --> 00:03:12,400
+Enterprises can choose based on their own needs.
+
+86
+00:03:12,400 --> 00:03:14,960
+audit or review historical log information.
+
+87
+00:03:14,960 --> 00:03:17,520
+You can also track the agent's execution process.
+
+88
+00:03:17,520 --> 00:03:19,300
+and evaluate the agent's performance.
+
+89
+00:03:19,300 --> 00:03:22,980
+So, the Expert platform doesn't just provide the Harness framework,
+
+90
+00:03:22,980 --> 00:03:27,360
+but also empowers enterprises to manage this powerful capability securely on their own.
+
+91
+00:03:27,720 --> 00:03:30,730
+This is the Harness engineering architecture within the Expert platform.
+
+92
+00:03:30,730 --> 00:03:32,870
+At the heart of this architecture are the Expert agents.
+
+93
+00:03:32,870 --> 00:03:35,930
+Internally, each Expert consists of two core layers of capabilities.
+
+94
+00:03:35,930 --> 00:03:39,910
+The LOLM and Harness large models are responsible for reasoning and action.
+
+95
+00:03:39,910 --> 00:03:41,570
+Harness is in charge of control.
+
+96
+00:03:41,570 --> 00:03:44,260
+At the execution layer, it provides a sandboxing mechanism.
+
+97
+00:03:44,260 --> 00:03:47,160
+The sandbox provides an isolated file system and environment.
+
+98
+00:03:47,160 --> 00:03:49,440
+This allows the expert to read and write files securely.
+
+99
+00:03:49,440 --> 00:03:51,680
+execute commands and process task outputs.
+
+100
+00:03:51,680 --> 00:03:55,459
+The Capability Extension Layer provides tools and MCPs.
+
+101
+00:03:55,459 --> 00:03:56,799
+They take external systems,
+
+102
+00:03:56,799 --> 00:03:59,879
+They encapsulate business interfaces and professional tools into standardized capabilities,
+
+103
+00:03:59,879 --> 00:04:01,610
+for the expert agents to call upon as needed.
+
+104
+00:04:01,610 --> 00:04:04,590
+The Runtime Enhancement Layer provides various middleware.
+
+105
+00:04:04,590 --> 00:04:05,550
+short-term memory,
+
+106
+00:04:05,550 --> 00:04:06,490
+long-term memory,
+
+107
+00:04:06,490 --> 00:04:07,910
+capabilities like its skill mechanism,
+
+108
+00:04:07,910 --> 00:04:10,650
+All of which enter the expert's runtime process through middleware.
+
+109
+00:04:10,650 --> 00:04:12,390
+So, this Harness architecture...
+
+110
+00:04:12,390 --> 00:04:15,130
+providing businesses with an entire infrastructure.
+
+111
+00:04:15,130 --> 00:04:19,450
+This empowers enterprises to easily build, deploy, and manage their agents.
+
+112
+00:04:19,978 --> 00:04:22,699
+Next, let's dive into the sandboxing mechanism of the Expert platform.
+
+113
+00:04:22,699 --> 00:04:24,339
+The first layer is the agent.
+
+114
+00:04:24,339 --> 00:04:26,839
+The agent itself doesn't directly interact with Docker.
+
+115
+00:04:26,839 --> 00:04:29,190
+Instead, it enters the sandbox through two types of tools.
+
+116
+00:04:29,190 --> 00:04:31,490
+file tools and a sandbox shell.
+
+117
+00:04:31,490 --> 00:04:32,790
+The second layer is Docker.
+
+118
+00:04:32,790 --> 00:04:34,100
+The sandbox back then...
+
+119
+00:04:34,100 --> 00:04:36,200
+This provides a unified interface for these capabilities.
+
+120
+00:04:36,200 --> 00:04:37,660
+This includes file read and write operations,
+
+121
+00:04:37,660 --> 00:04:39,520
+command execution and service proxying.
+
+122
+00:04:39,520 --> 00:04:41,920
+The third layer is the Docker sandbox provider.
+
+123
+00:04:41,920 --> 00:04:43,860
+It manages Docker resources.
+
+124
+00:04:43,860 --> 00:04:45,830
+It's responsible for creating and reusing containers,
+
+125
+00:04:45,830 --> 00:04:49,550
+as well as managing images, network volumes, and the container lifecycle.
+
+126
+00:04:49,550 --> 00:04:53,690
+So, the core of the Sparse sandboxing mechanism is its three-layer isolation for the agent.
+
+127
+00:04:53,690 --> 00:04:55,310
+It only calls standard tools.
+
+128
+00:04:55,310 --> 00:04:55,990
+Middleware
+
+129
+00:04:55,990 --> 00:04:57,450
+for unified interception and routing.
+
+130
+00:04:57,450 --> 00:04:59,970
+The provider centrally manages the Docker runtime environment.
+
+131
+00:04:59,970 --> 00:05:03,840
+This prevents the agent from directly accessing the underlying Docker resources.
+
+132
+00:05:03,840 --> 00:05:04,940
+And there are a few other details.
+
+133
+00:05:04,940 --> 00:05:09,170
+First, the agents on the COSPORT platform don't run inside a sandbox environment.
+
+134
+00:05:09,170 --> 00:05:10,310
+After the two interfaces are connected,
+
+135
+00:05:10,310 --> 00:05:11,630
+Even if the sandbox encounters an error,
+
+136
+00:05:11,630 --> 00:05:13,510
+it won't affect the agent itself.
+
+137
+00:05:13,510 --> 00:05:16,010
+The sandbox mechanism of the 2spurt platform.
+
+138
+00:05:16,010 --> 00:05:19,450
+The file paths of the sandbox and the host machine are mapped to each other.
+
+139
+00:05:19,450 --> 00:05:20,750
+Even if the sandbox encounters an exception,
+
+140
+00:05:20,750 --> 00:05:22,270
+all files will still be there.
+
+141
+00:05:22,270 --> 00:05:24,490
+and it can resume normal operation after a restart.
+
+142
+00:05:24,490 --> 00:05:28,350
+Third, the file paths are isolated on a multi-tenant basis.
+
+143
+00:05:28,350 --> 00:05:30,650
+This ensures security between different departments within the enterprise,
+
+144
+00:05:30,650 --> 00:05:33,490
+and secure isolation between different employees.
+
+145
+00:05:34,509 --> 00:05:38,120
+And that concludes our overview of the sandboxing mechanism in the Expert platform.
+
+146
+00:05:38,120 --> 00:05:39,260
+In the next video,
+
+147
+00:05:39,260 --> 00:05:43,900
+We'll continue by explaining the tool middleware, the skill mechanism, and more.
+
+148
+00:05:43,900 --> 00:05:48,620
+And as a practical example, we'll use a single agent combined with the Harness to create a PowerPoint presentation.
+
+149
+00:05:48,620 --> 00:05:50,320
+And for a concrete example,
+

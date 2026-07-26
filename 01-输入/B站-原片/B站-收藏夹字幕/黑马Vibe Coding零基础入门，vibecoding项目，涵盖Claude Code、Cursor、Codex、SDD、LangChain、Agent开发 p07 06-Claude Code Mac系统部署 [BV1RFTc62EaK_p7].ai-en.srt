@@ -1,0 +1,1368 @@
+1
+00:00:01,240 --> 00:00:02,680
+Hey everyone, what's up?
+
+2
+00:00:02,680 --> 00:00:03,240
+Welcome back.
+
+3
+00:00:03,240 --> 00:00:06,040
+Alright, next up, let's get this done on our Mac OS system.
+
+4
+00:00:06,040 --> 00:00:08,460
+to deploy Cloud Code. Alright.
+
+5
+00:00:08,460 --> 00:00:10,940
+Alright, so first, let's open up the documentation website.
+
+6
+00:00:10,940 --> 00:00:14,790
+On the documentation site, find the article on deploying Cloud Code.
+
+7
+00:00:14,790 --> 00:00:17,740
+Alright, so in this article, we're going to find the deployment instructions for Mac.
+
+8
+00:00:17,740 --> 00:00:19,820
+Alright, so here we can see the deployment commands for Mac.
+
+9
+00:00:19,820 --> 00:00:22,620
+In fact, the commands are pretty much the same as the ones for Windows.
+
+10
+00:00:22,620 --> 00:00:24,460
+So, the deployment and installation process is actually pretty straightforward.
+
+11
+00:00:24,460 --> 00:00:26,759
+So basically, you just need to run these few commands, and that's it.
+
+12
+00:00:26,759 --> 00:00:28,339
+Alright, let me show you how it's done.
+
+13
+00:00:28,339 --> 00:00:28,639
+Alright.
+
+14
+00:00:28,639 --> 00:00:30,359
+First, let's start with the first command.
+
+15
+00:00:30,359 --> 00:00:32,759
+Alright, everyone, you can right-click to copy it.
+
+16
+00:00:32,759 --> 00:00:33,700
+Let's copy that.
+
+17
+00:00:33,700 --> 00:00:36,260
+Then, go ahead and open up your Terminal application.
+
+18
+00:00:36,260 --> 00:00:38,740
+and right-click to paste it into the terminal.
+
+19
+00:00:38,740 --> 00:00:40,410
+Just run this command and you're good to go.
+
+20
+00:00:40,410 --> 00:00:42,210
+So, what this command is actually doing is
+
+21
+00:00:42,210 --> 00:00:45,170
+to change the address from which NPM installs packages,
+
+22
+00:00:45,170 --> 00:00:48,250
+to point to our domestic mirror site.
+
+23
+00:00:48,250 --> 00:00:52,490
+Now, for this step, you'll need to have Node.js already installed.
+
+24
+00:00:52,490 --> 00:00:52,970
+deployment.
+
+25
+00:00:52,970 --> 00:00:55,800
+So, if you haven't installed the Node.js environment properly earlier,
+
+26
+00:00:55,800 --> 00:00:58,680
+So, at this point, you won't have the NPM command available.
+
+27
+00:00:58,680 --> 00:00:59,920
+So, make sure you've got that covered.
+
+28
+00:00:59,920 --> 00:01:02,680
+So, the Node.js environment should already be installed beforehand.
+
+29
+00:01:02,680 --> 00:01:04,280
+Alright, let's make sure everything's in order.
+
+30
+00:01:04,280 --> 00:01:06,440
+Alright, just hit Enter and wait for a moment.
+
+31
+00:01:06,440 --> 00:01:08,300
+As you can see, the command has finished running.
+
+32
+00:01:08,300 --> 00:01:09,340
+Alright, so once that's finished,
+
+33
+00:01:09,340 --> 00:01:12,160
+Alright, so for our current NPM software installation,
+
+34
+00:01:12,160 --> 00:01:15,030
+This will point it to the mirror address within our country.
+
+35
+00:01:15,030 --> 00:01:17,370
+Alright, now let's run the second command.
+
+36
+00:01:17,370 --> 00:01:18,600
+Alright, let's copy that.
+
+37
+00:01:18,600 --> 00:01:20,320
+Alright, let's head back to the terminal.
+
+38
+00:01:20,320 --> 00:01:22,000
+Right-click and let's paste it in.
+
+39
+00:01:22,000 --> 00:01:23,380
+And then, let's run it.
+
+40
+00:01:23,380 --> 00:01:25,060
+So, when we run it,
+
+41
+00:01:25,060 --> 00:01:26,180
+It's going to ask us for our password.
+
+42
+00:01:26,180 --> 00:01:29,620
+All you need to do here is just enter your system password.
+
+43
+00:01:29,620 --> 00:01:31,169
+And by the way, I should mention...
+
+44
+00:01:31,169 --> 00:01:32,569
+So, when you're entering the password here,
+
+45
+00:01:32,569 --> 00:01:34,289
+There won't be any prompt or anything.
+
+46
+00:01:34,289 --> 00:01:37,649
+So, don't worry and think that your password isn't being typed in.
+
+47
+00:01:37,649 --> 00:01:38,309
+Don't worry about it.
+
+48
+00:01:38,309 --> 00:01:40,190
+Just go ahead and type in your password.
+
+49
+00:01:40,190 --> 00:01:41,350
+See? There's no response at all.
+
+50
+00:01:41,350 --> 00:01:43,550
+See? I'm just typing and typing... and...
+
+51
+00:01:43,550 --> 00:01:45,170
+Even though I'm typing my password, nothing shows up on the screen.
+
+52
+00:01:45,170 --> 00:01:47,230
+All you have to do is just hit Enter.
+
+53
+00:01:47,230 --> 00:01:49,430
+And just like that, the password is entered successfully.
+
+54
+00:01:49,430 --> 00:01:50,370
+Once that's done successfully,
+
+55
+00:01:50,370 --> 00:01:51,950
+So, we'll just have to wait a little bit here.
+
+56
+00:01:51,950 --> 00:01:54,470
+It needs to connect to the internet to download the necessary packages.
+
+57
+00:01:54,470 --> 00:01:57,470
+The installation should be done in about one to five minutes.
+
+58
+00:01:57,470 --> 00:02:00,060
+Alright, let's give it a moment.
+
+59
+00:02:01,960 --> 00:02:03,460
+Alright, just 16 seconds.
+
+60
+00:02:03,460 --> 00:02:05,960
+And with that, our Cloud Code installation is now complete.
+
+61
+00:02:05,960 --> 00:02:07,220
+Alright, that was pretty quick.
+
+62
+00:02:07,220 --> 00:02:08,380
+Alright, once the second command is finished running,
+
+63
+00:02:08,380 --> 00:02:09,820
+So let's just type it right in there.
+
+64
+00:02:09,820 --> 00:02:11,860
+The third command is called CLAUDE.
+
+65
+00:02:11,860 --> 00:02:12,580
+or rather, Cloud Code.
+
+66
+00:02:12,580 --> 00:02:14,820
+Then, a space, followed by two dashes, and then 'version'.
+
+67
+00:02:14,820 --> 00:02:18,780
+Alright, so what this command does is it lets us check our Cloud Code.
+
+68
+00:02:18,780 --> 00:02:20,220
+to see its version number.
+
+69
+00:02:20,220 --> 00:02:22,349
+Alright, let's just hit Enter.
+
+70
+00:02:22,349 --> 00:02:23,149
+Let's give it a moment.
+
+71
+00:02:23,149 --> 00:02:24,949
+And there it is, version 2.1.185.
+
+72
+00:02:24,949 --> 00:02:27,740
+And there we have it, the version of Cloud Code is now displayed.
+
+73
+00:02:27,740 --> 00:02:31,320
+And with that, we've completed the setup for this AI programming tool.
+
+74
+00:02:31,320 --> 00:02:32,820
+installation and deployment.
+
+75
+00:02:32,820 --> 00:02:33,580
+Of course.
+
+76
+00:02:33,580 --> 00:02:34,300
+Cloud Code, that is.
+
+77
+00:02:34,300 --> 00:02:37,380
+What we're installing right now is for use in the command line.
+
+78
+00:02:37,380 --> 00:02:39,120
+And later on, we'll also show you how to do that.
+
+79
+00:02:39,120 --> 00:02:41,740
+on how to integrate it with VS Code.
+
+80
+00:02:41,740 --> 00:02:43,530
+But that's a topic for the next video.
+
+81
+00:02:43,530 --> 00:02:44,930
+And with that, this part is done.
+
+82
+00:02:44,930 --> 00:02:48,899
+So that's the basic installation and deployment of Cloud Code in the command line.
+
+83
+00:02:48,899 --> 00:02:51,679
+So, now that we've finished the installation and deployment, how do we actually use it?
+
+84
+00:02:51,679 --> 00:02:52,959
+But right now, it's not ready to use.
+
+85
+00:02:52,959 --> 00:02:55,940
+And that's because of the model it's connected to.
+
+86
+00:02:55,940 --> 00:02:58,220
+is the official model provided by them.
+
+87
+00:02:58,220 --> 00:03:01,940
+But the thing is, their official model doesn't allow direct connections from users here in China.
+
+88
+00:03:01,940 --> 00:03:02,780
+So, what's the solution?
+
+89
+00:03:02,780 --> 00:03:06,650
+So for now, we can only use Cloud Code as a pure tool.
+
+90
+00:03:06,650 --> 00:03:08,570
+So, its "brain" is its model.
+
+91
+00:03:08,570 --> 00:03:11,959
+So, we'll opt for our domestic solution, DeepSeek.
+
+92
+00:03:11,959 --> 00:03:13,679
+So, when it comes to Cloud Code,
+
+93
+00:03:13,679 --> 00:03:16,379
+The thing is, we can't use its original model.
+
+94
+00:03:16,379 --> 00:03:19,760
+And these proxy services, for various reasons, are also unstable.
+
+95
+00:03:19,760 --> 00:03:22,860
+So, using a domestic model is our most stable option.
+
+96
+00:03:22,860 --> 00:03:25,500
+So, right now, we have DeepSeek-V2-Pro and V2-Flash.
+
+97
+00:03:25,500 --> 00:03:27,760
+and in terms of programming, they are definitely not lagging behind.
+
+98
+00:03:27,760 --> 00:03:29,820
+The original Cloud Code has way too many models.
+
+99
+00:03:29,820 --> 00:03:31,880
+So, it's more than enough for what we need.
+
+100
+00:03:31,880 --> 00:03:33,640
+So, if you want to use DeepSeek,
+
+101
+00:03:33,640 --> 00:03:35,880
+So, the first thing you need to do is register an account.
+
+102
+00:03:35,880 --> 00:03:37,960
+This is the address for DeepSeek's open platform.
+
+103
+00:03:37,960 --> 00:03:39,120
+So, here's the URL.
+
+104
+00:03:39,120 --> 00:03:40,520
+So, you can go ahead and click on this URL.
+
+105
+00:03:40,520 --> 00:03:42,940
+And that'll take you to the DeepSeek open platform.
+
+106
+00:03:42,940 --> 00:03:46,480
+So for this open platform, you'll just need to register using your phone number.
+
+107
+00:03:46,480 --> 00:03:48,640
+Just log in, and you're all set.
+
+108
+00:03:48,760 --> 00:03:49,320
+Alright.
+
+109
+00:03:49,320 --> 00:03:50,400
+Alright, so once you're registered,
+
+110
+00:03:50,400 --> 00:03:52,600
+Alright, so after you've got your DeepSeek and open platform accounts set up,
+
+111
+00:03:52,600 --> 00:03:54,980
+And now, you should be able to get into its dashboard page.
+
+112
+00:03:54,980 --> 00:03:56,420
+Alright, so once you're on the backend page,
+
+113
+00:03:56,420 --> 00:03:58,960
+You can click on this option called 'API Key'.
+
+114
+00:03:58,960 --> 00:04:00,940
+And that will take you to the list of API keys.
+
+115
+00:04:00,940 --> 00:04:03,240
+So, you can see I've already created a few of my own in here.
+
+116
+00:04:03,240 --> 00:04:04,360
+and some other API keys.
+
+117
+00:04:04,360 --> 00:04:05,060
+Just ignore them.
+
+118
+00:04:05,060 --> 00:04:05,900
+For you guys,
+
+119
+00:04:05,900 --> 00:04:06,620
+Once you're in,
+
+120
+00:04:06,620 --> 00:04:08,200
+Normally, it should be empty.
+
+121
+00:04:08,200 --> 00:04:11,750
+So, what you need to do is click on 'Create API Key'.
+
+122
+00:04:11,750 --> 00:04:14,950
+Then, we can give it a name.
+
+123
+00:04:14,950 --> 00:04:18,119
+Let's call it 'cloud code', for example.
+
+124
+00:04:18,119 --> 00:04:19,639
+Alright, so once you've got the name set,
+
+125
+00:04:19,639 --> 00:04:21,759
+Just click 'Create' and it'll be created.
+
+126
+00:04:21,759 --> 00:04:23,460
+Alright, and this is a really important thing to pay attention to.
+
+127
+00:04:23,460 --> 00:04:25,880
+So, for this API key you've just created,
+
+128
+00:04:25,880 --> 00:04:28,360
+It's only shown on this page, this one time.
+
+129
+00:04:28,360 --> 00:04:31,740
+So, you absolutely have to click the copy button and save it somewhere safe.
+
+130
+00:04:31,740 --> 00:04:33,930
+So, what if you lose that API key?
+
+131
+00:04:33,930 --> 00:04:36,430
+Well, in that case, you'll just have to create a new one.
+
+132
+00:04:36,430 --> 00:04:37,090
+the old one
+
+133
+00:04:37,090 --> 00:04:38,170
+there's absolutely no way for you to do it.
+
+134
+00:04:38,170 --> 00:04:40,440
+and when you check its contents for the second time,
+
+135
+00:04:40,440 --> 00:04:41,760
+So, you absolutely have to copy it.
+
+136
+00:04:41,760 --> 00:04:43,960
+Then, find another place to save it.
+
+137
+00:04:43,960 --> 00:04:45,210
+Alright then.
+
+138
+00:04:45,210 --> 00:04:46,790
+Alright, so I've already saved it on my end.
+
+139
+00:04:46,790 --> 00:04:48,810
+Alright, once that's saved, you can go ahead and close the window.
+
+140
+00:04:48,810 --> 00:04:51,420
+And with that, we're all set with the API key from DeepSeek.
+
+141
+00:04:51,420 --> 00:04:53,500
+Alright, with that done, there's just one more little thing to mention.
+
+142
+00:04:53,500 --> 00:04:55,020
+So, when you guys are actually using it,
+
+143
+00:04:55,020 --> 00:04:56,600
+you'll definitely need to top up your account with a little bit of money.
+
+144
+00:04:56,600 --> 00:04:59,919
+Because the DeepSeek open platform isn't actually free.
+
+145
+00:04:59,919 --> 00:05:02,199
+So, if we want to build an app,
+
+146
+00:05:02,199 --> 00:05:04,380
+Let's say, for a medium-sized app,
+
+147
+00:05:04,380 --> 00:05:08,760
+So, the cost for that would be somewhere around 1 to 5 RMB.
+
+148
+00:05:08,760 --> 00:05:10,620
+So, when we're using these models,
+
+149
+00:05:10,620 --> 00:05:12,180
+None of them are free to use.
+
+150
+00:05:12,180 --> 00:05:15,620
+So, you can top up with a small amount based on your own needs.
+
+151
+00:05:15,620 --> 00:05:17,620
+Personally, I usually just top up ten yuan at a time.
+
+152
+00:05:17,620 --> 00:05:18,360
+But anyway, it's more than enough.
+
+153
+00:05:18,360 --> 00:05:19,040
+I've been using it for quite a while now.
+
+154
+00:05:19,040 --> 00:05:21,960
+See? This 10 yuan I topped up has already lasted me for several days.
+
+155
+00:05:21,960 --> 00:05:22,940
+and it's barely been used up.
+
+156
+00:05:22,940 --> 00:05:25,560
+So, it doesn't actually use up that much.
+
+157
+00:05:25,560 --> 00:05:27,490
+But you do need to have some balance, no matter how small.
+
+158
+00:05:27,490 --> 00:05:28,830
+If you don't have a balance,
+
+159
+00:05:28,830 --> 00:05:31,510
+it won't let you use it.
+
+160
+00:05:31,510 --> 00:05:32,110
+Alright.
+
+161
+00:05:32,110 --> 00:05:35,670
+Alright, so now that we've finished setting up the DeepSeek API,
+
+162
+00:05:35,670 --> 00:05:37,900
+Alright, let's get back to the deployment documentation.
+
+163
+00:05:37,900 --> 00:05:39,740
+Alright, so the next step is to configure Cloud Code.
+
+164
+00:05:39,740 --> 00:05:41,840
+to configure it.
+
+165
+00:05:41,840 --> 00:05:43,340
+And the configuration is pretty straightforward.
+
+166
+00:05:43,340 --> 00:05:45,780
+So, we've got a whole bunch of configuration stuff here.
+
+167
+00:05:45,780 --> 00:05:47,020
+So, we'll get to this content in a moment.
+
+168
+00:05:47,020 --> 00:05:49,260
+So, we're just going to put it all into a single file.
+
+169
+00:05:49,260 --> 00:05:50,140
+On a Mac system,
+
+170
+00:05:50,140 --> 00:05:51,920
+So, we need to take the contents of that configuration file from earlier
+
+171
+00:05:51,920 --> 00:05:53,820
+Alright, let's put it into this file.
+
+172
+00:05:53,820 --> 00:05:55,540
+Alright, so first, let's take a look at the path for this file.
+
+173
+00:05:55,540 --> 00:05:56,540
+So, in our Mac system,
+
+174
+00:05:56,540 --> 00:05:59,700
+So this tilde character, it actually represents the user's home directory.
+
+175
+00:05:59,700 --> 00:06:01,700
+So, that's inside the USC folder.
+
+176
+00:06:01,700 --> 00:06:03,040
+You'll see a folder with your username.
+
+177
+00:06:03,040 --> 00:06:04,760
+Alright, so this is your user's home directory.
+
+178
+00:06:04,760 --> 00:06:06,200
+So, we need to take this file...
+
+179
+00:06:06,200 --> 00:06:09,530
+So, we need to place this configuration file in our home directory.
+
+180
+00:06:09,530 --> 00:06:10,970
+There's a folder called .CLOLOUD.
+
+181
+00:06:10,970 --> 00:06:15,020
+Inside, there's a file called 'settings.json'. Just save the configuration in there, and you're good to go.
+
+182
+00:06:15,020 --> 00:06:16,020
+Now, under normal circumstances,
+
+183
+00:06:16,020 --> 00:06:18,380
+So, both this folder and this file don't actually exist.
+
+184
+00:06:18,380 --> 00:06:20,320
+So, we need to create it first.
+
+185
+00:06:20,320 --> 00:06:21,220
+So, how do we create it?
+
+186
+00:06:21,220 --> 00:06:22,640
+Alright, let's open up our terminal.
+
+187
+00:06:22,640 --> 00:06:24,020
+Alright, once the terminal is open...
+
+188
+00:06:24,020 --> 00:06:27,540
+Just go ahead and run the command 'mkdir'.
+
+189
+00:06:27,540 --> 00:06:30,949
+And then type a dot followed by 'cloud'.
+
+190
+00:06:30,949 --> 00:06:31,589
+Okay.
+
+191
+00:06:31,589 --> 00:06:34,880
+Then, just hit Enter, and that'll create the folder for you.
+
+192
+00:06:34,880 --> 00:06:35,320
+Of course.
+
+193
+00:06:35,320 --> 00:06:37,800
+Now, if this folder already exists on your system,
+
+194
+00:06:37,800 --> 00:06:39,320
+Then it's going to throw an error when it tries to create it.
+
+195
+00:06:39,320 --> 00:06:39,840
+But that's fine.
+
+196
+00:06:39,840 --> 00:06:40,980
+Alright, let me show you how it works.
+
+197
+00:06:40,980 --> 00:06:42,740
+So, since this folder already exists,
+
+198
+00:06:42,740 --> 00:06:44,060
+So, when you run the command again,
+
+199
+00:06:44,060 --> 00:06:45,020
+It will tell you itself.
+
+200
+00:06:45,020 --> 00:06:46,940
+It will tell you that the file already exists.
+
+201
+00:06:46,940 --> 00:06:47,760
+Doesn't really matter.
+
+202
+00:06:47,760 --> 00:06:51,060
+Anyway, just make sure this folder exists, and you'll be fine.
+
+203
+00:06:51,060 --> 00:06:52,600
+Alright, so once we have that,
+
+204
+00:06:52,600 --> 00:06:55,650
+Alright, let's run 'cd .CLAUDE' again.
+
+205
+00:06:55,650 --> 00:06:57,950
+And that will switch you into this folder.
+
+206
+00:06:57,950 --> 00:07:00,550
+So, we can use the PWD command to verify that.
+
+207
+00:07:00,550 --> 00:07:02,850
+So, this is the folder we're currently locked into in the terminal.
+
+208
+00:07:02,850 --> 00:07:05,390
+So, it's the 'user4' folder under the root directory.
+
+209
+00:07:05,390 --> 00:07:06,910
+And down here, there's one called CaoYu_VM, right?
+
+210
+00:07:06,910 --> 00:07:10,110
+This means that this tilde symbol represents your user's home directory.
+
+211
+00:07:10,110 --> 00:07:12,680
+So, every user on the system has one of their own, you know.
+
+212
+00:07:12,680 --> 00:07:13,560
+Alright, the home directory.
+
+213
+00:07:13,560 --> 00:07:16,380
+Inside the home directory, you'll find a folder called .cloud.
+
+214
+00:07:16,380 --> 00:07:17,540
+Okay, I'm in now.
+
+215
+00:07:17,540 --> 00:07:18,340
+Alright, now that we're in...
+
+216
+00:07:18,340 --> 00:07:20,180
+So, how do we create this SETTINGS file?
+
+217
+00:07:20,180 --> 00:07:23,600
+So, we're going to use the 'touch' command, followed by a space.
+
+218
+00:07:23,600 --> 00:07:27,159
+And then type SETTINGS dot JSON. Alright.
+
+219
+00:07:27,159 --> 00:07:29,739
+And with that, the file has been created.
+
+220
+00:07:29,739 --> 00:07:33,659
+And for the final step, we'll use 'open', which, as you might guess, means to open the file.
+
+221
+00:07:33,659 --> 00:07:38,040
+Alright, type 'open', a space, 'settings.json', and hit Enter.
+
+222
+00:07:38,040 --> 00:07:39,700
+OK, the file is now open.
+
+223
+00:07:39,700 --> 00:07:41,860
+So, it's opened up in a text editor.
+
+224
+00:07:41,860 --> 00:07:42,800
+Alright, so once it's open...
+
+225
+00:07:42,800 --> 00:07:44,810
+Alright, let's head back in here.
+
+226
+00:07:44,810 --> 00:07:47,750
+Alright, let's go ahead and copy this content.
+
+227
+00:07:47,750 --> 00:07:49,850
+After copying, go back to the file we just opened.
+
+228
+00:07:49,850 --> 00:07:51,330
+Alright, right-click and paste it in.
+
+229
+00:07:51,330 --> 00:07:51,870
+Alright, so we're here.
+
+230
+00:07:51,870 --> 00:07:53,030
+But don't save it just yet.
+
+231
+00:07:53,030 --> 00:07:55,170
+Alright, there's a small part in here that we need to change.
+
+232
+00:07:55,170 --> 00:07:58,080
+Right, this is where your DeepSeek API key goes.
+
+233
+00:07:58,080 --> 00:07:59,660
+You need to delete that.
+
+234
+00:07:59,660 --> 00:08:02,859
+Then, take the API key you just got from the DeepSeek open platform,
+
+235
+00:08:02,859 --> 00:08:06,840
+Then, for the API key you just got, just right-click and paste it in. That's it.
+
+236
+00:08:06,840 --> 00:08:08,260
+And with that, you're all set.
+
+237
+00:08:08,260 --> 00:08:09,180
+Alright, once that's done,
+
+238
+00:08:09,180 --> 00:08:10,380
+Then, click on this file.
+
+239
+00:08:10,380 --> 00:08:12,260
+And click on 'Save', there we go.
+
+240
+00:08:12,260 --> 00:08:13,600
+and save the file.
+
+241
+00:08:13,600 --> 00:08:14,480
+And now you can close it.
+
+242
+00:08:14,480 --> 00:08:18,500
+Alright, and with that, we've completed the basic setup for Cloud Code.
+
+243
+00:08:18,500 --> 00:08:19,760
+Alright, so with the configuration complete,
+
+244
+00:08:19,760 --> 00:08:21,909
+Now you can go ahead and give it a try.
+
+245
+00:08:21,909 --> 00:08:23,729
+Alright, and giving it a try is pretty simple too.
+
+246
+00:08:23,729 --> 00:08:25,009
+Let's open up the terminal.
+
+247
+00:08:25,009 --> 00:08:28,809
+So, right in the terminal, we're just going to run the command CLAUDE, which is for Cloud Code.
+
+248
+00:08:28,809 --> 00:08:30,500
+Alright, just hit Enter on this command.
+
+249
+00:08:30,500 --> 00:08:33,260
+And now you're in the Cloud Code console.
+
+250
+00:08:33,260 --> 00:08:34,740
+Alright, so the first time you're in here,
+
+251
+00:08:34,740 --> 00:08:35,700
+And it's going to ask you, hey...
+
+252
+00:08:35,700 --> 00:08:37,380
+You'll need to select a color theme.
+
+253
+00:08:37,380 --> 00:08:40,820
+So, we can use the up and down arrow keys on the keyboard to move this cursor.
+
+254
+00:08:40,820 --> 00:08:43,919
+Let's go with option one, the 'auto' or automatic theme. Okay.
+
+255
+00:08:43,919 --> 00:08:45,160
+The second one shows some security prompts.
+
+256
+00:08:45,160 --> 00:08:45,840
+We can just ignore that.
+
+257
+00:08:45,840 --> 00:08:47,920
+Just hit Enter to get past this.
+
+258
+00:08:47,920 --> 00:08:49,849
+Alright, for the third step, it's gonna ask you...
+
+259
+00:08:49,849 --> 00:08:51,989
+So, do we want to use its recommended settings?
+
+260
+00:08:51,989 --> 00:08:53,929
+So, under normal circumstances, if you don't have any special requirements,
+
+261
+00:08:53,929 --> 00:08:56,169
+Just go ahead and use its recommended settings.
+
+262
+00:08:56,169 --> 00:08:57,849
+Select 'yes', and you're good to go.
+
+263
+00:08:57,849 --> 00:09:00,409
+Okay, so for the final step, it's going to ask if you trust it.
+
+264
+00:09:00,409 --> 00:09:01,789
+Open the folder we're working with.
+
+265
+00:09:01,789 --> 00:09:03,229
+So, go ahead and select 'yes'.
+
+266
+00:09:03,229 --> 00:09:04,970
+Just go ahead and trust it.
+
+267
+00:09:04,970 --> 00:09:06,390
+And then, it's going to give you some prompts.
+
+268
+00:09:06,390 --> 00:09:07,270
+Do you want to allow it, and so on.
+
+269
+00:09:07,270 --> 00:09:09,110
+Just go ahead and click 'Allow'.
+
+270
+00:09:09,110 --> 00:09:11,880
+Just click 'Allow'. Okay, click 'Allow'.
+
+271
+00:09:11,880 --> 00:09:15,380
+And then, it's asking if you want to grant it access to your photos and all that, right?
+
+272
+00:09:15,380 --> 00:09:17,360
+You can choose 'Limit Access' here.
+
+273
+00:09:17,360 --> 00:09:20,040
+Or, you can just go ahead and select 'Allow Full Access'. That works too.
+
+274
+00:09:20,040 --> 00:09:22,400
+I'm just going to go ahead and select 'Allow Full Access'.
+
+275
+00:09:22,400 --> 00:09:23,680
+and things like your desktop, and so on.
+
+276
+00:09:23,680 --> 00:09:26,140
+A bunch of pop-ups will appear, asking for your permission to access certain things.
+
+277
+00:09:26,140 --> 00:09:28,160
+Once you've made sure to check all the necessary boxes,
+
+278
+00:09:28,160 --> 00:09:29,790
+And with that, you're all set to move on.
+
+279
+00:09:29,790 --> 00:09:32,150
+Alright, so now that we're inside Cloud Code,
+
+280
+00:09:32,150 --> 00:09:33,960
+The first thing you need to do is verify it.
+
+281
+00:09:33,960 --> 00:09:34,680
+So, what are we verifying?
+
+282
+00:09:34,680 --> 00:09:37,540
+Basically, we're just checking if our DeepSeek connection is working properly.
+
+283
+00:09:37,540 --> 00:09:39,240
+Let's switch the input method to Chinese.
+
+284
+00:09:39,240 --> 00:09:43,549
+Then let's ask, 'What large model are you?'
+
+285
+00:09:43,549 --> 00:09:45,820
+Let's ask and see what it replies.
+
+286
+00:09:45,820 --> 00:09:47,280
+If it can reply to me,
+
+287
+00:09:47,280 --> 00:09:48,100
+It's DeepSeek.
+
+288
+00:09:48,100 --> 00:09:49,340
+Hey, you can see it's replying to me.
+
+289
+00:09:49,340 --> 00:09:49,940
+It's DeepSeek.
+
+290
+00:09:49,940 --> 00:09:52,680
+So, that means our Cloud Code tool right now...
+
+291
+00:09:52,680 --> 00:09:56,140
+Its soul is now connected to the DeepSeek API.
+
+292
+00:09:56,140 --> 00:09:59,640
+So from now on, we can let DeepSeek-V2 Pro be the brain.
+
+293
+00:09:59,640 --> 00:10:01,100
+to write code for us.
+
+294
+00:10:01,100 --> 00:10:02,980
+Alright, so let's give it a quick try.
+
+295
+00:10:02,980 --> 00:10:03,200
+Alright, let's give it a go.
+
+296
+00:10:03,200 --> 00:10:07,420
+I'll say, "Help me write an HTML."
+
+297
+00:10:07,420 --> 00:10:13,300
+and it should have a 5-minute countdown timer.
+
+298
+00:10:13,300 --> 00:10:20,200
+And it should have start, pause, and reset buttons.
+
+299
+00:10:20,200 --> 00:10:20,720
+Alright.
+
+300
+00:10:20,720 --> 00:10:22,640
+Okay, so that's a pretty basic request.
+
+301
+00:10:22,640 --> 00:10:23,640
+So, just hit Enter.
+
+302
+00:10:23,640 --> 00:10:26,480
+And then, we'll have Cloud Code write the code for us. Alright.
+
+303
+00:10:26,480 --> 00:10:27,420
+Alright, let's give it a moment.
+
+304
+00:10:27,420 --> 00:10:28,500
+It's going to connect to the internet.
+
+305
+00:10:28,500 --> 00:10:30,240
+and then it calls the DeepSeek API.
+
+306
+00:10:30,240 --> 00:10:32,900
+So, DeepSeek, this big brain, is going to do the thinking for us.
+
+307
+00:10:32,900 --> 00:10:35,730
+Alright, now let's see how it actually wrote the code.
+
+308
+00:10:35,730 --> 00:10:36,490
+Alright, so let's give it a moment.
+
+309
+00:10:36,490 --> 00:10:38,530
+And as you can see, it's already written the code for us.
+
+310
+00:10:38,530 --> 00:10:40,040
+You can just scroll through and take a quick look.
+
+311
+00:10:40,040 --> 00:10:40,880
+So, if everything looks good,
+
+312
+00:10:40,880 --> 00:10:42,920
+It's asking you if you want to create that file.
+
+313
+00:10:42,920 --> 00:10:44,220
+You can choose 1 for 'yes'.
+
+314
+00:10:44,220 --> 00:10:45,200
+Or, you can choose option two.
+
+315
+00:10:45,200 --> 00:10:47,640
+This means it not only allows it, but also includes it.
+
+316
+00:10:47,640 --> 00:10:50,260
+and it guarantees it won't ask again in the future.
+
+317
+00:10:50,260 --> 00:10:52,360
+So just go ahead and choose whichever one you need.
+
+318
+00:10:52,360 --> 00:10:54,490
+For example, let's just go with the first option, 'yes'.
+
+319
+00:10:54,490 --> 00:10:55,690
+So, after you've made your selection,
+
+320
+00:10:55,690 --> 00:10:56,330
+Alright, let's give it a moment.
+
+321
+00:10:56,330 --> 00:10:58,620
+And the system will tell us that the file has been created.
+
+322
+00:10:58,620 --> 00:10:59,460
+Alright, now that it's created,
+
+323
+00:10:59,460 --> 00:11:01,460
+And we can just open this file directly in a browser.
+
+324
+00:11:01,460 --> 00:11:02,060
+and it's ready to use.
+
+325
+00:11:02,060 --> 00:11:02,660
+Alright, let's give it a try.
+
+326
+00:11:02,660 --> 00:11:04,230
+Alright, let's open up your Finder.
+
+327
+00:11:04,230 --> 00:11:07,310
+In your Home directory, you'll see a little house icon.
+
+328
+00:11:07,310 --> 00:11:10,030
+This icon here is your user home directory. Once you're in,
+
+329
+00:11:10,030 --> 00:11:13,840
+And just like that, we've got an HTML file called 'timer'.
+
+330
+00:11:13,840 --> 00:11:15,520
+Alright, let's double-click to open it.
+
+331
+00:11:15,520 --> 00:11:16,140
+So, once it's open,
+
+332
+00:11:16,140 --> 00:11:17,720
+And inside, you'll see a countdown timer.
+
+333
+00:11:17,720 --> 00:11:20,720
+Click 'Start' to begin the countdown.
+
+334
+00:11:20,720 --> 00:11:22,220
+Click pause to pause it.
+
+335
+00:11:22,220 --> 00:11:24,160
+And then, just click 'Reset' to reset it.
+
+336
+00:11:24,160 --> 00:11:28,650
+Alright, and just like that, we've got a simple countdown timer.
+
+337
+00:11:28,650 --> 00:11:31,370
+And with that, we've basically finished the setup on the Mac system.
+
+338
+00:11:31,370 --> 00:11:34,630
+the basic installation and deployment of Cloud Code.
+
+339
+00:11:34,630 --> 00:11:36,910
+Configuration, Verification, and Usage
+
+340
+00:11:36,910 --> 00:11:38,710
+Alright, so once that's done,
+
+341
+00:11:38,710 --> 00:11:40,130
+Alright, let's save the video here.
+
+342
+00:11:40,130 --> 00:11:42,480
+We'll see you in the next video. Bye!
+

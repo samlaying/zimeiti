@@ -1,0 +1,376 @@
+1
+00:00:00,080 --> 00:00:02,580
+Cloud has finally released the new model Opus4.6
+
+2
+00:00:02,580 --> 00:00:03,840
+but the official queue is too slow
+
+3
+00:00:03,840 --> 00:00:07,109
+
+
+4
+00:00:07,109 --> 00:00:08,669
+so in this episode I want to share a
+
+5
+00:00:08,669 --> 00:00:11,180
+A solution I've been using recently called Interface AI
+
+6
+00:00:11,180 --> 00:00:13,560
+It turns Clude Code into an online version
+
+7
+00:00:13,560 --> 00:00:15,100
+No need to configure the environment yourself
+
+8
+00:00:15,100 --> 00:00:16,860
+Open the webpage and you can use it directly
+
+9
+00:00:16,860 --> 00:00:20,060
+and it already supports OPPOS4.6 immediately
+
+10
+00:00:20,060 --> 00:00:21,260
+The operation is very simple
+
+11
+00:00:21,260 --> 00:00:23,380
+Click to start using, register and log in
+
+12
+00:00:23,380 --> 00:00:25,350
+Then click 'Use Now'
+
+13
+00:00:25,350 --> 00:00:26,990
+Click on the shell icon in the upper right corner
+
+14
+00:00:26,990 --> 00:00:29,590
+Instantly access the cloud-based Cloud Code interface
+
+15
+00:00:29,590 --> 00:00:31,600
+Let's ask it to write a Snake game for me
+
+16
+00:00:31,600 --> 00:00:34,560
+The code is already being outputted at full speed as soon as you hit enter.
+
+17
+00:00:34,560 --> 00:00:36,160
+completely eliminating the need for local setup
+
+18
+00:00:36,160 --> 00:00:37,620
+After the terminal code is written
+
+19
+00:00:37,620 --> 00:00:40,970
+We can also let Cloud automatically complete the runtime setup for you
+
+20
+00:00:40,970 --> 00:00:42,570
+You don't need to set up the environment yourself
+
+21
+00:00:42,570 --> 00:00:44,270
+CLOLDER will handle how to get it running
+
+22
+00:00:44,270 --> 00:00:45,900
+This step is also taken care of for you
+
+23
+00:00:45,900 --> 00:00:46,480
+See?
+
+24
+00:00:46,480 --> 00:00:49,280
+From registration to playing the game takes less than a minute
+
+25
+00:00:49,280 --> 00:00:51,800
+This logical capability is definitely top-tier in the current landscape.
+
+26
+00:00:51,800 --> 00:00:54,140
+Many people think Cloud Code can only write code
+
+27
+00:00:54,140 --> 00:00:55,920
+Actually, there's something inside called Skill
+
+28
+00:00:55,920 --> 00:00:57,820
+Ordinary AI can only make blind guesses based on memory
+
+29
+00:00:57,820 --> 00:00:59,100
+But here at Interface AI
+
+30
+00:00:59,100 --> 00:01:01,460
+You can directly enable God Mode for Closer
+
+31
+00:01:01,460 --> 00:01:05,340
+First, let's try after the key is configured
+
+32
+00:01:05,340 --> 00:01:06,100
+
+
+33
+00:01:06,100 --> 00:01:07,620
+Then open the cloud interface
+
+34
+00:01:07,620 --> 00:01:10,100
+Clicking will bring up an interface for entering the API key
+
+35
+00:01:10,100 --> 00:01:10,780
+Enter it
+
+36
+00:01:10,780 --> 00:01:12,880
+You will see this Cloud Code project interface
+
+37
+00:01:12,880 --> 00:01:15,970
+Each project is an independent Yunnan sandbox environment where Cloud operates
+
+38
+00:01:15,970 --> 00:01:17,970
+is here to assist you within this environment
+
+39
+00:01:17,970 --> 00:01:20,170
+In the project, you can open the Skill Market
+
+40
+00:01:20,170 --> 00:01:22,130
+These are not ordinary function switches
+
+41
+00:01:22,130 --> 00:01:24,420
+but various ready-made professional capability modules
+
+42
+00:01:24,420 --> 00:01:26,760
+such as code specification engineering best practices
+
+43
+00:01:26,760 --> 00:01:27,920
+front-end framework rules
+
+44
+00:01:27,920 --> 00:01:28,840
+
+
+45
+00:01:28,840 --> 00:01:30,020
+project structure analysis
+
+46
+00:01:30,020 --> 00:01:31,500
+After installing these sq e
+
+47
+00:01:31,500 --> 00:01:33,540
+Cloud writes code and fixes bugs
+
+48
+00:01:33,540 --> 00:01:36,000
+When handling complex projects, it's no longer just about writing code
+
+49
+00:01:36,000 --> 00:01:38,280
+but truly like an experienced programmer
+
+50
+00:01:38,280 --> 00:01:39,540
+No need to explain requirements from scratch
+
+51
+00:01:39,540 --> 00:01:40,580
+nor need to understand code
+
+52
+00:01:40,580 --> 00:01:42,420
+Get things done with just one click
+
+53
+00:01:42,420 --> 00:01:43,780
+Click on the Model Square on the left
+
+54
+00:01:43,780 --> 00:01:45,720
+There are many useful features hidden here.
+
+55
+00:01:45,720 --> 00:01:46,100
+platform
+
+56
+00:01:46,100 --> 00:01:47,260
+have already been categorized for you
+
+57
+00:01:47,260 --> 00:01:49,540
+For example, I'll now select an article-to-video model
+
+58
+00:01:49,540 --> 00:01:50,740
+No need to write any code
+
+59
+00:01:50,740 --> 00:01:52,060
+You just need to say a word
+
+60
+00:01:52,060 --> 00:01:54,580
+it can help you generate film-level visuals
+
+61
+00:01:54,860 --> 00:01:56,900
+Whether you want to create high-quality videos
+
+62
+00:01:56,900 --> 00:01:59,140
+or want to generate speech synthesis with built-in emotions
+
+63
+00:01:59,140 --> 00:02:01,420
+Simply filter the corresponding models right here
+
+64
+00:02:01,420 --> 00:02:04,220
+Just like hiring an AI expert on standby 24/7
+
+65
+00:02:04,220 --> 00:02:06,020
+Another point that I value highly is
+
+66
+00:02:06,020 --> 00:02:07,820
+The entire platform is very user-friendly and hassle-free to use.
+
+67
+00:02:07,820 --> 00:02:09,460
+No additional network configuration is required
+
+68
+00:02:09,460 --> 00:02:12,070
+The payment methods are also more user-friendly for domestic users.
+
+69
+00:02:12,070 --> 00:02:13,770
+The platform supports pay-per-use model calls
+
+70
+00:02:13,770 --> 00:02:14,950
+Pay only for what you use
+
+71
+00:02:14,950 --> 00:02:16,290
+If you plan to use it long-term
+
+72
+00:02:16,290 --> 00:02:17,970
+You can also choose to purchase a package directly
+
+73
+00:02:17,970 --> 00:02:19,400
+costs will be more manageable
+
+74
+00:02:19,400 --> 00:02:21,180
+And this is not just CD
+
+75
+00:02:21,180 --> 00:02:22,460
+more like a unified entry point
+
+76
+00:02:22,460 --> 00:02:23,640
+like JBT5.2
+
+77
+00:02:23,640 --> 00:02:24,600
+JB3pro
+
+78
+00:02:24,600 --> 00:02:27,120
+These mainstream models can also be accessed on the same platform
+
+79
+00:02:27,120 --> 00:02:29,520
+Switching through the official API channels
+
+80
+00:02:29,520 --> 00:02:30,200
+very convenient
+
+81
+00:02:30,200 --> 00:02:32,580
+In my experience, the response is very stable during tasks.
+
+82
+00:02:32,580 --> 00:02:34,060
+It remains stable even through multiple consecutive rounds without easily disconnecting.
+
+83
+00:02:34,060 --> 00:02:35,580
+Click the pinned link in the comment section
+
+84
+00:02:35,580 --> 00:02:37,320
+or enter this invitation code during registration
+
+85
+00:02:37,320 --> 00:02:39,900
+After binding the invitation code, you can directly receive three trial coupons.
+
+86
+00:02:39,900 --> 00:02:42,980
+which is essentially getting the latest Cloud Opus 4.6 for free
+
+87
+00:02:42,980 --> 00:02:44,340
+You can try it out first
+
+88
+00:02:44,340 --> 00:02:45,770
+before deciding whether to use it
+
+89
+00:02:45,770 --> 00:02:46,570
+Overall
+
+90
+00:02:46,570 --> 00:02:48,490
+If you just want to avoid the hassle of setting up environments
+
+91
+00:02:48,490 --> 00:02:49,880
+get things done quickly
+
+92
+00:02:49,880 --> 00:02:52,120
+This online solution is quite convenient.
+
+93
+00:02:52,120 --> 00:02:55,020
+Alright, that's all for today's share.
+
+94
+00:02:55,020 --> 00:02:57,320
+See you in the next episode. Bye-bye
+

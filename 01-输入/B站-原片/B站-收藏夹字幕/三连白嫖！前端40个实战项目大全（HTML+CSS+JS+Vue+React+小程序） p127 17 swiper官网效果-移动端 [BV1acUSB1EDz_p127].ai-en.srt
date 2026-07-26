@@ -1,0 +1,2712 @@
+1
+00:00:00,000 --> 00:00:02,000
+Ah, the animation on it
+
+2
+00:00:02,000 --> 00:00:05,520
+Then look at the position of his Home page.
+
+3
+00:00:05,520 --> 00:00:08,140
+or you can also check out his online demo
+
+4
+00:00:08,140 --> 00:00:09,360
+For example, the mobile version he created
+
+5
+00:00:09,360 --> 00:00:11,640
+the wonderful application of Vue and PN
+
+6
+00:00:11,640 --> 00:00:14,780
+For example, on mobile devices, we can see
+
+7
+00:00:14,780 --> 00:00:16,280
+Which one should we look at?
+
+8
+00:00:16,280 --> 00:00:17,240
+For example, take a look at this
+
+9
+00:00:17,240 --> 00:00:19,780
+Click and take a look
+
+10
+00:00:21,100 --> 00:00:24,500
+Can you see it? It has this one-screen-by-one-screen animation.
+
+11
+00:00:24,500 --> 00:00:25,640
+See that?
+
+12
+00:00:25,640 --> 00:00:26,670
+Just like this, you see
+
+13
+00:00:26,670 --> 00:00:29,910
+This effect is what we call a micro-scene animation.
+
+14
+00:00:29,910 --> 00:00:31,270
+it's about creating UGC Anime
+
+15
+00:00:31,270 --> 00:00:32,229
+on a page
+
+16
+00:00:32,229 --> 00:00:35,660
+Or you can also call it H5 animation, you know
+
+17
+00:00:35,660 --> 00:00:39,100
+Many job postings or resume requirements mention
+
+18
+00:00:39,100 --> 00:00:41,900
+It shows H5 H5 stuff, you know
+
+19
+00:00:41,900 --> 00:00:44,680
+What H5 refers to is not HTML5
+
+20
+00:00:44,680 --> 00:00:45,160
+is for mobile
+
+21
+00:00:45,160 --> 00:00:45,700
+You know
+
+22
+00:00:45,700 --> 00:00:47,320
+You work on the mobile side when you're on the job.
+
+23
+00:00:47,320 --> 00:00:48,480
+That's what it means.
+
+24
+00:00:48,480 --> 00:00:50,840
+Some companies divide this project into very detailed segments.
+
+25
+00:00:50,840 --> 00:00:52,760
+Some are specifically assigned to write for the PC端
+
+26
+00:00:52,760 --> 00:00:54,760
+some people are specifically assigned to work on our mobile front-end
+
+27
+00:00:54,760 --> 00:00:55,220
+you know
+
+28
+00:00:55,220 --> 00:00:57,070
+There are people specifically dedicated to writing for the mobile side, you know.
+
+29
+00:00:57,070 --> 00:00:58,430
+Now in the mobile side,
+
+30
+00:00:58,430 --> 00:01:00,550
+In addition to the content we just wrote,
+
+31
+00:01:00,550 --> 00:01:02,720
+as well as our mini-program
+
+32
+00:01:02,720 --> 00:01:05,440
+There's also something called micro-scene animation
+
+33
+00:01:05,440 --> 00:01:07,560
+what we're seeing right now
+
+34
+00:01:07,560 --> 00:01:08,960
+See this thing?
+
+35
+00:01:08,960 --> 00:01:11,090
+This belongs to a UGC Anime in a micro-scene.
+
+36
+00:01:11,090 --> 00:01:14,370
+Well, or if we click over here
+
+37
+00:01:14,370 --> 00:01:15,730
+You can also see that it can be used
+
+38
+00:01:15,730 --> 00:01:17,610
+It can also be used on e-commerce interfaces.
+
+39
+00:01:17,610 --> 00:01:18,930
+This is for scanning the QR code to view.
+
+40
+00:01:18,930 --> 00:01:21,210
+This can be opened and viewed, right?
+
+41
+00:01:21,210 --> 00:01:22,370
+Click to see, hey
+
+42
+00:01:22,370 --> 00:01:22,810
+It doesn't swipe
+
+43
+00:01:22,810 --> 00:01:24,960
+This one, um, can't be clicked.
+
+44
+00:01:24,960 --> 00:01:27,380
+Just leave it if it's unclickable
+
+45
+00:01:27,380 --> 00:01:28,400
+Ah, back to Home
+
+46
+00:01:28,400 --> 00:01:30,300
+Let's write one more UGC Anime section
+
+47
+00:01:30,300 --> 00:01:31,900
+Choose one to write, okay
+
+48
+00:01:31,900 --> 00:01:32,500
+Attention
+
+49
+00:01:32,500 --> 00:01:33,660
+This area can be written
+
+50
+00:01:33,660 --> 00:01:35,610
+All these things can be written out.
+
+51
+00:01:35,610 --> 00:01:37,210
+Let me show you how to write it.
+
+52
+00:01:37,210 --> 00:01:39,330
+For example, I now want to write this, but I don't feel like writing it
+
+53
+00:01:39,330 --> 00:01:40,330
+Can you take it?
+
+54
+00:01:40,330 --> 00:01:41,610
+Got it?
+
+55
+00:01:41,610 --> 00:01:44,789
+In other words, you can replicate all the effects displayed on it.
+
+56
+00:01:44,789 --> 00:01:45,829
+what should I do next
+
+57
+00:01:45,829 --> 00:01:47,549
+Right-click to inspect
+
+58
+00:01:47,549 --> 00:01:49,209
+Right-click to inspect
+
+59
+00:01:49,209 --> 00:01:50,550
+Right-click to inspect
+
+60
+00:01:50,550 --> 00:01:52,530
+Then I'll move it down below.
+
+61
+00:01:52,530 --> 00:01:54,350
+For example, I'll just grab this part of the content.
+
+62
+00:01:54,350 --> 00:01:55,690
+Okay, let's take a look
+
+63
+00:01:55,690 --> 00:01:58,890
+Right-click to inspect, right-click to inspect, ah
+
+64
+00:01:58,890 --> 00:02:01,850
+You'll notice that it's using this APFRAME again here, right
+
+65
+00:02:01,850 --> 00:02:03,330
+Remember, right?
+
+66
+00:02:03,330 --> 00:02:04,630
+for embedded web pages
+
+67
+00:02:04,630 --> 00:02:08,090
+Is it embedded with a small mobile thing, huh?
+
+68
+00:02:08,090 --> 00:02:09,320
+frame
+
+69
+00:02:09,320 --> 00:02:11,480
+Here, we have set the width and height for it
+
+70
+00:02:11,480 --> 00:02:13,200
+It's about creating a mobile phone-like feel.
+
+71
+00:02:13,200 --> 00:02:14,150
+The height is 480
+
+72
+00:02:14,150 --> 00:02:16,230
+I don't care, you can click on it
+
+73
+00:02:16,230 --> 00:02:18,130
+Is this URL specifically for viewing it?
+
+74
+00:02:18,130 --> 00:02:20,790
+For example, right-click and select 'Open in new tab'
+
+75
+00:02:20,790 --> 00:02:21,950
+See it?
+
+76
+00:02:21,950 --> 00:02:24,870
+Then press F12 to view it on the mobile end
+
+77
+00:02:24,870 --> 00:02:26,089
+This is acceptable
+
+78
+00:02:26,089 --> 00:02:27,800
+Let's go back to this state.
+
+79
+00:02:27,800 --> 00:02:30,120
+It is written for small mobile phones.
+
+80
+00:02:30,120 --> 00:02:32,260
+With a small phone, you can see the image is not enough.
+
+81
+00:02:32,260 --> 00:02:34,400
+It is set as fixed with FN4
+
+82
+00:02:34,400 --> 00:02:35,180
+You know what I mean
+
+83
+00:02:35,180 --> 00:02:37,000
+He wrote it in a fixed size.
+
+84
+00:02:37,000 --> 00:02:38,420
+Let's take the iPhone 4 as an example
+
+85
+00:02:38,420 --> 00:02:40,400
+Look at this picture, it's just right.
+
+86
+00:02:40,400 --> 00:02:43,680
+You see, there's no blank space left on the previous iPhone 6.
+
+87
+00:02:43,680 --> 00:02:45,920
+Ah, we won't worry about this for now, you can write it later
+
+88
+00:02:45,920 --> 00:02:48,100
+Just write based on the upgraded draft as an example.
+
+89
+00:02:48,100 --> 00:02:51,860
+Let's see which Knowledge in Swiper it uses.
+
+90
+00:02:51,860 --> 00:02:54,149
+You can write about these things.
+
+91
+00:02:54,549 --> 00:02:55,589
+Alright, I don't want it anymore.
+
+92
+00:02:55,589 --> 00:02:56,109
+Don't watch
+
+93
+00:02:56,109 --> 00:02:56,869
+I'm still watching here
+
+94
+00:02:56,869 --> 00:02:57,269
+It doesn't matter
+
+95
+00:02:57,269 --> 00:02:58,510
+It's fine anywhere
+
+96
+00:02:58,510 --> 00:02:59,930
+Okay, you'll notice here
+
+97
+00:02:59,930 --> 00:03:01,090
+Right here, ha
+
+98
+00:03:01,090 --> 00:03:03,550
+At this position, right at the top.
+
+99
+00:03:03,550 --> 00:03:05,830
+Can you see a line here first?
+
+100
+00:03:06,250 --> 00:03:07,770
+Is this a custom-written style?
+
+101
+00:03:07,770 --> 00:03:08,970
+See it?
+
+102
+00:03:08,970 --> 00:03:10,050
+Write your own styles
+
+103
+00:03:10,050 --> 00:03:13,550
+Then he wrote the swap again
+
+104
+00:03:13,550 --> 00:03:14,410
+swap
+
+105
+00:03:14,410 --> 00:03:16,010
+This is a container for the Swiper
+
+106
+00:03:16,010 --> 00:03:17,800
+He directly wrote the Swiper container.
+
+107
+00:03:17,800 --> 00:03:20,620
+Is it the swim select select select inside?
+
+108
+00:03:20,620 --> 00:03:21,220
+See
+
+109
+00:03:21,220 --> 00:03:22,340
+select slider ah
+
+110
+00:03:22,340 --> 00:03:23,430
+used once
+
+111
+00:03:23,430 --> 00:03:26,130
+Because this part directly uses Swiper, right?
+
+112
+00:03:26,130 --> 00:03:28,290
+It does not use its pagination dots
+
+113
+00:03:28,290 --> 00:03:30,680
+nor did it use the left and right arrows, right?
+
+114
+00:03:30,680 --> 00:03:31,500
+nor used
+
+115
+00:03:31,500 --> 00:03:34,660
+Was the scrollbar below not used at all?
+
+116
+00:03:34,660 --> 00:03:36,640
+only used the slider in swap
+
+117
+00:03:36,640 --> 00:03:37,480
+slider
+
+118
+00:03:37,480 --> 00:03:39,340
+Where is its JS written?
+
+119
+00:03:39,340 --> 00:03:42,640
+Pay attention to its JS, it's at the bottom.
+
+120
+00:03:42,640 --> 00:03:43,829
+It's down below
+
+121
+00:03:43,829 --> 00:03:47,749
+See this JS? Hey, this position here, see it?
+
+122
+00:03:47,749 --> 00:03:53,070
+This position, this position here will have multiple SWEB, can you see it?
+
+123
+00:03:53,070 --> 00:03:56,070
+The first one is actually our header section, you see.
+
+124
+00:03:56,070 --> 00:03:58,390
+The second one is our carousel area
+
+125
+00:03:58,390 --> 00:04:00,250
+The third one is this vertical carousel
+
+126
+00:04:00,250 --> 00:04:02,970
+The fourth one is the tab section below, can you see it?
+
+127
+00:04:02,970 --> 00:04:05,230
+Just like this effect we saw
+
+128
+00:04:05,230 --> 00:04:06,940
+We can just take it directly.
+
+129
+00:04:06,940 --> 00:04:07,860
+Do you understand?
+
+130
+00:04:07,860 --> 00:04:08,940
+You can just take it over completely
+
+131
+00:04:08,940 --> 00:04:10,620
+For example, I'll just grab one now
+
+132
+00:04:10,620 --> 00:04:11,380
+What is this
+
+133
+00:04:11,380 --> 00:04:12,700
+I don't care what this is anymore
+
+134
+00:04:12,700 --> 00:04:13,460
+Just write it down
+
+135
+00:04:13,460 --> 00:04:15,380
+Alright, let's create an empty folder.
+
+136
+00:04:15,380 --> 00:04:20,488
+Ah, for example, let's call it 02. Ah, swap, the effect given by the webpage, flip it over.
+
+137
+00:04:20,488 --> 00:04:22,169
+a special effect provided by its webpage
+
+138
+00:04:22,169 --> 00:04:23,200
+flip it over
+
+139
+00:04:23,200 --> 00:04:25,160
+Then I'll go ahead and create a file, ah
+
+140
+00:04:25,160 --> 00:04:26,720
+index.html
+
+141
+00:04:26,720 --> 00:04:27,680
+I'll just do this effect
+
+142
+00:04:27,680 --> 00:04:28,160
+Just like this
+
+143
+00:04:28,160 --> 00:04:28,880
+Just a little bit
+
+144
+00:04:28,880 --> 00:04:29,950
+not finishing
+
+145
+00:04:29,950 --> 00:04:31,710
+Then I'll take this part.
+
+146
+00:04:31,710 --> 00:04:35,190
+First, you see, he's using swap container
+
+147
+00:04:35,190 --> 00:04:38,320
+Let's not worry about this, we'll still use the basic structure of Swiper.
+
+148
+00:04:38,320 --> 00:04:41,940
+We still use the basic structure of swiper
+
+149
+00:04:41,940 --> 00:04:44,800
+Let's just take the basic structure and go with it.
+
+150
+00:04:48,320 --> 00:04:52,740
+Oops, the usage method was clicked in the wrong place.
+
+151
+00:04:52,740 --> 00:04:55,580
+Hmm, can I use this CDN
+
+152
+00:04:55,580 --> 00:04:56,460
+Is there a URL available?
+
+153
+00:04:56,460 --> 00:04:57,620
+Can I use a CDN?
+
+154
+00:04:57,620 --> 00:05:02,860
+6896~86 to eight leads to eight
+
+155
+00:05:02,860 --> 00:05:04,340
+You still reference it like this
+
+156
+00:05:04,340 --> 00:05:05,780
+Quoting eight
+
+157
+00:05:14,000 --> 00:05:15,880
+Take an online one
+
+158
+00:05:18,420 --> 00:05:19,940
+Okay, see you later.
+
+159
+00:05:19,940 --> 00:05:22,620
+Well then, next let's go get the stuff.
+
+160
+00:05:22,620 --> 00:05:25,780
+Ah, the first one is our top area.
+
+161
+00:05:25,780 --> 00:05:26,660
+I'll go get it
+
+162
+00:05:26,660 --> 00:05:29,069
+Just go ahead and grab its code
+
+163
+00:05:29,069 --> 00:05:31,849
+directly go back to our Home
+
+164
+00:05:31,849 --> 00:05:32,789
+Back to Home
+
+165
+00:05:32,789 --> 00:05:33,689
+Let's take a look at this part
+
+166
+00:05:33,689 --> 00:05:35,960
+Right-click still needs to inspect
+
+167
+00:05:35,960 --> 00:05:39,640
+What I actually took here is its large
+
+168
+00:05:39,640 --> 00:05:40,640
+the outermost large container
+
+169
+00:05:40,640 --> 00:05:43,020
+The basic structure still needs to be retrieved.
+
+170
+00:05:43,020 --> 00:05:44,500
+Get this domain name over here
+
+171
+00:05:44,500 --> 00:05:45,980
+I am getting the basic structure
+
+172
+00:05:45,980 --> 00:05:46,980
+on one hand is to take its
+
+173
+00:05:46,980 --> 00:05:49,159
+We can also directly take it over.
+
+174
+00:05:49,159 --> 00:05:51,039
+Ah, the basic structure references things ah
+
+175
+00:05:51,039 --> 00:05:51,999
+take this thing over
+
+176
+00:05:51,999 --> 00:05:53,619
+Let's go through the basic structure again
+
+177
+00:05:53,619 --> 00:05:54,700
+Alright, throw it over
+
+178
+00:05:54,700 --> 00:05:56,940
+After throwing it away, the scrollbar is no longer needed
+
+179
+00:05:56,940 --> 00:05:58,870
+Are the left and right arrows no longer needed?
+
+180
+00:05:58,870 --> 00:05:59,870
+You see?
+
+181
+00:05:59,870 --> 00:06:00,650
+None of them are needed
+
+182
+00:06:00,650 --> 00:06:04,980
+Then below, I'll write the corresponding JS code. For the JS part,
+
+183
+00:06:04,980 --> 00:06:07,200
+Normally, shouldn't we take this section below?
+
+184
+00:06:07,200 --> 00:06:08,740
+
+
+185
+00:06:08,740 --> 00:06:10,799
+Throw it in, throw it in and then
+
+186
+00:06:10,799 --> 00:06:11,759
+The scrollbar is not needed.
+
+187
+00:06:11,759 --> 00:06:12,599
+The left and right buttons are not needed.
+
+188
+00:06:12,599 --> 00:06:13,959
+Is pagination not needed?
+
+189
+00:06:13,959 --> 00:06:15,799
+Then is the loop also unnecessary?
+
+190
+00:06:15,799 --> 00:06:17,909
+Is vertical switching also unnecessary?
+
+191
+00:06:17,909 --> 00:06:19,609
+Is it just this little bit left?
+
+192
+00:06:19,609 --> 00:06:20,589
+This is the first one
+
+193
+00:06:20,589 --> 00:06:24,150
+This is the first one we're looking at, this SPP, okay
+
+194
+00:06:24,150 --> 00:06:26,630
+After writing this, let's take a look at it.
+
+195
+00:06:26,630 --> 00:06:27,830
+Here's our own effect
+
+196
+00:06:27,830 --> 00:06:29,710
+Alt plus B
+
+197
+00:06:29,710 --> 00:06:32,260
+F12 F12
+
+198
+00:06:32,260 --> 00:06:34,410
+This is how it looks okay
+
+199
+00:06:34,410 --> 00:06:35,570
+It still has a carousel by default.
+
+200
+00:06:35,570 --> 00:06:36,530
+See? Okay
+
+201
+00:06:36,530 --> 00:06:37,130
+Don't worry
+
+202
+00:06:37,130 --> 00:06:40,450
+Let's see which API configurations have been used.
+
+203
+00:06:40,450 --> 00:06:42,010
+Now let's continue to move forward
+
+204
+00:06:42,010 --> 00:06:44,690
+Inside, a div is used to draw a line
+
+205
+00:06:44,690 --> 00:06:46,150
+I'll bring that div over
+
+206
+00:06:46,150 --> 00:06:47,850
+On top of that
+
+207
+00:06:47,850 --> 00:06:48,610
+I'll add a div
+
+208
+00:06:48,610 --> 00:06:49,430
+See?
+
+209
+00:06:49,430 --> 00:06:51,870
+So are there any CSS styles in here?
+
+210
+00:06:51,870 --> 00:06:54,199
+I'm just going to embed it directly.
+
+211
+00:06:54,199 --> 00:06:55,439
+Don't embed it.
+
+212
+00:06:55,439 --> 00:06:57,219
+Here is an ID
+
+213
+00:06:57,219 --> 00:06:58,199
+add this style
+
+214
+00:06:58,199 --> 00:06:59,039
+added a style
+
+215
+00:06:59,039 --> 00:07:00,599
+Oh, and it even includes compatibility code.
+
+216
+00:07:00,599 --> 00:07:01,710
+Let's bring it over first
+
+217
+00:07:01,710 --> 00:07:04,150
+Get this compatibility thing over here
+
+218
+00:07:04,150 --> 00:07:05,330
+I can't be compatible either
+
+219
+00:07:05,330 --> 00:07:08,310
+Delete delete delete just make a WEBKIT
+
+220
+00:07:08,310 --> 00:07:09,370
+Is it okay, ah?
+
+221
+00:07:09,370 --> 00:07:10,400
+this line
+
+222
+00:07:10,400 --> 00:07:11,780
+Do you see this lg
+
+223
+00:07:11,780 --> 00:07:12,240
+he wrote
+
+224
+00:07:12,240 --> 00:07:15,289
+I'll just take it directly and let it go
+
+225
+00:07:15,289 --> 00:07:16,429
+Is it there
+
+226
+00:07:16,429 --> 00:07:19,620
+But I need to add something for our whatever
+
+227
+00:07:19,980 --> 00:07:22,680
+Add a margin of zero
+
+228
+00:07:22,680 --> 00:07:24,610
+padding is zero
+
+229
+00:07:25,450 --> 00:07:26,190
+OK
+
+230
+00:07:26,190 --> 00:07:27,450
+Let's take it out first
+
+231
+00:07:27,450 --> 00:07:27,930
+Alright
+
+232
+00:07:27,930 --> 00:07:28,850
+Got the core code
+
+233
+00:07:28,850 --> 00:07:29,650
+Just this part
+
+234
+00:07:29,650 --> 00:07:30,850
+Why can it be dragged?
+
+235
+00:07:30,850 --> 00:07:32,800
+Take a look at this part, this part here
+
+236
+00:07:32,800 --> 00:07:35,400
+Is this container using Swiper slider?
+
+237
+00:07:35,400 --> 00:07:36,190
+Slander
+
+238
+00:07:36,190 --> 00:07:36,610
+Okay
+
+239
+00:07:36,610 --> 00:07:37,950
+Just grab any text
+
+240
+00:07:37,950 --> 00:07:38,950
+Just grab any text
+
+241
+00:07:38,950 --> 00:07:40,910
+In other words, this is no longer select1
+
+242
+00:07:40,910 --> 00:07:42,470
+it's changed to text, right?
+
+243
+00:07:42,470 --> 00:07:43,990
+Oh, it's turned into text now.
+
+244
+00:07:43,990 --> 00:07:47,190
+
+
+245
+00:07:47,190 --> 00:07:47,990
+Oh no, can't do that.
+
+246
+00:07:47,990 --> 00:07:50,230
+I still want to take this
+
+247
+00:07:50,230 --> 00:07:53,030
+Don't want to write this word anymore
+
+248
+00:08:05,440 --> 00:08:06,940
+Hmm, this seems to have passed already.
+
+249
+00:08:06,940 --> 00:08:08,880
+No stamina
+
+250
+00:08:13,720 --> 00:08:14,840
+Wrote a few nonsense words.
+
+251
+00:08:14,840 --> 00:08:16,530
+Wrote a few random lines, okay
+
+252
+00:08:16,530 --> 00:08:18,770
+After writing it this way, it still displays in split-screen mode.
+
+253
+00:08:18,770 --> 00:08:20,150
+It's just one flat, right?
+
+254
+00:08:20,150 --> 00:08:22,210
+The key is the configuration.
+
+255
+00:08:22,210 --> 00:08:23,530
+The key is the configuration.
+
+256
+00:08:23,530 --> 00:08:25,080
+Okay, let's take a look at the configuration.
+
+257
+00:08:25,080 --> 00:08:26,560
+This is not visible now
+
+258
+00:08:26,560 --> 00:08:31,020
+Scroll down to check the JS code. Oh, there's something in the JS!
+
+259
+00:08:31,020 --> 00:08:32,460
+There's something in the JS.
+
+260
+00:08:32,460 --> 00:08:34,760
+The first one is the #header
+
+261
+00:08:34,760 --> 00:08:37,240
+The reason for the pound sign is that swap is used in this location.
+
+262
+00:08:37,240 --> 00:08:38,919
+Is this still the Swiper carousel?
+
+263
+00:08:38,919 --> 00:08:40,780
+The vertical swiper carousel below
+
+264
+00:08:40,780 --> 00:08:42,058
+This is still swab
+
+265
+00:08:42,058 --> 00:08:43,019
+they are all swap
+
+266
+00:08:43,019 --> 00:08:43,379
+you know
+
+267
+00:08:43,379 --> 00:08:44,859
+the use of multiple swipers
+
+268
+00:08:44,859 --> 00:08:46,310
+To distinguish swiper
+
+269
+00:08:46,310 --> 00:08:48,710
+It no longer refers to the first one as the generic Swiper
+
+270
+00:08:48,710 --> 00:08:49,950
+but assign an ID
+
+271
+00:08:49,950 --> 00:08:52,330
+for example, I'll also name it header
+
+272
+00:08:52,330 --> 00:08:52,930
+See
+
+273
+00:08:52,930 --> 00:08:53,970
+I'll need to use it later
+
+274
+00:08:53,970 --> 00:08:54,830
+Right, okay
+
+275
+00:08:54,830 --> 00:08:57,670
+OK, so should we not call it by this name below?
+
+276
+00:08:57,670 --> 00:09:00,160
+rename it to #header
+
+277
+00:09:00,160 --> 00:09:00,720
+Is that okay?
+
+278
+00:09:00,720 --> 00:09:02,180
+Hey, call it #header
+
+279
+00:09:02,180 --> 00:09:03,480
+Pay attention to the configuration items
+
+280
+00:09:03,480 --> 00:09:06,460
+The configuration provides you with three properties
+
+281
+00:09:06,460 --> 00:09:10,660
+First, the free model means its mode is set to true.
+
+282
+00:09:10,660 --> 00:09:16,120
+Then, the frame is set to free elasticity and automatically adheres to whatever it's supposed to.
+
+283
+00:09:16,120 --> 00:09:17,370
+Looking at who?
+
+284
+00:09:17,370 --> 00:09:18,130
+Remember?
+
+285
+00:09:18,130 --> 00:09:21,520
+Do you still remember which API to look at?
+
+286
+00:09:21,520 --> 00:09:24,360
+Let's check the properties, shouldn't we refer to the API? Let's go through it again.
+
+287
+00:09:24,360 --> 00:09:28,280
+First, let's look at frame mode m o d e m o e
+
+288
+00:09:28,280 --> 00:09:30,120
+free free mo is which one
+
+289
+00:09:30,120 --> 00:09:32,660
+this this this this this
+
+290
+00:09:34,280 --> 00:09:36,240
+Well, where is it
+
+291
+00:09:37,280 --> 00:09:38,880
+Is this it?
+
+292
+00:09:38,880 --> 00:09:42,460
+Is it true that he wrote this for you?
+
+293
+00:09:42,460 --> 00:09:43,020
+Right?
+
+294
+00:09:43,020 --> 00:09:43,620
+true just like this
+
+295
+00:09:43,620 --> 00:09:44,540
+and so on
+
+296
+00:09:44,540 --> 00:09:45,850
+true true then
+
+297
+00:09:45,850 --> 00:09:46,850
+What should we do here
+
+298
+00:09:46,850 --> 00:09:48,850
+Enable the automatic mode
+
+299
+00:09:48,850 --> 00:09:52,330
+You can set parameters or use true to enable the mode
+
+300
+00:09:52,330 --> 00:09:55,570
+By default, only one slides at a time.
+
+301
+00:09:55,570 --> 00:09:57,930
+Can only one SLIDER be swiped?
+
+302
+00:09:57,930 --> 00:09:59,510
+and will automatically snap
+
+303
+00:09:59,510 --> 00:10:02,750
+When our large container enables the free mode
+
+304
+00:10:02,750 --> 00:10:05,690
+It can move more than one step based on inertia.
+
+305
+00:10:05,690 --> 00:10:07,640
+and will not snap
+
+306
+00:10:07,760 --> 00:10:11,620
+What does it mean? Normally, with one swipe, it moves one screen, right?
+
+307
+00:10:11,620 --> 00:10:13,060
+Got it, right?
+
+308
+00:10:13,060 --> 00:10:14,160
+And with a swipe
+
+309
+00:10:14,160 --> 00:10:15,240
+as long as I exceed the middle value
+
+310
+00:10:15,240 --> 00:10:16,050
+See?
+
+311
+00:10:16,050 --> 00:10:17,730
+It will automatically snap into place
+
+312
+00:10:17,730 --> 00:10:20,070
+See, it automatically snaps into place.
+
+313
+00:10:20,070 --> 00:10:21,270
+More than half a bottle, ah
+
+314
+00:10:21,270 --> 00:10:22,280
+Can you see it?
+
+315
+00:10:22,280 --> 00:10:23,720
+It bounces back if I don't go past it
+
+316
+00:10:23,720 --> 00:10:24,460
+See
+
+317
+00:10:24,460 --> 00:10:26,410
+I've exceeded half a bottle
+
+318
+00:10:26,410 --> 00:10:27,950
+Does it automatically link together?
+
+319
+00:10:27,950 --> 00:10:29,250
+This is the normal one.
+
+320
+00:10:29,250 --> 00:10:32,550
+The default is ordinary, which is false, not free mode, right?
+
+321
+00:10:32,550 --> 00:10:37,620
+If you're in free mode now, swipe and let's swipe.
+
+322
+00:10:37,860 --> 00:10:39,340
+See? It slides.
+
+323
+00:10:39,340 --> 00:10:40,540
+It has a bit of inertia.
+
+324
+00:10:40,540 --> 00:10:40,980
+you know
+
+325
+00:10:40,980 --> 00:10:42,920
+but it doesn't snap automatically
+
+326
+00:10:42,920 --> 00:10:44,300
+Actually, look
+
+327
+00:10:44,300 --> 00:10:45,980
+this thing right now
+
+328
+00:10:48,180 --> 00:10:50,280
+is it that I want to slide a bit
+
+329
+00:10:50,280 --> 00:10:51,920
+I want to slide a bit
+
+330
+00:10:51,920 --> 00:10:55,400
+Can you see it? Ah, my sliding might not be just one.
+
+331
+00:10:55,400 --> 00:10:56,240
+If I use more force
+
+332
+00:10:56,240 --> 00:10:57,319
+whoosh, right?
+
+333
+00:10:57,319 --> 00:10:58,159
+Is this what you mean?
+
+334
+00:10:58,159 --> 00:10:59,779
+Ah, watch Me's strength coming now!
+
+335
+00:10:59,779 --> 00:11:00,679
+It's just such an attribute
+
+336
+00:11:00,679 --> 00:11:01,399
+See if you want to add it
+
+337
+00:11:01,399 --> 00:11:02,640
+For example, let's add it, okay?
+
+338
+00:11:02,640 --> 00:11:04,600
+Where should this free be written
+
+339
+00:11:04,600 --> 00:11:06,670
+Is the configuration like this, huh?
+
+340
+00:11:06,670 --> 00:11:07,550
+Take it over
+
+341
+00:11:07,550 --> 00:11:08,730
+Throw it down below
+
+342
+00:11:08,730 --> 00:11:09,690
+Should we add it?
+
+343
+00:11:09,690 --> 00:11:10,890
+Okay, add it in
+
+344
+00:11:10,890 --> 00:11:12,470
+Add the note to it
+
+345
+00:11:12,470 --> 00:11:13,510
+and so on
+
+346
+00:11:13,510 --> 00:11:15,130
+The same goes for others.
+
+347
+00:11:15,130 --> 00:11:17,540
+Oh, free mode
+
+348
+00:11:17,540 --> 00:11:19,020
+free mode
+
+349
+00:11:19,020 --> 00:11:20,820
+Put the free mode on top
+
+350
+00:11:20,820 --> 00:11:22,420
+The annotation will be a bit longer
+
+351
+00:11:22,420 --> 00:11:24,780
+Enabling it allows for more than one frame
+
+352
+00:11:24,780 --> 00:11:26,400
+and won't stick together
+
+353
+00:11:26,400 --> 00:11:28,360
+Pay attention
+
+354
+00:11:28,360 --> 00:11:29,200
+This is the first property
+
+355
+00:11:29,200 --> 00:11:33,160
+Alright, let's take a look at the second property. The second property, you see,
+
+356
+00:11:33,160 --> 00:11:34,680
+The second attribute is actually the key
+
+357
+00:11:34,680 --> 00:11:35,280
+What is it called
+
+358
+00:11:35,280 --> 00:11:36,240
+slanders
+
+359
+00:11:36,240 --> 00:11:36,840
+preview
+
+360
+00:11:36,840 --> 00:11:37,800
+It's slander
+
+361
+00:11:37,800 --> 00:11:39,310
+Is it one by one?
+
+362
+00:11:39,310 --> 00:11:40,230
+Display how many
+
+363
+00:11:40,230 --> 00:11:41,050
+he writes an auto
+
+364
+00:11:41,050 --> 00:11:42,210
+It's set to automatic.
+
+365
+00:11:42,210 --> 00:11:43,750
+Let's check out the properties
+
+366
+00:11:43,750 --> 00:11:45,370
+Where is this property?
+
+367
+00:11:45,370 --> 00:11:47,490
+Slider preview
+
+368
+00:11:47,490 --> 00:11:48,290
+Preview
+
+369
+00:11:48,290 --> 00:11:51,050
+It should be his this this this this this this
+
+370
+00:11:51,050 --> 00:11:51,990
+Let me see
+
+371
+00:11:51,990 --> 00:11:53,330
+It's called a grid, right?
+
+372
+00:11:53,330 --> 00:11:54,030
+Should be
+
+373
+00:11:54,030 --> 00:11:57,280
+This is not this, not this word category, hmm
+
+374
+00:11:58,360 --> 00:12:01,960
+No, it's not there, not there.
+
+375
+00:12:02,930 --> 00:12:04,530
+Haven't seen it, right?
+
+376
+00:12:05,190 --> 00:12:06,390
+should be
+
+377
+00:12:06,390 --> 00:12:08,070
+Then I'll take a look at the basic configuration first
+
+378
+00:12:09,230 --> 00:12:11,130
+Are there any basic configurations
+
+379
+00:12:11,570 --> 00:12:13,490
+or search or can search here ah
+
+380
+00:12:13,490 --> 00:12:14,490
+You can also search
+
+381
+00:12:14,490 --> 00:12:16,770
+Then let's unfold and take a look.
+
+382
+00:12:18,140 --> 00:12:19,780
+I feel like it's a grid.
+
+383
+00:12:22,340 --> 00:12:27,410
+I feel like it's a grid great show a few
+
+384
+00:12:27,410 --> 00:12:28,730
+And this word
+
+385
+00:12:28,730 --> 00:12:29,350
+Where is this?
+
+386
+00:12:29,350 --> 00:12:32,150
+search for this
+
+387
+00:12:34,860 --> 00:12:37,710
+Right, let's just keep this selected and show it to everyone once more
+
+388
+00:12:37,710 --> 00:12:39,030
+Okay, click in.
+
+389
+00:12:39,030 --> 00:12:40,350
+Click in, um
+
+390
+00:12:40,350 --> 00:12:41,750
+In this carousel
+
+391
+00:12:41,750 --> 00:12:42,870
+Inside the carousel
+
+392
+00:12:42,870 --> 00:12:45,390
+Let's take a look at what this property means.
+
+393
+00:12:45,390 --> 00:12:47,170
+The default value is one.
+
+394
+00:12:47,170 --> 00:12:49,270
+Settings for this slider container
+
+395
+00:12:49,270 --> 00:12:52,690
+the number of sliders that can be displayed simultaneously
+
+396
+00:12:52,690 --> 00:12:54,370
+This is what we call a select
+
+397
+00:12:54,370 --> 00:12:55,990
+Are they displayed one by one?
+
+398
+00:12:55,990 --> 00:12:58,430
+The default value is 1.
+
+399
+00:12:58,430 --> 00:12:59,610
+just display one
+
+400
+00:12:59,610 --> 00:13:01,590
+You can set it to, uh,
+
+401
+00:13:01,590 --> 00:13:03,030
+a number or a decimal
+
+402
+00:13:03,030 --> 00:13:04,650
+Decimal cannot loop
+
+403
+00:13:04,650 --> 00:13:06,670
+that means, for example, I display 1.5
+
+404
+00:13:06,670 --> 00:13:07,670
+display one and a half
+
+405
+00:13:07,670 --> 00:13:09,990
+That's what it means, right? Showing one and a half means this, right?
+
+406
+00:13:09,990 --> 00:13:12,310
+You can't loop when you set it to a small value.
+
+407
+00:13:12,310 --> 00:13:16,450
+That's what it means, or you can switch it to auto or something.
+
+408
+00:13:16,450 --> 00:13:18,890
+or auto
+
+409
+00:13:18,890 --> 00:13:22,579
+will set the quantity based on the width of these sliders
+
+410
+00:13:22,579 --> 00:13:23,859
+You can set it to a decimal
+
+411
+00:13:23,859 --> 00:13:24,930
+Is it a fixed number?
+
+412
+00:13:24,930 --> 00:13:27,490
+You can also set this property to auto
+
+413
+00:13:27,490 --> 00:13:28,090
+In case of concave-convex
+
+414
+00:13:28,090 --> 00:13:30,310
+Does it determine based on its own width?
+
+415
+00:13:30,310 --> 00:13:31,630
+how many items to match
+
+416
+00:13:31,630 --> 00:13:32,630
+That's what it means.
+
+417
+00:13:32,630 --> 00:13:34,230
+Here is an example for you
+
+418
+00:13:34,230 --> 00:13:36,950
+Is the default one and gives you two examples?
+
+419
+00:13:36,950 --> 00:13:38,599
+You see, it gives two examples.
+
+420
+00:13:38,599 --> 00:13:40,439
+In this example, everyone can't see it.
+
+421
+00:13:40,439 --> 00:13:41,599
+He set it to concave-convex
+
+422
+00:13:41,599 --> 00:13:45,540
+This unevenness has already been manually styled with CSS, right?
+
+423
+00:13:45,540 --> 00:13:46,780
+wrote the CSS styles
+
+424
+00:13:46,780 --> 00:13:47,660
+that is, it's a bit wider
+
+425
+00:13:47,660 --> 00:13:48,770
+It's a bit narrower
+
+426
+00:13:48,770 --> 00:13:49,630
+Is that what it means?
+
+427
+00:13:49,630 --> 00:13:50,490
+It's a bit narrower
+
+428
+00:13:50,490 --> 00:13:51,270
+That's what it means.
+
+429
+00:13:51,270 --> 00:13:53,250
+Alright, let's configure this property.
+
+430
+00:13:53,250 --> 00:13:54,980
+Just know what it is and that's enough
+
+431
+00:13:54,980 --> 00:13:56,900
+Now look, an example is given to you
+
+432
+00:13:56,900 --> 00:13:58,710
+provided a detailed explanation
+
+433
+00:13:58,710 --> 00:14:00,470
+For example, I now write it as R
+
+434
+00:14:00,470 --> 00:14:01,790
+that's two ah
+
+435
+00:14:01,790 --> 00:14:03,090
+I can also write it as convex and concave
+
+436
+00:14:03,090 --> 00:14:04,410
+But be very careful,
+
+437
+00:14:04,410 --> 00:14:06,480
+If written as convex-concave
+
+438
+00:14:06,480 --> 00:14:09,480
+It will automatically adjust based on your own width
+
+439
+00:14:09,480 --> 00:14:11,160
+how many styles to display
+
+440
+00:14:11,160 --> 00:14:13,260
+Has it already been shown to you below?
+
+441
+00:14:13,260 --> 00:14:14,200
+Got it?
+
+442
+00:14:14,200 --> 00:14:15,640
+You can also write it as a decimal if you press
+
+443
+00:14:15,640 --> 00:14:17,260
+Then let's just grab it randomly to test
+
+444
+00:14:17,260 --> 00:14:18,820
+For example, I’ll take it now
+
+445
+00:14:18,820 --> 00:14:20,480
+Tested two, good
+
+446
+00:14:20,480 --> 00:14:23,190
+OK, put it down there
+
+447
+00:14:23,190 --> 00:14:26,950
+Now take the property above
+
+448
+00:14:26,950 --> 00:14:29,070
+It refers to the representation of its quantity.
+
+449
+00:14:29,070 --> 00:14:30,870
+Just place its quantity here.
+
+450
+00:14:30,870 --> 00:14:32,069
+Put this line down
+
+451
+00:14:32,069 --> 00:14:34,029
+The default is one per container
+
+452
+00:14:34,029 --> 00:14:35,689
+I have now written an R
+
+453
+00:14:35,689 --> 00:14:40,160
+Now take a look at the effect again, after refreshing, there are two, right?
+
+454
+00:14:40,160 --> 00:14:40,860
+Of course
+
+455
+00:14:40,860 --> 00:14:42,300
+You can center the content
+
+456
+00:14:42,300 --> 00:14:43,100
+Has it moved to the center now?
+
+457
+00:14:43,100 --> 00:14:44,580
+Well, this is two
+
+458
+00:14:44,580 --> 00:14:45,880
+Oh, not so fast
+
+459
+00:14:45,880 --> 00:14:46,740
+Slow down a bit
+
+460
+00:14:46,740 --> 00:14:48,340
+Can you see it?
+
+461
+00:14:48,340 --> 00:14:49,600
+Well, this bookstore has quite a lot
+
+462
+00:14:49,600 --> 00:14:50,400
+See?
+
+463
+00:14:50,400 --> 00:14:52,220
+Let me search, let me search, okay
+
+464
+00:14:52,220 --> 00:14:53,470
+It's already back
+
+465
+00:14:53,470 --> 00:14:54,190
+See
+
+466
+00:14:54,190 --> 00:14:55,170
+I use more force
+
+467
+00:14:55,170 --> 00:14:56,450
+Does it move more?
+
+468
+00:14:56,450 --> 00:14:58,310
+Ah, now we have two
+
+469
+00:14:58,310 --> 00:15:00,520
+Then I can also set it to 2.5
+
+470
+00:15:00,520 --> 00:15:01,540
+Can you see what it means?
+
+471
+00:15:01,540 --> 00:15:03,040
+2.5 take a look
+
+472
+00:15:03,040 --> 00:15:07,259
+Go and see if it stops at this position.
+
+473
+00:15:07,259 --> 00:15:08,419
+Is it supposed to reach this Weibo
+
+474
+00:15:08,419 --> 00:15:09,719
+Should it be to this point?
+
+475
+00:15:09,719 --> 00:15:10,839
+Can you see it?
+
+476
+00:15:10,839 --> 00:15:12,640
+That's what it means, got it?
+
+477
+00:15:12,640 --> 00:15:13,400
+That's what it means.
+
+478
+00:15:13,400 --> 00:15:14,160
+How many to display
+
+479
+00:15:14,160 --> 00:15:15,280
+Just like ours
+
+480
+00:15:15,280 --> 00:15:16,400
+Look at how many it displays
+
+481
+00:15:16,400 --> 00:15:17,160
+You can
+
+482
+00:15:17,160 --> 00:15:19,320
+12345, that makes five, right?
+
+483
+00:15:19,320 --> 00:15:20,760
+About five, ah
+
+484
+00:15:20,760 --> 00:15:22,000
+Then I can write it as fixed
+
+485
+00:15:22,000 --> 00:15:24,540
+I'll just write it as five, you get what I mean, right?
+
+486
+00:15:24,540 --> 00:15:25,960
+Of course, we can also use auto
+
+487
+00:15:25,960 --> 00:15:26,520
+either is fine
+
+488
+00:15:26,520 --> 00:15:28,360
+Can you see that I wrote five?
+
+489
+00:15:28,360 --> 00:15:30,520
+It would be best if this content is centered, right?
+
+490
+00:15:30,520 --> 00:15:31,820
+Center it.
+
+491
+00:15:31,820 --> 00:15:32,940
+Can you see what I mean?
+
+492
+00:15:32,940 --> 00:15:34,180
+Hey, this effect is already achieved.
+
+493
+00:15:34,180 --> 00:15:34,920
+right
+
+494
+00:15:34,920 --> 00:15:38,100
+If your number is not set as a fixed value
+
+495
+00:15:38,100 --> 00:15:39,240
+We're not going to demonstrate decimals.
+
+496
+00:15:39,240 --> 00:15:39,840
+It was demonstrated just now
+
+497
+00:15:39,840 --> 00:15:40,610
+seems so
+
+498
+00:15:40,610 --> 00:15:43,510
+If I now set this property to auto
+
+499
+00:15:43,510 --> 00:15:44,810
+Note that when configuring it as auto,
+
+500
+00:15:44,810 --> 00:15:46,880
+You need to specify the size for this container
+
+501
+00:15:46,880 --> 00:15:48,320
+it will adapt to the container
+
+502
+00:15:48,320 --> 00:15:48,900
+you know
+
+503
+00:15:48,900 --> 00:15:50,440
+Now I've written 'auto'
+
+504
+00:15:50,440 --> 00:15:51,120
+Take a look
+
+505
+00:15:51,120 --> 00:15:54,979
+Refresh, it still feels the same, see?
+
+506
+00:15:54,979 --> 00:15:55,619
+Because what
+
+507
+00:15:55,619 --> 00:15:58,259
+Because this is just a regular div.
+
+508
+00:15:58,259 --> 00:15:59,339
+You know what I mean, right?
+
+509
+00:15:59,339 --> 00:16:00,739
+It's just a regular div
+
+510
+00:16:00,739 --> 00:16:02,290
+Don't you have to set its width?
+
+511
+00:16:02,290 --> 00:16:05,810
+So, at this point, for example, let's say our #header
+
+512
+00:16:05,810 --> 00:16:07,610
+below is the container called this
+
+513
+00:16:07,610 --> 00:16:08,970
+Ah, I'll just write one randomly.
+
+514
+00:16:08,970 --> 00:16:10,640
+For example, the width, um
+
+515
+00:16:10,640 --> 00:16:11,780
+I won't use IEM either
+
+516
+00:16:11,780 --> 00:16:12,580
+Just write 100
+
+517
+00:16:12,580 --> 00:16:14,660
+or write it as
+
+518
+00:16:15,800 --> 00:16:18,060
+60 is okay, 60
+
+519
+00:16:18,060 --> 00:16:19,520
+Then center the content for it
+
+520
+00:16:19,520 --> 00:16:20,360
+PON and center
+
+521
+00:16:20,360 --> 00:16:22,360
+I'm not going to consider mobile compatibility anymore
+
+522
+00:16:22,360 --> 00:16:23,440
+I'm just going to use pixels.
+
+523
+00:16:23,440 --> 00:16:24,320
+Take a look at the effect
+
+524
+00:16:24,320 --> 00:16:26,530
+Can you see it now?
+
+525
+00:16:26,530 --> 00:16:27,630
+Well now
+
+526
+00:16:27,630 --> 00:16:30,550
+It will automatically match the space according to my content.
+
+527
+00:16:30,550 --> 00:16:32,870
+I added auto.
+
+528
+00:16:32,870 --> 00:16:35,310
+And what I wrote above is 60, right?
+
+529
+00:16:35,310 --> 00:16:36,130
+Text centered
+
+530
+00:16:36,130 --> 00:16:39,540
+Can you see that there's still a little tail sticking out?
+
+531
+00:16:39,540 --> 00:16:42,160
+Look, using this Swiper is not just for writing carousels
+
+532
+00:16:42,160 --> 00:16:45,220
+Isn't it very convenient to use this for creating sliding effects, right?
+
+533
+00:16:45,220 --> 00:16:47,300
+Actually, you often see many
+
+534
+00:16:47,300 --> 00:16:48,100
+this sliding effect
+
+535
+00:16:48,100 --> 00:16:51,180
+You know, right? Ah, if you're creating an article, you can choose to use it.
+
+536
+00:16:51,180 --> 00:16:52,410
+You know what I mean, right?
+
+537
+00:16:52,410 --> 00:16:53,730
+Okay, this property here.
+
+538
+00:16:54,890 --> 00:16:57,330
+There is another attribute still within the free mode, ah.
+
+539
+00:16:57,330 --> 00:16:57,970
+strict
+
+540
+00:16:57,970 --> 00:16:58,930
+What is set to true?
+
+541
+00:16:58,930 --> 00:17:00,590
+You can take another look at it.
+
+542
+00:17:00,590 --> 00:17:05,829
+Well, in the mode mode there's an aiya
+
+543
+00:17:05,829 --> 00:17:09,519
+Where is this word that's not in the mode?
+
+544
+00:17:09,519 --> 00:17:10,858
+Anyway, it's almost done.
+
+545
+00:17:10,858 --> 00:17:12,539
+This should be the combined one.
+
+546
+00:17:12,539 --> 00:17:13,459
+Take it over
+
+547
+00:17:13,459 --> 00:17:14,319
+Let me search again
+
+548
+00:17:14,319 --> 00:17:15,819
+Hard to find hard to find
+
+549
+00:17:15,819 --> 00:17:17,138
+let's search
+
+550
+00:17:23,440 --> 00:17:24,680
+It's deprecated
+
+551
+00:17:24,680 --> 00:17:25,839
+It has been deprecated
+
+552
+00:17:25,839 --> 00:17:27,000
+Seven has been deprecated.
+
+553
+00:17:27,000 --> 00:17:28,280
+Don't write
+
+554
+00:17:28,760 --> 00:17:30,060
+Automatic linking, right?
+
+555
+00:17:30,060 --> 00:17:31,200
+Auto linkage
+
+556
+00:17:31,200 --> 00:17:32,960
+Automatic linking in free mode
+
+557
+00:17:32,960 --> 00:17:35,480
+So we just mentioned that, uh, what was it
+
+558
+00:17:35,480 --> 00:17:37,290
+Isn't this enabling the free mode?
+
+559
+00:17:37,290 --> 00:17:38,770
+When this automatic mode is enabled
+
+560
+00:17:38,770 --> 00:17:40,449
+Does it not automatically combine?
+
+561
+00:17:40,449 --> 00:17:41,269
+Remember?
+
+562
+00:17:41,269 --> 00:17:42,049
+It won't stick together
+
+563
+00:17:42,049 --> 00:17:42,449
+Swipe it
+
+564
+00:17:42,449 --> 00:17:43,329
+It won't stick together anymore.
+
+565
+00:17:43,329 --> 00:17:44,849
+This bonding, trust me when I swipe
+
+566
+00:17:44,849 --> 00:17:46,569
+I just happened to slide to this small grid.
+
+567
+00:17:46,569 --> 00:17:48,569
+This small grid, for example, oh, it's still a bit short, this small grid
+
+568
+00:17:48,569 --> 00:17:50,780
+With this swipe, look, it doesn't move now.
+
+569
+00:17:50,780 --> 00:17:51,180
+Got it?
+
+570
+00:17:51,180 --> 00:17:53,460
+It snaps and gives you a little extra roll, right?
+
+571
+00:17:53,460 --> 00:17:54,540
+a little more inertia
+
+572
+00:17:54,540 --> 00:17:55,900
+Do you understand what I mean?
+
+573
+00:17:55,900 --> 00:17:57,580
+OK, let me see if we can add this
+
+574
+00:17:57,580 --> 00:17:59,060
+Let's see if there's any effect.
+
+575
+00:17:59,060 --> 00:18:00,020
+Although it's deprecated
+
+576
+00:18:00,020 --> 00:18:01,200
+Let's take a look
+
+577
+00:18:01,200 --> 00:18:02,909
+Take a look at the effect.
+
+578
+00:18:02,909 --> 00:18:04,229
+Let's see if it works
+
+579
+00:18:04,229 --> 00:18:05,989
+The seventh one inside has already been deprecated.
+
+580
+00:18:05,989 --> 00:18:10,700
+Then eight must have already, um, maybe has some effect.
+
+581
+00:18:10,700 --> 00:18:14,160
+Move a little bit, is it working?
+
+582
+00:18:14,940 --> 00:18:15,960
+Move a tiny bit more
+
+583
+00:18:15,960 --> 00:18:17,000
+Ouch, go
+
+584
+00:18:17,000 --> 00:18:18,260
+Slide a bit, oh no
+
+585
+00:18:18,260 --> 00:18:20,540
+It's not quite visible.
+
+586
+00:18:20,540 --> 00:18:21,940
+It seems there isn't any.
+
+587
+00:18:21,940 --> 00:18:23,060
+Take a look later
+
+588
+00:18:23,060 --> 00:18:23,580
+Never mind
+
+589
+00:18:23,580 --> 00:18:24,780
+You just need to know this property.
+
+590
+00:18:24,780 --> 00:18:25,650
+pretty much the same
+
+591
+00:18:25,650 --> 00:18:26,590
+Do you get the idea?
+
+592
+00:18:26,590 --> 00:18:27,560
+That's it then.
+
+593
+00:18:27,560 --> 00:18:29,720
+The rest is exactly the same below.
+
+594
+00:18:29,720 --> 00:18:31,660
+Look, I won't continue writing about his carousel.
+
+595
+00:18:31,660 --> 00:18:35,139
+Does its carousel continue with an id called banner?
+
+596
+00:18:35,139 --> 00:18:36,019
+ID
+
+597
+00:18:36,019 --> 00:18:37,779
+Just give it a different name like banner, okay?
+
+598
+00:18:37,779 --> 00:18:40,219
+Next, is there another part written about this ID?
+
+599
+00:18:40,219 --> 00:18:42,770
+You see, the banner has Auto-Play enabled, right?
+
+600
+00:18:42,770 --> 00:18:44,730
+The given time is 5000
+
+601
+00:18:44,730 --> 00:18:46,410
+Does it switch every five seconds, right?
+
+602
+00:18:46,410 --> 00:18:48,230
+loop means it loops, right?
+
+603
+00:18:48,230 --> 00:18:51,250
+Then is the pagination component under the B point of who
+
+604
+00:18:51,250 --> 00:18:53,130
+You see, this is the selected class name.
+
+605
+00:18:53,130 --> 00:18:55,270
+Originally, our default class name was whose
+
+606
+00:18:55,270 --> 00:18:56,730
+It's under the banner, right?
+
+607
+00:18:56,730 --> 00:18:58,470
+Can you see the dots under the banner?
+
+608
+00:18:58,470 --> 00:18:58,850
+Ah
+
+609
+00:18:58,850 --> 00:19:02,210
+The dots below the banner, ah, there's another new property you can check out
+
+610
+00:19:02,210 --> 00:19:02,850
+Does it look good?
+
+611
+00:19:02,850 --> 00:19:05,520
+
+
+612
+00:19:05,520 --> 00:19:07,780
+The last one below is a bit more complex
+
+613
+00:19:07,780 --> 00:19:08,940
+This one has events.
+
+614
+00:19:08,940 --> 00:19:11,290
+This last one is a bit more complex.
+
+615
+00:19:11,290 --> 00:19:12,370
+The last one, ha
+
+616
+00:19:12,370 --> 00:19:15,410
+Below the banner is this vertical carousel.
+
+617
+00:19:15,410 --> 00:19:17,130
+Is there a tap pass below the vertical carousel?
+
+618
+00:19:17,130 --> 00:19:19,040
+Can you see it?
+
+619
+00:19:19,040 --> 00:19:20,500
+the top three t buses
+
+620
+00:19:20,500 --> 00:19:22,720
+This is a specialized carousel below.
+
+621
+00:19:22,720 --> 00:19:23,980
+See below
+
+622
+00:19:23,980 --> 00:19:25,500
+swap maybe DER ah
+
+623
+00:19:25,500 --> 00:19:26,960
+The original name was SWEBCONVENDER
+
+624
+00:19:26,960 --> 00:19:28,420
+Now it's called swap.
+
+625
+00:19:28,420 --> 00:19:30,220
+Okay, scroll down, scroll down
+
+626
+00:19:30,220 --> 00:19:33,600
+Find the following first, locate something
+
+627
+00:19:33,600 --> 00:19:34,160
+Look who it is
+
+628
+00:19:34,160 --> 00:19:36,920
+Is this the click event bound to the A tag of k bus?
+
+629
+00:19:36,920 --> 00:19:38,260
+these three, right?
+
+630
+00:19:38,260 --> 00:19:39,220
+Can you see it?
+
+631
+00:19:39,220 --> 00:19:40,960
+bound a click event
+
+632
+00:19:40,960 --> 00:19:43,139
+Prevent the default event of the A tag
+
+633
+00:19:43,139 --> 00:19:47,860
+Can you see the highlight effect is applied to whichever is clicked?
+
+634
+00:19:47,860 --> 00:19:50,540
+Is it removing all highlighted effects below it?
+
+635
+00:19:50,540 --> 00:19:51,420
+who gives to whom
+
+636
+00:19:51,420 --> 00:19:53,560
+Is it about highlighting whichever is clicked?
+
+637
+00:19:53,560 --> 00:19:55,180
+Now we are using something
+
+638
+00:19:55,180 --> 00:19:57,280
+Just use it to switch to Swiper, ah
+
+639
+00:19:57,280 --> 00:20:00,390
+It's using this swap new swap instance
+
+640
+00:20:00,390 --> 00:20:04,469
+make it switch to a certain index
+
+641
+00:20:04,469 --> 00:20:07,829
+Which one is currently clicked? A, click Showbiz to switch to Showbiz.
+
+642
+00:20:07,829 --> 00:20:08,829
+Switch to Society
+
+643
+00:20:08,829 --> 00:20:11,429
+Have you used this index before?
+
+644
+00:20:11,429 --> 00:20:14,249
+Um, and then there's a new method here called select to
+
+645
+00:20:14,249 --> 00:20:14,749
+Select to
+
+646
+00:20:14,749 --> 00:20:18,810
+It's about switching the swap below, um, swap
+
+647
+00:20:18,810 --> 00:20:21,270
+because this is an instance of take bus swap
+
+648
+00:20:21,270 --> 00:20:22,390
+Take a look
+
+649
+00:20:22,390 --> 00:20:25,100
+Can you see there's an instance?
+
+650
+00:20:25,100 --> 00:20:25,960
+this example
+
+651
+00:20:25,960 --> 00:20:28,840
+you can switch to any screen with this swiper slider
+
+652
+00:20:28,840 --> 00:20:29,720
+Can I see it?
+
+653
+00:20:29,720 --> 00:20:31,250
+Which screen to switch to?
+
+654
+00:20:31,250 --> 00:20:33,490
+This one, in the Swiper,
+
+655
+00:20:33,490 --> 00:20:36,330
+The speed is configured in the swiper below
+
+656
+00:20:36,330 --> 00:20:36,930
+Remember?
+
+657
+00:20:36,930 --> 00:20:39,880
+The default speed here is 300ms.
+
+658
+00:20:39,880 --> 00:20:42,760
+Then there's an event on, on event, right
+
+659
+00:20:42,760 --> 00:20:43,520
+on event
+
+660
+00:20:43,520 --> 00:20:47,370
+That means when I swipe the thing below, the one above moves along with it.
+
+661
+00:20:47,370 --> 00:20:48,810
+I swipe below
+
+662
+00:20:48,810 --> 00:20:50,890
+the take bus above will also be removed
+
+663
+00:20:50,890 --> 00:20:52,409
+The current one will be added.
+
+664
+00:20:52,409 --> 00:20:53,869
+
+
+665
+00:20:53,869 --> 00:20:54,749
+Got it?
+
+666
+00:20:54,749 --> 00:20:55,769
+
+
+667
+00:20:55,769 --> 00:20:56,569
+Want to take a look at it
+
+668
+00:20:56,569 --> 00:20:57,820
+Don't want to watch
+
+669
+00:20:58,300 --> 00:21:01,460
+OK the remaining 3D effects are the same
+
+670
+00:21:01,460 --> 00:21:02,760
+You can call it, you know
+
+671
+00:21:02,760 --> 00:21:03,800
+Got it?
+
+672
+00:21:03,800 --> 00:21:05,600
+All can be copied.
+
+673
+00:21:05,600 --> 00:21:07,500
+Later, I'll write this for everyone.
+
+674
+00:21:07,500 --> 00:21:10,520
+I'll just write one or two bottles and it'll be done.
+
+675
+00:21:10,520 --> 00:21:11,520
+Is that what you mean?
+
+676
+00:21:11,520 --> 00:21:13,720
+Write another UGC Anime like this
+
+677
+00:21:14,700 --> 00:21:15,180
+Alright
+
+678
+00:21:15,180 --> 00:21:16,320
+Take a look at it
+

@@ -1,0 +1,536 @@
+1
+00:00:00,000 --> 00:00:02,080
+This is going to be an incredibly important role in the age of AI.
+
+2
+00:00:02,080 --> 00:00:04,080
+And this role is called the Front-End Product Manager.
+
+3
+00:00:04,080 --> 00:00:05,800
+This is something we discovered while we were working closely with a company.
+
+4
+00:00:05,800 --> 00:00:06,930
+and in our hands-on practice,
+
+5
+00:00:06,930 --> 00:00:08,010
+in real-world engineering projects.
+
+6
+00:00:08,010 --> 00:00:10,810
+And what we've actually discovered is that this opens up a new kind of role.
+
+7
+00:00:10,810 --> 00:00:12,650
+So today, I'd like to share with you what this role is all about.
+
+8
+00:00:12,650 --> 00:00:14,780
+and some of the pitfalls we've encountered in the past.
+
+9
+00:00:14,780 --> 00:00:16,720
+and some of the issues we've run into along the way.
+
+10
+00:00:16,720 --> 00:00:19,590
+And I hope that these insights will be helpful for all of you as well.
+
+11
+00:00:19,590 --> 00:00:21,390
+So, as we know, back in the day, we were all about making prototypes, right?
+
+12
+00:00:21,390 --> 00:00:22,230
+So, when we're making prototypes,
+
+13
+00:00:22,230 --> 00:00:23,460
+But honestly, it's hard to say.
+
+14
+00:00:23,460 --> 00:00:24,840
+We were using prototype mockups,
+
+15
+00:00:24,840 --> 00:00:27,620
+and then generate an HTML file for the design.
+
+16
+00:00:27,620 --> 00:00:28,820
+Then the product manager creates a prototype.
+
+17
+00:00:28,820 --> 00:00:30,020
+before finally handing it off to the front-end.
+
+18
+00:00:30,020 --> 00:00:31,340
+So, this is the process we follow.
+
+19
+00:00:31,340 --> 00:00:34,620
+So now, since every part of the process has been accelerated by AI...
+
+20
+00:00:34,620 --> 00:00:36,380
+So, we've had this one practice that we've been working on.
+
+21
+00:00:36,380 --> 00:00:38,980
+So, what we did was, we took that Stitch, you know, Google's Stitch,
+
+22
+00:00:38,980 --> 00:00:40,020
+we build it into an HTML prototype.
+
+23
+00:00:40,020 --> 00:00:40,880
+into a prototype.
+
+24
+00:00:40,880 --> 00:00:43,380
+So, when we, uh, actually run it in our project...
+
+25
+00:00:43,380 --> 00:00:45,580
+so we'd convert this HTML into a React framework.
+
+26
+00:00:45,580 --> 00:00:46,640
+and then connect it to the backend.
+
+27
+00:00:46,640 --> 00:00:47,700
+And during this process,
+
+28
+00:00:47,700 --> 00:00:50,800
+We found that when you try to convert this prototype from HTML to React,
+
+29
+00:00:50,800 --> 00:00:52,700
+And this process, it was incredibly difficult.
+
+30
+00:00:52,700 --> 00:00:54,720
+Because, at its core, React is an engineering framework.
+
+31
+00:00:54,720 --> 00:00:56,100
+a project with a structured framework.
+
+32
+00:00:56,100 --> 00:00:58,300
+HTML, on the other hand, is just a way of presenting things.
+
+33
+00:00:58,300 --> 00:01:00,200
+So, when you try to convert from HTML to React,
+
+34
+00:01:00,200 --> 00:01:03,340
+This is something we've learned from a lot of hands-on experience working with our clients.
+
+35
+00:01:03,340 --> 00:01:04,780
+And what we found was that during this conversion process...
+
+36
+00:01:04,780 --> 00:01:06,340
+it would require a massive amount of refactoring.
+
+37
+00:01:06,340 --> 00:01:07,680
+or when there are inconsistencies.
+
+38
+00:01:07,680 --> 00:01:09,180
+So, when we were actually trying to put this into practice,
+
+39
+00:01:09,180 --> 00:01:09,860
+it actually failed.
+
+40
+00:01:09,860 --> 00:01:12,890
+We were starting from, uh, a stitched-together HTML prototype.
+
+41
+00:01:12,890 --> 00:01:14,530
+and then trying to convert it into a React project.
+
+42
+00:01:14,530 --> 00:01:15,250
+And it was a failure, plain and simple.
+
+43
+00:01:15,250 --> 00:01:16,470
+So, when you're using Modao,
+
+44
+00:01:16,470 --> 00:01:19,540
+Or, let's say, when you're trying to convert a Figma design into HTML.
+
+45
+00:01:19,540 --> 00:01:22,390
+And I'm sure you've probably run into similar issues as well.
+
+46
+00:01:22,390 --> 00:01:23,350
+Alright, so for the second point...
+
+47
+00:01:23,350 --> 00:01:25,710
+This was when we were working on a project for a domestic client.
+
+48
+00:01:25,710 --> 00:01:27,890
+Actually, a lot of our clients in China are using Vue, right?
+
+49
+00:01:27,890 --> 00:01:29,890
+So, with Vue, what we wanted to do was...
+
+50
+00:01:29,890 --> 00:01:32,900
+For instance, could we use a framework like LOVEABLE to generate React code?
+
+51
+00:01:32,900 --> 00:01:35,460
+Typically, React is an SPA, right?
+
+52
+00:01:35,460 --> 00:01:38,060
+So, the generation speed for a single-page app is actually incredibly fast.
+
+53
+00:01:38,060 --> 00:01:40,340
+So, what if we try to migrate React directly to Vue?
+
+54
+00:01:40,340 --> 00:01:42,300
+But we found that this process is actually impossible to pull off as well.
+
+55
+00:01:42,300 --> 00:01:44,780
+This is likely because of inconsistencies between the components.
+
+56
+00:01:44,780 --> 00:01:46,920
+And then, what's more, we even took a screenshot of the entire React project,
+
+57
+00:01:46,920 --> 00:01:47,960
+We fed all of that to the model.
+
+58
+00:01:47,960 --> 00:01:50,360
+and have it figure out which parts just won't work.
+
+59
+00:01:50,360 --> 00:01:51,880
+And then have it convert that into Vue for us.
+
+60
+00:01:51,880 --> 00:01:53,020
+But in reality, it can't do that either.
+
+61
+00:01:53,020 --> 00:01:55,460
+And this is likely due to inconsistencies in the engineering architecture.
+
+62
+00:01:55,460 --> 00:01:57,980
+So, here are two real-world case studies we did for our clients.
+
+63
+00:01:57,980 --> 00:01:59,380
+So, back then, to tackle these two problems,
+
+64
+00:01:59,380 --> 00:02:00,600
+And to be honest, it took us a lot of time.
+
+65
+00:02:00,600 --> 00:02:01,820
+So, in the end, what we discovered was...
+
+66
+00:02:01,820 --> 00:02:05,900
+So, given that AI can accelerate all of these processes,
+
+67
+00:02:05,900 --> 00:02:07,340
+And on top of that, their front-end work is already so well done.
+
+68
+00:02:07,340 --> 00:02:10,020
+So, what if we let the front-end developers take it a step further?
+
+69
+00:02:10,020 --> 00:02:12,460
+essentially evolving into a Front-end Product Manager role.
+
+70
+00:02:12,460 --> 00:02:16,940
+So, right from the get-go, they use React to work with the client and gather requirements.
+
+71
+00:02:16,940 --> 00:02:18,020
+to create a prototype.
+
+72
+00:02:18,020 --> 00:02:19,860
+and produce a high-quality prototype.
+
+73
+00:02:19,860 --> 00:02:21,300
+a prototype that's ready for production.
+
+74
+00:02:21,300 --> 00:02:24,049
+And that's because AI is naturally suited for writing code.
+
+75
+00:02:24,049 --> 00:02:25,769
+Plus, they have a deep understanding of the React architecture.
+
+76
+00:02:25,769 --> 00:02:26,329
+So, with that in mind,
+
+77
+00:02:26,329 --> 00:02:29,489
+we can use React right from the very beginning as our prototype.
+
+78
+00:02:29,489 --> 00:02:32,340
+And it's a framework that's ready for production right from the start.
+
+79
+00:02:32,340 --> 00:02:33,910
+and then go over the requirements with the client.
+
+80
+00:02:33,910 --> 00:02:35,750
+And after we put it to the test, the results were fantastic.
+
+81
+00:02:35,750 --> 00:02:38,090
+So, what we do is we use LOVABLE to create an initial version.
+
+82
+00:02:38,090 --> 00:02:40,080
+to generate the React code.
+
+83
+00:02:40,080 --> 00:02:41,480
+So, once this code is generated,
+
+84
+00:02:41,480 --> 00:02:42,940
+And it comes with the corresponding styles.
+
+85
+00:02:42,940 --> 00:02:44,880
+So, for these styles, what we do is we build on top of this foundation.
+
+86
+00:02:44,880 --> 00:02:47,060
+and combine them with some AI coding tools.
+
+87
+00:02:47,060 --> 00:02:48,660
+we can then make some extensions.
+
+88
+00:02:48,660 --> 00:02:49,420
+and iterate on the features.
+
+89
+00:02:49,420 --> 00:02:51,310
+So, our iteration cycle with the user is actually super fast.
+
+90
+00:02:51,310 --> 00:02:52,990
+So, when we were working on this interface...
+
+91
+00:02:52,990 --> 00:02:54,390
+Actually, here's a really interesting thing.
+
+92
+00:02:54,390 --> 00:02:57,030
+So, for the provider of this interface, we actually create two versions.
+
+93
+00:02:57,030 --> 00:02:58,150
+One of them is a MOCK,
+
+94
+00:02:58,150 --> 00:02:58,760
+and the other as the real one.
+
+95
+00:02:58,760 --> 00:03:01,200
+So, when we actually connect to the back-end interface,
+
+96
+00:03:01,200 --> 00:03:02,740
+what we're actually connecting to is the real interface.
+
+97
+00:03:02,740 --> 00:03:04,740
+So, for our front-end product managers,
+
+98
+00:03:04,740 --> 00:03:06,300
+When we're going over the requirements with the client,
+
+99
+00:03:06,300 --> 00:03:07,480
+Actually, what we're using is a mock interface.
+
+100
+00:03:07,480 --> 00:03:10,380
+And we make sure that the mock interfaces and the real interfaces are kept consistent.
+
+101
+00:03:10,380 --> 00:03:13,440
+The only difference is, when we're discussing the data with the business team...
+
+102
+00:03:13,440 --> 00:03:14,560
+when we're discussing the use cases,
+
+103
+00:03:14,560 --> 00:03:15,900
+In reality, we're always using the mock interfaces.
+
+104
+00:03:15,900 --> 00:03:18,580
+and have React write a harness.
+
+105
+00:03:18,580 --> 00:03:20,100
+or a fixed workflow.
+
+106
+00:03:20,100 --> 00:03:21,800
+and make sure he doesn't touch the real API.
+
+107
+00:03:21,800 --> 00:03:23,180
+And that led us to realize something.
+
+108
+00:03:23,180 --> 00:03:26,080
+So, for the second phase of requirements, we also used the same React setup.
+
+109
+00:03:26,080 --> 00:03:27,800
+It's just a different branch, that's all.
+
+110
+00:03:27,800 --> 00:03:30,280
+So, after we made a lot of changes to the features based on this foundation,
+
+111
+00:03:30,280 --> 00:03:32,420
+So, if the page's functionality doesn't affect the API,
+
+112
+00:03:32,420 --> 00:03:34,820
+Then we basically don't have to change anything on the front end.
+
+113
+00:03:34,820 --> 00:03:36,780
+And then, for the mock interface and the real interface,
+
+114
+00:03:36,780 --> 00:03:37,960
+we'll write a skills file.
+
+115
+00:03:37,960 --> 00:03:39,640
+So, what if there are some inconsistencies in this part?
+
+116
+00:03:39,640 --> 00:03:41,680
+So, we'll take out all these inconsistent parts.
+
+117
+00:03:41,680 --> 00:03:42,320
+So, once we've pulled them out,
+
+118
+00:03:42,320 --> 00:03:43,560
+we can then identify which parts are inconsistent.
+
+119
+00:03:43,560 --> 00:03:46,640
+So, for the requirements that involve both the front-end and the back-end,
+
+120
+00:03:46,640 --> 00:03:47,520
+and match them up.
+
+121
+00:03:47,520 --> 00:03:50,740
+So, we'll take these matched items and run some analysis on them.
+
+122
+00:03:50,740 --> 00:03:52,100
+And then, for example, for the default data,
+
+123
+00:03:52,100 --> 00:03:53,140
+And for the default interfaces,
+
+124
+00:03:53,140 --> 00:03:54,380
+And then we just fill in those gaps.
+
+125
+00:03:54,380 --> 00:03:57,069
+And you'll see that for the second phase we're working on with the client,
+
+126
+00:03:57,069 --> 00:03:58,669
+So, once we've ironed out the requirements for phase two,
+
+127
+00:03:58,669 --> 00:04:01,589
+And just like that, it can be seamlessly migrated to our new version.
+
+128
+00:04:01,589 --> 00:04:02,229
+onto the feature branch.
+
+129
+00:04:02,229 --> 00:04:02,749
+So, with this approach,
+
+130
+00:04:02,749 --> 00:04:04,900
+This essentially means we're completely restructuring the entire R&D process.
+
+131
+00:04:04,900 --> 00:04:06,580
+So, that's a fantastic approach.
+
+132
+00:04:06,580 --> 00:04:07,540
+So, we really hope this method...
+
+133
+00:04:07,540 --> 00:04:09,140
+So feel free to give this a try, and follow Lei Ge.
+
+134
+00:04:09,140 --> 00:04:10,540
+and keep up with the practical application of AI engineering.
+

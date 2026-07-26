@@ -1,0 +1,916 @@
+1
+00:00:00,760 --> 00:00:02,560
+Today let's talk about technology selection again
+
+2
+00:00:02,560 --> 00:00:06,060
+which one should be chosen for development, Vue or React
+
+3
+00:00:06,060 --> 00:00:08,760
+Some might say we are now in the AI era
+
+4
+00:00:08,760 --> 00:00:10,890
+Is it still necessary to choose a framework?
+
+5
+00:00:10,890 --> 00:00:12,750
+Actually, it is still necessary.
+
+6
+00:00:12,750 --> 00:00:15,490
+If you lack the technical skills for development
+
+7
+00:00:15,490 --> 00:00:17,540
+It's like walking a tightrope
+
+8
+00:00:17,540 --> 00:00:20,160
+When you fall off the tightrope,
+
+9
+00:00:20,160 --> 00:00:21,700
+if this AI fails
+
+10
+00:00:21,700 --> 00:00:23,120
+when you fall
+
+11
+00:00:23,120 --> 00:00:24,760
+you'll plummet straight down
+
+12
+00:00:24,760 --> 00:00:27,340
+directly, directly confess
+
+13
+00:00:27,340 --> 00:00:28,700
+But if you have technical skills
+
+14
+00:00:28,700 --> 00:00:30,980
+it's like having a safety rope
+
+15
+00:00:30,980 --> 00:00:31,940
+When problems arise
+
+16
+00:00:31,940 --> 00:00:33,420
+you can save yourself
+
+17
+00:00:33,420 --> 00:00:35,790
+come back up, that's it
+
+18
+00:00:35,790 --> 00:00:39,290
+Then let's take a look at how to choose between React and Vue.
+
+19
+00:00:39,290 --> 00:00:42,320
+Recently, I've been recording this Nuxt course
+
+20
+00:00:42,320 --> 00:00:46,350
+It is inherently developed using Vue as a fallback.
+
+21
+00:00:46,350 --> 00:00:48,990
+So how should we choose between Vue and React?
+
+22
+00:00:48,990 --> 00:00:50,690
+especially in the AI era
+
+23
+00:00:50,690 --> 00:00:52,810
+Let's take a look below
+
+24
+00:00:52,810 --> 00:00:55,780
+Globally
+
+25
+00:00:55,780 --> 00:00:58,760
+At this point, you need to consider the global perspective.
+
+26
+00:00:58,760 --> 00:01:00,340
+On a global scale
+
+27
+00:01:00,340 --> 00:01:03,410
+React is definitely far ahead
+
+28
+00:01:03,410 --> 00:01:05,970
+it far surpasses Vue by a significant margin
+
+29
+00:01:05,970 --> 00:01:09,610
+As for why Vue still holds a 17% market share
+
+30
+00:01:09,610 --> 00:01:11,490
+the vast majority is in Southeast Asia
+
+31
+00:01:11,490 --> 00:01:14,900
+especially in our country, where it has reached 55%
+
+32
+00:01:14,900 --> 00:01:16,620
+React accounts for 30%
+
+33
+00:01:17,780 --> 00:01:20,260
+Vue initially stood on the shoulders of Angular
+
+34
+00:01:20,260 --> 00:01:22,890
+I was also a user of Angular.js in the past.
+
+35
+00:01:22,890 --> 00:01:24,530
+It stands on the shoulders of Angular
+
+36
+00:01:24,530 --> 00:01:26,450
+attracted a large number of Angular users
+
+37
+00:01:26,450 --> 00:01:30,670
+Because it has a great feature called progressive.
+
+38
+00:01:30,950 --> 00:01:33,950
+Progressive means it's extremely easy to get started with
+
+39
+00:01:33,950 --> 00:01:35,110
+if you don't know JS
+
+40
+00:01:35,110 --> 00:01:36,590
+You say I don't know the JS language
+
+41
+00:01:36,590 --> 00:01:37,630
+
+
+42
+00:01:37,630 --> 00:01:39,790
+Fill in according to its instructions
+
+43
+00:01:39,790 --> 00:01:42,610
+you can use this rendering framework
+
+44
+00:01:42,610 --> 00:01:44,110
+This is an advantage
+
+45
+00:01:44,110 --> 00:01:45,350
+but it is also a drawback
+
+46
+00:01:45,350 --> 00:01:49,360
+The advantage is that it defines a lot of directives
+
+47
+00:01:49,360 --> 00:01:51,910
+various directives such as v-for and v-show
+
+48
+00:01:51,910 --> 00:01:54,690
+Various directives make it very convenient to use
+
+49
+00:01:54,690 --> 00:01:57,850
+However, these directives also act like a wall that confines you within them
+
+50
+00:01:57,850 --> 00:01:59,410
+It lacks flexibility.
+
+51
+00:01:59,410 --> 00:02:01,930
+React, on the other hand, is the exact opposite
+
+52
+00:02:01,930 --> 00:02:03,590
+It is functional programming
+
+53
+00:02:03,590 --> 00:02:07,280
+inside it we can use the JavaScript you're familiar with
+
+54
+00:02:07,280 --> 00:02:10,380
+Naturally, it cannot be progressive.
+
+55
+00:02:10,380 --> 00:02:14,470
+Therefore, often the advantage is also its disadvantage.
+
+56
+00:02:14,470 --> 00:02:16,870
+Vue's official directives provide many built-in directives
+
+57
+00:02:16,870 --> 00:02:17,910
+if it's not enough for you
+
+58
+00:02:17,910 --> 00:02:19,680
+you also need to create this directive yourself
+
+59
+00:02:19,680 --> 00:02:21,080
+So when using it
+
+60
+00:02:21,080 --> 00:02:24,400
+I personally think React is definitely more suitable for me
+
+61
+00:02:24,400 --> 00:02:29,710
+Because I have been using JS for quite a long time,
+
+62
+00:02:29,710 --> 00:02:31,750
+not exactly proficient
+
+63
+00:02:31,750 --> 00:02:33,700
+but can be considered proficient
+
+64
+00:02:34,140 --> 00:02:36,680
+So React is a bit more flexible.
+
+65
+00:02:36,680 --> 00:02:37,740
+From this perspective
+
+66
+00:02:37,740 --> 00:02:39,340
+For beginners
+
+67
+00:02:39,340 --> 00:02:40,840
+Vue is indeed very appealing
+
+68
+00:02:40,840 --> 00:02:41,940
+Another point is
+
+69
+00:02:41,940 --> 00:02:47,070
+when it comes to the ecosystem, uh
+
+70
+00:02:47,070 --> 00:02:48,170
+In terms of the ecosystem,
+
+71
+00:02:48,170 --> 00:02:51,970
+the ecosystem of React
+
+72
+00:02:51,970 --> 00:02:54,420
+It is entirely community-driven
+
+73
+00:02:54,420 --> 00:02:56,120
+I use some state libraries
+
+74
+00:02:56,120 --> 00:02:57,360
+some this or that, right
+
+75
+00:02:57,360 --> 00:02:58,440
+global state
+
+76
+00:02:58,440 --> 00:03:00,650
+or SSR rendering in Next.js
+
+77
+00:03:00,650 --> 00:03:01,810
+In React
+
+78
+00:03:01,810 --> 00:03:03,970
+We have a wealth of community-driven
+
+79
+00:03:03,970 --> 00:03:05,450
+Everyone is striving to outdo each other
+
+80
+00:03:05,450 --> 00:03:06,830
+such as Redux
+
+81
+00:03:06,830 --> 00:03:08,769
+Zustand, etc.
+
+82
+00:03:08,769 --> 00:03:11,669
+So, this back-and-forth competition fosters a virtuous cycle of progress.
+
+83
+00:03:11,669 --> 00:03:14,169
+the excellent ones will naturally stand out
+
+84
+00:03:14,169 --> 00:03:16,009
+Because this is an open-source ecosystem
+
+85
+00:03:16,009 --> 00:03:17,430
+Right, the evaluation criteria is essentially the users
+
+86
+00:03:17,430 --> 00:03:20,390
+users prefer
+
+87
+00:03:20,390 --> 00:03:21,350
+I'll give a star to whoever
+
+88
+00:03:21,350 --> 00:03:23,850
+GitHub stars are higher
+
+89
+00:03:23,850 --> 00:03:25,850
+Relatively speaking, it is still fair.
+
+90
+00:03:26,970 --> 00:03:28,690
+As for Vue, Vue's ecosystem
+
+91
+00:03:28,690 --> 00:03:30,210
+Although it also has community-driven aspects
+
+92
+00:03:30,210 --> 00:03:36,260
+but it's primarily the official libraries, or the official ones, you know
+
+93
+00:03:36,260 --> 00:03:37,900
+The advantage of being official is
+
+94
+00:03:37,900 --> 00:03:39,780
+
+
+95
+00:03:39,780 --> 00:03:43,579
+you you open it, as long as it's officially recommended, it's generally quite good
+
+96
+00:03:43,579 --> 00:03:46,739
+but it loses the charm of that competitive back-and-forth
+
+97
+00:03:46,739 --> 00:03:49,270
+It's like when you go to school with a pencil case
+
+98
+00:03:49,270 --> 00:03:51,650
+React has pens, pencils, and ballpoint pens
+
+99
+00:03:51,650 --> 00:03:53,510
+Vue only has one pencil
+
+100
+00:03:53,510 --> 00:03:55,400
+Just use it as it is.
+
+101
+00:03:55,400 --> 00:03:57,160
+when choosing react
+
+102
+00:03:57,160 --> 00:03:59,630
+you'll face decision paralysis
+
+103
+00:03:59,630 --> 00:04:01,190
+Which one should I choose, right?
+
+104
+00:04:01,190 --> 00:04:02,510
+vue is very straightforward
+
+105
+00:04:02,510 --> 00:04:03,990
+I'll just use Pinia.
+
+106
+00:04:03,990 --> 00:04:05,670
+So from this perspective,
+
+107
+00:04:05,670 --> 00:04:12,940
+React's ecosystem will bring you great prosperity, whether it's state management
+
+108
+00:04:13,980 --> 00:04:15,000
+form handling
+
+109
+00:04:15,000 --> 00:04:17,149
+including component libraries, the same applies
+
+110
+00:04:17,389 --> 00:04:18,548
+As we just mentioned
+
+111
+00:04:18,548 --> 00:04:20,189
+between Vue and React
+
+112
+00:04:20,189 --> 00:04:21,069
+worldwide
+
+113
+00:04:21,069 --> 00:04:22,389
+React is far ahead
+
+114
+00:04:22,389 --> 00:04:25,539
+In the AI era, this point becomes even more prominent.
+
+115
+00:04:25,539 --> 00:04:27,639
+Many excellent AI products
+
+116
+00:04:27,639 --> 00:04:28,899
+It supports React
+
+117
+00:04:28,899 --> 00:04:29,979
+but does not support Vue
+
+118
+00:04:29,979 --> 00:04:31,940
+For example
+
+119
+00:04:31,940 --> 00:04:35,040
+Pixel, our drawing tool, right
+
+120
+00:04:35,040 --> 00:04:37,220
+product design, prototyping
+
+121
+00:04:37,220 --> 00:04:39,380
+including Figma, right
+
+122
+00:04:39,580 --> 00:04:42,340
+They only use React when working with it
+
+123
+00:04:42,340 --> 00:04:46,100
+After generation, it will completely generate a set of components based on this UI library
+
+124
+00:04:46,100 --> 00:04:48,550
+
+
+125
+00:04:48,910 --> 00:04:49,870
+This is great
+
+126
+00:04:49,870 --> 00:04:52,390
+But unfortunately there is no Vue
+
+127
+00:04:52,390 --> 00:04:53,070
+This is one point
+
+128
+00:04:53,070 --> 00:04:54,590
+And regarding the rendering mechanism
+
+129
+00:04:54,590 --> 00:04:58,660
+Actually, I don't think this aspect is really worth discussing.
+
+130
+00:04:58,660 --> 00:05:01,380
+There are slight differences in this rendering mechanism.
+
+131
+00:05:01,380 --> 00:05:03,640
+For example, React uses Fiber
+
+132
+00:05:03,640 --> 00:05:05,120
+the DIFF algorithm for operations
+
+133
+00:05:05,120 --> 00:05:06,640
+Regarding this principle course
+
+134
+00:05:06,640 --> 00:05:08,669
+I recorded a tutorial on the principles of React
+
+135
+00:05:08,669 --> 00:05:10,549
+If you'd like to learn more details,
+
+136
+00:05:10,549 --> 00:05:11,309
+You can check out the course I recorded on the principles
+
+137
+00:05:11,309 --> 00:05:12,780
+I recorded that lesson
+
+138
+00:05:12,780 --> 00:05:14,660
+But in the AI era
+
+139
+00:05:14,660 --> 00:05:18,060
+Actually, there's no need to dwell on this too much.
+
+140
+00:05:18,060 --> 00:05:19,660
+As for its underlying reactivity principle
+
+141
+00:05:19,660 --> 00:05:21,220
+there's actually no need to dwell on it anymore
+
+142
+00:05:21,220 --> 00:05:24,430
+Because, in the past when you encountered problems
+
+143
+00:05:24,430 --> 00:05:25,550
+you need to understand the reactivity principle
+
+144
+00:05:25,550 --> 00:05:26,590
+You can solve this problem
+
+145
+00:05:26,590 --> 00:05:30,690
+Because in the past, it was your brain that drove the project forward
+
+146
+00:05:30,690 --> 00:05:33,370
+But at this moment, the ecosystem has already changed
+
+147
+00:05:33,370 --> 00:05:35,410
+We have countless super brains
+
+148
+00:05:35,410 --> 00:05:37,860
+That's the AI model, right?
+
+149
+00:05:37,860 --> 00:05:39,100
+You can use Minimax
+
+150
+00:05:39,100 --> 00:05:42,360
+You can use, uh, MiniMax.
+
+151
+00:05:42,360 --> 00:05:46,700
+You can use various large models to assist with your code.
+
+152
+00:05:46,700 --> 00:05:49,930
+So actually, as a developer now, I personally feel that
+
+153
+00:05:49,930 --> 00:05:51,950
+understand the implementation principles of this framework
+
+154
+00:05:51,950 --> 00:05:53,510
+I don't think it's that necessary anymore
+
+155
+00:05:53,510 --> 00:05:54,770
+The times have changed
+
+156
+00:05:54,770 --> 00:05:55,830
+no need
+
+157
+00:05:55,830 --> 00:05:56,710
+Another point is
+
+158
+00:05:56,710 --> 00:05:57,450
+driving Vue's dominance in our domestic market
+
+159
+00:05:57,450 --> 00:06:00,170
+
+
+160
+00:06:00,170 --> 00:06:04,220
+we have another development environment ecosystem that differs from other regions
+
+161
+00:06:04,220 --> 00:06:07,200
+it's the ecosystem of mini-programs
+
+162
+00:06:07,200 --> 00:06:12,390
+As for the mini-program ecosystem, this Uni-APP ecosystem, Vue has contributed significantly to it
+
+163
+00:06:12,390 --> 00:06:14,710
+They have made significant contributions to Vue.
+
+164
+00:06:14,710 --> 00:06:17,500
+Of course, Vue also reciprocally contributed to it.
+
+165
+00:06:17,500 --> 00:06:19,500
+What about the mini-program ecosystem?
+
+166
+00:06:19,500 --> 00:06:22,260
+Well, I think it might be Uni APP
+
+167
+00:06:22,260 --> 00:06:24,040
+thought Vue was more widely used in China at the time
+
+168
+00:06:24,040 --> 00:06:26,160
+so it rendered using Vue
+
+169
+00:06:26,160 --> 00:06:27,300
+If React had been more popular at that time
+
+170
+00:06:27,300 --> 00:06:29,860
+he might have used React
+
+171
+00:06:29,860 --> 00:06:30,740
+Anyway
+
+172
+00:06:30,740 --> 00:06:33,460
+It could also be that the development team of UniAPP itself is more familiar with Vue
+
+173
+00:06:33,460 --> 00:06:34,940
+they are more familiar with Vue
+
+174
+00:06:34,940 --> 00:06:36,180
+so he used Vue
+
+175
+00:06:36,180 --> 00:06:37,240
+Anyway
+
+176
+00:06:37,240 --> 00:06:41,210
+Currently, many small and medium-sized companies, as well as outsourcing firms,
+
+177
+00:06:41,210 --> 00:06:44,760
+Using UniAPP indeed can accelerate the development speed across multiple platforms.
+
+178
+00:06:44,760 --> 00:06:46,940
+So, it's no coincidence that everyone
+
+179
+00:06:46,940 --> 00:06:50,520
+That's also why they ended up using Vue.
+
+180
+00:06:50,840 --> 00:06:53,100
+Yes, in summary,
+
+181
+00:06:53,100 --> 00:06:59,180
+If your JavaScript is decent,
+
+182
+00:06:59,180 --> 00:07:00,980
+I would recommend in the AI era
+
+183
+00:07:00,980 --> 00:07:02,200
+you can use react
+
+184
+00:07:02,200 --> 00:07:05,250
+And React itself has
+
+185
+00:07:05,250 --> 00:07:06,470
+great ecosystem
+
+186
+00:07:06,470 --> 00:07:10,710
+the tools you need are all excellent
+
+187
+00:07:10,710 --> 00:07:12,560
+very excellent
+
+188
+00:07:13,000 --> 00:07:15,160
+but requires some JavaScript programming skills
+
+189
+00:07:15,160 --> 00:07:16,940
+It is relatively more flexible.
+
+190
+00:07:16,940 --> 00:07:19,780
+So, everyone may write code in different ways.
+
+191
+00:07:19,780 --> 00:07:21,060
+so when you're organizing your code
+
+192
+00:07:21,060 --> 00:07:26,140
+In terms of structure, it should still be standardized from the very beginning.
+
+193
+00:07:26,140 --> 00:07:27,860
+Ah, and when you're writing for the H5 side,
+
+194
+00:07:27,860 --> 00:07:28,800
+desktop version
+
+195
+00:07:28,800 --> 00:07:30,390
+mobile apps
+
+196
+00:07:30,390 --> 00:07:35,380
+I think this series is very strong.
+
+197
+00:07:35,620 --> 00:07:37,540
+but if you need to develop mini-programs
+
+198
+00:07:38,540 --> 00:07:40,940
+If you are a small company,
+
+199
+00:07:40,940 --> 00:07:43,980
+If you really need to develop a mini-program
+
+200
+00:07:43,980 --> 00:07:45,420
+you can learn Vue
+
+201
+00:07:45,420 --> 00:07:48,010
+Because Vue itself is quite simple.
+
+202
+00:07:48,010 --> 00:07:49,470
+some directives and the like
+
+203
+00:07:49,470 --> 00:07:51,190
+then you use Vue
+
+204
+00:07:51,190 --> 00:07:53,940
+I think so, I think so
+
+205
+00:07:53,940 --> 00:07:57,120
+Recently, I have indeed been using Vue for a long time.
+
+206
+00:07:57,120 --> 00:08:00,320
+I use both Vue and React
+
+207
+00:08:00,320 --> 00:08:03,060
+This is also a point of confusion for me personally.
+
+208
+00:08:03,060 --> 00:08:05,980
+I personally prefer to use React.
+
+209
+00:08:05,980 --> 00:08:08,900
+but Vue users are more prevalent in China
+
+210
+00:08:08,900 --> 00:08:10,340
+so when you want to share the video
+
+211
+00:08:10,340 --> 00:08:13,549
+the view count for React is indeed lower than that for Vue
+
+212
+00:08:13,549 --> 00:08:16,159
+Personally, I still prefer to use React.
+
+213
+00:08:16,159 --> 00:08:19,399
+So, from the perspective of self-media
+
+214
+00:08:19,399 --> 00:08:20,799
+should go with Vue
+
+215
+00:08:20,799 --> 00:08:23,230
+but from my personal preference
+
+216
+00:08:23,230 --> 00:08:24,430
+I should use React
+
+217
+00:08:24,430 --> 00:08:27,870
+So this is indeed a bit of a contradiction
+
+218
+00:08:27,870 --> 00:08:31,200
+The world is always imperfect, uh
+
+219
+00:08:31,200 --> 00:08:32,799
+but if you are developing a product
+
+220
+00:08:32,799 --> 00:08:33,960
+developing apps
+
+221
+00:08:33,960 --> 00:08:36,520
+I still recommend you use React
+
+222
+00:08:36,760 --> 00:08:39,159
+At least in the current AI era,
+
+223
+00:08:39,159 --> 00:08:41,080
+react.AI gives you the answer
+
+224
+00:08:41,080 --> 00:08:43,840
+Relatively speaking, theoretically
+
+225
+00:08:43,840 --> 00:08:46,620
+should be more accurate
+
+226
+00:08:46,620 --> 00:08:48,619
+Okay
+
+227
+00:08:48,619 --> 00:08:50,619
+Well, that's all for this video.
+
+228
+00:08:50,619 --> 00:08:51,859
+Everyone has other ideas
+
+229
+00:08:51,859 --> 00:08:53,420
+You can discuss it in the comment section
+

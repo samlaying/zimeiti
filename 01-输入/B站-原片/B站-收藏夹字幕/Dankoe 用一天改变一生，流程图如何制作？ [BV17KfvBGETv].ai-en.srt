@@ -1,0 +1,540 @@
+1
+00:00:00,000 --> 00:00:02,680
+Today we'll use the content from the expert DK
+
+2
+00:00:02,680 --> 00:00:04,760
+the One-Day Reset Method and this piece of content
+
+3
+00:00:04,760 --> 00:00:07,020
+surpass 90% of people in 6 months
+
+4
+00:00:07,020 --> 00:00:07,920
+Let me show you
+
+5
+00:00:07,920 --> 00:00:10,020
+How is such a flowchart created?
+
+6
+00:00:10,020 --> 00:00:11,639
+Of course, if you want to do it
+
+7
+00:00:11,639 --> 00:00:13,579
+You can also follow along with me step by step.
+
+8
+00:00:13,579 --> 00:00:16,960
+I think the most crucial thing is to learn how to use AI for creating graphics
+
+9
+00:00:16,960 --> 00:00:18,920
+and some fundamental methods for content creation
+
+10
+00:00:18,920 --> 00:00:20,820
+I come from a purely liberal arts background
+
+11
+00:00:20,820 --> 00:00:23,130
+and had never done anything related to art before
+
+12
+00:00:23,130 --> 00:00:23,730
+design and such
+
+13
+00:00:23,730 --> 00:00:26,140
+but I think this picture is quite well done
+
+14
+00:00:26,140 --> 00:00:28,980
+And the data in the chart I created is actually pretty good.
+
+15
+00:00:28,980 --> 00:00:30,560
+I can share with everyone
+
+16
+00:00:30,560 --> 00:00:31,960
+We have two cases
+
+17
+00:00:31,960 --> 00:00:34,160
+One is about surpassing 90% of people in six months.
+
+18
+00:00:34,160 --> 00:00:35,860
+The other one is the one-day reset method
+
+19
+00:00:35,860 --> 00:00:38,200
+This is my first time using the 'One-Day Reset Method'. Let me show you the 'One-Day Reset Method' first.
+
+20
+00:00:38,200 --> 00:00:41,760
+Because this is the first time I've used this multi-text mode
+
+21
+00:00:41,760 --> 00:00:42,800
+with AI
+
+22
+00:00:42,800 --> 00:00:45,140
+I just want to see if it can understand what I'm saying.
+
+23
+00:00:45,140 --> 00:00:46,120
+Okay, let me show you
+
+24
+00:00:46,120 --> 00:00:48,760
+On the right, this part you see is my prompt
+
+25
+00:00:48,760 --> 00:00:52,080
+I said, based on the content of DK's one-day reboot method
+
+26
+00:00:52,080 --> 00:00:53,360
+Create an infographic for me
+
+27
+00:00:53,360 --> 00:00:54,850
+Keep the characters unchanged
+
+28
+00:00:54,850 --> 00:00:56,210
+only
+
+29
+00:00:56,210 --> 00:00:58,050
+Actually, it's me
+
+30
+00:00:58,050 --> 00:00:59,670
+Here I go, haha you believe me? Here, let me show you
+
+31
+00:00:59,670 --> 00:01:01,140
+What you are seeing now is this content
+
+32
+00:01:01,140 --> 00:01:02,920
+The key content is divided into three stages
+
+33
+00:01:02,920 --> 00:01:05,200
+Write down the anti-patterns in the morning
+
+34
+00:01:05,200 --> 00:01:06,820
+write down the minimum credibility
+
+35
+00:01:06,820 --> 00:01:08,420
+What am I avoiding during the day
+
+36
+00:01:08,420 --> 00:01:09,490
+What was I doing at night
+
+37
+00:01:09,490 --> 00:01:11,130
+This is his day
+
+38
+00:01:11,130 --> 00:01:14,090
+How to change your life, an important content
+
+39
+00:01:14,090 --> 00:01:15,450
+Here is the annual goal
+
+40
+00:01:15,450 --> 00:01:16,290
+a one-month project
+
+41
+00:01:16,290 --> 00:01:18,150
+daily and game rules
+
+42
+00:01:18,150 --> 00:01:21,390
+Actually, this is the content of his long podcast that we saw
+
+43
+00:01:21,390 --> 00:01:23,210
+the core issues presented
+
+44
+00:01:23,210 --> 00:01:24,170
+Now with AI
+
+45
+00:01:24,170 --> 00:01:26,450
+We directly feed its content to the AI
+
+46
+00:01:26,450 --> 00:01:27,760
+Hey, can you tell me
+
+47
+00:01:27,760 --> 00:01:29,740
+What is DK's recent content all about?
+
+48
+00:01:29,740 --> 00:01:32,740
+This is the content that the AI deduced and fed back to me.
+
+49
+00:01:32,740 --> 00:01:36,130
+Okay, I'll send all this content—it's not called prompts
+
+50
+00:01:36,130 --> 00:01:37,530
+This is called key content
+
+51
+00:01:37,530 --> 00:01:38,490
+I sent it to him
+
+52
+00:01:38,490 --> 00:01:39,730
+It actually understands
+
+53
+00:01:39,730 --> 00:01:41,120
+It's about current AI-generated graphics
+
+54
+00:01:41,120 --> 00:01:43,120
+It's not that you think, if such a diagram
+
+55
+00:01:43,120 --> 00:01:44,400
+I need to tell him about the One-Day Reset Method
+
+56
+00:01:44,400 --> 00:01:45,520
+Just think about how complicated it is
+
+57
+00:01:45,520 --> 00:01:47,560
+First, I definitely need to visualize in my mind
+
+58
+00:01:47,560 --> 00:01:48,760
+What does this diagram look like
+
+59
+00:01:48,760 --> 00:01:49,640
+what it looks like on the top
+
+60
+00:01:49,640 --> 00:01:52,020
+left, right, bottom, and various color combinations
+
+61
+00:01:52,020 --> 00:01:54,390
+How should this character appear, right?
+
+62
+00:01:54,390 --> 00:01:56,270
+This is extremely complicated for me.
+
+63
+00:01:56,270 --> 00:01:58,610
+For us design novices
+
+64
+00:01:58,610 --> 00:02:00,430
+I think this thing is very complicated
+
+65
+00:02:00,430 --> 00:02:02,330
+So I just sent it to him directly like this
+
+66
+00:02:02,330 --> 00:02:04,450
+But unexpectedly, the outcome turned out to be quite good.
+
+67
+00:02:04,450 --> 00:02:06,830
+You can see, this is the feedback it gave me
+
+68
+00:02:06,830 --> 00:02:09,610
+is to create a 3:4 infographic for me
+
+69
+00:02:09,610 --> 00:02:11,600
+based on the content of DK's one-fill technique
+
+70
+00:02:11,600 --> 00:02:13,700
+Keep the character IP I provided unchanged
+
+71
+00:02:13,700 --> 00:02:15,080
+Of course, the character IP here
+
+72
+00:02:15,080 --> 00:02:17,940
+It's my own character IP.
+
+73
+00:02:17,940 --> 00:02:19,360
+Alright, keep going and take a look below
+
+74
+00:02:19,360 --> 00:02:22,010
+This is the content it generated for me. Isn't it great?
+
+75
+00:02:22,010 --> 00:02:23,770
+And the speed is incredibly fast.
+
+76
+00:02:23,770 --> 00:02:25,430
+at an extremely fast speed
+
+77
+00:02:25,430 --> 00:02:27,990
+generated different templates in various colors for me
+
+78
+00:02:27,990 --> 00:02:29,430
+So let me show you
+
+79
+00:02:29,430 --> 00:02:31,290
+another flowchart I gave it
+
+80
+00:02:31,290 --> 00:02:32,520
+It goes like this
+
+81
+00:02:32,520 --> 00:02:34,400
+You can take a look at the right side of Me
+
+82
+00:02:34,400 --> 00:02:36,460
+This part, the content it generated for me
+
+83
+00:02:36,460 --> 00:02:38,760
+How to surpass 90% of people in 6 months
+
+84
+00:02:38,760 --> 00:02:41,480
+Didn't I just explain to him what that content was about?
+
+85
+00:02:41,480 --> 00:02:43,320
+It's about the content of reshaping your life in one day.
+
+86
+00:02:43,320 --> 00:02:45,100
+But I don't want to tell him now
+
+87
+00:02:45,100 --> 00:02:46,540
+What is this core content about
+
+88
+00:02:46,540 --> 00:02:49,030
+I directly say how to surpass 90% of people in six months
+
+89
+00:02:49,030 --> 00:02:50,110
+surpass 90% of people
+
+90
+00:02:50,110 --> 00:02:53,480
+The content within these quotation marks is what I communicated to the AI.
+
+91
+00:02:53,480 --> 00:02:56,580
+Now that AI integrates both text
+
+92
+00:02:56,580 --> 00:02:58,360
+combined with an image-based model like this
+
+93
+00:02:58,360 --> 00:02:59,780
+Of course, it can also generate videos
+
+94
+00:02:59,780 --> 00:03:00,660
+so I felt that
+
+95
+00:03:00,660 --> 00:03:04,820
+I gave DK, such an important freelancer,
+
+96
+00:03:04,820 --> 00:03:06,300
+a super individual
+
+97
+00:03:06,300 --> 00:03:08,560
+when such an important piece of content was sent to him
+
+98
+00:03:08,560 --> 00:03:10,030
+He should also know, right?
+
+99
+00:03:10,030 --> 00:03:10,910
+As expected
+
+100
+00:03:10,910 --> 00:03:12,710
+He actually knew it
+
+101
+00:03:12,710 --> 00:03:13,810
+Well, he told me
+
+102
+00:03:13,810 --> 00:03:15,690
+Understand the character's image and style
+
+103
+00:03:15,690 --> 00:03:18,940
+He generated a DK-style design for me
+
+104
+00:03:18,940 --> 00:03:19,940
+Keep the character unchanged
+
+105
+00:03:19,940 --> 00:03:23,140
+Surpass 90% of people in 6 months, in addition to this content
+
+106
+00:03:23,140 --> 00:03:26,170
+The same text is completely error-free
+
+107
+00:03:26,170 --> 00:03:27,630
+and it's incredibly fast
+
+108
+00:03:27,630 --> 00:03:28,560
+Right, okay
+
+109
+00:03:28,560 --> 00:03:30,960
+So when it has already provided me with this content
+
+110
+00:03:30,960 --> 00:03:34,770
+Actually, what I want are the four visions of 1234
+
+111
+00:03:34,770 --> 00:03:38,270
+Can you explain it to me more clearly, right?
+
+112
+00:03:38,270 --> 00:03:41,090
+So I asked it to break it down for me
+
+113
+00:03:41,090 --> 00:03:43,990
+four different aspects numbered one to four
+
+114
+00:03:43,990 --> 00:03:45,570
+How should it be done
+
+115
+00:03:45,570 --> 00:03:47,430
+For example, let's look at the first one
+
+116
+00:03:47,430 --> 00:03:49,410
+Establish clear and positive goals
+
+117
+00:03:49,410 --> 00:03:51,330
+with reverse leap and ideal vision
+
+118
+00:03:51,330 --> 00:03:53,850
+This diagram is essentially zoomed in
+
+119
+00:03:53,850 --> 00:03:55,910
+added this part of the content
+
+120
+00:03:55,910 --> 00:03:58,350
+Doesn't it look very complete overall?
+
+121
+00:03:58,350 --> 00:03:59,290
+very complete
+
+122
+00:03:59,290 --> 00:04:01,660
+Then let's take a look at the reverse engineering of the goal
+
+123
+00:04:01,660 --> 00:04:03,560
+is in the second direction
+
+124
+00:04:03,560 --> 00:04:05,769
+Then he deconstructed this content
+
+125
+00:04:05,769 --> 00:04:08,149
+has also become more detailed and clear
+
+126
+00:04:08,149 --> 00:04:11,640
+So, if everyone wants to do that kind of more complex
+
+127
+00:04:11,640 --> 00:04:14,000
+When you hear important content in someone else's podcast
+
+128
+00:04:14,000 --> 00:04:15,760
+You think this content is very important
+
+129
+00:04:15,760 --> 00:04:17,360
+but are afraid of forgetting
+
+130
+00:04:17,360 --> 00:04:21,279
+we can use such AI-generated images to represent it, which we call an infographic
+
+131
+00:04:21,279 --> 00:04:23,219
+I think it's quite convenient.
+
+132
+00:04:23,219 --> 00:04:26,299
+I hope today's content is helpful to you.
+
+133
+00:04:26,299 --> 00:04:28,899
+If you find it helpful, remember to leave a comment in my comment section.
+
+134
+00:04:28,899 --> 00:04:30,559
+So if you'd like to see more content
+
+135
+00:04:30,559 --> 00:04:33,100
+you are also welcome to share more with me
+

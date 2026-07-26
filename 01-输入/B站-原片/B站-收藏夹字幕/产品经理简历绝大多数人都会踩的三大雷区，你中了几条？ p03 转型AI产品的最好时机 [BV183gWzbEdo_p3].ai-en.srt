@@ -1,0 +1,1696 @@
+1
+00:00:00,040 --> 00:00:02,180
+Is it too late to transition to an AI product manager now?
+
+2
+00:00:02,180 --> 00:00:03,120
+Not only is it not too late
+
+3
+00:00:03,120 --> 00:00:05,440
+and it's actually the perfect time to enter the field
+
+4
+00:00:05,440 --> 00:00:08,540
+The development of large language models has spurred this wave of AI trends.
+
+5
+00:00:08,540 --> 00:00:10,800
+around the second half of 2022
+
+6
+00:00:10,800 --> 00:00:12,280
+the emergence of GBT
+
+7
+00:00:12,280 --> 00:00:14,380
+and in the years 2023 to 2024
+
+8
+00:00:14,380 --> 00:00:16,100
+Leading manufacturers are burning money
+
+9
+00:00:16,100 --> 00:00:18,100
+to fund foundational large models like these
+
+10
+00:00:18,100 --> 00:00:18,620
+And then
+
+11
+00:00:18,620 --> 00:00:21,940
+During this period, it is essentially a game for leading tech companies.
+
+12
+00:00:21,940 --> 00:00:25,010
+At this point, it is difficult for other companies to get involved.
+
+13
+00:00:25,010 --> 00:00:27,110
+Then starting from the second half of 2023,
+
+14
+00:00:27,110 --> 00:00:28,860
+shortly after the release of the base model
+
+15
+00:00:28,860 --> 00:00:30,700
+some enterprises have leveraged this large model
+
+16
+00:00:30,700 --> 00:00:31,920
+still wanted to develop some applications
+
+17
+00:00:31,920 --> 00:00:34,170
+But at that time, the value proposition was extremely challenging.
+
+18
+00:00:34,170 --> 00:00:34,690
+Why
+
+19
+00:00:34,690 --> 00:00:36,770
+Because everyone simply doesn't know how I can
+
+20
+00:00:36,770 --> 00:00:37,630
+integrate with this large language model
+
+21
+00:00:37,630 --> 00:00:39,710
+implement within the context of my company's scenarios
+
+22
+00:00:39,710 --> 00:00:42,750
+But the most powerful capability of large language models is their generative ability
+
+23
+00:00:42,750 --> 00:00:44,650
+So during this period, some companies
+
+24
+00:00:44,650 --> 00:00:46,840
+Hey, just putting a shell on top of these large models
+
+25
+00:00:46,840 --> 00:00:49,440
+and then develop some simple small tools for sales
+
+26
+00:00:49,440 --> 00:00:52,440
+Of course, some companies are also very pragmatic.
+
+27
+00:00:52,440 --> 00:00:53,400
+combined with large language models
+
+28
+00:00:53,400 --> 00:00:55,120
+implement according to the business scenarios of the enterprise
+
+29
+00:00:55,120 --> 00:00:57,220
+The scenario at this point is quite straightforward
+
+30
+00:00:57,220 --> 00:01:01,540
+companies are recruiting some prompt engineering
+
+31
+00:01:01,540 --> 00:01:03,020
+that is, the PEE engineer
+
+32
+00:01:03,020 --> 00:01:05,289
+Based on this scenario, write some prompts
+
+33
+00:01:05,289 --> 00:01:06,569
+to write prompts
+
+34
+00:01:06,569 --> 00:01:07,769
+However, at this stage,
+
+35
+00:01:07,769 --> 00:01:09,860
+Large models are in a period of explosive growth
+
+36
+00:01:09,860 --> 00:01:12,460
+Major players' large models are constantly innovating and upgrading.
+
+37
+00:01:12,460 --> 00:01:13,380
+continuous upgrades
+
+38
+00:01:13,380 --> 00:01:14,910
+Once the large model is upgraded
+
+39
+00:01:14,910 --> 00:01:19,090
+incorporates all the capabilities you previously developed
+
+40
+00:01:19,090 --> 00:01:21,640
+For example, the prompts you wrote before were exceptionally well-crafted
+
+41
+00:01:21,640 --> 00:01:23,240
+Then after the large model iterates
+
+42
+00:01:23,240 --> 00:01:25,060
+maybe just a very simple sentence
+
+43
+00:01:25,060 --> 00:01:27,840
+can solve your previously complex problems
+
+44
+00:01:27,840 --> 00:01:30,050
+So when you're considering certain scenarios,
+
+45
+00:01:30,050 --> 00:01:32,470
+You will encounter very intense value challenges
+
+46
+00:01:32,470 --> 00:01:33,910
+Should I do it?
+
+47
+00:01:33,910 --> 00:01:36,349
+Should we invest heavily in it?
+
+48
+00:01:36,349 --> 00:01:39,169
+Everyone is in a period of wait-and-see right now
+
+49
+00:01:39,169 --> 00:01:41,140
+all are hoping for the ecosystem of large models
+
+50
+00:01:41,140 --> 00:01:42,620
+when it becomes more mature
+
+51
+00:01:42,620 --> 00:01:43,240
+to implement
+
+52
+00:01:43,240 --> 00:01:44,820
+Then by the second half of 2024,
+
+53
+00:01:44,820 --> 00:01:47,080
+the capabilities of large models are gradually maturing
+
+54
+00:01:47,080 --> 00:01:48,380
+Major manufacturers have discovered
+
+55
+00:01:48,380 --> 00:01:49,780
+competing in foundational large models
+
+56
+00:01:49,780 --> 00:01:51,340
+the gap between them is no longer that significant
+
+57
+00:01:51,340 --> 00:01:52,820
+Simply burning money is useless.
+
+58
+00:01:52,820 --> 00:01:54,300
+Enterprises gradually realize
+
+59
+00:01:54,300 --> 00:01:56,960
+Since pure foundation models are of limited value
+
+60
+00:01:56,960 --> 00:02:00,730
+they began advocating for the implementation of such specific business scenarios
+
+61
+00:02:00,730 --> 00:02:02,730
+So companies have started to attempt
+
+62
+00:02:02,730 --> 00:02:04,820
+these product and engineering approaches
+
+63
+00:02:04,820 --> 00:02:07,900
+packaging these large language models into products
+
+64
+00:02:07,900 --> 00:02:10,080
+to solve real business problems
+
+65
+00:02:10,080 --> 00:02:11,930
+and also create real value
+
+66
+00:02:11,930 --> 00:02:14,930
+The most famous example here is the product form known as agents.
+
+67
+00:02:14,930 --> 00:02:17,110
+So I’d like to share the above development process with you
+
+68
+00:02:17,110 --> 00:02:19,940
+is to let you see the current stage of building models
+
+69
+00:02:19,940 --> 00:02:22,200
+The characteristics of this stage and the timing for your entry
+
+70
+00:02:22,200 --> 00:02:24,140
+So what are the characteristics of this current phase?
+
+71
+00:02:24,140 --> 00:02:27,260
+The foundational path of large language models has begun to mature
+
+72
+00:02:27,260 --> 00:02:28,820
+At least partially mature
+
+73
+00:02:28,820 --> 00:02:30,810
+It's not like before, you know
+
+74
+00:02:30,810 --> 00:02:33,930
+Today, a world-disrupting model has emerged.
+
+75
+00:02:33,930 --> 00:02:35,850
+tomorrow then comes multimodal interaction
+
+76
+00:02:35,850 --> 00:02:38,290
+the day after tomorrow, real-time interaction is added, right?
+
+77
+00:02:38,290 --> 00:02:39,630
+the day after tomorrow deep reasoning was added
+
+78
+00:02:39,630 --> 00:02:41,710
+It's not such a stage anymore
+
+79
+00:02:41,710 --> 00:02:45,180
+you'll notice that all this video content has transformed into
+
+80
+00:02:45,180 --> 00:02:47,540
+how can I make this large model more obedient
+
+81
+00:02:47,540 --> 00:02:49,490
+In-depth thinking with ultra-long context, right
+
+82
+00:02:49,490 --> 00:02:51,450
+Now everyone has reached
+
+83
+00:02:51,450 --> 00:02:52,950
+the same technical path
+
+84
+00:02:52,950 --> 00:02:54,800
+start iterating on this product
+
+85
+00:02:54,800 --> 00:02:56,880
+For those of us in the application layer
+
+86
+00:02:56,880 --> 00:02:59,960
+Everyone can truly build upon a relatively mature ecosystem
+
+87
+00:02:59,960 --> 00:03:01,880
+to focus on product implementation planning
+
+88
+00:03:01,880 --> 00:03:04,480
+no longer worry about all efforts being overshadowed by the model
+
+89
+00:03:04,480 --> 00:03:07,280
+Companies can now recruit without hesitation.
+
+90
+00:03:07,280 --> 00:03:08,140
+to invest
+
+91
+00:03:08,140 --> 00:03:09,140
+So you'll see
+
+92
+00:03:09,140 --> 00:03:11,900
+This year, many companies are recruiting a large number of talents.
+
+93
+00:03:11,900 --> 00:03:14,920
+It can be understood that this year marks the first year of the explosion in AI product positions.
+
+94
+00:03:14,920 --> 00:03:18,440
+The second point is that the cost of large models has significantly decreased
+
+95
+00:03:18,440 --> 00:03:20,170
+From the original monthly subscription
+
+96
+00:03:20,170 --> 00:03:22,670
+from a few hundred dollars to just a few dollars per million tokens, right
+
+97
+00:03:22,670 --> 00:03:24,530
+now everyone can afford it
+
+98
+00:03:24,530 --> 00:03:25,850
+It's actually cheaper
+
+99
+00:03:25,850 --> 00:03:28,980
+Then companies are willing to research large models to plan and design products.
+
+100
+00:03:28,980 --> 00:03:31,060
+Now there are already many
+
+101
+00:03:31,060 --> 00:03:33,020
+driven by user and market demands
+
+102
+00:03:33,020 --> 00:03:34,900
+real products that have been iterated
+
+103
+00:03:34,900 --> 00:03:37,200
+Moreover, its value has been fully validated.
+
+104
+00:03:37,200 --> 00:03:39,590
+For example, AI programming
+
+105
+00:03:39,590 --> 00:03:41,070
+Now there should be no programmers
+
+106
+00:03:41,070 --> 00:03:42,680
+haven't used this AI programming tool yet, right?
+
+107
+00:03:42,680 --> 00:03:44,080
+if you've ever used it
+
+108
+00:03:44,080 --> 00:03:45,480
+You'll find that with just one sentence
+
+109
+00:03:45,480 --> 00:03:47,440
+can generate a code framework
+
+110
+00:03:47,440 --> 00:03:49,490
+It can also continue the dialogue
+
+111
+00:03:49,490 --> 00:03:52,670
+Then, it automatically develops each page for you.
+
+112
+00:03:52,670 --> 00:03:55,699
+The efficiency is much higher than when programmers manually wrote the code
+
+113
+00:03:55,699 --> 00:03:56,579
+dozens of times faster
+
+114
+00:03:56,579 --> 00:04:00,119
+Another example might be something that hasn't received much attention from everyone
+
+115
+00:04:00,119 --> 00:04:02,300
+For example, there are some marketing-oriented mixed companies
+
+116
+00:04:02,300 --> 00:04:04,260
+They worked hard to write a script
+
+117
+00:04:04,260 --> 00:04:05,400
+and based on this script
+
+118
+00:04:05,400 --> 00:04:06,820
+he wants to produce a large number of videos
+
+119
+00:04:06,820 --> 00:04:08,040
+How do they produce them?
+
+120
+00:04:08,040 --> 00:04:09,280
+I need to base it on this script
+
+121
+00:04:09,280 --> 00:04:12,910
+I use large language models to generate similar content
+
+122
+00:04:12,910 --> 00:04:15,290
+Then utilize these different generated scripts
+
+123
+00:04:15,290 --> 00:04:16,750
+to create the corresponding videos
+
+124
+00:04:16,750 --> 00:04:18,589
+generate the corresponding image
+
+125
+00:04:18,589 --> 00:04:20,769
+a fully automated workflow
+
+126
+00:04:20,769 --> 00:04:22,009
+I believe you have all seen it
+
+127
+00:04:22,009 --> 00:04:23,689
+For example, in Koozie
+
+128
+00:04:23,689 --> 00:04:26,069
+In DeFi, there are actually many such
+
+129
+00:04:26,069 --> 00:04:28,529
+the workflows that everyone has already created
+
+130
+00:04:28,529 --> 00:04:29,750
+What does this indicate
+
+131
+00:04:29,750 --> 00:04:33,250
+This indicates that large-scale AI applications are now feasible.
+
+132
+00:04:33,250 --> 00:04:35,020
+Who is responsible for planning these?
+
+133
+00:04:35,020 --> 00:04:38,220
+The gap for AI product managers is also widening.
+
+134
+00:04:38,220 --> 00:04:39,840
+This is the current situation for all of us
+
+135
+00:04:39,840 --> 00:04:41,920
+If you want to become an AI product manager,
+
+136
+00:04:41,920 --> 00:04:42,960
+is a golden opportunity
+
+137
+00:04:42,960 --> 00:04:44,520
+Is there really a need for it?
+
+138
+00:04:44,520 --> 00:04:45,930
+Let's think about the C-end
+
+139
+00:04:45,930 --> 00:04:47,990
+Have the apps on your phones remained largely the same over the years
+
+140
+00:04:47,990 --> 00:04:50,010
+mainly these few common apps
+
+141
+00:04:50,010 --> 00:04:51,909
+Because all the necessary apps already exist
+
+142
+00:04:51,909 --> 00:04:54,049
+It's very difficult for new apps to emerge.
+
+143
+00:04:54,049 --> 00:04:55,929
+If you as a product manager
+
+144
+00:04:55,929 --> 00:04:57,540
+you're still just drawing prototypes
+
+145
+00:04:57,540 --> 00:04:58,500
+write a PRD
+
+146
+00:04:58,500 --> 00:05:00,240
+then you're not far from being phased out
+
+147
+00:05:00,240 --> 00:05:02,380
+Hey, now new opportunities are coming again
+
+148
+00:05:02,380 --> 00:05:05,700
+The advancement of AI technology has driven the emergence of new products.
+
+149
+00:05:05,700 --> 00:05:07,710
+For example, AI-generated Music
+
+150
+00:05:07,710 --> 00:05:09,830
+Everyone in some short video platforms
+
+151
+00:05:09,830 --> 00:05:10,890
+heard a lot
+
+152
+00:05:10,890 --> 00:05:12,230
+Now they are all AI-generated
+
+153
+00:05:12,230 --> 00:05:14,090
+including some games
+
+154
+00:05:14,090 --> 00:05:15,690
+conversational role-playing games
+
+155
+00:05:15,690 --> 00:05:18,190
+including some dialogues between you and ABC
+
+156
+00:05:18,190 --> 00:05:19,929
+The interaction has also become more user-friendly.
+
+157
+00:05:19,929 --> 00:05:21,609
+These product capabilities are being implemented
+
+158
+00:05:21,609 --> 00:05:23,369
+a large number of AI product managers are needed
+
+159
+00:05:23,369 --> 00:05:25,049
+These traditional software
+
+160
+00:05:25,049 --> 00:05:28,260
+especially these traditional functional ERP products
+
+161
+00:05:28,260 --> 00:05:29,980
+has already been quite well developed
+
+162
+00:05:29,980 --> 00:05:32,500
+because it has already been developed for over a decade
+
+163
+00:05:32,500 --> 00:05:35,160
+This belongs to the era of information technology.
+
+164
+00:05:35,160 --> 00:05:36,780
+What is the current trend?
+
+165
+00:05:36,780 --> 00:05:39,430
+How can enterprises achieve cost reduction and efficiency improvement?
+
+166
+00:05:39,430 --> 00:05:41,230
+For enterprises, it relies on AI
+
+167
+00:05:41,230 --> 00:05:42,130
+Efficiency is everything
+
+168
+00:05:42,130 --> 00:05:43,470
+AI can enhance efficiency.
+
+169
+00:05:43,470 --> 00:05:45,670
+Although there are many scenarios currently being addressed by AI
+
+170
+00:05:45,670 --> 00:05:47,070
+you are not that perfect
+
+171
+00:05:47,070 --> 00:05:49,650
+However, from a developmental perspective
+
+172
+00:05:49,650 --> 00:05:51,050
+have no choice but to do
+
+173
+00:05:51,050 --> 00:05:53,350
+Because as long as we get it done
+
+174
+00:05:53,350 --> 00:05:55,239
+We've validated the MVP
+
+175
+00:05:55,239 --> 00:05:56,779
+the minimum viable version
+
+176
+00:05:56,779 --> 00:05:58,639
+Subsequently, we will continuously iterate.
+
+177
+00:05:58,639 --> 00:06:00,320
+then it will always bring value
+
+178
+00:06:00,320 --> 00:06:03,000
+In such a B2B-oriented product model
+
+179
+00:06:03,000 --> 00:06:04,360
+There are mainly three types, you see.
+
+180
+00:06:04,360 --> 00:06:05,510
+What is the first category?
+
+181
+00:06:05,510 --> 00:06:07,310
+call pilot assistant category
+
+182
+00:06:07,310 --> 00:06:09,790
+The enterprise needs to create some data reports
+
+183
+00:06:09,790 --> 00:06:10,430
+decision support
+
+184
+00:06:10,430 --> 00:06:12,230
+Now, we can leverage this large model
+
+185
+00:06:12,230 --> 00:06:13,659
+to perform conversational analysis
+
+186
+00:06:13,659 --> 00:06:16,560
+Previously, generating a report took several days
+
+187
+00:06:16,560 --> 00:06:18,340
+It can now be shortened to just a few minutes.
+
+188
+00:06:18,340 --> 00:06:20,280
+If the company wants to bid
+
+189
+00:06:20,280 --> 00:06:20,940
+
+
+190
+00:06:20,940 --> 00:06:22,760
+how can we do it faster
+
+191
+00:06:22,760 --> 00:06:25,100
+
+
+192
+00:06:25,100 --> 00:06:28,420
+Ah, by leveraging the RJ of the large model to create this icon assistant
+
+193
+00:06:28,420 --> 00:06:31,350
+these standard icons
+
+194
+00:06:31,350 --> 00:06:32,930
+loaded into this knowledge base
+
+195
+00:06:32,930 --> 00:06:34,310
+
+
+196
+00:06:34,310 --> 00:06:36,950
+can be directly retrieved from the Knowledge
+
+197
+00:06:36,950 --> 00:06:37,830
+as a reference, ahem
+
+198
+00:06:37,830 --> 00:06:38,940
+quickly draft proposals
+
+199
+00:06:38,940 --> 00:06:40,280
+What is the second category?
+
+200
+00:06:40,280 --> 00:06:41,420
+embedding category
+
+201
+00:06:41,420 --> 00:06:42,640
+What is embedding?
+
+202
+00:06:42,640 --> 00:06:44,660
+Ah, we have a business process to execute
+
+203
+00:06:44,660 --> 00:06:46,340
+ABCDE is required
+
+204
+00:06:46,340 --> 00:06:49,510
+We found that process C can be solved by AI.
+
+205
+00:06:49,510 --> 00:06:51,480
+For example, in the scenario of financial reimbursement, right
+
+206
+00:06:51,480 --> 00:06:53,040
+automated verification of invoices
+
+207
+00:06:53,040 --> 00:06:55,660
+Then, by improving efficiency in this particular step
+
+208
+00:06:55,660 --> 00:06:57,100
+Doesn't that improve the efficiency of the entire process?
+
+209
+00:06:57,100 --> 00:06:58,100
+What is the third category?
+
+210
+00:06:58,100 --> 00:06:59,050
+agent class
+
+211
+00:06:59,050 --> 00:07:02,550
+The agent category means it can completely autonomously plan
+
+212
+00:07:02,550 --> 00:07:04,190
+post this position to the company
+
+213
+00:07:04,190 --> 00:07:04,550
+Hey
+
+214
+00:07:04,550 --> 00:07:06,070
+automated mock interview scoring
+
+215
+00:07:06,070 --> 00:07:07,950
+Full automation can achieve it.
+
+216
+00:07:07,950 --> 00:07:09,270
+These scenarios are for enterprises
+
+217
+00:07:09,270 --> 00:07:10,730
+That's the new growth point.
+
+218
+00:07:10,730 --> 00:07:14,320
+However, you'll notice that such scenarios are quite rare around us.
+
+219
+00:07:14,320 --> 00:07:16,640
+It's because there are relatively few AI product managers.
+
+220
+00:07:16,640 --> 00:07:17,740
+No one is implementing it
+
+221
+00:07:17,740 --> 00:07:19,080
+Let's analyze the reasons
+
+222
+00:07:19,080 --> 00:07:20,800
+Why is there a shortage of AI product managers?
+
+223
+00:07:20,800 --> 00:07:22,990
+So why is no one doing the work?
+
+224
+00:07:22,990 --> 00:07:25,670
+First of all, those who are working on large language models
+
+225
+00:07:25,670 --> 00:07:29,100
+They are usually a group of exceptionally talented technical geniuses.
+
+226
+00:07:29,100 --> 00:07:32,720
+It can be understood that they think every day about how to, well,
+
+227
+00:07:32,720 --> 00:07:34,250
+building such foundational models
+
+228
+00:07:34,250 --> 00:07:37,330
+or to seize some platform opportunities ah
+
+229
+00:07:37,330 --> 00:07:39,370
+become a new super traffic gateway
+
+230
+00:07:39,370 --> 00:07:41,310
+For those traditional business experts
+
+231
+00:07:41,310 --> 00:07:42,490
+for these industry leaders
+
+232
+00:07:42,490 --> 00:07:46,440
+they are reluctant to give up the territory they have already occupied
+
+233
+00:07:46,440 --> 00:07:47,380
+
+
+234
+00:07:47,380 --> 00:07:48,920
+They are reluctant to make changes easily.
+
+235
+00:07:48,920 --> 00:07:49,880
+are quite stubborn
+
+236
+00:07:49,880 --> 00:07:52,049
+Many people also look down on these things
+
+237
+00:07:52,049 --> 00:07:53,229
+Why do they look down upon it
+
+238
+00:07:53,229 --> 00:07:56,349
+They think that using their original professional knowledge and processes
+
+239
+00:07:56,349 --> 00:07:59,470
+can manage this task very well
+
+240
+00:07:59,470 --> 00:08:01,210
+efficiency and quality can be achieved at a very high level
+
+241
+00:08:01,210 --> 00:08:03,110
+This new AI thing
+
+242
+00:08:03,110 --> 00:08:04,530
+In its early stages, it was relatively crude
+
+243
+00:08:04,530 --> 00:08:06,770
+the things produced are more efficient
+
+244
+00:08:06,770 --> 00:08:08,750
+So he thinks it's just a toy
+
+245
+00:08:08,750 --> 00:08:10,670
+So this creates a gap
+
+246
+00:08:10,670 --> 00:08:12,370
+requires someone who understands both business scenarios
+
+247
+00:08:12,370 --> 00:08:13,419
+and understand business needs
+
+248
+00:08:13,419 --> 00:08:15,399
+and also understand the technology of large models
+
+249
+00:08:15,399 --> 00:08:18,199
+and implement this technology in business scenarios
+
+250
+00:08:18,199 --> 00:08:19,579
+such AI product managers
+
+251
+00:08:19,579 --> 00:08:21,990
+The era of AI has arrived, my friends.
+
+252
+00:08:21,990 --> 00:08:24,270
+This era needs more than ever
+
+253
+00:08:24,270 --> 00:08:25,550
+more exceptional product managers
+
+254
+00:08:25,550 --> 00:08:26,110
+And then
+
+255
+00:08:26,110 --> 00:08:30,330
+Transform these current technologies into genuine commercial value
+
+256
+00:08:30,330 --> 00:08:32,150
+Since we need AI product managers,
+
+257
+00:08:32,150 --> 00:08:34,539
+What types of AI product managers are actually needed?
+
+258
+00:08:34,539 --> 00:08:35,938
+What needs to be done?
+
+259
+00:08:35,938 --> 00:08:38,159
+Here, I’ve categorized them into three types for you.
+
+260
+00:08:38,159 --> 00:08:41,480
+The first category is product managers for model platforms.
+
+261
+00:08:41,480 --> 00:08:42,640
+Actually, this type of product
+
+262
+00:08:42,640 --> 00:08:44,870
+requires you to understand the technical principles of large models
+
+263
+00:08:44,870 --> 00:08:46,790
+Here, I want to emphasize the technology
+
+264
+00:08:46,790 --> 00:08:48,770
+Everyone might feel particularly intimidated when they hear the word 'technology'.
+
+265
+00:08:48,770 --> 00:08:50,150
+In fact, technologies can be divided into two types
+
+266
+00:08:50,150 --> 00:08:52,310
+One type is technical execution ability,
+
+267
+00:08:52,310 --> 00:08:53,060
+coding
+
+268
+00:08:53,060 --> 00:08:54,790
+This is for R&D.
+
+269
+00:08:54,790 --> 00:08:56,310
+for algorithm engineers
+
+270
+00:08:56,310 --> 00:08:58,090
+Understanding the principles of the technology is sufficient.
+
+271
+00:08:58,090 --> 00:08:59,790
+This is for product managers.
+
+272
+00:08:59,790 --> 00:09:02,400
+The second type is the AI application-oriented product manager.
+
+273
+00:09:02,400 --> 00:09:03,680
+AI application product manager
+
+274
+00:09:03,680 --> 00:09:05,500
+Actually, you need to understand the business.
+
+275
+00:09:05,500 --> 00:09:07,000
+Do you need to understand the business that well?
+
+276
+00:09:07,000 --> 00:09:07,820
+not necessarily
+
+277
+00:09:07,820 --> 00:09:09,280
+Let me give you an example
+
+278
+00:09:09,280 --> 00:09:12,040
+Because AI's capabilities are quite versatile
+
+279
+00:09:12,040 --> 00:09:14,080
+For example, in this e-commerce scenario
+
+280
+00:09:14,080 --> 00:09:15,060
+we developed a customer service
+
+281
+00:09:15,060 --> 00:09:18,000
+In this context, we will conduct the model evaluation, right?
+
+282
+00:09:18,000 --> 00:09:19,960
+and then process the data
+
+283
+00:09:19,960 --> 00:09:21,560
+implementation of the knowledge base intent
+
+284
+00:09:21,560 --> 00:09:23,230
+the implementation of the model, etc.
+
+285
+00:09:23,230 --> 00:09:26,550
+For example, if we go into the insurance industry
+
+286
+00:09:26,550 --> 00:09:27,290
+insurance claims
+
+287
+00:09:27,290 --> 00:09:28,910
+or when we enter the field of new energy
+
+288
+00:09:28,910 --> 00:09:30,950
+or we develop a medical Q&A system
+
+289
+00:09:30,950 --> 00:09:32,870
+Are the same capabilities used in this scenario?
+
+290
+00:09:32,870 --> 00:09:34,350
+I’d say it’s similar.
+
+291
+00:09:34,350 --> 00:09:36,069
+There is not much difference.
+
+292
+00:09:36,069 --> 00:09:38,749
+so, this kind of AI application-oriented product manager
+
+293
+00:09:38,749 --> 00:09:40,329
+The gap is particularly large
+
+294
+00:09:40,329 --> 00:09:43,010
+Moreover, from the perspective of AI,
+
+295
+00:09:43,010 --> 00:09:44,490
+his skills are also quite versatile
+
+296
+00:09:44,490 --> 00:09:47,170
+So as long as we polish our resumes well
+
+297
+00:09:47,170 --> 00:09:48,250
+you send it out
+
+298
+00:09:48,250 --> 00:09:49,540
+There will be many invitations.
+
+299
+00:09:49,540 --> 00:09:51,100
+can match with many job positions
+
+300
+00:09:51,100 --> 00:09:53,200
+Then another aspect is the software
+
+301
+00:09:53,200 --> 00:09:55,320
+product manager for hardware integration
+
+302
+00:09:55,320 --> 00:09:57,540
+such as robotics
+
+303
+00:09:57,540 --> 00:09:58,760
+smart cockpit
+
+304
+00:09:58,760 --> 00:10:02,280
+This also requires a relatively strong understanding of technology.
+
+305
+00:10:02,280 --> 00:10:04,240
+Of course, such product managers
+
+306
+00:10:04,240 --> 00:10:06,700
+preferably with some hardware background as well
+
+307
+00:10:06,700 --> 00:10:09,560
+Currently, the most in-demand in the entire market is the second type.
+
+308
+00:10:09,560 --> 00:10:11,640
+that is, AI application-oriented product managers
+
+309
+00:10:11,640 --> 00:10:13,880
+The requirements are not too high.
+
+310
+00:10:13,880 --> 00:10:15,230
+Moreover, there are numerous job openings
+
+311
+00:10:15,230 --> 00:10:17,590
+It's quite easy for everyone to land a job, okay
+
+312
+00:10:17,590 --> 00:10:20,310
+Now we've talked about being an application-oriented product manager
+
+313
+00:10:20,310 --> 00:10:22,630
+So where are these application scenarios?
+
+314
+00:10:22,630 --> 00:10:25,090
+Currently, the B-end market is fertile ground for AI applications.
+
+315
+00:10:25,090 --> 00:10:26,270
+So how do we understand this?
+
+316
+00:10:26,270 --> 00:10:27,350
+First of all, we all know
+
+317
+00:10:27,350 --> 00:10:28,390
+If AI lacks data
+
+318
+00:10:28,390 --> 00:10:29,650
+can't do anything
+
+319
+00:10:29,650 --> 00:10:31,850
+He doesn't know how to accomplish this task
+
+320
+00:10:31,850 --> 00:10:33,880
+He cannot grasp the specific patterns
+
+321
+00:10:33,880 --> 00:10:36,160
+So what are the characteristics of the B-end?
+
+322
+00:10:36,160 --> 00:10:38,300
+After years of development, this B-end enterprise
+
+323
+00:10:38,300 --> 00:10:40,940
+
+
+324
+00:10:40,940 --> 00:10:44,589
+
+
+325
+00:10:44,589 --> 00:10:46,109
+The second point is
+
+326
+00:10:46,109 --> 00:10:48,949
+Currently, AI enables it to maximize its value
+
+327
+00:10:48,949 --> 00:10:51,000
+is to address these repetitive issues
+
+328
+00:10:51,000 --> 00:10:53,660
+Take a process within a company, for example.
+
+329
+00:10:53,660 --> 00:10:55,780
+manual repetition
+
+330
+00:10:55,780 --> 00:10:57,650
+it is inevitably repetitive
+
+331
+00:10:57,650 --> 00:11:00,730
+Then AI can just solve its drawbacks
+
+332
+00:11:00,730 --> 00:11:02,350
+and then achieve cost reduction and efficiency improvement
+
+333
+00:11:02,350 --> 00:11:03,960
+The third point is what
+
+334
+00:11:03,960 --> 00:11:05,920
+Since we have invested
+
+335
+00:11:05,920 --> 00:11:08,690
+Someone has to pay for these scenarios we've created
+
+336
+00:11:08,690 --> 00:11:11,930
+As long as we develop these valuable scenarios for the B-end
+
+337
+00:11:11,930 --> 00:11:14,290
+then we can sell it to the client
+
+338
+00:11:14,290 --> 00:11:15,930
+there is investment
+
+339
+00:11:15,930 --> 00:11:17,230
+and then generate revenue
+
+340
+00:11:17,230 --> 00:11:19,830
+This forms a virtuous business model
+
+341
+00:11:19,830 --> 00:11:22,150
+On the contrary, it is difficult to charge for the C-end now.
+
+342
+00:11:22,150 --> 00:11:22,849
+Why
+
+343
+00:11:22,849 --> 00:11:25,509
+because currently the results provided by AI are not direct
+
+344
+00:11:25,509 --> 00:11:26,409
+How to understand it
+
+345
+00:11:26,409 --> 00:11:29,609
+As you can see, on the consumer end, what’s used more often is people watching short videos
+
+346
+00:11:29,609 --> 00:11:31,160
+shopping or chatting
+
+347
+00:11:31,160 --> 00:11:33,820
+So what does this AI do in this context?
+
+348
+00:11:33,820 --> 00:11:36,380
+Can it directly output personalized short videos for you?
+
+349
+00:11:36,380 --> 00:11:37,900
+Can it help you chat?
+
+350
+00:11:37,900 --> 00:11:39,569
+Can it help you shop?
+
+351
+00:11:39,569 --> 00:11:40,669
+It can't be done.
+
+352
+00:11:40,669 --> 00:11:43,849
+So how does the current C-end AI application enhance its value?
+
+353
+00:11:43,849 --> 00:11:45,310
+not particularly obvious, okay
+
+354
+00:11:45,310 --> 00:11:46,490
+If you're working on the B side
+
+355
+00:11:46,490 --> 00:11:48,210
+Now is a relatively good opportunity
+
+356
+00:11:48,210 --> 00:11:50,270
+However, the failure rate in the B2B sector is also very high.
+
+357
+00:11:50,270 --> 00:11:52,910
+I've seen hundreds of applications, big and small.
+
+358
+00:11:52,910 --> 00:11:55,600
+Let me summarize the main reasons for failure for everyone.
+
+359
+00:11:55,600 --> 00:11:58,040
+The first one is the technology and function-driven scenario
+
+360
+00:11:58,040 --> 00:12:00,880
+They chose the wrong scenario and hastily implemented it.
+
+361
+00:12:00,880 --> 00:12:03,230
+the user's needs do not match the technical solution
+
+362
+00:12:03,230 --> 00:12:04,710
+The second point is what?
+
+363
+00:12:04,710 --> 00:12:06,310
+developing this product solution
+
+364
+00:12:06,310 --> 00:12:07,070
+it's a toy
+
+365
+00:12:07,070 --> 00:12:08,569
+useless, right?
+
+366
+00:12:08,569 --> 00:12:09,889
+You think it's technically impressive
+
+367
+00:12:09,889 --> 00:12:12,489
+but in reality, it actually has no value
+
+368
+00:12:12,489 --> 00:12:15,320
+The third point is getting the direction right, right
+
+369
+00:12:15,320 --> 00:12:17,000
+The value you're creating is diminishing.
+
+370
+00:12:17,000 --> 00:12:18,360
+for example, creating a webpage
+
+371
+00:12:18,360 --> 00:12:21,150
+developed a single-point small feature or plugin
+
+372
+00:12:21,150 --> 00:12:23,450
+This thing simply can't scale up.
+
+373
+00:12:23,450 --> 00:12:26,260
+Fourth, you can't handle these corporate folks.
+
+374
+00:12:26,260 --> 00:12:28,900
+Because everyone is a bit unfamiliar with this technology.
+
+375
+00:12:28,900 --> 00:12:30,800
+People are still a bit resistant by habit.
+
+376
+00:12:30,800 --> 00:12:34,180
+So it's because if you don't understand how to implement it within the enterprise
+
+377
+00:12:34,180 --> 00:12:36,839
+You don't know how to promote it to everyone
+
+378
+00:12:36,839 --> 00:12:38,959
+then this project is very likely to fail
+
+379
+00:12:38,959 --> 00:12:41,179
+So how do we avoid these risks?
+
+380
+00:12:41,179 --> 00:12:43,839
+we need to break the existing job
+
+381
+00:12:43,839 --> 00:12:45,460
+this cognition and mindset inertia
+
+382
+00:12:45,460 --> 00:12:47,840
+from a new perspective and working approach
+
+383
+00:12:47,840 --> 00:12:49,880
+we need to drive the implementation of these scenarios
+
+384
+00:12:49,880 --> 00:12:52,140
+I have outlined a set of implementation methods for everyone
+
+385
+00:12:52,140 --> 00:12:53,380
+It mainly includes four steps
+
+386
+00:12:53,380 --> 00:12:55,060
+First, I will teach you
+
+387
+00:12:55,060 --> 00:12:58,880
+how to identify high-value AI scenarios within an enterprise
+
+388
+00:12:58,880 --> 00:13:00,340
+as well as how to
+
+389
+00:13:00,340 --> 00:13:02,590
+Deconstruct your business from a fresh perspective
+
+390
+00:13:02,590 --> 00:13:04,930
+including how to identify AI entry points
+
+391
+00:13:04,930 --> 00:13:05,810
+This is the first one
+
+392
+00:13:05,810 --> 00:13:06,350
+the second
+
+393
+00:13:06,350 --> 00:13:07,190
+Based on this scenario,
+
+394
+00:13:07,190 --> 00:13:09,849
+We are going to design a specific product deliverable
+
+395
+00:13:09,849 --> 00:13:11,129
+In this process
+
+396
+00:13:11,129 --> 00:13:13,669
+I will tell you which one to choose
+
+397
+00:13:13,669 --> 00:13:14,940
+mainstream product architecture
+
+398
+00:13:14,940 --> 00:13:17,980
+In this process, you need to focus on what AI product capabilities
+
+399
+00:13:17,980 --> 00:13:19,560
+You need to grasp the fundamentals of products.
+
+400
+00:13:19,560 --> 00:13:21,290
+You need to grasp the fundamentals of data.
+
+401
+00:13:21,290 --> 00:13:25,640
+You need to master the principles and evaluation methods of large models.
+
+402
+00:13:25,640 --> 00:13:28,420
+That involves some product-related RG, etc.
+
+403
+00:13:28,420 --> 00:13:29,340
+fine-tuning
+
+404
+00:13:29,340 --> 00:13:31,980
+professional capabilities such as knowledge graphs
+
+405
+00:13:31,980 --> 00:13:35,450
+Then, we internalize these contents into experimental projects
+
+406
+00:13:35,450 --> 00:13:36,810
+there is an output
+
+407
+00:13:36,810 --> 00:13:40,030
+In this way, you've achieved the entire cycle from requirements to product planning
+
+408
+00:13:40,030 --> 00:13:42,530
+to the implementation of the entire closed-loop understanding
+
+409
+00:13:42,530 --> 00:13:45,099
+Third, after having this AI product,
+
+410
+00:13:45,099 --> 00:13:47,359
+I will teach you how to iterate on your AI product
+
+411
+00:13:47,359 --> 00:13:49,830
+how to measure with scientific evaluation methods
+
+412
+00:13:49,830 --> 00:13:51,750
+the product we have developed
+
+413
+00:13:51,750 --> 00:13:53,630
+what are its capabilities and value
+
+414
+00:13:53,630 --> 00:13:55,120
+The fourth is within the enterprise
+
+415
+00:13:55,120 --> 00:13:56,520
+We need to be able to manage people
+
+416
+00:13:56,520 --> 00:13:57,240
+get things done
+
+417
+00:13:57,240 --> 00:13:59,470
+I will tell you how to do it
+
+418
+00:13:59,470 --> 00:14:01,670
+can enhance the effectiveness of AI implementation
+
+419
+00:14:01,670 --> 00:14:03,770
+to amplify your own value
+
+420
+00:14:03,770 --> 00:14:05,970
+make everyone think you're awesome, right
+
+421
+00:14:05,970 --> 00:14:06,950
+find you important
+
+422
+00:14:06,950 --> 00:14:08,910
+Only then can you get promoted and receive a salary raise.
+
+423
+00:14:08,910 --> 00:14:10,830
+Finally, thank you all for the Triple Combo.
+
+424
+00:14:10,830 --> 00:14:14,240
+I will continue to update this content in the future as well.
+

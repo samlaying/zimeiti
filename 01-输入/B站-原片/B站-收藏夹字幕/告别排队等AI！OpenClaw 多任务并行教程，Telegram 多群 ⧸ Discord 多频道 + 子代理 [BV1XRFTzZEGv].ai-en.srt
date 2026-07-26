@@ -1,0 +1,460 @@
+1
+00:00:00,000 --> 00:00:00,240
+Hello everyone
+
+2
+00:00:00,240 --> 00:00:00,800
+I am Aite
+
+3
+00:00:00,800 --> 00:00:01,800
+Today I'm going to introduce
+
+4
+00:00:01,800 --> 00:00:04,970
+How to achieve multi-session parallelism in OpenClaw
+
+5
+00:00:04,970 --> 00:00:09,270
+You can achieve this through multiple Telegram groups or Discord channels
+
+6
+00:00:09,270 --> 00:00:12,620
+Of course, there is also a very simple method, which is the sub-agent
+
+7
+00:00:12,620 --> 00:00:18,189
+Within a single session, the agent can spawn multiple sub-agents for parallel processing.
+
+8
+00:00:18,189 --> 00:00:21,769
+By default, OpenClaw supports a maximum of 8 parallel sub-agents.
+
+9
+00:00:21,769 --> 00:00:25,220
+We can follow such prompts and let the AI assist you in completing the task.
+
+10
+00:00:25,220 --> 00:00:27,500
+First, let's introduce the configuration in Telegram
+
+11
+00:00:27,500 --> 00:00:31,080
+It supports configuring multiple chat sessions under the same bot.
+
+12
+00:00:31,080 --> 00:00:32,719
+DM, group is a chat group
+
+13
+00:00:32,719 --> 00:00:33,979
+group is the group owner
+
+14
+00:00:33,979 --> 00:00:37,039
+The same Bot can be configured with multiple chat sessions.
+
+15
+00:00:37,039 --> 00:00:40,980
+Any user sending a private message to the bot will form their own session.
+
+16
+00:00:40,980 --> 00:00:43,500
+configuration needs to be done through pairing
+
+17
+00:00:43,500 --> 00:00:44,820
+also supports multiple groups
+
+18
+00:00:44,820 --> 00:00:46,800
+Another approach is through forum topics
+
+19
+00:00:46,800 --> 00:00:50,100
+If all groups must require a default @mention to respond
+
+20
+00:00:50,100 --> 00:00:53,840
+you need to change the requireMention here to true
+
+21
+00:00:53,840 --> 00:00:56,250
+if a group responds without being @
+
+22
+00:00:56,250 --> 00:00:58,830
+then perform such a setting
+
+23
+00:00:58,830 --> 00:01:01,520
+The same Gateway can be configured with multiple Bots
+
+24
+00:01:01,520 --> 00:01:02,920
+the permissions of each Bot
+
+25
+00:01:02,920 --> 00:01:04,519
+you can adjust them all
+
+26
+00:01:04,519 --> 00:01:06,280
+If it's in Discord
+
+27
+00:01:06,280 --> 00:01:08,420
+It is very similar to Telegram
+
+28
+00:01:08,420 --> 00:01:10,630
+there are DMs and server channels
+
+29
+00:01:10,630 --> 00:01:14,600
+The same Bot can communicate with multiple users.
+
+30
+00:01:14,600 --> 00:01:18,100
+However, these DMs share the main session by default
+
+31
+00:01:18,100 --> 00:01:20,960
+So if you want to handle multiple tasks in parallel
+
+32
+00:01:20,960 --> 00:01:22,800
+it's best to use its server channels
+
+33
+00:01:22,800 --> 00:01:25,120
+This is a minimal configuration example
+
+34
+00:01:25,120 --> 00:01:28,560
+Finally, let's take a look at its detailed configuration guide.
+
+35
+00:01:28,560 --> 00:01:31,260
+In the previous video introducing OpenClaw
+
+36
+00:01:31,260 --> 00:01:33,780
+I mentioned through its source code
+
+37
+00:01:33,780 --> 00:01:38,690
+it was found that the maximum cross-session parallel processing number is 4, which you can adjust to other values as needed
+
+38
+00:01:38,690 --> 00:01:42,770
+Within a single session
+
+39
+00:01:42,770 --> 00:01:45,310
+The maximum number of parallel sub-agents is 8.
+
+40
+00:01:45,310 --> 00:01:47,670
+These are all adjustable according to your preferences.
+
+41
+00:01:47,670 --> 00:01:51,270
+Its session routing mechanism follows this pattern
+
+42
+00:01:51,270 --> 00:01:54,320
+If you want to configure it in Discord
+
+43
+00:01:54,320 --> 00:01:57,060
+First, create a dedicated server
+
+44
+00:01:57,060 --> 00:02:00,970
+Secondly, enable developer mode
+
+45
+00:02:00,970 --> 00:02:02,990
+then create and configure the bot
+
+46
+00:02:02,990 --> 00:02:04,620
+Create a new APP
+
+47
+00:02:04,620 --> 00:02:06,280
+In the key settings
+
+48
+00:02:06,280 --> 00:02:08,000
+It is recommended to disable the public bot
+
+49
+00:02:08,000 --> 00:02:10,220
+If it's just for your own use
+
+50
+00:02:10,220 --> 00:02:12,580
+disable this public bot
+
+51
+00:02:12,580 --> 00:02:15,200
+Please note the message content intent
+
+52
+00:02:15,200 --> 00:02:16,829
+This must be turned on
+
+53
+00:02:16,829 --> 00:02:17,609
+then
+
+54
+00:02:17,609 --> 00:02:19,949
+the bot can read the messages you send to it
+
+55
+00:02:19,949 --> 00:02:20,800
+Next,
+
+56
+00:02:20,800 --> 00:02:23,620
+we can then introduce the newly created bot
+
+57
+00:02:23,620 --> 00:02:25,070
+introduce to the service area
+
+58
+00:02:25,070 --> 00:02:27,190
+first via OAuth2
+
+59
+00:02:27,190 --> 00:02:30,970
+then let it generate a URL, with the scope covering these
+
+60
+00:02:30,970 --> 00:02:35,890
+The permissions for the Bot should all be enabled
+
+61
+00:02:35,890 --> 00:02:38,610
+After that, we can then connect to OpenClaw.
+
+62
+00:02:38,610 --> 00:02:41,490
+We can right-click the server's icon
+
+63
+00:02:41,490 --> 00:02:43,600
+
+
+64
+00:02:43,600 --> 00:02:45,709
+Right-click the channel
+
+65
+00:02:45,709 --> 00:02:47,949
+
+
+66
+00:02:47,949 --> 00:02:51,689
+
+
+67
+00:02:51,689 --> 00:02:54,320
+Below is an example of the configuration
+
+68
+00:02:54,320 --> 00:02:56,440
+Now let's look at the Telegram configuration
+
+69
+00:02:56,440 --> 00:02:59,920
+You can add multiple Telegram groups to the whitelist
+
+70
+00:02:59,920 --> 00:03:03,040
+Each group will become an independent session
+
+71
+00:03:03,040 --> 00:03:04,000
+That's how it works
+
+72
+00:03:04,000 --> 00:03:05,480
+In the security configuration,
+
+73
+00:03:05,480 --> 00:03:08,230
+You can set it to only allow yourself to use it
+
+74
+00:03:08,230 --> 00:03:10,690
+For example, there is a DMpolicy
+
+75
+00:03:10,690 --> 00:03:14,940
+set its value to only allow private chats with whitelisted users
+
+76
+00:03:14,940 --> 00:03:16,710
+AllowFrom means only you can contact the Bot
+
+77
+00:03:16,710 --> 00:03:20,950
+groupAllowFrom only you can trigger the Bot in the group
+
+78
+00:03:20,950 --> 00:03:25,010
+Settings of BotFather
+
+79
+00:03:25,010 --> 00:03:28,410
+Here is the suggestion: enter /setjoingroups, select your Bot
+
+80
+00:03:28,410 --> 00:03:29,650
+Select your bot
+
+81
+00:03:29,650 --> 00:03:30,890
+select disable
+
+82
+00:03:30,890 --> 00:03:33,570
+prevent your bot from being added to other groups
+
+83
+00:03:33,570 --> 00:03:36,250
+Secondly, /setprivacy allows the Bot to see group messages.
+
+84
+00:03:36,250 --> 00:03:37,490
+Because in this group
+
+85
+00:03:37,490 --> 00:03:40,100
+I assume it's only you
+
+86
+00:03:40,100 --> 00:03:42,880
+and trusted individuals can use this Bot
+
+87
+00:03:42,880 --> 00:03:44,880
+and to allow the Bot to see group messages
+
+88
+00:03:44,880 --> 00:03:46,740
+when it's not necessary to directly @ it
+
+89
+00:03:46,740 --> 00:03:50,350
+we can modify the privacy settings here
+
+90
+00:03:50,350 --> 00:03:55,050
+To summarize, in order to use OpenClaw more securely in Discord
+
+91
+00:03:55,050 --> 00:03:59,550
+First, disable the public bot, and then set up a whitelist for the server.
+
+92
+00:03:59,550 --> 00:04:00,850
+channel whitelist
+
+93
+00:04:00,850 --> 00:04:02,270
+and user whitelist
+
+94
+00:04:02,270 --> 00:04:07,960
+In Telegram, you can restrict access to specified users or limit groups
+
+95
+00:04:07,960 --> 00:04:12,180
+You can also set it to prevent this bot from joining other groups
+
+96
+00:04:12,180 --> 00:04:14,360
+It was just mentioned about cross-session concurrency.
+
+97
+00:04:14,360 --> 00:04:15,560
+Supports up to 4 at maximum
+
+98
+00:04:15,560 --> 00:04:19,279
+You can set up 4 groups in Telegram
+
+99
+00:04:19,279 --> 00:04:22,079
+You can also set up 4 channels in Discord
+
+100
+00:04:22,079 --> 00:04:23,940
+or even more channels are all acceptable
+
+101
+00:04:23,940 --> 00:04:27,300
+as long as it does not exceed the system's default limit of 4 concurrent cross-session conversations
+
+102
+00:04:27,300 --> 00:04:29,919
+not exceeding the system's default setting of 4
+
+103
+00:04:29,919 --> 00:04:31,159
+that's acceptable
+
+104
+00:04:31,159 --> 00:04:35,340
+Let's take a look at some quick command references. After the configuration is complete,
+
+105
+00:04:35,340 --> 00:04:39,120
+You can restart the Gateway by using openclaw gateway restart
+
+106
+00:04:39,120 --> 00:04:40,880
+What issues may arise during the configuration process?
+
+107
+00:04:40,880 --> 00:04:44,720
+We can check the logs with 'openclaw logs --follow' to locate where the issue occurred.
+
+108
+00:04:44,720 --> 00:04:46,480
+Identify where the issue occurs
+
+109
+00:04:46,480 --> 00:04:49,580
+You can also view all sessions via openclaw sessions list
+
+110
+00:04:49,580 --> 00:04:52,680
+or use /subagents list to view subagents
+
+111
+00:04:52,680 --> 00:04:56,080
+In these configurations, the very important file locations are
+
+112
+00:04:56,080 --> 00:04:59,200
+The main one is the openclaw.json file
+
+113
+00:04:59,200 --> 00:05:01,540
+Another one is gateway.log.
+
+114
+00:05:01,540 --> 00:05:03,620
+That's all for today's introduction.
+
+115
+00:05:03,620 --> 00:05:06,360
+
+

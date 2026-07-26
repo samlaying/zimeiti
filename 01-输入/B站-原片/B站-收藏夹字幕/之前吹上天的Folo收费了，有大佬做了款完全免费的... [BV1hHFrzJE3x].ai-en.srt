@@ -1,0 +1,260 @@
+1
+00:00:00,000 --> 00:00:02,443
+a free open-source RSS tool,
+
+2
+00:00:02,443 --> 00:00:05,520
+enhanced with AI, makes this MrRSS
+
+3
+00:00:05,520 --> 00:00:08,300
+subscribed foreign content can be smartly translated;
+
+4
+00:00:08,300 --> 00:00:10,348
+complex info can be quickly summarized,
+
+5
+00:00:10,348 --> 00:00:12,039
+and content with knowledge gaps
+
+6
+00:00:12,039 --> 00:00:14,770
+can be discussed in chats for basic understanding
+
+7
+00:00:15,170 --> 00:00:19,410
+This is a modern, cross-platform, free AI RSS reader app.
+
+8
+00:00:20,010 --> 00:00:22,190
+There are three modes when adding feeds:
+
+9
+00:00:22,190 --> 00:00:24,260
+regular users can just paste feed URLs,
+
+10
+00:00:24,260 --> 00:00:26,246
+while advanced users can use scripts,
+
+11
+00:00:26,246 --> 00:00:28,730
+parse web content, or use email subscriptions
+
+12
+00:00:29,210 --> 00:00:29,753
+Once set up,
+
+13
+00:00:29,753 --> 00:00:32,770
+each can have its own network settings and view modes chosen.
+
+14
+00:00:33,260 --> 00:00:33,265
+images received should display fine, though some sites may block scrapers, causing images to fail loading.
+
+15
+00:00:39,230 --> 00:00:40,010
+at this point,
+
+16
+00:00:40,010 --> 00:00:42,890
+head to 'Settings' and enable 'Enable Media Cache',
+
+17
+00:00:42,890 --> 00:00:44,870
+then restart the app to try again
+
+18
+00:00:45,350 --> 00:00:47,767
+If you wish to tweak the reading view,
+
+19
+00:00:47,767 --> 00:00:49,728
+you can customize CSS styles.
+
+20
+00:00:49,728 --> 00:00:52,276
+Click the Help button to see the guide;
+
+21
+00:00:52,276 --> 00:00:54,759
+if unsure, let the AI craft one for you.
+
+22
+00:00:55,040 --> 00:00:58,240
+you can tweak font styles for content in the author's sample.
+
+23
+00:00:58,760 --> 00:01:01,378
+if you dislike some of your subscribed content
+
+24
+00:01:01,378 --> 00:01:03,200
+or have Special Follow keywords
+
+25
+00:01:03,690 --> 00:01:06,047
+you can use its automation rules feature
+
+26
+00:01:06,047 --> 00:01:09,288
+to perform various tagging actions on matching content,
+
+27
+00:01:09,288 --> 00:01:11,410
+or use shortcuts for quick commands.
+
+28
+00:01:11,860 --> 00:01:13,251
+For better AI results,
+
+29
+00:01:13,251 --> 00:01:16,300
+you must enter the model Key and API endpoint.
+
+30
+00:01:16,780 --> 00:01:19,412
+this URL might differ from the default one,
+
+31
+00:01:19,412 --> 00:01:21,105
+which usually ends with /v1,
+
+32
+00:01:21,105 --> 00:01:22,547
+but to connect smoothly,
+
+33
+00:01:22,547 --> 00:01:25,870
+you need to use /v1/chat/completions — keep that in mind.
+
+34
+00:01:26,250 --> 00:01:28,650
+then you can switch to AI summaries in Settings
+
+35
+00:01:29,010 --> 00:01:30,905
+Here's how it works in practice:
+
+36
+00:01:30,905 --> 00:01:33,333
+the AI chat is in the bottom-right corner,
+
+37
+00:01:33,333 --> 00:01:35,999
+handy for reading professional foreign posts.
+
+38
+00:01:36,410 --> 00:01:39,137
+Besides these, MrRSS has some neat features —
+
+39
+00:01:39,137 --> 00:01:42,689
+one lets you discover new feeds right from existing ones.
+
+40
+00:01:43,010 --> 00:01:46,506
+it can auto-enable waterfall layouts for image feeds,
+
+41
+00:01:46,506 --> 00:01:49,330
+and integrates with Obsidian and FreshRSS
+
+42
+00:01:49,450 --> 00:01:51,173
+you won't have to worry about
+
+43
+00:01:51,173 --> 00:01:53,610
+media piling up—you can set cache limits
+
+44
+00:01:53,610 --> 00:01:54,740
+and retention days.
+
+45
+00:01:55,020 --> 00:01:56,782
+the overall look is clean and neat,
+
+46
+00:01:56,782 --> 00:01:58,700
+making it pleasant for reading feeds.
+
+47
+00:01:59,280 --> 00:02:02,947
+For image content, you can zoom in/out with your mouse;
+
+48
+00:02:02,947 --> 00:02:04,400
+press Ctrl+S to save.
+
+49
+00:02:04,790 --> 00:02:05,936
+If for long posts
+
+50
+00:02:05,936 --> 00:02:09,038
+a full-screen immersive mode were added later,
+
+51
+00:02:09,038 --> 00:02:10,389
+that would be ideal.
+
+52
+00:02:10,770 --> 00:02:11,763
+With mouse gestures,
+
+53
+00:02:11,763 --> 00:02:14,170
+most actions can be done without the keyboard.
+
+54
+00:02:14,570 --> 00:02:16,124
+some bloggers may see RSS tools
+
+55
+00:02:16,124 --> 00:02:18,883
+as ways to break through or trim an information cocoon,
+
+56
+00:02:18,883 --> 00:02:20,790
+but they don't actually work that way
+
+57
+00:02:21,070 --> 00:02:22,970
+if you wish to follow more content,
+
+58
+00:02:22,970 --> 00:02:25,990
+you already have reading tastes and a hunger to learn.
+
+59
+00:02:26,540 --> 00:02:29,406
+RSS tools can help you swiftly filter messages
+
+60
+00:02:29,406 --> 00:02:31,900
+and mark which ones you've already read.
+
+61
+00:02:32,100 --> 00:02:34,818
+From this perspective, MrRSS is a solid filter tool —
+
+62
+00:02:34,818 --> 00:02:36,683
+you can find content you care about
+
+63
+00:02:36,683 --> 00:02:38,709
+from sites that support subscriptions.
+
+64
+00:02:38,950 --> 00:02:40,730
+come back after some time to reap,
+
+65
+00:02:40,730 --> 00:02:42,350
+be a data hive of the new age
+

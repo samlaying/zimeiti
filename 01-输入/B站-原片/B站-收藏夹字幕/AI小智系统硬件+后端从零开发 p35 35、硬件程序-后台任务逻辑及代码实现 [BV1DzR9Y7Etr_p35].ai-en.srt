@@ -1,0 +1,660 @@
+1
+00:00:01,220 --> 00:00:04,000
+Alright, in this lesson, we'll be discussing the background task, uh,
+
+2
+00:00:04,000 --> 00:00:05,609
+the logic and code implementation.
+
+3
+00:00:05,609 --> 00:00:08,189
+First, why do we need to create this background task?
+
+4
+00:00:08,189 --> 00:00:11,009
+Because we're about to work on, um,
+
+5
+00:00:11,009 --> 00:00:15,040
+the OPIAS OPEX encoding,
+
+6
+00:00:15,040 --> 00:00:18,100
+we need to convert our recorded
+
+7
+00:00:18,100 --> 00:00:19,880
+PCM audio, right?
+
+8
+00:00:19,880 --> 00:00:22,420
+into the OPEZ format.
+
+9
+00:00:22,420 --> 00:00:24,460
+And this is a CPU-intensive task.
+
+10
+00:00:24,460 --> 00:00:26,100
+It involves a lot of computation.
+
+11
+00:00:26,100 --> 00:00:28,040
+We hand that over to the background task.
+
+12
+00:00:28,040 --> 00:00:30,620
+We'll directly pass it to this task.
+
+13
+00:00:30,620 --> 00:00:33,600
+Then, after the task is encoded, it will return the results to us.
+
+14
+00:00:33,600 --> 00:00:34,440
+That's how it works.
+
+15
+00:00:34,440 --> 00:00:36,190
+So, we need this background task.
+
+16
+00:00:36,190 --> 00:00:37,990
+The logic behind this background task,
+
+17
+00:00:37,990 --> 00:00:41,070
+is somewhat similar to what I covered in my previous IoT course,
+
+18
+00:00:41,070 --> 00:00:41,510
+if you've heard it before.
+
+19
+00:00:41,510 --> 00:00:43,900
+At that time, we were about to
+
+20
+00:00:43,900 --> 00:00:46,840
+throw all those functions into this Casla segment
+
+21
+00:00:46,840 --> 00:00:48,080
+in a way that wraps up the ending
+
+22
+00:00:48,080 --> 00:00:51,040
+and then register all the loop functions inside
+
+23
+00:00:51,040 --> 00:00:52,500
+into an array
+
+24
+00:00:52,500 --> 00:00:54,520
+and then, within the while loop
+
+25
+00:00:54,520 --> 00:00:56,379
+the while loop inside the 'made'
+
+26
+00:00:56,379 --> 00:00:57,859
+uniformly process this array
+
+27
+00:00:57,859 --> 00:01:00,679
+by iterating and running the array, and that's it
+
+28
+00:01:00,679 --> 00:01:03,380
+He doesn't care what's inside this array.
+
+29
+00:01:03,380 --> 00:01:05,740
+He just blindly runs it.
+
+30
+00:01:05,740 --> 00:01:08,580
+It's the same here as well.
+
+31
+00:01:08,580 --> 00:01:12,040
+Let's look at this; there's a producer and consumer concept here.
+
+32
+00:01:12,040 --> 00:01:13,000
+This kind of concept.
+
+33
+00:01:13,000 --> 00:01:16,540
+Let's look at this; these are the background tasks here.
+
+34
+00:01:16,540 --> 00:01:17,480
+This box here.
+
+35
+00:01:17,480 --> 00:01:18,920
+Inside this box are the background tasks.
+
+36
+00:01:18,920 --> 00:01:20,040
+The background tasks we created.
+
+37
+00:01:20,040 --> 00:01:23,610
+The background task has a consumer thread.
+
+38
+00:01:23,610 --> 00:01:26,110
+This consumer thread is essentially a while loop.
+
+39
+00:01:26,110 --> 00:01:28,990
+It's a loop that runs here.
+
+40
+00:01:28,990 --> 00:01:30,010
+How does it work?
+
+41
+00:01:30,010 --> 00:01:31,630
+It fetches from the queue.
+
+42
+00:01:31,630 --> 00:01:35,620
+The queue is processed each time, taking out items from it.
+
+43
+00:01:35,620 --> 00:01:37,040
+And then it clears the queue.
+
+44
+00:01:37,040 --> 00:01:38,809
+After fetching, um,
+
+45
+00:01:38,809 --> 00:01:41,169
+a lock needs to be added when fetching at that moment.
+
+46
+00:01:41,169 --> 00:01:42,089
+When retrieving
+
+47
+00:01:42,089 --> 00:01:44,089
+other threads might be adding to it, right?
+
+48
+00:01:44,089 --> 00:01:45,109
+That wouldn't be acceptable
+
+49
+00:01:45,109 --> 00:01:46,900
+So we need to lock when retrieving
+
+50
+00:01:46,900 --> 00:01:47,500
+After locking
+
+51
+00:01:47,500 --> 00:01:48,360
+once we've retrieved it
+
+52
+00:01:48,360 --> 00:01:49,720
+after retrieving everything
+
+53
+00:01:49,720 --> 00:01:51,120
+we immediately release the lock
+
+54
+00:01:51,120 --> 00:01:52,180
+After releasing the lock
+
+55
+00:01:52,180 --> 00:01:53,160
+This queue will do.
+
+56
+00:01:53,160 --> 00:01:54,020
+Others can proceed then.
+
+57
+00:01:54,020 --> 00:01:55,680
+So we'll synchronize here.
+
+58
+00:01:55,680 --> 00:01:57,610
+We've got this, um,
+
+59
+00:01:57,610 --> 00:01:58,630
+the function in the queue,
+
+60
+00:01:58,630 --> 00:02:01,390
+we just loop and execute it blindly, alright?
+
+61
+00:02:01,390 --> 00:02:03,490
+If there's a callback inside the execution,
+
+62
+00:02:03,490 --> 00:02:04,330
+it will trigger the callback.
+
+63
+00:02:04,330 --> 00:02:05,460
+So that's how it works.
+
+64
+00:02:05,460 --> 00:02:07,820
+So, who puts items into this queue?
+
+65
+00:02:07,820 --> 00:02:09,940
+Well, there are many existing producers first.
+
+66
+00:02:09,940 --> 00:02:10,960
+These are the producers.
+
+67
+00:02:10,960 --> 00:02:11,660
+These are the consumers.
+
+68
+00:02:11,660 --> 00:02:14,220
+The consumer is essentially consuming a message from this.
+
+69
+00:02:14,220 --> 00:02:15,600
+The function inside is for consumption, isn't it?
+
+70
+00:02:15,600 --> 00:02:17,680
+They take it out and use it.
+
+71
+00:02:17,680 --> 00:02:18,840
+Then it's gone, right?
+
+72
+00:02:18,840 --> 00:02:21,500
+Producers are responsible for putting items into the queue.
+
+73
+00:02:21,500 --> 00:02:24,660
+This also includes a function for submitting tasks.
+
+74
+00:02:24,660 --> 00:02:26,860
+It's equivalent to what we'll have in the backend tasks.
+
+75
+00:02:26,860 --> 00:02:29,200
+This class will contain a task submission method.
+
+76
+00:02:29,200 --> 00:02:31,660
+The task submission method is designed for producers.
+
+77
+00:02:31,660 --> 00:02:33,620
+Producers will call this task submission method.
+
+78
+00:02:33,620 --> 00:02:36,720
+To handle their time-consuming tasks.
+
+79
+00:02:36,720 --> 00:02:38,600
+The time-consuming functions.
+
+80
+00:02:38,600 --> 00:02:40,320
+Will be invoked and pushed to it.
+
+81
+00:02:40,320 --> 00:02:42,960
+It will then place them into the queue.
+
+82
+00:02:42,960 --> 00:02:44,520
+Of course, a lock will be added during the process.
+
+83
+00:02:44,520 --> 00:02:46,260
+Because it is synchronous, you see.
+
+84
+00:02:46,260 --> 00:02:48,120
+There could be multiple ones, right?
+
+85
+00:02:48,120 --> 00:02:49,980
+So a lock needs to be added when placing items.
+
+86
+00:02:49,980 --> 00:02:51,560
+Otherwise, when you place them,
+
+87
+00:02:51,560 --> 00:02:53,360
+you wouldn’t know how many we have placed, right?
+
+88
+00:02:53,360 --> 00:02:54,780
+So a lock is added here.
+
+89
+00:02:54,780 --> 00:02:56,380
+When submitting tasks,
+
+90
+00:02:56,380 --> 00:03:00,020
+it will handle the function tasks you submitted.
+
+91
+00:03:00,020 --> 00:03:02,040
+We place it into this queue.
+
+92
+00:03:02,040 --> 00:03:04,730
+Then it's added in.
+
+93
+00:03:04,730 --> 00:03:05,930
+After it runs.
+
+94
+00:03:05,930 --> 00:03:07,090
+It picks up the next one from this queue.
+
+95
+00:03:07,090 --> 00:03:08,050
+This process repeats continuously.
+
+96
+00:03:08,050 --> 00:03:09,760
+It works like this.
+
+97
+00:03:09,760 --> 00:03:11,840
+The logic is basically this.
+
+98
+00:03:11,840 --> 00:03:12,360
+Like this.
+
+99
+00:03:12,360 --> 00:03:16,120
+For instance, if the producer thread is a program coded in OPEX.
+
+100
+00:03:16,120 --> 00:03:17,600
+It keeps putting it in there
+
+101
+00:03:17,600 --> 00:03:20,040
+but this is one of its, um
+
+102
+00:03:20,040 --> 00:03:23,040
+the OPEX decoding program also gets placed in there
+
+103
+00:03:23,040 --> 00:03:24,280
+it runs here
+
+104
+00:03:24,280 --> 00:03:25,160
+it runs mindlessly
+
+105
+00:03:25,160 --> 00:03:27,500
+basically, it’s all about the CPU doing the calculations
+
+106
+00:03:27,500 --> 00:03:29,519
+anyway, the result of the computation is like this
+
+107
+00:03:29,519 --> 00:03:31,479
+as for the logic inside
+
+108
+00:03:31,479 --> 00:03:34,239
+we’ll be writing this part when the time comes
+
+109
+00:03:34,739 --> 00:03:36,480
+Let's talk about the logic
+
+110
+00:03:36,480 --> 00:03:38,160
+Applied logic can be written here.
+
+111
+00:03:38,160 --> 00:03:39,420
+This is the backend part
+
+112
+00:03:39,420 --> 00:03:40,120
+Our backend section
+
+113
+00:03:40,120 --> 00:03:42,140
+What we need to complete is the logic for this part
+
+114
+00:03:42,140 --> 00:03:45,100
+That is, we need to write a task submission function
+
+115
+00:03:45,100 --> 00:03:47,220
+We need to define a queue
+
+116
+00:03:47,220 --> 00:03:48,040
+Define this queue
+
+117
+00:03:48,040 --> 00:03:50,440
+Then write a task submission function
+
+118
+00:03:50,440 --> 00:03:51,700
+Then add a lock
+
+119
+00:03:51,700 --> 00:03:53,680
+It means adding a locking mechanism
+
+120
+00:03:53,680 --> 00:03:55,280
+We need to add a mutex lock
+
+121
+00:03:55,280 --> 00:03:57,580
+And then when we submit tasks
+
+122
+00:03:57,580 --> 00:03:58,280
+When others submit tasks
+
+123
+00:03:58,280 --> 00:04:00,040
+When I put them into the queue
+
+124
+00:04:00,040 --> 00:04:02,040
+I need to acquire the lock first
+
+125
+00:04:02,040 --> 00:04:02,800
+If I can't get it
+
+126
+00:04:02,800 --> 00:04:05,080
+That means this submitting thread
+
+127
+00:04:05,080 --> 00:04:05,760
+When submitting
+
+128
+00:04:05,760 --> 00:04:06,600
+When calling this
+
+129
+00:04:06,600 --> 00:04:08,060
+it gets blocked, right?
+
+130
+00:04:08,060 --> 00:04:11,100
+Then it waits for the lock to be released
+
+131
+00:04:11,100 --> 00:04:12,240
+you run it again
+
+132
+00:04:12,240 --> 00:04:13,080
+That's how it is
+
+133
+00:04:13,080 --> 00:04:14,520
+multithreading is quite multithreaded
+
+134
+00:04:14,520 --> 00:04:16,409
+This way, it's thread-safe
+
+135
+00:04:16,409 --> 00:04:19,189
+Then we submit this task
+
+136
+00:04:19,189 --> 00:04:20,668
+This is the function.
+
+137
+00:04:20,668 --> 00:04:23,489
+It encodes each program like OPA.
+
+138
+00:04:23,489 --> 00:04:25,429
+He submitted this task.
+
+139
+00:04:25,429 --> 00:04:27,440
+This can also be referred to as a function.
+
+140
+00:04:27,440 --> 00:04:29,100
+Because ultimately, what is obtained is a function.
+
+141
+00:04:29,100 --> 00:04:31,020
+After submitting this function,
+
+142
+00:04:31,020 --> 00:04:33,820
+it must ensure that it is thread-safe internally.
+
+143
+00:04:33,820 --> 00:04:36,840
+That means there are no resource contention issues within it.
+
+144
+00:04:36,840 --> 00:04:38,740
+For example, when you operate hardware.
+
+145
+00:04:38,740 --> 00:04:39,180
+That won't do.
+
+146
+00:04:39,180 --> 00:04:40,240
+If you operate the hardware,
+
+147
+00:04:40,240 --> 00:04:42,720
+it might lead to resource contention.
+
+148
+00:04:42,720 --> 00:04:45,440
+So, you need to implement a locking mechanism internally.
+
+149
+00:04:45,440 --> 00:04:47,080
+Here, you submit to me
+
+150
+00:04:47,080 --> 00:04:49,300
+is to ensure that this single instance,
+
+151
+00:04:49,300 --> 00:04:50,760
+is thread-safe,
+
+152
+00:04:50,760 --> 00:04:52,040
+there should be no contention.
+
+153
+00:04:52,040 --> 00:04:54,040
+Because I execute it blindly here,
+
+154
+00:04:54,040 --> 00:04:56,360
+I won't consider anything inside,
+
+155
+00:04:56,360 --> 00:04:58,480
+whether you need to add locks or not.
+
+156
+00:04:58,480 --> 00:04:59,340
+I don't want to worry about it.
+
+157
+00:04:59,340 --> 00:05:01,680
+Just run what you gave me, then.
+
+158
+00:05:01,680 --> 00:05:02,799
+That's the logic.
+
+159
+00:05:02,799 --> 00:05:04,059
+And, um,
+
+160
+00:05:04,059 --> 00:05:06,759
+this is an explanation of how the entire logic is implemented.
+
+161
+00:05:06,759 --> 00:05:09,500
+And the specific implementation video link is right here.
+
+162
+00:05:09,500 --> 00:05:10,740
+When you get to this point,
+
+163
+00:05:10,740 --> 00:05:13,320
+Tap here to download this video and watch it.
+
+164
+00:05:13,320 --> 00:05:15,350
+I'll also post the source code.
+
+165
+00:05:15,350 --> 00:05:16,680
+Alright, that's it for this lesson.
+

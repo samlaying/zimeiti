@@ -1,0 +1,1560 @@
+1
+00:00:00,080 --> 00:00:03,040
+In this section, let's take a look at how we, as AI product managers,
+
+2
+00:00:03,040 --> 00:00:05,380
+how do we track the effectiveness of the algorithm
+
+3
+00:00:05,380 --> 00:00:08,460
+In fact, the steps for an AI product manager to follow algorithm requirements
+
+4
+00:00:08,460 --> 00:00:10,340
+varies depending on different business scenarios
+
+5
+00:00:10,340 --> 00:00:12,180
+and the company's organizational structure varies
+
+6
+00:00:12,180 --> 00:00:13,820
+There can indeed be some differences.
+
+7
+00:00:13,820 --> 00:00:16,800
+For example, if your company has its own algorithm
+
+8
+00:00:16,800 --> 00:00:17,840
+middle-office algorithm
+
+9
+00:00:17,840 --> 00:00:21,160
+The platform already has many algorithmic capabilities.
+
+10
+00:00:21,160 --> 00:00:23,920
+So the new algorithmic requirements you propose
+
+11
+00:00:23,920 --> 00:00:26,760
+You should first check if the existing capabilities of the mid-platform can meet the requirements.
+
+12
+00:00:26,760 --> 00:00:28,160
+If it cannot be met
+
+13
+00:00:28,160 --> 00:00:29,600
+then you proceed to make the construction requirements
+
+14
+00:00:29,600 --> 00:00:31,680
+If you currently proceed with this algorithm
+
+15
+00:00:31,680 --> 00:00:33,060
+This scenario is extremely complex
+
+16
+00:00:33,060 --> 00:00:34,680
+possibly during the evaluation phase of this requirement
+
+17
+00:00:34,680 --> 00:00:37,200
+already requires the involvement of algorithm engineers
+
+18
+00:00:37,200 --> 00:00:39,600
+jointly evaluate the complexity of this algorithm
+
+19
+00:00:39,600 --> 00:00:41,530
+After we break down this scenario
+
+20
+00:00:41,530 --> 00:00:44,830
+some sub-requirements may need to be proposed
+
+21
+00:00:44,830 --> 00:00:46,490
+For each such algorithm,
+
+22
+00:00:46,490 --> 00:00:49,640
+We need to clarify the inputs and outputs in this context.
+
+23
+00:00:49,640 --> 00:00:52,940
+So here I will give you three general steps
+
+24
+00:00:52,940 --> 00:00:55,660
+If you need to develop a new algorithm requirement
+
+25
+00:00:55,660 --> 00:00:57,780
+You can match these general steps.
+
+26
+00:00:57,780 --> 00:01:00,400
+Make flexible adjustments according to different situations.
+
+27
+00:01:00,400 --> 00:01:02,220
+Step 1: Propose the algorithm requirements
+
+28
+00:01:02,220 --> 00:01:03,880
+As an AI product manager
+
+29
+00:01:03,880 --> 00:01:07,220
+If you are already clear about the requirements of this algorithm
+
+30
+00:01:07,220 --> 00:01:07,980
+what needs to be done
+
+31
+00:01:07,980 --> 00:01:10,100
+then you can clarify this requirement
+
+32
+00:01:10,100 --> 00:01:12,389
+What is the input and output range of it
+
+33
+00:01:12,389 --> 00:01:14,309
+Then we need to provide it to the R&D engineers
+
+34
+00:01:14,309 --> 00:01:18,389
+and to clarify the current algorithm requirement
+
+35
+00:01:18,389 --> 00:01:20,080
+What are the business metrics that should be achieved?
+
+36
+00:01:20,080 --> 00:01:22,040
+what value should this metric reach
+
+37
+00:01:22,040 --> 00:01:24,260
+can meet our launch requirements
+
+38
+00:01:24,260 --> 00:01:24,900
+The second point
+
+39
+00:01:24,900 --> 00:01:27,009
+continuously monitor the performance
+
+40
+00:01:27,009 --> 00:01:29,889
+You need to continuously communicate with the algorithm in an iterative manner
+
+41
+00:01:29,889 --> 00:01:31,669
+Understand its implementation approach
+
+42
+00:01:31,669 --> 00:01:35,599
+and provide some annotated data required for algorithm training
+
+43
+00:01:35,599 --> 00:01:37,839
+and continuously track the experimental results
+
+44
+00:01:37,839 --> 00:01:40,279
+Finally, conduct a multi-dimensional data validation.
+
+45
+00:01:40,279 --> 00:01:42,059
+After everything is OK, we will proceed with the launch.
+
+46
+00:01:42,059 --> 00:01:44,310
+Third, continuously optimize the performance
+
+47
+00:01:44,310 --> 00:01:46,330
+After the algorithm requirements are met
+
+48
+00:01:46,330 --> 00:01:49,580
+The product manager needs to continuously collect some bad cases
+
+49
+00:01:49,580 --> 00:01:52,280
+to collaborate with the algorithm team to train the model
+
+50
+00:01:52,280 --> 00:01:54,220
+to improve our business metrics
+
+51
+00:01:54,220 --> 00:01:55,759
+Let me give you an example
+
+52
+00:01:55,759 --> 00:01:58,559
+A certain company was reviewing the user conversation records when
+
+53
+00:01:58,559 --> 00:02:02,130
+it is often found that when users are in a negative emotional state
+
+54
+00:02:02,130 --> 00:02:05,510
+The robot's response remains a matter-of-fact reply.
+
+55
+00:02:05,510 --> 00:02:08,110
+This makes the overall conversation feel quite stiff and unnatural.
+
+56
+00:02:08,110 --> 00:02:09,470
+For example, in the following scenario
+
+57
+00:02:09,470 --> 00:02:10,999
+The parrot said it's killing me
+
+58
+00:02:10,999 --> 00:02:12,579
+It's been seven days since my uncle sent it back
+
+59
+00:02:12,579 --> 00:02:13,319
+Still not refunding the money?
+
+60
+00:02:13,319 --> 00:02:13,999
+I want to file a complaint.
+
+61
+00:02:13,999 --> 00:02:14,759
+The robot says
+
+62
+00:02:14,759 --> 00:02:16,119
+Hey, the return has been received.
+
+63
+00:02:16,119 --> 00:02:16,879
+Processing in progress
+
+64
+00:02:16,879 --> 00:02:18,620
+Let's actually think about this scenario
+
+65
+00:02:18,620 --> 00:02:20,740
+If you are a merchant on JD or Taobao
+
+66
+00:02:20,740 --> 00:02:23,180
+then you go to a store's customer service to complain
+
+67
+00:02:23,180 --> 00:02:24,680
+What is the customer service most likely to say
+
+68
+00:02:24,680 --> 00:02:26,200
+Dear, please don't be angry
+
+69
+00:02:26,200 --> 00:02:27,540
+I'll check it for you right away.
+
+70
+00:02:27,540 --> 00:02:28,640
+and then let me tell you
+
+71
+00:02:28,640 --> 00:02:30,380
+We have received the goods for this current order
+
+72
+00:02:30,380 --> 00:02:31,280
+Being processed
+
+73
+00:02:31,280 --> 00:02:32,640
+We will refund you the money immediately.
+
+74
+00:02:32,640 --> 00:02:33,280
+Please rest assured
+
+75
+00:02:33,280 --> 00:02:35,520
+Then the user experience will be much better
+
+76
+00:02:35,520 --> 00:02:38,740
+So, it's hoped that in the process of the robot's response
+
+77
+00:02:38,740 --> 00:02:41,070
+can also add some emotion recognition tools
+
+78
+00:02:41,070 --> 00:02:44,170
+When the user's question is clearly emotionally charged,
+
+79
+00:02:44,170 --> 00:02:47,430
+The robot should first provide comfort before giving an answer
+
+80
+00:02:47,430 --> 00:02:50,070
+Then for the algorithm requirement of emotion recognition
+
+81
+00:02:50,070 --> 00:02:51,390
+so we can clarify that
+
+82
+00:02:51,390 --> 00:02:53,779
+The input for this requirement is the user's question
+
+83
+00:02:53,779 --> 00:02:56,379
+The output is the user's emotional value
+
+84
+00:02:56,379 --> 00:02:57,379
+is neutral
+
+85
+00:02:57,379 --> 00:02:58,790
+positive or negative
+
+86
+00:02:58,790 --> 00:03:01,870
+Of course, there are some intelligent customer service robots on the market now
+
+87
+00:03:01,870 --> 00:03:03,270
+within negative emotions
+
+88
+00:03:03,270 --> 00:03:06,829
+further categorize whether the user is anxious or angry
+
+89
+00:03:06,829 --> 00:03:08,989
+In this example,
+
+90
+00:03:08,989 --> 00:03:12,069
+We will categorize all negative emotions as negative
+
+91
+00:03:12,069 --> 00:03:13,220
+this category
+
+92
+00:03:13,220 --> 00:03:15,540
+When the emotion recognition algorithm model is launched,
+
+93
+00:03:15,540 --> 00:03:17,620
+we expect the emotion recognition accuracy of a model
+
+94
+00:03:17,620 --> 00:03:20,630
+the accuracy rate can reach over 90%
+
+95
+00:03:20,950 --> 00:03:21,990
+Through technical research
+
+96
+00:03:21,990 --> 00:03:22,910
+we found
+
+97
+00:03:22,910 --> 00:03:25,270
+the industry implements emotion recognition
+
+98
+00:03:25,270 --> 00:03:26,590
+primarily uses classification algorithms
+
+99
+00:03:26,590 --> 00:03:28,650
+that is, for each user's question
+
+100
+00:03:28,650 --> 00:03:31,010
+are all categorized into an emotional classification
+
+101
+00:03:31,010 --> 00:03:33,800
+Let me briefly introduce to you
+
+102
+00:03:33,800 --> 00:03:34,940
+What is a classification algorithm
+
+103
+00:03:34,940 --> 00:03:37,950
+Classification algorithms can be divided into binary classification and multi-class classification.
+
+104
+00:03:37,950 --> 00:03:39,510
+AlphaNE is relatively simple
+
+105
+00:03:39,510 --> 00:03:41,470
+In the early stages of this model,
+
+106
+00:03:41,470 --> 00:03:43,030
+For example, we have studied a large number of this
+
+107
+00:03:43,030 --> 00:03:44,830
+photos of black sheep and white sheep
+
+108
+00:03:44,830 --> 00:03:46,140
+train such an algorithmic model
+
+109
+00:03:46,140 --> 00:03:49,330
+The function of this model is, hey, you give me a sheep
+
+110
+00:03:49,330 --> 00:03:51,010
+I'll tell you whether it's a white sheep or a black sheep
+
+111
+00:03:51,010 --> 00:03:52,590
+Then came a black sheep
+
+112
+00:03:52,590 --> 00:03:55,000
+Then the model also identifies it as a black sheep
+
+113
+00:03:55,000 --> 00:03:57,060
+then the model's judgment is correct
+
+114
+00:03:57,060 --> 00:03:58,420
+This is a binary classification scenario
+
+115
+00:03:58,420 --> 00:04:00,720
+The emotion recognition we aim to achieve requires
+
+116
+00:04:00,720 --> 00:04:04,220
+Categorize user questions into positive, negative, and neutral
+
+117
+00:04:04,220 --> 00:04:05,740
+This is a three-class classification problem
+
+118
+00:04:05,740 --> 00:04:07,590
+or called a multi-classification problem
+
+119
+00:04:07,590 --> 00:04:09,870
+In the context of this multi-classification problem,
+
+120
+00:04:09,870 --> 00:04:12,510
+When the model needs to learn some labeled data
+
+121
+00:04:12,510 --> 00:04:14,720
+For example, there are 20,000 such questions
+
+122
+00:04:14,720 --> 00:04:17,519
+These sentences need to be manually labeled.
+
+123
+00:04:17,519 --> 00:04:19,200
+positive negative neutral
+
+124
+00:04:19,200 --> 00:04:20,170
+These are divided into three categories.
+
+125
+00:04:20,170 --> 00:04:21,850
+Then the algorithm learns from
+
+126
+00:04:21,850 --> 00:04:23,390
+the data you annotated
+
+127
+00:04:23,390 --> 00:04:24,670
+After the learning process is completed
+
+128
+00:04:24,670 --> 00:04:27,130
+then trained such an algorithm model
+
+129
+00:04:27,130 --> 00:04:30,369
+The function of this model is that you give it a sentence
+
+130
+00:04:30,369 --> 00:04:33,189
+then my model will tell you the sentence after my judgment
+
+131
+00:04:33,189 --> 00:04:35,629
+whether it's positive, negative, or neutral
+
+132
+00:04:35,629 --> 00:04:37,560
+This is such an Emotions model
+
+133
+00:04:37,560 --> 00:04:38,880
+Here I want to mention
+
+134
+00:04:38,880 --> 00:04:40,120
+As an AI product manager
+
+135
+00:04:40,120 --> 00:04:43,200
+Why do you need to understand what kind of algorithm is being used?
+
+136
+00:04:43,200 --> 00:04:47,110
+or how exactly such a technology is implemented
+
+137
+00:04:47,110 --> 00:04:49,990
+Let's take the emotion recognition we just mentioned as an example
+
+138
+00:04:49,990 --> 00:04:50,500
+as an example
+
+139
+00:04:50,500 --> 00:04:52,140
+Sentence A: I'm going crazy, ah!
+
+140
+00:04:52,140 --> 00:04:52,840
+I want to complain
+
+141
+00:04:52,840 --> 00:04:54,420
+What about sentence B? Is it acceptable or not?
+
+142
+00:04:54,420 --> 00:04:55,080
+I'm in a hurry
+
+143
+00:04:55,080 --> 00:04:57,290
+Actually, sentence A is much worse than sentence B
+
+144
+00:04:57,290 --> 00:04:59,110
+From a human perception perspective
+
+145
+00:04:59,110 --> 00:05:00,260
+it is much more negative
+
+146
+00:05:00,260 --> 00:05:02,220
+because the user is about to file a complaint
+
+147
+00:05:02,220 --> 00:05:03,500
+He is already very angry
+
+148
+00:05:03,500 --> 00:05:05,260
+but the model's output shows that
+
+149
+00:05:05,260 --> 00:05:07,220
+Both sentences are classified as negative.
+
+150
+00:05:07,220 --> 00:05:09,220
+Because we're using a classification algorithm
+
+151
+00:05:09,220 --> 00:05:11,340
+The classification includes these three categories.
+
+152
+00:05:11,340 --> 00:05:13,640
+For sentence A and sentence B
+
+153
+00:05:13,640 --> 00:05:15,980
+then the model gives them similar scores
+
+154
+00:05:15,980 --> 00:05:18,880
+So you can't just because sentence A has a higher negative sentiment value
+
+155
+00:05:18,880 --> 00:05:21,310
+Sentence B has a relatively lower negative sentiment score.
+
+156
+00:05:21,310 --> 00:05:24,070
+you think the model should give a higher score to A
+
+157
+00:05:24,070 --> 00:05:24,770
+B is lower
+
+158
+00:05:24,770 --> 00:05:26,640
+As an AI product manager
+
+159
+00:05:26,640 --> 00:05:27,440
+in this regard
+
+160
+00:05:27,440 --> 00:05:28,800
+we need to understand this technology
+
+161
+00:05:28,800 --> 00:05:30,040
+should have a certain level of understanding
+
+162
+00:05:30,040 --> 00:05:32,160
+and be able to achieve some level of explainability
+
+163
+00:05:32,160 --> 00:05:33,960
+If in a real business scenario
+
+164
+00:05:33,960 --> 00:05:37,260
+Then, on the basis of identifying negative emotions,
+
+165
+00:05:37,260 --> 00:05:39,900
+You can add some keyword rules.
+
+166
+00:05:39,900 --> 00:05:42,040
+special handling for such scenarios
+
+167
+00:05:42,040 --> 00:05:44,160
+For example, if a complaint-related keyword is triggered
+
+168
+00:05:44,160 --> 00:05:45,320
+give it priority handling
+
+169
+00:05:45,320 --> 00:05:47,100
+For the requirement of emotion recognition,
+
+170
+00:05:47,100 --> 00:05:48,620
+We need to provide annotated data
+
+171
+00:05:48,620 --> 00:05:49,740
+social product manager
+
+172
+00:05:49,740 --> 00:05:50,820
+You should understand
+
+173
+00:05:50,820 --> 00:05:52,180
+accuracy of annotated data
+
+174
+00:05:52,180 --> 00:05:54,720
+is the upper limit of the effect that the algorithm model can achieve
+
+175
+00:05:54,720 --> 00:05:56,740
+For example, you have labeled 20,000 pieces of data
+
+176
+00:05:56,740 --> 00:05:58,100
+then among these 20,000 foreign language sentences
+
+177
+00:05:58,100 --> 00:06:00,020
+95% are correctly labeled
+
+178
+00:06:00,020 --> 00:06:01,580
+and 5% are incorrect
+
+179
+00:06:01,580 --> 00:06:03,180
+or ambiguous
+
+180
+00:06:03,180 --> 00:06:04,540
+and 5% are incorrect
+
+181
+00:06:04,540 --> 00:06:06,210
+or ambiguous
+
+182
+00:06:06,210 --> 00:06:09,210
+then the maximum effect the model can achieve
+
+183
+00:06:09,210 --> 00:06:12,140
+is capable of achieving a recognition rate of 95%
+
+184
+00:06:12,140 --> 00:06:13,800
+Of course, it may still fall short
+
+185
+00:06:13,800 --> 00:06:16,010
+That is to say, the upper limit of the accuracy rate
+
+186
+00:06:16,010 --> 00:06:17,690
+can reach up to 95%
+
+187
+00:06:17,690 --> 00:06:20,710
+because it is learning from the manually annotated data you provided
+
+188
+00:06:20,710 --> 00:06:21,830
+an annotated dataset
+
+189
+00:06:21,830 --> 00:06:23,580
+and the final learned model
+
+190
+00:06:23,580 --> 00:06:25,780
+So when we're performing data annotation
+
+191
+00:06:25,780 --> 00:06:27,299
+usually we suggest that
+
+192
+00:06:27,299 --> 00:06:30,279
+The same batch of corpus will be annotated by at least 20,000 people.
+
+193
+00:06:30,279 --> 00:06:31,859
+Finally, we take the intersection
+
+194
+00:06:31,859 --> 00:06:33,399
+when the 20,000 annotators have discrepancies
+
+195
+00:06:33,399 --> 00:06:35,460
+we then conduct a verification and check
+
+196
+00:06:35,460 --> 00:06:38,040
+This demonstrates the importance of providing data annotation.
+
+197
+00:06:38,040 --> 00:06:40,950
+Here, let me tell you about the AI algorithms we work on.
+
+198
+00:06:40,950 --> 00:06:44,390
+The three pillars of AI are data, computing power, and algorithms.
+
+199
+00:06:44,390 --> 00:06:46,650
+Algorithm data accounts for 70%
+
+200
+00:06:46,650 --> 00:06:50,230
+A significant amount of work is also spent on collecting and preparing data.
+
+201
+00:06:50,230 --> 00:06:53,200
+For example, let's take such a classification model as an example
+
+202
+00:06:53,200 --> 00:06:55,020
+You have a fresh graduate newbie
+
+203
+00:06:55,020 --> 00:06:59,500
+with a senior algorithm engineer with years of experience to train
+
+204
+00:06:59,500 --> 00:07:01,380
+on the trained model
+
+205
+00:07:01,380 --> 00:07:04,049
+There is not much difference in terms of accuracy
+
+206
+00:07:04,049 --> 00:07:07,740
+at most, there can be a difference of two percent
+
+207
+00:07:07,740 --> 00:07:08,580
+So
+
+208
+00:07:08,580 --> 00:07:12,280
+If you want to achieve a good understanding of this AI algorithm model
+
+209
+00:07:12,280 --> 00:07:13,760
+Data is very important
+
+210
+00:07:13,760 --> 00:07:15,140
+As an AI product manager
+
+211
+00:07:15,140 --> 00:07:17,920
+In the process of tracking algorithm experimental results
+
+212
+00:07:17,920 --> 00:07:19,120
+First, you need to master
+
+213
+00:07:19,120 --> 00:07:21,830
+What are the common metrics for evaluating algorithm performance?
+
+214
+00:07:21,830 --> 00:07:24,850
+Taking the previously mentioned emotion recognition requirement as an example
+
+215
+00:07:24,850 --> 00:07:27,630
+We provided 20,000 standardized data samples
+
+216
+00:07:27,630 --> 00:07:28,990
+given to the algorithm engineers
+
+217
+00:07:28,990 --> 00:07:31,710
+We would recommend that 80% of it
+
+218
+00:07:31,710 --> 00:07:32,630
+for this data
+
+219
+00:07:32,630 --> 00:07:34,770
+20% of this is used for the training set
+
+220
+00:07:34,770 --> 00:07:36,990
+This data is used for the validation set
+
+221
+00:07:37,399 --> 00:07:38,279
+What does this mean
+
+222
+00:07:38,279 --> 00:07:40,159
+For example, among the 20,000 data points
+
+223
+00:07:40,159 --> 00:07:42,639
+There should be 16,000 pieces of data used for this algorithm.
+
+224
+00:07:42,639 --> 00:07:44,310
+to train a classification model
+
+225
+00:07:44,310 --> 00:07:45,390
+and four thousand pieces of data
+
+226
+00:07:45,390 --> 00:07:47,910
+This data is used to test the effectiveness of the model
+
+227
+00:07:47,910 --> 00:07:48,870
+conduct a test
+
+228
+00:07:48,870 --> 00:07:51,670
+At this point, we also need to introduce an inverse matrix
+
+229
+00:07:51,670 --> 00:07:52,390
+such a concept
+
+230
+00:07:52,390 --> 00:07:53,590
+based on the algorithmic model
+
+231
+00:07:53,590 --> 00:07:56,910
+to predict a positive emotional outcome
+
+232
+00:07:56,910 --> 00:07:58,690
+obtain these four basic metrics
+
+233
+00:07:58,690 --> 00:08:00,750
+We need to put it into the confusion matrix.
+
+234
+00:08:00,750 --> 00:08:01,570
+in this table
+
+235
+00:08:01,570 --> 00:08:04,060
+For example, in this test set,
+
+236
+00:08:04,060 --> 00:08:06,240
+True refers to sentences with positive emotions.
+
+237
+00:08:06,240 --> 00:08:07,900
+the model also considers it to be positive
+
+238
+00:08:07,900 --> 00:08:09,769
+we denote it as TP
+
+239
+00:08:09,769 --> 00:08:11,329
+placed in the top-left corner of the table
+
+240
+00:08:12,449 --> 00:08:15,130
+then in this test set
+
+241
+00:08:15,130 --> 00:08:18,470
+In this test set, the ground truth is positive sentiment
+
+242
+00:08:18,470 --> 00:08:20,570
+but the model identifies it as negative or neutral
+
+243
+00:08:20,570 --> 00:08:21,570
+this amount of data
+
+244
+00:08:21,570 --> 00:08:25,420
+I will record it as FA and place it in the lower-left corner of a table.
+
+245
+00:08:27,060 --> 00:08:28,630
+In this test set
+
+246
+00:08:28,630 --> 00:08:31,090
+Its true value should be negative or neutral
+
+247
+00:08:31,090 --> 00:08:33,070
+but the model predicts it as positive
+
+248
+00:08:33,070 --> 00:08:36,039
+We categorize such sentences as FP.
+
+249
+00:08:36,039 --> 00:08:37,399
+placed in the upper right corner of the table
+
+250
+00:08:38,519 --> 00:08:39,770
+In this test set
+
+251
+00:08:39,770 --> 00:08:42,409
+The true value should be negative or neutral
+
+252
+00:08:42,409 --> 00:08:45,290
+The model considers the sentence to be negative or neutral
+
+253
+00:08:45,290 --> 00:08:45,770
+such sentences
+
+254
+00:08:45,770 --> 00:08:48,520
+We record it as TA and place it in the bottom-right corner of the table.
+
+255
+00:08:48,520 --> 00:08:50,160
+Then, these four metrics
+
+256
+00:08:50,160 --> 00:08:52,180
+Let's present them together in this table
+
+257
+00:08:52,180 --> 00:08:54,420
+we obtain such a confusion matrix
+
+258
+00:08:54,420 --> 00:08:55,980
+Then through this confusion matrix
+
+259
+00:08:55,980 --> 00:08:57,980
+Actually, you can also see that
+
+260
+00:08:57,980 --> 00:09:01,600
+the TP in the upper left corner and the ta in the lower corner
+
+261
+00:09:01,600 --> 00:09:03,460
+is the number of correct predictions made by the model
+
+262
+00:09:03,460 --> 00:09:06,240
+Let's take a look at the positive, negative, and neutral categories
+
+263
+00:09:06,240 --> 00:09:07,120
+these three categories
+
+264
+00:09:07,120 --> 00:09:10,980
+How does the model's confusion matrix perform?
+
+265
+00:09:10,980 --> 00:09:13,040
+The predicted value is positive
+
+266
+00:09:13,040 --> 00:09:14,480
+if the true label is also positive
+
+267
+00:09:14,480 --> 00:09:17,440
+There are 1,435 instances where the predicted value is negative
+
+268
+00:09:17,440 --> 00:09:18,340
+true negative
+
+269
+00:09:18,340 --> 00:09:20,310
+5,643 items
+
+270
+00:09:20,310 --> 00:09:21,850
+predicted as positive
+
+271
+00:09:21,850 --> 00:09:23,490
+True false positives
+
+272
+00:09:23,490 --> 00:09:25,410
+There are 3,247 entries
+
+273
+00:09:25,410 --> 00:09:28,570
+OK, let's see through the final calculation
+
+274
+00:09:28,570 --> 00:09:29,590
+the statistical data
+
+275
+00:09:29,590 --> 00:09:30,650
+Let's take a look
+
+276
+00:09:30,650 --> 00:09:33,570
+So, how is the performance of our model?
+
+277
+00:09:33,570 --> 00:09:36,410
+In this context, we commonly use three key metrics
+
+278
+00:09:36,410 --> 00:09:36,950
+accuracy
+
+279
+00:09:36,950 --> 00:09:38,100
+recall rate and F1 score
+
+280
+00:09:38,100 --> 00:09:39,720
+So what does accuracy equal to?
+
+281
+00:09:39,720 --> 00:09:43,100
+how many of the samples that the algorithm considers correct are actually correct
+
+282
+00:09:43,100 --> 00:09:43,960
+the proportion it occupies
+
+283
+00:09:43,960 --> 00:09:45,930
+Let's calculate them separately, okay
+
+284
+00:09:45,930 --> 00:09:48,050
+For example, among the positive ones,
+
+285
+00:09:48,050 --> 00:09:49,530
+it can predict as positive
+
+286
+00:09:49,530 --> 00:09:50,550
+it is inherently positive
+
+287
+00:09:50,550 --> 00:09:51,910
+There are 1,435 entries.
+
+288
+00:09:51,910 --> 00:09:53,830
+So how is this calculated in this context?
+
+289
+00:09:53,830 --> 00:09:56,310
+this is 1435
+
+290
+00:09:56,310 --> 00:09:58,450
+plus 9052
+
+291
+00:09:58,450 --> 00:10:02,810
+divided by the sum of these four, right?
+
+292
+00:10:02,810 --> 00:10:05,150
+Add these two values together and divide by
+
+293
+00:10:05,150 --> 00:10:08,320
+This whole thing is the same as well
+
+294
+00:10:08,320 --> 00:10:11,850
+5643 plus 4708
+
+295
+00:10:11,850 --> 00:10:14,010
+divided by the sum of these four numbers
+
+296
+00:10:14,010 --> 00:10:18,180
+OK, the resulting accuracy is about 98%.
+
+297
+00:10:18,180 --> 00:10:21,440
+Similarly, based on this data, we can also derive the recall rate
+
+298
+00:10:21,440 --> 00:10:22,680
+and other F1 scores
+
+299
+00:10:22,680 --> 00:10:23,860
+The higher the accuracy,
+
+300
+00:10:23,860 --> 00:10:25,440
+the recall rate is also relatively high
+
+301
+00:10:25,440 --> 00:10:28,060
+We believe that this model is quite good.
+
+302
+00:10:28,060 --> 00:10:29,400
+The higher, the better
+
+303
+00:10:29,400 --> 00:10:32,420
+When we understand the actual computational performance of the algorithm
+
+304
+00:10:32,420 --> 00:10:33,960
+Then, before going live,
+
+305
+00:10:33,960 --> 00:10:36,260
+multi-dimensional data validation is also required
+
+306
+00:10:36,260 --> 00:10:39,500
+That is to say, based on your current business scenario
+
+307
+00:10:39,500 --> 00:10:42,500
+You need to reserve some test corpora for different scenarios
+
+308
+00:10:42,500 --> 00:10:44,080
+input this model for verification
+
+309
+00:10:44,080 --> 00:10:47,340
+Check the test results of the test corpus in different scenarios
+
+310
+00:10:47,340 --> 00:10:49,920
+Does its value meet the expectations in all cases?
+
+311
+00:10:49,920 --> 00:10:52,160
+Again, let's take the emotional recognition requirement as an example.
+
+312
+00:10:52,160 --> 00:10:55,160
+We trained a multi-category emotion recognition model
+
+313
+00:10:55,160 --> 00:10:58,470
+Next, we will extract a portion of the pre-sales questions
+
+314
+00:10:58,470 --> 00:11:00,810
+or extract a batch from after-sales issues
+
+315
+00:11:00,810 --> 00:11:02,830
+feed all the user questions into this model
+
+316
+00:11:02,830 --> 00:11:04,550
+have the model provide us with a result
+
+317
+00:11:04,550 --> 00:11:07,400
+For example, I sent 100 questions from the pre-sales stage
+
+318
+00:11:07,400 --> 00:11:09,140
+100 issues were extracted from the after-sales data
+
+319
+00:11:09,140 --> 00:11:10,420
+After being annotated post-tax
+
+320
+00:11:10,420 --> 00:11:12,720
+it is found that the model's accuracy for me
+
+321
+00:11:12,720 --> 00:11:15,280
+can basically achieve over 98%
+
+322
+00:11:15,280 --> 00:11:16,740
+then the model is good to go
+
+323
+00:11:16,740 --> 00:11:19,040
+If it's pre-sales or after-sales
+
+324
+00:11:19,040 --> 00:11:20,720
+in different business scenarios
+
+325
+00:11:20,720 --> 00:11:22,920
+or users from different channels
+
+326
+00:11:22,920 --> 00:11:24,720
+they have some different ways of phrasing it
+
+327
+00:11:24,720 --> 00:11:25,910
+different expressions
+
+328
+00:11:25,910 --> 00:11:28,730
+then the results provided by the Emotions recognition model
+
+329
+00:11:28,730 --> 00:11:30,620
+does not meet our expectations
+
+330
+00:11:30,620 --> 00:11:32,320
+then this model is unusable
+
+331
+00:11:32,320 --> 00:11:35,700
+then we need to feed more corpus into the Emotions recognition model
+
+332
+00:11:35,700 --> 00:11:36,860
+retrain it
+
+333
+00:11:36,860 --> 00:11:39,060
+Or we can base it on different business scenarios
+
+334
+00:11:39,060 --> 00:11:41,040
+or train for different industries.
+
+335
+00:11:41,040 --> 00:11:42,940
+If we target different scenarios
+
+336
+00:11:42,940 --> 00:11:44,630
+or training for different industries
+
+337
+00:11:44,630 --> 00:11:46,930
+a large number of models need to be trained here
+
+338
+00:11:46,930 --> 00:11:48,150
+it's not just one model
+
+339
+00:11:48,150 --> 00:11:50,090
+can solve all such scenarios
+
+340
+00:11:50,090 --> 00:11:51,710
+As an AI product manager
+
+341
+00:11:51,710 --> 00:11:53,550
+after your algorithm feature is launched
+
+342
+00:11:53,550 --> 00:11:56,410
+You need to continuously follow up on optimization and iteration
+
+343
+00:11:56,410 --> 00:11:58,590
+Optimization iteration mainly focuses on the following two aspects.
+
+344
+00:11:58,590 --> 00:12:01,460
+The first aspect is to collect online bad cases
+
+345
+00:12:01,460 --> 00:12:04,630
+Still taking the emotion recognition requirement as an example
+
+346
+00:12:04,630 --> 00:12:06,310
+You need to continuously follow up on
+
+347
+00:12:06,310 --> 00:12:07,610
+What are the issues reported by online users
+
+348
+00:12:07,610 --> 00:12:09,740
+it is clearly negative but was recognized as positive
+
+349
+00:12:09,740 --> 00:12:12,900
+or cases where there was clearly no emotion but were identified as emotional
+
+350
+00:12:12,900 --> 00:12:14,860
+annotate the data of these issues
+
+351
+00:12:14,860 --> 00:12:17,060
+and then provide it to the algorithm engineer for reference
+
+352
+00:12:17,060 --> 00:12:18,420
+have them update their model
+
+353
+00:12:18,420 --> 00:12:19,760
+and test the upper limit
+
+354
+00:12:19,760 --> 00:12:20,700
+The second aspect
+
+355
+00:12:20,700 --> 00:12:23,360
+Because our business is continuously evolving
+
+356
+00:12:23,360 --> 00:12:24,940
+So periodically
+
+357
+00:12:24,940 --> 00:12:27,610
+you'd better collect some updated online
+
+358
+00:12:27,610 --> 00:12:29,950
+annotate some user query corpus
+
+359
+00:12:29,950 --> 00:12:31,350
+provide to the algorithm engineers
+
+360
+00:12:31,350 --> 00:12:32,830
+update its model here
+
+361
+00:12:32,830 --> 00:12:34,950
+Let's summarize Bai Xiaojie.
+
+362
+00:12:34,950 --> 00:12:36,230
+As an AI product manager,
+
+363
+00:12:36,230 --> 00:12:38,390
+You should understand the capabilities of the algorithmic technology.
+
+364
+00:12:38,390 --> 00:12:41,829
+It then introduced what algorithms the intelligent customer service robot should have
+
+365
+00:12:41,829 --> 00:12:43,409
+and it particularly emphasized
+
+366
+00:12:43,409 --> 00:12:45,409
+then based on the algorithm's performance such a process
+
+367
+00:12:45,409 --> 00:12:46,749
+Of course, the steps in this process
+
+368
+00:12:46,749 --> 00:12:49,229
+will vary depending on different organizational structures and business scenarios
+
+369
+00:12:49,229 --> 00:12:50,360
+may vary
+
+370
+00:12:50,360 --> 00:12:51,720
+The three recommended steps to validate
+
+371
+00:12:51,720 --> 00:12:53,780
+First, propose algorithm requirements
+
+372
+00:12:53,780 --> 00:12:56,220
+You need to ensure that your requirements are granular enough
+
+373
+00:12:56,220 --> 00:12:57,420
+and be able to clarify
+
+374
+00:12:57,420 --> 00:12:59,780
+What is the input and output scope of the algorithm model?
+
+375
+00:12:59,780 --> 00:13:02,180
+What business metrics does this algorithm need to meet?
+
+376
+00:13:02,180 --> 00:13:04,180
+What are your expected business metrics?
+
+377
+00:13:04,180 --> 00:13:07,160
+The second step is to track the effectiveness of algorithm requirements.
+
+378
+00:13:07,160 --> 00:13:10,100
+You need to understand how the algorithmic formula is implemented
+
+379
+00:13:10,100 --> 00:13:13,900
+and provide annotated data to the algorithm during the follow-up of experimental results
+
+380
+00:13:13,900 --> 00:13:14,780
+at this stage
+
+381
+00:13:14,780 --> 00:13:16,360
+we introduced the confusion matrix
+
+382
+00:13:16,360 --> 00:13:17,100
+accuracy
+
+383
+00:13:17,100 --> 00:13:18,600
+recall and F1 score
+
+384
+00:13:18,600 --> 00:13:21,280
+these common metrics for evaluating algorithm performance
+
+385
+00:13:21,280 --> 00:13:23,170
+Finally, perform a multi-dimensional data validation.
+
+386
+00:13:23,170 --> 00:13:24,610
+After the third step is launched
+
+387
+00:13:24,610 --> 00:13:26,650
+continuously optimize the performance
+
+388
+00:13:26,650 --> 00:13:29,230
+collect some real user speech data
+
+389
+00:13:29,230 --> 00:13:31,450
+based on the adjustments and changes in business scenarios
+
+390
+00:13:31,450 --> 00:13:34,420
+promptly optimize and iterate your own model
+

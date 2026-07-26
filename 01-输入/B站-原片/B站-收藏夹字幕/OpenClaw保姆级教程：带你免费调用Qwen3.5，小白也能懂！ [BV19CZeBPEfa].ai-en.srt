@@ -1,0 +1,716 @@
+1
+00:00:00,120 --> 00:00:02,900
+What kind of sparks can lobster and QWen3.5 create together?
+
+2
+00:00:02,900 --> 00:00:05,940
+We know that QWen3.5 was officially launched on New Year's Eve
+
+3
+00:00:05,940 --> 00:00:08,860
+It is also hailed as the most powerful open-source model.
+
+4
+00:00:08,860 --> 00:00:11,960
+Its capabilities can be said to rival GPT-4
+
+5
+00:00:11,960 --> 00:00:13,360
+kick Glaude 4.5's ass
+
+6
+00:00:13,360 --> 00:00:15,820
+can rival these top-tier international large models
+
+7
+00:00:15,820 --> 00:00:16,880
+compete with
+
+8
+00:00:16,880 --> 00:00:20,780
+Alright, so such a domestically produced, heavyweight Taiyuan large model
+
+9
+00:00:20,780 --> 00:00:23,560
+Can we invoke it for free in Ollama?
+
+10
+00:00:23,560 --> 00:00:24,440
+The answer is yes.
+
+11
+00:00:24,440 --> 00:00:25,540
+Next, a video
+
+12
+00:00:25,540 --> 00:00:29,920
+take you step by step to integrate QWen3.5 in Ollama from start to finish
+
+13
+00:00:29,920 --> 00:00:31,120
+complete the free invocation
+
+14
+00:00:31,120 --> 00:00:31,940
+Alright, without further ado
+
+15
+00:00:31,940 --> 00:00:33,440
+Let's get straight to the video.
+
+16
+00:00:33,440 --> 00:00:35,900
+The steps to connect are actually quite few.
+
+17
+00:00:35,900 --> 00:00:37,800
+It only takes four steps in total to get it done.
+
+18
+00:00:37,800 --> 00:00:38,600
+First of all,
+
+19
+00:00:38,600 --> 00:00:41,340
+If you don't have Ollama installed locally
+
+20
+00:00:41,340 --> 00:00:43,200
+You first need to download an Ollama
+
+21
+00:00:43,200 --> 00:00:44,820
+Make sure to download the latest version.
+
+22
+00:00:44,820 --> 00:00:47,280
+if your Ollama hasn't been updated for a long time
+
+23
+00:00:47,280 --> 00:00:48,280
+then do the same
+
+24
+00:00:48,280 --> 00:00:50,000
+First, update to the latest version
+
+25
+00:00:50,000 --> 00:00:51,080
+Well, there's not much to say about this
+
+26
+00:00:51,080 --> 00:00:52,200
+you just need to download it
+
+27
+00:00:52,200 --> 00:00:54,320
+Just proceed with the next steps to complete the installation.
+
+28
+00:00:54,320 --> 00:00:55,080
+After the installation is complete
+
+29
+00:00:55,080 --> 00:00:57,880
+Next, we'll install your QWen3.5 model on my Ollama.
+
+30
+00:00:57,880 --> 00:00:59,900
+your QWen3.5 model is ready
+
+31
+00:00:59,900 --> 00:01:03,060
+
+
+32
+00:01:03,060 --> 00:01:06,140
+Then in the CMD, you'll see the command prompt
+
+33
+00:01:06,140 --> 00:01:08,660
+Right-click and run as administrator
+
+34
+00:01:08,660 --> 00:01:10,570
+Now, simply enter the command.
+
+35
+00:01:10,570 --> 00:01:13,840
+This is the open-source QWen3.5 model.
+
+36
+00:01:13,840 --> 00:01:15,500
+Okay, then press enter now
+
+37
+00:01:15,500 --> 00:01:18,780
+We just need to wait for Ollama to install QWen.
+
+38
+00:01:18,780 --> 00:01:20,300
+Soon we'll be able to see, hey
+
+39
+00:01:20,300 --> 00:01:22,820
+My OWen3.5 has already been installed locally.
+
+40
+00:01:22,820 --> 00:01:24,340
+At this point, I know some students might say
+
+41
+00:01:24,340 --> 00:01:25,070
+Brother Lei,
+
+42
+00:01:25,070 --> 00:01:27,790
+My local computer configuration isn't particularly high-end
+
+43
+00:01:27,790 --> 00:01:29,260
+Can QWen3.5 be deployed?
+
+44
+00:01:29,260 --> 00:01:31,020
+This is actually possible, why you ask?
+
+45
+00:01:31,020 --> 00:01:33,620
+this QWen3.5 model in Ollama
+
+46
+00:01:33,620 --> 00:01:34,300
+As you can see
+
+47
+00:01:34,300 --> 00:01:35,200
+followed by who
+
+48
+00:01:35,200 --> 00:01:40,200
+cloud is a new cloud-based model launched by Ollama
+
+49
+00:01:40,200 --> 00:01:41,240
+These new models
+
+50
+00:01:41,240 --> 00:01:43,640
+OK everyone can see they all have the cloud label
+
+51
+00:01:43,640 --> 00:01:44,900
+like Qwen3.5
+
+52
+00:01:44,900 --> 00:01:46,020
+Zhipu's 5
+
+53
+00:01:46,020 --> 00:01:48,120
+and Mini Max's 2.5
+
+54
+00:01:48,120 --> 00:01:48,880
+are all cloud-based
+
+55
+00:01:48,880 --> 00:01:50,320
+So what does this 'cloud' mean?
+
+56
+00:01:50,320 --> 00:01:53,150
+Ah, it means Ollama remotely helps you
+
+57
+00:01:53,150 --> 00:01:56,190
+has already deployed the full-powered versions of these models
+
+58
+00:01:56,190 --> 00:01:58,910
+you just need the Ollama client
+
+59
+00:01:58,910 --> 00:02:03,380
+you can quickly connect to the open-source model that Ollama has deployed for you
+
+60
+00:02:03,380 --> 00:02:05,540
+At this point, you don't need to worry about your computer's performance
+
+61
+00:02:05,540 --> 00:02:07,930
+because this full-powered large model
+
+62
+00:02:07,930 --> 00:02:10,810
+It is essentially not deployed locally on your device.
+
+63
+00:02:10,810 --> 00:02:12,710
+but is deployed on Ollama's servers
+
+64
+00:02:12,710 --> 00:02:14,940
+If you have Ollama, you can use it directly.
+
+65
+00:02:14,940 --> 00:02:15,940
+So this is the logic behind it.
+
+66
+00:02:15,940 --> 00:02:17,340
+So it doesn't matter if your computer isn't powerful enough
+
+67
+00:02:17,340 --> 00:02:18,440
+can be used
+
+68
+00:02:18,440 --> 00:02:21,300
+Okay, great. We've got it deployed quickly.
+
+69
+00:02:21,300 --> 00:02:21,980
+After the deployment is complete
+
+70
+00:02:21,980 --> 00:02:23,020
+Now, the third step is
+
+71
+00:02:23,020 --> 00:02:25,340
+we will log in to my Ollama account
+
+72
+00:02:25,340 --> 00:02:28,340
+
+
+73
+00:02:28,340 --> 00:02:29,480
+Enter this command
+
+74
+00:02:29,480 --> 00:02:31,699
+press Enter and then after pressing Enter
+
+75
+00:02:31,699 --> 00:02:33,419
+It will automatically open the page
+
+76
+00:02:33,419 --> 00:02:34,920
+This is Ollama's login page
+
+77
+00:02:34,920 --> 00:02:36,160
+If it does not appear
+
+78
+00:02:36,160 --> 00:02:37,280
+Have you seen this address?
+
+79
+00:02:37,280 --> 00:02:38,200
+
+
+80
+00:02:38,200 --> 00:02:40,720
+Manually paste it into your browser and you're good to go.
+
+81
+00:02:40,720 --> 00:02:43,780
+Alright then, now go ahead and fill in your OLED account
+
+82
+00:02:43,780 --> 00:02:44,300
+Some people say hey
+
+83
+00:02:44,300 --> 00:02:45,860
+Brother Lei, what should I do if I don't have an Ollama account?
+
+84
+00:02:45,860 --> 00:02:47,060
+What if you don't have an email address?
+
+85
+00:02:47,060 --> 00:02:49,180
+then we click the register button at the bottom
+
+86
+00:02:49,180 --> 00:02:50,460
+Then click Finish, and then next
+
+87
+00:02:50,460 --> 00:02:52,940
+in the input box above
+
+88
+00:02:52,940 --> 00:02:54,420
+Please fill in your email information
+
+89
+00:02:54,420 --> 00:02:55,960
+I will fill in my email information
+
+90
+00:02:55,960 --> 00:02:57,160
+Click Continue
+
+91
+00:02:57,160 --> 00:03:00,000
+At this point, it asks you to create and enter a password
+
+92
+00:03:00,000 --> 00:03:01,000
+Then you enter the password
+
+93
+00:03:01,000 --> 00:03:02,040
+Then click continue
+
+94
+00:03:02,040 --> 00:03:03,560
+Then click Next, okay
+
+95
+00:03:03,560 --> 00:03:04,520
+click Finish
+
+96
+00:03:04,520 --> 00:03:08,000
+Then, you'll need to log in to your email to receive the verification code.
+
+97
+00:03:08,000 --> 00:03:09,480
+The verification code has been sent to your email.
+
+98
+00:03:09,480 --> 00:03:10,860
+After entering the email,
+
+99
+00:03:10,860 --> 00:03:13,540
+It requires binding a phone number.
+
+100
+00:03:13,540 --> 00:03:17,120
+At this point, we will proceed to fill in our phone number.
+
+101
+00:03:17,120 --> 00:03:19,220
+Then click 'Send Verification Code', okay
+
+102
+00:03:19,220 --> 00:03:22,510
+After receiving the verification code on your phone
+
+103
+00:03:22,510 --> 00:03:23,950
+enter it
+
+104
+00:03:23,950 --> 00:03:25,030
+After entering the verification code
+
+105
+00:03:25,030 --> 00:03:27,030
+We have successfully logged in now.
+
+106
+00:03:27,030 --> 00:03:27,470
+Do you see it
+
+107
+00:03:27,470 --> 00:03:28,390
+I'm logged in now
+
+108
+00:03:28,390 --> 00:03:29,250
+After logging in, OK
+
+109
+00:03:29,250 --> 00:03:31,750
+Click on the connection below, OK
+
+110
+00:03:31,750 --> 00:03:33,630
+it shows that the login was successful
+
+111
+00:03:33,630 --> 00:03:37,500
+Now, the second step is already completed.
+
+112
+00:03:37,500 --> 00:03:38,240
+After completing this step,
+
+113
+00:03:38,240 --> 00:03:40,830
+Now we can proceed to the final step.
+
+114
+00:03:40,830 --> 00:03:44,870
+Use this command to start your OpenClaw
+
+115
+00:03:44,870 --> 00:03:46,630
+you can complete OpenClaw
+
+116
+00:03:46,630 --> 00:03:49,150
+connect to the QWen3.5 model in Ollama
+
+117
+00:03:49,150 --> 00:03:51,180
+Alright, now for the final step,
+
+118
+00:03:51,180 --> 00:03:54,080
+Use this command to initiate the interaction.
+
+119
+00:03:54,080 --> 00:03:55,640
+Alright, now let's try to start it up
+
+120
+00:03:55,640 --> 00:03:56,960
+return to the command window
+
+121
+00:03:56,960 --> 00:03:58,600
+Enter this command and hit enter.
+
+122
+00:03:58,600 --> 00:03:59,480
+Press Enter
+
+123
+00:03:59,480 --> 00:04:00,480
+After waiting for a moment,
+
+124
+00:04:00,480 --> 00:04:01,440
+As we can see
+
+125
+00:04:01,440 --> 00:04:03,000
+Our OpenClaw has started
+
+126
+00:04:03,000 --> 00:04:06,920
+and the model being used is Ollama's QWen3.5 cloud model
+
+127
+00:04:06,920 --> 00:04:08,080
+But can it be used?
+
+128
+00:04:08,080 --> 00:04:10,260
+Next, we can open the command window
+
+129
+00:04:10,260 --> 00:04:12,760
+or open our Feishu to test it
+
+130
+00:04:12,760 --> 00:04:15,320
+Well, I'll just open my command window here.
+
+131
+00:04:15,320 --> 00:04:16,300
+After that,
+
+132
+00:04:16,300 --> 00:04:20,510
+Alright, let's go ahead and open a new session for it.
+
+133
+00:04:20,510 --> 00:04:21,769
+Open a new window
+
+134
+00:04:21,769 --> 00:04:22,870
+Then let's ask it
+
+135
+00:04:22,870 --> 00:04:24,960
+I've switched to a new large model for you
+
+136
+00:04:24,960 --> 00:04:26,840
+Tell me which large model you are using.
+
+137
+00:04:26,840 --> 00:04:28,600
+Let's just give it this one line of command
+
+138
+00:04:28,600 --> 00:04:29,600
+Then click send
+
+139
+00:04:29,600 --> 00:04:32,180
+Alright, let's take a look at what model it returns for us.
+
+140
+00:04:32,180 --> 00:04:32,740
+See it?
+
+141
+00:04:32,740 --> 00:04:34,340
+It says what I'm using now is
+
+142
+00:04:34,340 --> 00:04:35,760
+the Qwen3.5 model
+
+143
+00:04:35,760 --> 00:04:37,420
+In that case, let's use OpenClaw
+
+144
+00:04:37,420 --> 00:04:40,140
+You can freely use the QWen3.5 model in Ollama.
+
+145
+00:04:40,140 --> 00:04:41,300
+the QWen3.5 model
+
+146
+00:04:41,300 --> 00:04:42,780
+Okay, someone might ask at this point
+
+147
+00:04:42,780 --> 00:04:44,260
+Is it really that simple?
+
+148
+00:04:44,260 --> 00:04:47,180
+Can I use Ollama's cloud model for free like this?
+
+149
+00:04:47,180 --> 00:04:48,100
+Are there any restrictions?
+
+150
+00:04:48,100 --> 00:04:49,460
+The answer is yes.
+
+151
+00:04:49,460 --> 00:04:51,060
+for example, Ollama's cloud-based model
+
+152
+00:04:51,060 --> 00:04:52,400
+they also have costs, right
+
+153
+00:04:52,400 --> 00:04:55,440
+So then the usage of Ollama
+
+154
+00:04:55,440 --> 00:04:58,160
+There are also usage limits for cloud model calls.
+
+155
+00:04:58,160 --> 00:04:59,880
+So where exactly is this quota limit?
+
+156
+00:04:59,880 --> 00:05:00,740
+Let me show you
+
+157
+00:05:00,740 --> 00:05:03,780
+For this, click on the account in the upper right corner
+
+158
+00:05:03,780 --> 00:05:04,660
+After clicking,
+
+159
+00:05:04,660 --> 00:05:05,980
+Take a look here, everyone
+
+160
+00:05:05,980 --> 00:05:10,330
+This is the usage limit for the cloud model.
+
+161
+00:05:10,330 --> 00:05:11,710
+It is based on a percentage
+
+162
+00:05:11,710 --> 00:05:14,490
+There is a certain weekly quota
+
+163
+00:05:14,490 --> 00:05:16,650
+and there's a certain quota every four hours
+
+164
+00:05:16,650 --> 00:05:18,750
+So when you've used up this quota
+
+165
+00:05:18,750 --> 00:05:20,440
+then the cloud model cannot be invoked
+
+166
+00:05:20,440 --> 00:05:22,420
+So I just asked two questions
+
+167
+00:05:22,420 --> 00:05:24,760
+So basically, it consumes about 1.2%
+
+168
+00:05:24,760 --> 00:05:26,260
+So this free model
+
+169
+00:05:26,260 --> 00:05:30,680
+It should be possible to make around 100 calls every four hours.
+
+170
+00:05:30,680 --> 00:05:32,540
+based on the context of your talking
+
+171
+00:05:32,540 --> 00:05:34,400
+Its billing method is different.
+
+172
+00:05:34,400 --> 00:05:35,520
+So overall
+
+173
+00:05:35,520 --> 00:05:36,560
+this free quota
+
+174
+00:05:36,560 --> 00:05:38,920
+compared to other free quotas
+
+175
+00:05:38,920 --> 00:05:41,140
+Ollama is indeed more substantial
+
+176
+00:05:41,140 --> 00:05:42,820
+So now, we've completed the integration in OpenClaw
+
+177
+00:05:42,820 --> 00:05:46,080
+to integrate the QWen3.5 feature
+
+178
+00:05:46,080 --> 00:05:46,620
+I'm Brother Lei
+
+179
+00:05:46,620 --> 00:05:48,260
+share a useful tip every day
+

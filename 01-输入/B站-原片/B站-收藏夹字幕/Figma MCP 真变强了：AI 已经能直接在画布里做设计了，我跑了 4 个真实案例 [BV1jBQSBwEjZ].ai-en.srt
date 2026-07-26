@@ -1,0 +1,1276 @@
+1
+00:00:00,060 --> 00:00:00,460
+Hello everyone
+
+2
+00:00:00,460 --> 00:00:03,560
+Figma MCP has a great upgrade
+
+3
+00:00:03,560 --> 00:00:09,100
+Now you can directly use the AI Agent for design on the Figma canvas
+
+4
+00:00:09,100 --> 00:00:12,420
+It primarily utilizes the use_figma tool
+
+5
+00:00:12,420 --> 00:00:17,970
+enabling you to generate through Claude Code, Codex, or other MCP clients
+
+6
+00:00:17,970 --> 00:00:20,830
+modify the design resources associated with your design system
+
+7
+00:00:20,830 --> 00:00:24,160
+Figma MCP has been around for quite some time
+
+8
+00:00:24,160 --> 00:00:27,700
+Previously, there was a tool called generate_figma_design
+
+9
+00:00:27,700 --> 00:00:31,400
+can convert the HTML of real-time applications and websites into editable Figma layers
+
+10
+00:00:31,400 --> 00:00:34,100
+convert into editable Figma layers
+
+11
+00:00:34,100 --> 00:00:36,860
+The brand new use_figma tool
+
+12
+00:00:36,860 --> 00:00:39,840
+is to allow AI to operate based on your design system
+
+13
+00:00:39,840 --> 00:00:42,080
+directly operate on its canvas
+
+14
+00:00:42,080 --> 00:00:46,520
+Figma and its partners also shared 9 Skills
+
+15
+00:00:46,520 --> 00:00:49,020
+Everyone can take a look, Skills can achieve self-repair
+
+16
+00:00:49,020 --> 00:00:53,760
+iteratively refine the output through a cyclic shaping process
+
+17
+00:00:53,760 --> 00:00:57,040
+When using a vision-enabled AI Agent
+
+18
+00:00:57,040 --> 00:00:58,280
+It continuously takes screenshots
+
+19
+00:00:58,280 --> 00:01:00,160
+then iterate on the mismatched parts
+
+20
+00:01:00,160 --> 00:01:03,020
+and this time Figma has opened access to Code Connect
+
+21
+00:01:03,020 --> 00:01:04,019
+access to Figma Draw and FigJam interfaces
+
+22
+00:01:04,019 --> 00:01:06,779
+and access to the Figure Jen interface
+
+23
+00:01:06,779 --> 00:01:09,759
+Figma's official MCP free users
+
+24
+00:01:09,759 --> 00:01:12,440
+It provides a maximum of 6 tool calls per month.
+
+25
+00:01:12,440 --> 00:01:14,140
+6 tool calls per month
+
+26
+00:01:14,140 --> 00:01:16,660
+basically can't do much
+
+27
+00:01:16,660 --> 00:01:19,920
+If you want the AI to do design work on the Figma Canvas
+
+28
+00:01:19,920 --> 00:01:24,820
+then you need to subscribe to its Dev or Full Seat
+
+29
+00:01:24,820 --> 00:01:27,780
+As for Figma's core features, here's what it offers
+
+30
+00:01:27,780 --> 00:01:29,140
+So how do you install it?
+
+31
+00:01:29,140 --> 00:01:31,140
+For example, I'm using Cursor here
+
+32
+00:01:31,140 --> 00:01:34,670
+then I can find a Marketplace in its Settings
+
+33
+00:01:34,670 --> 00:01:35,870
+find Figma
+
+34
+00:01:35,870 --> 00:01:37,570
+Just click to install.
+
+35
+00:01:37,570 --> 00:01:39,330
+If you are in CC
+
+36
+00:01:39,330 --> 00:01:43,320
+you can install the official Figma MCP using this command
+
+37
+00:01:43,320 --> 00:01:45,980
+After installation, you'll need to verify your identity
+
+38
+00:01:45,980 --> 00:01:47,960
+If using in Codex
+
+39
+00:01:47,960 --> 00:01:51,090
+First, add each Skill
+
+40
+00:01:51,090 --> 00:01:55,520
+After that, add the MCP Server in Settings
+
+41
+00:01:55,520 --> 00:01:58,420
+and click on the Figma service area to install
+
+42
+00:01:58,420 --> 00:01:59,300
+and authenticate
+
+43
+00:01:59,300 --> 00:02:02,440
+Now let's take a detailed look at each tool in Figma MCP.
+
+44
+00:02:02,440 --> 00:02:04,040
+get_design_context
+
+45
+00:02:04,040 --> 00:02:06,540
+It can retrieve the context selected in Figma
+
+46
+00:02:06,540 --> 00:02:09,479
+The default output is React and Tailwind.
+
+47
+00:02:09,479 --> 00:02:10,720
+You can prompt the AI like this
+
+48
+00:02:10,720 --> 00:02:13,240
+generate_figma_design
+
+49
+00:02:13,240 --> 00:02:15,880
+It can capture web pages
+
+50
+00:02:15,880 --> 00:02:18,140
+Import or convert into Figma designs
+
+51
+00:02:18,140 --> 00:02:20,840
+get_variable_defs
+
+52
+00:02:20,840 --> 00:02:24,820
+It returns the variable colors used in the design
+
+53
+00:02:24,820 --> 00:02:26,700
+get_code_connect_map
+
+54
+00:02:26,700 --> 00:02:29,190
+It can retrieve Figma node IDs
+
+55
+00:02:29,190 --> 00:02:33,120
+the mapping between corresponding code and components in the codebase
+
+56
+00:02:33,120 --> 00:02:34,000
+usefigma
+
+57
+00:02:34,000 --> 00:02:35,860
+This is what was mentioned at the beginning
+
+58
+00:02:35,860 --> 00:02:39,790
+allows AI to perform some design tasks within its canvas
+
+59
+00:02:39,790 --> 00:02:41,730
+search_design_system
+
+60
+00:02:41,730 --> 00:02:43,010
+This is also very easy to understand
+
+61
+00:02:43,010 --> 00:02:45,420
+can search all connected component libraries
+
+62
+00:02:45,420 --> 00:02:46,680
+to better organize the code in your Figma file
+
+63
+00:02:46,680 --> 00:02:50,300
+You can also prompt the AI to create new files in Figma
+
+64
+00:02:50,300 --> 00:02:53,190
+no need to provide a predefined link
+
+65
+00:02:53,190 --> 00:02:55,510
+There are some best practices for using MCP
+
+66
+00:02:55,510 --> 00:02:58,630
+Figma officially recommends combining Figma Make
+
+67
+00:02:58,630 --> 00:03:00,709
+combined with Figma MCP
+
+68
+00:03:00,709 --> 00:03:02,129
+Now, let me introduce
+
+69
+00:03:02,129 --> 00:03:04,929
+What I've accomplished with Figma AI
+
+70
+00:03:04,929 --> 00:03:07,450
+I prompted the AI in Cursor
+
+71
+00:03:07,450 --> 00:03:09,990
+At that time, Opus 4.6 was used
+
+72
+00:03:09,990 --> 00:03:13,350
+
+
+73
+00:03:13,350 --> 00:03:18,209
+to generate a foldable phone application, the new Figma design page
+
+74
+00:03:18,209 --> 00:03:20,650
+Here, I selected the plan mode
+
+75
+00:03:20,650 --> 00:03:21,890
+Opus 4.6 is here
+
+76
+00:03:21,890 --> 00:03:24,710
+made a six-phase plan
+
+77
+00:03:24,710 --> 00:03:27,740
+Then let it proceed with execution
+
+78
+00:03:27,740 --> 00:03:31,800
+We see it communicating with MCP, first checking if my Figma is authenticated
+
+79
+00:03:31,800 --> 00:03:36,430
+has it been authenticated
+
+80
+00:03:36,430 --> 00:03:39,270
+Then it starts to use the create_new_file tool
+
+81
+00:03:39,270 --> 00:03:43,220
+Create a new file
+
+82
+00:03:43,220 --> 00:03:46,620
+Then, proceed to use the use_figma_tool
+
+83
+00:03:46,620 --> 00:03:49,620
+design in the Figma Canvas
+
+84
+00:03:49,620 --> 00:03:53,120
+Then it started creating design tokens and color variable sets
+
+85
+00:03:53,120 --> 00:03:54,810
+check fonts
+
+86
+00:03:54,810 --> 00:03:58,150
+Then it proceeded to create the first screen.
+
+87
+00:03:58,150 --> 00:03:59,250
+After the creation was completed, it also took a screenshot to verify.
+
+88
+00:03:59,250 --> 00:04:01,090
+He also took a screenshot for verification.
+
+89
+00:04:01,090 --> 00:04:04,490
+Let's not look at the book title and the author for now
+
+90
+00:04:04,490 --> 00:04:06,390
+It actually doesn't correspond one-to-one.
+
+91
+00:04:06,390 --> 00:04:11,390
+The entire screenshot shows that its design is relatively elegant.
+
+92
+00:04:11,390 --> 00:04:14,690
+Then it creates the second screen
+
+93
+00:04:14,690 --> 00:04:19,269
+then the third, fourth, and so on with a single prompt
+
+94
+00:04:19,269 --> 00:04:21,589
+it created so many pages for me
+
+95
+00:04:21,589 --> 00:04:22,750
+After the creation is completed
+
+96
+00:04:22,750 --> 00:04:25,210
+also provides me with the relevant links
+
+97
+00:04:25,210 --> 00:04:28,290
+and informed me that 4 Chinese pages were completed
+
+98
+00:04:28,290 --> 00:04:29,890
+Navigating to the Figma page
+
+99
+00:04:29,890 --> 00:04:34,130
+We can see that all 4 layers were generated for me by the AI
+
+100
+00:04:34,130 --> 00:04:38,310
+It follows the design system language I initially provided to it.
+
+101
+00:04:38,750 --> 00:04:42,190
+Here we can see the inner screen and the unfolded Home
+
+102
+00:04:43,190 --> 00:04:44,980
+and the bookshelf section
+
+103
+00:04:44,980 --> 00:04:47,600
+as well as the immersive reading page
+
+104
+00:04:47,600 --> 00:04:50,380
+I actually really like its design
+
+105
+00:04:50,380 --> 00:04:54,500
+The color scheme and the text chosen here are also excellent.
+
+106
+00:04:54,500 --> 00:04:57,250
+The external screen also has a folded state.
+
+107
+00:04:57,250 --> 00:05:01,840
+It also mimics the Wi-Fi, battery, and time here.
+
+108
+00:05:02,120 --> 00:05:06,500
+Below it shows what would appear when initially entering this bookshelf
+
+109
+00:05:06,500 --> 00:05:08,660
+What are the recent activities?
+
+110
+00:05:08,660 --> 00:05:10,040
+and quick actions
+
+111
+00:05:10,040 --> 00:05:13,440
+I think the design of Opus 4.6 is quite good in this regard.
+
+112
+00:05:13,440 --> 00:05:17,299
+In my previous video, I mentioned Google's Stitch
+
+113
+00:05:17,299 --> 00:05:21,539
+prompt it to generate a foldable
+
+114
+00:05:21,539 --> 00:05:23,350
+Android reading app
+
+115
+00:05:23,350 --> 00:05:27,150
+it generates these for me, as we can see on the screen
+
+116
+00:05:27,150 --> 00:05:29,450
+On the left is its design language
+
+117
+00:05:29,450 --> 00:05:32,890
+When I click on the drawing board icon on the right side
+
+118
+00:05:32,890 --> 00:05:34,610
+select it
+
+119
+00:05:34,610 --> 00:05:38,400
+
+
+120
+00:05:38,400 --> 00:05:39,980
+Shall I translate it well?
+
+121
+00:05:39,980 --> 00:05:41,660
+Then place it in Cursor
+
+122
+00:05:41,660 --> 00:05:45,660
+Let Opus 4.6 generate based on this design system
+
+123
+00:05:45,660 --> 00:05:49,570
+these pages we see on the Figma canvas
+
+124
+00:05:49,570 --> 00:05:57,039
+Personally, I think its overall color design language is maintained quite well
+
+125
+00:05:57,039 --> 00:06:01,079
+including what we're seeing here, this kind of
+
+126
+00:06:01,079 --> 00:06:02,679
+The typography spacing style is also very similar
+
+127
+00:06:02,679 --> 00:06:06,759
+Ah
+
+128
+00:06:06,759 --> 00:06:10,339
+the style initially designed by Stitch here
+
+129
+00:06:10,339 --> 00:06:11,750
+switch to another model
+
+130
+00:06:11,750 --> 00:06:16,370
+What will AI design look like through Figma MCP?
+
+131
+00:06:16,370 --> 00:06:19,779
+Here, it is designed using the recently launched Composer 2 by Cursor
+
+132
+00:06:19,779 --> 00:06:21,220
+secondly designed
+
+133
+00:06:21,220 --> 00:06:24,180
+It helped me create two simple pages
+
+134
+00:06:24,180 --> 00:06:27,289
+This page is relatively simple overall.
+
+135
+00:06:27,289 --> 00:06:32,049
+The color scheme is very similar to the design language Markdown file I initially provided.
+
+136
+00:06:32,049 --> 00:06:34,030
+the markdown file is still very similar
+
+137
+00:06:34,030 --> 00:06:35,920
+Let's take a look at its expanded state
+
+138
+00:06:35,920 --> 00:06:39,700
+Here, the design doesn't particularly resemble a foldable screen.
+
+139
+00:06:39,700 --> 00:06:42,560
+Although the foldable screen also has a large display area
+
+140
+00:06:42,560 --> 00:06:46,740
+but the icon design on the left is still too small
+
+141
+00:06:46,740 --> 00:06:50,560
+including the relatively limited content it displays
+
+142
+00:06:50,840 --> 00:06:54,400
+Here, I first used the Composer 2 model
+
+143
+00:06:54,400 --> 00:06:57,880
+Secondly, the planning mode was not used at that time
+
+144
+00:06:57,880 --> 00:07:01,180
+to display more content
+
+145
+00:07:01,180 --> 00:07:05,330
+So initially, it helped me build the page
+
+146
+00:07:05,330 --> 00:07:07,710
+We can see it's very simple.
+
+147
+00:07:07,710 --> 00:07:08,630
+Now let's take a look at
+
+148
+00:07:08,630 --> 00:07:12,419
+How to have Figma MCP create this Little Bird Children's Hair Salon Landing Page
+
+149
+00:07:12,419 --> 00:07:15,319
+the landing page for the children's barbershop
+
+150
+00:07:15,319 --> 00:07:19,200
+and finally, let the AI generate a real page
+
+151
+00:07:19,200 --> 00:07:21,820
+We can see that these images were generated by Cursor calling NanoBanana.
+
+152
+00:07:21,820 --> 00:07:24,510
+Generated by calling NANOBALA
+
+153
+00:07:24,510 --> 00:07:27,130
+Below are the service items
+
+154
+00:07:27,130 --> 00:07:28,730
+haircut process
+
+155
+00:07:28,730 --> 00:07:30,210
+store environment
+
+156
+00:07:30,210 --> 00:07:32,900
+Parent reviews, advance booking, etc.
+
+157
+00:07:32,900 --> 00:07:35,020
+including the frequently asked questions here
+
+158
+00:07:35,020 --> 00:07:37,880
+This program was generated through GPT-5.4
+
+159
+00:07:37,880 --> 00:07:41,640
+ultimately generated through the reasoning level of medium
+
+160
+00:07:41,640 --> 00:07:43,080
+Before creating the application
+
+161
+00:07:43,080 --> 00:07:46,160
+I first found the Duolingo webpage
+
+162
+00:07:46,160 --> 00:07:47,520
+This is just for demonstration purposes
+
+163
+00:07:47,520 --> 00:07:51,080
+We can see that the style of Duolingo
+
+164
+00:07:51,080 --> 00:07:53,560
+Its icon logo is green
+
+165
+00:07:53,560 --> 00:07:55,920
+The overall page is quite adorable
+
+166
+00:07:55,920 --> 00:07:58,800
+There will be some rounded elements like this
+
+167
+00:07:58,800 --> 00:08:04,289
+In Cursor, prompt GPT-5.4 to base it on the Duolingo website
+
+168
+00:08:04,289 --> 00:08:07,419
+Create a complete design system in Figma
+
+169
+00:08:07,419 --> 00:08:10,599
+Create a component library containing entities
+
+170
+00:08:10,599 --> 00:08:12,990
+and pull the real Logo files
+
+171
+00:08:12,990 --> 00:08:16,250
+Use real fonts and colors
+
+172
+00:08:16,250 --> 00:08:18,630
+The system will create all of this content on a single page of a new Figma file.
+
+173
+00:08:18,630 --> 00:08:19,970
+on a single page of the Figma file
+
+174
+00:08:19,970 --> 00:08:23,220
+It first retrieves the Duolingo material
+
+175
+00:08:23,220 --> 00:08:27,760
+I referred to a prompt from Factory AI
+
+176
+00:08:27,760 --> 00:08:30,540
+Then proceed to invoke Figma MCP
+
+177
+00:08:30,540 --> 00:08:32,630
+After a while,
+
+178
+00:08:32,630 --> 00:08:34,558
+it prompted me
+
+179
+00:08:34,558 --> 00:08:37,879
+it has already obtained these authentic brand assets
+
+180
+00:08:37,879 --> 00:08:39,219
+Then I told it
+
+181
+00:08:39,219 --> 00:08:41,860
+Use the authentic colors and the official logo
+
+182
+00:08:41,860 --> 00:08:44,800
+while incorporating the font specifications into the design system
+
+183
+00:08:44,800 --> 00:08:47,160
+but the editable text within the components
+
+184
+00:08:47,160 --> 00:08:49,760
+First use another font as a substitute
+
+185
+00:08:49,760 --> 00:08:52,780
+Then it generated a page like this
+
+186
+00:08:52,780 --> 00:08:56,800
+Zoom in a bit to see which colors it uses
+
+187
+00:08:57,130 --> 00:09:01,470
+and fonts, the authentic official Logo file
+
+188
+00:09:01,470 --> 00:09:02,890
+and a variable component library
+
+189
+00:09:02,890 --> 00:09:05,730
+input fields, card materials, etc.
+
+190
+00:09:05,730 --> 00:09:09,160
+After that, I prompted it to reference the current design style
+
+191
+00:09:09,160 --> 00:09:11,940
+Create a single-page Birdie Kids Haircut website in Figma
+
+192
+00:09:11,940 --> 00:09:14,860
+The design page needs to be in Chinese.
+
+193
+00:09:14,860 --> 00:09:17,520
+In Figma, it will display a page like this
+
+194
+00:09:17,520 --> 00:09:19,779
+and it prompts me
+
+195
+00:09:19,779 --> 00:09:23,939
+It can further refine this webpage to create a high-fidelity version.
+
+196
+00:09:23,939 --> 00:09:26,800
+So I asked it to create a high-fidelity version
+
+197
+00:09:26,800 --> 00:09:31,670
+There is a card that uses some orange elements.
+
+198
+00:09:31,670 --> 00:09:35,540
+I think this orange color doesn't quite match the overall page.
+
+199
+00:09:35,540 --> 00:09:39,140
+I manually adjusted some of the card's background
+
+200
+00:09:39,140 --> 00:09:40,380
+font color
+
+201
+00:09:40,380 --> 00:09:44,180
+Then open a new Cursor's Agent page
+
+202
+00:09:44,180 --> 00:09:46,640
+Place such a link here
+
+203
+00:09:46,640 --> 00:09:48,180
+How do I get this link?
+
+204
+00:09:48,180 --> 00:09:51,970
+select a layer on the left
+
+205
+00:09:51,970 --> 00:09:54,240
+
+
+206
+00:09:54,240 --> 00:09:56,120
+
+
+207
+00:09:56,120 --> 00:09:58,660
+you can select this entire block
+
+208
+00:09:58,660 --> 00:10:02,310
+Place this link in the Cursor dialog box
+
+209
+00:10:02,310 --> 00:10:05,729
+Let the AI generate a React application based on the link
+
+210
+00:10:05,729 --> 00:10:09,269
+then it calls get_design_context in Figma
+
+211
+00:10:09,269 --> 00:10:11,209
+started writing the code
+
+212
+00:10:11,209 --> 00:10:13,880
+The program was quickly completed.
+
+213
+00:10:13,880 --> 00:10:18,420
+It mentioned that some of the illustrations and icons in this
+
+214
+00:10:18,420 --> 00:10:21,870
+It uses remote resource links returned by Figma MCP
+
+215
+00:10:21,870 --> 00:10:24,210
+These types of resources are usually not permanent.
+
+216
+00:10:24,210 --> 00:10:26,340
+It can generate some images
+
+217
+00:10:26,340 --> 00:10:29,290
+so I had it call the image generation function
+
+218
+00:10:29,290 --> 00:10:31,470
+generate suitable images for the webpage
+
+219
+00:10:31,470 --> 00:10:34,170
+It will call Google's image generation NanoBanana
+
+220
+00:10:34,170 --> 00:10:36,160
+nano brother
+
+221
+00:10:36,160 --> 00:10:38,760
+I see the three images it generated
+
+222
+00:10:38,760 --> 00:10:41,510
+Except for the third one which may not be perfect
+
+223
+00:10:41,510 --> 00:10:43,530
+The first two are quite good.
+
+224
+00:10:43,530 --> 00:10:47,210
+Then I asked it to place these three images onto the current page
+
+225
+00:10:47,210 --> 00:10:49,560
+Replace the current remote Figma image
+
+226
+00:10:49,560 --> 00:10:54,530
+and appropriately add some motion UGC Anime effects
+
+227
+00:10:54,530 --> 00:10:56,870
+Finally, GPT-5.4 was used
+
+228
+00:10:56,870 --> 00:11:00,130
+generated the style we now see
+
+229
+00:11:00,130 --> 00:11:03,299
+Here, no frontend skills were called upon.
+
+230
+00:11:03,299 --> 00:11:03,939
+Skills
+
+231
+00:11:03,939 --> 00:11:07,420
+but used Figma MCP
+
+232
+00:11:07,420 --> 00:11:10,960
+a pre-designed element
+
+233
+00:11:10,960 --> 00:11:13,850
+and finally generated such a page
+
+234
+00:11:13,850 --> 00:11:15,410
+I personally think Figma MCP is well applied here
+
+235
+00:11:15,410 --> 00:11:19,250
+is very good and convenient
+
+236
+00:11:19,250 --> 00:11:21,230
+The two cases just introduced
+
+237
+00:11:21,230 --> 00:11:26,760
+allows AI to generate through the use_figma_tool
+
+238
+00:11:26,760 --> 00:11:29,020
+Now, let's look at another example
+
+239
+00:11:29,020 --> 00:11:31,620
+is calling Figma MCP
+
+240
+00:11:31,620 --> 00:11:38,880
+to make some adjustments to elements based on my existing program
+
+241
+00:11:38,880 --> 00:11:41,760
+First, I had it review my existing code files
+
+242
+00:11:41,760 --> 00:11:45,460
+ask it what components can be created using Figma MCP
+
+243
+00:11:45,460 --> 00:11:49,300
+Then GPT-5.4 suggested starting with these parts first
+
+244
+00:11:49,300 --> 00:11:54,829
+Then, I asked it to create a Voice Studio main interface
+
+245
+00:11:54,829 --> 00:11:58,690
+and generate it into the Figma Canvas
+
+246
+00:11:58,690 --> 00:12:01,710
+At that time, I created a new page for it
+
+247
+00:12:01,710 --> 00:12:03,810
+even if you don't create a new page for it
+
+248
+00:12:03,810 --> 00:12:04,810
+is also possible
+
+249
+00:12:04,810 --> 00:12:07,250
+It will automatically create a new page.
+
+250
+00:12:07,250 --> 00:12:08,410
+then you can see the AI
+
+251
+00:12:08,410 --> 00:12:11,070
+on the Figma page
+
+252
+00:12:11,070 --> 00:12:12,750
+generated such a page
+
+253
+00:12:12,750 --> 00:12:15,190
+During the screenshot generation, it noticed
+
+254
+00:12:15,190 --> 00:12:17,520
+There is an issue with the height here
+
+255
+00:12:17,520 --> 00:12:20,360
+It adjusted itself again
+
+256
+00:12:20,360 --> 00:12:23,560
+This is the component library it generated at that time
+
+257
+00:12:23,560 --> 00:12:24,610
+page
+
+258
+00:12:24,890 --> 00:12:27,290
+On the left is the component library
+
+259
+00:12:29,760 --> 00:12:32,620
+On the right is a combined example
+
+260
+00:12:32,620 --> 00:12:36,290
+Then I prompted the AI to upgrade these visual components
+
+261
+00:12:36,290 --> 00:12:39,740
+Upgrade it into a more standardized Figma design system
+
+262
+00:12:39,740 --> 00:12:44,340
+The complete Mimo Voice Studio web interface
+
+263
+00:12:44,340 --> 00:12:46,400
+This is a cover
+
+264
+00:12:46,400 --> 00:12:49,750
+This is the foundational style set of the design system
+
+265
+00:12:49,750 --> 00:12:55,590
+Here we can see it, which lists different colors and fonts
+
+266
+00:12:56,490 --> 00:12:59,610
+and also includes fonts of different sizes
+
+267
+00:12:59,610 --> 00:13:01,150
+It is also displayed here
+
+268
+00:13:01,150 --> 00:13:03,990
+and different components
+
+269
+00:13:03,990 --> 00:13:07,480
+This is actions
+
+270
+00:13:07,480 --> 00:13:08,940
+Okay, this is feedback
+
+271
+00:13:08,940 --> 00:13:09,720
+Then it helped me create 5 more pages.
+
+272
+00:13:09,720 --> 00:13:13,320
+It also helped me create five more pages
+
+273
+00:13:13,320 --> 00:13:18,180
+As we can see, there are different web interface pages
+
+274
+00:13:18,180 --> 00:13:21,660
+and the desktop version with Settings opened
+
+275
+00:13:21,660 --> 00:13:25,140
+Finally, there is also a mobile version display for the pages.
+
+276
+00:13:25,140 --> 00:13:27,940
+Overall, the content is very rich.
+
+277
+00:13:27,940 --> 00:13:30,860
+Finally, GPT responded that
+
+278
+00:13:30,860 --> 00:13:33,849
+These different pages have been completed
+
+279
+00:13:33,849 --> 00:13:37,469
+created style sets
+
+280
+00:13:37,469 --> 00:13:40,849
+including variable sets, colors, semantic spacing
+
+281
+00:13:40,849 --> 00:13:42,890
+semantic text styles
+
+282
+00:13:42,890 --> 00:13:44,560
+shadow styles
+
+283
+00:13:44,840 --> 00:13:46,800
+and these component libraries
+
+284
+00:13:46,800 --> 00:13:49,420
+It also helped break it down for me
+
+285
+00:13:49,420 --> 00:13:53,359
+AI helps us create such a detailed breakdown
+
+286
+00:13:53,359 --> 00:13:57,999
+This greatly facilitates our subsequent addition of program functionalities.
+
+287
+00:13:57,999 --> 00:13:59,629
+adjust
+
+288
+00:13:59,629 --> 00:14:02,309
+Maintain consistent design language across different pages
+
+289
+00:14:02,309 --> 00:14:03,529
+Finally, let me show you how to use AI
+
+290
+00:14:03,529 --> 00:14:08,310
+Take this initial design
+
+291
+00:14:08,310 --> 00:14:11,920
+This page was previously created using Figma AI.
+
+292
+00:14:11,920 --> 00:14:17,200
+then have it adjust and generate the design we see on the right
+
+293
+00:14:17,200 --> 00:14:21,320
+First, I'll retrieve the URL of the initial design
+
+294
+00:14:21,320 --> 00:14:24,600
+change it to Swiss design style
+
+295
+00:14:24,600 --> 00:14:28,060
+Then it informed me that after reading this page
+
+296
+00:14:28,060 --> 00:14:31,190
+triggered the call limit of the Starter Plan
+
+297
+00:14:31,190 --> 00:14:32,790
+so it couldn't make the changes
+
+298
+00:14:33,910 --> 00:14:36,610
+After that, I started to upgrade the plan.
+
+299
+00:14:36,610 --> 00:14:39,690
+including the other three cases we just saw
+
+300
+00:14:39,690 --> 00:14:41,930
+were all done after I upgraded the plan
+
+301
+00:14:41,930 --> 00:14:43,700
+Then it started designing
+
+302
+00:14:43,700 --> 00:14:47,800
+We can see there's a large blank area here
+
+303
+00:14:47,800 --> 00:14:52,380
+So I took a screenshot and had it make some adjustments
+
+304
+00:14:52,380 --> 00:14:54,620
+This is the AI-optimized version
+
+305
+00:14:54,740 --> 00:14:56,960
+As you can see, there have been some changes
+
+306
+00:14:56,960 --> 00:14:58,340
+Of course, this part of the content
+
+307
+00:14:58,340 --> 00:15:00,800
+Maybe you'd better do it manually
+
+308
+00:15:00,800 --> 00:15:04,089
+After all, using these AI features isn't particularly cheap.
+
+309
+00:15:04,089 --> 00:15:08,569
+Finally, I also asked it to make the navigation on the page more prominent.
+
+310
+00:15:08,569 --> 00:15:10,689
+Convert the entire page into Chinese
+
+311
+00:15:10,689 --> 00:15:13,230
+After confirming the availability of a specific font
+
+312
+00:15:13,230 --> 00:15:17,350
+Refreshing your look with professional styling, the page instantly switched to Chinese
+
+313
+00:15:17,350 --> 00:15:20,420
+Although there are still quite a few issues with this current page
+
+314
+00:15:20,420 --> 00:15:24,060
+However, we can see that when the AI calls the use_figma tool
+
+315
+00:15:24,060 --> 00:15:27,960
+The generation effect is still very good
+
+316
+00:15:27,960 --> 00:15:30,160
+Its modification speed is also excellent.
+
+317
+00:15:30,160 --> 00:15:33,710
+Personally, I'm not very good at using Figma.
+
+318
+00:15:33,710 --> 00:15:36,250
+Then through Figma MCP
+
+319
+00:15:36,250 --> 00:15:39,600
+It can help us easily achieve this.
+

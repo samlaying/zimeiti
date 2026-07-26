@@ -1,0 +1,532 @@
+1
+00:00:00,680 --> 00:00:00,920
+Alright
+
+2
+00:00:00,920 --> 00:00:02,940
+We have already constructed this constructor
+
+3
+00:00:02,940 --> 00:00:04,560
+and initialized it
+
+4
+00:00:04,560 --> 00:00:07,000
+Now let's write down the rest
+
+5
+00:00:07,000 --> 00:00:09,040
+First, let's define these member variables
+
+6
+00:00:09,040 --> 00:00:11,080
+There are some more member variables to define
+
+7
+00:00:11,080 --> 00:00:11,440
+Let's define them
+
+8
+00:00:11,440 --> 00:00:14,560
+I'll define them in this abstract layer
+
+9
+00:00:15,700 --> 00:00:17,520
+Similarly, under this modifier
+
+10
+00:00:17,520 --> 00:00:21,100
+Because we need all these variables.
+
+11
+00:00:21,100 --> 00:00:23,280
+We will also need them for subsequent steps.
+
+12
+00:00:23,280 --> 00:00:24,240
+So, they are defined here.
+
+13
+00:00:24,240 --> 00:00:27,570
+One is the input potential and the output potential.
+
+14
+00:00:27,570 --> 00:00:29,330
+This is when we enable it.
+
+15
+00:00:29,330 --> 00:00:30,130
+After enabling it,
+
+16
+00:00:30,130 --> 00:00:31,010
+If we enable it again,
+
+17
+00:00:31,010 --> 00:00:32,900
+We need to check if it has already been enabled.
+
+18
+00:00:32,900 --> 00:00:34,340
+If it is already enabled, we don't need to enable it again.
+
+19
+00:00:34,340 --> 00:00:36,660
+This is the input reference for it.
+
+20
+00:00:36,660 --> 00:00:37,400
+Let's put it here for now.
+
+21
+00:00:37,400 --> 00:00:40,880
+Then we need to place this input reference here.
+
+22
+00:00:40,880 --> 00:00:42,680
+We need to keep it here.
+
+23
+00:00:42,680 --> 00:00:44,860
+Because we are going to use it.
+
+24
+00:00:44,860 --> 00:00:49,670
+We also need to save this input reference in here.
+
+25
+00:00:49,670 --> 00:00:51,790
+Save it as well.
+
+26
+00:00:52,860 --> 00:00:54,280
+Make sure to save it.
+
+27
+00:00:54,280 --> 00:00:57,620
+Then we'll proceed to implement the code.
+
+28
+00:00:57,620 --> 00:01:00,300
+Let's copy these lines of code over.
+
+29
+00:01:05,720 --> 00:01:06,680
+That's it.
+
+30
+00:01:06,680 --> 00:01:07,760
+Let's overwrite them first.
+
+31
+00:01:07,760 --> 00:01:08,980
+Just overwrite these.
+
+32
+00:01:08,980 --> 00:01:11,730
+Including this destructor.
+
+33
+00:01:11,930 --> 00:01:12,690
+Let's take a look.
+
+34
+00:01:12,690 --> 00:01:13,850
+This is pretty straightforward.
+
+35
+00:01:13,850 --> 00:01:15,070
+Inside this one,
+
+36
+00:01:15,070 --> 00:01:18,290
+First, the destructor is about releasing these resources.
+
+37
+00:01:18,290 --> 00:01:19,680
+Let's release the resources
+
+38
+00:01:19,680 --> 00:01:23,410
+Then, if we enable it, that means enabling the input
+
+39
+00:01:23,410 --> 00:01:24,510
+First, we need to check
+
+40
+00:01:24,510 --> 00:01:25,570
+If it's already enabled
+
+41
+00:01:25,570 --> 00:01:26,790
+We can just return
+
+42
+00:01:26,790 --> 00:01:28,230
+No need to enable it again
+
+43
+00:01:28,230 --> 00:01:29,410
+If it hasn't been enabled yet
+
+44
+00:01:29,410 --> 00:01:31,750
+We'll enable it here
+
+45
+00:01:31,750 --> 00:01:34,230
+This means opening the channel
+
+46
+00:01:34,230 --> 00:01:35,730
+Call its open method
+
+47
+00:01:35,730 --> 00:01:37,230
+Open the channel
+
+48
+00:01:39,480 --> 00:01:42,340
+Then set its enable property to true
+
+49
+00:01:42,340 --> 00:01:44,980
+Similarly, the enable output is the same
+
+50
+00:01:44,980 --> 00:01:46,539
+Check it out
+
+51
+00:01:46,699 --> 00:01:49,139
+Then also open this channel
+
+52
+00:01:49,139 --> 00:01:52,959
+Here we also set the output to true
+
+53
+00:01:52,959 --> 00:01:54,999
+And here is
+
+54
+00:01:54,999 --> 00:01:57,160
+This is the close
+
+55
+00:01:57,160 --> 00:01:58,700
+Let's close this channel.
+
+56
+00:01:58,700 --> 00:02:00,580
+Similarly, close the input and output channels.
+
+57
+00:02:00,580 --> 00:02:02,380
+Here, we've made some changes.
+
+58
+00:02:02,380 --> 00:02:03,060
+Right here.
+
+59
+00:02:03,060 --> 00:02:09,050
+We use a pointer and an array of int16.
+
+60
+00:02:09,050 --> 00:02:10,750
+We pass this array.
+
+61
+00:02:10,750 --> 00:02:12,450
+We do the same here as well.
+
+62
+00:02:12,450 --> 00:02:14,890
+Let's make this change.
+
+63
+00:02:14,890 --> 00:02:20,050
+In the previous definition, we referred to this as a dynamic array.
+
+64
+00:02:20,050 --> 00:02:21,970
+Let's make a change now.
+
+65
+00:02:29,420 --> 00:02:31,740
+We'll modify this part here.
+
+66
+00:02:37,580 --> 00:02:39,760
+Then we'll construct this.
+
+67
+00:02:39,760 --> 00:02:42,950
+This is called the abstraction layer.
+
+68
+00:02:42,950 --> 00:02:44,870
+We need to adjust this as well.
+
+69
+00:02:50,980 --> 00:02:53,620
+Let's code it like this.
+
+70
+00:02:56,860 --> 00:02:58,660
+Is there anything here that hasn't been changed?
+
+71
+00:02:58,660 --> 00:02:59,980
+Let me check.
+
+72
+00:02:59,980 --> 00:03:01,420
+This spot
+
+73
+00:03:05,820 --> 00:03:07,380
+Oh, I made a mistake here.
+
+74
+00:03:07,380 --> 00:03:08,940
+It's this one.
+
+75
+00:03:18,700 --> 00:03:20,460
+Ah, the compilation passed here.
+
+76
+00:03:20,460 --> 00:03:21,980
+Let's take a look then.
+
+77
+00:03:21,980 --> 00:03:23,940
+So the code we've written so far is...
+
+78
+00:03:23,940 --> 00:03:25,380
+By refactoring these pieces of code,
+
+79
+00:03:25,380 --> 00:03:26,220
+Let's check it out.
+
+80
+00:03:26,220 --> 00:03:28,940
+Overall, it's basically all refactored now.
+
+81
+00:03:28,940 --> 00:03:30,260
+This code is almost fully refactored.
+
+82
+00:03:30,260 --> 00:03:32,020
+But we haven't started using it yet.
+
+83
+00:03:32,020 --> 00:03:33,380
+Actually, our code
+
+84
+00:03:33,380 --> 00:03:37,460
+mainly uses this component.
+
+85
+00:03:37,460 --> 00:03:39,000
+It refactored the previous code.
+
+86
+00:03:39,000 --> 00:03:40,120
+It uses this component.
+
+87
+00:03:40,120 --> 00:03:42,600
+First, we need to pass these things in the constructor.
+
+88
+00:03:42,600 --> 00:03:44,850
+We'll pass these things when we use it later.
+
+89
+00:03:44,850 --> 00:03:49,330
+Then it constructs this object for us.
+
+90
+00:03:49,330 --> 00:03:51,130
+And when we use it later on,
+
+91
+00:03:51,130 --> 00:03:54,620
+We use this image layer, right?
+
+92
+00:03:54,620 --> 00:03:55,540
+We use it
+
+93
+00:03:55,540 --> 00:03:57,760
+Because this layer
+
+94
+00:03:57,760 --> 00:04:00,009
+It inherits from the abstract layer, you see
+
+95
+00:04:00,009 --> 00:04:01,909
+We'll use the abstract layer later
+
+96
+00:04:01,909 --> 00:04:04,180
+There's not much in here
+
+97
+00:04:04,180 --> 00:04:07,160
+We don't need to focus on the specific implementation inside.
+
+98
+00:04:07,160 --> 00:04:10,120
+We call these playback functions here, right?
+
+99
+00:04:10,120 --> 00:04:12,900
+And this recording is for capturing audio
+
+100
+00:04:12,900 --> 00:04:15,710
+These are quite simple.
+
+101
+00:04:15,710 --> 00:04:17,529
+It will be much easier to use later.
+
+102
+00:04:17,529 --> 00:04:18,930
+So, um,
+
+103
+00:04:18,930 --> 00:04:23,160
+Next, the main focus is on how to use it.
+
+104
+00:04:23,160 --> 00:04:25,280
+We, um, use one,
+
+105
+00:04:25,280 --> 00:04:29,640
+We need to create a board mode.
+
+106
+00:04:29,640 --> 00:04:31,020
+What kind of board are we using?
+
+107
+00:04:31,020 --> 00:04:33,380
+Then we initialize it within the board.
+
+108
+00:04:33,380 --> 00:04:35,220
+Initialize at the board level.
+
+109
+00:04:35,220 --> 00:04:37,790
+This is the object.
+
+110
+00:04:37,790 --> 00:04:41,600
+Then we use this structure later.
+
+111
+00:04:41,600 --> 00:04:43,250
+This is the abstraction layer.
+
+112
+00:04:43,250 --> 00:04:45,330
+But we pass these items.
+
+113
+00:04:45,330 --> 00:04:46,130
+These parameters.
+
+114
+00:04:46,130 --> 00:04:47,810
+We need to handle them at the board level.
+
+115
+00:04:47,810 --> 00:04:48,850
+Because different boards.
+
+116
+00:04:48,850 --> 00:04:50,090
+Have different management systems.
+
+117
+00:04:50,090 --> 00:04:51,970
+So we need to add an extra layer.
+
+118
+00:04:51,970 --> 00:04:53,859
+For the subsequent board replacement
+
+119
+00:04:53,859 --> 00:04:55,679
+we don't need to worry about these details
+
+120
+00:04:55,679 --> 00:04:57,039
+because they have all been taken care of for us
+
+121
+00:04:57,039 --> 00:04:59,119
+we just need to focus on your pins, right?
+
+122
+00:04:59,119 --> 00:05:00,039
+since your board has changed
+
+123
+00:05:00,039 --> 00:05:00,999
+the pins might change as well
+
+124
+00:05:00,999 --> 00:05:04,610
+but honestly, we don't need to worry about those
+
+125
+00:05:05,090 --> 00:05:06,410
+currently, in our setup
+
+126
+00:05:06,410 --> 00:05:09,140
+we are mostly using some default configurations
+
+127
+00:05:09,140 --> 00:05:11,020
+if we need to optimize later
+
+128
+00:05:11,020 --> 00:05:12,580
+we can then look into these details more closely
+
+129
+00:05:12,580 --> 00:05:15,300
+Let's not focus on the details for now.
+
+130
+00:05:15,300 --> 00:05:17,140
+We'll skip the details for now.
+
+131
+00:05:17,140 --> 00:05:19,060
+until they no longer meet our needs
+
+132
+00:05:19,060 --> 00:05:20,680
+then we'll come back and optimize
+
+133
+00:05:20,680 --> 00:05:22,160
+Alright, that's it for this lesson
+

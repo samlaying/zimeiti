@@ -1,0 +1,1240 @@
+1
+00:00:02,480 --> 00:00:06,340
+Bilibili has officially launched its own AI video creation platform, Updream.
+
+2
+00:00:06,340 --> 00:00:07,090
+UpDream.
+
+3
+00:00:07,090 --> 00:00:10,110
+Its biggest feature is the support for an infinite canvas.
+
+4
+00:00:10,110 --> 00:00:13,500
+Plus, it supports the Seedance 2.0 video generation model.
+
+5
+00:00:13,500 --> 00:00:17,220
+It also supports a variety of other AI video generation models.
+
+6
+00:00:17,220 --> 00:00:18,880
+like Kling 3.0,
+
+7
+00:00:18,880 --> 00:00:20,760
+and Alibaba's Wan 2.7.
+
+8
+00:00:20,760 --> 00:00:23,410
+
+
+9
+00:00:23,410 --> 00:00:26,650
+We can add nodes just like we would in ComfyUI.
+
+10
+00:00:26,650 --> 00:00:31,430
+And then, by connecting these nodes, you can build a video generation workflow.
+
+11
+00:00:31,430 --> 00:00:35,450
+It allows you to call upon different skills, or even create your own.
+
+12
+00:00:35,450 --> 00:00:37,349
+Plus, it supports long-term memory.
+
+13
+00:00:37,349 --> 00:00:41,149
+So in this video, we're going to put UpDream to the test in a variety of scenarios to really see what it can do.
+
+14
+00:00:41,149 --> 00:00:41,729
+UpDream.
+
+15
+00:00:41,729 --> 00:00:44,500
+So, how good is its video creation capability, really?
+
+16
+00:00:44,500 --> 00:00:45,780
+Before we start the tests,
+
+17
+00:00:45,780 --> 00:00:49,300
+First, let me show you a few examples I've generated with Updream.
+
+18
+00:00:49,300 --> 00:00:51,060
+Let's see what Updream can do.
+
+19
+00:00:51,060 --> 00:00:55,100
+For this video, I started with this image that I generated using AI.
+
+20
+00:00:55,100 --> 00:00:57,960
+And this image is of a skincare product.
+
+21
+00:00:57,960 --> 00:01:01,940
+And then, I had Updream generate a video for this skincare product based on that image.
+
+22
+00:01:01,940 --> 00:01:03,080
+Let's play it first.
+
+23
+00:01:03,080 --> 00:01:04,599
+Let's see how it turned out.
+
+24
+00:01:09,000 --> 00:01:11,260
+As you can see, the result is quite impressive.
+
+25
+00:01:11,260 --> 00:01:15,060
+Whether it's the scene itself or the sound and music accompanying it,
+
+26
+00:01:15,060 --> 00:01:17,460
+or the movements of the characters in the scene.
+
+27
+00:01:17,460 --> 00:01:20,000
+and even the effect of the skincare product itself.
+
+28
+00:01:20,000 --> 00:01:22,020
+Everything looks incredibly realistic.
+
+29
+00:01:22,020 --> 00:01:23,260
+Alright, let's see what else it can do.
+
+30
+00:01:23,260 --> 00:01:24,900
+And this is what I had it generate.
+
+31
+00:01:24,900 --> 00:01:28,060
+a clip that looks like it's from a video game.
+
+32
+00:01:32,120 --> 00:01:33,520
+As you can see in this scene,
+
+33
+00:01:33,520 --> 00:01:36,240
+Plus, the character animations and effects are all incredibly well done.
+
+34
+00:01:36,240 --> 00:01:37,940
+And here, I also had it generate a...
+
+35
+00:01:37,940 --> 00:01:40,300
+This is a clip from a modern urban drama.
+
+36
+00:01:40,300 --> 00:01:41,280
+This is just a short clip.
+
+37
+00:01:41,280 --> 00:01:43,280
+Let's play it.
+
+38
+00:01:43,980 --> 00:01:45,380
+You've been watching for a while now.
+
+39
+00:01:45,380 --> 00:01:47,650
+I'm just waiting for a reply. Just waiting for a reply.
+
+40
+00:01:47,890 --> 00:01:50,310
+And the effect is pretty impressive, too.
+
+41
+00:01:50,310 --> 00:01:53,590
+And it's not just about generating short video clips with UpDream.
+
+42
+00:01:53,590 --> 00:01:56,789
+We can also use its infinite canvas and workflow functions
+
+43
+00:01:56,789 --> 00:01:58,709
+to generate more complete
+
+44
+00:01:58,709 --> 00:02:01,199
+and more cohesive long-form videos.
+
+45
+00:02:01,199 --> 00:02:04,119
+Here's a test I ran of a spaceship landing on Mars.
+
+46
+00:02:04,119 --> 00:02:07,880
+This video shows some scientists conducting an expedition on Mars.
+
+47
+00:02:07,880 --> 00:02:10,660
+And now, let's take a look at the full video, clip by clip.
+
+48
+00:02:10,660 --> 00:02:12,360
+Let's start by playing the first one.
+
+49
+00:02:12,360 --> 00:02:15,360
+This is the scene of the spaceship landing.
+
+50
+00:02:15,990 --> 00:02:19,030
+As you can see, both the visuals and the audio are really impressive.
+
+51
+00:02:19,030 --> 00:02:20,750
+Now, let's take a look at the second clip.
+
+52
+00:02:22,230 --> 00:02:25,135
+Here, we get a full view of the spaceship.
+
+53
+00:02:26,580 --> 00:02:28,860
+Now, let's take a look at the third clip.
+
+54
+00:02:29,710 --> 00:02:33,270
+Here, the hatch of the spaceship opens.
+
+55
+00:02:34,360 --> 00:02:36,790
+And now for the next clip.
+
+56
+00:02:36,790 --> 00:02:40,470
+Here, the astronaut is stepping out of the spacecraft. Surface contact confirmed.
+
+57
+00:02:41,570 --> 00:02:43,190
+Now, let's look at this scene.
+
+58
+00:02:43,190 --> 00:02:45,950
+And here's the second astronaut, stepping out of the spacecraft.
+
+59
+00:02:45,950 --> 00:02:47,170
+Then, they place down the instrument.
+
+60
+00:02:48,250 --> 00:02:50,280
+And let's see what happens next.
+
+61
+00:02:50,800 --> 00:02:53,040
+Here, the Mars rover is deploying from the spacecraft.
+
+62
+00:02:55,320 --> 00:02:57,120
+Alright, let's keep watching.
+
+63
+00:02:57,120 --> 00:03:01,510
+And here, the drone begins its survey.
+
+64
+00:03:01,750 --> 00:03:03,870
+And now, let's take a look at the final clip.
+
+65
+00:03:05,030 --> 00:03:09,060
+Here, the astronaut begins to explore Mars.
+
+66
+00:03:09,460 --> 00:03:12,420
+Plus, UpDream's infinite canvas and workflow features...
+
+67
+00:03:12,420 --> 00:03:15,320
+We can also build even more complex workflows.
+
+68
+00:03:15,320 --> 00:03:17,420
+For example, here we can provide an image.
+
+69
+00:03:17,420 --> 00:03:19,200
+And then, through a video node,
+
+70
+00:03:19,200 --> 00:03:21,220
+and have it combine the image with the previous video.
+
+71
+00:03:21,220 --> 00:03:23,660
+to generate even more complex scenes.
+
+72
+00:03:23,660 --> 00:03:26,000
+For example, take this scene I generated earlier.
+
+73
+00:03:26,000 --> 00:03:28,980
+Explorers discover an ancient spaceship in the desert.
+
+74
+00:03:28,980 --> 00:03:31,660
+And the scientific team excavated the spaceship.
+
+75
+00:03:31,660 --> 00:03:32,840
+and then they entered the ship.
+
+76
+00:03:32,840 --> 00:03:35,860
+So, let's take a quick look at the video it generated.
+
+77
+00:03:35,860 --> 00:03:38,360
+Alright, so for the first scene...
+
+78
+00:03:39,600 --> 00:03:43,000
+After the storm, a crack appears in the desert.
+
+79
+00:03:43,000 --> 00:03:45,620
+And inside, a spaceship is discovered.
+
+80
+00:03:45,620 --> 00:03:52,520
+In the second scene, the explorer personally discovers the spaceship.
+
+81
+00:03:53,960 --> 00:03:56,820
+In the third scene, we see the explorer...
+
+82
+00:03:56,820 --> 00:03:59,480
+reports the discovery of the spacecraft.
+
+83
+00:04:00,800 --> 00:04:01,970
+This is Miller. I've found something under the sand.
+
+84
+00:04:01,970 --> 00:04:02,730
+It's not rock.
+
+85
+00:04:02,730 --> 00:04:03,410
+It's not a meteorite.
+
+86
+00:04:03,410 --> 00:04:05,340
+It looks artificial.
+
+87
+00:04:05,700 --> 00:04:06,800
+Let's see what happens next.
+
+88
+00:04:06,800 --> 00:04:09,940
+And this is where the researchers began their excavation.
+
+89
+00:04:10,180 --> 00:04:11,100
+Once we're sure everything under the sand is a blurred seal,
+
+90
+00:04:11,100 --> 00:04:13,209
+Everything under the sand is a blurred seal.
+
+91
+00:04:13,649 --> 00:04:14,569
+Next scene.
+
+92
+00:04:14,569 --> 00:04:19,079
+So, the team began discussing the geological age of the spacecraft.
+
+93
+00:04:19,478 --> 00:04:21,579
+This type of alloy shouldn't be in this stratum.
+
+94
+00:04:21,579 --> 00:04:23,899
+The sedimentation period is nearly a million years.
+
+95
+00:04:23,899 --> 00:04:27,420
+The next scene shows them excavating the spaceship.
+
+96
+00:04:28,940 --> 00:04:31,020
+Oh my god, this isn't a building.
+
+97
+00:04:31,020 --> 00:04:32,720
+This is a spaceship.
+
+98
+00:04:32,720 --> 00:04:36,220
+And in the next scene, everyone boards the spaceship.
+
+99
+00:04:36,780 --> 00:04:40,460
+Oh my god, that's not a building.
+
+100
+00:04:41,360 --> 00:04:45,520
+And the next scene takes us inside the spaceship.
+
+101
+00:04:46,260 --> 00:04:49,880
+A spaceship this advanced... there's no way this is human technology.
+
+102
+00:04:49,880 --> 00:04:53,860
+And the next scene is a holographic projection inside the spaceship.
+
+103
+00:04:54,479 --> 00:04:55,779
+That's Mars.
+
+104
+00:04:55,779 --> 00:04:56,830
+Impossible. Mars was never supposed to be green.
+
+105
+00:04:56,830 --> 00:04:58,510
+Mars was never supposed to be green.
+
+106
+00:04:58,510 --> 00:05:01,990
+Originally, I was going to generate a more complete sci-fi short film.
+
+107
+00:05:01,990 --> 00:05:03,360
+But due to time constraints,
+
+108
+00:05:03,360 --> 00:05:05,080
+So, I've only generated a few clips here.
+
+109
+00:05:05,080 --> 00:05:07,320
+So, I didn't end up generating the final, full-length video.
+
+110
+00:05:07,320 --> 00:05:08,960
+So, from these examples we've seen,
+
+111
+00:05:08,960 --> 00:05:10,560
+So, I'm sure you can all get a feel for it.
+
+112
+00:05:10,560 --> 00:05:13,960
+UpDream's capabilities in video creation are actually pretty impressive.
+
+113
+00:05:13,960 --> 00:05:16,720
+Alright, let's dive into some more detailed tests.
+
+114
+00:05:16,720 --> 00:05:19,120
+If this video gets over a thousand likes,
+
+115
+00:05:19,120 --> 00:05:21,140
+I'll be bringing you more in the future.
+
+116
+00:05:21,140 --> 00:05:23,420
+and advanced AI video generation techniques.
+
+117
+00:05:23,420 --> 00:05:25,060
+Alright, first, let's head over to Updream.
+
+118
+00:05:25,060 --> 00:05:27,159
+And right here, you'll see the content input box.
+
+119
+00:05:27,159 --> 00:05:28,359
+Inside this input box,
+
+120
+00:05:28,359 --> 00:05:30,819
+and we can just type in our creative ideas or concepts.
+
+121
+00:05:30,819 --> 00:05:34,670
+You can also type a forward slash in the input box to bring up the corresponding skills.
+
+122
+00:05:34,670 --> 00:05:37,630
+And down here, you'll find all these official options as well.
+
+123
+00:05:37,630 --> 00:05:38,710
+For the skills, we can click 'View All' to see everything.
+
+124
+00:05:38,710 --> 00:05:39,760
+As you can see,
+
+125
+00:05:39,760 --> 00:05:42,340
+The platform officially provides a ton of skills here.
+
+126
+00:05:42,340 --> 00:05:44,000
+And then, we can also go over to the workspace here.
+
+127
+00:05:44,000 --> 00:05:46,160
+to create our own skills.
+
+128
+00:05:46,160 --> 00:05:47,640
+And for the skills provided by the platform,
+
+129
+00:05:47,640 --> 00:05:50,160
+All we have to do is click, and then click 'Activate Now'.
+
+130
+00:05:50,160 --> 00:05:52,760
+And we can start using the official skills right away.
+
+131
+00:05:52,760 --> 00:05:55,520
+Now, let's dive into some more in-depth testing.
+
+132
+00:05:55,520 --> 00:05:58,580
+We're going to be testing this out on Updream's infinite canvas.
+
+133
+00:05:58,580 --> 00:06:01,270
+From here, we can click to create a new project.
+
+134
+00:06:01,270 --> 00:06:04,090
+And this whole area here is the canvas.
+
+135
+00:06:04,090 --> 00:06:05,770
+And over on the right, we have this dialogue box.
+
+136
+00:06:05,770 --> 00:06:08,220
+And over here, we can go ahead and hide this.
+
+137
+00:06:08,220 --> 00:06:10,660
+And then we can test it directly on the canvas.
+
+138
+00:06:10,660 --> 00:06:12,540
+Then, we'll right-click the mouse.
+
+139
+00:06:12,540 --> 00:06:15,210
+Here, we can add an image node.
+
+140
+00:06:15,210 --> 00:06:16,330
+Click 'Add'.
+
+141
+00:06:16,330 --> 00:06:18,350
+We can have it generate an image for us.
+
+142
+00:06:18,350 --> 00:06:19,570
+Then, we'll click the dropdown.
+
+143
+00:06:19,570 --> 00:06:22,560
+and you'll see it supports a variety of image generation models.
+
+144
+00:06:22,560 --> 00:06:24,060
+including Nano Banana Pro and Nano Banana 2.
+
+145
+00:06:24,060 --> 00:06:25,240
+and Nano Banana 2.
+
+146
+00:06:25,240 --> 00:06:26,880
+And Seedream 5.0.
+
+147
+00:06:26,880 --> 00:06:29,280
+And here, we can select Seedream 5.0.
+
+148
+00:06:29,280 --> 00:06:31,440
+You can also select the image's aspect ratio here.
+
+149
+00:06:31,440 --> 00:06:33,960
+For example, we can choose a 3:2 ratio.
+
+150
+00:06:33,960 --> 00:06:37,320
+The prompt I'm using is 'premium skincare product packaging'.
+
+151
+00:06:37,320 --> 00:06:38,380
+And then, hit send.
+
+152
+00:06:38,380 --> 00:06:42,100
+and have it generate an image of a skincare product's packaging for us.
+
+153
+00:06:42,100 --> 00:06:43,600
+And there we have it, the generation is complete.
+
+154
+00:06:43,600 --> 00:06:45,660
+Alright, let's create another node.
+
+155
+00:06:45,660 --> 00:06:48,770
+and have it generate a video from this image.
+
+156
+00:06:48,770 --> 00:06:50,730
+We can just drag this plus sign.
+
+157
+00:06:50,730 --> 00:06:54,290
+And right here, we can click on this dropdown option.
+
+158
+00:06:54,290 --> 00:06:55,330
+to select the mode.
+
+159
+00:06:55,330 --> 00:06:57,810
+So, for this one, we'll select the video generation mode.
+
+160
+00:06:57,810 --> 00:07:00,040
+And for this one, we'll select image-to-video.
+
+161
+00:07:00,040 --> 00:07:02,900
+And for the model, we can just select Seedance 2.0.
+
+162
+00:07:02,900 --> 00:07:04,280
+For the aspect ratio...
+
+163
+00:07:04,280 --> 00:07:06,720
+We'll just stick with the default 16:9 here.
+
+164
+00:07:06,720 --> 00:07:08,740
+For the quality, I'll just stick with the default, 720p.
+
+165
+00:07:08,740 --> 00:07:12,200
+Plus, it also supports 1080p, 2K, and even 4K.
+
+166
+00:07:12,200 --> 00:07:13,480
+Then, we'll input the prompt.
+
+167
+00:07:13,480 --> 00:07:16,640
+and have it reference the skincare product packaging from image one.
+
+168
+00:07:16,640 --> 00:07:20,110
+Generate an 8-second, high-end beauty product showcase video.
+
+169
+00:07:20,110 --> 00:07:23,210
+This includes soft, natural lighting on the product as it sits on a table.
+
+170
+00:07:23,210 --> 00:07:24,830
+Then, a hand opens the bottle cap.
+
+171
+00:07:24,830 --> 00:07:26,550
+And it even specifies the sound requirements here.
+
+172
+00:07:26,550 --> 00:07:28,100
+This includes the sound of the cap opening.
+
+173
+00:07:28,100 --> 00:07:29,240
+the sound of fingers rubbing it in,
+
+174
+00:07:29,240 --> 00:07:31,000
+and some quiet, high-end background music.
+
+175
+00:07:31,000 --> 00:07:32,760
+And then we can just hit 'send'.
+
+176
+00:07:32,760 --> 00:07:35,820
+And right here, you can see the workflow starting to run.
+
+177
+00:07:35,820 --> 00:07:39,800
+It will then use this image as a reference to generate the corresponding video.
+
+178
+00:07:39,800 --> 00:07:41,380
+Alright, the generation is complete.
+
+179
+00:07:41,380 --> 00:07:42,740
+Alright, let's play it back.
+
+180
+00:07:42,740 --> 00:07:44,500
+Let's see the result.
+
+181
+00:07:49,900 --> 00:07:52,520
+Lightweight, moisturizing, and it absorbs smoothly. The result it generated is really impressive.
+
+182
+00:07:52,520 --> 00:07:56,670
+Whether it's the background music or all these little details,
+
+183
+00:07:56,670 --> 00:08:00,579
+Even the hand movements as it's being applied look incredibly realistic.
+
+184
+00:08:00,579 --> 00:08:02,879
+It's hard to tell that it was AI-generated.
+
+185
+00:08:02,879 --> 00:08:04,839
+Here, we can drag this plus sign again.
+
+186
+00:08:04,839 --> 00:08:05,959
+And right here in the mode section below,
+
+187
+00:08:05,959 --> 00:08:08,470
+So, we'll just select 'Video Generation'.
+
+188
+00:08:08,470 --> 00:08:10,550
+And the default setting here is 'All-in-One Reference'.
+
+189
+00:08:10,550 --> 00:08:13,419
+It will use our previous video as a reference.
+
+190
+00:08:13,419 --> 00:08:14,799
+And here's the prompt I'm using.
+
+191
+00:08:14,799 --> 00:08:18,639
+Let's keep going and generate a scene of a real person holding a skincare product, showcasing it from the front.
+
+192
+00:08:18,639 --> 00:08:20,180
+And then, hit send.
+
+193
+00:08:20,180 --> 00:08:22,680
+Now, let's have it generate the second clip.
+
+194
+00:08:22,680 --> 00:08:24,040
+And it's done.
+
+195
+00:08:24,040 --> 00:08:26,060
+Let's hit play. Lightweight hydration, gently absorbed.
+
+196
+00:08:30,160 --> 00:08:33,000
+Its gentle formula is suitable for all skin types. And this result is really impressive.
+
+197
+00:08:33,000 --> 00:08:36,120
+And it connects seamlessly with the last clip.
+
+198
+00:08:36,120 --> 00:08:39,559
+Alright, next up, let's test out its performance with multiple characters interacting.
+
+199
+00:08:39,559 --> 00:08:41,820
+So, let's go ahead and add a video generation node.
+
+200
+00:08:41,820 --> 00:08:43,568
+And then, we'll enter the prompt.
+
+201
+00:08:43,568 --> 00:08:46,069
+The prompt I entered was for 4 original characters.
+
+202
+00:08:46,069 --> 00:08:48,789
+performing different actions simultaneously in a restaurant.
+
+203
+00:08:48,789 --> 00:08:49,589
+One person is serving food.
+
+204
+00:08:49,589 --> 00:08:50,600
+one is pulling out a chair,
+
+205
+00:08:50,600 --> 00:08:51,920
+One person is looking down at the menu.
+
+206
+00:08:51,920 --> 00:08:53,900
+One person raises a hand to signal the waiter.
+
+207
+00:08:53,900 --> 00:08:55,260
+The camera pans slowly.
+
+208
+00:08:55,260 --> 00:08:57,440
+And the positions of all four characters remain clear.
+
+209
+00:08:57,440 --> 00:09:00,880
+The audio includes the sounds of cutlery, ambient noise, and natural dialogue.
+
+210
+00:09:00,880 --> 00:09:03,780
+Now, let's take a look at this more complex, multi-subject interaction.
+
+211
+00:09:03,780 --> 00:09:06,100
+So, how does it actually turn out?
+
+212
+00:09:06,100 --> 00:09:07,380
+Alright, it's done generating.
+
+213
+00:09:07,380 --> 00:09:08,460
+Let's play it and see how it turned out.
+
+214
+00:09:08,460 --> 00:09:10,800
+Hmm.
+
+215
+00:09:10,800 --> 00:09:12,260
+This looks pretty good.
+
+216
+00:09:12,260 --> 00:09:13,060
+Hello.
+
+217
+00:09:13,060 --> 00:09:14,329
+Hello, could I get another glass of water, please?
+
+218
+00:09:14,329 --> 00:09:16,849
+As you can see, it's generated this scene with multiple characters.
+
+219
+00:09:16,849 --> 00:09:19,680
+The results are actually quite impressive.
+
+220
+00:09:19,680 --> 00:09:22,320
+Plus, each character in the video is distinct.
+
+221
+00:09:22,320 --> 00:09:25,569
+Their voices and actions are all distinct as well.
+
+222
+00:09:25,569 --> 00:09:30,650
+This video follows our prompt almost perfectly.
+
+223
+00:09:30,650 --> 00:09:31,570
+one person serving food,
+
+224
+00:09:31,570 --> 00:09:32,410
+one person pulling out a chair,
+
+225
+00:09:32,410 --> 00:09:33,730
+one person looking at the menu,
+
+226
+00:09:33,730 --> 00:09:37,190
+and specific details like one person raising their hand to signal the waiter.
+
+227
+00:09:37,190 --> 00:09:39,900
+It followed our prompts almost perfectly.
+
+228
+00:09:39,900 --> 00:09:41,420
+Alright, let's continue with our testing.
+
+229
+00:09:41,420 --> 00:09:43,340
+Let's add a video node again.
+
+230
+00:09:43,340 --> 00:09:47,069
+Alright, for this test, let's see how well it can render the texture of objects.
+
+231
+00:09:47,069 --> 00:09:48,529
+So, I'll just type in the prompt here.
+
+232
+00:09:48,529 --> 00:09:52,109
+Generate an 8-second, first-person ASMR video of a real object.
+
+233
+00:09:52,109 --> 00:09:53,980
+The shot is an extreme close-up.
+
+234
+00:09:53,980 --> 00:09:55,100
+a pair of clean hands,
+
+235
+00:09:55,100 --> 00:09:58,760
+Cutting a piece of freshly baked puff pastry on a wooden table.
+
+236
+00:09:58,760 --> 00:10:01,720
+The prompt asks for a small knife to gently press against the surface of the puff pastry.
+
+237
+00:10:01,720 --> 00:10:03,060
+The flaky pastry cracks ever so slightly.
+
+238
+00:10:03,060 --> 00:10:05,060
+Then, the pastry is slowly sliced open.
+
+239
+00:10:05,060 --> 00:10:09,960
+The steam from the inside and the soft filling are revealed as a small piece of the pastry is lifted by a fork.
+
+240
+00:10:09,960 --> 00:10:12,000
+The flaky pastry crumbs fall onto the plate.
+
+241
+00:10:12,000 --> 00:10:14,620
+The sound effects here should include the sound of the flaky pastry crumbling.
+
+242
+00:10:14,620 --> 00:10:18,170
+The soft clink of the knife against the plate, the faint sound of steam...
+
+243
+00:10:18,170 --> 00:10:19,790
+Alright, the video generation is complete.
+
+244
+00:10:19,790 --> 00:10:22,130
+Let's play it and see how it turned out.
+
+245
+00:10:26,820 --> 00:10:31,860
+And from this angle, you get the first-person sound of the knife cutting through the puff pastry.
+
+246
+00:10:31,860 --> 00:10:35,240
+And the sound of the fork hitting the plate, it's all just perfect.
+
+247
+00:10:35,240 --> 00:10:38,380
+It followed our prompt almost perfectly.
+
+248
+00:10:38,380 --> 00:10:40,860
+And the way it recreates all these details is pretty impressive, too.
+
+249
+00:10:40,860 --> 00:10:43,080
+Especially after the pastry is cut open,
+
+250
+00:10:43,080 --> 00:10:44,760
+and the steam coming out from inside.
+
+251
+00:10:44,760 --> 00:10:47,380
+The level of detail here is just incredible.
+
+252
+00:10:47,380 --> 00:10:50,000
+Alright, let's take a look at some of the other scenarios I tested.
+
+253
+00:10:50,000 --> 00:10:53,420
+So, for this one, I had it generate a game scene. Let's take a look at the prompt here.
+
+254
+00:10:53,420 --> 00:10:57,829
+The prompt here was to generate an 8-second video showcasing an original game character's skill.
+
+255
+00:10:57,829 --> 00:11:01,829
+An original ice mage, standing in the center of a circular arena.
+
+256
+00:11:01,829 --> 00:11:02,889
+wearing a silver-white robe.
+
+257
+00:11:02,889 --> 00:11:04,489
+holding a transparent crystal staff.
+
+258
+00:11:04,489 --> 00:11:06,800
+And a blue magic circle appears on the ground.
+
+259
+00:11:06,800 --> 00:11:08,480
+A chill spreads across the ground.
+
+260
+00:11:08,480 --> 00:11:09,600
+He raises his staff.
+
+261
+00:11:09,600 --> 00:11:11,320
+The magic circle on the ground begins to glow.
+
+262
+00:11:11,320 --> 00:11:13,770
+Blue ice crystals rise from the edges of the magic circle.
+
+263
+00:11:13,770 --> 00:11:15,730
+Then, the mage swings his staff.
+
+264
+00:11:15,730 --> 00:11:17,710
+The ice wall shatters into countless blades.
+
+265
+00:11:17,710 --> 00:11:20,570
+The camera freezes on the character's finishing pose.
+
+266
+00:11:20,570 --> 00:11:22,650
+Let's hit play.
+
+267
+00:11:26,380 --> 00:11:30,069
+The game footage it generated is also absolutely perfect.
+
+268
+00:11:30,069 --> 00:11:31,189
+Then, I also tested its ability to generate...
+
+269
+00:11:31,189 --> 00:11:35,460
+a first-person, original horror exploration game scene.
+
+270
+00:11:35,460 --> 00:11:39,910
+The player, holding a flashlight, walks into a corridor of an abandoned Mars research station.
+
+271
+00:11:39,910 --> 00:11:42,410
+The walls have peeling metal plates, and other details like that.
+
+272
+00:11:42,410 --> 00:11:44,430
+The first-person view slowly moves forward.
+
+273
+00:11:44,430 --> 00:11:46,210
+The flashlight illuminates the floor of the corridor.
+
+274
+00:11:46,210 --> 00:11:48,530
+The camera pans to a half-open hatch on the left.
+
+275
+00:11:48,530 --> 00:11:49,450
+Slight tremor.
+
+276
+00:11:49,450 --> 00:11:51,810
+The flashlight beam reveals scratch marks on the wall.
+
+277
+00:11:51,810 --> 00:11:53,410
+And a name tag, dropped on the floor.
+
+278
+00:11:53,410 --> 00:11:55,490
+A sound of metal clashing echoes from a distance.
+
+279
+00:11:55,490 --> 00:11:56,930
+The camera stops abruptly.
+
+280
+00:11:56,930 --> 00:11:58,850
+And here are the sound effects it generated.
+
+281
+00:11:58,850 --> 00:12:01,590
+This includes breathing sounds, the faint buzz of a flashlight, and so on.
+
+282
+00:12:01,590 --> 00:12:03,770
+And now, let's hit play.
+
+283
+00:12:08,040 --> 00:12:10,840
+And you can clearly hear the breathing in the video.
+
+284
+00:12:10,840 --> 00:12:12,610
+And the sounds of the metal, too.
+
+285
+00:12:12,610 --> 00:12:14,370
+And all the specific details we asked for,
+
+286
+00:12:14,370 --> 00:12:16,030
+And it generated pretty much all of them.
+
+287
+00:12:16,030 --> 00:12:18,150
+And even these scratches on the wall.
+
+288
+00:12:18,150 --> 00:12:19,750
+Alright, let's crank up the difficulty.
+
+289
+00:12:19,750 --> 00:12:22,579
+Alright, for this next one, I've got two images of anime scenes ready.
+
+290
+00:12:22,579 --> 00:12:26,299
+I've also got an image of a four-panel comic storyboard.
+
+291
+00:12:26,299 --> 00:12:30,700
+We'll have Updream use this 4-panel storyboard as a reference to generate the corresponding video.
+
+292
+00:12:30,700 --> 00:12:33,320
+Let's test how well Updream understands storyboards.
+
+293
+00:12:33,320 --> 00:12:35,420
+and its understanding of 2D composition.
+
+294
+00:12:35,420 --> 00:12:37,740
+Then, we'll upload these three images.
+
+295
+00:12:37,740 --> 00:12:40,020
+First, let's have it reference this four-panel comic storyboard.
+
+296
+00:12:40,020 --> 00:12:43,920
+And also reference the original female lead's appearance and the original male lead's appearance.
+
+297
+00:12:43,920 --> 00:12:45,660
+Generate an anime short film.
+
+298
+00:12:45,660 --> 00:12:47,860
+And we'll have it generate the video strictly following the sequence of these panels.
+
+299
+00:12:47,860 --> 00:12:51,440
+Alright, it's done. Let's play it and see how it turned out.
+
+300
+00:12:57,110 --> 00:12:58,710
+The result is actually pretty decent.
+
+301
+00:12:58,710 --> 00:13:01,330
+Plus, they're even having a conversation in Japanese.
+
+302
+00:13:01,330 --> 00:13:07,080
+So, it's basically recreated the four panels we asked for. And after some pretty thorough testing, the scenes came out great.
+
+303
+00:13:07,080 --> 00:13:10,360
+So, as you can see, Updream's performance is truly impressive.
+
+304
+00:13:10,360 --> 00:13:13,240
+Especially its infinite canvas and workflow setup.
+
+305
+00:13:13,240 --> 00:13:16,100
+we can build even more complex scenes.
+
+306
+00:13:16,100 --> 00:13:19,519
+to create even more perfect videos. But due to time constraints,
+
+307
+00:13:19,519 --> 00:13:21,879
+So, we're not going to run any more tests here.
+
+308
+00:13:21,879 --> 00:13:23,639
+And that's all for this video.
+
+309
+00:13:23,639 --> 00:13:26,179
+Please feel free to like, subscribe, and share.
+
+310
+00:13:26,179 --> 00:13:27,700
+Thanks for watching.
+

@@ -1,0 +1,904 @@
+1
+00:00:04,920 --> 00:00:05,480
+Hello everyone.
+
+2
+00:00:05,480 --> 00:00:06,880
+Welcome to our new video.
+
+3
+00:00:06,880 --> 00:00:09,910
+So, OpenAI has shipped another batch of Codex updates.
+
+4
+00:00:09,910 --> 00:00:13,750
+But what I really want to focus on in this video is the Codex app update.
+
+5
+00:00:13,750 --> 00:00:17,950
+This update introduces 'app shots' and makes 'goal mode' more official.
+
+6
+00:00:17,950 --> 00:00:21,490
+remote computer use, plugin sharing, and better browser annotations.
+
+7
+00:00:21,490 --> 00:00:25,180
+Plus, a bunch of improvements to the browser experience. And honestly,
+
+8
+00:00:25,180 --> 00:00:27,580
+Out of all the Codex updates we've seen, this is one of those releases...
+
+9
+00:00:27,580 --> 00:00:30,590
+Now, if you just read about these features one by one, each one might sound pretty minor on its own.
+
+10
+00:00:30,590 --> 00:00:31,510
+But when you put them all together,
+
+11
+00:00:31,510 --> 00:00:33,870
+This really shows OpenAI's vision for Codex.
+
+12
+00:00:33,870 --> 00:00:37,020
+Codex is not just becoming a better terminal coding agent.
+
+13
+00:00:37,020 --> 00:00:38,620
+but is evolving into a full-fledged workspace agent.
+
+14
+00:00:38,620 --> 00:00:39,420
+smart agent.
+
+15
+00:00:39,420 --> 00:00:41,940
+It can read the contents of your applications and operate your browser.
+
+16
+00:00:41,940 --> 00:00:44,300
+continue long-running tasks, and use shared plugins.
+
+17
+00:00:44,300 --> 00:00:49,840
+and coordinate work across your actual computer. So, let's get right into it. The biggest new feature is App Shots.
+
+18
+00:00:49,840 --> 00:00:56,500
+The Codex app on macOS now supports the 'app shots' feature. And the idea is very simple: you press both Command keys at the same time.
+
+19
+00:00:56,500 --> 00:00:58,580
+Codex will automatically capture the active window, including a screenshot.
+
+20
+00:00:58,580 --> 00:01:01,440
+both the screenshot and all the text within the window.
+
+21
+00:01:01,440 --> 00:01:07,050
+So, instead of taking a screenshot, manually dragging it into Codex, and explaining what app you're using...
+
+22
+00:01:07,050 --> 00:01:08,590
+and describing what the problem is.
+
+23
+00:01:08,590 --> 00:01:10,670
+And then hoping the model understands the context.
+
+24
+00:01:10,670 --> 00:01:13,400
+Now, you can just send the current app window directly.
+
+25
+00:01:13,400 --> 00:01:14,760
+And this is actually pretty useful.
+
+26
+00:01:14,760 --> 00:01:17,700
+For example, let's say you're looking at a bug in a native app,
+
+27
+00:01:17,700 --> 00:01:18,880
+or a design flaw.
+
+28
+00:01:18,880 --> 00:01:21,350
+or a weird UI state in your browser.
+
+29
+00:01:21,350 --> 00:01:22,710
+Or a settings screen, or even in another tool.
+
+30
+00:01:22,710 --> 00:01:25,850
+or even in another tool where you can visually see the problem.
+
+31
+00:01:25,850 --> 00:01:28,770
+While that might be a hassle to explain, with app shots...
+
+32
+00:01:28,770 --> 00:01:31,130
+Codex can get visual information much faster.
+
+33
+00:01:31,130 --> 00:01:36,630
+And this fits really well with the direction Codex has been going recently. In previous updates,
+
+34
+00:01:36,630 --> 00:01:39,000
+OpenAI introduced the in-app browser, 'computer use,' and Chrome extension support.
+
+35
+00:01:39,000 --> 00:01:41,420
+Computer Use, and Chrome extension support.
+
+36
+00:01:41,420 --> 00:01:43,080
+and better artifact previews. All of that was about
+
+37
+00:01:43,080 --> 00:01:46,729
+allowing Codex to understand more than just code files,
+
+38
+00:01:46,729 --> 00:01:49,569
+And app shots are another step in that direction.
+
+39
+00:01:49,569 --> 00:01:50,289
+Simply put,
+
+40
+00:01:50,289 --> 00:01:51,849
+Anything on your screen,
+
+41
+00:01:51,849 --> 00:01:55,060
+can become context for the agent. I like that a lot.
+
+42
+00:01:55,060 --> 00:01:56,260
+Because in actual development,
+
+43
+00:01:56,260 --> 00:01:58,940
+a lot of the work isn't saved in text files.
+
+44
+00:01:58,940 --> 00:02:01,480
+Sometimes the important context is in a simulator,
+
+45
+00:02:01,480 --> 00:02:03,220
+a dashboard, a browser,
+
+46
+00:02:03,220 --> 00:02:08,520
+a PDF, a design tool, a failing app window, or some admin panel. If Codex can capture that context quickly,
+
+47
+00:02:08,520 --> 00:02:10,740
+If Codex can capture that context quickly,
+
+48
+00:02:10,740 --> 00:02:12,980
+Then you spend less time explaining,
+
+49
+00:02:12,980 --> 00:02:15,980
+and more time actually fixing the problem. Now, obviously, you still need to be careful with privacy here.
+
+50
+00:02:15,980 --> 00:02:18,120
+Of course, you still need to be careful with privacy here.
+
+51
+00:02:18,120 --> 00:02:20,960
+If you have sensitive customer data, passwords, or internal dashboards on your screen,
+
+52
+00:02:20,960 --> 00:02:23,250
+
+
+53
+00:02:23,250 --> 00:02:26,829
+So, don't just casually send app screenshots without thinking.
+
+54
+00:02:26,949 --> 00:02:29,129
+And that's exactly what makes this feature so powerful.
+
+55
+00:02:29,129 --> 00:02:32,289
+Because it can see your screen in real-time as you're coding or debugging the UI.
+
+56
+00:02:32,289 --> 00:02:34,709
+UI debugging, and for your day-to-day troubleshooting.
+
+57
+00:02:34,709 --> 00:02:36,380
+This is incredibly useful.
+
+58
+00:02:36,380 --> 00:02:38,960
+The second major highlight of this update is 'Goal Mode'.
+
+59
+00:02:38,960 --> 00:02:40,860
+It's no longer an experimental feature.
+
+60
+00:02:40,860 --> 00:02:44,140
+And it is now available in the Codex app and the IDE extension.
+
+61
+00:02:44,140 --> 00:02:47,060
+And the CLI, if you haven't used it yet.
+
+62
+00:02:47,060 --> 00:02:48,900
+Goal mode is basically a way
+
+63
+00:02:48,900 --> 00:02:52,000
+It allows you to set a long-running objective for Codex, rather than just responding to a single prompt.
+
+64
+00:02:52,000 --> 00:02:53,500
+The idea is that Codex can keep driving
+
+65
+00:02:53,500 --> 00:02:55,940
+toward a specific goal for hours or even days.
+
+66
+00:02:55,940 --> 00:02:57,460
+Now, that sounds kind of wild.
+
+67
+00:02:57,460 --> 00:03:01,090
+And to be honest, I still think this is something people need to test carefully in real workflows.
+
+68
+00:03:01,090 --> 00:03:03,530
+Because long-running agents can be amazing,
+
+69
+00:03:03,530 --> 00:03:06,200
+But they can also waste tokens, get stuck in endless loops,
+
+70
+00:03:06,200 --> 00:03:07,800
+or when the goal is vague,
+
+71
+00:03:07,800 --> 00:03:09,800
+and keep fruitlessly trying to solve the wrong problem.
+
+72
+00:03:09,800 --> 00:03:11,240
+But the concept is really interesting, though.
+
+73
+00:03:11,240 --> 00:03:13,720
+Instead of just telling it to "fix this one bug," you can give Codex a goal.
+
+74
+00:03:13,720 --> 00:03:15,610
+You could give Codex a goal.
+
+75
+00:03:15,610 --> 00:03:18,530
+For example, "Improve the test coverage for this authentication module."
+
+76
+00:03:18,530 --> 00:03:20,890
+Or, 'Keep working through this migration until the build passes.'
+
+77
+00:03:20,890 --> 00:03:24,240
+until the build succeeds, or prepare this branch for a code review.
+
+78
+00:03:24,240 --> 00:03:26,400
+That's a whole different ball game from a normal chat.
+
+79
+00:03:26,400 --> 00:03:28,880
+This makes Codex feel less like a one-shot assistant,
+
+80
+00:03:28,880 --> 00:03:32,320
+and more like an agent that can hold onto intent across a longer workflow.
+
+81
+00:03:32,320 --> 00:03:34,260
+And this is also where the newer CI updates come in.
+
+82
+00:03:34,260 --> 00:03:36,380
+linked to version 26.519.
+
+83
+00:03:36,380 --> 00:03:39,220
+In Codex CI version 0.1.3,
+
+84
+00:03:39,220 --> 00:03:42,440
+Three goals were enabled by default and got dedicated storage.
+
+85
+00:03:42,440 --> 00:03:44,880
+and began tracking progress within active interaction rounds.
+
+86
+00:03:44,880 --> 00:03:46,850
+Then, in version 0.13102,
+
+87
+00:03:46,850 --> 00:03:48,970
+In version 0.132, OpenAI also fixed goal continuations, so they stop
+
+88
+00:03:48,970 --> 00:03:53,920
+to stop when they hit usage limits or repeated blockers instead of looping.
+
+89
+00:03:53,920 --> 00:03:56,200
+and wasting more tokens. That last part is important.
+
+90
+00:03:56,200 --> 00:03:59,720
+Because if an agent is going to run for hours, or even days, it needs to know
+
+91
+00:03:59,720 --> 00:04:01,360
+it must know when to stop.
+
+92
+00:04:01,360 --> 00:04:03,140
+It shouldn't just keep running because it's stuck.
+
+93
+00:04:03,140 --> 00:04:08,240
+and just keep burning through context and tokens because it's stuck. So, the official launch of Goal Mode is far more than just a random toggle.
+
+94
+00:04:08,240 --> 00:04:11,360
+OpenAI is clearly building the infrastructure around it.
+
+95
+00:04:11,360 --> 00:04:14,320
+This includes things like progress storage and tracking, as well as better handling of pauses.
+
+96
+00:04:14,320 --> 00:04:16,339
+Better management of usage limits, and deeper integration across apps, CLI, and IDEs.
+
+97
+00:04:16,339 --> 00:04:20,290
+as well as deeper integration across apps, CLI, and IDEs.
+
+98
+00:04:20,290 --> 00:04:21,029
+In the long run,
+
+99
+00:04:21,029 --> 00:04:23,100
+This might just be one of the most important features for Codex.
+
+100
+00:04:23,100 --> 00:04:25,500
+Even if it's not the flashiest one today,
+
+101
+00:04:25,500 --> 00:04:28,460
+But the next major update is remote computer use.
+
+102
+00:04:28,460 --> 00:04:29,540
+Even when your Mac is locked,
+
+103
+00:04:29,540 --> 00:04:31,270
+Codex can also operate desktop applications.
+
+104
+00:04:31,270 --> 00:04:33,610
+You can even control it remotely through the Codex mobile app.
+
+105
+00:04:33,610 --> 00:04:35,050
+And this is actually a huge deal.
+
+106
+00:04:35,050 --> 00:04:38,740
+Because computer use is only useful if the agent can actually keep working.
+
+107
+00:04:38,740 --> 00:04:41,400
+Even if your Mac locks and everything stops,
+
+108
+00:04:41,400 --> 00:04:43,740
+time-consuming computer tasks become pointless.
+
+109
+00:04:43,740 --> 00:04:48,130
+But OpenAI isn't just letting Codex use your locked computer with no guardrails.
+
+110
+00:04:48,130 --> 00:04:49,850
+They mentioned safeguards like
+
+111
+00:04:49,850 --> 00:04:51,570
+short-lived authorization, covering the screen, and re-locking.
+
+112
+00:04:51,570 --> 00:04:53,640
+and relocking when local input is detected.
+
+113
+00:04:53,640 --> 00:04:54,520
+and manual unlocking as a backup.
+
+114
+00:04:54,520 --> 00:04:58,700
+Codex can still perform trusted "Computer Use" actions,
+
+115
+00:04:58,700 --> 00:05:00,280
+even while your Mac is locked.
+
+116
+00:05:00,280 --> 00:05:05,020
+But it's not supposed to become, like, this open-ended remote control session forever.
+
+117
+00:05:05,020 --> 00:05:08,470
+Now, I know a feature like this might sound a little intimidating at first.
+
+118
+00:05:08,470 --> 00:05:09,830
+But it's also genuinely useful if handled properly.
+
+119
+00:05:09,830 --> 00:05:11,350
+it's actually really practical, right?
+
+120
+00:05:11,350 --> 00:05:12,070
+Imagine this.
+
+121
+00:05:12,070 --> 00:05:13,790
+You start a task on your phone,
+
+122
+00:05:13,790 --> 00:05:14,790
+or when you're away from your computer,
+
+123
+00:05:14,790 --> 00:05:16,660
+and keep Codex running on your Mac.
+
+124
+00:05:16,660 --> 00:05:18,340
+and it still needs to operate desktop applications.
+
+125
+00:05:18,340 --> 00:05:21,620
+or continue workflows that aren't just limited to the terminal.
+
+126
+00:05:21,620 --> 00:05:23,040
+And this is actually super practical.
+
+127
+00:05:23,040 --> 00:05:26,180
+But then again, this is also where permissions become critically important.
+
+128
+00:05:26,180 --> 00:05:29,200
+When an agent can operate your desktop, your browser, and your apps,
+
+129
+00:05:29,200 --> 00:05:30,600
+The security model cannot be vague.
+
+130
+00:05:30,600 --> 00:05:32,960
+You need to know what it is allowed to touch.
+
+131
+00:05:32,960 --> 00:05:34,080
+Authorization verification failed.
+
+132
+00:05:34,080 --> 00:05:37,520
+So, what happens when you get back to your computer? That's why I'm really optimistic about this direction.
+
+133
+00:05:37,520 --> 00:05:43,000
+But I'd personally start with low-risk workflows and slowly expand from there. Now, let's talk about plugin sharing.
+
+134
+00:05:43,000 --> 00:05:44,780
+Plugin sharing through marketplace sources
+
+135
+00:05:44,780 --> 00:05:48,869
+It's now available for ChatGPT Business, with enterprise support coming soon.
+
+136
+00:05:48,869 --> 00:05:51,809
+This means teams can distribute reusable plugin bundles that include skills,
+
+137
+00:05:51,809 --> 00:05:54,030
+application integrations,
+
+138
+00:05:54,030 --> 00:05:56,810
+MCP servers, and lifecycle hooks.
+
+139
+00:05:56,810 --> 00:05:59,650
+And I think this is a much bigger deal than it sounds.
+
+140
+00:05:59,650 --> 00:06:01,980
+Because for individual users, plugins are cool.
+
+141
+00:06:01,980 --> 00:06:04,500
+You install something, and it gives Codex new abilities.
+
+142
+00:06:04,500 --> 00:06:05,880
+And you use it locally.
+
+143
+00:06:05,880 --> 00:06:09,240
+But for teams, this kind of random local setup just doesn't scale.
+
+144
+00:06:09,240 --> 00:06:11,120
+If every developer has a different set of skills,
+
+145
+00:06:11,120 --> 00:06:12,800
+different MCP server configurations,
+
+146
+00:06:12,800 --> 00:06:14,280
+and a different plug-in folder.
+
+147
+00:06:14,280 --> 00:06:15,720
+Things could get messy, really fast.
+
+148
+00:06:15,720 --> 00:06:19,340
+And sharing is how this starts becoming team infrastructure.
+
+149
+00:06:19,340 --> 00:06:20,420
+Companies can stipulate,
+
+150
+00:06:20,420 --> 00:06:23,060
+These are the Codex plugins that are licensed uniformly across this workspace.
+
+151
+00:06:23,060 --> 00:06:25,600
+This way, everyone has the same tools.
+
+152
+00:06:25,600 --> 00:06:28,530
+The same workflows, the same integrations, and the same hooks. That is how...
+
+153
+00:06:28,530 --> 00:06:32,450
+And that's the key to Codex truly becoming a tool for professional engineering teams.
+
+154
+00:06:32,450 --> 00:06:35,110
+The related CLI updates are just as important.
+
+155
+00:06:35,110 --> 00:06:36,880
+In version 0.1.33,
+
+156
+00:06:36,880 --> 00:06:39,200
+Plugin discovery became more flexible.
+
+157
+00:06:39,200 --> 00:06:41,400
+Plugin discovery through marketplace sources is now available for ChatGPT Business and Enterprise users, thanks to a marketplace-aware list output.
+
+158
+00:06:41,400 --> 00:06:44,120
+as well as installed versions and visible marketplace roots.
+
+159
+00:06:44,120 --> 00:06:46,220
+and added support for remote collections. Then, in version zero point one three four...
+
+160
+00:06:46,220 --> 00:06:47,900
+Then, in version 0.134,
+
+161
+00:06:47,900 --> 00:06:50,360
+This made the schemas for connector tools more reliable.
+
+162
+00:06:50,360 --> 00:06:56,780
+and allowed read-only MCP tools to run concurrently. Now, when a tool is declared as 'read-only,' that might sound very technical.
+
+163
+00:06:56,780 --> 00:06:58,020
+But to put it simply:
+
+164
+00:06:58,020 --> 00:07:01,530
+Shared tools are getting easier to inspect and easier to distribute.
+
+165
+00:07:01,530 --> 00:07:02,810
+and run more reliably.
+
+166
+00:07:02,810 --> 00:07:04,610
+It's this kind of tedious infrastructure
+
+167
+00:07:04,610 --> 00:07:07,480
+And bring those cool demos to life.
+
+168
+00:07:07,840 --> 00:07:09,420
+Next up, in version 26.5.19...
+
+169
+00:07:09,420 --> 00:07:12,760
+the advanced browser annotation feature in version 5.19.
+
+170
+00:07:12,760 --> 00:07:15,460
+Codex can now understand more specific visual instructions.
+
+171
+00:07:15,460 --> 00:07:17,160
+directly through browser annotations.
+
+172
+00:07:17,160 --> 00:07:20,780
+For example, you can fine-tune details like font size, colors, and spacing using annotations.
+
+173
+00:07:20,780 --> 00:07:23,580
+This gives Codex a much clearer signal for exactly what needs to be changed.
+
+174
+00:07:23,580 --> 00:07:27,640
+This is especially great for front-end development, because when you're reviewing a generated UI,
+
+175
+00:07:27,640 --> 00:07:29,000
+Just saying, 'fix this part,'
+
+176
+00:07:29,000 --> 00:07:29,800
+that's usually not enough.
+
+177
+00:07:29,800 --> 00:07:31,380
+Even something like 'make it cleaner'
+
+178
+00:07:31,380 --> 00:07:33,580
+or even 'fix the spacing' is still pretty vague.
+
+179
+00:07:33,580 --> 00:07:36,160
+But if you can point directly at part of the UI,
+
+180
+00:07:36,160 --> 00:07:40,740
+and say, "Make this font smaller," or "Change this color," or "Increase this spacing."
+
+181
+00:07:40,740 --> 00:07:43,720
+Codex has a much better chance of making the correct change.
+
+182
+00:07:43,720 --> 00:07:46,620
+And this is precisely one of the areas where Codex can become incredibly practical for front-end development and iteration.
+
+183
+00:07:46,620 --> 00:07:47,740
+development and iteration. Instead of going back
+
+184
+00:07:47,740 --> 00:07:49,620
+Instead of going back and forth in the text,
+
+185
+00:07:49,620 --> 00:07:52,020
+Now, you can annotate directly on the live page itself.
+
+186
+00:07:52,020 --> 00:07:55,580
+Codex sees the rendered UI, understands the annotation, and edits the code directly.
+
+187
+00:07:55,580 --> 00:07:56,860
+And then, verify it again.
+
+188
+00:07:56,860 --> 00:07:59,160
+And that's the development loop we're really looking for from AI coding tools.
+
+189
+00:07:59,160 --> 00:08:00,970
+writing code in a closed loop.
+
+190
+00:08:00,970 --> 00:08:01,710
+and review the results.
+
+191
+00:08:01,710 --> 00:08:03,000
+and get visual feedback.
+
+192
+00:08:03,000 --> 00:08:05,120
+Fix the result and repeat.
+
+193
+00:08:05,120 --> 00:08:08,120
+Additionally, browser functionality has also been improved in this update. Codex can now download.
+
+194
+00:08:08,120 --> 00:08:09,740
+Codex can now download.
+
+195
+00:08:09,740 --> 00:08:12,940
+It can not only extract all image assets from a page much faster,
+
+196
+00:08:12,940 --> 00:08:15,909
+It can also extract structured data from pages more effectively.
+
+197
+00:08:15,909 --> 00:08:19,830
+It can also retrieve information faster by using a read-only JavaScript sandbox.
+
+198
+00:08:19,830 --> 00:08:20,910
+And that's crucial.
+
+199
+00:08:20,910 --> 00:08:22,730
+Because webpage structures are often messy.
+
+200
+00:08:22,730 --> 00:08:25,330
+Sometimes, the useful information isn't just in plain text.
+
+201
+00:08:25,330 --> 00:08:27,950
+but is hidden in structured data, images,
+
+202
+00:08:27,950 --> 00:08:30,630
+or in the DOM state and the rendered page layout.
+
+203
+00:08:30,630 --> 00:08:32,730
+If Codex can inspect that more effectively,
+
+204
+00:08:32,730 --> 00:08:35,360
+Then, browser tasks become less fragile and less prone to errors.
+
+205
+00:08:35,360 --> 00:08:37,640
+Plus, the Chrome extension is much cleaner now. Previously,
+
+206
+00:08:37,640 --> 00:08:38,400
+Before this,
+
+207
+00:08:38,400 --> 00:08:41,860
+browser agents can very quickly make your browser look like a disaster.
+
+208
+00:08:41,860 --> 00:08:43,799
+If they keep creating tab groups,
+
+209
+00:08:43,799 --> 00:08:46,300
+or just leaving tabs scattered all over the place.
+
+210
+00:08:46,700 --> 00:08:47,940
+With this update,
+
+211
+00:08:47,940 --> 00:08:49,720
+Codex will no longer create tab groups.
+
+212
+00:08:49,720 --> 00:08:51,400
+when taking over existing tabs,
+
+213
+00:08:51,400 --> 00:08:53,160
+or at the end of a task for hand-off. Instead,
+
+214
+00:08:53,160 --> 00:08:57,450
+Instead, it uses tab icons to indicate status. Now, that's a small user experience detail,
+
+215
+00:08:57,450 --> 00:08:59,310
+But I really like this move from OpenAI.
+
+216
+00:08:59,310 --> 00:09:05,140
+They also mentioned they've significantly improved the reliability of browser use, including fixes on the Windows platform.
+
+217
+00:09:05,140 --> 00:09:08,160
+Flaky plugin availability in non-geo-blocked regions,
+
+218
+00:09:08,160 --> 00:09:11,020
+and other performance issues. So, if you've tried out Codex's browser features before,
+
+219
+00:09:11,020 --> 00:09:12,800
+or its Chrome extension before,
+
+220
+00:09:12,800 --> 00:09:16,600
+So if you tried it before and felt it was a bit unstable, this update is definitely worth giving another shot.
+
+221
+00:09:16,600 --> 00:09:18,000
+So that's about it.
+
+222
+00:09:18,000 --> 00:09:20,100
+And the actual experience is just fantastic.
+
+223
+00:09:20,100 --> 00:09:22,480
+I highly recommend you go and try it out for yourselves.
+
+224
+00:09:22,480 --> 00:09:24,020
+Overall, it's pretty cool.
+
+225
+00:09:24,020 --> 00:09:26,320
+Anyway, let me know your thoughts in the comments.
+
+226
+00:09:26,320 --> 00:09:27,020
+Bye!
+

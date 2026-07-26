@@ -1,0 +1,984 @@
+1
+00:00:00,160 --> 00:00:00,960
+Just moments ago,
+
+2
+00:00:00,960 --> 00:00:05,340
+OpenAI has actually integrated ChatGPT into PowerPoint for real this time.
+
+3
+00:00:05,340 --> 00:00:08,039
+The official, native ChatGPT plugin has been released.
+
+4
+00:00:08,039 --> 00:00:10,959
+You can do it all directly in PowerPoint just by having a conversation.
+
+5
+00:00:10,959 --> 00:00:14,739
+and have ChatGPT automatically edit and create your PPTs.
+
+6
+00:00:14,739 --> 00:00:17,979
+I've tested out the eight most comprehensive ways to use it, the most complete guide you'll find online right now.
+
+7
+00:00:17,979 --> 00:00:20,619
+So today, I'm going to walk you through it step-by-step.
+
+8
+00:00:20,619 --> 00:00:21,459
+and hit that save button.
+
+9
+00:00:21,459 --> 00:00:22,059
+and hit that follow button.
+
+10
+00:00:22,059 --> 00:00:23,170
+Let's go!
+
+11
+00:00:23,170 --> 00:00:24,850
+Alright, before we get started,
+
+12
+00:00:24,850 --> 00:00:28,259
+First, let's take 30 seconds to get this plugin installed.
+
+13
+00:00:28,259 --> 00:00:30,959
+Open PowerPoint on your computer.
+
+14
+00:00:30,959 --> 00:00:36,370
+Then, in the top menu bar, go to the 'Home' tab and find 'Get Add-ins'.
+
+15
+00:00:36,370 --> 00:00:38,290
+In the search box that pops up,
+
+16
+00:00:38,290 --> 00:00:41,070
+Let's just search for ChatGPT.
+
+17
+00:00:41,390 --> 00:00:44,090
+The first one is the official one from OpenAI.
+
+18
+00:00:44,090 --> 00:00:45,430
+Look for this icon.
+
+19
+00:00:45,430 --> 00:00:47,630
+Just click 'Add' and you're good to go.
+
+20
+00:00:48,409 --> 00:00:49,129
+Once that's done,
+
+21
+00:00:49,129 --> 00:00:52,389
+You'll notice that in the ribbon at the top of PowerPoint,
+
+22
+00:00:52,389 --> 00:00:55,549
+you'll see a new ChatGPT icon has appeared.
+
+23
+00:00:55,549 --> 00:01:00,450
+Clicking on it will pop up a sidebar like this on the right.
+
+24
+00:01:00,450 --> 00:01:03,629
+and log in with our own OpenAI account.
+
+25
+00:01:03,629 --> 00:01:05,188
+And just like that, it's up and running.
+
+26
+00:01:05,188 --> 00:01:05,829
+Alright.
+
+27
+00:01:05,829 --> 00:01:07,049
+Alright, so now that it's installed,
+
+28
+00:01:07,049 --> 00:01:09,009
+So, let's get right into it.
+
+29
+00:01:09,009 --> 00:01:10,689
+So, let's check out its first feature.
+
+30
+00:01:10,689 --> 00:01:13,160
+Generate a PPT from scratch with a single sentence.
+
+31
+00:01:13,160 --> 00:01:15,280
+This is the most classic way to use it.
+
+32
+00:01:15,280 --> 00:01:16,960
+And it's also the one you've all been waiting for.
+
+33
+00:01:16,960 --> 00:01:20,440
+Alright, so let's open up a blank PowerPoint.
+
+34
+00:01:20,480 --> 00:01:24,040
+Then, click on the ChatGPT sidebar on the right.
+
+35
+00:01:24,400 --> 00:01:27,770
+Just type in a simple command like this.
+
+36
+00:01:27,770 --> 00:01:32,630
+Generate an introduction and a detailed tutorial on how to use Codex.
+
+37
+00:01:32,630 --> 00:01:36,410
+PPT in Apple's launch event style.
+
+38
+00:01:37,469 --> 00:01:38,509
+After hitting Enter,
+
+39
+00:01:38,509 --> 00:01:39,569
+And we'll see that...
+
+40
+00:01:39,569 --> 00:01:43,070
+And in the sidebar, it's laid out a generation plan for us.
+
+41
+00:01:43,070 --> 00:01:46,770
+This includes verifying the official information about Codex.
+
+42
+00:01:46,770 --> 00:01:48,190
+Create Slides
+
+43
+00:01:48,190 --> 00:01:49,330
+Review the pages,
+
+44
+00:01:49,330 --> 00:01:52,250
+Fix any issues and get it ready for delivery.
+
+45
+00:01:52,700 --> 00:01:55,220
+And here's the result it generated.
+
+46
+00:01:55,800 --> 00:01:57,720
+It's got that super-sized title style.
+
+47
+00:01:57,720 --> 00:02:00,440
+It's a clean, high-contrast layout style.
+
+48
+00:02:00,440 --> 00:02:03,259
+And the text is editable, too.
+
+49
+00:02:03,539 --> 00:02:06,919
+The text boxes also have these pin-shaped handles that you can drag around.
+
+50
+00:02:06,919 --> 00:02:09,570
+Alright, so let me share a little trick with you here.
+
+51
+00:02:09,570 --> 00:02:12,530
+Style keywords are incredibly important.
+
+52
+00:02:12,530 --> 00:02:15,350
+So, instead of just telling it to make a PowerPoint,
+
+53
+00:02:15,350 --> 00:02:18,250
+Instead, you need to tell it the overall tone and feel you're going for.
+
+54
+00:02:18,250 --> 00:02:21,000
+For example, the style of an Apple product launch.
+
+55
+00:02:21,000 --> 00:02:26,670
+like the McKinsey consulting style, or the minimalist style of Notion, and so on.
+
+56
+00:02:26,670 --> 00:02:28,970
+The more specific the keywords you give it,
+
+57
+00:02:28,970 --> 00:02:32,730
+the closer the result will be to what we actually want.
+
+58
+00:02:32,730 --> 00:02:36,120
+Alright, the first method is to start from scratch.
+
+59
+00:02:36,120 --> 00:02:37,820
+But most of the time,
+
+60
+00:02:37,820 --> 00:02:40,640
+But more often than not, we already have some materials to work with.
+
+61
+00:02:40,640 --> 00:02:42,820
+And that brings us to its second use case.
+
+62
+00:02:42,820 --> 00:02:46,480
+and turn your existing materials into a PPT with just one click.
+
+63
+00:02:46,480 --> 00:02:48,000
+And the process is super simple.
+
+64
+00:02:48,000 --> 00:02:50,720
+Here's an academic paper I wrote a while back.
+
+65
+00:02:50,720 --> 00:02:53,760
+
+
+66
+00:02:53,760 --> 00:02:57,980
+So, right here in the ChatGPT sidebar, we can just upload it.
+
+67
+00:02:57,980 --> 00:02:59,440
+And then, you just tell it,
+
+68
+00:02:59,440 --> 00:03:02,820
+
+
+69
+00:03:02,820 --> 00:03:05,060
+Make sure you don't miss any key information.
+
+70
+00:03:05,060 --> 00:03:06,640
+Organize it into logical sections.
+
+71
+00:03:06,640 --> 00:03:08,990
+One key point per slide.
+
+72
+00:03:09,259 --> 00:03:11,119
+So, this is what it came up with.
+
+73
+00:03:11,119 --> 00:03:12,879
+This is a total lifesaver.
+
+74
+00:03:12,879 --> 00:03:15,890
+Personally, this is the scenario where I use it the most.
+
+75
+00:03:15,890 --> 00:03:17,810
+It won't leave out any of your content,
+
+76
+00:03:17,810 --> 00:03:22,170
+and it also helps me reorganize my presentation's structure and logic.
+
+77
+00:03:22,170 --> 00:03:23,150
+To be honest,
+
+78
+00:03:23,150 --> 00:03:26,310
+When it comes to this, AI is actually way faster than we are.
+
+79
+00:03:26,310 --> 00:03:28,360
+and much more structured.
+
+80
+00:03:28,360 --> 00:03:33,050
+So, this whole idea of turning your materials into a PowerPoint is a pretty common use case.
+
+81
+00:03:33,050 --> 00:03:37,150
+Now, this next use case is incredibly useful, whether you're a professional or a student.
+
+82
+00:03:37,150 --> 00:03:38,740
+And that's where it becomes even more valuable.
+
+83
+00:03:38,740 --> 00:03:42,080
+Companies usually have their own standard PPT templates.
+
+84
+00:03:42,080 --> 00:03:46,709
+So, those PPTs you generated with other AI tools? No matter how good they look, they're pretty much useless.
+
+85
+00:03:46,709 --> 00:03:48,110
+Because the style just doesn't match.
+
+86
+00:03:48,110 --> 00:03:50,650
+But this plugin? It's a whole different story.
+
+87
+00:03:50,650 --> 00:03:55,280
+It can work directly within your current PPT template and write the content right in.
+
+88
+00:03:55,280 --> 00:03:58,520
+So for this example, I'm going to use a thesis defense PowerPoint template.
+
+89
+00:03:58,520 --> 00:04:02,970
+and have it turn this paper into a PPT based on the template.
+
+90
+00:04:02,970 --> 00:04:05,130
+First, let's open up the PPT template.
+
+91
+00:04:05,130 --> 00:04:08,209
+And then, in the sidebar, I'll just tell it what I want.
+
+92
+00:04:08,209 --> 00:04:10,869
+Use the style of the current PPT template.
+
+93
+00:04:10,869 --> 00:04:14,780
+Turn this paper into an academic presentation for me.
+
+94
+00:04:14,780 --> 00:04:18,870
+First, it will identify the style of the current template.
+
+95
+00:04:18,870 --> 00:04:22,610
+Step two: it plans out the content for each page of the presentation.
+
+96
+00:04:22,610 --> 00:04:27,190
+Then, it'll generate and populate the entire presentation, page by page, following that template.
+
+97
+00:04:27,190 --> 00:04:30,050
+Step four is to check the visual effects of the main slides.
+
+98
+00:04:30,050 --> 00:04:31,910
+and fix any obvious issues.
+
+99
+00:04:31,910 --> 00:04:33,070
+And finally, the delivery.
+
+100
+00:04:33,070 --> 00:04:35,080
+And this is the result it generated.
+
+101
+00:04:35,080 --> 00:04:37,960
+And it actually reuses the titles from the template.
+
+102
+00:04:37,960 --> 00:04:40,660
+The font size, color scheme, and the position of the placeholder boxes.
+
+103
+00:04:40,660 --> 00:04:44,820
+And the content itself is completely faithful to the original source material.
+
+104
+00:04:44,820 --> 00:04:47,000
+Here's a table it generated automatically.
+
+105
+00:04:47,000 --> 00:04:49,600
+And here's the automatically generated bar chart.
+
+106
+00:04:49,600 --> 00:04:53,120
+Honestly, the overall result is quite impressive.
+
+107
+00:04:53,120 --> 00:04:55,930
+Basically, you can just use it as is.
+
+108
+00:04:55,930 --> 00:04:58,350
+So, besides text materials, what else can it convert?
+
+109
+00:04:58,350 --> 00:05:01,169
+Actually, you can convert images directly into a PPT as well.
+
+110
+00:05:01,169 --> 00:05:04,850
+And the next feature, in my opinion, is the absolute game-changer.
+
+111
+00:05:04,850 --> 00:05:08,810
+So, what if you're scrolling online and you see a really nice-looking slide from a PowerPoint presentation?
+
+112
+00:05:08,810 --> 00:05:12,450
+So now, you just drag and drop the picture right into the sidebar.
+
+113
+00:05:12,450 --> 00:05:16,620
+Then, just tell it to turn these images into a PowerPoint.
+
+114
+00:05:16,620 --> 00:05:18,820
+and perfectly recreate the content from the image.
+
+115
+00:05:18,820 --> 00:05:22,460
+And make sure all the text and graphics remain editable.
+
+116
+00:05:22,460 --> 00:05:23,460
+Once you hit enter,
+
+117
+00:05:23,460 --> 00:05:25,760
+First, it will identify the content in the image.
+
+118
+00:05:25,760 --> 00:05:27,060
+elements like icons,
+
+119
+00:05:27,060 --> 00:05:31,620
+And then it recreates these images for you right inside PowerPoint.
+
+120
+00:05:31,620 --> 00:05:33,260
+I tried it out on a few myself.
+
+121
+00:05:33,260 --> 00:05:35,820
+Here's a screenshot from a PPT I generated with AI earlier.
+
+122
+00:05:37,020 --> 00:05:38,640
+And here's the result of that restoration.
+
+123
+00:05:38,640 --> 00:05:41,480
+The accuracy is generally over 80%.
+
+124
+00:05:41,480 --> 00:05:45,380
+And the best part is, all the content is fully editable.
+
+125
+00:05:45,380 --> 00:05:48,820
+And the text within the image is also recognized with great accuracy.
+
+126
+00:05:48,820 --> 00:05:53,840
+Alright, so besides images, what about those headache-inducing, complex Excel spreadsheets?
+
+127
+00:05:53,840 --> 00:05:56,640
+It can also turn that into a presentation PPT with just one click.
+
+128
+00:05:56,640 --> 00:05:58,780
+And that's the fifth feature.
+
+129
+00:05:58,780 --> 00:06:01,260
+You've got this massive pile of data in your Excel sheet.
+
+130
+00:06:01,260 --> 00:06:04,920
+But the thing is, when you're giving a presentation, nobody wants to see the raw data tables.
+
+131
+00:06:04,920 --> 00:06:08,770
+Alright, so now, let's just drag and drop the Excel file right in.
+
+132
+00:06:08,770 --> 00:06:09,610
+and tell it,
+
+133
+00:06:09,610 --> 00:06:13,230
+I need to create a quarterly data report for the management team.
+
+134
+00:06:13,230 --> 00:06:17,000
+and turn the key metrics from this spreadsheet into a PowerPoint.
+
+135
+00:06:17,000 --> 00:06:18,820
+One core idea per slide.
+
+136
+00:06:18,820 --> 00:06:20,760
+and pair it with a corresponding chart.
+
+137
+00:06:20,760 --> 00:06:22,740
+and it will automatically pull the relevant data.
+
+138
+00:06:22,740 --> 00:06:24,160
+and then generate the chart itself.
+
+139
+00:06:24,160 --> 00:06:25,820
+and even write its own interpretation.
+
+140
+00:06:25,820 --> 00:06:30,550
+And the best part is, the charts here are native PowerPoint charts.
+
+141
+00:06:30,550 --> 00:06:34,940
+And later, we can also manually adjust these numbers and the charts.
+
+142
+00:06:34,940 --> 00:06:39,640
+Okay, so the first five use cases are all about generating a new PPT from scratch using your materials.
+
+143
+00:06:39,640 --> 00:06:43,610
+So, what if you already have a finished PowerPoint presentation on hand?
+
+144
+00:06:43,610 --> 00:06:44,690
+What if you want to optimize it?
+
+145
+00:06:44,690 --> 00:06:46,470
+But you don't want to scrap it and start all over again.
+
+146
+00:06:46,470 --> 00:06:47,270
+So, what's the solution?
+
+147
+00:06:47,270 --> 00:06:49,510
+And that's the sixth way to use it.
+
+148
+00:06:49,510 --> 00:06:52,350
+And this scenario is actually the most common one.
+
+149
+00:06:52,350 --> 00:06:55,070
+So, let's open up an existing PowerPoint file.
+
+150
+00:06:55,070 --> 00:06:57,710
+and then @ the specific slide you want to work on.
+
+151
+00:06:57,710 --> 00:07:00,090
+Just tell it directly in the sidebar.
+
+152
+00:07:00,090 --> 00:07:04,680
+Please help me enhance the overall design and visuals of this slide.
+
+153
+00:07:04,680 --> 00:07:08,440
+and automatically generate a relevant image for the page based on the content.
+
+154
+00:07:08,440 --> 00:07:09,760
+a high-quality stock image.
+
+155
+00:07:09,760 --> 00:07:11,740
+And here's the result after it's been optimized.
+
+156
+00:07:11,740 --> 00:07:13,420
+The difference is pretty significant.
+
+157
+00:07:13,420 --> 00:07:16,360
+But it didn't actually change any of our content.
+
+158
+00:07:16,360 --> 00:07:19,740
+It's just optimizing the visuals and the layout.
+
+159
+00:07:19,740 --> 00:07:22,010
+And here's another little detail.
+
+160
+00:07:22,010 --> 00:07:24,070
+So, while GPT is optimizing,
+
+161
+00:07:24,070 --> 00:07:26,310
+It can even generate images to go with your content.
+
+162
+00:07:26,310 --> 00:07:29,960
+And it will automatically format and insert them into your PPT.
+
+163
+00:07:29,960 --> 00:07:32,000
+So, besides just making things look better,
+
+164
+00:07:32,000 --> 00:07:35,220
+But this plugin actually has an even more powerful capability.
+
+165
+00:07:35,220 --> 00:07:37,570
+It helps us with logical review.
+
+166
+00:07:37,570 --> 00:07:39,930
+So, after you've finished putting together your PPT,
+
+167
+00:07:39,930 --> 00:07:43,550
+you might not actually know if the whole story flows smoothly.
+
+168
+00:07:43,550 --> 00:07:44,930
+or if there are any gaps in it.
+
+169
+00:07:44,930 --> 00:07:48,940
+or if the audience will ask a question we can't answer.
+
+170
+00:07:48,940 --> 00:07:52,720
+So, this is the academic presentation PPT we just put together.
+
+171
+00:07:52,720 --> 00:07:54,980
+So now, we can just ask it directly.
+
+172
+00:07:54,980 --> 00:07:57,770
+What's the core narrative of this presentation?
+
+173
+00:07:57,770 --> 00:08:00,530
+Homepage, help me analyze the narrative pacing.
+
+174
+00:08:00,530 --> 00:08:03,030
+And then tell me what logical flaws it has.
+
+175
+00:08:03,030 --> 00:08:05,710
+And on which slides are the audience most likely to have questions?
+
+176
+00:08:05,710 --> 00:08:07,290
+and how I can strengthen it.
+
+177
+00:08:07,290 --> 00:08:09,590
+And here's the result it generated.
+
+178
+00:08:09,590 --> 00:08:13,550
+And it will give you a very detailed review report.
+
+179
+00:08:13,550 --> 00:08:16,870
+First, it summarizes the core storyline of the PPT.
+
+180
+00:08:16,870 --> 00:08:19,950
+Then, it moves on to an analysis of the narrative flow.
+
+181
+00:08:19,950 --> 00:08:22,190
+including its current function.
+
+182
+00:08:22,190 --> 00:08:25,030
+evaluating the narrative pacing and identifying key issues.
+
+183
+00:08:25,030 --> 00:08:30,060
+And it even helps us figure out which slides are most likely to prompt questions from the audience.
+
+184
+00:08:30,060 --> 00:08:31,600
+and what questions they're most likely to ask.
+
+185
+00:08:31,600 --> 00:08:34,799
+And it even gives us the answers to those questions.
+
+186
+00:08:34,799 --> 00:08:36,759
+This is honestly a game-changer.
+
+187
+00:08:36,759 --> 00:08:38,958
+So, whatever we want to know,
+
+188
+00:08:38,958 --> 00:08:41,849
+You can just ask questions right there in the sidebar.
+
+189
+00:08:41,849 --> 00:08:46,900
+This is way more convenient and intelligent than any other AI PPT generator out there.
+
+190
+00:08:46,900 --> 00:08:48,400
+Okay, so at this point,
+
+191
+00:08:48,400 --> 00:08:52,380
+And just like that, the entire content and logic of the PPT are pretty much done.
+
+192
+00:08:52,380 --> 00:08:55,480
+And the final step is, of course, to get on stage and present.
+
+193
+00:08:55,480 --> 00:08:58,180
+And that brings us to its eighth feature.
+
+194
+00:08:58,180 --> 00:08:59,320
+Even the script.
+
+195
+00:08:59,320 --> 00:09:02,660
+And now, we can also just have it generate that for us directly.
+
+196
+00:09:02,660 --> 00:09:05,360
+And it'll automatically insert them into the PPT's notes section.
+
+197
+00:09:05,360 --> 00:09:10,169
+All we have to do is type a command in the chat box for each slide of the current PPT.
+
+198
+00:09:10,169 --> 00:09:12,089
+to generate the corresponding speech script.
+
+199
+00:09:12,089 --> 00:09:14,020
+and insert it directly into the notes.
+
+200
+00:09:14,020 --> 00:09:17,160
+And as you can see, in the notes section of each slide,
+
+201
+00:09:17,160 --> 00:09:19,930
+Now, the speaker notes are all filled in.
+
+202
+00:09:19,930 --> 00:09:22,950
+And what's more, the content is surprisingly accurate.
+
+203
+00:09:22,950 --> 00:09:25,760
+and it's written in a very conversational tone, perfect for a presentation.
+
+204
+00:09:26,080 --> 00:09:27,720
+So, when it's time for the actual presentation,
+
+205
+00:09:27,720 --> 00:09:30,820
+So, when the presenter tries to open the notes,
+
+206
+00:09:30,820 --> 00:09:32,420
+and they'll appear right on your own screen.
+
+207
+00:09:32,420 --> 00:09:35,120
+This way, you'll have it as a handy reference.
+
+208
+00:09:35,120 --> 00:09:38,780
+So, that's a wrap on the official ChatGPT PPT plugin.
+
+209
+00:09:38,780 --> 00:09:41,380
+These are the eight core ways you can use it right now.
+
+210
+00:09:41,380 --> 00:09:43,329
+So, let's do a quick recap for everyone.
+
+211
+00:09:43,329 --> 00:09:46,209
+First, you can generate a PPT from scratch with just a single sentence.
+
+212
+00:09:46,209 --> 00:09:48,930
+The key is to separate your keywords.
+
+213
+00:09:48,930 --> 00:09:50,450
+Second, upload your materials.
+
+214
+00:09:50,450 --> 00:09:51,530
+and it organizes everything with just one click.
+
+215
+00:09:51,530 --> 00:09:53,900
+The key is that you have full control over the content.
+
+216
+00:09:53,900 --> 00:09:58,130
+Third, using your company's templates for presentations. This is an absolute must-have in the professional world.
+
+217
+00:09:58,130 --> 00:10:02,150
+Fourth, you can convert an image back into an editable PowerPoint with just one click.
+
+218
+00:10:02,150 --> 00:10:03,860
+And this one is a real showstopper.
+
+219
+00:10:03,860 --> 00:10:04,440
+Fifth,
+
+220
+00:10:04,440 --> 00:10:09,820
+Fifth, it can turn Excel spreadsheets into native, editable charts in your presentation.
+
+221
+00:10:09,820 --> 00:10:12,780
+Number six is one-click optimization for your existing PowerPoint.
+
+222
+00:10:12,780 --> 00:10:14,780
+All we have to do is tell it what we need.
+
+223
+00:10:14,780 --> 00:10:18,060
+Seventh, it can review the entire PPT for logical consistency.
+
+224
+00:10:18,060 --> 00:10:20,560
+Basically, it's like having a free reviewer.
+
+225
+00:10:20,560 --> 00:10:23,220
+And number eight is automatically generating speaker notes.
+
+226
+00:10:23,220 --> 00:10:25,110
+and pop them right into the notes section.
+
+227
+00:10:25,110 --> 00:10:27,130
+So, what you'll find is that...
+
+228
+00:10:27,130 --> 00:10:30,450
+Now, on the surface, it might seem like OpenAI has just released a plugin.
+
+229
+00:10:30,450 --> 00:10:34,180
+But what it's really doing is bringing AI directly into our workflow.
+
+230
+00:10:34,180 --> 00:10:37,760
+into the most frequent workflow of our daily office work.
+
+231
+00:10:37,760 --> 00:10:40,220
+It's not about generating a file externally anymore,
+
+232
+00:10:40,220 --> 00:10:41,630
+and then having to move it back in.
+
+233
+00:10:41,630 --> 00:10:45,270
+Instead, it helps us make changes directly inside PowerPoint.
+
+234
+00:10:45,270 --> 00:10:48,610
+And what's more, once it's done, you can still keep editing it.
+
+235
+00:10:48,610 --> 00:10:50,430
+This is what real-world deliverables look like.
+
+236
+00:10:50,430 --> 00:10:52,890
+Ultimately, it all comes down to having an editable file.
+
+237
+00:10:52,890 --> 00:10:57,319
+In the future, it's possible that we humans won't even need to make our own PowerPoint presentations anymore.
+
+238
+00:10:57,319 --> 00:10:57,919
+Alright then.
+
+239
+00:10:57,919 --> 00:11:01,019
+So, go ahead and install this plugin and give it a try!
+
+240
+00:11:01,019 --> 00:11:03,279
+So, if you're following along with the video,
+
+241
+00:11:03,279 --> 00:11:04,319
+if you run into any issues,
+
+242
+00:11:04,319 --> 00:11:06,300
+Feel free to leave a comment down below.
+
+243
+00:11:06,300 --> 00:11:08,300
+If you found this video helpful,
+
+244
+00:11:08,300 --> 00:11:10,740
+Don't forget to like, save, and follow us.
+
+245
+00:11:10,740 --> 00:11:11,600
+See you in the next one!
+
+246
+00:11:11,600 --> 00:11:12,220
+Bye!
+

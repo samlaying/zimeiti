@@ -1,0 +1,28 @@
+---
+category: A
+source_type: opinion
+ownership: external
+knowledge_role: reference
+mainline_candidate: pending
+source_file: 16个开源agent项目教我如何设计agent系统 p09 09-执行后端设计 [BV1kdoHBCEoC_p9].ai-zh.srt
+status: reference
+---
+
+# 16个开源agent项目教我如何设计agent系统 p09 09-执行后端设计
+
+> 摘要：Agnes 分析失败，使用标题规则归档。
+
+> ⚠️ 外部参考：这是收藏的视频内容，不代表本人经历、成果或能力证据。
+
+## 关键要点
+
+
+## 可能的参考价值
+待人工确认。
+
+## 原始字幕
+
+同学们好 今天我们来聊一个非常核心的话题 执行层在AI agent的系统里 大模型负责思考和决策 但真正改变世界的是执行层 做这个动作可以发生在很多地方 本地进程 docker容器 云端函数 远程服务器 甚至是一个chrome浏览器 这节课我们来看四个典型项目 对在哪里执行和如何执行的不同回答 以及这些答案背后 对目标用户和部署场景的深层判断 HERMES最系统化六种后端一套抽象 Nanoclaw 最彻底执行权在容器里 goose最简单本地工具直接调agent browser 最专门化CDP直控chrome 接下来我们一个个深入剖析 先看HERMES的设计 这是最系统化的方案核心 在tools environments base party 定义了一个抽象基类 Terminal environment 包含四个抽象方法 execute执行命令 Upload file Download file Clean up 清理资源 还有一个is persistent属性标识是否持久化切换 后端只需要改一行配置 把NEV字段从local改成model docker sesh都可以 agent的代码完全不需要改动 这就是strategy pattern的标准 实现关注点分离 agent不需要知道自己跑在哪里 这六种后端每一种都对应一类明确的用户 local是个人开发调试用最快 但没隔离docker 要容器隔离 is persistent等于true 跨命令保持文件系统状态 model是需要GPU或者云弹性的场景 manage model是企业版通过gateway代理访问it管理员 可以统一管理账单 SSH顾名思义 连远程服务器singularity是HPC集群专用docker 在HPC环境通常不让用 因为需要root权限 这六种后端的存在本身就是一个信号 HERMES的定位是通用agent的框架 而不是某个特定场景的专用工具 现在讲一个工程上非常精妙的细节 CWD持久化问题背景是这样的 每个shell命令是独立的 bash c进程用户先执行CD project sc再执行else 第二个命令不知道前一个命令改了工作目录 HERMES的解法叫带内标记 定义一个特殊的标记字符串 HERMESWD在每个命令执行完后 Echo 追加当前目录 这条带标记的输出和正常结果混在一起 解析函数把标记行剥离出来 用户看到的是干净输出 系统内部拿到了新的cw d 看起来简单 但这个思路非常优雅 为什么不用临时文件存CWD呢 两种方案对本地执行没有明显差异 但对远程后端差异巨大 临时文件方案需要先写文件再读文件 每条命令额外两次IO 而且SSH和model这种远程后端的话是额外的 网络往返戴内标记 把CWD和输出一起传回来 零额外开销 在低延迟任务密集性场景下 这是显著优化 这个在同一个数据流里 混合控制信息和内容信息的思路 在系统设计里很常见 HTTP头TCP真边界 nano cloud输出标记协议都是同一个思路的不同实现 再来看nano claw 这是最彻底的容器化方案 NANOCLW没有执行后端这个概念 执行发生在容器内 这是架构级别的决定 关键是这个目录分离 SRC目录是宿主机上的node js进程负责编排 container目录是容器内的代码 负责执行这个分离式结构性的 不是靠运行时检查来保证 而是系统架构 直接保证宿主机代码永远不在容器内运行 容器内代码永远不能访问宿主机状态 除了显示挂载的目录 对比HERMES的docker environment HERMES把容器当工具 nano claw把容器当执行主体 并 nano cloud的容器抽象支持两种运行时 apple container是Mac os14以后的新特性 apple虚拟化框架直接驱动 不需要docker desktop 启动时间从docker的800ms降到了200ms 内存占用少40%到60% 对MACOS开发者来说 这是显著的体验提升 每次agent的调用不再需要等待docker容器启动 但这是MACOS专属的docker 依然是跨平台的选择 抽象层让上层代码完全不感知 底层运行时run container接口相同 下面是docker还是apple container 完全透明 nano clock也有类似的带内标记设计容器 start里混着调试日志和真正的输出结果 用neoclaw output start和nanoclue output and这对标记把真正的接送结果圈出来 忽略中间的其他日志 这和HERMES的HERMESWD标记思路完全一致 都是在同一个数据流里 混合控制信息和内容信息 用边界标记分离 nano cloud容器退出后才发送回复 批量不是技术限制 而是平台约束 what's app和telegram的API不支持实时编辑消息 只能发完整消息 现在看第四个项目agent browser 他控制chrome浏览器 但直接使用CDP 而不是playwright或pop tier CDP是chrome内置的调试协议 你按F12打开开发者工具时 Def tools UI和chrome之间的通信就是CDP的WEBSOCKET消息 agent browser跳过playwright的原因很直接 只用chrome不需要多浏览器抽象 用rust实现 没有playwright bindings 需要更小的bundle 直接CDP 换来的是零中间层和约600兆字节的体积减少 但代价是大量样板代码在rust里实现 CDP客户端 比用Python加playwright多了至少5000行代码 一个常见的问题是 为什么不直接让LLM生成playwright代码 然后except执行这样工具实现极简DF Play right tool code STRICETUDE就完了 LLM训练数据里 playwright文档到处都是 但问题也很明显 第一是安全 exec LLM生成的代码是严重的代码注入入口 第二是稳定性 CSS选择器很脆弱 页面结构一变就失效 第三是调试困难 ex ec出错了 很难诊断 LLM生成了什么鬼 agent browser选择了CDP加预定义工具的方案 LLM只能调用navigate Click type 这些预定义操作不能执行任意代码 生产期agent用CDP追求稳定快速原型验证 用playwright追求灵活 agent browser的at t e n引用系统 是浏览器控制中的一个独特设计 值得单独讲 传统方案是让LLM生成CSS选择器来定位元素 但CSS选择器非常脆弱 开发者增加一个rapper dive 整个选择器链就废了 LLM需要重新截图 重新分析 重新生成选择器 成本高且不稳定 at in的做法是在截图上标注可交互元素 每个元素分配一个数字引用 但这个引用不是绑定到DOM节点 而是绑定到无障碍数的node id 无障碍数是给屏幕阅读器用的 语义稳定性要求很高 页面DOM结构变化时无障碍数 节点id变化很小 这是一种把浏览器当做视觉界面和语义结构 结合的设计 数字引用给LOLM一个稳定的抓手 再讲一个关键的工程细节 活动回调问题是这样的 agent的 发一个命令出去 如果这个命令要跑很久 比如编译一个大项目 WEBSOCKET的连接可能会因为超时而断开 活动回调的解法是 每30秒检查一次有没有新输出 如果30秒内没有行输出 就调用回调函数通知gateway说还在运行 别断开 使用threading local 而不是传参 是一种影视状态 传递有争议 但很实用 不需要修改所有下游函数的签名 好我们横向对比一下四个项目的执行后端设计 HERMES支持六种后端加hp c是最多的 抽象层是terminal environment ABC切换靠一行配置 nano clock是两种容器 运行时自动检测 CWD靠容器重启恢复 goose最简单本地一种流式输出 agent browser是专门的浏览器控制流式输出 注意这里的CWD持久化方式差异 HERMES用带内标记nano clock 靠容器重启后重新CD goose因为是单个进程 所以天然保持这些差异不是优劣之分 而是根据具体场景的最优选择 来总结三个核心设计洞察 第一个抽象层的价值来自多样性 HERMES的terminal environment a abc之所以有意义 是因为它真正支持了六种异构 后端不是为了抽象而抽象 如果只有一种后端 这个抽象层就是过度设计 建议大家在做自己的项目时 先确认是否真的有多种实现需要互换 再引入抽象层 第二个带内标记是分布式场景的通用技术 当系统跨越进程或网络边界传输信息时 单内标记在数据流里混入控制信息 通常比外部状态存储更高效 因为它消除了额外的往返通信 HERMES的CWD标记 NEOCLOUD输出标记 HTTP头TCP真边界都是这个思路 第三个洞察是安全性与灵活性的反向关系 CDP预定义工具集比exact playwright代码更安全 但也更不灵活 LLM只能做工具列表里定义好的操作 不能天马行空 选择哪种方案 取决于你的agent面向的场景 受控场景需要高安全 探索场景需要高灵活 没有银弹 只有权衡 最后给一个实践建议 如果你要实现容器化 执行后端应该默认开启活动回调 HERMES每30秒触发一次心跳的设计 值得直接复用 长任务必须有心跳机制 否则你没办法区分命令 正在执行和命令已经崩溃 好给大家一个实用的决策框架 如果你需要GPU资源 选HERMES的model environment model 提供按需GPU冷启动 30秒内无需维护GPU服务器 如果是浏览器自动化任务 选agent browser的CDP直连 用at t e n语义化引用 比CSS选择器稳定的多 如果需要隔离多用户或多项目 选nano cloud docker或apple container容器重启 自动恢复环境 资源完全隔离 如果你要连远程已有服务器 选HERMES的SHENVIRONMENT代码和数据已经在远端 不需要额外搬运 剩下的单用户本地开发场景 用HERMES的local environment就够了 零基础设施最低延迟 最后总结三个跨项目借鉴建议 第一带内标记是跨进程边界通信的通用模式 任何需要从紫禁城或容器获取控制信息 cw d退出码 结构化状态的系统 都可以用代内标记替代外部状态存储 实现更简单 故障点更少 第二抽象层只在多后端确实存在时才引入 HERMES的terminal environment a abc 支持六种异构后端抽象有价值 如果你的项目只有一种执行环境 直接用具体实现 避免过度抽象 增加理解成本 第三容器化执行后端应默认开启活动回调 长任务必须有心跳机制 HERMES每30秒触发一次的设计 值得直接复用 今天的课就到这里 谢谢大家
+
+## 标签
+[]

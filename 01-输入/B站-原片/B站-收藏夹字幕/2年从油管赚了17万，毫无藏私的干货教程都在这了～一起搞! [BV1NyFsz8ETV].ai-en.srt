@@ -1,0 +1,1784 @@
+1
+00:00:00,040 --> 00:00:01,640
+The video begins by announcing a lucky draw message
+
+2
+00:00:01,640 --> 00:00:02,880
+Thank you for your support over the past year
+
+3
+00:00:02,880 --> 00:00:04,640
+Special thanks also to the first prize sponsored by Diet
+
+4
+00:00:04,640 --> 00:00:05,240
+Ace svertwo
+
+5
+00:00:05,240 --> 00:00:06,120
+The draw will take place on the first day of the Lunar New Year
+
+6
+00:00:06,120 --> 00:00:07,160
+Welcome to Follow Me for the latest Posts
+
+7
+00:00:07,160 --> 00:00:07,640
+participate in the giveaway
+
+8
+00:00:07,640 --> 00:00:09,040
+Thanks, back to the topic
+
+9
+00:00:09,040 --> 00:00:11,440
+As promised, here comes the YouTube monetization tutorial for everyone
+
+10
+00:00:11,440 --> 00:00:13,580
+I've earned 170,000 from YouTube over the past two years
+
+11
+00:00:13,580 --> 00:00:14,080
+though not much
+
+12
+00:00:14,080 --> 00:00:15,500
+but the experience is quite valuable
+
+13
+00:00:15,500 --> 00:00:17,420
+You might achieve even greater results
+
+14
+00:00:17,420 --> 00:00:20,180
+I will also fully disclose my backend input data for you to see
+
+15
+00:00:20,180 --> 00:00:21,580
+the correspondence emails between the platform and me
+
+16
+00:00:21,580 --> 00:00:23,260
+sort out the key points
+
+17
+00:00:23,260 --> 00:00:23,960
+with full sincerity
+
+18
+00:00:23,960 --> 00:00:24,880
+Welcome to favorite
+
+19
+00:00:24,880 --> 00:00:26,200
+To monetize on YouTube
+
+20
+00:00:26,200 --> 00:00:28,520
+The primary requirement is to join the YouTube Partner Program
+
+21
+00:00:28,520 --> 00:00:29,920
+Youtube Partner Program
+
+22
+00:00:29,920 --> 00:00:31,170
+abbreviated as YPP
+
+23
+00:00:31,170 --> 00:00:33,310
+The first requirement is that you must have 1,000 subscribers.
+
+24
+00:00:33,310 --> 00:00:36,570
+The second requirement is that your publicly available long videos in the past 12 months
+
+25
+00:00:36,570 --> 00:00:38,610
+reach 4,000 hours of valid watch time
+
+26
+00:00:38,610 --> 00:00:41,610
+or the publicly posted shorts within the past 90 days
+
+27
+00:00:41,610 --> 00:00:43,230
+views reach 10 million
+
+28
+00:00:43,230 --> 00:00:44,370
+Is it difficult to meet the shorts requirements
+
+29
+00:00:44,370 --> 00:00:44,810
+I don't understand
+
+30
+00:00:44,810 --> 00:00:45,690
+I haven't done it
+
+31
+00:00:45,690 --> 00:00:49,480
+Because this is meant to encourage long-term creation of original horizontal videos
+
+32
+00:00:49,480 --> 00:00:51,180
+If you start by making a long video
+
+33
+00:00:51,180 --> 00:00:53,400
+for example, an hour-long super detailed tutorial
+
+34
+00:00:53,400 --> 00:00:54,780
+achieved 50,000 views
+
+35
+00:00:54,780 --> 00:00:56,340
+even if the completion rate is only 10%
+
+36
+00:00:56,340 --> 00:00:58,360
+you have a total watch time of 5,000 hours
+
+37
+00:00:58,360 --> 00:00:59,550
+then you meet the requirement
+
+38
+00:00:59,550 --> 00:01:02,530
+I actually really like YouTube's total watch time metric
+
+39
+00:01:02,530 --> 00:01:04,050
+Actually, this reflects your influence
+
+40
+00:01:04,050 --> 00:01:06,230
+how many people have spent how much time on your content
+
+41
+00:01:06,230 --> 00:01:07,270
+This is very intuitive.
+
+42
+00:01:07,270 --> 00:01:09,970
+Me total watch time is 625,000 hours
+
+43
+00:01:09,970 --> 00:01:13,350
+This is equivalent to 71 years, definitely exceeding the rest of my life.
+
+44
+00:01:13,350 --> 00:01:15,050
+From the perspective of my individual existence
+
+45
+00:01:15,050 --> 00:01:15,990
+I think it's very meaningful
+
+46
+00:01:15,990 --> 00:01:17,870
+I started at the end of December 2023
+
+47
+00:01:17,870 --> 00:01:19,170
+earn revenue from YouTube
+
+48
+00:01:19,170 --> 00:01:21,740
+The highest earning in a single day was 1,132 Hong Kong dollars
+
+49
+00:01:21,740 --> 00:01:24,140
+It's been a little over two years now.
+
+50
+00:01:24,140 --> 00:01:26,020
+earned a total of 187,000 Hong Kong dollars
+
+51
+00:01:26,020 --> 00:01:27,600
+This currency symbol is for Hong Kong dollars.
+
+52
+00:01:27,600 --> 00:01:29,540
+The Hong Kong dollar and the US dollar both use this symbol.
+
+53
+00:01:29,540 --> 00:01:30,420
+At first I didn't understand
+
+54
+00:01:30,420 --> 00:01:31,600
+I thought this was US dollars
+
+55
+00:01:31,600 --> 00:01:32,720
+earning hundreds of dollars a day
+
+56
+00:01:32,720 --> 00:01:33,600
+That's so awesome
+
+57
+00:01:33,600 --> 00:01:36,100
+Later I realized that I had set the currency unit to Hong Kong dollars.
+
+58
+00:01:36,100 --> 00:01:38,660
+The abbreviations for their currency symbols are the same.
+
+59
+00:01:38,660 --> 00:01:41,740
+187,000 Hong Kong dollars is equivalent to 24,000 US dollars
+
+60
+00:01:41,740 --> 00:01:44,620
+converted to US dollars, it's 173,000 RMB
+
+61
+00:01:44,620 --> 00:01:45,900
+I'm quite satisfied.
+
+62
+00:01:45,900 --> 00:01:47,780
+The total for the year 2024 is 126,000
+
+63
+00:01:47,780 --> 00:01:49,720
+On average, that also means earning over ten thousand yuan per month.
+
+64
+00:01:49,720 --> 00:01:51,780
+In 2025, my focus was mainly on Bilibili
+
+65
+00:01:51,780 --> 00:01:53,789
+so I didn't put much effort into managing the content
+
+66
+00:01:53,789 --> 00:01:55,489
+I only earned 40,000 yuan in 2025.
+
+67
+00:01:55,489 --> 00:01:57,389
+In 2026, I plan to take this seriously and do it well.
+
+68
+00:01:57,389 --> 00:01:57,829
+to be honest
+
+69
+00:01:57,829 --> 00:02:01,489
+This is also my Plan B. I don't know how long I can keep receiving commercial orders.
+
+70
+00:02:01,489 --> 00:02:04,039
+But I feel that YouTube can be done for 10 years without any problem
+
+71
+00:02:04,039 --> 00:02:06,759
+If you accidentally create a viral hit with a million views
+
+72
+00:02:06,759 --> 00:02:07,179
+long video
+
+73
+00:02:07,179 --> 00:02:09,538
+That one video could potentially bring in tens of thousands of dollars in revenue
+
+74
+00:02:09,538 --> 00:02:11,120
+Of course, this is not something that can be sought after at will
+
+75
+00:02:11,120 --> 00:02:13,420
+I currently only have one video with over a million views
+
+76
+00:02:13,420 --> 00:02:15,400
+brought me an income of 45,000 yuan
+
+77
+00:02:15,400 --> 00:02:17,510
+This is too difficult for me right now.
+
+78
+00:02:17,510 --> 00:02:19,010
+Li Ziqi is even more terrifying
+
+79
+00:02:19,010 --> 00:02:19,790
+by the end of 2024
+
+80
+00:02:19,790 --> 00:02:20,750
+He updated three videos
+
+81
+00:02:20,750 --> 00:02:23,250
+a total of 88 million views for these three videos
+
+82
+00:02:23,250 --> 00:02:24,730
+at least over 2 million in revenue
+
+83
+00:02:24,730 --> 00:02:25,890
+And what's even more terrifying is
+
+84
+00:02:25,890 --> 00:02:27,450
+when he posted those three videos
+
+85
+00:02:27,450 --> 00:02:29,510
+I took a screenshot showing 19.9 million Followers
+
+86
+00:02:29,510 --> 00:02:31,399
+similar to the official Apple account at that time
+
+87
+00:02:31,399 --> 00:02:32,439
+no updates for over a year
+
+88
+00:02:32,439 --> 00:02:33,579
+It gained another 10 million
+
+89
+00:02:33,579 --> 00:02:34,959
+This is really terrifying
+
+90
+00:02:34,959 --> 00:02:36,159
+Apple is still at 20 million
+
+91
+00:02:36,159 --> 00:02:37,530
+Apple needs to step up its game too
+
+92
+00:02:37,530 --> 00:02:39,450
+Even if Li Ziqi never updates again
+
+93
+00:02:39,450 --> 00:02:40,450
+his existing videos
+
+94
+00:02:40,450 --> 00:02:43,190
+The continuous ad revenue would be enough to support her for a lifetime.
+
+95
+00:02:43,190 --> 00:02:45,720
+Li Ziqi is truly the GOAT.
+
+96
+00:02:45,720 --> 00:02:47,540
+If you meet the hard requirements of YPP
+
+97
+00:02:47,540 --> 00:02:49,260
+YouTube will send you an email
+
+98
+00:02:49,260 --> 00:02:52,070
+The title is 'apply to youtube partner program'
+
+99
+00:02:52,070 --> 00:02:52,590
+Hi
+
+100
+00:02:52,590 --> 00:02:54,190
+Tan Dongdong, it's time to join the YPP
+
+101
+00:02:54,190 --> 00:02:55,150
+Join YPP
+
+102
+00:02:55,150 --> 00:02:57,579
+You will have the opportunity to earn money
+
+103
+00:02:57,579 --> 00:03:00,339
+Actually, I received this email on October 9, 2023
+
+104
+00:03:00,339 --> 00:03:01,539
+I didn't take it seriously at the time
+
+105
+00:03:01,539 --> 00:03:03,400
+I didn't apply until the end of December
+
+106
+00:03:03,400 --> 00:03:05,600
+During this period, I lost nearly 10,000 yuan.
+
+107
+00:03:05,600 --> 00:03:08,519
+because there was a viral video at that time, click to accept the application
+
+108
+00:03:08,519 --> 00:03:09,139
+Note here
+
+109
+00:03:09,139 --> 00:03:10,339
+your Chrome browser account
+
+110
+00:03:10,339 --> 00:03:12,399
+Make sure to switch to the same-named YOUTUBE account
+
+111
+00:03:12,399 --> 00:03:14,430
+to have permission to open this webpage
+
+112
+00:03:14,430 --> 00:03:15,190
+After applying
+
+113
+00:03:15,190 --> 00:03:18,070
+you will be required to register and link a Google Edison account
+
+114
+00:03:18,070 --> 00:03:19,870
+Here you need to fill in the real payee
+
+115
+00:03:19,870 --> 00:03:21,390
+name and detailed payment address
+
+116
+00:03:21,390 --> 00:03:22,400
+This is very important
+
+117
+00:03:22,400 --> 00:03:23,260
+If you fill this incorrectly
+
+118
+00:03:23,260 --> 00:03:26,400
+you won't receive the PIN code envelope sent to you by Google x x
+
+119
+00:03:26,400 --> 00:03:27,920
+is your personal identification code
+
+120
+00:03:27,920 --> 00:03:30,520
+You can only enter this PIN in the EDISON backend
+
+121
+00:03:30,520 --> 00:03:32,260
+you can make the payment normally
+
+122
+00:03:32,260 --> 00:03:33,000
+receive the payment
+
+123
+00:03:33,000 --> 00:03:34,960
+Google's Asia-Pacific headquarters is located in Singapore
+
+124
+00:03:34,960 --> 00:03:36,850
+Some administrative and logistics centers are located in Malaysia
+
+125
+00:03:36,850 --> 00:03:39,990
+So the PIA horse envelopes received by YouTube creators in mainland China
+
+126
+00:03:39,990 --> 00:03:42,490
+are all international letters sent from Malaysia
+
+127
+00:03:42,490 --> 00:03:45,090
+International unregistered mail is the most basic form of communication between national postal systems
+
+128
+00:03:45,090 --> 00:03:46,570
+the lowest-cost communication method
+
+129
+00:03:46,570 --> 00:03:47,470
+Internationally accepted
+
+130
+00:03:47,470 --> 00:03:48,870
+but it is not a registered letter
+
+131
+00:03:48,870 --> 00:03:49,690
+no tracking number
+
+132
+00:03:49,690 --> 00:03:50,390
+cannot be tracked
+
+133
+00:03:50,390 --> 00:03:51,240
+nor a phone call
+
+134
+00:03:51,240 --> 00:03:51,920
+After sending it out
+
+135
+00:03:51,920 --> 00:03:54,940
+you can only wait for the postman to deliver it to your door
+
+136
+00:03:54,940 --> 00:03:57,090
+I could only wait. At that time, out of safety concerns,
+
+137
+00:03:57,090 --> 00:03:58,650
+I didn't write my detailed address
+
+138
+00:03:58,650 --> 00:04:00,050
+wrote a very vague address
+
+139
+00:04:00,050 --> 00:04:01,530
+only wrote the street and community
+
+140
+00:04:01,530 --> 00:04:03,420
+did not write the name of the residential area and the house number
+
+141
+00:04:03,420 --> 00:04:05,920
+This resulted in the letter never being delivered to me
+
+142
+00:04:05,920 --> 00:04:08,280
+Normally it would definitely arrive within 3-4 weeks.
+
+143
+00:04:08,280 --> 00:04:09,240
+Then I got anxious
+
+144
+00:04:09,240 --> 00:04:09,840
+without this letter
+
+145
+00:04:09,840 --> 00:04:10,820
+I couldn't withdraw the money
+
+146
+00:04:10,820 --> 00:04:14,040
+I went to the nearby post office in person to find the postman
+
+147
+00:04:14,040 --> 00:04:15,320
+Some people said, 'You finally came.'
+
+148
+00:04:15,320 --> 00:04:17,019
+This letter has been sitting here for almost half a month
+
+149
+00:04:17,019 --> 00:04:18,570
+I was about to return it in two days.
+
+150
+00:04:18,570 --> 00:04:20,410
+So the address here is extremely important
+
+151
+00:04:20,410 --> 00:04:21,570
+must be emphasized repeatedly
+
+152
+00:04:21,570 --> 00:04:22,680
+You must write it accurately
+
+153
+00:04:22,680 --> 00:04:24,800
+It is recommended that you can add at the end of the address field
+
+154
+00:04:24,800 --> 00:04:25,880
+include your phone number
+
+155
+00:04:25,880 --> 00:04:26,940
+For example, you can write it like this
+
+156
+00:04:26,940 --> 00:04:29,780
+Building 3, Unit 1, Room 601, Some Community, phone
+
+157
+00:04:29,780 --> 00:04:31,340
+13812345678
+
+158
+00:04:31,340 --> 00:04:33,260
+Then the postman can call you
+
+159
+00:04:33,260 --> 00:04:34,670
+because he can see your phone number
+
+160
+00:04:34,670 --> 00:04:35,350
+as a last resort
+
+161
+00:04:35,350 --> 00:04:35,990
+just like me
+
+162
+00:04:35,990 --> 00:04:37,990
+go to the local post office to check
+
+163
+00:04:37,990 --> 00:04:39,590
+If you still haven't received it after five weeks
+
+164
+00:04:39,590 --> 00:04:40,690
+then apply again
+
+165
+00:04:40,690 --> 00:04:42,340
+Each account can apply up to four times
+
+166
+00:04:42,340 --> 00:04:44,220
+I reapplied once in the middle
+
+167
+00:04:44,220 --> 00:04:45,420
+The wallpaper was written correctly
+
+168
+00:04:45,420 --> 00:04:47,180
+It took about three weeks to get the new one
+
+169
+00:04:47,180 --> 00:04:48,260
+I never opened this one
+
+170
+00:04:48,260 --> 00:04:49,030
+was not used
+
+171
+00:04:49,030 --> 00:04:50,530
+Additionally, the receiving account
+
+172
+00:04:50,530 --> 00:04:52,070
+a China Merchants Bank debit card will do
+
+173
+00:04:52,070 --> 00:04:52,890
+very convenient
+
+174
+00:04:52,890 --> 00:04:54,030
+around the 21st of each month
+
+175
+00:04:54,030 --> 00:04:55,710
+the USD will be deposited into the account
+
+176
+00:04:55,710 --> 00:04:57,670
+In the app, click on foreign exchange purchase
+
+177
+00:04:57,670 --> 00:04:58,690
+click on settlement exchange
+
+178
+00:04:58,690 --> 00:04:59,830
+then select USD
+
+179
+00:04:59,830 --> 00:05:02,430
+then the USD in your account can be directly settled into RMB
+
+180
+00:05:02,430 --> 00:05:03,600
+into your bank card
+
+181
+00:05:03,600 --> 00:05:04,360
+At this point
+
+182
+00:05:04,360 --> 00:05:06,260
+Your money will definitely be deposited into your account
+
+183
+00:05:06,260 --> 00:05:07,400
+but there's one more important thing
+
+184
+00:05:07,400 --> 00:05:09,800
+The tax information consists of three parts
+
+185
+00:05:09,800 --> 00:05:11,740
+the U.S. W8BEN form
+
+186
+00:05:11,740 --> 00:05:12,740
+YouTube belongs to Google
+
+187
+00:05:12,740 --> 00:05:13,720
+They are all US companies
+
+188
+00:05:13,720 --> 00:05:14,610
+If you don't fill this out
+
+189
+00:05:14,610 --> 00:05:17,390
+it defaults to deducting 24% of global revenue as tax
+
+190
+00:05:17,390 --> 00:05:18,120
+too high
+
+191
+00:05:18,120 --> 00:05:18,720
+After filling it in
+
+192
+00:05:18,720 --> 00:05:19,840
+only for US audiences
+
+193
+00:05:19,840 --> 00:05:21,580
+with a tax rate of only about 10% or less
+
+194
+00:05:21,580 --> 00:05:22,830
+the difference is huge
+
+195
+00:05:22,830 --> 00:05:24,410
+Next is the Singapore tax information
+
+196
+00:05:24,410 --> 00:05:26,710
+This is because Google's Asia-Pacific headquarters is located in Singapore
+
+197
+00:05:26,710 --> 00:05:28,940
+Our payments will be issued by a Singapore entity
+
+198
+00:05:28,940 --> 00:05:32,280
+The Singapore government requires withholding tax on certain income paid to non-residents
+
+199
+00:05:32,280 --> 00:05:33,360
+withhold tax
+
+200
+00:05:33,360 --> 00:05:34,590
+Tax will be withheld if you don't fill it in
+
+201
+00:05:34,590 --> 00:05:35,770
+However, we can be exempt from taxation.
+
+202
+00:05:35,770 --> 00:05:39,030
+Because there is an agreement between China and Singapore regarding the avoidance of double taxation
+
+203
+00:05:39,030 --> 00:05:41,930
+Agreement for the Avoidance of Double Taxation and the Prevention of Fiscal Evasion
+
+204
+00:05:41,930 --> 00:05:44,290
+Our video blogger is considered an independent personal service within it
+
+205
+00:05:44,290 --> 00:05:45,320
+can be tax-exempt
+
+206
+00:05:45,320 --> 00:05:48,060
+
+
+207
+00:05:48,060 --> 00:05:50,800
+called the Chinese Tax Resident Certificate
+
+208
+00:05:50,800 --> 00:05:51,920
+This is what the proof looks like
+
+209
+00:05:51,920 --> 00:05:53,540
+A new one must be uploaded every year
+
+210
+00:05:53,540 --> 00:05:55,840
+You can consult your local tax office on how to obtain it
+
+211
+00:05:55,840 --> 00:05:59,320
+Here I have to praise the government services in Hangzhou for being very convenient
+
+212
+00:05:59,320 --> 00:06:01,280
+Me is located in Yuhang District, Hangzhou City
+
+213
+00:06:01,280 --> 00:06:03,940
+Go directly to the web version of the Natural Person Electronic Tax Bureau
+
+214
+00:06:03,940 --> 00:06:05,460
+Click on 'I want to handle tax affairs'
+
+215
+00:06:05,460 --> 00:06:08,440
+There is an option for issuing Chinese Tax Resident Certificate on the right side
+
+216
+00:06:08,440 --> 00:06:09,880
+Just fill it out online directly.
+
+217
+00:06:09,880 --> 00:06:11,600
+I won't go into the details of how to fill it out.
+
+218
+00:06:11,600 --> 00:06:13,860
+
+
+219
+00:06:13,860 --> 00:06:16,660
+and this W8BEN form and Singapore
+
+220
+00:06:16,660 --> 00:06:17,640
+How to fill in the tax information
+
+221
+00:06:17,640 --> 00:06:19,200
+There are people on YouTube who have shared it
+
+222
+00:06:19,200 --> 00:06:21,680
+
+
+223
+00:06:21,680 --> 00:06:23,780
+
+
+224
+00:06:23,780 --> 00:06:24,670
+Feel free to take it
+
+225
+00:06:24,670 --> 00:06:25,190
+At this point
+
+226
+00:06:25,190 --> 00:06:26,550
+From completing your app application to
+
+227
+00:06:26,550 --> 00:06:28,750
+transfer the money to your own account at the lowest tax rate
+
+228
+00:06:28,750 --> 00:06:30,690
+All the necessary conditions you need are here
+
+229
+00:06:30,690 --> 00:06:31,990
+The first requirement is 1,000 Followers
+
+230
+00:06:31,990 --> 00:06:34,570
+The second requirement is 4,000 hours of watch time within 12 months
+
+231
+00:06:34,570 --> 00:06:36,669
+or 10 million Shots plays within 90 days
+
+232
+00:06:36,669 --> 00:06:38,829
+The third is to register and bind EDISON
+
+233
+00:06:38,829 --> 00:06:40,890
+Receive an international letter containing the PIN code
+
+234
+00:06:40,890 --> 00:06:42,930
+The fourth one is a China Merchants Bank debit card.
+
+235
+00:06:42,930 --> 00:06:45,290
+the fifth is the Chinese tax resident certificate
+
+236
+00:06:45,290 --> 00:06:46,960
+All set now
+
+237
+00:06:46,960 --> 00:06:49,140
+YouTube earnings are first settled to EDISON every month
+
+238
+00:06:49,140 --> 00:06:51,460
+As long as it exceeds $100, the payment will be deposited into your account
+
+239
+00:06:51,460 --> 00:06:53,240
+If it's not enough, it will be deferred to the next month.
+
+240
+00:06:53,240 --> 00:06:55,240
+Next, let's talk about what type of content can generate revenue
+
+241
+00:06:55,240 --> 00:06:57,580
+Not all content can generate revenue on YouTube or through ads.
+
+242
+00:06:57,580 --> 00:06:58,970
+First and foremost, it must be original
+
+243
+00:06:58,970 --> 00:07:00,530
+
+
+244
+00:07:00,530 --> 00:07:01,450
+like video footage
+
+245
+00:07:01,450 --> 00:07:02,900
+Music BGM is not allowed
+
+246
+00:07:02,900 --> 00:07:04,940
+Then there are the vertical short videos in shots
+
+247
+00:07:04,940 --> 00:07:07,179
+is different from standard horizontal long videos
+
+248
+00:07:07,179 --> 00:07:08,299
+Original is easy to understand
+
+249
+00:07:08,299 --> 00:07:09,739
+the video footage is shot by yourself
+
+250
+00:07:09,739 --> 00:07:10,659
+and then wrote the script yourself
+
+251
+00:07:10,659 --> 00:07:11,359
+recorded the voiceover yourself
+
+252
+00:07:11,359 --> 00:07:12,339
+appear on camera to provide commentary
+
+253
+00:07:12,339 --> 00:07:13,139
+self-edited
+
+254
+00:07:13,139 --> 00:07:14,490
+then it's 100% original
+
+255
+00:07:14,490 --> 00:07:16,550
+During this process, you can appropriately utilize AI
+
+256
+00:07:16,550 --> 00:07:17,930
+For example, if you wrote the script yourself
+
+257
+00:07:17,930 --> 00:07:18,670
+but without showing your face
+
+258
+00:07:18,670 --> 00:07:19,910
+is an AI-voiced narration
+
+259
+00:07:19,910 --> 00:07:22,970
+but the visual materials and sound effects are all original edits of my own
+
+260
+00:07:22,970 --> 00:07:23,800
+That's fine
+
+261
+00:07:23,800 --> 00:07:26,320
+but if everything is entirely AI-written
+
+262
+00:07:26,320 --> 00:07:29,440
+then dubbed with online materials or AI-generated visuals
+
+263
+00:07:29,440 --> 00:07:31,659
+will be judged as low-quality content
+
+264
+00:07:31,659 --> 00:07:34,199
+There is also a policy related to originality called repetitive content
+
+265
+00:07:34,199 --> 00:07:36,979
+it's about whether the similarity of content within your own channel is very high
+
+266
+00:07:36,979 --> 00:07:38,990
+For example, if you go to the riverbank every day to grind an iron rod
+
+267
+00:07:38,990 --> 00:07:39,850
+the same camera angle
+
+268
+00:07:39,850 --> 00:07:40,550
+the same location
+
+269
+00:07:40,550 --> 00:07:41,350
+the same scene
+
+270
+00:07:41,350 --> 00:07:43,670
+It's hard for the audience to tell the difference between your different videos
+
+271
+00:07:43,670 --> 00:07:45,090
+There's not much difference between you today and yesterday
+
+272
+00:07:45,090 --> 00:07:45,960
+This just won't do
+
+273
+00:07:45,960 --> 00:07:48,300
+Or you keep using a certain template to mass-produce videos
+
+274
+00:07:48,300 --> 00:07:49,840
+The similarity between videos is very high
+
+275
+00:07:49,840 --> 00:07:50,500
+This is also not allowed
+
+276
+00:07:50,500 --> 00:07:52,790
+YouTube may suspend your monetization eligibility
+
+277
+00:07:52,790 --> 00:07:53,790
+
+
+278
+00:07:53,790 --> 00:07:55,930
+YouTube has an automated digital fingerprinting technology
+
+279
+00:07:55,930 --> 00:07:57,490
+which is its Content ID system
+
+280
+00:07:57,490 --> 00:07:58,930
+
+
+281
+00:07:58,930 --> 00:08:01,590
+
+
+282
+00:08:01,590 --> 00:08:02,890
+after you upload the video
+
+283
+00:08:02,890 --> 00:08:04,750
+The system will automatically compare it with the database
+
+284
+00:08:04,750 --> 00:08:06,850
+
+
+285
+00:08:06,850 --> 00:08:08,710
+
+
+286
+00:08:08,710 --> 00:08:10,510
+There are generally several ways to handle it
+
+287
+00:08:10,510 --> 00:08:12,830
+
+
+288
+00:08:12,830 --> 00:08:14,250
+The second is revenue sharing
+
+289
+00:08:14,250 --> 00:08:16,410
+The third option is to prohibit playback or block the content
+
+290
+00:08:16,410 --> 00:08:18,330
+The fourth is to only monitor traffic data
+
+291
+00:08:18,330 --> 00:08:19,820
+but does not restrict content monetization
+
+292
+00:08:19,820 --> 00:08:20,620
+I had a video
+
+293
+00:08:20,620 --> 00:08:21,660
+used footage from the Paris Olympics
+
+294
+00:08:21,660 --> 00:08:23,400
+a few seconds of the table tennis match footage
+
+295
+00:08:23,400 --> 00:08:24,740
+
+
+296
+00:08:24,740 --> 00:08:26,890
+and then directly banned from global playback
+
+297
+00:08:26,890 --> 00:08:28,890
+
+
+298
+00:08:28,890 --> 00:08:30,390
+In comparison, it's much more relaxed domestically.
+
+299
+00:08:30,390 --> 00:08:31,690
+Film & TV material with BGM
+
+300
+00:08:31,690 --> 00:08:32,400
+do whatever you want
+
+301
+00:08:32,400 --> 00:08:34,120
+most Film & TV commentary videos in China
+
+302
+00:08:34,120 --> 00:08:36,190
+can't bypass YouTube's Content ID system
+
+303
+00:08:36,190 --> 00:08:37,669
+Because I need to synchronize distribution on YouTube
+
+304
+00:08:37,669 --> 00:08:39,530
+so the video materials of Me are all very compliant
+
+305
+00:08:39,530 --> 00:08:42,089
+The BGM was purchased and authorized by Atoras.
+
+306
+00:08:42,089 --> 00:08:44,709
+So here I sympathize with Bilibili for not running pre-roll ads
+
+307
+00:08:44,709 --> 00:08:48,189
+
+
+308
+00:08:48,189 --> 00:08:49,610
+This matter is quite tricky to handle domestically
+
+309
+00:08:49,610 --> 00:08:52,130
+The calculation of playback revenue for SH vertical short videos is very complex
+
+310
+00:08:52,130 --> 00:08:53,050
+You can ask Germany man
+
+311
+00:08:53,050 --> 00:08:53,770
+comprehensive revenue
+
+312
+00:08:53,770 --> 00:08:56,640
+approximately 1% to 5% of standard horizontal long-form videos
+
+313
+00:08:56,640 --> 00:08:58,540
+Here we need to clarify the definition of shots
+
+314
+00:08:58,540 --> 00:09:01,040
+The latest regulation states that vertical videos must be under 3 minutes.
+
+315
+00:09:01,040 --> 00:09:03,569
+including 1:1 square videos, which are all considered shots
+
+316
+00:09:03,569 --> 00:09:06,129
+If you shoot a vertical video that's 3 minutes and 1 second long
+
+317
+00:09:06,129 --> 00:09:07,589
+it will not enter the shorts stream
+
+318
+00:09:07,589 --> 00:09:09,929
+but will appear as a regular video with black borders
+
+319
+00:09:09,929 --> 00:09:11,079
+It counts as a long video
+
+320
+00:09:11,079 --> 00:09:13,299
+Additionally, as long as it's a 16:9 horizontal video
+
+321
+00:09:13,299 --> 00:09:14,259
+regardless of length
+
+322
+00:09:14,259 --> 00:09:15,970
+it is considered a standard long video
+
+323
+00:09:15,970 --> 00:09:17,270
+as long as it's a standard long video
+
+324
+00:09:17,270 --> 00:09:19,850
+YouTube will insert bumper ads at the beginning and end of the video
+
+325
+00:09:19,850 --> 00:09:21,210
+if the video exceeds 8 minutes
+
+326
+00:09:21,210 --> 00:09:24,400
+YOUTUBE will automatically insert ads at certain points in the video
+
+327
+00:09:24,400 --> 00:09:26,060
+So 8 minutes is the dividing line
+
+328
+00:09:26,060 --> 00:09:27,120
+videos longer than 8 minutes
+
+329
+00:09:27,120 --> 00:09:29,280
+you will get more opportunities for ad insertion
+
+330
+00:09:29,280 --> 00:09:30,960
+If your video is 7 minutes and 55 seconds
+
+331
+00:09:30,960 --> 00:09:31,720
+then don't hesitate
+
+332
+00:09:31,720 --> 00:09:33,820
+try every means to make it 8 minutes and 1 second
+
+333
+00:09:33,820 --> 00:09:35,849
+you will gain more advertising revenue
+
+334
+00:09:35,849 --> 00:09:37,409
+When you upload a video in the backend
+
+335
+00:09:37,409 --> 00:09:38,809
+After selecting to enable monetization
+
+336
+00:09:38,809 --> 00:09:42,270
+It will prompt you to self-check and declare whether it contains the following inappropriate content
+
+337
+00:09:42,270 --> 00:09:43,110
+profanity
+
+338
+00:09:43,110 --> 00:09:43,870
+adult content
+
+339
+00:09:43,870 --> 00:09:44,610
+hate speech
+
+340
+00:09:44,610 --> 00:09:45,610
+firearms sensitivity etc.
+
+341
+00:09:45,610 --> 00:09:46,490
+I usually don't have any
+
+342
+00:09:46,490 --> 00:09:47,290
+then submit
+
+343
+00:09:47,290 --> 00:09:48,720
+Then the backend will conduct a self-check
+
+344
+00:09:48,720 --> 00:09:50,740
+
+
+345
+00:09:50,740 --> 00:09:53,280
+Then the YouTube AI system will also check your video content
+
+346
+00:09:53,280 --> 00:09:54,840
+whether it is suitable for ad placement
+
+347
+00:09:54,840 --> 00:09:56,500
+All check marks mean no problem
+
+348
+00:09:56,500 --> 00:09:57,880
+Then you can publish it
+
+349
+00:09:57,880 --> 00:09:59,560
+Finally, for newcomers who want to start on YouTube
+
+350
+00:09:59,560 --> 00:10:00,339
+give a few suggestions
+
+351
+00:10:00,339 --> 00:10:02,159
+On YouTube, those who have had a significant influence on me
+
+352
+00:10:02,159 --> 00:10:04,560
+There are indeed two creators who have provided me with direct help
+
+353
+00:10:04,560 --> 00:10:06,100
+one is Papa Computer Classroom
+
+354
+00:10:06,100 --> 00:10:07,360
+This is a blogger from Taiwan.
+
+355
+00:10:07,360 --> 00:10:09,540
+I watched his CAMPTATION episode
+
+356
+00:10:09,540 --> 00:10:12,130
+that's why I decided to start as a blogger. This editing tool
+
+357
+00:10:12,130 --> 00:10:12,690
+easy to use
+
+358
+00:10:12,690 --> 00:10:14,250
+screen recording and editing in one
+
+359
+00:10:14,250 --> 00:10:17,040
+All my subsequent videos were edited with CAMPAI.
+
+360
+00:10:17,040 --> 00:10:19,000
+Papa Computer Classroom is a software sharing
+
+361
+00:10:19,000 --> 00:10:19,860
+The blogger doesn't show their face
+
+362
+00:10:19,860 --> 00:10:22,080
+Slowly, there are also 1.65 million followers on YouTube.
+
+363
+00:10:22,080 --> 00:10:23,830
+He also has an account on Bilibili with 300,000 followers.
+
+364
+00:10:23,830 --> 00:10:26,810
+Look at this GEMINI video, it only got less than 30,000 views on Bilibili
+
+365
+00:10:26,810 --> 00:10:28,370
+but it has 700,000 views on YouTube
+
+366
+00:10:28,370 --> 00:10:30,500
+These 700,000 views are worth 20,000 yuan.
+
+367
+00:10:30,500 --> 00:10:32,340
+You can learn from his editing techniques
+
+368
+00:10:32,340 --> 00:10:33,160
+unhurried and unhasty
+
+369
+00:10:33,160 --> 00:10:35,220
+simple and straightforward without excessive editing
+
+370
+00:10:35,220 --> 00:10:36,819
+Just make things clear
+
+371
+00:10:36,819 --> 00:10:37,859
+Don't imitate Xiao Ling
+
+372
+00:10:37,859 --> 00:10:39,099
+You may never learn it in your lifetime
+
+373
+00:10:39,099 --> 00:10:41,659
+Don't try to match the level of his editor, nor emulate Film & TV hurricane
+
+374
+00:10:41,659 --> 00:10:44,069
+His videos have no instructional significance for solo beginners
+
+375
+00:10:44,069 --> 00:10:45,809
+Another blogger is Ali Ade
+
+376
+00:10:45,809 --> 00:10:46,789
+his videos contain a lot of
+
+377
+00:10:46,789 --> 00:10:48,989
+share on how to start and operate a YouTube account from scratch
+
+378
+00:10:48,989 --> 00:10:50,110
+very touching and practical
+
+379
+00:10:50,110 --> 00:10:52,190
+The most important concept I learned from his videos
+
+380
+00:10:52,190 --> 00:10:53,290
+is the niche market
+
+381
+00:10:53,290 --> 00:10:55,319
+What category or niche doesn't matter
+
+382
+00:10:55,319 --> 00:10:57,039
+who will pay you to make videos in the future
+
+383
+00:10:57,039 --> 00:10:58,699
+or place ads in your videos
+
+384
+00:10:58,699 --> 00:11:00,019
+that is your niche market
+
+385
+00:11:00,019 --> 00:11:00,900
+This is very important
+
+386
+00:11:00,900 --> 00:11:02,660
+what you want to create and what your audience wants to watch
+
+387
+00:11:02,660 --> 00:11:03,620
+someone is willing to pay
+
+388
+00:11:03,620 --> 00:11:05,340
+how to find balance among these three parties
+
+389
+00:11:05,340 --> 00:11:06,040
+find the focus
+
+390
+00:11:06,040 --> 00:11:07,990
+I highly recommend you to check out his videos
+
+391
+00:11:07,990 --> 00:11:10,030
+Adhere to originality and share valuable content
+
+392
+00:11:10,030 --> 00:11:12,630
+Here I believe tutorial videos will always have a market
+
+393
+00:11:12,630 --> 00:11:16,119
+Teaching to learn plus tutorial videos equals double value
+
+394
+00:11:16,119 --> 00:11:18,019
+I also didn't know how to use CapTi before
+
+395
+00:11:18,019 --> 00:11:19,059
+I taught myself
+
+396
+00:11:19,059 --> 00:11:20,459
+But I learned with a purpose
+
+397
+00:11:20,459 --> 00:11:21,359
+I want to make a tutorial
+
+398
+00:11:21,359 --> 00:11:23,860
+I want to teach other beginners how to use CAMPAA effectively
+
+399
+00:11:23,860 --> 00:11:25,140
+This is learning by teaching
+
+400
+00:11:25,140 --> 00:11:26,420
+I will learn it thoroughly
+
+401
+00:11:26,420 --> 00:11:29,180
+And I've indeed created a set of CAMPTATION editing tutorials
+
+402
+00:11:29,180 --> 00:11:30,480
+Even if you don't do anything else
+
+403
+00:11:30,480 --> 00:11:32,540
+you just take all the browsers on the market
+
+404
+00:11:32,540 --> 00:11:33,960
+you create tutorials one by one
+
+405
+00:11:33,960 --> 00:11:35,560
+Chrome Safari Edge
+
+406
+00:11:35,560 --> 00:11:36,660
+Arc Quark
+
+407
+00:11:36,660 --> 00:11:38,400
+Once you seriously complete these videos
+
+408
+00:11:38,400 --> 00:11:40,200
+I guarantee you'll have followers
+
+409
+00:11:40,200 --> 00:11:42,750
+Manufacturers of other productivity tools will also approach you for advertising.
+
+410
+00:11:42,750 --> 00:11:44,390
+AI companies will also come to you
+
+411
+00:11:44,390 --> 00:11:47,310
+Because current AI cannot do without the browser as an entry point, similarly
+
+412
+00:11:47,310 --> 00:11:49,550
+You go through all the note-taking software on the market
+
+413
+00:11:49,550 --> 00:11:51,100
+will have the same effect
+
+414
+00:11:51,100 --> 00:11:52,820
+Anyway, you have to take this process slowly.
+
+415
+00:11:52,820 --> 00:11:53,510
+Don't rush
+
+416
+00:11:53,510 --> 00:11:54,230
+Ali app die
+
+417
+00:11:54,230 --> 00:11:55,350
+now earning tens of millions of dollars annually
+
+418
+00:11:55,350 --> 00:11:57,810
+but it was also after he posted dozens of videos
+
+419
+00:11:57,810 --> 00:11:59,150
+only then did a hit emerge
+
+420
+00:11:59,150 --> 00:12:00,550
+and then gradually took off
+
+421
+00:12:00,550 --> 00:12:02,830
+Me YouTube also took dozens of videos to post before
+
+422
+00:12:02,830 --> 00:12:03,910
+only encountered one viral hit
+
+423
+00:12:03,910 --> 00:12:05,619
+only then did the channel open up the path to monetization
+
+424
+00:12:05,619 --> 00:12:07,519
+No one knows which video will definitely go viral
+
+425
+00:12:07,519 --> 00:12:09,539
+but you have to keep posting and trying nonstop
+
+426
+00:12:09,539 --> 00:12:12,650
+you might just hit that lucky viral platform
+
+427
+00:12:12,650 --> 00:12:15,410
+and only then will it recognize you as a good partner who persists in creating content
+
+428
+00:12:15,410 --> 00:12:16,490
+so you want to be a blogger
+
+429
+00:12:16,490 --> 00:12:17,650
+I suggest you have a backup plan
+
+430
+00:12:17,650 --> 00:12:19,170
+operate on both Bilibili and YouTube
+
+431
+00:12:19,170 --> 00:12:21,609
+because you never know if you can hold out until your first sponsored deal
+
+432
+00:12:21,609 --> 00:12:24,909
+Before that, it's very likely that YouTube revenue will keep you going forward
+
+433
+00:12:24,909 --> 00:12:26,849
+It was the YouTube revenue at the end of December 2023 that
+
+434
+00:12:26,849 --> 00:12:28,029
+gave me a shot in the arm
+
+435
+00:12:28,029 --> 00:12:29,529
+Having a guaranteed income of 10,000 yuan per month
+
+436
+00:12:29,529 --> 00:12:30,660
+I felt much more confident
+
+437
+00:12:30,660 --> 00:12:31,780
+Then, after persisting for half a year
+
+438
+00:12:31,780 --> 00:12:33,540
+I received my first commercial order in my life
+
+439
+00:12:33,540 --> 00:12:35,620
+Because I didn't properly manage my YouTube channel for 25 years
+
+440
+00:12:35,620 --> 00:12:36,460
+The data is quite mediocre
+
+441
+00:12:36,460 --> 00:12:37,640
+I will work hard this year
+
+442
+00:12:37,640 --> 00:12:41,140
+A year later, I will share more in-depth and detailed experiences and feelings.
+
+443
+00:12:41,140 --> 00:12:42,170
+Let's work together
+
+444
+00:12:42,170 --> 00:12:43,710
+I hope this video is helpful to you
+
+445
+00:12:43,710 --> 00:12:44,450
+Thank you for your time
+
+446
+00:12:44,450 --> 00:12:46,000
+See you in the next video
+

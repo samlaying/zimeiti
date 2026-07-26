@@ -1,0 +1,396 @@
+1
+00:00:01,200 --> 00:00:02,720
+Hello everyone, and welcome!
+
+2
+00:00:02,720 --> 00:00:03,360
+Welcome back.
+
+3
+00:00:03,360 --> 00:00:05,580
+Alright, next up, let's get the Git environment set up.
+
+4
+00:00:05,580 --> 00:00:08,300
+So, Git can help us with our web coding,
+
+5
+00:00:08,300 --> 00:00:11,480
+to manage the versions of the code files we create.
+
+6
+00:00:11,480 --> 00:00:13,760
+So yeah, it's a pretty useful tool to have.
+
+7
+00:00:13,760 --> 00:00:15,280
+So, let's get it set up first.
+
+8
+00:00:15,280 --> 00:00:18,220
+We'll dive into how to use Git in more detail later on.
+
+9
+00:00:18,220 --> 00:00:21,500
+Alright, deploying Git is also divided into two main systems: Windows and macOS.
+
+10
+00:00:21,500 --> 00:00:24,750
+Alright, so first, let's walk through the installation for the Windows system.
+
+11
+00:00:24,750 --> 00:00:26,070
+Alright, let's get back to our Windows system.
+
+12
+00:00:26,070 --> 00:00:28,700
+Alright, so the very first thing we need to do is find our resource materials.
+
+13
+00:00:28,700 --> 00:00:31,100
+Inside the materials folder, find the folder for Git.
+
+14
+00:00:31,100 --> 00:00:32,500
+And inside, you'll find the installer.
+
+15
+00:00:32,500 --> 00:00:36,180
+Alright, let's double-click to run it. Okay, once it's open...
+
+16
+00:00:36,180 --> 00:00:39,140
+Alright, so the first thing it's asking us to do is just click 'Next'.
+
+17
+00:00:39,140 --> 00:00:41,680
+Alright, next up, we're going to choose the installation path.
+
+18
+00:00:41,680 --> 00:00:43,120
+By default, the installation path is set to the C drive.
+
+19
+00:00:43,120 --> 00:00:44,280
+So, if you don't want to install it on the C drive,
+
+20
+00:00:44,280 --> 00:00:45,840
+you can also change it to a different location.
+
+21
+00:00:45,840 --> 00:00:47,400
+For example, what I usually do is install it to...
+
+22
+00:00:47,400 --> 00:00:49,650
+like the D drive, and download a folder called DEV.
+
+23
+00:00:49,650 --> 00:00:50,930
+and create one called 'SDK'. Okay.
+
+24
+00:00:50,930 --> 00:00:52,730
+So, I usually just install it right here. Alright.
+
+25
+00:00:52,730 --> 00:00:54,290
+Alright, once you've decided on the installation location,
+
+26
+00:00:54,290 --> 00:00:56,080
+Alright, let's click 'Next'.
+
+27
+00:00:56,080 --> 00:00:58,200
+And you can just ignore all of these options.
+
+28
+00:00:58,200 --> 00:00:59,220
+Just keep hitting 'Next'.
+
+29
+00:00:59,220 --> 00:01:01,400
+Next, next, next, next, okay.
+
+30
+00:01:01,400 --> 00:01:02,890
+Just keep clicking, alright.
+
+31
+00:01:02,890 --> 00:01:03,510
+Until you get to the end.
+
+32
+00:01:03,510 --> 00:01:06,210
+And then, we just click on this 'Install' button, and that's it.
+
+33
+00:01:06,210 --> 00:01:07,570
+So, as you can see, the installation process is pretty straightforward.
+
+34
+00:01:07,570 --> 00:01:09,900
+Just keep clicking 'Next' and pick a location to install it.
+
+35
+00:01:09,900 --> 00:01:11,280
+There's nothing else you need to configure.
+
+36
+00:01:11,280 --> 00:01:12,500
+Alright, okay, so let's just wait a moment.
+
+37
+00:01:12,500 --> 00:01:14,500
+Let's wait for the progress bar to finish.
+
+38
+00:01:24,660 --> 00:01:26,020
+Alright, the progress bar is finished.
+
+39
+00:01:26,020 --> 00:01:27,880
+And with that, our Git installation is complete.
+
+40
+00:01:27,880 --> 00:01:28,980
+And then we'll click 'Finish'.
+
+41
+00:01:28,980 --> 00:01:30,340
+Now, before we click 'Finish'...
+
+42
+00:01:30,340 --> 00:01:31,660
+we're just going to uncheck this box here.
+
+43
+00:01:31,660 --> 00:01:34,180
+Otherwise, it's going to open up a release notes log.
+
+44
+00:01:34,180 --> 00:01:36,200
+Alright, so after you've clicked 'Finish' on the installer,
+
+45
+00:01:36,200 --> 00:01:38,560
+Similarly, let's open up the one we used earlier.
+
+46
+00:01:38,560 --> 00:01:40,610
+This is a piece of software called the 'Mid-range' version.
+
+47
+00:01:40,610 --> 00:01:44,030
+Alright, once it's open, we're going to type in a command called 'git'.
+
+48
+00:01:44,030 --> 00:01:46,339
+and then a space, followed by a dash and a capital V. Okay.
+
+49
+00:01:46,339 --> 00:01:47,419
+git, space, hyphen, V.
+
+50
+00:01:47,419 --> 00:01:48,019
+And then hit Enter.
+
+51
+00:01:48,019 --> 00:01:50,179
+And as you can see, it's showing the Git version right here.
+
+52
+00:01:50,179 --> 00:01:52,439
+And there you have it, version 2.54 is displayed.
+
+53
+00:01:52,439 --> 00:01:54,480
+So, that means it's showing the version number.
+
+54
+00:01:54,480 --> 00:01:58,220
+This means our Git environment is all set and working perfectly.
+
+55
+00:01:58,220 --> 00:02:01,620
+Alright, so that's the process for setting up Git on Windows.
+
+56
+00:02:01,620 --> 00:02:04,540
+Alright, next up, let's dive into the Mac OS system.
+
+57
+00:02:04,540 --> 00:02:07,340
+Let's see how to get Git set up.
+
+58
+00:02:08,579 --> 00:02:10,979
+Alright, we're now on the Mac OS system.
+
+59
+00:02:10,979 --> 00:02:13,459
+Alright, so, as for deploying Git on Mac...
+
+60
+00:02:13,459 --> 00:02:15,339
+We haven't provided a dedicated installer package for it.
+
+61
+00:02:15,339 --> 00:02:17,880
+Instead, what we've provided is an installation guide.
+
+62
+00:02:17,899 --> 00:02:20,339
+Alright, so if we take a look at this document, we'll see that...
+
+63
+00:02:20,339 --> 00:02:25,130
+Inside, it actually provides just one command, which is 'xcode-select --install'.
+
+64
+00:02:25,130 --> 00:02:27,650
+Alright, so let's go ahead and copy this command.
+
+65
+00:02:27,650 --> 00:02:30,530
+And once you run that, you'll have your Git environment all set up.
+
+66
+00:02:30,530 --> 00:02:32,640
+So, as you can see, the installation process is pretty straightforward.
+
+67
+00:02:32,640 --> 00:02:34,360
+Alright, so once we've copied the command,
+
+68
+00:02:34,360 --> 00:02:36,180
+Alright, let's open up our terminal program.
+
+69
+00:02:36,180 --> 00:02:38,380
+Then, right-click to paste this command.
+
+70
+00:02:38,380 --> 00:02:40,500
+And then, just hit Enter.
+
+71
+00:02:40,500 --> 00:02:41,380
+When you hit Enter,
+
+72
+00:02:41,380 --> 00:02:42,800
+A pop-up window will appear.
+
+73
+00:02:42,800 --> 00:02:45,380
+This pop-up is asking for some kind of command line tool.
+
+74
+00:02:45,380 --> 00:02:46,480
+Developer Tools, and so on.
+
+75
+00:02:46,480 --> 00:02:47,280
+So, do you want to install it?
+
+76
+00:02:47,280 --> 00:02:49,290
+Alright, so I'll just go ahead and click 'Install'.
+
+77
+00:02:49,290 --> 00:02:50,610
+Then, click 'Agree'.
+
+78
+00:02:50,610 --> 00:02:52,510
+And now we just let it do its thing.
+
+79
+00:02:52,510 --> 00:02:53,370
+And that's done.
+
+80
+00:02:53,370 --> 00:02:55,340
+And with that, our Git installation is complete.
+
+81
+00:02:55,340 --> 00:02:57,980
+Alright, so the installation on macOS is going to take a little while.
+
+82
+00:02:57,980 --> 00:03:00,380
+This should take about five to ten minutes.
+
+83
+00:03:00,380 --> 00:03:03,060
+So, let's just be patient and wait for a bit.
+
+84
+00:03:04,760 --> 00:03:07,240
+Alright, so after a bit of a wait...
+
+85
+00:03:07,240 --> 00:03:09,160
+This tells us that the software has been installed.
+
+86
+00:03:09,160 --> 00:03:10,880
+That means our environment is all set.
+
+87
+00:03:10,880 --> 00:03:12,880
+Alright, let's head back to the terminal.
+
+88
+00:03:12,880 --> 00:03:17,170
+Alright, let's run 'git space dash V' again.
+
+89
+00:03:17,170 --> 00:03:18,030
+So, once we hit Enter,
+
+90
+00:03:18,030 --> 00:03:19,510
+Alright, so if we wait just a moment, you'll see...
+
+91
+00:03:19,510 --> 00:03:22,850
+And there we have it, the version 2.50.1 is now displayed.
+
+92
+00:03:22,850 --> 00:03:25,950
+And that means we've successfully installed it on our Mac system.
+
+93
+00:03:25,950 --> 00:03:28,290
+And that's our Git environment all set up.
+
+94
+00:03:28,290 --> 00:03:31,610
+And with that, our Git environment is now fully set up.
+
+95
+00:03:31,610 --> 00:03:33,750
+Alright, so with all of that out of the way,
+
+96
+00:03:33,750 --> 00:03:37,329
+Now we can officially start setting up our web development environment.
+
+97
+00:03:37,329 --> 00:03:38,869
+Alright, let's save this video here.
+
+98
+00:03:38,869 --> 00:03:42,609
+In the next video, we'll start learning how to set up the code environment.
+
+99
+00:03:42,609 --> 00:03:45,489
+Alright, see you in the next video.
+

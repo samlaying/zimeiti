@@ -1,0 +1,520 @@
+1
+00:00:00,000 --> 00:00:01,520
+Lately, what I've been doing in Obsidian...
+
+2
+00:00:01,520 --> 00:00:04,160
+I've built this kind of topic ideation 'skill' for myself.
+
+3
+00:00:04,160 --> 00:00:07,440
+So, what it does is, it pulls from the high-quality information I've gathered.
+
+4
+00:00:07,440 --> 00:00:09,340
+as well as the topics from the creators I benchmark against,
+
+5
+00:00:09,340 --> 00:00:11,300
+as well as my own personal thoughts and reflections.
+
+6
+00:00:11,300 --> 00:00:12,780
+to give me targeted,
+
+7
+00:00:12,780 --> 00:00:16,370
+a customized topic proposal that aligns perfectly with my account's niche.
+
+8
+00:00:16,370 --> 00:00:17,370
+So that's the methodology.
+
+9
+00:00:17,370 --> 00:00:19,730
+Unlike the old way we used prompts to get topic recommendations,
+
+10
+00:00:19,730 --> 00:00:20,550
+is completely different.
+
+11
+00:00:20,550 --> 00:00:23,190
+Because it's the only method that can truly integrate your personal account's positioning.
+
+12
+00:00:23,190 --> 00:00:25,590
+to help you make that call.
+
+13
+00:00:25,590 --> 00:00:28,750
+So, where can you start looking for your topics?
+
+14
+00:00:28,750 --> 00:00:31,410
+Alright, so let me give you a quick demonstration.
+
+15
+00:00:31,410 --> 00:00:33,650
+So, let me walk you through the entire concept behind my Skill.
+
+16
+00:00:33,650 --> 00:00:36,019
+So, in this video, I'm going to share with you
+
+17
+00:00:36,019 --> 00:00:37,299
+my topic selection system.
+
+18
+00:00:37,299 --> 00:00:38,819
+
+
+19
+00:00:38,819 --> 00:00:40,039
+if you'd like one.
+
+20
+00:00:40,039 --> 00:00:41,659
+just leave a comment down below.
+
+21
+00:00:42,809 --> 00:00:44,209
+So, before we start looking for topics,
+
+22
+00:00:44,209 --> 00:00:47,300
+there's usually an input for inspiration and one for raw materials.
+
+23
+00:00:47,300 --> 00:00:50,400
+So, for me, my topic ideas primarily come from three main sources.
+
+24
+00:00:50,400 --> 00:00:54,900
+First off, I make a point of collecting high-quality information.
+
+25
+00:00:54,900 --> 00:00:57,080
+For instance, I often scroll through Twitter,
+
+26
+00:00:57,080 --> 00:00:59,200
+or if I see some useful stuff on YouTube,
+
+27
+00:00:59,200 --> 00:01:00,940
+So basically, I'll just use this plugin,
+
+28
+00:01:00,940 --> 00:01:03,920
+and with just one click, it's saved right into my Obsidian vault.
+
+29
+00:01:03,920 --> 00:01:05,920
+And what's more, it automatically sorts them into the right categories for me.
+
+30
+00:01:05,920 --> 00:01:07,310
+the right folder.
+
+31
+00:01:07,310 --> 00:01:08,270
+So, about this plugin...
+
+32
+00:01:08,270 --> 00:01:10,550
+You can just search for it in the App Store,
+
+33
+00:01:10,550 --> 00:01:11,650
+And then just install it, and you're good to go.
+
+34
+00:01:11,650 --> 00:01:13,190
+Alright, so once we've gathered all that...
+
+35
+00:01:13,190 --> 00:01:16,470
+So for something like this, we can go straight to, uh, COLIN on the right side.
+
+36
+00:01:16,470 --> 00:01:18,370
+This lets it analyze everything for us directly.
+
+37
+00:01:18,370 --> 00:01:22,030
+Is there any topic material in here we can use, or anything like that?
+
+38
+00:01:22,030 --> 00:01:24,070
+So, are there any that are worth saving for later?
+
+39
+00:01:24,070 --> 00:01:25,750
+some quality information.
+
+40
+00:01:25,750 --> 00:01:26,510
+So, if there are,
+
+41
+00:01:26,510 --> 00:01:28,750
+I just save it directly into my active idea bank.
+
+42
+00:01:28,750 --> 00:01:29,750
+So, when it's time to write,
+
+43
+00:01:29,750 --> 00:01:32,750
+We can just let COLIN pick one for us from in there.
+
+44
+00:01:32,750 --> 00:01:34,030
+The second way to collect material is...
+
+45
+00:01:34,030 --> 00:01:36,800
+I also built a feature to monitor my competitor creators.
+
+46
+00:01:36,800 --> 00:01:38,640
+a plugin for video surveillance.
+
+47
+00:01:38,640 --> 00:01:39,520
+And for this one,
+
+48
+00:01:39,520 --> 00:01:41,660
+And this plugin? I actually coded it myself.
+
+49
+00:01:41,660 --> 00:01:42,300
+Alright then,
+
+50
+00:01:42,300 --> 00:01:45,440
+So, what this plugin does is, every day, it'll automatically scrape their, uh...
+
+51
+00:01:45,440 --> 00:01:48,100
+to gather what topics these creators have been working on recently,
+
+52
+00:01:48,100 --> 00:01:49,820
+And whenever there's a topic worth jumping on,
+
+53
+00:01:49,820 --> 00:01:53,370
+And this color code will automatically highlight it for me.
+
+54
+00:01:53,370 --> 00:01:55,370
+
+
+55
+00:01:55,370 --> 00:01:56,810
+and extract it right here.
+
+56
+00:01:56,810 --> 00:01:58,730
+and push it into my topic repository.
+
+57
+00:01:58,730 --> 00:02:02,289
+So this gives me a backlog of content ideas to pull from for the week.
+
+58
+00:02:02,289 --> 00:02:03,249
+So, for example, sometimes...
+
+59
+00:02:03,249 --> 00:02:05,029
+you don't have a clear, specific direction for your topic.
+
+60
+00:02:05,029 --> 00:02:07,980
+So, we can have this Skill system pull from the material I've collected,
+
+61
+00:02:07,980 --> 00:02:10,979
+to proactively help me find some relevant angles.
+
+62
+00:02:10,979 --> 00:02:12,300
+Because the content in this asset library...
+
+63
+00:02:12,300 --> 00:02:14,670
+and I'm constantly keeping it updated.
+
+64
+00:02:14,670 --> 00:02:16,250
+So when I come across some good insights,
+
+65
+00:02:16,250 --> 00:02:17,670
+articles that break down the key takeaways from my videos,
+
+66
+00:02:17,670 --> 00:02:19,550
+And that way, we can just keep adding to it.
+
+67
+00:02:19,550 --> 00:02:20,350
+So, by doing this,
+
+68
+00:02:20,350 --> 00:02:22,579
+and SKT has its own set of analyzable materials.
+
+69
+00:02:22,579 --> 00:02:26,279
+So, that's my three-pronged approach to gathering topic ideas.
+
+70
+00:02:26,279 --> 00:02:28,860
+Alright, let me show you how I've set up my Skill system.
+
+71
+00:02:28,860 --> 00:02:29,640
+So, let's get into the specifics, shall we?
+
+72
+00:02:29,640 --> 00:02:30,060
+So, for the first step...
+
+73
+00:02:30,060 --> 00:02:32,320
+Basically, you need to put together your own 'instruction manual'.
+
+74
+00:02:32,320 --> 00:02:34,540
+This includes things like your personal background,
+
+75
+00:02:34,540 --> 00:02:36,800
+What's your specific niche for this account?
+
+76
+00:02:36,800 --> 00:02:38,760
+your user persona, and all that stuff.
+
+77
+00:02:38,760 --> 00:02:41,680
+We need to make sure all of this is laid out clearly in the knowledge base.
+
+78
+00:02:41,680 --> 00:02:42,400
+
+
+79
+00:02:42,400 --> 00:02:44,700
+So, the entire basis for Skill's decision-making, plus...
+
+80
+00:02:44,700 --> 00:02:46,670
+to give it a better understanding of who you are.
+
+81
+00:02:46,670 --> 00:02:50,030
+And on top of that, you can also feed it some of the topics from the creators you're benchmarking against.
+
+82
+00:02:50,030 --> 00:02:51,470
+and feed them into the system.
+
+83
+00:02:51,470 --> 00:02:53,310
+So that when it's making judgments about topics,
+
+84
+00:02:53,310 --> 00:02:55,640
+this way, it'll have a specific reference point to go by.
+
+85
+00:02:55,640 --> 00:02:57,640
+For instance, take the kind of topics some creators choose to cover.
+
+86
+00:02:57,640 --> 00:02:59,740
+that might be right in your blind spot.
+
+87
+00:02:59,740 --> 00:03:01,120
+or even ones you haven't even considered.
+
+88
+00:03:01,120 --> 00:03:01,920
+So, what about COGIO?
+
+89
+00:03:01,920 --> 00:03:03,850
+it can then help you specifically find...
+
+90
+00:03:03,850 --> 00:03:06,310
+So, aside from identifying the topic directions of your competitors,
+
+91
+00:03:06,310 --> 00:03:09,230
+You can also take your own already published content,
+
+92
+00:03:09,230 --> 00:03:11,370
+and feed it the topics from your videos.
+
+93
+00:03:11,370 --> 00:03:15,410
+and then have it analyze your current topics to see which categories they generally fall into.
+
+94
+00:03:15,410 --> 00:03:18,360
+And now, compare these to the topic directions of the benchmark creators we mentioned earlier.
+
+95
+00:03:18,360 --> 00:03:20,060
+or if there are any, um, limitations in your current approach.
+
+96
+00:03:20,060 --> 00:03:22,880
+or any topic areas you might need to expand into.
+
+97
+00:03:22,880 --> 00:03:24,480
+So, based on these three points,
+
+98
+00:03:24,480 --> 00:03:26,880
+you can basically rely on KaoDian to help you polish one out.
+
+99
+00:03:26,880 --> 00:03:29,840
+your very own, personalized topic guide.
+
+100
+00:03:29,840 --> 00:03:31,900
+And what's more, you can keep on adding to it over time.
+
+101
+00:03:31,900 --> 00:03:34,080
+any topic ideas you find pretty interesting.
+
+102
+00:03:34,380 --> 00:03:35,180
+And if you keep this up,
+
+103
+00:03:35,180 --> 00:03:37,700
+This way, your topic selection system will get to know you better and better.
+
+104
+00:03:37,700 --> 00:03:39,829
+And on top of that, the inspiration will just keep flowing.
+
+105
+00:03:39,829 --> 00:03:43,420
+Okay, so that's pretty much everything we have for this video.
+
+106
+00:03:43,420 --> 00:03:43,920
+that I wanted to share.
+
+107
+00:03:43,920 --> 00:03:46,220
+So, as you can see, everything I've just talked about...
+
+108
+00:03:46,220 --> 00:03:47,500
+is all happening right here in Obsidian.
+
+109
+00:03:47,500 --> 00:03:50,400
+and integrated with cloud code for, uh, both input and output.
+
+110
+00:03:50,400 --> 00:03:52,230
+So, actually, around 2026...
+
+111
+00:03:52,230 --> 00:03:55,350
+And I highly recommend you guys try out this combination as well.
+
+112
+00:03:55,350 --> 00:03:57,220
+to create your content.
+
+113
+00:03:57,220 --> 00:03:58,480
+One part is your notes.
+
+114
+00:03:58,480 --> 00:03:59,080
+your assets,
+
+115
+00:03:59,080 --> 00:04:01,840
+You can do all your thinking and processing right on your own computer.
+
+116
+00:04:01,840 --> 00:04:02,780
+a process of continuous refinement.
+
+117
+00:04:02,780 --> 00:04:05,280
+And this includes any skills you've developed and refined within this system.
+
+118
+00:04:05,280 --> 00:04:08,180
+In fact, you can easily migrate all of it to other platforms like this.
+
+119
+00:04:08,180 --> 00:04:09,959
+or even into other highly competitive products.
+
+120
+00:04:09,959 --> 00:04:11,239
+For example, something like OpenAI,
+
+121
+00:04:11,239 --> 00:04:12,399
+Codec, and so on.
+
+122
+00:04:12,399 --> 00:04:14,420
+And on top of that, you can also do some things within this environment,
+
+123
+00:04:14,420 --> 00:04:17,420
+and customize it with small plugins tailored to your personal workflow.
+
+124
+00:04:17,420 --> 00:04:18,779
+I find that to be super convenient as well.
+
+125
+00:04:18,779 --> 00:04:21,220
+So, if you find what I've shared today helpful,
+
+126
+00:04:21,220 --> 00:04:22,140
+And if you want to unlock even more,
+
+127
+00:04:22,140 --> 00:04:24,400
+As for the whole playbook on creating that kind of negative, drama-driven content...
+
+128
+00:04:24,400 --> 00:04:26,980
+So, you can go ahead and grab the handbook for this episode to check it out.
+
+129
+00:04:26,980 --> 00:04:28,760
+Okay, let's wrap it up here for today.
+
+130
+00:04:28,760 --> 00:04:30,540
+See you in the next video. Bye-bye.
+

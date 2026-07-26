@@ -1,0 +1,2532 @@
+1
+00:00:00,000 --> 00:00:01,840
+Google's Gemini 3 was released
+
+2
+00:00:01,840 --> 00:00:04,620
+the new model that quickly sparked heated discussions in the industry
+
+3
+00:00:04,620 --> 00:00:06,560
+For AI product managers
+
+4
+00:00:06,560 --> 00:00:08,960
+can be achieved through multimodal interaction
+
+5
+00:00:08,960 --> 00:00:12,190
+directly provide the product prototype solution
+
+6
+00:00:12,190 --> 00:00:14,810
+and it's not just about giving you a prototype image
+
+7
+00:00:14,810 --> 00:00:17,740
+can also implement the interactive flow and product features
+
+8
+00:00:17,740 --> 00:00:19,860
+be implemented in the form of code
+
+9
+00:00:19,860 --> 00:00:21,380
+So at Google's event
+
+10
+00:00:21,380 --> 00:00:23,729
+within the month following the release of mini3
+
+11
+00:00:23,729 --> 00:00:26,429
+everyone is researching how to use GMA3
+
+12
+00:00:26,429 --> 00:00:28,890
+to achieve codeless product development
+
+13
+00:00:28,890 --> 00:00:31,530
+Today, we will systematically demonstrate
+
+14
+00:00:31,530 --> 00:00:34,280
+this highly attractive new approach
+
+15
+00:00:34,280 --> 00:00:35,560
+Before we begin,
+
+16
+00:00:35,560 --> 00:00:38,780
+we still need to have a basic understanding of some concepts
+
+17
+00:00:38,780 --> 00:00:42,530
+For example, where does the GEMINI3 model itself excel?
+
+18
+00:00:42,530 --> 00:00:45,530
+Why is it able to outperform other large models on the market
+
+19
+00:00:45,530 --> 00:00:48,370
+in the application development scenario
+
+20
+00:00:48,370 --> 00:00:49,080
+so much more powerful
+
+21
+00:00:49,080 --> 00:00:49,800
+For example
+
+22
+00:00:49,800 --> 00:00:51,080
+Now that large models
+
+23
+00:00:51,080 --> 00:00:53,460
+Not only can it draft product prototype designs
+
+24
+00:00:53,460 --> 00:00:55,440
+can also implement it in code
+
+25
+00:00:55,440 --> 00:00:56,280
+Does that mean
+
+26
+00:00:56,280 --> 00:01:00,069
+Does this mean the value of programmers will continue to diminish in the future?
+
+27
+00:01:00,069 --> 00:01:00,869
+Right?
+
+28
+00:01:00,869 --> 00:01:02,069
+These are all, well,
+
+29
+00:01:02,069 --> 00:01:04,349
+As the capabilities of these large models continue to improve
+
+30
+00:01:04,349 --> 00:01:06,760
+people will naturally have some questions
+
+31
+00:01:06,760 --> 00:01:08,200
+I believe everyone might have these questions before getting hands-on
+
+32
+00:01:08,200 --> 00:01:09,690
+It's easy to have these questions.
+
+33
+00:01:09,690 --> 00:01:13,510
+These questions happen to also help everyone better under
+
+34
+00:01:13,510 --> 00:01:16,960
+understand some fundamental issues of these practical operations and demonstration processes
+
+35
+00:01:16,960 --> 00:01:18,800
+So I suggest before the hands-on practice
+
+36
+00:01:18,800 --> 00:01:22,110
+Let's first clarify these fundamental concepts.
+
+37
+00:01:22,110 --> 00:01:23,710
+to have a basic understanding
+
+38
+00:01:23,710 --> 00:01:25,250
+This is quite crucial, I think.
+
+39
+00:01:25,250 --> 00:01:28,800
+First, let's clarify the positioning of the Gemini 3 large model.
+
+40
+00:01:28,800 --> 00:01:30,940
+In the official report released by Google
+
+41
+00:01:30,940 --> 00:01:33,180
+Gemini 3 is defined as, uh,
+
+42
+00:01:33,180 --> 00:01:36,860
+the world's leading multimodal comprehension large model
+
+43
+00:01:36,860 --> 00:01:38,980
+and they repeatedly emphasize that
+
+44
+00:01:38,980 --> 00:01:41,090
+is currently, to date,
+
+45
+00:01:41,090 --> 00:01:44,870
+the most powerful agent and ambient released by Google
+
+46
+00:01:44,870 --> 00:01:46,860
+programming model
+
+47
+00:01:46,860 --> 00:01:49,260
+I hope everyone can pay special attention to these two keywords.
+
+48
+00:01:49,260 --> 00:01:50,340
+one is related to agents
+
+49
+00:01:50,340 --> 00:01:51,530
+one is ambient programming
+
+50
+00:01:51,530 --> 00:01:54,810
+Moreover, it can provide more abundant visual effects
+
+51
+00:01:54,810 --> 00:01:57,710
+and a more in-depth user interaction experience
+
+52
+00:01:57,710 --> 00:02:00,900
+As for this agent and ambient programming coding
+
+53
+00:02:00,900 --> 00:02:02,780
+I won't go into too much explanation about this
+
+54
+00:02:02,780 --> 00:02:05,300
+because both of these directions belong to the category of large models
+
+55
+00:02:05,300 --> 00:02:05,880
+Currently
+
+56
+00:02:05,880 --> 00:02:09,680
+the two hottest research directions in the field of large model AI
+
+57
+00:02:09,680 --> 00:02:10,840
+especially this ambient programming
+
+58
+00:02:10,840 --> 00:02:13,720
+is currently the most followed
+
+59
+00:02:13,720 --> 00:02:15,180
+the application implementation methods of large models
+
+60
+00:02:15,600 --> 00:02:18,360
+And Gemini 3 specifically strengthens
+
+61
+00:02:18,360 --> 00:02:21,320
+its capabilities in UI design and stylized programming
+
+62
+00:02:21,320 --> 00:02:22,440
+it's like a natural progression
+
+63
+00:02:22,440 --> 00:02:23,980
+or more precisely, the approach is extremely precise
+
+64
+00:02:23,980 --> 00:02:27,360
+enabling it to stand out among numerous models
+
+65
+00:02:27,360 --> 00:02:29,240
+For us ordinary users
+
+66
+00:02:29,240 --> 00:02:31,880
+The most impressive part is that it can actually accept
+
+67
+00:02:31,880 --> 00:02:32,440
+this model
+
+68
+00:02:32,440 --> 00:02:35,080
+can accept various forms of input I provide to it, right
+
+69
+00:02:35,080 --> 00:02:36,980
+and give me what I want
+
+70
+00:02:36,980 --> 00:02:37,940
+such as PRD
+
+71
+00:02:37,940 --> 00:02:38,960
+product prototype solution
+
+72
+00:02:38,960 --> 00:02:42,080
+in an increasingly cool interactive form
+
+73
+00:02:42,080 --> 00:02:44,200
+and this kind of UI prototype
+
+74
+00:02:44,200 --> 00:02:44,980
+to provide feedback to me
+
+75
+00:02:44,980 --> 00:02:45,100
+Hey
+
+76
+00:02:45,100 --> 00:02:46,740
+This is actually what we, as product managers,
+
+77
+00:02:46,740 --> 00:02:48,980
+or for those with relatively weaker coding skills
+
+78
+00:02:48,980 --> 00:02:49,420
+developers
+
+79
+00:02:49,420 --> 00:02:50,620
+
+
+80
+00:02:50,620 --> 00:02:51,420
+right
+
+81
+00:02:51,420 --> 00:02:53,220
+more diverse UI effects
+
+82
+00:02:53,220 --> 00:02:54,780
+and more stunning front-end capabilities
+
+83
+00:02:54,780 --> 00:02:57,500
+Now that DEMI3 is already this powerful
+
+84
+00:02:57,500 --> 00:03:00,420
+So in the future, will this entire product development workflow
+
+85
+00:03:00,420 --> 00:03:01,300
+this part of the process
+
+86
+00:03:01,300 --> 00:03:03,780
+will programmers be increasingly less needed to participate in the process?
+
+87
+00:03:03,780 --> 00:03:06,600
+So, does that mean I just need to provide the product's functional requirements
+
+88
+00:03:06,600 --> 00:03:09,700
+as well as the product design concepts to the large model
+
+89
+00:03:09,700 --> 00:03:11,000
+let this Gemini 3 large model
+
+90
+00:03:11,000 --> 00:03:13,040
+directly provide the prototype solution
+
+91
+00:03:13,040 --> 00:03:14,280
+Then, according to this solution,
+
+92
+00:03:14,280 --> 00:03:15,480
+write the code together as well
+
+93
+00:03:15,480 --> 00:03:16,399
+Isn't that all there is to it?
+
+94
+00:03:16,399 --> 00:03:17,159
+Right?
+
+95
+00:03:17,159 --> 00:03:19,599
+This is actually something that comes naturally and follows logically.
+
+96
+00:03:19,599 --> 00:03:20,799
+Large models are becoming increasingly powerful, right?
+
+97
+00:03:20,799 --> 00:03:23,180
+These series of solutions have all emerged.
+
+98
+00:03:23,180 --> 00:03:24,960
+Overall, this vision is truly magnificent
+
+99
+00:03:24,960 --> 00:03:26,600
+But so far
+
+100
+00:03:26,600 --> 00:03:28,740
+The technology is not yet capable of achieving this.
+
+101
+00:03:28,740 --> 00:03:29,500
+So this issue is
+
+102
+00:03:29,500 --> 00:03:32,070
+This currently represents the capability boundary of large language models.
+
+103
+00:03:32,070 --> 00:03:33,730
+Everyone must be aware of this.
+
+104
+00:03:33,730 --> 00:03:35,070
+To understand this boundary issue
+
+105
+00:03:35,070 --> 00:03:36,790
+we just need to review
+
+106
+00:03:36,790 --> 00:03:39,200
+Actually, let's take a look at a common
+
+107
+00:03:39,200 --> 00:03:41,400
+this or rather a common AI product
+
+108
+00:03:41,400 --> 00:03:43,220
+what the birth process looks like
+
+109
+00:03:43,220 --> 00:03:43,740
+Let's take a look
+
+110
+00:03:43,740 --> 00:03:44,660
+The first step is
+
+111
+00:03:44,660 --> 00:03:46,500
+This essentially falls under the work of our product managers
+
+112
+00:03:46,500 --> 00:03:46,940
+right
+
+113
+00:03:46,940 --> 00:03:48,280
+to design the product solution
+
+114
+00:03:48,280 --> 00:03:49,480
+list product requirements
+
+115
+00:03:49,480 --> 00:03:51,399
+which means providing detailed PRD
+
+116
+00:03:51,399 --> 00:03:52,139
+This is the first step
+
+117
+00:03:52,139 --> 00:03:54,199
+Then, the front-end developers
+
+118
+00:03:54,199 --> 00:03:57,100
+generate front-end mockups based on the PRD, right
+
+119
+00:03:57,100 --> 00:03:59,400
+After evaluation by multiple parties, it is approved.
+
+120
+00:03:59,400 --> 00:04:02,560
+After passing multiple rounds of evaluation, the corresponding development will proceed.
+
+121
+00:04:02,560 --> 00:04:05,000
+In addition to the implementation of these frontend interactions
+
+122
+00:04:05,000 --> 00:04:06,600
+it also requires a business backend
+
+123
+00:04:06,600 --> 00:04:07,740
+Take the simplest example,
+
+124
+00:04:07,740 --> 00:04:09,600
+now you want to develop a
+
+125
+00:04:09,600 --> 00:04:11,380
+an app with user subscription functionality
+
+126
+00:04:11,380 --> 00:04:13,060
+Then the user account management
+
+127
+00:04:13,060 --> 00:04:15,320
+the payment system involved in user subscriptions
+
+128
+00:04:15,320 --> 00:04:19,790
+These all fall under the development tasks handled by backend engineers.
+
+129
+00:04:19,790 --> 00:04:22,430
+They need to store and manage various types of data
+
+130
+00:04:22,430 --> 00:04:24,070
+So for a large-scale system
+
+131
+00:04:24,070 --> 00:04:26,040
+or a mature commercialized APP
+
+132
+00:04:26,040 --> 00:04:28,600
+The majority of its development workload likely lies in the backend.
+
+133
+00:04:28,600 --> 00:04:30,440
+after both the frontend and backend development are completed
+
+134
+00:04:30,440 --> 00:04:31,860
+and after passing the tests
+
+135
+00:04:31,860 --> 00:04:33,120
+it still requires deployment to production
+
+136
+00:04:33,120 --> 00:04:36,010
+Among these four major process nodes,
+
+137
+00:04:36,010 --> 00:04:38,290
+What Gemini 3 can currently assist us with
+
+138
+00:04:38,290 --> 00:04:40,010
+mainly focused on the front-end
+
+139
+00:04:40,010 --> 00:04:42,050
+These two highlighted sections here
+
+140
+00:04:42,050 --> 00:04:44,120
+which is to assist product managers in designing product solutions
+
+141
+00:04:44,120 --> 00:04:46,760
+and provide automated interactive functions
+
+142
+00:04:46,760 --> 00:04:48,160
+This interactive functionality is truly tangible
+
+143
+00:04:48,160 --> 00:04:50,080
+We will also demonstrate the executable code later.
+
+144
+00:04:50,080 --> 00:04:51,720
+You can download it to your local machine to run
+
+145
+00:04:51,720 --> 00:04:53,200
+It can run smoothly without any issues.
+
+146
+00:04:53,200 --> 00:04:56,369
+However, backend development and subsequent deployment ceilings
+
+147
+00:04:56,369 --> 00:04:59,129
+not just relying on JMISI and the tools provided by Google
+
+148
+00:04:59,129 --> 00:05:01,529
+This kind of development tool can quickly accomplish it.
+
+149
+00:05:01,529 --> 00:05:04,349
+This is a rather, um, profound issue.
+
+150
+00:05:04,349 --> 00:05:05,649
+Everyone should have this understanding.
+
+151
+00:05:05,649 --> 00:05:07,269
+Currently, if we rely solely on
+
+152
+00:05:07,269 --> 00:05:08,800
+If we only rely on Google's Gemini 3
+
+153
+00:05:08,800 --> 00:05:11,400
+we can only develop without such complex
+
+154
+00:05:11,400 --> 00:05:13,920
+a pure front-end application without a backend engineering system
+
+155
+00:05:13,920 --> 00:05:15,480
+Of course, this application can also be deployed.
+
+156
+00:05:15,480 --> 00:05:16,880
+There's no problem with deployment.
+
+157
+00:05:16,880 --> 00:05:19,660
+or we can also use the front-end applications developed by GM3
+
+158
+00:05:19,660 --> 00:05:22,820
+download to local and other additional third-party AI tools
+
+159
+00:05:22,820 --> 00:05:23,720
+combine and use
+
+160
+00:05:23,720 --> 00:05:24,240
+In this way
+
+161
+00:05:24,240 --> 00:05:27,200
+can further improve the intelligent process of application development
+
+162
+00:05:27,200 --> 00:05:29,040
+We will demonstrate all these contents for you today.
+
+163
+00:05:29,040 --> 00:05:30,260
+This is what we just discussed
+
+164
+00:05:30,260 --> 00:05:31,820
+This is about some core understandings.
+
+165
+00:05:31,820 --> 00:05:32,600
+the conceptual understanding
+
+166
+00:05:32,600 --> 00:05:34,940
+Before we dive into the specific demonstration and development process,
+
+167
+00:05:34,940 --> 00:05:37,540
+We will first prepare some development environments and platforms
+
+168
+00:05:37,540 --> 00:05:38,720
+some preparatory work
+
+169
+00:05:38,720 --> 00:05:40,740
+Today, I will introduce the development and demonstration process
+
+170
+00:05:40,740 --> 00:05:42,660
+This is a low-code case.
+
+171
+00:05:42,660 --> 00:05:44,500
+No need for everyone to focus on, uh
+
+172
+00:05:44,500 --> 00:05:46,600
+coding for specific product features
+
+173
+00:05:46,600 --> 00:05:48,240
+So all processes in the development workflow
+
+174
+00:05:48,240 --> 00:05:50,640
+all need to utilize existing platforms
+
+175
+00:05:50,640 --> 00:05:52,960
+or rather completed by product functionalities
+
+176
+00:05:52,960 --> 00:05:55,520
+We just need to install or download in advance
+
+177
+00:05:55,520 --> 00:05:57,080
+and register some accounts, that's it.
+
+178
+00:05:57,080 --> 00:05:59,140
+So the first and most crucial step
+
+179
+00:05:59,140 --> 00:06:02,420
+we need to know where to use this Gemini 3
+
+180
+00:06:02,420 --> 00:06:03,620
+the capabilities of this large model
+
+181
+00:06:03,620 --> 00:06:06,740
+Here are two ways to access it
+
+182
+00:06:09,020 --> 00:06:12,660
+The first one is
+
+183
+00:06:12,660 --> 00:06:16,980
+The first one is this GEMINI web app.
+
+184
+00:06:16,980 --> 00:06:17,700
+web-based app
+
+185
+00:06:17,700 --> 00:06:20,620
+The other one is Google's AI Studio.
+
+186
+00:06:20,620 --> 00:06:21,520
+AI Studio
+
+187
+00:06:21,520 --> 00:06:23,960
+These are currently the two main ways to access
+
+188
+00:06:23,960 --> 00:06:25,760
+or directly use this Gemini 3
+
+189
+00:06:25,760 --> 00:06:28,759
+the two main sources of this large model
+
+190
+00:06:28,759 --> 00:06:31,079
+Their respective usage scenarios are distinct.
+
+191
+00:06:31,079 --> 00:06:33,860
+or rather, the suitable usage scenarios are somewhat different
+
+192
+00:06:33,860 --> 00:06:35,640
+However, if we use them appropriately,
+
+193
+00:06:35,640 --> 00:06:37,200
+basically combine them for use
+
+194
+00:06:37,200 --> 00:06:39,640
+basically can cover the daily work needs of a product manager
+
+195
+00:06:39,640 --> 00:06:41,760
+the vast majority of daily office needs
+
+196
+00:06:44,740 --> 00:06:46,100
+Additionally, we need to pay attention to
+
+197
+00:06:46,100 --> 00:06:49,500
+no matter which method we use to utilize Gemini 3
+
+198
+00:06:52,200 --> 00:06:54,020
+and if you plan to use it for an extended period
+
+199
+00:06:54,020 --> 00:06:56,120
+We still recommend everyone to subscribe to
+
+200
+00:06:56,120 --> 00:06:58,750
+Google's AI subscription service
+
+201
+00:06:58,750 --> 00:06:59,710
+This is how the subscription works
+
+202
+00:06:59,710 --> 00:07:00,630
+Specifically,
+
+203
+00:07:00,630 --> 00:07:03,590
+After understanding your own usage needs
+
+204
+00:07:03,590 --> 00:07:04,910
+you can make your choice accordingly
+
+205
+00:07:04,910 --> 00:07:06,900
+For example, well, like me
+
+206
+00:07:06,900 --> 00:07:10,340
+that is, subscribing to this AI Pro package
+
+207
+00:07:10,340 --> 00:07:12,220
+basically meets the daily development and usage needs
+
+208
+00:07:12,220 --> 00:07:13,020
+can all be met now
+
+209
+00:07:13,020 --> 00:07:14,520
+There are basically no issues at all
+
+210
+00:07:14,520 --> 00:07:15,880
+If you don't activate it,
+
+211
+00:07:15,880 --> 00:07:16,840
+its free account
+
+212
+00:07:16,840 --> 00:07:19,580
+only five calls per day
+
+213
+00:07:19,580 --> 00:07:21,360
+Then if you want to use it frequently,
+
+214
+00:07:21,360 --> 00:07:24,340
+it may not meet your usage needs ah
+
+215
+00:07:24,340 --> 00:07:24,680
+Okay
+
+216
+00:07:24,680 --> 00:07:27,999
+With these two development platforms from Google
+
+217
+00:07:27,999 --> 00:07:28,639
+tools
+
+218
+00:07:28,639 --> 00:07:32,019
+we are already able to quickly develop prototype solutions and these front-end
+
+219
+00:07:32,019 --> 00:07:33,340
+the front-end interactive interface
+
+220
+00:07:33,340 --> 00:07:36,440
+But if you still want to deploy it as an online application
+
+221
+00:07:36,440 --> 00:07:38,740
+and allow others to access
+
+222
+00:07:38,740 --> 00:07:40,040
+your current application
+
+223
+00:07:40,040 --> 00:07:42,080
+you must rely on some other tools
+
+224
+00:07:42,080 --> 00:07:44,420
+one is this code management platform
+
+225
+00:07:44,420 --> 00:07:47,100
+The other one is the online deployment platform.
+
+226
+00:07:47,100 --> 00:07:49,420
+This GitHub serves as a bridge.
+
+227
+00:07:49,420 --> 00:07:52,020
+For example, we can take the Google AS Studio
+
+228
+00:07:52,020 --> 00:07:55,770
+the front-end application code developed in the middle is first submitted to this GitHub
+
+229
+00:07:55,770 --> 00:07:57,530
+build a code repository for the application
+
+230
+00:07:57,530 --> 00:08:00,860
+and then deploy the complete code from the repository to
+
+231
+00:08:00,860 --> 00:08:03,340
+Deploy to an online server platform with one click
+
+232
+00:08:03,340 --> 00:08:05,700
+This completes the entire automated workflow
+
+233
+00:08:05,700 --> 00:08:06,860
+code-free operation
+
+234
+00:08:06,860 --> 00:08:07,660
+It's very simple
+
+235
+00:08:07,660 --> 00:08:09,580
+No coding skills are required
+
+236
+00:08:09,580 --> 00:08:11,060
+GitHub might be relatively easier to handle
+
+237
+00:08:11,060 --> 00:08:12,740
+because it's an open-source platform, right
+
+238
+00:08:12,740 --> 00:08:15,360
+We'll download its client tool in advance
+
+239
+00:08:15,360 --> 00:08:16,880
+Just install it locally.
+
+240
+00:08:16,880 --> 00:08:19,640
+However, when selecting this deployment platform
+
+241
+00:08:19,640 --> 00:08:21,269
+There are several key requirements to pay attention to
+
+242
+00:08:21,269 --> 00:08:23,029
+The first point is that it must be free
+
+243
+00:08:23,029 --> 00:08:24,309
+Our first choice should definitely be free.
+
+244
+00:08:24,309 --> 00:08:26,600
+The second point is that it must be accessible within the country.
+
+245
+00:08:26,600 --> 00:08:28,140
+Don't let us deploy it as an application and then
+
+246
+00:08:28,140 --> 00:08:29,000
+you ask people to use it
+
+247
+00:08:31,200 --> 00:08:32,940
+In that case, the user experience might not be as good
+
+248
+00:08:32,940 --> 00:08:34,130
+right
+
+249
+00:08:34,130 --> 00:08:35,570
+Based on these two requirements
+
+250
+00:08:35,570 --> 00:08:36,850
+we recommend
+
+251
+00:08:36,850 --> 00:08:38,429
+NETLIFY and uh
+
+252
+00:08:38,429 --> 00:08:41,400
+Tencent's EdgeOne Pages, these two platforms
+
+253
+00:08:41,400 --> 00:08:43,380
+After preparing these three tools
+
+254
+00:08:43,380 --> 00:08:46,880
+You can already complete pure front-end lightweight application development.
+
+255
+00:08:46,880 --> 00:08:49,880
+but if you want to try expanding backend capabilities
+
+256
+00:08:49,880 --> 00:08:52,720
+additional auxiliary functions need to be added on this basis
+
+257
+00:08:52,720 --> 00:08:55,600
+then simply modifying the code within Google AS Studio
+
+258
+00:08:55,600 --> 00:08:56,520
+is not enough
+
+259
+00:08:56,520 --> 00:08:57,960
+Currently, the more mainstream approach is
+
+260
+00:08:57,960 --> 00:09:00,969
+download your code locally for modification
+
+261
+00:09:00,969 --> 00:09:02,929
+For example, we can download a VS Code
+
+262
+00:09:02,929 --> 00:09:04,449
+It is a code editor
+
+263
+00:09:04,449 --> 00:09:06,850
+and we can integrate this coding-capable
+
+264
+00:09:06,850 --> 00:09:09,210
+Configure this large model into the IDE
+
+265
+00:09:09,210 --> 00:09:10,230
+in this code editor
+
+266
+00:09:10,230 --> 00:09:12,210
+let it write code for us
+
+267
+00:09:12,210 --> 00:09:13,490
+For instance, the one I frequently use
+
+268
+00:09:13,490 --> 00:09:14,910
+this codex
+
+269
+00:09:14,910 --> 00:09:16,750
+You can also replace it with other large models
+
+270
+00:09:16,750 --> 00:09:18,830
+We will demonstrate all these things later for everyone.
+
+271
+00:09:18,830 --> 00:09:20,590
+how to use its automation
+
+272
+00:09:20,590 --> 00:09:21,820
+the capability of programming
+
+273
+00:09:21,820 --> 00:09:22,980
+Alright then, in that case
+
+274
+00:09:22,980 --> 00:09:24,740
+All the tools are now ready
+
+275
+00:09:24,740 --> 00:09:26,700
+Now we can start the development.
+
+276
+00:09:26,700 --> 00:09:28,680
+I will demonstrate several different cases for you
+
+277
+00:09:28,680 --> 00:09:33,360
+to help everyone adapt to different work scenarios
+
+278
+00:09:35,980 --> 00:09:36,840
+Okay
+
+279
+00:09:36,840 --> 00:09:39,420
+Next, I will introduce
+
+280
+00:09:39,420 --> 00:09:40,670
+more suitable for
+
+281
+00:09:40,670 --> 00:09:43,690
+scenarios suitable for using the Cleanser APP as an entry point
+
+282
+00:09:43,690 --> 00:09:44,930
+As a product manager
+
+283
+00:09:44,930 --> 00:09:45,650
+many times
+
+284
+00:09:45,650 --> 00:09:47,430
+Initially we may not have a
+
+285
+00:09:47,430 --> 00:09:49,220
+a very detailed product plan
+
+286
+00:09:49,220 --> 00:09:50,320
+It could be that today
+
+287
+00:09:50,320 --> 00:09:51,860
+For example, I just want to try making this
+
+288
+00:09:51,860 --> 00:09:52,700
+develop an AI product
+
+289
+00:09:52,700 --> 00:09:55,680
+However, this AI product might currently only exist as an idea in my mind
+
+290
+00:09:55,680 --> 00:09:57,000
+or to describe this product
+
+291
+00:09:57,000 --> 00:09:58,000
+maybe just a single sentence
+
+292
+00:09:58,000 --> 00:09:59,640
+which is what we often call a one-sentence requirement
+
+293
+00:09:59,640 --> 00:10:00,900
+one-sentence feature
+
+294
+00:10:00,900 --> 00:10:02,760
+So my core requirement at the moment is
+
+295
+00:10:02,760 --> 00:10:05,180
+let Gemini 3 assist me first
+
+296
+00:10:05,180 --> 00:10:07,800
+
+
+297
+00:10:07,800 --> 00:10:10,740
+At this point, we can input simple product feature requirements
+
+298
+00:10:10,740 --> 00:10:12,320
+tell Gemini 3
+
+299
+00:10:12,320 --> 00:10:14,180
+Then below this input box
+
+300
+00:10:14,180 --> 00:10:16,720
+We can choose this uh
+
+301
+00:10:16,720 --> 00:10:18,320
+Uh, this tool TOS, right?
+
+302
+00:10:18,320 --> 00:10:20,760
+We can select this canvas
+
+303
+00:10:20,760 --> 00:10:21,400
+canvas
+
+304
+00:10:21,400 --> 00:10:22,290
+canvas uh
+
+305
+00:10:22,290 --> 00:10:22,850
+and then
+
+306
+00:10:22,850 --> 00:10:25,010
+In the lower right corner, you can also choose
+
+307
+00:10:25,010 --> 00:10:27,740
+the version of this large model you want to use
+
+308
+00:10:27,740 --> 00:10:29,260
+When we click to open this dropdown menu
+
+309
+00:10:29,260 --> 00:10:29,860
+As you can see
+
+310
+00:10:29,860 --> 00:10:31,600
+There are three commonly used model versions in total
+
+311
+00:10:31,600 --> 00:10:34,310
+The first one is the fast version, which is the latest
+
+312
+00:10:34,310 --> 00:10:36,110
+this newly released lightweight version
+
+313
+00:10:36,110 --> 00:10:38,550
+It emphasizes being extremely fast in operation.
+
+314
+00:10:38,550 --> 00:10:41,430
+In addition, there are also the thinking and pro versions.
+
+315
+00:10:41,430 --> 00:10:44,770
+This Pro version is actually the currently most optimal in terms of performance.
+
+316
+00:10:44,770 --> 00:10:46,180
+the most powerful large model
+
+317
+00:10:46,180 --> 00:10:48,980
+The 'thinking' version refers to a model capable of deep thinking
+
+318
+00:10:48,980 --> 00:10:49,960
+such a model version
+
+319
+00:10:49,960 --> 00:10:52,660
+It is more suitable for handling such complex reasoning tasks.
+
+320
+00:10:52,660 --> 00:10:53,380
+complex reasoning tasks
+
+321
+00:10:53,380 --> 00:10:55,420
+I usually choose this thinking model
+
+322
+00:10:55,420 --> 00:10:56,980
+It is relatively more moderate.
+
+323
+00:10:56,980 --> 00:10:59,360
+and it has this kind of thinking process
+
+324
+00:10:59,360 --> 00:11:01,440
+For scenarios that require strong logic like ours
+
+325
+00:11:01,440 --> 00:11:02,380
+is also quite suitable
+
+326
+00:11:02,380 --> 00:11:04,400
+For example, my current development requirement input
+
+327
+00:11:04,400 --> 00:11:06,420
+to introduce Gemini 3.0
+
+328
+00:11:06,420 --> 00:11:08,280
+and the older version of this model
+
+329
+00:11:08,280 --> 00:11:10,949
+compare what improvements it has
+
+330
+00:11:10,949 --> 00:11:12,129
+And we must remember that
+
+331
+00:11:12,129 --> 00:11:14,549
+We can give it a hint later on
+
+332
+00:11:14,549 --> 00:11:15,889
+your results
+
+333
+00:11:15,889 --> 00:11:17,629
+the results you've analyzed
+
+334
+00:11:17,629 --> 00:11:20,980
+to present this in a visual layout format
+
+335
+00:11:20,980 --> 00:11:22,400
+in the form of feedback to me
+
+336
+00:11:22,400 --> 00:11:24,680
+That is, to present the results in this visual layout format
+
+337
+00:11:24,680 --> 00:11:26,600
+and also needs to have this kind of jump function
+
+338
+00:11:26,600 --> 00:11:28,400
+Then we can click to run it
+
+339
+00:11:28,400 --> 00:11:29,220
+Click to run
+
+340
+00:11:29,220 --> 00:11:30,380
+After the execution is completed
+
+341
+00:11:30,380 --> 00:11:33,000
+you can see um Gemini 3
+
+342
+00:11:33,000 --> 00:11:36,130
+It actually returns a string of code.
+
+343
+00:11:36,130 --> 00:11:37,510
+It actually returns a string of code
+
+344
+00:11:37,510 --> 00:11:39,410
+Once it finishes running
+
+345
+00:11:39,410 --> 00:11:43,130
+you can switch to the preview function to display
+
+346
+00:11:43,130 --> 00:11:45,270
+to browse it on the entire page
+
+347
+00:11:45,270 --> 00:11:46,940
+the final rendered effect
+
+348
+00:11:46,940 --> 00:11:47,940
+And please note that
+
+349
+00:11:47,940 --> 00:11:49,500
+It is not a static page
+
+350
+00:11:49,500 --> 00:11:52,370
+but supports dynamic interactive pages
+
+351
+00:11:52,370 --> 00:11:52,890
+right?
+
+352
+00:11:52,890 --> 00:11:54,770
+You can take a look at the specific data.
+
+353
+00:11:54,770 --> 00:11:56,090
+or specific, specific information
+
+354
+00:11:56,090 --> 00:11:57,930
+The Chinese text on it is basically correct.
+
+355
+00:11:57,930 --> 00:11:59,740
+The content is also correct.
+
+356
+00:11:59,740 --> 00:12:00,540
+not like before
+
+357
+00:12:00,540 --> 00:12:01,580
+the support for Chinese
+
+358
+00:12:01,580 --> 00:12:03,300
+or there are such garbled characters issues
+
+359
+00:12:03,300 --> 00:12:04,540
+So now this Gemini 3
+
+360
+00:12:04,540 --> 00:12:07,140
+It has improved significantly in terms of Chinese knowledge.
+
+361
+00:12:07,140 --> 00:12:08,510
+has improved significantly, uh
+
+362
+00:12:08,510 --> 00:12:11,970
+We can also click on the upper right corner
+
+363
+00:12:11,970 --> 00:12:15,360
+Click on this share function in the upper right corner
+
+364
+00:12:15,360 --> 00:12:17,400
+share function, after clicking it
+
+365
+00:12:17,400 --> 00:12:18,960
+just click on 'Shiya'
+
+366
+00:12:18,960 --> 00:12:21,120
+This way we can get a link.
+
+367
+00:12:21,120 --> 00:12:22,680
+A window will pop up on this page
+
+368
+00:12:22,680 --> 00:12:23,360
+displays a link
+
+369
+00:12:23,360 --> 00:12:25,010
+
+
+370
+00:12:25,010 --> 00:12:25,750
+
+
+371
+00:12:25,750 --> 00:12:27,030
+we open it in a new page
+
+372
+00:12:27,030 --> 00:12:29,510
+
+
+373
+00:12:29,510 --> 00:12:31,610
+you'll find that we can see it in the browser
+
+374
+00:12:31,610 --> 00:12:33,820
+see the current dynamic page
+
+375
+00:12:33,820 --> 00:12:35,500
+This is a genuinely high-end
+
+376
+00:12:35,500 --> 00:12:37,260
+a PRD with this kind of visual effect
+
+377
+00:12:37,260 --> 00:12:37,760
+right
+
+378
+00:12:37,760 --> 00:12:40,410
+The overall visual effect is really great.
+
+379
+00:12:40,410 --> 00:12:41,010
+The visual effect is excellent
+
+380
+00:12:41,010 --> 00:12:43,330
+You can also share this link with others for use
+
+381
+00:12:43,330 --> 00:12:45,630
+This way, others can see the results and
+
+382
+00:12:45,630 --> 00:12:46,370
+directly experience
+
+383
+00:12:46,370 --> 00:12:48,930
+or understand the form of your interaction draft
+
+384
+00:12:48,930 --> 00:12:49,970
+effect-expanded draft form
+
+385
+00:12:49,970 --> 00:12:52,810
+If we are not satisfied with the current result,
+
+386
+00:12:52,810 --> 00:12:55,680
+you can continue in the dialog box at the bottom left
+
+387
+00:12:55,680 --> 00:12:56,900
+provide your modification requirements
+
+388
+00:12:56,900 --> 00:12:59,680
+Alternatively, you can also let the large language model provide you with some suggestions.
+
+389
+00:12:59,680 --> 00:13:03,700
+We can click on the 'adj minine futures' in the lower right corner.
+
+390
+00:13:03,700 --> 00:13:05,940
+Then the cleanser will automatically recognize the existing functions
+
+391
+00:13:05,940 --> 00:13:08,420
+and automatically add some features that are suitable for the current needs
+
+392
+00:13:08,420 --> 00:13:09,780
+some new features for the current scenario
+
+393
+00:13:09,780 --> 00:13:10,700
+automatically add them for you
+
+394
+00:13:10,700 --> 00:13:12,000
+Everyone can give it a try.
+
+395
+00:13:12,000 --> 00:13:14,900
+The scenario just now was relatively basic
+
+396
+00:13:14,900 --> 00:13:15,680
+a test
+
+397
+00:13:15,680 --> 00:13:16,720
+or just an attempt
+
+398
+00:13:16,720 --> 00:13:18,140
+Because as product managers
+
+399
+00:13:18,140 --> 00:13:20,380
+do not have a precise grasp of the product's core positioning and value
+
+400
+00:13:20,380 --> 00:13:21,720
+have precise control
+
+401
+00:13:21,720 --> 00:13:23,790
+so in more scenarios
+
+402
+00:13:23,790 --> 00:13:26,790
+We should still focus on refining the product plan first
+
+403
+00:13:26,790 --> 00:13:27,650
+after it's more refined
+
+404
+00:13:27,650 --> 00:13:29,430
+then try to generate interaction drafts
+
+405
+00:13:29,430 --> 00:13:32,180
+Otherwise, there would be too many uncertain factors
+
+406
+00:13:32,180 --> 00:13:34,580
+wasting a lot of time on these UI modifications
+
+407
+00:13:34,580 --> 00:13:35,420
+this time
+
+408
+00:13:35,420 --> 00:13:37,180
+So now I'm going to demonstrate again
+
+409
+00:13:37,180 --> 00:13:40,530
+after we have prepared a complete interactive draft plan
+
+410
+00:13:40,530 --> 00:13:40,810
+after that
+
+411
+00:13:40,810 --> 00:13:43,700
+then proceed with the development of the prototype solution
+
+412
+00:13:43,700 --> 00:13:45,780
+Now my first step is to optimize
+
+413
+00:13:45,780 --> 00:13:47,980
+or generate a PRD for Me
+
+414
+00:13:47,980 --> 00:13:50,880
+I still choose this Canvas tool
+
+415
+00:13:50,880 --> 00:13:52,460
+The requirement is for Gemini 3
+
+416
+00:13:52,460 --> 00:13:55,260
+Help me design a cross-border e-commerce ERP system
+
+417
+00:13:55,260 --> 00:13:58,660
+and it is required to provide a very detailed list of requirements and functions
+
+418
+00:13:58,660 --> 00:13:59,460
+help me outline
+
+419
+00:13:59,460 --> 00:14:01,540
+
+
+420
+00:14:01,540 --> 00:14:04,380
+Moreover, the visual layout is not required for now.
+
+421
+00:14:04,380 --> 00:14:05,500
+so in this prompt
+
+422
+00:14:05,500 --> 00:14:07,740
+did not require it to continue in the visual layout manner
+
+423
+00:14:07,740 --> 00:14:08,760
+to return the result
+
+424
+00:14:08,760 --> 00:14:11,380
+Alright, then we can click to send it
+
+425
+00:14:11,380 --> 00:14:12,970
+Click to send it uh
+
+426
+00:14:12,970 --> 00:14:14,250
+Now we can see
+
+427
+00:14:14,250 --> 00:14:16,040
+on this overall page
+
+428
+00:14:16,040 --> 00:14:17,400
+has displayed Gemini 3
+
+429
+00:14:17,400 --> 00:14:19,520
+the initial draft of the PRD that was prepared for us
+
+430
+00:14:19,520 --> 00:14:22,000
+
+
+431
+00:14:22,000 --> 00:14:25,230
+Because, uh, it primarily focuses on requirements and functionality
+
+432
+00:14:25,230 --> 00:14:26,130
+design aspects
+
+433
+00:14:26,130 --> 00:14:28,830
+It also includes some technical details, right?
+
+434
+00:14:28,830 --> 00:14:31,420
+For example, when it comes to certain functional details
+
+435
+00:14:31,420 --> 00:14:33,620
+what kind of framework and components are used
+
+436
+00:14:33,620 --> 00:14:35,310
+for development and so on
+
+437
+00:14:35,310 --> 00:14:37,750
+Well, he basically gives some suggestions about the details here.
+
+438
+00:14:37,750 --> 00:14:39,430
+Similarly, if you find any part unsuitable
+
+439
+00:14:39,430 --> 00:14:40,790
+or if some content is missing
+
+440
+00:14:40,790 --> 00:14:41,380
+needs to be added
+
+441
+00:14:41,380 --> 00:14:43,260
+Then we can directly use the dialog box in the lower left corner
+
+442
+00:14:43,260 --> 00:14:44,700
+just make interactive modifications directly
+
+443
+00:14:44,700 --> 00:14:46,120
+Now that we have the PRD
+
+444
+00:14:46,120 --> 00:14:48,860
+Next, we can generate the corresponding prototype solution.
+
+445
+00:14:48,860 --> 00:14:51,440
+Here, I recommend switching to another tool
+
+446
+00:14:51,440 --> 00:14:53,640
+that is, within Google AI Studio
+
+447
+00:14:53,640 --> 00:14:55,520
+to proceed with further development
+
+448
+00:14:55,520 --> 00:14:58,000
+to develop some kind of front-end interaction draft
+
+449
+00:14:58,000 --> 00:15:00,560
+because compared to the previous app a as studio
+
+450
+00:15:00,560 --> 00:15:03,420
+more suitable for higher-demand web coding
+
+451
+00:15:03,420 --> 00:15:06,770
+Especially when your application functionality is more complex
+
+452
+00:15:06,770 --> 00:15:07,650
+when the requirements are more complex
+
+453
+00:15:07,650 --> 00:15:09,910
+To put it in one sentence, uh
+
+454
+00:15:09,910 --> 00:15:11,010
+which platform to use
+
+455
+00:15:11,010 --> 00:15:14,090
+Basically, when you hope to adopt a fast and efficient approach to
+
+456
+00:15:14,090 --> 00:15:15,990
+when quickly designing PRD or prototype drafts
+
+457
+00:15:15,990 --> 00:15:18,740
+I recommend you to first use the Gemini APP for iteration
+
+458
+00:15:18,740 --> 00:15:20,540
+But if you already have a draft
+
+459
+00:15:20,540 --> 00:15:21,220
+have a finalized version
+
+460
+00:15:21,220 --> 00:15:22,500
+you now want Gemini 3
+
+461
+00:15:22,500 --> 00:15:25,500
+help you write out the entire application code according to this PRD
+
+462
+00:15:25,500 --> 00:15:27,620
+demonstrate its overall
+
+463
+00:15:27,620 --> 00:15:29,880
+this this form when ah
+
+464
+00:15:29,880 --> 00:15:31,840
+and can be deployed to see the actual effects
+
+465
+00:15:31,840 --> 00:15:33,180
+when there is such a demand
+
+466
+00:15:33,180 --> 00:15:35,560
+Then I would recommend you to switch to AS Studio
+
+467
+00:15:35,560 --> 00:15:37,540
+because its final coding capability is more powerful
+
+468
+00:15:37,540 --> 00:15:38,860
+Now, this PRD
+
+469
+00:15:38,860 --> 00:15:40,680
+we can see that it still exists within
+
+470
+00:15:40,680 --> 00:15:42,380
+in the middle of the Cleansing Milk APP, right?
+
+471
+00:15:42,380 --> 00:15:43,580
+So how do we move it over?
+
+472
+00:15:43,580 --> 00:15:44,180
+Now pay attention
+
+473
+00:15:44,180 --> 00:15:46,260
+
+
+474
+00:15:46,260 --> 00:15:50,480
+
+
+475
+00:15:50,480 --> 00:15:50,840
+share
+
+476
+00:15:50,840 --> 00:15:53,000
+
+
+477
+00:15:53,000 --> 00:15:54,400
+and then you can see
+
+478
+00:15:54,400 --> 00:15:56,240
+It is displayed on a new page
+
+479
+00:15:56,240 --> 00:15:58,320
+
+
+480
+00:15:58,320 --> 00:16:00,380
+
+
+481
+00:16:00,380 --> 00:16:04,020
+paste it into our Google AI Studio
+
+482
+00:16:04,020 --> 00:16:05,040
+build page
+
+483
+00:16:05,040 --> 00:16:05,620
+Note that
+
+484
+00:16:06,620 --> 00:16:08,760
+This is a build page
+
+485
+00:16:08,760 --> 00:16:11,400
+This is a build page, uh, this this build page
+
+486
+00:16:11,400 --> 00:16:12,940
+Paste it into the build page
+
+487
+00:16:12,940 --> 00:16:15,220
+and then add a simple description to it
+
+488
+00:16:15,220 --> 00:16:17,640
+Right?
+
+489
+00:16:17,640 --> 00:16:18,600
+Simply put
+
+490
+00:16:18,600 --> 00:16:20,640
+for example, uh
+
+491
+00:16:23,800 --> 00:16:25,080
+Ah, just take a quick look
+
+492
+00:16:25,080 --> 00:16:27,560
+For example, later on, based on this requirement,
+
+493
+00:16:27,560 --> 00:16:29,880
+to develop this cross-border e-commerce IP system
+
+494
+00:16:29,880 --> 00:16:31,400
+ERP system
+
+495
+00:16:33,360 --> 00:16:35,580
+That's roughly the requirement.
+
+496
+00:16:35,580 --> 00:16:38,000
+Finally, click on this build.
+
+497
+00:16:38,000 --> 00:16:39,400
+Click this build
+
+498
+00:16:39,400 --> 00:16:40,560
+As for the model
+
+499
+00:16:40,560 --> 00:16:43,640
+we just need to select the currently strongest GM X3 Pro Preview
+
+500
+00:16:43,640 --> 00:16:45,930
+just select the most powerful model, uh
+
+501
+00:16:45,930 --> 00:16:46,910
+After clicking send,
+
+502
+00:16:46,910 --> 00:16:48,010
+After clicking build
+
+503
+00:16:48,010 --> 00:16:49,570
+We may need to wait for a while
+
+504
+00:16:49,570 --> 00:16:51,380
+That should take about 2 minutes or so.
+
+505
+00:16:51,380 --> 00:16:53,740
+There will be some building process here.
+
+506
+00:16:53,740 --> 00:16:54,320
+building process
+
+507
+00:16:54,320 --> 00:16:56,200
+Since I've already run it in advance
+
+508
+00:16:56,200 --> 00:16:57,880
+So we can directly view the results here.
+
+509
+00:16:57,880 --> 00:16:58,820
+Let's take a look at the results directly
+
+510
+00:16:58,820 --> 00:17:00,000
+The entire page
+
+511
+00:17:00,000 --> 00:17:02,960
+It appears very much like a code editor tool.
+
+512
+00:17:02,960 --> 00:17:05,680
+On the left side are all the code files of this application
+
+513
+00:17:05,680 --> 00:17:06,839
+The right side is actually
+
+514
+00:17:06,839 --> 00:17:09,900
+You can think of it as the page after it's deployed.
+
+515
+00:17:09,900 --> 00:17:12,060
+a rendered preview of this application
+
+516
+00:17:12,060 --> 00:17:14,220
+or an interactive function of an interface, okay
+
+517
+00:17:14,220 --> 00:17:15,900
+Let's take a look at what features it has
+
+518
+00:17:15,900 --> 00:17:16,890
+What are the feature lists
+
+519
+00:17:16,890 --> 00:17:18,250
+First of all, it must have a dashboard.
+
+520
+00:17:18,250 --> 00:17:19,329
+It has a default dashboard
+
+521
+00:17:19,329 --> 00:17:21,409
+Then there's the product list.
+
+522
+00:17:21,409 --> 00:17:22,648
+There is inventory management.
+
+523
+00:17:22,648 --> 00:17:23,689
+order pages and more
+
+524
+00:17:23,689 --> 00:17:24,089
+right
+
+525
+00:17:24,089 --> 00:17:25,189
+Then in the lower left corner
+
+526
+00:17:25,189 --> 00:17:29,029
+And here are some suggestions provided by this cleanser 3.
+
+527
+00:17:29,029 --> 00:17:30,269
+the optimization suggestions you provided
+
+528
+00:17:30,269 --> 00:17:32,069
+You can refer to these optimization suggestions during the interaction optimization process
+
+529
+00:17:32,069 --> 00:17:34,109
+Do we need to take these into consideration?
+
+530
+00:17:34,109 --> 00:17:36,590
+these optimization suggestions provided
+
+531
+00:17:36,590 --> 00:17:36,990
+optimization suggestions
+
+532
+00:17:36,990 --> 00:17:38,190
+For example, when I was testing
+
+533
+00:17:38,190 --> 00:17:39,750
+adopted this uh
+
+534
+00:17:39,750 --> 00:17:42,250
+adopted this suggestion to add something like
+
+535
+00:17:42,250 --> 00:17:44,210
+a low inventory alert
+
+536
+00:17:44,210 --> 00:17:45,490
+a low inventory alert function
+
+537
+00:17:45,490 --> 00:17:48,680
+Then Gemini 3 will automatically generate a prompt, right
+
+538
+00:17:48,680 --> 00:17:50,600
+This is what happens when I click to increase the
+
+539
+00:17:50,600 --> 00:17:51,720
+when the low inventory alert function is triggered
+
+540
+00:17:51,720 --> 00:17:53,640
+Gemini 3 will automatically generate a prompt
+
+541
+00:17:53,640 --> 00:17:55,240
+and send it to itself
+
+542
+00:17:55,240 --> 00:17:57,280
+He then proceeds to optimize the existing code
+
+543
+00:17:57,280 --> 00:17:58,640
+this low alert
+
+544
+00:17:58,640 --> 00:18:00,260
+add the low inventory alert function
+
+545
+00:18:00,260 --> 00:18:02,080
+All the modification details
+
+546
+00:18:02,080 --> 00:18:03,700
+on the Me left side
+
+547
+00:18:03,700 --> 00:18:04,980
+the dialog on the left side of this page
+
+548
+00:18:04,980 --> 00:18:07,000
+You can find everything in the middle of the dialog box.
+
+549
+00:18:07,000 --> 00:18:07,680
+can be found
+
+550
+00:18:07,680 --> 00:18:10,000
+The purpose is to have the large model modify the code for us
+
+551
+00:18:10,000 --> 00:18:10,600
+modify the code
+
+552
+00:18:10,600 --> 00:18:12,680
+This is essentially an automated coding process.
+
+553
+00:18:12,680 --> 00:18:13,880
+Of course, during this modification process
+
+554
+00:18:13,880 --> 00:18:15,720
+there are certainly risks involved
+
+555
+00:18:15,720 --> 00:18:17,980
+Because as you make changes, the large model might end up making mistakes for you
+
+556
+00:18:17,980 --> 00:18:18,380
+Isn't it?
+
+557
+00:18:18,380 --> 00:18:18,900
+You can see that
+
+558
+00:18:18,900 --> 00:18:20,620
+There might actually be some errors in this part.
+
+559
+00:18:20,620 --> 00:18:21,140
+there may be some errors
+
+560
+00:18:21,140 --> 00:18:23,420
+Don't worry if you encounter errors during this process
+
+561
+00:18:23,420 --> 00:18:25,860
+You can directly paste the error message
+
+562
+00:18:25,860 --> 00:18:26,800
+back to the interface Nai3
+
+563
+00:18:26,800 --> 00:18:29,420
+let it automatically help you fix this error
+
+564
+00:18:29,420 --> 00:18:31,139
+So let's take another look at this uh
+
+565
+00:18:31,139 --> 00:18:32,819
+Finally, after it's all completed
+
+566
+00:18:32,819 --> 00:18:35,160
+Let's take a look at its final uh
+
+567
+00:18:35,160 --> 00:18:36,520
+the functionality of this page
+
+568
+00:18:36,520 --> 00:18:37,040
+You can see that
+
+569
+00:18:37,040 --> 00:18:38,280
+the bottom line of this page
+
+570
+00:18:38,280 --> 00:18:39,320
+it has already displayed
+
+571
+00:18:39,320 --> 00:18:41,640
+this low inventory alert feature
+
+572
+00:18:41,640 --> 00:18:43,040
+It is displayed on the page.
+
+573
+00:18:43,040 --> 00:18:44,820
+After going through this entire development process
+
+574
+00:18:44,820 --> 00:18:46,320
+I believe everyone can also understand
+
+575
+00:18:46,320 --> 00:18:50,080
+Why did I recommend everyone to use the facial cleanser APP earlier?
+
+576
+00:18:50,080 --> 00:18:53,000
+Because the build feature of AI STUDIO is extremely powerful
+
+577
+00:18:53,000 --> 00:18:55,340
+It's equivalent to taking the code you've developed
+
+578
+00:18:55,340 --> 00:18:57,200
+directly performs a build within this page
+
+579
+00:18:57,200 --> 00:18:58,900
+to deploy it, right
+
+580
+00:18:58,900 --> 00:19:00,060
+a preview was made
+
+581
+00:19:00,060 --> 00:19:01,460
+However, there is also a very critical issue
+
+582
+00:19:01,460 --> 00:19:03,600
+The generation speed is just too slow.
+
+583
+00:19:03,600 --> 00:19:06,440
+Basically, each round of interaction requires about 12 minutes of waiting.
+
+584
+00:19:06,440 --> 00:19:08,880
+
+
+585
+00:19:08,880 --> 00:19:10,720
+we don't need to collaborate on this here
+
+586
+00:19:10,720 --> 00:19:12,680
+Using the Cleansing Milk app is sufficient
+
+587
+00:19:12,680 --> 00:19:14,520
+Finally, we would like to reiterate one point
+
+588
+00:19:14,520 --> 00:19:16,760
+Although the entire application's pages and interactive capabilities
+
+589
+00:19:16,760 --> 00:19:17,820
+has already been built
+
+590
+00:19:17,820 --> 00:19:20,570
+But essentially it's still a simple lightweight application
+
+591
+00:19:20,570 --> 00:19:22,950
+The most typical feature is that you can add it here
+
+592
+00:19:22,950 --> 00:19:26,000
+For example, adding a new product here
+
+593
+00:19:26,000 --> 00:19:27,460
+Add a new product
+
+594
+00:19:27,460 --> 00:19:29,280
+This newly added information
+
+595
+00:19:29,280 --> 00:19:33,010
+It directly updates the front-end code.
+
+596
+00:19:33,010 --> 00:19:35,490
+It will not be stored in the relational database of your backend application.
+
+597
+00:19:35,490 --> 00:19:36,990
+because it simply doesn't have backend capabilities
+
+598
+00:19:36,990 --> 00:19:37,330
+right
+
+599
+00:19:37,330 --> 00:19:39,670
+It doesn't provide this database for you to use directly, uh
+
+600
+00:19:39,670 --> 00:19:41,790
+Well, although this feature is not available yet...
+
+601
+00:19:41,790 --> 00:19:43,430
+but it doesn't stop us from envisioning first
+
+602
+00:19:43,430 --> 00:19:46,470
+If now you need to work within this AS Studio's build page
+
+603
+00:19:46,470 --> 00:19:47,639
+continue the development
+
+604
+00:19:47,639 --> 00:19:51,279
+store these online data into the backend
+
+605
+00:19:51,279 --> 00:19:52,059
+this database
+
+606
+00:19:52,059 --> 00:19:53,019
+how should this be implemented
+
+607
+00:19:53,019 --> 00:19:54,599
+Well, the simplest method we've thought of is
+
+608
+00:19:54,599 --> 00:19:58,020
+that is, you have already built up the, uh,
+
+609
+00:19:58,020 --> 00:19:59,680
+the type of this database
+
+610
+00:19:59,680 --> 00:20:01,160
+the connection address, right
+
+611
+00:20:01,160 --> 00:20:03,540
+Provide the account password and other information to the large model
+
+612
+00:20:03,540 --> 00:20:05,280
+let it incorporate these connection details
+
+613
+00:20:05,280 --> 00:20:06,480
+hardcode in the code
+
+614
+00:20:06,480 --> 00:20:08,980
+This way it can be handled
+
+615
+00:20:08,980 --> 00:20:10,580
+The entire process can be successfully executed.
+
+616
+00:20:10,580 --> 00:20:11,500
+It's basically workable.
+
+617
+00:20:11,500 --> 00:20:13,920
+However, there is also a major issue – inflexibility.
+
+618
+00:20:13,920 --> 00:20:15,280
+In addition to this lack of flexibility
+
+619
+00:20:15,280 --> 00:20:18,200
+The biggest risk is that your account information is exposed.
+
+620
+00:20:18,200 --> 00:20:19,080
+the large model sees it
+
+621
+00:20:19,080 --> 00:20:21,200
+Because the large model is an online public network service
+
+622
+00:20:21,200 --> 00:20:22,300
+you exposed it
+
+623
+00:20:22,300 --> 00:20:22,700
+right
+
+624
+00:20:22,700 --> 00:20:23,780
+your service is completely exposed
+
+625
+00:20:23,780 --> 00:20:24,740
+including your account and password
+
+626
+00:20:24,740 --> 00:20:26,440
+This is an extremely dangerous thing.
+
+627
+00:20:26,440 --> 00:20:28,260
+So our solution is
+
+628
+00:20:28,260 --> 00:20:28,860
+generally speaking
+
+629
+00:20:28,860 --> 00:20:31,620
+is to download the front-end application code locally
+
+630
+00:20:31,620 --> 00:20:34,660
+then utilize the AI coding large model for backend development,
+
+631
+00:20:34,660 --> 00:20:36,540
+This is the process we introduced earlier
+
+632
+00:20:36,540 --> 00:20:39,380
+This is currently a relatively mainstream practice in the industry.
+
+633
+00:20:39,380 --> 00:20:42,280
+Later, we will also use an example to explain this process.
+

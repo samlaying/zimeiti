@@ -1,0 +1,1520 @@
+1
+00:00:00,960 --> 00:00:02,400
+Hey everyone, what's up?
+
+2
+00:00:02,400 --> 00:00:03,220
+Welcome back.
+
+3
+00:00:03,220 --> 00:00:04,840
+Alright, so in the last video,
+
+4
+00:00:04,840 --> 00:00:07,360
+we covered the basics of Cloud Code.
+
+5
+00:00:07,360 --> 00:00:09,520
+developing a little Snake game.
+
+6
+00:00:09,520 --> 00:00:12,750
+So, that means you all now have a basic understanding of how to use Cloud Code.
+
+7
+00:00:12,750 --> 00:00:14,070
+But have you guys noticed something?
+
+8
+00:00:14,070 --> 00:00:15,350
+our current Cloud Code,
+
+9
+00:00:15,350 --> 00:00:18,910
+The thing is, you've always had to use it in this thing called the terminal command line.
+
+10
+00:00:18,910 --> 00:00:21,410
+And honestly, it's not that bad to use.
+
+11
+00:00:21,410 --> 00:00:23,810
+But for the vast majority of you out there,
+
+12
+00:00:23,810 --> 00:00:25,610
+the command line is still a pretty alien concept.
+
+13
+00:00:25,610 --> 00:00:26,880
+It's still pretty hardcore.
+
+14
+00:00:26,880 --> 00:00:28,260
+So, under normal circumstances,
+
+15
+00:00:28,260 --> 00:00:32,200
+And programmers aren't the type to just put up with hardship for no reason.
+
+16
+00:00:32,200 --> 00:00:35,740
+They'll definitely go for a more convenient tool, just to make their own lives easier.
+
+17
+00:00:35,740 --> 00:00:37,600
+So, as for this more convenient tool...
+
+18
+00:00:37,600 --> 00:00:40,920
+And that's what we call integrating it with VS Code.
+
+19
+00:00:40,920 --> 00:00:42,680
+So, in this section, we're going to show you how.
+
+20
+00:00:42,680 --> 00:00:47,000
+So, how do we integrate Cloud Code with VS Code?
+
+21
+00:00:47,000 --> 00:00:50,200
+So, first off, Cloud Code is a tool that's natively designed for the command line.
+
+22
+00:00:50,200 --> 00:00:51,440
+or in other words, a terminal tool.
+
+23
+00:00:51,440 --> 00:00:52,860
+Now, even though it's incredibly powerful,
+
+24
+00:00:52,860 --> 00:00:55,180
+But for the vast majority of non-professionals,
+
+25
+00:00:55,180 --> 00:00:57,500
+working with the command line is still pretty unfamiliar territory.
+
+26
+00:00:57,500 --> 00:01:00,100
+And to be honest, even the pros aren't really a fan of it.
+
+27
+00:01:00,100 --> 00:01:01,080
+But powerful as it is,
+
+28
+00:01:01,080 --> 00:01:02,380
+After all, who doesn't want a comfortable user experience?
+
+29
+00:01:02,380 --> 00:01:03,400
+and looks good while you're at it, right?
+
+30
+00:01:03,400 --> 00:01:05,800
+Alright, so for that reason,
+
+31
+00:01:05,800 --> 00:01:08,400
+So, Cloud Code actually offers something similar to VS Code.
+
+32
+00:01:08,400 --> 00:01:10,759
+which is a plugin for Visual Studio Code.
+
+33
+00:01:10,759 --> 00:01:13,419
+So, this plugin allows us to use it within the IDE,
+
+34
+00:01:13,419 --> 00:01:15,719
+or, in other words, right inside the Integrated Development Environment window.
+
+35
+00:01:15,719 --> 00:01:20,080
+and start using the features provided by Cloud Code for web coding.
+
+36
+00:01:20,080 --> 00:01:23,080
+So, the interface for VS Code looks just like what you see in the screenshot below.
+
+37
+00:01:23,080 --> 00:01:25,040
+It's a typical text editor.
+
+38
+00:01:25,040 --> 00:01:28,620
+So, you can use Cloud Code right inside it to write your code.
+
+39
+00:01:28,620 --> 00:01:30,620
+is going to be much more convenient than just using the command line.
+
+40
+00:01:30,620 --> 00:01:32,890
+making it a lot more convenient to use.
+
+41
+00:01:32,890 --> 00:01:35,610
+Alright, so in this section, I'll walk you through it.
+
+42
+00:01:35,610 --> 00:01:37,570
+So, let's talk about VS Code.
+
+43
+00:01:37,570 --> 00:01:38,710
+and how to install it itself.
+
+44
+00:01:38,710 --> 00:01:41,720
+and how to integrate it with Cloud Code. Alright,
+
+45
+00:01:41,720 --> 00:01:42,520
+Alright, so first things first,
+
+46
+00:01:42,520 --> 00:01:46,500
+So, let's start by installing VS Code on a Windows system.
+
+47
+00:01:46,500 --> 00:01:47,560
+So, here's the installation process.
+
+48
+00:01:47,560 --> 00:01:50,140
+And just like before, we've included detailed screenshots for you in our documentation.
+
+49
+00:01:50,140 --> 00:01:50,740
+I've taken a screenshot here.
+
+50
+00:01:50,740 --> 00:01:52,040
+Overall, it's pretty straightforward.
+
+51
+00:01:52,040 --> 00:01:54,910
+Alright, so next up, let me show you how it's done.
+
+52
+00:01:54,910 --> 00:01:55,470
+Alright.
+
+53
+00:01:55,470 --> 00:01:57,070
+Jump to 7:49 for the Mac setup.
+
+54
+00:01:57,070 --> 00:01:59,030
+Alright, so the first thing you'll need to do is find the resources we've provided for you.
+
+55
+00:01:59,030 --> 00:01:59,890
+the course materials.
+
+56
+00:01:59,890 --> 00:02:03,000
+Inside the course materials, you'll find a folder called VS Code.
+
+57
+00:02:03,000 --> 00:02:06,160
+Inside, you'll find the corresponding installation packages for both Mac and Windows systems.
+
+58
+00:02:06,160 --> 00:02:09,220
+So, for the Windows system, we're going to find this file with the .exe extension.
+
+59
+00:02:09,220 --> 00:02:11,560
+Just double-click to open it and start the installation.
+
+60
+00:02:11,560 --> 00:02:12,400
+And here, you'll see a license agreement.
+
+61
+00:02:12,400 --> 00:02:13,769
+So we'll click 'I Agree'.
+
+62
+00:02:13,769 --> 00:02:16,869
+Then, on the next step, it's going to ask us where we want to install it.
+
+63
+00:02:16,869 --> 00:02:18,529
+By default, it's set to install on the C drive.
+
+64
+00:02:18,529 --> 00:02:19,420
+So, for us,
+
+65
+00:02:19,420 --> 00:02:20,900
+We generally don't install things on the C drive.
+
+66
+00:02:20,900 --> 00:02:21,380
+Right? Okay.
+
+67
+00:02:21,380 --> 00:02:22,620
+So, let's change its location.
+
+68
+00:02:22,620 --> 00:02:26,000
+For example, let's install it in the DEV folder on the D drive.
+
+69
+00:02:26,000 --> 00:02:27,100
+Alright, let's move it over to...
+
+70
+00:02:27,100 --> 00:02:29,720
+Alright, let's install it into the 'DEV' folder on the D drive.
+
+71
+00:02:29,720 --> 00:02:30,760
+So, for our purposes,
+
+72
+00:02:30,760 --> 00:02:32,320
+You can actually install it anywhere you want.
+
+73
+00:02:32,320 --> 00:02:33,800
+And try to avoid using Chinese characters in the path.
+
+74
+00:02:33,800 --> 00:02:34,960
+The rest of the settings don't really matter.
+
+75
+00:02:34,960 --> 00:02:36,960
+Alright, once you've selected your installation folder,
+
+76
+00:02:36,960 --> 00:02:37,940
+Click 'Next'.
+
+77
+00:02:37,940 --> 00:02:39,620
+And then, click 'Next'.
+
+78
+00:02:39,620 --> 00:02:41,640
+So, you'll see there are a lot of options here.
+
+79
+00:02:41,640 --> 00:02:42,460
+So, for this option here,
+
+80
+00:02:42,460 --> 00:02:44,240
+Let's go ahead and check both of these boxes.
+
+81
+00:02:44,240 --> 00:02:46,960
+This makes things easier for us later when we right-click.
+
+82
+00:02:46,960 --> 00:02:50,000
+There's a shortcut called 'Open with VS Code'.
+
+83
+00:02:50,000 --> 00:02:51,080
+This is a pretty handy feature.
+
+84
+00:02:51,080 --> 00:02:52,760
+So, make sure you check both of these options.
+
+85
+00:02:52,760 --> 00:02:54,060
+Then, click 'Next'.
+
+86
+00:02:54,060 --> 00:02:56,020
+And then just click 'Install', and you're all set.
+
+87
+00:02:56,020 --> 00:02:57,940
+Alright, let's wait for the progress bar to finish.
+
+88
+00:02:57,940 --> 00:02:59,620
+And with that, the installation is pretty much done.
+
+89
+00:02:59,620 --> 00:03:03,300
+So, it's really, really convenient and simple.
+
+90
+00:03:09,280 --> 00:03:09,800
+Alright.
+
+91
+00:03:09,800 --> 00:03:11,160
+Alright, so once the installation is complete,
+
+92
+00:03:11,160 --> 00:03:13,040
+There's a checkbox option called 'Run'.
+
+93
+00:03:13,040 --> 00:03:14,080
+We're going to check this box.
+
+94
+00:03:14,080 --> 00:03:14,880
+And then, click 'Finish'.
+
+95
+00:03:14,880 --> 00:03:17,040
+And the software will launch automatically.
+
+96
+00:03:17,040 --> 00:03:17,960
+Alright, so once it's open,
+
+97
+00:03:17,960 --> 00:03:18,780
+And this is what it looks like.
+
+98
+00:03:18,780 --> 00:03:21,920
+Alright, so the first time you open it, it's going to ask you to log in.
+
+99
+00:03:21,920 --> 00:03:23,440
+So, generally speaking, you can go ahead and log in if you want to.
+
+100
+00:03:23,440 --> 00:03:24,660
+You'll see a bunch of account options here.
+
+101
+00:03:24,660 --> 00:03:27,860
+But if you don't want to log in, just click the button in the bottom-right corner that says 'continue without'.
+
+102
+00:03:27,860 --> 00:03:28,540
+Alright, once you're logged in,
+
+103
+00:03:28,540 --> 00:03:29,420
+Let's go with this one.
+
+104
+00:03:29,420 --> 00:03:31,740
+And now, it's asking us to pick a color theme.
+
+105
+00:03:31,740 --> 00:03:33,700
+Wow, it comes with so many themes by default.
+
+106
+00:03:33,700 --> 00:03:34,340
+Some of them look pretty good.
+
+107
+00:03:34,340 --> 00:03:34,980
+and some not so much.
+
+108
+00:03:34,980 --> 00:03:37,960
+Just go ahead and pick the one that works best for you.
+
+109
+00:03:37,960 --> 00:03:39,880
+Alright, for example, I'll go with this one called 'Lighting'.
+
+110
+00:03:39,880 --> 00:03:41,600
+A bright, white theme.
+
+111
+00:03:41,600 --> 00:03:42,120
+A better one.
+
+112
+00:03:42,120 --> 00:03:43,040
+Select 'continue'.
+
+113
+00:03:43,040 --> 00:03:43,590
+Next.
+
+114
+00:03:43,590 --> 00:03:46,670
+And down here, you'll see some other stuff related to the AI agent.
+
+115
+00:03:46,670 --> 00:03:47,390
+and all the integrated stuff.
+
+116
+00:03:47,390 --> 00:03:50,070
+Just ignore that and click on the 'Get Started' button, and you'll be all set.
+
+117
+00:03:50,070 --> 00:03:53,060
+And just like that, we're now inside the software's interface.
+
+118
+00:03:53,060 --> 00:03:54,220
+So, right as we get in...
+
+119
+00:03:54,220 --> 00:03:55,020
+Now, a lot of you might be thinking,
+
+120
+00:03:55,020 --> 00:03:57,780
+Whoa, another software that's all in English?
+
+121
+00:03:57,780 --> 00:03:59,260
+Can't we just switch to Chinese?
+
+122
+00:03:59,260 --> 00:03:59,940
+No problem at all.
+
+123
+00:03:59,940 --> 00:04:02,300
+So, VS Code is officially developed by Microsoft.
+
+124
+00:04:02,300 --> 00:04:05,620
+And it actually comes with a built-in Chinese language pack.
+
+125
+00:04:05,620 --> 00:04:07,900
+So, let's move over to the left side with the mouse.
+
+126
+00:04:07,900 --> 00:04:09,840
+And in here, you'll see a button for Extensions.
+
+127
+00:04:09,840 --> 00:04:10,970
+Alright, click on it.
+
+128
+00:04:10,970 --> 00:04:13,390
+Alright, once we're in here, we can search for a plugin.
+
+129
+00:04:13,390 --> 00:04:16,329
+It's called CHINESE. Okay.
+
+130
+00:04:16,329 --> 00:04:17,600
+Just go ahead and search for it.
+
+131
+00:04:17,600 --> 00:04:19,600
+And then, we'll just wait for the search results to pop up. Okay.
+
+132
+00:04:19,600 --> 00:04:21,540
+And right here, you'll see one for Simplified Chinese.
+
+133
+00:04:21,540 --> 00:04:22,280
+Alright, once you've clicked on it,
+
+134
+00:04:22,280 --> 00:04:24,460
+See? It's called the Simplified Chinese Language Pack.
+
+135
+00:04:24,460 --> 00:04:26,020
+And click on the button up here that says 'Install'.
+
+136
+00:04:26,020 --> 00:04:28,700
+So just click the install button. Go ahead and click it.
+
+137
+00:04:28,700 --> 00:04:30,140
+Alright, let's just give it a moment.
+
+138
+00:04:30,140 --> 00:04:33,050
+Alright, let's wait for it to finish installing.
+
+139
+00:04:33,050 --> 00:04:34,210
+And the installation is now complete.
+
+140
+00:04:34,210 --> 00:04:37,410
+As you can see, down in the bottom right corner, there's an option called 'Change language and restart'.
+
+141
+00:04:37,410 --> 00:04:39,410
+Which means 'Change Language and Restart'.
+
+142
+00:04:39,410 --> 00:04:40,630
+Alright, so let's click on that.
+
+143
+00:04:40,630 --> 00:04:42,270
+Alright, change language and restart.
+
+144
+00:04:42,270 --> 00:04:43,390
+Once it's back up,
+
+145
+00:04:43,390 --> 00:04:43,690
+Okay.
+
+146
+00:04:43,690 --> 00:04:47,940
+And just like that, our VS Code is now in full Chinese.
+
+147
+00:04:47,940 --> 00:04:50,160
+Alright, so it's actually pretty straightforward to use.
+
+148
+00:04:50,160 --> 00:04:52,060
+Alright, so now that we have VS Code,
+
+149
+00:04:52,060 --> 00:04:54,900
+Alright, so now let's see how it works with what we call Cloud Code.
+
+150
+00:04:54,900 --> 00:04:55,760
+So, how do we integrate it?
+
+151
+00:04:55,760 --> 00:04:57,300
+And integrating it is also super simple.
+
+152
+00:04:57,300 --> 00:04:59,680
+And the integration is done through a plugin.
+
+153
+00:04:59,680 --> 00:05:01,520
+So, just like before, we're going to find the section called 'Extensions'.
+
+154
+00:05:01,520 --> 00:05:02,360
+It's also a plugin.
+
+155
+00:05:02,360 --> 00:05:05,420
+And then in here, we'll search for Cloud Code.
+
+156
+00:05:05,420 --> 00:05:06,340
+space, code.
+
+157
+00:05:06,340 --> 00:05:06,640
+Alright.
+
+158
+00:05:06,640 --> 00:05:08,040
+Just search for 'Cloud Code' and you're good to go.
+
+159
+00:05:08,040 --> 00:05:09,400
+Alright, let's wait for it to show up in the results.
+
+160
+00:05:09,400 --> 00:05:11,400
+From the search results, we'll find the plugin we're looking for.
+
+161
+00:05:11,400 --> 00:05:14,240
+Just go ahead and install it, and you're all set.
+
+162
+00:05:19,520 --> 00:05:20,080
+Alright.
+
+163
+00:05:20,080 --> 00:05:21,640
+Alright, so in the search results that pop up...
+
+164
+00:05:21,640 --> 00:05:24,280
+And you can see the first one is what we're looking for, called 'code'.
+
+165
+00:05:24,280 --> 00:05:26,480
+Alright, 'Code for VS Code'.
+
+166
+00:05:26,480 --> 00:05:28,320
+So, once you've found the plugin,
+
+167
+00:05:28,320 --> 00:05:29,940
+Then, click the install button.
+
+168
+00:05:29,940 --> 00:05:33,100
+Then, it asks us if we trust the publisher.
+
+169
+00:05:33,100 --> 00:05:36,300
+So, this just means the plugin is developed by a third party.
+
+170
+00:05:36,300 --> 00:05:37,740
+If you want to trust it, you have to click 'Trust'.
+
+171
+00:05:37,740 --> 00:05:38,440
+If you don't trust it,
+
+172
+00:05:38,440 --> 00:05:39,700
+Then of course, you won't be able to install it.
+
+173
+00:05:39,700 --> 00:05:41,539
+So, we're definitely going to click 'Trust'.
+
+174
+00:05:41,539 --> 00:05:42,599
+and get it installed.
+
+175
+00:05:42,599 --> 00:05:43,139
+Click on it.
+
+176
+00:05:43,139 --> 00:05:44,359
+Alright, let's just wait for a moment.
+
+177
+00:05:44,359 --> 00:05:47,279
+Just let it finish installing.
+
+178
+00:05:48,920 --> 00:05:52,360
+Alright, so once the installation is complete, a firewall prompt will pop up.
+
+179
+00:05:52,360 --> 00:05:52,840
+Just ignore it.
+
+180
+00:05:52,840 --> 00:05:54,480
+Just click 'Allow access' and you're good to go.
+
+181
+00:05:54,480 --> 00:05:56,240
+And then in here, you'll also see an option called 'Get Started'.
+
+182
+00:05:56,240 --> 00:05:58,280
+Don't worry about this, just go ahead and close it.
+
+183
+00:05:58,280 --> 00:06:01,140
+So now, we've basically got something called Cloud Code.
+
+184
+00:06:01,140 --> 00:06:01,860
+a plugin.
+
+185
+00:06:01,860 --> 00:06:02,980
+So, where can we find this plugin?
+
+186
+00:06:02,980 --> 00:06:05,300
+Alright, see? On the left, there's something called Cloud Code, right?
+
+187
+00:06:05,300 --> 00:06:06,660
+Just go ahead and click on it.
+
+188
+00:06:06,660 --> 00:06:08,950
+Alright, let's give it a moment to respond here.
+
+189
+00:06:08,950 --> 00:06:10,580
+We'll just give it a moment to load here.
+
+190
+00:06:10,580 --> 00:06:13,020
+Alright, as you can see, we've got some stuff here now, right?
+
+191
+00:06:13,020 --> 00:06:14,660
+The session is called 'Create New Session'.
+
+192
+00:06:14,660 --> 00:06:16,220
+So, it's 'Create New Session'.
+
+193
+00:06:16,220 --> 00:06:19,240
+And at the same time, you can see there's a webpage here for a 5-minute countdown timer.
+
+194
+00:06:19,240 --> 00:06:20,080
+So, what's this all about?
+
+195
+00:06:20,080 --> 00:06:22,240
+And this is the one we just wrote.
+
+196
+00:06:22,240 --> 00:06:23,960
+called the 5-minute countdown.
+
+197
+00:06:23,960 --> 00:06:25,680
+And it pulls up your past sessions, see?
+
+198
+00:06:25,680 --> 00:06:28,120
+And it's found all of our previous conversations.
+
+199
+00:06:28,120 --> 00:06:29,640
+So, that's the basic rundown of how to use it.
+
+200
+00:06:29,640 --> 00:06:30,200
+Of course.
+
+201
+00:06:30,200 --> 00:06:31,240
+So, this thing is on the left side.
+
+202
+00:06:31,240 --> 00:06:33,820
+it might conflict with our file explorer.
+
+203
+00:06:33,820 --> 00:06:36,120
+So, what we usually do here is just make a simple configuration.
+
+204
+00:06:36,120 --> 00:06:37,320
+So, what's this simple configuration?
+
+205
+00:06:37,320 --> 00:06:38,520
+Alright everyone, just follow my lead.
+
+206
+00:06:38,520 --> 00:06:39,220
+Find it.
+
+207
+00:06:39,220 --> 00:06:44,039
+Right-click and you'll see an option called 'Move to Auxiliary Sidebar'.
+
+208
+00:06:44,039 --> 00:06:45,719
+and move it to the auxiliary sidebar.
+
+209
+00:06:45,719 --> 00:06:47,439
+And just like that, you can see it's moved over.
+
+210
+00:06:47,439 --> 00:06:50,860
+See? It's right here on the right, ready to chat with the AI-integrated Chat.
+
+211
+00:06:50,860 --> 00:06:51,900
+And now they're all in one place.
+
+212
+00:06:51,900 --> 00:06:53,540
+So now we can start using it right here.
+
+213
+00:06:53,540 --> 00:06:55,520
+You can also try dragging it around a bit.
+
+214
+00:06:55,520 --> 00:06:57,600
+This way, it's much more convenient to use.
+
+215
+00:06:57,600 --> 00:06:59,020
+For example, you can ask questions in here.
+
+216
+00:06:59,020 --> 00:07:01,860
+What's your base model?
+
+217
+00:07:01,860 --> 00:07:03,360
+Alright, hit Enter.
+
+218
+00:07:03,490 --> 00:07:04,570
+Alright, let's give it a moment to respond.
+
+219
+00:07:04,570 --> 00:07:06,210
+And if it replies with 'DeepSeek', hey,
+
+220
+00:07:06,210 --> 00:07:08,250
+This means it's up and running properly.
+
+221
+00:07:08,250 --> 00:07:11,330
+So, it looks like our configuration is all good to go.
+
+222
+00:07:11,330 --> 00:07:12,170
+Alright, so with that being said,
+
+223
+00:07:12,170 --> 00:07:14,090
+And with that, we've basically completed one step.
+
+224
+00:07:14,090 --> 00:07:17,020
+Installing the VS Code tool on a Windows system.
+
+225
+00:07:17,020 --> 00:07:20,340
+and then integrate Cloud Code right into the VS Code tool.
+
+226
+00:07:20,340 --> 00:07:22,350
+this AI programming tool.
+
+227
+00:07:22,350 --> 00:07:23,150
+So, moving forward,
+
+228
+00:07:23,150 --> 00:07:24,350
+For some of our larger projects,
+
+229
+00:07:24,350 --> 00:07:26,970
+and we can use this setup for our development work.
+
+230
+00:07:26,970 --> 00:07:30,480
+And on the right, you can chat with the large AI model.
+
+231
+00:07:30,480 --> 00:07:34,200
+On the left, it lists out the code files for us.
+
+232
+00:07:34,200 --> 00:07:36,700
+And in the middle, you can view and edit the code files.
+
+233
+00:07:36,700 --> 00:07:40,320
+So overall, it's a very convenient setup. Alright.
+
+234
+00:07:40,320 --> 00:07:42,700
+So, that's how we configure Cloud Code in the Windows system.
+
+235
+00:07:42,700 --> 00:07:44,640
+and integrate it with Visual Studio Code.
+
+236
+00:07:44,640 --> 00:07:46,600
+Alright, so next up, let me show you how it's done.
+
+237
+00:07:46,600 --> 00:07:50,170
+how to do it on a Mac system.
+
+238
+00:07:50,170 --> 00:07:51,790
+Alright, let's get back to our Mac system.
+
+239
+00:07:51,790 --> 00:07:54,840
+Alright, so just like before, we're going to find the materials provided for this course.
+
+240
+00:07:54,840 --> 00:07:57,200
+Inside the materials, you'll find a folder called 'VS Code'.
+
+241
+00:07:57,200 --> 00:07:59,120
+And inside, you'll find the installer for Mac.
+
+242
+00:07:59,120 --> 00:08:00,340
+And it's a DMG file.
+
+243
+00:08:00,340 --> 00:08:02,190
+Let's go ahead and double-click to open it.
+
+244
+00:08:02,190 --> 00:08:03,190
+Once it's open,
+
+245
+00:08:03,190 --> 00:08:04,930
+And a new window will pop up.
+
+246
+00:08:04,930 --> 00:08:06,130
+See, it gives you a prompt right here.
+
+247
+00:08:06,130 --> 00:08:08,190
+It's asking you to drag the application into this area.
+
+248
+00:08:08,190 --> 00:08:09,860
+So, just drag it right in.
+
+249
+00:08:09,860 --> 00:08:12,120
+The one I've selected with my mouse is called Visual Studio Code.
+
+250
+00:08:12,120 --> 00:08:13,120
+And then drag it to the right.
+
+251
+00:08:13,120 --> 00:08:14,620
+Then just drag it in and let go. There we go.
+
+252
+00:08:14,620 --> 00:08:16,680
+And just like that, the program is now on your...
+
+253
+00:08:16,680 --> 00:08:18,100
+into the Applications folder.
+
+254
+00:08:18,100 --> 00:08:19,400
+So now we just have to wait for it to finish loading.
+
+255
+00:08:19,400 --> 00:08:20,760
+We'll just wait for this progress bar to finish.
+
+256
+00:08:20,760 --> 00:08:23,720
+And with that, our VS Code installation is pretty much done.
+
+257
+00:08:23,720 --> 00:08:27,880
+So, the installation process is much simpler and more straightforward compared to Windows.
+
+258
+00:08:27,880 --> 00:08:28,120
+Alright.
+
+259
+00:08:28,120 --> 00:08:29,280
+Let's wait for the progress bar to finish.
+
+260
+00:08:29,280 --> 00:08:32,150
+Alright, so we can go ahead and close this little window now.
+
+261
+00:08:32,150 --> 00:08:33,830
+Alright, once the progress bar is finished,
+
+262
+00:08:33,830 --> 00:08:35,110
+Alright, so now on our desktop...
+
+263
+00:08:35,110 --> 00:08:36,830
+Generally, a new one will pop up.
+
+264
+00:08:36,830 --> 00:08:39,159
+This is an icon for something called VS Code.
+
+265
+00:08:39,159 --> 00:08:40,840
+Now, don't get this wrong.
+
+266
+00:08:40,840 --> 00:08:42,240
+This is our VS Code application.
+
+267
+00:08:42,240 --> 00:08:44,639
+No, it's not that. Think of it more like a CD.
+
+268
+00:08:44,639 --> 00:08:46,859
+This disc image is basically like it's been inserted into your Mac system.
+
+269
+00:08:46,859 --> 00:08:49,159
+You can right-click on it and choose 'Eject'.
+
+270
+00:08:49,159 --> 00:08:50,439
+And then you can just eject it.
+
+271
+00:08:50,439 --> 00:08:51,019
+You can just ignore that.
+
+272
+00:08:51,019 --> 00:08:53,940
+So this is the DMG installer package we just saw.
+
+273
+00:08:53,940 --> 00:08:55,190
+It's like a mounted disc image.
+
+274
+00:08:55,190 --> 00:08:58,070
+So, the main VS Code application has been installed.
+
+275
+00:08:58,070 --> 00:08:59,850
+This is called the Applications folder.
+
+276
+00:08:59,850 --> 00:09:02,060
+Find the Applications folder on your Mac.
+
+277
+00:09:02,060 --> 00:09:03,660
+And you'll see there are a lot of programs in here.
+
+278
+00:09:03,660 --> 00:09:05,700
+So, just drag it right in here.
+
+279
+00:09:05,700 --> 00:09:08,980
+and you should be able to find one called Visual Studio Code.
+
+280
+00:09:08,980 --> 00:09:09,680
+an application.
+
+281
+00:09:09,680 --> 00:09:10,550
+Alright, there it is.
+
+282
+00:09:10,550 --> 00:09:11,730
+Double-click to run it.
+
+283
+00:09:11,730 --> 00:09:13,550
+Alright, let's open it up.
+
+284
+00:09:13,550 --> 00:09:17,300
+Alright, let's just wait for it to start up.
+
+285
+00:09:17,300 --> 00:09:18,560
+Alright, so once it's up and running,
+
+286
+00:09:18,560 --> 00:09:19,660
+Just like in our Windows system.
+
+287
+00:09:19,660 --> 00:09:20,960
+First, it's going to ask if you want to log in.
+
+288
+00:09:20,960 --> 00:09:22,080
+Normally, we just skip the login.
+
+289
+00:09:22,080 --> 00:09:22,940
+Click on the one in the bottom-right corner.
+
+290
+00:09:22,940 --> 00:09:24,660
+And then, we'll choose a theme.
+
+291
+00:09:24,660 --> 00:09:26,440
+I'll go with the light theme and continue.
+
+292
+00:09:26,440 --> 00:09:28,500
+Then, select this option called 'Get Started'.
+
+293
+00:09:28,500 --> 00:09:29,320
+And just like that, we're in.
+
+294
+00:09:29,320 --> 00:09:30,880
+Once you're in, it's just like on Windows.
+
+295
+00:09:30,880 --> 00:09:33,040
+By default, it's all in English.
+
+296
+00:09:33,040 --> 00:09:34,740
+So, the first thing you'll want to do is switch it to the Chinese version.
+
+297
+00:09:34,740 --> 00:09:38,140
+So, click on the option on the left, which is called 'Extensions'.
+
+298
+00:09:38,140 --> 00:09:42,039
+Alright, so in here, we're going to search for 'CHINESE'.
+
+299
+00:09:42,039 --> 00:09:44,820
+and search for the Chinese language pack.
+
+300
+00:09:44,820 --> 00:09:46,080
+Then, go ahead and select it.
+
+301
+00:09:46,080 --> 00:09:48,440
+Then, click the button that says 'Install'.
+
+302
+00:09:48,440 --> 00:09:50,800
+Alright, click 'Install' and you're all set.
+
+303
+00:09:50,800 --> 00:09:51,840
+Alright, once the installation is complete,
+
+304
+00:09:51,840 --> 00:09:54,000
+You'll see a prompt in the bottom-right corner asking you to change the language.
+
+305
+00:09:54,000 --> 00:09:55,120
+and restart it.
+
+306
+00:09:55,120 --> 00:09:56,080
+Just click on it.
+
+307
+00:09:56,080 --> 00:09:57,700
+And the software will restart.
+
+308
+00:09:57,700 --> 00:09:59,860
+And once it's restarted, it'll be in Chinese.
+
+309
+00:09:59,860 --> 00:10:00,880
+Alright, so now that it's in Chinese,
+
+310
+00:10:00,880 --> 00:10:04,060
+Alright, next, let's set up its integration with Cloud Code.
+
+311
+00:10:04,060 --> 00:10:06,580
+Click on this Extensions, which is the plugins option.
+
+312
+00:10:06,580 --> 00:10:09,280
+And in here, let's search for CLAUDE, with a space after it.
+
+313
+00:10:09,280 --> 00:10:10,700
+Code, code, code.
+
+314
+00:10:10,700 --> 00:10:12,180
+Let's search for it.
+
+315
+00:10:13,100 --> 00:10:13,700
+Alright.
+
+316
+00:10:13,700 --> 00:10:14,780
+Alright, once you've found it,
+
+317
+00:10:14,780 --> 00:10:16,120
+Let's find this plugin.
+
+318
+00:10:16,120 --> 00:10:18,380
+So, just like before, go ahead and click the install button.
+
+319
+00:10:18,380 --> 00:10:19,800
+Just go ahead and install it.
+
+320
+00:10:19,800 --> 00:10:21,400
+And just like before, it's asking if you trust it.
+
+321
+00:10:21,400 --> 00:10:23,840
+So, I'm definitely going to click 'Trust publisher' and 'Install'.
+
+322
+00:10:23,840 --> 00:10:25,120
+After you click that, just give it a moment.
+
+323
+00:10:25,120 --> 00:10:28,000
+And just like that, it's installed successfully.
+
+324
+00:10:29,900 --> 00:10:30,440
+Alright.
+
+325
+00:10:30,440 --> 00:10:32,020
+Alright, so it's installed successfully.
+
+326
+00:10:32,020 --> 00:10:34,400
+And there's the welcome page that popped up automatically.
+
+327
+00:10:34,400 --> 00:10:35,740
+and it's showing us how to use it.
+
+328
+00:10:35,740 --> 00:10:36,780
+We can just ignore this for now.
+
+329
+00:10:36,780 --> 00:10:37,980
+Just click 'Mark as complete'.
+
+330
+00:10:37,980 --> 00:10:39,040
+We can just ignore that.
+
+331
+00:10:39,040 --> 00:10:40,960
+As you can see, over here on the left side of our program,
+
+332
+00:10:40,960 --> 00:10:42,980
+and you'll see a Cloud Code button right there.
+
+333
+00:10:42,980 --> 00:10:43,800
+Just click on it.
+
+334
+00:10:43,800 --> 00:10:45,730
+Let's give it a second to respond.
+
+335
+00:10:45,730 --> 00:10:47,210
+Normally, it would require you to log in.
+
+336
+00:10:47,210 --> 00:10:49,150
+But since we've already configured it with DeepSeek,
+
+337
+00:10:49,150 --> 00:10:52,200
+So, after a second or two, it'll just pop up automatically.
+
+338
+00:10:52,200 --> 00:10:52,460
+Alright.
+
+339
+00:10:52,460 --> 00:10:52,900
+So, as you can see,
+
+340
+00:10:52,900 --> 00:10:55,520
+And in here, you can still find some of the chats we've run before.
+
+341
+00:10:55,520 --> 00:10:56,620
+If you click on this session,
+
+342
+00:10:56,620 --> 00:10:59,280
+and you'll find the 5-minute countdown timer we made earlier.
+
+343
+00:10:59,280 --> 00:11:01,160
+and some related information about the HTML.
+
+344
+00:11:01,160 --> 00:11:03,580
+Alright, so it's the same process as we did on Windows.
+
+345
+00:11:03,580 --> 00:11:06,220
+We can configure it to appear in the chat panel on the right.
+
+346
+00:11:06,220 --> 00:11:09,220
+This way, it won't conflict with the file explorer on the left.
+
+347
+00:11:09,220 --> 00:11:10,420
+Alright, let's select it.
+
+348
+00:11:10,420 --> 00:11:14,380
+Then right-click and you'll see an option called 'Move to Auxiliary Sidebar'.
+
+349
+00:11:14,380 --> 00:11:16,220
+And just like that, it moves over to the right side here.
+
+350
+00:11:16,220 --> 00:11:17,740
+This makes it much easier to work with.
+
+351
+00:11:17,740 --> 00:11:20,920
+So, by default, Cloud Code actually comes with two windows.
+
+352
+00:11:20,920 --> 00:11:22,200
+One is for creating a session.
+
+353
+00:11:22,200 --> 00:11:24,840
+and the other one is for starting a conversation right away.
+
+354
+00:11:24,840 --> 00:11:27,790
+There are two options, and we can just pick whichever one we need when the time comes.
+
+355
+00:11:27,790 --> 00:11:28,350
+Alright, looks normal.
+
+356
+00:11:28,350 --> 00:11:29,710
+Now that we're in, we should also run a quick test.
+
+357
+00:11:29,710 --> 00:11:32,030
+First, let's ask it, "What large language model are you?"
+
+358
+00:11:32,030 --> 00:11:34,310
+Let's see how it integrates with our DeepSeek.
+
+359
+00:11:34,310 --> 00:11:35,030
+to see if it's working properly.
+
+360
+00:11:35,030 --> 00:11:39,070
+Alright, what large language model are you?
+
+361
+00:11:39,070 --> 00:11:40,920
+Alright, let's hit enter and ask it.
+
+362
+00:11:40,920 --> 00:11:41,560
+If it replies to us,
+
+363
+00:11:41,560 --> 00:11:42,840
+It says it's Dusk v4 Pro.
+
+364
+00:11:42,840 --> 00:11:46,360
+So, that means the Cloud Code we've integrated into VS Code right now...
+
+365
+00:11:46,360 --> 00:11:47,640
+and it's working just fine.
+
+366
+00:11:47,640 --> 00:11:49,460
+Alright, so it looks like it's working just fine.
+
+367
+00:11:49,460 --> 00:11:55,370
+Alright, and with that, we've successfully integrated Cloud Code into VS Code.
+
+368
+00:11:55,370 --> 00:11:57,540
+This will make our coding a lot more convenient from now on.
+
+369
+00:11:57,540 --> 00:11:59,180
+Over here on the left, you have the Explorer.
+
+370
+00:11:59,180 --> 00:12:00,140
+Here, you can manage your files.
+
+371
+00:12:00,140 --> 00:12:03,600
+And in the middle section, you can view the contents of your files.
+
+372
+00:12:03,600 --> 00:12:04,840
+Alright, and over here on the right...
+
+373
+00:12:04,840 --> 00:12:07,060
+And on this right-hand side, you can interact with our large AI model,
+
+374
+00:12:07,060 --> 00:12:08,680
+in other words, to communicate with Cloud Code.
+
+375
+00:12:08,680 --> 00:12:09,400
+to communicate.
+
+376
+00:12:09,400 --> 00:12:11,740
+and have it write code for us.
+
+377
+00:12:11,740 --> 00:12:12,380
+Alright.
+
+378
+00:12:12,380 --> 00:12:14,180
+Alright, so with that part done,
+
+379
+00:12:14,180 --> 00:12:15,900
+Alright, let's save that.
+
+380
+00:12:15,900 --> 00:12:18,100
+See you in the next video.
+

@@ -1,0 +1,2856 @@
+1
+00:00:00,040 --> 00:00:01,140
+Something huge just dropped.
+
+2
+00:00:01,140 --> 00:00:02,740
+On the evening of May 11th,
+
+3
+00:00:02,740 --> 00:00:04,960
+Anthropic put out a statement.
+
+4
+00:00:04,960 --> 00:00:08,740
+any transfers of Anthropic shares that have not been approved by the board of directors,
+
+5
+00:00:08,740 --> 00:00:10,670
+are hereby void and canceled.
+
+6
+00:00:10,670 --> 00:00:11,930
+So, even if you bought some,
+
+7
+00:00:11,930 --> 00:00:13,370
+you're not a shareholder either.
+
+8
+00:00:13,370 --> 00:00:15,070
+Someone's making a post on X.
+
+9
+00:00:15,070 --> 00:00:16,510
+It got over ten thousand views in just 12 hours.
+
+10
+00:00:16,510 --> 00:00:18,210
+His core sentiment can be summed up in one sentence.
+
+11
+00:00:18,210 --> 00:00:21,490
+It's basically saying that ordinary people aren't even allowed to ride the AI wealth wave.
+
+12
+00:00:21,490 --> 00:00:23,130
+So, why is this such a big deal?
+
+13
+00:00:23,130 --> 00:00:25,210
+Because just three days ago, on May 8th,
+
+14
+00:00:25,210 --> 00:00:28,730
+In that episode of the 'All In' podcast, there was a guest named David Sachs.
+
+15
+00:00:28,730 --> 00:00:30,610
+a former White House AI policy advisor.
+
+16
+00:00:30,610 --> 00:00:32,670
+And he just made a statement on the show.
+
+17
+00:00:32,670 --> 00:00:34,010
+At the current rate,
+
+18
+00:00:34,010 --> 00:00:34,690
+Anthropic could become one of the most powerful monopolies in human history.
+
+19
+00:00:34,690 --> 00:00:38,250
+the most powerful monopoly.
+
+20
+00:00:38,250 --> 00:00:39,530
+Three days later, a piece of evidence.
+
+21
+00:00:39,530 --> 00:00:43,090
+Three years later, a current event perfectly印证了 what was said in a tweet.
+
+22
+00:00:43,090 --> 00:00:43,810
+That line got shared by a lot of people.
+
+23
+00:00:43,810 --> 00:00:44,430
+A lot of people have been clipping this.
+
+24
+00:00:44,430 --> 00:00:46,420
+But there's one thing that a lot of people are missing.
+
+25
+00:00:46,420 --> 00:00:48,580
+He's telling a story from a hundred years ago.
+
+26
+00:00:48,580 --> 00:00:49,420
+He's telling you,
+
+27
+00:00:49,420 --> 00:00:53,780
+Anthropic might be building a monopoly in a way that's invisible to you.
+
+28
+00:00:53,780 --> 00:00:55,340
+So, I've watched that video three times.
+
+29
+00:00:55,340 --> 00:00:57,780
+And every time, the same question popped into my head.
+
+30
+00:00:57,780 --> 00:00:59,440
+I mean, if what he's saying is true...
+
+31
+00:00:59,440 --> 00:01:03,150
+So, what's an actual event from Anthropic's history that could serve as proof of this?
+
+32
+00:01:03,150 --> 00:01:04,150
+So, at the end of the last video...
+
+33
+00:01:04,150 --> 00:01:06,830
+A lot of you have been asking for a full breakdown of that All-In Podcast episode.
+
+34
+00:01:06,830 --> 00:01:08,130
+So today, let's make good on that promise.
+
+35
+00:01:08,130 --> 00:01:10,890
+Today, let's take a look at Standard Oil from 100 years ago.
+
+36
+00:01:10,890 --> 00:01:12,170
+Now, let's talk about their safety narrative.
+
+37
+00:01:12,170 --> 00:01:13,360
+A thought experiment on oil.
+
+38
+00:01:13,360 --> 00:01:15,680
+So, what exactly has Anthropic been up to for the past three years?
+
+39
+00:01:15,680 --> 00:01:17,160
+And you can see how it all lines up with history.
+
+40
+00:01:17,160 --> 00:01:18,260
+Alright everyone, buckle up.
+
+41
+00:01:18,260 --> 00:01:18,940
+Hit that like button before you start.
+
+42
+00:01:18,940 --> 00:01:19,930
+And may the good fortune never end.
+
+43
+00:01:19,930 --> 00:01:21,450
+To really get what David Sachs is saying in those four minutes,
+
+44
+00:01:21,450 --> 00:01:23,690
+But first, we have to talk about one person.
+
+45
+00:01:23,690 --> 00:01:25,570
+His name is John D. Rockefeller.
+
+46
+00:01:25,570 --> 00:01:27,600
+And in Chinese, that's Rockefeller.
+
+47
+00:01:27,600 --> 00:01:29,160
+And no, he's not the one who built Rockefeller Center.
+
+48
+00:01:29,160 --> 00:01:31,000
+His father, now this guy, might just be the most ruthless monopolist in American history.
+
+49
+00:01:31,000 --> 00:01:34,070
+arguably the most cutthroat monopolist in American history.
+
+50
+00:01:34,070 --> 00:01:36,870
+In 1870, he founded Standard Oil.
+
+51
+00:01:36,870 --> 00:01:39,150
+In Chinese, it's called Standard Oil.
+
+52
+00:01:39,150 --> 00:01:39,590
+Getting started was simple.
+
+53
+00:01:39,590 --> 00:01:40,610
+He was in the oil refining business.
+
+54
+00:01:40,610 --> 00:01:42,970
+At the time, it had been less than 10 years since oil was discovered in the United States.
+
+55
+00:01:42,970 --> 00:01:44,509
+The entire industry was still a mess.
+
+56
+00:01:44,509 --> 00:01:46,389
+Every state had its own independent refineries.
+
+57
+00:01:46,389 --> 00:01:48,190
+Hundreds of them, big and small.
+
+58
+00:01:48,190 --> 00:01:50,890
+By 1880, Standard Oil controlled 90% of America's refining capacity. And Rockefeller's strategy wasn't just about making refining as efficient as possible.
+
+59
+00:01:50,890 --> 00:01:53,220
+Instead, it was about buying up the entire industry chain.
+
+60
+00:01:53,220 --> 00:01:55,240
+The first step was to negotiate with the railroad companies.
+
+61
+00:01:55,240 --> 00:01:58,460
+Any train that transported oil to his refineries would get a discount.
+
+62
+00:01:58,460 --> 00:01:59,420
+while others didn't.
+
+63
+00:01:59,420 --> 00:02:02,020
+This gave him a lower cost than anyone else right from the source.
+
+64
+00:02:02,020 --> 00:02:03,960
+So, for the second step, he used this cost advantage.
+
+65
+00:02:03,960 --> 00:02:07,940
+and drive the oil prices of all nearby independent refineries down to the point of loss.
+
+66
+00:02:07,940 --> 00:02:10,269
+And then, they would go and acquire them one by one.
+
+67
+00:02:10,269 --> 00:02:12,489
+Step two: control the pipelines.
+
+68
+00:02:12,489 --> 00:02:14,360
+Step four: establish a retail network.
+
+69
+00:02:14,360 --> 00:02:16,360
+By following these four steps, by 1880, which was just a decade later,
+
+70
+00:02:16,360 --> 00:02:17,760
+So, in just ten years,
+
+71
+00:02:17,760 --> 00:02:21,450
+Standard Oil controlled 90% of America's oil refining capacity.
+
+72
+00:02:21,450 --> 00:02:22,570
+So, what does that mean?
+
+73
+00:02:22,570 --> 00:02:23,550
+So, let's put that into today's context.
+
+74
+00:02:23,550 --> 00:02:24,450
+That's basically the equivalent of...
+
+75
+00:02:24,450 --> 00:02:26,820
+Google controlling 90% of the search market,
+
+76
+00:02:26,820 --> 00:02:29,860
+Plus Amazon controlling 90% of the e-commerce market,
+
+77
+00:02:29,860 --> 00:02:32,840
+and Microsoft controlling 90% of the operating systems.
+
+78
+00:02:32,840 --> 00:02:34,010
+Put those three together,
+
+79
+00:02:34,010 --> 00:02:35,870
+But this was all the same company.
+
+80
+00:02:35,870 --> 00:02:37,410
+All the lamp oil in America,
+
+81
+00:02:37,410 --> 00:02:39,920
+A single company deciding what to charge for it.
+
+82
+00:02:39,920 --> 00:02:41,680
+Rockefeller also had another nickname back in those days.
+
+83
+00:02:41,680 --> 00:02:43,520
+He was called 'the most hated man in America.'
+
+84
+00:02:43,520 --> 00:02:45,170
+The media was constantly tearing him down.
+
+85
+00:02:45,170 --> 00:02:47,470
+In 1980, Congress passed a new law.
+
+86
+00:02:47,470 --> 00:02:49,870
+called the Sherman Antitrust Act.
+
+87
+00:02:49,870 --> 00:02:52,170
+It was the very first antitrust law in American history.
+
+88
+00:02:52,170 --> 00:02:55,310
+This law was basically written for one man: Rockefeller.
+
+89
+00:02:55,310 --> 00:02:56,250
+In a 1911 ruling, the U.S. Supreme Court decided...
+
+90
+00:02:56,250 --> 00:02:59,990
+that Standard Oil had violated the Sherman Antitrust Act.
+
+91
+00:02:59,990 --> 00:03:00,920
+and it had to be broken up.
+
+92
+00:03:00,920 --> 00:03:03,480
+It was broken up into 34 separate companies.
+
+93
+00:03:03,480 --> 00:03:06,920
+And among those 34 companies, was the one we know today as Exxon.
+
+94
+00:03:06,920 --> 00:03:08,780
+Mobil, and Chevron.
+
+95
+00:03:08,780 --> 00:03:13,670
+The top three oil companies in the United States today are the ones that were spun off from Standard Oil.
+
+96
+00:03:13,670 --> 00:03:14,550
+Ironically,
+
+97
+00:03:14,550 --> 00:03:15,450
+It was broken up into 34 separate companies.
+
+98
+00:03:15,450 --> 00:03:20,220
+And to this day, combined, they still form the world's largest collection of oil giants.
+
+99
+00:03:20,220 --> 00:03:21,880
+the industrial structure that Rockefeller built
+
+100
+00:03:21,880 --> 00:03:23,769
+and they're still running a century later.
+
+101
+00:03:23,769 --> 00:03:26,329
+Antitrust didn't actually kill Standard Oil.
+
+102
+00:03:26,329 --> 00:03:28,369
+It just sliced its corpse into several pieces.
+
+103
+00:03:28,369 --> 00:03:30,929
+And each of those pieces, in turn, went on to live happily on its own.
+
+104
+00:03:30,929 --> 00:03:32,760
+And that is the real history.
+
+105
+00:03:32,760 --> 00:03:34,640
+This was mentioned by David Sachs on the All-In Podcast.
+
+106
+00:03:34,640 --> 00:03:37,730
+This is a thought experiment that starts from this piece of history.
+
+107
+00:03:37,730 --> 00:03:38,650
+So, Sachs says,
+
+108
+00:03:38,650 --> 00:03:40,930
+Rockefeller's PR was just terrible.
+
+109
+00:03:40,930 --> 00:03:42,610
+And that was the PR problem.
+
+110
+00:03:42,610 --> 00:03:44,690
+The name Standard Oil itself was basically telling everyone,
+
+111
+00:03:44,690 --> 00:03:49,650
+I'm going to make sure there's only one standard. The name itself is basically begging for an antitrust lawsuit.
+
+112
+00:03:49,650 --> 00:03:51,430
+If Rockefeller had known anything about PR,
+
+113
+00:03:51,430 --> 00:03:53,130
+he wouldn't have named it that.
+
+114
+00:03:53,130 --> 00:03:53,930
+Sachs says,
+
+115
+00:03:53,930 --> 00:03:55,990
+Sachs says that if Rockefeller had known how to build a brand,
+
+116
+00:03:55,990 --> 00:03:58,190
+he would have named the company 'Safe Oil'.
+
+117
+00:03:58,190 --> 00:03:59,560
+As in, 'Safe Oil'.
+
+118
+00:03:59,560 --> 00:04:01,220
+Alright, let's pause for a moment and really think about these two names.
+
+119
+00:04:01,220 --> 00:04:04,180
+Standard Oil, on the other hand, gives off a sense of control, of dominance.
+
+120
+00:04:04,180 --> 00:04:06,600
+while 'Safe Oil' gives off a sense of care.
+
+121
+00:04:06,600 --> 00:04:08,020
+One makes you think of a monopoly.
+
+122
+00:04:08,020 --> 00:04:11,140
+The other one makes you think of a mother. It's the same company.
+
+123
+00:04:11,140 --> 00:04:12,140
+If you call it something else,
+
+124
+00:04:12,140 --> 00:04:14,130
+The impression is completely flipped.
+
+125
+00:04:14,130 --> 00:04:17,920
+David Sachs says that the brand name "Safe Oil" was actually justified for a reason.
+
+126
+00:04:17,920 --> 00:04:19,300
+So, were kerosene lamps dangerous?
+
+127
+00:04:19,300 --> 00:04:22,060
+A hundred years ago, kerosene was the most important energy source for every household.
+
+128
+00:04:22,060 --> 00:04:22,960
+Heating the home in winter,
+
+129
+00:04:22,960 --> 00:04:25,570
+Lighting lamps at night, cooking meals, and keeping the fire going—it all ran on kerosene.
+
+130
+00:04:25,570 --> 00:04:27,570
+But kerosene was also dangerous.
+
+131
+00:04:27,570 --> 00:04:28,810
+It could catch fire, or even explode.
+
+132
+00:04:28,810 --> 00:04:29,770
+If it's not handled properly,
+
+133
+00:04:29,770 --> 00:04:31,659
+and could burn the whole house down.
+
+134
+00:04:31,659 --> 00:04:33,799
+What if Rockefeller had called his company 'Safe Oil'?
+
+135
+00:04:33,799 --> 00:04:35,859
+He could start from this very real danger.
+
+136
+00:04:35,859 --> 00:04:37,470
+and spin a whole new narrative.
+
+137
+00:04:37,470 --> 00:04:38,910
+Kerosene is dangerous.
+
+138
+00:04:38,910 --> 00:04:40,390
+And so, we must protect consumerism.
+
+139
+00:04:40,390 --> 00:04:43,330
+We call on the government to legislate and regulate the safety of kerosene.
+
+140
+00:04:43,330 --> 00:04:44,150
+DEX said,
+
+141
+00:04:44,150 --> 00:04:45,910
+Rockefeller should take the initiative to strike.
+
+142
+00:04:45,910 --> 00:04:47,390
+and proactively wrote to the government,
+
+143
+00:04:47,390 --> 00:04:50,420
+to proactively call for the creation of a Kerosene Safety Supervisory Bureau.
+
+144
+00:04:50,420 --> 00:04:51,380
+Let me give you an example.
+
+145
+00:04:51,380 --> 00:04:53,100
+It's like you're selling a product,
+
+146
+00:04:53,100 --> 00:04:58,150
+product, and you're the one actively calling for the government to set up a regulatory body to oversee you. It sounds counter-intuitive, right?
+
+147
+00:04:58,150 --> 00:04:59,730
+But, there's a catch.
+
+148
+00:04:59,730 --> 00:05:02,410
+Sach says that once this regulatory body is established...
+
+149
+00:05:02,410 --> 00:05:04,710
+Everyone would get dragged into a long, drawn-out debate.
+
+150
+00:05:04,710 --> 00:05:07,920
+And the topic of this debate? What it means for kerosene to be 'safe'.
+
+151
+00:05:07,920 --> 00:05:10,900
+The media will debate what diameter of wick is considered safe.
+
+152
+00:05:10,900 --> 00:05:14,060
+Academics will debate what the standard for kerosene purity should be.
+
+153
+00:05:14,060 --> 00:05:17,200
+Congress would debate which independent refineries were not safe enough.
+
+154
+00:05:17,200 --> 00:05:20,120
+Congress would debate whether those small workshops...
+
+155
+00:05:20,120 --> 00:05:22,100
+In other words, Rockefeller's competitors.
+
+156
+00:05:22,100 --> 00:05:24,960
+and eliminate them on the grounds of being unsafe.
+
+157
+00:05:24,960 --> 00:05:26,380
+All the public's attention,
+
+158
+00:05:26,380 --> 00:05:29,320
+will be locked in a debate over these safety standards.
+
+159
+00:05:29,320 --> 00:05:33,919
+And Rockefeller himself would be seen as a good citizen, proactively calling for regulation.
+
+160
+00:05:33,919 --> 00:05:36,799
+The media would switch from attacking him to praising him.
+
+161
+00:05:36,799 --> 00:05:38,699
+Because he's so concerned about the consumers,
+
+162
+00:05:38,699 --> 00:05:40,240
+So willing to cooperate with regulations.
+
+163
+00:05:40,240 --> 00:05:42,500
+He wasn't like those dangerous little refineries.
+
+164
+00:05:42,500 --> 00:05:44,930
+It's a company with a great sense of responsibility.
+
+165
+00:05:44,930 --> 00:05:47,270
+Sach says that at this point, something incredible happened.
+
+166
+00:05:47,270 --> 00:05:49,570
+Rockefeller didn't give up any of his control.
+
+167
+00:05:49,570 --> 00:05:51,000
+He was still acquiring his rivals.
+
+168
+00:05:51,000 --> 00:05:52,600
+He was still building his industrial chain.
+
+169
+00:05:52,600 --> 00:05:55,140
+He was still doing the same things he always had.
+
+170
+00:05:55,140 --> 00:05:58,840
+The only thing that changed was that the public's attention shifted from him to the thickness of a wick.
+
+171
+00:05:58,840 --> 00:06:00,540
+Congress's attention, away from him,
+
+172
+00:06:00,540 --> 00:06:02,530
+and onto the safety hazards of those smaller refineries.
+
+173
+00:06:02,530 --> 00:06:05,990
+And those small refineries? They were the very competitors he wanted to eliminate all along.
+
+174
+00:06:05,990 --> 00:06:09,220
+Regulation, in the name of safety, cleared the playing field for him.
+
+175
+00:06:09,220 --> 00:06:10,660
+By the time everyone realized what was happening,
+
+176
+00:06:10,660 --> 00:06:12,820
+Standard Oil, or as Sach would call it, 'Safety Oil'.
+
+177
+00:06:12,820 --> 00:06:15,480
+has become the only compliant player in the game.
+
+178
+00:06:15,480 --> 00:06:16,800
+Because only they were big enough.
+
+179
+00:06:16,800 --> 00:06:19,470
+Only its resources were vast enough to build a complete compliance system.
+
+180
+00:06:19,470 --> 00:06:22,030
+Smaller competitors can't handle such intricate security tests.
+
+181
+00:06:22,030 --> 00:06:23,690
+They can't afford such expensive licenses.
+
+182
+00:06:23,690 --> 00:06:25,610
+
+
+183
+00:06:25,610 --> 00:06:29,800
+So, they get eliminated. The difference is that they should have been eliminated by Rockefeller.
+
+184
+00:06:29,800 --> 00:06:31,800
+Instead, they were eliminated by regulation.
+
+185
+00:06:31,800 --> 00:06:35,370
+But the thing is, Rockefeller himself was the one who called for that regulation.
+
+186
+00:06:35,370 --> 00:06:37,050
+After Sachs finished this thought experiment,
+
+187
+00:06:37,050 --> 00:06:37,810
+And then he added one last thing.
+
+188
+00:06:37,810 --> 00:06:39,530
+And that was the line that stuck with me the most in those four minutes.
+
+189
+00:06:39,530 --> 00:06:41,980
+He said, if Rockefeller had actually done that,
+
+190
+00:06:41,980 --> 00:06:45,540
+People today might call him an effective altruist.
+
+191
+00:06:45,540 --> 00:06:48,950
+This line is the most biting one from an episode of the All-In Podcast.
+
+192
+00:06:48,950 --> 00:06:50,510
+Effective altruism.
+
+193
+00:06:50,510 --> 00:06:52,530
+In English, it's called 'effective altruism'.
+
+194
+00:06:52,530 --> 00:06:54,970
+It's been the hottest buzzword in Silicon Valley for the past five years.
+
+195
+00:06:54,970 --> 00:06:58,550
+It means using a rational approach to do the most effective good.
+
+196
+00:06:58,550 --> 00:07:00,870
+Sachs is hinting that a true monopolist,
+
+197
+00:07:00,870 --> 00:07:05,250
+If you know how to package it, you can be mistaken by the era for an altruist.
+
+198
+00:07:05,250 --> 00:07:06,730
+Now, in this four-minute video,
+
+199
+00:07:06,730 --> 00:07:10,510
+And not once did Sachs mention the name of that AI company, Anthropic.
+
+200
+00:07:10,510 --> 00:07:13,590
+But when everyone heard this, they were all thinking the same thing.
+
+201
+00:07:13,590 --> 00:07:15,250
+Who is he talking about?
+
+202
+00:07:15,250 --> 00:07:17,270
+So, if you've made it this far and found the content interesting,
+
+203
+00:07:17,270 --> 00:07:18,410
+Remember to like and save this video.
+
+204
+00:07:18,410 --> 00:07:20,590
+This episode is a bit more information-dense than usual.
+
+205
+00:07:20,590 --> 00:07:21,630
+If you find this valuable,
+
+206
+00:07:21,630 --> 00:07:22,450
+and maybe give me a like.
+
+207
+00:07:22,450 --> 00:07:25,450
+and help the algorithm recommend this video to more people who are looking for in-depth industry analysis.
+
+208
+00:07:25,450 --> 00:07:28,530
+Alright, for this next part, I'm going to break down the specific things Anthropic has done over the past three years.
+
+209
+00:07:28,530 --> 00:07:29,760
+and lay them out for you, one by one.
+
+210
+00:07:29,760 --> 00:07:32,500
+Let's draw a comparison and see just how similar this is to history.
+
+211
+00:07:32,500 --> 00:07:36,000
+And in the end, you can be the judge. Sachs's four-minute segment didn't name any names.
+
+212
+00:07:36,000 --> 00:07:39,020
+But the other two hosts on All-in, Brad and Chamath,
+
+213
+00:07:39,020 --> 00:07:39,960
+They all got the message.
+
+214
+00:07:39,960 --> 00:07:41,140
+So, what was Sachs implying?
+
+215
+00:07:41,140 --> 00:07:42,020
+So, what was their counter-argument?
+
+216
+00:07:42,020 --> 00:07:42,780
+We'll get back to that later.
+
+217
+00:07:42,780 --> 00:07:44,080
+All in all, there are seven things to cover.
+
+218
+00:07:44,080 --> 00:07:45,240
+So, safety regulations, and shutting down the smaller players. Let's break these down one by one.
+
+219
+00:07:47,000 --> 00:07:49,250
+The first one is Constitutional AI, which happened back in December 2022.
+
+220
+00:07:49,250 --> 00:07:51,090
+Anthropic published a paper,
+
+221
+00:07:51,090 --> 00:07:53,390
+The title of the paper was "Constitutional AI."
+
+222
+00:07:55,280 --> 00:07:56,040
+Simply put,
+
+223
+00:07:56,040 --> 00:07:58,120
+Anthropic uses a set of principles written out like a constitution
+
+224
+00:07:58,120 --> 00:08:00,040
+to train Claude to behave safely.
+
+225
+00:08:02,820 --> 00:08:04,560
+deciding for itself what it can say,
+
+226
+00:08:04,560 --> 00:08:07,330
+and what it can't say. It's the first company in the industry to do this.
+
+227
+00:08:07,330 --> 00:08:08,210
+OpenAI didn't do it.
+
+228
+00:08:08,210 --> 00:08:09,840
+Google didn't do it, and neither did Meta.
+
+229
+00:08:09,840 --> 00:08:11,160
+From a technical standpoint, it's real.
+
+230
+00:08:11,160 --> 00:08:12,640
+As for the paper, we've also given it a read.
+
+231
+00:08:12,640 --> 00:08:15,740
+It's a paper that's certainly worthy of discussion in the research community.
+
+232
+00:08:17,300 --> 00:08:20,320
+The term 'Constitutional AI' itself has a very strong brand identity.
+
+233
+00:08:25,840 --> 00:08:28,600
+It inherently implies a special, high-level Sachs.
+
+234
+00:08:28,600 --> 00:08:31,760
+From this perspective, this is the first step in building the 'Safe Oil' brand.
+
+235
+00:08:31,760 --> 00:08:35,859
+They're using a word with moral weight to seize the narrative of 'responsible AI'.
+
+236
+00:08:35,859 --> 00:08:36,938
+So, what about the opposing view?
+
+237
+00:08:36,938 --> 00:08:38,099
+This is a genuine technological breakthrough.
+
+238
+00:08:38,099 --> 00:08:38,899
+A name is just a name.
+
+239
+00:08:38,899 --> 00:08:39,839
+Let's not overinterpret this.
+
+240
+00:08:39,839 --> 00:08:40,979
+But let's not jump to conclusions just yet.
+
+241
+00:08:40,979 --> 00:08:41,950
+Let's keep going.
+
+242
+00:08:41,950 --> 00:08:45,160
+The second thing is their Responsible Scaling Policy.
+
+243
+00:08:45,160 --> 00:08:46,980
+This happened back in September of 2023.
+
+244
+00:08:46,980 --> 00:08:48,460
+Anthropic put something out there.
+
+245
+00:08:48,460 --> 00:08:50,960
+In English, it's called the Responsible Scaling Policy.
+
+246
+00:08:50,960 --> 00:08:53,530
+In Chinese, it's called the Responsible Scaling Policy.
+
+247
+00:08:53,530 --> 00:08:55,070
+Anthropic has made a public commitment,
+
+248
+00:08:55,070 --> 00:08:57,190
+When an AI model's capabilities reach a certain threshold,
+
+249
+00:08:57,190 --> 00:08:59,350
+it will automatically halt its expansion.
+
+250
+00:08:59,350 --> 00:09:01,720
+until it can be proven that this capability is safe.
+
+251
+00:09:01,720 --> 00:09:04,040
+In plain English, Anthropic has made a public promise.
+
+252
+00:09:04,040 --> 00:09:05,100
+We've made it too powerful.
+
+253
+00:09:05,100 --> 00:09:06,860
+But, we'll hit the brakes ourselves.
+
+254
+00:09:06,860 --> 00:09:08,840
+And once again, they're the first in the industry to do so.
+
+255
+00:09:08,840 --> 00:09:09,760
+Here's what they said, word for word:
+
+256
+00:09:09,760 --> 00:09:11,900
+We want this policy to become the industry standard.
+
+257
+00:09:11,900 --> 00:09:15,220
+All AI companies should publicly make this same commitment.
+
+258
+00:09:15,220 --> 00:09:17,300
+Now, pay attention to that phrase: 'become the industry standard'.
+
+259
+00:09:17,300 --> 00:09:18,320
+And that's the key.
+
+260
+00:09:18,320 --> 00:09:19,660
+Now, let's get back to Sach's perspective.
+
+261
+00:09:19,660 --> 00:09:22,319
+Anthropic is actually calling for industry regulation.
+
+262
+00:09:22,319 --> 00:09:24,399
+But it would only be binding on large models.
+
+263
+00:09:24,399 --> 00:09:25,439
+But it's lenient towards smaller companies.
+
+264
+00:09:25,439 --> 00:09:27,900
+Because smaller companies haven't reached that capability threshold yet.
+
+265
+00:09:27,900 --> 00:09:31,480
+In other words, the regulatory standards are drawn right at Anthropic's capability level.
+
+266
+00:09:31,480 --> 00:09:32,780
+So what about the competitors below that line?
+
+267
+00:09:32,780 --> 00:09:34,960
+are left unchecked.
+
+268
+00:09:34,960 --> 00:09:36,200
+And there's another piece to this puzzle.
+
+269
+00:09:36,200 --> 00:09:37,560
+That's February 2026.
+
+270
+00:09:37,560 --> 00:09:38,440
+Three months ago,
+
+271
+00:09:38,440 --> 00:09:40,580
+Anthropic updated its policy to version 3.0.
+
+272
+00:09:40,580 --> 00:09:43,180
+They publicly admitted that their original promise of an automatic pause...
+
+273
+00:09:43,180 --> 00:09:45,200
+ran into some problems in practice.
+
+274
+00:09:45,200 --> 00:09:47,460
+The reason they gave was the collective action problem.
+
+275
+00:09:47,460 --> 00:09:49,540
+In plain English, it means if we're the only ones who pause,
+
+276
+00:09:49,540 --> 00:09:50,340
+and our rivals don't pause,
+
+277
+00:09:50,340 --> 00:09:51,490
+and we'd be at a disadvantage.
+
+278
+00:09:51,490 --> 00:09:54,250
+So, the promise to pause was, well, paused.
+
+279
+00:09:54,250 --> 00:09:58,300
+Three years later, we were also eager to hit the brakes.
+
+280
+00:09:58,300 --> 00:10:01,590
+But if others aren't hitting the brakes, then we're not going to either.
+
+281
+00:10:01,590 --> 00:10:03,050
+The promise was flexible.
+
+282
+00:10:03,050 --> 00:10:05,290
+This is what Sachs sees as the most compelling piece of evidence.
+
+283
+00:10:05,290 --> 00:10:08,980
+The third point is that the CEO has testified before Congress multiple times.
+
+284
+00:10:08,980 --> 00:10:10,880
+The CEO of Anthropic is Dario.
+
+285
+00:10:10,880 --> 00:10:11,820
+His name is Dario.
+
+286
+00:10:11,820 --> 00:10:14,440
+Over the past two years, Dario has appeared at multiple Senate...
+
+287
+00:10:14,440 --> 00:10:15,630
+and House hearings.
+
+288
+00:10:15,630 --> 00:10:17,350
+And every time, he says the exact same thing.
+
+289
+00:10:17,350 --> 00:10:18,350
+AI needs to be regulated.
+
+290
+00:10:18,350 --> 00:10:18,950
+We need legislation.
+
+291
+00:10:18,950 --> 00:10:20,260
+and that government intervention is needed.
+
+292
+00:10:20,260 --> 00:10:23,620
+And on top of that, among the CEOs of several AI companies, Dario has always been the one...
+
+293
+00:10:23,620 --> 00:10:25,870
+and was considered the most sincere of them all.
+
+294
+00:10:25,870 --> 00:10:29,310
+When testifying alongside Sam Altman, the boss of OpenAI,
+
+295
+00:10:29,310 --> 00:10:32,360
+Sam's posture, on the other hand, has been criticized by some media outlets as opportunistic.
+
+296
+00:10:32,360 --> 00:10:36,720
+Dario's approach, on the other hand, was widely seen as sincere and a genuine concern for safety.
+
+297
+00:10:36,720 --> 00:10:40,320
+This persona of sincerity is, in itself, an incredibly important political resource.
+
+298
+00:10:40,320 --> 00:10:43,660
+From Sacks' perspective, this is a classic 'Standard Oil' playbook.
+
+299
+00:10:43,660 --> 00:10:44,700
+and take the initiative.
+
+300
+00:10:44,700 --> 00:10:45,620
+Calling for regulation.
+
+301
+00:10:45,620 --> 00:10:47,829
+positioning itself as a cooperative, model citizen.
+
+302
+00:10:47,829 --> 00:10:48,869
+So, what about the other side of the argument?
+
+303
+00:10:48,869 --> 00:10:50,749
+He's genuinely just a gentle and introverted person.
+
+304
+00:10:50,749 --> 00:10:53,320
+a safety-conscious scientist, not a performance.
+
+305
+00:10:53,320 --> 00:10:55,040
+So, which side are they really on?
+
+306
+00:10:55,040 --> 00:10:56,680
+I think we all know what's really going on here.
+
+307
+00:10:56,680 --> 00:11:00,040
+And the fourth thing is their public support for California's AI bill.
+
+308
+00:11:00,040 --> 00:11:01,910
+This was back in August of 2024.
+
+309
+00:11:01,910 --> 00:11:03,070
+In August 2024,
+
+310
+00:11:03,070 --> 00:11:05,730
+California State Senator Scott Wiener proposed a safety bill.
+
+311
+00:11:05,730 --> 00:11:07,829
+Its bill number is SB 1047.
+
+312
+00:11:07,829 --> 00:11:09,069
+The core requirement of the bill is that
+
+313
+00:11:09,069 --> 00:11:12,449
+Large AI model companies must conduct comprehensive safety tests.
+
+314
+00:11:12,449 --> 00:11:13,989
+They must report any risks.
+
+315
+00:11:13,989 --> 00:11:16,200
+and if any problems do arise, they must be held accountable.
+
+316
+00:11:16,200 --> 00:11:20,220
+At the time, pretty much every AI company was against this bill—OpenAI, Google...
+
+317
+00:11:20,220 --> 00:11:23,179
+Google, Meta, and Y Combinator were all against it.
+
+318
+00:11:23,179 --> 00:11:24,379
+A16z was against it too.
+
+319
+00:11:24,379 --> 00:11:26,480
+But Anthropic was the only one to voice its support.
+
+320
+00:11:26,480 --> 00:11:27,620
+It's not full support, mind you. This affects 99% of small and medium-sized AI companies.
+
+321
+00:11:27,620 --> 00:11:30,000
+This is from a letter that Dalio wrote to California Governor Newsom.
+
+322
+00:11:30,000 --> 00:11:31,080
+Conditional support.
+
+323
+00:11:31,080 --> 00:11:33,200
+We believe that the revised SB 1047
+
+324
+00:11:33,200 --> 00:11:35,020
+The benefits would most likely outweigh the costs.
+
+325
+00:11:35,020 --> 00:11:37,430
+But there are some aspects that are very concerning for 99% of small and medium-sized AI companies.
+
+326
+00:11:37,430 --> 00:11:41,030
+But this kind of conditional support, given the industry's atmosphere at the time,
+
+327
+00:11:41,030 --> 00:11:42,980
+This was already a massive political signal.
+
+328
+00:11:42,980 --> 00:11:44,780
+An AI company publicly supporting...
+
+329
+00:11:44,780 --> 00:11:47,960
+a regulatory bill that all its peers were against.
+
+330
+00:11:47,960 --> 00:11:49,520
+So, let's get back to David Sachs's perspective.
+
+331
+00:11:49,520 --> 00:11:52,560
+He said this is the cleanest execution of the 'safety oil' playbook yet.
+
+332
+00:11:52,560 --> 00:11:54,840
+With 99% of its costs—say, a hundred million dollars—tied up in training, Anthropic knows its greatest strength is its compliance.
+
+333
+00:11:54,840 --> 00:11:56,460
+And that's why they support regulation.
+
+334
+00:11:56,460 --> 00:11:58,700
+Regulation will weed out competitors with weaker compliance.
+
+335
+00:11:58,700 --> 00:12:00,240
+and ensure its own survival.
+
+336
+00:12:00,240 --> 00:12:01,880
+There's one piece of data we can all take a look at.
+
+337
+00:12:01,880 --> 00:12:04,540
+So, this bill primarily affects the large model companies.
+
+338
+00:12:04,540 --> 00:12:08,210
+To be specific, it's defined as models with training costs exceeding 100 million US dollars.
+
+339
+00:12:08,210 --> 00:12:10,210
+For small and medium-sized AI companies, this line puts Anthropic,
+
+340
+00:12:10,210 --> 00:12:11,290
+Both OpenAI and Google are included.
+
+341
+00:12:11,290 --> 00:12:14,230
+while leaving 99% of small and medium-sized AI companies on the outside.
+
+342
+00:12:14,230 --> 00:12:18,490
+In other words, this bill is meant to be a constraint on the largest AI companies.
+
+343
+00:12:18,490 --> 00:12:20,240
+while small and medium-sized companies are immune.
+
+344
+00:12:20,240 --> 00:12:21,840
+So, how do the big companies stack up against each other?
+
+345
+00:12:21,840 --> 00:12:24,720
+Anthropic has the most comprehensive compliance system, so if this bill becomes law...
+
+346
+00:12:24,720 --> 00:12:26,600
+Anthropic would be the least affected.
+
+347
+00:12:26,600 --> 00:12:29,590
+So, you can really get a sense of the competitive dynamics at play here.
+
+348
+00:12:29,590 --> 00:12:32,810
+Fifth, they use contract clauses to shut out their competitors.
+
+349
+00:12:32,810 --> 00:12:35,089
+This all kicks off in June 2025.
+
+350
+00:12:35,089 --> 00:12:36,509
+And this is where things start to get interesting.
+
+351
+00:12:36,509 --> 00:12:38,680
+So, it's shifting from narrative to action.
+
+352
+00:12:38,680 --> 00:12:40,280
+On June 17th, 2025,
+
+353
+00:12:40,280 --> 00:12:42,860
+Anthropic quietly updated its user service terms.
+
+354
+00:12:42,860 --> 00:12:44,080
+and added a new clause.
+
+355
+00:12:44,080 --> 00:12:47,260
+Customers are prohibited from using Claude to develop competing products.
+
+356
+00:12:47,260 --> 00:12:49,400
+nor can it be used to train competing models.
+
+357
+00:12:49,400 --> 00:12:51,670
+nor reverse-engineer the service.
+
+358
+00:12:51,670 --> 00:12:54,020
+On June 17th, this clause went into effect.
+
+359
+00:12:54,020 --> 00:12:56,360
+On August 1st, less than six weeks later,
+
+360
+00:12:56,360 --> 00:12:59,859
+Anthropic went ahead and revoked OpenAI's access to its code.
+
+361
+00:12:59,859 --> 00:13:02,139
+The reason? OpenAI had violated that very clause.
+
+362
+00:13:02,139 --> 00:13:05,150
+He used Claude to run a benchmark test against GPT-5.
+
+363
+00:13:05,150 --> 00:13:08,210
+But the key to this whole thing isn't the ban itself, it's the fact that they wrote the clause back in June.
+
+364
+00:13:08,210 --> 00:13:09,920
+And by August, they were already using it.
+
+365
+00:13:09,920 --> 00:13:11,700
+A clause that didn't even exist a month ago.
+
+366
+00:13:11,700 --> 00:13:14,000
+And just a month later, it became the very proof used to justify the ban.
+
+367
+00:13:14,000 --> 00:13:15,980
+This is a classic example of someone who makes the rules.
+
+368
+00:13:15,980 --> 00:13:18,220
+And proof that they're also the ones who enforce them.
+
+369
+00:13:18,220 --> 00:13:19,940
+Violation of the new terms! On August 1st, Sach posted a direct statement on his blog.
+
+370
+00:13:19,940 --> 00:13:21,320
+This is anti-competitive behavior.
+
+371
+00:13:21,320 --> 00:13:25,130
+Can you imagine why Anthropic would ban OpenAI from using its models?
+
+372
+00:13:25,130 --> 00:13:27,230
+And this isn't even the first time they've done something like this.
+
+373
+00:13:27,230 --> 00:13:30,750
+In June 2025, an AI coding tool company called Winsurf...
+
+374
+00:13:30,750 --> 00:13:32,839
+rumors were swirling that OpenAI was going to acquire it.
+
+375
+00:13:32,839 --> 00:13:35,850
+And that very same day, Anthropic revoked its access to Claude.
+
+376
+00:13:35,850 --> 00:13:37,770
+So, the CEO of Winsurf went to confront them.
+
+377
+00:13:37,770 --> 00:13:39,930
+Anthropic's Chief Scientist then said on the spot,
+
+378
+00:13:39,930 --> 00:13:41,610
+We're selling Claude to OpenAI.
+
+379
+00:13:41,610 --> 00:13:43,290
+That sounds pretty weird.
+
+380
+00:13:43,290 --> 00:13:44,570
+April 2026.
+
+381
+00:13:44,570 --> 00:13:46,330
+an open-source tool called OpenClaw.
+
+382
+00:13:46,330 --> 00:13:47,370
+We've covered all of this before.
+
+383
+00:13:47,370 --> 00:13:50,640
+Anthropic also revoked its subscription access to Claude.
+
+384
+00:13:50,640 --> 00:13:51,960
+In early May 2026,
+
+385
+00:13:51,960 --> 00:13:54,540
+Then there's Adobe, which did it again through a programming tool called Cursor.
+
+386
+00:13:54,540 --> 00:13:57,010
+and cut off XAI's access to Claude.
+
+387
+00:13:57,010 --> 00:13:58,730
+Four bans in 11 months.
+
+388
+00:13:58,730 --> 00:14:00,470
+And every single time, it's Anthropic that gets to call the shots.
+
+389
+00:14:00,470 --> 00:14:02,370
+And the reason is always a violation of their service terms.
+
+390
+00:14:02,370 --> 00:14:04,640
+And those terms of service? Well, they wrote them themselves.
+
+391
+00:14:04,640 --> 00:14:07,640
+So, if all five of these moves are about shutting competitors out,
+
+392
+00:14:07,640 --> 00:14:10,600
+And the sixth thing is to shut everyone else out.
+
+393
+00:14:10,600 --> 00:14:11,800
+On the evening of May 11th,
+
+394
+00:14:11,800 --> 00:14:13,260
+Anthropic announced on its official website that...
+
+395
+00:14:13,260 --> 00:14:15,920
+any equity interests that have not been approved by the board of directors,
+
+396
+00:14:15,920 --> 00:14:18,550
+stock sales and transfers, are void and of no effect.
+
+397
+00:14:18,550 --> 00:14:20,950
+and will not be recorded in our books.
+
+398
+00:14:20,950 --> 00:14:22,430
+The word is 'void'.
+
+399
+00:14:22,430 --> 00:14:23,430
+In English, it's 'void'.
+
+400
+00:14:23,430 --> 00:14:24,670
+Not voidable.
+
+401
+00:14:24,670 --> 00:14:26,550
+Void means it's inherently invalid from the very beginning.
+
+402
+00:14:26,550 --> 00:14:28,790
+Voidable means it can be revoked.
+
+403
+00:14:28,790 --> 00:14:31,930
+And there's a huge legal difference between the two terms.
+
+404
+00:14:31,930 --> 00:14:33,410
+The term 'void' under Delaware's corporate law in the United States...
+
+405
+00:14:33,410 --> 00:14:36,010
+The meaning in Delaware's corporate law is very strict.
+
+406
+00:14:36,010 --> 00:14:39,089
+It means the transaction was void from the very beginning.
+
+407
+00:14:39,089 --> 00:14:41,549
+The buyers have no legal protection whatsoever.
+
+408
+00:14:41,549 --> 00:14:43,120
+They have absolutely no recourse.
+
+409
+00:14:43,120 --> 00:14:44,920
+So, Anthropic has named eight platforms.
+
+410
+00:14:44,920 --> 00:14:47,000
+Go ahead and see if your own VC is on that list.
+
+411
+00:14:47,000 --> 00:14:48,120
+Open Doors Partner, the largest and most compliant platform in the US, Open_Doors_Partner.
+
+412
+00:14:48,120 --> 00:14:49,290
+UNICORNexchange
+
+413
+00:14:49,290 --> 00:14:50,250
+Pachama Capital.
+
+414
+00:14:50,250 --> 00:14:51,790
+Lionheart Venture
+
+415
+00:14:51,790 --> 00:14:52,610
+Sydecar Upmarket.
+
+416
+00:14:52,610 --> 00:14:53,350
+Art Market,
+
+417
+00:14:53,350 --> 00:14:54,150
+And then there are two more.
+
+418
+00:14:54,150 --> 00:14:55,790
+Forge Global and Hiive.
+
+419
+00:14:55,790 --> 00:14:57,890
+And these two are the largest in the United States.
+
+420
+00:14:57,890 --> 00:15:00,540
+and the most compliant private equity secondary trading platforms.
+
+421
+00:15:00,540 --> 00:15:01,500
+On Forge Global,
+
+422
+00:15:01,500 --> 00:15:02,780
+Anthropic's implied valuation,
+
+423
+00:15:02,780 --> 00:15:04,560
+had already hit one trillion US dollars by early May.
+
+424
+00:15:04,560 --> 00:15:06,900
+surpassing OpenAI's 880 billion.
+
+425
+00:15:06,900 --> 00:15:09,500
+Forge Global and Hiive are not in some gray area.
+
+426
+00:15:09,500 --> 00:15:11,540
+They are compliant, supervised platforms.
+
+427
+00:15:11,540 --> 00:15:16,110
+With a single statement, Anthropic also declared these two legitimate players as unauthorized.
+
+428
+00:15:16,110 --> 00:15:17,720
+And what followed were the aftershocks.
+
+429
+00:15:17,720 --> 00:15:20,060
+On a tokenization platform called PreStocks, which is tied to Anthropic...
+
+430
+00:15:20,060 --> 00:15:20,960
+the ANTHROPIC token
+
+431
+00:15:20,960 --> 00:15:23,920
+It plummeted from 1,400 to 900 US dollars within just 24 hours.
+
+432
+00:15:23,920 --> 00:15:25,560
+So, about that 36% crash...
+
+433
+00:15:25,560 --> 00:15:28,440
+And online, it's also sparked a massive debate.
+
+434
+00:15:28,440 --> 00:15:29,900
+Even ordinary investors have come to realize...
+
+435
+00:15:29,900 --> 00:15:33,040
+For people like us, we can only buy in indirectly through the secondary market anyway.
+
+436
+00:15:33,040 --> 00:15:33,990
+These AI companies...
+
+437
+00:15:33,990 --> 00:15:36,570
+And now, it looks like even that secondary market is being taken away from us.
+
+438
+00:15:36,570 --> 00:15:38,110
+So, about that X-Tianwen we mentioned at the beginning?
+
+439
+00:15:38,110 --> 00:15:39,430
+He said Anthropic is really playing dirty.
+
+440
+00:15:39,430 --> 00:15:43,350
+AI is creating one of the biggest wealth waves in history.
+
+441
+00:15:43,350 --> 00:15:47,010
+But for regular folks like you and me? We're not even allowed to play.
+
+442
+00:15:47,010 --> 00:15:48,610
+And there's an even harsher reply down below.
+
+443
+00:15:48,610 --> 00:15:50,550
+The primary market has already eaten all the meat.
+
+444
+00:15:50,550 --> 00:15:52,950
+And the secondary market won't even leave us the scraps.
+
+445
+00:15:52,950 --> 00:15:55,380
+That's just the name of the game in the world of capital.
+
+446
+00:15:55,380 --> 00:15:58,140
+Gabriel, an attorney from Delaware, USA, directly issued a warning.
+
+447
+00:15:58,140 --> 00:16:00,780
+This move could potentially trigger a massive wave of class-action lawsuits.
+
+448
+00:16:00,780 --> 00:16:03,660
+A lot of investors who bought shares on Forge Global and Hive...
+
+449
+00:16:03,660 --> 00:16:05,960
+They thought they were the legitimate shareholders of Anthropic.
+
+450
+00:16:05,960 --> 00:16:07,300
+After May 11th,
+
+451
+00:16:07,300 --> 00:16:10,880
+Their shares were never even on Anthropic's books to begin with.
+
+452
+00:16:10,880 --> 00:16:12,740
+So, what was their official reason for this?
+
+453
+00:16:12,740 --> 00:16:15,390
+to prevent fraud and protect investors.
+
+454
+00:16:15,390 --> 00:16:17,390
+Doesn't that sound a little too familiar?
+
+455
+00:16:17,390 --> 00:16:20,090
+This is 'Safety Oil,' the modern translation of the same old playbook.
+
+456
+00:16:20,090 --> 00:16:21,010
+To protect you.
+
+457
+00:16:21,010 --> 00:16:22,750
+I'm voiding your deal.
+
+458
+00:16:22,750 --> 00:16:23,830
+So, with that out of the way...
+
+459
+00:16:23,830 --> 00:16:25,110
+You can probably see the pattern by now.
+
+460
+00:16:25,110 --> 00:16:27,860
+The seventh point is their selective release of metrics.
+
+461
+00:16:27,860 --> 00:16:28,620
+It's so powerful that, three months ago,
+
+462
+00:16:28,620 --> 00:16:31,370
+Anthropic released a new model, called Mythos, which we've talked about before.
+
+463
+00:16:31,370 --> 00:16:32,490
+This model isn't publicly available.
+
+464
+00:16:32,490 --> 00:16:35,070
+It's only shown to select partners, and it's incredibly powerful.
+
+465
+00:16:35,070 --> 00:16:36,470
+Especially when it comes to cybersecurity.
+
+466
+00:16:36,470 --> 00:16:39,300
+But what about Anthropic? It's not letting it onto the open market.
+
+467
+00:16:39,300 --> 00:16:41,300
+From Sach's perspective, this is selective disclosure.
+
+468
+00:16:41,300 --> 00:16:43,220
+Which is to say, they control the distribution of this capability.
+
+469
+00:16:43,220 --> 00:16:45,140
+This one is less controversial than the first six points.
+
+470
+00:16:45,140 --> 00:16:47,060
+But still, it's worth keeping in mind.
+
+471
+00:16:47,060 --> 00:16:49,600
+So, to sum up, the first four items are all about the narrative.
+
+472
+00:16:51,920 --> 00:16:52,720
+Constitutional AI's Responsible Scaling Policy testified before Congress.
+
+473
+00:16:52,720 --> 00:16:53,870
+supporting the California bill,
+
+474
+00:16:53,870 --> 00:16:57,450
+And the last three? They're all about actions: banning competitors, a series of invalid declarations, and so on.
+
+475
+00:16:57,450 --> 00:17:00,880
+And then there's Mythos, selective disclosure, and the narrative of controlling the rails—it's all subject to change.
+
+476
+00:17:00,880 --> 00:17:02,960
+Is this a brand strategy of 'Safe Oil'?
+
+477
+00:17:02,960 --> 00:17:04,680
+Ultimately, everyone has to make their own judgment.
+
+478
+00:17:04,680 --> 00:17:08,170
+But their actions, especially this whole cancellation of equity shares...
+
+479
+00:17:08,170 --> 00:17:11,089
+This is the most blatant modern-day version of the Standard Oil playbook.
+
+480
+00:17:11,089 --> 00:17:12,550
+Rockefeller controlled the railways.
+
+481
+00:17:12,550 --> 00:17:13,770
+and that decided who could transport the oil.
+
+482
+00:17:13,770 --> 00:17:17,250
+Anthropic controls the shares, and its transfer restrictions decide who can own them.
+
+483
+00:17:17,250 --> 00:17:18,890
+A century ago, logistics was the bottleneck.
+
+484
+00:17:18,890 --> 00:17:21,130
+Today, the law is the bottleneck.
+
+485
+00:17:21,130 --> 00:17:22,440
+The tools have changed, but the logic is the same.
+
+486
+00:17:22,440 --> 00:17:24,760
+Alright, let's talk about 'all in' and bring in our other two guests.
+
+487
+00:17:24,760 --> 00:17:25,859
+Brad and Chemas offer him completely different perspectives.
+
+488
+00:17:25,859 --> 00:17:28,800
+and a counter-argument.
+
+489
+00:17:28,800 --> 00:17:29,920
+So, let's start with Brad.
+
+490
+00:17:29,920 --> 00:17:31,580
+Because he's an investor in Anthropic.
+
+491
+00:17:31,580 --> 00:17:33,500
+So, his position is a very interesting one.
+
+492
+00:17:33,500 --> 00:17:35,500
+After all, he has to protect Anthropic's valuation.
+
+493
+00:17:35,500 --> 00:17:38,020
+But at the same time, he can't let Sach's monopoly accusation stick.
+
+494
+00:17:38,020 --> 00:17:41,409
+This position means his rebuttal has to be exceptionally clever.
+
+495
+00:17:41,409 --> 00:17:43,149
+His first line of rebuttal is quite simple.
+
+496
+00:17:43,149 --> 00:17:44,139
+and also incredibly ruthless.
+
+497
+00:17:44,139 --> 00:17:47,479
+He said that five months ago, everyone thought OpenAI had won.
+
+498
+00:17:47,479 --> 00:17:48,499
+By the end of 2025, everyone thought...
+
+499
+00:17:48,499 --> 00:17:51,139
+OpenAI had already won this race.
+
+500
+00:17:51,139 --> 00:17:52,399
+GPT-5 is on the horizon.
+
+501
+00:17:52,399 --> 00:17:53,879
+And Sam Altman had the widest network.
+
+502
+00:17:53,879 --> 00:17:55,539
+Microsoft has poured in over 100 billion.
+
+503
+00:17:55,539 --> 00:17:56,939
+So, what about early 2026?
+
+504
+00:17:56,939 --> 00:17:59,170
+The consensus completely flipped in just five months.
+
+505
+00:17:59,170 --> 00:18:02,930
+So, what Brad is really saying is, in just five months, the tables can turn from OpenAI winning to Anthropic winning.
+
+506
+00:18:02,930 --> 00:18:04,850
+So, the conclusion that Anthropic will always win...
+
+507
+00:18:04,850 --> 00:18:07,630
+So, is it possible for the tables to turn again in another 5 months?
+
+508
+00:18:07,630 --> 00:18:09,410
+His second point of rebuttal is the data.
+
+509
+00:18:09,410 --> 00:18:11,790
+He points out that the revenue figures for Anthropic that everyone's talking about...
+
+510
+00:18:11,790 --> 00:18:13,890
+For example, let's say it went from 10 billion to 30 billion in the first quarter.
+
+511
+00:18:13,890 --> 00:18:15,450
+This figure is an annualized revenue.
+
+512
+00:18:15,450 --> 00:18:19,010
+In other words, it's the expected number you get by multiplying the current month's figure by 12.
+
+513
+00:18:19,010 --> 00:18:20,010
+It's not the actual full-year revenue.
+
+514
+00:18:20,010 --> 00:18:21,570
+easy to scale up.
+
+515
+00:18:21,570 --> 00:18:23,570
+His exact words were, 'according to accounting standards...'
+
+516
+00:18:23,570 --> 00:18:24,530
+So, what about the actual monthly revenue?
+
+517
+00:18:24,530 --> 00:18:27,330
+Back in March, Anthropic and OpenAI were actually pretty much neck and neck.
+
+518
+00:18:27,330 --> 00:18:28,710
+Both are growing at a breakneck pace.
+
+519
+00:18:28,710 --> 00:18:30,350
+But this one is running at an annualized rate of 44 billion.
+
+520
+00:18:30,350 --> 00:18:31,780
+while the other one was at an annualized rate of 40 billion.
+
+521
+00:18:31,780 --> 00:18:34,820
+Now, a lot of this difference comes down to how they're accounting for things.
+
+522
+00:18:34,820 --> 00:18:37,670
+But Brad's most crucial rebuttal was hidden somewhere else.
+
+523
+00:18:37,670 --> 00:18:39,850
+He wasn't there to refute Anthropic's success,
+
+524
+00:18:39,850 --> 00:18:42,450
+He was actually refuting Sach's Standard Oil analogy itself.
+
+525
+00:18:42,450 --> 00:18:43,810
+He brought up a term in his blog post.
+
+526
+00:18:43,810 --> 00:18:45,130
+called Elon Web Servers.
+
+527
+00:18:45,130 --> 00:18:48,170
+Or EWS for short, which basically translates to the 'Musk Cloud'.
+
+528
+00:18:48,170 --> 00:18:49,490
+And what this term means is...
+
+529
+00:18:49,490 --> 00:18:50,770
+In May and June, SpaceX integrated its super data centers.
+
+530
+00:18:50,770 --> 00:18:53,730
+After leasing it to Anthropic,
+
+531
+00:18:53,730 --> 00:18:56,960
+Spacex has effectively become a new hyperscale cloud provider.
+
+532
+00:18:56,960 --> 00:19:00,020
+Sean from Sequoia Capital, on a show, talked about a five-layer cake.
+
+533
+00:19:00,020 --> 00:19:02,790
+So, what this means is that SpaceX has now stacked five layers of industry.
+
+534
+00:19:02,790 --> 00:19:04,030
+The first layer is rocket launches.
+
+535
+00:19:04,030 --> 00:19:05,390
+The second layer is Starlink communications.
+
+536
+00:19:05,390 --> 00:19:06,490
+The third layer is computing power.
+
+537
+00:19:06,490 --> 00:19:08,250
+In other words, bringing in EWS.
+
+538
+00:19:08,250 --> 00:19:09,790
+And the fourth layer? Orbital data centers.
+
+539
+00:19:09,790 --> 00:19:12,340
+The fifth layer is applications and models. Brad's estimate...
+
+540
+00:19:12,340 --> 00:19:13,780
+And that's just for Musk's cloud services layer.
+
+541
+00:19:13,780 --> 00:19:17,540
+is set to bring SpaceX an incremental revenue of 4 to 5 billion this year alone.
+
+542
+00:19:17,540 --> 00:19:20,840
+And the expected valuation for SpaceX's upcoming IPO? It's a staggering two trillion US dollars.
+
+543
+00:19:20,840 --> 00:19:22,620
+That's a price-to-sales ratio of 40 to 50 times, and on top of that...
+
+544
+00:19:22,620 --> 00:19:24,700
+Then there's Amazon's cloud service, AWS.
+
+545
+00:19:24,700 --> 00:19:27,100
+And its annual revenue for that year? Google Cloud, valued at a trillion dollars, brought in 150 billion.
+
+546
+00:19:27,100 --> 00:19:29,530
+is 108 billion. And Google? Google Cloud is valued at a trillion.
+
+547
+00:19:29,530 --> 00:19:30,950
+And Google's is 80 billion.
+
+548
+00:19:30,950 --> 00:19:32,930
+So, the combined revenue of these three is 340 billion. This is the trillion-dollar valuation for Musk's SpaceX and its cloud services.
+
+549
+00:19:32,930 --> 00:19:36,820
+And a precise market ceiling: Google Cloud, valued at a trillion dollars.
+
+550
+00:19:36,820 --> 00:19:38,880
+So, what's the core of his rebuttal?
+
+551
+00:19:38,880 --> 00:19:41,600
+The AI industry's landscape isn't like Standard Oil's.
+
+552
+00:19:41,600 --> 00:19:43,620
+a landscape where one company monopolizes the entire industry chain.
+
+553
+00:19:43,620 --> 00:19:45,260
+The AI industry is stratified.
+
+554
+00:19:45,260 --> 00:19:46,500
+The model layer is led by Anthropic,
+
+555
+00:19:46,500 --> 00:19:47,720
+OpenAI, Google, Meta.
+
+556
+00:19:47,720 --> 00:19:50,000
+And on the infrastructure layer, SpaceX is on the rise.
+
+557
+00:19:50,000 --> 00:19:52,610
+AWS is still dominating. And on the chip layer...
+
+558
+00:19:52,610 --> 00:19:55,830
+NVIDIA has a temporary monopoly, and then there's TSMC, which is also an indispensable part of the chain.
+
+559
+00:19:55,830 --> 00:19:58,320
+As for the space computing layer, SpaceX is the one and only dominant player.
+
+560
+00:19:58,320 --> 00:20:00,140
+And each layer has its own different players.
+
+561
+00:20:00,140 --> 00:20:02,720
+And these players are all clients of one another.
+
+562
+00:20:02,720 --> 00:20:04,540
+And each other's suppliers.
+
+563
+00:20:04,540 --> 00:20:05,940
+Anthropic wants to monopolize the market.
+
+564
+00:20:05,940 --> 00:20:07,600
+They have to beg SpaceX for power.
+
+565
+00:20:07,600 --> 00:20:08,860
+and beg Nvidia for its chips.
+
+566
+00:20:08,860 --> 00:20:10,389
+beg AWS for its cloud services,
+
+567
+00:20:10,389 --> 00:20:11,869
+And SpaceX, well, it wants a monopoly too.
+
+568
+00:20:11,869 --> 00:20:13,609
+They have to beg TSMC for their chips.
+
+569
+00:20:13,609 --> 00:20:15,089
+and beg the government for launch permits.
+
+570
+00:20:15,089 --> 00:20:16,940
+and beg Anthropic for its model business.
+
+571
+00:20:16,940 --> 00:20:19,720
+Is Brad's subtext that there's just one Rockefeller?
+
+572
+00:20:19,720 --> 00:20:22,500
+It's five Rockefellers keeping each other in check.
+
+573
+00:20:22,500 --> 00:20:24,040
+But I have to add one more thing here.
+
+574
+00:20:24,040 --> 00:20:26,000
+But there's a weakness in Brad's rebuttal.
+
+575
+00:20:26,000 --> 00:20:27,820
+And that's the invalidation notice from May 11th.
+
+576
+00:20:27,820 --> 00:20:29,630
+And that hits this counter-argument right where it hurts.
+
+577
+00:20:29,630 --> 00:20:31,610
+Because the five Rockefellers keep each other in check.
+
+578
+00:20:31,610 --> 00:20:34,370
+The premise is that there's a market for freely trading their equity among them.
+
+579
+00:20:34,370 --> 00:20:37,440
+There has to be free trading between investors and the exit market.
+
+580
+00:20:37,440 --> 00:20:39,000
+So, what happens after May 11th?
+
+581
+00:20:39,000 --> 00:20:41,330
+But Anthropic just shut down that circulation entirely.
+
+582
+00:20:41,330 --> 00:20:43,410
+This is no longer a monopoly at the model layer.
+
+583
+00:20:43,410 --> 00:20:44,930
+It's a monopoly on a much deeper level.
+
+584
+00:20:44,930 --> 00:20:46,730
+A monopoly at the level of capital flow.
+
+585
+00:20:46,730 --> 00:20:48,270
+Alright, next, let's talk about Chamath.
+
+586
+00:20:48,270 --> 00:20:51,170
+Chamath has no direct stake in Anthropic.
+
+587
+00:20:51,170 --> 00:20:53,440
+Its position, then, is more neutral than Brad's.
+
+588
+00:20:53,440 --> 00:20:55,580
+He didn't fully agree with Sach's point of view.
+
+589
+00:20:55,580 --> 00:20:57,440
+nor did he fully agree with Brad.
+
+590
+00:20:57,440 --> 00:20:59,270
+It made two separate points.
+
+591
+00:20:59,270 --> 00:21:00,110
+The first judgment.
+
+592
+00:21:00,110 --> 00:21:02,810
+I think this is the most profound sentence in the entire episode.
+
+593
+00:21:02,810 --> 00:21:04,150
+He said that the revenue performance of Anthropic and OpenAI...
+
+594
+00:21:04,150 --> 00:21:06,710
+The revenue performance of AI has nothing to do with demand.
+
+595
+00:21:06,710 --> 00:21:09,150
+It's completely, one hundred percent, a matter of supply constraints.
+
+596
+00:21:09,150 --> 00:21:10,550
+If they had infinite electricity,
+
+597
+00:21:10,550 --> 00:21:12,450
+the revenue curve would be even steeper.
+
+598
+00:21:12,450 --> 00:21:13,570
+Their revenue performance has nothing to do with demand. It's purely a supply-side constraint. I've listened to that three times now.
+
+599
+00:21:13,570 --> 00:21:15,540
+Honestly, it just makes me feel a bit uneasy all over.
+
+600
+00:21:15,540 --> 00:21:16,840
+This can be interpreted on three levels.
+
+601
+00:21:16,840 --> 00:21:19,530
+The first layer is that Anthropic appears to be growing exponentially.
+
+602
+00:21:19,530 --> 00:21:20,970
+In the first quarter, it was running at an annualized rate of 30 billion.
+
+603
+00:21:20,970 --> 00:21:22,530
+and in April, it was an annualized 44 billion.
+
+604
+00:21:22,530 --> 00:21:25,590
+This kind of growth curve led everyone to believe there was an explosion in AI demand.
+
+605
+00:21:25,590 --> 00:21:26,430
+So, what about the second layer?
+
+606
+00:21:26,430 --> 00:21:27,470
+But Chen Basi got it wrong.
+
+607
+00:21:27,470 --> 00:21:28,730
+It's not that Anthropic is selling so well.
+
+608
+00:21:28,730 --> 00:21:30,000
+The question is how much they can actually deliver.
+
+609
+00:21:30,000 --> 00:21:31,860
+How many GPUs can its servers actually run?
+
+610
+00:21:31,860 --> 00:21:33,000
+And do they have enough electricity to power it all?
+
+611
+00:21:33,000 --> 00:21:34,840
+that's how many customers they can serve.
+
+612
+00:21:34,840 --> 00:21:36,820
+Claude's computing power is insufficient. Then, the third tier consists of Adobe's customers.
+
+613
+00:21:36,820 --> 00:21:39,370
+The current waitlist is way longer than their delivery capacity.
+
+614
+00:21:39,370 --> 00:21:41,670
+So all those complaints about hitting Claude's usage limits,
+
+615
+00:21:41,670 --> 00:21:43,150
+It's not that the product itself is bad.
+
+616
+00:21:43,150 --> 00:21:44,810
+It's that there's not enough computing power.
+
+617
+00:21:44,810 --> 00:21:51,040
+In our last video, we talked about a framework of three key elements: electricity, land, and orbit. These are the three truly scarce resources in the AI industry.
+
+618
+00:21:51,040 --> 00:21:53,240
+Chamath's statement gives us a deeper perspective on this.
+
+619
+00:21:53,240 --> 00:21:56,080
+In other words, the revenue of AI companies is, in essence, not determined by the market.
+
+620
+00:21:56,080 --> 00:21:57,520
+It's determined by the power plants.
+
+621
+00:21:57,520 --> 00:21:59,080
+And here, he's just adding fuel to the fire.
+
+622
+00:21:59,080 --> 00:22:03,180
+This is the supply growth curve for computing power, showing the 9 gigawatts expected to come online in the U.S. this year.
+
+623
+00:22:03,180 --> 00:22:06,380
+And about half of those have already been met with protests from local environmental groups.
+
+624
+00:22:06,380 --> 00:22:07,580
+And history tells us...
+
+625
+00:22:10,360 --> 00:22:12,929
+As for the supply of computing power, it's going to be much tighter than expected.
+
+626
+00:22:12,929 --> 00:22:14,849
+The growth curve, for the next 12 to 24 months.
+
+627
+00:22:14,849 --> 00:22:15,869
+and whether we have enough electricity to power it all.
+
+628
+00:22:15,869 --> 00:22:19,650
+will determine whether Anthropic can continue on that curve Sach mentioned.
+
+629
+00:22:19,650 --> 00:22:22,690
+The second point is what he called the 500-day countdown.
+
+630
+00:22:22,690 --> 00:22:24,410
+He said that from now until 500 days from now,
+
+631
+00:22:24,410 --> 00:22:26,110
+There has to be a moment of reckoning.
+
+632
+00:22:26,110 --> 00:22:27,679
+So, that's about a year and a half.
+
+633
+00:22:27,679 --> 00:22:28,439
+According to Chen Man,
+
+634
+00:22:28,439 --> 00:22:31,579
+The AI industry has now fully completed the first two steps.
+
+635
+00:22:31,579 --> 00:22:35,139
+The first step is investment in infrastructure, and hundreds of billions have already been poured into it.
+
+636
+00:22:35,139 --> 00:22:39,460
+This means the model companies' revenue has materialized, which completes the third step.
+
+637
+00:22:39,460 --> 00:22:41,080
+in other words, the return on investment for businesses.
+
+638
+00:22:41,080 --> 00:22:43,380
+In other words, after companies spend money on AI,
+
+639
+00:22:43,380 --> 00:22:45,860
+can we actually see an improvement in their operational efficiency?
+
+640
+00:22:45,860 --> 00:22:47,980
+But that's a step that hasn't fully materialized yet.
+
+641
+00:22:47,980 --> 00:22:48,900
+Chamath says,
+
+642
+00:22:48,900 --> 00:22:52,120
+If you look at the S&P 500, the overall operating margin for publicly traded companies...
+
+643
+00:22:52,120 --> 00:22:55,050
+Over three years, it went from 11.8% to 13%.
+
+644
+00:22:55,050 --> 00:22:58,150
+That's a two-percentage-point increase, and Bread says it's all thanks to AI.
+
+645
+00:22:58,150 --> 00:22:59,630
+But Chamath isn't so sure.
+
+646
+00:22:59,630 --> 00:23:02,550
+This could be the result of the entire industry slimming down after COVID.
+
+647
+00:23:02,550 --> 00:23:04,890
+We'll need data to prove it in 500 days.
+
+648
+00:23:04,890 --> 00:23:06,790
+that AI has genuinely boosted profit margins,
+
+649
+00:23:06,790 --> 00:23:09,179
+and not just money spent on CAPEX.
+
+650
+00:23:09,179 --> 00:23:10,579
+If that's proven to be the case,
+
+651
+00:23:10,579 --> 00:23:13,119
+Then the expectation for Anthropic to become the trillion-dollar king might actually hold true.
+
+652
+00:23:13,119 --> 00:23:14,200
+If it's proven,
+
+653
+00:23:14,200 --> 00:23:16,260
+the valuations of all AI companies would have to be re-evaluated.
+
+654
+00:23:16,260 --> 00:23:17,300
+including Anthropic.
+
+655
+00:23:17,300 --> 00:23:18,480
+And there's one last variable.
+
+656
+00:23:18,480 --> 00:23:19,520
+Even Sachs himself admits it.
+
+657
+00:23:19,520 --> 00:23:22,100
+He said on the show that OpenAI has successfully pivoted.
+
+658
+00:23:22,100 --> 00:23:26,380
+So, OpenAI's new coding model, Codex, is based on GPT 5.5.
+
+659
+00:23:26,380 --> 00:23:29,220
+And GPT 5.5 is itself based on a new foundational model.
+
+660
+00:23:29,220 --> 00:23:30,160
+Codename: Spot.
+
+661
+00:23:30,160 --> 00:23:31,270
+Which, literally translated, means 'potato'.
+
+662
+00:23:31,270 --> 00:23:34,630
+On the show, all three guests acknowledged that OpenAI Codex's coding ability...
+
+663
+00:23:34,630 --> 00:23:36,430
+is already starting to catch up with Claude.
+
+664
+00:23:36,430 --> 00:23:39,460
+And I've seen a lot of people on X sharing the same sentiment.
+
+665
+00:23:39,460 --> 00:23:41,900
+And coding is Anthropic's main battlefield, you know.
+
+666
+00:23:41,900 --> 00:23:44,930
+Over 70% of its revenue comes from its coding business.
+
+667
+00:23:44,930 --> 00:23:46,250
+If OpenAI catches up,
+
+668
+00:23:46,250 --> 00:23:48,250
+Then its main battlefield will be challenged.
+
+669
+00:23:48,250 --> 00:23:50,110
+Alright, let's recap the three things we've talked about today.
+
+670
+00:23:50,110 --> 00:23:53,340
+First up, Sach's 'Safe Oil' thought experiment.
+
+671
+00:23:53,340 --> 00:23:54,540
+This isn't about bashing Anthropic.
+
+672
+00:23:54,540 --> 00:23:56,160
+but to offer everyone a new perspective.
+
+673
+00:23:56,160 --> 00:23:58,040
+Let's look at Anthropic's safety narrative.
+
+674
+00:23:58,040 --> 00:24:00,860
+The second point is about Anthropic, and the seven things they've done over the past three years.
+
+675
+00:24:00,860 --> 00:24:02,600
+Four of them are about narrative.
+
+676
+00:24:02,600 --> 00:24:04,499
+Three of them were actions, and the most crucial of these actions...
+
+677
+00:24:04,499 --> 00:24:06,319
+were the four bans they issued over the past 11 months.
+
+678
+00:24:06,319 --> 00:24:09,159
+And if you add the recent announcement from three days ago declaring the stock transfer invalid,
+
+679
+00:24:09,159 --> 00:24:12,619
+And third, we have the three different judgments from the three key players at the table, all in.
+
+680
+00:24:12,619 --> 00:24:16,440
+They all agree that Anthropic's growth curve is something never before seen in Silicon Valley's history.
+
+681
+00:24:16,440 --> 00:24:18,280
+So now, let me share this conclusion with all of you.
+
+682
+00:24:18,280 --> 00:24:19,480
+In the next 12 months,
+
+683
+00:24:19,480 --> 00:24:22,320
+So, if you see Anthropic doing any of the following things in the news,
+
+684
+00:24:22,320 --> 00:24:23,500
+you should probably think twice about it.
+
+685
+00:24:23,500 --> 00:24:26,080
+For instance, they might proactively call for government regulation,
+
+686
+00:24:26,080 --> 00:24:30,250
+or supports a bill that puts restrictions on small and medium-sized companies.
+
+687
+00:24:30,250 --> 00:24:33,490
+For instance, another new rule comes along and blocks a whole group of people.
+
+688
+00:24:33,490 --> 00:24:36,070
+Now, any one of these things, taken on its own, is perfectly explainable.
+
+689
+00:24:36,070 --> 00:24:38,620
+But when you put it in the context of 'Safe Oil'...
+
+690
+00:24:38,620 --> 00:24:40,400
+In the script, this is a whole series, not a one-off movie.
+
+691
+00:24:40,400 --> 00:24:42,760
+As the saying goes, everyone's talking about how these benchmark-battling models are going wild.
+
+692
+00:24:42,760 --> 00:24:44,780
+But we don't know if their spin is even stronger.
+
+693
+00:24:44,780 --> 00:24:48,810
+A century-old oil barrel gets a new coat, and Standard Oil is back in the ring.
+
+694
+00:24:48,810 --> 00:24:50,290
+So, I've got two questions for you all.
+
+695
+00:24:50,290 --> 00:24:52,390
+First, out of the seven things we just talked about,
+
+696
+00:24:52,390 --> 00:24:54,840
+Which one most closely resembles the Standard Oil playbook?
+
+697
+00:24:54,840 --> 00:24:57,280
+And the second point is what we call the 'Musk Cloud Service'.
+
+698
+00:24:57,280 --> 00:25:00,220
+Actually, about that 'All In' episode, there's another angle that no one on the internet has ever clipped.
+
+699
+00:25:00,220 --> 00:25:01,640
+It's about Chamath and Brad, the two of them at the table.
+
+700
+00:25:01,640 --> 00:25:04,130
+the valuation of SpaceX,
+
+701
+00:25:04,130 --> 00:25:06,430
+and they came up with a number that was absolutely staggering.
+
+702
+00:25:06,430 --> 00:25:09,340
+So, if you're specifically interested in what SpaceX is actually worth,
+
+703
+00:25:09,340 --> 00:25:11,500
+How does Musk's cloud service change its valuation?
+
+704
+00:25:11,500 --> 00:25:12,580
+Drop a comment and let me know, just type 'Musk Cloud'.
+
+705
+00:25:12,580 --> 00:25:13,900
+Oh,
+
+706
+00:25:13,900 --> 00:25:15,460
+After doing our due diligence,
+
+707
+00:25:15,460 --> 00:25:16,880
+So, that's what this video is all about.
+
+708
+00:25:16,880 --> 00:25:17,720
+Subscribe to this channel.
+
+709
+00:25:17,720 --> 00:25:18,400
+and hit that notification bell.
+
+710
+00:25:18,400 --> 00:25:19,900
+so you don't miss the next update.
+
+711
+00:25:19,900 --> 00:25:20,520
+I'm Alan.
+
+712
+00:25:20,520 --> 00:25:21,080
+Watch first, then like.
+
+713
+00:25:21,080 --> 00:25:21,640
+rolling in money
+
+714
+00:25:21,640 --> 00:25:23,100
+See you in the next video.
+

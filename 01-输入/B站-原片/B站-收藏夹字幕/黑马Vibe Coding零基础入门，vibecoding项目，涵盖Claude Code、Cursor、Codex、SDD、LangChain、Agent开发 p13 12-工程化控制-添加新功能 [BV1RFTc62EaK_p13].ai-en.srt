@@ -1,0 +1,2148 @@
+1
+00:00:01,180 --> 00:00:02,460
+Hello, everyone, and welcome back.
+
+2
+00:00:02,460 --> 00:00:03,160
+Welcome back.
+
+3
+00:00:03,160 --> 00:00:06,180
+Alright, so next up, let's get back to our Heima Bookkeeping app.
+
+4
+00:00:06,180 --> 00:00:07,940
+to update its features.
+
+5
+00:00:07,940 --> 00:00:09,740
+And while we're at it, with these new feature updates,
+
+6
+00:00:09,740 --> 00:00:14,330
+Only then will we go on to refine the details of our engineering controls. Alright.
+
+7
+00:00:14,330 --> 00:00:17,030
+So, for example, let's take a look at our current Heima Bookkeeping app.
+
+8
+00:00:17,030 --> 00:00:18,910
+It's actually already pretty much usable.
+
+9
+00:00:18,910 --> 00:00:20,770
+But we feel the details are still lacking.
+
+10
+00:00:20,770 --> 00:00:24,670
+For example, let's take a look at the categories inside it.
+
+11
+00:00:24,670 --> 00:00:26,270
+So, regarding this whole categories thing...
+
+12
+00:00:26,270 --> 00:00:29,190
+So, let's start by simply asking our AI assistant about the current codebase.
+
+13
+00:00:29,190 --> 00:00:34,200
+So, let's talk about the categories in our current project.
+
+14
+00:00:34,200 --> 00:00:37,760
+the categories for bookkeeping in this project,
+
+15
+00:00:37,760 --> 00:00:40,800
+how is it controlled?
+
+16
+00:00:40,800 --> 00:00:42,400
+For instance, where is it stored?
+
+17
+00:00:42,400 --> 00:00:43,800
+Where is it stored?
+
+18
+00:00:43,800 --> 00:00:47,250
+And can users modify it?
+
+19
+00:00:47,250 --> 00:00:48,410
+Can users modify it? And so on.
+
+20
+00:00:48,410 --> 00:00:49,170
+Alright, let's ask it first.
+
+21
+00:00:49,170 --> 00:00:50,950
+Let's ask it how the current code is written.
+
+22
+00:00:50,950 --> 00:00:51,850
+Because for us,
+
+23
+00:00:51,850 --> 00:00:53,470
+we might not necessarily be able to understand it ourselves.
+
+24
+00:00:53,470 --> 00:00:56,139
+I mean, the code that's actually written in there.
+
+25
+00:00:56,139 --> 00:00:57,319
+So we just asked it.
+
+26
+00:00:57,319 --> 00:00:59,139
+We can just ask it to explain it for us.
+
+27
+00:00:59,139 --> 00:01:00,939
+Alright, so you can see it's given us an explanation here.
+
+28
+00:01:00,939 --> 00:01:03,500
+So, it says that our current category storage and control...
+
+29
+00:01:03,500 --> 00:01:06,020
+is stored in this file called the SQL database.
+
+30
+00:01:06,020 --> 00:01:08,780
+So, to put it simply, the categories are stored in the database.
+
+31
+00:01:08,780 --> 00:01:11,040
+And inside, there's a table called 'categories'.
+
+32
+00:01:11,040 --> 00:01:12,540
+And this table is where everything is recorded.
+
+33
+00:01:12,540 --> 00:01:14,700
+So, here's the current state of our categories.
+
+34
+00:01:14,700 --> 00:01:16,600
+So, where do these categories come from?
+
+35
+00:01:16,600 --> 00:01:19,280
+Luckily, in our ELECTRDATABASE.ts file,
+
+36
+00:01:19,280 --> 00:01:20,830
+So, every time the app starts up,
+
+37
+00:01:20,830 --> 00:01:24,810
+It will write the 66 preset categories into the database right here.
+
+38
+00:01:24,810 --> 00:01:27,919
+and then read them out from the database.
+
+39
+00:01:27,919 --> 00:01:28,999
+Alright, here's the key part.
+
+40
+00:01:28,999 --> 00:01:31,299
+But look, does it allow users to make changes?
+
+41
+00:01:31,299 --> 00:01:33,030
+Right now, it doesn't.
+
+42
+00:01:33,030 --> 00:01:35,690
+So, that means these categories are all pre-set by the system.
+
+43
+00:01:35,690 --> 00:01:37,760
+They're created automatically and can't be changed.
+
+44
+00:01:37,760 --> 00:01:40,880
+And every time you make an entry, you have to choose from these preset categories.
+
+45
+00:01:40,880 --> 00:01:42,640
+And then, for things like adding or editing categories,
+
+46
+00:01:42,640 --> 00:01:46,190
+And there are no UI functions for deleting or sorting categories.
+
+47
+00:01:46,190 --> 00:01:48,110
+Alright, so what we've discovered now is...
+
+48
+00:01:48,110 --> 00:01:50,270
+So, these categories are actually hard-coded, right?
+
+49
+00:01:50,270 --> 00:01:51,390
+And look, it's pretty smart too.
+
+50
+00:01:51,390 --> 00:01:54,280
+So, he's asking if we need to add a category management feature.
+
+51
+00:01:54,280 --> 00:01:54,620
+Alright.
+
+52
+00:01:54,620 --> 00:01:57,520
+So, what we can do now is actually go ahead and add this feature.
+
+53
+00:01:57,520 --> 00:01:58,480
+the category management feature.
+
+54
+00:01:58,480 --> 00:02:00,020
+Alright, let me walk you through it.
+
+55
+00:02:00,020 --> 00:02:02,930
+So, we'll say, "Please add..."
+
+56
+00:02:02,930 --> 00:02:04,350
+Please add the feature.
+
+57
+00:02:04,350 --> 00:02:13,140
+So, this means users can manually add new categories right within the app.
+
+58
+00:02:13,140 --> 00:02:17,010
+or, let's say, modify the category names.
+
+59
+00:02:17,010 --> 00:02:19,210
+or change a category's name.
+
+60
+00:02:19,210 --> 00:02:19,970
+But, there's a catch.
+
+61
+00:02:19,970 --> 00:02:23,630
+Keep in mind, users don't have permission to modify it.
+
+62
+00:02:23,630 --> 00:02:26,570
+Let's call them 'pre-built' or 'preset' categories.
+
+63
+00:02:26,570 --> 00:02:29,780
+Let's call the ones we've built-in 'pre-set' categories.
+
+64
+00:02:29,780 --> 00:02:32,220
+So, the pre-provided, or pre-built, categories.
+
+65
+00:02:32,220 --> 00:02:35,989
+But you can add and delete them.
+
+66
+00:02:35,989 --> 00:02:40,380
+modify categories created by the user. Alright.
+
+67
+00:02:40,380 --> 00:02:42,120
+So now, we need it to help us out.
+
+68
+00:02:42,120 --> 00:02:43,680
+Let's get this feature implemented.
+
+69
+00:02:43,680 --> 00:02:45,860
+Alright, we won't get into too much more detail on the rest.
+
+70
+00:02:45,860 --> 00:02:47,240
+Because, like we just did for it,
+
+71
+00:02:47,240 --> 00:02:49,340
+This is what we call memory management, right?
+
+72
+00:02:49,340 --> 00:02:51,000
+So, in terms of memory management,
+
+73
+00:02:51,000 --> 00:02:54,299
+Actually, it knows that for some technical solutions, it will let us choose.
+
+74
+00:02:54,299 --> 00:02:56,919
+And it will also explain certain technical terms for us.
+
+75
+00:02:56,919 --> 00:02:59,740
+So, what if you find that it doesn't offer you a solution to choose from,
+
+76
+00:02:59,740 --> 00:03:02,080
+Or, let's say, it doesn't explain the technical terms to you.
+
+77
+00:03:02,080 --> 00:03:04,080
+Then we can just emphasize that again later.
+
+78
+00:03:04,080 --> 00:03:06,430
+Alright, pay attention to the rules in the memory.
+
+79
+00:03:06,430 --> 00:03:08,510
+Alright, let's just go ahead and commit this first.
+
+80
+00:03:08,510 --> 00:03:12,350
+Alright, let's have it add this feature for us now.
+
+81
+00:03:13,880 --> 00:03:15,680
+Alright, we can see it's thinking right now.
+
+82
+00:03:15,680 --> 00:03:19,160
+But in reality, our memory function is actually working as well.
+
+83
+00:03:19,160 --> 00:03:20,740
+See? It's following the rules from its memory.
+
+84
+00:03:20,740 --> 00:03:21,880
+It's going to explain the plan first.
+
+85
+00:03:21,880 --> 00:03:22,680
+I'll make the call.
+
+86
+00:03:22,680 --> 00:03:23,800
+Alright, let's look at the category management.
+
+87
+00:03:23,800 --> 00:03:26,400
+So, the first option it's giving us is Decision One.
+
+88
+00:03:26,400 --> 00:03:29,340
+How can we distinguish between the pre-defined categories and the ones created by the user?
+
+89
+00:03:29,340 --> 00:03:31,640
+For example, Option A is to add a tag column.
+
+90
+00:03:31,640 --> 00:03:34,440
+So, we just add a 'factory-default' tag to each category.
+
+91
+00:03:34,440 --> 00:03:37,700
+The system's pre-made ones are tagged as 'system', and the ones the user creates are tagged as 'user'.
+
+92
+00:03:37,700 --> 00:03:40,140
+Then there's Option B, which distinguishes them by the ID range.
+
+93
+00:03:40,140 --> 00:03:43,280
+For example, think of it like a house number... or, in other words, the category's ID number.
+
+94
+00:03:43,280 --> 00:03:44,600
+IDs 1 through 9999 are for the system.
+
+95
+00:03:44,600 --> 00:03:46,450
+and IDs from 10,000 onwards are for the user.
+
+96
+00:03:46,450 --> 00:03:47,650
+So, we have two options here.
+
+97
+00:03:47,650 --> 00:03:49,450
+Alright, let's take a quick look.
+
+98
+00:03:49,450 --> 00:03:51,800
+So, option A is definitely the better choice, right?
+
+99
+00:03:51,800 --> 00:03:53,260
+Because I can just add a tag to it.
+
+100
+00:03:53,260 --> 00:03:53,960
+Or it could be for the system.
+
+101
+00:03:53,960 --> 00:03:55,000
+or it's the user ID.
+
+102
+00:03:55,000 --> 00:03:56,180
+So it can be anything, really, right?
+
+103
+00:03:56,180 --> 00:03:57,080
+So, the ID can be anything, that's fine.
+
+104
+00:03:57,080 --> 00:03:58,560
+Alright, let's go with the recommended solution he suggested.
+
+105
+00:03:58,560 --> 00:04:02,390
+So, where should I put this new category management feature?
+
+106
+00:04:02,390 --> 00:04:03,230
+So, it has two options.
+
+107
+00:04:03,230 --> 00:04:05,550
+The first option, A, is to put it on the settings page.
+
+108
+00:04:05,550 --> 00:04:09,690
+The second option is to put it on a dedicated page just for category management.
+
+109
+00:04:09,690 --> 00:04:12,390
+So, it's recommending that we create a dedicated page for it.
+
+110
+00:04:12,390 --> 00:04:12,910
+Of course.
+
+111
+00:04:12,910 --> 00:04:15,460
+It's just that there will be a bit more code, though.
+
+112
+00:04:15,460 --> 00:04:17,180
+So, you see, it also tells us down here...
+
+113
+00:04:17,180 --> 00:04:19,279
+Regardless of which solution we choose, in terms of functionality,
+
+114
+00:04:19,279 --> 00:04:22,360
+it's going to get all of this stuff done for us, right?
+
+115
+00:04:22,360 --> 00:04:26,120
+Okay, now let's have it tell us: for Role 1, should we go with A or B?
+
+116
+00:04:26,120 --> 00:04:27,960
+Alright, so let's take a look at Role 1.
+
+117
+00:04:27,960 --> 00:04:29,160
+We're going with Option A.
+
+118
+00:04:29,160 --> 00:04:30,160
+And for Role Two...
+
+119
+00:04:30,160 --> 00:04:31,600
+Alright, let's go with Plan B.
+
+120
+00:04:31,600 --> 00:04:33,920
+Alright, let's tell him about Role 1.
+
+121
+00:04:34,959 --> 00:04:39,579
+Decision one, choose option A.
+
+122
+00:04:39,579 --> 00:04:44,669
+And for decision two, we'll go with option B.
+
+123
+00:04:44,669 --> 00:04:46,049
+Okay, let's reply to it.
+
+124
+00:04:46,049 --> 00:04:48,269
+And after giving it a clear decision,
+
+125
+00:04:48,269 --> 00:04:50,269
+And now it should start churning out the code for us.
+
+126
+00:04:50,269 --> 00:04:52,880
+and it's gone ahead and written all the code for us.
+
+127
+00:04:52,880 --> 00:04:53,240
+Alright.
+
+128
+00:04:53,240 --> 00:04:54,440
+Alright, let's give it a moment.
+
+129
+00:04:54,440 --> 00:04:57,000
+Look, it's starting to update its process again.
+
+130
+00:04:57,000 --> 00:04:59,600
+Because we've also told it in the rules what to do when it's working.
+
+131
+00:04:59,600 --> 00:05:02,380
+You need to walk us through your specific process.
+
+132
+00:05:02,380 --> 00:05:03,580
+So, you can see it's got a database in there.
+
+133
+00:05:03,580 --> 00:05:04,320
+IPC communication,
+
+134
+00:05:04,320 --> 00:05:04,900
+The class types,
+
+135
+00:05:04,900 --> 00:05:07,480
+state management, and all these other nitty-gritty details.
+
+136
+00:05:07,480 --> 00:05:08,920
+So, a 'to-do' is just something that needs to be done.
+
+137
+00:05:08,920 --> 00:05:10,000
+Alright, he's got his list ready.
+
+138
+00:05:10,000 --> 00:05:10,880
+Alright, so once that list is made,
+
+139
+00:05:10,880 --> 00:05:13,259
+So now he's going to start reading through these files.
+
+140
+00:05:13,259 --> 00:05:16,370
+to see what the code in these files currently looks like.
+
+141
+00:05:16,370 --> 00:05:17,610
+Because you're going to be modifying the code,
+
+142
+00:05:17,610 --> 00:05:19,710
+You definitely need to know what the code looks like right now.
+
+143
+00:05:19,710 --> 00:05:21,870
+So, the first thing it does is read through this code.
+
+144
+00:05:21,870 --> 00:05:22,810
+So, once it's done reading,
+
+145
+00:05:22,810 --> 00:05:23,660
+and starts to think.
+
+146
+00:05:23,660 --> 00:05:25,880
+Let's see how we can modify this code.
+
+147
+00:05:25,880 --> 00:05:28,020
+and what kind of feature to add, and where.
+
+148
+00:05:28,020 --> 00:05:29,220
+what kind of code functions to add.
+
+149
+00:05:29,220 --> 00:05:31,369
+And then we can get the features we want implemented. Alright.
+
+150
+00:05:31,369 --> 00:05:34,870
+Alright, I'll let it take a moment to think about it.
+
+151
+00:05:35,550 --> 00:05:36,030
+Alright.
+
+152
+00:05:36,030 --> 00:05:37,710
+So, as you can see, after it's had a moment to think...
+
+153
+00:05:37,710 --> 00:05:39,310
+Alright, let's start implementing the first step.
+
+154
+00:05:39,310 --> 00:05:40,310
+to modify the database.
+
+155
+00:05:40,310 --> 00:05:42,110
+like adding the corresponding fields and so on.
+
+156
+00:05:42,110 --> 00:05:44,340
+Alright, so this is where we'll get started on that.
+
+157
+00:05:44,340 --> 00:05:45,580
+And then, it's time to start writing the code.
+
+158
+00:05:45,580 --> 00:05:48,100
+And then we'll handle the necessary database migrations.
+
+159
+00:05:48,100 --> 00:05:49,400
+And then, after a moment, it continues to think.
+
+160
+00:05:49,400 --> 00:05:50,620
+Alright, let's move on to the second task.
+
+161
+00:05:50,620 --> 00:05:53,260
+Alright, let's have it continue thinking.
+
+162
+00:05:55,520 --> 00:05:58,520
+Alright, so in the process, it ran into some commands again.
+
+163
+00:05:58,520 --> 00:05:59,360
+needs to be executed.
+
+164
+00:05:59,360 --> 00:06:02,400
+See, it now needs to append a '1' to the end of each value.
+
+165
+00:06:02,400 --> 00:06:03,470
+indicating what this or that thing is.
+
+166
+00:06:03,470 --> 00:06:06,430
+So, it needs to use this C command to handle it efficiently.
+
+167
+00:06:06,430 --> 00:06:08,310
+Alright, so let's go ahead and click 'yes' here.
+
+168
+00:06:08,310 --> 00:06:10,830
+Just let it execute this C command, and we're good to go.
+
+169
+00:06:10,830 --> 00:06:13,720
+Alright, let's allow it. And... off we go!
+
+170
+00:06:13,720 --> 00:06:15,960
+And it also just said that the command was written incorrectly.
+
+171
+00:06:15,960 --> 00:06:16,800
+The file is corrupted.
+
+172
+00:06:16,800 --> 00:06:18,440
+Then, use Git to restore the original file.
+
+173
+00:06:18,440 --> 00:06:20,000
+and then manually rewrite it.
+
+174
+00:06:20,000 --> 00:06:20,760
+That's no problem.
+
+175
+00:06:20,760 --> 00:06:23,640
+And at the same time, as you can see, since we've added Git...
+
+176
+00:06:23,640 --> 00:06:25,960
+Actually, we had a save point from the very beginning.
+
+177
+00:06:25,960 --> 00:06:27,600
+So, you can see it's now using the save point.
+
+178
+00:06:27,600 --> 00:06:31,160
+By using the 'git checkout' command, we can revert the earliest database.ts file.
+
+179
+00:06:31,160 --> 00:06:34,840
+and restore the ts file from that archive point.
+
+180
+00:06:34,840 --> 00:06:37,320
+So, that's why our save points are still necessary.
+
+181
+00:06:37,320 --> 00:06:38,340
+What if he messes it up?
+
+182
+00:06:38,340 --> 00:06:38,900
+and breaks the whole thing.
+
+183
+00:06:38,900 --> 00:06:39,580
+So, what's the solution?
+
+184
+00:06:39,580 --> 00:06:40,000
+Right?
+
+185
+00:06:40,000 --> 00:06:41,060
+So, I'll just give it a 'yes'.
+
+186
+00:06:41,060 --> 00:06:42,820
+It's allowing you to reply.
+
+187
+00:06:46,200 --> 00:06:46,720
+Alright.
+
+188
+00:06:46,720 --> 00:06:47,680
+Step one is complete.
+
+189
+00:06:47,680 --> 00:06:49,160
+Now it's telling us to move on to the second step.
+
+190
+00:06:49,160 --> 00:06:51,520
+The code modifications for APC communication are done.
+
+191
+00:06:51,520 --> 00:06:53,680
+Let's give it a moment.
+
+192
+00:07:07,160 --> 00:07:07,720
+Alright.
+
+193
+00:07:07,720 --> 00:07:08,720
+Alright, so up to this point,
+
+194
+00:07:08,720 --> 00:07:10,960
+All of its code changes have now been completed.
+
+195
+00:07:10,960 --> 00:07:14,060
+Now it needs to compile to check if it will build successfully.
+
+196
+00:07:14,060 --> 00:07:15,460
+Alright, let's give it a 'yes'.
+
+197
+00:07:15,460 --> 00:07:18,880
+Alright, let's allow it to compile this command.
+
+198
+00:07:18,880 --> 00:07:21,810
+Okay, so we can see that 'base' command he just ran.
+
+199
+00:07:21,810 --> 00:07:22,690
+Actually, it's in red.
+
+200
+00:07:22,690 --> 00:07:24,730
+This means there was actually an error during execution.
+
+201
+00:07:24,730 --> 00:07:26,900
+And down here, it says 'exit with error code 2'.
+
+202
+00:07:26,900 --> 00:07:28,440
+So, that means it didn't exit normally.
+
+203
+00:07:28,440 --> 00:07:29,700
+And now, he's spotted something else.
+
+204
+00:07:29,700 --> 00:07:31,220
+What's the English for this error message? What does it say?
+
+205
+00:07:31,220 --> 00:07:33,540
+Alright, so now he's going to try a different approach to get this to work.
+
+206
+00:07:33,540 --> 00:07:33,900
+Alright.
+
+207
+00:07:33,900 --> 00:07:35,950
+Alright, let's just let it run the validation.
+
+208
+00:07:35,950 --> 00:07:38,750
+And in this case, it actually compiles successfully on the first try.
+
+209
+00:07:38,750 --> 00:07:39,990
+That's a possibility.
+
+210
+00:07:39,990 --> 00:07:42,570
+But generally speaking, it's also perfectly normal for it to have some errors.
+
+211
+00:07:42,570 --> 00:07:46,200
+So, we'll just let our AI employee make that call automatically.
+
+212
+00:07:46,200 --> 00:07:47,220
+Just let it handle it automatically.
+
+213
+00:07:47,220 --> 00:07:48,340
+If there are any mistakes, it'll fix them on its own.
+
+214
+00:07:48,340 --> 00:07:52,750
+Ultimately, as long as it gets the job done for me, that's all that matters. Alright.
+
+215
+00:07:52,750 --> 00:07:53,830
+As you can see, it's telling us right now
+
+216
+00:07:53,830 --> 00:07:56,350
+And the compilation is now complete.
+
+217
+00:07:56,350 --> 00:07:56,910
+Right?
+
+218
+00:07:56,910 --> 00:07:58,790
+Alright, the category management feature is now complete.
+
+219
+00:07:58,790 --> 00:07:59,470
+So, what did we change?
+
+220
+00:07:59,470 --> 00:08:02,260
+So, what exactly did I change in which files? Alright,
+
+221
+00:08:02,260 --> 00:08:04,820
+Okay, so now it says the job is done.
+
+222
+00:08:04,820 --> 00:08:08,100
+You can start it up by running 'npm run dev'.
+
+223
+00:08:08,100 --> 00:08:08,960
+Let's test it out and see how it works.
+
+224
+00:08:08,960 --> 00:08:10,700
+Alright then, go ahead and start it for me.
+
+225
+00:08:10,700 --> 00:08:11,540
+Launch it for me.
+
+226
+00:08:11,540 --> 00:08:13,220
+Let's see how it works.
+
+227
+00:08:14,920 --> 00:08:18,240
+Alright, it says here... uh... what command does it need to run?
+
+228
+00:08:18,240 --> 00:08:19,160
+Let's go ahead and allow it.
+
+229
+00:08:19,160 --> 00:08:20,920
+Because, you know, we're asking it to start the server for us.
+
+230
+00:08:20,920 --> 00:08:22,960
+So yeah, we're definitely going to allow this command.
+
+231
+00:08:22,960 --> 00:08:24,920
+Alright, the program is up and running now.
+
+232
+00:08:24,920 --> 00:08:27,160
+Alright, and now there's another command we need to allow.
+
+233
+00:08:27,160 --> 00:08:28,830
+Alright, let's go ahead and allow it.
+
+234
+00:08:28,830 --> 00:08:32,049
+Okay, so now let's bring the program over here. Alright.
+
+235
+00:08:32,049 --> 00:08:32,890
+Alright, so once we've got that...
+
+236
+00:08:32,890 --> 00:08:34,370
+Alright, let's take a look at this category management feature.
+
+237
+00:08:34,370 --> 00:08:37,200
+Ah, so it does have a category management feature.
+
+238
+00:08:37,200 --> 00:08:38,539
+In here, you can see we've got things like 'Dining',
+
+239
+00:08:38,539 --> 00:08:39,120
+Breakfast,
+
+240
+00:08:39,120 --> 00:08:39,679
+Parking, and so on.
+
+241
+00:08:39,679 --> 00:08:40,820
+transportation, and so on.
+
+242
+00:08:40,820 --> 00:08:42,818
+So, for example, let's click on this edit button.
+
+243
+00:08:42,818 --> 00:08:46,059
+For example, let's change 'Breakfast' to something like 'Breakfast 2'.
+
+244
+00:08:46,059 --> 00:08:47,159
+Let's see if the change goes through.
+
+245
+00:08:47,159 --> 00:08:49,140
+And then, click 'Save'.
+
+246
+00:08:49,140 --> 00:08:51,980
+Alright, so as you can see, for this 'Breakfast' category...
+
+247
+00:08:51,980 --> 00:08:54,940
+And it looks like the modification is now complete.
+
+248
+00:08:54,940 --> 00:08:56,580
+But, there's a small problem.
+
+249
+00:08:56,580 --> 00:09:00,020
+Oh, right, it says here that the ones marked with an asterisk...
+
+250
+00:09:00,020 --> 00:09:00,980
+to separate the system's presets.
+
+251
+00:09:00,980 --> 00:09:03,040
+But it seems like we haven't actually found it.
+
+252
+00:09:03,040 --> 00:09:04,960
+the system's pre-defined categories.
+
+253
+00:09:04,960 --> 00:09:05,640
+Right, okay.
+
+254
+00:09:05,640 --> 00:09:07,160
+Alright, let's just ignore that for now.
+
+255
+00:09:07,160 --> 00:09:07,680
+So first, let's just...
+
+256
+00:09:07,680 --> 00:09:10,100
+For example, let's change this "Breakfast 2" back first.
+
+257
+00:09:10,100 --> 00:09:10,780
+Let's change it back first.
+
+258
+00:09:10,780 --> 00:09:11,420
+Alright, let's take a look.
+
+259
+00:09:11,420 --> 00:09:13,140
+For example, let's add a new feature.
+
+260
+00:09:13,140 --> 00:09:14,820
+And as you can see, the add button here is also functional.
+
+261
+00:09:14,820 --> 00:09:15,920
+But we're not going to add anything just yet.
+
+262
+00:09:15,920 --> 00:09:17,140
+And the same goes for the income categories.
+
+263
+00:09:17,140 --> 00:09:19,140
+Alright, so all the original stuff is still here.
+
+264
+00:09:19,140 --> 00:09:20,860
+Alright, I'm going to close the app first.
+
+265
+00:09:20,860 --> 00:09:22,460
+Alright, let's give it a command.
+
+266
+00:09:22,460 --> 00:09:28,060
+So you're saying that right now, it looks like our original, built-in categories...
+
+267
+00:09:28,060 --> 00:09:29,000
+They aren't locked.
+
+268
+00:09:29,000 --> 00:09:29,600
+Right, okay.
+
+269
+00:09:29,600 --> 00:09:30,080
+So, let me explain.
+
+270
+00:09:30,080 --> 00:09:32,089
+So, I've had a look.
+
+271
+00:09:32,089 --> 00:09:34,369
+So, this is what we originally had.
+
+272
+00:09:34,369 --> 00:09:38,149
+these original built-in categories we have,
+
+273
+00:09:38,149 --> 00:09:40,489
+And they weren't locked.
+
+274
+00:09:40,489 --> 00:09:41,409
+They're not locked.
+
+275
+00:09:41,409 --> 00:09:43,400
+So they can still be modified.
+
+276
+00:09:43,400 --> 00:09:45,260
+Alright, got it compressed.
+
+277
+00:09:45,260 --> 00:09:45,960
+Just go ahead and tell it.
+
+278
+00:09:45,960 --> 00:09:46,760
+Yeah, looks like there's an issue here.
+
+279
+00:09:46,760 --> 00:09:49,000
+Help me fix this.
+
+280
+00:09:50,640 --> 00:09:51,560
+Alright, we can see it now.
+
+281
+00:09:51,560 --> 00:09:52,440
+It says this is a bug.
+
+282
+00:09:52,440 --> 00:09:54,200
+Ask it to explain the reason and fix it.
+
+283
+00:09:54,200 --> 00:09:56,800
+The problem lies in this SQL statement.
+
+284
+00:09:56,800 --> 00:09:58,080
+It says the database was already set up before.
+
+285
+00:09:58,080 --> 00:09:59,480
+So, all the preset categories are already in the database.
+
+286
+00:09:59,480 --> 00:10:01,360
+So, when I added that new column,
+
+287
+00:10:01,360 --> 00:10:03,600
+So, we need to add something to all the existing data, right?
+
+288
+00:10:03,600 --> 00:10:04,320
+So, what's the good news?
+
+289
+00:10:04,320 --> 00:10:05,500
+We'll skip over this detail.
+
+290
+00:10:05,500 --> 00:10:08,700
+Anyway, it's found the specific reason now.
+
+291
+00:10:08,700 --> 00:10:10,180
+So, what it needs to do now is execute a SQL query.
+
+292
+00:10:10,180 --> 00:10:11,760
+Just update it to one, and that should do it.
+
+293
+00:10:11,760 --> 00:10:12,680
+And with that, the fix is done.
+
+294
+00:10:12,680 --> 00:10:15,240
+Alright, let's recompile and run it again.
+
+295
+00:10:15,240 --> 00:10:17,070
+Looks like it's restarting again.
+
+296
+00:10:17,070 --> 00:10:17,590
+Alright, it's back up and running.
+
+297
+00:10:17,590 --> 00:10:19,110
+Alright, let's head back to the category management.
+
+298
+00:10:19,110 --> 00:10:20,010
+Alright, let's see...
+
+299
+00:10:20,010 --> 00:10:22,620
+So, the lock has been applied now, hasn't it?
+
+300
+00:10:22,620 --> 00:10:24,620
+Alright, so based on that description,
+
+301
+00:10:24,620 --> 00:10:26,780
+So, for our original, pre-set categories...
+
+302
+00:10:26,780 --> 00:10:27,720
+We've locked them all.
+
+303
+00:10:27,720 --> 00:10:28,240
+Alright, so now that they're locked,
+
+304
+00:10:28,240 --> 00:10:30,400
+Alright, let's test now if it allows users to add their own categories.
+
+305
+00:10:30,400 --> 00:10:31,900
+So let's try adding a top-level category.
+
+306
+00:10:31,900 --> 00:10:33,590
+And then we can pick an icon.
+
+307
+00:10:33,590 --> 00:10:34,430
+A little car, maybe?
+
+308
+00:10:34,430 --> 00:10:36,670
+Let's just call it 'Test Level 1', for example.
+
+309
+00:10:36,670 --> 00:10:38,660
+Categories, right.
+
+310
+00:10:38,660 --> 00:10:39,680
+Test top-level category.
+
+311
+00:10:39,680 --> 00:10:41,960
+And for the parent category, you see, it means you leave it blank.
+
+312
+00:10:41,960 --> 00:10:43,460
+So, adding it means it's a top-level category.
+
+313
+00:10:43,460 --> 00:10:44,580
+So, we'll just leave it blank.
+
+314
+00:10:44,580 --> 00:10:46,070
+So this is a top-level category.
+
+315
+00:10:46,070 --> 00:10:47,150
+Alright, now that it's added, let me go find it.
+
+316
+00:10:47,150 --> 00:10:51,349
+Alright, let's see if our test top-level category is in here.
+
+317
+00:10:51,349 --> 00:10:51,789
+Oh, it's actually here.
+
+318
+00:10:51,789 --> 00:10:52,609
+Right down here, good.
+
+319
+00:10:52,609 --> 00:10:54,389
+Alright, so now that we have it, under the 'Test First-Level Category'...
+
+320
+00:10:54,389 --> 00:10:55,709
+Now, let's add a subcategory.
+
+321
+00:10:55,709 --> 00:10:57,840
+See, there's an 'add' button right here. Okay.
+
+322
+00:10:57,840 --> 00:11:00,160
+See? By default, the one called 'Test Top-level Category' is locked, right?
+
+323
+00:11:00,160 --> 00:11:04,560
+Let's add another one called 'Test 2'... or 'Test Subcategory'.
+
+324
+00:11:04,560 --> 00:11:07,310
+Level 2, number one. Alright.
+
+325
+00:11:07,310 --> 00:11:09,190
+Let's just pick an icon, the little book one.
+
+326
+00:11:09,190 --> 00:11:10,150
+Click 'Add'. Alright.
+
+327
+00:11:10,150 --> 00:11:11,110
+See? The test subcategory is there now.
+
+328
+00:11:11,110 --> 00:11:13,510
+Next, let's set up this edit button. We'll click it to make changes.
+
+329
+00:11:13,510 --> 00:11:16,490
+Let's see if we can change this to 'Two'. Alright, no problem there either.
+
+330
+00:11:16,490 --> 00:11:17,810
+Alright, let's try editing it again.
+
+331
+00:11:17,810 --> 00:11:19,170
+Let's see if we can change '333'.
+
+332
+00:11:19,170 --> 00:11:19,730
+And that can be changed too.
+
+333
+00:11:19,730 --> 00:11:22,970
+Alright, now let's see what happens under the system's pre-set top-level categories.
+
+334
+00:11:22,970 --> 00:11:25,430
+Can we add a subcategory here? Let's click 'Add'.
+
+335
+00:11:25,430 --> 00:11:26,970
+Alright, let's click on this computer icon.
+
+336
+00:11:26,970 --> 00:11:29,610
+Let's call this one 'Test', for example.
+
+337
+00:11:29,610 --> 00:11:30,370
+Let's call it 'Test'.
+
+338
+00:11:30,370 --> 00:11:33,110
+Alright, let's just give it a random name, like '666', and hit 'Add'. There we go.
+
+339
+00:11:33,110 --> 00:11:33,970
+And it gets added successfully.
+
+340
+00:11:33,970 --> 00:11:34,850
+And then, click delete.
+
+341
+00:11:34,850 --> 00:11:35,800
+Click 'OK'.
+
+342
+00:11:35,800 --> 00:11:37,340
+And then, click delete. Okay.
+
+343
+00:11:37,340 --> 00:11:38,280
+and we can add it in as well.
+
+344
+00:11:38,280 --> 00:11:39,480
+And we can delete it as well. Great.
+
+345
+00:11:39,480 --> 00:11:41,800
+Alright, let's go back and try logging some data.
+
+346
+00:11:41,800 --> 00:11:43,080
+For example, let's tap on 'Record an Expense'.
+
+347
+00:11:43,080 --> 00:11:44,960
+Let's select the main category 'Fenfen'.
+
+348
+00:11:44,960 --> 00:11:46,240
+So, let's test the top-level category.
+
+349
+00:11:46,240 --> 00:11:47,800
+and for the sub-category, we'll pick 'Test Subcategory'.
+
+350
+00:11:47,800 --> 00:11:49,580
+And the amount spent was 33 yuan.
+
+351
+00:11:49,580 --> 00:11:51,160
+And then, we'll click 'Save Record'.
+
+352
+00:11:51,160 --> 00:11:52,000
+So, after saving it,
+
+353
+00:11:52,000 --> 00:11:54,980
+And if we go back to the home page, we can also see the record we just created.
+
+354
+00:11:54,980 --> 00:11:55,720
+and it works perfectly.
+
+355
+00:11:55,720 --> 00:11:58,300
+And the statistics section over here can also reflect all of that.
+
+356
+00:11:58,300 --> 00:12:00,260
+There's one called 'Test Top-level Category'.
+
+357
+00:12:00,260 --> 00:12:01,940
+And of course, the category management, and so on.
+
+358
+00:12:01,940 --> 00:12:03,740
+So, as it turns out, we've discovered that...
+
+359
+00:12:03,740 --> 00:12:05,180
+So, for this category feature we need...
+
+360
+00:12:05,180 --> 00:12:08,240
+Alright, after our testing, it seems to be working without any issues.
+
+361
+00:12:08,240 --> 00:12:10,240
+Alright, so the testing shows no issues.
+
+362
+00:12:10,240 --> 00:12:12,080
+So, following our usual procedure,
+
+363
+00:12:12,080 --> 00:12:14,050
+So, what do you guys think we should do next?
+
+364
+00:12:14,050 --> 00:12:16,010
+If you've got any ideas, let me know in the comments.
+
+365
+00:12:16,010 --> 00:12:18,070
+So, we've just finished a feature, right?
+
+366
+00:12:18,070 --> 00:12:20,930
+We should definitely create a save point for this.
+
+367
+00:12:20,930 --> 00:12:22,690
+So, let's go ahead and add a checkpoint for it now.
+
+368
+00:12:22,690 --> 00:12:24,370
+What if he breaks the code later on?
+
+369
+00:12:24,370 --> 00:12:25,850
+we can always roll it back.
+
+370
+00:12:25,850 --> 00:12:29,229
+Alright, so, after running my tests...
+
+371
+00:12:29,229 --> 00:12:30,869
+The feature tested out fine.
+
+372
+00:12:31,909 --> 00:12:39,280
+And now, please help me create another save point using git.
+
+373
+00:12:39,280 --> 00:12:40,040
+A save point.
+
+374
+00:12:40,040 --> 00:12:41,460
+Just give me a description for it.
+
+375
+00:12:41,460 --> 00:12:43,960
+And then it's going to help us with this thing...
+
+376
+00:12:43,960 --> 00:12:46,200
+and use git add to stage the changes for us.
+
+377
+00:12:46,200 --> 00:12:48,740
+And then it'll use git commit to make the commit for us.
+
+378
+00:12:48,740 --> 00:12:50,000
+Alright, let's create a save point.
+
+379
+00:12:50,000 --> 00:12:51,240
+Alright, it's about to start executing.
+
+380
+00:12:51,240 --> 00:12:52,200
+Alright, let's click 'yes'.
+
+381
+00:12:52,200 --> 00:12:54,040
+Just allow it, and we're good to go.
+
+382
+00:12:55,150 --> 00:12:56,190
+Alright, as you can see...
+
+383
+00:12:56,190 --> 00:12:57,990
+The checkpoint has been created.
+
+384
+00:12:57,990 --> 00:13:00,390
+So now we have two save history points.
+
+385
+00:13:00,390 --> 00:13:03,740
+One is called 31C5AB2, which is for project initialization.
+
+386
+00:13:03,740 --> 00:13:06,240
+And then there's another one called 7D4A9AE.
+
+387
+00:13:06,240 --> 00:13:07,980
+and that's the most recent one. Alright.
+
+388
+00:13:07,980 --> 00:13:10,570
+So, that's how we end up with these two save points.
+
+389
+00:13:10,570 --> 00:13:13,130
+And then, we can take it a step further and optimize it a bit.
+
+390
+00:13:13,130 --> 00:13:15,090
+So, we can say this save point is done.
+
+391
+00:13:15,090 --> 00:13:18,700
+But what about the names of these save points?
+
+392
+00:13:18,700 --> 00:13:21,150
+Hmm, I don't really get it.
+
+393
+00:13:21,150 --> 00:13:27,030
+Can we use, like, plain English that's a bit clearer?
+
+394
+00:13:28,660 --> 00:13:29,400
+plain English
+
+395
+00:13:29,400 --> 00:13:35,620
+And this part here is the name of the save point.
+
+396
+00:13:35,620 --> 00:13:36,680
+So, what's in here is actually...
+
+397
+00:13:36,680 --> 00:13:38,820
+So, what this is, is basically a hexadecimal ID.
+
+398
+00:13:38,820 --> 00:13:41,599
+This is actually just the default commit ID from Git.
+
+399
+00:13:41,599 --> 00:13:44,519
+So, when we look at it normally, it's just this code, like, '7D4A'.
+
+400
+00:13:44,519 --> 00:13:46,359
+So, let's say one day you want to roll back to 7D4A.
+
+401
+00:13:46,359 --> 00:13:47,479
+Hmm, that seems a bit weird, doesn't it?
+
+402
+00:13:47,479 --> 00:13:50,490
+So, we're telling it to give us the checkpoint names in plain English.
+
+403
+00:13:50,490 --> 00:13:52,390
+Let's see what kind of approach it will take.
+
+404
+00:13:52,390 --> 00:13:54,950
+to help us solve this problem.
+
+405
+00:13:57,000 --> 00:13:58,320
+Alright, let's take a look.
+
+406
+00:13:58,320 --> 00:13:59,780
+So, it says here...
+
+407
+00:13:59,780 --> 00:14:01,440
+Right now, there are only two save points.
+
+408
+00:14:01,440 --> 00:14:02,520
+There's a bit too much going on here.
+
+409
+00:14:02,520 --> 00:14:03,400
+We can't really see it clearly.
+
+410
+00:14:03,400 --> 00:14:06,060
+Let me just scroll down a bit.
+
+411
+00:14:06,060 --> 00:14:09,280
+It says it can help us directly.
+
+412
+00:14:09,280 --> 00:14:10,200
+Let's just put it in plain English.
+
+413
+00:14:10,200 --> 00:14:13,800
+So basically, we're having Git automatically rewrite the name of each save point.
+
+414
+00:14:13,800 --> 00:14:14,080
+Alright.
+
+415
+00:14:14,080 --> 00:14:15,280
+Alright, let's go ahead and click 'yes'.
+
+416
+00:14:15,280 --> 00:14:17,840
+Let's see how it works.
+
+417
+00:14:18,460 --> 00:14:20,780
+Alright, and in the same way, it's about to run another command.
+
+418
+00:14:20,780 --> 00:14:23,020
+Alright, let's go ahead and click 'yes'.
+
+419
+00:14:23,549 --> 00:14:24,069
+Alright.
+
+420
+00:14:24,069 --> 00:14:27,269
+Alright, so as you can see, we now have Archive 1 and Archive 2.
+
+421
+00:14:27,269 --> 00:14:27,989
+and its corresponding name.
+
+422
+00:14:27,989 --> 00:14:30,829
+Isn't this so much better than just looking at that ID we had earlier?
+
+423
+00:14:30,829 --> 00:14:31,420
+Much better, right?
+
+424
+00:14:31,420 --> 00:14:33,420
+And on top of that, each one will come with its own description.
+
+425
+00:14:33,420 --> 00:14:35,660
+So, strictly speaking, the name of this save point...
+
+426
+00:14:35,660 --> 00:14:36,580
+Or you can just leave it as is.
+
+427
+00:14:36,580 --> 00:14:38,660
+Because every time we create a save point,
+
+428
+00:14:38,660 --> 00:14:40,320
+there will always be a description for it.
+
+429
+00:14:40,320 --> 00:14:41,700
+So, with these descriptions,
+
+430
+00:14:41,700 --> 00:14:44,320
+to know exactly what's in a particular save point.
+
+431
+00:14:44,320 --> 00:14:46,300
+So, what exactly did it do?
+
+432
+00:14:46,300 --> 00:14:48,580
+And of course, all of these descriptions are generated by our Cloud Code.
+
+433
+00:14:48,580 --> 00:14:49,600
+that it automatically adds for us.
+
+434
+00:14:49,600 --> 00:14:52,560
+But you'll notice that the other ones we added are still perfectly fine, right?
+
+435
+00:14:52,560 --> 00:14:53,360
+So, everything looks good.
+
+436
+00:14:53,360 --> 00:14:56,020
+It might even be a bit more detailed than what we'd write ourselves.
+
+437
+00:14:56,020 --> 00:14:56,580
+Alright.
+
+438
+00:14:56,580 --> 00:14:58,100
+So, with this whole set of operations,
+
+439
+00:14:58,100 --> 00:14:59,260
+So, I've just walked you through a demonstration of it.
+
+440
+00:14:59,260 --> 00:15:01,530
+So, for our Dark Horse Accounting app,
+
+441
+00:15:01,530 --> 00:15:04,550
+we've added a category management feature.
+
+442
+00:15:04,550 --> 00:15:06,810
+So, with this category management feature in place,
+
+443
+00:15:06,810 --> 00:15:10,140
+Alright, so we've added a new checkpoint for it.
+
+444
+00:15:10,140 --> 00:15:12,340
+Alright, so, following the steps we just talked about...
+
+445
+00:15:12,340 --> 00:15:13,540
+Alright, with the new save point created,
+
+446
+00:15:13,540 --> 00:15:16,740
+So, any ideas on what we should do next?
+
+447
+00:15:16,740 --> 00:15:17,140
+Ah,
+
+448
+00:15:17,140 --> 00:15:19,460
+Shouldn't we take our current session...
+
+449
+00:15:19,460 --> 00:15:21,480
+to compress the context again, right?
+
+450
+00:15:21,480 --> 00:15:22,620
+First, let's check it out.
+
+451
+00:15:22,620 --> 00:15:23,820
+Alright, after this round of conversation...
+
+452
+00:15:23,820 --> 00:15:26,380
+So, how bloated has our context gotten this time?
+
+453
+00:15:26,380 --> 00:15:28,940
+Let's click on this thing called slash context.
+
+454
+00:15:28,940 --> 00:15:31,260
+As you can see, our context size has just shot up from that 3% we had earlier.
+
+455
+00:15:31,260 --> 00:15:32,700
+and shot back up to 9%.
+
+456
+00:15:32,700 --> 00:15:33,860
+So, the messages in here...
+
+457
+00:15:33,860 --> 00:15:36,540
+So, after this whole series of back-and-forth conversations,
+
+458
+00:15:36,540 --> 00:15:39,260
+And the message history has bloated by another 6% or so.
+
+459
+00:15:39,260 --> 00:15:41,040
+So, it's fine that it's getting bloated.
+
+460
+00:15:41,040 --> 00:15:42,580
+Since we've already completed the feature,
+
+461
+00:15:42,580 --> 00:15:44,600
+So, for things like these detailed logs,
+
+462
+00:15:44,600 --> 00:15:45,740
+You can go ahead and compress all of that.
+
+463
+00:15:45,740 --> 00:15:47,920
+Just make sure to record the key points for me.
+
+464
+00:15:47,920 --> 00:15:50,340
+This way, we can try to keep our context as...
+
+465
+00:15:50,340 --> 00:15:51,409
+Keep it short and sweet.
+
+466
+00:15:51,409 --> 00:15:52,949
+So, how do we compress the context?
+
+467
+00:15:52,949 --> 00:15:54,709
+Alright, so, as we mentioned a couple of lessons back,
+
+468
+00:15:54,709 --> 00:15:55,849
+So, do I just type a forward slash?
+
+469
+00:15:55,849 --> 00:15:58,220
+The response should be 'Compact', right?
+
+470
+00:15:58,220 --> 00:15:59,720
+Alright, let's write this 'compact' command.
+
+471
+00:15:59,720 --> 00:16:01,560
+Alright, let's just let it compress and we should be good.
+
+472
+00:16:01,560 --> 00:16:02,680
+Alright, let's just give it a moment.
+
+473
+00:16:02,680 --> 00:16:04,940
+So, its compression is generally pretty fast.
+
+474
+00:16:04,940 --> 00:16:06,480
+If it's fast, it might be done in just a second or two.
+
+475
+00:16:06,480 --> 00:16:08,400
+And even if it's slow, it should be done in about ten to twenty seconds.
+
+476
+00:16:08,400 --> 00:16:10,560
+Let's give it a moment.
+
+477
+00:16:11,499 --> 00:16:12,579
+Alright, so as you can see...
+
+478
+00:16:12,579 --> 00:16:14,779
+Looks like the compression process ran into an error.
+
+479
+00:16:14,779 --> 00:16:15,779
+Well, it's normal for this to fail.
+
+480
+00:16:15,779 --> 00:16:16,019
+No worries.
+
+481
+00:16:16,019 --> 00:16:17,819
+Let's write in this slash character.
+
+482
+00:16:17,819 --> 00:16:19,360
+It's called 'compact'.
+
+483
+00:16:19,360 --> 00:16:20,240
+Come pack.
+
+484
+00:16:21,280 --> 00:16:21,440
+Alright.
+
+485
+00:16:21,440 --> 00:16:22,960
+Alright, let's have it try compressing again.
+
+486
+00:16:22,960 --> 00:16:24,480
+It's okay if it didn't work the first time.
+
+487
+00:16:24,480 --> 00:16:26,320
+Alright, let's have it run one more time.
+
+488
+00:16:28,000 --> 00:16:30,680
+Alright, it looks like this compression just isn't working.
+
+489
+00:16:30,680 --> 00:16:31,720
+So, we're getting an error here.
+
+490
+00:16:31,720 --> 00:16:33,440
+Alright, let's go ahead and ask it.
+
+491
+00:16:33,440 --> 00:16:37,090
+So you're like, 'Hey, I want to compress the context.'
+
+492
+00:16:37,090 --> 00:16:38,670
+But it's happened twice now.
+
+493
+00:16:38,670 --> 00:16:41,860
+And it's the same thing both times.
+
+494
+00:16:43,520 --> 00:16:45,640
+Ah, it says this is a sporadic API error.
+
+495
+00:16:45,640 --> 00:16:47,660
+So it's not an issue with our project or our operations.
+
+496
+00:16:47,660 --> 00:16:49,860
+So, the way it works is by sending the current session to the NN model.
+
+497
+00:16:49,860 --> 00:16:51,000
+and ask it to write a summary.
+
+498
+00:16:51,000 --> 00:16:52,980
+And then, the model gets the instruction to write a summary.
+
+499
+00:16:52,980 --> 00:16:55,220
+and then it returned an empty result.
+
+500
+00:16:55,220 --> 00:16:57,040
+So, what does this basically mean?
+
+501
+00:16:57,040 --> 00:17:00,740
+So, it means we should be using DeepSeek's IAPI right now.
+
+502
+00:17:00,740 --> 00:17:02,260
+There might be an issue.
+
+503
+00:17:02,260 --> 00:17:03,100
+Alright, let's check it out first.
+
+504
+00:17:03,100 --> 00:17:04,660
+Looks like it says we succeeded on the second try.
+
+505
+00:17:04,660 --> 00:17:06,510
+Let's type in 'context'.
+
+506
+00:17:06,510 --> 00:17:09,410
+Alright, let's click on 'context' and take a look.
+
+507
+00:17:09,410 --> 00:17:10,170
+And it actually worked.
+
+508
+00:17:10,170 --> 00:17:12,290
+See? Hasn't the 'Trending' context been compressed to 3% now?
+
+509
+00:17:12,290 --> 00:17:14,550
+So, this is basically just a minor, sporadic bug then.
+
+510
+00:17:14,550 --> 00:17:15,630
+Alright, OK, this part's good.
+
+511
+00:17:15,630 --> 00:17:16,700
+So, we took a look at it.
+
+512
+00:17:16,700 --> 00:17:17,980
+and confirmed that it's working fine.
+
+513
+00:17:17,980 --> 00:17:20,579
+See? It's telling us that the second time was a success.
+
+514
+00:17:20,579 --> 00:17:23,179
+So, that means our compression was successful.
+
+515
+00:17:23,179 --> 00:17:24,839
+So, after this round of compression,
+
+516
+00:17:24,839 --> 00:17:27,710
+Our context window, which was at 9%,
+
+517
+00:17:27,710 --> 00:17:29,710
+down to just 3%.
+
+518
+00:17:29,710 --> 00:17:30,670
+But be aware, doing it this way...
+
+519
+00:17:30,670 --> 00:17:31,810
+This continuous compression...
+
+520
+00:17:31,810 --> 00:17:34,510
+This will keep our context nice and healthy.
+
+521
+00:17:34,510 --> 00:17:35,130
+Of course.
+
+522
+00:17:35,130 --> 00:17:37,050
+But this compression isn't limitless, you know.
+
+523
+00:17:37,050 --> 00:17:39,230
+If you keep chatting with it in this session,
+
+524
+00:17:39,230 --> 00:17:40,610
+let's say you've been chatting with it for two or three months,
+
+525
+00:17:40,610 --> 00:17:42,000
+or even chat with it for a year or two,
+
+526
+00:17:42,000 --> 00:17:43,160
+So, no matter how much it compresses,
+
+527
+00:17:43,160 --> 00:17:44,560
+So it's not like it can be compressed that much.
+
+528
+00:17:44,560 --> 00:17:45,260
+Right?
+
+529
+00:17:45,260 --> 00:17:46,240
+But under normal circumstances,
+
+530
+00:17:46,240 --> 00:17:48,100
+Besides, we can't just keep a single session going for this long.
+
+531
+00:17:48,100 --> 00:17:49,520
+So, you've finished all the features.
+
+532
+00:17:49,520 --> 00:17:50,780
+We definitely have to start a new session.
+
+533
+00:17:50,780 --> 00:17:52,480
+Time to move on to something new, right?
+
+534
+00:17:52,480 --> 00:17:53,180
+Alright, okay.
+
+535
+00:17:53,180 --> 00:17:54,920
+Alright, so with all those steps out of the way,
+
+536
+00:17:54,920 --> 00:17:56,280
+Alright, let's save our progress here.
+
+537
+00:17:56,280 --> 00:17:58,360
+See you in the next video.
+

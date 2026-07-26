@@ -1,0 +1,1376 @@
+1
+00:00:00,080 --> 00:00:01,600
+Learn AI from scratch
+
+2
+00:00:01,600 --> 00:00:04,720
+Earn over 10k a month? Come to Heima Programmer.
+
+3
+00:00:05,490 --> 00:00:06,210
+Hello.
+
+4
+00:00:06,210 --> 00:00:07,090
+Hey everyone!
+
+5
+00:00:07,090 --> 00:00:07,770
+Welcome back.
+
+6
+00:00:07,770 --> 00:00:08,930
+Alright, so in this section,
+
+7
+00:00:08,930 --> 00:00:13,230
+We're going to walk you through how to manage different code versions using Git.
+
+8
+00:00:13,230 --> 00:00:14,570
+an action on a branch.
+
+9
+00:00:14,570 --> 00:00:15,030
+Alright.
+
+10
+00:00:15,030 --> 00:00:17,070
+Alright, let's get back to our Heima Accounting app.
+
+11
+00:00:17,070 --> 00:00:18,820
+So, let's say we have a new requirement.
+
+12
+00:00:18,820 --> 00:00:21,720
+So, let's say we want to, right inside this app...
+
+13
+00:00:21,720 --> 00:00:23,600
+to embed a mini-game.
+
+14
+00:00:23,600 --> 00:00:27,000
+So, for example, let's just embed a simple Snake game.
+
+15
+00:00:27,000 --> 00:00:28,740
+But, after thinking it over,
+
+16
+00:00:28,740 --> 00:00:30,640
+this feature of embedding a mini-game,
+
+17
+00:00:30,640 --> 00:00:34,350
+It seems like it doesn't really have anything to do with our main app's core features.
+
+18
+00:00:34,350 --> 00:00:37,110
+So, generally speaking, if you want to do something like this,
+
+19
+00:00:37,110 --> 00:00:40,780
+So, we'd recommend creating a new branch in Git.
+
+20
+00:00:40,780 --> 00:00:44,100
+And then, you can make your code changes within that branch.
+
+21
+00:00:44,100 --> 00:00:45,820
+And you just keep at it until you're happy with the changes.
+
+22
+00:00:45,820 --> 00:00:48,060
+and you think it's good to go, with no issues,
+
+23
+00:00:48,060 --> 00:00:51,960
+and then you can merge it back into our main branch. Alright.
+
+24
+00:00:51,960 --> 00:00:53,940
+So, before we actually do that,
+
+25
+00:00:53,940 --> 00:00:56,660
+We can start by communicating with our AI coding assistant.
+
+26
+00:00:56,660 --> 00:01:02,970
+For example, we could ask, "Hey, what does it mean to create a branch in Git?"
+
+27
+00:01:03,090 --> 00:01:04,370
+Yeah, you can start by chatting with it.
+
+28
+00:01:04,370 --> 00:01:07,290
+Hey, can you explain to me what it means to create a branch?
+
+29
+00:01:07,290 --> 00:01:10,690
+See, it's using a familiar example for us, like a game save file.
+
+30
+00:01:10,690 --> 00:01:11,650
+Let's say you're playing an RPG.
+
+31
+00:01:11,650 --> 00:01:13,850
+At a certain point, a crucial choice appears.
+
+32
+00:01:13,850 --> 00:01:16,409
+Let's say your current save file has a certain amount of progress.
+
+33
+00:01:16,409 --> 00:01:17,709
+and you have to make a choice.
+
+34
+00:01:17,709 --> 00:01:21,000
+Do you join the shadows, or the light, or go solo as a wanderer, and so on.
+
+35
+00:01:21,000 --> 00:01:21,920
+So, what about branches?
+
+36
+00:01:21,920 --> 00:01:24,500
+It's basically like making a copy of your game save file.
+
+37
+00:01:24,500 --> 00:01:27,660
+And then you can just take different paths from there.
+
+38
+00:01:27,660 --> 00:01:29,700
+So, let's say we have a branch.
+
+39
+00:01:29,700 --> 00:01:32,920
+Let's say our main branch is all about joining the Alliance of Light.
+
+40
+00:01:32,920 --> 00:01:35,380
+So, our regular save file is basically this main storyline branch.
+
+41
+00:01:35,380 --> 00:01:38,120
+But what if, on save file three, we make another copy?
+
+42
+00:01:38,120 --> 00:01:40,480
+And let this one go down the path of the Shadow Cult.
+
+43
+00:01:40,480 --> 00:01:41,520
+and just get crackin' on it.
+
+44
+00:01:41,520 --> 00:01:44,480
+And if that other branch turns out to be pretty good,
+
+45
+00:01:44,480 --> 00:01:45,400
+we can merge it with
+
+46
+00:01:45,400 --> 00:01:48,600
+merge it back into our main save file.
+
+47
+00:01:48,600 --> 00:01:50,900
+So, the main thing here, what we call it, is a 'branch'.
+
+48
+00:01:50,900 --> 00:01:53,450
+Alright, so that's the process of merging it back into the main branch.
+
+49
+00:01:53,450 --> 00:01:55,770
+So, to help us understand, it also gives us a real-life analogy.
+
+50
+00:01:55,770 --> 00:01:57,170
+For instance, let's say you're editing a Word document.
+
+51
+00:01:57,170 --> 00:01:58,210
+Your boss asks you to add a membership system.
+
+52
+00:01:58,210 --> 00:01:59,050
+But you're worried you might mess it up.
+
+53
+00:01:59,050 --> 00:02:01,600
+So, what you'd do is make an extra copy of it, right?
+
+54
+00:02:01,600 --> 00:02:03,160
+and then you can mess around with the copy as much as you want.
+
+55
+00:02:03,160 --> 00:02:04,900
+And the original file stays completely untouched.
+
+56
+00:02:04,900 --> 00:02:05,580
+And it's done.
+
+57
+00:02:05,580 --> 00:02:06,420
+And once the testing is all good,
+
+58
+00:02:06,420 --> 00:02:08,020
+and then overwrite the original file with it.
+
+59
+00:02:08,020 --> 00:02:11,259
+And that, right there, is what we call the process of branching.
+
+60
+00:02:11,259 --> 00:02:13,219
+So, what we need to do now is...
+
+61
+00:02:13,219 --> 00:02:16,070
+So, our main branch is still focused on developing the 'Heima Accounting' app.
+
+62
+00:02:16,070 --> 00:02:18,110
+But, we also want to mess around with it a bit and add some extra stuff.
+
+63
+00:02:18,110 --> 00:02:19,480
+like a little Snake game, for instance.
+
+64
+00:02:19,480 --> 00:02:21,480
+Essentially, it has nothing to do with our main project.
+
+65
+00:02:21,480 --> 00:02:23,140
+I'm also worried about messing up the main branch.
+
+66
+00:02:23,140 --> 00:02:24,760
+So, let's just create a separate branch for it.
+
+67
+00:02:24,760 --> 00:02:27,640
+Let's make a copy of our main save file.
+
+68
+00:02:27,640 --> 00:02:29,160
+And then we'll make another copy of this save file.
+
+69
+00:02:29,160 --> 00:02:31,520
+Alright, now let's get to work on our side quest.
+
+70
+00:02:31,520 --> 00:02:32,520
+Let's just mess around with it for a bit.
+
+71
+00:02:32,520 --> 00:02:33,360
+and once you're happy with it,
+
+72
+00:02:33,360 --> 00:02:35,400
+and then merge it back into our main branch.
+
+73
+00:02:35,400 --> 00:02:37,130
+So, this is the step where we create a new branch.
+
+74
+00:02:37,130 --> 00:02:38,970
+Alright, so now that we have this branch,
+
+75
+00:02:38,970 --> 00:02:39,970
+Alright, so let's talk about it.
+
+76
+00:02:39,970 --> 00:02:44,200
+So, what I'm about to do is add a feature to the app.
+
+77
+00:02:44,200 --> 00:02:52,300
+add a feature to play a Snake game right inside the app.
+
+78
+00:02:52,300 --> 00:02:55,820
+And this feature has nothing to do with the main branch.
+
+79
+00:02:55,820 --> 00:02:56,680
+It's not really related to the main line.
+
+80
+00:02:56,680 --> 00:02:58,260
+And then, please help me...
+
+81
+00:02:58,260 --> 00:03:03,120
+Please create a new branch for me.
+
+82
+00:03:03,120 --> 00:03:04,440
+So, it seems like with these commands...
+
+83
+00:03:04,440 --> 00:03:05,800
+We can just completely ignore it.
+
+84
+00:03:05,800 --> 00:03:05,920
+Hey,
+
+85
+00:03:05,920 --> 00:03:08,320
+All you have to do is describe what you want.
+
+86
+00:03:08,320 --> 00:03:09,620
+We call it 'ambient programming', you know?
+
+87
+00:03:09,620 --> 00:03:11,260
+Just describe your idea.
+
+88
+00:03:11,260 --> 00:03:13,580
+And then our AI assistant, CD code, will execute it for us.
+
+89
+00:03:13,580 --> 00:03:15,000
+For example, how do you create a new branch?
+
+90
+00:03:15,000 --> 00:03:16,780
+Alright, so these are the commands for switching branches.
+
+91
+00:03:16,780 --> 00:03:18,860
+Alright, let's hit Enter.
+
+92
+00:03:21,260 --> 00:03:24,100
+Okay, and right here, you can see it's about to execute the command.
+
+93
+00:03:24,100 --> 00:03:27,140
+We're going to create a new branch called 'snake game'.
+
+94
+00:03:27,140 --> 00:03:27,900
+So, should we allow it?
+
+95
+00:03:27,900 --> 00:03:29,340
+So let's go ahead and say 'yes'.
+
+96
+00:03:29,340 --> 00:03:30,350
+Alright, let's allow that.
+
+97
+00:03:30,350 --> 00:03:30,830
+If we allow it,
+
+98
+00:03:30,830 --> 00:03:33,150
+And it went ahead and created a new branch for us.
+
+99
+00:03:33,150 --> 00:03:33,830
+And with that, it's done.
+
+100
+00:03:33,830 --> 00:03:35,050
+Let's see what the current status is.
+
+101
+00:03:35,050 --> 00:03:41,060
+Okay, let's just wait for it to show us the current status.
+
+102
+00:03:41,060 --> 00:03:44,480
+I've been waiting for like, 20 or 30 seconds, and it's still not responding.
+
+103
+00:03:44,480 --> 00:03:46,040
+So, basically, we're just trying to check the status.
+
+104
+00:03:46,040 --> 00:03:47,440
+This really shouldn't be taking this long.
+
+105
+00:03:47,440 --> 00:03:49,160
+So, we can probably assume it's frozen.
+
+106
+00:03:49,160 --> 00:03:51,470
+We can just click this... this stop button.
+
+107
+00:03:51,470 --> 00:03:52,410
+Just go ahead and stop it.
+
+108
+00:03:52,410 --> 00:03:54,730
+Once it's stopped, let's go ahead and enter a new command.
+
+109
+00:03:54,730 --> 00:03:58,819
+Alright, so, about that branch... is it created yet?
+
+110
+00:03:58,819 --> 00:04:02,959
+So, have we switched to the new branch now?
+
+111
+00:04:05,480 --> 00:04:07,200
+Alright, let's check out our side quest.
+
+112
+00:04:07,200 --> 00:04:08,680
+So, have you actually sorted it out for us or not?
+
+113
+00:04:08,680 --> 00:04:09,360
+Let's ask it.
+
+114
+00:04:09,360 --> 00:04:10,840
+Let's have it show us.
+
+115
+00:04:10,840 --> 00:04:12,520
+And get a reply.
+
+116
+00:04:13,830 --> 00:04:16,790
+Okay, so as you can see, it tells us that it has been created.
+
+117
+00:04:16,790 --> 00:04:18,610
+So right now, we have two branches.
+
+118
+00:04:18,610 --> 00:04:20,220
+One is called 'master', which is the main branch.
+
+119
+00:04:20,220 --> 00:04:22,160
+And here's our 'Save File 3,' safe and sound.
+
+120
+00:04:22,160 --> 00:04:23,540
+And then, we created an additional branch.
+
+121
+00:04:23,540 --> 00:04:24,640
+Let's call it 'snake-game'.
+
+122
+00:04:24,640 --> 00:04:26,080
+Alright, so here we are.
+
+123
+00:04:26,080 --> 00:04:27,920
+So that means we've switched to this one now.
+
+124
+00:04:27,920 --> 00:04:29,100
+onto this new branch.
+
+125
+00:04:29,100 --> 00:04:31,040
+So now we can mess around on this branch all we want.
+
+126
+00:04:31,040 --> 00:04:33,140
+It won't mess with our original main branch anyway.
+
+127
+00:04:33,140 --> 00:04:34,600
+It's just like with your Word documents.
+
+128
+00:04:34,600 --> 00:04:35,840
+You make a copy of it,
+
+129
+00:04:35,840 --> 00:04:37,460
+And you can make whatever changes you want on that copy.
+
+130
+00:04:37,460 --> 00:04:39,600
+and it won't affect your original file.
+
+131
+00:04:39,600 --> 00:04:40,220
+Alright.
+
+132
+00:04:40,220 --> 00:04:41,600
+Alright, so now that we've got that sorted out,
+
+133
+00:04:41,600 --> 00:04:43,120
+Alright, so now we're going to define the requirements for it.
+
+134
+00:04:43,120 --> 00:04:45,740
+So, that means, alright, we can start developing.
+
+135
+00:04:45,740 --> 00:04:48,780
+Help me add it to the program.
+
+136
+00:04:48,780 --> 00:04:54,020
+add a little Snake game to the program.
+
+137
+00:04:55,900 --> 00:04:57,100
+Alright, the feature.
+
+138
+00:04:57,100 --> 00:05:02,380
+And for the technical approach, you can just decide which one you want. Alright?
+
+139
+00:05:02,380 --> 00:05:07,450
+Then, list out the options for me to choose from.
+
+140
+00:05:10,340 --> 00:05:12,700
+Okay, so it's now listed out the corresponding options for us.
+
+141
+00:05:12,700 --> 00:05:15,160
+So, for example, Plan A is implemented in this specific way.
+
+142
+00:05:15,160 --> 00:05:16,060
+And then there's option B...
+
+143
+00:05:16,060 --> 00:05:17,140
+and how it's going to be done.
+
+144
+00:05:17,140 --> 00:05:19,820
+And then, what about option C? How does that one work?
+
+145
+00:05:19,820 --> 00:05:21,440
+And the one it recommended was Option A.
+
+146
+00:05:21,440 --> 00:05:23,040
+Because the detection logic isn't complex.
+
+147
+00:05:23,040 --> 00:05:24,280
+Writing it yourself gives you full control.
+
+148
+00:05:24,280 --> 00:05:25,580
+You don't need to rely on any third-party libraries.
+
+149
+00:05:25,580 --> 00:05:27,580
+Plus, this framework has great performance.
+
+150
+00:05:27,580 --> 00:05:28,980
+and it doesn't lag, and so on.
+
+151
+00:05:28,980 --> 00:05:31,180
+So, for a complete beginner like us,
+
+152
+00:05:31,180 --> 00:05:32,900
+and probably won't really get all this stuff, right?
+
+153
+00:05:32,900 --> 00:05:34,500
+So, it thinks that Plan A is the better option.
+
+154
+00:05:34,500 --> 00:05:35,960
+Alright, let's just go with Plan A then.
+
+155
+00:05:35,960 --> 00:05:37,920
+Alright, so let's go ahead and send a reply.
+
+156
+00:05:37,920 --> 00:05:41,760
+Alright, let's go with option A.
+
+157
+00:05:41,760 --> 00:05:43,440
+Let's go with option A.
+
+158
+00:05:46,700 --> 00:05:48,380
+Alright, Plan A is confirmed.
+
+159
+00:05:48,380 --> 00:05:51,080
+Alright, so now it's starting to review the corresponding menu structure.
+
+160
+00:05:51,080 --> 00:05:53,870
+And now, it's getting ready to write the code.
+
+161
+00:05:53,870 --> 00:05:54,990
+Alright, let's give it a moment.
+
+162
+00:05:54,990 --> 00:05:57,870
+Let's wait for it to finish writing the code for us.
+
+163
+00:06:06,120 --> 00:06:08,720
+Alright, it's finished writing the code for us.
+
+164
+00:06:08,720 --> 00:06:12,370
+And it even managed to get our program up and running.
+
+165
+00:06:12,370 --> 00:06:15,010
+So, as you can see, we now have a new 'Snake' game in our program.
+
+166
+00:06:15,010 --> 00:06:15,570
+a little something.
+
+167
+00:06:15,570 --> 00:06:16,370
+Alright, let me give it a try.
+
+168
+00:06:16,370 --> 00:06:17,540
+Alright, once we're in...
+
+169
+00:06:17,540 --> 00:06:18,380
+It says 'Getting ready'.
+
+170
+00:06:18,380 --> 00:06:19,580
+And then there's an option to 'Start Game'.
+
+171
+00:06:19,580 --> 00:06:20,820
+Oh, and there are some instructions down here.
+
+172
+00:06:20,820 --> 00:06:22,300
+You can control the direction, pause, and so on.
+
+173
+00:06:22,300 --> 00:06:24,050
+Alright, let's click 'Start Game'.
+
+174
+00:06:24,050 --> 00:06:26,170
+Whoa, it actually works! You can really play it, right?
+
+175
+00:06:26,170 --> 00:06:28,570
+So that means it's actually working pretty well.
+
+176
+00:06:28,570 --> 00:06:29,450
+Alright, cool.
+
+177
+00:06:29,450 --> 00:06:32,640
+OK, oh, got it, got it! Nice!
+
+178
+00:06:32,640 --> 00:06:33,080
+Okay.
+
+179
+00:06:33,080 --> 00:06:33,640
+So, by doing that,
+
+180
+00:06:33,640 --> 00:06:36,120
+So basically, what we've done is we've added it right inside our bookkeeping app.
+
+181
+00:06:36,120 --> 00:06:37,360
+we've added a little game.
+
+182
+00:06:37,360 --> 00:06:38,480
+for our users to play.
+
+183
+00:06:38,480 --> 00:06:40,960
+This way, when they're using our app,
+
+184
+00:06:40,960 --> 00:06:41,760
+gets too bored.
+
+185
+00:06:41,760 --> 00:06:44,660
+Right, okay. So let's just close this program down.
+
+186
+00:06:44,660 --> 00:06:45,680
+Alright, so with that closed,
+
+187
+00:06:45,680 --> 00:06:49,160
+So, with that, we can say this feature is pretty much done.
+
+188
+00:06:49,160 --> 00:06:51,180
+Alright, so now that we're done, let's think about it for a second...
+
+189
+00:06:51,180 --> 00:06:54,340
+I mean, the Snake game feature... it feels a bit weird, I know.
+
+190
+00:06:54,340 --> 00:06:56,640
+But I think, adding it to this app...
+
+191
+00:06:56,640 --> 00:06:58,640
+and it doesn't feel too out of place, right?
+
+192
+00:06:58,640 --> 00:07:00,830
+Alright, I think this looks pretty good now.
+
+193
+00:07:00,830 --> 00:07:02,150
+Alright, so if there are no issues with that,
+
+194
+00:07:02,150 --> 00:07:05,950
+So, we can go ahead and merge it into the main branch, right?
+
+195
+00:07:05,950 --> 00:07:06,580
+Let's merge it.
+
+196
+00:07:06,580 --> 00:07:07,580
+But before we do the merge,
+
+197
+00:07:07,580 --> 00:07:09,880
+Actually, there's still one more thing we need to do.
+
+198
+00:07:09,880 --> 00:07:14,060
+So, as a general rule, up until now, we've been developing everything on the main branch.
+
+199
+00:07:14,060 --> 00:07:15,880
+That's why we haven't gotten to that part yet.
+
+200
+00:07:15,880 --> 00:07:17,160
+But now that we're in a branch,
+
+201
+00:07:17,160 --> 00:07:21,210
+So, under normal circumstances, if you want to merge the code from a branch back into the main line,
+
+202
+00:07:21,210 --> 00:07:25,210
+So, it definitely needs to be thoroughly tested and checked.
+
+203
+00:07:25,210 --> 00:07:27,770
+But the thing is, we're all AI employees now.
+
+204
+00:07:27,770 --> 00:07:29,840
+He writes the code, and he tests it himself.
+
+205
+00:07:29,840 --> 00:07:31,480
+So, how do we go about checking it?
+
+206
+00:07:31,480 --> 00:07:33,289
+Then of course, they'd be checking their own work.
+
+207
+00:07:33,289 --> 00:07:36,069
+But if you just simply say,
+
+208
+00:07:36,069 --> 00:07:38,889
+Hey, go check your code and see if there are any hidden bugs.
+
+209
+00:07:38,889 --> 00:07:40,089
+any hidden risks, and so on.
+
+210
+00:07:40,089 --> 00:07:41,129
+If you just say that,
+
+211
+00:07:41,129 --> 00:07:42,390
+the results might not be that great.
+
+212
+00:07:42,390 --> 00:07:45,110
+So, in our current IDE here,
+
+213
+00:07:45,110 --> 00:07:48,320
+Actually, it also provides a feature called 'review'.
+
+214
+00:07:48,320 --> 00:07:50,160
+And this review is called a code review.
+
+215
+00:07:50,160 --> 00:07:51,140
+Just look at the name.
+
+216
+00:07:51,140 --> 00:07:52,100
+Doesn't it tell you?
+
+217
+00:07:52,100 --> 00:07:54,910
+to help us review it again.
+
+218
+00:07:54,910 --> 00:07:57,540
+some of the differences in the current code.
+
+219
+00:07:57,540 --> 00:07:59,820
+And then it'll go over the fixes you've made to your code.
+
+220
+00:07:59,820 --> 00:08:00,940
+to see if there are any issues at all.
+
+221
+00:08:00,940 --> 00:08:03,769
+or if your code changes have any hidden bugs.
+
+222
+00:08:03,769 --> 00:08:06,840
+So, this is what's called the code review feature.
+
+223
+00:08:06,840 --> 00:08:09,700
+Okay, so before we merge this back into the main branch,
+
+224
+00:08:09,700 --> 00:08:13,329
+First, we can go ahead and select this feature called 'Code Review'.
+
+225
+00:08:13,329 --> 00:08:14,909
+to help us review it.
+
+226
+00:08:14,909 --> 00:08:17,250
+Alright, so for this whole chunk of code we've just written...
+
+227
+00:08:17,250 --> 00:08:18,750
+All you have to do is select this feature, and you're good to go.
+
+228
+00:08:18,750 --> 00:08:21,810
+And then it will automatically start the code review process.
+
+229
+00:08:21,810 --> 00:08:23,270
+Alright, so let's just give it a moment.
+
+230
+00:08:23,270 --> 00:08:24,470
+Let's wait for it to finish the review.
+
+231
+00:08:24,470 --> 00:08:26,545
+and give us a conclusion.
+
+232
+00:08:27,870 --> 00:08:30,520
+Okay, it's now starting the code review process.
+
+233
+00:08:30,520 --> 00:08:32,820
+And at the same time, you'll notice in this prompt...
+
+234
+00:08:32,820 --> 00:08:35,000
+What were our original prompts all about? Just telling it what to write.
+
+235
+00:08:35,000 --> 00:08:35,820
+commands, and so on.
+
+236
+00:08:35,820 --> 00:08:38,130
+But look over here, it popped up something called an 'agent'.
+
+237
+00:08:38,130 --> 00:08:39,370
+So, what does that actually tell us?
+
+238
+00:08:39,370 --> 00:08:41,330
+This means that our current code...
+
+239
+00:08:41,330 --> 00:08:43,909
+This means it's actually already activated its built-in agent.
+
+240
+00:08:43,909 --> 00:08:45,660
+Or, to put it another way, a built-in agent.
+
+241
+00:08:45,660 --> 00:08:48,100
+It's specifically designed to go through it line by line.
+
+242
+00:08:48,100 --> 00:08:50,760
+It's a line-by-line scan for differences.
+
+243
+00:08:50,760 --> 00:08:52,079
+called a 'difference scan'.
+
+244
+00:08:52,079 --> 00:08:54,559
+So, basically, what we're doing here is within the IDE,
+
+245
+00:08:54,559 --> 00:08:55,819
+There's a built-in agent.
+
+246
+00:08:55,819 --> 00:08:58,980
+It's specifically designed to handle this function called 'difference scanning'.
+
+247
+00:08:58,980 --> 00:09:02,390
+Basically, it's a dedicated agent specifically for code review.
+
+248
+00:09:02,390 --> 00:09:04,730
+And we'll also be explaining what this agent is all about later on.
+
+249
+00:09:04,730 --> 00:09:06,390
+It's just that it popped up right now.
+
+250
+00:09:06,390 --> 00:09:08,140
+So let me just give you a quick rundown first.
+
+251
+00:09:08,140 --> 00:09:10,980
+Later on, we'll also develop our own agent.
+
+252
+00:09:10,980 --> 00:09:12,690
+Or, in other words, our own custom AI agent.
+
+253
+00:09:12,690 --> 00:09:15,250
+Okay, so it's still in the middle of the review process.
+
+254
+00:09:15,250 --> 00:09:18,610
+Alright, let's just wait for it to finish the code review.
+
+255
+00:09:32,940 --> 00:09:33,460
+Alright.
+
+256
+00:09:33,460 --> 00:09:35,540
+Alright, so after waiting for a little while,
+
+257
+00:09:35,540 --> 00:09:37,460
+And our code review is finished as well.
+
+258
+00:09:37,460 --> 00:09:37,800
+Alright.
+
+259
+00:09:37,800 --> 00:09:39,710
+So, with the code review complete,
+
+260
+00:09:39,710 --> 00:09:42,150
+As you can see, the review summary has pointed out for us...
+
+261
+00:09:42,150 --> 00:09:43,490
+a number of bugs.
+
+262
+00:09:43,490 --> 00:09:45,850
+Now, these bugs range from severe to medium.
+
+263
+00:09:45,850 --> 00:09:46,550
+and some minor ones.
+
+264
+00:09:46,550 --> 00:09:47,970
+There are suggestions and so on.
+
+265
+00:09:47,970 --> 00:09:49,410
+So, for us,
+
+266
+00:09:49,410 --> 00:09:51,530
+These critical and medium-severity bugs,
+
+267
+00:09:51,530 --> 00:09:53,610
+So, we definitely need to go ahead and fix those.
+
+268
+00:09:53,610 --> 00:09:54,890
+For example, it helps us detect issues,
+
+269
+00:09:54,890 --> 00:09:58,010
+Based on the code, it looks like there might be some false positives with the snake's head colliding with its tail.
+
+270
+00:09:58,010 --> 00:10:01,220
+as well as some issues caused by nested loops, and so on.
+
+271
+00:10:01,220 --> 00:10:02,460
+So, for problems like these,
+
+272
+00:10:02,460 --> 00:10:03,540
+So, if it finds any issues,
+
+273
+00:10:03,540 --> 00:10:05,040
+It's asking if we want to fix it.
+
+274
+00:10:05,040 --> 00:10:07,180
+So yeah, we should definitely get that fixed right away.
+
+275
+00:10:07,180 --> 00:10:09,760
+Because we haven't merged this branch into the main line yet.
+
+276
+00:10:09,760 --> 00:10:12,650
+So basically, we're just in the testing phase right now.
+
+277
+00:10:12,650 --> 00:10:15,690
+So, quick, help me fix this.
+
+278
+00:10:16,330 --> 00:10:18,250
+Alright, let's get this fixed.
+
+279
+00:10:18,250 --> 00:10:19,170
+Just reply with 'fix' to it.
+
+280
+00:10:19,170 --> 00:10:19,970
+And then, let's have it help us out.
+
+281
+00:10:19,970 --> 00:10:22,650
+to make the necessary modifications to this code.
+
+282
+00:10:22,650 --> 00:10:23,410
+Alright, let's give it a moment.
+
+283
+00:10:23,410 --> 00:10:25,525
+Let's wait for it to modify the code.
+
+284
+00:10:43,380 --> 00:10:43,940
+Alright.
+
+285
+00:10:43,940 --> 00:10:46,100
+Alright, so after a little bit of waiting...
+
+286
+00:10:46,100 --> 00:10:49,200
+It has already fixed all these issues for us.
+
+287
+00:10:49,200 --> 00:10:52,120
+And the app starts up just fine for us.
+
+288
+00:10:52,120 --> 00:10:53,140
+Alright, so once it's up and running,
+
+289
+00:10:53,140 --> 00:10:54,460
+So, we gave it a quick try.
+
+290
+00:10:54,460 --> 00:10:56,920
+and it seems the game itself is working just fine.
+
+291
+00:10:56,920 --> 00:11:00,040
+So, you can also try this out on your own after class, or once you've finished it yourself.
+
+292
+00:11:00,040 --> 00:11:01,600
+You can go ahead and play around with it in detail yourselves.
+
+293
+00:11:01,600 --> 00:11:03,910
+Let's see if there are any hidden bugs.
+
+294
+00:11:03,910 --> 00:11:06,350
+Alright, so after going through that whole process...
+
+295
+00:11:06,350 --> 00:11:09,820
+And with that, we've basically completed our task for the Heima Accounting app.
+
+296
+00:11:09,820 --> 00:11:11,480
+the addition of a small feature.
+
+297
+00:11:11,480 --> 00:11:14,510
+specifically, we've added a side-scrolling Snake game feature.
+
+298
+00:11:14,510 --> 00:11:17,780
+And then, we went ahead and did a code review on it.
+
+299
+00:11:17,780 --> 00:11:18,780
+Through code review,
+
+300
+00:11:18,780 --> 00:11:20,500
+we've identified a few issues.
+
+301
+00:11:20,500 --> 00:11:22,280
+and we've gone ahead and fixed them.
+
+302
+00:11:22,280 --> 00:11:23,720
+OK, so at this point,
+
+303
+00:11:23,720 --> 00:11:26,360
+So, for this little Snake game feature branch of our app...
+
+304
+00:11:26,360 --> 00:11:27,900
+It should be stable now.
+
+305
+00:11:27,900 --> 00:11:29,060
+Alright, so now that it's stable,
+
+306
+00:11:29,060 --> 00:11:32,540
+we can then go ahead and commit the current code.
+
+307
+00:11:32,540 --> 00:11:35,589
+Or, to put it another way, we're saving a 'checkpoint' of our progress.
+
+308
+00:11:35,589 --> 00:11:37,349
+And once you've saved that checkpoint,
+
+309
+00:11:37,349 --> 00:11:38,509
+So, if we think it's good to go,
+
+310
+00:11:38,509 --> 00:11:39,829
+we can then take this current branch
+
+311
+00:11:39,829 --> 00:11:42,580
+and merge it back into our master branch.
+
+312
+00:11:42,580 --> 00:11:44,780
+Alright, let's talk to our Copilot.
+
+313
+00:11:44,780 --> 00:11:46,260
+Help me commit this.
+
+314
+00:11:46,260 --> 00:11:46,960
+Let's get it updated.
+
+315
+00:11:46,960 --> 00:11:47,440
+Make the changes.
+
+316
+00:11:47,440 --> 00:11:54,940
+and merge the branch into the main line.
+
+317
+00:11:57,060 --> 00:11:58,620
+Alright.
+
+318
+00:11:58,620 --> 00:12:01,380
+Alright, so we've now finished merging the branch.
+
+319
+00:12:01,380 --> 00:12:02,360
+Alright, that leaves just one last step.
+
+320
+00:12:02,360 --> 00:12:04,260
+So, we've already got everything sorted out locally.
+
+321
+00:12:04,260 --> 00:12:06,480
+So, the next step is to push it to the remote server, right?
+
+322
+00:12:06,480 --> 00:12:08,400
+That would be a bit more reliable.
+
+323
+00:12:08,400 --> 00:12:09,920
+Alright, let's give it another prompt.
+
+324
+00:12:09,920 --> 00:12:15,960
+Okay, let's push it to Git.
+
+325
+00:12:22,740 --> 00:12:23,260
+Alright.
+
+326
+00:12:23,260 --> 00:12:25,500
+And just like that, our code has been pushed to Git.
+
+327
+00:12:25,500 --> 00:12:27,740
+Alright, so now we can head back to our Git repository and refresh the page.
+
+328
+00:12:27,740 --> 00:12:28,620
+Alright, let's take a look.
+
+329
+00:12:28,620 --> 00:12:29,660
+So, after we've refreshed the page,
+
+330
+00:12:29,660 --> 00:12:32,160
+And there you can see our latest save file, number four.
+
+331
+00:12:32,160 --> 00:12:33,980
+and pushed it up.
+
+332
+00:12:33,980 --> 00:12:35,800
+So now, all of our current code modifications,
+
+333
+00:12:35,800 --> 00:12:37,760
+now have a copy on the server.
+
+334
+00:12:37,760 --> 00:12:39,609
+It's like having a saved record.
+
+335
+00:12:39,609 --> 00:12:41,129
+OK, so with that,
+
+336
+00:12:41,129 --> 00:12:43,449
+And just like that, we've finished adding the Snake mini-game.
+
+337
+00:12:43,449 --> 00:12:45,060
+as a new feature update.
+
+338
+00:12:45,060 --> 00:12:47,960
+And this feature update was all done on a new branch.
+
+339
+00:12:47,960 --> 00:12:50,150
+and it's also been through a code review.
+
+340
+00:12:50,150 --> 00:12:53,410
+And finally, after a series of steps to merge the branch,
+
+341
+00:12:53,410 --> 00:12:53,870
+Alright.
+
+342
+00:12:53,870 --> 00:12:55,910
+Alright, so with all those steps completed,
+
+343
+00:12:55,910 --> 00:12:57,690
+Alright, let's wrap up this video.
+
+344
+00:12:57,690 --> 00:13:00,260
+We'll see you in the next video. Bye!
+

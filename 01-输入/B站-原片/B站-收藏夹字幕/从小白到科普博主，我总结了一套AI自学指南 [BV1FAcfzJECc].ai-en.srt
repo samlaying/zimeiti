@@ -1,0 +1,648 @@
+1
+00:00:00,040 --> 00:00:01,220
+the comment section of last week's video
+
+2
+00:00:01,220 --> 00:00:02,640
+I saw a comment like this
+
+3
+00:00:02,640 --> 00:00:04,270
+Here's how I responded
+
+4
+00:00:04,270 --> 00:00:05,670
+Today I'm here to fulfill my promise
+
+5
+00:00:05,670 --> 00:00:06,390
+Hello everyone
+
+6
+00:00:06,390 --> 00:00:08,080
+I am A K, focusing on using UGC Anime to popularize AI.
+
+7
+00:00:08,080 --> 00:00:11,020
+In this video, I will share my personal 4-month self-learning experience
+
+8
+00:00:11,020 --> 00:00:13,840
+Let me share in detail how I started learning AI from scratch.
+
+9
+00:00:13,840 --> 00:00:15,660
+Let's start by talking about methods in the first half
+
+10
+00:00:15,660 --> 00:00:17,040
+In the latter part, we'll discuss the mindset.
+
+11
+00:00:17,040 --> 00:00:19,820
+To learn AI well, the first step must be to put down your phone
+
+12
+00:00:19,820 --> 00:00:20,820
+sit back in front of the computer
+
+13
+00:00:20,820 --> 00:00:22,780
+I don't mean to make you stop Showbiz
+
+14
+00:00:22,780 --> 00:00:23,640
+focus on learning
+
+15
+00:00:23,640 --> 00:00:25,740
+but the phone is merely an information retrieval tool
+
+16
+00:00:25,740 --> 00:00:27,280
+The computer is the real productivity tool.
+
+17
+00:00:27,280 --> 00:00:29,900
+Don't argue with 'you can also code and deploy large models on a phone'
+
+18
+00:00:29,900 --> 00:00:31,260
+No need for that
+
+19
+00:00:31,260 --> 00:00:32,520
+Now, sit back in front of your computer
+
+20
+00:00:32,520 --> 00:00:33,720
+Please learn to use a computer first
+
+21
+00:00:33,720 --> 00:00:35,880
+Here, 'using' does not refer to browsing the web
+
+22
+00:00:35,880 --> 00:00:38,280
+
+
+23
+00:00:38,280 --> 00:00:39,900
+but understanding what a disk partition is
+
+24
+00:00:39,900 --> 00:00:41,040
+What is file hierarchy
+
+25
+00:00:41,040 --> 00:00:42,180
+What is a file path
+
+26
+00:00:42,180 --> 00:00:44,400
+and what different file types are used for
+
+27
+00:00:44,400 --> 00:00:46,480
+How to quickly locate the root directory of a software or file
+
+28
+00:00:46,480 --> 00:00:47,580
+How to invoke the command line
+
+29
+00:00:47,580 --> 00:00:50,200
+What are the differences between command lines invoked in different paths, etc.
+
+30
+00:00:50,200 --> 00:00:51,880
+Then the know-it-all will surely start typing away on the keyboard
+
+31
+00:00:51,880 --> 00:00:54,580
+If you don't even understand such basic knowledge, you'd better not learn AI.
+
+32
+00:00:54,580 --> 00:00:55,460
+What I want to say is
+
+33
+00:00:55,460 --> 00:00:57,660
+Don't forget you also started as a beginner
+
+34
+00:00:57,660 --> 00:00:59,560
+Stop it, Ah Dong, watch your words.
+
+35
+00:00:59,560 --> 00:01:01,160
+After mastering basic computer operations
+
+36
+00:01:01,160 --> 00:01:02,840
+You also need to grasp the basic principles of AI.
+
+37
+00:01:02,840 --> 00:01:06,320
+At the very least, you need to understand what those frequently mentioned terms and tools are actually used for.
+
+38
+00:01:06,320 --> 00:01:08,080
+I've covered this in detail in my previous two videos
+
+39
+00:01:08,080 --> 00:01:10,120
+Friends who haven't watched it are recommended to go back and take a look
+
+40
+00:01:10,120 --> 00:01:11,880
+Of course, what I said is actually quite simple
+
+41
+00:01:11,880 --> 00:01:13,700
+But there's really a lot to learn
+
+42
+00:01:13,700 --> 00:01:16,100
+In the past, I would have thought there was indeed a threshold.
+
+43
+00:01:16,100 --> 00:01:17,900
+But now with various chatbot products available
+
+44
+00:01:17,900 --> 00:01:20,280
+The acquisition of Knowledge is really not too easy
+
+45
+00:01:20,280 --> 00:01:22,500
+I highly recommend everyone develop the habit of using Doubao
+
+46
+00:01:22,500 --> 00:01:25,740
+I recommend it because its overall capabilities are truly top-tier in the country.
+
+47
+00:01:25,740 --> 00:01:26,980
+Of course, if you have the capability, I would recommend Gemini even more.
+
+48
+00:01:26,980 --> 00:01:28,100
+I recommend GEMINI more
+
+49
+00:01:28,100 --> 00:01:29,480
+Newcomers don't need to force themselves
+
+50
+00:01:29,480 --> 00:01:31,500
+It's actually sufficient to make good use of domestic tools first
+
+51
+00:01:31,500 --> 00:01:34,320
+Alright, once you've grasped the theory, it's time to start practicing.
+
+52
+00:01:34,320 --> 00:01:36,180
+How my AI workstation was built
+
+53
+00:01:36,180 --> 00:01:38,620
+It has been discussed in great detail in the previous video.
+
+54
+00:01:38,620 --> 00:01:40,100
+Here I want to delve a bit deeper
+
+55
+00:01:40,100 --> 00:01:42,460
+that is how to develop tools and build confidence
+
+56
+00:01:42,460 --> 00:01:44,000
+Developing tools is actually quite simple
+
+57
+00:01:44,000 --> 00:01:45,700
+Communicate with the Agent using natural language
+
+58
+00:01:45,700 --> 00:01:47,380
+The agent I use is Claude Code
+
+59
+00:01:47,380 --> 00:01:49,760
+Newbies shouldn't chase after any Skills at the beginning
+
+60
+00:01:49,760 --> 00:01:50,860
+what MCP tool
+
+61
+00:01:50,860 --> 00:01:52,080
+First, align with your own needs
+
+62
+00:01:52,080 --> 00:01:53,940
+develop a small tool that can help yourself
+
+63
+00:01:53,940 --> 00:01:56,320
+For example, let's start by building an AI news aggregation tool
+
+64
+00:01:56,320 --> 00:01:57,120
+No need to make it too complicated
+
+65
+00:01:57,120 --> 00:01:58,580
+Just set up 3 to 5 news sources.
+
+66
+00:01:58,580 --> 00:01:59,680
+Which news sources are better
+
+67
+00:01:59,680 --> 00:02:01,480
+You can first ask Deepseek or Doubao
+
+68
+00:02:01,480 --> 00:02:03,340
+After asking, go into the Agent and tell it
+
+69
+00:02:03,340 --> 00:02:05,200
+I want to create an automated news gathering tool
+
+70
+00:02:05,200 --> 00:02:06,700
+then clearly articulate the specific requirements
+
+71
+00:02:06,700 --> 00:02:07,860
+If you don't know how to articulate the specific requirements
+
+72
+00:02:07,860 --> 00:02:09,860
+go back to Deepseek
+
+73
+00:02:09,860 --> 00:02:11,320
+Ask him I want to make a news search tool
+
+74
+00:02:11,320 --> 00:02:13,160
+but I don't know how to describe my needs
+
+75
+00:02:13,160 --> 00:02:13,780
+help me
+
+76
+00:02:13,780 --> 00:02:16,360
+Just treat it like a mentor or a partner to chat with
+
+77
+00:02:16,360 --> 00:02:18,000
+As you chat, the requirements become clearer
+
+78
+00:02:18,000 --> 00:02:19,500
+Then go back to the Agent and let it do the work
+
+79
+00:02:19,500 --> 00:02:21,740
+As you keep working on it, something decent starts to take shape.
+
+80
+00:02:21,740 --> 00:02:23,920
+Then it's all about continuous improvement and optimization.
+
+81
+00:02:23,920 --> 00:02:25,440
+face difficulties and solve them
+
+82
+00:02:25,440 --> 00:02:27,500
+For example, I created a news scraping tool for myself.
+
+83
+00:02:27,500 --> 00:02:29,420
+and a tool for automatically extracting video transcripts
+
+84
+00:02:29,420 --> 00:02:31,920
+Simply put, when you personally create something that works,
+
+85
+00:02:31,920 --> 00:02:33,560
+the exhilarating feeling brought by efficiency improvement
+
+86
+00:02:33,560 --> 00:02:35,140
+more effective than watching tutorials 10,000 times
+
+87
+00:02:35,140 --> 00:02:37,090
+This is the real motivation to keep going
+
+88
+00:02:37,090 --> 00:02:38,590
+The third step sounds simple
+
+89
+00:02:38,590 --> 00:02:39,670
+but it also tests human nature the most
+
+90
+00:02:39,670 --> 00:02:41,040
+That is persistence in improvement
+
+91
+00:02:41,040 --> 00:02:44,080
+For example, I make it a daily routine to spend a fixed amount of time browsing GitHub and watching videos from top-tier creators.
+
+92
+00:02:44,080 --> 00:02:45,200
+and high-quality blogger videos
+
+93
+00:02:45,200 --> 00:02:47,760
+Then I would find ways to integrate those scattered tools together
+
+94
+00:02:47,760 --> 00:02:49,480
+continuously pushing the limits of new technologies
+
+95
+00:02:49,480 --> 00:02:51,980
+
+
+96
+00:02:51,980 --> 00:02:53,140
+but it does no harm and only good
+
+97
+00:02:53,140 --> 00:02:55,140
+Because I know I'm not just learning tools
+
+98
+00:02:55,140 --> 00:02:57,180
+it is also training my ability to integrate information
+
+99
+00:02:57,180 --> 00:02:58,260
+hands-on practice ability
+
+100
+00:02:58,260 --> 00:02:59,670
+and the topic selection ability for self-media
+
+101
+00:02:59,670 --> 00:03:02,110
+Additionally, I have one more output component than the average person.
+
+102
+00:03:02,110 --> 00:03:02,950
+that is, making videos
+
+103
+00:03:02,950 --> 00:03:04,910
+But this thing can't be mastered quickly.
+
+104
+00:03:04,910 --> 00:03:07,140
+I don't recommend pushing yourself this hard at the beginning
+
+105
+00:03:07,140 --> 00:03:08,280
+but if you can share your insights and achievements with others after learning
+
+106
+00:03:08,280 --> 00:03:10,500
+share your insights and achievements with those around you
+
+107
+00:03:10,500 --> 00:03:12,480
+It will definitely be a huge help for learning.
+
+108
+00:03:12,480 --> 00:03:13,340
+Don't doubt me
+
+109
+00:03:13,340 --> 00:03:15,100
+This is what the extremely famous Feynman learning technique says
+
+110
+00:03:15,100 --> 00:03:16,500
+Huh? No!
+
+111
+00:03:16,500 --> 00:03:20,040
+Aren't these three steps just about starting with theory, then practice, and finally persistence?
+
+112
+00:03:20,040 --> 00:03:21,600
+Is there really no shortcut?
+
+113
+00:03:21,600 --> 00:03:22,360
+Actually, there is.
+
+114
+00:03:22,360 --> 00:03:24,420
+but it's probably not the kind most people want to hear
+
+115
+00:03:24,420 --> 00:03:25,080
+If you don't believe me, let me talk to you about
+
+116
+00:03:25,080 --> 00:03:27,500
+the most fundamental trick to learning
+
+117
+00:03:27,500 --> 00:03:28,380
+that is, the mental approach
+
+118
+00:03:28,380 --> 00:03:29,320
+Let me start with a bold statement
+
+119
+00:03:29,320 --> 00:03:30,580
+Mindset is a hundred million times more important than methods
+
+120
+00:03:30,580 --> 00:03:31,180
+100 million copies
+
+121
+00:03:31,180 --> 00:03:32,680
+If this logic doesn't click
+
+122
+00:03:32,680 --> 00:03:33,960
+even if you're given 10,000 methods
+
+123
+00:03:33,960 --> 00:03:35,800
+in the end, it still can't be executed
+
+124
+00:03:35,800 --> 00:03:38,600
+And the core of the mindset is, you have to ask yourself honestly
+
+125
+00:03:38,600 --> 00:03:40,160
+What is the purpose of learning AI?
+
+126
+00:03:40,160 --> 00:03:42,360
+If your answer is 'learning AI is to make money'
+
+127
+00:03:42,360 --> 00:03:44,100
+then there's no need to read the following content
+
+128
+00:03:44,100 --> 00:03:46,520
+because making money should be the outcome, not the goal
+
+129
+00:03:46,520 --> 00:03:48,180
+What you need to do is identify the needs
+
+130
+00:03:48,180 --> 00:03:50,100
+then learn AI to meet the needs
+
+131
+00:03:50,100 --> 00:03:51,940
+The second point of the mindset is to understand
+
+132
+00:03:51,940 --> 00:03:54,560
+The only person you can truly rely on in this world is yourself.
+
+133
+00:03:54,560 --> 00:03:56,520
+You must develop the ability to solve problems independently
+
+134
+00:03:56,520 --> 00:03:57,940
+This used to be a hurdle
+
+135
+00:03:57,940 --> 00:04:00,120
+Now there are various AI chatbot tools
+
+136
+00:04:00,120 --> 00:04:01,420
+is really no longer a problem at all
+
+137
+00:04:01,420 --> 00:04:04,660
+I spent these 4 months completely immersed in Gemini, practically inseparable from it.
+
+138
+00:04:04,660 --> 00:04:07,530
+It's now even closer to me than my wife is to me.
+
+139
+00:04:07,530 --> 00:04:09,050
+The third point of the mindset approach
+
+140
+00:04:09,050 --> 00:04:11,060
+it is crucial to recognize the drawbacks brought by grand narratives
+
+141
+00:04:11,060 --> 00:04:13,320
+like those contents talking about energy and the future of humanity
+
+142
+00:04:13,320 --> 00:04:14,900
+Just take it as entertainment, don't take it too seriously
+
+143
+00:04:14,900 --> 00:04:17,399
+What difference does it make if we ordinary people know that energy is important?
+
+144
+00:04:17,399 --> 00:04:18,959
+Could you possibly work on nuclear fusion?
+
+145
+00:04:18,959 --> 00:04:20,119
+Watching too much of this kind of content will only make your 'eyes grow higher'
+
+146
+00:04:20,119 --> 00:04:21,699
+only makes your eyes grow higher
+
+147
+00:04:21,699 --> 00:04:22,720
+"hands getting lower"
+
+148
+00:04:22,720 --> 00:04:24,920
+Acknowledging your ordinariness is the beginning of becoming extraordinary.
+
+149
+00:04:24,920 --> 00:04:27,260
+Stay humble and focus on your current growth
+
+150
+00:04:27,260 --> 00:04:28,570
+is the first step to becoming stronger
+
+151
+00:04:28,570 --> 00:04:29,970
+The fourth point of the mental approach
+
+152
+00:04:29,970 --> 00:04:32,310
+is to always believe that you are the most important product
+
+153
+00:04:32,310 --> 00:04:35,120
+All learning and improvement must be centered around building yourself up.
+
+154
+00:04:35,120 --> 00:04:37,200
+If you're skilled, using tools can make you even more powerful.
+
+155
+00:04:37,200 --> 00:04:39,660
+If you're weak, tools in your hands are just a pile of scrap metal
+
+156
+00:04:39,660 --> 00:04:41,680
+Don't expect tools to completely transform you.
+
+157
+00:04:41,680 --> 00:04:44,400
+I know and believe that there will be a day when AI replaces all of humanity
+
+158
+00:04:44,400 --> 00:04:45,640
+But if you just lie flat now
+
+159
+00:04:45,640 --> 00:04:47,760
+I'm afraid I won't even catch a glimpse of the Great Harmony world
+
+160
+00:04:49,720 --> 00:04:52,200
+OK, that's all for this video
+
+161
+00:04:52,200 --> 00:04:54,520
+I'm AK, dedicated to popularizing AI through UGC Anime, smooth sailing and it's already six o'clock!
+
+162
+00:04:54,520 --> 00:04:56,140
+Off work!~
+

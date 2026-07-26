@@ -1,0 +1,876 @@
+1
+00:00:01,560 --> 00:00:03,050
+Hey everyone, what's up?
+
+2
+00:00:03,050 --> 00:00:03,830
+Welcome back.
+
+3
+00:00:03,830 --> 00:00:06,930
+Alright, so just now, we demonstrated how to work with our program.
+
+4
+00:00:06,930 --> 00:00:08,109
+to add new features,
+
+5
+00:00:08,109 --> 00:00:11,240
+and created a new save point for it. Alright,
+
+6
+00:00:11,240 --> 00:00:13,000
+Alright, so next, let me show you guys a demonstration.
+
+7
+00:00:13,000 --> 00:00:15,100
+So, what if you don't have a save point?
+
+8
+00:00:15,100 --> 00:00:18,760
+So, how do we go about rolling back? Alright.
+
+9
+00:00:18,760 --> 00:00:20,780
+Alright, so let's say we have a new requirement.
+
+10
+00:00:20,780 --> 00:00:23,700
+So, let's say we want to change the name of this app.
+
+11
+00:00:23,700 --> 00:00:27,520
+from "Heima Bookkeeping" to just "Bookkeeping App".
+
+12
+00:00:27,520 --> 00:00:27,840
+Alright.
+
+13
+00:00:27,840 --> 00:00:29,500
+Let's just go ahead and change the name.
+
+14
+00:00:29,500 --> 00:00:33,280
+And finally, we'll roll it back to see what the result is. Alright.
+
+15
+00:00:33,280 --> 00:00:34,080
+Alright, so first things first,
+
+16
+00:00:34,080 --> 00:00:37,000
+First, let's give our model a request.
+
+17
+00:00:37,000 --> 00:00:41,740
+So, the request is: please help me change the name of the app.
+
+18
+00:00:41,740 --> 00:00:45,780
+change the name to 'Accounting App'.
+
+19
+00:00:49,460 --> 00:00:51,580
+Alright, so after we've given it our request,
+
+20
+00:00:51,580 --> 00:00:55,080
+So, what it'll normally do is start writing the code for us.
+
+21
+00:00:55,080 --> 00:00:56,620
+So, after the code modification is done,
+
+22
+00:00:56,620 --> 00:00:57,720
+and then recompile it.
+
+23
+00:00:57,720 --> 00:01:00,110
+and run our program again.
+
+24
+00:01:00,110 --> 00:01:02,310
+And with that, the changes will take effect.
+
+25
+00:01:02,310 --> 00:01:05,720
+Alright, so first, I'll let it go ahead and apply this change for us.
+
+26
+00:01:05,720 --> 00:01:10,080
+And now, let's go ahead and perform the rollback.
+
+27
+00:01:13,020 --> 00:01:15,260
+Alright, it's now asking me if I want to allow the command.
+
+28
+00:01:15,260 --> 00:01:16,020
+So, normally speaking,
+
+29
+00:01:16,020 --> 00:01:19,660
+So, just allow it to execute the command, and you're good to go.
+
+30
+00:01:25,740 --> 00:01:29,140
+Alright, as you can see, it's all done here.
+
+31
+00:01:29,140 --> 00:01:32,180
+It has modified all the corresponding files for us.
+
+32
+00:01:32,180 --> 00:01:33,440
+the corresponding name.
+
+33
+00:01:33,440 --> 00:01:34,200
+And then it asks me,
+
+34
+00:01:34,200 --> 00:01:37,740
+Do you also want to change the name of the 'Heima Accounting' folder?
+
+35
+00:01:37,740 --> 00:01:39,060
+Alright, so we don't need this.
+
+36
+00:01:39,060 --> 00:01:41,340
+So, our folder will still be called 'Heima Accounting App'.
+
+37
+00:01:41,340 --> 00:01:44,300
+Alright, so let's tell it that we don't need to do that.
+
+38
+00:01:46,040 --> 00:01:46,600
+Alright.
+
+39
+00:01:46,600 --> 00:01:48,840
+So, once the renaming is done,
+
+40
+00:01:48,840 --> 00:01:51,580
+All we need to do is recompile and run it to see the changes.
+
+41
+00:01:51,580 --> 00:01:53,500
+But before we check out the results,
+
+42
+00:01:53,500 --> 00:01:56,860
+First, we can use a feature provided by CD code called DF.
+
+43
+00:01:56,860 --> 00:02:01,250
+a command to help us see exactly what changes have been made.
+
+44
+00:02:01,250 --> 00:02:03,070
+So, this is a slash command.
+
+45
+00:02:03,070 --> 00:02:05,930
+Just type in /DIFF, and you can see the changes.
+
+46
+00:02:05,930 --> 00:02:07,130
+But you'll notice something.
+
+47
+00:02:07,130 --> 00:02:09,720
+So, right here in our current VS Code...
+
+48
+00:02:09,720 --> 00:02:11,840
+it actually didn't find anything called 'DIFF'.
+
+49
+00:02:11,840 --> 00:02:12,660
+the corresponding command.
+
+50
+00:02:12,660 --> 00:02:13,160
+So that means...
+
+51
+00:02:13,160 --> 00:02:15,600
+The thing is, this command is actually within the plugin we're currently using.
+
+52
+00:02:15,600 --> 00:02:16,840
+so it can't be executed.
+
+53
+00:02:16,840 --> 00:02:18,940
+So, if we can't execute it, does that mean it just won't run at all?
+
+54
+00:02:18,940 --> 00:02:20,220
+Oh, but that's not the case at all.
+
+55
+00:02:20,220 --> 00:02:22,940
+So, besides running it right here in VS Code,
+
+56
+00:02:22,940 --> 00:02:24,340
+besides our VS Code,
+
+57
+00:02:24,340 --> 00:02:25,000
+Now, do you guys remember,
+
+58
+00:02:25,000 --> 00:02:26,520
+Actually, in our terminal,
+
+59
+00:02:26,520 --> 00:02:28,920
+can we also run our CD code from there?
+
+60
+00:02:28,920 --> 00:02:30,500
+Alright, so what we need to do is pretty simple.
+
+61
+00:02:30,500 --> 00:02:32,920
+Alright, so first, let's go into our Heima...
+
+62
+00:02:32,920 --> 00:02:34,500
+the folder for the Accounting App.
+
+63
+00:02:34,500 --> 00:02:34,820
+Alright.
+
+64
+00:02:34,820 --> 00:02:36,280
+and find the Heima Accounting app.
+
+65
+00:02:36,280 --> 00:02:38,060
+Then, while in this folder, hold down the Shift key.
+
+66
+00:02:38,060 --> 00:02:39,840
+and then right-click while holding down the Shift key.
+
+67
+00:02:39,840 --> 00:02:40,720
+and then right-click.
+
+68
+00:02:40,720 --> 00:02:43,660
+And then, select the option that says 'Open in Terminal'.
+
+69
+00:02:43,660 --> 00:02:43,940
+And just like that,
+
+70
+00:02:43,940 --> 00:02:46,720
+And just like that, we're inside this folder in the terminal.
+
+71
+00:02:46,720 --> 00:02:50,260
+And now, right here in the terminal, we're going to run the 'cloud' command.
+
+72
+00:02:50,260 --> 00:02:53,860
+And just like that, we can get back to the control interface right here in the terminal.
+
+73
+00:02:53,860 --> 00:02:57,300
+And then, inside there, you type in a forward slash, DIFF. Okay.
+
+74
+00:02:57,300 --> 00:02:59,460
+As you can see, right here in our current terminal,
+
+75
+00:02:59,460 --> 00:03:00,700
+so it supports this command.
+
+76
+00:03:00,700 --> 00:03:02,660
+So, let's see what exactly has been modified.
+
+77
+00:03:02,660 --> 00:03:03,900
+and see what the differences are.
+
+78
+00:03:03,900 --> 00:03:06,130
+Alright, let's hit Enter and run it.
+
+79
+00:03:06,130 --> 00:03:08,690
+Alright, so as you can see, it's actually analyzed everything for us.
+
+80
+00:03:08,690 --> 00:03:10,960
+So, a total of eight files were modified.
+
+81
+00:03:10,960 --> 00:03:14,040
+As you can see, these are all the files that were modified. Okay,
+
+82
+00:03:14,040 --> 00:03:16,660
+So, let's say we select this one, the first one, 'cloud'.
+
+83
+00:03:16,660 --> 00:03:18,660
+So, let's click on this MD file and go inside.
+
+84
+00:03:18,660 --> 00:03:19,700
+So, as you can see,
+
+85
+00:03:19,700 --> 00:03:22,440
+He's gone and removed the 'Heima Bookkeeping' part from here.
+
+86
+00:03:22,440 --> 00:03:24,900
+Then, we'll add a plus sign and call it 'Accounting App'.
+
+87
+00:03:24,900 --> 00:03:26,380
+Alright, so this is the change it made.
+
+88
+00:03:26,380 --> 00:03:29,400
+Or, we can just press this key here, the ESC key.
+
+89
+00:03:29,400 --> 00:03:30,240
+Let's roll it back.
+
+90
+00:03:30,240 --> 00:03:33,260
+Alright, let's see what changes were made to this main.js file. Okay, let's select it.
+
+91
+00:03:33,260 --> 00:03:36,000
+So, you can see right here, the 'title' has been changed, hasn't it?
+
+92
+00:03:36,000 --> 00:03:37,700
+We changed 'Heima Accounting' to 'Accounting App'.
+
+93
+00:03:37,700 --> 00:03:38,340
+And by the same token,
+
+94
+00:03:38,340 --> 00:03:41,329
+This lets you check other files to see exactly what changes were made.
+
+95
+00:03:41,329 --> 00:03:44,509
+So, this is a command it provides called DIFF.
+
+96
+00:03:44,509 --> 00:03:45,249
+So, with this command,
+
+97
+00:03:45,249 --> 00:03:46,869
+So, let's take a closer look.
+
+98
+00:03:46,869 --> 00:03:50,760
+and see exactly what parts of the code were modified in this commit.
+
+99
+00:03:50,760 --> 00:03:51,960
+And of course, we also noticed that...
+
+100
+00:03:51,960 --> 00:03:53,720
+Actually, this command can only be used within the terminal.
+
+101
+00:03:53,720 --> 00:03:55,500
+So, you can only use this kind of thing in the terminal.
+
+102
+00:03:55,500 --> 00:03:56,860
+So, whenever you need to use it,
+
+103
+00:03:56,860 --> 00:03:59,780
+you'll need to use the terminal to get into our CD code.
+
+104
+00:03:59,780 --> 00:04:00,020
+Alright.
+
+105
+00:04:00,020 --> 00:04:01,200
+Alright, let's minimize this.
+
+106
+00:04:01,200 --> 00:04:03,500
+So, let's quickly use the DIFF command.
+
+107
+00:04:03,500 --> 00:04:05,320
+to see the corresponding changes.
+
+108
+00:04:05,320 --> 00:04:06,520
+Alright, let's go ahead and preview it.
+
+109
+00:04:06,520 --> 00:04:10,140
+Alright, now let's say, "Run the program for me."
+
+110
+00:04:10,140 --> 00:04:11,500
+Alright, the code is written.
+
+111
+00:04:11,500 --> 00:04:12,420
+Run it for me.
+
+112
+00:04:12,420 --> 00:04:15,500
+Let's see how it looks.
+
+113
+00:04:16,940 --> 00:04:19,060
+Alright, the program is up and running.
+
+114
+00:04:19,060 --> 00:04:21,670
+So now, the name of our program has been changed to...
+
+115
+00:04:21,670 --> 00:04:23,350
+to 'Accounting App'.
+
+116
+00:04:23,350 --> 00:04:25,030
+So, the modification is now complete.
+
+117
+00:04:25,030 --> 00:04:25,950
+Alright, so once that's done,
+
+118
+00:04:25,950 --> 00:04:27,050
+Let's go ahead and close this program.
+
+119
+00:04:27,050 --> 00:04:30,180
+But then, all of a sudden, I'm like, 'Ah, you know what? Forget it.'
+
+120
+00:04:30,180 --> 00:04:33,900
+So, I'm not really happy with the change I just made, right?
+
+121
+00:04:33,900 --> 00:04:34,920
+I'm not really happy with it.
+
+122
+00:04:34,920 --> 00:04:37,710
+You know what, I think I'll just change it back to 'Heima Bookkeeping'.
+
+123
+00:04:37,710 --> 00:04:38,850
+So, how do we revert it?
+
+124
+00:04:38,850 --> 00:04:39,890
+So, we might be thinking,
+
+125
+00:04:39,890 --> 00:04:43,260
+We can roll back to what's called a checkpoint.
+
+126
+00:04:43,260 --> 00:04:45,060
+Or, as we call it, a save point, right?
+
+127
+00:04:45,060 --> 00:04:48,030
+But what if you've already gone through multiple rounds of changes in the meantime?
+
+128
+00:04:48,030 --> 00:04:49,670
+you have to go back to that save point.
+
+129
+00:04:49,670 --> 00:04:52,860
+This means you're rolling back all the changes you've made, all at once.
+
+130
+00:04:52,860 --> 00:04:56,660
+So, what if I say, 'Hey, I only want to revert this one specific change?'
+
+131
+00:04:56,660 --> 00:04:57,520
+So, what's the solution?
+
+132
+00:04:57,520 --> 00:05:00,830
+Alright, so under normal circumstances, we can just double-tap the ESC key.
+
+133
+00:05:00,830 --> 00:05:03,090
+As you can see, right here, there's an option called 'rewind', isn't there?
+
+134
+00:05:03,090 --> 00:05:05,580
+Alright, so after we click on 'rewind'...
+
+135
+00:05:05,580 --> 00:05:08,760
+As you can see, there are a whole bunch of them in here.
+
+136
+00:05:08,760 --> 00:05:12,160
+all the inputs from our previous chats with it.
+
+137
+00:05:12,160 --> 00:05:14,240
+So, what you can actually do is just double-click the ESC key.
+
+138
+00:05:14,240 --> 00:05:15,130
+Let me show you how it works again.
+
+139
+00:05:15,130 --> 00:05:18,190
+Double-tapping the ESC key will open up this chat box.
+
+140
+00:05:18,190 --> 00:05:21,729
+And then, you can just find any point you want to revert back to.
+
+141
+00:05:21,729 --> 00:05:25,009
+For example, let's say we had a request like, 'Please help me change the app's name...'
+
+142
+00:05:25,009 --> 00:05:26,509
+change it to 'Accounting App'.
+
+143
+00:05:26,509 --> 00:05:29,000
+Alright, so we can select this point to roll it back.
+
+144
+00:05:29,000 --> 00:05:29,920
+Alright, we've selected this point.
+
+145
+00:05:29,920 --> 00:05:33,470
+And it'll tell you that line 64 is going to be deleted.
+
+146
+00:05:33,470 --> 00:05:35,410
+and 64 lines will be added.
+
+147
+00:05:35,410 --> 00:05:37,330
+And eight files will be affected.
+
+148
+00:05:37,330 --> 00:05:40,030
+So basically, what this does is it rolls it back to...
+
+149
+00:05:40,030 --> 00:05:42,420
+to that exact point in time we just mentioned.
+
+150
+00:05:42,420 --> 00:05:44,340
+And then, you just click 'Continue'.
+
+151
+00:05:45,340 --> 00:05:45,870
+Alright.
+
+152
+00:05:45,870 --> 00:05:47,590
+Alright, so after clicking 'CONTINUE'...
+
+153
+00:05:47,590 --> 00:05:49,360
+Alright, so now, take a look at our code.
+
+154
+00:05:49,360 --> 00:05:50,960
+So it's basically been changed back.
+
+155
+00:05:50,960 --> 00:05:53,800
+And look, see how it's also printed out the prompt over here?
+
+156
+00:05:53,800 --> 00:05:57,830
+But what it did was roll back to the exact moment right before we hit enter.
+
+157
+00:05:57,830 --> 00:06:01,050
+It's like we just used a time-travel feature to go back.
+
+158
+00:06:01,050 --> 00:06:03,450
+We just rewound the timeline a bit.
+
+159
+00:06:03,450 --> 00:06:03,730
+So...
+
+160
+00:06:03,730 --> 00:06:04,539
+We've rewound it.
+
+161
+00:06:04,539 --> 00:06:05,779
+And then, I just deleted it.
+
+162
+00:06:05,779 --> 00:06:07,359
+It's like I never even asked the question.
+
+163
+00:06:07,359 --> 00:06:08,339
+So it's like that question never happened.
+
+164
+00:06:08,339 --> 00:06:10,840
+So, we're all wondering, did the code actually get rolled back?
+
+165
+00:06:10,840 --> 00:06:11,880
+And yes, it actually did roll back.
+
+166
+00:06:11,880 --> 00:06:13,820
+Alright, let's open this file called cloud.md.
+
+167
+00:06:13,820 --> 00:06:17,400
+So, for example, remember how at the very top there was that one change?
+
+168
+00:06:17,400 --> 00:06:18,180
+There was a change.
+
+169
+00:06:18,180 --> 00:06:19,940
+We changed it to 'Bookkeeping IPP'.
+
+170
+00:06:19,940 --> 00:06:22,380
+But look, it's back to being called 'Heima Accounting' now, isn't it?
+
+171
+00:06:22,380 --> 00:06:23,440
+Ah, it's back to 'Hei Ma Accounting'.
+
+172
+00:06:23,440 --> 00:06:25,220
+So, for example, let's run it again.
+
+173
+00:06:25,220 --> 00:06:28,380
+For instance, let's run the program.
+
+174
+00:06:30,640 --> 00:06:31,200
+Alright.
+
+175
+00:06:31,200 --> 00:06:32,840
+Alright, so after we run it again...
+
+176
+00:06:32,840 --> 00:06:34,240
+Alright, so let's go back and take a look.
+
+177
+00:06:34,240 --> 00:06:37,360
+See? Our app name has changed back to 'Heima Accounting'.
+
+178
+00:06:37,360 --> 00:06:39,600
+and not the 'Accounting App' we just saw, right?
+
+179
+00:06:39,600 --> 00:06:41,880
+So, that means our current rollback action...
+
+180
+00:06:41,880 --> 00:06:43,520
+So, that means it was a success. Alright.
+
+181
+00:06:43,520 --> 00:06:46,700
+So, that's the built-in rewind feature we have in CD code.
+
+182
+00:06:46,700 --> 00:06:50,740
+So, if you don't want to mess with rolling back to a specific save point,
+
+183
+00:06:50,740 --> 00:06:54,830
+So, you can just double-press ESC right here in the Clerk Code interface.
+
+184
+00:06:54,830 --> 00:06:57,919
+and you can find any point you want to revert to.
+
+185
+00:06:57,919 --> 00:06:58,399
+Alright.
+
+186
+00:06:58,399 --> 00:07:01,519
+So, for example, look, I'm going to click this one, the one that says 'Collapse Context'.
+
+187
+00:07:01,519 --> 00:07:02,239
+Both times, it's this one.
+
+188
+00:07:02,239 --> 00:07:03,319
+So, if I click on it,
+
+189
+00:07:03,319 --> 00:07:05,879
+it will roll back our code to
+
+190
+00:07:05,879 --> 00:07:11,400
+It takes you back to the state you were in right before you hit enter after typing that text.
+
+191
+00:07:11,400 --> 00:07:13,040
+So, let's say you've just finished typing this line of code,
+
+192
+00:07:13,040 --> 00:07:15,550
+but you haven't hit Enter to run it yet.
+
+193
+00:07:15,550 --> 00:07:17,950
+and it'll just revert you back to that exact state.
+
+194
+00:07:17,950 --> 00:07:20,990
+So, this is a built-in feature in Control Code called 'rewind'.
+
+195
+00:07:20,990 --> 00:07:21,870
+a command.
+
+196
+00:07:21,870 --> 00:07:24,540
+And the shortcut for it is just double-tapping the ESC key.
+
+197
+00:07:24,540 --> 00:07:25,100
+And by the same token,
+
+198
+00:07:25,100 --> 00:07:27,460
+And this command also works in our terminal.
+
+199
+00:07:27,460 --> 00:07:30,220
+So, what this means is, if you're not using it inside VS Code...
+
+200
+00:07:30,220 --> 00:07:32,720
+For example, let's say we press ESC to close it, alright.
+
+201
+00:07:32,720 --> 00:07:35,620
+So, if you're not working inside of, you know, VS Code,
+
+202
+00:07:35,620 --> 00:07:37,060
+but instead, you're using it in this terminal.
+
+203
+00:07:37,060 --> 00:07:37,920
+that's also supported.
+
+204
+00:07:37,920 --> 00:07:41,100
+So, just like we said, double-press the ESC key.
+
+205
+00:07:41,100 --> 00:07:42,660
+And right here, you'll see it has this feature called 'rewind'.
+
+206
+00:07:42,660 --> 00:07:45,120
+But since they're not in the same session...
+
+207
+00:07:45,120 --> 00:07:47,480
+So, as you can see, it says 'nothing to revert' here.
+
+208
+00:07:47,480 --> 00:07:49,160
+That's because they're not using the same session.
+
+209
+00:07:49,160 --> 00:07:52,080
+But, whether we're talking about our VS Code or the terminal,
+
+210
+00:07:52,080 --> 00:07:54,920
+In fact, they all support this command called 'rewind'.
+
+211
+00:07:54,920 --> 00:07:56,280
+So, whenever we need to,
+
+212
+00:07:56,280 --> 00:07:58,140
+you can just double-press the ESC key.
+
+213
+00:07:58,140 --> 00:08:01,400
+to roll back our changes however we want.
+
+214
+00:08:01,400 --> 00:08:02,340
+Alright, OK.
+
+215
+00:08:02,340 --> 00:08:03,840
+Alright, so that was a quick demonstration for you all.
+
+216
+00:08:03,840 --> 00:08:07,980
+to perform session-level rollbacks within our coding environment.
+
+217
+00:08:07,980 --> 00:08:09,500
+Alright, so once that's done,
+
+218
+00:08:09,500 --> 00:08:10,780
+Alright, let's save that.
+
+219
+00:08:10,780 --> 00:08:12,940
+See you in the next video.
+

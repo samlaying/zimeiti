@@ -1,0 +1,524 @@
+1
+00:00:01,160 --> 00:00:02,760
+Alright, in this lesson, we're going to talk about
+
+2
+00:00:02,760 --> 00:00:06,140
+This is about the initial processing of speech recognition.
+
+3
+00:00:06,140 --> 00:00:08,959
+and how it relates to voice activation
+
+4
+00:00:08,959 --> 00:00:10,599
+which is pretty much the same, by the way
+
+5
+00:00:10,599 --> 00:00:13,570
+Previously, we sent the audio directly to the backend
+
+6
+00:00:13,570 --> 00:00:16,830
+without any processing
+
+7
+00:00:16,830 --> 00:00:19,830
+but we can do some preprocessing before sending it to the backend
+
+8
+00:00:19,830 --> 00:00:22,650
+First, let's create a file for
+
+9
+00:00:22,650 --> 00:00:25,110
+the initial audio processing
+
+10
+00:00:25,110 --> 00:00:27,950
+Let's put it in here
+
+11
+00:00:28,150 --> 00:00:29,270
+One is CPP
+
+12
+00:00:30,790 --> 00:00:32,950
+The other is dot H
+
+13
+00:00:35,960 --> 00:00:40,600
+Then we add a line to this simic list
+
+14
+00:00:43,040 --> 00:00:44,760
+Right here
+
+15
+00:00:47,220 --> 00:00:49,940
+Then let's write the class
+
+16
+00:00:51,020 --> 00:00:51,820
+Let's create it
+
+17
+00:00:51,820 --> 00:00:55,749
+This is the processing class
+
+18
+00:00:55,749 --> 00:00:56,749
+I'll place it here
+
+19
+00:00:58,109 --> 00:00:59,309
+I'll just copy it over.
+
+20
+00:01:00,669 --> 00:01:03,149
+Then let's modify it a bit.
+
+21
+00:01:04,239 --> 00:01:07,240
+Actually, this is quite similar to our wake-up phrase here.
+
+22
+00:01:07,240 --> 00:01:08,160
+Very similar, indeed.
+
+23
+00:01:08,160 --> 00:01:09,820
+We've covered these topics before.
+
+24
+00:01:09,820 --> 00:01:12,000
+Like this part, right?
+
+25
+00:01:12,000 --> 00:01:14,639
+All these are similar to what we've done before.
+
+26
+00:01:14,639 --> 00:01:16,559
+I've already written this part.
+
+27
+00:01:16,559 --> 00:01:17,279
+These elements, you see.
+
+28
+00:01:17,279 --> 00:01:18,059
+Let's take a look.
+
+29
+00:01:18,059 --> 00:01:19,470
+How did this come about?
+
+30
+00:01:19,470 --> 00:01:22,710
+First, these two are processed the same way as before.
+
+31
+00:01:22,710 --> 00:01:24,520
+The same way as the wake word processing.
+
+32
+00:01:24,520 --> 00:01:27,560
+Then, similarly, it needs to create a task.
+
+33
+00:01:27,560 --> 00:01:29,880
+To perform the detection, right?
+
+34
+00:01:29,880 --> 00:01:32,650
+To obtain the callback data.
+
+35
+00:01:32,650 --> 00:01:34,910
+Here, a callback is defined.
+
+36
+00:01:34,910 --> 00:01:36,190
+The data will be returned via the callback.
+
+37
+00:01:36,190 --> 00:01:37,950
+Then this is where you set up the callback.
+
+38
+00:01:37,950 --> 00:01:39,770
+Set the callback for this
+
+39
+00:01:39,970 --> 00:01:42,130
+Then we have this constructor.
+
+40
+00:01:42,130 --> 00:01:45,550
+Similarly, it also takes the audio instance as a parameter.
+
+41
+00:01:45,550 --> 00:01:49,710
+And we also define the stop and start methods.
+
+42
+00:01:49,710 --> 00:01:53,330
+We need to check if it has already been started, right?
+
+43
+00:01:53,330 --> 00:01:54,610
+Whether it is running.
+
+44
+00:01:54,610 --> 00:01:56,450
+Then here is the data.
+
+45
+00:01:56,450 --> 00:01:59,480
+And getting the size of the bit data.
+
+46
+00:01:59,480 --> 00:02:01,360
+This is quite similar to what we've seen before.
+
+47
+00:02:01,360 --> 00:02:02,900
+So, I won't go into much detail here.
+
+48
+00:02:02,900 --> 00:02:06,720
+What we need to do here is initialize it.
+
+49
+00:02:06,720 --> 00:02:09,680
+Honestly, I just copied this over.
+
+50
+00:02:10,660 --> 00:02:12,400
+When initializing, well,
+
+51
+00:02:12,400 --> 00:02:15,400
+this is the destructor function.
+
+52
+00:02:15,400 --> 00:02:18,100
+It's responsible for releasing the event group.
+
+53
+00:02:18,100 --> 00:02:21,920
+In the constructor, we pass in this parameter.
+
+54
+00:02:21,920 --> 00:02:23,360
+And then we create the event group.
+
+55
+00:02:23,360 --> 00:02:25,220
+Then we create this format.
+
+56
+00:02:25,220 --> 00:02:26,820
+This is the same as before, right?
+
+57
+00:02:26,820 --> 00:02:30,440
+This MR refers to the microphone and reference channels.
+
+58
+00:02:30,440 --> 00:02:33,520
+Here, we don't need to pass the model.
+
+59
+00:02:33,520 --> 00:02:37,180
+Then, let's set these up below.
+
+60
+00:02:37,180 --> 00:02:42,450
+The echo cancellation is set to false, so it's not being used.
+
+61
+00:02:42,450 --> 00:02:45,370
+We did use the NSS noise suppression.
+
+62
+00:02:45,370 --> 00:02:48,589
+And we used the local algorithm for it.
+
+63
+00:02:48,589 --> 00:02:50,149
+We didn't use the model-based approach.
+
+64
+00:02:50,149 --> 00:02:56,530
+Then, this activity detection is also used.
+
+65
+00:02:56,530 --> 00:02:59,190
+We can adjust the settings value later.
+
+66
+00:02:59,190 --> 00:03:00,550
+Let's not worry about this part for now.
+
+67
+00:03:00,550 --> 00:03:03,210
+We'll cover how to make changes later.
+
+68
+00:03:03,210 --> 00:03:05,850
+These were covered in previous sessions.
+
+69
+00:03:05,850 --> 00:03:08,820
+Now, looking at this part here,
+
+70
+00:03:08,820 --> 00:03:11,160
+This is still configured the same as before, right?
+
+71
+00:03:11,160 --> 00:03:12,430
+After configuration, release it.
+
+72
+00:03:12,430 --> 00:03:14,730
+Then, a task is created to proceed.
+
+73
+00:03:14,730 --> 00:03:15,890
+It's like conducting a test
+
+74
+00:03:15,890 --> 00:03:19,440
+to destroy our data for the application layer
+
+75
+00:03:19,440 --> 00:03:24,480
+then we proceed to create this task
+
+76
+00:03:24,480 --> 00:03:27,380
+we also copy this task over
+
+77
+00:03:28,180 --> 00:03:29,140
+regarding this task
+
+78
+00:03:29,140 --> 00:03:31,460
+we similarly handle it in this event group
+
+79
+00:03:31,460 --> 00:03:34,100
+to perform this bit check
+
+80
+00:03:34,100 --> 00:03:36,780
+this bit is defined here, right?
+
+81
+00:03:36,780 --> 00:03:37,840
+once we have it defined
+
+82
+00:03:37,840 --> 00:03:40,700
+After we detect it,
+
+83
+00:03:40,700 --> 00:03:43,700
+we'll proceed to fetch this data here.
+
+84
+00:03:43,700 --> 00:03:45,080
+If it's running,
+
+85
+00:03:45,080 --> 00:03:46,680
+we'll fetch the data here.
+
+86
+00:03:46,680 --> 00:03:48,120
+Upon fetching the data, we'll evaluate it.
+
+87
+00:03:48,120 --> 00:03:49,980
+Then we'll assess its callback here.
+
+88
+00:03:49,980 --> 00:03:51,040
+Regarding this callback,
+
+89
+00:03:51,040 --> 00:03:53,540
+So, if we set up the callback, right?
+
+90
+00:03:53,540 --> 00:03:55,570
+we'll process these data accordingly.
+
+91
+00:03:55,570 --> 00:04:00,630
+This data is assembled into this intelligent array in this way
+
+92
+00:04:00,630 --> 00:04:06,310
+Then, through the right-value conversion, it's passed to the callback, right?
+
+93
+00:04:06,310 --> 00:04:08,550
+This callback is a right value
+
+94
+00:04:08,550 --> 00:04:09,330
+It takes a right value as input
+
+95
+00:04:09,330 --> 00:04:13,750
+Then, this essentially serves as its task
+
+96
+00:04:13,750 --> 00:04:14,650
+Regarding the task
+
+97
+00:04:14,650 --> 00:04:18,300
+Here, we also have other methods
+
+98
+00:04:18,300 --> 00:04:19,180
+It's quite simple
+
+99
+00:04:19,180 --> 00:04:20,459
+I just copied it over
+
+100
+00:04:20,459 --> 00:04:23,060
+The other methods are relatively straightforward
+
+101
+00:04:23,060 --> 00:04:26,420
+They are basically the same as before, right?
+
+102
+00:04:26,420 --> 00:04:28,320
+To start with, let's set this up.
+
+103
+00:04:28,320 --> 00:04:30,200
+Just set this bit in the event group
+
+104
+00:04:30,200 --> 00:04:32,370
+Then to stop, you clear this bit
+
+105
+00:04:32,370 --> 00:04:35,510
+And also, check if it is running, right?
+
+106
+00:04:35,510 --> 00:04:37,590
+The bit data is exactly the same
+
+107
+00:04:37,590 --> 00:04:39,250
+Since this is identical to before, I won’t go over it
+
+108
+00:04:39,250 --> 00:04:41,330
+Because it itself, well
+
+109
+00:04:41,330 --> 00:04:45,570
+The front-end processing workflow is quite similar.
+
+110
+00:04:45,570 --> 00:04:46,290
+They are all similar.
+
+111
+00:04:46,290 --> 00:04:48,110
+Just the value here is different
+
+112
+00:04:48,110 --> 00:04:52,880
+And these are the activity detections.
+
+113
+00:04:52,880 --> 00:04:56,250
+We'll discuss the parameters in this section later.
+
+114
+00:04:56,250 --> 00:04:57,290
+What they mean.
+
+115
+00:04:57,290 --> 00:05:00,170
+We can use the local setup in the early stages.
+
+116
+00:05:00,170 --> 00:05:02,370
+This refers to the hardware side.
+
+117
+00:05:02,370 --> 00:05:02,910
+Activity detection
+
+118
+00:05:02,910 --> 00:05:06,249
+Later, we can compile it using the server-side.
+
+119
+00:05:06,249 --> 00:05:07,769
+This is relatively simple.
+
+120
+00:05:07,769 --> 00:05:11,130
+Essentially, what we're aiming for is
+
+121
+00:05:11,130 --> 00:05:12,230
+What's the principle behind it?
+
+122
+00:05:12,230 --> 00:05:17,000
+We don't have a screenshot tool.
+
+123
+00:05:18,120 --> 00:05:22,739
+Previously, our audio was
+
+124
+00:05:22,739 --> 00:05:23,959
+directly sent to the backend.
+
+125
+00:05:23,959 --> 00:05:25,660
+Now we've added an intermediate layer.
+
+126
+00:05:25,660 --> 00:05:28,100
+We've added a pre-processing step for the audio.
+
+127
+00:05:28,100 --> 00:05:29,380
+After processing, it's handed over to the backend.
+
+128
+00:05:29,380 --> 00:05:30,840
+This improves the sound quality.
+
+129
+00:05:30,840 --> 00:05:32,620
+It makes the recognition more accurate.
+
+130
+00:05:32,620 --> 00:05:36,390
+We've compiled it without any issues.
+
+131
+00:05:37,390 --> 00:05:38,900
+That's it for this lesson.
+

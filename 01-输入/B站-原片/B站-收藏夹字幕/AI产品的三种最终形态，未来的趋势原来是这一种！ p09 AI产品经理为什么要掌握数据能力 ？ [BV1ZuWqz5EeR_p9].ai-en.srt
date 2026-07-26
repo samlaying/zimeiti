@@ -1,0 +1,424 @@
+1
+00:00:00,560 --> 00:00:03,520
+Today, let's take a look at why, as an AI product manager
+
+2
+00:00:03,520 --> 00:00:05,640
+Why is it necessary to master data capabilities
+
+3
+00:00:05,640 --> 00:00:07,420
+Let's take a look at these three aspects
+
+4
+00:00:07,420 --> 00:00:10,070
+The first is from the algorithmic perspective,
+
+5
+00:00:10,070 --> 00:00:12,750
+Second, we look at it from the perspective of data-driven
+
+6
+00:00:12,750 --> 00:00:14,770
+from the perspective of model iteration
+
+7
+00:00:14,770 --> 00:00:17,800
+Third, from the perspective of utilizing data
+
+8
+00:00:17,800 --> 00:00:19,960
+Let's take a look at the first one
+
+9
+00:00:19,960 --> 00:00:22,000
+From the perspective of algorithms
+
+10
+00:00:22,000 --> 00:00:26,360
+As we know, the model is trained from data combined with algorithms
+
+11
+00:00:26,360 --> 00:00:27,580
+support our business scenarios
+
+12
+00:00:27,580 --> 00:00:30,400
+This is called AI, and if there is no data
+
+13
+00:00:30,400 --> 00:00:32,040
+we cannot train this model
+
+14
+00:00:32,040 --> 00:00:34,340
+Therefore, you can't make bricks without straw.
+
+15
+00:00:34,340 --> 00:00:35,940
+Data is very important
+
+16
+00:00:35,940 --> 00:00:38,460
+For example, if we want to develop an intent recognition model
+
+17
+00:00:38,460 --> 00:00:39,940
+So when we train this model,
+
+18
+00:00:39,940 --> 00:00:41,000
+we need data
+
+19
+00:00:41,000 --> 00:00:44,059
+Then we may need to annotate this data
+
+20
+00:00:44,059 --> 00:00:45,079
+labeled as positive
+
+21
+00:00:45,079 --> 00:00:46,439
+negative or neutral
+
+22
+00:00:46,439 --> 00:00:47,700
+For example, we have labeled 1,000 pieces
+
+23
+00:00:47,700 --> 00:00:50,140
+Then use these 1,000 pieces to train such a model.
+
+24
+00:00:50,140 --> 00:00:51,800
+The labeling for this scenario is relatively simple
+
+25
+00:00:51,800 --> 00:00:53,140
+we may not need documentation
+
+26
+00:00:53,140 --> 00:00:54,340
+However, within enterprises
+
+27
+00:00:54,340 --> 00:00:56,480
+There are many complex annotation scenarios
+
+28
+00:00:56,480 --> 00:00:58,620
+For these complex annotation scenarios
+
+29
+00:00:58,620 --> 00:01:00,180
+As an AI product manager
+
+30
+00:01:00,180 --> 00:01:02,280
+You need to output the corresponding annotation documentation.
+
+31
+00:01:02,280 --> 00:01:04,930
+This annotation document may specify
+
+32
+00:01:04,930 --> 00:01:09,610
+What are the specific labeling standards you have?
+
+33
+00:01:09,610 --> 00:01:14,040
+What is the data review process after your labeling?
+
+34
+00:01:14,040 --> 00:01:15,220
+Let's look at another example
+
+35
+00:01:15,220 --> 00:01:17,070
+Our large model requires fine-tuning.
+
+36
+00:01:17,070 --> 00:01:18,150
+For fine-tuning
+
+37
+00:01:18,150 --> 00:01:19,310
+As a product manager
+
+38
+00:01:19,310 --> 00:01:21,810
+We need to promote the implementation of the corresponding fine-tuning data.
+
+39
+00:01:21,810 --> 00:01:24,650
+Then we need to check what issues exist with this data
+
+40
+00:01:24,650 --> 00:01:26,230
+First of all, you need to understand SQL
+
+41
+00:01:26,230 --> 00:01:27,890
+Now, if you don't know SQL
+
+42
+00:01:27,890 --> 00:01:29,130
+then give you a piece of data
+
+43
+00:01:29,130 --> 00:01:30,370
+you wouldn't know how to look at it
+
+44
+00:01:30,370 --> 00:01:33,010
+For example, in this dataset
+
+45
+00:01:33,010 --> 00:01:35,390
+As you can see, there's a field here called label
+
+46
+00:01:35,390 --> 00:01:37,970
+This is the labeling for each piece of data.
+
+47
+00:01:37,970 --> 00:01:38,970
+labeled user intent
+
+48
+00:01:38,970 --> 00:01:40,850
+So do you need to write SQL
+
+49
+00:01:40,850 --> 00:01:45,099
+check the user intent in this, and there is a long
+
+50
+00:01:45,099 --> 00:01:45,919
+there is another table
+
+51
+00:01:45,919 --> 00:01:49,160
+Is it consistent with the user intent system
+
+52
+00:01:49,160 --> 00:01:50,260
+If they are inconsistent
+
+53
+00:01:50,260 --> 00:01:52,100
+then this data may be problematic
+
+54
+00:01:52,100 --> 00:01:53,220
+Additionally, you need to understand
+
+55
+00:01:53,220 --> 00:01:55,180
+how to evaluate the quality of this data
+
+56
+00:01:55,180 --> 00:01:56,740
+If you are given a set of data
+
+57
+00:01:56,740 --> 00:01:59,350
+You don't know whether this data has anomalies
+
+58
+00:01:59,350 --> 00:02:00,730
+has missing data, you are also unaware
+
+59
+00:02:00,730 --> 00:02:01,930
+you don't know if it's duplicated
+
+60
+00:02:01,930 --> 00:02:04,170
+If the data quality cannot be guaranteed
+
+61
+00:02:04,170 --> 00:02:07,490
+At that point, the algorithm engineers receive this set of data
+
+62
+00:02:07,490 --> 00:02:09,900
+the performance of the trained model will be very poor
+
+63
+00:02:09,900 --> 00:02:10,940
+Let's look at the second aspect
+
+64
+00:02:10,940 --> 00:02:13,580
+from the perspective of data-driven product iteration
+
+65
+00:02:13,580 --> 00:02:15,810
+After we launch this model
+
+66
+00:02:15,810 --> 00:02:18,410
+We need to assess how well this model performs
+
+67
+00:02:18,410 --> 00:02:20,200
+We need to break down the metrics
+
+68
+00:02:20,200 --> 00:02:22,560
+For example, still in the context of smart customer service
+
+69
+00:02:22,560 --> 00:02:25,040
+What is the accuracy of user intent recognition?
+
+70
+00:02:25,040 --> 00:02:26,960
+Has the manual transfer rate decreased?
+
+71
+00:02:26,960 --> 00:02:29,380
+what is the proportion of incorrect intents
+
+72
+00:02:29,380 --> 00:02:31,100
+Then we need to use this data
+
+73
+00:02:31,100 --> 00:02:33,600
+can identify what problems still exist in the model
+
+74
+00:02:33,600 --> 00:02:34,420
+so as to guide
+
+75
+00:02:34,420 --> 00:02:36,480
+the direction for our next iteration of the model
+
+76
+00:02:36,480 --> 00:02:39,020
+Another important role is that for R&D
+
+77
+00:02:39,020 --> 00:02:40,580
+for products, for operations
+
+78
+00:02:40,580 --> 00:02:42,660
+have their own Follow metrics
+
+79
+00:02:42,660 --> 00:02:43,740
+these metrics
+
+80
+00:02:43,740 --> 00:02:44,900
+we build a dashboard
+
+81
+00:02:44,900 --> 00:02:47,320
+facilitating all parties to align with this objective
+
+82
+00:02:47,320 --> 00:02:49,520
+Thirdly, from the perspective of utilizing data
+
+83
+00:02:49,520 --> 00:02:50,860
+We need to consider two issues
+
+84
+00:02:50,860 --> 00:02:54,320
+why many companies fail to implement AI
+
+85
+00:02:54,320 --> 00:02:56,260
+Why do some companies achieve poor implementation results
+
+86
+00:02:56,260 --> 00:02:57,860
+Let's take a look at this scenario
+
+87
+00:02:57,860 --> 00:03:00,600
+have the large model analyze
+
+88
+00:03:00,600 --> 00:03:02,209
+improvement measures for a certain production workshop
+
+89
+00:03:02,209 --> 00:03:04,429
+Now if you let the large model analyze
+
+90
+00:03:04,429 --> 00:03:07,829
+You need to provide it with granular data.
+
+91
+00:03:07,829 --> 00:03:09,509
+If you don't have data
+
+92
+00:03:09,509 --> 00:03:11,040
+It cannot find any reason
+
+93
+00:03:11,040 --> 00:03:13,959
+It can only tell you to replace the factory manager
+
+94
+00:03:13,959 --> 00:03:16,319
+So you need to provide it with data, what kind of data?
+
+95
+00:03:16,319 --> 00:03:18,759
+such as what materials
+
+96
+00:03:18,759 --> 00:03:19,799
+what process
+
+97
+00:03:19,799 --> 00:03:21,829
+factors of a certain step, etc.
+
+98
+00:03:21,829 --> 00:03:23,729
+The finer the granularity of the data, the better
+
+99
+00:03:23,729 --> 00:03:25,669
+it can then analyze
+
+100
+00:03:25,669 --> 00:03:26,690
+which part has room for improvement
+
+101
+00:03:26,690 --> 00:03:28,630
+Therefore, if we want to make good use of AI
+
+102
+00:03:28,630 --> 00:03:31,470
+the data foundation of the enterprise is crucial
+
+103
+00:03:31,470 --> 00:03:33,170
+Finally, let's summarize
+
+104
+00:03:33,170 --> 00:03:34,450
+As an AI product manager
+
+105
+00:03:34,450 --> 00:03:35,590
+We need to understand data
+
+106
+00:03:35,590 --> 00:03:37,600
+because this capability is truly crucial
+

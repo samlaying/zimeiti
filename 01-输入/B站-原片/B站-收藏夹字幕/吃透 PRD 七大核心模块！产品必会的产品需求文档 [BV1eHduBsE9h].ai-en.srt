@@ -1,0 +1,1256 @@
+1
+00:00:00,000 --> 00:00:01,720
+Today, let's talk about what a product manager does.
+
+2
+00:00:01,720 --> 00:00:04,160
+
+
+3
+00:00:04,160 --> 00:00:05,800
+So, to address the pain points that many of you have,
+
+4
+00:00:05,800 --> 00:00:07,840
+A lot of our followers have been asking about the role of a Product Manager.
+
+5
+00:00:07,840 --> 00:00:10,080
+So, what exactly are the deliverables they need to produce for their job?
+
+6
+00:00:10,080 --> 00:00:12,500
+
+
+7
+00:00:12,500 --> 00:00:13,700
+So, what exactly does it include?
+
+8
+00:00:13,700 --> 00:00:14,740
+and how to write it.
+
+9
+00:00:14,740 --> 00:00:17,140
+And with the dawn of the AI era,
+
+10
+00:00:17,140 --> 00:00:19,140
+and what kind of product design tools we can use.
+
+11
+00:00:19,140 --> 00:00:20,620
+and how it can boost our efficiency.
+
+12
+00:00:20,620 --> 00:00:23,400
+So, what are the core competencies of a product manager, exactly?
+
+13
+00:00:23,400 --> 00:00:25,700
+So in this one video, I'm going to break it all down for you.
+
+14
+00:00:25,700 --> 00:00:27,590
+Let's focus on the four key questions everyone has.
+
+15
+00:00:27,590 --> 00:00:29,670
+Alright, so let's start with the first one.
+
+16
+00:00:29,670 --> 00:00:31,970
+What are the deliverables for a Product Manager?
+
+17
+00:00:31,970 --> 00:00:35,630
+If you need to get the materials, just leave a comment in the comment section.
+
+18
+00:00:35,630 --> 00:00:36,290
+To get the materials,
+
+19
+00:00:36,290 --> 00:00:37,959
+We'll send the materials over to you.
+
+20
+00:00:37,959 --> 00:00:39,979
+The first deliverable for a product manager's job...
+
+21
+00:00:39,979 --> 00:00:42,119
+Actually, there are only two main deliverables for a product manager's job.
+
+22
+00:00:42,119 --> 00:00:43,979
+
+
+23
+00:00:43,979 --> 00:00:45,439
+and the other is the project schedule.
+
+24
+00:00:45,439 --> 00:00:47,480
+
+
+25
+00:00:47,480 --> 00:00:50,280
+
+
+26
+00:00:50,280 --> 00:00:51,580
+So, when should you start writing it?
+
+27
+00:00:51,580 --> 00:00:54,120
+and what roles I need to work with at each stage.
+
+28
+00:00:54,120 --> 00:00:55,240
+to determine what needs to be done.
+
+29
+00:00:55,240 --> 00:00:56,460
+Let's go through them one by one.
+
+30
+00:00:56,460 --> 00:00:58,340
+Alright, so in the PRD, we have the revision history.
+
+31
+00:00:58,340 --> 00:01:00,660
+And in the revision history, who is the one making these entries?
+
+32
+00:01:00,660 --> 00:01:01,980
+and when the modification was made.
+
+33
+00:01:01,980 --> 00:01:04,140
+This is mainly for the UI, R&D, and testing teams.
+
+34
+00:01:04,140 --> 00:01:05,500
+to review the changes you've made.
+
+35
+00:01:05,500 --> 00:01:06,920
+The second part is the product roadmap.
+
+36
+00:01:06,920 --> 00:01:09,340
+Whether it's our version 1.0, 2.0, or 3.0,
+
+37
+00:01:09,340 --> 00:01:11,020
+The product roadmap for each stage.
+
+38
+00:01:11,020 --> 00:01:12,760
+So, what exactly do I need to include in it?
+
+39
+00:01:12,760 --> 00:01:14,860
+Third, under this version,
+
+40
+00:01:14,860 --> 00:01:17,740
+
+
+41
+00:01:17,740 --> 00:01:19,180
+What were the pain points you were facing before?
+
+42
+00:01:19,180 --> 00:01:20,380
+So, once it's live,
+
+43
+00:01:20,380 --> 00:01:22,380
+and what are the benefits we can expect to see?
+
+44
+00:01:22,380 --> 00:01:24,540
+Whether it's an increase in sales,
+
+45
+00:01:24,540 --> 00:01:26,140
+or an increase in traffic.
+
+46
+00:01:26,140 --> 00:01:29,180
+or an overall boost in efficiency by cutting costs and increasing productivity.
+
+47
+00:01:29,180 --> 00:01:31,500
+In this section, you need to articulate the value you're bringing to the table.
+
+48
+00:01:31,500 --> 00:01:32,400
+
+
+49
+00:01:32,400 --> 00:01:35,520
+The primary readers are the UI, R&D, and QA teams.
+
+50
+00:01:35,520 --> 00:01:38,180
+But it's up to the product manager to make that determination.
+
+51
+00:01:38,180 --> 00:01:39,900
+and that this thing you're building is actually valuable.
+
+52
+00:01:39,900 --> 00:01:41,980
+Otherwise, they'll just call you out on it during the review.
+
+53
+00:01:41,980 --> 00:01:43,900
+So, what are the benefits of doing this?
+
+54
+00:01:43,900 --> 00:01:45,900
+So, this is the background for our requirement.
+
+55
+00:01:45,900 --> 00:01:46,900
+Next up is the project分工, or how we'll divide the work.
+
+56
+00:01:46,900 --> 00:01:48,160
+Because in medium to large-sized companies,
+
+57
+00:01:48,160 --> 00:01:50,690
+different project teams will need to work together.
+
+58
+00:01:50,690 --> 00:01:53,530
+For example, the procurement system is handled by Xiaolongxia.
+
+59
+00:01:53,530 --> 00:01:55,090
+The inventory system is handled by Zhang San.
+
+60
+00:01:55,090 --> 00:01:57,190
+The WMS system is handled by Li Si.
+
+61
+00:01:57,190 --> 00:02:00,240
+So, we'll have different product managers in charge of different systems.
+
+62
+00:02:00,240 --> 00:02:03,320
+Different R&D teams will be responsible for developing the different systems.
+
+63
+00:02:03,320 --> 00:02:05,880
+and different testers are responsible for testing different systems.
+
+64
+00:02:05,880 --> 00:02:08,720
+So, the project breakdown is there to make it easier for everyone to know who to approach.
+
+65
+00:02:08,720 --> 00:02:10,389
+So, who exactly should they go to for coordination?
+
+66
+00:02:10,389 --> 00:02:11,909
+Next up, you can include a section for terminology definitions.
+
+67
+00:02:11,909 --> 00:02:13,349
+Because for B2B products,
+
+68
+00:02:13,349 --> 00:02:15,189
+We'll get into the core competencies of a product in a moment.
+
+69
+00:02:15,189 --> 00:02:16,510
+You absolutely have to understand the business.
+
+70
+00:02:16,510 --> 00:02:17,550
+For B2B products,
+
+71
+00:02:17,550 --> 00:02:20,990
+Its business processes are driven by a whole host of specialized terms.
+
+72
+00:02:20,990 --> 00:02:22,040
+For example, futures.
+
+73
+00:02:22,040 --> 00:02:24,040
+Or take cross-border e-commerce for instance, there's 'surrendering goods'.
+
+74
+00:02:24,040 --> 00:02:25,280
+So, for example, a purchase order.
+
+75
+00:02:25,280 --> 00:02:25,960
+Purchase return order.
+
+76
+00:02:25,960 --> 00:02:27,100
+or an outbound order.
+
+77
+00:02:27,100 --> 00:02:28,560
+And, for example, a stock-in receipt.
+
+78
+00:02:28,560 --> 00:02:30,600
+So, what exactly do all these terms mean?
+
+79
+00:02:30,600 --> 00:02:33,360
+You can include the development and testing aspects in the glossary section.
+
+80
+00:02:33,360 --> 00:02:36,040
+This way, they can get a much better understanding of your business.
+
+81
+00:02:36,040 --> 00:02:38,620
+Alright, the fourth part is all the design work related to the process flow.
+
+82
+00:02:38,620 --> 00:02:41,600
+So, when we're at the company, we conduct business research with the stakeholders to dig into their needs.
+
+83
+00:02:41,600 --> 00:02:43,740
+And after that, we'll need to create our flowcharts.
+
+84
+00:02:43,740 --> 00:02:45,320
+There are two types of flowcharts.
+
+85
+00:02:45,320 --> 00:02:47,020
+One is the business flowchart.
+
+86
+00:02:47,020 --> 00:02:48,320
+and the other is a system flowchart.
+
+87
+00:02:48,320 --> 00:02:50,640
+But I highly recommend that you create system flowcharts.
+
+88
+00:02:50,640 --> 00:02:51,860
+Make it a habit.
+
+89
+00:02:51,860 --> 00:02:55,460
+This is especially true for the mainstream product manager roles being hired now, which are for the B2B side.
+
+90
+00:02:55,460 --> 00:02:57,420
+You absolutely have to create your system flowchart.
+
+91
+00:02:57,420 --> 00:02:59,080
+the Procurement System, the WMS system,
+
+92
+00:02:59,080 --> 00:02:59,720
+Inventory system.
+
+93
+00:02:59,720 --> 00:03:00,460
+the financial system,
+
+94
+00:03:00,460 --> 00:03:02,250
+Roles across multiple systems
+
+95
+00:03:02,250 --> 00:03:03,210
+procurement staff,
+
+96
+00:03:03,210 --> 00:03:03,950
+Warehouse staff,
+
+97
+00:03:03,950 --> 00:03:04,610
+and the finance team.
+
+98
+00:03:04,610 --> 00:03:05,740
+as well as between suppliers.
+
+99
+00:03:05,740 --> 00:03:09,340
+So, what does the integration look like between these multiple roles and systems?
+
+100
+00:03:09,340 --> 00:03:10,860
+So, when it comes to system workflows,
+
+101
+00:03:10,860 --> 00:03:13,220
+Actually, there's another topic that we absolutely have to cover.
+
+102
+00:03:13,220 --> 00:03:15,000
+And that is the API integration list.
+
+103
+00:03:15,000 --> 00:03:18,340
+We'll cover this in point number seven, under the 'Options' section.
+
+104
+00:03:18,340 --> 00:03:21,230
+So, this is our design for the process flow.
+
+105
+00:03:21,230 --> 00:03:23,870
+A single project can impact multiple processes.
+
+106
+00:03:23,870 --> 00:03:25,810
+For example, let's take a purchase order.
+
+107
+00:03:25,810 --> 00:03:27,390
+This includes scenarios like shipping first and then invoicing.
+
+108
+00:03:27,390 --> 00:03:28,490
+and payment before delivery.
+
+109
+00:03:28,490 --> 00:03:29,760
+And there's also the purchase return order.
+
+110
+00:03:29,760 --> 00:03:33,480
+So, our most crucial skill set at this stage is...
+
+111
+00:03:33,480 --> 00:03:34,640
+So, as a product manager,
+
+112
+00:03:34,640 --> 00:03:35,760
+You absolutely have to understand the business.
+
+113
+00:03:35,760 --> 00:03:38,000
+You absolutely have to base it on your company's specific business.
+
+114
+00:03:38,000 --> 00:03:41,190
+and design a system for our company to run on.
+
+115
+00:03:41,190 --> 00:03:42,750
+Alright, so once the process design is complete,
+
+116
+00:03:42,750 --> 00:03:44,650
+Alright, let's move on and create our feature list.
+
+117
+00:03:44,650 --> 00:03:48,720
+But for B2B product lines, we need to understand the entire, end-to-end process.
+
+118
+00:03:48,720 --> 00:03:50,360
+So, once you've got a handle on the entire end-to-end process,
+
+119
+00:03:50,360 --> 00:03:52,120
+Only then will you understand what I've accomplished in this phase.
+
+120
+00:03:52,120 --> 00:03:53,620
+is actually what this part is for.
+
+121
+00:03:53,620 --> 00:03:56,220
+it's actually a task for the next phase down the line.
+
+122
+00:03:56,220 --> 00:03:58,100
+I'll iterate on that later down the line.
+
+123
+00:03:58,100 --> 00:03:59,780
+For example, signing procurement contracts online.
+
+124
+00:03:59,780 --> 00:04:01,140
+procurement sourcing and price comparison,
+
+125
+00:04:01,140 --> 00:04:02,260
+the tendering and bidding process,
+
+126
+00:04:02,260 --> 00:04:05,260
+So, for the procurement requisition process, I absolutely have to understand the whole picture.
+
+127
+00:04:05,260 --> 00:04:07,600
+Only then will I know what this phase is all about.
+
+128
+00:04:07,600 --> 00:04:09,900
+what kind of project I'm actually trying to complete.
+
+129
+00:04:09,900 --> 00:04:10,940
+the scope we just covered.
+
+130
+00:04:10,940 --> 00:04:13,900
+Alright, number five is to organize the functional feature list.
+
+131
+00:04:13,900 --> 00:04:15,680
+The main problem to solve is...
+
+132
+00:04:15,680 --> 00:04:18,440
+So, which pages have you actually changed?
+
+133
+00:04:18,440 --> 00:04:18,820
+and which ones
+
+134
+00:04:18,820 --> 00:04:22,140
+and for each page, what specific fields and actions are you going to include?
+
+135
+00:04:22,140 --> 00:04:24,150
+And that's exactly what the feature list is for.
+
+136
+00:04:24,150 --> 00:04:25,710
+You can draw it up in an Excel spreadsheet,
+
+137
+00:04:25,710 --> 00:04:27,270
+or you can use XMind to draw it out.
+
+138
+00:04:27,270 --> 00:04:28,070
+Either way is fine.
+
+139
+00:04:28,070 --> 00:04:31,700
+And this part will rely on my business research and my process design.
+
+140
+00:04:31,700 --> 00:04:34,400
+and then translate that into the design for my feature list.
+
+141
+00:04:34,400 --> 00:04:36,100
+Once the feature list is designed,
+
+142
+00:04:36,100 --> 00:04:37,820
+Alright, let's move on to the sixth step.
+
+143
+00:04:37,820 --> 00:04:40,920
+There are two ways to create your prototypes and requirement specifications.
+
+144
+00:04:40,920 --> 00:04:41,740
+The first method...
+
+145
+00:04:41,740 --> 00:04:43,240
+You can just take the one from X,
+
+146
+00:04:43,240 --> 00:04:45,840
+or use other prototyping tools to create your design.
+
+147
+00:04:45,840 --> 00:04:48,320
+So, what pages are actually involved in all of this?
+
+148
+00:04:48,320 --> 00:04:48,920
+New Entry Page
+
+149
+00:04:48,920 --> 00:04:49,320
+List Page,
+
+150
+00:04:49,320 --> 00:04:49,880
+and a details page.
+
+151
+00:04:49,880 --> 00:04:53,380
+So for my prototype, I just used EXO to design it directly within the platform.
+
+152
+00:04:53,380 --> 00:04:55,040
+So now, AI can handle this part.
+
+153
+00:04:55,040 --> 00:04:57,160
+You can also just use AI to do the design directly.
+
+154
+00:04:57,160 --> 00:05:00,120
+For instance, here's a business dashboard I designed directly in Trado.
+
+155
+00:05:00,120 --> 00:05:03,470
+So, whenever I switch between them, the content below changes accordingly.
+
+156
+00:05:03,470 --> 00:05:04,870
+Designing high-fidelity prototypes.
+
+157
+00:05:04,870 --> 00:05:06,250
+and designs with interactive effects.
+
+158
+00:05:06,250 --> 00:05:09,550
+All of this can be done using AI prototype design to create the final output.
+
+159
+00:05:09,550 --> 00:05:10,730
+As for the prototype,
+
+160
+00:05:10,730 --> 00:05:13,450
+Its prototyping tool is really simple to use.
+
+161
+00:05:13,450 --> 00:05:14,950
+You can learn it in just two hours.
+
+162
+00:05:14,950 --> 00:05:16,550
+So, where does the difficulty lie?
+
+163
+00:05:16,550 --> 00:05:17,630
+The difficulty lies in the fact that...
+
+164
+00:05:17,630 --> 00:05:20,180
+So, first off, how do I even know there are this many pages?
+
+165
+00:05:20,180 --> 00:05:21,860
+How do I know if a new page needs to be added?
+
+166
+00:05:21,860 --> 00:05:22,340
+List page.
+
+167
+00:05:22,340 --> 00:05:22,880
+and detail pages.
+
+168
+00:05:22,880 --> 00:05:23,420
+Second,
+
+169
+00:05:23,420 --> 00:05:26,700
+So how do I know which fields to put on each page?
+
+170
+00:05:26,700 --> 00:05:28,840
+And how detailed do my drawings need to be?
+
+171
+00:05:28,840 --> 00:05:30,460
+For example, the multi-state prototypes.
+
+172
+00:05:30,460 --> 00:05:33,580
+
+
+173
+00:05:33,580 --> 00:05:35,200
+This includes all the different states it can be in,
+
+174
+00:05:35,200 --> 00:05:38,160
+and what kind of actions are involved in creating these designs.
+
+175
+00:05:38,160 --> 00:05:38,940
+Third,
+
+176
+00:05:38,940 --> 00:05:41,520
+So, how do I keep track of all my prototype designs?
+
+177
+00:05:41,520 --> 00:05:43,820
+is it non-compliant with market regulations?
+
+178
+00:05:43,820 --> 00:05:45,680
+It's just like the questions the R&D team is always asking.
+
+179
+00:05:45,680 --> 00:05:48,570
+So, is it a one-to-one relationship, or a one-to-many relationship?
+
+180
+00:05:48,570 --> 00:05:51,290
+When you're interfacing with the WM4 warehouse system,
+
+181
+00:05:51,290 --> 00:05:53,710
+Is it one inbound order number, or multiple?
+
+182
+00:05:53,710 --> 00:05:55,250
+When you're interfacing with the financial system,
+
+183
+00:05:55,250 --> 00:05:57,830
+Is it one payment number or multiple payment numbers?
+
+184
+00:05:57,830 --> 00:06:00,610
+This is something we need to figure out during the prototyping phase.
+
+185
+00:06:00,610 --> 00:06:03,230
+It's not just about knowing how to use an AI prototyping tool.
+
+186
+00:06:03,230 --> 00:06:05,240
+or that I know how to use XO, and that's it.
+
+187
+00:06:05,240 --> 00:06:06,320
+Everything.
+
+188
+00:06:06,320 --> 00:06:07,720
+We absolutely have to understand the business.
+
+189
+00:06:07,720 --> 00:06:08,720
+And this is a core competency.
+
+190
+00:06:08,720 --> 00:06:09,920
+In this day and age of AI,
+
+191
+00:06:09,920 --> 00:06:11,760
+Your core competency is your prototyping.
+
+192
+00:06:11,760 --> 00:06:13,680
+Even if you use AI to generate it super fast,
+
+193
+00:06:13,680 --> 00:06:15,460
+But once it's generated, you still need to make adjustments.
+
+194
+00:06:15,460 --> 00:06:16,900
+Because an AI's ability to understand things...
+
+195
+00:06:16,900 --> 00:06:20,260
+is nowhere near as strong as that of an experienced product manager.
+
+196
+00:06:20,260 --> 00:06:21,580
+Alright, so for our fifth step...
+
+197
+00:06:21,580 --> 00:06:22,700
+After the prototype is output,
+
+198
+00:06:22,700 --> 00:06:25,480
+Step six is to add the detailed requirements.
+
+199
+00:06:25,480 --> 00:06:28,160
+This section clarifies all the control points within the system.
+
+200
+00:06:28,160 --> 00:06:30,880
+For instance, when submitting data, what system's data is being retrieved?
+
+201
+00:06:30,880 --> 00:06:33,640
+and which validation rules are preventing me from submitting it.
+
+202
+00:06:33,640 --> 00:06:36,870
+All of this needs to be clearly written out in the requirements specification.
+
+203
+00:06:36,870 --> 00:06:40,870
+So for this, I can either use the X-axis or add a note on the side.
+
+204
+00:06:40,870 --> 00:06:41,600
+Requirement Description
+
+205
+00:06:41,600 --> 00:06:43,680
+So, what's the second option I have?
+
+206
+00:06:43,680 --> 00:06:46,080
+
+
+207
+00:06:46,080 --> 00:06:48,080
+I'll just paste the screenshot right below and start writing.
+
+208
+00:06:48,080 --> 00:06:49,240
+and my detailed requirement descriptions.
+
+209
+00:06:49,240 --> 00:06:50,900
+Both formats are perfectly fine.
+
+210
+00:06:50,900 --> 00:06:53,620
+Alright, so once we've finished creating the prototypes and the requirement specifications,
+
+211
+00:06:53,620 --> 00:06:55,420
+Alright, let's move on to the seventh item.
+
+212
+00:06:55,420 --> 00:06:57,580
+
+
+213
+00:06:57,580 --> 00:06:59,409
+My API interface list.
+
+214
+00:06:59,409 --> 00:07:01,589
+And we also need to cover the handling of historical data.
+
+215
+00:07:01,589 --> 00:07:03,249
+This part is about selecting options to proceed.
+
+216
+00:07:03,249 --> 00:07:05,349
+We'll dive deeper into these topics in future videos.
+
+217
+00:07:05,349 --> 00:07:06,129
+You can follow me for more.
+
+218
+00:07:07,580 --> 00:07:10,520
+So, when you're integrating different systems with each other,
+
+219
+00:07:10,520 --> 00:07:14,260
+So, which systems' API interfaces am I actually dealing with?
+
+220
+00:07:14,260 --> 00:07:15,390
+and the interactions between them.
+
+221
+00:07:15,390 --> 00:07:17,350
+Which of their interfaces will I be calling?
+
+222
+00:07:17,350 --> 00:07:18,850
+And which of my interfaces are others going to call?
+
+223
+00:07:18,850 --> 00:07:21,180
+This is what you need to sort out when integrating across different systems.
+
+224
+00:07:21,180 --> 00:07:23,340
+And on top of that, it's a skill that makes job hunting a breeze right now.
+
+225
+00:07:23,340 --> 00:07:25,440
+For example, projects like supply chain, YP, and so on.
+
+226
+00:07:25,440 --> 00:07:26,840
+And you'll definitely need a system flowchart.
+
+227
+00:07:26,840 --> 00:07:29,880
+And you'll definitely need to know about the API integration checklist part as well.
+
+228
+00:07:29,880 --> 00:07:31,920
+So, as the product manager, you need to take control and drive this forward.
+
+229
+00:07:31,920 --> 00:07:34,340
+Alright, so that's the second part of our discussion.
+
+230
+00:07:34,340 --> 00:07:35,420
+
+
+231
+00:07:35,420 --> 00:07:36,960
+So, once the process is defined,
+
+232
+00:07:36,960 --> 00:07:39,250
+and get it confirmed with the business stakeholders.
+
+233
+00:07:39,250 --> 00:07:40,690
+So, once the prototype is ready,
+
+234
+00:07:40,690 --> 00:07:43,390
+I'll also get this confirmed with the business stakeholders.
+
+235
+00:07:43,390 --> 00:07:47,230
+This is to prevent any gaps between what I'm thinking and what they actually need.
+
+236
+00:07:47,230 --> 00:07:48,919
+I'll confirm this with the business stakeholders.
+
+237
+00:07:48,919 --> 00:07:50,919
+So, once everything has been confirmed,
+
+238
+00:07:50,919 --> 00:07:54,050
+
+
+239
+00:07:54,050 --> 00:07:59,450
+Then, I'll take it to the UI, R&D, and testing teams to conduct a requirements review.
+
+240
+00:07:59,450 --> 00:08:01,490
+And this is our most important deliverable.
+
+241
+00:08:01,490 --> 00:08:03,570
+
+
+242
+00:08:03,570 --> 00:08:06,410
+Alright, for the third point, in this era where AI is booming,
+
+243
+00:08:06,410 --> 00:08:09,030
+We can use some AI tools to boost our efficiency.
+
+244
+00:08:09,030 --> 00:08:10,710
+This includes the PRD templates I'm sharing with you all.
+
+245
+00:08:10,710 --> 00:08:12,390
+like the ones I've shared with you all.
+
+246
+00:08:12,390 --> 00:08:15,010
+All of these can be made more efficient with AI.
+
+247
+00:08:15,010 --> 00:08:16,810
+But the core of it still comes down to this:
+
+248
+00:08:16,810 --> 00:08:18,340
+You absolutely have to understand it.
+
+249
+00:08:18,340 --> 00:08:21,160
+So, what's the current state of affairs for us product managers?
+
+250
+00:08:21,160 --> 00:08:23,780
+And what it produces can only be considered a preliminary version.
+
+251
+00:08:23,780 --> 00:08:26,300
+You'll also need to make adjustments based on your own experience.
+
+252
+00:08:26,300 --> 00:08:28,260
+Which pages are missing fields?
+
+253
+00:08:28,260 --> 00:08:30,280
+or what layout adjustments were missed.
+
+254
+00:08:30,280 --> 00:08:31,520
+For example, one-to-one versus one-to-many relationships.
+
+255
+00:08:31,520 --> 00:08:32,600
+or the wrong components were used.
+
+256
+00:08:32,600 --> 00:08:34,818
+You have to manually go back and pick them out yourself.
+
+257
+00:08:34,818 --> 00:08:38,519
+So, these are some of the tools we can use to boost our efficiency in the age of AI.
+
+258
+00:08:38,519 --> 00:08:41,899
+Fourth, what is the most crucial skill for a product manager in the age of AI?
+
+259
+00:08:41,899 --> 00:08:43,620
+So, don't get bogged down in the technical details.
+
+260
+00:08:43,620 --> 00:08:45,680
+A lot of people might say, 'I'm going to go study databases.'
+
+261
+00:08:45,680 --> 00:08:47,620
+or 'I'm going to study large models'.
+
+262
+00:08:47,620 --> 00:08:48,620
+That's really not necessary.
+
+263
+00:08:48,620 --> 00:08:50,760
+So, the most crucial skill is the first one.
+
+264
+00:08:50,760 --> 00:08:52,140
+You absolutely have to understand the business.
+
+265
+00:08:52,140 --> 00:08:54,820
+What is the actual state of your company's business?
+
+266
+00:08:54,820 --> 00:08:56,130
+For example, let's say I'm inquiring with a supplier.
+
+267
+00:08:56,130 --> 00:08:58,050
+What's my decision-making criteria?
+
+268
+00:08:58,050 --> 00:08:59,310
+and collaborate with suppliers.
+
+269
+00:08:59,310 --> 00:09:00,450
+I need to return a purchase order.
+
+270
+00:09:00,450 --> 00:09:03,069
+Which systems do I need to integrate with?
+
+271
+00:09:03,069 --> 00:09:04,709
+What is the current state of the system?
+
+272
+00:09:04,709 --> 00:09:06,069
+What is the current state of the business?
+
+273
+00:09:06,069 --> 00:09:09,009
+And what are the potential future developments for the business?
+
+274
+00:09:09,009 --> 00:09:11,220
+So, for what was originally an offline process, I'm moving it online.
+
+275
+00:09:11,220 --> 00:09:14,200
+And for the processes that have already been moved online, can I now automate them?
+
+276
+00:09:14,200 --> 00:09:15,500
+For example, automatic capture.
+
+277
+00:09:15,500 --> 00:09:16,280
+automatic benchmarking,
+
+278
+00:09:16,280 --> 00:09:18,240
+automatic reminders, and other similar features.
+
+279
+00:09:18,240 --> 00:09:20,440
+And that, right there, is the core of my ability to understand the business.
+
+280
+00:09:20,440 --> 00:09:21,960
+Second, you absolutely have to understand the system.
+
+281
+00:09:21,960 --> 00:09:24,980
+Because for most of you, when you step into a mid-to-large-sized company,
+
+282
+00:09:24,980 --> 00:09:26,060
+you've made your iterations.
+
+283
+00:09:26,060 --> 00:09:27,620
+What is the current state of your system?
+
+284
+00:09:27,620 --> 00:09:29,060
+How do you work with the system as it currently stands,
+
+285
+00:09:29,060 --> 00:09:31,680
+and iterate on your system based on how your business evolves.
+
+286
+00:09:31,680 --> 00:09:34,420
+This means we absolutely have to understand the system's design.
+
+287
+00:09:34,420 --> 00:09:36,640
+These two are absolutely core competencies.
+
+288
+00:09:36,640 --> 00:09:38,320
+So, what's the second major point?
+
+289
+00:09:38,320 --> 00:09:39,920
+The first point is understanding the business and the system.
+
+290
+00:09:39,920 --> 00:09:42,040
+The second key point is, without a doubt, your ability to learn.
+
+291
+00:09:42,040 --> 00:09:43,080
+And it absolutely has to be a strong one.
+
+292
+00:09:43,080 --> 00:09:45,720
+For instance, we now have all these new AI prototyping tools.
+
+293
+00:09:45,720 --> 00:09:47,060
+and you can just start using them.
+
+294
+00:09:47,060 --> 00:09:49,040
+And on top of that, you need to understand the business, and fast.
+
+295
+00:09:49,040 --> 00:09:50,400
+So, on top of understanding the business,
+
+296
+00:09:50,400 --> 00:09:53,320
+So, assuming you already have a good grasp of many projects,
+
+297
+00:09:53,320 --> 00:09:55,440
+So, once you've successfully navigated through each project,
+
+298
+00:09:55,440 --> 00:09:56,680
+So, how do you get to that first step?
+
+299
+00:09:56,680 --> 00:09:57,080
+Step two.
+
+300
+00:09:57,080 --> 00:09:59,550
+and then refine your methodology for the third step.
+
+301
+00:09:59,550 --> 00:10:01,810
+
+
+302
+00:10:01,810 --> 00:10:05,330
+It's about moving forward with the ability to learn and iterate quickly.
+
+303
+00:10:05,330 --> 00:10:08,280
+This is what we need to pursue in this new era.
+
+304
+00:10:08,280 --> 00:10:10,120
+Stop chasing after stability.
+
+305
+00:10:10,120 --> 00:10:12,100
+Like, say, working at one company until I retire.
+
+306
+00:10:12,100 --> 00:10:15,180
+You absolutely have to adapt to the changes within these core companies in the new era.
+
+307
+00:10:15,180 --> 00:10:16,620
+and constantly iterate.
+
+308
+00:10:16,620 --> 00:10:18,020
+how good you are at a certain skill,
+
+309
+00:10:18,020 --> 00:10:20,780
+Alright, to get the materials from today's share, just leave a comment in the comment section.
+
+310
+00:10:20,780 --> 00:10:22,970
+We're sharing the PRD template with all of you.
+
+311
+00:10:22,970 --> 00:10:24,750
+And if you like it, please give it a thumbs-up.
+
+312
+00:10:24,750 --> 00:10:26,230
+and save it, and so on.
+
+313
+00:10:26,230 --> 00:10:28,190
+And while you're at it, feel free to check out my other videos.
+
+314
+00:10:28,190 --> 00:10:30,680
+Everything I share is pure, actionable content.
+

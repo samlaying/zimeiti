@@ -1,0 +1,796 @@
+1
+00:00:00,040 --> 00:00:00,680
+Hey everyone.
+
+2
+00:00:00,680 --> 00:00:01,700
+I'm Xiaomutou.
+
+3
+00:00:01,700 --> 00:00:03,280
+If you've been spending any time on GitHub recently,
+
+4
+00:00:03,280 --> 00:00:06,560
+you've probably noticed that the 'skills' category has been blowing up over the past six months.
+
+5
+00:00:06,560 --> 00:00:09,140
+And the repo we're talking about today? It's got 170,000 stars.
+
+6
+00:00:09,140 --> 00:00:10,400
+The author is tyt script.
+
+7
+00:00:10,400 --> 00:00:12,500
+and Matt Pocock, who's well-known to many in the community.
+
+8
+00:00:12,500 --> 00:00:14,140
+And he did something pretty interesting.
+
+9
+00:00:14,140 --> 00:00:15,820
+into a skill itself.
+
+10
+00:00:15,820 --> 00:00:18,160
+And he turned the process of doing this into a skill itself.
+
+11
+00:00:18,160 --> 00:00:20,420
+And it's called 'writing great skills'.
+
+12
+00:00:20,420 --> 00:00:24,960
+So, in today's video, we're going to talk about this very collection of skills.
+
+13
+00:00:24,960 --> 00:00:28,320
+And I think the one that's most worth talking about on its own is this one.
+
+14
+00:00:28,320 --> 00:00:31,570
+And the core of this skill is a checklist for writing skills.
+
+15
+00:00:31,570 --> 00:00:32,810
+a list of failure modes.
+
+16
+00:00:32,810 --> 00:00:36,330
+and it lists out the six most common pitfalls all at once.
+
+17
+00:00:36,789 --> 00:00:38,879
+But today, I'm not just going to talk about these six pitfalls.
+
+18
+00:00:38,879 --> 00:00:40,339
+I also took this methodology
+
+19
+00:00:40,339 --> 00:00:42,939
+and put a set of skills I maintain myself to the test on the spot.
+
+20
+00:00:42,939 --> 00:00:45,199
+Six skills, specifically for making videos.
+
+21
+00:00:45,199 --> 00:00:48,210
+And the result? I managed to hit all six of those common pitfalls.
+
+22
+00:00:48,210 --> 00:00:49,350
+I fell for every single one.
+
+23
+00:00:49,350 --> 00:00:51,830
+So, as you watch this episode, you can see which ones apply to you.
+
+24
+00:00:51,830 --> 00:00:54,490
+So, how many of these pitfalls did your skills fall into?
+
+25
+00:00:54,970 --> 00:00:57,170
+Let's start with the most counterintuitive one.
+
+26
+00:00:57,170 --> 00:00:59,150
+A lot of people think that when it comes to writing a good skill,
+
+27
+00:00:59,150 --> 00:01:02,070
+is to make the agent's output exactly the same every single time.
+
+28
+00:01:02,070 --> 00:01:05,230
+But this methodology, right in its opening sentence, completely shifts the target.
+
+29
+00:01:05,230 --> 00:01:05,790
+A Skill's
+
+30
+00:01:05,790 --> 00:01:06,510
+Its very purpose.
+
+31
+00:01:06,510 --> 00:01:09,970
+It's about squeezing a little bit of certainty out of a random system.
+
+32
+00:01:09,970 --> 00:01:13,500
+And this certainty is called predictability.
+
+33
+00:01:13,500 --> 00:01:16,960
+In other words, it's about making the agent follow the same process every single time.
+
+34
+00:01:16,960 --> 00:01:20,740
+instead of spitting out the exact same result every single time.
+
+35
+00:01:20,980 --> 00:01:21,960
+For example,
+
+36
+00:01:21,960 --> 00:01:23,660
+a brainstorming skill.
+
+37
+00:01:23,660 --> 00:01:26,470
+It's supposed to give you different ideas each time.
+
+38
+00:01:26,470 --> 00:01:27,990
+But the way it diverges,
+
+39
+00:01:27,990 --> 00:01:30,230
+Its behavior should be consistent.
+
+40
+00:01:30,230 --> 00:01:31,400
+and predictable.
+
+41
+00:01:31,400 --> 00:01:32,600
+Keep that distinction in mind.
+
+42
+00:01:32,600 --> 00:01:34,680
+And these six pitfalls are all interconnected.
+
+43
+00:01:35,960 --> 00:01:38,100
+The first drag is what I call 'finishing too soon'.
+
+44
+00:01:38,100 --> 00:01:40,180
+What that means is, the work isn't actually finished.
+
+45
+00:01:40,180 --> 00:01:42,860
+the agent's focus just shifts to the fact that I've 'finished' it.
+
+46
+00:01:42,860 --> 00:01:45,130
+The root of this problem often lies in...
+
+47
+00:01:45,130 --> 00:01:47,580
+The completion criteria are set too loosely.
+
+48
+00:01:47,580 --> 00:01:48,720
+And I was guilty of that myself.
+
+49
+00:01:48,720 --> 00:01:52,000
+In my own skillset, I have one specifically for correcting subtitles.
+
+50
+00:01:52,000 --> 00:01:55,480
+For this step, the completion criterion it sets is to first spot-check a few items.
+
+51
+00:01:55,480 --> 00:01:57,979
+and if there are no issues, just move on to the next step.
+
+52
+00:01:57,979 --> 00:02:01,299
+Now, think about that. What does 'no problem' even mean?
+
+53
+00:02:01,299 --> 00:02:03,090
+And how many is 'a few'?
+
+54
+00:02:03,090 --> 00:02:04,090
+None of them are defined.
+
+55
+00:02:04,090 --> 00:02:06,820
+The agent could just take a quick look and declare it a pass.
+
+56
+00:02:06,820 --> 00:02:09,300
+Let's compare this with another skill from the same set.
+
+57
+00:02:09,300 --> 00:02:12,640
+The completion criterion for this one is to run an acceptance script before it finishes.
+
+58
+00:02:12,640 --> 00:02:13,740
+If just one of them fails,
+
+59
+00:02:13,740 --> 00:02:15,920
+it means the script isn't finished.
+
+60
+00:02:15,920 --> 00:02:17,320
+a clear outcome.
+
+61
+00:02:17,320 --> 00:02:19,360
+The agent can't even try to fudge it.
+
+62
+00:02:19,360 --> 00:02:20,420
+the same skill set
+
+63
+00:02:20,420 --> 00:02:23,880
+The difference between these two completion standards is obvious, and the fix is simple too.
+
+64
+00:02:23,880 --> 00:02:26,040
+Change 'if there are no issues, proceed to the next step'
+
+65
+00:02:26,040 --> 00:02:27,720
+and replace it with a checklist of conditions.
+
+66
+00:02:27,720 --> 00:02:30,170
+For example, having three subtitles at the beginning and three at the end.
+
+67
+00:02:30,170 --> 00:02:32,190
+The timestamps and the audio are aligned.
+
+68
+00:02:32,190 --> 00:02:34,010
+Only if there's no air conditioning, it passes.
+
+69
+00:02:35,290 --> 00:02:37,060
+The second drag is redundancy.
+
+70
+00:02:37,060 --> 00:02:39,420
+This means the same idea appears in more than one place.
+
+71
+00:02:39,420 --> 00:02:41,320
+It's hard to maintain and eats up tokens.
+
+72
+00:02:41,320 --> 00:02:44,790
+It also gives that idea more weight than it actually deserves.
+
+73
+00:02:44,790 --> 00:02:46,790
+And I really took this to a whole new level of ridiculousness.
+
+74
+00:02:46,790 --> 00:02:47,890
+The cover image is a set.
+
+75
+00:02:47,890 --> 00:02:48,730
+Not just one.
+
+76
+00:02:48,730 --> 00:02:52,450
+This single rule appeared six times throughout my skill.
+
+77
+00:02:52,450 --> 00:02:53,130
+in the description,
+
+78
+00:02:53,130 --> 00:02:54,690
+once in the 'Golden Rules' section at the beginning,
+
+79
+00:02:54,690 --> 00:02:56,010
+once in the division of labor table,
+
+80
+00:02:56,010 --> 00:02:57,370
+once in the main procedure steps,
+
+81
+00:02:57,370 --> 00:02:58,790
+and once in the list of things to avoid.
+
+82
+00:02:58,790 --> 00:03:00,930
+And then again in the acceptance checklist.
+
+83
+00:03:00,930 --> 00:03:04,709
+Back then, every time I added it, I felt that an extra reminder would be a safer bet.
+
+84
+00:03:04,709 --> 00:03:07,969
+So, over time, the same sentence ended up taking up six different spots in the context.
+
+85
+00:03:07,969 --> 00:03:09,529
+So if I want to change how I say something later on,
+
+86
+00:03:09,529 --> 00:03:10,809
+I'd have to change it in six different places.
+
+87
+00:03:10,809 --> 00:03:12,570
+Miss just one, and you'll end up with contradictions.
+
+88
+00:03:12,570 --> 00:03:14,560
+And if you do need to make a change, it's not a big deal.
+
+89
+00:03:14,560 --> 00:03:17,820
+A rule should only be clearly stated in one authoritative place.
+
+90
+00:03:17,820 --> 00:03:20,220
+If you need to mention it elsewhere, just reference it.
+
+91
+00:03:20,220 --> 00:03:22,160
+Don't just restate the diagnosis.
+
+92
+00:03:22,580 --> 00:03:24,620
+The third common mistake is what I call 'accumulation'.
+
+93
+00:03:24,620 --> 00:03:27,220
+And this next one is the pitfall I'm most excited to show you.
+
+94
+00:03:27,220 --> 00:03:29,800
+I'm talking about all those old, outdated layers.
+
+95
+00:03:29,800 --> 00:03:31,460
+Because it feels safer to just leave it in.
+
+96
+00:03:31,460 --> 00:03:32,880
+Deleting it feels risky.
+
+97
+00:03:32,880 --> 00:03:35,060
+They just pile up, layer after layer, in the files.
+
+98
+00:03:35,060 --> 00:03:36,019
+and no one ever cleans it up.
+
+99
+00:03:36,019 --> 00:03:38,579
+Even I was taken aback when I saw this example of my own.
+
+100
+00:03:38,579 --> 00:03:41,319
+Take my early 'arrangement' skill, for example, which handled the vertical video format.
+
+101
+00:03:41,319 --> 00:03:43,329
+to achieve 4K using a special method.
+
+102
+00:03:43,329 --> 00:03:45,309
+Later on, this whole method was replaced.
+
+103
+00:03:45,309 --> 00:03:47,189
+and was replaced with a simple upscaling method.
+
+104
+00:03:47,189 --> 00:03:50,549
+But the problem is, that old phrase about 'outputting 4K super-sampled'
+
+105
+00:03:50,549 --> 00:03:52,060
+Only a part of it was deleted.
+
+106
+00:03:52,060 --> 00:03:53,740
+So, within the same file,
+
+107
+00:03:53,740 --> 00:03:56,980
+In two earlier spots, it still says 'includes 4K super-sampling'
+
+108
+00:03:56,980 --> 00:04:00,180
+But then, further down, there's a straightforward correction.
+
+109
+00:04:00,180 --> 00:04:01,040
+To be honest,
+
+110
+00:04:01,040 --> 00:04:03,980
+What this really is, is just the original render upscaled.
+
+111
+00:04:03,980 --> 00:04:05,600
+It's not actually super-sampling.
+
+112
+00:04:05,600 --> 00:04:07,840
+It's like a single file fighting against itself.
+
+113
+00:04:07,840 --> 00:04:10,040
+The old layers that were replaced weren't cleaned up properly.
+
+114
+00:04:10,040 --> 00:04:13,030
+This leaves us with this 'sedimentation' problem. And the fix? It all boils down to one word.
+
+115
+00:04:13,030 --> 00:04:14,070
+Be proactive about pruning.
+
+116
+00:04:14,070 --> 00:04:15,510
+Once you've replaced an old method,
+
+117
+00:04:15,510 --> 00:04:17,890
+and any expressions it brings up,
+
+118
+00:04:17,890 --> 00:04:20,740
+Do a global search for the file name with the numerical value.
+
+119
+00:04:20,740 --> 00:04:22,019
+and replace them with the new one.
+
+120
+00:04:22,019 --> 00:04:24,650
+Don't let old content just sit there and pile up.
+
+121
+00:04:24,970 --> 00:04:27,030
+The fourth trap is called 'bloat'.
+
+122
+00:04:27,030 --> 00:04:28,230
+It's just one skill.
+
+123
+00:04:28,230 --> 00:04:29,900
+It's just simply too long.
+
+124
+00:04:29,900 --> 00:04:31,580
+Even if every single line is still useful.
+
+125
+00:04:31,580 --> 00:04:32,400
+and there's no repetition.
+
+126
+00:04:32,400 --> 00:04:35,059
+The sheer length alone is already a readability killer.
+
+127
+00:04:35,059 --> 00:04:35,819
+and it's a waste of resources.
+
+128
+00:04:35,819 --> 00:04:36,279
+Tokens.
+
+129
+00:04:36,279 --> 00:04:39,420
+Take my two skills, for example. One of them ballooned to over 250 lines.
+
+130
+00:04:39,420 --> 00:04:41,560
+Just in the 'how to avoid this drag' section alone, I piled up 17 items.
+
+131
+00:04:41,560 --> 00:04:43,200
+And each one of them is a full-on paragraph.
+
+132
+00:04:43,200 --> 00:04:46,120
+It's long since stopped being a quick-reference skill card you can glance over.
+
+133
+00:04:46,120 --> 00:04:48,110
+It's more like a reference manual.
+
+134
+00:04:48,110 --> 00:04:48,950
+Agent
+
+135
+00:04:48,950 --> 00:04:51,610
+Every time it loads, you have to dig through this entire massive chunk.
+
+136
+00:04:51,610 --> 00:04:52,990
+So, here's how to fix it.
+
+137
+00:04:52,990 --> 00:04:56,760
+Move that detailed list of 'drag' to a separate file.
+
+138
+00:04:56,760 --> 00:05:00,180
+The main body should only keep the core workflow and the three or four most critical pitfalls.
+
+139
+00:05:00,180 --> 00:05:01,940
+And for the rest, you can just look them up as needed.
+
+140
+00:05:01,940 --> 00:05:05,220
+This is what the methodology calls 'progressive disclosure'.
+
+141
+00:05:05,670 --> 00:05:08,090
+The fifth pitfall is called 'mindless repetition'.
+
+142
+00:05:08,090 --> 00:05:09,750
+This refers to a single agent prompt.
+
+143
+00:05:09,750 --> 00:05:11,480
+If it's something the agent would do by default anyway,
+
+144
+00:05:11,480 --> 00:05:13,700
+but you waste precious context on a pointless statement.
+
+145
+00:05:13,700 --> 00:05:16,040
+So, in my finance skill, there's a subheading.
+
+146
+00:05:16,040 --> 00:05:18,900
+It says, 'Step 1: Data Collection and Verification'.
+
+147
+00:05:18,900 --> 00:05:19,880
+This is the core of it.
+
+148
+00:05:19,880 --> 00:05:22,580
+Don't skip this step. Skipping it is just mindless repetition.
+
+149
+00:05:22,580 --> 00:05:23,940
+It's already a numbered step.
+
+150
+00:05:23,940 --> 00:05:27,360
+The agent won't even skip these two words in the first step.
+
+151
+00:05:27,360 --> 00:05:28,780
+It doesn't change any actual behavior.
+
+152
+00:05:28,780 --> 00:05:29,809
+It's just taking up space.
+
+153
+00:05:29,809 --> 00:05:31,409
+And here's another similar line.
+
+154
+00:05:31,409 --> 00:05:32,649
+Facts must be backed by evidence.
+
+155
+00:05:32,649 --> 00:05:34,409
+And don't just make stuff up here.
+
+156
+00:05:34,409 --> 00:05:37,669
+Then there are those encouraging statements that users really care about, like 'be accurate'.
+
+157
+00:05:37,669 --> 00:05:38,869
+So, for this kind of problem,
+
+158
+00:05:38,869 --> 00:05:40,870
+We can test this out, sentence by sentence.
+
+159
+00:05:40,870 --> 00:05:43,550
+If I delete this line, will the agent's behavior change?
+
+160
+00:05:43,550 --> 00:05:45,470
+If not, then delete it.
+
+161
+00:05:45,470 --> 00:05:47,870
+Keep only the specific actions.
+
+162
+00:05:48,070 --> 00:05:52,020
+The sixth and most subtle drag is what's called the 'negative form'.
+
+163
+00:05:52,020 --> 00:05:53,280
+Guiding through prohibition.
+
+164
+00:05:53,280 --> 00:05:54,300
+In fact, it can backfire.
+
+165
+00:05:54,300 --> 00:05:55,380
+It's like when someone tells you,
+
+166
+00:05:55,380 --> 00:05:56,300
+Don't think about elephants.
+
+167
+00:05:56,300 --> 00:05:58,040
+all you can think about is elephants.
+
+168
+00:05:58,040 --> 00:06:00,940
+The more you keep repeating the thing you don't want,
+
+169
+00:06:00,940 --> 00:06:02,200
+the more it gets called out.
+
+170
+00:06:02,200 --> 00:06:03,380
+the more it bubbles up.
+
+171
+00:06:03,380 --> 00:06:05,140
+Here's what I originally wrote.
+
+172
+00:06:05,140 --> 00:06:07,200
+Lock it to a vertical 3:4 aspect ratio.
+
+173
+00:06:07,200 --> 00:06:08,880
+Don't do 9 by 16.
+
+174
+00:06:08,880 --> 00:06:10,820
+And don't let it drift back to 9:16.
+
+175
+00:06:10,820 --> 00:06:14,170
+See, what I want the agent to do is make it three-by-four.
+
+176
+00:06:14,170 --> 00:06:17,170
+But what I kept repeating was the thing I didn't want.
+
+177
+00:06:17,170 --> 00:06:18,140
+9 by 16.
+
+178
+00:06:18,140 --> 00:06:19,640
+So, let's fix it by stating it positively.
+
+179
+00:06:19,640 --> 00:06:21,640
+Just set the main canvas to a vertical layout directly.
+
+180
+00:06:21,640 --> 00:06:22,660
+So, three by four.
+
+181
+00:06:22,660 --> 00:06:25,930
+So, don't even mention that unwanted aspect ratio, not even once, from start to finish.
+
+182
+00:06:25,930 --> 00:06:27,050
+He didn't get called out.
+
+183
+00:06:27,050 --> 00:06:30,220
+and you won't even think about those six pitfalls.
+
+184
+00:06:30,220 --> 00:06:30,840
+And that's a wrap.
+
+185
+00:06:30,840 --> 00:06:32,360
+So, to sum it all up in one sentence.
+
+186
+00:06:32,360 --> 00:06:34,200
+And that's the very foundation of this methodology.
+
+187
+00:06:34,200 --> 00:06:36,919
+Treat your skills like you treat your code.
+
+188
+00:06:36,919 --> 00:06:38,679
+First, let's prove that this is a real problem.
+
+189
+00:06:38,679 --> 00:06:40,159
+and then write the smallest possible solution.
+
+190
+00:06:40,159 --> 00:06:43,630
+Then, you have to force yourself to trim it down, line by line, value by value.
+
+191
+00:06:43,630 --> 00:06:46,250
+And here are the results of me testing my own skills with this framework.
+
+192
+00:06:46,250 --> 00:06:47,940
+And this actually proves one thing.
+
+193
+00:06:47,940 --> 00:06:51,740
+Even for those skills you use every day, the ones you thought were pretty clean.
+
+194
+00:06:51,740 --> 00:06:54,780
+I managed to step into all six of these traps, one by one.
+
+195
+00:06:55,110 --> 00:06:56,370
+That's all for this episode.
+
+196
+00:06:56,370 --> 00:06:57,790
+If you're also writing skills,
+
+197
+00:06:57,790 --> 00:07:01,530
+So, feel free to use these six points to do a health check on your own skills.
+
+198
+00:07:01,530 --> 00:07:02,650
+I'm Xiaomutou.
+
+199
+00:07:02,650 --> 00:07:03,920
+See you in the next one.
+

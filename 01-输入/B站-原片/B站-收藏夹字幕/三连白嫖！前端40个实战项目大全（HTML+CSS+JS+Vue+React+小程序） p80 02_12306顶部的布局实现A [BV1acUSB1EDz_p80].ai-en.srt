@@ -1,0 +1,3108 @@
+1
+00:00:00,040 --> 00:00:02,240
+Uh, first of all, before we start the experiment
+
+2
+00:00:02,240 --> 00:00:03,200
+I also mentioned to everyone
+
+3
+00:00:03,200 --> 00:00:05,020
+We are working on the frontend layout
+
+4
+00:00:05,020 --> 00:00:06,920
+Is there any right or wrong?
+
+5
+00:00:06,920 --> 00:00:10,540
+There was nothing like yesterday when we just laid out this small thing
+
+6
+00:00:10,540 --> 00:00:12,500
+There are ten people with ten different approaches to writing it.
+
+7
+00:00:12,500 --> 00:00:13,500
+So which one is correct?
+
+8
+00:00:13,500 --> 00:00:14,280
+Which one is wrong?
+
+9
+00:00:14,280 --> 00:00:15,880
+If the effect is achieved, then it's correct
+
+10
+00:00:15,880 --> 00:00:16,660
+Got it?
+
+11
+00:00:16,660 --> 00:00:17,960
+There is no absolute right or wrong
+
+12
+00:00:17,960 --> 00:00:19,560
+when designing layouts
+
+13
+00:00:19,560 --> 00:00:21,960
+You may not have given much thought to this yet
+
+14
+00:00:21,960 --> 00:00:23,009
+good analysis
+
+15
+00:00:23,009 --> 00:00:25,669
+So today I will guide everyone through the analysis
+
+16
+00:00:25,669 --> 00:00:27,269
+You guys don't have this kind of thinking, right?
+
+17
+00:00:27,269 --> 00:00:30,369
+Stay updated with the latest train information anytime, anywhere.
+
+18
+00:00:30,369 --> 00:00:31,069
+Got it
+
+19
+00:00:31,069 --> 00:00:32,649
+Hey, having this kind of thinking is enough, alright?
+
+20
+00:00:32,649 --> 00:00:34,969
+Because you don't know how to write this webpage yet
+
+21
+00:00:34,969 --> 00:00:38,200
+Let's take a look from top to bottom then
+
+22
+00:00:38,200 --> 00:00:40,560
+First, let's look at the first part
+
+23
+00:00:40,560 --> 00:00:42,700
+The composition of the first part is actually very simple
+
+24
+00:00:42,700 --> 00:00:44,640
+What exactly is this position?
+
+25
+00:00:44,640 --> 00:00:47,320
+Classmates, does this image have the picture?
+
+26
+00:00:47,320 --> 00:00:49,709
+What is this thing?
+
+27
+00:00:49,709 --> 00:00:51,709
+Is this position just a placeholder
+
+28
+00:00:51,709 --> 00:00:52,469
+Is it a box?
+
+29
+00:00:52,469 --> 00:00:53,509
+Right, students?
+
+30
+00:00:53,509 --> 00:00:55,590
+Then, later, a row of text is placed inside here
+
+31
+00:00:55,590 --> 00:00:58,270
+Something big is added to the back position
+
+32
+00:00:58,270 --> 00:01:01,550
+This should be a background image, right?
+
+33
+00:01:01,550 --> 00:01:03,710
+Is it okay to just place this background image here?
+
+34
+00:01:03,710 --> 00:01:05,510
+Then there's the question, someone asked,
+
+35
+00:01:05,510 --> 00:01:06,240
+teacher
+
+36
+00:01:06,240 --> 00:01:09,820
+If I want to obtain the images inside the current page
+
+37
+00:01:09,820 --> 00:01:11,600
+I want this image, this image
+
+38
+00:01:11,600 --> 00:01:13,560
+Because there are probably many images in here, right?
+
+39
+00:01:13,560 --> 00:01:16,780
+What should I do to get it, right?
+
+40
+00:01:16,780 --> 00:01:19,720
+There are several ways
+
+41
+00:01:19,720 --> 00:01:22,920
+The first method, can we just write and search as we go
+
+42
+00:01:22,920 --> 00:01:24,660
+just find the right image, right?
+
+43
+00:01:24,660 --> 00:01:28,120
+The first method is to use F12 and work directly within our current interface.
+
+44
+00:01:28,120 --> 00:01:29,560
+The second method
+
+45
+00:01:29,560 --> 00:01:35,080
+Also, you can actually press CTRL+S directly in the HTML to
+
+46
+00:01:35,080 --> 00:01:37,340
+What does CTRLS do
+
+47
+00:01:37,340 --> 00:01:40,140
+Save this page by saving it.
+
+48
+00:01:40,140 --> 00:01:41,580
+is to download the page
+
+49
+00:01:41,580 --> 00:01:44,550
+Now, take a look at your desktop.
+
+50
+00:01:44,550 --> 00:01:46,110
+It's saved on your desktop.
+
+51
+00:01:46,110 --> 00:01:47,390
+Then click save
+
+52
+00:01:47,390 --> 00:01:50,310
+At this point, it will download the current webpage for you.
+
+53
+00:01:50,310 --> 00:01:51,200
+Can you see it?
+
+54
+00:01:51,200 --> 00:01:52,820
+What's the purpose of downloading it, teacher?
+
+55
+00:01:52,820 --> 00:01:56,000
+I mainly want to download the images included in this webpage.
+
+56
+00:01:56,000 --> 00:01:57,430
+Can you see this?
+
+57
+00:01:57,430 --> 00:01:58,410
+See that
+
+58
+00:01:58,410 --> 00:02:00,530
+Not only did he download the page
+
+59
+00:02:00,530 --> 00:02:03,850
+And here it even downloaded a file for you, can you see that?
+
+60
+00:02:03,850 --> 00:02:06,090
+Take a look at it
+
+61
+00:02:06,090 --> 00:02:08,459
+Can you see it?
+
+62
+00:02:08,459 --> 00:02:10,779
+This image this image this image
+
+63
+00:02:10,779 --> 00:02:13,819
+This image, this image, including all the images we can use
+
+64
+00:02:13,819 --> 00:02:16,920
+You'll notice that almost everything is included in here.
+
+65
+00:02:16,920 --> 00:02:18,960
+but this method of downloading files
+
+66
+00:02:18,960 --> 00:02:21,400
+is the way to download all our current images
+
+67
+00:02:21,400 --> 00:02:23,360
+not particularly advisable
+
+68
+00:02:23,360 --> 00:02:25,670
+Why, take a closer look
+
+69
+00:02:25,670 --> 00:02:27,310
+actually, some images were not downloaded
+
+70
+00:02:27,310 --> 00:02:28,590
+Can you spot it?
+
+71
+00:02:28,590 --> 00:02:30,960
+Which images were not downloaded
+
+72
+00:02:31,440 --> 00:02:33,320
+It seems like this thing wasn't taken down.
+
+73
+00:02:33,320 --> 00:02:34,060
+Can you find it?
+
+74
+00:02:34,060 --> 00:02:34,900
+Got it?
+
+75
+00:02:34,900 --> 00:02:36,520
+Look carefully
+
+76
+00:02:36,520 --> 00:02:38,020
+Pull it over here
+
+77
+00:02:38,020 --> 00:02:39,360
+Do you see any?
+
+78
+00:02:39,360 --> 00:02:41,840
+Probably not, right?
+
+79
+00:02:41,840 --> 00:02:42,980
+Is this thing not available?
+
+80
+00:02:42,980 --> 00:02:44,580
+Where did the teacher go?
+
+81
+00:02:44,580 --> 00:02:46,480
+This position just won't come down
+
+82
+00:02:46,480 --> 00:02:48,380
+So based on this
+
+83
+00:02:48,380 --> 00:02:52,080
+If we truly want to save all these files completely
+
+84
+00:02:52,080 --> 00:02:52,880
+Let me tell you
+
+85
+00:02:52,880 --> 00:02:55,860
+Let me show you the most commonly used method here.
+
+86
+00:02:55,860 --> 00:02:57,280
+Just know this method will do.
+
+87
+00:02:57,280 --> 00:02:58,650
+I'm js
+
+88
+00:02:58,650 --> 00:03:01,390
+We need to use Google
+
+89
+00:03:01,390 --> 00:03:03,630
+browse this Firefox browser
+
+90
+00:03:03,630 --> 00:03:06,019
+It comes with a plugin that allows downloading
+
+91
+00:03:06,019 --> 00:03:07,890
+view on the website
+
+92
+00:03:07,890 --> 00:03:11,210
+Now, let's open our Firefox browser
+
+93
+00:03:11,970 --> 00:03:12,830
+Open it up
+
+94
+00:03:12,830 --> 00:03:15,230
+Actually, we can use those downloaded pictures.
+
+95
+00:03:15,230 --> 00:03:16,430
+Put it here
+
+96
+00:03:16,430 --> 00:03:18,250
+Then, we won't set it up for now.
+
+97
+00:03:18,250 --> 00:03:19,410
+Let me just throw it in here
+
+98
+00:03:19,410 --> 00:03:20,170
+That's it
+
+99
+00:03:20,170 --> 00:03:21,240
+CTRLV, right?
+
+100
+00:03:21,240 --> 00:03:24,400
+Open this page and place it on this page
+
+101
+00:03:24,400 --> 00:03:25,220
+Is it here?
+
+102
+00:03:25,220 --> 00:03:25,840
+What should I do
+
+103
+00:03:25,840 --> 00:03:27,740
+How to download the page materials?
+
+104
+00:03:27,740 --> 00:03:32,079
+Right-click and there is an option called Inspect Element
+
+105
+00:03:32,279 --> 00:03:34,239
+It should be inspecting the element, uh
+
+106
+00:03:34,239 --> 00:03:35,319
+It's not inspect element.
+
+107
+00:03:35,319 --> 00:03:36,319
+Who should this position belong to?
+
+108
+00:03:36,319 --> 00:03:39,299
+Right-click and there is an option called View Page Info
+
+109
+00:03:39,299 --> 00:03:40,810
+It should be this one, right?
+
+110
+00:03:40,810 --> 00:03:43,130
+Only Firefox has this feature here.
+
+111
+00:03:43,130 --> 00:03:45,470
+Can you see the media when querying for information?
+
+112
+00:03:45,470 --> 00:03:46,280
+students
+
+113
+00:03:46,280 --> 00:03:49,360
+Can you see all these things in the media section?
+
+114
+00:03:49,360 --> 00:03:51,600
+This includes all the images
+
+115
+00:03:51,600 --> 00:03:52,660
+What should I do
+
+116
+00:03:52,660 --> 00:03:54,620
+Select all Select all
+
+117
+00:03:54,620 --> 00:03:57,799
+then what save as save as
+
+118
+00:03:57,799 --> 00:04:01,539
+you can select an IMJS on the desktop here
+
+119
+00:04:01,539 --> 00:04:03,799
+Click to select the file and you're done
+
+120
+00:04:03,799 --> 00:04:04,880
+See this
+
+121
+00:04:04,880 --> 00:04:06,400
+everything has been downloaded
+
+122
+00:04:06,400 --> 00:04:08,840
+The download speed at this location is actually quite fast.
+
+123
+00:04:08,840 --> 00:04:10,520
+Then you close it over here
+
+124
+00:04:10,520 --> 00:04:11,620
+Then close it
+
+125
+00:04:11,620 --> 00:04:13,500
+Open IMJS
+
+126
+00:04:13,500 --> 00:04:16,999
+Now look at this position, can you see it?
+
+127
+00:04:16,999 --> 00:04:19,819
+The page at this position is relatively complete.
+
+128
+00:04:19,819 --> 00:04:22,640
+Can you see if this thing has been downloaded yet?
+
+129
+00:04:22,640 --> 00:04:23,960
+this thing this thing this thing
+
+130
+00:04:23,960 --> 00:04:26,240
+including these small icons
+
+131
+00:04:26,240 --> 00:04:28,080
+You'll find that everything has been downloaded for you
+
+132
+00:04:28,080 --> 00:04:29,550
+That makes it convenient, um
+
+133
+00:04:29,550 --> 00:04:31,590
+But I've already prepared it for you.
+
+134
+00:04:31,590 --> 00:04:32,930
+You don't need to download it.
+
+135
+00:04:32,930 --> 00:04:33,730
+Where is it placed?
+
+136
+00:04:33,730 --> 00:04:34,620
+I've put it in my
+
+137
+00:04:34,620 --> 00:04:37,960
+in today's materials of mine at this very moment
+
+138
+00:04:37,960 --> 00:04:39,400
+Just knowing this method is sufficient.
+
+139
+00:04:39,400 --> 00:04:40,220
+Open it
+
+140
+00:04:40,220 --> 00:04:44,690
+Open this case location, there is an IMG folder in the software
+
+141
+00:04:44,690 --> 00:04:48,130
+Here are some images that I can provide for everyone to use.
+
+142
+00:04:48,130 --> 00:04:49,670
+Of course, after downloading this image
+
+143
+00:04:49,670 --> 00:04:53,670
+maybe this one is not very usable or not quite suitable
+
+144
+00:04:53,670 --> 00:04:55,650
+So what can everyone do at this point?
+
+145
+00:04:55,650 --> 00:04:58,290
+crop this image again
+
+146
+00:04:58,290 --> 00:05:00,310
+crop it to your desired size
+
+147
+00:05:00,310 --> 00:05:01,230
+Is that okay
+
+148
+00:05:01,230 --> 00:05:04,130
+Do you understand this issue? That's it then.
+
+149
+00:05:04,130 --> 00:05:05,430
+So everyone can just download
+
+150
+00:05:05,430 --> 00:05:07,510
+I have prepared the materials for you, and that's all you need.
+
+151
+00:05:07,510 --> 00:05:09,530
+all are in our current IIMG folder
+
+152
+00:05:09,530 --> 00:05:11,960
+You can directly download it here, and it's all set to go.
+
+153
+00:05:11,960 --> 00:05:14,060
+Come here, um
+
+154
+00:05:14,060 --> 00:05:15,960
+Well then, let's prepare these preliminary tasks
+
+155
+00:05:15,960 --> 00:05:16,940
+just place it here for everyone
+
+156
+00:05:16,940 --> 00:05:20,080
+Next, let's guide everyone to put it into practice.
+
+157
+00:05:20,080 --> 00:05:20,580
+Alright
+
+158
+00:05:20,580 --> 00:05:21,350
+Let's write it down
+
+159
+00:05:21,350 --> 00:05:24,230
+First, I'll start by creating a new project from this location for everyone
+
+160
+00:05:24,230 --> 00:05:25,390
+our project
+
+161
+00:05:25,390 --> 00:05:28,830
+Uh, in this part we're creating a new web project
+
+162
+00:05:28,830 --> 00:05:31,260
+our current web project
+
+163
+00:05:31,660 --> 00:05:34,820
+Click browse in this section
+
+164
+00:05:35,330 --> 00:05:35,770
+Um
+
+165
+00:05:35,770 --> 00:05:38,890
+Here we choose which drive, drive D, right?
+
+166
+00:05:38,890 --> 00:05:43,040
+Then, select this case from the school COS at this location
+
+167
+00:05:43,040 --> 00:05:45,700
+Then just click on the source code.
+
+168
+00:05:45,700 --> 00:05:47,410
+OK, then enter it here
+
+169
+00:05:47,410 --> 00:05:50,870
+From 2020 to 2021, 0312
+
+170
+00:05:50,870 --> 00:05:54,290
+And this location is called the case example.
+
+171
+00:05:58,340 --> 00:05:59,660
+2112366
+
+172
+00:05:59,660 --> 00:06:01,460
+Then click 'Finish' and you're done.
+
+173
+00:06:01,460 --> 00:06:02,320
+Put it here
+
+174
+00:06:02,320 --> 00:06:03,180
+everyone
+
+175
+00:06:03,180 --> 00:06:05,400
+Then just write it here.
+
+176
+00:06:05,400 --> 00:06:06,500
+The first step is
+
+177
+00:06:06,500 --> 00:06:09,480
+Everyone needs to download the materials we just mentioned.
+
+178
+00:06:09,480 --> 00:06:11,490
+Just integrate this stuff and it's done
+
+179
+00:06:11,490 --> 00:06:13,090
+Just bring them all over, right?
+
+180
+00:06:13,090 --> 00:06:14,030
+Hey, open it
+
+181
+00:06:14,030 --> 00:06:16,970
+Then open it here, open this one here, ah
+
+182
+00:06:16,970 --> 00:06:19,980
+Open all your current software IIMG
+
+183
+00:06:19,980 --> 00:06:21,700
+Then, should we bring all of these over?
+
+184
+00:06:21,700 --> 00:06:23,520
+Take this thing over here
+
+185
+00:06:23,520 --> 00:06:24,940
+
+
+186
+00:06:24,940 --> 00:06:25,720
+Ctrl c
+
+187
+00:06:25,720 --> 00:06:27,140
+then paste it into IIMG
+
+188
+00:06:27,140 --> 00:06:29,680
+Press CTRL+V and click OK.
+
+189
+00:06:29,680 --> 00:06:31,720
+Hey, look, did it all get pasted over?
+
+190
+00:06:31,720 --> 00:06:32,760
+Just put them all here, okay?
+
+191
+00:06:32,760 --> 00:06:34,230
+Then we can just use it directly.
+
+192
+00:06:34,230 --> 00:06:37,320
+Next, we'll start building from this position.
+
+193
+00:06:37,320 --> 00:06:39,440
+I should right-click to create a new file
+
+194
+00:06:39,440 --> 00:06:41,800
+Create our current HTML
+
+195
+00:06:41,800 --> 00:06:44,540
+and then name it 12306
+
+196
+00:06:44,540 --> 00:06:47,010
+Write a value here called case
+
+197
+00:06:47,010 --> 00:06:48,530
+Implementation of the case
+
+198
+00:06:48,530 --> 00:06:51,870
+We click finish to place it here
+
+199
+00:06:51,870 --> 00:06:52,630
+That's it.
+
+200
+00:06:52,630 --> 00:06:53,410
+Place it here
+
+201
+00:06:53,410 --> 00:06:55,670
+So, next, normally speaking
+
+202
+00:06:55,670 --> 00:06:57,950
+Actually, should we be writing the code inside here?
+
+203
+00:06:57,950 --> 00:06:59,409
+and then write CSS,
+
+204
+00:06:59,409 --> 00:07:02,310
+I won't write the CSS inside
+
+205
+00:07:02,310 --> 00:07:05,590
+Because currently this CSS is handling the overall page layout
+
+206
+00:07:05,590 --> 00:07:06,810
+there will be quite a lot
+
+207
+00:07:06,810 --> 00:07:09,919
+If you keep writing here, won't the page look bloated?
+
+208
+00:07:09,919 --> 00:07:11,999
+So what should I do with cs qq
+
+209
+00:07:13,079 --> 00:07:14,470
+May I ask for little Y's opinion?
+
+210
+00:07:14,470 --> 00:07:18,680
+Right-click to create a new CSS file at our current location
+
+211
+00:07:18,680 --> 00:07:20,500
+for example, 12306
+
+212
+00:07:20,500 --> 00:07:22,300
+then click CSS
+
+213
+00:07:22,300 --> 00:07:24,090
+Then click Finish
+
+214
+00:07:24,090 --> 00:07:26,130
+Pay close attention when writing to this point
+
+215
+00:07:26,130 --> 00:07:27,810
+After writing, you must make sure to reference this location for me.
+
+216
+00:07:27,810 --> 00:07:29,610
+How to reference it over here
+
+217
+00:07:29,610 --> 00:07:30,230
+write a value
+
+218
+00:07:30,230 --> 00:07:32,230
+What's this called? Link, huh?
+
+219
+00:07:32,230 --> 00:07:32,990
+Write some content
+
+220
+00:07:32,990 --> 00:07:35,960
+Just name it 'link' and include it here.
+
+221
+00:07:35,960 --> 00:07:37,580
+This section is about CSS
+
+222
+00:07:37,580 --> 00:07:39,740
+Next is what we call 12306
+
+223
+00:07:39,740 --> 00:07:44,740
+Just import the CSS into this position and place it here, okay?
+
+224
+00:07:44,740 --> 00:07:46,380
+Is this okay up to here?
+
+225
+00:07:46,380 --> 00:07:47,260
+Put it here
+
+226
+00:07:47,260 --> 00:07:48,720
+Let's run it now.
+
+227
+00:07:48,720 --> 00:07:50,740
+Let's run it
+
+228
+00:07:50,740 --> 00:07:53,360
+Is this our current page now?
+
+229
+00:07:53,360 --> 00:07:54,880
+Teacher, there's nothing here
+
+230
+00:07:54,880 --> 00:07:56,680
+There's nothing at all.
+
+231
+00:07:56,680 --> 00:07:59,440
+Then I'll first write something here
+
+232
+00:07:59,440 --> 00:08:00,440
+You need to understand
+
+233
+00:08:00,440 --> 00:08:03,419
+Can you see what it looks like here?
+
+234
+00:08:03,419 --> 00:08:05,859
+China Railway 12306
+
+235
+00:08:05,859 --> 00:08:07,259
+We know how this is done
+
+236
+00:08:07,259 --> 00:08:08,390
+How does this come about
+
+237
+00:08:08,390 --> 00:08:10,750
+Let's write a value in the title
+
+238
+00:08:10,750 --> 00:08:12,170
+I will write some content in this position
+
+239
+00:08:12,170 --> 00:08:15,120
+called Railway
+
+240
+00:08:15,120 --> 00:08:19,340
+Just display China Railway 12306 here
+
+241
+00:08:19,340 --> 00:08:22,479
+Then, once you refresh it, it all changes.
+
+242
+00:08:22,479 --> 00:08:23,770
+We have also changed
+
+243
+00:08:23,770 --> 00:08:25,770
+but in China Railway, right?
+
+244
+00:08:25,770 --> 00:08:27,270
+It says China Railway.
+
+245
+00:08:27,270 --> 00:08:30,090
+The content is called China Railway 12356
+
+246
+00:08:30,090 --> 00:08:32,409
+Just refresh it, okay?
+
+247
+00:08:32,409 --> 00:08:34,289
+But teacher, how does this change?
+
+248
+00:08:35,370 --> 00:08:37,130
+No need to rush
+
+249
+00:08:37,130 --> 00:08:39,630
+Right-click and see how it's written, that's all.
+
+250
+00:08:39,630 --> 00:08:41,090
+View page source
+
+251
+00:08:41,090 --> 00:08:42,890
+Who is that thing
+
+252
+00:08:42,890 --> 00:08:44,379
+Is this how it's done?
+
+253
+00:08:44,379 --> 00:08:47,059
+Hey, can you only see this over here?
+
+254
+00:08:47,059 --> 00:08:49,050
+Can you see this little icon?
+
+255
+00:08:49,050 --> 00:08:51,170
+
+
+256
+00:08:51,170 --> 00:08:52,170
+Do you see this link
+
+257
+00:08:52,170 --> 00:08:52,770
+students
+
+258
+00:08:52,770 --> 00:08:55,350
+
+
+259
+00:08:55,350 --> 00:08:56,650
+
+
+260
+00:08:56,650 --> 00:08:58,650
+Just put it inside and drop it here.
+
+261
+00:08:58,650 --> 00:09:00,610
+Place it here and save it
+
+262
+00:09:00,610 --> 00:09:01,850
+Let's see if it's there
+
+263
+00:09:01,850 --> 00:09:04,560
+Refresh and take a look at our page
+
+264
+00:09:04,560 --> 00:09:06,100
+Turn off the one in this position
+
+265
+00:09:06,100 --> 00:09:06,940
+Turn it off
+
+266
+00:09:06,940 --> 00:09:07,840
+Refresh the page
+
+267
+00:09:07,840 --> 00:09:09,950
+refresh and run
+
+268
+00:09:09,950 --> 00:09:11,470
+It hasn't come over here yet
+
+269
+00:09:11,470 --> 00:09:13,350
+Save it
+
+270
+00:09:14,630 --> 00:09:17,810
+Run this location
+
+271
+00:09:17,810 --> 00:09:19,830
+Are we still missing a small image?
+
+272
+00:09:19,830 --> 00:09:21,680
+Should it be GFS over here?
+
+273
+00:09:21,680 --> 00:09:23,880
+Did you notice that there's something written as IFG here
+
+274
+00:09:23,880 --> 00:09:26,640
+Is someone saying there's something called IFGF inside?
+
+275
+00:09:26,640 --> 00:09:28,960
+Shouldn't it be IMJS in here
+
+276
+00:09:28,960 --> 00:09:30,920
+Is it this little image?
+
+277
+00:09:30,920 --> 00:09:33,660
+Our address should be in IIMG, right?
+
+278
+00:09:33,660 --> 00:09:35,160
+You need to check if this image exists
+
+279
+00:09:35,160 --> 00:09:37,000
+Write a value to remove it, right?
+
+280
+00:09:37,000 --> 00:09:41,130
+Should there be an image at the bottom of this IMG position?
+
+281
+00:09:41,130 --> 00:09:42,450
+We need to take a look
+
+282
+00:09:42,450 --> 00:09:46,010
+Hmm, the FAA has it
+
+283
+00:09:46,010 --> 00:09:47,190
+It should be this thing, right?
+
+284
+00:09:47,190 --> 00:09:48,110
+Save it
+
+285
+00:09:48,110 --> 00:09:49,010
+Take another look.
+
+286
+00:09:49,010 --> 00:09:49,910
+Just refresh it
+
+287
+00:09:49,910 --> 00:09:51,430
+refresh it and go
+
+288
+00:09:51,430 --> 00:09:53,050
+Hey, is it showing up?
+
+289
+00:09:53,050 --> 00:09:54,010
+Is this it?
+
+290
+00:09:54,010 --> 00:09:55,770
+Oh, this thing, you just need to know about it.
+
+291
+00:09:55,770 --> 00:09:57,190
+a small piece of Knowledge
+
+292
+00:09:57,190 --> 00:09:59,940
+You'll notice this position is also referenced using a link, right?
+
+293
+00:09:59,940 --> 00:10:02,400
+This ICON represents an icon set
+
+294
+00:10:02,400 --> 00:10:04,340
+introduced a file icon
+
+295
+00:10:04,340 --> 00:10:06,060
+I'll just put this in place for you.
+
+296
+00:10:06,060 --> 00:10:08,780
+It serves as a display of an icon set.
+
+297
+00:10:08,780 --> 00:10:10,800
+This content is called displayed
+
+298
+00:10:10,800 --> 00:10:16,580
+the so-called icon of our current window window
+
+299
+00:10:16,580 --> 00:10:21,000
+Just name it 'icon' and save it, okay.
+
+300
+00:10:21,000 --> 00:10:23,240
+Then now you refresh it here
+
+301
+00:10:23,240 --> 00:10:24,920
+Is the position the same?
+
+302
+00:10:24,920 --> 00:10:26,020
+Throw it here.
+
+303
+00:10:26,020 --> 00:10:26,760
+Alright
+
+304
+00:10:26,760 --> 00:10:28,250
+OK, it's done.
+
+305
+00:10:28,250 --> 00:10:31,490
+Next, we should proceed with the layout inside here.
+
+306
+00:10:31,490 --> 00:10:34,530
+First, I should start with the entire top frame
+
+307
+00:10:34,530 --> 00:10:36,170
+Should we create this div?
+
+308
+00:10:36,170 --> 00:10:38,950
+Let's first check how tall it is.
+
+309
+00:10:38,950 --> 00:10:40,970
+The width should be 100 percent
+
+310
+00:10:40,970 --> 00:10:41,829
+Is this okay?
+
+311
+00:10:41,829 --> 00:10:43,169
+Let's mainly look at the height
+
+312
+00:10:43,169 --> 00:10:46,050
+Look at the height, approximately how much is it?
+
+313
+00:10:46,050 --> 00:10:48,250
+It's about 80, right?
+
+314
+00:10:48,250 --> 00:10:49,010
+So 80, ah
+
+315
+00:10:49,010 --> 00:10:50,570
+Then I'll just set it to 80.
+
+316
+00:10:50,570 --> 00:10:52,610
+Okay, then I'll proceed with this part.
+
+317
+00:10:52,610 --> 00:10:54,170
+Everyone must pay attention now
+
+318
+00:10:54,170 --> 00:10:55,610
+When you're coding
+
+319
+00:10:55,610 --> 00:10:57,790
+You must develop a good habit here
+
+320
+00:10:57,790 --> 00:10:58,460
+What's up
+
+321
+00:10:58,460 --> 00:11:00,800
+You must write comments, you must write comments!
+
+322
+00:11:00,800 --> 00:11:03,360
+Do you know what programmers hate the most?
+
+323
+00:11:03,360 --> 00:11:07,250
+is writing comments, and the most annoying thing is reading someone else's code
+
+324
+00:11:07,250 --> 00:11:08,490
+He doesn't write comments.
+
+325
+00:11:08,490 --> 00:11:10,130
+This is what annoys us the most
+
+326
+00:11:10,130 --> 00:11:11,010
+You don't want to write comments either
+
+327
+00:11:11,010 --> 00:11:12,510
+You're annoyed by others who don't write comments, huh?
+
+328
+00:11:12,510 --> 00:11:14,290
+This is what we dislike doing the most.
+
+329
+00:11:14,290 --> 00:11:17,070
+So everyone should develop a good habit here.
+
+330
+00:11:17,070 --> 00:11:17,890
+Let's set a value
+
+331
+00:11:17,890 --> 00:11:20,010
+The first value comes first
+
+332
+00:11:20,010 --> 00:11:20,650
+This position
+
+333
+00:11:20,650 --> 00:11:23,660
+what we currently call 12306
+
+334
+00:11:23,660 --> 00:11:25,720
+Then, the top of this position, hey
+
+335
+00:11:25,720 --> 00:11:30,190
+Write the content as 'Top' to save the current layout implementation
+
+336
+00:11:30,190 --> 00:11:32,430
+Then write some content inside here
+
+337
+00:11:32,430 --> 00:11:35,030
+Write a value inside here and place a DIV right there
+
+338
+00:11:35,030 --> 00:11:36,670
+Is this a DIV, right?
+
+339
+00:11:36,670 --> 00:11:38,410
+Then give it a class
+
+340
+00:11:38,410 --> 00:11:42,010
+For example, this position is called what we currently refer to as TL
+
+341
+00:11:42,010 --> 00:11:43,710
+Is this the railway position?
+
+342
+00:11:43,710 --> 00:11:45,800
+Then save it as 'one'.
+
+343
+00:11:45,800 --> 00:11:48,980
+So you need to first wrap its corresponding box
+
+344
+00:11:48,980 --> 00:11:51,580
+We know that after writing the CSS
+
+345
+00:11:51,580 --> 00:11:54,430
+Should we first remove the previous blank spaces?
+
+346
+00:11:54,430 --> 00:11:56,470
+set a value called margin
+
+347
+00:11:56,470 --> 00:11:58,130
+and then set it to 0PX
+
+348
+00:11:58,130 --> 00:11:59,350
+and what's it called
+
+349
+00:11:59,350 --> 00:12:00,550
+called padding
+
+350
+00:12:00,550 --> 00:12:03,770
+Then, write 0PX, is that correct?
+
+351
+00:12:03,770 --> 00:12:06,050
+Then, let's write it here below.
+
+352
+00:12:06,050 --> 00:12:07,099
+Always write comments
+
+353
+00:12:07,099 --> 00:12:10,159
+write a value called top-to-top
+
+354
+00:12:10,159 --> 00:12:12,910
+Our current so-called layout begins
+
+355
+00:12:12,910 --> 00:12:15,090
+Then, write another value below
+
+356
+00:12:15,090 --> 00:12:17,030
+CTRLC um
+
+357
+00:12:17,030 --> 00:12:19,710
+What should we do with the top layout of this position further down?
+
+358
+00:12:19,710 --> 00:12:21,250
+Just end it.
+
+359
+00:12:21,250 --> 00:12:24,150
+End and save, then begin and end it.
+
+360
+00:12:24,150 --> 00:12:25,500
+Let's write it then.
+
+361
+00:12:25,500 --> 00:12:27,580
+First, we need to write a value inside here
+
+362
+00:12:27,580 --> 00:12:28,700
+named .T1
+
+363
+00:12:28,700 --> 00:12:32,160
+We know that inside here we should give it width, right?
+
+364
+00:12:32,160 --> 00:12:34,760
+As for the width, how much should we give it here?
+
+365
+00:12:34,760 --> 00:12:36,300
+100%
+
+366
+00:12:36,300 --> 00:12:40,340
+What about the height? The height was just 80px.
+
+367
+00:12:40,340 --> 00:12:43,740
+Then we need to set a value of 1px for the border.
+
+368
+00:12:43,740 --> 00:12:44,900
+When writing this position
+
+369
+00:12:44,900 --> 00:12:47,140
+You must first construct the frame for me.
+
+370
+00:12:47,140 --> 00:12:48,520
+Save it first
+
+371
+00:12:48,520 --> 00:12:50,560
+Now press F5 to refresh it and go
+
+372
+00:12:50,560 --> 00:12:52,940
+Is this the box you're talking about when you move it?
+
+373
+00:12:52,940 --> 00:12:54,980
+Teacher, I have a question
+
+374
+00:12:54,980 --> 00:12:56,780
+What happened to your browser?
+
+375
+00:12:56,780 --> 00:12:58,530
+How did it end up like this?
+
+376
+00:12:58,530 --> 00:13:00,410
+That's because you set it to 100 percent
+
+377
+00:13:00,410 --> 00:13:01,660
+Now there is a border
+
+378
+00:13:01,660 --> 00:13:03,620
+If you remove the border, the position will be gone.
+
+379
+00:13:03,620 --> 00:13:06,140
+This is because of the border you added, do you understand?
+
+380
+00:13:06,140 --> 00:13:08,370
+So just pay attention, it's no problem.
+
+381
+00:13:08,370 --> 00:13:09,370
+Well, that's it.
+
+382
+00:13:09,370 --> 00:13:11,410
+This is what we currently call the top section
+
+383
+00:13:11,410 --> 00:13:13,090
+After writing the top section here
+
+384
+00:13:13,090 --> 00:13:14,770
+So next, shouldn't you put inside
+
+385
+00:13:14,770 --> 00:13:16,500
+This is just a simple matter of
+
+386
+00:13:16,500 --> 00:13:19,069
+Just put an image here, isn't it simple?
+
+387
+00:13:19,069 --> 00:13:20,309
+It's so simple.
+
+388
+00:13:20,309 --> 00:13:21,789
+Let's open this location
+
+389
+00:13:21,789 --> 00:13:24,609
+Then you just write a value called IIMG in here
+
+390
+00:13:24,609 --> 00:13:26,180
+Then write the content here
+
+391
+00:13:26,180 --> 00:13:27,840
+Hey, let's find this image.
+
+392
+00:13:27,840 --> 00:13:30,740
+This image should be the railway logo
+
+393
+00:13:30,740 --> 00:13:31,620
+Is this it
+
+394
+00:13:31,620 --> 00:13:34,079
+Isn't it supposed to be this local
+
+395
+00:13:34,079 --> 00:13:35,559
+It should be this thing
+
+396
+00:13:35,559 --> 00:13:36,519
+It should be this one
+
+397
+00:13:36,519 --> 00:13:38,079
+But can't we see it now?
+
+398
+00:13:38,079 --> 00:13:39,639
+but we can take a look from here
+
+399
+00:13:39,639 --> 00:13:40,839
+Take a look to see if this is the logo
+
+400
+00:13:40,839 --> 00:13:43,020
+Is this the image?
+
+401
+00:13:43,020 --> 00:13:44,440
+With it, there's no problem.
+
+402
+00:13:44,440 --> 00:13:47,120
+Save it, hit F5 to refresh, here we go, let's take a look
+
+403
+00:13:47,120 --> 00:13:48,160
+Here you go, let's go
+
+404
+00:13:48,160 --> 00:13:50,860
+Can you see it's moved over? It's moved over, right?
+
+405
+00:13:50,860 --> 00:13:52,580
+Now, this position remains unchanged
+
+406
+00:13:52,580 --> 00:13:53,560
+I just said
+
+407
+00:13:53,560 --> 00:13:55,540
+I want to adjust its current position
+
+408
+00:13:55,540 --> 00:13:56,660
+Should I adjust this image
+
+409
+00:13:56,660 --> 00:13:58,340
+Now make it a bit further away from this side
+
+410
+00:13:58,340 --> 00:13:59,200
+Is it correct?
+
+411
+00:13:59,200 --> 00:14:00,200
+How can you adjust it
+
+412
+00:14:02,200 --> 00:14:03,680
+Margin margin pop
+
+413
+00:14:03,680 --> 00:14:05,530
+Can the margin-left be adjusted?
+
+414
+00:14:05,530 --> 00:14:07,810
+And how about adjusting positioning, can that be adjusted?
+
+415
+00:14:07,810 --> 00:14:09,110
+Yes, all can be adjusted.
+
+416
+00:14:09,110 --> 00:14:09,790
+Is that right?
+
+417
+00:14:09,790 --> 00:14:10,900
+You can adjust it however you want.
+
+418
+00:14:10,900 --> 00:14:12,740
+Simply adjust it using margin will do.
+
+419
+00:14:12,740 --> 00:14:13,940
+margin1 doesn't work
+
+420
+00:14:13,940 --> 00:14:15,760
+Then these three positioning methods must work well, right?
+
+421
+00:14:15,760 --> 00:14:18,220
+Hey, don't worry about the impact of styles over here.
+
+422
+00:14:18,220 --> 00:14:19,270
+Then I'll just write it.
+
+423
+00:14:19,270 --> 00:14:21,750
+For this position, I'll just write a class, right?
+
+424
+00:14:21,750 --> 00:14:22,830
+write a value class
+
+425
+00:14:22,830 --> 00:14:25,560
+Here it's called railway-one-bar
+
+426
+00:14:25,560 --> 00:14:26,920
+Here, we'll write a value called 'bar'
+
+427
+00:14:26,920 --> 00:14:27,820
+write a content bar
+
+428
+00:14:27,820 --> 00:14:29,440
+IIMG write it
+
+429
+00:14:29,440 --> 00:14:31,550
+Now, let's proceed with the layout.
+
+430
+00:14:31,550 --> 00:14:33,990
+I'm going to place it right here
+
+431
+00:14:33,990 --> 00:14:34,910
+write a value for it
+
+432
+00:14:34,910 --> 00:14:37,940
+Then I'll adjust it using margin inside
+
+433
+00:14:37,940 --> 00:14:39,380
+Adjusting the margin this month will work better
+
+434
+00:14:39,380 --> 00:14:43,220
+margin top 10PX then write another value called margin left
+
+435
+00:14:43,220 --> 00:14:46,020
+Set a value called 30PX and save
+
+436
+00:14:46,020 --> 00:14:47,200
+Just give it any random value
+
+437
+00:14:47,200 --> 00:14:50,690
+Refresh E, works great
+
+438
+00:14:50,690 --> 00:14:52,250
+Doesn't move anymore
+
+439
+00:14:52,250 --> 00:14:54,690
+But we need to roughly see where it is positioned.
+
+440
+00:14:54,690 --> 00:14:56,470
+Take a rough look at this thing
+
+441
+00:14:56,470 --> 00:14:58,630
+It should start roughly from here, let's measure it approximately
+
+442
+00:14:58,630 --> 00:15:00,270
+Measured a bit too much
+
+443
+00:15:00,270 --> 00:15:04,880
+This is roughly 230 and 10, can you see it?
+
+444
+00:15:04,880 --> 00:15:06,520
+because it's aligned correctly here
+
+445
+00:15:06,520 --> 00:15:09,100
+It's about ten or maybe fifteen.
+
+446
+00:15:09,100 --> 00:15:09,860
+fifteen or sixteen
+
+447
+00:15:09,860 --> 00:15:13,859
+But this position is roughly two hundred, two hundred, two hundred, two hundred and thirty or so.
+
+448
+00:15:13,859 --> 00:15:14,979
+230 and 15
+
+449
+00:15:14,979 --> 00:15:16,039
+I'll just assign a value here
+
+450
+00:15:16,039 --> 00:15:17,180
+assign a value here
+
+451
+00:15:17,180 --> 00:15:20,080
+This top is fifteen, fifteen
+
+452
+00:15:20,080 --> 00:15:21,880
+Then the position here is 230
+
+453
+00:15:21,880 --> 00:15:24,060
+Save it, hit F5 to refresh, and voila
+
+454
+00:15:24,060 --> 00:15:26,200
+Once you move, does it come here?
+
+455
+00:15:26,200 --> 00:15:28,120
+Now let me explain here
+
+456
+00:15:28,120 --> 00:15:29,800
+You see when I'm measuring the values
+
+457
+00:15:29,800 --> 00:15:30,520
+Am I doing it like this
+
+458
+00:15:30,520 --> 00:15:32,260
+Is this how you measure with the screenshot tool?
+
+459
+00:15:32,260 --> 00:15:34,630
+Everyone should pay attention when measuring
+
+460
+00:15:34,630 --> 00:15:38,390
+If the resolution of your current computer screen
+
+461
+00:15:38,390 --> 00:15:42,160
+Right-click at this position to check your so-called display settings
+
+462
+00:15:42,160 --> 00:15:43,200
+Oops, not that one
+
+463
+00:15:43,200 --> 00:15:44,750
+That's it, that's the one
+
+464
+00:15:44,750 --> 00:15:47,030
+The resolution here is not 100%
+
+465
+00:15:47,030 --> 00:15:48,430
+You must never use this for me.
+
+466
+00:15:48,430 --> 00:15:50,010
+Your measurements here are inaccurate.
+
+467
+00:15:50,010 --> 00:15:50,790
+after measuring it
+
+468
+00:15:50,790 --> 00:15:53,080
+The position you wrote will be off by a large margin, hey.
+
+469
+00:15:53,080 --> 00:15:54,740
+Many students here don't use 100%
+
+470
+00:15:54,740 --> 00:15:55,860
+what percentage is it
+
+471
+00:15:55,860 --> 00:15:56,940
+125
+
+472
+00:15:56,940 --> 00:15:58,180
+when you measure it
+
+473
+00:15:58,180 --> 00:15:59,440
+This size is incorrect
+
+474
+00:15:59,440 --> 00:16:00,180
+Do you understand?
+
+475
+00:16:00,180 --> 00:16:00,800
+That's very wrong.
+
+476
+00:16:00,800 --> 00:16:01,900
+You need to pay attention to this issue.
+
+477
+00:16:01,900 --> 00:16:03,870
+So everyone must pay attention to this
+
+478
+00:16:03,870 --> 00:16:05,050
+Just put it here
+
+479
+00:16:05,050 --> 00:16:07,430
+Generally speaking, this is how it's done in this position.
+
+480
+00:16:07,430 --> 00:16:10,030
+Then you can take a look from this inside
+
+481
+00:16:10,030 --> 00:16:11,760
+Put it here.
+
+482
+00:16:11,760 --> 00:16:13,440
+Is there an image here?
+
+483
+00:16:13,440 --> 00:16:14,810
+The image is placed here.
+
+484
+00:16:14,810 --> 00:16:16,250
+After drawing the picture
+
+485
+00:16:16,250 --> 00:16:19,170
+Then I think we should write this part
+
+486
+00:16:19,170 --> 00:16:20,430
+Is this the content?
+
+487
+00:16:20,430 --> 00:16:21,890
+But everyone should pay attention
+
+488
+00:16:21,890 --> 00:16:22,850
+Look
+
+489
+00:16:22,850 --> 00:16:25,410
+When you are about to write this part of the layout
+
+490
+00:16:25,410 --> 00:16:27,340
+When you are writing this layout
+
+491
+00:16:27,340 --> 00:16:31,040
+What do you think, should we place the image directly here
+
+492
+00:16:31,040 --> 00:16:33,460
+or is it better to use a background image
+
+493
+00:16:33,460 --> 00:16:36,700
+Actually, everyone feels either way would work
+
+494
+00:16:36,700 --> 00:16:38,180
+Which one do you think is better?
+
+495
+00:16:38,180 --> 00:16:40,319
+Why a background image
+
+496
+00:16:40,319 --> 00:16:42,939
+Because it seems like there's something placed on top of it, right?
+
+497
+00:16:42,939 --> 00:16:45,119
+Does this background image look better?
+
+498
+00:16:45,119 --> 00:16:48,579
+So I'm going to create a background image for you within this section.
+
+499
+00:16:48,579 --> 00:16:50,319
+but after you use it, think about
+
+500
+00:16:50,319 --> 00:16:52,750
+Do you want to learn how to create this background image
+
+501
+00:16:52,750 --> 00:16:54,370
+If you want to create a background image
+
+502
+00:16:54,370 --> 00:16:57,150
+Do you think this background image is centered?
+
+503
+00:16:57,150 --> 00:16:59,770
+Now, hey, do you think this
+
+504
+00:16:59,770 --> 00:17:03,069
+Do you think this background image is centered in this position?
+
+505
+00:17:03,429 --> 00:17:04,989
+Actually, if you look closely, it doesn't quite fit
+
+506
+00:17:04,989 --> 00:17:06,549
+The upper part seems a bit further away
+
+507
+00:17:06,549 --> 00:17:08,009
+This position is a bit smaller.
+
+508
+00:17:08,009 --> 00:17:09,348
+So what should I do
+
+509
+00:17:09,348 --> 00:17:11,750
+I only write a div inside here
+
+510
+00:17:11,750 --> 00:17:14,970
+Can I make this div this size
+
+511
+00:17:14,970 --> 00:17:16,990
+then I center it within this div
+
+512
+00:17:16,990 --> 00:17:20,618
+Can you understand what this background image means?
+
+513
+00:17:20,618 --> 00:17:21,459
+I'll leave some space at the top
+
+514
+00:17:21,459 --> 00:17:22,819
+Because there seems to be some space above, right?
+
+515
+00:17:22,819 --> 00:17:23,499
+everyone
+
+516
+00:17:23,499 --> 00:17:24,638
+after all, it's not centered
+
+517
+00:17:24,638 --> 00:17:26,339
+So here's what I'll do
+
+518
+00:17:26,339 --> 00:17:28,388
+I'll just write a div, watch carefully
+
+519
+00:17:28,388 --> 00:17:31,229
+There's no absolute right or wrong when building layouts like this.
+
+520
+00:17:31,229 --> 00:17:32,749
+Let's write a value here
+
+521
+00:17:32,749 --> 00:17:35,329
+This position is where all our current div is placed.
+
+522
+00:17:35,329 --> 00:17:36,280
+Place it here
+
+523
+00:17:36,280 --> 00:17:38,000
+Let's give it a meaningful class
+
+524
+00:17:38,000 --> 00:17:40,520
+For example, let's name this section 'railway' inside here
+
+525
+00:17:40,520 --> 00:17:44,860
+Should we search for the current one, dash SHSHR?
+
+526
+00:17:44,860 --> 00:17:45,500
+Zhabao
+
+527
+00:17:45,500 --> 00:17:46,760
+Let's CTRL+C it
+
+528
+00:17:46,760 --> 00:17:47,520
+same as before
+
+529
+00:17:47,520 --> 00:17:48,860
+Don't be in a hurry to write things yet
+
+530
+00:17:48,860 --> 00:17:50,960
+First, let's get this thing inside out
+
+531
+00:17:50,960 --> 00:17:52,020
+Put it here
+
+532
+00:17:52,020 --> 00:17:56,300
+I should probably start by setting the width and height for this element inside.
+
+533
+00:17:56,300 --> 00:17:58,600
+Let me roughly check its height
+
+534
+00:17:58,600 --> 00:18:00,620
+The entire height of this position is 80, right?
+
+535
+00:18:00,620 --> 00:18:03,530
+How tall do you think this div should be in terms of height?
+
+536
+00:18:03,850 --> 00:18:04,770
+set it to 70
+
+537
+00:18:04,770 --> 00:18:05,690
+I think it's about the same
+
+538
+00:18:05,690 --> 00:18:07,100
+What do you think, right?
+
+539
+00:18:07,100 --> 00:18:08,140
+70 I think this is fine
+
+540
+00:18:08,140 --> 00:18:10,360
+Because don't you think we should leave a little space in here?
+
+541
+00:18:10,360 --> 00:18:11,400
+Hey, set it to 70.
+
+542
+00:18:11,400 --> 00:18:13,040
+I'll mainly use two parameters, width
+
+543
+00:18:13,040 --> 00:18:15,860
+From here to here, let's see how much it is
+
+544
+00:18:17,860 --> 00:18:20,420
+Can you see 1121120?
+
+545
+00:18:20,420 --> 00:18:21,900
+It's approximately 1120.
+
+546
+00:18:21,900 --> 00:18:24,020
+This twenty-two is just a little bit more anyway
+
+547
+00:18:24,020 --> 00:18:26,180
+It's approximately 111130.
+
+548
+00:18:26,180 --> 00:18:26,620
+Alright
+
+549
+00:18:26,620 --> 00:18:28,300
+Here it is 1130.
+
+550
+00:18:28,300 --> 00:18:29,420
+give it a value
+
+551
+00:18:29,420 --> 00:18:31,200
+Set the width inside here
+
+552
+00:18:31,200 --> 00:18:35,620
+The width is our current 1130px, and the height?
+
+553
+00:18:35,620 --> 00:18:38,300
+Set the height to 70px
+
+554
+00:18:38,300 --> 00:18:41,760
+Then give it a border called etx solid
+
+555
+00:18:41,760 --> 00:18:43,000
+called red
+
+556
+00:18:43,000 --> 00:18:43,950
+Save it
+
+557
+00:18:43,950 --> 00:18:45,030
+Refresh it
+
+558
+00:18:45,030 --> 00:18:46,230
+Refresh go
+
+559
+00:18:46,230 --> 00:18:48,850
+You mean it should look like this?
+
+560
+00:18:48,850 --> 00:18:50,070
+Because it is a
+
+561
+00:18:50,070 --> 00:18:51,210
+There is an image placed inside
+
+562
+00:18:51,210 --> 00:18:53,070
+Just put this div here, right?
+
+563
+00:18:53,070 --> 00:18:55,880
+Then where exactly should this div be displayed? That's right.
+
+564
+00:18:55,880 --> 00:18:57,780
+on your so-called right side
+
+565
+00:18:57,780 --> 00:18:59,680
+Then how do you want this div to be retrieved
+
+566
+00:18:59,680 --> 00:19:01,160
+Can we not retrieve it?
+
+567
+00:19:01,160 --> 00:19:02,400
+Well then just write it like this
+
+568
+00:19:02,400 --> 00:19:03,750
+write a value
+
+569
+00:19:03,750 --> 00:19:05,590
+This position is our current
+
+570
+00:19:05,590 --> 00:19:07,530
+Are you manipulating this div?
+
+571
+00:19:07,530 --> 00:19:09,350
+Just add a float here
+
+572
+00:19:09,350 --> 00:19:10,490
+Where to poke
+
+573
+00:19:10,490 --> 00:19:11,510
+That way
+
+574
+00:19:11,510 --> 00:19:12,850
+Move it to this position, alright?
+
+575
+00:19:12,850 --> 00:19:14,610
+Refresh and take a walk
+
+576
+00:19:14,610 --> 00:19:15,710
+It's back, right?
+
+577
+00:19:15,710 --> 00:19:18,550
+But it should be a bit farther from the top, right?
+
+578
+00:19:18,550 --> 00:19:21,610
+Then I can adjust a value called margin or something
+
+579
+00:19:21,610 --> 00:19:24,100
+Isn't it enough to have Hope's distance from the top?
+
+580
+00:19:24,100 --> 00:19:27,240
+Just write a value of 10px here, and of course there will be
+
+581
+00:19:27,240 --> 00:19:28,380
+because of the border effect
+
+582
+00:19:28,380 --> 00:19:30,720
+There might be a slight refresh issue
+
+583
+00:19:30,720 --> 00:19:31,740
+Is it overlapping
+
+584
+00:19:31,740 --> 00:19:33,900
+Is it roughly like this? Save it.
+
+585
+00:19:33,900 --> 00:19:35,340
+So next,
+
+586
+00:19:35,340 --> 00:19:36,400
+we should
+
+587
+00:19:36,400 --> 00:19:39,460
+Just set something for this position.
+
+588
+00:19:39,460 --> 00:19:41,120
+Isn't it just a background image?
+
+589
+00:19:41,120 --> 00:19:42,780
+So we should write it like this
+
+590
+00:19:42,780 --> 00:19:45,640
+First, let's see if there's a suitable background image
+
+591
+00:19:45,640 --> 00:19:47,400
+Whose background image should this be?
+
+592
+00:19:47,400 --> 00:19:48,790
+Put it right here
+
+593
+00:19:48,790 --> 00:19:50,250
+This position should be
+
+594
+00:19:50,250 --> 00:19:52,990
+It should be the so-called each image we currently have
+
+595
+00:19:52,990 --> 00:19:53,810
+From this perspective
+
+596
+00:19:53,810 --> 00:19:57,039
+Can you see it when you open it?
+
+597
+00:19:57,039 --> 00:19:59,110
+this screenshot of the image for everyone
+
+598
+00:19:59,110 --> 00:20:00,370
+Can you see this image?
+
+599
+00:20:00,370 --> 00:20:01,230
+That's it.
+
+600
+00:20:01,230 --> 00:20:04,130
+So let's add some content here then.
+
+601
+00:20:04,130 --> 00:20:08,340
+Well, come on, this is the spot.
+
+602
+00:20:08,340 --> 00:20:11,520
+So am I starting from this position then?
+
+603
+00:20:22,820 --> 00:20:24,260
+Okay
+
+604
+00:20:25,380 --> 00:20:26,220
+OK, that's it
+
+605
+00:20:26,220 --> 00:20:27,660
+Should I add a background image then?
+
+606
+00:20:27,660 --> 00:20:29,929
+The background image is something like background
+
+607
+00:20:29,929 --> 00:20:32,249
+Is there an IMG?
+
+608
+00:20:32,249 --> 00:20:34,509
+write a value called URL
+
+609
+00:20:34,509 --> 00:20:35,549
+Just look for it
+
+610
+00:20:35,549 --> 00:20:37,609
+Look for it here, look and look and look
+
+611
+00:20:37,609 --> 00:20:39,700
+Where is that tree?
+
+612
+00:20:39,700 --> 00:20:41,180
+Is this thing at the very bottom?
+
+613
+00:20:41,180 --> 00:20:41,900
+Not in vain
+
+614
+00:20:41,900 --> 00:20:42,420
+That's it.
+
+615
+00:20:42,420 --> 00:20:44,300
+The saved color is a bit light.
+
+616
+00:20:44,300 --> 00:20:45,540
+but you need to pay close attention
+
+617
+00:20:45,540 --> 00:20:48,220
+Can you see it after refreshing?
+
+618
+00:20:48,220 --> 00:20:50,900
+Next, I should probably set this background image to what?
+
+619
+00:20:50,900 --> 00:20:51,920
+no-repeat
+
+620
+00:20:51,920 --> 00:20:54,520
+called background repeat
+
+621
+00:20:54,520 --> 00:20:56,960
+background repeat
+
+622
+00:20:56,960 --> 00:20:58,490
+Then write a value here
+
+623
+00:20:58,490 --> 00:21:00,770
+Hey, write a value called 'repeat' here.
+
+624
+00:21:00,770 --> 00:21:03,290
+re e repeat what value is it called
+
+625
+00:21:03,290 --> 00:21:05,060
+no-repeat
+
+626
+00:21:05,060 --> 00:21:07,960
+Then you refresh and it moves bit by bit
+
+627
+00:21:07,960 --> 00:21:09,469
+Is this correct?
+
+628
+00:21:09,469 --> 00:21:11,679
+But we can't do it now
+
+629
+00:21:11,839 --> 00:21:13,499
+Is it at the top?
+
+630
+00:21:13,499 --> 00:21:15,239
+What should we make it do is fine
+
+631
+00:21:16,279 --> 00:21:17,799
+Centering is not the right approach.
+
+632
+00:21:17,799 --> 00:21:18,919
+if centered
+
+633
+00:21:18,919 --> 00:21:20,020
+How do I adjust this?
+
+634
+00:21:20,020 --> 00:21:22,060
+write a value called background here
+
+635
+00:21:22,060 --> 00:21:24,300
+Is the current centered position called 'position'?
+
+636
+00:21:24,300 --> 00:21:25,050
+Is it true
+
+637
+00:21:25,050 --> 00:21:26,590
+Is center aligned?
+
+638
+00:21:26,590 --> 00:21:27,970
+but centering doesn't work
+
+639
+00:21:27,970 --> 00:21:29,930
+If you refresh it here
+
+640
+00:21:29,930 --> 00:21:30,610
+Is that it
+
+641
+00:21:30,610 --> 00:21:32,310
+Is the entire thing centered?
+
+642
+00:21:32,310 --> 00:21:34,490
+Is this supposed to be centered like this?
+
+643
+00:21:34,490 --> 00:21:36,330
+What should I do then
+
+644
+00:21:36,930 --> 00:21:38,610
+Well, come on, don't adjust the margins
+
+645
+00:21:38,610 --> 00:21:39,650
+There is another value here
+
+646
+00:21:39,650 --> 00:21:41,590
+write a value called left left
+
+647
+00:21:41,590 --> 00:21:42,659
+What does it mean
+
+648
+00:21:42,659 --> 00:21:45,659
+The upper limit of the group moves step by step
+
+649
+00:21:45,659 --> 00:21:47,460
+This value is just like this
+
+650
+00:21:47,460 --> 00:21:48,660
+when it's left-aligned
+
+651
+00:21:48,660 --> 00:21:51,400
+it is directly equivalent to being on the far left, not centered
+
+652
+00:21:51,400 --> 00:21:52,660
+Right-aligned is also at the far right
+
+653
+00:21:52,660 --> 00:21:54,180
+Can you see this position when it's centered?
+
+654
+00:21:54,180 --> 00:21:55,309
+Put it here
+
+655
+00:21:55,309 --> 00:21:56,629
+Just de-center it right here.
+
+656
+00:21:56,629 --> 00:21:57,349
+directly remove the centering
+
+657
+00:21:57,349 --> 00:21:59,949
+So you'll notice that after writing this part
+
+658
+00:21:59,949 --> 00:22:01,729
+Is there still a bit of distance to work?
+
+659
+00:22:01,729 --> 00:22:03,409
+Is there also some distance at this position?
+
+660
+00:22:03,409 --> 00:22:04,810
+It's just perfect now.
+
+661
+00:22:04,810 --> 00:22:06,010
+That's the spot.
+
+662
+00:22:06,010 --> 00:22:08,310
+So, is this space meant for fun or what?
+
+663
+00:22:08,310 --> 00:22:10,030
+Let's go and throw it away.
+
+664
+00:22:10,030 --> 00:22:11,090
+Just save it
+
+665
+00:22:11,090 --> 00:22:12,610
+Alright, let's go
+
+666
+00:22:12,610 --> 00:22:14,450
+So everyone, when adjusting it here
+
+667
+00:22:14,450 --> 00:22:16,490
+Actually, there are many positions that can be adjusted, right?
+
+668
+00:22:16,490 --> 00:22:18,250
+You can adjust it here
+
+669
+00:22:18,250 --> 00:22:19,850
+Many styles you might not have seen before
+
+670
+00:22:19,850 --> 00:22:21,630
+We've explained it all through this case.
+
+671
+00:22:21,630 --> 00:22:23,260
+Speaking of this
+
+672
+00:22:23,260 --> 00:22:26,540
+Then, after this, everyone will notice there's still something not quite right
+
+673
+00:22:26,540 --> 00:22:27,300
+Can you see it?
+
+674
+00:22:27,300 --> 00:22:29,260
+This background image is too short.
+
+675
+00:22:29,260 --> 00:22:30,690
+Can you see it?
+
+676
+00:22:30,690 --> 00:22:31,910
+Then what should you do
+
+677
+00:22:31,910 --> 00:22:33,530
+size
+
+678
+00:22:34,690 --> 00:22:37,679
+What to put in this position
+
+679
+00:22:37,679 --> 00:22:39,679
+Can't you see the color of the background image?
+
+680
+00:22:42,159 --> 00:22:43,920
+Is it just white?
+
+681
+00:22:43,920 --> 00:22:45,600
+Well then, let's do it this way
+
+682
+00:22:45,600 --> 00:22:46,880
+Let me add a background color for you first.
+
+683
+00:22:46,880 --> 00:22:50,880
+You see, we're writing a value called background color here.
+
+684
+00:22:50,880 --> 00:22:51,960
+The color is too light
+
+685
+00:22:51,960 --> 00:22:52,920
+Don't say you can't see it
+
+686
+00:22:52,920 --> 00:22:54,480
+I can hardly see it at first glance.
+
+687
+00:22:54,480 --> 00:22:56,540
+Refreshed and saw it now
+
+688
+00:22:56,540 --> 00:22:57,240
+Don't go
+
+689
+00:22:57,240 --> 00:22:59,480
+Can you see it now?
+
+690
+00:22:59,480 --> 00:23:01,100
+Can you see there is a slope here?
+
+691
+00:23:01,100 --> 00:23:04,120
+Can you guys see there's a slight slope in here?
+
+692
+00:23:04,120 --> 00:23:07,870
+It's just that the color is very light.
+
+693
+00:23:09,030 --> 00:23:10,430
+The color is very faint in this spot
+
+694
+00:23:10,430 --> 00:23:11,170
+Can you see it?
+
+695
+00:23:11,170 --> 00:23:13,080
+It's a bit harsh on the eyes, right?
+
+696
+00:23:13,080 --> 00:23:14,200
+Then just watch it, okay?
+
+697
+00:23:14,200 --> 00:23:15,020
+Just look at this
+
+698
+00:23:15,020 --> 00:23:17,000
+Actually, you'll notice that at this position
+
+699
+00:23:17,000 --> 00:23:17,950
+the entire white box
+
+700
+00:23:17,950 --> 00:23:18,950
+It's too short
+
+701
+00:23:18,950 --> 00:23:19,690
+Can you see it?
+
+702
+00:23:19,690 --> 00:23:22,460
+You should be adjusting the position of this element now, that's all.
+
+703
+00:23:22,460 --> 00:23:25,140
+It's about the size of this background image.
+
+704
+00:23:25,140 --> 00:23:26,300
+Because it's currently so short
+
+705
+00:23:26,300 --> 00:23:27,620
+You can adjust it further back
+
+706
+00:23:27,620 --> 00:23:28,480
+Is that okay?
+
+707
+00:23:28,480 --> 00:23:29,340
+adjust it
+
+708
+00:23:29,340 --> 00:23:32,570
+How to adjust the size of the background image?
+
+709
+00:23:32,570 --> 00:23:34,470
+called background something
+
+710
+00:23:34,470 --> 00:23:39,120
+Put it in here, b AC k c k background five ah
+
+711
+00:23:39,120 --> 00:23:40,520
+five is it
+
+712
+00:23:40,520 --> 00:23:41,240
+One is the width
+
+713
+00:23:41,240 --> 00:23:42,250
+one is the height
+
+714
+00:23:42,250 --> 00:23:44,410
+Just give it whatever width is needed.
+
+715
+00:23:44,410 --> 00:23:48,200
+Regarding the width, I think it should match the current ruler you're using
+
+716
+00:23:48,200 --> 00:23:49,440
+the current width is the same
+
+717
+00:23:49,440 --> 00:23:50,720
+Just place it here.
+
+718
+00:23:50,720 --> 00:23:52,719
+How tall should it be?
+
+719
+00:23:53,039 --> 00:23:55,559
+The height should match your current image
+
+720
+00:23:55,559 --> 00:23:56,879
+Is it the same height as this image?
+
+721
+00:23:56,879 --> 00:23:57,319
+Is this okay?
+
+722
+00:23:57,319 --> 00:23:58,279
+It should be this height, that's fine.
+
+723
+00:23:58,279 --> 00:23:59,560
+What is the height
+
+724
+00:23:59,560 --> 00:24:00,960
+Probably 40
+
+725
+00:24:00,960 --> 00:24:02,199
+So I'll just write it like this
+
+726
+00:24:02,199 --> 00:24:03,039
+I'll write a value
+
+727
+00:24:03,039 --> 00:24:04,739
+These teachers, there aren't two values here
+
+728
+00:24:04,739 --> 00:24:06,399
+one is 40PX
+
+729
+00:24:06,399 --> 00:24:09,080
+What is the width of our div at the back?
+
+730
+00:24:09,080 --> 00:24:10,600
+Is it 1130?
+
+731
+00:24:10,600 --> 00:24:11,620
+Is it 130
+
+732
+00:24:11,620 --> 00:24:14,880
+Just give it a value called 1130PX, uh
+
+733
+00:24:14,880 --> 00:24:15,640
+forgot which is width
+
+734
+00:24:15,640 --> 00:24:16,360
+which one is the height
+
+735
+00:24:16,360 --> 00:24:17,200
+download link
+
+736
+00:24:17,200 --> 00:24:18,910
+Hey, then you wrote it backwards
+
+737
+00:24:18,910 --> 00:24:20,650
+Is it so narrow inside here over and over again?
+
+738
+00:24:20,650 --> 00:24:21,810
+That's not the right way to modify it
+
+739
+00:24:21,810 --> 00:24:23,200
+Then pad it from this side
+
+740
+00:24:23,200 --> 00:24:25,100
+This position here is our current frame
+
+741
+00:24:25,100 --> 00:24:27,360
+What does the back part here represent? Is it height?
+
+742
+00:24:27,360 --> 00:24:28,280
+This box is very tall
+
+743
+00:24:28,280 --> 00:24:30,320
+Save it, press F5 to refresh.
+
+744
+00:24:30,320 --> 00:24:32,720
+Let's give it a try, is it okay now?
+
+745
+00:24:32,720 --> 00:24:34,140
+Has it gotten longer, huh?
+
+746
+00:24:34,140 --> 00:24:34,740
+it becomes longer
+
+747
+00:24:34,740 --> 00:24:35,720
+It has become this long now
+
+748
+00:24:35,720 --> 00:24:36,980
+Just put it inside and move it up.
+
+749
+00:24:36,980 --> 00:24:38,620
+But isn't the color too light?
+
+750
+00:24:38,620 --> 00:24:40,699
+Actually, isn't this pretty much the same?
+
+751
+00:24:40,699 --> 00:24:42,139
+Can't you see the slope?
+
+752
+00:24:42,139 --> 00:24:44,650
+Classmates, it's quite faint
+
+753
+00:24:44,650 --> 00:24:46,210
+Maybe, yeah, it's relatively shallow.
+
+754
+00:24:46,210 --> 00:24:47,470
+Just put it here, okay
+
+755
+00:24:47,470 --> 00:24:48,450
+Just put it here
+
+756
+00:24:48,450 --> 00:24:49,860
+Alright, OK.
+
+757
+00:24:49,860 --> 00:24:52,150
+This position is where we've adjusted the value for you.
+
+758
+00:24:52,150 --> 00:24:54,790
+Of course, some students might say, 'Teacher, didn't you say we shouldn't adjust the background color?
+
+759
+00:24:54,790 --> 00:24:56,310
+background image size?
+
+760
+00:24:56,310 --> 00:24:59,020
+Because our background image is a solid color
+
+761
+00:24:59,020 --> 00:25:00,500
+So whether you adjust the size or not
+
+762
+00:25:00,500 --> 00:25:02,420
+In fact, it doesn't affect the distortion.
+
+763
+00:25:02,420 --> 00:25:03,180
+Can you tell?
+
+764
+00:25:03,180 --> 00:25:04,660
+If there are images above
+
+765
+00:25:04,660 --> 00:25:05,400
+just don't
+
+766
+00:25:05,400 --> 00:25:07,180
+If there are some text or patterns above
+
+767
+00:25:07,180 --> 00:25:08,300
+do not adjust the size for me
+
+768
+00:25:08,300 --> 00:25:10,220
+Because if you adjust it, it will instantly become blurry.
+
+769
+00:25:10,220 --> 00:25:11,090
+Got it?
+
+770
+00:25:11,090 --> 00:25:12,690
+Currently, it's a solid color.
+
+771
+00:25:12,690 --> 00:25:13,170
+It doesn't matter
+
+772
+00:25:13,170 --> 00:25:14,150
+You can adjust it however you want
+
+773
+00:25:14,150 --> 00:25:15,470
+If that really still doesn't work
+
+774
+00:25:15,470 --> 00:25:18,750
+You can also adjust the size in this position, all operations are possible.
+
+775
+00:25:18,750 --> 00:25:19,690
+OK
+
+776
+00:25:19,690 --> 00:25:20,190
+Alright
+
+777
+00:25:20,190 --> 00:25:21,720
+So this position is me
+

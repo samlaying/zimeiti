@@ -1,0 +1,1992 @@
+1
+00:00:00,040 --> 00:00:02,940
+Move down after finishing the large section
+
+2
+00:00:02,940 --> 00:00:05,100
+Shared Computing and Blockchain
+
+3
+00:00:05,100 --> 00:00:07,540
+for the next large section
+
+4
+00:00:07,540 --> 00:00:11,350
+See how it's laid out
+
+5
+00:00:11,350 --> 00:00:12,650
+the next big block
+
+6
+00:00:12,650 --> 00:00:15,220
+So uh uh uh is it
+
+7
+00:00:15,220 --> 00:00:17,980
+The two large sections above contain this button
+
+8
+00:00:17,980 --> 00:00:20,220
+You don't need to write this button anymore, okay
+
+9
+00:00:20,220 --> 00:00:23,410
+Because we've already written it, haven't we?
+
+10
+00:00:23,410 --> 00:00:25,090
+You see, the buttons are the same
+
+11
+00:00:25,090 --> 00:00:27,450
+You just need to keep the same class.
+
+12
+00:00:27,450 --> 00:00:28,810
+Because the effects are the same
+
+13
+00:00:28,810 --> 00:00:33,620
+There's actually nothing new for us to learn in this part.
+
+14
+00:00:33,620 --> 00:00:36,060
+Then are all these things sprite images
+
+15
+00:00:36,060 --> 00:00:39,960
+Then, this new thing, haven't we just written it?
+
+16
+00:00:39,960 --> 00:00:41,240
+There's nothing new here.
+
+17
+00:00:41,240 --> 00:00:42,140
+Let me briefly write it down
+
+18
+00:00:42,140 --> 00:00:43,900
+Let's take a look at this large section
+
+19
+00:00:43,900 --> 00:00:50,620
+This big section, this big section here has a height of 497.983
+
+20
+00:00:50,620 --> 00:00:52,820
+Let's make it 498
+
+21
+00:00:52,820 --> 00:00:55,400
+Because Google has this issue
+
+22
+00:00:55,400 --> 00:00:57,040
+when you search
+
+23
+00:00:57,040 --> 00:01:00,090
+It always shows these decimal points.
+
+24
+00:01:00,090 --> 00:01:02,150
+Just round it off
+
+25
+00:01:02,150 --> 00:01:05,370
+So this whole block is just the width, right?
+
+26
+00:01:05,370 --> 00:01:06,590
+It's also wrapped outside, huh
+
+27
+00:01:06,590 --> 00:01:08,390
+Damn, this is huge
+
+28
+00:01:09,490 --> 00:01:11,130
+Is the outer part this big?
+
+29
+00:01:11,130 --> 00:01:12,770
+Which one should I nest
+
+30
+00:01:16,020 --> 00:01:17,380
+Does it fit here?
+
+31
+00:01:17,380 --> 00:01:21,480
+Well, his words are from—oh, there's a background color here to
+
+32
+00:01:21,480 --> 00:01:23,740
+The purple color is received here
+
+33
+00:01:23,740 --> 00:01:26,020
+Isn't the bottom part black?
+
+34
+00:01:26,020 --> 00:01:29,280
+Is the junction point at the top quite obvious?
+
+35
+00:01:29,280 --> 00:01:30,580
+Meet Thunder
+
+36
+00:01:30,580 --> 00:01:31,540
+This is the background
+
+37
+00:01:31,540 --> 00:01:33,710
+Shared Computing and Blockchain
+
+38
+00:01:33,710 --> 00:01:36,070
+Let's proceed with this large section below.
+
+39
+00:01:36,070 --> 00:01:37,210
+Xunlei Recruitment
+
+40
+00:01:37,210 --> 00:01:39,490
+set up this child background
+
+41
+00:01:39,490 --> 00:01:40,590
+Is this the child background
+
+42
+00:01:40,590 --> 00:01:45,580
+So this section will have 100% width and the height will be determined by its content.
+
+43
+00:01:46,060 --> 00:01:49,820
+Well then, this section marks the end of the banner
+
+44
+00:01:49,820 --> 00:01:52,880
+Then I'll call this part the main body, right?
+
+45
+00:01:52,880 --> 00:01:55,820
+Main section starts
+
+46
+00:01:55,820 --> 00:02:00,320
+End the main section with a little dot dot dot
+
+47
+00:02:00,320 --> 00:02:03,220
+DIV.CONTNT see
+
+48
+00:02:03,220 --> 00:02:06,370
+The main body can also be called container
+
+49
+00:02:06,370 --> 00:02:07,470
+home
+
+50
+00:02:07,470 --> 00:02:09,669
+I can also call it content
+
+51
+00:02:09,669 --> 00:02:12,070
+You often encounter these words
+
+52
+00:02:12,889 --> 00:02:13,609
+Content
+
+53
+00:02:13,609 --> 00:02:14,209
+Is it content
+
+54
+00:02:16,369 --> 00:02:20,110
+Main style begins
+
+55
+00:02:20,110 --> 00:02:23,080
+Style ends it
+
+56
+00:02:23,080 --> 00:02:25,660
+then I'll set the width to 100% and the height
+
+57
+00:02:25,660 --> 00:02:27,360
+determined by content
+
+58
+00:02:27,360 --> 00:02:30,120
+I'll just randomly assign a background color first
+
+59
+00:02:30,120 --> 00:02:32,220
+First, let's differentiate it from the top part, okay
+
+60
+00:02:32,220 --> 00:02:36,060
+Then add some red to our page, hmm
+
+61
+00:02:36,060 --> 00:02:38,990
+Now these two are adjacent, right?
+
+62
+00:02:38,990 --> 00:02:40,170
+upper and lower blocks
+
+63
+00:02:40,170 --> 00:02:42,550
+And we still have this legacy issue to deal with
+
+64
+00:02:42,550 --> 00:02:43,550
+this upper part
+
+65
+00:02:43,550 --> 00:02:44,980
+And then this lower part
+
+66
+00:02:44,980 --> 00:02:47,540
+when we search the official website
+
+67
+00:02:47,540 --> 00:02:48,820
+Shared Computing and Blockchain
+
+68
+00:02:48,820 --> 00:02:50,980
+No no big
+
+69
+00:02:53,240 --> 00:02:54,220
+Is it this part
+
+70
+00:02:54,220 --> 00:02:56,960
+Does the upper part slightly overlap the lower part
+
+71
+00:02:56,960 --> 00:02:59,680
+Then the lower part should move up, right?
+
+72
+00:02:59,680 --> 00:03:02,500
+the bottom part moves up
+
+73
+00:03:02,500 --> 00:03:09,320
+It's called something for the large container above
+
+74
+00:03:10,780 --> 00:03:11,720
+Look for it
+
+75
+00:03:11,720 --> 00:03:15,560
+this large block moving outward
+
+76
+00:03:15,560 --> 00:03:20,430
+Take a look at this large block to see if it has a margin-bottom
+
+77
+00:03:20,430 --> 00:03:23,240
+negative 152, right?
+
+78
+00:03:23,240 --> 00:03:25,640
+that is, the bottom margin is negative
+
+79
+00:03:25,640 --> 00:03:27,530
+Does the positive margin push it down?
+
+80
+00:03:27,530 --> 00:03:30,290
+So the negative value just brings it up, right?
+
+81
+00:03:30,290 --> 00:03:32,530
+This is the large section
+
+82
+00:03:32,530 --> 00:03:35,320
+Then it connects to the block below, right?
+
+83
+00:03:35,320 --> 00:03:37,460
+Are these two large blocks correct
+
+84
+00:03:37,460 --> 00:03:38,980
+a home banner
+
+85
+00:03:38,980 --> 00:03:40,180
+a home Viper
+
+86
+00:03:40,180 --> 00:03:45,150
+Then locate that big banner section at the top, the banner
+
+87
+00:03:45,150 --> 00:03:48,130
+Check which line it is on
+
+88
+00:03:48,980 --> 00:03:50,740
+It's the banner banner
+
+89
+00:03:50,740 --> 00:03:52,120
+at 105
+
+90
+00:03:52,120 --> 00:03:55,220
+Then locate your 105
+
+91
+00:03:55,220 --> 00:03:58,900
+105105105
+
+92
+00:04:00,840 --> 00:04:02,380
+Is this correct, right?
+
+93
+00:04:02,380 --> 00:04:08,240
+Give him a margin-bottom of 52 or not
+
+94
+00:04:10,640 --> 00:04:12,510
+Is 52 okay, right?
+
+95
+00:04:12,510 --> 00:04:14,150
+Let's talk about why we set the height
+
+96
+00:04:14,150 --> 00:04:17,550
+You said directly subtract 152 from 1080
+
+97
+00:04:17,550 --> 00:04:20,670
+
+
+98
+00:04:20,670 --> 00:04:22,910
+But why did I set it to 1080
+
+99
+00:04:22,910 --> 00:04:26,010
+because the layout containers above
+
+100
+00:04:26,010 --> 00:04:29,850
+are many of the positioned elements inside set to a height of 1080?
+
+101
+00:04:29,850 --> 00:04:31,010
+If you don't write it this way
+
+102
+00:04:31,010 --> 00:04:31,930
+your positioning approach
+
+103
+00:04:31,930 --> 00:04:34,190
+It's too troublesome for you to adjust bit by bit.
+
+104
+00:04:34,190 --> 00:04:37,450
+So we followed his 1080 setting, wrote 1080
+
+105
+00:04:37,450 --> 00:04:38,500
+your layout
+
+106
+00:04:38,500 --> 00:04:40,060
+then it will cover the bottom part
+
+107
+00:04:40,060 --> 00:04:41,580
+Should it go up, right?
+
+108
+00:04:41,580 --> 00:04:42,640
+go up to match it
+
+109
+00:04:42,640 --> 00:04:44,480
+margin bottom
+
+110
+00:04:44,480 --> 00:04:47,150
+give a negative 152
+
+111
+00:04:47,150 --> 00:04:49,130
+Note that this negative 152 is
+
+112
+00:04:49,130 --> 00:04:59,620
+Move the main container below upwards by 152 pixels.
+
+113
+00:04:59,620 --> 00:05:02,000
+If I take a positive value, does it get pushed down?
+
+114
+00:05:02,000 --> 00:05:04,620
+Taking a negative value moves it upward
+
+115
+00:05:04,620 --> 00:05:07,279
+It moves up by 52 pixels to our approximate position
+
+116
+00:05:07,279 --> 00:05:09,039
+Does it look noticeably smaller now?
+
+117
+00:05:09,039 --> 00:05:11,039
+Because it moves up a bit, right?
+
+118
+00:05:11,039 --> 00:05:11,990
+See?
+
+119
+00:05:11,990 --> 00:05:12,930
+Is that okay?
+
+120
+00:05:12,930 --> 00:05:14,449
+Okay, hm
+
+121
+00:05:14,449 --> 00:05:15,889
+The historical issue is resolved.
+
+122
+00:05:15,889 --> 00:05:17,929
+Then let's change the background over.
+
+123
+00:05:17,929 --> 00:05:23,169
+So is this big chunk below also in purple?
+
+124
+00:05:23,689 --> 00:05:26,049
+No idea what they're trying to paint
+
+125
+00:05:26,049 --> 00:05:27,809
+It's all purple
+
+126
+00:05:27,809 --> 00:05:29,909
+Why not just make the whole thing bigger?
+
+127
+00:05:29,909 --> 00:05:31,159
+Had to press it down, hmm
+
+128
+00:05:31,159 --> 00:05:32,719
+Is it replaced with this purple color?
+
+129
+00:05:32,719 --> 00:05:34,659
+The two purples are the same.
+
+130
+00:05:34,659 --> 00:05:38,260
+This color is now used throughout our page
+
+131
+00:05:38,860 --> 00:05:40,820
+It's just the same as the one above, right?
+
+132
+00:05:40,820 --> 00:05:42,460
+So you can't really tell the difference, right?
+
+133
+00:05:42,460 --> 00:05:46,020
+The top and bottom are the same, right?
+
+134
+00:05:46,020 --> 00:05:47,820
+Oh dear, I still have the height set.
+
+135
+00:05:47,820 --> 00:05:48,580
+the height has been removed
+
+136
+00:05:48,580 --> 00:05:51,220
+I did this to see the lower part, delete it ah
+
+137
+00:05:51,220 --> 00:05:53,720
+Delete it and let the content expand it naturally.
+
+138
+00:05:53,720 --> 00:05:58,000
+Well then, our outermost container has the background color
+
+139
+00:05:58,000 --> 00:06:00,240
+The historical legacy issues have also been resolved
+
+140
+00:06:00,240 --> 00:06:01,909
+Let's move on to the inner structure then.
+
+141
+00:06:01,909 --> 00:06:03,369
+Moving inward,
+
+142
+00:06:03,369 --> 00:06:06,609
+Xunlei Recruitment
+
+143
+00:06:06,609 --> 00:06:08,229
+Look at this style
+
+144
+00:06:09,290 --> 00:06:13,620
+Can you just create a horizontally centered container?
+
+145
+00:06:13,620 --> 00:06:17,980
+No, because the background color here is different, isn't it?
+
+146
+00:06:17,980 --> 00:06:19,549
+Does it also need to be full-screen?
+
+147
+00:06:19,549 --> 00:06:23,449
+Do you want to wrap it in a horizontally centered container
+
+148
+00:06:23,449 --> 00:06:26,690
+So, can I not have this blue color on both sides?
+
+149
+00:06:26,690 --> 00:06:29,180
+So let's write it piece by piece, okay
+
+150
+00:06:29,180 --> 00:06:30,340
+If it can't be nested,
+
+151
+00:06:30,340 --> 00:06:31,400
+write block by block
+
+152
+00:06:31,400 --> 00:06:33,240
+Shared Computing and Blockchain
+
+153
+00:06:33,240 --> 00:06:36,620
+What is this section called?
+
+154
+00:06:39,280 --> 00:06:41,020
+Shared Computing and Blockchain
+
+155
+00:06:41,020 --> 00:06:42,600
+Is it right here?
+
+156
+00:06:42,600 --> 00:06:45,800
+called a home product Viper
+
+157
+00:06:45,800 --> 00:06:48,289
+That's the product section.
+
+158
+00:06:49,030 --> 00:06:54,070
+Well, let's also start with a product
+
+159
+00:06:57,560 --> 00:07:04,230
+product end div.product
+
+160
+00:07:04,990 --> 00:07:06,990
+product takes up a position
+
+161
+00:07:06,990 --> 00:07:08,470
+Let's start with
+
+162
+00:07:11,580 --> 00:07:14,760
+product section, um
+
+163
+00:07:16,120 --> 00:07:17,040
+As for the width,
+
+164
+00:07:17,040 --> 00:07:19,820
+Is setting the outermost container to 100% sufficient?
+
+165
+00:07:19,820 --> 00:07:20,800
+For the height,
+
+166
+00:07:20,800 --> 00:07:24,110
+Then I'll set it to 498
+
+167
+00:07:25,010 --> 00:07:28,550
+So the width is set to 100%
+
+168
+00:07:28,550 --> 00:07:32,619
+the height is 498
+
+169
+00:07:32,619 --> 00:07:36,319
+background color, just give it any background color
+
+170
+00:07:36,319 --> 00:07:43,570
+The width, height, and background color of this large section should be like this, right?
+
+171
+00:07:43,570 --> 00:07:45,430
+This big section is done
+
+172
+00:07:45,430 --> 00:07:48,380
+Then moving inward,
+
+173
+00:07:48,860 --> 00:07:52,970
+Should it be horizontally centered as we go inward?
+
+174
+00:07:52,970 --> 00:07:55,900
+Are these three elements (the two above plus this one) centered horizontally?
+
+175
+00:07:55,900 --> 00:08:04,090
+Let's apply the horizontal centering to our container div named Viper, right?
+
+176
+00:08:04,090 --> 00:08:07,150
+After centering, follow along
+
+177
+00:08:07,150 --> 00:08:07,950
+That's simple then
+
+178
+00:08:07,950 --> 00:08:08,990
+the top two blocks
+
+179
+00:08:08,990 --> 00:08:12,120
+Is one button at the bottom enough?
+
+180
+00:08:12,120 --> 00:08:13,380
+For these two sections at the top
+
+181
+00:08:13,380 --> 00:08:16,560
+Then just make them one by one, is that okay?
+
+182
+00:08:16,560 --> 00:08:17,880
+Right, hmm
+
+183
+00:08:17,880 --> 00:08:20,220
+Should I wrap it with a div on top or not
+
+184
+00:08:20,220 --> 00:08:22,800
+or just use two directly
+
+185
+00:08:23,890 --> 00:08:26,679
+Hot or not hot or not
+
+186
+00:08:26,919 --> 00:08:27,779
+Either way is fine
+
+187
+00:08:27,779 --> 00:08:31,809
+If nested, it might not affect the elements below
+
+188
+00:08:31,809 --> 00:08:32,549
+without wrapping
+
+189
+00:08:32,549 --> 00:08:34,549
+Does it have an impact once you float it?
+
+190
+00:08:34,549 --> 00:08:36,889
+Clearing it would also work, right?
+
+191
+00:08:36,889 --> 00:08:37,749
+Either way is fine
+
+192
+00:08:37,749 --> 00:08:38,909
+to wear or not
+
+193
+00:08:40,380 --> 00:08:41,870
+Hot or not
+
+194
+00:08:41,870 --> 00:08:42,870
+I'll decide for myself
+
+195
+00:08:42,870 --> 00:08:46,530
+Then I'll just put it on, ah, put it on, then width 100%, height
+
+196
+00:08:46,530 --> 00:08:47,590
+389px
+
+197
+00:08:47,590 --> 00:08:50,540
+Then it's 390.
+
+198
+00:08:50,860 --> 00:08:51,860
+Put it on, hey
+
+199
+00:08:53,140 --> 00:08:57,500
+div.product
+
+200
+00:09:02,780 --> 00:09:05,740
+top width 100%
+
+201
+00:09:05,740 --> 00:09:08,330
+Height390
+
+202
+00:09:08,330 --> 00:09:11,370
+Set the background color to green
+
+203
+00:09:11,370 --> 00:09:13,150
+When we refresh our page
+
+204
+00:09:13,150 --> 00:09:16,109
+Is this block centered with a single property?
+
+205
+00:09:16,109 --> 00:09:19,149
+Then, moving inward, it's divided into left and right sections, right?
+
+206
+00:09:19,149 --> 00:09:20,329
+Take a look at the left and right sections
+
+207
+00:09:20,329 --> 00:09:22,470
+It should be in percentages
+
+208
+00:09:23,910 --> 00:09:29,890
+These two blocks on the left and right are these two LIs, right?
+
+209
+00:09:29,890 --> 00:09:35,010
+Take a look at li vs48.5833
+
+210
+00:09:35,010 --> 00:09:37,990
+Then, should we leave some space in the middle, right?
+
+211
+00:09:37,990 --> 00:09:39,650
+This is their width
+
+212
+00:09:39,650 --> 00:09:43,190
+So the height should just be the same, right?
+
+213
+00:09:43,190 --> 00:09:45,870
+48.583103
+
+214
+00:09:47,780 --> 00:09:51,280
+Well, I'll just simply use 2 divs here
+
+215
+00:09:51,280 --> 00:09:53,520
+Of course, using URL LI is also fine
+
+216
+00:09:53,520 --> 00:09:55,540
+multiplied by two
+
+217
+00:09:57,940 --> 00:10:02,680
+Is it greater than those two div-wise
+
+218
+00:10:02,680 --> 00:10:07,660
+48.533%, right?
+
+219
+00:10:07,660 --> 00:10:11,280
+height is 100%
+
+220
+00:10:11,280 --> 00:10:17,800
+The background color is pink, with both height and width set, and the two are vertically aligned, right?
+
+221
+00:10:17,800 --> 00:10:19,780
+Then I'll float one left and one right.
+
+222
+00:10:19,780 --> 00:10:20,380
+Alright
+
+223
+00:10:20,380 --> 00:10:22,680
+Is the spacing in the middle unnecessary?
+
+224
+00:10:22,680 --> 00:10:24,820
+float one to the left and one to the right
+
+225
+00:10:24,820 --> 00:10:27,650
+Then I'll do it like this, hmm
+
+226
+00:10:27,650 --> 00:10:31,510
+Are both floating left now?
+
+227
+00:10:31,510 --> 00:10:35,600
+Is it okay if I select the second one to float right?
+
+228
+00:10:35,600 --> 00:10:40,080
+How to select the second one which is also the last one
+
+229
+00:10:40,790 --> 00:10:43,470
+last child
+
+230
+00:10:43,470 --> 00:10:48,320
+I'll do a float right n f1 refresh
+
+231
+00:10:48,320 --> 00:10:50,260
+Is there something in the middle here, right?
+
+232
+00:10:50,260 --> 00:10:53,960
+They probably still need a bit more.
+
+233
+00:10:54,600 --> 00:10:56,500
+Is it rounded corners, right?
+
+234
+00:10:56,500 --> 00:10:58,000
+Let's go through it.
+
+235
+00:10:58,000 --> 00:11:02,670
+border radius is 20 pixels
+
+236
+00:11:02,670 --> 00:11:04,190
+Let's add all of these as well
+
+237
+00:11:04,190 --> 00:11:06,170
+font size 24 inside
+
+238
+00:11:06,170 --> 00:11:09,780
+The color FFF is not used
+
+239
+00:11:09,780 --> 00:11:12,400
+Because we'll need to apply template A later
+
+240
+00:11:12,400 --> 00:11:17,110
+border-radius is 20, font-size
+
+241
+00:11:17,110 --> 00:11:18,490
+I can add it first
+
+242
+00:11:18,490 --> 00:11:20,150
+font size added
+
+243
+00:11:20,150 --> 00:11:22,230
+Can child elements inherit it later?
+
+244
+00:11:22,230 --> 00:11:25,620
+If we use set A, the size won't be useful anymore, hmm
+
+245
+00:11:25,620 --> 00:11:28,200
+This rounded corner should be fine now, right?
+
+246
+00:11:28,200 --> 00:11:30,860
+These two layouts are not good
+
+247
+00:11:30,860 --> 00:11:32,680
+Move inward to fill in the content
+
+248
+00:11:32,680 --> 00:11:34,420
+Oops, this layout isn't done yet
+
+249
+00:11:34,420 --> 00:11:36,960
+Did I randomly assign the colors myself?
+
+250
+00:11:37,320 --> 00:11:38,820
+Need to change the color
+
+251
+00:11:38,820 --> 00:11:40,620
+remove the pink
+
+252
+00:11:40,620 --> 00:11:42,020
+remove the green
+
+253
+00:11:42,020 --> 00:11:43,520
+Remove the red
+
+254
+00:11:43,520 --> 00:11:46,050
+let's take a look at their color
+
+255
+00:11:46,050 --> 00:11:50,390
+For these two sections, look at the left side which is the building.
+
+256
+00:11:50,390 --> 00:11:54,780
+On the right side, there seem to be a few heads at the bottom, right?
+
+257
+00:11:54,780 --> 00:11:56,300
+Let me find it
+
+258
+00:11:56,300 --> 00:12:00,060
+He is referring to the image
+
+259
+00:12:00,980 --> 00:12:05,350
+Wait, is this something like a picture building?
+
+260
+00:12:05,350 --> 00:12:06,690
+It displays an image
+
+261
+00:12:06,690 --> 00:12:08,820
+What kind of background image can we use?
+
+262
+00:12:08,820 --> 00:12:09,500
+Is that okay
+
+263
+00:12:09,500 --> 00:12:11,880
+Will the content be directly written in later?
+
+264
+00:12:11,880 --> 00:12:13,260
+No need for positioning then
+
+265
+00:12:13,260 --> 00:12:15,050
+Your image positioning is quite troublesome
+
+266
+00:12:15,050 --> 00:12:21,010
+So let me just select these two divs with background-image URL
+
+267
+00:12:21,010 --> 00:12:23,560
+./images
+
+268
+00:12:23,560 --> 00:12:26,120
+find our image
+
+269
+00:12:26,120 --> 00:12:31,560
+this product1 and product3
+
+270
+00:12:32,800 --> 00:12:35,160
+For product1
+
+271
+00:12:35,160 --> 00:12:40,040
+Are both the left and right sides of me now this building?
+
+272
+00:12:40,040 --> 00:12:41,460
+Let's bring it up again
+
+273
+00:12:41,460 --> 00:12:44,760
+Should we modify the one at the back?
+
+274
+00:12:44,760 --> 00:12:47,360
+Is it the one at the back, right?
+
+275
+00:12:47,360 --> 00:12:48,240
+last
+
+276
+00:12:48,240 --> 00:12:53,250
+Now both are changed to zero three for the last one
+
+277
+00:12:53,250 --> 00:12:55,870
+Navigate to page F51 and refresh, hmm
+
+278
+00:12:55,870 --> 00:13:01,090
+So now the back part is covering the front, right?
+
+279
+00:13:01,090 --> 00:13:04,770
+My 1content is being covered by it, right?
+
+280
+00:13:04,770 --> 00:13:06,670
+Should I just bring it up?
+
+281
+00:13:06,670 --> 00:13:09,999
+Does my banner have positioning as well?
+
+282
+00:13:09,999 --> 00:13:13,919
+Then I'll bring the content up, content content
+
+283
+00:13:13,919 --> 00:13:16,159
+Is it the main body
+
+284
+00:13:16,159 --> 00:13:20,960
+Then I'll add position: relative and z-index myself
+
+285
+00:13:20,960 --> 00:13:25,650
+It's a few hundred, and there's a 666 on top, hmm
+
+286
+00:13:25,650 --> 00:13:27,750
+Why do I need to add this relative positioning?
+
+287
+00:13:27,750 --> 00:13:28,310
+I won't add it
+
+288
+00:13:28,310 --> 00:13:31,560
+Can I just add index and not the rest?
+
+289
+00:13:31,560 --> 00:13:35,090
+Because we said JINDEX must be used together with
+
+290
+00:13:35,090 --> 00:13:36,790
+to use with positioning
+
+291
+00:13:36,790 --> 00:13:38,230
+That's not correct, right?
+
+292
+00:13:38,230 --> 00:13:39,330
+must be used with positioning
+
+293
+00:13:39,330 --> 00:13:40,670
+then you add relative positioning
+
+294
+00:13:40,670 --> 00:13:41,370
+absolute positioning
+
+295
+00:13:41,370 --> 00:13:42,980
+Is fixed positioning acceptable?
+
+296
+00:13:42,980 --> 00:13:45,380
+but fixed positioning and absolute positioning
+
+297
+00:13:45,380 --> 00:13:46,680
+
+
+298
+00:13:46,680 --> 00:13:48,780
+Is your subsequent layout affected?
+
+299
+00:13:48,780 --> 00:13:51,380
+So I just added a relative positioning, right?
+
+300
+00:13:51,380 --> 00:13:53,800
+Does relative positioning have no effect on my original position?
+
+301
+00:13:53,800 --> 00:13:57,370
+Then the z-index can take effect, right?
+
+302
+00:13:57,370 --> 00:13:59,090
+It's coming up now, right?
+
+303
+00:13:59,090 --> 00:13:59,870
+Attention
+
+304
+00:13:59,870 --> 00:14:02,810
+The reason for adding relative positioning here is
+
+305
+00:14:02,810 --> 00:14:10,879
+Because the stacking order must be used in conjunction with positioning
+
+306
+00:14:10,879 --> 00:14:13,390
+so we added it
+
+307
+00:14:13,390 --> 00:14:15,870
+It's coming up here, isn't it?
+
+308
+00:14:15,870 --> 00:14:17,950
+There's nothing more to say about what's up here.
+
+309
+00:14:17,950 --> 00:14:20,280
+You want to make it clickable but it doesn't redirect
+
+310
+00:14:20,280 --> 00:14:21,760
+It's that the page doesn't redirect
+
+311
+00:14:21,760 --> 00:14:23,020
+Or is it that I can't click it
+
+312
+00:14:23,020 --> 00:14:24,340
+Look, there's an A already
+
+313
+00:14:24,340 --> 00:14:27,440
+Oh, it's not an overall A.
+
+314
+00:14:27,440 --> 00:14:29,860
+Forget about it then, heh
+
+315
+00:14:29,860 --> 00:14:30,700
+He doesn't jump
+
+316
+00:14:30,700 --> 00:14:32,580
+Let's not bother with the A then, okay
+
+317
+00:14:32,580 --> 00:14:36,540
+Then I'll just be like this bird and not
+
+318
+00:14:36,540 --> 00:14:39,120
+Is there a line of text below the sprite image
+
+319
+00:14:39,120 --> 00:14:40,660
+Is it a button
+
+320
+00:14:40,660 --> 00:14:42,500
+This button should redirect
+
+321
+00:14:42,500 --> 00:14:44,200
+That's it then.
+
+322
+00:14:44,200 --> 00:14:46,760
+Just write it simply, hey
+
+323
+00:14:46,760 --> 00:14:49,080
+Let's also put a P inside the div
+
+324
+00:14:49,080 --> 00:14:51,540
+P that bird P that character
+
+325
+00:14:51,540 --> 00:14:54,349
+Is that the A button then
+
+326
+00:14:54,349 --> 00:14:57,480
+
+
+327
+00:14:57,480 --> 00:15:00,300
+At most, it's just a difference in size.
+
+328
+00:15:00,300 --> 00:15:01,440
+Functionally speaking
+
+329
+00:15:01,440 --> 00:15:05,410
+See, isn't it exactly the same, right?
+
+330
+00:15:05,410 --> 00:15:06,510
+Now we don't know about it
+
+331
+00:15:06,510 --> 00:15:09,740
+Because the official website is different from what I wrote earlier
+
+332
+00:15:09,740 --> 00:15:11,660
+The previous writing had different sizes
+
+333
+00:15:11,660 --> 00:15:13,260
+Let's check later to see if it's the case.
+
+334
+00:15:13,260 --> 00:15:15,980
+Now this button is done
+
+335
+00:15:15,980 --> 00:15:17,480
+this line of text
+
+336
+00:15:17,480 --> 00:15:19,220
+
+
+337
+00:15:19,220 --> 00:15:21,060
+It's gone again
+
+338
+00:15:21,560 --> 00:15:23,320
+Thunder 11
+
+339
+00:15:31,080 --> 00:15:32,960
+Give it the class 11
+
+340
+00:15:32,960 --> 00:15:37,839
+Then for the first one, you just need to set the width and height
+
+341
+00:15:37,839 --> 00:15:39,879
+Is the background color sufficient, right?
+
+342
+00:15:39,879 --> 00:15:41,700
+Write it quickly, okay
+
+343
+00:15:41,700 --> 00:15:49,430
+So the first one, the class is the name inside pro product, right?
+
+344
+00:15:49,430 --> 00:15:55,330
+So this would be the description in the product
+
+345
+00:15:55,330 --> 00:15:57,010
+Name
+
+346
+00:15:59,720 --> 00:16:02,190
+Width, height, background color
+
+347
+00:16:02,670 --> 00:16:04,130
+It can be left empty or stand for a while
+
+348
+00:16:04,130 --> 00:16:06,790
+118×110
+
+349
+00:16:06,790 --> 00:16:10,000
+Then I'll set the width to 118
+
+350
+00:16:10,000 --> 00:16:12,020
+Height110
+
+351
+00:16:12,020 --> 00:16:13,940
+Just set it as the background directly
+
+352
+00:16:13,940 --> 00:16:16,900
+URL dot slash images
+
+353
+00:16:16,900 --> 00:16:20,330
+Check which spr banner tape it is
+
+354
+00:16:20,330 --> 00:16:22,370
+Is it still the same as our previous one?
+
+355
+00:16:22,370 --> 00:16:25,510
+Then it's the spr banner type
+
+356
+00:16:25,510 --> 00:16:26,470
+In that case
+
+357
+00:16:26,470 --> 00:16:32,750
+The default display is the one in the upper left corner, which has a blue shadow, right?
+
+358
+00:16:32,750 --> 00:16:33,730
+Right?
+
+359
+00:16:33,730 --> 00:16:35,570
+It's not moving around.
+
+360
+00:16:35,570 --> 00:16:38,130
+Does it not have a blue shadow?
+
+361
+00:16:38,130 --> 00:16:39,370
+move it
+
+362
+00:16:39,370 --> 00:16:40,190
+How much should it move?
+
+363
+00:16:40,190 --> 00:16:43,890
+horizontal 0 vertical 330
+
+364
+00:16:43,890 --> 00:16:49,600
+Now let's set the background position to our page
+
+365
+00:16:49,600 --> 00:16:51,840
+Hey F51 refresh, is this it?
+
+366
+00:16:51,840 --> 00:16:55,169
+Then he needs to center it horizontally and vertically
+
+367
+00:16:55,169 --> 00:16:56,749
+vertically top-aligned
+
+368
+00:16:56,749 --> 00:16:58,229
+Is there such a big gap?
+
+369
+00:16:58,229 --> 00:17:01,309
+Let's see how this distance is calculated.
+
+370
+00:17:02,840 --> 00:17:04,200
+It doesn't look good
+
+371
+00:17:04,200 --> 00:17:06,010
+Let's measure it ourselves
+
+372
+00:17:06,010 --> 00:17:11,030
+It is positioned at negative 50% of the element
+
+373
+00:17:11,030 --> 00:17:12,369
+and then move up
+
+374
+00:17:12,369 --> 00:17:13,010
+has it moved
+
+375
+00:17:13,010 --> 00:17:13,949
+112
+
+376
+00:17:13,949 --> 00:17:15,709
+Actually, we can calculate it
+
+377
+00:17:15,709 --> 00:17:21,229
+The negative element is half of 390390
+
+378
+00:17:24,959 --> 00:17:29,419
+Did it move down by 195, right?
+
+379
+00:17:29,419 --> 00:17:33,400
+then it moves up again
+
+380
+00:17:34,940 --> 00:17:37,680
+then it moves up by 112
+
+381
+00:17:37,680 --> 00:17:40,820
+then you subtract 112
+
+382
+00:17:40,820 --> 00:17:43,700
+actually moved down by 83
+
+383
+00:17:43,700 --> 00:17:46,640
+So how should we handle it
+
+384
+00:17:47,610 --> 00:17:49,170
+I just need to minimize it
+
+385
+00:17:49,170 --> 00:17:50,570
+No motion positioning, right?
+
+386
+00:17:50,570 --> 00:17:56,310
+margin-top for it and auto for left-right, zero for bottom
+
+387
+00:17:56,310 --> 00:17:58,870
+Come to our page and press F1 to refresh
+
+388
+00:17:58,870 --> 00:18:00,780
+Is this okay, right?
+
+389
+00:18:00,780 --> 00:18:01,860
+No need to press for positioning
+
+390
+00:18:01,860 --> 00:18:03,480
+Finished watching Thunder 11
+
+391
+00:18:03,480 --> 00:18:04,920
+then
+
+392
+00:18:04,920 --> 00:18:10,220
+That means it has a 4-pixel margin from the top.
+
+393
+00:18:10,220 --> 00:18:11,860
+font size 24
+
+394
+00:18:11,860 --> 00:18:14,540
+font color FEFEFE
+
+395
+00:18:14,540 --> 00:18:17,630
+Then should we set the size 24 for the parent element?
+
+396
+00:18:17,630 --> 00:18:20,770
+So is it okay to just set the color to FEFEFE?
+
+397
+00:18:20,770 --> 00:18:22,530
+Since we didn't wrap it in an A tag
+
+398
+00:18:22,530 --> 00:18:23,870
+without nesting the A tag
+
+399
+00:18:23,870 --> 00:18:26,170
+Can all inherit negative values, right?
+
+400
+00:18:26,170 --> 00:18:31,830
+Then the remaining is to have a 4-pixel margin from the top, right?
+
+401
+00:18:35,800 --> 00:18:45,469
+The product is aligned to the top, so set margin-top to 4 pixels to move it down by 4 pixels. Okay, parameters are set.
+
+402
+00:18:45,469 --> 00:18:46,769
+Parameters are set.
+
+403
+00:18:46,769 --> 00:18:48,449
+Then only the button is left.
+
+404
+00:18:48,449 --> 00:18:52,040
+As for the button, does ours look bigger?
+
+405
+00:18:52,400 --> 00:18:53,580
+Is it a bit small?
+
+406
+00:18:53,580 --> 00:18:55,160
+Just adjust the size then
+
+407
+00:18:55,160 --> 00:18:57,880
+This is 198×52
+
+408
+00:18:57,880 --> 00:18:59,540
+with a one-pixel border
+
+409
+00:18:59,540 --> 00:19:03,440
+Then shouldn't we subtract 2 to make it 196×50?
+
+410
+00:19:03,440 --> 00:19:04,520
+Then change it
+
+411
+00:19:04,520 --> 00:19:08,989
+Then I'll just do it inside here
+
+412
+00:19:08,989 --> 00:19:12,049
+the BTN in product top, okay
+
+413
+00:19:12,049 --> 00:19:13,849
+Just change it yourself anyway
+
+414
+00:19:13,849 --> 00:19:21,650
+click it space click btn vs change to 190
+
+415
+00:19:21,650 --> 00:19:28,930
+change the height to 1965 10
+
+416
+00:19:28,930 --> 00:19:31,810
+You need 19650 lines
+
+417
+00:19:31,810 --> 00:19:35,190
+Do the height and rounded corners need to be adjusted accordingly?
+
+418
+00:19:35,470 --> 00:19:36,750
+the height has changed
+
+419
+00:19:36,750 --> 00:19:37,910
+My font is vertically centered
+
+420
+00:19:37,910 --> 00:19:38,870
+does it also need to be changed
+
+421
+00:19:38,870 --> 00:19:41,020
+Do the rounded corners need to be adjusted as well?
+
+422
+00:19:41,020 --> 00:19:45,030
+then my line height is 50
+
+423
+00:19:45,030 --> 00:19:46,970
+border radius
+
+424
+00:19:46,970 --> 00:19:49,570
+Then it's 50 plus 25, which makes 26
+
+425
+00:19:49,570 --> 00:19:52,920
+That would be 26
+
+426
+00:19:52,920 --> 00:19:54,240
+After refreshing the page
+
+427
+00:19:55,680 --> 00:19:57,560
+Why does the font seem larger
+
+428
+00:19:58,050 --> 00:19:59,610
+The text is also large
+
+429
+00:19:59,610 --> 00:20:03,410
+The font size is
+
+430
+00:20:04,640 --> 00:20:06,960
+18 pixels
+
+431
+00:20:06,960 --> 00:20:09,360
+Um, 18 pixels
+
+432
+00:20:09,360 --> 00:20:13,580
+Let's give it a font size of
+
+433
+00:20:13,580 --> 00:20:14,900
+18, hmm
+
+434
+00:20:14,900 --> 00:20:16,160
+Make the necessary changes
+
+435
+00:20:16,160 --> 00:20:18,520
+The rest are all the same
+
+436
+00:20:18,520 --> 00:20:20,590
+Is this okay now?
+
+437
+00:20:20,590 --> 00:20:21,430
+One is done
+
+438
+00:20:21,430 --> 00:20:24,659
+
+
+439
+00:20:24,979 --> 00:20:26,999
+
+
+440
+00:20:26,999 --> 00:20:29,330
+Come to our page F and refresh
+
+441
+00:20:29,330 --> 00:20:30,990
+Is it all set now, right?
+
+442
+00:20:30,990 --> 00:20:32,330
+These two are done
+
+443
+00:20:32,330 --> 00:20:34,700
+So below there's just a button, right?
+
+444
+00:20:34,700 --> 00:20:37,180
+More products should be the same size as the ones above
+
+445
+00:20:37,180 --> 00:20:40,180
+Not 196×56 oh
+
+446
+00:20:40,180 --> 00:20:42,330
+Tsk, just a little bit off
+
+447
+00:20:42,330 --> 00:20:45,850
+That's the end of the top
+
+448
+00:20:45,850 --> 00:20:51,630
+Below is an A with our CLASS named BTN
+
+449
+00:20:51,630 --> 00:20:56,310
+It says 'More Products' inside
+
+450
+00:20:58,940 --> 00:21:02,540
+More products come to our page
+
+451
+00:21:02,540 --> 00:21:03,540
+F1 refresh
+
+452
+00:21:03,540 --> 00:21:05,480
+Is it this part that needs to adjust the size
+
+453
+00:21:05,480 --> 00:21:07,880
+Is adjusting the distance enough?
+
+454
+00:21:08,560 --> 00:21:12,320
+Let's take a look at the distance
+
+455
+00:21:12,320 --> 00:21:15,440
+It has a margin at the top
+
+456
+00:21:17,300 --> 00:21:21,570
+Where did that obvious margin go? Oh
+
+457
+00:21:21,570 --> 00:21:24,690
+In the first row there it is 52
+
+458
+00:21:24,690 --> 00:21:26,070
+Then change it for him
+
+459
+00:21:26,070 --> 00:21:29,280
+Then I'll add one more.
+
+460
+00:21:29,600 --> 00:21:36,530
+Is the bin inside the product a class that hasn't been called yet?
+
+461
+00:21:36,530 --> 00:21:38,450
+Haven't called it yet, right?
+
+462
+00:21:38,450 --> 00:21:47,030
+Then click it, change the margin-top to 52F51 and refresh
+
+463
+00:21:47,030 --> 00:21:49,790
+Is this block a bit insufficient?
+
+464
+00:21:49,790 --> 00:21:50,530
+It's okay
+
+465
+00:21:50,530 --> 00:21:51,950
+Just stretch the block below, okay?
+
+466
+00:21:51,950 --> 00:21:54,600
+Should we adjust the size a bit more? Let's make it larger.
+
+467
+00:21:54,600 --> 00:21:58,220
+Change this size to 196×56 minus two
+
+468
+00:21:58,220 --> 00:22:01,870
+Then 194 multiplied by 54
+
+469
+00:22:01,870 --> 00:22:04,390
+Well, actually, it's still about changing those, right?
+
+470
+00:22:04,390 --> 00:22:07,220
+width is 194
+
+471
+00:22:07,220 --> 00:22:08,960
+height is 54
+
+472
+00:22:08,960 --> 00:22:12,380
+with a line height of 54
+
+473
+00:22:12,380 --> 00:22:17,980
+border radius 54+2
+
+474
+00:22:17,980 --> 00:22:22,699
+56 is 28
+
+475
+00:22:22,699 --> 00:22:25,519
+Is the font too small, does it need to be adjusted?
+
+476
+00:22:26,120 --> 00:22:29,280
+font size is also 18
+
+477
+00:22:29,280 --> 00:22:31,870
+then font size
+
+478
+00:22:31,870 --> 00:22:34,350
+18 comes to our page hey
+
+479
+00:22:34,350 --> 00:22:35,570
+Service refreshed, hmm
+
+480
+00:22:35,570 --> 00:22:37,110
+Now it's perfectly large
+
+481
+00:22:37,110 --> 00:22:40,050
+Is the border part done now, right?
+
+482
+00:22:40,050 --> 00:22:41,050
+There's actually nothing special here
+
+483
+00:22:41,050 --> 00:22:43,870
+There's nothing related to our new CSS3 features here.
+
+484
+00:22:43,870 --> 00:22:45,950
+Take a look, it's not right, is it?
+
+485
+00:22:45,950 --> 00:22:48,730
+Actually, the most prominent new feature here is this
+
+486
+00:22:48,730 --> 00:22:50,270
+And there's also this
+
+487
+00:22:50,270 --> 00:22:52,720
+And then there's the UGC Anime in this section
+
+488
+00:22:52,720 --> 00:22:55,840
+Except for this part below, there's still a little bit more
+
+489
+00:22:55,840 --> 00:23:01,230
+So for this hover effect, the elements all move upward, right?
+
+490
+00:23:01,230 --> 00:23:05,000
+What can we use to make it move up? Let's make it move up.
+
+491
+00:23:06,120 --> 00:23:07,160
+Done it before, done it before
+
+492
+00:23:07,160 --> 00:23:11,060
+So for Xiaomi's hover effect, does the content move upward?
+
+493
+00:23:11,060 --> 00:23:13,130
+Does it shift, right?
+
+494
+00:23:13,130 --> 00:23:15,850
+only this is not the entire element being displaced
+
+495
+00:23:15,850 --> 00:23:17,590
+Is it just the content inside that moves upward?
+
+496
+00:23:17,590 --> 00:23:19,990
+When you hover your mouse over this large block
+
+497
+00:23:19,990 --> 00:23:22,650
+Those bullets move upwards, right?
+
+498
+00:23:22,650 --> 00:23:24,700
+There's nothing else new here, hmm
+

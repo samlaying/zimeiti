@@ -1,0 +1,3616 @@
+1
+00:00:00,040 --> 00:00:01,450
+Hey there, friends!
+
+2
+00:00:01,450 --> 00:00:05,839
+This is a super beginner, hand holding tutorial for Codex.
+
+3
+00:00:06,080 --> 00:00:08,160
+We'll begin with installation.
+
+4
+00:00:08,440 --> 00:00:11,963
+I'll guide you step by step through Codex's basic
+
+5
+00:00:11,963 --> 00:00:13,473
+to advanced features,
+
+6
+00:00:13,473 --> 00:00:15,847
+and its latest mobile operations,
+
+7
+00:00:15,847 --> 00:00:18,940
+using ten practical scenarios to master it.
+
+8
+00:00:19,220 --> 00:00:21,544
+From now on, for any Agent products that come out,
+
+9
+00:00:21,544 --> 00:00:23,461
+you'll be able to grasp them by analogy
+
+10
+00:00:23,461 --> 00:00:24,740
+and handle them with ease.
+
+11
+00:00:24,990 --> 00:00:26,625
+I've compiled this episode's notes
+
+12
+00:00:26,625 --> 00:00:28,550
+into a document—see you in the comments!
+
+13
+00:00:28,590 --> 00:00:29,997
+So the value of this episode
+
+14
+00:00:29,997 --> 00:00:32,310
+is just *BAM! BAM! BAM!asterisk through the roof!
+
+15
+00:00:33,420 --> 00:00:37,887
+A like, save, and follow are the bare minimum. Tuition paid?
+
+16
+00:00:37,887 --> 00:00:39,219
+Let's get started!
+
+17
+00:00:40,600 --> 00:00:40,612
+Before we start, I'll explain the difference between Codex and Claude Code. Essentially, both Anthropic's and OpenAI's versions have evolved from programming to general purpose agents.
+
+18
+00:00:53,300 --> 00:00:55,688
+Claude Code from these developers
+
+19
+00:00:55,688 --> 00:00:57,787
+defaults to the Claude model,
+
+20
+00:00:57,787 --> 00:01:00,571
+but can be swapped for any other. Codex
+
+21
+00:01:00,571 --> 00:01:03,650
+desktop only supports OpenAI's GPT models.
+
+22
+00:01:03,860 --> 00:01:06,553
+Now, Codex desktop is more user friendly,
+
+23
+00:01:06,553 --> 00:01:10,007
+better suited for zero tech white collar workers.
+
+24
+00:01:10,007 --> 00:01:12,839
+Claude Code, however, provides more freedom.
+
+25
+00:01:13,120 --> 00:01:16,762
+Functionally, Claude Code was originally the most complete,
+
+26
+00:01:16,762 --> 00:01:18,040
+pioneering features
+
+27
+00:01:18,040 --> 00:01:21,300
+like Skills, MCPs, commands, Hooks, and remote control.
+
+28
+00:01:21,480 --> 00:01:24,754
+But lately, CC's updates are slower than Codex's,
+
+29
+00:01:24,754 --> 00:01:27,680
+and it's more for professional developers.
+
+30
+00:01:27,760 --> 00:01:31,401
+Codex, meanwhile, offers powerful browser and computer control,
+
+31
+00:01:31,401 --> 00:01:34,860
+and features the latest Image two image generation model.
+
+32
+00:01:35,040 --> 00:01:38,532
+And yesterday, they released the mobile app and hooks,
+
+33
+00:01:38,532 --> 00:01:42,004
+allowing you to use your phone's ChatGPT to control
+
+34
+00:01:42,004 --> 00:01:43,570
+Codex on your computer.
+
+35
+00:01:43,740 --> 00:01:46,748
+Pricing and quotas? Codex's allowances are generous;
+
+36
+00:01:46,748 --> 00:01:48,871
+a twenty dollars membership is ample,
+
+37
+00:01:48,871 --> 00:01:50,759
+and they won't ban your account.
+
+38
+00:01:51,000 --> 00:01:54,629
+For Claude Code, official accounts are often unavailable,
+
+39
+00:01:54,629 --> 00:01:57,436
+meaning you'll typically pay for API usage
+
+40
+00:01:57,436 --> 00:01:59,910
+directly—it's a pay as you go system.
+
+41
+00:02:00,190 --> 00:02:02,379
+For writing, I like using Claude Code
+
+42
+00:02:02,379 --> 00:02:03,668
+with the Claude model,
+
+43
+00:02:03,668 --> 00:02:05,161
+as Opus four point six's
+
+44
+00:02:05,161 --> 00:02:08,460
+writing and planning abilities are incredibly strong.
+
+45
+00:02:08,680 --> 00:02:12,845
+Codex also excels at execution and problem solving.
+
+46
+00:02:12,845 --> 00:02:14,641
+For daily office tasks,
+
+47
+00:02:14,641 --> 00:02:17,990
+I prefer Codex, and for coding, I use both.
+
+48
+00:02:18,110 --> 00:02:20,321
+So, the takeaway is: for beginners,
+
+49
+00:02:20,321 --> 00:02:21,566
+Codex is awesome,
+
+50
+00:02:21,566 --> 00:02:25,229
+but if you can manage, using both is the perfect setup.
+
+51
+00:02:25,350 --> 00:02:27,210
+But their logic is the same;
+
+52
+00:02:27,210 --> 00:02:29,830
+master one, and the other comes easily.
+
+53
+00:02:30,000 --> 00:02:32,657
+I've also made a full Claude Code tutorial.
+
+54
+00:02:32,657 --> 00:02:34,451
+If you want to leverage both,
+
+55
+00:02:34,451 --> 00:02:37,720
+check it out. OK, let's officially start using Codex.
+
+56
+00:02:37,880 --> 00:02:40,787
+The only thing you need is a ChatGPT account;
+
+57
+00:02:40,787 --> 00:02:43,759
+a free one is fine, though with a smaller limit.
+
+58
+00:02:44,040 --> 00:02:48,669
+Once you have an account, just go to their official website,
+
+59
+00:02:48,669 --> 00:02:52,500
+install it, and log in with your ChatGPT account.
+
+60
+00:02:52,840 --> 00:02:54,102
+Then, for these settings,
+
+61
+00:02:54,102 --> 00:02:56,409
+we can just pick something random for now,
+
+62
+00:02:56,409 --> 00:02:59,320
+like 'Daily Work'—we can always change it later anyway.
+
+63
+00:02:59,640 --> 00:03:00,815
+And there we go!
+
+64
+00:03:00,815 --> 00:03:03,901
+Once you're in, you'll see this chat window,
+
+65
+00:03:03,901 --> 00:03:06,179
+which looks a lot like ChatGPT.
+
+66
+00:03:06,340 --> 00:03:09,500
+Let's open up both sidebars—they look quite familiar.
+
+67
+00:03:09,710 --> 00:03:12,438
+On the left, conversations and tasks;
+
+68
+00:03:12,438 --> 00:03:14,175
+the middle is for chat,
+
+69
+00:03:14,175 --> 00:03:18,520
+and the right probably displays results—most can guess.
+
+70
+00:03:18,800 --> 00:03:22,851
+So, let's skip the interface for now and just start using it.
+
+71
+00:03:22,851 --> 00:03:26,159
+That's my secret recipe for exploring any AI tool.
+
+72
+00:03:26,340 --> 00:03:27,822
+When I open a new interface,
+
+73
+00:03:27,822 --> 00:03:29,579
+I first ignore everything else.
+
+74
+00:03:29,579 --> 00:03:31,939
+I just find the chat box and start chatting.
+
+75
+00:03:32,260 --> 00:03:33,480
+I'll find a button
+
+76
+00:03:33,480 --> 00:03:35,150
+I understand and press it.
+
+77
+00:03:35,150 --> 00:03:36,499
+You'll learn by doing.
+
+78
+00:03:37,290 --> 00:03:40,510
+See? I've shared my secret recipe with you all,
+
+79
+00:03:40,510 --> 00:03:42,329
+so now you're my disciples!
+
+80
+00:03:44,190 --> 00:03:47,990
+Alright, no formalities. Let's focus on studies.
+
+81
+00:03:48,110 --> 00:03:51,264
+So, the first Codex capability to understand
+
+82
+00:03:51,264 --> 00:03:53,098
+is local file operations,
+
+83
+00:03:53,098 --> 00:03:54,811
+its defining capability,
+
+84
+00:03:54,811 --> 00:03:57,940
+setting it apart from conversational AI's.
+
+85
+00:03:58,140 --> 00:04:00,425
+Because in the past, when we used ChatGPT,
+
+86
+00:04:00,425 --> 00:04:02,746
+if we wanted it to see our local content,
+
+87
+00:04:02,746 --> 00:04:04,140
+we only had two options.
+
+88
+00:04:04,460 --> 00:04:07,167
+One way is to copy and paste it into the chat,
+
+89
+00:04:07,167 --> 00:04:09,359
+and the other is to upload the files
+
+90
+00:04:09,359 --> 00:04:12,040
+within the formats and quantities it allows.
+
+91
+00:04:12,280 --> 00:04:13,859
+But Codex is different.
+
+92
+00:04:13,859 --> 00:04:17,704
+It can independently read and manipulate our local files,
+
+93
+00:04:17,704 --> 00:04:19,559
+with no limits on quantity.
+
+94
+00:04:19,769 --> 00:04:21,541
+For example, as an editor,
+
+95
+00:04:21,541 --> 00:04:24,915
+I have over eighty video clips stored locally
+
+96
+00:04:24,915 --> 00:04:26,790
+that I need for my edits.
+
+97
+00:04:27,110 --> 00:04:30,310
+But the filenames are all a mess— totally incomprehensible.
+
+98
+00:04:30,520 --> 00:04:33,432
+So, I want to rename them based on their content,
+
+99
+00:04:33,432 --> 00:04:35,676
+so that when we look at the filenames,
+
+100
+00:04:35,676 --> 00:04:37,800
+we'll know what each clip is about.
+
+101
+00:04:37,920 --> 00:04:40,893
+Now, ChatGPT definitely can't do this,
+
+102
+00:04:40,893 --> 00:04:43,866
+but Codex can. Notice these two places;
+
+103
+00:04:43,866 --> 00:04:46,439
+both display a concept: 'Project'.
+
+104
+00:04:46,680 --> 00:04:48,003
+So let's select that,
+
+105
+00:04:48,003 --> 00:04:49,751
+and once we choose 'Project,'
+
+106
+00:04:49,751 --> 00:04:52,240
+it prompts us to pick a local folder.
+
+107
+00:04:52,560 --> 00:04:57,580
+So, once we select this folder, it becomes our project.
+
+108
+00:04:57,940 --> 00:05:01,172
+Codex can freely read and manipulate all the files inside.
+
+109
+00:05:01,172 --> 00:05:03,959
+Of course, this requires us to grant it permissions.
+
+110
+00:05:04,280 --> 00:05:07,037
+Look at the permission options here.
+
+111
+00:05:07,037 --> 00:05:09,164
+We're currently on default,
+
+112
+00:05:09,164 --> 00:05:12,000
+but clicking it reveals three modes.
+
+113
+00:05:12,250 --> 00:05:14,612
+So, the default permissions mean that
+
+114
+00:05:14,612 --> 00:05:16,318
+within our current folder,
+
+115
+00:05:16,318 --> 00:05:19,009
+it can freely read and write these files.
+
+116
+00:05:19,250 --> 00:05:22,183
+But if it wants to connect to the internet,
+
+117
+00:05:22,183 --> 00:05:23,949
+download something for us,
+
+118
+00:05:23,949 --> 00:05:26,918
+or touch any files outside of this folder,
+
+119
+00:05:26,918 --> 00:05:28,120
+it can't do that.
+
+120
+00:05:28,440 --> 00:05:29,647
+Should it need to,
+
+121
+00:05:29,647 --> 00:05:32,274
+it will ask for elevated permissions,
+
+122
+00:05:32,274 --> 00:05:34,760
+requiring our agreement to proceed.
+
+123
+00:05:35,060 --> 00:05:37,058
+Auto Review, as the name implies,
+
+124
+00:05:37,058 --> 00:05:39,766
+means an AI automatically reviews actions,
+
+125
+00:05:39,766 --> 00:05:41,700
+deciding if they're dangerous.
+
+126
+00:05:41,940 --> 00:05:44,453
+If it's risky, it'll ask us; otherwise,
+
+127
+00:05:44,453 --> 00:05:47,644
+for safe tasks like official software downloads,
+
+128
+00:05:47,644 --> 00:05:48,799
+it'll just do it.
+
+129
+00:05:48,960 --> 00:05:52,552
+Auto review is more flexible and smarter than default,
+
+130
+00:05:52,552 --> 00:05:54,180
+so just choose this one.
+
+131
+00:05:54,380 --> 00:05:56,460
+And finally, there's Full Access.
+
+132
+00:05:56,730 --> 00:05:59,703
+This means Codex can do pretty much anything
+
+133
+00:05:59,703 --> 00:06:03,082
+on your computer—it can modify or delete any file,
+
+134
+00:06:03,082 --> 00:06:04,840
+and run commands anywhere.
+
+135
+00:06:05,120 --> 00:06:08,670
+For example, it might delete your Claude Code.
+
+136
+00:06:08,670 --> 00:06:11,668
+Kidding aside, it usually won't act up.
+
+137
+00:06:11,668 --> 00:06:13,088
+AI has no jealousy.
+
+138
+00:06:13,890 --> 00:06:13,890
+Oh.
+
+139
+00:06:15,040 --> 00:06:17,464
+So for everyone, especially beginners,
+
+140
+00:06:17,464 --> 00:06:20,158
+just pick auto review and trust the AI.
+
+141
+00:06:20,158 --> 00:06:22,919
+Can we really review better than it, right?
+
+142
+00:06:23,240 --> 00:06:26,007
+OK, so we've selected that video folder from earlier,
+
+143
+00:06:26,007 --> 00:06:28,720
+and let's go on and make our unreasonable demands.
+
+144
+00:06:28,980 --> 00:06:32,833
+Have it rename all the video files in this folder
+
+145
+00:06:32,833 --> 00:06:35,980
+based on what's actually in the footage.
+
+146
+00:06:36,520 --> 00:06:37,680
+It's starting.
+
+147
+00:06:38,280 --> 00:06:41,349
+And look, it's being super smart—first, it checked
+
+148
+00:06:41,349 --> 00:06:43,460
+how many videos we actually have.
+
+149
+00:06:43,780 --> 00:06:46,565
+Then, it chose to extract key frames
+
+150
+00:06:46,565 --> 00:06:49,350
+to figure out what the content was.
+
+151
+00:06:49,510 --> 00:06:52,296
+Plus, it even knew not to look at each image one by one;
+
+152
+00:06:52,296 --> 00:06:54,778
+instead, it stitched them together into thumbnails
+
+153
+00:06:54,778 --> 00:06:56,349
+and viewed them group by group.
+
+154
+00:06:57,270 --> 00:06:58,302
+OK, and just like that,
+
+155
+00:06:58,302 --> 00:07:00,810
+all the filenames in this folder have been changed.
+
+156
+00:07:01,060 --> 00:07:04,053
+And Codex didn't ask for elevated permissions,
+
+157
+00:07:04,053 --> 00:07:06,980
+as all operations stayed within this folder.
+
+158
+00:07:07,150 --> 00:07:09,995
+So, let's check if everything lines up correctly,
+
+159
+00:07:09,995 --> 00:07:10,469
+shall we?
+
+160
+00:07:10,950 --> 00:07:13,455
+Okay, pianist concert hall, right.
+
+161
+00:07:13,455 --> 00:07:15,665
+Snowy mountain combat, right.
+
+162
+00:07:15,665 --> 00:07:19,760
+Cheongsam woman in Night Alley selling hot drinks.
+
+163
+00:07:20,160 --> 00:07:26,010
+Wow, and the naming even follows a clear format: number,
+
+164
+00:07:26,010 --> 00:07:28,550
+character, scene, action.
+
+165
+00:07:28,910 --> 00:07:30,780
+The level of detail AI puts in ... man,
+
+166
+00:07:30,780 --> 00:07:32,430
+you just gotta give it credit.
+
+167
+00:07:32,640 --> 00:07:36,165
+Also, we can actually start multiple different conversations
+
+168
+00:07:36,165 --> 00:07:37,600
+within the same project.
+
+169
+00:07:37,840 --> 00:07:40,022
+Their contexts are all different,
+
+170
+00:07:40,022 --> 00:07:42,309
+but they can all access our files
+
+171
+00:07:42,309 --> 00:07:44,320
+and this project at any time.
+
+172
+00:07:44,560 --> 00:07:46,781
+For example, in another conversation,
+
+173
+00:07:46,781 --> 00:07:48,876
+we can give it a different task:
+
+174
+00:07:48,876 --> 00:07:52,366
+have it figure out how to edit all the landscape videos
+
+175
+00:07:52,366 --> 00:07:53,699
+into one single clip.
+
+176
+00:07:54,990 --> 00:07:56,990
+Wow, it can actually edit!
+
+177
+00:07:57,310 --> 00:07:59,429
+It figured out some tools on its own,
+
+178
+00:07:59,429 --> 00:08:01,158
+asked us for some permissions,
+
+179
+00:08:01,158 --> 00:08:04,080
+and then used FFmpeg to stitch them all together.
+
+180
+00:08:04,640 --> 00:08:08,000
+It's all the landscape shots, edited into one clip.
+
+181
+00:08:08,570 --> 00:08:11,278
+Okay, so if we want to create a new project,
+
+182
+00:08:11,278 --> 00:08:13,664
+we can manually create it right here,
+
+183
+00:08:13,664 --> 00:08:16,675
+and it will also automatically create a folder
+
+184
+00:08:16,675 --> 00:08:18,050
+on our local machine.
+
+185
+00:08:18,380 --> 00:08:21,534
+And throughout our conversation with Codex,
+
+186
+00:08:21,534 --> 00:08:24,873
+any files the Agent generates—PDF's, Markdown,
+
+187
+00:08:24,873 --> 00:08:28,820
+PPTs—will be saved directly onto our local computer.
+
+188
+00:08:29,220 --> 00:08:31,298
+Okay, so by now you should get it.
+
+189
+00:08:31,298 --> 00:08:35,077
+Codex can access our local files at any time to read content,
+
+190
+00:08:35,077 --> 00:08:35,832
+write files,
+
+191
+00:08:35,832 --> 00:08:38,038
+delete files, and move files around.
+
+192
+00:08:38,260 --> 00:08:41,860
+The folder's contents become the context
+
+193
+00:08:41,860 --> 00:08:44,200
+Codex can access anytime.
+
+194
+00:08:44,200 --> 00:08:48,700
+So, each 'project' here corresponds to a local folder.
+
+195
+00:08:49,020 --> 00:08:53,460
+So, how much context would a task like that just now cost us?
+
+196
+00:08:54,540 --> 00:08:56,740
+We can see it right here.
+
+197
+00:08:56,900 --> 00:08:58,930
+So, this circle indicates
+
+198
+00:08:58,930 --> 00:09:02,062
+how much GPT five point five context
+
+199
+00:09:02,062 --> 00:09:06,040
+this conversation and its operations have used.
+
+200
+00:09:06,290 --> 00:09:09,425
+Hovering over it shows more details.
+
+201
+00:09:09,425 --> 00:09:14,650
+As context fills up, Codex automatically compresses it for us.
+
+202
+00:09:14,690 --> 00:09:16,744
+But actually, once a task is wrapped up,
+
+203
+00:09:16,744 --> 00:09:19,374
+you don't have to wait for it to get almost full
+
+204
+00:09:19,374 --> 00:09:20,690
+for it to auto compress.
+
+205
+00:09:20,890 --> 00:09:24,932
+We can also manually compress the context ourselves
+
+206
+00:09:24,932 --> 00:09:27,310
+by using the '/compress' command.
+
+207
+00:09:27,550 --> 00:09:30,242
+This helps the model focus better on our new task
+
+208
+00:09:30,242 --> 00:09:32,550
+and also saves a bit of our context quota.
+
+209
+00:09:32,750 --> 00:09:36,550
+Of course, aside from this conversation context allowance,
+
+210
+00:09:36,550 --> 00:09:40,470
+you're probably also wondering—whether you're a free user
+
+211
+00:09:40,470 --> 00:09:41,640
+or a Plus member—
+
+212
+00:09:41,840 --> 00:09:44,920
+how much total quota I have left to use, right?
+
+213
+00:09:46,190 --> 00:09:47,950
+There are two ways to check this.
+
+214
+00:09:48,210 --> 00:09:49,733
+First, on the left side,
+
+215
+00:09:49,733 --> 00:09:52,321
+under Settings, click 'Remaining Quota'
+
+216
+00:09:52,321 --> 00:09:56,450
+to see what's left for the next five hours and for the week.
+
+217
+00:09:56,680 --> 00:09:59,205
+It even prompts when the quota resets,
+
+218
+00:09:59,205 --> 00:10:02,960
+making its design far more user friendly than Claude's.
+
+219
+00:10:03,160 --> 00:10:04,172
+Or, another way
+
+220
+00:10:04,172 --> 00:10:07,644
+is to just type a forward slash in the chat box
+
+221
+00:10:07,644 --> 00:10:09,670
+and find this 'status' option.
+
+222
+00:10:10,030 --> 00:10:11,833
+So, once you open this status view,
+
+223
+00:10:11,833 --> 00:10:13,931
+your session will continuously display
+
+224
+00:10:13,931 --> 00:10:17,190
+your context allowance—those five hour and one week limits.
+
+225
+00:10:17,410 --> 00:10:20,601
+Honestly, Codex's allowance is quite generous;
+
+226
+00:10:20,601 --> 00:10:22,374
+its twenty dollars credit
+
+227
+00:10:22,374 --> 00:10:26,559
+should easily cover most white collar users' frequent needs.
+
+228
+00:10:26,720 --> 00:10:27,693
+OK, and while we're at it,
+
+229
+00:10:27,693 --> 00:10:29,600
+let's also talk about the model selection here.
+
+230
+00:10:29,930 --> 00:10:31,430
+So, once you click on that,
+
+231
+00:10:31,430 --> 00:10:34,610
+we can select the speed. 'Fast' is like an express lane,
+
+232
+00:10:34,610 --> 00:10:36,770
+which will use up more of our quota.
+
+233
+00:10:37,110 --> 00:10:38,571
+You can pick other models here,
+
+234
+00:10:38,571 --> 00:10:41,236
+but pretty much everyone goes with GPT five point five
+
+235
+00:10:41,236 --> 00:10:42,470
+because it's just better.
+
+236
+00:10:42,810 --> 00:10:45,901
+Then, select the intelligence level.
+
+237
+00:10:45,901 --> 00:10:48,903
+Actually, Medium's usually enough,
+
+238
+00:10:48,903 --> 00:10:50,449
+so we'll go High.
+
+239
+00:10:51,240 --> 00:10:53,191
+OK, so this little microphone icon
+
+240
+00:10:53,191 --> 00:10:54,907
+is obviously for voice input,
+
+241
+00:10:54,907 --> 00:10:56,800
+which is way faster than typing.
+
+242
+00:10:56,980 --> 00:10:59,369
+However, its transcription isn't as fast
+
+243
+00:10:59,369 --> 00:11:00,963
+as a dedicated voice app.
+
+244
+00:11:00,963 --> 00:11:03,659
+Still, I'd highly recommend using voice input.
+
+245
+00:11:03,780 --> 00:11:07,116
+Alright, so through that local file processing example,
+
+246
+00:11:07,116 --> 00:11:10,830
+we've now gotten a look at some of Codex's common features.
+
+247
+00:11:11,110 --> 00:11:14,790
+Codex's second capability is command line tools.
+
+248
+00:11:15,100 --> 00:11:18,304
+Regarding permissions, we noted that by default,
+
+249
+00:11:18,304 --> 00:11:20,255
+it can read and write files,
+
+250
+00:11:20,255 --> 00:11:23,530
+but not execute commands or network operations.
+
+251
+00:11:23,810 --> 00:11:25,610
+So, what do these commands mean?
+
+252
+00:11:25,850 --> 00:11:29,460
+The previous example used it to extract video frames
+
+253
+00:11:29,460 --> 00:11:31,960
+and stitch multiple videos together.
+
+254
+00:11:32,160 --> 00:11:35,360
+The FFmpeg it used is a command line tool.
+
+255
+00:11:35,500 --> 00:11:37,383
+And there are some familiar commands,
+
+256
+00:11:37,383 --> 00:11:40,260
+like when we clone a GitHub repository in the terminal.
+
+257
+00:11:40,420 --> 00:11:43,264
+Or, as you're likely familiar with, entering commands
+
+258
+00:11:43,264 --> 00:11:44,380
+in the command line
+
+259
+00:11:44,380 --> 00:11:46,500
+to download Node and its dependencies.
+
+260
+00:11:46,780 --> 00:11:49,208
+So, Codex's second major capability
+
+261
+00:11:49,208 --> 00:11:51,208
+is that, with our permission,
+
+262
+00:11:51,208 --> 00:11:54,780
+it can use our terminal to do these things for us.
+
+263
+00:11:54,990 --> 00:11:57,839
+So, let's have Codex help us install some stuff
+
+264
+00:11:57,839 --> 00:12:00,750
+that's usually super complicated for beginners.
+
+265
+00:12:00,950 --> 00:12:05,012
+First, common dependencies like Node.js, Git, etc.
+
+266
+00:12:05,012 --> 00:12:09,679
+They're essential tools for various Agents or projects.
+
+267
+00:12:09,880 --> 00:12:13,948
+So, previously, you'd manually install these dependencies
+
+268
+00:12:13,948 --> 00:12:17,278
+by following tutorials and copying commands.
+
+269
+00:12:17,278 --> 00:12:20,459
+Now, we just tell Codex, 'Help me install Node.'
+
+270
+00:12:20,460 --> 00:12:21,940
+send the JS over to it.
+
+271
+00:12:22,400 --> 00:12:25,840
+And that's because these things are all pretty common stuff.
+
+272
+00:12:25,920 --> 00:12:28,575
+So, in our auto audit permission mode,
+
+273
+00:12:28,575 --> 00:12:31,194
+it didn't need elevated permissions,
+
+274
+00:12:31,194 --> 00:12:33,740
+just installed it for us expertly.
+
+275
+00:12:33,950 --> 00:12:36,303
+Then, the second category includes
+
+276
+00:12:36,303 --> 00:12:40,510
+popular new Agents with a steep learning curve, like Hermes.
+
+277
+00:12:40,860 --> 00:12:44,590
+You can even get Codex to install its own competitor,
+
+278
+00:12:44,590 --> 00:12:45,452
+Claude Code,
+
+279
+00:12:45,452 --> 00:12:48,180
+and it'll even teach us how to use it!
+
+280
+00:12:48,460 --> 00:12:50,128
+So let's install Hermes.
+
+281
+00:12:50,128 --> 00:12:52,884
+I don't even need its website or repo
+
+282
+00:12:52,884 --> 00:12:56,049
+address—I'll just tell it to install Hermes,
+
+283
+00:12:56,049 --> 00:12:57,890
+mentioning it's trending.
+
+284
+00:12:58,570 --> 00:13:00,511
+Hey, it'll go search on its own
+
+285
+00:13:00,511 --> 00:13:02,970
+and figure out which one it is for us.
+
+286
+00:13:03,420 --> 00:13:05,065
+Then, following the official docs,
+
+287
+00:13:05,065 --> 00:13:07,431
+it went ahead and installed everything for us,
+
+288
+00:13:07,431 --> 00:13:09,540
+and even verified that it was all set up.
+
+289
+00:13:10,030 --> 00:13:12,000
+See? Let's try starting it up
+
+290
+00:13:12,000 --> 00:13:15,520
+as it said. Hey, it really did get installed for us!
+
+291
+00:13:15,800 --> 00:13:18,377
+So we won't go through the rest of the configuration here,
+
+292
+00:13:18,377 --> 00:13:19,799
+but you guys should get the idea.
+
+293
+00:13:20,040 --> 00:13:23,096
+With Codex, those complex five hundred and ninety nine
+
+294
+00:13:23,096 --> 00:13:24,077
+buck deployments?
+
+295
+00:13:24,077 --> 00:13:25,422
+You can just have Codex
+
+296
+00:13:25,422 --> 00:13:28,230
+do them, saving you five hundred and ninety nine!
+
+297
+00:13:28,470 --> 00:13:30,545
+Plus, if we run into any issues while using it,
+
+298
+00:13:30,545 --> 00:13:32,990
+we can even take a screenshot and ask Codex about it.
+
+299
+00:13:33,200 --> 00:13:36,025
+From minor issues to upgrade problems,
+
+300
+00:13:36,025 --> 00:13:38,240
+Codex can fix them directly.
+
+301
+00:13:38,240 --> 00:13:39,920
+Super convenient, right?
+
+302
+00:13:40,260 --> 00:13:42,782
+The third category, less crucial,
+
+303
+00:13:42,782 --> 00:13:47,420
+can also manage software apps like Cursor or Antigravity.
+
+304
+00:13:47,610 --> 00:13:50,433
+Things we'd normally download manually online,
+
+305
+00:13:50,433 --> 00:13:52,519
+it can also download and uninstall.
+
+306
+00:13:52,680 --> 00:13:53,840
+When using Codex,
+
+307
+00:13:53,880 --> 00:13:57,401
+I'd actually recommend downloading an Agent IDE,
+
+308
+00:13:57,401 --> 00:14:00,398
+because right now, Codex has a drawback:
+
+309
+00:14:00,398 --> 00:14:03,919
+it can't open our files for us to edit manually.
+
+310
+00:14:04,100 --> 00:14:05,081
+So, while this sidebar
+
+311
+00:14:05,081 --> 00:14:06,950
+lets you see some of the file structure
+
+312
+00:14:06,950 --> 00:14:07,511
+and content,
+
+313
+00:14:07,511 --> 00:14:09,100
+you can't actually edit any of it.
+
+314
+00:14:09,350 --> 00:14:10,522
+So, you can have Codex
+
+315
+00:14:10,522 --> 00:14:12,619
+download one of your choice—say, we'll
+
+316
+00:14:12,619 --> 00:14:14,150
+just download it like this.
+
+317
+00:14:14,430 --> 00:14:16,410
+So once that's downloaded,
+
+318
+00:14:16,410 --> 00:14:19,420
+we'll run a 'git init' to initialize it.
+
+319
+00:14:20,540 --> 00:14:23,445
+Then, this thing will pop up in the top right corner,
+
+320
+00:14:23,445 --> 00:14:25,758
+letting us open our project in an editor
+
+321
+00:14:25,758 --> 00:14:27,320
+anytime for manual editing.
+
+322
+00:14:27,570 --> 00:14:30,552
+The fourth category is important:
+
+323
+00:14:30,552 --> 00:14:34,889
+the agent's frequently used Skills, MCPs, and CLIs.
+
+324
+00:14:35,040 --> 00:14:37,380
+Codex also supports Skills and MCPs,
+
+325
+00:14:37,380 --> 00:14:39,186
+which we'll discuss later.
+
+326
+00:14:39,186 --> 00:14:40,590
+For now, I'll pick two
+
+327
+00:14:40,590 --> 00:14:43,599
+for you to install for our combined examples.
+
+328
+00:14:43,780 --> 00:14:46,266
+Now, these Skills and CLIs, generally speaking,
+
+329
+00:14:46,266 --> 00:14:48,980
+aren't as well known as major projects like Git.
+
+330
+00:14:49,160 --> 00:14:51,452
+So, it's best to find its specific repository
+
+331
+00:14:51,452 --> 00:14:53,120
+or its official website address.
+
+332
+00:14:53,320 --> 00:14:58,344
+For instance, we download 'Find Skill' – a tool to find skills.
+
+333
+00:14:58,344 --> 00:15:01,032
+We just copy its link to Codex
+
+334
+00:15:01,032 --> 00:15:03,810
+and tell it, 'Install this skill.'
+
+335
+00:15:04,340 --> 00:15:05,737
+While that's installing,
+
+336
+00:15:05,737 --> 00:15:09,140
+another major Codex benefit is parallel task processing.
+
+337
+00:15:09,440 --> 00:15:10,910
+So while it's doing that,
+
+338
+00:15:10,910 --> 00:15:12,961
+we can totally start another chat
+
+339
+00:15:12,961 --> 00:15:15,200
+and have it download something else.
+
+340
+00:15:15,530 --> 00:15:17,410
+So, let's download the Feishu CLI.
+
+341
+00:15:17,610 --> 00:15:19,529
+Feishu CLI is a classic example.
+
+342
+00:15:19,770 --> 00:15:23,326
+That's because some software is getting 'AI fied,'
+
+343
+00:15:23,326 --> 00:15:27,075
+turning almost every in app action into a command
+
+344
+00:15:27,075 --> 00:15:30,060
+so that Agents can easily operate them.
+
+345
+00:15:30,260 --> 00:15:32,660
+Let's send this link over and have it start downloading.
+
+346
+00:15:33,100 --> 00:15:35,388
+So over here, it'll show the status
+
+347
+00:15:35,388 --> 00:15:38,592
+of each task being processed—this spinning icon
+
+348
+00:15:38,592 --> 00:15:40,570
+means it's currently running.
+
+349
+00:15:40,850 --> 00:15:43,048
+So, this blue dot means it's finished.
+
+350
+00:15:43,048 --> 00:15:45,186
+Sometimes, you might also see an icon
+
+351
+00:15:45,186 --> 00:15:47,979
+that indicates you need to request permissions.
+
+352
+00:15:48,570 --> 00:15:51,290
+OK, so here, the 'Find Skill' feature is already installed.
+
+353
+00:15:51,610 --> 00:15:57,440
+For Feishu CLI, it'll guide us through authorization.
+
+354
+00:15:57,440 --> 00:16:00,019
+Just follow its prompts.
+
+355
+00:16:00,300 --> 00:16:02,389
+Okay, once Feishu CLI is installed,
+
+356
+00:16:02,389 --> 00:16:04,687
+Codex can help us with various tasks
+
+357
+00:16:04,687 --> 00:16:06,795
+in Feishu—like writing documents,
+
+358
+00:16:06,795 --> 00:16:09,670
+sending messages, or creating calendar events.
+
+359
+00:16:09,750 --> 00:16:11,452
+I use it almost every day.
+
+360
+00:16:11,452 --> 00:16:12,499
+Alright, all done!
+
+361
+00:16:12,780 --> 00:16:14,473
+In this small section,
+
+362
+00:16:14,473 --> 00:16:19,136
+we used natural language for Codex to install Hermes Node,
+
+363
+00:16:19,136 --> 00:16:20,036
+Feishu CLI,
+
+364
+00:16:20,036 --> 00:16:21,810
+and a lot more for us.
+
+365
+00:16:22,050 --> 00:16:24,705
+This is Codex's second most common capability
+
+366
+00:16:24,705 --> 00:16:26,770
+as an Agent: using the command line.
+
+367
+00:16:27,040 --> 00:16:29,253
+And with this capability and demo,
+
+368
+00:16:29,253 --> 00:16:31,400
+I hope you get one key takeaway.
+
+369
+00:16:31,560 --> 00:16:35,386
+Basically, many of the things we want to do on our computers
+
+370
+00:16:35,386 --> 00:16:36,100
+these days
+
+371
+00:16:36,100 --> 00:16:39,020
+can be handled by a desktop Agent like Codex.
+
+372
+00:16:39,220 --> 00:16:42,020
+Codex's third capability: persistent memory.
+
+373
+00:16:42,230 --> 00:16:45,153
+As mentioned in my Claude Code video,
+
+374
+00:16:45,153 --> 00:16:48,550
+CC has a manual persistent memory, CLAUDE.md.
+
+375
+00:16:48,830 --> 00:16:50,555
+and an automatic memory system,
+
+376
+00:16:50,555 --> 00:16:52,073
+both of which store things
+
+377
+00:16:52,073 --> 00:16:54,409
+we want the Agent to remember long term,
+
+378
+00:16:54,409 --> 00:16:57,400
+like rules, preferences, and our personal information.
+
+379
+00:16:57,680 --> 00:17:00,720
+which exist as local files on our computer.
+
+380
+00:17:01,020 --> 00:17:03,038
+and then, at the right moment,
+
+381
+00:17:03,038 --> 00:17:06,500
+inject these memories into the Agent as context.
+
+382
+00:17:06,740 --> 00:17:10,699
+Codex, similarly, has these two persistent memory systems.
+
+383
+00:17:10,950 --> 00:17:15,266
+In Codex, manual persistent memory is AGENTS.md,
+
+384
+00:17:15,266 --> 00:17:17,612
+plus an automatic memory.
+
+385
+00:17:17,612 --> 00:17:21,460
+Let's open Settings, find Personalization.
+
+386
+00:17:21,868 --> 00:17:24,673
+So, these custom instructions you see here
+
+387
+00:17:24,673 --> 00:17:28,230
+actually take effect globally throughout the system.
+
+388
+00:17:28,230 --> 00:17:32,497
+AGENTS.md is immediately sent as context to the large model
+
+389
+00:17:32,497 --> 00:17:35,390
+when you chat with Codex on any project.
+
+390
+00:17:35,590 --> 00:17:38,117
+So, you can manually write it in here yourself.
+
+391
+00:17:38,117 --> 00:17:40,095
+But personally, I prefer to just tell
+
+392
+00:17:40,095 --> 00:17:41,579
+Codex directly in our chat.
+
+393
+00:17:41,840 --> 00:17:44,720
+For example, I'd say: 'From now on,
+
+394
+00:17:44,720 --> 00:17:46,700
+for Feishu doc changes,
+
+395
+00:17:46,700 --> 00:17:49,169
+use your own dedicated text
+
+396
+00:17:49,169 --> 00:17:52,280
+color and strikethrough for edits.'
+
+397
+00:17:52,440 --> 00:17:53,480
+Don't directly modify.
+
+398
+00:17:53,760 --> 00:17:56,760
+And save this for me in the global AGENTS.md.
+
+399
+00:17:57,190 --> 00:17:57,197
+Okay, it's written. Opening 'Personalization', we see this new set of rules has indeed been added.
+
+400
+00:18:05,630 --> 00:18:09,310
+So in practice, it will then follow this rule of ours.
+
+401
+00:18:09,590 --> 00:18:12,236
+For example, I've got a Feishu doc here
+
+402
+00:18:12,236 --> 00:18:15,650
+with my requested changes commented on the side.
+
+403
+00:18:15,650 --> 00:18:17,670
+I can send this link to Codex.
+
+404
+00:18:17,870 --> 00:18:21,510
+I'll have it make some edits based on my comment on the side.
+
+405
+00:18:22,130 --> 00:18:26,441
+And since the Feishu CLI is set up with proper permissions,
+
+406
+00:18:26,441 --> 00:18:30,010
+Codex can now directly manipulate our documents.
+
+407
+00:18:30,640 --> 00:18:32,480
+OK, let's see how it turned out.
+
+408
+00:18:32,960 --> 00:18:35,888
+Sure enough, it used purple text and strikethrough
+
+409
+00:18:35,888 --> 00:18:37,920
+to make the document edits for us.
+
+410
+00:18:38,200 --> 00:18:40,353
+This is the global AGENTS.md,
+
+411
+00:18:40,353 --> 00:18:44,430
+ideal for general principles applicable to all tasks.
+
+412
+00:18:44,630 --> 00:18:47,919
+For example, our work habits, like speaking Chinese,
+
+413
+00:18:47,919 --> 00:18:51,680
+our preferences, and leaving revision marks in documents.
+
+414
+00:18:51,860 --> 00:18:54,290
+Then there's project level AGENTS.md,
+
+415
+00:18:54,290 --> 00:18:58,140
+whose long term memory is effective only in this project.
+
+416
+00:18:58,390 --> 00:19:00,714
+We can select a project conversation,
+
+417
+00:19:00,714 --> 00:19:02,024
+then open the editor
+
+418
+00:19:02,024 --> 00:19:05,300
+and manually create an agency.md file right there.
+
+419
+00:19:05,300 --> 00:19:05,935
+an `.md` file,
+
+420
+00:19:05,935 --> 00:19:09,620
+and then we can write some rules specific to this project.
+
+421
+00:19:09,820 --> 00:19:12,700
+Or, of course, you can have Codex write it for you.
+
+422
+00:19:12,980 --> 00:19:14,751
+My personal recommendation is,
+
+423
+00:19:14,751 --> 00:19:17,745
+once you have some content in your project files,
+
+424
+00:19:17,745 --> 00:19:20,659
+let Codex use its understanding of your project
+
+425
+00:19:20,659 --> 00:19:21,900
+to write it for you.
+
+426
+00:19:22,020 --> 00:19:23,946
+So, what about Auto Memory?
+
+427
+00:19:23,946 --> 00:19:26,983
+Well, as we just saw under 'Personalization,'
+
+428
+00:19:26,983 --> 00:19:30,909
+we need to manually turn on this Auto Memory feature.
+
+429
+00:19:31,190 --> 00:19:34,657
+So, its mechanism is that once enabled, Codex will,
+
+430
+00:19:34,657 --> 00:19:37,114
+after a conversation or task ends,
+
+431
+00:19:37,114 --> 00:19:39,860
+or after a brief period of inactivity,
+
+432
+00:19:40,080 --> 00:19:42,600
+It summarizes the conversation as a memory
+
+433
+00:19:42,600 --> 00:19:44,040
+and stores it somewhere.
+
+434
+00:19:44,280 --> 00:19:45,440
+But there are some rules:
+
+435
+00:19:45,690 --> 00:19:48,397
+It won't remember short conversations,
+
+436
+00:19:48,397 --> 00:19:51,690
+and summarizing them also consumes our quota.
+
+437
+00:19:51,930 --> 00:19:54,890
+So, when our quota gets too low, it won't remember.
+
+438
+00:19:55,160 --> 00:19:59,035
+OpenAI officially advises against manually editing
+
+439
+00:19:59,035 --> 00:20:00,741
+this auto memory file;
+
+440
+00:20:00,741 --> 00:20:03,300
+only delete unneeded information.
+
+441
+00:20:03,580 --> 00:20:05,579
+So, this file looks something like this.
+
+442
+00:20:05,780 --> 00:20:08,048
+It logs tasks individually,
+
+443
+00:20:08,048 --> 00:20:11,233
+primarily noting the memory's source
+
+444
+00:20:11,233 --> 00:20:14,330
+conversation and working directory.
+
+445
+00:20:14,610 --> 00:20:17,726
+And later on, when certain keywords are triggered,
+
+446
+00:20:17,726 --> 00:20:19,544
+it will recall this memory.
+
+447
+00:20:19,544 --> 00:20:20,647
+Then, further down,
+
+448
+00:20:20,647 --> 00:20:23,829
+are the user's preferences regarding this matter.
+
+449
+00:20:23,990 --> 00:20:26,358
+Then, the fifth section contains reusable knowledge
+
+450
+00:20:26,358 --> 00:20:27,590
+and lessons from pitfalls.
+
+451
+00:20:27,780 --> 00:20:30,719
+All this content is recorded by Codex itself
+
+452
+00:20:30,719 --> 00:20:34,060
+and will be automatically recalled for future use.
+
+453
+00:20:34,180 --> 00:20:37,820
+Let's not modify it for now; this format is hard to change.
+
+454
+00:20:37,940 --> 00:20:40,986
+More often, for clear rules and requirements,
+
+455
+00:20:40,986 --> 00:20:43,820
+we achieve this by organizing AGENTS.md.
+
+456
+00:20:44,020 --> 00:20:47,686
+After these videos, I'd like to do another one
+
+457
+00:20:47,686 --> 00:20:50,620
+on organizing multi level AGENTS.md.
+
+458
+00:20:50,760 --> 00:20:53,010
+to create a video about a super assistant
+
+459
+00:20:53,010 --> 00:20:55,920
+that truly understands you and handles diverse tasks.
+
+460
+00:20:56,200 --> 00:20:58,907
+The fourth major capability is that
+
+461
+00:20:58,907 --> 00:21:03,007
+Codex can directly use Image two to generate images.
+
+462
+00:21:03,007 --> 00:21:06,719
+However, image generation is just a minor feature.
+
+463
+00:21:06,960 --> 00:21:11,093
+So, in this chapter, we're not just using image generation;
+
+464
+00:21:11,093 --> 00:21:14,120
+we'll build a complete personal homepage.
+
+465
+00:21:14,300 --> 00:21:17,438
+and get a feel for some of Codex's uses and functions
+
+466
+00:21:17,438 --> 00:21:18,860
+for beginner developers.
+
+467
+00:21:19,060 --> 00:21:21,460
+Let's create a 'Personal Homepage' project.
+
+468
+00:21:22,250 --> 00:21:26,223
+Then, let's click on this plus sign and turn on Plan Mode,
+
+469
+00:21:26,223 --> 00:21:29,429
+since building a website is a bit more complex.
+
+470
+00:21:29,620 --> 00:21:31,386
+So, by turning on Plan Mode,
+
+471
+00:21:31,386 --> 00:21:34,445
+it will first lay out a detailed plan for us,
+
+472
+00:21:34,445 --> 00:21:36,620
+then acts upon our confirmation.
+
+473
+00:21:36,810 --> 00:21:39,612
+Plan Mode is great for tasks that are somewhat complex,
+
+474
+00:21:39,612 --> 00:21:42,391
+or when you haven't quite figured things out yourself
+
+475
+00:21:42,391 --> 00:21:44,490
+and want to work out a plan with the AI.
+
+476
+00:21:44,710 --> 00:21:46,615
+So let's say we're in that second scenario—
+
+477
+00:21:46,615 --> 00:21:48,294
+we haven't really thought it through—
+
+478
+00:21:48,294 --> 00:21:50,790
+and we just tell it, "I want to make a personal homepage."
+
+479
+00:21:51,600 --> 00:21:55,263
+So, you can see that since it found no content in our project,
+
+480
+00:21:55,263 --> 00:21:58,560
+it's using this selection box to ask for more details.
+
+481
+00:21:58,890 --> 00:22:02,148
+You can pick any of these options based on your own needs,
+
+482
+00:22:02,148 --> 00:22:03,889
+so I'll go with 'Personal Brand'.
+
+483
+00:22:04,570 --> 00:22:07,457
+And if these options aren't quite right,
+
+484
+00:22:07,457 --> 00:22:11,900
+you can pick the last one to add your specific requirements.
+
+485
+00:22:12,180 --> 00:22:15,422
+For example, I want a narrative, premium feel,
+
+486
+00:22:15,422 --> 00:22:16,931
+select 'for partners,'
+
+487
+00:22:16,931 --> 00:22:18,440
+no personal photos,
+
+488
+00:22:18,440 --> 00:22:20,929
+bilingual Chinese and English, etc.
+
+489
+00:22:21,130 --> 00:22:23,767
+It really asked us many questions.
+
+490
+00:22:23,767 --> 00:22:26,404
+Finally, it gave us a detailed plan
+
+491
+00:22:26,404 --> 00:22:28,809
+and asked if we’d implement it.
+
+492
+00:22:29,000 --> 00:22:31,528
+So, the basic plan looks fine to us,
+
+493
+00:22:31,528 --> 00:22:34,280
+but we can also add some adjustments.
+
+494
+00:22:34,550 --> 00:22:37,009
+For example, we just mentioned using its Image
+
+495
+00:22:37,009 --> 00:22:38,430
+two generation capability,
+
+496
+00:22:38,430 --> 00:22:40,070
+but that's not reflected here.
+
+497
+00:22:40,070 --> 00:22:42,308
+Let's add: 'Use Image two
+
+498
+00:22:42,308 --> 00:22:47,175
+to generate more high end images for the webpage,'
+
+499
+00:22:47,175 --> 00:22:48,829
+then we'll submit.
+
+500
+00:22:49,850 --> 00:22:53,467
+So it's asking what kind of 'high end' feel we want?
+
+501
+00:22:53,467 --> 00:22:56,071
+And if we click the exclamation mark,
+
+502
+00:22:56,071 --> 00:22:58,459
+we can see what that style means.
+
+503
+00:22:58,640 --> 00:23:01,951
+I love the little details of this product.
+
+504
+00:23:01,951 --> 00:23:04,553
+Let's go with its recommendation.
+
+505
+00:23:04,553 --> 00:23:07,549
+The new plan looks fine to me—go ahead.
+
+506
+00:23:08,040 --> 00:23:10,132
+OK, it's initializing the project,
+
+507
+00:23:10,132 --> 00:23:12,160
+gradually generating it for us.
+
+508
+00:23:12,390 --> 00:23:14,767
+So, this process will definitely take some time.
+
+509
+00:23:14,767 --> 00:23:17,599
+In the meantime, let me share a little bit more knowledge
+
+510
+00:23:17,599 --> 00:23:18,459
+with you all. Ooh!
+
+511
+00:23:18,540 --> 00:23:22,518
+Wow, its first image! Artistic, truly the best Image
+
+512
+00:23:22,518 --> 00:23:26,019
+two. Now, the point I want to add is 'guidance'.
+
+513
+00:23:26,610 --> 00:23:29,350
+So, if you're running a long task in Codex
+
+514
+00:23:29,350 --> 00:23:32,291
+and feel like it's starting to go off track,
+
+515
+00:23:32,291 --> 00:23:35,300
+you can always step in to correct its course.
+
+516
+00:23:35,580 --> 00:23:36,851
+For example, let's add that
+
+517
+00:23:36,851 --> 00:23:39,053
+the image should have a stronger human touch
+
+518
+00:23:39,053 --> 00:23:40,570
+and not such a cold color tone.
+
+519
+00:23:41,010 --> 00:23:42,341
+I'm an AI blogger.
+
+520
+00:23:42,341 --> 00:23:43,820
+Let's send that out.
+
+521
+00:23:43,820 --> 00:23:46,704
+You'll see it didn't interrupt our task
+
+522
+00:23:46,704 --> 00:23:50,329
+or send immediately; it's actually queued up here.
+
+523
+00:23:50,680 --> 00:23:53,888
+So, on the right, this guidance button says
+
+524
+00:23:53,888 --> 00:23:56,585
+it won't interrupt the model's run;
+
+525
+00:23:56,585 --> 00:23:59,680
+it'll send it after the next tool call.
+
+526
+00:23:59,980 --> 00:24:01,827
+That's a really great feature!
+
+527
+00:24:01,827 --> 00:24:04,229
+Let's click on it, and it'll send it out.
+
+528
+00:24:04,510 --> 00:24:07,341
+This feature prevents Codex from going full speed
+
+529
+00:24:07,341 --> 00:24:08,497
+down the wrong path,
+
+530
+00:24:08,497 --> 00:24:09,962
+blowing through our quota,
+
+531
+00:24:09,962 --> 00:24:12,600
+or having to rerun a whole task from scratch.
+
+532
+00:24:12,800 --> 00:24:14,821
+Now, for another neat little feature,
+
+533
+00:24:14,821 --> 00:24:17,122
+let's find a task that's already finished
+
+534
+00:24:17,122 --> 00:24:18,919
+and check out the AI's response.
+
+535
+00:24:19,440 --> 00:24:24,320
+Beneath every AI reply, there's this button called 'Fork'.
+
+536
+00:24:24,640 --> 00:24:29,246
+This means we can start a new conversation from here anytime,
+
+537
+00:24:29,246 --> 00:24:31,976
+ideal when the conversation is good
+
+538
+00:24:31,976 --> 00:24:34,160
+and the context is valuable.
+
+539
+00:24:34,160 --> 00:24:35,367
+But as we chat further
+
+540
+00:24:35,367 --> 00:24:37,509
+and things start to go a bit off track ...
+
+541
+00:24:37,509 --> 00:24:39,760
+oh, and there's also a little pet feature!
+
+542
+00:24:40,240 --> 00:24:45,980
+In 'Settings' >'Appearance,' you'll find a selection of pets.
+
+543
+00:24:46,280 --> 00:24:48,940
+You can even click 'Create' and have Codex
+
+544
+00:24:48,940 --> 00:24:50,404
+generate a custom pet
+
+545
+00:24:50,404 --> 00:24:52,600
+based on what it knows about you.
+
+546
+00:24:52,760 --> 00:24:54,560
+So let's click 'Awaken Pet'.
+
+547
+00:24:54,960 --> 00:24:58,097
+This little desktop pet will be on your desktop,
+
+548
+00:24:58,097 --> 00:25:01,302
+with a bubble showing Codex's current activity.
+
+549
+00:25:01,302 --> 00:25:03,839
+Beyond that, it doesn't seem to do much.
+
+550
+00:25:04,200 --> 00:25:06,959
+OK, finally, after seventy five minutes of running,
+
+551
+00:25:06,959 --> 00:25:08,167
+the webpage is done.
+
+552
+00:25:08,167 --> 00:25:09,719
+Let's check out the results.
+
+553
+00:25:09,930 --> 00:25:13,207
+Because Codex has a built in preview browser,
+
+554
+00:25:13,207 --> 00:25:17,230
+we can just open the right sidebar and make it bigger.
+
+555
+00:25:17,710 --> 00:25:20,420
+Hmm, this webpage looks great.
+
+556
+00:25:20,420 --> 00:25:22,756
+While most Agents do this,
+
+557
+00:25:22,756 --> 00:25:26,589
+this preview browser has another benefit.
+
+558
+00:25:26,710 --> 00:25:30,590
+If we click the annotation button in the top right,
+
+559
+00:25:30,590 --> 00:25:34,860
+we can select elements on this page for revision notes.
+
+560
+00:25:35,220 --> 00:25:37,060
+and regenerating images.
+
+561
+00:25:37,460 --> 00:25:41,690
+For example, let's say we want this logo to be a bit bigger,
+
+562
+00:25:41,690 --> 00:25:45,119
+then annotate this image here to add a person,
+
+563
+00:25:45,119 --> 00:25:46,869
+and okay, delete this one.
+
+564
+00:25:47,450 --> 00:25:51,233
+So then, these comments will be added to the dialogue box,
+
+565
+00:25:51,233 --> 00:25:54,086
+and once we hit send, it'll make the changes
+
+566
+00:25:54,086 --> 00:25:55,613
+based on our feedback.
+
+567
+00:25:55,613 --> 00:25:57,139
+Pretty convenient, right?
+
+568
+00:25:57,350 --> 00:26:00,995
+Now that our project has a preliminary form,
+
+569
+00:26:00,995 --> 00:26:03,030
+let's revisit AGENTS.md.
+
+570
+00:26:03,320 --> 00:26:08,567
+Now's a great time for Codex to generate a project level
+
+571
+00:26:08,567 --> 00:26:10,160
+AGENTS.md for us,
+
+572
+00:26:10,160 --> 00:26:13,440
+with some content already in place.
+
+573
+00:26:13,960 --> 00:26:16,416
+Let's open up the editor and take a look ...
+
+574
+00:26:16,416 --> 00:26:18,213
+Nice! The project's background,
+
+575
+00:26:18,213 --> 00:26:21,508
+all the info, rules, and file paths have been written out.
+
+576
+00:26:21,960 --> 00:26:24,894
+So from now on, whether we start a new chat
+
+577
+00:26:24,894 --> 00:26:27,480
+or our chat history has been cleared,
+
+578
+00:26:27,680 --> 00:26:31,521
+Codex can instantly understand our project basics
+
+579
+00:26:31,521 --> 00:26:33,560
+via its project AGENTS.md.
+
+580
+00:26:33,960 --> 00:26:35,445
+OK, let's leave it like this
+
+581
+00:26:35,445 --> 00:26:38,470
+for now—no fine tuning—and get ready to deploy it live.
+
+582
+00:26:38,750 --> 00:26:41,380
+Of course, you can always refine it yourself,
+
+583
+00:26:41,380 --> 00:26:44,990
+and simply replace the webpage info with your real details.
+
+584
+00:26:45,200 --> 00:26:46,374
+So, to deploy this,
+
+585
+00:26:46,374 --> 00:26:50,520
+we need to talk about Codex's fifth core capability: Plugins.
+
+586
+00:26:51,020 --> 00:26:53,398
+In the current version of Codex,
+
+587
+00:26:53,398 --> 00:26:56,592
+plugins mostly serve to connect our Agent
+
+588
+00:26:56,592 --> 00:26:58,462
+with external platforms,
+
+589
+00:26:58,462 --> 00:26:59,920
+tools, and services.
+
+590
+00:27:00,080 --> 00:27:03,321
+It's essentially a complete collection of
+
+591
+00:27:03,321 --> 00:27:04,902
+what we call Skills,
+
+592
+00:27:04,902 --> 00:27:08,594
+MCP CLI, and similar tools—like handling emails,
+
+593
+00:27:08,594 --> 00:27:10,200
+calendars, or GitHub.
+
+594
+00:27:10,360 --> 00:27:12,933
+So, let's click the Plugins bar on the left;
+
+595
+00:27:12,933 --> 00:27:16,355
+you'll see several built in plugins are already enabled
+
+596
+00:27:16,355 --> 00:27:17,040
+by default.
+
+597
+00:27:17,220 --> 00:27:19,320
+For example, there's Browser Control,
+
+598
+00:27:19,320 --> 00:27:21,000
+Mac specific Screen Control,
+
+599
+00:27:21,000 --> 00:27:23,460
+GitHub, spreadsheets, PowerPoint, and so on.
+
+600
+00:27:23,730 --> 00:27:27,216
+Now, its plugin page isn't translated into Chinese,
+
+601
+00:27:27,216 --> 00:27:31,329
+so I've listed their Chinese meanings and functions for you.
+
+602
+00:27:31,480 --> 00:27:34,640
+You can install them as needed—just click the plus sign.
+
+603
+00:27:34,720 --> 00:27:37,796
+So, let's head over to the 'Coding' section first,
+
+604
+00:27:37,796 --> 00:27:40,740
+as plugins make deployment super convenient.
+
+605
+00:27:41,180 --> 00:27:43,549
+Both Vercel and Netlify are fine.
+
+606
+00:27:43,549 --> 00:27:45,846
+Vercel suits those with a domain;
+
+607
+00:27:45,846 --> 00:27:49,579
+otherwise, accessing it from China might be an issue.
+
+608
+00:27:49,800 --> 00:27:51,681
+If you don't have a domain,
+
+609
+00:27:51,681 --> 00:27:54,286
+Netlify is better for China access.
+
+610
+00:27:54,286 --> 00:27:56,239
+Let's click plus to install.
+
+611
+00:27:56,440 --> 00:27:57,904
+And if you haven't selected GitHub,
+
+612
+00:27:57,904 --> 00:27:59,240
+make sure to pick that one too.
+
+613
+00:27:59,550 --> 00:28:03,387
+Then, let's go back to the chat and tell it
+
+614
+00:28:03,387 --> 00:28:08,230
+we want to use Netlify to deploy this website for us.
+
+615
+00:28:08,660 --> 00:28:10,150
+We don't even have to worry about
+
+616
+00:28:10,150 --> 00:28:12,860
+how it deploys things—whatever it needs to do, it'll tell us.
+
+617
+00:28:13,280 --> 00:28:15,618
+OK, so it noticed we weren't logged in
+
+618
+00:28:15,618 --> 00:28:18,400
+and automatically popped up this login link.
+
+619
+00:28:18,680 --> 00:28:20,960
+So, I'd recommend logging in with your GitHub account—it's
+
+620
+00:28:20,960 --> 00:28:21,920
+the most convenient way.
+
+621
+00:28:22,280 --> 00:28:23,462
+So once you're logged in,
+
+622
+00:28:23,462 --> 00:28:25,011
+it'll know you're authenticated
+
+623
+00:28:25,011 --> 00:28:27,060
+and continue with the deployment for us—
+
+624
+00:28:27,060 --> 00:28:28,439
+and just like that, it's done!
+
+625
+00:28:28,770 --> 00:28:31,518
+This link is our final website—just send this out,
+
+626
+00:28:31,518 --> 00:28:34,660
+and others will be able to visit your personal homepage.
+
+627
+00:28:34,860 --> 00:28:36,747
+Now, if you want to swap this domain
+
+628
+00:28:36,747 --> 00:28:38,257
+for one you bought yourself,
+
+629
+00:28:38,257 --> 00:28:39,660
+you know who to ask—Codex.
+
+630
+00:28:39,860 --> 00:28:42,020
+Just ask Codex, and it'll teach you.
+
+631
+00:28:42,180 --> 00:28:43,331
+Is AI good or what?
+
+632
+00:28:43,331 --> 00:28:45,574
+Just a couple clicks deliver results
+
+633
+00:28:45,574 --> 00:28:47,514
+most couldn't achieve with money.
+
+634
+00:28:47,514 --> 00:28:49,939
+Okay, I'll curb my old timer's amazement.
+
+635
+00:28:50,140 --> 00:28:53,595
+Now, let's circle back to the plugins we just installed.
+
+636
+00:28:53,595 --> 00:28:56,296
+Actually, there are two other very important
+
+637
+00:28:56,296 --> 00:28:57,679
+built in plugins here:
+
+638
+00:28:57,679 --> 00:29:01,449
+Browser Use and Computer Use, plus the Chrome browser itself.
+
+639
+00:29:01,790 --> 00:29:04,236
+So, what are these for? Browser Use,
+
+640
+00:29:04,236 --> 00:29:05,675
+as the name suggests,
+
+641
+00:29:05,675 --> 00:29:09,057
+allows Codex to directly control your browser:
+
+642
+00:29:09,057 --> 00:29:10,136
+clicking pages,
+
+643
+00:29:10,136 --> 00:29:11,503
+taking screenshots,
+
+644
+00:29:11,503 --> 00:29:12,438
+filling forms.
+
+645
+00:29:12,720 --> 00:29:15,800
+It's typically for automating front end tests.
+
+646
+00:29:16,160 --> 00:29:20,472
+Of course, we can also have Codex do something fun,
+
+647
+00:29:20,472 --> 00:29:23,200
+like open this MBTI for a test.
+
+648
+00:29:23,800 --> 00:29:26,172
+Hehe, this way, you guys can get a pretty intuitive
+
+649
+00:29:26,172 --> 00:29:27,480
+look at how it works, right?
+
+650
+00:29:27,680 --> 00:29:29,623
+The mouse is moving on its own,
+
+651
+00:29:29,623 --> 00:29:31,891
+reading and filling in the answers,
+
+652
+00:29:31,891 --> 00:29:35,260
+and once this page is done, it'll automatically flip.
+
+653
+00:29:35,820 --> 00:29:38,780
+And after a flurry of activity, the results are in.
+
+654
+00:29:39,180 --> 00:29:41,220
+So GPT five point five is an INTJ!
+
+655
+00:29:41,220 --> 00:29:43,020
+No wonder we get along so well!
+
+656
+00:29:43,420 --> 00:29:46,780
+Okay, so this Chrome extension also controls a browser,
+
+657
+00:29:46,780 --> 00:29:48,258
+but it controls our own,
+
+658
+00:29:48,258 --> 00:29:51,600
+already logged in browser—it doesn't open a new one.
+
+659
+00:29:51,840 --> 00:29:53,459
+So, if we check that box,
+
+660
+00:29:53,459 --> 00:29:56,697
+it'll guide us to install a plugin in Chrome.
+
+661
+00:29:56,697 --> 00:30:00,709
+Once that's installed, it can then operate our own browser.
+
+662
+00:30:00,900 --> 00:30:05,544
+It's great that it can handle multi page browser operations
+
+663
+00:30:05,544 --> 00:30:06,962
+in the background,
+
+664
+00:30:06,962 --> 00:30:09,560
+without monopolizing our browser.
+
+665
+00:30:09,600 --> 00:30:11,833
+We don't have to actually wait and watch its actions;
+
+666
+00:30:11,833 --> 00:30:14,319
+we can just use our browser for other things while it works.
+
+667
+00:30:14,660 --> 00:30:17,588
+OK, 'Computer Use' is even more powerful,
+
+668
+00:30:17,588 --> 00:30:22,100
+controlling not just your browser but also computer apps.
+
+669
+00:30:22,440 --> 00:30:25,433
+However, this feature is currently only on Mac.
+
+670
+00:30:25,433 --> 00:30:27,059
+For example, in a new chat,
+
+671
+00:30:27,059 --> 00:30:30,509
+see the plugin option at the bottom of the plus menu.
+
+672
+00:30:30,710 --> 00:30:33,496
+Let's manually select the computer plugin.
+
+673
+00:30:33,496 --> 00:30:36,149
+Then, some more quirky, less useful tricks.
+
+674
+00:30:36,380 --> 00:30:39,340
+Play the hottest song from 'ninety nine for me,
+
+675
+00:30:39,340 --> 00:30:42,300
+and then send a message from my WeChat to QQ.
+
+676
+00:30:42,300 --> 00:30:46,990
+WeChat says: 'Please accept my like, favorite, and follow—get it?'
+
+677
+00:30:48,880 --> 00:30:52,668
+OK, it's thinking ... and then it sees our apps are running
+
+678
+00:30:52,668 --> 00:30:56,317
+and asks for permission to use this music software.
+
+679
+00:30:56,317 --> 00:30:57,439
+Let's hit 'Agree'.
+
+680
+00:30:57,810 --> 00:31:00,050
+See? Codex did that all by itself!
+
+681
+00:31:00,450 --> 00:31:03,452
+It's searching for songs. OK,
+
+682
+00:31:03,452 --> 00:31:05,167
+music's playing,
+
+683
+00:31:05,167 --> 00:31:09,993
+but it's still asking for WeChat permissions.
+
+684
+00:31:09,993 --> 00:31:12,137
+Let's grant that too.
+
+685
+00:31:12,530 --> 00:31:16,541
+OK, look at its little mouse cursor—it's hesitating to search
+
+686
+00:31:16,541 --> 00:31:17,210
+and click.
+
+687
+00:31:17,890 --> 00:31:20,436
+Friends, it failed. It worked last time,
+
+688
+00:31:20,436 --> 00:31:23,451
+but I guess WeChat is now strictly preventing
+
+689
+00:31:23,451 --> 00:31:24,992
+these Agent operations,
+
+690
+00:31:24,992 --> 00:31:26,600
+directly kicking me out.
+
+691
+00:31:26,840 --> 00:31:30,615
+But, it did successfully operate this music software.
+
+692
+00:31:30,615 --> 00:31:32,938
+In fact, I also had it use CapCut
+
+693
+00:31:32,938 --> 00:31:35,479
+to add music to our latest project.
+
+694
+00:31:35,870 --> 00:31:39,558
+So anyway, you get the idea now— it can control the browser
+
+695
+00:31:39,558 --> 00:31:41,630
+and it can control our computer.
+
+696
+00:31:41,870 --> 00:31:45,507
+But honestly, its efficiency's a bit low right now,
+
+697
+00:31:45,507 --> 00:31:49,220
+so I don't really use these two powerful features.
+
+698
+00:31:49,340 --> 00:31:51,716
+But this next thing I'm gonna talk about, Skills—now
+
+699
+00:31:51,716 --> 00:31:52,508
+THAT'S something
+
+700
+00:31:52,508 --> 00:31:53,580
+I use every single day.
+
+701
+00:31:54,870 --> 00:31:57,106
+Now, Skills—I've covered this often.
+
+702
+00:31:57,106 --> 00:31:59,469
+So if you're keen, definitely catch up.
+
+703
+00:31:59,680 --> 00:32:02,913
+So, a Skill is essentially our refined
+
+704
+00:32:02,913 --> 00:32:05,011
+set of reusable methods,
+
+705
+00:32:05,011 --> 00:32:06,760
+workflows, and tools.
+
+706
+00:32:07,060 --> 00:32:08,876
+They're basically action guides
+
+707
+00:32:08,876 --> 00:32:11,220
+for the Agent to perform specific tasks.
+
+708
+00:32:11,360 --> 00:32:15,675
+Now, because we've already had Codex install a meta Skill
+
+709
+00:32:15,675 --> 00:32:16,215
+for us
+
+710
+00:32:16,215 --> 00:32:17,680
+called 'Find Skill'...
+
+711
+00:32:17,880 --> 00:32:21,653
+So, when installing or finding community Skills,
+
+712
+00:32:21,653 --> 00:32:23,487
+you can just use Codex
+
+713
+00:32:23,487 --> 00:32:26,740
+to download them with natural language.
+
+714
+00:32:26,920 --> 00:32:28,704
+For example, let's download
+
+715
+00:32:28,704 --> 00:32:31,862
+an essential Anthropic front end design Skill
+
+716
+00:32:31,862 --> 00:32:33,510
+and the 'AI feel' remover.
+
+717
+00:32:33,670 --> 00:32:35,585
+So, let's send both of these to it.
+
+718
+00:32:35,585 --> 00:32:38,739
+They'll come in handy. It's quickly installed them for us.
+
+719
+00:32:39,100 --> 00:32:39,840
+So, from now on,
+
+720
+00:32:39,840 --> 00:32:41,503
+if you want to download a Skill
+
+721
+00:32:41,503 --> 00:32:43,704
+and the 'Find Skill' feature can't find it,
+
+722
+00:32:43,704 --> 00:32:46,063
+you can just send the link directly to Codex
+
+723
+00:32:46,063 --> 00:32:47,780
+and have it download it for you.
+
+724
+00:32:47,980 --> 00:32:50,201
+But as I said in that CC episode,
+
+725
+00:32:50,201 --> 00:32:53,368
+the best Skills are those you create yourself,
+
+726
+00:32:53,368 --> 00:32:55,340
+tailored for your own work.
+
+727
+00:32:55,340 --> 00:32:57,839
+There are two ways to create a Skill.
+
+728
+00:32:58,080 --> 00:32:59,589
+First, you can just tell Codex
+
+729
+00:32:59,589 --> 00:33:01,568
+what kind of Skill you want to create
+
+730
+00:33:01,568 --> 00:33:03,789
+and work it out through discussion with it
+
+731
+00:33:03,789 --> 00:33:04,900
+to get a final Skill.
+
+732
+00:33:05,100 --> 00:33:07,852
+The other way, which we're about to demonstrate,
+
+733
+00:33:07,852 --> 00:33:10,035
+is to first get the workflow running,
+
+734
+00:33:10,035 --> 00:33:12,280
+and then have it turned into a Skill.
+
+735
+00:33:12,480 --> 00:33:14,775
+This is also the recommended approach.
+
+736
+00:33:14,775 --> 00:33:17,734
+Let's create a skill to automate writing articles
+
+737
+00:33:17,734 --> 00:33:21,419
+and pairing them with images—you've probably seen this, right?
+
+738
+00:33:21,780 --> 00:33:24,653
+So, we'll first need to guide Codex step by step
+
+739
+00:33:24,653 --> 00:33:27,015
+to have it actually produce an article
+
+740
+00:33:27,015 --> 00:33:28,445
+that we're happy with.
+
+741
+00:33:28,445 --> 00:33:30,279
+Alright, let's start a new chat.
+
+742
+00:33:30,480 --> 00:33:33,775
+Since we just installed the GitHub plugin,
+
+743
+00:33:33,775 --> 00:33:35,243
+let's ask it about
+
+744
+00:33:35,243 --> 00:33:39,160
+the latest popular and trending GitHub projects.
+
+745
+00:33:39,870 --> 00:33:41,611
+OK, it did find some for us.
+
+746
+00:33:41,611 --> 00:33:43,740
+Now let's have it clearly explain
+
+747
+00:33:43,740 --> 00:33:45,869
+what each of these projects does.
+
+748
+00:33:46,590 --> 00:33:50,699
+Now, let's have it pick the ones with the most stars
+
+749
+00:33:50,699 --> 00:33:53,152
+and write us an article titled '
+
+750
+00:33:53,152 --> 00:33:56,260
+'This Week's Trending GitHub Projects'.
+
+751
+00:33:56,750 --> 00:33:59,124
+Alright, once it's written this,
+
+752
+00:33:59,124 --> 00:34:00,629
+it's a bit robotic.
+
+753
+00:34:00,629 --> 00:34:05,380
+I'd prefer it more conversational, and just five hand picked.
+
+754
+00:34:05,580 --> 00:34:09,100
+So let's tell it to cover these specific aspects.
+
+755
+00:34:09,550 --> 00:34:11,935
+So, right here, we can use that 'de AI' Skill
+
+756
+00:34:11,935 --> 00:34:13,099
+we just downloaded.
+
+757
+00:34:13,099 --> 00:34:15,309
+Let's bring it up with a slash command.
+
+758
+00:34:15,989 --> 00:34:19,260
+Alright, so the final result is slightly better.
+
+759
+00:34:19,500 --> 00:34:23,157
+But we also want to add our own fixed opening and closing,
+
+760
+00:34:23,157 --> 00:34:24,784
+and have it use Image two
+
+761
+00:34:24,784 --> 00:34:27,520
+to generate some supporting images for us.
+
+762
+00:34:27,940 --> 00:34:30,762
+Lastly, I also want it to not be in this format,
+
+763
+00:34:30,762 --> 00:34:34,260
+but rather as a Feishu document, with both text and posts.
+
+764
+00:34:34,730 --> 00:34:36,252
+OK, here come the results.
+
+765
+00:34:36,252 --> 00:34:37,900
+It did generate something,
+
+766
+00:34:37,900 --> 00:34:40,820
+but I feel like the images aren't rich enough.
+
+767
+00:34:41,179 --> 00:34:44,340
+So, after more tweaks, I was finally satisfied.
+
+768
+00:34:44,550 --> 00:34:47,263
+And I even added one last step: to have it
+
+769
+00:34:47,263 --> 00:34:50,284
+send this Feishu doc to a specific group chat
+
+770
+00:34:50,284 --> 00:34:52,030
+for everyone to check out.
+
+771
+00:34:52,560 --> 00:34:55,639
+So, here's the final result: and sure enough, it got sent out.
+
+772
+00:34:56,020 --> 00:34:58,500
+Actually, for those of you who want to take it even further,
+
+773
+00:34:58,500 --> 00:35:00,669
+you can also combine this with the browser control
+
+774
+00:35:00,669 --> 00:35:01,580
+we just talked about.
+
+775
+00:35:01,820 --> 00:35:03,669
+have it open that publish page
+
+776
+00:35:03,669 --> 00:35:05,580
+and post it for you right away.
+
+777
+00:35:05,740 --> 00:35:10,226
+So anyway, once we're happy with these results,
+
+778
+00:35:10,226 --> 00:35:15,510
+we can have it turn this entire process into a Skill.
+
+779
+00:35:15,830 --> 00:35:18,832
+So, if we type in a slash and scroll down,
+
+780
+00:35:18,832 --> 00:35:21,310
+we'll see that Skill right there.
+
+781
+00:35:21,630 --> 00:35:23,860
+We can manually call this Skill,
+
+782
+00:35:23,860 --> 00:35:27,818
+or say 'generate a post recommending Trending projects.'
+
+783
+00:35:27,818 --> 00:35:31,919
+Codex will also automatically invoke it with such phrases.
+
+784
+00:35:32,080 --> 00:35:35,083
+But since the real time Trending projects on GitHub
+
+785
+00:35:35,083 --> 00:35:36,320
+haven't been updated,
+
+786
+00:35:36,480 --> 00:35:37,530
+So if we call it again,
+
+787
+00:35:37,530 --> 00:35:39,726
+it'll most likely generate a similar article,
+
+788
+00:35:39,726 --> 00:35:40,919
+so we'll skip trying that.
+
+789
+00:35:41,200 --> 00:35:43,512
+But I think you all get the idea
+
+790
+00:35:43,512 --> 00:35:47,125
+now—Skills let us lock in a whole set of verified,
+
+791
+00:35:47,125 --> 00:35:49,510
+well tuned workflows and methods.
+
+792
+00:35:49,720 --> 00:35:54,688
+Next time, Codex can consistently output based on this.
+
+793
+00:35:54,688 --> 00:35:57,080
+The next capability is MCP.
+
+794
+00:35:57,420 --> 00:35:59,392
+MCP isn't widely used now,
+
+795
+00:35:59,392 --> 00:36:01,917
+so I'll just give a quick demo.
+
+796
+00:36:01,917 --> 00:36:06,099
+You'll find Codex's MCP under 'MCP Servers' in Settings.
+
+797
+00:36:06,500 --> 00:36:08,023
+But for beginners looking at this,
+
+798
+00:36:08,023 --> 00:36:10,100
+you'll probably have no idea what to fill in.
+
+799
+00:36:10,310 --> 00:36:12,432
+So, as we mentioned earlier,
+
+800
+00:36:12,432 --> 00:36:16,813
+the easiest way is to just copy the MCP link you want
+
+801
+00:36:16,813 --> 00:36:18,880
+and let Codex install it.
+
+802
+00:36:19,000 --> 00:36:22,271
+For example, let's give it a NotebookLM MCP.
+
+803
+00:36:22,271 --> 00:36:25,769
+It'll guide us through authorization and login,
+
+804
+00:36:25,769 --> 00:36:27,519
+and then we're all set.
+
+805
+00:36:27,830 --> 00:36:29,260
+Let's try another.
+
+806
+00:36:29,260 --> 00:36:32,676
+I have a notebook full of interview videos;
+
+807
+00:36:32,676 --> 00:36:33,629
+let's ask it.
+
+808
+00:36:34,070 --> 00:36:35,309
+So just like that,
+
+809
+00:36:35,309 --> 00:36:39,740
+Codex can now directly access these external knowledge bases
+
+810
+00:36:39,740 --> 00:36:41,070
+on our NotebookLM.
+
+811
+00:36:41,470 --> 00:36:45,540
+OK, the last Codex capability is timed tasks.
+
+812
+00:36:45,810 --> 00:36:47,572
+Actually, scheduled tasks themselves
+
+813
+00:36:47,572 --> 00:36:49,133
+aren't anything special—things
+
+814
+00:36:49,133 --> 00:36:50,846
+like reminding me to take my meds
+
+815
+00:36:50,846 --> 00:36:52,307
+or drink water every morning,
+
+816
+00:36:52,307 --> 00:36:53,970
+regular software can do that too.
+
+817
+00:36:54,150 --> 00:36:56,173
+But we're saving it for last
+
+818
+00:36:56,173 --> 00:37:00,413
+because it can combine all the skills we've learned before
+
+819
+00:37:00,413 --> 00:37:02,460
+into a whole suite of tasks.
+
+820
+00:37:02,620 --> 00:37:06,865
+The agent's automated, intelligent, and customized execution –
+
+821
+00:37:06,865 --> 00:37:08,879
+that's the real beauty of it.
+
+822
+00:37:09,280 --> 00:37:12,091
+For example, for the Trending project posts
+
+823
+00:37:12,091 --> 00:37:13,363
+Skill we just made,
+
+824
+00:37:13,363 --> 00:37:16,892
+we can set it to generate every three days or weekly,
+
+825
+00:37:16,892 --> 00:37:18,250
+on a fixed schedule.
+
+826
+00:37:18,250 --> 00:37:20,970
+Publish GitHub Trending project recommendations.
+
+827
+00:37:21,210 --> 00:37:24,255
+Isn't that an automated social media manager?
+
+828
+00:37:24,255 --> 00:37:26,124
+To create automated tasks,
+
+829
+00:37:26,124 --> 00:37:27,369
+there are two ways.
+
+830
+00:37:27,560 --> 00:37:30,059
+The first way is to select the Automation panel
+
+831
+00:37:30,059 --> 00:37:32,879
+over here. It provides some official sample templates,
+
+832
+00:37:32,879 --> 00:37:35,220
+though most of them are development related.
+
+833
+00:37:35,420 --> 00:37:37,703
+So, let's create a new automation.
+
+834
+00:37:37,703 --> 00:37:38,671
+Filling it out
+
+835
+00:37:38,671 --> 00:37:42,823
+is quite straightforward—you simply use prompts to describe
+
+836
+00:37:42,823 --> 00:37:44,069
+what it should do.
+
+837
+00:37:44,350 --> 00:37:47,003
+Then, we can choose when it should trigger here,
+
+838
+00:37:47,003 --> 00:37:49,939
+and we can also customize the trigger time ourselves.
+
+839
+00:37:50,380 --> 00:37:52,647
+Then, you can select the execution model
+
+840
+00:37:52,647 --> 00:37:54,275
+and thinking strength here,
+
+841
+00:37:54,275 --> 00:37:56,019
+and finally, just click 'create'.
+
+842
+00:37:56,190 --> 00:37:59,625
+But still, I'd recommend the second, simpler method:
+
+843
+00:37:59,625 --> 00:38:02,430
+just telling Codex directly in the chat.
+
+844
+00:38:02,710 --> 00:38:06,170
+So let's just tell it, "Help me create an automated task."
+
+845
+00:38:06,490 --> 00:38:07,700
+Every Monday at nine AM,
+
+846
+00:38:07,700 --> 00:38:10,886
+automatically run the 'Trending Project Recommendations' Skill,
+
+847
+00:38:10,886 --> 00:38:13,330
+generate a post, and send it to the group chat.
+
+848
+00:38:13,930 --> 00:38:16,361
+OK, so if we check back under 'Automation,'
+
+849
+00:38:16,361 --> 00:38:18,668
+it's already set up this task for us,
+
+850
+00:38:18,668 --> 00:38:20,850
+and we can change its time anytime.
+
+851
+00:38:21,320 --> 00:38:23,620
+Or, let's say your email, plugins,
+
+852
+00:38:23,620 --> 00:38:26,960
+GitHub, and Feishu are all connected to Codex.
+
+853
+00:38:27,200 --> 00:38:30,344
+Then you can have it summarize your completed calendar
+
+854
+00:38:30,344 --> 00:38:31,800
+meetings daily at six PM.
+
+855
+00:38:32,000 --> 00:38:34,657
+using my GitHub commits and email replies
+
+856
+00:38:34,657 --> 00:38:37,640
+to generate a comprehensive daily work report.
+
+857
+00:38:38,920 --> 00:38:38,928
+Lastly, for phone control, it's simple: just update your phone's ChatGPT and PC's Codex to their latest versions. Then ...
+
+858
+00:38:47,860 --> 00:38:50,145
+Just open ChatGPT on your phone,
+
+859
+00:38:50,145 --> 00:38:51,931
+tap Codex in the sidebar,
+
+860
+00:38:51,931 --> 00:38:53,438
+and it'll prompt you
+
+861
+00:38:53,438 --> 00:38:57,960
+to let this phone control your computer—done just like that.
+
+862
+00:38:58,240 --> 00:38:59,701
+And if you have multiple computers,
+
+863
+00:38:59,701 --> 00:39:01,120
+you can connect those up as well.
+
+864
+00:39:01,240 --> 00:39:03,158
+So that means whether you're out on the street,
+
+865
+00:39:03,158 --> 00:39:05,160
+on the subway, or at a get together with friends,
+
+866
+00:39:05,370 --> 00:39:08,553
+you can assign a task anytime, anywhere from your phone
+
+867
+00:39:08,553 --> 00:39:11,325
+and have Codex get a job done on your computer,
+
+868
+00:39:11,325 --> 00:39:13,482
+making it feel more like a colleague
+
+869
+00:39:13,482 --> 00:39:15,100
+you can work with remotely.
+
+870
+00:39:15,310 --> 00:39:18,858
+This feature is currently available on the free plan,
+
+871
+00:39:18,858 --> 00:39:22,134
+but it mainly connects to Codex on Mac systems.
+
+872
+00:39:22,134 --> 00:39:25,819
+Okay, so that wraps up all of Codex's core capabilities.
+
+873
+00:39:26,020 --> 00:39:26,979
+Let's recap.
+
+874
+00:39:27,280 --> 00:39:30,000
+Codex can manipulate our local files.
+
+875
+00:39:30,230 --> 00:39:33,672
+it can use the terminal command line tools on our computer,
+
+876
+00:39:33,672 --> 00:39:36,122
+it has two ways to build persistent memory,
+
+877
+00:39:36,122 --> 00:39:37,989
+and it can also generate images.
+
+878
+00:39:38,390 --> 00:39:41,157
+Plus, it can handle entire project development
+
+879
+00:39:41,157 --> 00:39:42,510
+through its Plan mode.
+
+880
+00:39:42,870 --> 00:39:44,644
+Plus, it has rich plugins
+
+881
+00:39:44,644 --> 00:39:47,380
+to control your browser and computer,
+
+882
+00:39:47,380 --> 00:39:51,670
+and can turn knowledge and workflows into reusable Skills.
+
+883
+00:39:51,890 --> 00:39:54,793
+It connects to external services via MCP
+
+884
+00:39:54,793 --> 00:39:56,680
+and sets automated tasks.
+
+885
+00:39:56,680 --> 00:39:58,711
+But more than these features,
+
+886
+00:39:58,711 --> 00:40:01,179
+I want you to remember two things.
+
+887
+00:40:01,370 --> 00:40:03,481
+First, there are so many things
+
+888
+00:40:03,481 --> 00:40:05,664
+we can now hand over to Agents.
+
+889
+00:40:05,664 --> 00:40:09,936
+And second, we've moved from the phase of asking AI questions
+
+890
+00:40:09,936 --> 00:40:11,930
+to the phase of managing AI.
+
+891
+00:40:12,160 --> 00:40:14,135
+Because in the past, when we used ChatGPT,
+
+892
+00:40:14,135 --> 00:40:15,172
+we'd have a question,
+
+893
+00:40:15,172 --> 00:40:16,209
+ask it, get an answer,
+
+894
+00:40:16,209 --> 00:40:17,000
+and that was it.
+
+895
+00:40:17,260 --> 00:40:21,320
+Now with agents like Codex, we must act as leaders:
+
+896
+00:40:21,320 --> 00:40:24,430
+preparing its context and environment,
+
+897
+00:40:24,430 --> 00:40:27,120
+and setting its task objectives.
+
+898
+00:40:27,380 --> 00:40:28,689
+then check its plan,
+
+899
+00:40:28,689 --> 00:40:31,860
+supervise its process, and approve its results.
+
+900
+00:40:32,100 --> 00:40:34,719
+The leader is also responsible for
+
+901
+00:40:34,719 --> 00:40:39,034
+turning good methods and workflows into reusable skills
+
+902
+00:40:39,034 --> 00:40:41,500
+and automating repetitive tasks.
+
+903
+00:40:42,510 --> 00:40:45,138
+Alright! Congrats on all your promotions today!
+
+904
+00:40:45,138 --> 00:40:48,350
+Remember to like, favorite, and follow—see you next time!
+

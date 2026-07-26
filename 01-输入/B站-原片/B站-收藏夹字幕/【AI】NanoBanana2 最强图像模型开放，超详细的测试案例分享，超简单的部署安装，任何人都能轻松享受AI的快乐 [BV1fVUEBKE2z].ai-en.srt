@@ -1,0 +1,492 @@
+1
+00:01:22,100 --> 00:01:22,940
+OK, hello everyone.
+
+2
+00:01:22,940 --> 00:01:23,780
+I'm Fish.
+
+3
+00:01:23,780 --> 00:01:25,860
+So this video is mainly to introduce
+
+4
+00:01:25,860 --> 00:01:26,860
+Nanuo Banana Two.
+
+5
+00:01:26,860 --> 00:01:29,540
+I ran the case all day today.
+
+6
+00:01:29,540 --> 00:01:30,660
+The actual effect
+
+7
+00:01:30,660 --> 00:01:32,880
+is still very, very amazing.
+
+8
+00:01:32,880 --> 00:01:36,210
+Almost every picture is very perfect.
+
+9
+00:01:36,210 --> 00:01:38,130
+was generated according to my prompt words
+
+10
+00:01:38,130 --> 00:01:39,250
+The specific effect
+
+11
+00:01:39,250 --> 00:01:42,120
+you can see in the demo at the beginning
+
+12
+00:01:42,120 --> 00:01:43,360
+This time,
+
+13
+00:01:43,360 --> 00:01:46,340
+I have deployed it both in the cloud and locally
+
+14
+00:01:46,340 --> 00:01:48,130
+As for RH,
+
+15
+00:01:48,130 --> 00:01:50,700
+because Mr. Wen has just lowered the price
+
+16
+00:01:50,700 --> 00:01:53,060
+I think it's worth playing.
+
+17
+00:01:53,060 --> 00:01:55,840
+Because now one thousand and two thousand is also twenty-five cents.
+
+18
+00:01:55,840 --> 00:01:57,300
+Four K is a little more expensive,
+
+19
+00:01:57,300 --> 00:01:58,960
+is fifty cents
+
+20
+00:01:58,960 --> 00:02:02,480
+is also my most commonly used cloud platform
+
+21
+00:02:02,480 --> 00:02:05,200
+When you register for the first time, you will get one thousand points.
+
+22
+00:02:05,200 --> 00:02:07,680
+and you'll get one hundred points every day you log in
+
+23
+00:02:07,680 --> 00:02:08,979
+Then for the local version,
+
+24
+00:02:08,979 --> 00:02:13,320
+due to the price of the Zhenzhen Gongfu, is very favorable.
+
+25
+00:02:13,320 --> 00:02:14,530
+and the discount period is still going on,
+
+26
+00:02:14,530 --> 00:02:17,250
+whether it's one K, two K, or four K, the price is zero point two.
+
+27
+00:02:17,250 --> 00:02:19,690
+So it’s also worth using the local version.
+
+28
+00:02:19,690 --> 00:02:21,610
+So after I finish the stream,
+
+29
+00:02:21,610 --> 00:02:22,530
+I will tell you
+
+30
+00:02:22,530 --> 00:02:27,320
+how to install the local API call.
+
+31
+00:02:27,320 --> 00:02:30,280
+So let's start with Text-to-Image.
+
+32
+00:02:30,280 --> 00:02:32,530
+Text-to-Image is actually very simple
+
+33
+00:02:32,530 --> 00:02:35,310
+We just need to write here, and we can write the prompt word we want
+
+34
+00:02:35,310 --> 00:02:37,300
+As for the writing of the prompt word,
+
+35
+00:02:37,300 --> 00:02:39,220
+we can refer to the way we use
+
+36
+00:02:39,220 --> 00:02:40,220
+whether it's Doubao
+
+37
+00:02:40,220 --> 00:02:43,710
+or other intelligent agents to describe it. Just write it.
+
+38
+00:02:43,710 --> 00:02:44,590
+Don't write it yourself.
+
+39
+00:02:44,590 --> 00:02:47,560
+Try to use the intelligent body to complete the things we want.
+
+40
+00:02:47,560 --> 00:02:50,620
+Single Image/Images Generates Images, as for the ratio, it is set here, which is the proportion of the drawing.
+
+41
+00:02:50,620 --> 00:02:52,400
+Then it supports many
+
+42
+00:02:52,400 --> 00:02:55,360
+Then just choose according to your needs.
+
+43
+00:02:55,360 --> 00:02:56,420
+There are no other differences.
+
+44
+00:02:56,420 --> 00:02:57,940
+Then the cloud side
+
+45
+00:02:57,940 --> 00:02:59,640
+I choose two K for everyone.
+
+46
+00:02:59,640 --> 00:03:01,040
+because four K is more expensive.
+
+47
+00:03:01,040 --> 00:03:04,400
+The quality of two K is actually enough for me
+
+48
+00:03:04,720 --> 00:03:06,360
+And here is the master switch.
+
+49
+00:03:06,360 --> 00:03:08,770
+For single image,
+
+50
+00:03:08,770 --> 00:03:10,430
+Well, it's actually with Text-to-Image.
+
+51
+00:03:10,430 --> 00:03:11,910
+there is no difference.
+
+52
+00:03:11,910 --> 00:03:13,620
+It's just a matter of accessing the image.
+
+53
+00:03:13,620 --> 00:03:16,020
+For single image, it's just that you need to change
+
+54
+00:03:16,020 --> 00:03:16,820
+what you want to change.
+
+55
+00:03:16,820 --> 00:03:20,040
+Or is it a way of writing a prompt word?
+
+56
+00:03:20,040 --> 00:03:22,200
+For dual, triple, and quadruple images,
+
+57
+00:03:22,200 --> 00:03:23,780
+In general,
+
+58
+00:03:23,780 --> 00:03:25,960
+is exactly the same as the previous gameplay
+
+59
+00:03:25,960 --> 00:03:27,520
+but the process is simpler
+
+60
+00:03:27,520 --> 00:03:29,100
+The effects are even better.
+
+61
+00:03:29,100 --> 00:03:31,060
+The most important thing is the prompt word
+
+62
+00:03:31,060 --> 00:03:32,620
+So what do you want to achieve
+
+63
+00:03:32,620 --> 00:03:35,440
+you still need to describe it through an agent
+
+64
+00:03:35,440 --> 00:03:37,140
+We will try to make a prompt word template
+
+65
+00:03:37,140 --> 00:03:39,700
+The prompt template will, finally I will tell you
+
+66
+00:03:39,700 --> 00:03:41,160
+I will put it in my cloud drive.
+
+67
+00:03:41,160 --> 00:03:42,520
+In my cloud drive,
+
+68
+00:03:42,520 --> 00:03:44,460
+I have sorted out eight types of templates.
+
+69
+00:03:44,460 --> 00:03:46,000
+You can also refer to it.
+
+70
+00:03:46,000 --> 00:03:48,509
+Then according to the style of the template.
+
+71
+00:03:48,509 --> 00:03:51,969
+to let the agent generate more different types of templates.
+
+72
+00:03:51,969 --> 00:03:52,429
+Okay.
+
+73
+00:03:52,429 --> 00:03:55,350
+You just need to tell it.
+
+74
+00:03:55,350 --> 00:03:57,590
+There's not much to say about the flow.
+
+75
+00:03:57,590 --> 00:03:59,750
+Because this is really the simplest usage.
+
+76
+00:03:59,750 --> 00:04:01,790
+Because as long as you call the API,
+
+77
+00:04:01,790 --> 00:04:03,450
+all the processes become very simple.
+
+78
+00:04:03,450 --> 00:04:06,660
+So I mainly want to tell you
+
+79
+00:04:06,660 --> 00:04:07,860
+how to call the local one.
+
+80
+00:04:07,860 --> 00:04:09,560
+Because the local price is really very good.
+
+81
+00:04:09,560 --> 00:04:13,040
+whether it's four K, two K, or one K, it's all zero point two.
+
+82
+00:04:13,560 --> 00:04:15,640
+First of all, we need to first
+
+83
+00:04:15,640 --> 00:04:17,600
+download this plugin.
+
+84
+00:04:17,600 --> 00:04:21,160
+
+
+85
+00:04:21,160 --> 00:04:26,310
+use the advanced options of QiuYe.
+
+86
+00:04:26,310 --> 00:04:27,610
+Install the new extension in Version Management.
+
+87
+00:04:27,610 --> 00:04:29,390
+and then paste it here.
+
+88
+00:04:29,390 --> 00:04:31,070
+Well, this is still very simple.
+
+89
+00:04:31,070 --> 00:04:31,630
+Because I took a look
+
+90
+00:04:31,630 --> 00:04:35,100
+there is almost no conflict with the environment.
+
+91
+00:04:35,330 --> 00:04:36,690
+After installation,
+
+92
+00:04:36,690 --> 00:04:38,890
+you just need to open my stream.
+
+93
+00:04:38,890 --> 00:04:40,270
+and you can use it normally.
+
+94
+00:04:40,270 --> 00:04:43,450
+The main thing is the registration for the Zhenzhen AI workshop.
+
+95
+00:04:43,450 --> 00:04:45,400
+After you register for the AI Workshop,
+
+96
+00:04:45,400 --> 00:04:46,880
+After you finish registering your account,
+
+97
+00:04:46,880 --> 00:04:48,240
+you can enter the token section.
+
+98
+00:04:48,240 --> 00:04:50,640
+If you register for the first time,
+
+99
+00:04:50,640 --> 00:04:51,840
+you will get zero point two yuan.
+
+100
+00:04:51,840 --> 00:04:54,620
+Then you need to recharge first.
+
+101
+00:04:54,620 --> 00:04:56,680
+You need to recharge first
+
+102
+00:04:56,680 --> 00:05:00,800
+Then add the token here.
+
+103
+00:05:00,800 --> 00:05:02,340
+Just enter any name here
+
+104
+00:05:02,340 --> 00:05:03,840
+and submit it.
+
+105
+00:05:03,840 --> 00:05:07,290
+
+
+106
+00:05:07,290 --> 00:05:08,090
+
+
+107
+00:05:08,090 --> 00:05:09,870
+we just need to fill in here,
+
+108
+00:05:09,870 --> 00:05:12,159
+
+
+109
+00:05:12,159 --> 00:05:14,019
+It's very simple to use.
+
+110
+00:05:14,019 --> 00:05:16,039
+So how to use the specific test?
+
+111
+00:05:16,039 --> 00:05:18,190
+You can do it according to your own ideas
+
+112
+00:05:18,190 --> 00:05:20,710
+As for the Netdisk, it's a workflow.
+
+113
+00:05:20,710 --> 00:05:22,990
+It's a prompt template as I just told you.
+
+114
+00:05:22,990 --> 00:05:25,070
+And the specific download address
+
+115
+00:05:25,070 --> 00:05:28,460
+you can check my top comment later, that's enough.
+
+116
+00:05:28,460 --> 00:05:30,100
+Okay, that's all for this video.
+
+117
+00:05:30,100 --> 00:05:32,380
+I think Nana Banana is worth playing for everyone.
+
+118
+00:05:32,380 --> 00:05:34,680
+Because the current price is not high.
+
+119
+00:05:34,960 --> 00:05:37,339
+Whether from a commercial perspective
+
+120
+00:05:37,339 --> 00:05:39,499
+or from a usage perspective,
+
+121
+00:05:39,499 --> 00:05:42,859
+it's really much better than all the models we've played before, it's much better
+
+122
+00:05:42,859 --> 00:05:44,330
+much much better
+
+123
+00:05:44,330 --> 00:05:45,660
+That's all for this video.
+

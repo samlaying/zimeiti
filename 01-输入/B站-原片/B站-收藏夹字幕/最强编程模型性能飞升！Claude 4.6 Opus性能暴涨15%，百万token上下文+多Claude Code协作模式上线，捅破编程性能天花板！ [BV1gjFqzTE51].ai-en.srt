@@ -1,0 +1,544 @@
+1
+00:00:00,080 --> 00:00:02,860
+After a period of deliberate leaks
+
+2
+00:00:02,860 --> 00:00:03,880
+On February 5th local time
+
+3
+00:00:03,880 --> 00:00:06,760
+Club's latest flagship model, Cloud4.6
+
+4
+00:00:06,760 --> 00:00:08,440
+OPPO model takes the lead
+
+5
+00:00:08,440 --> 00:00:11,040
+As the current strongest programming and agent model
+
+6
+00:00:11,040 --> 00:00:13,300
+Each upgrade of the Cloud Open series models
+
+7
+00:00:13,300 --> 00:00:15,380
+represents the entire field of large models
+
+8
+00:00:15,380 --> 00:00:17,540
+has once again pushed the limits of its capabilities
+
+9
+00:00:17,540 --> 00:00:20,340
+This video will take you 5 minutes to quickly understand Cloud4.6
+
+10
+00:00:20,340 --> 00:00:22,480
+complete feature set of the OPPOS model
+
+11
+00:00:22,480 --> 00:00:23,980
+First, in terms of performance
+
+12
+00:00:23,980 --> 00:00:25,420
+Compared to the previous generation model
+
+13
+00:00:25,420 --> 00:00:26,680
+the all-new cloud4.6
+
+14
+00:00:26,680 --> 00:00:29,260
+The OPPO model supports agentic search for work
+
+15
+00:00:29,260 --> 00:00:31,880
+AGENTIC programming and complex problem reasoning
+
+16
+00:00:31,880 --> 00:00:33,780
+Overall performance surged by 15%
+
+17
+00:00:33,780 --> 00:00:36,900
+fully surpassing GEMINI3.0pro and GP5.2 models
+
+18
+00:00:36,900 --> 00:00:39,400
+According to more authoritative evaluation rankings,
+
+19
+00:00:39,400 --> 00:00:40,180
+Cloud4.6
+
+20
+00:00:40,180 --> 00:00:44,320
+OPPO, except in visual reasoning and solving doctoral and research problems
+
+21
+00:00:44,320 --> 00:00:46,620
+scores slightly lower than the GPT5.2 model
+
+22
+00:00:46,620 --> 00:00:48,500
+other aspects such as programming performance
+
+23
+00:00:48,500 --> 00:00:50,080
+Computer use true use
+
+24
+00:00:50,080 --> 00:00:50,780
+tool invocation
+
+25
+00:00:50,780 --> 00:00:51,740
+Terminal coding
+
+26
+00:00:51,740 --> 00:00:52,680
+command line programming
+
+27
+00:00:52,680 --> 00:00:53,440
+financial analysis
+
+28
+00:00:53,440 --> 00:00:55,320
+office software operation capabilities, etc.
+
+29
+00:00:55,320 --> 00:00:57,760
+significantly outperforms other models in terms of context
+
+30
+00:00:57,760 --> 00:01:00,640
+Cloud 4.6 Opus has reached a context length of 1,000,000 tokens
+
+31
+00:01:00,640 --> 00:01:03,820
+This is also the first flagship Opus model to achieve a context length of one million tokens.
+
+32
+00:01:03,820 --> 00:01:06,420
+Meanwhile, the model's maximum output has also reached 128K tokens.
+
+33
+00:01:06,420 --> 00:01:07,300
+K tokens
+
+34
+00:01:07,300 --> 00:01:07,940
+In addition
+
+35
+00:01:07,940 --> 00:01:11,200
+The programming performance of the Cloud4.6 Opus model has once again soared
+
+36
+00:01:11,200 --> 00:01:13,540
+For regular small to medium-sized programming tasks
+
+37
+00:01:13,540 --> 00:01:15,760
+cloud code is indeed the undisputed king
+
+38
+00:01:15,760 --> 00:01:17,580
+However, for large-scale development tasks
+
+39
+00:01:17,580 --> 00:01:21,200
+Currently, Cloud Code still faces the practical issue of context decay
+
+40
+00:01:21,200 --> 00:01:23,780
+that is, cloud code will experience performance degradation as the context increases
+
+41
+00:01:23,780 --> 00:01:24,900
+performance continuously declines
+
+42
+00:01:24,900 --> 00:01:26,400
+In order to address this issue,
+
+43
+00:01:26,400 --> 00:01:27,040
+Cloud4.6
+
+44
+00:01:27,040 --> 00:01:27,520
+Oppo s
+
+45
+00:01:27,520 --> 00:01:31,380
+
+
+46
+00:01:31,380 --> 00:01:35,020
+
+
+47
+00:01:35,020 --> 00:01:38,230
+The performance improvement of the Class4.6Opus model is remarkably significant
+
+48
+00:01:38,230 --> 00:01:38,930
+At the same time
+
+49
+00:01:38,930 --> 00:01:42,220
+The accompanying Cloud Code programming tool has also undergone a significant upgrade
+
+50
+00:01:42,220 --> 00:01:44,820
+on one hand, the adaptive thinking mode has been introduced
+
+51
+00:01:44,820 --> 00:01:47,060
+which means users no longer need to manually select
+
+52
+00:01:47,060 --> 00:01:48,320
+reasoning or conversational model
+
+53
+00:01:48,320 --> 00:01:52,220
+Cardcode will flexibly select different modes based on the actual task.
+
+54
+00:01:52,220 --> 00:01:55,060
+It will also allow users to set the effort parameter
+
+55
+00:01:55,060 --> 00:01:57,280
+as the token budget for the current development project
+
+56
+00:01:57,280 --> 00:01:59,420
+and optimized the context compression mechanism
+
+57
+00:01:59,420 --> 00:02:01,920
+while ensuring infinite conversational context
+
+58
+00:02:01,920 --> 00:02:04,050
+minimize the loss of key information
+
+59
+00:02:04,050 --> 00:02:06,650
+Of course, if these can be considered routine upgrades
+
+60
+00:02:06,650 --> 00:02:07,910
+then the following upgrade
+
+61
+00:02:07,910 --> 00:02:09,650
+the grand launch of agent teams
+
+62
+00:02:09,650 --> 00:02:11,310
+can be considered a game-changer
+
+63
+00:02:11,310 --> 00:02:14,790
+The so-called Agent Teams refers to the ability to simultaneously activate multiple Cloud Code instances
+
+64
+00:02:14,790 --> 00:02:16,430
+collaboratively complete R&D tasks
+
+65
+00:02:16,430 --> 00:02:17,150
+in other words
+
+66
+00:02:17,150 --> 00:02:20,170
+that is, cloud code has officially upgraded to a multi-agent architecture
+
+67
+00:02:20,170 --> 00:02:23,130
+A single Cloud Code already boasts impressive programming performance.
+
+68
+00:02:23,130 --> 00:02:25,990
+What kind of sparks will a group of Cloud Code create?
+
+69
+00:02:25,990 --> 00:02:26,990
+According to official introduction
+
+70
+00:02:26,990 --> 00:02:30,070
+Developers can engage multiple cloud codes in different modules of the same project
+
+71
+00:02:30,070 --> 00:02:31,540
+develop functional modules
+
+72
+00:02:31,540 --> 00:02:34,380
+can also compete to develop the same module content
+
+73
+00:02:34,380 --> 00:02:35,600
+and select the best one
+
+74
+00:02:35,600 --> 00:02:38,880
+They can also review each other's code deliverables
+
+75
+00:02:38,880 --> 00:02:40,520
+rapidly improve project code quality
+
+76
+00:02:40,520 --> 00:02:41,440
+
+
+77
+00:02:41,440 --> 00:02:42,880
+the Agent Teams collaboration model
+
+78
+00:02:42,880 --> 00:02:45,360
+This has been used internally within Cloud for a long time
+
+79
+00:02:45,360 --> 00:02:47,800
+and has been proven as an efficient development model
+
+80
+00:02:47,800 --> 00:02:49,080
+However, it should be noted that
+
+81
+00:02:49,080 --> 00:02:50,500
+more cloud code parallelism
+
+82
+00:02:50,500 --> 00:02:53,120
+which means it will consume a significantly larger amount of tokens
+
+83
+00:02:53,120 --> 00:02:55,480
+These require developers to make their own trade-offs
+
+84
+00:02:55,480 --> 00:02:58,160
+Speaking of the price, what's quite良心 is the cloud4.6
+
+85
+00:02:58,160 --> 00:03:00,380
+OPPO's new flagship model offers more for the same price
+
+86
+00:03:00,380 --> 00:03:01,800
+and the previous generation Cloud4.5
+
+87
+00:03:01,800 --> 00:03:03,560
+The OPPOS model maintains the same price
+
+88
+00:03:03,560 --> 00:03:06,020
+both priced at five dollars per million tokens for input and
+
+89
+00:03:06,020 --> 00:03:07,880
+$25 per million tokens for output
+
+90
+00:03:07,880 --> 00:03:10,300
+Of course, the portion exceeding 200K tokens
+
+91
+00:03:10,300 --> 00:03:11,740
+the price will be slightly higher
+
+92
+00:03:11,740 --> 00:03:12,440
+Of course
+
+93
+00:03:12,440 --> 00:03:14,780
+Recently, the application of cloud has expanded from AI programming
+
+94
+00:03:14,780 --> 00:03:16,800
+gradually expanding to daily office work
+
+95
+00:03:16,800 --> 00:03:17,620
+financial analysis
+
+96
+00:03:17,620 --> 00:03:19,520
+legal contract review and other fields
+
+97
+00:03:19,520 --> 00:03:22,020
+and officially launched COWORK in January this year
+
+98
+00:03:22,020 --> 00:03:24,320
+a versatile AI office agent
+
+99
+00:03:24,320 --> 00:03:26,760
+As AI-powered office solutions sweep through Wall Street
+
+100
+00:03:26,760 --> 00:03:29,590
+the market value of SARS Software Company suffered a heavy blow
+
+101
+00:03:29,590 --> 00:03:31,390
+even countless legal consulting firms
+
+102
+00:03:31,390 --> 00:03:34,070
+because OPPO released a product called Legal
+
+103
+00:03:34,070 --> 00:03:36,830
+legal consulting plugin operating within COWORK
+
+104
+00:03:36,830 --> 00:03:38,520
+forcing stock prices to plummet
+
+105
+00:03:38,520 --> 00:03:40,900
+faced with the helpless situation of traditional enterprises
+
+106
+00:03:40,900 --> 00:03:44,300
+The emerging AI tech giant Ansir PK plans to press the advantage.
+
+107
+00:03:44,300 --> 00:03:45,820
+this pro4.6opus
+
+108
+00:03:45,820 --> 00:03:46,340
+the new model
+
+109
+00:03:46,340 --> 00:03:50,620
+has specifically enhanced its performance in daily office tasks
+
+110
+00:03:50,620 --> 00:03:53,060
+including the use of Word, PPT, Excel, and more
+
+111
+00:03:53,060 --> 00:03:54,560
+and enhanced its performance in financial analysis
+
+112
+00:03:54,560 --> 00:03:56,240
+performance in legal consulting
+
+113
+00:03:56,240 --> 00:03:58,220
+Believe that in the general office domain
+
+114
+00:03:58,220 --> 00:04:00,260
+powered by Cloud4.6 Opus
+
+115
+00:04:00,260 --> 00:04:03,500
+The Wall Street storm stirred up by call work will intensify further
+
+116
+00:04:03,500 --> 00:04:06,100
+The new Cross6 OPO model is now available upon release
+
+117
+00:04:06,100 --> 00:04:08,980
+It is now fully available on the official website, Cross Code API, and other platforms.
+
+118
+00:04:08,980 --> 00:04:11,140
+Interested students can now give it a try promptly.
+
+119
+00:04:11,140 --> 00:04:14,460
+Next, I will focus on testing the programming performance of Cloud 4.6 OPPO.
+
+120
+00:04:14,460 --> 00:04:16,240
+as well as the development efficiency of Agent Teams
+
+121
+00:04:16,240 --> 00:04:17,990
+Also, we welcome everyone to continue to Follow.
+
+122
+00:04:17,990 --> 00:04:18,470
+Of course
+
+123
+00:04:18,470 --> 00:04:19,050
+According to leaks
+
+124
+00:04:19,050 --> 00:04:22,550
+This time, ANTHROPIC will release not only the flagship-performance Cloud 4.6
+
+125
+00:04:22,550 --> 00:04:23,680
+opus model
+
+126
+00:04:23,680 --> 00:04:25,640
+will also release at half the price
+
+127
+00:04:25,640 --> 00:04:26,520
+performance skyrocketed
+
+128
+00:04:26,520 --> 00:04:29,240
+the highly cost-effective cloud5sit model
+
+129
+00:04:29,240 --> 00:04:29,900
+It must be said that
+
+130
+00:04:29,900 --> 00:04:30,920
+At the beginning of 2026
+
+131
+00:04:30,920 --> 00:04:32,280
+can clearly feel
+
+132
+00:04:32,280 --> 00:04:34,520
+The competition in large model technology has reached a fever pitch.
+
+133
+00:04:34,520 --> 00:04:35,880
+I will continue to bring you
+
+134
+00:04:35,880 --> 00:04:38,540
+the most cutting-edge and practical technical interpretations and tutorials
+
+135
+00:04:38,540 --> 00:04:40,420
+Thank you for your Follow and Triple Combo support
+
+136
+00:04:40,420 --> 00:04:42,200
+See you in the next video
+

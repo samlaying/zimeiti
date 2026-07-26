@@ -1,0 +1,772 @@
+1
+00:00:00,040 --> 00:00:02,171
+In the last video, many asked for OpenClaw.
+
+2
+00:00:02,171 --> 00:00:04,759
+Well, since I'm such a fan-pleaser, I'll add one more.
+
+3
+00:00:04,940 --> 00:00:07,620
+there are already many guides online for setting up OpenClaw
+
+4
+00:00:07,740 --> 00:00:10,830
+Today I’ll show you something new—let’s see what it does
+
+5
+00:00:10,830 --> 00:00:11,824
+behind the scenes
+
+6
+00:00:11,824 --> 00:00:13,260
+once it gets your message.
+
+7
+00:00:13,470 --> 00:00:14,285
+But before that,
+
+8
+00:00:14,285 --> 00:00:17,440
+let me briefly share my setup method—just skim through it,
+
+9
+00:00:17,440 --> 00:00:19,670
+since I think it'll fade out soon anyway.
+
+10
+00:00:19,750 --> 00:00:21,836
+OpenClaw is much like regular Agents
+
+11
+00:00:21,836 --> 00:00:23,922
+in essence; it can be deployed locally,
+
+12
+00:00:23,922 --> 00:00:25,840
+say on a Mac, or on a cloud server
+
+13
+00:00:26,120 --> 00:00:28,564
+the key difference is it can link to social media,
+
+14
+00:00:28,564 --> 00:00:30,760
+and tasks are triggered via posted messages.
+
+15
+00:00:30,980 --> 00:00:34,900
+My setup: Tencent Cloud Lite VM + OpenRouter, LLM + Feishu.
+
+16
+00:00:35,020 --> 00:00:36,560
+Why not use all one brand's tools?
+
+17
+00:00:36,560 --> 00:00:38,660
+Then no one would think I'm just pushing ads
+
+18
+00:00:38,660 --> 00:00:40,126
+and these three are indeed the tools
+
+19
+00:00:40,126 --> 00:00:41,879
+I use most often—hope the client sees this
+
+20
+00:00:41,879 --> 00:00:42,980
+and sends funds right away.
+
+21
+00:00:43,080 --> 00:00:44,249
+The setup is quite simple.
+
+22
+00:00:44,249 --> 00:00:46,237
+Just buy a Tencent Cloud Lighthouse server
+
+23
+00:00:46,237 --> 00:00:48,320
+and set up the LLM APIKEY in App Management.
+
+24
+00:00:48,320 --> 00:00:50,277
+create a bot in the Feishu Open Platform,
+
+25
+00:00:50,277 --> 00:00:52,920
+and enable the long-connection positioning mode there
+
+26
+00:00:52,920 --> 00:00:54,688
+go back and fill in Feishu bot's APP ID
+
+27
+00:00:54,688 --> 00:00:56,320
+and secret key in the channel setup
+
+28
+00:00:56,320 --> 00:00:57,938
+then you can send messages via Feishu
+
+29
+00:00:57,938 --> 00:01:00,520
+to trigger OpenClaw to run your commands in the background
+
+30
+00:01:01,390 --> 00:01:03,930
+Let's first look at this message—once sent via Feishu,
+
+31
+00:01:03,930 --> 00:01:05,895
+it was received by the OpenClaw service.
+
+32
+00:01:05,895 --> 00:01:08,099
+The most important part here is the 'role' field.
+
+33
+00:01:08,380 --> 00:01:09,384
+the 'user' field holds
+
+34
+00:01:09,384 --> 00:01:11,066
+what we say to the LLM, 'assistant'
+
+35
+00:01:11,066 --> 00:01:12,850
+is the LLM itself and its responses,
+
+36
+00:01:12,850 --> 00:01:15,238
+while 'toolResult' is the output from the Agent's '
+
+37
+00:01:15,238 --> 00:01:17,220
+'brushing' tool—also directed at the LLM.
+
+38
+00:01:17,340 --> 00:01:20,419
+Now let's focus on how they communicated—first, the 'user' part,
+
+39
+00:01:20,419 --> 00:01:22,780
+which is my question: 'How much RAM do you have?'
+
+40
+00:01:23,060 --> 00:01:24,755
+then the LLM provided its response,
+
+41
+00:01:24,755 --> 00:01:26,849
+addressing the query from multiple angles,
+
+42
+00:01:26,849 --> 00:01:27,860
+with the third point
+
+43
+00:01:27,860 --> 00:01:30,340
+clarifying that I meant system RAM on the server.
+
+44
+00:01:30,580 --> 00:01:32,821
+Then note the toolCall response below,
+
+45
+00:01:32,821 --> 00:01:34,112
+which tells the Agent
+
+46
+00:01:34,112 --> 00:01:36,820
+to assist with a tool call—do not reply yet.
+
+47
+00:01:36,820 --> 00:01:39,640
+the format is simple: method name and arguments
+
+48
+00:01:39,800 --> 00:01:42,293
+this 'exec' is a built-in tool in Open Cloud,
+
+49
+00:01:42,293 --> 00:01:43,955
+used to run shell commands.
+
+50
+00:01:43,955 --> 00:01:47,339
+The specific command is 'free -h', which checks system memory.
+
+51
+00:01:47,670 --> 00:01:49,790
+and that back-and-forth chat is now complete.
+
+52
+00:01:49,790 --> 00:01:54,291
+here, we can see that this round used 14,032 input Tokens
+
+53
+00:01:54,291 --> 00:01:55,990
+and 294 output Tokens.
+
+54
+00:01:56,080 --> 00:01:58,319
+and since it was first, no cache was used at all here
+
+55
+00:01:58,320 --> 00:02:00,413
+then we can switch to OpenRouter's backend
+
+56
+00:02:00,413 --> 00:02:02,656
+and see that the TOKEN counts here match up.
+
+57
+00:02:02,656 --> 00:02:04,799
+This round of chat cost us roughly 0.1 dollars.
+
+58
+00:02:05,050 --> 00:02:06,351
+but it's not done yet —
+
+59
+00:02:06,351 --> 00:02:08,184
+after the Agent ran the command,
+
+60
+00:02:08,184 --> 00:02:10,253
+it sent another message to the LLM,
+
+61
+00:02:10,253 --> 00:02:13,449
+namely the toolResult, which is the output from free-h
+
+62
+00:02:13,650 --> 00:02:15,314
+then the LLM received this result
+
+63
+00:02:15,314 --> 00:02:17,180
+and chose not to call any more tools,
+
+64
+00:02:17,180 --> 00:02:18,643
+delivering a final response —
+
+65
+00:02:18,643 --> 00:02:20,559
+this was the message I got on my phone.
+
+66
+00:02:20,720 --> 00:02:23,496
+Below, we also list the Token cost for this conversation,
+
+67
+00:02:23,496 --> 00:02:25,920
+and the two rounds on OpenRouter look like this.
+
+68
+00:02:26,090 --> 00:02:28,667
+But here's a question—why did just asking 'how much RAM?'
+
+69
+00:02:28,667 --> 00:02:30,290
+result in tens of thousand tokens?
+
+70
+00:02:30,610 --> 00:02:33,407
+because OpenClaw has many system prompts that are injected
+
+71
+00:02:33,407 --> 00:02:35,240
+right at the first turn of a new chat
+
+72
+00:02:35,240 --> 00:02:38,037
+we can find these files on the machine—like this Agent,
+
+73
+00:02:38,037 --> 00:02:40,680
+and inside the .md file there are loads of commands
+
+74
+00:02:40,880 --> 00:02:42,210
+This is the translation.
+
+75
+00:02:42,210 --> 00:02:43,596
+You can read it carefully
+
+76
+00:02:43,596 --> 00:02:44,943
+and see — an Agent's power
+
+77
+00:02:44,943 --> 00:02:48,199
+largely stems from stacking countless prompt instructions.
+
+78
+00:02:48,360 --> 00:02:50,788
+even the file-read and file-write actions here
+
+79
+00:02:50,788 --> 00:02:53,480
+are injected directly using plain, natural language.
+
+80
+00:02:53,870 --> 00:02:56,066
+Now let's try something slightly more complex —
+
+81
+00:02:56,066 --> 00:02:58,549
+compile today's AI news into a PDF and send it to me.
+
+82
+00:02:58,550 --> 00:03:00,630
+then let's see how it does this task in the backend system
+
+83
+00:03:00,740 --> 00:03:02,428
+This time I used Minimax 2.1,
+
+84
+00:03:02,428 --> 00:03:04,767
+since it shows the thinking process —
+
+85
+00:03:04,767 --> 00:03:08,339
+the initial prompt was still the one I posted on Feishu.
+
+86
+00:03:08,380 --> 00:03:11,277
+then the assistant and tool calls worked together,
+
+87
+00:03:11,277 --> 00:03:12,473
+looping with the LLM
+
+88
+00:03:12,473 --> 00:03:14,353
+and repeatedly asking the Agent
+
+89
+00:03:14,353 --> 00:03:16,660
+to use tools—over 70 exchanges in total
+
+90
+00:03:16,860 --> 00:03:18,292
+if we look at all the 'thinking' fields,
+
+91
+00:03:18,292 --> 00:03:20,500
+we can tell roughly what happened throughout the process.
+
+92
+00:03:20,750 --> 00:03:23,625
+First, a blunt web_search was done, straight to Toutiao,
+
+93
+00:03:23,625 --> 00:03:26,230
+and then it tried to convert the content to PDF.
+
+94
+00:03:26,430 --> 00:03:28,104
+then, during the PDF conversion,
+
+95
+00:03:28,104 --> 00:03:31,341
+he realized he needed to turn this markdown file into PDF,
+
+96
+00:03:31,341 --> 00:03:34,300
+and create a new one in his language as time went on.
+
+97
+00:03:34,340 --> 00:03:35,900
+then the styled files.
+
+98
+00:03:39,170 --> 00:03:41,436
+I tried my hardest and finally messed it up,
+
+99
+00:03:41,436 --> 00:03:43,290
+but Feishu sending caused new issues
+
+100
+00:03:43,480 --> 00:03:45,818
+No worries, let's just head to the service zone.
+
+101
+00:03:45,818 --> 00:03:47,310
+The Markdown file looks decent;
+
+102
+00:03:47,310 --> 00:03:49,599
+then we'll download this PDF and check it out.
+
+103
+00:03:51,630 --> 00:03:53,011
+Let's try triggering OpenClaw
+
+104
+00:03:53,011 --> 00:03:55,589
+now; another unique feature is setting up scheduled tasks.
+
+105
+00:03:55,910 --> 00:03:57,744
+for instance, monitor someone's Twitter —
+
+106
+00:03:57,744 --> 00:03:59,389
+notify me the moment there's a post
+
+107
+00:03:59,590 --> 00:04:02,242
+In the backend, we just added a cron config file —
+
+108
+00:04:02,242 --> 00:04:05,003
+each time, it sends these prompt words to the Agent
+
+109
+00:04:05,003 --> 00:04:06,274
+at set times and dates.
+
+110
+00:04:06,274 --> 00:04:07,269
+No magic involved.
+
+111
+00:04:07,560 --> 00:04:08,869
+Let's check the status file
+
+112
+00:04:08,869 --> 00:04:11,440
+it generated—it's used to compare two tweet versions
+
+113
+00:04:11,720 --> 00:04:14,275
+Just open one file—oh, the timestamp is way off;
+
+114
+00:04:14,275 --> 00:04:16,559
+no need to check the rest of the work then.
+
+115
+00:04:16,870 --> 00:04:18,692
+Let's check his startup logs again —
+
+116
+00:04:18,692 --> 00:04:20,721
+still like a determined, stubborn intern,
+
+117
+00:04:20,721 --> 00:04:22,389
+pushing hard to finish the task
+
+118
+00:04:22,590 --> 00:04:23,923
+would mangle the whole system
+
+119
+00:04:23,923 --> 00:04:25,670
+just to finish this task at all costs
+
+120
+00:04:25,910 --> 00:04:27,081
+again, the APIs failed,
+
+121
+00:04:27,081 --> 00:04:29,005
+return values were off, and install
+
+122
+00:04:29,005 --> 00:04:31,100
+commands kept erroring out and so on
+
+123
+00:04:31,180 --> 00:04:33,983
+I would have preferred he told me right at first, 'Hey,
+
+124
+00:04:33,983 --> 00:04:36,140
+there might be a better way to do this'
+
+125
+00:04:36,320 --> 00:04:38,960
+like using an RSS dot APP kind of tool
+
+126
+00:04:39,160 --> 00:04:41,131
+but it's paid—so if it does cost money,
+
+127
+00:04:41,131 --> 00:04:42,324
+let's discuss it first,
+
+128
+00:04:42,324 --> 00:04:44,485
+rather than stay silent when issues arise
+
+129
+00:04:44,485 --> 00:04:45,540
+and just push ahead
+
+130
+00:04:45,580 --> 00:04:48,020
+Do you dread working with folks like that in your job too?
+
+131
+00:04:48,510 --> 00:04:50,559
+How would you describe today's Agents?
+
+132
+00:04:50,559 --> 00:04:53,309
+Let me give you a wild yet vivid example to explain.
+
+133
+00:04:53,390 --> 00:04:53,750
+For instance
+
+134
+00:04:53,750 --> 00:04:55,908
+your boss once asked you what day it is today,
+
+135
+00:04:55,908 --> 00:04:57,539
+and then you treated it as a task
+
+136
+00:04:57,900 --> 00:04:59,067
+I need to check the date,
+
+137
+00:04:59,067 --> 00:05:01,500
+so I pull out my phone and look at the time on it.
+
+138
+00:05:01,930 --> 00:05:04,116
+then you realize your phone is out of power,
+
+139
+00:05:04,116 --> 00:05:04,861
+so you think, 'My
+
+140
+00:05:04,861 --> 00:05:07,296
+phone is dead—I need to find a Power Up charger,'
+
+141
+00:05:07,296 --> 00:05:08,389
+but you can't find one
+
+142
+00:05:08,510 --> 00:05:11,253
+you thought then, I need to buy a Power Up cable,
+
+143
+00:05:11,253 --> 00:05:12,830
+so you headed to the store
+
+144
+00:05:13,240 --> 00:05:15,098
+then you noticed the supermarket was closed,
+
+145
+00:05:15,098 --> 00:05:16,369
+and after thinking it through,
+
+146
+00:05:16,369 --> 00:05:18,080
+you realized you could try another one
+
+147
+00:05:18,640 --> 00:05:20,468
+so you hailed a cab to the other store,
+
+148
+00:05:20,468 --> 00:05:22,200
+and when you stepped out, you sighed
+
+149
+00:05:22,640 --> 00:05:24,123
+my phone was dead, so I couldn't pay,
+
+150
+00:05:24,123 --> 00:05:26,053
+and I had no loose change left—so you figured
+
+151
+00:05:26,053 --> 00:05:27,640
+you needed to get cash from the bank
+
+152
+00:05:28,080 --> 00:05:29,211
+then you went to the bank,
+
+153
+00:05:29,211 --> 00:05:31,520
+and after you drew cash, you found it wasn't enough
+
+154
+00:05:31,920 --> 00:05:32,774
+What could you do?
+
+155
+00:05:32,774 --> 00:05:34,007
+You couldn't leave the cab.
+
+156
+00:05:34,007 --> 00:05:35,879
+At this point, if it were an early Agent,
+
+157
+00:05:35,879 --> 00:05:38,089
+it might have gotten stuck in an endless loop.
+
+158
+00:05:38,330 --> 00:05:40,050
+and the current Agent might be a bit more clever
+
+159
+00:05:40,050 --> 00:05:40,050
+Like,
+
+160
+00:05:40,330 --> 00:05:42,317
+I'll pawn my phone to the driver first,
+
+161
+00:05:42,317 --> 00:05:43,938
+then deal with the rest later.
+
+162
+00:05:43,938 --> 00:05:45,611
+Then you managed to exit the car,
+
+163
+00:05:45,611 --> 00:05:46,567
+went to that store,
+
+164
+00:05:46,567 --> 00:05:48,959
+and bought the Power Up charger successfully.
+
+165
+00:05:49,200 --> 00:05:50,560
+Ah, at this point you find your phone gone
+
+166
+00:05:50,640 --> 00:05:52,520
+wasn't the phone pledged to the driver then?
+
+167
+00:05:52,850 --> 00:05:54,152
+then you realize you need a phone,
+
+168
+00:05:54,152 --> 00:05:55,569
+but you don't have enough in the bank.
+
+169
+00:05:55,690 --> 00:05:57,057
+then at this point you think,
+
+170
+00:05:57,057 --> 00:05:58,962
+well, I guess I have to take out a loan,
+
+171
+00:05:58,962 --> 00:05:59,940
+so you do just that
+
+172
+00:06:00,140 --> 00:06:02,530
+in the end, you spent the whole day on this,
+
+173
+00:06:02,530 --> 00:06:04,351
+then tossed your old phone away,
+
+174
+00:06:04,351 --> 00:06:06,545
+racked up a bunch of loans at the bank,
+
+175
+00:06:06,545 --> 00:06:08,280
+and bought yourself a new one
+
+176
+00:06:08,560 --> 00:06:11,366
+Finally replied to boss: Oh, today is Feb 6th.
+
+177
+00:06:11,366 --> 00:06:13,259
+Then the boss asked you again:
+
+178
+00:06:13,580 --> 00:06:15,087
+I sent you a file yesterday;
+
+179
+00:06:15,087 --> 00:06:16,325
+could you translate it?
+
+180
+00:06:16,325 --> 00:06:18,101
+But the file is on your old phone,
+
+181
+00:06:18,101 --> 00:06:20,148
+and you never migrated those messages.
+
+182
+00:06:20,590 --> 00:06:21,281
+and right then
+
+183
+00:06:21,281 --> 00:06:23,950
+you started thinking, 'I need to get my old phone back'
+
+184
+00:06:24,230 --> 00:06:26,070
+so you called that driver on the phone
+
+185
+00:06:26,230 --> 00:06:27,830
+I won't fabricate the rest now.
+
+186
+00:06:28,030 --> 00:06:29,390
+but you must have noticed the flaw
+
+187
+00:06:29,390 --> 00:06:32,272
+that is, though each step of his reasoning was sound —
+
+188
+00:06:32,272 --> 00:06:34,420
+he'd spot a problem and then solve it
+
+189
+00:06:34,570 --> 00:06:36,631
+if in real life someone actually did this,
+
+190
+00:06:36,631 --> 00:06:38,290
+you'd likely think them a madman
+
+191
+00:06:38,570 --> 00:06:40,042
+and this person would charge you
+
+192
+00:06:40,042 --> 00:06:42,250
+based on how much effort they themselves put in
+
+193
+00:06:42,500 --> 00:06:43,820
+Would you still use such folks?
+

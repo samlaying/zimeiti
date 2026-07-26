@@ -1,0 +1,1912 @@
+1
+00:00:00,000 --> 00:00:00,980
+Let's begin by taking a look
+
+2
+00:00:00,980 --> 00:00:03,460
+Next, let's take a look at this fuzzy query
+
+3
+00:00:03,460 --> 00:00:05,660
+So where did we get to this morning?
+
+4
+00:00:05,660 --> 00:00:07,980
+Look at me, no options yet, let's not write it for now.
+
+5
+00:00:07,980 --> 00:00:09,140
+Look at this effect
+
+6
+00:00:09,140 --> 00:00:10,770
+We've done this in the morning
+
+7
+00:00:10,770 --> 00:00:12,550
+Well, this effect is done
+
+8
+00:00:12,550 --> 00:00:15,170
+Let me open up that drawing tool.
+
+9
+00:00:17,400 --> 00:00:19,500
+We've already done this part in the morning.
+
+10
+00:00:19,500 --> 00:00:20,940
+Next, let's work on this effect
+
+11
+00:00:20,940 --> 00:00:22,120
+It's a fuzzy search
+
+12
+00:00:22,120 --> 00:00:23,080
+We've all done this before
+
+13
+00:00:23,080 --> 00:00:26,930
+See, when I search for AAA, doesn't it show a whole lot of stuff inside?
+
+14
+00:00:26,930 --> 00:00:27,930
+Do you guys remember?
+
+15
+00:00:27,930 --> 00:00:29,490
+What if I change this to an A
+
+16
+00:00:29,490 --> 00:00:30,430
+What if I add another A
+
+17
+00:00:30,430 --> 00:00:32,269
+Oh, it shows some results again
+
+18
+00:00:32,269 --> 00:00:34,949
+So should we bind an input event to the text box
+
+19
+00:00:34,949 --> 00:00:38,609
+Does anyone remember what the event is called?
+
+20
+00:00:38,609 --> 00:00:40,610
+Do you remember the input event?
+
+21
+00:00:40,610 --> 00:00:42,310
+Is it bound to on input
+
+22
+00:00:42,310 --> 00:00:43,350
+Do you remember?
+
+23
+00:00:43,350 --> 00:00:46,230
+whenever the content in the input box changes
+
+24
+00:00:46,230 --> 00:00:48,930
+it will trigger that event
+
+25
+00:00:48,930 --> 00:00:51,430
+Then, we prepare an array in advance
+
+26
+00:00:51,430 --> 00:00:54,310
+then check the array to see which data is suitable
+
+27
+00:00:54,310 --> 00:00:56,030
+Of course, what we're working with now is an array
+
+28
+00:00:56,030 --> 00:00:59,470
+In the future, we'll definitely need to connect to the server and let the server handle the lookup.
+
+29
+00:00:59,470 --> 00:01:01,570
+because our array is hard-coded
+
+30
+00:01:01,570 --> 00:01:02,290
+Alright
+
+31
+00:01:02,290 --> 00:01:03,930
+So let's implement this effect
+
+32
+00:01:03,930 --> 00:01:05,610
+Let's not rush into creating this effect.
+
+33
+00:01:05,610 --> 00:01:06,730
+Start with JS
+
+34
+00:01:06,730 --> 00:01:07,970
+Let's do it later
+
+35
+00:01:07,970 --> 00:01:09,570
+Because we need this box, right?
+
+36
+00:01:09,570 --> 00:01:11,490
+Should the displayed content appear within this box?
+
+37
+00:01:11,490 --> 00:01:14,730
+Shijie JD Super Brand Day
+
+38
+00:01:15,290 --> 00:01:17,130
+A better life starts with Samsung phones
+
+39
+00:01:17,130 --> 00:01:18,450
+In the future, when we use JS
+
+40
+00:01:18,450 --> 00:01:20,370
+This style just doesn't look good
+
+41
+00:01:20,370 --> 00:01:21,800
+How do you check this box?
+
+42
+00:01:21,800 --> 00:01:23,800
+How do you know the style of its box?
+
+43
+00:01:23,800 --> 00:01:25,360
+You finally got the box to appear
+
+44
+00:01:25,360 --> 00:01:25,960
+And then
+
+45
+00:01:25,960 --> 00:01:27,400
+Then I want to click on this thing
+
+46
+00:01:27,400 --> 00:01:29,730
+Look, look, after the box appears
+
+47
+00:01:29,730 --> 00:01:30,990
+After this box appears
+
+48
+00:01:30,990 --> 00:01:32,950
+If the mouse once leaves the input box
+
+49
+00:01:32,950 --> 00:01:33,990
+What does it do
+
+50
+00:01:33,990 --> 00:01:35,410
+It's gone now
+
+51
+00:01:35,410 --> 00:01:38,430
+So this is quite tricky, quite tricky to handle
+
+52
+00:01:38,430 --> 00:01:39,310
+See how I do it
+
+53
+00:01:39,310 --> 00:01:41,449
+Look, I'll click on this input box first
+
+54
+00:01:41,449 --> 00:01:42,189
+Hey
+
+55
+00:01:42,189 --> 00:01:45,689
+The input box is right here, and that dropdown will appear later anyway
+
+56
+00:01:45,689 --> 00:01:48,769
+That box is definitely controlled by JS to show and hide.
+
+57
+00:01:48,769 --> 00:01:49,410
+You know
+
+58
+00:01:49,410 --> 00:01:50,830
+It must be nearby
+
+59
+00:01:50,830 --> 00:01:51,990
+It's right around here.
+
+60
+00:01:51,990 --> 00:01:54,270
+Just keep an eye out near this input box
+
+61
+00:01:54,270 --> 00:01:56,870
+Just watch for a moment to see which one changes color or something like that
+
+62
+00:01:56,870 --> 00:01:57,670
+Take a look
+
+63
+00:01:57,670 --> 00:01:59,300
+I type something
+
+64
+00:01:59,300 --> 00:02:01,870
+Look, I also have something here
+
+65
+00:02:01,870 --> 00:02:03,070
+Look, is this the thing
+
+66
+00:02:03,070 --> 00:02:04,690
+It seems these two have changed a bit
+
+67
+00:02:04,690 --> 00:02:06,190
+one is this
+
+68
+00:02:06,190 --> 00:02:07,270
+Then you just see which one it is
+
+69
+00:02:07,270 --> 00:02:08,110
+It should be the one above
+
+70
+00:02:08,110 --> 00:02:09,210
+Take a look
+
+71
+00:02:09,210 --> 00:02:13,060
+P&G JD Super Brand Day
+
+72
+00:02:13,060 --> 00:02:14,800
+width 488
+
+73
+00:02:14,800 --> 00:02:16,160
+The height is set to auto
+
+74
+00:02:16,160 --> 00:02:18,040
+The height is determined by the content.
+
+75
+00:02:18,040 --> 00:02:20,850
+Then there are borders on the top, bottom, left, and right.
+
+76
+00:02:20,850 --> 00:02:22,690
+then you need to set the positioning
+
+77
+00:02:22,690 --> 00:02:24,250
+That's it.
+
+78
+00:02:24,250 --> 00:02:26,410
+Don't look for it, you won't find this thing
+
+79
+00:02:26,410 --> 00:02:27,980
+You won't see the effect
+
+80
+00:02:27,980 --> 00:02:29,460
+You can only give it a try
+
+81
+00:02:29,460 --> 00:02:30,880
+You deserve the best selections from JingDong
+
+82
+00:02:30,880 --> 00:02:31,760
+That's it
+
+83
+00:02:31,760 --> 00:02:32,880
+Let me write one
+
+84
+00:02:32,880 --> 00:02:35,720
+P&G JD Super Brand Day
+
+85
+00:02:35,720 --> 00:02:37,240
+You see, you've written input before
+
+86
+00:02:37,240 --> 00:02:38,820
+written button
+
+87
+00:02:38,820 --> 00:02:41,180
+Should we write this div again?
+
+88
+00:02:41,180 --> 00:02:42,180
+Let's create a div
+
+89
+00:02:42,180 --> 00:02:43,930
+Let's use a div to do it
+
+90
+00:02:43,930 --> 00:02:45,510
+It's not necessarily about using UL
+
+91
+00:02:45,510 --> 00:02:47,410
+I'll use a div to do it
+
+92
+00:02:47,410 --> 00:02:50,380
+Now, pay attention to this part here
+
+93
+00:02:50,380 --> 00:02:53,940
+There is this in the form, I'll write it at the back.
+
+94
+00:02:53,940 --> 00:02:54,980
+It doesn't matter whether it's before or after
+
+95
+00:02:54,980 --> 00:02:56,440
+Because we'll need to position it later
+
+96
+00:02:56,440 --> 00:02:57,860
+Use absolute positioning.
+
+97
+00:02:57,860 --> 00:02:59,570
+Can you go wherever you want?
+
+98
+00:02:59,570 --> 00:03:04,330
+Then for the class, I'll name this as a dropdown list for search
+
+99
+00:03:04,330 --> 00:03:06,030
+I'll just write search_list
+
+100
+00:03:06,030 --> 00:03:08,209
+This name can be whatever you want
+
+101
+00:03:08,209 --> 00:03:09,969
+If you want it to be the same as his
+
+102
+00:03:09,969 --> 00:03:10,929
+Then make it the same as his
+
+103
+00:03:10,929 --> 00:03:15,070
+Call it searchCTRLC, I'll write it the same way as him.
+
+104
+00:03:15,070 --> 00:03:16,710
+This way it's convenient for you to check it there
+
+105
+00:03:16,710 --> 00:03:19,490
+The search helper is essentially a prompt for searching.
+
+106
+00:03:19,490 --> 00:03:21,660
+Helper, okay
+
+107
+00:03:21,660 --> 00:03:24,180
+You deserve it
+
+108
+00:03:24,180 --> 00:03:25,780
+We didn't look at this
+
+109
+00:03:25,780 --> 00:03:27,880
+P&G JD Super Brand Day
+
+110
+00:03:27,880 --> 00:03:30,200
+then set it up
+
+111
+00:03:31,520 --> 00:03:32,480
+take a look
+
+112
+00:03:32,480 --> 00:03:34,280
+click it
+
+113
+00:03:34,280 --> 00:03:36,870
+Then make the width the same
+
+114
+00:03:36,870 --> 00:03:39,070
+width 488
+
+115
+00:03:39,070 --> 00:03:40,430
+pixel height
+
+116
+00:03:40,430 --> 00:03:41,150
+I don't have
+
+117
+00:03:41,150 --> 00:03:41,950
+Let me give you one first
+
+118
+00:03:41,950 --> 00:03:43,030
+Let's take a look at the effect later
+
+119
+00:03:43,030 --> 00:03:45,900
+I'll also set a background color of 200 pixels
+
+120
+00:03:45,900 --> 00:03:47,100
+sky blue okay
+
+121
+00:03:47,100 --> 00:03:48,000
+Let's see what else
+
+122
+00:03:48,000 --> 00:03:50,340
+There is a one-pixel border on all four sides.
+
+123
+00:03:50,340 --> 00:03:55,000
+Let's take a look at where this border is.
+
+124
+00:03:55,000 --> 00:03:58,730
+A beautiful life begins with Samsung phones
+
+125
+00:03:58,730 --> 00:04:01,210
+That's the border, okay.
+
+126
+00:04:01,210 --> 00:04:03,250
+He should have something else, hmm
+
+127
+00:04:03,250 --> 00:04:04,570
+What does he have?
+
+128
+00:04:04,570 --> 00:04:06,390
+Is there anything else?
+
+129
+00:04:06,390 --> 00:04:07,610
+Take a look
+
+130
+00:04:07,810 --> 00:04:09,670
+You see it's hidden by default, right?
+
+131
+00:04:09,670 --> 00:04:10,990
+Is it hidden by default?
+
+132
+00:04:10,990 --> 00:04:12,790
+unless you use JS
+
+133
+00:04:12,790 --> 00:04:15,410
+as soon as we type something inside with the mouse
+
+134
+00:04:15,410 --> 00:04:17,920
+trigger the JS input event
+
+135
+00:04:17,920 --> 00:04:20,289
+then go ahead and display it okay
+
+136
+00:04:20,289 --> 00:04:21,329
+P&G JD Super Brand Day
+
+137
+00:04:21,329 --> 00:04:22,309
+Let's not hide it for now
+
+138
+00:04:22,309 --> 00:04:24,009
+A beautiful life starts now with Samsung phones
+
+139
+00:04:24,009 --> 00:04:25,690
+Let's talk about positioning later.
+
+140
+00:04:25,690 --> 00:04:27,490
+It also has an overflow hidden
+
+141
+00:04:27,490 --> 00:04:28,290
+hide the overflow part
+
+142
+00:04:28,290 --> 00:04:29,310
+Let's also try the preview
+
+143
+00:04:29,310 --> 00:04:30,010
+also write it down
+
+144
+00:04:30,010 --> 00:04:33,800
+Of course, your items are relatively few here
+
+145
+00:04:33,800 --> 00:04:36,480
+Can't see the overflow R, what else is there?
+
+146
+00:04:36,480 --> 00:04:40,120
+Also, the background color is white.
+
+147
+00:04:40,120 --> 00:04:43,480
+background color f f f what else
+
+148
+00:04:43,480 --> 00:04:45,180
+What is this called again
+
+149
+00:04:45,300 --> 00:04:46,860
+Do you remember the shadow?
+
+150
+00:04:46,860 --> 00:04:49,920
+boss shadow is the horizontal offset distance
+
+151
+00:04:49,920 --> 00:04:51,570
+Move one pixel to the right
+
+152
+00:04:51,570 --> 00:04:54,210
+This is how much it moves vertically down by one pixel
+
+153
+00:04:54,210 --> 00:04:55,610
+What does this one mean?
+
+154
+00:04:55,610 --> 00:04:57,750
+Do you remember the blur value?
+
+155
+00:04:57,750 --> 00:05:00,910
+Then what follows should be the shadow size
+
+156
+00:05:00,910 --> 00:05:02,070
+default omitted
+
+157
+00:05:02,070 --> 00:05:02,750
+No need
+
+158
+00:05:02,750 --> 00:05:04,810
+Then next is the shadow color
+
+159
+00:05:04,810 --> 00:05:06,419
+Is there a shadow?
+
+160
+00:05:06,419 --> 00:05:10,320
+Paste the box-shadow over here
+
+161
+00:05:10,320 --> 00:05:11,360
+Nothing else, right?
+
+162
+00:05:11,360 --> 00:05:13,240
+How about we take a look at the effect first?
+
+163
+00:05:14,740 --> 00:05:15,600
+Indeed
+
+164
+00:05:15,600 --> 00:05:16,900
+Does it come out like this?
+
+165
+00:05:16,900 --> 00:05:17,980
+This part here
+
+166
+00:05:17,980 --> 00:05:19,860
+So do you know why he used positioning?
+
+167
+00:05:19,860 --> 00:05:20,460
+Do you believe
+
+168
+00:05:20,460 --> 00:05:23,490
+He must have positioned it to move down a certain amount, right?
+
+169
+00:05:24,000 --> 00:05:24,880
+so much
+
+170
+00:05:24,880 --> 00:05:26,100
+Do you understand what I mean?
+
+171
+00:05:26,100 --> 00:05:27,520
+Because it's pushing against others
+
+172
+00:05:27,520 --> 00:05:28,650
+inserted above others
+
+173
+00:05:28,650 --> 00:05:30,050
+It should be moved down a bit
+
+174
+00:05:30,050 --> 00:05:33,150
+Look, look, is the positioning 35 units from the top?
+
+175
+00:05:33,150 --> 00:05:34,789
+Let me show you how to set the positioning.
+
+176
+00:05:34,789 --> 00:05:37,869
+Note that it's position absolute
+
+177
+00:05:37,869 --> 00:05:38,629
+it has a starting
+
+178
+00:05:38,629 --> 00:05:40,590
+Absolute, let me see who its parent is
+
+179
+00:05:40,590 --> 00:05:41,550
+This one is already open
+
+180
+00:05:41,550 --> 00:05:42,710
+Then I won't open it
+
+181
+00:05:42,710 --> 00:05:44,350
+Top35
+
+182
+00:05:44,350 --> 00:05:46,910
+Take a look at how it looks like.
+
+183
+00:05:48,280 --> 00:05:50,160
+Can you understand what it means?
+
+184
+00:05:50,160 --> 00:05:52,240
+It was originally aligned to the top here
+
+185
+00:05:52,240 --> 00:05:55,320
+Then it moved down by three songs and reached here, okay
+
+186
+00:05:55,320 --> 00:05:58,259
+It's the same as his, right?
+
+187
+00:05:58,259 --> 00:05:59,219
+Same, right
+
+188
+00:05:59,219 --> 00:06:00,339
+Alright, no problem
+
+189
+00:06:00,339 --> 00:06:02,159
+Then let's remove this height for now.
+
+190
+00:06:02,159 --> 00:06:03,739
+The height is currently hardcoded.
+
+191
+00:06:03,739 --> 00:06:05,440
+To let you see the effect
+
+192
+00:06:05,440 --> 00:06:08,360
+Actually, the height is determined by the content.
+
+193
+00:06:08,360 --> 00:06:12,350
+Also, also, let's hide it first.
+
+194
+00:06:12,350 --> 00:06:14,210
+It is hidden by default
+
+195
+00:06:14,210 --> 00:06:15,230
+When
+
+196
+00:06:15,230 --> 00:06:17,299
+After you enter something in here
+
+197
+00:06:17,299 --> 00:06:20,019
+trigger our JS event
+
+198
+00:06:20,019 --> 00:06:23,959
+Then, if something is indeed found through the search, display it.
+
+199
+00:06:23,959 --> 00:06:26,130
+Okay, alright, got it
+
+200
+00:06:26,130 --> 00:06:27,010
+I've hidden them all.
+
+201
+00:06:27,010 --> 00:06:28,370
+Now it's done
+
+202
+00:06:28,370 --> 00:06:30,130
+The styling is done
+
+203
+00:06:30,130 --> 00:06:33,630
+Now let's write this JS behavior
+
+204
+00:06:33,630 --> 00:06:34,830
+Hey event here
+
+205
+00:06:34,830 --> 00:06:38,350
+Should we bind an event to this input field
+
+206
+00:06:38,350 --> 00:06:40,590
+It's the content change event.
+
+207
+00:06:40,590 --> 00:06:43,010
+input, right?
+
+208
+00:06:43,010 --> 00:06:45,930
+Let's give it a class called 'keyword', CTRLC
+
+209
+00:06:47,090 --> 00:06:49,180
+Pay attention and follow my train of thought
+
+210
+00:06:49,460 --> 00:06:49,900
+Okay
+
+211
+00:06:49,900 --> 00:06:51,040
+What should be written here?
+
+212
+00:06:51,040 --> 00:06:52,820
+What are we going to implement next?
+
+213
+00:06:52,820 --> 00:06:55,590
+This is called fuzzy search
+
+214
+00:06:55,590 --> 00:06:58,150
+Because later there will be a lot of JavaScript code
+
+215
+00:06:58,150 --> 00:07:00,090
+I'll specifically add some markers here
+
+216
+00:07:00,090 --> 00:07:00,790
+Otherwise it's too much
+
+217
+00:07:00,790 --> 00:07:02,340
+You'll have trouble finding it later
+
+218
+00:07:02,340 --> 00:07:05,820
+First, let's get hold of this input box
+
+219
+00:07:05,820 --> 00:07:06,920
+
+
+220
+00:07:06,920 --> 00:07:08,480
+
+
+221
+00:07:08,480 --> 00:07:09,480
+Okay
+
+222
+00:07:09,480 --> 00:07:11,730
+Click on it, um
+
+223
+00:07:11,730 --> 00:07:16,230
+I'll just write it at the back, ah this is getting the input box
+
+224
+00:07:16,230 --> 00:07:17,470
+Got this input box
+
+225
+00:07:17,470 --> 00:07:18,570
+What should be bound to it?
+
+226
+00:07:18,570 --> 00:07:26,180
+Bind a content change event to the input box
+
+227
+00:07:26,180 --> 00:07:30,110
+That is keyword.onInput
+
+228
+00:07:30,110 --> 00:07:30,550
+is it
+
+229
+00:07:30,550 --> 00:07:31,750
+Actually, this is quite easy to understand.
+
+230
+00:07:31,750 --> 00:07:33,230
+when you input something
+
+231
+00:07:33,230 --> 00:07:34,730
+What does the word 'input' mean?
+
+232
+00:07:34,730 --> 00:07:35,650
+the meaning of input
+
+233
+00:07:35,650 --> 00:07:38,410
+When you type something, it triggers this event.
+
+234
+00:07:38,410 --> 00:07:40,539
+Then what should I do
+
+235
+00:07:40,979 --> 00:07:43,859
+Hey, shouldn't we prepare an array?
+
+236
+00:07:43,859 --> 00:07:44,739
+Still remember?
+
+237
+00:07:44,739 --> 00:07:46,440
+The user enters 'mobile phone' here
+
+238
+00:07:46,440 --> 00:07:48,120
+Are we in that array
+
+239
+00:07:48,120 --> 00:07:51,240
+see which elements contain the keyword 'phone'
+
+240
+00:07:51,240 --> 00:07:51,880
+right?
+
+241
+00:07:51,880 --> 00:07:54,920
+Then what do we do with those elements containing 'phone'?
+
+242
+00:07:54,920 --> 00:07:58,100
+Is it concatenated into this part below?
+
+243
+00:07:58,100 --> 00:07:59,600
+Append it as a P tag
+
+244
+00:07:59,600 --> 00:08:00,540
+Do you remember?
+
+245
+00:08:00,540 --> 00:08:03,900
+Well, we should hardcode it in advance
+
+246
+00:08:05,060 --> 00:08:08,700
+Define an array to store search content
+
+247
+00:08:08,700 --> 00:08:13,110
+In the future, the content we search for
+
+248
+00:08:13,110 --> 00:08:15,839
+It should be queried from the server.
+
+249
+00:08:15,839 --> 00:08:17,679
+We haven't learned that yet, ah.
+
+250
+00:08:17,679 --> 00:08:20,440
+Moreover, we won't learn this kind of thing either.
+
+251
+00:08:20,440 --> 00:08:21,760
+What kind of server do you want to write
+
+252
+00:08:21,760 --> 00:08:23,880
+Because that's not what we're supposed to do
+
+253
+00:08:23,880 --> 00:08:25,600
+Okay, then
+
+254
+00:08:25,600 --> 00:08:27,700
+Here we'll write an array
+
+255
+00:08:27,700 --> 00:08:31,700
+This is the search array, search
+
+256
+00:08:33,320 --> 00:08:35,559
+Alright, I won't write this part.
+
+257
+00:08:35,559 --> 00:08:37,280
+
+
+258
+00:08:37,280 --> 00:08:38,169
+Who was it
+
+259
+00:08:38,169 --> 00:08:39,409
+
+
+260
+00:08:39,409 --> 00:08:39,970
+Does it ring a bell?
+
+261
+00:08:39,970 --> 00:08:42,169
+Can you recall this thing, right?
+
+262
+00:08:43,210 --> 00:08:45,520
+If the user enters 'phone' there
+
+263
+00:08:45,520 --> 00:08:49,120
+so do we need to search which elements in this array
+
+264
+00:08:49,120 --> 00:08:50,140
+including mobile phones, right?
+
+265
+00:08:50,140 --> 00:08:52,760
+Then display items like this, this, and this
+
+266
+00:08:52,760 --> 00:08:54,640
+and these three
+
+267
+00:08:54,640 --> 00:08:56,380
+Should it be displayed on the page?
+
+268
+00:08:56,380 --> 00:08:58,150
+Ah, it should be like this.
+
+269
+00:08:58,150 --> 00:09:03,560
+Well then, shouldn't you iterate through this array next?
+
+270
+00:09:03,560 --> 00:09:04,220
+right
+
+271
+00:09:04,220 --> 00:09:05,840
+iterate through this array
+
+272
+00:09:05,840 --> 00:09:07,040
+user input
+
+273
+00:09:07,040 --> 00:09:10,640
+see which elements resemble
+
+274
+00:09:10,640 --> 00:09:13,480
+including what the user entered
+
+275
+00:09:14,010 --> 00:09:15,810
+Listen carefully
+
+276
+00:09:17,120 --> 00:09:19,800
+point length i plus plus
+
+277
+00:09:19,800 --> 00:09:21,300
+Don't you think we should do it this way?
+
+278
+00:09:21,300 --> 00:09:27,080
+If this search a arr d hey
+
+279
+00:09:27,080 --> 00:09:33,500
+Does the ith element get Xiaomi phones and
+
+280
+00:09:33,500 --> 00:09:35,000
+Huawei phones and these phones
+
+281
+00:09:35,000 --> 00:09:40,500
+Check if the i-th element includes the character entered by the user
+
+282
+00:09:40,500 --> 00:09:43,240
+Should we use indexOf?
+
+283
+00:09:43,240 --> 00:09:46,000
+search within this element for what
+
+284
+00:09:46,000 --> 00:09:48,540
+find the value entered by the user
+
+285
+00:09:48,540 --> 00:09:50,900
+Is this getting the input box?
+
+286
+00:09:50,900 --> 00:09:53,300
+this keyword input box
+
+287
+00:09:53,300 --> 00:09:54,840
+and then what was it
+
+288
+00:09:54,840 --> 00:09:58,740
+the value is not equal to one
+
+289
+00:09:58,740 --> 00:10:00,420
+Can you understand what this means?
+
+290
+00:10:00,420 --> 00:10:02,920
+This is the I-th element of the array
+
+291
+00:10:02,920 --> 00:10:04,340
+For example, we get this one
+
+292
+00:10:04,340 --> 00:10:07,420
+Look inside it to find the value entered by the user
+
+293
+00:10:07,420 --> 00:10:09,280
+For example, if the user inputs 'hand'
+
+294
+00:10:09,280 --> 00:10:11,020
+Let's see if there's 'hand' in here
+
+295
+00:10:11,020 --> 00:10:12,600
+Do you understand what I mean?
+
+296
+00:10:12,600 --> 00:10:14,700
+Is there anything familiar here?
+
+297
+00:10:14,700 --> 00:10:15,840
+If it is not equal to one
+
+298
+00:10:15,840 --> 00:10:16,930
+What does it mean?
+
+299
+00:10:16,930 --> 00:10:19,130
+Do you understand the word 'hand'?
+
+300
+00:10:19,130 --> 00:10:20,530
+If there's the character 'hand'
+
+301
+00:10:20,530 --> 00:10:22,830
+So then your current element
+
+302
+00:10:22,830 --> 00:10:26,000
+It should be displayed in the search box
+
+303
+00:10:26,200 --> 00:10:27,860
+where should it be displayed?
+
+304
+00:10:27,860 --> 00:10:29,160
+Is it inside this?
+
+305
+00:10:29,160 --> 00:10:31,480
+It should be displayed here
+
+306
+00:10:31,480 --> 00:10:33,280
+So what should we do here?
+
+307
+00:10:33,280 --> 00:10:35,480
+Next, we still need to grab something
+
+308
+00:10:36,100 --> 00:10:37,520
+Who should we get again?
+
+309
+00:10:37,520 --> 00:10:39,620
+Is it this thing?
+
+310
+00:10:39,620 --> 00:10:43,300
+Well, we should concatenate things inside, right?
+
+311
+00:10:43,300 --> 00:10:45,240
+Still need to get one thing
+
+312
+00:10:47,920 --> 00:10:49,920
+Oops
+
+313
+00:10:51,320 --> 00:10:53,080
+Alright, got the search box now
+
+314
+00:10:53,080 --> 00:11:00,089
+Look, this is getting the dropdown list for the search, right?
+
+315
+00:11:07,220 --> 00:11:07,740
+Alright
+
+316
+00:11:07,740 --> 00:11:08,420
+You see
+
+317
+00:11:08,420 --> 00:11:13,860
+How should I set the content inside here?
+
+318
+00:11:13,860 --> 00:11:15,590
+you directly set it equal to
+
+319
+00:11:16,670 --> 00:11:17,670
+Write it like this?
+
+320
+00:11:17,670 --> 00:11:18,710
+Do you have any impression?
+
+321
+00:11:20,990 --> 00:11:23,510
+splicing a P tag inside
+
+322
+00:11:28,600 --> 00:11:30,360
+Can you understand what this means?
+
+323
+00:11:30,360 --> 00:11:31,040
+Right
+
+324
+00:11:31,040 --> 00:11:35,429
+That is, set the content inside this div to be this P tag
+
+325
+00:11:35,429 --> 00:11:37,769
+Then the content is your element, right
+
+326
+00:11:37,769 --> 00:11:39,009
+Do you understand what I mean?
+
+327
+00:11:39,009 --> 00:11:39,749
+directly write like this
+
+328
+00:11:39,749 --> 00:11:40,149
+Right?
+
+329
+00:11:40,149 --> 00:11:42,150
+Writing it like this is definitely wrong
+
+330
+00:11:42,150 --> 00:11:42,950
+If written this way
+
+331
+00:11:42,950 --> 00:11:45,750
+Think about it, if the user enters the first character
+
+332
+00:11:45,750 --> 00:11:47,620
+then you loop through this array
+
+333
+00:11:47,620 --> 00:11:49,460
+first get Xiaomi phone
+
+334
+00:11:49,460 --> 00:11:51,920
+Look for the word 'hand' in Xiaomi phone
+
+335
+00:11:51,920 --> 00:11:52,960
+It's indeed found, right?
+
+336
+00:11:52,960 --> 00:11:57,160
+Then you set the content of that div to a P tag
+
+337
+00:11:57,160 --> 00:11:58,380
+inside there is a phone
+
+338
+00:11:58,380 --> 00:12:01,550
+Xiaomi phone needs to loop again next time
+
+339
+00:12:01,550 --> 00:12:03,890
+During the loop, you retrieved the Huawei phone again
+
+340
+00:12:03,890 --> 00:12:05,950
+So, was the content changed to what again?
+
+341
+00:12:05,950 --> 00:12:07,110
+Is it Huawei phone now?
+
+342
+00:12:07,110 --> 00:12:09,010
+What should you write here?
+
+343
+00:12:09,010 --> 00:12:10,810
+Append by adding equals, right?
+
+344
+00:12:10,810 --> 00:12:11,810
+should append to it
+
+345
+00:12:11,810 --> 00:12:13,410
+And do you remember
+
+346
+00:12:13,410 --> 00:12:15,170
+what on earth is this thing of ours
+
+347
+00:12:15,170 --> 00:12:17,360
+It was hidden at first, right?
+
+348
+00:12:17,360 --> 00:12:18,520
+This div is hidden.
+
+349
+00:12:18,520 --> 00:12:19,460
+What else do you need to do?
+
+350
+00:12:19,460 --> 00:12:20,880
+Once the if condition is met
+
+351
+00:12:20,880 --> 00:12:23,260
+if indicates there is content inside
+
+352
+00:12:23,260 --> 00:12:24,140
+There's something inside again
+
+353
+00:12:24,140 --> 00:12:25,060
+What should we do?
+
+354
+00:12:25,060 --> 00:12:31,150
+What was it again, style.display equals
+
+355
+00:12:31,150 --> 00:12:34,510
+Just set display to block, that should do it
+
+356
+00:12:34,510 --> 00:12:36,465
+Let's try the preview
+
+357
+00:12:37,010 --> 00:12:37,910
+Look
+
+358
+00:12:37,910 --> 00:12:39,700
+The hand came out, right?
+
+359
+00:12:39,700 --> 00:12:44,080
+Well, indeed, there are four P tags pieced together inside this div.
+
+360
+00:12:44,080 --> 00:12:45,540
+Four P tags are assembled
+
+361
+00:12:45,540 --> 00:12:46,560
+No problem
+
+362
+00:12:46,560 --> 00:12:47,700
+it's just a bit ugly
+
+363
+00:12:47,700 --> 00:12:48,920
+Because you remember, right?
+
+364
+00:12:48,920 --> 00:12:52,490
+There should be a text-align: center in our reset.css, right?
+
+365
+00:12:52,490 --> 00:12:56,050
+So the text inside the P tag is by default centered.
+
+366
+00:12:56,050 --> 00:12:57,010
+You'll adjust it later
+
+367
+00:12:57,010 --> 00:12:58,440
+We'll adjust this in a moment.
+
+368
+00:12:58,440 --> 00:12:59,220
+That's it
+
+369
+00:12:59,220 --> 00:13:00,240
+The key is that I type 'hand'
+
+370
+00:13:00,240 --> 00:13:02,080
+Let me try typing 'phone' again
+
+371
+00:13:03,030 --> 00:13:04,470
+The phone is causing trouble
+
+372
+00:13:05,550 --> 00:13:08,070
+Does it keep appending inside?
+
+373
+00:13:08,070 --> 00:13:08,710
+Did you notice
+
+374
+00:13:08,710 --> 00:13:10,069
+keep appending to it
+
+375
+00:13:10,069 --> 00:13:11,149
+What should I do?
+
+376
+00:13:11,149 --> 00:13:11,829
+Look
+
+377
+00:13:11,829 --> 00:13:13,269
+Do you understand
+
+378
+00:13:13,269 --> 00:13:15,149
+As you can see, this is the input box
+
+379
+00:13:15,149 --> 00:13:17,069
+When the user slightly modifies the input box
+
+380
+00:13:17,069 --> 00:13:19,030
+Doesn't it trigger our event?
+
+381
+00:13:19,030 --> 00:13:22,750
+how should we handle this event when it is triggered
+
+382
+00:13:22,750 --> 00:13:26,410
+it just concatenates stuff into this div, right?
+
+383
+00:13:26,410 --> 00:13:28,610
+After you modify something and make a change
+
+384
+00:13:28,610 --> 00:13:30,320
+This triggers our event
+
+385
+00:13:30,320 --> 00:13:31,860
+when concatenating content into it
+
+386
+00:13:31,860 --> 00:13:33,800
+It's best to first clear out the old ones
+
+387
+00:13:33,800 --> 00:13:35,970
+clear them all first
+
+388
+00:13:35,970 --> 00:13:37,850
+Before the for loop
+
+389
+00:13:37,850 --> 00:13:39,770
+First, clear all the old ones completely
+
+390
+00:13:39,770 --> 00:13:41,050
+I don't know if you still remember
+
+391
+00:13:41,050 --> 00:13:42,330
+You must learn the previous content well
+
+392
+00:13:42,330 --> 00:13:46,310
+Otherwise, you won't even have an impression of this thing later on.
+
+393
+00:13:46,310 --> 00:13:47,950
+That won't be easy
+
+394
+00:13:47,950 --> 00:13:49,510
+Come and take a look at the effect again
+
+395
+00:13:49,510 --> 00:13:52,110
+Three phones, back once
+
+396
+00:13:52,110 --> 00:13:54,270
+Pull back your hand and everything will come out
+
+397
+00:13:54,270 --> 00:13:56,480
+No problem no problem.
+
+398
+00:13:56,480 --> 00:13:57,260
+Okay
+
+399
+00:13:57,260 --> 00:13:57,880
+And then
+
+400
+00:13:57,880 --> 00:13:59,420
+after the mouse loses focus
+
+401
+00:13:59,420 --> 00:14:01,220
+Let's write this again.
+
+402
+00:14:01,420 --> 00:14:05,080
+Can write this little on blur
+
+403
+00:14:05,080 --> 00:14:07,790
+Let me write this blur event
+
+404
+00:14:07,790 --> 00:14:09,750
+When the mouse loses focus, what should I make it do?
+
+405
+00:14:09,750 --> 00:14:10,150
+You know what
+
+406
+00:14:10,150 --> 00:14:12,500
+I want to hide it, hmm
+
+407
+00:14:12,500 --> 00:14:15,500
+So I want the mouse to make the dropdown list
+
+408
+00:14:15,500 --> 00:14:17,160
+set display to none
+
+409
+00:14:17,160 --> 00:14:19,000
+Take a look at the effect.
+
+410
+00:14:21,740 --> 00:14:24,940
+Three watches are displayed on the phone
+
+411
+00:14:24,940 --> 00:14:29,090
+I remember there was a mouse that lost focus, beautiful, alright
+
+412
+00:14:29,090 --> 00:14:31,080
+Also, let's tweak that thing...
+
+413
+00:14:31,080 --> 00:14:33,920
+Just adjust this style a bit
+
+414
+00:14:33,920 --> 00:14:35,440
+so in our case here,
+
+415
+00:14:35,440 --> 00:14:36,640
+there will be P tags later
+
+416
+00:14:36,640 --> 00:14:38,510
+Let me make a slight adjustment here
+
+417
+00:14:38,510 --> 00:14:41,150
+The style is right here.
+
+418
+00:14:41,590 --> 00:14:44,250
+Click it and there's a P tag inside
+
+419
+00:14:44,250 --> 00:14:45,430
+then
+
+420
+00:14:45,430 --> 00:14:48,430
+We set the font size to 14 pixels
+
+421
+00:14:48,430 --> 00:14:50,280
+for example, color
+
+422
+00:14:50,280 --> 00:14:51,660
+Let's make some slight adjustments.
+
+423
+00:14:51,660 --> 00:14:55,060
+Let me check if there's a hashtag in it
+
+424
+00:14:56,920 --> 00:15:00,480
+You see, it's there, right? No
+
+425
+00:15:01,540 --> 00:15:02,840
+There's nothing inside it
+
+426
+00:15:02,840 --> 00:15:06,500
+Then we have to figure it out ourselves, there is also one
+
+427
+00:15:07,650 --> 00:15:08,890
+Ah, now it's visible.
+
+428
+00:15:08,890 --> 00:15:10,770
+It actually worked
+
+429
+00:15:11,460 --> 00:15:12,500
+Look, it's there.
+
+430
+00:15:13,820 --> 00:15:15,520
+Up and down, oh dear
+
+431
+00:15:15,520 --> 00:15:19,280
+He is using LI
+
+432
+00:15:19,280 --> 00:15:21,460
+If we're using PLI
+
+433
+00:15:21,460 --> 00:15:24,180
+Then I'll click this to see the effect
+
+434
+00:15:25,369 --> 00:15:26,669
+height 24
+
+435
+00:15:26,669 --> 00:15:30,029
+Then, what about the top and bottom, left and right? Six, hmm.
+
+436
+00:15:30,029 --> 00:15:32,189
+What should I write for this P tag two?
+
+437
+00:15:32,189 --> 00:15:40,470
+The height is 24 pixels, with 1 pixel of padding on the top and bottom
+
+438
+00:15:40,470 --> 00:15:42,250
+Six pixels on the left and right, okay
+
+439
+00:15:42,250 --> 00:15:43,370
+Just write it according to his example.
+
+440
+00:15:43,370 --> 00:15:44,490
+Then let's see what else there is
+
+441
+00:15:44,490 --> 00:15:47,330
+Next there is a line height 24
+
+442
+00:15:48,330 --> 00:15:50,690
+line height 24
+
+443
+00:15:51,050 --> 00:15:52,230
+What else
+
+444
+00:15:52,230 --> 00:15:54,830
+and this cursor point
+
+445
+00:15:54,830 --> 00:15:56,990
+The mouse changes to a hand pointer when hovering over it
+
+446
+00:15:56,990 --> 00:15:58,770
+What else
+
+447
+00:15:59,010 --> 00:15:59,850
+font size
+
+448
+00:15:59,850 --> 00:16:01,690
+We think, oh, there's more in here
+
+449
+00:16:01,690 --> 00:16:04,690
+look at the text inside
+
+450
+00:16:04,690 --> 00:16:09,770
+Take a look at this character character character
+
+451
+00:16:13,490 --> 00:16:15,570
+Ah, I remember where I saw the font color.
+
+452
+00:16:15,570 --> 00:16:18,850
+Just now it was inside the LI tag, right?
+
+453
+00:16:23,520 --> 00:16:27,960
+Where are the 12 colors with #666?
+
+454
+00:16:27,960 --> 00:16:29,420
+Let me try it out too.
+
+455
+00:16:29,420 --> 00:16:32,460
+font size 12 pixels hey
+
+456
+00:16:32,460 --> 00:16:34,460
+color666
+
+457
+00:16:34,839 --> 00:16:36,879
+Alright, let's take a look.
+
+458
+00:16:39,239 --> 00:16:41,350
+Enter a phone number
+
+459
+00:16:41,350 --> 00:16:42,010
+Is that right?
+
+460
+00:16:42,010 --> 00:16:43,010
+No problem
+
+461
+00:16:43,010 --> 00:16:45,589
+But let's align this text to the left.
+
+462
+00:16:45,589 --> 00:16:47,549
+How about the content inside the P tag
+
+463
+00:16:47,549 --> 00:16:50,409
+Is the default alignment set to center?
+
+464
+00:16:50,409 --> 00:16:51,949
+Hmm, align it to the left.
+
+465
+00:16:51,949 --> 00:16:54,590
+Try another phone, um
+
+466
+00:16:54,590 --> 00:16:55,670
+That's it.
+
+467
+00:16:55,670 --> 00:16:58,750
+I'm not going to set the mouse hover effect on the P tag
+
+468
+00:16:58,750 --> 00:16:59,990
+The background color has changed.
+
+469
+00:16:59,990 --> 00:17:01,599
+Doesn't someone have one?
+
+470
+00:17:01,599 --> 00:17:03,159
+Does the background change color?
+
+471
+00:17:03,159 --> 00:17:04,459
+Ah, I'm not doing this anymore.
+
+472
+00:17:04,459 --> 00:17:05,939
+Figure it out yourself
+
+473
+00:17:05,939 --> 00:17:06,919
+That's simple.
+
+474
+00:17:06,919 --> 00:17:08,540
+Let's not do those anymore, okay
+
+475
+00:17:08,540 --> 00:17:10,200
+We've finished the fuzzy search now.
+
+476
+00:17:10,200 --> 00:17:11,280
+I think it's not difficult
+
+477
+00:17:11,280 --> 00:17:13,940
+It's exactly the same as before.
+
+478
+00:17:13,940 --> 00:17:14,540
+Nice
+

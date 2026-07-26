@@ -1,0 +1,2168 @@
+1
+00:00:00,760 --> 00:00:02,100
+Let me show you two things first
+
+2
+00:00:02,100 --> 00:00:06,580
+These two are the agent's dot MD delivered to members in my previous video
+
+3
+00:00:06,580 --> 00:00:09,790
+
+
+4
+00:00:09,790 --> 00:00:11,550
+If you've watched the previous videos
+
+5
+00:00:11,550 --> 00:00:13,210
+you should know that I've been thinking about one thing
+
+6
+00:00:13,210 --> 00:00:14,779
+Currently, I have already
+
+7
+00:00:14,779 --> 00:00:16,979
+The POC for the AI coding pipeline has been successfully executed.
+
+8
+00:00:16,979 --> 00:00:17,979
+and I've also mentioned
+
+9
+00:00:17,979 --> 00:00:18,819
+After the task is completed
+
+10
+00:00:18,819 --> 00:00:20,540
+You can open the execution audit directory
+
+11
+00:00:20,540 --> 00:00:22,840
+manually verify it using the chain of evidence
+
+12
+00:00:22,840 --> 00:00:24,280
+whether each step was performed properly
+
+13
+00:00:24,280 --> 00:00:25,380
+rather than relying on his verbal claims
+
+14
+00:00:25,380 --> 00:00:29,150
+but rather on whether you can replay the entire execution process
+
+15
+00:00:29,550 --> 00:00:31,270
+But recently when I checked the comment section
+
+16
+00:00:31,270 --> 00:00:32,630
+found many people uh
+
+17
+00:00:32,630 --> 00:00:34,190
+Actually, most people didn't really understand
+
+18
+00:00:34,190 --> 00:00:35,510
+what exactly this mechanism of mine is doing
+
+19
+00:00:35,510 --> 00:00:36,270
+Of course, this isn't your fault
+
+20
+00:00:36,270 --> 00:00:36,910
+That's my fault
+
+21
+00:00:36,910 --> 00:00:38,230
+Because I previously explained a lot about the structure
+
+22
+00:00:38,230 --> 00:00:38,840
+a lot of concepts
+
+23
+00:00:38,840 --> 00:00:39,640
+like the master control
+
+24
+00:00:39,640 --> 00:00:40,360
+Saber's truth
+
+25
+00:00:40,360 --> 00:00:41,240
+um, audit directory
+
+26
+00:00:41,240 --> 00:00:41,920
+counterattack convergence
+
+27
+00:00:41,920 --> 00:00:44,100
+But I am indeed missing the most crucial thing
+
+28
+00:00:44,100 --> 00:00:46,980
+I didn't conduct a complete instance demonstration
+
+29
+00:00:46,980 --> 00:00:49,080
+starting from me proposing a real requirement
+
+30
+00:00:49,080 --> 00:00:51,820
+let the master control library direct SAVI-A to actually perform the task
+
+31
+00:00:51,820 --> 00:00:53,120
+how I conduct the acceptance check
+
+32
+00:00:53,120 --> 00:00:53,720
+how to rework
+
+33
+00:00:53,720 --> 00:00:54,440
+how to converge
+
+34
+00:00:54,440 --> 00:00:57,550
+and finally how to submit the evidence into the audit directory
+
+35
+00:00:57,550 --> 00:01:00,710
+So in this video I'll do two things uh
+
+36
+00:01:00,710 --> 00:01:02,230
+The first is a complete demonstration
+
+37
+00:01:02,230 --> 00:01:02,870
+I request GPU
+
+38
+00:01:02,870 --> 00:01:03,940
+then the master control dispatches
+
+39
+00:01:03,940 --> 00:01:05,900
+and then it runs on its own
+
+40
+00:01:05,900 --> 00:01:06,780
+then acceptance
+
+41
+00:01:06,780 --> 00:01:07,320
+then rework
+
+42
+00:01:07,320 --> 00:01:08,250
+finally, the evidence is archived
+
+43
+00:01:08,250 --> 00:01:11,090
+And the second thing is that I will summarize our progress this month
+
+44
+00:01:11,090 --> 00:01:12,970
+since I posted the first video on November 26
+
+45
+00:01:12,970 --> 00:01:14,610
+to summarize up to now
+
+46
+00:01:14,610 --> 00:01:15,730
+So far
+
+47
+00:01:15,730 --> 00:01:18,150
+the bold claims I made earlier
+
+48
+00:01:18,150 --> 00:01:19,290
+how much has been delivered
+
+49
+00:01:19,290 --> 00:01:20,759
+what is still outstanding
+
+50
+00:01:20,759 --> 00:01:22,819
+So if you only care about how this mechanism can be improved
+
+51
+00:01:22,819 --> 00:01:24,719
+you just need to watch the first part of the demonstration
+
+52
+00:01:24,719 --> 00:01:26,559
+If you're concerned about whether this approach is actually making progress
+
+53
+00:01:26,559 --> 00:01:27,139
+is still diverging
+
+54
+00:01:27,139 --> 00:01:29,340
+you can check out the monthly reconciliation in the second part
+
+55
+00:01:29,340 --> 00:01:30,220
+Without further ado
+
+56
+00:01:30,220 --> 00:01:31,930
+Let's dive straight into the demo
+
+57
+00:01:31,930 --> 00:01:33,730
+Before we proceed with the demo
+
+58
+00:01:33,730 --> 00:01:34,610
+Let me first introduce
+
+59
+00:01:34,610 --> 00:01:36,890
+this is the current project
+
+60
+00:01:36,890 --> 00:01:38,890
+This project is about developing a
+
+61
+00:01:38,890 --> 00:01:40,390
+a virtual machine on MAOS
+
+62
+00:01:40,390 --> 00:01:43,680
+and uh it originates from uh
+
+63
+00:01:43,680 --> 00:01:45,040
+It is based on this apple vre
+
+64
+00:01:45,040 --> 00:01:47,400
+is an open-source project called apple vita on GitHub
+
+65
+00:01:47,400 --> 00:01:50,670
+However, it is clearly just a toy-like demonstration, right
+
+66
+00:01:50,670 --> 00:01:53,050
+It cannot be used in real production environments.
+
+67
+00:01:53,050 --> 00:01:55,620
+So based on its fundamental code
+
+68
+00:01:55,620 --> 00:01:56,860
+Then I proceeded to break it down
+
+69
+00:01:56,860 --> 00:01:59,060
+divided into agent's app CLI CORE
+
+70
+00:01:59,060 --> 00:02:00,900
+demo, UI host, and XPC
+
+71
+00:02:00,900 --> 00:02:02,080
+This is what I used for testing
+
+72
+00:02:02,080 --> 00:02:03,320
+After splitting it like this
+
+73
+00:02:03,320 --> 00:02:04,800
+I encapsulated the entire core part
+
+74
+00:02:04,800 --> 00:02:06,800
+I've encapsulated it all within this Shadow WAM CORE
+
+75
+00:02:06,800 --> 00:02:08,000
+and then these CLIs integrate it
+
+76
+00:02:08,000 --> 00:02:08,840
+just for convenience
+
+77
+00:02:08,840 --> 00:02:11,340
+use cos s to test whether it can work properly
+
+78
+00:02:11,340 --> 00:02:13,240
+In other words, I have a lot of 1-to-1 tests here
+
+79
+00:02:13,240 --> 00:02:15,220
+are all executed via CLI
+
+80
+00:02:15,220 --> 00:02:17,920
+Ultimately, I will definitely present it in a UI format
+
+81
+00:02:17,920 --> 00:02:18,980
+for everyone to use, right
+
+82
+00:02:18,980 --> 00:02:21,500
+So it's impossible to just give everyone a CI to operate
+
+83
+00:02:21,500 --> 00:02:22,730
+So what I need to do now is
+
+84
+00:02:22,730 --> 00:02:24,570
+like in his previous legacy
+
+85
+00:02:24,570 --> 00:02:26,130
+in its original open-source project
+
+86
+00:02:26,130 --> 00:02:28,370
+He directly uses the RETRALIZATION framework for invocation
+
+87
+00:02:28,370 --> 00:02:29,510
+to create a virtual machine
+
+88
+00:02:29,510 --> 00:02:30,489
+And then he uh
+
+89
+00:02:30,489 --> 00:02:32,689
+Now, I need to make a modification to this project.
+
+90
+00:02:32,689 --> 00:02:34,009
+Keep the UI unchanged, right
+
+91
+00:02:34,009 --> 00:02:36,520
+because it reduces the scope of the changes
+
+92
+00:02:36,520 --> 00:02:37,360
+Keep the UI unchanged
+
+93
+00:02:37,360 --> 00:02:39,200
+Then I just need to modify it
+
+94
+00:02:39,200 --> 00:02:40,520
+some calls in this code
+
+95
+00:02:40,520 --> 00:02:42,440
+It originally directly called this which tralization framework.
+
+96
+00:02:42,440 --> 00:02:44,400
+Now what I need to do is modify it to
+
+97
+00:02:44,400 --> 00:02:48,180
+have it remove my encapsulated shadom call
+
+98
+00:02:48,180 --> 00:02:51,230
+to achieve exactly the same operational effect as it
+
+99
+00:02:51,230 --> 00:02:52,750
+Next, I will open Code X
+
+100
+00:02:52,750 --> 00:02:55,020
+then use our agent's AMD prompt
+
+101
+00:02:55,020 --> 00:02:55,540
+At this point
+
+102
+00:02:55,540 --> 00:02:57,160
+Actually, we didn't give it a clear task
+
+103
+00:02:57,160 --> 00:02:59,360
+so it will tell us to give it a task
+
+104
+00:02:59,360 --> 00:03:00,340
+So at this point I just put it
+
+105
+00:03:00,340 --> 00:03:02,060
+describe what I just needed to know
+
+106
+00:03:02,060 --> 00:03:04,020
+First, we need to prevent it from causing contamination.
+
+107
+00:03:04,020 --> 00:03:04,220
+contamination
+
+108
+00:03:04,220 --> 00:03:04,780
+the existing old project
+
+109
+00:03:04,780 --> 00:03:06,800
+
+
+110
+00:03:06,800 --> 00:03:09,340
+to a new folder
+
+111
+00:03:11,200 --> 00:03:14,380
+and then modify the modifications inside
+
+112
+00:03:14,380 --> 00:03:17,480
+those calls to the virtual machine inside it
+
+113
+00:03:17,480 --> 00:03:19,220
+all virtual machine-related calls
+
+114
+00:03:19,220 --> 00:03:21,420
+All must call this shadow wam call
+
+115
+00:03:21,420 --> 00:03:26,130
+The API in free work must of course maintain that the UI code will change
+
+116
+00:03:28,240 --> 00:03:29,880
+Finally, we just hit Enter to let it run.
+
+117
+00:03:29,880 --> 00:03:31,440
+Then, of course, the runtime during execution is quite long
+
+118
+00:03:31,440 --> 00:03:34,080
+Then I just fast-forwarded it ten times
+
+119
+00:03:34,080 --> 00:03:36,680
+Then we can quickly see the final result
+
+120
+00:04:02,980 --> 00:04:04,220
+After running for 40 minutes
+
+121
+00:04:04,220 --> 00:04:05,180
+He finally succeeded
+
+122
+00:04:05,180 --> 00:04:06,300
+Then let's test it
+
+123
+00:04:06,300 --> 00:04:07,500
+We found that the compilation failed
+
+124
+00:04:07,500 --> 00:04:08,060
+Of course this monster
+
+125
+00:04:08,060 --> 00:04:09,020
+I didn't tell him before
+
+126
+00:04:09,020 --> 00:04:10,580
+You should tell me after the compilation is successful
+
+127
+00:04:10,580 --> 00:04:12,560
+This is also one of the most frustrating aspects of AF.
+
+128
+00:04:12,710 --> 00:04:14,830
+Next, I asked him to make the corrections again
+
+129
+00:04:14,830 --> 00:04:18,430
+just have it fix the compilation errors
+
+130
+00:04:19,920 --> 00:04:21,240
+Then during this operation process
+
+131
+00:04:21,240 --> 00:04:23,940
+I noticed that during the previous invocation of the SAB certificate
+
+132
+00:04:23,940 --> 00:04:25,880
+He found that the SAB certificate took a very long time
+
+133
+00:04:25,880 --> 00:04:27,800
+Then he went ahead and eliminated the previous few steps.
+
+134
+00:04:27,800 --> 00:04:28,800
+So I told him here
+
+135
+00:04:28,800 --> 00:04:29,760
+SVN may take a long time to run
+
+136
+00:04:29,760 --> 00:04:30,280
+It is not an error
+
+137
+00:04:30,280 --> 00:04:31,100
+requires your patience to wait
+
+138
+00:04:31,100 --> 00:04:35,050
+Then you need to run this PS to check the party
+
+139
+00:04:35,050 --> 00:04:37,190
+check through financial means whether he still has to retake the exam
+
+140
+00:04:37,190 --> 00:04:38,910
+However, this is indeed a current issue.
+
+141
+00:04:38,910 --> 00:04:41,470
+I will make further optimizations later.
+
+142
+00:04:46,600 --> 00:04:48,360
+Finally, this time it can quickly detect the error
+
+143
+00:04:48,360 --> 00:04:49,640
+Then we proceed with the acceptance check
+
+144
+00:04:49,640 --> 00:04:51,040
+Then the compilation succeeds
+
+145
+00:04:51,040 --> 00:04:52,140
+We can run it now
+
+146
+00:04:52,140 --> 00:04:53,860
+Actually, I mentioned it in the first video
+
+147
+00:04:53,860 --> 00:04:56,260
+the concept from steam engines to assembly lines
+
+148
+00:04:56,260 --> 00:04:57,980
+the entire pipeline
+
+149
+00:04:57,980 --> 00:04:59,860
+What I really want to solve through the pipeline is
+
+150
+00:04:59,860 --> 00:05:01,580
+The only real problem to solve is one
+
+151
+00:05:01,580 --> 00:05:04,160
+to ensure that the AI operates correctly
+
+152
+00:05:04,160 --> 00:05:06,040
+can operate without human supervision
+
+153
+00:05:06,040 --> 00:05:06,960
+and continue running
+
+154
+00:05:06,960 --> 00:05:09,440
+So there are two key points here: what is called correctness
+
+155
+00:05:09,440 --> 00:05:11,560
+What does it mean to run continuously without supervision uh
+
+156
+00:05:11,560 --> 00:05:13,840
+At present, we can achieve exactly what was demonstrated earlier
+
+157
+00:05:13,840 --> 00:05:15,600
+it continuously reworks during the process
+
+158
+00:05:15,600 --> 00:05:16,220
+without our intervention
+
+159
+00:05:16,220 --> 00:05:17,040
+Actually, it relies on two things
+
+160
+00:05:17,040 --> 00:05:19,880
+One is the point MD of the A certificate I mentioned earlier
+
+161
+00:05:20,120 --> 00:05:22,800
+And uh, his role is just uh
+
+162
+00:05:22,800 --> 00:05:23,960
+distribute tasks with strict acceptance checks
+
+163
+00:05:23,960 --> 00:05:25,400
+does not require us to do it ourselves
+
+164
+00:05:25,400 --> 00:05:27,060
+does not require us to do it ourselves
+
+165
+00:05:27,060 --> 00:05:29,460
+And the second point is within this subbing shame
+
+166
+00:05:29,460 --> 00:05:31,000
+Then it serves as the sole execution entry point
+
+167
+00:05:31,000 --> 00:05:33,100
+all the actual execution to uh
+
+168
+00:05:33,100 --> 00:05:35,500
+let AI handle the code development
+
+169
+00:05:35,500 --> 00:05:36,740
+all must be completed through it
+
+170
+00:05:36,740 --> 00:05:39,080
+and can automatically archive the evidence
+
+171
+00:05:39,080 --> 00:05:41,430
+So this is why after I click it
+
+172
+00:05:41,430 --> 00:05:42,470
+I don't have to worry about it anymore
+
+173
+00:05:42,470 --> 00:05:43,350
+I can do whatever I want
+
+174
+00:05:43,350 --> 00:05:44,710
+And of course, in the meantime
+
+175
+00:05:44,710 --> 00:05:45,750
+You can also do other tasks if you want
+
+176
+00:05:45,750 --> 00:05:47,190
+or you can open multiple
+
+177
+00:05:47,190 --> 00:05:48,050
+Get work tree
+
+178
+00:05:48,050 --> 00:05:48,830
+and create multiple branches
+
+179
+00:05:48,830 --> 00:05:49,710
+and let them run simultaneously
+
+180
+00:05:49,710 --> 00:05:50,310
+it doesn't matter
+
+181
+00:05:50,310 --> 00:05:52,909
+Then the entire process of our acceptance
+
+182
+00:05:52,909 --> 00:05:54,069
+Actually the most important thing is
+
+183
+00:05:54,069 --> 00:05:56,589
+how do we actually know whether it has
+
+184
+00:05:56,589 --> 00:05:58,669
+during the entire AIA certificate execution process
+
+185
+00:05:58,669 --> 00:06:00,009
+whether it will ultimately achieve our desired outcome
+
+186
+00:06:00,009 --> 00:06:02,449
+On one hand, we conduct tests to run it
+
+187
+00:06:02,449 --> 00:06:04,249
+check whether the operation results meet our expectations
+
+188
+00:06:04,249 --> 00:06:06,599
+On the other hand, we need to examine its entire process
+
+189
+00:06:06,599 --> 00:06:07,559
+how it runs step by step
+
+190
+00:06:07,559 --> 00:06:09,199
+Then we need to verify it
+
+191
+00:06:09,199 --> 00:06:11,919
+At this point, we've returned to the previous execution we had it perform
+
+192
+00:06:11,919 --> 00:06:15,480
+this execution audit directory here
+
+193
+00:06:15,480 --> 00:06:17,920
+First, there are roughly this many, uh,
+
+194
+00:06:17,920 --> 00:06:19,980
+This is the entire task we just completed
+
+195
+00:06:19,980 --> 00:06:21,600
+these evidence files that have been archived
+
+196
+00:06:21,600 --> 00:06:22,830
+There are so many, uh
+
+197
+00:06:22,830 --> 00:06:23,530
+so many steps
+
+198
+00:06:23,530 --> 00:06:26,450
+In fact, the first three steps are exactly what I just mentioned.
+
+199
+00:06:26,450 --> 00:06:30,040
+The first step is to clone the original project
+
+200
+00:06:30,040 --> 00:06:30,800
+to another location
+
+201
+00:06:30,800 --> 00:06:33,080
+Then the second step is to actually execute it
+
+202
+00:06:33,080 --> 00:06:35,280
+then we need to put all these VM-related contents
+
+203
+00:06:35,280 --> 00:06:37,450
+all need to be placed in this shadowm call
+
+204
+00:06:37,450 --> 00:06:40,050
+Then the third step is when I realized, hey, this controller of his
+
+205
+00:06:40,050 --> 00:06:40,870
+This controller has a problem
+
+206
+00:06:40,870 --> 00:06:41,650
+I'm going to fire him
+
+207
+00:06:41,650 --> 00:06:43,180
+He didn't notice
+
+208
+00:06:43,180 --> 00:06:43,780
+It means after you've made the changes
+
+209
+00:06:43,780 --> 00:06:45,260
+You just go ahead without compiling it, right?
+
+210
+00:06:45,260 --> 00:06:46,580
+you just told me directly
+
+211
+00:06:46,580 --> 00:06:48,020
+Then the third step was something I proposed myself
+
+212
+00:06:48,020 --> 00:06:49,580
+I found that it has compilation issues
+
+213
+00:06:49,580 --> 00:06:51,290
+Then he went through the third step
+
+214
+00:06:51,290 --> 00:06:52,550
+then running it over and over again
+
+215
+00:06:52,550 --> 00:06:53,570
+finally solve the problem
+
+216
+00:06:53,570 --> 00:06:54,530
+But there are other issues in the fourth step
+
+217
+00:06:54,530 --> 00:06:55,610
+even if it compiles successfully
+
+218
+00:06:55,610 --> 00:06:56,210
+I also discovered other issues
+
+219
+00:06:56,210 --> 00:06:58,109
+For example, some UI changes
+
+220
+00:06:58,109 --> 00:06:59,629
+It was not as I expected.
+
+221
+00:06:59,629 --> 00:07:00,949
+So there came the fourth and fifth steps
+
+222
+00:07:00,949 --> 00:07:02,709
+I won't expand on this further
+
+223
+00:07:02,709 --> 00:07:06,060
+Because dealing with UI is not like our CLI tools where
+
+224
+00:07:06,060 --> 00:07:06,360
+go
+
+225
+00:07:06,360 --> 00:07:07,540
+As soon as you execute the AI
+
+226
+00:07:07,540 --> 00:07:08,860
+immediately he can receive command line feedback
+
+227
+00:07:08,860 --> 00:07:10,320
+he can immediately know what's wrong and what's correct
+
+228
+00:07:10,320 --> 00:07:11,560
+The UI part is a bit more troublesome.
+
+229
+00:07:11,560 --> 00:07:11,880
+For the UI
+
+230
+00:07:11,880 --> 00:07:13,760
+At the very least, we need to write a series of UI frameworks
+
+231
+00:07:13,760 --> 00:07:14,720
+and then locate its elements
+
+232
+00:07:14,720 --> 00:07:16,680
+and then check whether it exists or not, etc.
+
+233
+00:07:16,680 --> 00:07:18,360
+we won't go into that here
+
+234
+00:07:18,600 --> 00:07:20,960
+That concludes the entire pipeline
+
+235
+00:07:20,960 --> 00:07:24,440
+I demonstrate its entire operation process with an example
+
+236
+00:07:24,440 --> 00:07:25,200
+Of course, it's not perfect
+
+237
+00:07:25,200 --> 00:07:27,370
+it still requires human intervention in the middle
+
+238
+00:07:27,370 --> 00:07:29,270
+Ultimately, the final acceptance still requires manual intervention.
+
+239
+00:07:29,270 --> 00:07:31,050
+but some of the rework content in between
+
+240
+00:07:31,050 --> 00:07:32,919
+All of these can be completed through the master control.
+
+241
+00:07:32,919 --> 00:07:35,559
+Now let's move on to the second part
+
+242
+00:07:35,559 --> 00:07:37,879
+that is our monthly summary
+
+243
+00:07:45,460 --> 00:07:46,740
+Oh, I made a mistake earlier
+
+244
+00:07:46,740 --> 00:07:49,120
+It should be November 23rd when I released my first video
+
+245
+00:07:49,120 --> 00:07:51,160
+in the era of AI
+
+246
+00:07:51,160 --> 00:07:53,400
+How to amplify your abilities tenfold to a hundredfold, right
+
+247
+00:07:53,400 --> 00:07:54,440
+I posted two videos
+
+248
+00:07:54,440 --> 00:07:57,110
+a roadmap manifesto for tenfold to hundredfold improvement
+
+249
+00:07:57,110 --> 00:07:58,710
+But in fact, from this point onward
+
+250
+00:07:58,710 --> 00:07:59,450
+I started to implement it
+
+251
+00:07:59,450 --> 00:08:03,050
+has been continuously striving to implement it as an engineering solution from within the project
+
+252
+00:08:03,050 --> 00:08:03,610
+all the way to the present
+
+253
+00:08:03,610 --> 00:08:06,659
+At that time, I emphasized three core points
+
+254
+00:08:06,659 --> 00:08:08,619
+First, AI is the steam engine
+
+255
+00:08:08,619 --> 00:08:11,480
+But the real leverage comes from the entire Ford assembly line
+
+256
+00:08:11,480 --> 00:08:12,340
+and secondly
+
+257
+00:08:12,340 --> 00:08:13,000
+then phase two
+
+258
+00:08:13,000 --> 00:08:15,320
+which means your entire project needs to have a project oxidation system
+
+259
+00:08:15,320 --> 00:08:17,000
+which means LEGER needs to address
+
+260
+00:08:17,000 --> 00:08:20,210
+is about addressing the contextual issues of a large-scale project
+
+261
+00:08:20,210 --> 00:08:20,810
+Phase 3
+
+262
+00:08:20,810 --> 00:08:22,530
+is to turn AI into a self-training system
+
+263
+00:08:22,530 --> 00:08:22,930
+becomes stronger with use
+
+264
+00:08:22,930 --> 00:08:25,150
+finally squeezing myself out of the loop
+
+265
+00:08:25,150 --> 00:08:26,330
+Of course, it felt exhilarating when I said it at the time.
+
+266
+00:08:26,330 --> 00:08:28,110
+But to be honest, at that time it was more about the direction
+
+267
+00:08:28,110 --> 00:08:29,845
+It was not a deliverable
+
+268
+00:08:29,890 --> 00:08:32,010
+Then in this video
+
+269
+00:08:32,010 --> 00:08:32,850
+I poured cold water on it, right?
+
+270
+00:08:32,850 --> 00:08:35,419
+Because I didn't fully implement the entire laser system
+
+271
+00:08:35,419 --> 00:08:37,219
+but instead implemented it as six structures
+
+272
+00:08:37,219 --> 00:08:39,099
+which are context options
+
+273
+00:08:39,099 --> 00:08:39,679
+Dedecision
+
+274
+00:08:39,679 --> 00:08:40,299
+Design
+
+275
+00:08:40,299 --> 00:08:41,700
+result and license
+
+276
+00:08:41,700 --> 00:08:42,659
+and for the first time I emphasized
+
+277
+00:08:42,659 --> 00:08:44,660
+What's truly valuable is this license
+
+278
+00:08:44,660 --> 00:08:45,860
+because it is transferable
+
+279
+00:08:45,860 --> 00:08:47,040
+no matter how your AI changes
+
+280
+00:08:47,040 --> 00:08:51,030
+but the experience in your entire project remains unchanged
+
+281
+00:08:51,230 --> 00:08:52,750
+and also pointed out, right?
+
+282
+00:08:52,750 --> 00:08:54,090
+It is not just an AI workflow log
+
+283
+00:08:54,090 --> 00:08:56,890
+At first, I wanted to implement all the structures
+
+284
+00:08:56,890 --> 00:08:59,270
+but later found out it was not actually the optimal solution
+
+285
+00:08:59,270 --> 00:09:02,430
+At this point, I actually transformed the entire Phase Two
+
+286
+00:09:02,430 --> 00:09:03,830
+from a slogan
+
+287
+00:09:03,830 --> 00:09:05,010
+it becomes a reusable structure
+
+288
+00:09:05,010 --> 00:09:06,880
+as I mentioned the six points above
+
+289
+00:09:07,160 --> 00:09:09,200
+Then on December 7th
+
+290
+00:09:09,200 --> 00:09:09,680
+December 7th
+
+291
+00:09:09,680 --> 00:09:11,440
+I introduced two papers
+
+292
+00:09:11,440 --> 00:09:14,970
+Then I transformed the entire paper into an implementable
+
+293
+00:09:14,970 --> 00:09:15,250
+an engineering
+
+294
+00:09:15,250 --> 00:09:16,010
+POC, right?
+
+295
+00:09:16,010 --> 00:09:17,450
+It uses spike plus to do
+
+296
+00:09:17,450 --> 00:09:19,370
+and then add a simplified harness
+
+297
+00:09:19,370 --> 00:09:22,210
+allows cox to run a face in one go
+
+298
+00:09:22,210 --> 00:09:23,090
+Of course, in this case
+
+299
+00:09:23,090 --> 00:09:27,470
+It's just limited to building this project from scratch
+
+300
+00:09:27,470 --> 00:09:29,090
+This approach allows for rapid completion
+
+301
+00:09:29,090 --> 00:09:30,450
+and I made immediate corrections on the spot
+
+302
+00:09:30,450 --> 00:09:32,750
+At the very beginning, I thought the entire la thermal system was very important
+
+303
+00:09:32,750 --> 00:09:34,500
+But in fact, within this project
+
+304
+00:09:34,500 --> 00:09:36,260
+the initiation of a new project during the creation process
+
+305
+00:09:36,260 --> 00:09:39,080
+In fact, the LEGER system is not an absolute necessity in the early stages.
+
+306
+00:09:39,080 --> 00:09:40,200
+and what's more crucial in the early stages is
+
+307
+00:09:40,200 --> 00:09:42,180
+clarify the entire project specification
+
+308
+00:09:42,180 --> 00:09:43,880
+break down the to-do items more reasonably
+
+309
+00:09:43,880 --> 00:09:45,880
+Only in this way can the entire operation
+
+310
+00:09:45,880 --> 00:09:47,240
+the operational track can then stabilize
+
+311
+00:09:47,240 --> 00:09:48,080
+and I also clearly stated
+
+312
+00:09:48,080 --> 00:09:49,100
+the entire face and sub-face
+
+313
+00:09:49,100 --> 00:09:52,700
+It still currently requires manual connection
+
+314
+00:09:53,100 --> 00:09:55,060
+Then on December 11th
+
+315
+00:09:55,060 --> 00:09:57,180
+I can deliver reproducible materials at the first attempt.
+
+316
+00:09:57,180 --> 00:09:57,920
+It's not just about the idea.
+
+317
+00:09:57,920 --> 00:09:59,740
+What I delivered was a complete membership
+
+318
+00:09:59,740 --> 00:10:02,079
+Of course, it can be previewed.
+
+319
+00:10:02,079 --> 00:10:04,439
+The interactive part is a prompt that can generate a to-do list
+
+320
+00:10:04,439 --> 00:10:05,579
+and the entire scheduler
+
+321
+00:10:05,579 --> 00:10:07,159
+and a review of the entire workflow
+
+322
+00:10:07,159 --> 00:10:09,280
+and subin shame
+
+323
+00:10:09,520 --> 00:10:11,720
+Of course, the most important thing was that the sub_int.sh at that time
+
+324
+00:10:11,720 --> 00:10:13,600
+It was just a very simple script
+
+325
+00:10:13,600 --> 00:10:15,620
+It is only responsible for being used as a sub int.
+
+326
+00:10:15,620 --> 00:10:18,240
+And in this, I've strictly enforced the discipline
+
+327
+00:10:18,240 --> 00:10:20,640
+The master controller is only responsible for scheduling and acceptance
+
+328
+00:10:20,640 --> 00:10:22,780
+Moreover, the entire process must strictly adhere to serial execution
+
+329
+00:10:22,780 --> 00:10:24,980
+If it fails to pass the structural check, it must be reworked immediately
+
+330
+00:10:24,980 --> 00:10:27,740
+and to have the entire COS invoke SAVATION
+
+331
+00:10:27,740 --> 00:10:28,460
+when executing
+
+332
+00:10:28,460 --> 00:10:31,330
+the current thread id needs to be persisted
+
+333
+00:10:31,330 --> 00:10:31,730
+After it's logged
+
+334
+00:10:31,730 --> 00:10:33,450
+we can trace it through the sub-town's configuration file
+
+335
+00:10:33,450 --> 00:10:35,650
+to trace how the entire SAB town was executed
+
+336
+00:10:35,650 --> 00:10:37,810
+Of course, this is already quite outdated compared to what comes later, right?
+
+337
+00:10:37,810 --> 00:10:41,740
+because, uh, we'll talk about this later, uh
+
+338
+00:10:41,740 --> 00:10:42,740
+Now we come to December 15th.
+
+339
+00:10:42,740 --> 00:10:44,530
+The core message of this video
+
+340
+00:10:44,530 --> 00:10:46,590
+whether we can go to sleep with peace of mind
+
+341
+00:10:46,590 --> 00:10:47,730
+does not depend on how smart I am
+
+342
+00:10:47,730 --> 00:10:49,170
+but rather depends on whether there is an evidence chain when I verify it the next day
+
+343
+00:10:49,170 --> 00:10:50,010
+whether there exists an evidence chain
+
+344
+00:10:50,010 --> 00:10:52,270
+At this point, I divided the system into three, uh
+
+345
+00:10:52,270 --> 00:10:53,230
+three things
+
+346
+00:10:53,230 --> 00:10:54,910
+One is the master control contract
+
+347
+00:10:54,910 --> 00:10:57,560
+which is the agent's MD I just mentioned
+
+348
+00:10:57,560 --> 00:10:58,620
+and the execution entry
+
+349
+00:10:58,620 --> 00:10:59,160
+audit deliverables
+
+350
+00:10:59,160 --> 00:10:59,860
+execution entry and audit artifacts
+
+351
+00:10:59,860 --> 00:11:02,020
+which is the subject shame I mentioned earlier
+
+352
+00:11:02,020 --> 00:11:04,260
+and finally, the complete evolutionary record is added
+
+353
+00:11:04,260 --> 00:11:04,700
+evolution record
+
+354
+00:11:04,700 --> 00:11:06,420
+In fact, I have condensed it here into
+
+355
+00:11:06,420 --> 00:11:07,960
+an EEVO file
+
+356
+00:11:07,960 --> 00:11:09,540
+It's just the six points of context mentioned above.
+
+357
+00:11:09,540 --> 00:11:10,380
+and the option
+
+358
+00:11:10,380 --> 00:11:11,100
+and design result
+
+359
+00:11:11,100 --> 00:11:13,400
+license, etc.
+
+360
+00:11:15,180 --> 00:11:16,500
+After this video is published
+
+361
+00:11:16,500 --> 00:11:19,390
+Then some members sent me private messages asking for the materials
+
+362
+00:11:19,390 --> 00:11:20,030
+That's when I realized
+
+363
+00:11:20,030 --> 00:11:21,430
+rather than designing a system all by myself
+
+364
+00:11:21,430 --> 00:11:22,510
+I had all the fun myself
+
+365
+00:11:22,510 --> 00:11:24,930
+It's better to deliver this thing to others as well
+
+366
+00:11:24,930 --> 00:11:27,680
+so that everyone can enjoy it together, right
+
+367
+00:11:27,680 --> 00:11:31,220
+So, in the next video, uh,
+
+368
+00:11:31,220 --> 00:11:34,200
+the entire AI coding pipeline
+
+369
+00:11:34,200 --> 00:11:35,880
+refactored the shame of SAVISION into
+
+370
+00:11:35,880 --> 00:11:37,890
+a deliverable refactoring
+
+371
+00:11:37,890 --> 00:11:39,710
+from turning it from a script into an engineered solution
+
+372
+00:11:39,710 --> 00:11:41,490
+and in this video
+
+373
+00:11:41,490 --> 00:11:43,930
+I further went to uh
+
+374
+00:11:43,930 --> 00:11:44,930
+further provided evidence
+
+375
+00:11:44,930 --> 00:11:46,490
+a four-hour example was run
+
+376
+00:11:46,490 --> 00:11:47,890
+and after several rounds
+
+377
+00:11:47,890 --> 00:11:52,070
+a task that continuously converged over 678 rounds
+
+378
+00:11:52,070 --> 00:11:53,519
+for everyone
+
+379
+00:11:53,519 --> 00:11:54,719
+is to propose a new idea
+
+380
+00:11:54,719 --> 00:11:56,039
+The key point is not that the AI is highly capable
+
+381
+00:11:56,039 --> 00:11:57,879
+but under the condition that the master control does not lower standards
+
+382
+00:11:57,879 --> 00:11:59,479
+even if your single-round task fails
+
+383
+00:11:59,479 --> 00:12:01,490
+it can ultimately be forcibly converged
+
+384
+00:12:01,490 --> 00:12:03,370
+Finally, I transformed the entire SEVENTATION
+
+385
+00:12:03,370 --> 00:12:05,190
+
+
+386
+00:12:05,190 --> 00:12:07,750
+Then, just like delivering a product, I treated it with the same level of care.
+
+387
+00:12:07,750 --> 00:12:09,610
+privately message it to everyone
+
+388
+00:12:11,520 --> 00:12:13,840
+So if you just look at one conclusion
+
+389
+00:12:13,840 --> 00:12:16,960
+I have currently delivered the entire Phase 2 foundation.
+
+390
+00:12:16,960 --> 00:12:19,520
+for example, this entire face set
+
+391
+00:12:20,690 --> 00:12:22,990
+The pipeline is operational
+
+392
+00:12:22,990 --> 00:12:25,650
+and the correctness can be verified
+
+393
+00:12:26,910 --> 00:12:31,230
+For example, this refers to our master control plus audit directory
+
+394
+00:12:32,270 --> 00:12:34,230
+and can converge upon failure
+
+395
+00:12:35,530 --> 00:12:36,130
+Because what
+
+396
+00:12:36,130 --> 00:12:38,890
+Because the, uh, main controller has a counterattack mechanism
+
+397
+00:12:39,800 --> 00:12:42,150
+counterattack mechanism plus the evidence chain
+
+398
+00:12:42,150 --> 00:12:44,150
+This chain of evidence originates from our audit directory
+
+399
+00:12:44,150 --> 00:12:44,710
+each step
+
+400
+00:12:44,710 --> 00:12:45,930
+and in each round
+
+401
+00:12:45,930 --> 00:12:49,740
+And in the end, I actually learned something new as well
+
+402
+00:12:49,740 --> 00:12:50,740
+learned something new
+
+403
+00:12:50,740 --> 00:12:51,660
+is the delivery
+
+404
+00:12:51,660 --> 00:12:54,020
+from discussing ideas
+
+405
+00:12:54,489 --> 00:12:55,949
+I was just talking about ideas earlier
+
+406
+00:12:55,949 --> 00:12:59,289
+Then it turns into providing materials
+
+407
+00:13:01,780 --> 00:13:04,580
+This is what we have currently achieved.
+
+408
+00:13:05,370 --> 00:13:07,290
+Haha, all checked off
+
+409
+00:13:07,290 --> 00:13:09,090
+Currently, it has not yet been fulfilled
+
+410
+00:13:09,090 --> 00:13:11,010
+the two things I bragged about the most back then
+
+411
+00:13:11,010 --> 00:13:13,980
+The first one is to be able to span across multiple phases
+
+412
+00:13:13,980 --> 00:13:16,380
+unattended continuous long-running
+
+413
+00:13:21,800 --> 00:13:23,780
+Uh, just like when creating a new project
+
+414
+00:13:23,780 --> 00:13:25,740
+Of course, this is easy to handle
+
+415
+00:13:25,740 --> 00:13:29,030
+And then there's also, uh, Phase Three
+
+416
+00:13:29,030 --> 00:13:29,910
+in phase three
+
+417
+00:13:29,910 --> 00:13:33,550
+We need to remove ourselves from the entire process
+
+418
+00:13:33,550 --> 00:13:37,440
+And also his self-training system, right?
+
+419
+00:13:37,440 --> 00:13:39,260
+Through so many interactions with me
+
+420
+00:13:39,260 --> 00:13:41,040
+he has gained a basic understanding of me as a whole
+
+421
+00:13:41,040 --> 00:13:42,180
+He knows what Me style is like
+
+422
+00:13:42,180 --> 00:13:43,620
+Where do these things come from
+
+423
+00:13:43,620 --> 00:13:45,640
+Actually, it all comes from the entire EVO file.
+
+424
+00:13:45,640 --> 00:13:47,840
+Ultimately, I need to finalize my style
+
+425
+00:13:47,840 --> 00:13:49,550
+defined as a series of rules
+
+426
+00:13:49,550 --> 00:13:51,350
+Next I will only focus on two pipelines
+
+427
+00:13:51,350 --> 00:13:53,430
+and have clear priorities
+
+428
+00:13:53,430 --> 00:13:54,990
+First and foremost priority
+
+429
+00:13:54,990 --> 00:13:58,990
+The top priority is definitely to engineer the current existing pipeline.
+
+430
+00:14:02,520 --> 00:14:04,800
+Because our current savision shame has already become
+
+431
+00:14:04,800 --> 00:14:05,500
+has been localized
+
+432
+00:14:05,500 --> 00:14:07,080
+Of course, it also inherently has many issues
+
+433
+00:14:07,080 --> 00:14:09,040
+there are also many issues that I need to fix
+
+434
+00:14:09,040 --> 00:14:10,560
+Of course, if you encounter any issues during the process
+
+435
+00:14:10,560 --> 00:14:11,760
+encounter any issues during use
+
+436
+00:14:11,760 --> 00:14:13,000
+and feel free to bring it up in the group chat
+
+437
+00:14:13,000 --> 00:14:14,800
+then I will proceed with further upgrades
+
+438
+00:14:14,800 --> 00:14:15,840
+Then the second, uh,
+
+439
+00:14:15,840 --> 00:14:16,240
+The second aspect
+
+440
+00:14:16,240 --> 00:14:19,100
+Currently, the entire control is derived from the DMD of this A certificate
+
+441
+00:14:19,100 --> 00:14:19,960
+to constrain it
+
+442
+00:14:19,960 --> 00:14:23,060
+Of course, it's somewhat unreliable to constrain it solely through problems.
+
+443
+00:14:23,060 --> 00:14:25,260
+For example, the demo I just showed, right
+
+444
+00:14:25,260 --> 00:14:26,300
+I made a request to him
+
+445
+00:14:26,300 --> 00:14:27,780
+He ultimately, as a seasoned programmer
+
+446
+00:14:27,780 --> 00:14:29,580
+will ultimately check whether it can succeed
+
+447
+00:14:29,580 --> 00:14:30,460
+At least whether it can compile successfully
+
+448
+00:14:30,460 --> 00:14:31,820
+Right, let's not even talk about how it runs for now
+
+449
+00:14:31,820 --> 00:14:34,100
+As a result, he didn't even manage to compile successfully, which is such a basic thing
+
+450
+00:14:34,100 --> 00:14:34,700
+Because I didn't mention it
+
+451
+00:14:34,700 --> 00:14:35,360
+so he didn't do it
+
+452
+00:14:35,360 --> 00:14:37,500
+Damn, I totally look like a slacking old-timer.
+
+453
+00:14:37,500 --> 00:14:41,630
+So, next we need to engineer the main controller.
+
+454
+00:14:42,830 --> 00:14:44,590
+Then the second priority
+
+455
+00:14:44,900 --> 00:14:48,440
+The second priority is, uh, I need to explore an, uh,
+
+456
+00:14:48,440 --> 00:14:50,860
+explore an active mechanism
+
+457
+00:14:53,760 --> 00:14:56,160
+Ah, like ChatGPT, ah
+
+458
+00:14:56,160 --> 00:14:57,760
+like pose
+
+459
+00:14:58,350 --> 00:15:00,990
+If you subscribe to the $200+ membership for ChatGPT Plus
+
+460
+00:15:00,990 --> 00:15:02,990
+He will push it to you promptly at 8 AM every day
+
+461
+00:15:02,990 --> 00:15:04,660
+some personalized information exclusive to you
+
+462
+00:15:04,660 --> 00:15:06,080
+Then you can also tell it to optimize
+
+463
+00:15:06,080 --> 00:15:07,300
+that is next time uh
+
+464
+00:15:07,300 --> 00:15:08,700
+What content do you want it to recommend to you
+
+465
+00:15:08,700 --> 00:15:11,849
+It's entirely based on your past conversation history
+
+466
+00:15:11,849 --> 00:15:13,429
+to push some small articles to you
+
+467
+00:15:13,429 --> 00:15:15,889
+If we only have the existing pipeline
+
+468
+00:15:15,889 --> 00:15:18,970
+If I have to poke it to actively go to the master control and perform a task
+
+469
+00:15:18,970 --> 00:15:20,090
+In this case
+
+470
+00:15:20,090 --> 00:15:20,410
+damn it
+
+471
+00:15:20,410 --> 00:15:23,130
+We will never be able to remove ourselves from the entire chain
+
+472
+00:15:23,130 --> 00:15:23,290
+right
+
+473
+00:15:23,290 --> 00:15:25,360
+so an active mechanism is definitely needed
+
+474
+00:15:25,360 --> 00:15:26,340
+What is this proactive mechanism for?
+
+475
+00:15:26,340 --> 00:15:29,020
+For example, I want it to be able to periodically scan the entire project
+
+476
+00:15:29,020 --> 00:15:31,340
+and predict what I might do next
+
+477
+00:15:31,340 --> 00:15:33,060
+or perhaps I currently have many bugs that haven't been fixed yet
+
+478
+00:15:33,060 --> 00:15:34,920
+then it won't actively fix the bugs
+
+479
+00:15:34,920 --> 00:15:37,060
+but to explore how I fix this bug
+
+480
+00:15:37,060 --> 00:15:39,970
+Perhaps he will perform a pre-repair action
+
+481
+00:15:39,970 --> 00:15:40,930
+It's like I haven't commanded him yet
+
+482
+00:15:40,930 --> 00:15:41,450
+he discovers oh
+
+483
+00:15:41,450 --> 00:15:42,130
+there are so many tasks to do
+
+484
+00:15:42,130 --> 00:15:42,700
+he does it himself
+
+485
+00:15:42,700 --> 00:15:43,140
+after completing
+
+486
+00:15:43,140 --> 00:15:44,100
+Then he might not have succeeded
+
+487
+00:15:44,100 --> 00:15:44,500
+after it failed
+
+488
+00:15:44,500 --> 00:15:45,540
+he has a reason for not accomplishing it
+
+489
+00:15:45,540 --> 00:15:45,780
+succeeded
+
+490
+00:15:45,780 --> 00:15:46,300
+That's even better, right?
+
+491
+00:15:46,300 --> 00:15:47,680
+He proactively completed it on his own.
+
+492
+00:15:47,680 --> 00:15:50,430
+So the second priority is to incorporate such an active mechanism into the existing logic
+
+493
+00:15:50,430 --> 00:15:51,870
+add such an active mechanism
+
+494
+00:15:53,230 --> 00:15:54,950
+Of course, the prerequisite for the second priority
+
+495
+00:15:54,950 --> 00:15:57,740
+must ensure the first D1 priority
+
+496
+00:15:57,740 --> 00:15:59,690
+that is, the stability of the entire foundation
+
+497
+00:15:59,690 --> 00:16:01,810
+Because if the first foundation is not stable
+
+498
+00:16:01,810 --> 00:16:03,510
+then the second one might just create noise
+
+499
+00:16:03,510 --> 00:16:05,150
+In the end, it just leads you to explore a pile of crap.
+
+500
+00:16:05,150 --> 00:16:05,890
+you can't use it anyway, right
+
+501
+00:16:05,890 --> 00:16:06,970
+This is also utterly ridiculous
+
+502
+00:16:06,970 --> 00:16:10,289
+So I won't create an active mechanism just for the sake of being cool
+
+503
+00:16:10,289 --> 00:16:12,169
+We must first lay a solid foundation
+
+504
+00:16:12,169 --> 00:16:12,869
+After it's well-established
+
+505
+00:16:12,869 --> 00:16:14,289
+under the precondition of being verifiable
+
+506
+00:16:14,289 --> 00:16:16,689
+we will then explore this proactive mechanism
+
+507
+00:16:17,260 --> 00:16:19,660
+Finally, at the end of the video, I'd like to briefly mention
+
+508
+00:16:19,660 --> 00:16:22,810
+I found that for those who are not programmers
+
+509
+00:16:22,810 --> 00:16:24,410
+but some thoughts for those who are very sensitive to AI
+
+510
+00:16:24,410 --> 00:16:26,490
+I'm now increasingly and clearly realizing
+
+511
+00:16:26,490 --> 00:16:30,029
+Programming is actually just the part that is most easily engineered.
+
+512
+00:16:30,029 --> 00:16:31,349
+when you have LEGER
+
+513
+00:16:31,349 --> 00:16:31,929
+with the master control
+
+514
+00:16:31,929 --> 00:16:32,789
+with auditing in place
+
+515
+00:16:32,789 --> 00:16:33,329
+You will find
+
+516
+00:16:33,329 --> 00:16:34,289
+Whether you're creating content
+
+517
+00:16:34,289 --> 00:16:35,049
+engaging in self-media
+
+518
+00:16:35,049 --> 00:16:36,410
+even what you do every day
+
+519
+00:16:36,410 --> 00:16:39,079
+In essence, they are all the same type of executable tasks
+
+520
+00:16:39,079 --> 00:16:42,319
+This is the AI Gauss Lab that I will introduce in the future.
+
+521
+00:16:42,319 --> 00:16:43,159
+2.0
+
+522
+00:16:43,159 --> 00:16:43,719
+not switching channels
+
+523
+00:16:43,719 --> 00:16:46,730
+but to extend the same engine to more scenarios
+
+524
+00:16:46,730 --> 00:16:48,050
+but I won't elaborate on this in this episode
+
+525
+00:16:48,050 --> 00:16:50,410
+because your entire foundation is not yet solid
+
+526
+00:16:50,410 --> 00:16:51,800
+everything else would be just empty talk
+
+527
+00:16:51,800 --> 00:16:54,000
+So what you see in this video
+
+528
+00:16:54,000 --> 00:16:55,200
+not a showcase of achievements
+
+529
+00:16:55,200 --> 00:16:56,040
+but a confrontation
+
+530
+00:16:56,040 --> 00:16:57,400
+the grand claims I made before
+
+531
+00:16:57,400 --> 00:16:58,120
+which have been delivered
+
+532
+00:16:58,120 --> 00:16:59,160
+which ones were just hot air
+
+533
+00:16:59,160 --> 00:17:00,560
+and what is still outstanding
+
+534
+00:17:00,560 --> 00:17:01,760
+I'll keep running
+
+535
+00:17:01,760 --> 00:17:02,340
+continue exploring
+
+536
+00:17:02,340 --> 00:17:03,040
+and continue to crash
+
+537
+00:17:03,040 --> 00:17:04,880
+and then continue to lay out all the evidence
+
+538
+00:17:04,880 --> 00:17:06,660
+because the entire process is not a wish-fulfillment story
+
+539
+00:17:06,660 --> 00:17:07,819
+but an engineering process
+
+540
+00:17:07,819 --> 00:17:09,720
+Alright, that's all for this video.
+
+541
+00:17:09,720 --> 00:17:12,819
+Welcome everyone and thank you for the support from our Power Up members
+
+542
+00:17:12,819 --> 00:17:13,760
+Thank you everyone
+

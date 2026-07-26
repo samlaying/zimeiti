@@ -1,0 +1,816 @@
+1
+00:00:00,080 --> 00:00:01,560
+2026 has just begun
+
+2
+00:00:01,560 --> 00:00:05,310
+Everyone has been bombarded by several domestic large AI models.
+
+3
+00:00:05,310 --> 00:00:06,950
+I worked overnight for 5 hours
+
+4
+00:00:06,950 --> 00:00:07,750
+conducted a comprehensive test of
+
+5
+00:00:07,750 --> 00:00:10,470
+their performance in complex project development
+
+6
+00:00:10,470 --> 00:00:12,370
+The results are completely unexpected.
+
+7
+00:00:12,370 --> 00:00:13,530
+After watching this video
+
+8
+00:00:13,530 --> 00:00:15,300
+you will know how to choose
+
+9
+00:00:15,300 --> 00:00:17,100
+If you don't want to watch the evaluation process
+
+10
+00:00:17,100 --> 00:00:19,340
+You can directly skip to the results section at the end of the video
+
+11
+00:00:19,340 --> 00:00:20,820
+Remember to triple-combo and follow!
+
+12
+00:00:20,820 --> 00:00:24,500
+From two days before the Spring Festival, DeepSeek launched the official version V3.2
+
+13
+00:00:24,500 --> 00:00:28,119
+supporting 1 million tokens, to the release of the GLM 5 open-source model
+
+14
+00:00:28,119 --> 00:00:31,079
+and MiniMax launched its new 2.5 version
+
+15
+00:00:31,079 --> 00:00:32,079
+What's even more exaggerated is
+
+16
+00:00:32,079 --> 00:00:35,039
+Qwen3.5 plus was released on New Year's Eve
+
+17
+00:00:35,039 --> 00:00:36,629
+setting various records
+
+18
+00:00:36,629 --> 00:00:40,250
+But the question is, who performs best in AI programming?
+
+19
+00:00:40,250 --> 00:00:43,750
+I used a practical development case to test the actual development capabilities and results.
+
+20
+00:00:43,750 --> 00:00:45,770
+from UI design to project completion
+
+21
+00:00:45,770 --> 00:00:46,910
+covering UI effects
+
+22
+00:00:46,910 --> 00:00:49,720
+Coding proficiency and tool invocation cost overheads
+
+23
+00:00:49,720 --> 00:00:52,100
+Since DeepSeek did not release the V4 version in time
+
+24
+00:00:52,100 --> 00:00:53,440
+This comparison will not include it
+
+25
+00:00:53,440 --> 00:00:54,800
+otherwise it would be unfair
+
+26
+00:00:54,800 --> 00:00:58,000
+The remaining three models run simultaneously, with three cloud code instances for GLM and MiniMax.
+
+27
+00:00:58,000 --> 00:01:01,600
+MiniMax 2.5 adopts the purchased coding plan package
+
+28
+00:01:01,600 --> 00:01:03,220
+Here, everyone needs to pay attention again
+
+29
+00:01:03,220 --> 00:01:09,820
+GLM is currently only available in Pro and Max plans, while Qwen 3.5 plus is directly paid via API.
+
+30
+00:01:09,820 --> 00:01:12,780
+Because its coding plan does not yet support the Qwen3.5 plus model
+
+31
+00:01:12,780 --> 00:01:14,500
+Qwen3.5-plus model
+
+32
+00:01:14,500 --> 00:01:16,860
+To ensure the fairness and validity of the comparison
+
+33
+00:01:16,860 --> 00:01:20,630
+We all adopt the Claude Code plus Skills mode for development.
+
+34
+00:01:20,630 --> 00:01:22,270
+Adopt the same requirements
+
+35
+00:01:22,270 --> 00:01:26,190
+including project objectives, character functionality, tech stack, and UI requirements
+
+36
+00:01:26,190 --> 00:01:27,170
+project structure, etc.
+
+37
+00:01:27,170 --> 00:01:29,500
+but each element is clear, concise, and complete
+
+38
+00:01:29,500 --> 00:01:33,180
+The testing process is divided into three steps
+
+39
+00:01:33,180 --> 00:01:34,660
+1. Prepare a parallel development environment
+
+40
+00:01:34,660 --> 00:01:36,600
+Install external tools on GitHub
+
+41
+00:01:36,600 --> 00:01:38,330
+It is slightly different from CC-Switch
+
+42
+00:01:38,330 --> 00:01:41,330
+It allows multiple claude code to run different models simultaneously
+
+43
+00:01:41,330 --> 00:01:43,610
+
+
+44
+00:01:43,610 --> 00:01:45,670
+will not be repeated here
+
+45
+00:01:45,670 --> 00:01:48,670
+Here we create three directories in VS Code
+
+46
+00:01:48,670 --> 00:01:51,230
+namely GLM 5, Minimax 2.5, and Qwen3.5
+
+47
+00:01:51,230 --> 00:01:53,070
+2.5 and QW3.5
+
+48
+00:01:53,070 --> 00:01:56,039
+Create a docs directory in each file directory
+
+49
+00:01:56,039 --> 00:01:58,799
+
+
+50
+00:01:58,799 --> 00:02:00,299
+then run the vibe command separately
+
+51
+00:02:00,299 --> 00:02:01,479
+Select different suppliers
+
+52
+00:02:01,479 --> 00:02:03,140
+and enter the corresponding ApiKey
+
+53
+00:02:03,140 --> 00:02:04,580
+The first one uses GLM 5
+
+54
+00:02:04,580 --> 00:02:06,260
+The second one uses Minimax 2.5
+
+55
+00:02:06,260 --> 00:02:09,930
+the third one uses Qwen3.5-plus
+
+56
+00:02:09,930 --> 00:02:11,330
+2 Install the corresponding skills
+
+57
+00:02:11,330 --> 00:02:13,950
+We will use two core skills during our development process.
+
+58
+00:02:13,950 --> 00:02:17,200
+UI-UX-Pro-Max and superpowers
+
+59
+00:02:17,200 --> 00:02:19,340
+SKILLS, the first one is to evaluate their UI design capabilities
+
+60
+00:02:19,340 --> 00:02:21,360
+The second is to observe their understanding of requirements
+
+61
+00:02:21,360 --> 00:02:24,140
+the breakdown of the plan and the comprehensive capability of product development. Let's first open the Minimax page to take a look
+
+62
+00:02:24,140 --> 00:02:26,240
+First, install these two skills separately
+
+63
+00:02:26,240 --> 00:02:27,180
+The method is very simple
+
+64
+00:02:27,180 --> 00:02:29,900
+Simply use the npx skills command for installation.
+
+65
+00:02:29,900 --> 00:02:31,140
+To supplement
+
+66
+00:02:31,140 --> 00:02:33,000
+Superpowers has many skills
+
+67
+00:02:33,000 --> 00:02:34,240
+We only have 3 here
+
+68
+00:02:34,240 --> 00:02:36,530
+so first directly install the required 3 skills
+
+69
+00:02:36,530 --> 00:02:39,570
+For other features, you can also install the complete content on Github.
+
+70
+00:02:39,570 --> 00:02:42,770
+Three development tests were conducted, starting with the creation of UI prototypes.
+
+71
+00:02:42,770 --> 00:02:45,589
+Run the following commands in the three Claude codes respectively
+
+72
+00:02:45,589 --> 00:02:47,789
+Start in the order of 1, 2, 3 respectively
+
+73
+00:02:47,789 --> 00:02:50,920
+We quickly saw Qwen 3.5 and MiniMax 2.5
+
+74
+00:02:50,920 --> 00:02:54,340
+quickly started the prototype development based on this skill
+
+75
+00:02:54,340 --> 00:02:57,540
+and informed that it would generate an interactive HTML page, while GLM 5 seemed slower
+
+76
+00:02:57,540 --> 00:02:59,580
+while GLM 5 seems to be slower
+
+77
+00:02:59,580 --> 00:03:01,300
+probably too many people are using the server
+
+78
+00:03:01,300 --> 00:03:02,340
+a bit underwhelming
+
+79
+00:03:02,340 --> 00:03:03,740
+After about 6 minutes
+
+80
+00:03:03,740 --> 00:03:06,410
+We can see that Mini Max has completed the UI prototype design
+
+81
+00:03:06,410 --> 00:03:08,230
+Then Qwen has also completed it
+
+82
+00:03:08,230 --> 00:03:12,240
+The UI effect looks decent
+
+83
+00:03:12,240 --> 00:03:14,340
+It aligns well with the Tailwind design style.
+
+84
+00:03:14,340 --> 00:03:16,380
+All four tab menus are clickable
+
+85
+00:03:16,380 --> 00:03:19,740
+each also has simulated data, with some functions being non-clickable
+
+86
+00:03:19,740 --> 00:03:22,220
+In contrast, Qwen's interface is much more minimalist.
+
+87
+00:03:22,220 --> 00:03:24,400
+It belongs to a very traditional UI prototype layout effect
+
+88
+00:03:24,400 --> 00:03:25,680
+The effect is acceptable
+
+89
+00:03:25,680 --> 00:03:28,700
+but it doesn't show a strong sense of design
+
+90
+00:03:30,280 --> 00:03:32,520
+We won't wait for GLM 5 to complete
+
+91
+00:03:32,520 --> 00:03:35,580
+Let these two with completed UI designs proceed first.
+
+92
+00:03:35,580 --> 00:03:38,900
+First, use the 'writing plans' skill we installed
+
+93
+00:03:38,900 --> 00:03:40,220
+Write the development plan
+
+94
+00:03:40,220 --> 00:03:41,960
+
+
+95
+00:03:41,960 --> 00:03:43,780
+UI prototypes, as well as the versal react native skill for writing
+
+96
+00:03:43,780 --> 00:03:45,850
+writing native skills
+
+97
+00:03:45,850 --> 00:03:49,210
+At this point, both Qwen and MiniMax directly invoked the relevant skills
+
+98
+00:03:49,210 --> 00:03:51,329
+Start drafting the complete development plan
+
+99
+00:03:51,329 --> 00:03:52,689
+After the plan is completed in a moment
+
+100
+00:03:52,689 --> 00:03:54,469
+
+
+101
+00:03:54,469 --> 00:03:57,080
+Let's take a look, the entire development plan is approximately 2,000 lines long.
+
+102
+00:03:57,080 --> 00:03:58,100
+approximately over 2,000 lines
+
+103
+00:03:58,100 --> 00:03:59,640
+Open the Qianwan development plan again
+
+104
+00:03:59,640 --> 00:04:01,980
+
+
+105
+00:04:01,980 --> 00:04:04,660
+The generation time is slightly longer than MiniMax.
+
+106
+00:04:04,660 --> 00:04:07,560
+At this point, we look at GLM again, and there is still not much progress.
+
+107
+00:04:07,560 --> 00:04:08,920
+The API request timed out
+
+108
+00:04:08,920 --> 00:04:11,160
+After manually stopping it, let it continue the development
+
+109
+00:04:11,160 --> 00:04:12,579
+but the effect is not obvious
+
+110
+00:04:12,579 --> 00:04:13,839
+After the plan is written
+
+111
+00:04:13,839 --> 00:04:15,779
+We let it start executing the development plan
+
+112
+00:04:15,779 --> 00:04:18,178
+require the use of subagent-driven-development
+
+113
+00:04:18,178 --> 00:04:19,798
+development mode respectively
+
+114
+00:04:19,798 --> 00:04:22,479
+Now Qwen and MiniMax will first execute the executing-plans
+
+115
+00:04:22,479 --> 00:04:23,079
+Jian Plus
+
+116
+00:04:23,079 --> 00:04:23,840
+this feature
+
+117
+00:04:23,840 --> 00:04:27,760
+Automatically perform complete project development based on the organized development plan.
+
+118
+00:04:27,760 --> 00:04:28,840
+During the development process
+
+119
+00:04:28,840 --> 00:04:30,720
+Here we can clearly see the differences
+
+120
+00:04:30,720 --> 00:04:33,580
+Minimax located my installed oh my claude code
+
+121
+00:04:33,580 --> 00:04:37,039
+and directly invoked the subagent for parallel development
+
+122
+00:04:37,039 --> 00:04:39,899
+while Qwen did not utilize this skill
+
+123
+00:04:39,899 --> 00:04:43,300
+It uses the Git worktree approach for parallel development.
+
+124
+00:04:43,300 --> 00:04:44,520
+From this perspective
+
+125
+00:04:44,520 --> 00:04:46,980
+Minimax's invocation of skills and tools
+
+126
+00:04:46,980 --> 00:04:49,220
+seems more accurate and advanced than Qwen
+
+127
+00:04:49,220 --> 00:04:53,090
+compatible with some of the more popular development methods currently in use
+
+128
+00:04:53,090 --> 00:04:55,830
+10X acceleration in progress... In terms of the number of tasks and the development time executed
+
+129
+00:04:55,830 --> 00:04:56,830
+The difference is actually not significant
+
+130
+00:04:56,830 --> 00:04:58,150
+But one very important point
+
+131
+00:04:58,150 --> 00:04:59,890
+We noticed that Qianwan during the development process
+
+132
+00:04:59,890 --> 00:05:01,830
+repeatedly compressing the context
+
+133
+00:05:01,830 --> 00:05:04,430
+This is also due to the difference in their development approaches.
+
+134
+00:05:04,430 --> 00:05:07,990
+This results in differences in the stability and effectiveness of the development.
+
+135
+00:05:07,990 --> 00:05:11,330
+Mini Max, on the other hand, completes the entire development plan and tasks in one go.
+
+136
+00:05:11,330 --> 00:05:13,780
+but was interrupted once midway
+
+137
+00:05:13,780 --> 00:05:15,820
+Both completed the project development tasks
+
+138
+00:05:15,820 --> 00:05:16,660
+after running
+
+139
+00:05:16,660 --> 00:05:17,510
+Unfortunately, both encountered a failure to display correctly on the first run
+
+140
+00:05:17,510 --> 00:05:20,770
+bug that could not be displayed correctly
+
+141
+00:05:20,770 --> 00:05:22,170
+Qwen took three attempts to fix
+
+142
+00:05:22,170 --> 00:05:23,760
+while MiniMax took two attempts
+
+143
+00:05:23,760 --> 00:05:25,760
+running on ports 8,091 and 8,090 respectively
+
+144
+00:05:25,760 --> 00:05:27,180
+and port 8090
+
+145
+00:05:27,180 --> 00:05:30,640
+can directly launch the web version for interface access
+
+146
+00:05:30,640 --> 00:05:33,440
+Here we can see that Qwen, although it can access the login page
+
+147
+00:05:33,440 --> 00:05:34,440
+but it seems incomplete
+
+148
+00:05:34,440 --> 00:05:35,800
+does not provide mock functionality
+
+149
+00:05:35,800 --> 00:05:37,320
+Unable to register or log in
+
+150
+00:05:37,320 --> 00:05:39,600
+and thus cannot see the specific page functionalities
+
+151
+00:05:39,600 --> 00:05:41,800
+The API usage fees have been overdrawn
+
+152
+00:05:41,800 --> 00:05:43,280
+I didn't proceed any further
+
+153
+00:05:43,280 --> 00:05:45,320
+Mini Max after successful execution
+
+154
+00:05:45,320 --> 00:05:47,200
+provides mock login functionality
+
+155
+00:05:47,200 --> 00:05:49,040
+Click to go directly to the Home
+
+156
+00:05:49,040 --> 00:05:51,340
+The functionality and content of the 4 Tab menus are visible
+
+157
+00:05:51,340 --> 00:05:53,220
+Basically similar to the UI prototype
+
+158
+00:05:53,220 --> 00:05:55,200
+also has relatively abundant data support
+
+159
+00:05:55,200 --> 00:05:57,940
+However, there are indeed some missing details in the functionality.
+
+160
+00:05:57,940 --> 00:05:59,100
+I ultimately gave up on GLM 5
+
+161
+00:05:59,100 --> 00:06:02,260
+running the official package in Claude Code
+
+162
+00:06:02,260 --> 00:06:05,689
+and instead used another IDE to test the GLM5 model
+
+163
+00:06:05,689 --> 00:06:07,529
+the speed was not an issue
+
+164
+00:06:07,529 --> 00:06:12,050
+Ultimately, the entire project was successfully developed and completed.
+
+165
+00:06:12,050 --> 00:06:14,170
+The project still failed to run successfully
+
+166
+00:06:14,170 --> 00:06:17,430
+From the developed UI prototype, the aesthetics are similar to MiniMax.
+
+167
+00:06:17,430 --> 00:06:19,030
+The APP interface was not visible
+
+168
+00:06:19,030 --> 00:06:21,870
+I was really frustrated by the official server.
+
+169
+00:06:22,030 --> 00:06:23,390
+Regarding multimodal capabilities
+
+170
+00:06:23,390 --> 00:06:25,530
+The GLM 5 model does not support multimodal capabilities.
+
+171
+00:06:25,530 --> 00:06:28,350
+while MiniMax also requires access via MCP
+
+172
+00:06:28,350 --> 00:06:29,470
+to understand images
+
+173
+00:06:29,470 --> 00:06:32,789
+while Qwen3.5-plus natively supports multimodal capabilities
+
+174
+00:06:32,789 --> 00:06:36,809
+and it even surpasses the Qwen-VL model in visual capabilities
+
+175
+00:06:36,809 --> 00:06:39,510
+should currently be the strongest among all open-source models
+
+176
+00:06:39,510 --> 00:06:41,390
+Finally, let's take a look at the final performance
+
+177
+00:06:41,390 --> 00:06:43,070
+and the token usage
+
+178
+00:06:43,070 --> 00:06:47,800
+1. GLMM5, we spent a huge amount of money on the Pro version package, 1. GLM5
+
+179
+00:06:47,800 --> 00:06:49,880
+The result only output two or three sentences.
+
+180
+00:06:49,880 --> 00:06:53,360
+
+
+181
+00:06:53,360 --> 00:06:57,890
+Unexpectedly, the backend showed a token consumption of 27%.
+
+182
+00:06:57,890 --> 00:06:59,570
+The official server is too unreliable.
+
+183
+00:06:59,570 --> 00:07:02,210
+Although we used the GLM 5 version on another platform
+
+184
+00:07:02,210 --> 00:07:04,450
+completed the UI prototype and project development
+
+185
+00:07:04,450 --> 00:07:06,110
+The cost of purchasing the plan is the highest
+
+186
+00:07:06,110 --> 00:07:07,280
+I really want a refund
+
+187
+00:07:07,280 --> 00:07:08,220
+but cannot get a refund
+
+188
+00:07:08,220 --> 00:07:09,280
+Everyone should be cautious.
+
+189
+00:07:09,280 --> 00:07:12,360
+2. MiniMax 2.5 purchased the 29-yuan package
+
+190
+00:07:12,360 --> 00:07:15,010
+not only completed the project development, but also achieved the fastest development speed
+
+191
+00:07:15,010 --> 00:07:17,650
+and the UI effect and restoration are the highest
+
+192
+00:07:17,650 --> 00:07:18,850
+the entire tokens
+
+193
+00:07:18,850 --> 00:07:22,020
+consumed only 79% of the cheapest plan quota
+
+194
+00:07:22,020 --> 00:07:26,500
+3. Qwen 3.5-plus currently adopts an API subscription model
+
+195
+00:07:26,500 --> 00:07:27,820
+The project is basically completed
+
+196
+00:07:27,820 --> 00:07:29,820
+The speed is not much different from Mini Max
+
+197
+00:07:29,820 --> 00:07:32,380
+but it performs slightly worse than MiniMax in terms of tool invocation, UI, and prototype rendering
+
+198
+00:07:32,380 --> 00:07:34,080
+slightly inferior to MiniMax
+
+199
+00:07:34,080 --> 00:07:35,900
+The project consumed over 200 million tokens
+
+200
+00:07:35,900 --> 00:07:38,830
+The actual API cost has a slight delay
+
+201
+00:07:38,830 --> 00:07:40,360
+approximately over 30 yuan
+
+202
+00:07:40,360 --> 00:07:43,120
+That's all for the results of my intensive testing during the Spring Festival version.
+
+203
+00:07:43,120 --> 00:07:44,280
+Hope this helps
+
+204
+00:07:44,280 --> 00:07:46,580
+Follow me to share more valuable content
+

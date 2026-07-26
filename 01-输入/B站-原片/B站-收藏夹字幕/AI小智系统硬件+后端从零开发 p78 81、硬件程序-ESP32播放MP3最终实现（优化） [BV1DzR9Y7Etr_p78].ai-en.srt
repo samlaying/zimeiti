@@ -1,0 +1,740 @@
+1
+00:00:00,860 --> 00:00:02,260
+Alright, let's continue from where we left off last class.
+
+2
+00:00:02,260 --> 00:00:03,780
+Let's optimize this method.
+
+3
+00:00:03,780 --> 00:00:06,500
+Now, while we've added a lock here in our method,
+
+4
+00:00:06,500 --> 00:00:08,340
+when you add items to the queue,
+
+5
+00:00:08,340 --> 00:00:09,460
+this part is locked,
+
+6
+00:00:09,460 --> 00:00:14,620
+but if two threads try to, um,
+
+7
+00:00:14,620 --> 00:00:17,060
+insert a task at the same time,
+
+8
+00:00:17,060 --> 00:00:19,799
+then we need to clarify what happens in our task queue,
+
+9
+00:00:19,799 --> 00:00:22,600
+as it might have additional insertions.
+
+10
+00:00:22,600 --> 00:00:24,440
+You're inserting some in the middle as well
+
+11
+00:00:24,440 --> 00:00:27,080
+So the two sounds overlap
+
+12
+00:00:27,080 --> 00:00:28,340
+It will get chaotic
+
+13
+00:00:28,340 --> 00:00:31,360
+That's why we need to wait for the background task
+
+14
+00:00:31,360 --> 00:00:33,000
+While it's playing the music
+
+15
+00:00:33,000 --> 00:00:34,100
+The new music playback
+
+16
+00:00:34,100 --> 00:00:35,920
+We need to wait for its background task to complete
+
+17
+00:00:35,920 --> 00:00:36,870
+How do we wait?
+
+18
+00:00:36,870 --> 00:00:38,970
+I'll just copy it over here
+
+19
+00:00:38,970 --> 00:00:41,430
+a method for waiting
+
+20
+00:00:41,930 --> 00:00:42,490
+click it
+
+21
+00:00:42,490 --> 00:00:46,170
+in the file, I add a method to wait for this background task to complete
+
+22
+00:00:46,170 --> 00:00:47,110
+such a method
+
+23
+00:00:47,110 --> 00:00:49,970
+then we write this method here
+
+24
+00:00:52,440 --> 00:00:54,900
+copy this and paste it here
+
+25
+00:00:54,900 --> 00:00:56,280
+it's quite simple
+
+26
+00:00:56,280 --> 00:00:58,820
+first, I acquire the lock
+
+27
+00:00:58,820 --> 00:01:02,480
+then we wait inside the lock, wait for what
+
+28
+00:01:02,480 --> 00:01:04,160
+Wait for this queue to be empty
+
+29
+00:01:04,160 --> 00:01:10,030
+and the last task has also been executed
+
+30
+00:01:10,030 --> 00:01:13,110
+If you just wait for the queue to be empty
+
+31
+00:01:13,110 --> 00:01:14,930
+there might still be a task executing, right?
+
+32
+00:01:14,930 --> 00:01:16,250
+So we should be more precise
+
+33
+00:01:16,250 --> 00:01:18,069
+just wait for it to be empty
+
+34
+00:01:18,069 --> 00:01:19,689
+or return when it equals zero
+
+35
+00:01:19,689 --> 00:01:22,280
+When we define it
+
+36
+00:01:22,280 --> 00:01:24,320
+we didn't set it to equal zero
+
+37
+00:01:24,320 --> 00:01:27,680
+So, we use its constructor here
+
+38
+00:01:27,680 --> 00:01:29,080
+We set it to zero
+
+39
+00:01:29,080 --> 00:01:32,229
+This means during initialization, we set it to zero
+
+40
+00:01:32,229 --> 00:01:35,629
+Then this way, it won’t cause a deadlock
+
+41
+00:01:35,629 --> 00:01:37,780
+Otherwise, it would lead to a deadlock
+
+42
+00:01:37,780 --> 00:01:39,220
+This is the wait method
+
+43
+00:01:39,220 --> 00:01:42,960
+Next, we need to
+
+44
+00:01:42,960 --> 00:01:43,920
+And there’s one more thing
+
+45
+00:01:43,920 --> 00:01:45,680
+Regarding this wait method
+
+46
+00:01:45,680 --> 00:01:46,760
+We can start writing it here.
+
+47
+00:01:46,760 --> 00:01:50,110
+In this app, right here.
+
+48
+00:01:50,110 --> 00:01:51,610
+Before we play this,
+
+49
+00:01:51,610 --> 00:01:55,370
+We wait for the queue to finish the tasks.
+
+50
+00:01:55,370 --> 00:01:56,930
+How do we call the background task completion?
+
+51
+00:01:56,930 --> 00:02:05,040
+It's the work that calls this method.
+
+52
+00:02:05,040 --> 00:02:09,699
+Before this, we constructed it here.
+
+53
+00:02:09,699 --> 00:02:11,660
+This created one.
+
+54
+00:02:11,660 --> 00:02:12,460
+Let's take a look.
+
+55
+00:02:12,460 --> 00:02:13,540
+Here we instantiate one, right?
+
+56
+00:02:14,540 --> 00:02:18,010
+So we can directly use it for waiting.
+
+57
+00:02:18,079 --> 00:02:21,579
+Then, we also have this queue, don't we?
+
+58
+00:02:21,579 --> 00:02:23,119
+Regarding this queue,
+
+59
+00:02:23,119 --> 00:02:24,610
+we need to make it empty.
+
+60
+00:02:24,610 --> 00:02:26,390
+Then we add items to it.
+
+61
+00:02:26,390 --> 00:02:27,170
+To be precise,
+
+62
+00:02:27,170 --> 00:02:28,210
+it should be set to empty.
+
+63
+00:02:28,210 --> 00:02:29,430
+How do we make it empty?
+
+64
+00:02:29,430 --> 00:02:31,110
+So, we need to create one here.
+
+65
+00:02:31,110 --> 00:02:32,070
+Finally, in this queue,
+
+66
+00:02:32,070 --> 00:02:33,440
+We just did this right before,
+
+67
+00:02:33,440 --> 00:02:35,160
+Our queue is named like this,
+
+68
+00:02:35,160 --> 00:02:36,400
+We are right here,
+
+69
+00:02:36,400 --> 00:02:38,920
+Let's make the naming more standardized.
+
+70
+00:02:38,920 --> 00:02:41,250
+Just copy this name over.
+
+71
+00:02:41,650 --> 00:02:44,950
+This naming is for the OPEX queue, right?
+
+72
+00:02:44,950 --> 00:02:47,220
+This makes it more intuitive.
+
+73
+00:02:47,220 --> 00:02:48,300
+Then delete this.
+
+74
+00:02:48,300 --> 00:02:49,580
+Then fix the error.
+
+75
+00:02:49,580 --> 00:02:51,950
+What is this condition?
+
+76
+00:02:51,950 --> 00:02:53,210
+This is a condition variable.
+
+77
+00:02:53,210 --> 00:02:53,990
+Regarding the condition variable,
+
+78
+00:02:53,990 --> 00:02:56,790
+we'll need to manage this queue later.
+
+79
+00:02:57,210 --> 00:02:58,570
+So let's define it first.
+
+80
+00:02:58,570 --> 00:03:00,550
+Then let's fix this error.
+
+81
+00:03:00,550 --> 00:03:03,970
+Here, we need to rename these.
+
+82
+00:03:03,970 --> 00:03:05,980
+Let's make some changes again
+
+83
+00:03:08,940 --> 00:03:11,780
+Right here
+
+84
+00:03:12,650 --> 00:03:17,609
+And then we wait at this spot
+
+85
+00:03:17,609 --> 00:03:19,349
+Before playing this
+
+86
+00:03:19,349 --> 00:03:21,620
+We also make sure the queue is empty
+
+87
+00:03:21,620 --> 00:03:22,860
+We wait for the queue to be empty
+
+88
+00:03:22,860 --> 00:03:24,400
+How do we wait?
+
+89
+00:03:24,740 --> 00:03:26,780
+We wait like this, right?
+
+90
+00:03:26,780 --> 00:03:29,839
+Let's copy this
+
+91
+00:03:29,839 --> 00:03:31,059
+The waiting queue is empty
+
+92
+00:03:31,059 --> 00:03:33,439
+Actually, we could write a method for this
+
+93
+00:03:33,439 --> 00:03:34,979
+Which queue are we waiting for to be empty?
+
+94
+00:03:34,979 --> 00:03:39,670
+We'll just wait for our queue, and we won't write a method for this
+
+95
+00:03:39,670 --> 00:03:40,430
+Let's not write a method for now
+
+96
+00:03:40,430 --> 00:03:41,350
+If we use it here
+
+97
+00:03:41,350 --> 00:03:42,700
+We can just use it directly here
+
+98
+00:03:42,700 --> 00:03:44,540
+If we end up using it frequently later
+
+99
+00:03:44,540 --> 00:03:45,440
+We can write a method for it
+
+100
+00:03:45,440 --> 00:03:46,340
+So, moving on here,
+
+101
+00:03:46,340 --> 00:03:49,490
+the lock we acquire is this lock,
+
+102
+00:03:49,490 --> 00:03:50,630
+we acquire this lock,
+
+103
+00:03:50,630 --> 00:03:52,330
+and after acquiring the lock,
+
+104
+00:03:52,330 --> 00:03:54,510
+we call its condition here,
+
+105
+00:03:54,510 --> 00:03:56,070
+this specific condition statement,
+
+106
+00:03:56,070 --> 00:03:57,860
+which condition variable is it?
+
+107
+00:03:57,860 --> 00:04:01,080
+in the app, we defined this condition earlier,
+
+108
+00:04:01,080 --> 00:04:05,399
+we use this condition variable to wait.
+
+109
+00:04:05,399 --> 00:04:06,319
+What are we waiting for?
+
+110
+00:04:06,319 --> 00:04:08,259
+We're waiting for this queue to be empty.
+
+111
+00:04:08,259 --> 00:04:10,969
+It's fine once this queue is empty.
+
+112
+00:04:10,969 --> 00:04:12,549
+We just need to wait for this condition to be met.
+
+113
+00:04:12,549 --> 00:04:14,349
+We're waiting for this queue to be empty.
+
+114
+00:04:14,349 --> 00:04:17,779
+When will it wake up?
+
+115
+00:04:17,779 --> 00:04:18,978
+Let's not get into that for now.
+
+116
+00:04:18,978 --> 00:04:20,418
+Let's first look at the scope of this.
+
+117
+00:04:20,418 --> 00:04:22,270
+Here, we're acquiring a lock.
+
+118
+00:04:22,590 --> 00:04:25,110
+So, this lock will only be released later, right?
+
+119
+00:04:25,110 --> 00:04:27,720
+Then we need to add a scope here.
+
+120
+00:04:27,720 --> 00:04:29,320
+Let's have a code block.
+
+121
+00:04:29,320 --> 00:04:30,840
+This is a new scope.
+
+122
+00:04:30,840 --> 00:04:31,760
+Regarding this scope,
+
+123
+00:04:31,760 --> 00:04:34,380
+it will release here inside.
+
+124
+00:04:34,380 --> 00:04:36,450
+Then let's see when it wakes up.
+
+125
+00:04:36,450 --> 00:04:38,490
+At this point, someone definitely needs to notify it.
+
+126
+00:04:38,490 --> 00:04:40,260
+Who will notify to wake up?
+
+127
+00:04:40,260 --> 00:04:41,900
+This is the producer.
+
+128
+00:04:41,900 --> 00:04:43,300
+He puts items into the queue.
+
+129
+00:04:43,300 --> 00:04:44,060
+It's the producer.
+
+130
+00:04:44,060 --> 00:04:45,580
+We should be the consumers.
+
+131
+00:04:45,580 --> 00:04:48,490
+When the queue is empty, we need to notify him. How do we notify him?
+
+132
+00:04:48,490 --> 00:04:49,890
+We still use this condition.
+
+133
+00:04:51,250 --> 00:04:53,190
+Here, this is the consumer.
+
+134
+00:04:53,190 --> 00:04:54,950
+Is he consuming here?
+
+135
+00:04:54,950 --> 00:04:56,010
+It will also check if it's empty.
+
+136
+00:04:56,010 --> 00:04:57,130
+When it's determined to be empty
+
+137
+00:04:57,130 --> 00:05:00,520
+we call this method here
+
+138
+00:05:00,520 --> 00:05:03,580
+which is to notify the producer
+
+139
+00:05:03,580 --> 00:05:07,020
+to inform the producer
+
+140
+00:05:07,020 --> 00:05:08,760
+at this point, when it's empty
+
+141
+00:05:08,760 --> 00:05:10,840
+it will release here
+
+142
+00:05:10,840 --> 00:05:13,350
+and then wake it up
+
+143
+00:05:13,350 --> 00:05:15,270
+after waking it up, it reacquires the lock
+
+144
+00:05:15,270 --> 00:05:18,430
+and then checks if it's empty again
+
+145
+00:05:18,430 --> 00:05:21,830
+Let's move on to the next step here.
+
+146
+00:05:21,830 --> 00:05:22,470
+That's how it is.
+
+147
+00:05:22,470 --> 00:05:25,590
+Then we'll test it again.
+
+148
+00:05:26,500 --> 00:05:30,950
+Uh, as mentioned in the last class, this playback two.
+
+149
+00:05:30,950 --> 00:05:33,190
+Will there be any noise with this two?
+
+150
+00:05:33,190 --> 00:05:34,110
+If there's any noise,
+
+151
+00:05:34,110 --> 00:05:36,590
+I'll look into whether it's a conversion issue.
+
+152
+00:05:36,590 --> 00:05:37,310
+Or something else.
+
+153
+00:05:37,310 --> 00:05:38,210
+I'll check it out later.
+
+154
+00:05:38,210 --> 00:05:40,120
+I'll put this audio number 2
+
+155
+00:05:40,120 --> 00:05:42,160
+in the notes for this class.
+
+156
+00:05:42,160 --> 00:05:46,490
+Just replace it with this one later.
+
+157
+00:05:46,490 --> 00:05:48,570
+I'll put this audio in the notes.
+
+158
+00:05:48,570 --> 00:05:49,610
+You can replace it later.
+
+159
+00:05:49,610 --> 00:05:51,030
+There's a bit of background noise.
+
+160
+00:05:51,030 --> 00:05:52,430
+Let's test it again.
+
+161
+00:05:52,430 --> 00:05:56,350
+To make sure it plays normally.
+
+162
+00:06:01,720 --> 00:06:03,720
+Enter the Bluetooth pairing mode.
+
+163
+00:06:03,720 --> 00:06:07,320
+Please use the app to connect to the Bluetooth named esp.
+
+164
+00:06:07,320 --> 00:06:11,020
+Three two slash three one two eight.
+
+165
+00:06:11,020 --> 00:06:12,640
+This two has some noise, though.
+
+166
+00:06:12,640 --> 00:06:16,270
+Then, you can try to adjust this.
+
+167
+00:06:16,270 --> 00:06:18,270
+If you don’t wake it up here,
+
+168
+00:06:18,270 --> 00:06:19,930
+it will stay locked here.
+
+169
+00:06:19,930 --> 00:06:22,909
+It waits for the lock at this point.
+
+170
+00:06:22,909 --> 00:06:25,309
+After it acquires the lock here,
+
+171
+00:06:25,309 --> 00:06:26,389
+it will go into sleep mode.
+
+172
+00:06:26,389 --> 00:06:28,120
+After it goes to sleep,
+
+173
+00:06:28,120 --> 00:06:29,940
+it will wait for the notification.
+
+174
+00:06:29,940 --> 00:06:32,100
+If this part is empty,
+
+175
+00:06:32,100 --> 00:06:33,140
+and you don’t notify it,
+
+176
+00:06:33,140 --> 00:06:35,340
+you can try to see if it stops here.
+
+177
+00:06:35,340 --> 00:06:37,580
+It plays the first audio,
+
+178
+00:06:37,580 --> 00:06:38,320
+which works fine,
+
+179
+00:06:38,320 --> 00:06:39,860
+but the subsequent audio won’t play.
+
+180
+00:06:39,860 --> 00:06:40,900
+You can test this out.
+
+181
+00:06:40,900 --> 00:06:42,220
+And this noise is an issue.
+
+182
+00:06:42,220 --> 00:06:43,260
+I’ll mark this as number two,
+
+183
+00:06:43,260 --> 00:06:44,620
+and once it’s fixed,
+
+184
+00:06:44,620 --> 00:06:46,640
+I’ll put it in the old notes,
+
+185
+00:06:46,640 --> 00:06:47,740
+at the bottom.
+

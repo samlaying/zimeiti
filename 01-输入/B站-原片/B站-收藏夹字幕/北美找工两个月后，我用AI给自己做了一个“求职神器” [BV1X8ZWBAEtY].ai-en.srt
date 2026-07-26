@@ -1,0 +1,536 @@
+1
+00:00:00,000 --> 00:00:03,360
+hello everyone, today I want to quickly share a tool I developed during my job search
+
+2
+00:00:03,360 --> 00:00:05,380
+a small job search tool I coded myself
+
+3
+00:00:05,380 --> 00:00:07,060
+returning to the job market this time
+
+4
+00:00:07,060 --> 00:00:09,980
+I feel like the competition is really, really, really fierce
+
+5
+00:00:09,980 --> 00:00:11,580
+The efficiency is really too low without using AI.
+
+6
+00:00:11,580 --> 00:00:12,700
+When I was looking for a job myself
+
+7
+00:00:12,700 --> 00:00:14,540
+often use GPT to help me
+
+8
+00:00:14,540 --> 00:00:16,660
+polish my resume and write some simple cover letters
+
+9
+00:00:16,660 --> 00:00:17,940
+prepare for interviews, etc.
+
+10
+00:00:17,940 --> 00:00:19,140
+But I often encounter a problem
+
+11
+00:00:19,140 --> 00:00:20,840
+as I apply for more positions
+
+12
+00:00:20,840 --> 00:00:23,120
+My chat history with GPT becomes extremely long
+
+13
+00:00:23,120 --> 00:00:25,440
+GPT also starts to lose some context
+
+14
+00:00:25,440 --> 00:00:28,100
+sometimes it mixes up the information from Job A with the resume for Job B
+
+15
+00:00:28,100 --> 00:00:30,120
+At this point, I have to explain it all over again
+
+16
+00:00:30,120 --> 00:00:31,580
+What if I start a new conversation?
+
+17
+00:00:31,580 --> 00:00:33,240
+I have to send the resume again
+
+18
+00:00:33,240 --> 00:00:34,960
+explain to it what it needs to do
+
+19
+00:00:34,960 --> 00:00:37,209
+Let's take a look at the results first. This is a landing page I created myself.
+
+20
+00:00:37,209 --> 00:00:38,209
+There are three main features
+
+21
+00:00:38,209 --> 00:00:39,969
+One is related to applications
+
+22
+00:00:39,969 --> 00:00:41,369
+such as resumes, cover letters, and so on
+
+23
+00:00:41,369 --> 00:00:43,289
+The second feature is the automatic parsing of the job description content.
+
+24
+00:00:43,289 --> 00:00:44,929
+The third is interview preparation
+
+25
+00:00:44,929 --> 00:00:48,440
+On the Home page, I have also organized everything according to the three stages of job search, application, and interview.
+
+26
+00:00:48,440 --> 00:00:50,520
+to organize the entry points for all my features
+
+27
+00:00:50,520 --> 00:00:52,940
+Starting from seeing a new job
+
+28
+00:00:52,940 --> 00:00:54,860
+The first step is to upload your resume.
+
+29
+00:00:54,860 --> 00:00:55,940
+Multiple files can be uploaded here
+
+30
+00:00:55,940 --> 00:00:58,260
+Then you can directly paste the JD link here
+
+31
+00:00:58,260 --> 00:01:00,590
+I'll just pick one randomly here
+
+32
+00:01:01,610 --> 00:01:05,209
+Then it will automatically list out some information that I'm particularly interested in
+
+33
+00:01:05,209 --> 00:01:06,840
+such as salary, identity
+
+34
+00:01:06,840 --> 00:01:08,360
+What does this company do?
+
+35
+00:01:08,360 --> 00:01:12,000
+some keywords mentioned in the JD that I might not have included in my resume
+
+36
+00:01:12,000 --> 00:01:13,440
+Because I'm really too lazy to read the JD
+
+37
+00:01:13,440 --> 00:01:16,120
+and sometimes the job description isn't visible when filling out applications
+
+38
+00:01:16,120 --> 00:01:17,160
+I have to go back and look for it
+
+39
+00:01:17,160 --> 00:01:20,100
+There is a button here that allows you to return to the original link at any time.
+
+40
+00:01:20,100 --> 00:01:22,460
+Next, we can tailor the resume based on the JD
+
+41
+00:01:22,460 --> 00:01:24,060
+see if the AI has any suggestions
+
+42
+00:01:24,060 --> 00:01:25,940
+The left side shows the original text of the resume
+
+43
+00:01:25,940 --> 00:01:28,400
+On the right is the wording suggested by the AI for modification
+
+44
+00:01:28,400 --> 00:01:31,000
+
+
+45
+00:01:31,000 --> 00:01:33,280
+or you can regenerate this specific content again
+
+46
+00:01:33,280 --> 00:01:34,160
+When I first designed it
+
+47
+00:01:34,160 --> 00:01:36,000
+There is also a resume export function here
+
+48
+00:01:36,000 --> 00:01:39,760
+But later I realized that I often need to adjust the format based on the content and length of the resume.
+
+49
+00:01:39,760 --> 00:01:42,140
+Actually, it's still more convenient for me to make adjustments in the original resume file.
+
+50
+00:01:42,140 --> 00:01:42,940
+more convenient
+
+51
+00:01:42,940 --> 00:01:43,740
+I gave up on this feature
+
+52
+00:01:43,740 --> 00:01:45,729
+and it can also generate a cover letter
+
+53
+00:01:45,729 --> 00:01:47,409
+generate this cold message
+
+54
+00:01:47,409 --> 00:01:48,929
+I use it to apply for VC jobs
+
+55
+00:01:48,929 --> 00:01:52,160
+or jobs that require sending LinkedIn messages or email applications
+
+56
+00:01:52,160 --> 00:01:55,040
+This is most commonly used when filling out applications.
+
+57
+00:01:55,040 --> 00:01:56,580
+Sometimes there are some custom questions
+
+58
+00:01:56,580 --> 00:01:57,560
+for example, they might ask you
+
+59
+00:01:57,560 --> 00:01:59,840
+why do you want to work here
+
+60
+00:02:01,139 --> 00:02:03,419
+Then the AI will generate a simple answer for me.
+
+61
+00:02:03,419 --> 00:02:04,539
+When I was working on these features
+
+62
+00:02:04,539 --> 00:02:05,539
+Actually, I found that as I mentioned in my previous video
+
+63
+00:02:05,539 --> 00:02:07,939
+simplify job
+
+64
+00:02:07,939 --> 00:02:08,299
+Visor
+
+65
+00:02:08,299 --> 00:02:08,699
+Job right
+
+66
+00:02:08,699 --> 00:02:10,600
+It actually has similar functionality
+
+67
+00:02:10,600 --> 00:02:12,920
+or even when entering a custom question
+
+68
+00:02:12,920 --> 00:02:15,380
+directly click the button in that input box
+
+69
+00:02:15,380 --> 00:02:16,460
+and generate the answer with one click
+
+70
+00:02:16,460 --> 00:02:18,700
+but the reason I didn't go in this direction is
+
+71
+00:02:18,700 --> 00:02:21,880
+One reason is that I think Simplify is already very good at auto fill
+
+72
+00:02:21,880 --> 00:02:23,200
+I don't need to create another Simplify
+
+73
+00:02:23,200 --> 00:02:23,560
+Secondly,
+
+74
+00:02:23,560 --> 00:02:25,840
+The Chrome extension is actually a very good use case
+
+75
+00:02:25,840 --> 00:02:27,280
+because it's right next to the JD
+
+76
+00:02:27,280 --> 00:02:28,300
+can be used anytime
+
+77
+00:02:28,300 --> 00:02:30,300
+That's because what I made isn't an auto fill tool
+
+78
+00:02:30,300 --> 00:02:32,260
+so I still need more screen Space
+
+79
+00:02:32,260 --> 00:02:33,440
+to implement other functions
+
+80
+00:02:33,440 --> 00:02:34,680
+such as the interview preparation section
+
+81
+00:02:34,680 --> 00:02:37,520
+Moreover, the custom question feature of these generation tools
+
+82
+00:02:37,520 --> 00:02:39,840
+usually require payment to generate
+
+83
+00:02:39,840 --> 00:02:40,880
+As someone who loves freebies
+
+84
+00:02:40,880 --> 00:02:42,480
+wouldn't be willing to spend this money
+
+85
+00:02:42,480 --> 00:02:44,360
+Because the model I'm currently using is Ollama
+
+86
+00:02:44,360 --> 00:02:46,280
+it can run locally on my computer
+
+87
+00:02:46,280 --> 00:02:47,180
+no need to spend money
+
+88
+00:02:47,180 --> 00:02:50,160
+So this was the original intention behind me wanting to create my own vibe_code tool.
+
+89
+00:02:50,160 --> 00:02:52,100
+OK, the last feature is interview preparation
+
+90
+00:02:52,100 --> 00:02:54,420
+The existing job records have this type of categorization.
+
+91
+00:02:54,420 --> 00:02:57,380
+You can see whether this job is in the application stage or the interview stage.
+
+92
+00:02:57,380 --> 00:02:59,300
+For example, I have already received an interview for this job
+
+93
+00:02:59,300 --> 00:03:01,780
+I can select my interviewer in this tab
+
+94
+00:03:01,780 --> 00:03:02,880
+My interview length
+
+95
+00:03:02,880 --> 00:03:06,400
+You can then choose to have the AI generate interview questions and answers
+
+96
+00:03:06,400 --> 00:03:09,160
+Or I can manually add the questions that I think might be asked
+
+97
+00:03:09,160 --> 00:03:10,760
+I think the important questions can be added manually
+
+98
+00:03:10,760 --> 00:03:12,560
+Then let the AI generate this answer for me
+
+99
+00:03:12,560 --> 00:03:14,260
+So here we'll let the AI generate it
+
+100
+00:03:14,260 --> 00:03:17,580
+Here you will get a set of Q&A answers generated based on the JD
+
+101
+00:03:17,580 --> 00:03:17,980
+then
+
+102
+00:03:17,980 --> 00:03:20,520
+We can also modify or regenerate it ourselves
+
+103
+00:03:20,520 --> 00:03:21,460
+If you make it to the next round
+
+104
+00:03:21,460 --> 00:03:23,300
+you can also add a new set of questions
+
+105
+00:03:23,300 --> 00:03:24,500
+Then during the preparation phase
+
+106
+00:03:24,500 --> 00:03:26,140
+I will enter this practice mode
+
+107
+00:03:26,140 --> 00:03:27,940
+it will turn into a flash card
+
+108
+00:03:27,940 --> 00:03:29,700
+I can use it myself to mock an interview
+
+109
+00:03:29,700 --> 00:03:31,430
+As for this product
+
+110
+00:03:31,430 --> 00:03:33,030
+The entire product was designed by myself.
+
+111
+00:03:33,030 --> 00:03:36,100
+I kind of deliberately used that so-called AI-esque gradient purple color
+
+112
+00:03:36,100 --> 00:03:37,760
+Because I actually quite like this color myself
+
+113
+00:03:37,760 --> 00:03:38,640
+don't want it to be labeled
+
+114
+00:03:38,640 --> 00:03:39,880
+except to save credits
+
+115
+00:03:39,880 --> 00:03:42,120
+Occasionally I would tweak the styling myself
+
+116
+00:03:42,120 --> 00:03:44,420
+Otherwise, basically 90% of it was written by Cursor.
+
+117
+00:03:44,420 --> 00:03:47,800
+OK so this is my first complete vibe coding project
+
+118
+00:03:47,800 --> 00:03:50,600
+Because it was basically designed around my own needs
+
+119
+00:03:50,600 --> 00:03:51,920
+Actually, there are still quite a few imperfections
+
+120
+00:03:51,920 --> 00:03:53,880
+or compared to directly using large models
+
+121
+00:03:53,880 --> 00:03:55,240
+areas where the advantages are not particularly strong
+
+122
+00:03:55,240 --> 00:03:56,920
+Currently, it's only something I use locally.
+
+123
+00:03:56,920 --> 00:03:57,800
+If you find it useful
+
+124
+00:03:57,800 --> 00:03:59,080
+You're also welcome to exchange thoughts in the comment section
+
+125
+00:03:59,080 --> 00:04:00,960
+this first complete vibe code attempt
+
+126
+00:04:00,960 --> 00:04:02,240
+I also recorded the process
+
+127
+00:04:02,240 --> 00:04:03,520
+Probably it will be edited and released in the next couple of weeks
+
+128
+00:04:03,520 --> 00:04:05,880
+share with you how I completed it from 0 to 1
+
+129
+00:04:05,880 --> 00:04:08,160
+as well as the various thoughts and lessons learned during the process
+
+130
+00:04:08,160 --> 00:04:08,960
+If you're interested
+
+131
+00:04:08,960 --> 00:04:09,960
+you can also Follow
+
+132
+00:04:09,960 --> 00:04:11,400
+That's all for this episode's share.
+
+133
+00:04:11,400 --> 00:04:12,200
+See you next time if fate allows
+
+134
+00:04:12,200 --> 00:04:12,780
+Bye bye
+

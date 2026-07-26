@@ -1,0 +1,492 @@
+1
+00:00:00,280 --> 00:00:05,620
+So, this is the AI-powered, fully automatic video editing skills you've all been asking for.
+
+2
+00:00:05,620 --> 00:00:09,260
+So, here's the complete, end-to-end tutorial on how to install and use it.
+
+3
+00:00:09,260 --> 00:00:12,100
+So, let's break down the step-by-step process.
+
+4
+00:00:12,100 --> 00:00:15,350
+And we'll cover all the specific features here, uh...
+
+5
+00:00:15,350 --> 00:00:16,290
+So, what can it do?
+
+6
+00:00:16,290 --> 00:00:17,270
+and what it can't do.
+
+7
+00:00:17,270 --> 00:00:19,310
+I'll break it all down for you right here.
+
+8
+00:00:19,310 --> 00:00:23,840
+I'll walk you through the specific installation commands, right?
+
+9
+00:00:23,840 --> 00:00:25,760
+And next up, how to get the resources.
+
+10
+00:00:25,760 --> 00:00:28,500
+and download the various environments from here.
+
+11
+00:00:28,500 --> 00:00:31,420
+These details also cover the common issues you might run into.
+
+12
+00:00:31,420 --> 00:00:33,419
+So, how do you update it?
+
+13
+00:00:33,419 --> 00:00:36,519
+So, with this, we've successfully run through a small, closed loop.
+
+14
+00:00:36,519 --> 00:00:40,870
+There's still so much more for all of us to explore together.
+
+15
+00:00:40,870 --> 00:00:42,730
+So, feel free to dig in and give it a try.
+
+16
+00:00:42,730 --> 00:00:44,690
+We can all share our findings with each other then.
+
+17
+00:00:44,690 --> 00:00:45,430
+and learn from each other.
+
+18
+00:00:45,430 --> 00:00:48,030
+So let's give it a shot too, right?
+
+19
+00:00:48,030 --> 00:00:51,870
+And this is just the beginning. In the future, we're going to see more and more tools like this.
+
+20
+00:00:51,870 --> 00:00:55,080
+But to be honest, it's not like it's super mature yet.
+
+21
+00:00:55,080 --> 00:00:56,880
+For some basic stuff, yeah.
+
+22
+00:00:56,880 --> 00:00:58,140
+or even intermediate-level videos.
+
+23
+00:00:58,140 --> 00:00:59,160
+you can use it for that.
+
+24
+00:00:59,160 --> 00:01:01,240
+But for the more advanced stuff, right?
+
+25
+00:01:01,240 --> 00:01:04,720
+For these videos, you still have to do them manually.
+
+26
+00:01:04,720 --> 00:01:06,800
+Don't think that just because you have it,
+
+27
+00:01:06,800 --> 00:01:08,180
+and everything will be perfectly fine.
+
+28
+00:01:08,180 --> 00:01:09,190
+But that's not the case.
+
+29
+00:01:09,190 --> 00:01:12,110
+Right now, this AI isn't exactly a cure-all.
+
+30
+00:01:12,110 --> 00:01:13,270
+So, for a lot of people, right?
+
+31
+00:01:13,270 --> 00:01:14,510
+Once you've got this 'lobster'...
+
+32
+00:01:14,510 --> 00:01:15,610
+and all sorts of skills,
+
+33
+00:01:15,610 --> 00:01:17,370
+It feels like I don't have to learn anything anymore.
+
+34
+00:01:17,370 --> 00:01:20,150
+In fact, the more powerful AI becomes,
+
+35
+00:01:20,150 --> 00:01:22,890
+the more you need to learn about different industries.
+
+36
+00:01:22,890 --> 00:01:24,920
+It's just like Charlie Munger says,
+
+37
+00:01:24,920 --> 00:01:26,820
+knowledge that comes from interdisciplinary thinking.
+
+38
+00:01:26,820 --> 00:01:30,219
+If we don't, uh, practice our ability to ask the right questions...
+
+39
+00:01:30,219 --> 00:01:31,999
+The Qualification to Talk to AI
+
+40
+00:01:31,999 --> 00:01:33,979
+whether it's done well or not.
+
+41
+00:01:33,979 --> 00:01:35,919
+The truth is, you have no way of judging it.
+
+42
+00:01:35,919 --> 00:01:38,680
+Let's say, for example, you're a designer.
+
+43
+00:01:38,680 --> 00:01:40,000
+and you want it to design something for you.
+
+44
+00:01:40,000 --> 00:01:41,120
+See what I mean?
+
+45
+00:01:41,120 --> 00:01:43,460
+Let's say you already have 10 years of design experience.
+
+46
+00:01:43,460 --> 00:01:46,420
+In reality, you're able to tell whether its design is good or bad.
+
+47
+00:01:46,420 --> 00:01:48,540
+You can offer some good suggestions.
+
+48
+00:01:48,540 --> 00:01:50,820
+Let's say you've never even touched this stuff, right?
+
+49
+00:01:50,820 --> 00:01:52,020
+You've never even worked as a director.
+
+50
+00:01:52,020 --> 00:01:53,870
+and you ask it to write a script.
+
+51
+00:01:53,870 --> 00:01:56,010
+You don't know the first thing about medicine.
+
+52
+00:01:56,010 --> 00:01:57,350
+Just like me, right?
+
+53
+00:01:57,350 --> 00:01:59,150
+So, after my dad had that surgery...
+
+54
+00:01:59,750 --> 00:02:02,450
+Actually, what I really wanted was to see how the test results turned out.
+
+55
+00:02:02,450 --> 00:02:05,110
+So, it actually spat out a whole bunch of answers using DeepSeek.
+
+56
+00:02:05,110 --> 00:02:07,070
+But to be honest, I couldn't tell if it was right or wrong.
+
+57
+00:02:07,070 --> 00:02:09,490
+So I can't really take the conversation any further.
+
+58
+00:02:09,490 --> 00:02:11,899
+Because I just... I don't know why.
+
+59
+00:02:11,899 --> 00:02:14,439
+I don't even know which direction to go in.
+
+60
+00:02:14,439 --> 00:02:15,659
+or what the key points are to even ask about.
+
+61
+00:02:15,659 --> 00:02:16,880
+I have no idea.
+
+62
+00:02:16,880 --> 00:02:19,340
+So yeah, it's just... completely frustrating.
+
+63
+00:02:19,340 --> 00:02:20,520
+And that's when you'll realize...
+
+64
+00:02:20,520 --> 00:02:24,640
+If you don't have a basic understanding of the industry,
+
+65
+00:02:24,640 --> 00:02:29,360
+you won't be able to actually apply AI in a meaningful way to that industry.
+
+66
+00:02:29,360 --> 00:02:30,900
+Take this CapCut thing, for example.
+
+67
+00:02:30,900 --> 00:02:33,300
+If you've never even touched video editing before,
+
+68
+00:02:33,300 --> 00:02:34,180
+and you just try to use it for editing,
+
+69
+00:02:34,180 --> 00:02:35,180
+But that's not going to happen either.
+
+70
+00:02:35,180 --> 00:02:37,620
+Basically, you need to provide it with a lot of details.
+
+71
+00:02:37,620 --> 00:02:42,550
+A lot of the assets, I mean, include a good script for the opening.
+
+72
+00:02:42,550 --> 00:02:45,990
+Actually, a lot of this stuff includes a great opening, like a killer hook for the first three seconds, something text-based.
+
+73
+00:02:45,990 --> 00:02:46,870
+and visually-oriented ones.
+
+74
+00:02:46,870 --> 00:02:49,050
+You need to provide it with good material.
+
+75
+00:02:49,050 --> 00:02:51,280
+If you don't provide these things,
+
+76
+00:02:51,280 --> 00:02:54,910
+So, it's basically impossible to get by with just that.
+
+77
+00:02:54,910 --> 00:02:56,390
+So, with all these tools at our disposal,
+
+78
+00:02:56,390 --> 00:02:59,670
+It's just, um, an amplifier for our scale of 1 to 10.
+
+79
+00:02:59,670 --> 00:03:00,670
+including these lobsters.
+
+80
+00:03:00,670 --> 00:03:01,870
+It's just an assembly workshop.
+
+81
+00:03:01,870 --> 00:03:03,650
+It's like you're assembling a car.
+
+82
+00:03:03,650 --> 00:03:04,750
+If every single part is bad,
+
+83
+00:03:04,750 --> 00:03:06,050
+No matter how fast you assemble it,
+
+84
+00:03:06,050 --> 00:03:10,510
+All you're doing is producing garbage 10,000 times faster than before.
+
+85
+00:03:10,510 --> 00:03:12,110
+So, what's the point of that?
+
+86
+00:03:12,110 --> 00:03:14,550
+So, it's not about how much content we have.
+
+87
+00:03:14,550 --> 00:03:16,770
+Exactly. What I want is quality—fast and good.
+
+88
+00:03:16,770 --> 00:03:18,590
+So, when it comes to the actual capabilities of this AI...
+
+89
+00:03:18,590 --> 00:03:20,410
+Actually, my colleague Liu Ge often says...
+
+90
+00:03:20,410 --> 00:03:22,130
+Let's say I'm an idiot.
+
+91
+00:03:22,130 --> 00:03:24,470
+then the AI I'm using is probably a dumbass too.
+
+92
+00:03:24,470 --> 00:03:27,030
+So, that's just the reality of it.
+
+93
+00:03:27,030 --> 00:03:30,270
+So, yeah, don't get the idea that AI is this all-powerful thing, right?
+
+94
+00:03:30,270 --> 00:03:31,170
+Right?
+
+95
+00:03:31,170 --> 00:03:32,510
+and you don't have to worry about a thing.
+
+96
+00:03:32,510 --> 00:03:34,379
+Quite the opposite, actually.
+
+97
+00:03:34,379 --> 00:03:35,519
+You still need to read more books.
+
+98
+00:03:35,519 --> 00:03:37,739
+Keep learning the professional knowledge in your industry.
+
+99
+00:03:37,739 --> 00:03:40,919
+For the average person, AI can't really change anything major.
+
+100
+00:03:40,919 --> 00:03:43,260
+It can only handle some small, everyday things.
+
+101
+00:03:43,260 --> 00:03:44,490
+or minor issues at work.
+
+102
+00:03:44,490 --> 00:03:50,130
+The ones who can truly create value with AI are the top performers in their field.
+
+103
+00:03:50,130 --> 00:03:51,770
+They've completed entire projects from start to finish.
+
+104
+00:03:51,770 --> 00:03:53,030
+They have a solid foundation.
+
+105
+00:03:53,030 --> 00:03:54,430
+On this foundation,
+
+106
+00:03:54,430 --> 00:03:56,760
+and the results you get from AI will be fantastic.
+
+107
+00:03:56,760 --> 00:03:58,600
+Without this foundation, everything else is just zero.
+
+108
+00:03:58,600 --> 00:03:59,320
+So, why is that?
+
+109
+00:03:59,320 --> 00:04:03,380
+We've now built a knowledge base system that contains tens of millions of words.
+
+110
+00:04:03,380 --> 00:04:04,420
+There's nothing else to it.
+
+111
+00:04:04,420 --> 00:04:08,280
+Basically, we're taking the experience and hard-earned lessons from our 10-year veteran employees...
+
+112
+00:04:08,280 --> 00:04:12,040
+We fed it the entire SOP workflow for how we do things.
+
+113
+00:04:12,040 --> 00:04:14,840
+so it understands our company just like a 10-year veteran.
+
+114
+00:04:14,840 --> 00:04:18,050
+And on top of that, we have our business personnel system.
+
+115
+00:04:18,050 --> 00:04:21,209
+Only then can it truly get things done for our company.
+
+116
+00:04:21,209 --> 00:04:23,430
+If you're just getting started in this field,
+
+117
+00:04:23,430 --> 00:04:24,490
+You wouldn't know, right?
+
+118
+00:04:24,490 --> 00:04:27,750
+How to train an AI with the skills of a 10-year industry veteran.
+
+119
+00:04:27,750 --> 00:04:30,940
+Well, what we have here is a complete, standardized, and closed-loop system.
+
+120
+00:04:30,940 --> 00:04:33,220
+You can stand on our shoulders.
+
+121
+00:04:33,220 --> 00:04:35,420
+and save yourself one to two years of trial and error.
+
+122
+00:04:35,420 --> 00:04:36,780
+
+
+123
+00:04:36,780 --> 00:04:39,440
+We're basically updating it every week.
+

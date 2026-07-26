@@ -1,0 +1,588 @@
+1
+00:00:00,080 --> 00:00:01,380
+Alright, let's get started.
+
+2
+00:00:01,380 --> 00:00:04,240
+So we'll spend today and tomorrow
+
+3
+00:00:04,240 --> 00:00:06,340
+Let's work on a project
+
+4
+00:00:06,340 --> 00:00:08,750
+this imitation of JD.com
+
+5
+00:00:08,750 --> 00:00:11,170
+But when we imitate Jingdong's approach,
+
+6
+00:00:11,170 --> 00:00:13,300
+
+
+7
+00:00:13,300 --> 00:00:14,100
+we have what
+
+8
+00:00:14,100 --> 00:00:16,219
+Because there are too many things on JD.com
+
+9
+00:00:16,219 --> 00:00:18,320
+We can't finish everything in just two days.
+
+10
+00:00:18,320 --> 00:00:20,000
+we just focus on the core parts
+
+11
+00:00:20,000 --> 00:00:22,300
+Then, what's related to our JS
+
+12
+00:00:22,300 --> 00:00:26,390
+Because each project has its own focus.
+
+13
+00:00:26,390 --> 00:00:28,810
+This project at this stage
+
+14
+00:00:28,810 --> 00:00:30,920
+mainly focuses on using JS
+
+15
+00:00:30,920 --> 00:00:35,580
+So we're going to focus on implementing those effects related to JavaScript.
+
+16
+00:00:35,580 --> 00:00:37,720
+related to JS
+
+17
+00:00:37,720 --> 00:00:40,460
+Alright, let's take a look at JD.com here
+
+18
+00:00:40,460 --> 00:00:44,160
+For example, um, JD is right here.
+
+19
+00:00:44,160 --> 00:00:45,240
+Let's open JD.com
+
+20
+00:00:46,920 --> 00:00:47,860
+Look inside here
+
+21
+00:00:47,860 --> 00:00:50,930
+Samsung phones
+
+22
+00:00:50,930 --> 00:00:53,290
+P&G JD Super Brand Day: Grab 99 off with 98 coupons
+
+23
+00:00:54,240 --> 00:00:55,200
+Samsung phones
+
+24
+00:00:55,200 --> 00:00:59,320
+Did you notice it's like, hey why isn't it changing yet?
+
+25
+00:00:59,320 --> 00:01:00,140
+Change again, right?
+
+26
+00:01:00,140 --> 00:01:02,180
+So this can be handled with a timer
+
+27
+00:01:02,180 --> 00:01:02,740
+Right?
+
+28
+00:01:02,740 --> 00:01:03,840
+we have to use
+
+29
+00:01:03,840 --> 00:01:05,940
+You deserve it
+
+30
+00:01:05,940 --> 00:01:06,740
+A a a a
+
+31
+00:01:06,750 --> 00:01:10,100
+See if there's this fuzzy search thing here.
+
+32
+00:01:10,100 --> 00:01:11,860
+Haven't we done this before?
+
+33
+00:01:11,860 --> 00:01:14,860
+This also needs to be done with our JS, right?
+
+34
+00:01:14,860 --> 00:01:18,869
+Also, look, you, you, pay attention to the answer on the right side.
+
+35
+00:01:18,869 --> 00:01:21,890
+Look at this, look at this
+
+36
+00:01:21,890 --> 00:01:23,870
+Can you see it as I scroll down?
+
+37
+00:01:23,870 --> 00:01:26,870
+Now, isn't it following the scroll bar and moving along with the scrolling?
+
+38
+00:01:26,870 --> 00:01:27,470
+right
+
+39
+00:01:27,470 --> 00:01:28,070
+And you see
+
+40
+00:01:28,070 --> 00:01:29,350
+I scroll to a certain point
+
+41
+00:01:29,350 --> 00:01:30,590
+Look, as I scroll further
+
+42
+00:01:30,590 --> 00:01:33,250
+Look, doesn't it turn into some kind of positioning?
+
+43
+00:01:33,250 --> 00:01:34,250
+fixed positioning
+
+44
+00:01:34,250 --> 00:01:34,970
+Right?
+
+45
+00:01:34,970 --> 00:01:35,930
+fixed positioning
+
+46
+00:01:35,930 --> 00:01:37,750
+that is to say, this thing
+
+47
+00:01:37,750 --> 00:01:39,850
+it does not move with the scrolling of the scrollbar
+
+48
+00:01:39,850 --> 00:01:41,210
+So we definitely need to do it as well
+
+49
+00:01:41,210 --> 00:01:44,980
+Because this should involve the scrolling of the scrollbar
+
+50
+00:01:44,980 --> 00:01:47,140
+Because when we scroll with the scroll wheel
+
+51
+00:01:47,140 --> 00:01:49,020
+when the scrollbar reaches a certain point
+
+52
+00:01:49,020 --> 00:01:51,630
+it should change its positioning
+
+53
+00:01:51,630 --> 00:01:54,570
+Originally it might have been called something like
+
+54
+00:01:54,570 --> 00:01:55,330
+absolute positioning
+
+55
+00:01:55,330 --> 00:01:56,870
+Later, it was changed to a fixed position.
+
+56
+00:01:56,870 --> 00:01:59,370
+prevent it from scrolling with the scroll bar
+
+57
+00:01:59,370 --> 00:02:01,500
+You can see now it's using fixed positioning
+
+58
+00:02:01,860 --> 00:02:05,330
+P&G JD Super Brand Day: Grab 99 off 98 Coupons
+
+59
+00:02:05,330 --> 00:02:06,810
+Observe this thing
+
+60
+00:02:06,810 --> 00:02:09,009
+Huge discounts are coming, Saint Mark flooring
+
+61
+00:02:09,009 --> 00:02:09,530
+It's going up
+
+62
+00:02:09,530 --> 00:02:09,810
+Look
+
+63
+00:02:09,810 --> 00:02:10,690
+I'll scroll down further
+
+64
+00:02:10,690 --> 00:02:12,440
+scroll the scrollbar again
+
+65
+00:02:12,440 --> 00:02:14,000
+When the scrollbar reaches a certain point
+
+66
+00:02:14,000 --> 00:02:14,720
+Look
+
+67
+00:02:14,720 --> 00:02:16,899
+You see, if I scroll again
+
+68
+00:02:16,899 --> 00:02:19,079
+Does this thing always stay here?
+
+69
+00:02:19,079 --> 00:02:21,159
+This is called the sticky effect
+
+70
+00:02:21,159 --> 00:02:23,599
+The sticky header is just like those ceiling-mounted lights, you see.
+
+71
+00:02:23,599 --> 00:02:25,779
+Hey, it's always at the top
+
+72
+00:02:25,779 --> 00:02:28,640
+Hey, this part is now sticky to the top
+
+73
+00:02:28,640 --> 00:02:30,600
+But this part is a bit tricky.
+
+74
+00:02:30,600 --> 00:02:34,390
+Didn't you notice it's not directly sticking this part to the top?
+
+75
+00:02:34,390 --> 00:02:35,130
+Got it?
+
+76
+00:02:35,130 --> 00:02:37,410
+It's not simply sticking the entire block to the top
+
+77
+00:02:37,410 --> 00:02:38,769
+It is a search box
+
+78
+00:02:38,769 --> 00:02:39,709
+See
+
+79
+00:02:39,709 --> 00:02:41,009
+So this needs a bit more tweaking.
+
+80
+00:02:41,009 --> 00:02:42,969
+Modifying the styles is a bit troublesome
+
+81
+00:02:42,969 --> 00:02:45,249
+and this and this thing
+
+82
+00:02:45,249 --> 00:02:48,350
+You deserve it
+
+83
+00:02:48,350 --> 00:02:51,980
+Look, look, these words are all in black, right?
+
+84
+00:02:51,980 --> 00:02:53,880
+Now watch as I scroll down
+
+85
+00:02:53,880 --> 00:02:55,360
+Look at this JD Flash Sales
+
+86
+00:02:55,360 --> 00:02:56,600
+This is JD.com's flash sale
+
+87
+00:02:56,600 --> 00:02:59,370
+Look, keep scrolling down
+
+88
+00:02:59,370 --> 00:03:02,830
+You see, because now I've scrolled to the JD Seckill section.
+
+89
+00:03:02,830 --> 00:03:04,610
+Is this word lit up now?
+
+90
+00:03:04,610 --> 00:03:06,230
+I continue scrolling down
+
+91
+00:03:06,230 --> 00:03:07,680
+Now it's the featured selection.
+
+92
+00:03:07,680 --> 00:03:10,160
+When I scroll to the Channel Plaza later
+
+93
+00:03:10,160 --> 00:03:12,430
+Look at me walking walking
+
+94
+00:03:12,430 --> 00:03:12,970
+Look
+
+95
+00:03:12,970 --> 00:03:13,930
+The channel square is here.
+
+96
+00:03:13,930 --> 00:03:15,130
+I'm about to go this way
+
+97
+00:03:15,130 --> 00:03:16,210
+just for this moment
+
+98
+00:03:16,210 --> 00:03:17,910
+When it reaches the top
+
+99
+00:03:17,910 --> 00:03:23,150
+Look, the channel square lights up now, doesn't it?
+
+100
+00:03:23,150 --> 00:03:26,640
+So, this thing actually involves quite a lot of elements.
+
+101
+00:03:26,640 --> 00:03:28,400
+This is called the floor effect
+
+102
+00:03:28,400 --> 00:03:31,540
+This is the floor effect for the first, second, third, and fourth floors.
+
+103
+00:03:31,540 --> 00:03:34,900
+When your scrollbar reaches a certain point
+
+104
+00:03:34,900 --> 00:03:36,460
+Do you remember there was a
+
+105
+00:03:36,460 --> 00:03:38,080
+we have something called a screw top
+
+106
+00:03:38,080 --> 00:03:39,210
+Do you remember?
+
+107
+00:03:39,210 --> 00:03:41,290
+the distance of our scroll bar from the top
+
+108
+00:03:41,290 --> 00:03:43,470
+That is, when you have scrolled a certain distance
+
+109
+00:03:43,470 --> 00:03:46,390
+our text needs to light up accordingly
+
+110
+00:03:46,390 --> 00:03:47,550
+Alright
+
+111
+00:03:47,550 --> 00:03:48,570
+This is inside
+
+112
+00:03:48,570 --> 00:03:49,910
+For example, let's search for
+
+113
+00:03:49,910 --> 00:03:51,370
+search for something randomly
+
+114
+00:03:51,370 --> 00:03:52,410
+Search for this
+
+115
+00:03:52,410 --> 00:03:53,610
+One Piece or something
+
+116
+00:03:53,610 --> 00:03:56,770
+Look, there's also this thing we need to implement here
+
+117
+00:04:00,520 --> 00:04:05,290
+Multiple warehouse express delivery, warehouse express, multiple deliveries, warehouse express
+
+118
+00:04:05,290 --> 00:04:06,650
+a part moves along with it
+
+119
+00:04:06,650 --> 00:04:07,710
+Do you remember?
+
+120
+00:04:07,710 --> 00:04:10,090
+But this time what we're doing is more challenging.
+
+121
+00:04:10,090 --> 00:04:13,510
+This time, originally when you moved it, it was the entire body
+
+122
+00:04:13,510 --> 00:04:14,890
+move within the entire page
+
+123
+00:04:14,890 --> 00:04:17,709
+Now it can only move within this box
+
+124
+00:04:17,709 --> 00:04:20,769
+And the image you're moving that you're covering
+
+125
+00:04:20,769 --> 00:04:21,750
+What should we do?
+
+126
+00:04:21,750 --> 00:04:23,370
+Enlarge and display it here
+
+127
+00:04:23,370 --> 00:04:25,510
+There is a magnifying glass effect
+
+128
+00:04:26,080 --> 00:04:28,100
+And we've actually done the one below before, right?
+
+129
+00:04:28,100 --> 00:04:30,500
+just randomly placing it on any small image
+
+130
+00:04:30,500 --> 00:04:32,890
+The image above changes along with it, right?
+
+131
+00:04:32,890 --> 00:04:34,010
+Okay, magnifier
+
+132
+00:04:34,010 --> 00:04:36,610
+This magnifying glass is also a bit challenging.
+
+133
+00:04:36,610 --> 00:04:38,669
+It's still a bit challenging.
+
+134
+00:04:38,669 --> 00:04:39,409
+Alright
+
+135
+00:04:39,409 --> 00:04:40,709
+What else do we have?
+
+136
+00:04:40,709 --> 00:04:45,040
+And here, let's do this again, clicking the plus and minus signs
+
+137
+00:04:45,040 --> 00:04:47,100
+What does this value change?
+
+138
+00:04:47,100 --> 00:04:49,670
+Finally, we'll probably do these things.
+
+139
+00:04:49,670 --> 00:04:51,830
+Alright, let's not talk about that anymore
+
+140
+00:04:51,830 --> 00:04:55,420
+Let's get started. The main goal is to practice JavaScript.
+
+141
+00:04:55,420 --> 00:04:56,620
+practice JS of course
+
+142
+00:04:56,620 --> 00:04:57,600
+there are some layouts
+
+143
+00:04:57,600 --> 00:04:58,650
+you might have forgotten
+
+144
+00:04:58,650 --> 00:05:00,250
+so we need to go over it again
+
+145
+00:05:00,250 --> 00:05:02,930
+Because we haven't used HTML/CSS for a long time.
+
+146
+00:05:04,210 --> 00:05:04,810
+OK, got it
+
+147
+00:05:04,810 --> 00:05:05,120
+I hear
+

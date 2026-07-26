@@ -1,0 +1,448 @@
+1
+00:00:00,000 --> 00:00:01,240
+The corner has nothing at all
+
+2
+00:00:01,240 --> 00:00:03,360
+Thunder Recruitment
+
+3
+00:00:03,360 --> 00:00:05,120
+You feel proficient in the footer
+
+4
+00:00:05,120 --> 00:00:06,400
+It doesn't matter if you don't want to write it.
+
+5
+00:00:06,400 --> 00:00:09,110
+Because there's no need for any C3 effects here
+
+6
+00:00:09,110 --> 00:00:10,510
+That's pretty much it.
+
+7
+00:00:10,510 --> 00:00:12,350
+Should we still write this part or not
+
+8
+00:00:12,350 --> 00:00:14,070
+I don't even want to write it
+
+9
+00:00:14,070 --> 00:00:15,270
+There's nothing in this section
+
+10
+00:00:15,270 --> 00:00:17,760
+Is this just one line of text, right?
+
+11
+00:00:17,760 --> 00:00:19,980
+This just placed an image
+
+12
+00:00:19,980 --> 00:00:21,800
+Oh, I suddenly remembered that I didn't write it above
+
+13
+00:00:21,800 --> 00:00:25,040
+When I hover the mouse, it just moves up
+
+14
+00:00:25,040 --> 00:00:26,720
+Has the background color not changed?
+
+15
+00:00:26,720 --> 00:00:33,030
+Look, the background color changes, it's switched to a different background color.
+
+16
+00:00:33,030 --> 00:00:35,540
+I probably should add it.
+
+17
+00:00:35,540 --> 00:00:37,740
+find the LI element
+
+18
+00:00:37,740 --> 00:00:40,530
+Has the color changed again, right?
+
+19
+00:00:40,530 --> 00:00:43,890
+Just add it quickly, uh
+
+20
+00:00:45,040 --> 00:00:48,380
+The LI1 inside the box starts like this, right?
+
+21
+00:00:48,380 --> 00:00:57,680
+When you hover over the home box la
+
+22
+00:00:57,680 --> 00:01:02,239
+the background color changes
+
+23
+00:01:02,250 --> 00:01:04,209
+Was the transparency stronger before?
+
+24
+00:01:04,209 --> 00:01:07,120
+Now the transparency is less.
+
+25
+00:01:07,600 --> 00:01:10,480
+Press F5 to refresh, hover the mouse, yeah
+
+26
+00:01:12,120 --> 00:01:13,750
+That's it, the background color.
+
+27
+00:01:13,750 --> 00:01:15,890
+Let me quickly go through the next section then.
+
+28
+00:01:15,890 --> 00:01:16,950
+Next section is
+
+29
+00:01:16,950 --> 00:01:17,790
+Xunlei Recruitment
+
+30
+00:01:17,790 --> 00:01:19,930
+Let's proceed with the recruitment
+
+31
+00:01:19,930 --> 00:01:23,880
+close this back QR code
+
+32
+00:01:23,880 --> 00:01:26,640
+Now let's move on to the third recruitment section
+
+33
+00:01:28,140 --> 00:01:32,009
+Start recruitment end
+
+34
+00:01:32,009 --> 00:01:35,409
+div.dob-job
+
+35
+00:01:35,409 --> 00:01:40,940
+For the job section, set the width to 100% and let the height adjust based on content without writing it explicitly.
+
+36
+00:01:40,940 --> 00:01:43,820
+Then, moving further inside
+
+37
+00:01:43,820 --> 00:01:47,440
+Should I center it, right?
+
+38
+00:01:47,440 --> 00:01:48,660
+add the centering
+
+39
+00:01:48,660 --> 00:01:53,710
+That's a div class called Viper
+
+40
+00:01:53,710 --> 00:01:55,490
+After tracking, move upwards
+
+41
+00:01:55,490 --> 00:01:58,189
+This is just a title, adjust the font size
+
+42
+00:01:58,189 --> 00:01:59,129
+font color
+
+43
+00:01:59,129 --> 00:02:01,089
+Then just set it up.
+
+44
+00:02:01,089 --> 00:02:04,389
+It uses an H3
+
+45
+00:02:04,829 --> 00:02:07,509
+Then we'll just use an H3 as well
+
+46
+00:02:07,509 --> 00:02:10,829
+Then I capitalized the class.
+
+47
+00:02:20,410 --> 00:02:21,850
+F5 refresh
+
+48
+00:02:24,040 --> 00:02:29,130
+Oh right here with the black font
+
+49
+00:02:29,130 --> 00:02:29,930
+purple background
+
+50
+00:02:29,930 --> 00:02:31,050
+He can't see clearly.
+
+51
+00:02:31,050 --> 00:02:32,310
+Then just set it up
+
+52
+00:02:32,310 --> 00:02:34,250
+Is the font color white or something?
+
+53
+00:02:34,250 --> 00:02:36,040
+Let's see what he set it to.
+
+54
+00:02:36,040 --> 00:02:42,270
+Um, 44px letter color
+
+55
+00:02:42,270 --> 00:02:43,790
+inherits from the parent element again
+
+56
+00:02:43,790 --> 00:02:47,510
+inherited from the parent element FFF
+
+57
+00:02:47,510 --> 00:02:54,550
+Is there a middle block with the same job title?
+
+58
+00:02:54,550 --> 00:02:57,310
+This is the recruitment
+
+59
+00:02:59,360 --> 00:03:00,780
+Style start
+
+60
+00:03:00,780 --> 00:03:04,399
+End of styling, apply it
+
+61
+00:03:04,399 --> 00:03:11,270
+Its color is fff for hot size is 44
+
+62
+00:03:11,270 --> 00:03:14,590
+not for font-weight
+
+63
+00:03:14,590 --> 00:03:16,559
+is letter
+
+64
+00:03:16,559 --> 00:03:17,819
+Come to our page
+
+65
+00:03:17,819 --> 00:03:18,839
+F51 refresh
+
+66
+00:03:18,839 --> 00:03:23,420
+Should we adjust the vertical spacing of these large blocks?
+
+67
+00:03:23,420 --> 00:03:29,500
+Check where this div's top margin of 90 is set.
+
+68
+00:03:29,500 --> 00:03:31,480
+Then I'll just give it directly, okay
+
+69
+00:03:31,480 --> 00:03:35,850
+Then set margin-top to 90 pixels
+
+70
+00:03:35,850 --> 00:03:38,030
+You can certainly assign it to that div as well
+
+71
+00:03:38,030 --> 00:03:39,610
+I'm too lazy to select the div
+
+72
+00:03:39,610 --> 00:03:41,180
+Xunlei Recruitment
+
+73
+00:03:41,180 --> 00:03:43,460
+After that, move down
+
+74
+00:03:43,460 --> 00:03:46,120
+This is just an image
+
+75
+00:03:46,120 --> 00:03:49,220
+Then it's wrapped with an A tag
+
+76
+00:03:49,220 --> 00:03:50,960
+Then let's just wrap it in an A tag
+
+77
+00:03:50,960 --> 00:03:53,220
+because it needs to jump
+
+78
+00:03:54,000 --> 00:03:56,520
+Then I'll just use a div, okay?
+
+79
+00:03:56,520 --> 00:03:57,640
+It's not good to write A directly
+
+80
+00:03:57,640 --> 00:04:02,120
+Let's add a div, an outer block-level container for the A.
+
+81
+00:04:02,120 --> 00:04:06,980
+Then find job01 in the images
+
+82
+00:04:08,620 --> 00:04:13,200
+Well, go to the south side F51 and refresh this image
+
+83
+00:04:13,200 --> 00:04:17,040
+Is the size of the image just right? Just adjust the top and bottom spacing.
+
+84
+00:04:17,040 --> 00:04:22,610
+Check whose distance is set to DAV?
+
+85
+00:04:22,610 --> 00:04:25,770
+TT has a top margin of 46
+
+86
+00:04:25,770 --> 00:04:28,390
+The bottom margin is 40
+
+87
+00:04:28,390 --> 00:04:30,395
+Then let's
+
+88
+00:04:38,280 --> 00:04:41,280
+So for this div, have I not set the width and height?
+
+89
+00:04:41,280 --> 00:04:43,400
+then set the width to 100% and let the height be determined by the content
+
+90
+00:04:43,400 --> 00:04:45,280
+expanded by the content
+
+91
+00:04:45,280 --> 00:04:47,400
+margin top is
+
+92
+00:04:48,840 --> 00:04:51,320
+40-something, 46 at the bottom is 40
+
+93
+00:04:51,320 --> 00:04:54,960
+Then I set margin-top to 46 and left/right to zero
+
+94
+00:04:54,960 --> 00:04:57,100
+bottom is 40
+
+95
+00:04:57,100 --> 00:05:02,950
+Arriving at our page, F1 refresh shows the distance from the bottom is now set
+
+96
+00:05:02,950 --> 00:05:05,410
+But isn't my negative element not wrapped up?
+
+97
+00:05:05,410 --> 00:05:07,620
+Look at this child background, right?
+
+98
+00:05:07,620 --> 00:05:12,020
+Then find the negative element of the child background, which is the content, right?
+
+99
+00:05:12,020 --> 00:05:13,440
+let it
+
+100
+00:05:15,420 --> 00:05:17,380
+automatically adjust its height
+
+101
+00:05:17,380 --> 00:05:19,100
+It's not wrapped around, right?
+
+102
+00:05:19,100 --> 00:05:20,400
+Then you go to 258
+
+103
+00:05:20,400 --> 00:05:22,020
+Automatically find a height
+
+104
+00:05:22,020 --> 00:05:27,609
+um 258 258 258 258
+
+105
+00:05:27,870 --> 00:05:30,590
+Is this the outermost one?
+
+106
+00:05:30,590 --> 00:05:33,810
+Let's add an overflow hidden
+
+107
+00:05:33,810 --> 00:05:38,060
+Here it automatically goes to the top in the morning
+
+108
+00:05:38,060 --> 00:05:39,240
+come to our page
+
+109
+00:05:39,240 --> 00:05:40,400
+refresh again
+
+110
+00:05:40,400 --> 00:05:41,220
+closed
+
+111
+00:05:41,220 --> 00:05:42,460
+Is this part done?
+
+112
+00:05:42,460 --> 00:05:43,860
+There's nothing here at all.
+

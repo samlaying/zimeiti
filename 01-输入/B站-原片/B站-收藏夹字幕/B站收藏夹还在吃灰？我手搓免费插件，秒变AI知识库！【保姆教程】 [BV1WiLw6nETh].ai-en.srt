@@ -1,0 +1,408 @@
+1
+00:00:00,040 --> 00:00:01,420
+It's like, if I save it, I've learned it, right?
+
+2
+00:00:01,420 --> 00:00:02,520
+Does this sound familiar to you?
+
+3
+00:00:05,140 --> 00:00:06,540
+and then they just gather dust?
+
+4
+00:00:06,540 --> 00:00:07,480
+But here's the thing,
+
+5
+00:00:07,480 --> 00:00:09,140
+is that your note-taking app...
+
+6
+00:00:09,140 --> 00:00:12,260
+So these AI knowledge bases can't read the video content at all.
+
+7
+00:00:12,260 --> 00:00:15,560
+So, I decided to use AI myself to create a completely free plugin.
+
+8
+00:00:15,560 --> 00:00:17,600
+to solve this problem once and for all.
+
+9
+00:00:17,970 --> 00:00:19,530
+This plugin is called SABATCH.
+
+10
+00:00:19,530 --> 00:00:22,230
+Its core function is to batch-download subtitles from Bilibili videos.
+
+11
+00:00:22,230 --> 00:00:24,190
+You can even grab content directly from a user's homepage,
+
+12
+00:00:24,190 --> 00:00:26,430
+favorite lists, playlists, and so on.
+
+13
+00:00:26,430 --> 00:00:29,009
+Basically, it covers almost everything on Bilibili.
+
+14
+00:00:29,009 --> 00:00:31,349
+
+
+15
+00:00:31,349 --> 00:00:32,469
+and feed it directly into your AI knowledge base.
+
+16
+00:00:32,469 --> 00:00:35,710
+This makes learning way more efficient than just mindlessly watching videos.
+
+17
+00:00:35,990 --> 00:00:36,730
+Nice.
+
+18
+00:00:36,730 --> 00:00:38,370
+Since the plugin comes with a lot of features,
+
+19
+00:00:38,370 --> 00:00:41,650
+So I've put together a super detailed, step-by-step guide for installation and use.
+
+20
+00:00:41,650 --> 00:00:44,550
+So, just finish watching the video, and you'll know where to get it.
+
+21
+00:00:44,990 --> 00:00:46,810
+Using the plugin is super straightforward.
+
+22
+00:00:46,810 --> 00:00:48,190
+Let me just show you how it works.
+
+23
+00:00:48,190 --> 00:00:49,150
+Once it's up and running,
+
+24
+00:00:49,150 --> 00:00:51,490
+First, we need to get a cookie from our Bilibili account.
+
+25
+00:00:51,490 --> 00:00:52,670
+So, we'll click on "Get Cookie".
+
+26
+00:00:52,670 --> 00:00:55,260
+Next, we need to select the type of content we want to fetch.
+
+27
+00:00:55,260 --> 00:00:58,050
+In this case, I'll just select 'Get Favorites'.
+
+28
+00:00:58,050 --> 00:01:00,670
+On the left here, I've got some videos about learning social media.
+
+29
+00:01:00,670 --> 00:01:03,930
+Alright, so first, I'm gonna click on 'Get Current URL'.
+
+30
+00:01:03,930 --> 00:01:06,080
+And then just click 'Get Videos', and you're good to go.
+
+31
+00:01:06,080 --> 00:01:09,300
+And just like that, look! I've successfully grabbed dozens of videos in an instant.
+
+32
+00:01:09,300 --> 00:01:10,780
+Next, we need to get their subtitles.
+
+33
+00:01:10,780 --> 00:01:12,820
+Then I just click on this 'Get Subtitles' button, and that's it.
+
+34
+00:01:12,820 --> 00:01:15,280
+See? The subtitles for all these videos have been successfully retrieved.
+
+35
+00:01:15,280 --> 00:01:17,160
+And for videos with multiple subtitles,
+
+36
+00:01:17,160 --> 00:01:19,220
+And in this section, we can also select the language we want.
+
+37
+00:01:19,220 --> 00:01:19,920
+It has Chinese,
+
+38
+00:01:19,920 --> 00:01:20,160
+English,
+
+39
+00:01:20,160 --> 00:01:20,640
+Japanese,
+
+40
+00:01:20,640 --> 00:01:24,340
+And here, we can choose which language types we want to export.
+
+41
+00:01:24,340 --> 00:01:25,300
+Before exporting,
+
+42
+00:01:25,300 --> 00:01:26,860
+We can also do some configuration.
+
+43
+00:01:26,860 --> 00:01:28,100
+For instance, let's talk about the export mode.
+
+44
+00:01:28,100 --> 00:01:31,400
+So, do we want to export all the subtitles into a single zip file,
+
+45
+00:01:31,400 --> 00:01:33,200
+or export each one as a separate file.
+
+46
+00:01:33,200 --> 00:01:36,160
+I'll just go ahead and select the ZIP compressed format.
+
+47
+00:01:36,160 --> 00:01:38,200
+Select the file naming format for the MD files.
+
+48
+00:01:38,200 --> 00:01:40,480
+So I'll just go with the first option, which is to import plain text.
+
+49
+00:01:40,480 --> 00:01:44,470
+We can also add the video's title and link to the top.
+
+50
+00:01:44,470 --> 00:01:45,910
+author, publish date, and so on.
+
+51
+00:01:45,910 --> 00:01:47,470
+So I'm just going to check all of them here.
+
+52
+00:01:47,470 --> 00:01:49,220
+This makes it easy to trace back the source later on.
+
+53
+00:01:49,220 --> 00:01:50,310
+Click 'Export'.
+
+54
+00:01:50,310 --> 00:01:52,470
+And just like that, all the subtitles are neatly organized.
+
+55
+00:01:52,470 --> 00:01:53,870
+Super convenient, right?
+
+56
+00:01:53,870 --> 00:01:55,470
+All the specific steps for the process I just demonstrated,
+
+57
+00:01:55,470 --> 00:01:58,580
+
+
+58
+00:01:58,860 --> 00:02:01,240
+And there's another feature that a lot of people have been hyping up for a long time.
+
+59
+00:02:01,240 --> 00:02:03,520
+And that is, to transcribe videos that don't have any built-in subtitles.
+
+60
+00:02:03,520 --> 00:02:05,980
+For example, this video doesn't come with any subtitles.
+
+61
+00:02:05,980 --> 00:02:07,500
+After we click on 'Get Subtitle',
+
+62
+00:02:07,500 --> 00:02:09,719
+it will prompt you that there are no external subtitles.
+
+63
+00:02:09,719 --> 00:02:10,859
+So we can't get the subtitles.
+
+64
+00:02:10,859 --> 00:02:12,499
+So now, we can just go ahead and click on this.
+
+65
+00:02:12,499 --> 00:02:13,800
+the button for transcribing videos without subtitles.
+
+66
+00:02:13,800 --> 00:02:17,480
+This will then use our local speech-to-text model to transcribe the audio.
+
+67
+00:02:17,480 --> 00:02:17,820
+the subtitles
+
+68
+00:02:17,820 --> 00:02:20,240
+The overall transcription accuracy is around 95%.
+
+69
+00:02:20,240 --> 00:02:22,750
+So for an AI knowledge base, it's perfectly fine.
+
+70
+00:02:22,750 --> 00:02:25,370
+However, the transcription process will take a little while longer.
+
+71
+00:02:25,370 --> 00:02:28,600
+Plus, the transcription speed also depends on the specs of your local computer.
+
+72
+00:02:28,600 --> 00:02:30,540
+So, once we confirm and the transcription is done,
+
+73
+00:02:30,540 --> 00:02:32,040
+it'll automatically identify it.
+
+74
+00:02:32,040 --> 00:02:34,620
+the language that best matches the current video.
+
+75
+00:02:34,620 --> 00:02:36,320
+And since my video is in Chinese,
+
+76
+00:02:36,320 --> 00:02:38,520
+So, it automatically detects the subtitle language as Chinese.
+
+77
+00:02:38,520 --> 00:02:41,860
+And then we can go ahead and export the subtitles as usual.
+
+78
+00:02:42,440 --> 00:02:45,060
+And now, comes the best part—what you can do with all these video subtitles you've got.
+
+79
+00:02:45,060 --> 00:02:46,380
+and just toss them right into an AI knowledge base.
+
+80
+00:02:46,380 --> 00:02:47,980
+And then you can just start asking questions directly.
+
+81
+00:02:47,980 --> 00:02:51,180
+This is way more efficient than just watching videos.
+
+82
+00:02:51,780 --> 00:02:52,600
+So, to sum it all up,
+
+83
+00:02:52,600 --> 00:02:55,040
+If you ever need to extract subtitles from Bilibili videos,
+
+84
+00:02:55,040 --> 00:02:56,920
+then this plugin will be more than enough for you.
+
+85
+00:02:56,920 --> 00:02:58,160
+And the best part? It's completely free.
+
+86
+00:02:58,160 --> 00:03:00,040
+So, about the installation method I just mentioned...
+
+87
+00:03:00,040 --> 00:03:02,880
+
+
+88
+00:03:02,880 --> 00:03:04,400
+I've already pinned it in the comments section.
+
+89
+00:03:04,400 --> 00:03:06,339
+So feel free to just go ahead and use it.
+
+90
+00:03:06,339 --> 00:03:08,639
+Honestly, it feels amazing.
+
+91
+00:03:08,639 --> 00:03:11,770
+And developing and fine-tuning this plugin took a ton of my time.
+
+92
+00:03:11,770 --> 00:03:13,430
+If you find this plugin useful,
+
+93
+00:03:13,430 --> 00:03:14,410
+and helps you save time,
+
+94
+00:03:14,410 --> 00:03:15,330
+Please give me a like,
+
+95
+00:03:15,330 --> 00:03:16,090
+and maybe give me a follow.
+
+96
+00:03:16,090 --> 00:03:17,730
+It really means a lot to me.
+
+97
+00:03:17,730 --> 00:03:21,329
+and that's what truly motivates me to keep updating the SABATCH plugin.
+
+98
+00:03:21,329 --> 00:03:23,589
+Alright, that's everything for this video.
+
+99
+00:03:23,589 --> 00:03:24,329
+I'm Burn.
+
+100
+00:03:24,329 --> 00:03:25,329
+Let's learn together and get stronger seven times over.
+
+101
+00:03:25,329 --> 00:03:26,029
+I'll see you in the next one.
+
+102
+00:03:26,029 --> 00:03:26,780
+Bye-bye!
+

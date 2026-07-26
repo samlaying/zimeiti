@@ -1,0 +1,5048 @@
+1
+00:00:01,440 --> 00:00:02,800
+Hey everyone, what's up!
+
+2
+00:00:02,800 --> 00:00:03,400
+Welcome back.
+
+3
+00:00:03,400 --> 00:00:04,320
+Alright, so up to this point,
+
+4
+00:00:04,320 --> 00:00:06,200
+We've already got things like Node.js,
+
+5
+00:00:06,200 --> 00:00:06,560
+and Git,
+
+6
+00:00:06,560 --> 00:00:08,320
+as well as other basic environments like Python.
+
+7
+00:00:08,320 --> 00:00:11,490
+as well as the integration of Claude Code with VS Code.
+
+8
+00:00:11,490 --> 00:00:13,730
+Alright, so now, we're going to approach this from the perspective of a complete beginner.
+
+9
+00:00:13,730 --> 00:00:17,410
+to complete a full-scale project for a personal accounting app.
+
+10
+00:00:17,410 --> 00:00:18,630
+Alright, let's get into the hands-on development.
+
+11
+00:00:18,630 --> 00:00:19,950
+So, for this project,
+
+12
+00:00:19,950 --> 00:00:21,990
+We're going to be developing this from the perspective of a complete beginner.
+
+13
+00:00:21,990 --> 00:00:25,210
+We're not going to give Claude Code any professional-level requirements.
+
+14
+00:00:25,210 --> 00:00:28,530
+Instead, we're asking it to present us with the appropriate technical solutions.
+
+15
+00:00:28,530 --> 00:00:30,350
+and explain what these technical solutions are.
+
+16
+00:00:30,350 --> 00:00:33,110
+And then, we'll pick the right tech stack from those options.
+
+17
+00:00:33,110 --> 00:00:34,190
+And the reason for that is...
+
+18
+00:00:34,190 --> 00:00:37,290
+As beginners, we can't really come up with professional-level requirements on our own.
+
+19
+00:00:37,290 --> 00:00:39,230
+So, that's where Claude Code comes in.
+
+20
+00:00:39,230 --> 00:00:43,530
+this AI programming tool to guide us through the process.
+
+21
+00:00:43,530 --> 00:00:44,690
+So basically, we're the boss.
+
+22
+00:00:44,690 --> 00:00:45,599
+and it's the employee.
+
+23
+00:00:45,599 --> 00:00:46,759
+and the solution it's going to propose.
+
+24
+00:00:46,759 --> 00:00:47,559
+As the leaders,
+
+25
+00:00:47,559 --> 00:00:49,279
+And we just need to make the call.
+
+26
+00:00:49,279 --> 00:00:51,199
+We don't need to get too deep into the technical stuff.
+
+27
+00:00:51,199 --> 00:00:55,490
+But you still need to guide Claude Code properly.
+
+28
+00:00:55,490 --> 00:00:56,870
+Alright, so those are our requirements.
+
+29
+00:00:56,870 --> 00:00:57,990
+Alright, so with that in mind,
+
+30
+00:00:57,990 --> 00:01:00,500
+Alright, so the first thing we've got to do is definitely set up the project.
+
+31
+00:01:00,500 --> 00:01:02,020
+So, for the hands-on part of this project,
+
+32
+00:01:02,020 --> 00:01:04,200
+And it works perfectly on both Mac and Windows.
+
+33
+00:01:04,200 --> 00:01:06,580
+All we need to do is open up the VS Code application.
+
+34
+00:01:06,580 --> 00:01:10,260
+And then, we can just start programming through our AI coding tool.
+
+35
+00:01:10,260 --> 00:01:13,120
+Alright, so first, let's create a folder on our computer.
+
+36
+00:01:13,120 --> 00:01:14,780
+Let's call it the "Heima Accounting App".
+
+37
+00:01:14,780 --> 00:01:16,260
+And then, use VS Code...
+
+38
+00:01:16,260 --> 00:01:18,740
+And then, just open it up with VS Code, and we're good to go.
+
+39
+00:01:18,740 --> 00:01:18,940
+Alright.
+
+40
+00:01:18,940 --> 00:01:20,420
+Alright, let's open up the file explorer.
+
+41
+00:01:20,420 --> 00:01:21,480
+Let's open up the D drive.
+
+42
+00:01:21,480 --> 00:01:24,620
+And then, inside the D drive, I'm going to create a new folder.
+
+43
+00:01:24,620 --> 00:01:26,680
+and name it 'Heima Accounting App'.
+
+44
+00:01:26,680 --> 00:01:26,960
+Alright.
+
+45
+00:01:26,960 --> 00:01:28,480
+Alright, so now that we have this folder,
+
+46
+00:01:28,480 --> 00:01:31,999
+So, you can just right-click in here to find it.
+
+47
+00:01:31,999 --> 00:01:34,079
+and it's called 'Open with VS Code'.
+
+48
+00:01:34,079 --> 00:01:35,199
+It's just that on my computer,
+
+49
+00:01:35,199 --> 00:01:37,219
+The 'Open with VS Code' option might look a bit garbled.
+
+50
+00:01:37,219 --> 00:01:37,620
+Alright.
+
+51
+00:01:37,620 --> 00:01:39,340
+So, if you're on your own computer,
+
+52
+00:01:39,340 --> 00:01:42,280
+If you can't find the option to open it with VS Code by right-clicking,
+
+53
+00:01:42,280 --> 00:01:46,090
+In that case, you can just go ahead and open up VS Code first.
+
+54
+00:01:46,090 --> 00:01:46,570
+Alright.
+
+55
+00:01:46,570 --> 00:01:49,570
+Alright, so once you've got VS Code open,
+
+56
+00:01:49,570 --> 00:01:50,370
+Alright, so in here,
+
+57
+00:01:50,370 --> 00:01:53,240
+There's always an option called 'Open Folder'.
+
+58
+00:01:53,240 --> 00:01:54,520
+Or, let's say, in this file...
+
+59
+00:01:54,520 --> 00:01:57,480
+Here, there's an option called 'Open Folder'.
+
+60
+00:01:57,480 --> 00:02:01,250
+Alright, let's find it. We're going to our D drive, to the folder we just created.
+
+61
+00:02:01,250 --> 00:02:02,930
+and let's call it the 'Heima Accounting App'.
+
+62
+00:02:02,930 --> 00:02:04,260
+Alright, select the folder.
+
+63
+00:02:04,260 --> 00:02:06,300
+Alright, so now in our VS Code...
+
+64
+00:02:06,300 --> 00:02:08,060
+And it'll open up this folder.
+
+65
+00:02:08,060 --> 00:02:10,020
+And at the same time, it's going to ask us if we trust it.
+
+66
+00:02:10,020 --> 00:02:12,229
+Alright, so of course, I'm gonna click 'Trust'.
+
+67
+00:02:12,229 --> 00:02:14,409
+Alright, so with that pretty much sorted,
+
+68
+00:02:14,409 --> 00:02:17,309
+Alright, let's grab this on the right and just drag it over to the left a bit.
+
+69
+00:02:17,309 --> 00:02:20,019
+and it will bring up our Claude Code.
+
+70
+00:02:20,019 --> 00:02:21,699
+Alright, so once we click on it...
+
+71
+00:02:21,699 --> 00:02:23,059
+Let's give it a moment to respond.
+
+72
+00:02:23,059 --> 00:02:23,979
+Once it's up and running,
+
+73
+00:02:23,979 --> 00:02:26,550
+And now we can start typing in our requirements.
+
+74
+00:02:26,550 --> 00:02:27,150
+Alright, so with that done,
+
+75
+00:02:27,150 --> 00:02:29,350
+So, we can just use this page right here
+
+76
+00:02:29,350 --> 00:02:31,910
+and kick off our development process.
+
+77
+00:02:31,910 --> 00:02:32,470
+Alright.
+
+78
+00:02:32,470 --> 00:02:33,630
+Alright, so for our development process...
+
+79
+00:02:33,630 --> 00:02:36,390
+So, the very first thing we need to do is describe our project to Claude Code.
+
+80
+00:02:36,390 --> 00:02:37,430
+So, what exactly are we trying to build?
+
+81
+00:02:37,430 --> 00:02:38,790
+But before we get into that,
+
+82
+00:02:38,790 --> 00:02:40,220
+This plugin has an option.
+
+83
+00:02:40,220 --> 00:02:42,780
+See, there's an option here called 'ask before edit'.
+
+84
+00:02:42,780 --> 00:02:43,140
+Right.
+
+85
+00:02:43,140 --> 00:02:45,700
+So, what this means is that before every single edit,
+
+86
+00:02:45,700 --> 00:02:46,890
+it will ask you for confirmation.
+
+87
+00:02:46,890 --> 00:02:48,290
+So basically, it leaves a trail.
+
+88
+00:02:48,290 --> 00:02:49,930
+So, there are quite a few different modes.
+
+89
+00:02:49,930 --> 00:02:52,630
+By default, it's set to a mode called 'ask-before-editing'.
+
+90
+00:02:52,630 --> 00:02:57,410
+This means that before any edit is made, a pop-up will appear asking for our manual approval.
+
+91
+00:02:57,410 --> 00:02:59,590
+And then there's this one called 'automatically'.
+
+92
+00:02:59,590 --> 00:03:00,770
+So, that's the automated one.
+
+93
+00:03:00,770 --> 00:03:02,490
+So basically, it just runs automatically.
+
+94
+00:03:02,490 --> 00:03:03,290
+without needing any confirmation.
+
+95
+00:03:03,290 --> 00:03:05,660
+Oh, and there's also this thing called 'plan mode'.
+
+96
+00:03:05,660 --> 00:03:07,100
+It's called 'Plan Mode'.
+
+97
+00:03:07,100 --> 00:03:09,900
+It can help us generate a complete plan for the overhaul.
+
+98
+00:03:09,900 --> 00:03:11,560
+without directly modifying the files.
+
+99
+00:03:11,560 --> 00:03:14,650
+It will only execute the changes after we've confirmed the plan.
+
+100
+00:03:14,650 --> 00:03:16,130
+So, for us beginners,
+
+101
+00:03:16,130 --> 00:03:19,120
+Generally, the one we recommend choosing is called the 'plan' model.
+
+102
+00:03:19,120 --> 00:03:20,400
+And if we do that, it will then provide us with...
+
+103
+00:03:20,400 --> 00:03:23,240
+our corresponding detailed action plan.
+
+104
+00:03:23,240 --> 00:03:24,720
+Only when we give it the green light manually,
+
+105
+00:03:24,720 --> 00:03:26,360
+Let's say we give it the green light.
+
+106
+00:03:26,360 --> 00:03:29,800
+Only then will it proceed with the next steps.
+
+107
+00:03:29,800 --> 00:03:32,150
+And within this planning model,
+
+108
+00:03:32,150 --> 00:03:35,630
+It will then list out a plan based on your requirements.
+
+109
+00:03:35,630 --> 00:03:36,790
+So, what's the first step?
+
+110
+00:03:36,790 --> 00:03:37,710
+what the second step is,
+
+111
+00:03:37,710 --> 00:03:40,060
+and what to do in every single step that follows.
+
+112
+00:03:40,060 --> 00:03:42,160
+It'll map out the entire plan for you, crystal clear.
+
+113
+00:03:42,160 --> 00:03:44,280
+And then, it will strictly follow these steps.
+
+114
+00:03:44,280 --> 00:03:45,760
+So that's why we're going with this 'play' mode.
+
+115
+00:03:45,760 --> 00:03:48,840
+This makes it much easier to manage, especially for a beginner. Alright,
+
+116
+00:03:48,840 --> 00:03:50,920
+Okay, so now that we've picked our mode,
+
+117
+00:03:50,920 --> 00:03:53,940
+Alright, now we can start programming it.
+
+118
+00:03:53,940 --> 00:03:55,880
+Alright, so first, we need to have Claude Code...
+
+119
+00:03:55,880 --> 00:03:58,680
+to generate a file for us called Claude.md.
+
+120
+00:03:58,680 --> 00:04:01,760
+Alright, let's start by typing in CLAUDE.MD.
+
+121
+00:04:01,760 --> 00:04:04,720
+So, this file is basically a project-level document.
+
+122
+00:04:04,720 --> 00:04:07,620
+So, its purpose is to describe the entire project.
+
+123
+00:04:07,620 --> 00:04:10,940
+some relevant things to keep in mind regarding Claude Code.
+
+124
+00:04:10,940 --> 00:04:13,960
+It's a kind of... for the entire Claude Code workflow.
+
+125
+00:04:13,960 --> 00:04:15,340
+project-level control.
+
+126
+00:04:15,340 --> 00:04:18,380
+So, this file is incredibly important for the entire project.
+
+127
+00:04:18,380 --> 00:04:19,420
+is quite important.
+
+128
+00:04:19,420 --> 00:04:23,080
+It serves as a set of guidelines, or a specification, to direct our AI tool.
+
+129
+00:04:23,080 --> 00:04:25,560
+Now, typically, this is a file that we would write ourselves.
+
+130
+00:04:25,560 --> 00:04:26,240
+But, like we said,
+
+131
+00:04:26,240 --> 00:04:26,760
+But for us newbies,
+
+132
+00:04:26,760 --> 00:04:28,760
+We don't really know what's supposed to be in this file anyway.
+
+133
+00:04:28,760 --> 00:04:30,240
+So I have no idea how to write that either.
+
+134
+00:04:30,240 --> 00:04:30,980
+So, what do we do about it?
+
+135
+00:04:30,980 --> 00:04:32,039
+Alright, no worries.
+
+136
+00:04:32,039 --> 00:04:36,270
+You can just have the model write it for you automatically.
+
+137
+00:04:36,270 --> 00:04:36,550
+Alright.
+
+138
+00:04:36,550 --> 00:04:39,190
+Alright, so first things first, let's get this prompt written out.
+
+139
+00:04:39,190 --> 00:04:40,950
+So, we know we need to generate a file like this.
+
+140
+00:04:40,950 --> 00:04:43,370
+And then, we'll use this prompt to get the job done.
+
+141
+00:04:43,370 --> 00:04:47,210
+Alright, I'll say I need to generate an app.
+
+142
+00:04:47,210 --> 00:04:48,510
+Alright, let's lay out our requirements.
+
+143
+00:04:48,510 --> 00:04:52,450
+Let's call it 'Dark Horse Bookkeeping'.
+
+144
+00:04:52,450 --> 00:04:53,430
+Alright, we've got a name.
+
+145
+00:04:53,430 --> 00:04:59,150
+And by the way, I should mention, I don't know anything about programming.
+
+146
+00:04:59,150 --> 00:05:03,559
+And this is my first time using Claude, too.
+
+147
+00:05:03,559 --> 00:05:04,719
+Claude Code.
+
+148
+00:05:04,719 --> 00:05:06,559
+And this is my first time using you, too.
+
+149
+00:05:06,559 --> 00:05:13,369
+Alright, so first, I need you to help me design the product documentation.
+
+150
+00:05:13,369 --> 00:05:18,340
+And save it to a file called CLAUDE.md.
+
+151
+00:05:18,340 --> 00:05:19,900
+Alright, let's take a look at our requirements.
+
+152
+00:05:19,900 --> 00:05:22,880
+You need to help us design the product documentation.
+
+153
+00:05:22,880 --> 00:05:24,300
+So, here are my requirements.
+
+154
+00:05:24,300 --> 00:05:27,390
+So, here are my requirements.
+
+155
+00:05:27,390 --> 00:05:28,550
+Alright, so for this bookkeeping app...
+
+156
+00:05:28,550 --> 00:05:29,110
+First off,
+
+157
+00:05:29,110 --> 00:05:37,270
+First off, I need this app to be able to run on both Windows and Mac computers.
+
+158
+00:05:37,270 --> 00:05:38,510
+So, that's my first requirement.
+
+159
+00:05:38,510 --> 00:05:39,710
+And then, let's hit enter for a new line.
+
+160
+00:05:39,710 --> 00:05:41,000
+Oh, and one more thing.
+
+161
+00:05:41,000 --> 00:05:42,360
+If you just press Enter,
+
+162
+00:05:42,360 --> 00:05:43,780
+it'll send the message right away.
+
+163
+00:05:43,780 --> 00:05:45,040
+So, whatever you do, don't just press Enter.
+
+164
+00:05:45,040 --> 00:05:47,130
+Instead, you have to press Shift plus Enter.
+
+165
+00:05:47,130 --> 00:05:49,850
+So, you have to press Shift plus Enter to actually start a new line.
+
+166
+00:05:49,850 --> 00:05:50,670
+Alright, so that's how you do a line break.
+
+167
+00:05:50,670 --> 00:05:52,030
+Alright, so for the second requirement...
+
+168
+00:05:52,030 --> 00:05:53,990
+So, the app's features.
+
+169
+00:05:53,990 --> 00:05:58,890
+The main thing is, it should be able to record every single expense the user makes.
+
+170
+00:05:58,890 --> 00:06:03,079
+One is for the currency, in RMB, right, RMB.
+
+171
+00:06:03,079 --> 00:06:08,279
+And then, it can also track the categories for these expenses.
+
+172
+00:06:08,279 --> 00:06:11,430
+And the categories should have two levels.
+
+173
+00:06:11,430 --> 00:06:17,360
+So, we'll have first-level main categories and second-level sub-categories.
+
+174
+00:06:17,360 --> 00:06:17,940
+and sub-categories.
+
+175
+00:06:17,940 --> 00:06:20,200
+And for the categories, you can design them.
+
+176
+00:06:20,200 --> 00:06:21,440
+Look, I don't care. We're complete beginners here.
+
+177
+00:06:21,440 --> 00:06:22,440
+And I don't really care about the categories either.
+
+178
+00:06:22,440 --> 00:06:23,860
+Just go ahead and design it.
+
+179
+00:06:23,860 --> 00:06:24,920
+Just show me your design when you're done.
+
+180
+00:06:24,920 --> 00:06:26,520
+I'll just give the final okay, sounds good.
+
+181
+00:06:26,520 --> 00:06:29,940
+Alright, let's move on to the third point: the tech stack.
+
+182
+00:06:29,940 --> 00:06:33,820
+The choice is all yours.
+
+183
+00:06:33,820 --> 00:06:34,440
+I'm a complete newbie.
+
+184
+00:06:34,440 --> 00:06:35,860
+I don't even know what technologies are out there.
+
+185
+00:06:35,860 --> 00:06:36,540
+What, like Python?
+
+186
+00:06:36,540 --> 00:06:36,980
+or Java...
+
+187
+00:06:36,980 --> 00:06:37,580
+I don't know anything.
+
+188
+00:06:37,580 --> 00:06:39,340
+I don't even know where to begin.
+
+189
+00:06:39,340 --> 00:06:40,760
+You decide on the tech stack.
+
+190
+00:06:40,760 --> 00:06:46,329
+And then, lay out a few options for me to choose from.
+
+191
+00:06:46,329 --> 00:06:46,889
+Or, let me put it this way.
+
+192
+00:06:46,889 --> 00:06:48,569
+and lay out a few options for me.
+
+193
+00:06:48,569 --> 00:06:53,260
+And then list out the pros and cons for each of the four.
+
+194
+00:06:53,260 --> 00:06:53,820
+list out the pros and cons
+
+195
+00:06:53,820 --> 00:06:57,580
+And then I'll pick one and make the final call.
+
+196
+00:06:57,580 --> 00:06:59,660
+You just need to tell me which ones to pick.
+
+197
+00:06:59,660 --> 00:07:01,530
+And then, I'll handle the final layout.
+
+198
+00:07:01,530 --> 00:07:03,230
+And now, pay attention.
+
+199
+00:07:03,230 --> 00:07:06,530
+Throughout the entire project development,
+
+200
+00:07:06,530 --> 00:07:12,450
+any of the technical stuff, you know, the nitty-gritty details.
+
+201
+00:07:12,450 --> 00:07:14,170
+And keep in mind, I'm a total newbie.
+
+202
+00:07:14,170 --> 00:07:17,610
+I can't give you any specific requirements.
+
+203
+00:07:17,610 --> 00:07:19,570
+So basically, I can't give you any specific requirements.
+
+204
+00:07:19,570 --> 00:07:24,160
+So, you have to be the one to lay out the options for me.
+
+205
+00:07:24,160 --> 00:07:30,320
+And then, explain each of those options to me.
+
+206
+00:07:31,560 --> 00:07:34,910
+Explain the pros and cons of each option.
+
+207
+00:07:34,910 --> 00:07:37,030
+And then I'll make the call.
+
+208
+00:07:38,090 --> 00:07:47,080
+Then, please document these requirements in detail in the Claude.md file.
+
+209
+00:07:47,080 --> 00:07:52,790
+and adhere to it for the duration of the project.
+
+210
+00:07:52,950 --> 00:07:54,670
+Okay, so this is our complete prompt.
+
+211
+00:07:54,670 --> 00:07:56,470
+As you can see, it's taken us 23 minutes to get this far.
+
+212
+00:07:56,470 --> 00:07:58,040
+But, I'm just going to type it out for you guys.
+
+213
+00:07:58,040 --> 00:07:59,240
+This way, you can all follow along with the process.
+
+214
+00:07:59,240 --> 00:08:01,260
+and it also knows the specific details of what we need.
+
+215
+00:08:01,260 --> 00:08:03,800
+So basically, what we're doing is defining a role for ourselves.
+
+216
+00:08:03,800 --> 00:08:04,720
+We're just total newbies.
+
+217
+00:08:04,720 --> 00:08:05,720
+I'm not a tech guy either.
+
+218
+00:08:05,720 --> 00:08:06,590
+I know nothing.
+
+219
+00:08:06,590 --> 00:08:08,110
+But I have a hunch it's probably Claude.
+
+220
+00:08:08,110 --> 00:08:09,650
+I know you get it, right?
+
+221
+00:08:09,650 --> 00:08:11,190
+So, since you're the expert here,
+
+222
+00:08:11,190 --> 00:08:13,370
+So you just need to think about how you're going to do it.
+
+223
+00:08:13,370 --> 00:08:14,150
+And you come to me for that.
+
+224
+00:08:14,150 --> 00:08:15,690
+I'll just make the call.
+
+225
+00:08:15,690 --> 00:08:16,410
+What tech stack are we talking about?
+
+226
+00:08:16,410 --> 00:08:16,990
+I don't know any of this.
+
+227
+00:08:16,990 --> 00:08:18,330
+But first, explain it to me.
+
+228
+00:08:18,330 --> 00:08:20,670
+I'll make the call, and that's that.
+
+229
+00:08:20,670 --> 00:08:22,210
+Alright, so this is our first prompt.
+
+230
+00:08:22,210 --> 00:08:23,590
+Alright, so once we're done with this prompt,
+
+231
+00:08:23,590 --> 00:08:25,210
+So, for the most part, from this point on,
+
+232
+00:08:25,210 --> 00:08:27,170
+we won't need to write any more prompts.
+
+233
+00:08:27,170 --> 00:08:30,090
+This single set of prompts is all it takes to get it to develop the app for us.
+
+234
+00:08:30,090 --> 00:08:31,800
+the first version of this app.
+
+235
+00:08:31,800 --> 00:08:33,580
+Of course, if you're not satisfied with it later on,
+
+236
+00:08:33,580 --> 00:08:35,520
+you can always use more prompts to fine-tune it.
+
+237
+00:08:35,520 --> 00:08:37,489
+But for a first-release app,
+
+238
+00:08:37,489 --> 00:08:40,089
+This one prompt is actually all you need to get it developed.
+
+239
+00:08:40,089 --> 00:08:41,609
+Alright, let's give it a shot.
+
+240
+00:08:41,609 --> 00:08:43,688
+Alright, let's just hit Enter and go.
+
+241
+00:08:43,688 --> 00:08:44,649
+You...
+
+242
+00:08:46,020 --> 00:08:46,500
+Alright.
+
+243
+00:08:46,500 --> 00:08:48,060
+Alright, so it's starting to think now.
+
+244
+00:08:48,060 --> 00:08:49,100
+Alright, it's starting to process.
+
+245
+00:08:49,100 --> 00:08:50,060
+Alright, let's just give it a moment.
+
+246
+00:08:50,060 --> 00:08:51,260
+And now it's just churning out code like crazy again.
+
+247
+00:08:51,260 --> 00:08:55,020
+And a whole bunch of tokens start getting used up.
+
+248
+00:08:55,020 --> 00:08:57,180
+And you'll notice that it's going to run some best practices for us by default.
+
+249
+00:08:57,180 --> 00:08:57,700
+a hard-coded command.
+
+250
+00:08:57,700 --> 00:08:59,980
+So basically, it's like the commands we use in a terminal.
+
+251
+00:08:59,980 --> 00:09:02,660
+It's going to check out our current project, the 'Heima Bookkeeping App' on the D drive.
+
+252
+00:09:02,660 --> 00:09:04,100
+What's inside this folder?
+
+253
+00:09:04,100 --> 00:09:06,500
+Hey, look, the output is just a dot and two dots.
+
+254
+00:09:06,500 --> 00:09:08,540
+So basically, what that means is this folder is empty.
+
+255
+00:09:08,540 --> 00:09:09,850
+Which means this is a brand new project.
+
+256
+00:09:09,850 --> 00:09:13,960
+So, we need to make it clear that it has to design the product documentation and the technical plan. Alright.
+
+257
+00:09:13,960 --> 00:09:16,120
+Alright, so first thing's first, it needs to write out a complete project plan.
+
+258
+00:09:16,120 --> 00:09:18,880
+We have what's called a 'claude.md' file.
+
+259
+00:09:18,880 --> 00:09:20,030
+Alright, this is the file.
+
+260
+00:09:20,030 --> 00:09:21,910
+And then it just starts whirring away, thinking.
+
+261
+00:09:21,910 --> 00:09:23,790
+And the planning file has been created.
+
+262
+00:09:23,790 --> 00:09:25,920
+And now it needs to make a...
+
+263
+00:09:25,920 --> 00:09:28,420
+For example, making a technical decision about the tech stack.
+
+264
+00:09:28,420 --> 00:09:30,920
+Oh, so it's given us three options to choose from.
+
+265
+00:09:30,920 --> 00:09:31,360
+So, check this out.
+
+266
+00:09:31,360 --> 00:09:33,680
+And it even lays out its entire thought process right here.
+
+267
+00:09:33,680 --> 00:09:34,600
+So, for example, we have Plan A.
+
+268
+00:09:34,600 --> 00:09:35,440
+And then there's Option B.
+
+269
+00:09:35,440 --> 00:09:36,680
+And then there's option C.
+
+270
+00:09:36,680 --> 00:09:38,320
+So, we have these three options, right?
+
+271
+00:09:38,320 --> 00:09:41,440
+And its recommendation for this purely desktop-based accounting app...
+
+272
+00:09:41,440 --> 00:09:44,300
+I suggest we go with Option A, as it's the most mature and stable.
+
+273
+00:09:44,300 --> 00:09:45,820
+So basically, what this is telling us is...
+
+274
+00:09:45,820 --> 00:09:49,850
+So, a technology called Electron would be a better fit. Alright.
+
+275
+00:09:49,850 --> 00:09:50,530
+So, besides that,
+
+276
+00:09:50,530 --> 00:09:53,850
+And then there's option B, which is basically some modern stuff.
+
+277
+00:09:53,850 --> 00:09:55,760
+And then there's option C, which is Flutter.
+
+278
+00:09:55,760 --> 00:09:57,560
+and it's scalable to a mobile version in the future.
+
+279
+00:09:57,560 --> 00:09:59,600
+Using a single codebase for both platforms is a pretty modern approach, especially on the desktop side.
+
+280
+00:09:59,600 --> 00:10:00,600
+So, what this means is...
+
+281
+00:10:00,600 --> 00:10:03,260
+But its performance on the desktop side is pretty weak, right.
+
+282
+00:10:03,260 --> 00:10:05,260
+Alright, so let's think about this for a moment.
+
+283
+00:10:05,260 --> 00:10:05,420
+Alright, so...
+
+284
+00:10:05,420 --> 00:10:06,820
+So, what we need right now is...
+
+285
+00:10:06,820 --> 00:10:09,980
+Basically, something that works on both Windows and Mac.
+
+286
+00:10:09,980 --> 00:10:11,980
+So, it's telling us that this thing is called Electron.
+
+287
+00:10:11,980 --> 00:10:13,580
+And this thing is the most mature and stable one out there.
+
+288
+00:10:13,580 --> 00:10:14,760
+Alright, let's go with that then, right?
+
+289
+00:10:14,760 --> 00:10:15,860
+Besides, we're not tech experts anyway.
+
+290
+00:10:15,860 --> 00:10:17,240
+You said it's the most mature and stable one,
+
+291
+00:10:17,240 --> 00:10:18,440
+Alright, we'll put our trust in you.
+
+292
+00:10:18,440 --> 00:10:19,640
+Well, if it really doesn't work out...
+
+293
+00:10:19,640 --> 00:10:20,360
+But that's okay.
+
+294
+00:10:20,360 --> 00:10:21,980
+Worst case, we just refactor the tech stack.
+
+295
+00:10:21,980 --> 00:10:23,220
+At worst, it'll just cost some tokens.
+
+296
+00:10:23,220 --> 00:10:25,580
+So, starting over isn't a big deal, right? Alright.
+
+297
+00:10:25,580 --> 00:10:28,380
+Alright, so we'll go with option A. Okay, now that we've made our choice...
+
+298
+00:10:28,380 --> 00:10:29,700
+Click on this button, 'Submit'.
+
+299
+00:10:29,700 --> 00:10:30,780
+and submit the answer.
+
+300
+00:10:30,780 --> 00:10:32,020
+Alright, let's submit that.
+
+301
+00:10:32,020 --> 00:10:32,880
+Okay, so now it knows.
+
+302
+00:10:32,880 --> 00:10:35,910
+So, the tech stack we're going with is called Electron.
+
+303
+00:10:35,910 --> 00:10:37,070
+Alright, so now that we've made our choice...
+
+304
+00:10:37,070 --> 00:10:38,390
+Alright, it's starting to think again.
+
+305
+00:10:38,390 --> 00:10:39,510
+And let's see what it does next.
+
+306
+00:10:39,510 --> 00:10:40,050
+And it says, "Alright."
+
+307
+00:10:40,050 --> 00:10:41,530
+Alright, I've reviewed your tech proposal.
+
+308
+00:10:41,530 --> 00:10:45,089
+Alright, so now it's starting to write the complete product document, which is called claude.md.
+
+309
+00:10:45,089 --> 00:10:47,030
+So, once you've finalized your tech stack,
+
+310
+00:10:47,030 --> 00:10:48,530
+It's going to create the product documentation.
+
+311
+00:10:48,530 --> 00:10:50,910
+So this product document is the 'claude.md' file we were just talking about.
+
+312
+00:10:50,910 --> 00:10:52,590
+This file documents the entire project's process,
+
+313
+00:10:52,590 --> 00:10:53,350
+So, our AI...
+
+314
+00:10:53,350 --> 00:10:56,250
+all the nitty-gritty details you need to follow in the coding process.
+
+315
+00:10:56,250 --> 00:10:58,650
+Alright, and then, just like that, bam, bam, bam!
+
+316
+00:10:58,650 --> 00:11:01,400
+And just like that, the content pops up right here in VS Code.
+
+317
+00:11:01,400 --> 00:11:04,160
+So, this is actually way more comfortable than working in the command line.
+
+318
+00:11:04,160 --> 00:11:05,560
+And everything inside is in green.
+
+319
+00:11:05,560 --> 00:11:07,760
+Plus, plus... which means this is something brand new.
+
+320
+00:11:07,760 --> 00:11:09,490
+See, right in here, look, we have the product documentation.
+
+321
+00:11:09,490 --> 00:11:11,970
+The product documentation file is called Claude.md.
+
+322
+00:11:11,970 --> 00:11:14,660
+And inside, it's got the project's description, explaining what it's all about.
+
+323
+00:11:14,660 --> 00:11:16,580
+And then for the core features, right, the ones we just mentioned.
+
+324
+00:11:16,580 --> 00:11:19,620
+So, it's laid out some of the core features for us.
+
+325
+00:11:19,620 --> 00:11:20,860
+And then there's category management.
+
+326
+00:11:20,860 --> 00:11:22,700
+And what about statistical charts?
+
+327
+00:11:22,700 --> 00:11:23,940
+So, these are all the features it covers.
+
+328
+00:11:23,940 --> 00:11:24,720
+And of course, data management.
+
+329
+00:11:24,720 --> 00:11:27,060
+And it's also got its own custom categorization system.
+
+330
+00:11:27,060 --> 00:11:28,460
+For example, what are the main categories?
+
+331
+00:11:28,460 --> 00:11:30,230
+And what about the sub-categories?
+
+332
+00:11:30,230 --> 00:11:31,310
+And some other categories as well.
+
+333
+00:11:31,310 --> 00:11:32,210
+And for the tech stack,
+
+334
+00:11:32,210 --> 00:11:33,350
+So, here are the options it's given us.
+
+335
+00:11:33,350 --> 00:11:35,840
+Alright, so the tech stack we've chosen is called Electron.
+
+336
+00:11:35,840 --> 00:11:37,760
+And then you also laid out the project structure.
+
+337
+00:11:37,760 --> 00:11:39,400
+And in here, we have a Claude.md file.
+
+338
+00:11:39,400 --> 00:11:40,440
+There's this file called POKET dot...
+
+339
+00:11:40,440 --> 00:11:40,840
+JSON.
+
+340
+00:11:40,840 --> 00:11:41,800
+Configuring the project dependencies.
+
+341
+00:11:41,800 --> 00:11:43,860
+And here we have the main process code for Electron.
+
+342
+00:11:43,860 --> 00:11:46,340
+And then there's the SRC folder, which has some of the source code, and so on.
+
+343
+00:11:46,340 --> 00:11:47,220
+But hey, we're just beginners here.
+
+344
+00:11:47,220 --> 00:11:47,820
+We don't really get it.
+
+345
+00:11:47,820 --> 00:11:48,600
+But you'll notice,
+
+346
+00:11:48,600 --> 00:11:51,060
+So, is the AI doing all this stuff for us automatically?
+
+347
+00:11:51,060 --> 00:11:52,240
+So, even though we can't understand any of it,
+
+348
+00:11:52,240 --> 00:11:53,160
+We don't know how to write code either.
+
+349
+00:11:53,160 --> 00:11:53,960
+But that's okay.
+
+350
+00:11:53,960 --> 00:11:55,000
+You're the leader.
+
+351
+00:11:55,000 --> 00:11:56,080
+You don't need to know the tech stuff.
+
+352
+00:11:56,080 --> 00:11:56,840
+Your employee.
+
+353
+00:11:56,840 --> 00:11:57,820
+Your AI knows the tech.
+
+354
+00:11:57,820 --> 00:11:59,520
+Just let it do the work, and you're all set.
+
+355
+00:11:59,520 --> 00:12:01,500
+There are also some important rules in here.
+
+356
+00:12:01,500 --> 00:12:03,040
+For example, let's say the user is a complete newbie.
+
+357
+00:12:03,040 --> 00:12:05,240
+like what libraries to choose for the project, and so on and so forth.
+
+358
+00:12:05,240 --> 00:12:06,800
+We need to ask it about all of that, and so on and so forth.
+
+359
+00:12:06,800 --> 00:12:09,520
+And it seems like it's just done that for us, right?
+
+360
+00:12:09,520 --> 00:12:11,240
+and a record of some important rules.
+
+361
+00:12:11,240 --> 00:12:12,420
+And a development roadmap.
+
+362
+00:12:12,420 --> 00:12:15,240
+So, as we were saying, we just got that done using what's called 'plan' mode.
+
+363
+00:12:15,240 --> 00:12:16,600
+So, about this 'plan' mode...
+
+364
+00:12:16,600 --> 00:12:19,260
+So basically, what it does is create a detailed plan for us.
+
+365
+00:12:19,260 --> 00:12:19,680
+Right?
+
+366
+00:12:19,680 --> 00:12:20,780
+So, within this detailed plan,
+
+367
+00:12:20,780 --> 00:12:22,740
+So, see, it's laid out these things it calls 'phases'.
+
+368
+00:12:22,740 --> 00:12:23,780
+Zero, one, two, three, four, five, six, seven.
+
+369
+00:12:23,780 --> 00:12:25,000
+So, that's eight stages in total.
+
+370
+00:12:25,000 --> 00:12:26,840
+But the first one of those eight stages has an 'X' next to it.
+
+371
+00:12:26,840 --> 00:12:28,200
+And with that, the first stage is complete.
+
+372
+00:12:28,200 --> 00:12:29,340
+Which is the tech stack selection.
+
+373
+00:12:29,340 --> 00:12:30,080
+Current stage.
+
+374
+00:12:30,080 --> 00:12:32,480
+So, it's going to strictly follow what's called a development roadmap.
+
+375
+00:12:32,480 --> 00:12:33,360
+Eight stages, huh.
+
+376
+00:12:33,360 --> 00:12:34,580
+One, two, three, four, five, six, seven...
+
+377
+00:12:34,580 --> 00:12:36,520
+Alright, it'll execute them one by one.
+
+378
+00:12:36,520 --> 00:12:39,380
+So, this is the document it's listed out for us, called Claude.md.
+
+379
+00:12:39,380 --> 00:12:42,110
+But this file hasn't actually been created yet.
+
+380
+00:12:42,110 --> 00:12:44,790
+Because, you see, on the right, it's asking for permission to write, right?
+
+381
+00:12:44,790 --> 00:12:48,110
+So, are you going to let it actually write this file?
+
+382
+00:12:48,110 --> 00:12:50,220
+You have to type 'yes' for it to work.
+
+383
+00:12:50,220 --> 00:12:51,940
+So, what if you're not happy with this file?
+
+384
+00:12:51,940 --> 00:12:53,700
+So, can I just keep chatting with it in here?
+
+385
+00:12:53,700 --> 00:12:55,860
+You can tell it what you think should be added to this file, or whatever.
+
+386
+00:12:55,860 --> 00:12:56,740
+You can just chat with it yourself.
+
+387
+00:12:56,740 --> 00:12:57,500
+If you're happy with it,
+
+388
+00:12:57,500 --> 00:12:58,620
+Alright, I'll just click 'yes'.
+
+389
+00:12:58,620 --> 00:12:59,910
+Alright, let's click 'yes'.
+
+390
+00:12:59,910 --> 00:13:00,850
+Alright, I'll just wait for a moment then.
+
+391
+00:13:00,850 --> 00:13:01,730
+See? Here's the file.
+
+392
+00:13:01,730 --> 00:13:03,770
+And hey, it actually recorded it for us.
+
+393
+00:13:03,770 --> 00:13:05,550
+So, it's like the file has actually been generated.
+
+394
+00:13:05,550 --> 00:13:06,980
+So, after it's been generated,
+
+395
+00:13:06,980 --> 00:13:08,960
+So, the program will just keep running.
+
+396
+00:13:08,960 --> 00:13:09,940
+Because from its perspective,
+
+397
+00:13:09,940 --> 00:13:11,430
+So, it's in 'play' mode.
+
+398
+00:13:11,430 --> 00:13:12,790
+So, when it's in plan mode,
+
+399
+00:13:12,790 --> 00:13:13,790
+in its plan,
+
+400
+00:13:13,790 --> 00:13:15,350
+So, for now, it's only completed the first step.
+
+401
+00:13:15,350 --> 00:13:16,430
+Oh, it'll read it by itself.
+
+402
+00:13:16,430 --> 00:13:17,300
+So it'll know what to do.
+
+403
+00:13:17,300 --> 00:13:19,700
+Alright, next up, I'm going to initialize the entire project.
+
+404
+00:13:19,700 --> 00:13:21,360
+For example, let's set up this thing called RELECTURE...
+
+405
+00:13:21,360 --> 00:13:23,730
+a project skeleton for Electron plus React.
+
+406
+00:13:23,730 --> 00:13:25,710
+and get it running so we can see the window.
+
+407
+00:13:25,710 --> 00:13:26,730
+So you don't have to worry about it.
+
+408
+00:13:26,730 --> 00:13:27,730
+It's all automated.
+
+409
+00:13:27,730 --> 00:13:29,850
+It'll just take care of all that on its own.
+
+410
+00:13:29,850 --> 00:13:31,170
+For example, let's run the BAS command.
+
+411
+00:13:31,170 --> 00:13:32,650
+Let's see what we've got in here.
+
+412
+00:13:32,650 --> 00:13:33,750
+And then it starts to think.
+
+413
+00:13:33,750 --> 00:13:35,130
+Alright, what's next?
+
+414
+00:13:35,130 --> 00:13:35,690
+Everything's set.
+
+415
+00:13:35,690 --> 00:13:37,890
+You also have some small summaries of the work that's been completed.
+
+416
+00:13:37,890 --> 00:13:39,890
+Alright, so the file has been created.
+
+417
+00:13:39,890 --> 00:13:41,270
+The tech stack is also finalized.
+
+418
+00:13:41,270 --> 00:13:43,870
+And then, the important rules and records... and we're good to go.
+
+419
+00:13:43,870 --> 00:13:44,350
+Alright.
+
+420
+00:13:44,350 --> 00:13:47,820
+And now, as you can see, it's talking about all the technical roles.
+
+421
+00:13:47,820 --> 00:13:48,380
+The final call is yours.
+
+422
+00:13:48,380 --> 00:13:50,040
+The rules have been written in, and so on.
+
+423
+00:13:50,040 --> 00:13:51,180
+I will respect this throughout the entire project.
+
+424
+00:13:51,180 --> 00:13:52,580
+Alright, so next up, you can go ahead and approve this plan.
+
+425
+00:13:52,580 --> 00:13:54,610
+Alright, I'm going to start setting up the project now.
+
+426
+00:13:54,610 --> 00:13:55,330
+Stock prices, huh?
+
+427
+00:13:55,330 --> 00:13:56,250
+Okay, it's starting to stop now.
+
+428
+00:13:56,250 --> 00:13:58,330
+Because if you look inside here, you'll see the button is gone, right?
+
+429
+00:13:58,330 --> 00:13:59,210
+That's the stop button.
+
+430
+00:13:59,210 --> 00:14:00,410
+That means it's finished.
+
+431
+00:14:00,410 --> 00:14:01,440
+Waiting for our next move.
+
+432
+00:14:01,440 --> 00:14:02,520
+So we can do this pretty easily.
+
+433
+00:14:02,520 --> 00:14:05,160
+So we'll just say, "Agreed."
+
+434
+00:14:05,160 --> 00:14:07,600
+Please, go on.
+
+435
+00:14:07,600 --> 00:14:09,620
+Just like a boss, I'll say, 'Approved, please continue.'
+
+436
+00:14:09,620 --> 00:14:10,560
+Just keep going.
+
+437
+00:14:10,560 --> 00:14:12,350
+Alright, keep at it.
+
+438
+00:14:12,350 --> 00:14:13,450
+Just give him the requirements.
+
+439
+00:14:13,450 --> 00:14:14,210
+And just like that, it knows what to do.
+
+440
+00:14:14,210 --> 00:14:14,770
+Once it knows that,
+
+441
+00:14:14,770 --> 00:14:17,260
+it will then read the claude.md file we have.
+
+442
+00:14:17,260 --> 00:14:17,740
+and its contents.
+
+443
+00:14:17,740 --> 00:14:19,200
+So it knows what it just finished doing.
+
+444
+00:14:19,200 --> 00:14:21,220
+Alright, so what's the next step?
+
+445
+00:14:21,220 --> 00:14:22,960
+Alright, let's get crackin'!
+
+446
+00:14:22,960 --> 00:14:25,520
+So, look over here, it's got something called a 'Project Kick-off Plan,' and so on.
+
+447
+00:14:25,520 --> 00:14:29,400
+It's asking, 'Accept this plan?' So, whether or not to accept this plan.
+
+448
+00:14:29,400 --> 00:14:30,280
+So, you have two options.
+
+449
+00:14:30,280 --> 00:14:33,020
+The first one is 'yes and auto', which means automatically accept.
+
+450
+00:14:33,020 --> 00:14:35,140
+and the other is manual approval, and so on.
+
+451
+00:14:35,140 --> 00:14:38,010
+So, if you want to have more fine-grained control,
+
+452
+00:14:38,010 --> 00:14:39,350
+Then you'll want to pick the second option.
+
+453
+00:14:39,350 --> 00:14:41,030
+So you have to manually approve it every single time.
+
+454
+00:14:41,030 --> 00:14:41,450
+Of course.
+
+455
+00:14:41,450 --> 00:14:42,570
+So, to keep things simple,
+
+456
+00:14:42,570 --> 00:14:43,920
+Or, hey, you could just go with the automated option.
+
+457
+00:14:43,920 --> 00:14:44,600
+Just go with the automatic option.
+
+458
+00:14:44,600 --> 00:14:45,200
+Because, you know, we're just beginners.
+
+459
+00:14:45,200 --> 00:14:46,020
+I mean, we don't really know what we're doing anyway.
+
+460
+00:14:46,020 --> 00:14:46,280
+Alright.
+
+461
+00:14:46,280 --> 00:14:47,160
+If I'm not happy with the result,
+
+462
+00:14:47,160 --> 00:14:48,300
+I'll just have it make the changes.
+
+463
+00:14:48,300 --> 00:14:49,760
+Alright, just go ahead and do it your way first.
+
+464
+00:14:49,760 --> 00:14:52,160
+and it'll just start churning out code like crazy.
+
+465
+00:14:52,160 --> 00:14:54,400
+Alright, so now that we've approved it...
+
+466
+00:14:54,400 --> 00:14:57,000
+And it just goes ahead and continues with the next steps.
+
+467
+00:14:57,000 --> 00:14:57,760
+Alright, I'll just wait here for a moment.
+
+468
+00:14:57,760 --> 00:14:59,960
+Speeding up 5x...
+
+469
+00:15:05,180 --> 00:15:08,660
+Alright, so you can see it's continuously writing a bunch of new files.
+
+470
+00:15:08,660 --> 00:15:12,100
+See? It's creating a bunch of files here, like 'write黑马记账.ts'.
+
+471
+00:15:12,100 --> 00:15:14,440
+writing the黑马记账.JSON file.
+
+472
+00:15:14,440 --> 00:15:15,480
+So, what's actually happening here is...
+
+473
+00:15:15,480 --> 00:15:18,120
+So basically, it's like a programmer is just constantly churning out code.
+
+474
+00:15:18,120 --> 00:15:21,960
+Hey, your programmer over here on the left has just generated this .JSON file.
+
+475
+00:15:21,960 --> 00:15:23,180
+And just like that, you've got all this stuff.
+
+476
+00:15:23,180 --> 00:15:24,600
+There's this dot JSON file.
+
+477
+00:15:24,600 --> 00:15:25,960
+There's this .JSON file.
+
+478
+00:15:25,960 --> 00:15:29,040
+And then there's this file called index.html.
+
+479
+00:15:29,040 --> 00:15:31,280
+And inside the SRC folder, there should be a bunch of subfolders.
+
+480
+00:15:31,280 --> 00:15:32,280
+And it's all been created.
+
+481
+00:15:32,280 --> 00:15:35,100
+We'll be filling in the code in all of these later on.
+
+482
+00:15:35,100 --> 00:15:36,940
+So, as you can see, what we're working with here is basically Claude Code.
+
+483
+00:15:36,940 --> 00:15:39,940
+So, in essence, it's like your own digital employee.
+
+484
+00:15:39,940 --> 00:15:40,980
+He is the programmer.
+
+485
+00:15:40,980 --> 00:15:42,990
+You're basically just a non-technical leader giving out orders.
+
+486
+00:15:42,990 --> 00:15:44,470
+Alright, just give it your requirements.
+
+487
+00:15:44,470 --> 00:15:47,380
+And just like that, it gets to work, clacking away like a beast of burden.
+
+488
+00:15:47,380 --> 00:15:49,820
+Alright, see? It's writing them out one by one, just like that.
+
+489
+00:15:49,820 --> 00:15:51,520
+It's generating the code files for us, one by one.
+
+490
+00:15:51,520 --> 00:15:54,140
+Because what we're building now is a desktop app, you see.
+
+491
+00:15:54,140 --> 00:15:56,580
+This isn't like those countdown timers we made before.
+
+492
+00:15:56,580 --> 00:15:57,540
+This kind of single-file project,
+
+493
+00:15:57,540 --> 00:15:59,540
+or simple, single-file games like Snake.
+
+494
+00:15:59,540 --> 00:16:02,080
+So, overall, the project workflow is quite substantial.
+
+495
+00:16:02,080 --> 00:16:03,920
+So, it's going to generate a whole bunch of files.
+
+496
+00:16:03,920 --> 00:16:07,110
+And there are still a whole bunch of dependencies that need to be installed.
+
+497
+00:16:07,110 --> 00:16:08,510
+And then it got stuck again at this point.
+
+498
+00:16:08,510 --> 00:16:11,530
+So, the reason for this is, even though we've approved the file modifications...
+
+499
+00:16:11,530 --> 00:16:12,450
+specifically, the file editing.
+
+500
+00:16:12,450 --> 00:16:13,170
+We just approved it.
+
+501
+00:16:13,170 --> 00:16:14,210
+It doesn't need to ask us for permission.
+
+502
+00:16:14,210 --> 00:16:15,570
+But for some things, like, say, a Bash script,
+
+503
+00:16:15,570 --> 00:16:16,960
+In other words, a command-line command.
+
+504
+00:16:16,960 --> 00:16:18,000
+It still needs to ask for our permission.
+
+505
+00:16:18,000 --> 00:16:19,900
+That's because executing commands is a high-risk operation.
+
+506
+00:16:19,900 --> 00:16:21,760
+Because, for example, if you run a command called 'shutdown'...
+
+507
+00:16:21,760 --> 00:16:23,260
+that could just shut down our computer directly.
+
+508
+00:16:23,260 --> 00:16:26,500
+So, by default, it will always ask you for confirmation before running any command.
+
+509
+00:16:26,500 --> 00:16:27,460
+So, you see the first option is 'yes'.
+
+510
+00:16:27,460 --> 00:16:30,060
+So I'll approve the second option, 'allow npm'.
+
+511
+00:16:30,060 --> 00:16:32,780
+So, if there are any similar commands later on, like npm inst...
+
+512
+00:16:32,780 --> 00:16:33,800
+any commands related to that.
+
+513
+00:16:33,800 --> 00:16:35,310
+So, don't ask me again, okay?
+
+514
+00:16:35,310 --> 00:16:36,990
+So, it's going to ask you for permission every single time it runs a command.
+
+515
+00:16:36,990 --> 00:16:38,280
+It's just that for similar commands,
+
+516
+00:16:38,280 --> 00:16:39,820
+You can tell it not to ask you a second time.
+
+517
+00:16:39,820 --> 00:16:40,880
+So, to keep things simple,
+
+518
+00:16:40,880 --> 00:16:41,980
+Let's go with the second option, 'yes'.
+
+519
+00:16:41,980 --> 00:16:45,200
+So for commands like 'npm install', don't ask me for confirmation anymore.
+
+520
+00:16:45,200 --> 00:16:46,380
+Of course, you might be thinking, "Hey..."
+
+521
+00:16:46,380 --> 00:16:48,520
+I'm not really sure what this is. Should I approve it?
+
+522
+00:16:48,520 --> 00:16:49,500
+So, let me show you how it works.
+
+523
+00:16:49,500 --> 00:16:53,400
+So, for example, take this command you're about to run.
+
+524
+00:16:53,400 --> 00:16:55,380
+So, what does it do?
+
+525
+00:16:55,380 --> 00:16:57,220
+Yeah, right. Go on, explain it to me.
+
+526
+00:16:57,220 --> 00:16:58,880
+Yeah, explain it. Go on, explain it.
+
+527
+00:16:58,880 --> 00:17:04,650
+And then, after that, I'll decide whether to allow it, right?
+
+528
+00:17:04,650 --> 00:17:06,650
+Let's say I don't... I just don't get what you're trying to do here.
+
+529
+00:17:06,650 --> 00:17:08,109
+You can see down here, I'm not clicking 'yes' either.
+
+530
+00:17:08,109 --> 00:17:08,890
+And I won't click NO either.
+
+531
+00:17:08,890 --> 00:17:09,760
+Let me just type something.
+
+532
+00:17:09,760 --> 00:17:12,040
+I'm like, 'Okay, explain to me, what exactly does this do?'
+
+533
+00:17:12,040 --> 00:17:13,040
+See? It says, "No problem."
+
+534
+00:17:13,040 --> 00:17:15,079
+Let me explain what 'npm install' is.
+
+535
+00:17:15,079 --> 00:17:15,680
+For example,
+
+536
+00:17:15,680 --> 00:17:17,800
+What was that shopping list he just wrote down there?
+
+537
+00:17:17,800 --> 00:17:18,920
+And then, this 'npm install' command...
+
+538
+00:17:18,920 --> 00:17:21,150
+Basically, it's just installing a whole bunch of libraries for you.
+
+539
+00:17:21,150 --> 00:17:23,670
+So, in development, we need a lot of third-party libraries and dependencies.
+
+540
+00:17:23,670 --> 00:17:25,069
+Like, for example, Electron.
+
+541
+00:17:25,069 --> 00:17:26,569
+And things like, uh, React, and so on.
+
+542
+00:17:26,569 --> 00:17:29,020
+And it can download all of them for you through NPM.
+
+543
+00:17:29,020 --> 00:17:30,500
+And what's more important, is it safe?
+
+544
+00:17:30,500 --> 00:17:31,460
+So, it's perfectly safe, right?
+
+545
+00:17:31,460 --> 00:17:33,900
+So it's just a simple internet connection.
+
+546
+00:17:33,900 --> 00:17:35,500
+It's just downloading some dependency files, that's all.
+
+547
+00:17:35,500 --> 00:17:37,820
+So, essentially, there's nothing dangerous about it.
+
+548
+00:17:37,820 --> 00:17:39,730
+So, after it's done explaining,
+
+549
+00:17:39,730 --> 00:17:41,170
+Alright, so I'll just say, "Okay, I got it."
+
+550
+00:17:41,170 --> 00:17:43,910
+Okay, okay, I got it.
+
+551
+00:17:43,910 --> 00:17:45,370
+Alright, I'll allow it. I'll allow it.
+
+552
+00:17:45,370 --> 00:17:46,830
+Alright, go on.
+
+553
+00:17:47,770 --> 00:17:48,370
+Alright.
+
+554
+00:17:48,370 --> 00:17:49,370
+If you've got something, just say 'I understand'.
+
+555
+00:17:49,370 --> 00:17:50,570
+Just let me know when you're ready to continue.
+
+556
+00:17:50,570 --> 00:17:51,690
+It'll log everything automatically.
+
+557
+00:17:51,690 --> 00:17:52,970
+Don't think that's just a coincidence, okay?
+
+558
+00:17:52,970 --> 00:17:53,930
+It cuts out every time you speak.
+
+559
+00:17:53,930 --> 00:17:54,930
+It's fine if it disconnects.
+
+560
+00:17:54,930 --> 00:17:56,210
+The whole thing is called Claude Code.
+
+561
+00:17:56,210 --> 00:17:58,700
+So, this AI has what's called a memory system.
+
+562
+00:17:58,700 --> 00:18:00,440
+It will have some local memory.
+
+563
+00:18:00,440 --> 00:18:01,820
+As long as your conversation flow...
+
+564
+00:18:01,820 --> 00:18:04,300
+as long as it's not, like, super, super, super, super long,
+
+565
+00:18:04,300 --> 00:18:05,850
+it can always pick up right where it left off.
+
+566
+00:18:05,850 --> 00:18:07,530
+So, normally, you just tell it to continue writing.
+
+567
+00:18:07,530 --> 00:18:09,670
+And it's right back where it left off.
+
+568
+00:18:09,670 --> 00:18:11,100
+Oh, it's asking if I want to run a command.
+
+569
+00:18:11,100 --> 00:18:12,020
+Okay, got it.
+
+570
+00:18:12,020 --> 00:18:14,980
+Alright, I'll just click 'Allow' and let you get to work.
+
+571
+00:18:14,980 --> 00:18:15,580
+So, after I give it the green light,
+
+572
+00:18:15,580 --> 00:18:16,850
+And it starts running the command.
+
+573
+00:18:16,850 --> 00:18:18,170
+And as you can see here,
+
+574
+00:18:18,170 --> 00:18:20,050
+And there's another thing that Claude Code is really good at.
+
+575
+00:18:20,050 --> 00:18:22,250
+I'm talking about how it executes the commands.
+
+576
+00:18:22,250 --> 00:18:25,010
+All of that is done automatically.
+
+577
+00:18:25,010 --> 00:18:26,730
+Things like creating files,
+
+578
+00:18:26,730 --> 00:18:27,410
+Deleting files,
+
+579
+00:18:27,410 --> 00:18:29,590
+commands to create folders, and then it runs the installation for the dependencies.
+
+580
+00:18:29,590 --> 00:18:30,600
+So it's all fully automated.
+
+581
+00:18:30,600 --> 00:18:32,560
+So, in essence, all of this is done through this thing called... Claude Code.
+
+582
+00:18:32,560 --> 00:18:33,900
+And again, it's all done by running commands.
+
+583
+00:18:33,900 --> 00:18:36,380
+So, it can automate a whole lot of things.
+
+584
+00:18:36,380 --> 00:18:38,060
+And if it happens to find an error,
+
+585
+00:18:38,060 --> 00:18:39,380
+For example, with version dependencies.
+
+586
+00:18:39,380 --> 00:18:40,180
+or there are version conflicts,
+
+587
+00:18:40,180 --> 00:18:42,400
+It will also go ahead and fix the version compatibility.
+
+588
+00:18:42,400 --> 00:18:43,700
+Hey, it can actually find the problem.
+
+589
+00:18:43,700 --> 00:18:44,980
+And then it'll go ahead and fix it for you.
+
+590
+00:18:44,980 --> 00:18:47,260
+And then it'll go ahead and run the corresponding command.
+
+591
+00:18:47,260 --> 00:18:48,220
+And then it's called 'retry'.
+
+592
+00:18:48,220 --> 00:18:50,540
+So, it's going to retry and re-execute this command.
+
+593
+00:18:50,540 --> 00:18:51,820
+And now it's starting to process again.
+
+594
+00:18:51,820 --> 00:18:52,540
+Alright, it's starting to think.
+
+595
+00:18:52,540 --> 00:18:55,420
+Alright, let's give it a moment to think.
+
+596
+00:19:03,800 --> 00:19:07,680
+Ah, so right here, it's telling us about what happened during the NPM installation just now.
+
+597
+00:19:07,680 --> 00:19:09,920
+and it looks like there's something called a 'warning' or something.
+
+598
+00:19:09,920 --> 00:19:11,360
+Basically, what this means is that on our computer,
+
+599
+00:19:11,360 --> 00:19:13,200
+It's automatically installing some dependencies for us.
+
+600
+00:19:13,200 --> 00:19:14,130
+The installation wasn't successful.
+
+601
+00:19:14,130 --> 00:19:16,310
+And then, it's gonna ask us to make a decision.
+
+602
+00:19:16,310 --> 00:19:19,130
+It says there's an error installing the SQL database driver.
+
+603
+00:19:19,130 --> 00:19:19,650
+An error popped up.
+
+604
+00:19:19,650 --> 00:19:22,180
+It says that the C language components need to be compiled locally before they can be used.
+
+605
+00:19:22,180 --> 00:19:24,800
+So, it looks like your computer is missing a compiler called CNCLI.
+
+606
+00:19:24,800 --> 00:19:26,040
+And then it'll give us an explanation.
+
+607
+00:19:26,040 --> 00:19:27,560
+He says it's like when you buy a piece of furniture from IKEA.
+
+608
+00:19:27,560 --> 00:19:28,640
+But you're missing a hex key.
+
+609
+00:19:28,640 --> 00:19:29,720
+Do you need that hex key?
+
+610
+00:19:29,720 --> 00:19:31,420
+And then, you have to assemble it.
+
+611
+00:19:31,420 --> 00:19:32,100
+Right?
+
+612
+00:19:32,100 --> 00:19:33,400
+So, it's going to come up with three technical solutions.
+
+613
+00:19:33,400 --> 00:19:35,480
+For instance, one option is to fix the development environment.
+
+614
+00:19:35,480 --> 00:19:37,800
+Option B is to switch to SQLite.js.
+
+615
+00:19:37,800 --> 00:19:39,520
+So, in other words, it doesn't need to be compiled.
+
+616
+00:19:39,520 --> 00:19:41,960
+Option C doesn't use a database; it just monitors file storage changes.
+
+617
+00:19:41,960 --> 00:19:43,670
+So, it's recommending we go with Option B.
+
+618
+00:19:43,670 --> 00:19:44,550
+So, for us...
+
+619
+00:19:44,550 --> 00:19:45,550
+If you're completely new to this,
+
+620
+00:19:45,550 --> 00:19:46,830
+Just go with its suggestion, and you'll be good to go.
+
+621
+00:19:46,830 --> 00:19:47,830
+But if you know a thing or two,
+
+622
+00:19:47,830 --> 00:19:48,710
+You could also consider this.
+
+623
+00:19:48,710 --> 00:19:50,800
+For example, whether or not you should compile it manually.
+
+624
+00:19:50,800 --> 00:19:54,300
+So, what we're installing here is the 'CNCL' component for VS2022.
+
+625
+00:19:54,300 --> 00:19:56,180
+To be honest, it's actually quite a bit of work.
+
+626
+00:19:56,180 --> 00:19:58,060
+And that requires an extra two to three gigs of installation.
+
+627
+00:19:58,060 --> 00:19:59,100
+This part takes quite a while since it's all online.
+
+628
+00:19:59,100 --> 00:20:00,420
+So, we'll just leave it for now.
+
+629
+00:20:00,420 --> 00:20:03,260
+So, that thing called SQL.js is basically just a JS library.
+
+630
+00:20:03,260 --> 00:20:05,720
+Actually, a no-compile SQL library is also a perfectly viable option.
+
+631
+00:20:05,720 --> 00:20:07,520
+So, using a proper database is a better idea.
+
+632
+00:20:07,520 --> 00:20:07,860
+use
+
+633
+00:20:07,860 --> 00:20:09,180
+JSON files can be used for storage,
+
+634
+00:20:09,180 --> 00:20:11,760
+But in theory, it's a bit weak, right?
+
+635
+00:20:11,760 --> 00:20:13,420
+So, a standard database would be a better choice.
+
+636
+00:20:13,420 --> 00:20:15,220
+So, right here, it's telling us to go with Option B.
+
+637
+00:20:15,220 --> 00:20:16,180
+Alright, let me tell you.
+
+638
+00:20:16,180 --> 00:20:16,740
+Okay, cool.
+
+639
+00:20:16,740 --> 00:20:20,560
+I'll go with option B. Alright, Enter.
+
+640
+00:20:21,890 --> 00:20:22,470
+Alright.
+
+641
+00:20:22,470 --> 00:20:23,850
+So, after we've picked option B,
+
+642
+00:20:23,850 --> 00:20:25,570
+And you'll see it's starting to read the files again.
+
+643
+00:20:25,570 --> 00:20:26,970
+And then it starts editing the files again.
+
+644
+00:20:26,970 --> 00:20:28,400
+And now it's starting to edit the files again.
+
+645
+00:20:28,400 --> 00:20:29,760
+And now it's reinstalling the dependencies.
+
+646
+00:20:29,760 --> 00:20:31,500
+And a lot of this whole process is automated.
+
+647
+00:20:31,500 --> 00:20:33,020
+Of course, there are some things it will ask you about.
+
+648
+00:20:33,020 --> 00:20:35,920
+Ah, for certain things, it will ask you if you want to approve them.
+
+649
+00:20:35,920 --> 00:20:37,140
+But once you've approved something,
+
+650
+00:20:37,140 --> 00:20:37,740
+it won't ask you again.
+
+651
+00:20:37,740 --> 00:20:40,700
+For example, we've already approved this command, npm install, and related actions.
+
+652
+00:20:40,700 --> 00:20:41,820
+So it won't ask us for permission again.
+
+653
+00:20:41,820 --> 00:20:44,910
+And it'll automatically go ahead and handle the installation process.
+
+654
+00:20:44,910 --> 00:20:45,850
+Alright, let's just wait for a moment.
+
+655
+00:20:45,850 --> 00:20:47,970
+It'll install the necessary dependencies.
+
+656
+00:21:03,000 --> 00:21:05,560
+Alright, so after waiting for a bit...
+
+657
+00:21:05,560 --> 00:21:07,120
+Alright, Claude Code is giving us a heads-up.
+
+658
+00:21:07,120 --> 00:21:08,440
+It says the download has stalled.
+
+659
+00:21:08,440 --> 00:21:09,240
+And that's actually pretty normal.
+
+660
+00:21:09,240 --> 00:21:11,240
+When it tries to connect and download things like with NPM,
+
+661
+00:21:11,240 --> 00:21:12,980
+It's usually connecting to servers overseas.
+
+662
+00:21:12,980 --> 00:21:15,500
+So, sometimes, it might be due to network issues.
+
+663
+00:21:15,500 --> 00:21:16,500
+and the download just fails.
+
+664
+00:21:16,500 --> 00:21:17,820
+And it's also prompting us here,
+
+665
+00:21:17,820 --> 00:21:21,190
+Do you want to allow the use of a domestic mirror source for faster downloads?
+
+666
+00:21:21,190 --> 00:21:22,790
+So yeah, of course, we're gonna allow that.
+
+667
+00:21:22,790 --> 00:21:24,750
+Alright, so let's go with the second option, 'yes'.
+
+668
+00:21:24,750 --> 00:21:27,350
+And also allow the NPMCONFIG-related commands. Alright.
+
+669
+00:21:27,350 --> 00:21:28,270
+Let's click 'yes' here.
+
+670
+00:21:28,270 --> 00:21:32,010
+Okay, so this will switch it to a domestic source for the download.
+
+671
+00:21:32,010 --> 00:21:32,590
+Alright.
+
+672
+00:21:32,590 --> 00:21:34,210
+Alright, so it's asking us something else now.
+
+673
+00:21:34,210 --> 00:21:36,900
+So, it's asking if we want to allow the following series of commands. Alright.
+
+674
+00:21:36,900 --> 00:21:37,860
+So, as for these commands...
+
+675
+00:21:37,860 --> 00:21:39,140
+If you're not sure what these are for,
+
+676
+00:21:39,140 --> 00:21:40,360
+So, you can just go ahead and ask.
+
+677
+00:21:40,360 --> 00:21:42,200
+So, under normal circumstances, we don't really need to worry about it.
+
+678
+00:21:42,200 --> 00:21:44,900
+This is also for switching its download mirror.
+
+679
+00:21:44,900 --> 00:21:47,120
+Alright, let's go ahead and select 'Allow'.
+
+680
+00:21:47,120 --> 00:21:48,880
+Okay, so it's started processing again.
+
+681
+00:21:48,880 --> 00:21:50,520
+Alright, let's just give it a moment to finish.
+
+682
+00:21:50,520 --> 00:21:52,280
+So, when we're doing this thing called AI programming,
+
+683
+00:21:52,280 --> 00:21:54,580
+A lot of the time, it's just a matter of clicking 'yes'.
+
+684
+00:21:54,580 --> 00:21:55,620
+And there, it's done.
+
+685
+00:21:55,620 --> 00:21:56,920
+And then it moves on to other things.
+
+686
+00:21:56,920 --> 00:21:58,980
+And now, we just let it do its thing.
+
+687
+00:21:58,980 --> 00:22:01,300
+Alright, so we can see it's asking if the installation is complete.
+
+688
+00:22:01,300 --> 00:22:03,780
+So now it's checking to see if all the key files are in place.
+
+689
+00:22:03,780 --> 00:22:05,700
+And now it's asking if we want to allow the corresponding command.
+
+690
+00:22:05,700 --> 00:22:07,170
+Alright, let's give it a 'yes' here as well.
+
+691
+00:22:07,170 --> 00:22:10,330
+Alright, let's allow it to run the command.
+
+692
+00:22:10,330 --> 00:22:12,490
+Then it flagged that Electron wasn't downloaded successfully.
+
+693
+00:22:12,490 --> 00:22:13,810
+So it needs to install it separately.
+
+694
+00:22:13,810 --> 00:22:17,050
+And then it needs to run an NPX command to install it.
+
+695
+00:22:17,050 --> 00:22:18,490
+Alright, so let's just click 'Allow' here.
+
+696
+00:22:18,490 --> 00:22:20,410
+Speeding up 5x...
+
+697
+00:22:21,500 --> 00:22:23,700
+Alright, and here comes another prompt.
+
+698
+00:22:23,700 --> 00:22:25,740
+So, normally, we'd just go ahead and click 'yes' here.
+
+699
+00:22:25,740 --> 00:22:27,740
+Just go ahead and allow it.
+
+700
+00:22:29,440 --> 00:22:30,000
+Alright.
+
+701
+00:22:30,000 --> 00:22:32,040
+So, what's actually happening behind the scenes is that there are a lot of commands being run.
+
+702
+00:22:32,040 --> 00:22:32,680
+that we need to click on.
+
+703
+00:22:32,680 --> 00:22:34,480
+So, a lot of the time, it's just a series of commands.
+
+704
+00:22:34,480 --> 00:22:36,460
+And then it'll ask if you want to allow it to run.
+
+705
+00:22:36,460 --> 00:22:38,520
+Because, you know, for this AI programming tool...
+
+706
+00:22:38,520 --> 00:22:40,740
+For editing the file, you can just click on it.
+
+707
+00:22:40,740 --> 00:22:42,280
+If you grant permission, it won't ask you again.
+
+708
+00:22:42,280 --> 00:22:43,800
+But, like I was saying, commands...
+
+709
+00:22:43,800 --> 00:22:46,180
+A lot of the time, these commands can be pretty high-risk operations.
+
+710
+00:22:46,180 --> 00:22:47,300
+What if it just shuts down your computer?
+
+711
+00:22:47,300 --> 00:22:48,880
+Or what if it deletes some of your files, right?
+
+712
+00:22:48,880 --> 00:22:50,880
+So, when it comes to Claude Code,
+
+713
+00:22:50,880 --> 00:22:52,900
+All of these are what you'd call 'best-effort' terminal commands.
+
+714
+00:22:52,900 --> 00:22:54,900
+So, it's going to ask for your permission a lot of the time.
+
+715
+00:22:54,900 --> 00:22:57,420
+So, you just have to keep clicking 'yes'.
+
+716
+00:22:57,420 --> 00:22:59,200
+Or, to allow a specific type of command.
+
+717
+00:22:59,200 --> 00:23:00,460
+So yeah, this part is just unavoidable.
+
+718
+00:23:00,460 --> 00:23:02,760
+So, we just normally click 'Allow' here, and that's all we need to do.
+
+719
+00:23:02,760 --> 00:23:04,920
+So basically, in this whole process, we're just acting like a boss.
+
+720
+00:23:04,920 --> 00:23:06,280
+We have to keep approving things.
+
+721
+00:23:06,280 --> 00:23:09,240
+So we just keep clicking 'allow' and all that.
+
+722
+00:23:09,240 --> 00:23:11,330
+Alright, let's say our file gets stuck.
+
+723
+00:23:11,330 --> 00:23:12,770
+It needs to be force-deleted first,
+
+724
+00:23:12,770 --> 00:23:13,850
+And then reinstall it.
+
+725
+00:23:13,850 --> 00:23:15,050
+So, up to this point...
+
+726
+00:23:15,050 --> 00:23:18,090
+So, our AI programming is still in the process of solving this for us.
+
+727
+00:23:18,090 --> 00:23:20,330
+some of the installation issues we're having right now.
+
+728
+00:23:20,330 --> 00:23:22,210
+So, basically, it's helping us get things done.
+
+729
+00:23:22,210 --> 00:23:25,450
+Things like setting up the environment for Electron.
+
+730
+00:23:28,440 --> 00:23:29,360
+Alright, as you can see...
+
+731
+00:23:29,360 --> 00:23:30,200
+AI is pretty smart, I gotta say.
+
+732
+00:23:30,200 --> 00:23:31,440
+He's found the culprit.
+
+733
+00:23:31,440 --> 00:23:33,900
+It says there are files locked by two Node processes.
+
+734
+00:23:33,900 --> 00:23:35,720
+So, after it got rid of those two processes,
+
+735
+00:23:35,720 --> 00:23:37,240
+Alright, now we can get everything cleaned up.
+
+736
+00:23:37,240 --> 00:23:39,480
+And now it's going to continue with the configuration.
+
+737
+00:23:39,480 --> 00:23:41,400
+related to some Electron images and stuff.
+
+738
+00:23:41,400 --> 00:23:42,520
+OK, let's just give it a moment.
+
+739
+00:23:42,520 --> 00:23:44,520
+Let's just let it keep running.
+
+740
+00:23:46,460 --> 00:23:49,070
+Alright, let's go ahead and click 'yes' again.
+
+741
+00:23:49,070 --> 00:23:51,250
+Alright, let's allow it to run some commands.
+
+742
+00:23:51,250 --> 00:23:53,630
+Okay, all the dependencies have been successfully installed now.
+
+743
+00:23:53,630 --> 00:23:56,770
+Alright, let's see if the project can actually start up.
+
+744
+00:23:56,770 --> 00:23:58,410
+And it has this thing called 'npm run'.
+
+745
+00:23:58,410 --> 00:24:01,060
+Basically, this is what gets everything up and running.
+
+746
+00:24:01,060 --> 00:24:02,480
+So, what if you don't know what that means?
+
+747
+00:24:02,480 --> 00:24:03,240
+So, I've just walked you through the demonstration.
+
+748
+00:24:03,240 --> 00:24:04,440
+You can ask it anything you want in there.
+
+749
+00:24:04,440 --> 00:24:05,920
+So, it's explaining what this is for. Alright.
+
+750
+00:24:05,920 --> 00:24:06,880
+So, under normal circumstances,
+
+751
+00:24:06,880 --> 00:24:10,160
+It's basically running some programs to check if the project can be launched.
+
+752
+00:24:10,160 --> 00:24:13,630
+So, we just need to click 'Allow' to let it run.
+
+753
+00:24:14,390 --> 00:24:16,150
+Alright, so we can see it's just run a quick check.
+
+754
+00:24:16,150 --> 00:24:17,510
+It says there's a bit of a configuration issue.
+
+755
+00:24:17,510 --> 00:24:19,670
+But, with the AI programming tool we're using right now,
+
+756
+00:24:19,670 --> 00:24:22,230
+It's able to identify what the issues are.
+
+757
+00:24:22,230 --> 00:24:24,460
+And it will also respond to any problems that come up,
+
+758
+00:24:24,460 --> 00:24:27,100
+and automatically find any errors in the code.
+
+759
+00:24:27,100 --> 00:24:30,260
+So, as you can see, it's automatically configuring some of the .ts files.
+
+760
+00:24:30,260 --> 00:24:32,400
+and went ahead to tweak some of the related stuff inside.
+
+761
+00:24:32,400 --> 00:24:33,940
+And now, it's about to run another command, same as before.
+
+762
+00:24:33,940 --> 00:24:34,980
+And it's asking us for permission.
+
+763
+00:24:34,980 --> 00:24:38,150
+Alright, same as before, let's go ahead and allow it.
+
+764
+00:24:38,150 --> 00:24:41,770
+Alright, same thing, let's go ahead and allow it to run the command.
+
+765
+00:24:41,770 --> 00:24:43,870
+Alright, let's click 'yes' here.
+
+766
+00:24:48,800 --> 00:24:50,080
+Ah, so we can see here...
+
+767
+00:24:50,080 --> 00:24:51,960
+Because it failed to start up,
+
+768
+00:24:51,960 --> 00:24:53,760
+So that's why it's going to keep causing problems.
+
+769
+00:24:53,760 --> 00:24:55,560
+But it's still in the process of troubleshooting.
+
+770
+00:24:55,560 --> 00:24:57,160
+And then, it found some key clues.
+
+771
+00:24:57,160 --> 00:24:58,840
+He's even got the configuration file name.
+
+772
+00:24:58,840 --> 00:25:00,220
+It should be something like...
+
+773
+00:25:00,220 --> 00:25:02,940
+So now it's saying it's going to check the official template to see how it's written.
+
+774
+00:25:02,940 --> 00:25:05,360
+So it's going online to check how the official one is written.
+
+775
+00:25:05,360 --> 00:25:07,800
+Alright, so we'll have to grant it permission as well.
+
+776
+00:25:10,060 --> 00:25:11,500
+Oh, it says it's almost done.
+
+777
+00:25:11,500 --> 00:25:14,260
+Alright, the main process and the preloads are both...
+
+778
+00:25:14,260 --> 00:25:15,480
+The preload script has compiled successfully as well.
+
+779
+00:25:15,480 --> 00:25:18,980
+Right now, it's just outputting some file name and configuration mismatches.
+
+780
+00:25:18,980 --> 00:25:19,980
+Let it handle the fix.
+
+781
+00:25:19,980 --> 00:25:21,180
+So, basically, up to this point...
+
+782
+00:25:21,180 --> 00:25:24,900
+We've just been in this constant cycle of the AI programming tool fixing things.
+
+783
+00:25:24,900 --> 00:25:26,100
+And that's perfectly normal.
+
+784
+00:25:26,100 --> 00:25:27,950
+Because for a regular programmer,
+
+785
+00:25:27,950 --> 00:25:30,910
+the chances of them writing code that compiles and runs perfectly on the first try are actually pretty low.
+
+786
+00:25:30,910 --> 00:25:32,030
+In reality, the chances of that are pretty low.
+
+787
+00:25:32,030 --> 00:25:33,510
+A lot of the time, you'll just run into errors.
+
+788
+00:25:33,510 --> 00:25:34,120
+and get runtime errors.
+
+789
+00:25:34,120 --> 00:25:34,840
+And then you just have to keep making changes.
+
+790
+00:25:34,840 --> 00:25:35,920
+and constantly fixing environment issues.
+
+791
+00:25:35,920 --> 00:25:36,920
+and tweaking the configuration files over and over again.
+
+792
+00:25:36,920 --> 00:25:37,500
+and just keep tweaking things.
+
+793
+00:25:37,500 --> 00:25:38,800
+And then you have to do it like, seven or eight times.
+
+794
+00:25:38,800 --> 00:25:39,160
+a dozen times,
+
+795
+00:25:39,160 --> 00:25:39,700
+or even 20 times.
+
+796
+00:25:39,700 --> 00:25:41,880
+and finally, get it up and running successfully.
+
+797
+00:25:41,880 --> 00:25:43,020
+So, it's the same deal with AI now.
+
+798
+00:25:43,020 --> 00:25:45,060
+But when it comes to writing code, it's not like it's successful 100% of the time.
+
+799
+00:25:45,060 --> 00:25:47,620
+Because a lot of the time, this has to do with its memory.
+
+800
+00:25:47,620 --> 00:25:50,210
+It's possible that its knowledge is a bit outdated from its training data.
+
+801
+00:25:50,210 --> 00:25:51,770
+So, some of its knowledge is outdated,
+
+802
+00:25:51,770 --> 00:25:53,690
+and then write the code based on the latest information.
+
+803
+00:25:53,690 --> 00:25:54,910
+That could lead to compatibility issues.
+
+804
+00:25:54,910 --> 00:25:56,210
+So it'll just keep debugging itself.
+
+805
+00:25:56,210 --> 00:25:57,920
+And then it'll go online to fetch the information.
+
+806
+00:25:57,920 --> 00:25:59,680
+Alright, so what's the latest version out there online?
+
+807
+00:25:59,680 --> 00:26:00,520
+And then, it just keeps debugging.
+
+808
+00:26:00,520 --> 00:26:01,160
+and keeps debugging.
+
+809
+00:26:01,160 --> 00:26:02,880
+So, this is all part of the normal process. Alright.
+
+810
+00:26:02,880 --> 00:26:03,920
+Alright, let's click on 'Night Market' as well.
+
+811
+00:26:03,920 --> 00:26:06,800
+and let it run the necessary commands.
+
+812
+00:26:19,500 --> 00:26:20,380
+Alright, as you can see...
+
+813
+00:26:20,380 --> 00:26:21,340
+Looks like it failed again.
+
+814
+00:26:21,340 --> 00:26:22,100
+But that's okay.
+
+815
+00:26:22,100 --> 00:26:23,340
+It's going to keep trying to fix it.
+
+816
+00:26:23,340 --> 00:26:24,540
+Alright, so just click 'Allow'.
+
+817
+00:26:24,540 --> 00:26:27,820
+And then just let it continue to fix the issues.
+
+818
+00:26:48,500 --> 00:26:51,180
+Alright, so it's still working on the fix.
+
+819
+00:26:51,180 --> 00:26:52,940
+And yeah, that's pretty much inevitable.
+
+820
+00:26:52,940 --> 00:26:54,000
+Because, you know, a lot of the time...
+
+821
+00:26:54,000 --> 00:26:56,800
+Yeah, when we're trying to access these online resources from within China,
+
+822
+00:26:56,800 --> 00:26:57,360
+installation,
+
+823
+00:26:57,360 --> 00:26:59,760
+Especially when it comes to foreign websites and stuff like that.
+
+824
+00:26:59,760 --> 00:27:01,800
+And a lot of the time, that's where you run into some issues.
+
+825
+00:27:01,800 --> 00:27:04,660
+So a lot of the time, it's constantly trying to access things over the network, you know...
+
+826
+00:27:04,660 --> 00:27:05,760
+debugging and troubleshooting bugs
+
+827
+00:27:05,760 --> 00:27:07,920
+and then switch to some domestic mirror sites.
+
+828
+00:27:07,920 --> 00:27:10,080
+And at the same time, because of these technologies,
+
+829
+00:27:10,080 --> 00:27:11,900
+a model that gets updated more frequently
+
+830
+00:27:11,900 --> 00:27:12,340
+in itself
+
+831
+00:27:12,340 --> 00:27:15,660
+The built-in G1 model is a bit out of sync with the latest tech.
+
+832
+00:27:15,660 --> 00:27:19,240
+So, a lot of the time, what it writes and the actual version that runs...
+
+833
+00:27:19,240 --> 00:27:20,100
+just don't match up.
+
+834
+00:27:20,100 --> 00:27:21,520
+So it'll keep debugging itself.
+
+835
+00:27:21,520 --> 00:27:23,820
+But throughout this process, it will constantly connect to the internet.
+
+836
+00:27:23,820 --> 00:27:25,420
+to fetch the latest knowledge.
+
+837
+00:27:25,420 --> 00:27:27,260
+and then update the code it has written.
+
+838
+00:27:27,260 --> 00:27:28,700
+And then it just keeps fixing them, bit by bit.
+
+839
+00:27:28,700 --> 00:27:29,980
+If there's an error, we just fix it.
+
+840
+00:27:29,980 --> 00:27:30,660
+Fix one error.
+
+841
+00:27:30,660 --> 00:27:31,140
+And here comes another error.
+
+842
+00:27:31,140 --> 00:27:33,100
+Then fix another one, and so on and so forth.
+
+843
+00:27:33,100 --> 00:27:34,740
+So it's just been running non-stop, churning away.
+
+844
+00:27:34,740 --> 00:27:36,960
+So basically, it's still in the debugging process.
+
+845
+00:27:36,960 --> 00:27:38,540
+But actually, this is pretty normal.
+
+846
+00:27:38,540 --> 00:27:39,480
+Like I was just saying,
+
+847
+00:27:39,480 --> 00:27:42,840
+Even actual programmers run into this kind of problem when they're writing code.
+
+848
+00:27:42,840 --> 00:27:43,860
+Take this for example.
+
+849
+00:27:43,860 --> 00:27:45,960
+The code you're using is for version 2.0.
+
+850
+00:27:45,960 --> 00:27:47,360
+You're coding based on the version 2.0 code,
+
+851
+00:27:47,360 --> 00:27:49,040
+But the official version has already been updated to 2.6.
+
+852
+00:27:49,040 --> 00:27:50,500
+Some of the APIs might not line up anymore.
+
+853
+00:27:50,500 --> 00:27:51,820
+As you're coding, you'll inevitably run into errors.
+
+854
+00:27:51,820 --> 00:27:53,500
+And if you run into an error, you might not be sure what to do next, right?
+
+855
+00:27:53,500 --> 00:27:55,520
+You have to search, look it up, and find the relevant resources.
+
+856
+00:27:55,520 --> 00:27:57,700
+You have to go online and search for the latest information.
+
+857
+00:27:57,700 --> 00:27:58,880
+And then you go and modify your code.
+
+858
+00:27:58,880 --> 00:27:59,800
+and run it again.
+
+859
+00:27:59,800 --> 00:28:00,640
+and recompile it.
+
+860
+00:28:00,640 --> 00:28:01,460
+This whole process
+
+861
+00:28:01,460 --> 00:28:04,560
+So, the process it goes through is basically the same as if a human were writing the code.
+
+862
+00:28:04,560 --> 00:28:05,700
+The main process is pretty much the same.
+
+863
+00:28:05,700 --> 00:28:08,960
+But, it's definitely way more efficient than a human.
+
+864
+00:28:08,960 --> 00:28:11,020
+So, a lot of the time, for us as leaders...
+
+865
+00:28:11,020 --> 00:28:13,280
+So, it's definitely crucial to manage this AI tool effectively.
+
+866
+00:28:13,280 --> 00:28:15,920
+So, a lot of the time, all you really need to do is use it effectively.
+
+867
+00:28:15,920 --> 00:28:17,120
+And here, it's giving us some good news.
+
+868
+00:28:17,120 --> 00:28:19,080
+And it says, 'Hey, what's this CMD thing?'
+
+869
+00:28:19,080 --> 00:28:20,520
+And just like that, another problem solved.
+
+870
+00:28:20,520 --> 00:28:21,440
+And then, just click 'yes'.
+
+871
+00:28:21,440 --> 00:28:22,600
+Let it run.
+
+872
+00:28:22,600 --> 00:28:23,070
+And that should do it.
+
+873
+00:28:23,070 --> 00:28:24,150
+But in most cases,
+
+874
+00:28:24,150 --> 00:28:27,189
+So, for the commands we're using right now...
+
+875
+00:28:27,189 --> 00:28:29,889
+99% of the time, there won't be any security issues.
+
+876
+00:28:29,889 --> 00:28:34,209
+So, in most cases, you can just go ahead and allow it without a second thought.
+
+877
+00:28:42,880 --> 00:28:43,460
+Alright.
+
+878
+00:28:43,460 --> 00:28:45,760
+Alright, so after a bit of a wait...
+
+879
+00:28:45,760 --> 00:28:47,860
+Alright, so for the programming tool we're using right now...
+
+880
+00:28:47,860 --> 00:28:50,500
+So this is the program that just popped up for us automatically.
+
+881
+00:28:50,500 --> 00:28:51,240
+And as you can see,
+
+882
+00:28:51,240 --> 00:28:54,520
+And there we have it, our 'Dark Horse Bookkeeping' app.
+
+883
+00:28:54,520 --> 00:28:55,800
+So, that means up to this point,
+
+884
+00:28:55,800 --> 00:28:57,320
+it has already helped us build a basic framework for this app.
+
+885
+00:28:57,320 --> 00:28:59,480
+the basic prototype has been built.
+
+886
+00:28:59,480 --> 00:29:00,660
+Alright, let's give it a quick test.
+
+887
+00:29:00,660 --> 00:29:02,900
+For example, on the homepage here, you can see an overview of your accounts.
+
+888
+00:29:02,900 --> 00:29:04,360
+For instance, let's click on this 'Record Expense' button.
+
+889
+00:29:04,360 --> 00:29:06,960
+and record every single entry.
+
+890
+00:29:06,960 --> 00:29:08,180
+And then, we'll click on 'Statistics'.
+
+891
+00:29:08,180 --> 00:29:09,660
+And there's also the corresponding settings.
+
+892
+00:29:09,660 --> 00:29:10,500
+But in reality,
+
+893
+00:29:10,500 --> 00:29:13,020
+You'll find that it still has some issues, right?
+
+894
+00:29:13,020 --> 00:29:14,180
+For example, let's say we want to log an entry.
+
+895
+00:29:14,180 --> 00:29:17,310
+But there's nowhere for us to select a category for it.
+
+896
+00:29:17,310 --> 00:29:19,270
+like the amount you spent, and so on.
+
+897
+00:29:19,270 --> 00:29:20,590
+So, as it stands,
+
+898
+00:29:20,590 --> 00:29:22,590
+So, overall, it's still not quite what we're looking for.
+
+899
+00:29:22,590 --> 00:29:24,180
+So, let's just leave it for now.
+
+900
+00:29:24,180 --> 00:29:25,560
+Alright, let's just close this for now.
+
+901
+00:29:25,560 --> 00:29:30,200
+Let's wait for it to help us finish fixing the code.
+
+902
+00:29:31,580 --> 00:29:35,060
+Alright, OK, let's go ahead and let it run.
+
+903
+00:29:36,140 --> 00:29:39,060
+So, it just said that the program has successfully popped up.
+
+904
+00:29:39,060 --> 00:29:40,380
+And it did pop up successfully.
+
+905
+00:29:40,380 --> 00:29:41,140
+So, that's working fine.
+
+906
+00:29:41,140 --> 00:29:44,100
+But in reality, the actual features haven't been implemented yet.
+
+907
+00:29:44,100 --> 00:29:46,440
+Right, okay. So, for now...
+
+908
+00:29:46,440 --> 00:29:47,760
+So now it's moving on to phase two.
+
+909
+00:29:47,760 --> 00:29:49,440
+That's because it just helped us...
+
+910
+00:29:49,440 --> 00:29:51,820
+and popped up the main window.
+
+911
+00:29:51,820 --> 00:29:53,300
+So, within its entire plan...
+
+912
+00:29:53,300 --> 00:29:54,140
+Let's take a look.
+
+913
+00:29:54,140 --> 00:29:55,380
+So, let's talk about its overall plan.
+
+914
+00:29:55,380 --> 00:29:57,440
+And it's all recorded in this file called claude.md.
+
+915
+00:29:57,440 --> 00:29:58,900
+So, here's the development roadmap.
+
+916
+00:29:58,900 --> 00:30:01,930
+Then, there's the corresponding product design and project initialization.
+
+917
+00:30:01,930 --> 00:30:03,670
+So we can get something that looks like...
+
+918
+00:30:03,670 --> 00:30:04,890
+a window that actually runs.
+
+919
+00:30:04,890 --> 00:30:06,970
+So basically, a window just popped up.
+
+920
+00:30:06,970 --> 00:30:08,500
+But as for what's inside, that's not finished yet.
+
+921
+00:30:08,500 --> 00:30:10,160
+But this is the first step, right?
+
+922
+00:30:10,160 --> 00:30:11,180
+and it compiled successfully.
+
+923
+00:30:11,180 --> 00:30:13,180
+and get a program window to pop up.
+
+924
+00:30:13,180 --> 00:30:16,180
+So, the next step would be for it to handle the database design.
+
+925
+00:30:16,180 --> 00:30:17,180
+like developing the bookkeeping features,
+
+926
+00:30:17,180 --> 00:30:17,860
+chart development,
+
+927
+00:30:17,860 --> 00:30:18,940
+All of these features are on the table.
+
+928
+00:30:18,940 --> 00:30:21,920
+And it's writing everything down, step by step.
+
+929
+00:30:21,920 --> 00:30:23,900
+So, as you can see, it's now entering the next phase.
+
+930
+00:30:23,900 --> 00:30:26,540
+The second step is to design the database and initialize the categorized data.
+
+931
+00:30:26,540 --> 00:30:27,720
+So, should we continue?
+
+932
+00:30:27,720 --> 00:30:29,580
+Alright, let's give it a response.
+
+933
+00:30:29,580 --> 00:30:30,260
+Let's continue.
+
+934
+00:30:30,260 --> 00:30:32,970
+Alright, so you've already written the first part, right?
+
+935
+00:30:32,970 --> 00:30:34,930
+Alright, let's get the second part done.
+
+936
+00:30:34,930 --> 00:30:36,030
+Alright, let's give it a reply.
+
+937
+00:30:36,030 --> 00:30:37,290
+Alright, let's keep going.
+
+938
+00:30:59,860 --> 00:31:02,260
+Alright, so after a bit of a wait...
+
+939
+00:31:02,260 --> 00:31:03,700
+Alright, it's finished all its steps.
+
+940
+00:31:03,700 --> 00:31:05,620
+And now we've reached the final step: the launch and verification.
+
+941
+00:31:05,620 --> 00:31:06,640
+Alright, let's click 'yes'.
+
+942
+00:31:06,640 --> 00:31:10,160
+Alright, let's allow it to run.
+
+943
+00:31:10,160 --> 00:31:12,740
+Alright, so we can see the window here...
+
+944
+00:31:12,740 --> 00:31:14,820
+And just like that, it popped up.
+
+945
+00:31:14,820 --> 00:31:15,300
+and it popped right up.
+
+946
+00:31:15,300 --> 00:31:16,820
+But it doesn't have many features added yet.
+
+947
+00:31:16,820 --> 00:31:19,080
+First, let's see if the window pops up properly.
+
+948
+00:31:19,080 --> 00:31:19,980
+Alright, let's close this for now.
+
+949
+00:31:19,980 --> 00:31:23,520
+Let's wait for it to get through the entire process.
+
+950
+00:31:24,430 --> 00:31:25,710
+Alright, so as you can see, it's telling us...
+
+951
+00:31:25,710 --> 00:31:27,550
+The dataset has been successfully created.
+
+952
+00:31:27,550 --> 00:31:29,110
+Alright, the modules for the two main processes...
+
+953
+00:31:29,110 --> 00:31:29,990
+The compilation went smoothly.
+
+954
+00:31:29,990 --> 00:31:31,540
+And the app launches just fine.
+
+955
+00:31:31,540 --> 00:31:34,300
+And now, it's starting to work on the corresponding UI.
+
+956
+00:31:34,300 --> 00:31:35,930
+For instance, the dashboard on the homepage.
+
+957
+00:31:35,930 --> 00:31:37,050
+And everything else we need.
+
+958
+00:31:37,050 --> 00:31:38,490
+like the page for logging transactions,
+
+959
+00:31:38,490 --> 00:31:40,060
+And of course, a stats page.
+
+960
+00:31:40,060 --> 00:31:42,900
+And it's starting to add all of these in for us, step by step.
+
+961
+00:31:42,900 --> 00:31:43,980
+Alright, let's just wait for a bit.
+
+962
+00:31:43,980 --> 00:31:47,260
+Let's wait for it to finish all these processes.
+
+963
+00:31:50,800 --> 00:31:52,160
+Alright.
+
+964
+00:31:52,160 --> 00:31:54,000
+Alright, so after a bit of a wait...
+
+965
+00:31:54,000 --> 00:31:55,480
+Looks like it's finished developing.
+
+966
+00:31:55,480 --> 00:31:56,520
+Alright, now it's time to launch it.
+
+967
+00:31:56,520 --> 00:31:58,160
+Alright, so let's just click 'yes'... what is this?
+
+968
+00:31:58,160 --> 00:31:59,440
+Let's allow it to start up.
+
+969
+00:31:59,440 --> 00:32:01,840
+to perform the necessary verification.
+
+970
+00:32:01,840 --> 00:32:02,300
+Alright.
+
+971
+00:32:02,300 --> 00:32:04,680
+Alright, so as you can see, our program has launched up again.
+
+972
+00:32:04,680 --> 00:32:07,400
+Alright, so on the homepage, we now have things like this month's income.
+
+973
+00:32:07,400 --> 00:32:09,680
+and some other stats like this month's expenses.
+
+974
+00:32:09,680 --> 00:32:12,680
+And now, the 'Record Transaction' feature has also been added for us.
+
+975
+00:32:12,680 --> 00:32:12,880
+Alright.
+
+976
+00:32:12,880 --> 00:32:15,040
+In here, you can see we've got both expenses and income.
+
+977
+00:32:15,040 --> 00:32:16,740
+and saving the records.
+
+978
+00:32:16,740 --> 00:32:18,660
+So, what are the main categories I can choose from?
+
+979
+00:32:18,660 --> 00:32:19,600
+Like, for example, I can select 'Dining'.
+
+980
+00:32:19,600 --> 00:32:20,220
+Select a category.
+
+981
+00:32:20,220 --> 00:32:21,140
+Like, breakfast, for instance.
+
+982
+00:32:21,140 --> 00:32:22,400
+The amount spent was 11.
+
+983
+00:32:22,400 --> 00:32:24,200
+And then, just click 'Save Record'.
+
+984
+00:32:24,200 --> 00:32:25,460
+And there we go, the record has been saved successfully.
+
+985
+00:32:25,460 --> 00:32:27,180
+And on the homepage, you can see the expenses for this month.
+
+986
+00:32:27,180 --> 00:32:27,880
+and the balance for this month.
+
+987
+00:32:27,880 --> 00:32:29,700
+And it's all got the corresponding stats right here.
+
+988
+00:32:29,700 --> 00:32:31,620
+Alright, so the basic functions are pretty much done.
+
+989
+00:32:31,620 --> 00:32:33,340
+Alright, let's go ahead and click 'Close' for now.
+
+990
+00:32:33,340 --> 00:32:33,900
+Alright, so after closing that,
+
+991
+00:32:33,900 --> 00:32:36,420
+Let's just let it keep running.
+
+992
+00:32:37,749 --> 00:32:38,189
+Alright.
+
+993
+00:32:38,189 --> 00:32:40,869
+As you can see, it has already created our Claude.md file.
+
+994
+00:32:40,869 --> 00:32:41,389
+and is now updating it.
+
+995
+00:32:41,389 --> 00:32:44,600
+And as you can see, it's checked off all the stages for us: 0, 1, 2, 3, and 4.
+
+996
+00:32:44,600 --> 00:32:46,200
+Alright, it's all developed and done.
+
+997
+00:32:46,200 --> 00:32:47,870
+And it's also provided a summary for this part.
+
+998
+00:32:47,870 --> 00:32:49,950
+So, it says Phases 1 through 4 are all complete.
+
+999
+00:32:49,950 --> 00:32:51,370
+The core features are all set.
+
+1000
+00:32:51,370 --> 00:32:53,190
+So, here are the results from today.
+
+1001
+00:32:53,190 --> 00:32:54,770
+So, that's basically a wrap for today's work.
+
+1002
+00:32:54,770 --> 00:32:56,870
+Alright, so we've got all these features done.
+
+1003
+00:32:56,870 --> 00:32:58,190
+And it also tells you how to launch it, and so on.
+
+1004
+00:32:58,190 --> 00:32:59,770
+And it also tells you how to get it started. Alright.
+
+1005
+00:32:59,770 --> 00:33:01,670
+Alright, next up, the data import and export interface.
+
+1006
+00:33:01,670 --> 00:33:02,590
+Polish, package, and publish.
+
+1007
+00:33:02,590 --> 00:33:03,380
+Do you want to continue?
+
+1008
+00:33:03,380 --> 00:33:04,140
+So, if that's what we need to do...
+
+1009
+00:33:04,140 --> 00:33:05,500
+So, let's just give it the command to continue.
+
+1010
+00:33:05,500 --> 00:33:07,460
+Alright, let's have it continue.
+
+1011
+00:33:07,460 --> 00:33:08,500
+Alright, let's get back to it today.
+
+1012
+00:33:08,500 --> 00:33:09,180
+Don't clock out.
+
+1013
+00:33:09,180 --> 00:33:12,060
+Time to get back to work.
+
+1014
+00:33:26,480 --> 00:33:28,620
+Alright, it's finished another series of steps.
+
+1015
+00:33:28,620 --> 00:33:30,120
+Alright, so now we need to run a command.
+
+1016
+00:33:30,120 --> 00:33:31,320
+Alright, let's click 'yes'.
+
+1017
+00:33:31,320 --> 00:33:34,780
+Allow. Alright.
+
+1018
+00:33:34,780 --> 00:33:38,160
+And as you can see, the window has popped up once again.
+
+1019
+00:33:38,160 --> 00:33:40,360
+Alright, so in here, for example, we have the expense tracking feature.
+
+1020
+00:33:40,360 --> 00:33:41,420
+The income features are all still there.
+
+1021
+00:33:41,420 --> 00:33:42,440
+And then, over here in the Statistics section,
+
+1022
+00:33:42,440 --> 00:33:45,140
+And it's also showing us the corresponding charts.
+
+1023
+00:33:45,140 --> 00:33:46,140
+And then, over in Settings...
+
+1024
+00:33:46,140 --> 00:33:46,680
+And in here,
+
+1025
+00:33:46,680 --> 00:33:51,040
+you'll find the corresponding buttons for exporting and importing data.
+
+1026
+00:33:51,040 --> 00:33:54,400
+For example, let's go ahead and click on this 'Export as CSV file' option.
+
+1027
+00:33:54,400 --> 00:33:57,520
+For example, I'll just save it to my, uh, Desktop.
+
+1028
+00:33:57,520 --> 00:33:59,200
+Alright, let's hit save.
+
+1029
+00:33:59,200 --> 00:34:00,000
+Alright, now that it's saved,
+
+1030
+00:34:00,000 --> 00:34:00,680
+Alright, let's take a look.
+
+1031
+00:34:00,680 --> 00:34:03,000
+Alright, let's head back to the desktop on my computer.
+
+1032
+00:34:03,000 --> 00:34:03,320
+Alright.
+
+1033
+00:34:03,320 --> 00:34:05,880
+Alright, so let's find that 'Heima Accounting' app we just created.
+
+1034
+00:34:05,880 --> 00:34:06,840
+Data Export
+
+1035
+00:34:06,840 --> 00:34:10,639
+Then, let's open this CSV file with, uh, Notepad.
+
+1036
+00:34:10,639 --> 00:34:11,560
+Oh, it's an Excel file.
+
+1037
+00:34:11,560 --> 00:34:12,920
+And as you can see, the data in here...
+
+1038
+00:34:12,920 --> 00:34:15,540
+And just like that, it's been exported successfully, right?
+
+1039
+00:34:15,540 --> 00:34:18,779
+So, the export function is working just fine as well.
+
+1040
+00:34:18,779 --> 00:34:21,219
+Alright, so now that we've basically finished the verification,
+
+1041
+00:34:21,219 --> 00:34:23,539
+Alright, let's click this X to close the program.
+
+1042
+00:34:23,539 --> 00:34:26,379
+Let's have it continue running through the rest of the process.
+
+1043
+00:34:27,409 --> 00:34:29,170
+Alright, as you can see, phase five is now complete.
+
+1044
+00:34:29,170 --> 00:34:30,489
+Alright, let's move on to phase six.
+
+1045
+00:34:30,489 --> 00:34:32,690
+This is the interface optimization and packaging stage.
+
+1046
+00:34:32,690 --> 00:34:35,860
+Alright, so now it needs to work on beautifying the user interface.
+
+1047
+00:34:35,860 --> 00:34:37,360
+Let's have step four handle the addition.
+
+1048
+00:34:37,360 --> 00:34:40,360
+For example, things like a month-switching function, and so on.
+
+1049
+00:34:40,360 --> 00:34:43,560
+Alright, so let's wait for it to finish writing all the necessary code.
+
+1050
+00:34:46,039 --> 00:34:46,518
+Alright.
+
+1051
+00:34:46,518 --> 00:34:48,958
+Alright, looks like it needs to run a command here.
+
+1052
+00:34:48,958 --> 00:34:50,639
+to configure, package, and test the build.
+
+1053
+00:34:50,639 --> 00:34:51,839
+Of course, it's a yes.
+
+1054
+00:34:51,839 --> 00:34:54,039
+Let's let it run.
+
+1055
+00:34:56,960 --> 00:35:00,360
+Alright, so it's going to execute the corresponding command for electron-builder.
+
+1056
+00:35:00,360 --> 00:35:02,440
+Alright, let's go ahead and allow it.
+
+1057
+00:35:04,300 --> 00:35:04,820
+Alright.
+
+1058
+00:35:04,820 --> 00:35:06,260
+And it looks like there are corresponding commands for that as well.
+
+1059
+00:35:06,260 --> 00:35:07,020
+So, let's click 'yes'.
+
+1060
+00:35:07,020 --> 00:35:07,560
+Allow.
+
+1061
+00:35:07,560 --> 00:35:09,640
+So, as you can see here, it's going to make some changes.
+
+1062
+00:35:09,640 --> 00:35:10,440
+One is the mirror.
+
+1063
+00:35:10,440 --> 00:35:12,920
+One is to switch its mirror to a domestic one.
+
+1064
+00:35:12,920 --> 00:35:13,160
+Alright, let's do it.
+
+1065
+00:35:13,160 --> 00:35:16,109
+This makes it easier to speed up the network connection.
+
+1066
+00:35:17,730 --> 00:35:19,890
+Alright, let's just drag this interface over to the left a bit.
+
+1067
+00:35:19,890 --> 00:35:21,850
+This way, we'll get a bit more on the screen.
+
+1068
+00:35:21,850 --> 00:35:24,410
+This way, we can see things a bit more clearly.
+
+1069
+00:35:32,220 --> 00:35:32,760
+Alright.
+
+1070
+00:35:32,760 --> 00:35:36,500
+So, it's saying here that our download from GitHub was blocked.
+
+1071
+00:35:36,500 --> 00:35:39,260
+So, it needs to set up a domestic mirror source before it can proceed with the packaging.
+
+1072
+00:35:39,260 --> 00:35:41,860
+So, yeah, that's actually a pretty common occurrence.
+
+1073
+00:35:41,860 --> 00:35:44,380
+You know, when you're trying to access websites like GitHub from within China,
+
+1074
+00:35:44,380 --> 00:35:45,520
+you often can't get access to it.
+
+1075
+00:35:45,520 --> 00:35:47,300
+So, it makes sense that it's switching to a domestic source.
+
+1076
+00:35:47,300 --> 00:35:48,300
+So, just click on 'yes' here.
+
+1077
+00:35:48,300 --> 00:35:50,760
+Just let it run.
+
+1078
+00:35:54,920 --> 00:35:57,720
+Alright, as you can see, it's telling us the packaging was successful.
+
+1079
+00:35:57,720 --> 00:36:00,760
+It says the corresponding EXE has been generated, and so on.
+
+1080
+00:36:00,760 --> 00:36:01,960
+And then it goes on to update the progress.
+
+1081
+00:36:01,960 --> 00:36:04,020
+and tying up the last few loose ends.
+
+1082
+00:36:04,020 --> 00:36:07,300
+And finally, it updated the roadmap in our claude.md file.
+
+1083
+00:36:07,300 --> 00:36:10,360
+So, as you can see, all seven stages are now complete.
+
+1084
+00:36:10,360 --> 00:36:12,200
+And finally, it gave me a summary of its work.
+
+1085
+00:36:12,200 --> 00:36:15,580
+It says, "The Heima Bookkeeping app has been fully developed and completed."
+
+1086
+00:36:15,580 --> 00:36:18,260
+And finally, we get an executable file called 'Heima Accounting.exe'.
+
+1087
+00:36:18,260 --> 00:36:19,940
+So, it's a file, right, a file.
+
+1088
+00:36:19,940 --> 00:36:21,060
+Alright, so for this file...
+
+1089
+00:36:21,060 --> 00:36:22,340
+So, as you can see, here's the file.
+
+1090
+00:36:22,340 --> 00:36:24,600
+Inside our folder, there's one called 'release'.
+
+1091
+00:36:24,600 --> 00:36:27,500
+And then there's one called 'win' or 'on pocket'.
+
+1092
+00:36:27,500 --> 00:36:29,480
+Inside, there's a file called 'Dark Horse Accounting.exe'.
+
+1093
+00:36:29,480 --> 00:36:30,560
+Alright, let's go look for it in a bit.
+
+1094
+00:36:30,560 --> 00:36:31,920
+Let's see if a file like that exists.
+
+1095
+00:36:31,920 --> 00:36:35,030
+Alright, so it has a list of completed features.
+
+1096
+00:36:35,030 --> 00:36:36,150
+66 preset categories.
+
+1097
+00:36:36,150 --> 00:36:37,030
+Then, of course, the bookkeeping function.
+
+1098
+00:36:37,030 --> 00:36:38,070
+Dashboard statistics,
+
+1099
+00:36:38,070 --> 00:36:39,000
+import and export functions,
+
+1100
+00:36:39,000 --> 00:36:39,720
+Settings,
+
+1101
+00:36:39,720 --> 00:36:40,960
+And a beautiful, user-friendly interface, and so on.
+
+1102
+00:36:40,960 --> 00:36:43,120
+A nice-looking interface, and all that stuff, right.
+
+1103
+00:36:43,120 --> 00:36:44,440
+And there are some other ways to use it as well.
+
+1104
+00:36:44,440 --> 00:36:45,200
+And the development mode,
+
+1105
+00:36:45,200 --> 00:36:46,280
+Production build.
+
+1106
+00:36:46,280 --> 00:36:47,789
+and package it for Electron.
+
+1107
+00:36:47,789 --> 00:36:49,309
+and then package it for Mac.
+
+1108
+00:36:49,309 --> 00:36:50,749
+So, how do we actually do this? Alright.
+
+1109
+00:36:50,749 --> 00:36:51,549
+Alright, let's give it a shot.
+
+1110
+00:36:51,549 --> 00:36:54,830
+Alright, let's see if this packaged EXE file actually runs.
+
+1111
+00:36:54,830 --> 00:36:56,590
+Let's head over to our file explorer.
+
+1112
+00:36:56,590 --> 00:36:57,350
+Let's find our D drive.
+
+1113
+00:36:57,350 --> 00:36:59,200
+and find the folder for our Heima Expense Tracker app.
+
+1114
+00:36:59,200 --> 00:37:00,120
+And then it tells us,
+
+1115
+00:37:00,120 --> 00:37:03,480
+The files after we package it are stored in this folder called 'release'.
+
+1116
+00:37:03,480 --> 00:37:05,220
+There's one called 'wallet'.
+
+1117
+00:37:05,220 --> 00:37:05,600
+Alright.
+
+1118
+00:37:05,600 --> 00:37:08,140
+Alright, let's see if we can find something called 'Dark Horse Accounting' in here.
+
+1119
+00:37:08,140 --> 00:37:10,860
+Okay, found one called 'Heima Accounting.EAE'.
+
+1120
+00:37:10,860 --> 00:37:11,700
+This file is actually pretty big.
+
+1121
+00:37:11,700 --> 00:37:12,580
+180 megs, huh.
+
+1122
+00:37:12,580 --> 00:37:13,380
+Doesn't matter how big it is.
+
+1123
+00:37:13,380 --> 00:37:14,500
+Alright, let's double-click to run it.
+
+1124
+00:37:14,500 --> 00:37:16,270
+Alright, let's open it up and see.
+
+1125
+00:37:16,270 --> 00:37:17,390
+Alright, so after double-clicking to run it,
+
+1126
+00:37:17,390 --> 00:37:18,910
+And just like that, the window pops up.
+
+1127
+00:37:18,910 --> 00:37:20,430
+So, we can see the file here.
+
+1128
+00:37:20,430 --> 00:37:22,710
+So, it seems like the program is working pretty much as expected.
+
+1129
+00:37:22,710 --> 00:37:25,360
+And all the data we just entered is saved right here.
+
+1130
+00:37:25,360 --> 00:37:25,960
+For instance, let me add another entry.
+
+1131
+00:37:25,960 --> 00:37:26,840
+Let me just log an entry for you guys.
+
+1132
+00:37:26,840 --> 00:37:28,140
+For example, let's pick this main category.
+
+1133
+00:37:28,140 --> 00:37:28,840
+Shopping, for example.
+
+1134
+00:37:28,840 --> 00:37:29,840
+Like, for digital electronics.
+
+1135
+00:37:29,840 --> 00:37:32,320
+And we spent, uh, 6,666 yuan.
+
+1136
+00:37:32,320 --> 00:37:34,180
+And then, just click 'Save Record'.
+
+1137
+00:37:34,180 --> 00:37:37,230
+Then for income, I got what's called 'Professional Income' today.
+
+1138
+00:37:37,230 --> 00:37:38,190
+And then, we have our salary.
+
+1139
+00:37:38,190 --> 00:37:41,210
+Alright, let's say today's salary is 999,999.
+
+1140
+00:37:41,210 --> 00:37:42,930
+And then, click 'Save Record'.
+
+1141
+00:37:42,930 --> 00:37:44,270
+Alright, the entry was saved successfully.
+
+1142
+00:37:44,270 --> 00:37:46,920
+Clicking on the home page, we can see our income and our expenses.
+
+1143
+00:37:46,920 --> 00:37:47,760
+And we've got a balance now.
+
+1144
+00:37:47,760 --> 00:37:48,480
+And they're all displayed right here.
+
+1145
+00:37:48,480 --> 00:37:50,660
+And the details for each transaction are also displayed right here.
+
+1146
+00:37:50,660 --> 00:37:52,340
+Actually, it looks pretty good, right?
+
+1147
+00:37:52,340 --> 00:37:54,920
+And then, under the 'Statistics' tab, you've got the corresponding charts as well.
+
+1148
+00:37:54,920 --> 00:37:55,420
+Shopping,
+
+1149
+00:37:55,420 --> 00:37:55,900
+Dining...
+
+1150
+00:37:55,900 --> 00:37:58,220
+showing the percentage breakdown and so on—just basic charts like that.
+
+1151
+00:37:58,220 --> 00:37:59,560
+And then, let's go back to the settings.
+
+1152
+00:37:59,560 --> 00:38:01,820
+And in here, you'll also find the corresponding data export feature.
+
+1153
+00:38:01,820 --> 00:38:02,850
+and the data itself.
+
+1154
+00:38:02,850 --> 00:38:05,350
+importing, and clearing all data. Alright.
+
+1155
+00:38:05,350 --> 00:38:07,870
+So, as you can see, these are the basic features we have right now.
+
+1156
+00:38:07,870 --> 00:38:09,880
+So, that's pretty much it.
+
+1157
+00:38:09,880 --> 00:38:10,820
+Alright, so up to this point,
+
+1158
+00:38:10,820 --> 00:38:13,360
+And just like that, it's finished the Windows version for us.
+
+1159
+00:38:13,360 --> 00:38:16,060
+and compiles it into an executable file for us.
+
+1160
+00:38:16,060 --> 00:38:17,340
+So, I'm getting a little curious now.
+
+1161
+00:38:17,340 --> 00:38:20,920
+So, can it help us generate a Mac version of the app on a Windows computer?
+
+1162
+00:38:20,920 --> 00:38:22,480
+Well, in theory, that shouldn't be possible.
+
+1163
+00:38:22,480 --> 00:38:24,080
+But hey, we can still give it a shot.
+
+1164
+00:38:24,080 --> 00:38:26,960
+Alright, let's see what Claude Code has to say.
+
+1165
+00:38:26,960 --> 00:38:32,260
+Alright, so we've successfully packaged the Windows EXE.
+
+1166
+00:38:32,260 --> 00:38:34,620
+And I gave it a pass, too.
+
+1167
+00:38:34,620 --> 00:38:36,230
+And I've given it the green light.
+
+1168
+00:38:36,230 --> 00:38:42,830
+So, my question is, can we package this into a Mac application as well?
+
+1169
+00:38:47,380 --> 00:38:50,740
+Ah, it says that for the best results, the packaging process needs to be done on a Mac.
+
+1170
+00:38:50,740 --> 00:38:52,680
+Because it's exclusive to macOS.
+
+1171
+00:38:52,680 --> 00:38:56,200
+But it does support some cross-platform packaging capabilities.
+
+1172
+00:38:56,200 --> 00:38:58,240
+Let me see if I can generate a Mac version.
+
+1173
+00:38:58,240 --> 00:38:59,680
+Alright, we're not gonna try that one.
+
+1174
+00:38:59,680 --> 00:39:01,700
+Because, theoretically speaking, what it said is correct.
+
+1175
+00:39:01,700 --> 00:39:02,860
+From a professional standpoint,
+
+1176
+00:39:02,860 --> 00:39:05,180
+For example, the .DMG installer package for Mac.
+
+1177
+00:39:05,180 --> 00:39:08,240
+So, packaging it on a Mac platform is definitely the most suitable option.
+
+1178
+00:39:08,240 --> 00:39:10,400
+And at the same time, if you look at the CPUs in our Windows computers...
+
+1179
+00:39:10,400 --> 00:39:11,600
+are all x86-based.
+
+1180
+00:39:11,600 --> 00:39:14,340
+But Macs now all use ARM-based chips, like the M1 and M2.
+
+1181
+00:39:14,340 --> 00:39:16,720
+So, these different chips are what cause issues with cross-platform packaging.
+
+1182
+00:39:16,720 --> 00:39:20,480
+And the compatibility issues that creates can be extremely, extremely severe.
+
+1183
+00:39:20,480 --> 00:39:22,300
+So, for those of you on Mac,
+
+1184
+00:39:22,300 --> 00:39:24,400
+So, if you actually follow this process,
+
+1185
+00:39:24,400 --> 00:39:25,020
+Normally,
+
+1186
+00:39:25,020 --> 00:39:25,880
+So, for your program...
+
+1187
+00:39:25,880 --> 00:39:29,360
+and it'll be packaged into the corresponding format for Mac.
+
+1188
+00:39:29,360 --> 00:39:30,560
+And now we can give it a proper test run.
+
+1189
+00:39:30,560 --> 00:39:32,400
+Let's see if it actually runs.
+
+1190
+00:39:32,400 --> 00:39:32,900
+Alright then.
+
+1191
+00:39:32,900 --> 00:39:33,960
+Alright, so at this point,
+
+1192
+00:39:33,960 --> 00:39:36,320
+And with that, we've completed this 'Heima Accounting' product.
+
+1193
+00:39:36,320 --> 00:39:39,140
+laying the groundwork for its first version.
+
+1194
+00:39:39,140 --> 00:39:40,820
+So, as you can see, throughout this whole process,
+
+1195
+00:39:40,820 --> 00:39:42,940
+So basically, it's like we've completed it through external coding.
+
+1196
+00:39:42,940 --> 00:39:45,640
+to develop a relatively large-scale piece of software.
+
+1197
+00:39:45,640 --> 00:39:47,360
+Alright, so let's see the files it's generated for us.
+
+1198
+00:39:47,360 --> 00:39:48,840
+And there are quite a few of them, huh.
+
+1199
+00:39:48,840 --> 00:39:50,920
+In here, we have our Claude.md file.
+
+1200
+00:39:50,920 --> 00:39:52,740
+This is basically the documentation for our entire product.
+
+1201
+00:39:52,740 --> 00:39:54,960
+And besides those, we also have the corresponding .ts files, and so on.
+
+1202
+00:39:54,960 --> 00:39:56,340
+all the code that goes with it.
+
+1203
+00:39:56,340 --> 00:39:58,140
+and the code for index.html.
+
+1204
+00:39:58,140 --> 00:40:00,780
+And look at all this code in the SRC folder.
+
+1205
+00:40:00,780 --> 00:40:03,620
+And all of this was done for us by Claude Code.
+
+1206
+00:40:03,620 --> 00:40:05,100
+And the key member of our team here is...
+
+1207
+00:40:05,100 --> 00:40:08,500
+And the core brain behind it all is the DeepSeek-V4-Pro model we've configured.
+
+1208
+00:40:08,500 --> 00:40:09,460
+So let's take a look at DeepSeek.
+
+1209
+00:40:09,460 --> 00:40:10,380
+In terms of its actual intelligence,
+
+1210
+00:40:10,380 --> 00:40:12,500
+So, its coding ability is definitely not an issue.
+
+1211
+00:40:12,500 --> 00:40:14,720
+So, when you pair that with a coding software like Claude Code...
+
+1212
+00:40:14,720 --> 00:40:16,880
+So, programming in this kind of environment is actually pretty comfortable.
+
+1213
+00:40:16,880 --> 00:40:19,580
+So, this entire process took about...
+
+1214
+00:40:19,580 --> 00:40:21,620
+around an hour in total.
+
+1215
+00:40:21,620 --> 00:40:24,940
+But in reality, about 60% of that time...
+
+1216
+00:40:24,940 --> 00:40:27,560
+that means we spent about 40 minutes on...
+
+1217
+00:40:27,560 --> 00:40:28,660
+accessing GitHub,
+
+1218
+00:40:28,660 --> 00:40:31,320
+or some other foreign websites, just waiting for them to load.
+
+1219
+00:40:31,320 --> 00:40:33,880
+So, if we actually set aside the network issues,
+
+1220
+00:40:33,880 --> 00:40:35,900
+They could probably get it done in just ten minutes or so.
+
+1221
+00:40:35,900 --> 00:40:38,279
+Alright, so the development of that Dark Horse app is done.
+
+1222
+00:40:38,279 --> 00:40:40,099
+So, that's incredibly fast.
+
+1223
+00:40:40,099 --> 00:40:44,200
+For an experienced and skilled Electron developer,
+
+1224
+00:40:44,200 --> 00:40:46,000
+To get this current feature done,
+
+1225
+00:40:46,000 --> 00:40:47,800
+it would take at least an hour or two.
+
+1226
+00:40:47,800 --> 00:40:50,000
+And that's assuming there are no errors.
+
+1227
+00:40:50,000 --> 00:40:53,000
+So, when you compare that to how our AI gets things done...
+
+1228
+00:40:53,000 --> 00:40:54,670
+It can be even faster than a seasoned programmer.
+
+1229
+00:40:54,670 --> 00:40:57,430
+Its efficiency can be boosted by another 10 to 20 times, or even more.
+
+1230
+00:40:57,430 --> 00:40:59,620
+So, the efficiency is just insane.
+
+1231
+00:40:59,620 --> 00:41:01,660
+And on top of that, within this app,
+
+1232
+00:41:01,660 --> 00:41:02,880
+And we've also put this to the test for you all.
+
+1233
+00:41:02,880 --> 00:41:05,020
+So, as someone who knows absolutely nothing...
+
+1234
+00:41:05,020 --> 00:41:06,950
+the perspective of a complete tech newbie.
+
+1235
+00:41:06,950 --> 00:41:08,650
+So, we're basically acting as the boss here.
+
+1236
+00:41:08,650 --> 00:41:11,550
+And this Claude Code, well, that's our employee.
+
+1237
+00:41:11,550 --> 00:41:12,470
+I'll give you the tasks.
+
+1238
+00:41:12,470 --> 00:41:13,610
+You do the work for me.
+
+1239
+00:41:13,610 --> 00:41:15,900
+Hey, you'll find that even if you have absolutely no idea what you're doing,
+
+1240
+00:41:15,900 --> 00:41:20,500
+So we can also go ahead and build a Windows app.
+
+1241
+00:41:20,500 --> 00:41:21,540
+If you're on a Mac,
+
+1242
+00:41:21,540 --> 00:41:23,560
+So, we're just going to package this for Mac.
+
+1243
+00:41:23,560 --> 00:41:26,020
+So that means it can also generate a Mac app.
+
+1244
+00:41:26,020 --> 00:41:29,380
+So, as you can see, even for those of us who don't know how to code,
+
+1245
+00:41:29,380 --> 00:41:32,580
+we can actually get the corresponding code developed.
+
+1246
+00:41:32,580 --> 00:41:36,540
+And that, right there, is the magic of web coding in our current era.
+
+1247
+00:41:36,540 --> 00:41:38,980
+Alright, so with this example,
+
+1248
+00:41:38,980 --> 00:41:40,220
+So, we've just walked you through a demonstration.
+
+1249
+00:41:40,220 --> 00:41:42,960
+So, about the tool we used, VS Code...
+
+1250
+00:41:42,960 --> 00:41:45,960
+and pair it with Claude Code, this web coding tool.
+
+1251
+00:41:45,960 --> 00:41:47,560
+and how we can combine the two to...
+
+1252
+00:41:47,560 --> 00:41:49,480
+And just like that, we've got a personal accounting app called 'Dark Horse Accounting'.
+
+1253
+00:41:49,480 --> 00:41:51,980
+and walk you through the entire development process.
+
+1254
+00:41:51,980 --> 00:41:52,540
+Of course.
+
+1255
+00:41:52,540 --> 00:41:54,520
+But developing our app is just the first step.
+
+1256
+00:41:54,520 --> 00:41:57,500
+So, moving forward, we need to take this entire development process and...
+
+1257
+00:41:57,500 --> 00:41:58,100
+and standardize it.
+
+1258
+00:41:58,100 --> 00:41:59,270
+and turn it into a proper project.
+
+1259
+00:41:59,270 --> 00:42:01,410
+And that's what we'll be covering next.
+
+1260
+00:42:01,410 --> 00:42:02,310
+Alright, OK.
+
+1261
+00:42:02,310 --> 00:42:04,050
+Alright, let's save our progress for this video.
+
+1262
+00:42:04,050 --> 00:42:06,920
+We'll see you in the next video.
+

@@ -1,0 +1,396 @@
+1
+00:00:00,160 --> 00:00:01,789
+Hey friends, long time no see!
+
+2
+00:00:01,789 --> 00:00:04,599
+This is episode zero of our 'Build in Public' series.
+
+3
+00:00:05,070 --> 00:00:06,701
+I'll be regularly updating this channel
+
+4
+00:00:06,701 --> 00:00:08,458
+with my AI product's development progress,
+
+5
+00:00:08,458 --> 00:00:09,630
+and we'll build it together.
+
+6
+00:00:10,010 --> 00:00:11,435
+I'll also share thoughts and experiences
+
+7
+00:00:11,435 --> 00:00:12,290
+from my startup journey.
+
+8
+00:00:12,530 --> 00:00:13,212
+Our product, Cora,
+
+9
+00:00:13,212 --> 00:00:15,261
+has gone through two rounds of internal testing,
+
+10
+00:00:15,261 --> 00:00:17,037
+and its form has changed quite a bit—more
+
+11
+00:00:17,037 --> 00:00:18,250
+on that in the next episode.
+
+12
+00:00:18,730 --> 00:00:22,050
+Today, I'm sharing a feature demo from our latest MVP round.
+
+13
+00:00:22,570 --> 00:00:25,190
+Cora is a completely free browser plugin
+
+14
+00:00:25,190 --> 00:00:27,091
+that solves just one problem:
+
+15
+00:00:27,091 --> 00:00:29,022
+context transfer for creators
+
+16
+00:00:29,022 --> 00:00:31,220
+between different creative tools.
+
+17
+00:00:31,580 --> 00:00:33,420
+You can use it with Feishu, Jee, Meng,
+
+18
+00:00:33,820 --> 00:00:36,082
+Lovart, Tapnow, and more—dragging prompts,
+
+19
+00:00:36,082 --> 00:00:38,363
+skills, characters, images, canvases, nodes,
+
+20
+00:00:38,363 --> 00:00:39,605
+and even video assets
+
+21
+00:00:39,605 --> 00:00:41,527
+to sync them with a single click
+
+22
+00:00:41,527 --> 00:00:43,510
+to both local and external pages.
+
+23
+00:00:43,990 --> 00:00:45,753
+So, during our previous Cora beta test,
+
+24
+00:00:45,753 --> 00:00:48,612
+we found that AI native creators share a common pain point:
+
+25
+00:00:48,612 --> 00:00:50,709
+their creative workflows are incredibly long.
+
+26
+00:00:51,120 --> 00:00:51,795
+And for each stage,
+
+27
+00:00:51,795 --> 00:00:53,520
+there are different tools to boost efficiency.
+
+28
+00:00:53,880 --> 00:00:56,987
+But the context between each stage—like prompts, asset images,
+
+29
+00:00:56,987 --> 00:00:59,784
+storyboards, and so on—is scattered all over the place,
+
+30
+00:00:59,784 --> 00:01:01,960
+making syncing a real headache every time.
+
+31
+00:01:02,550 --> 00:01:05,161
+The essence of creation is aligning context,
+
+32
+00:01:05,161 --> 00:01:06,948
+and the more fragmented it is,
+
+33
+00:01:06,948 --> 00:01:09,230
+the harder it is to align—hence, Cora.
+
+34
+00:01:09,810 --> 00:01:11,258
+In the next minute, I'll walk you
+
+35
+00:01:11,258 --> 00:01:13,249
+through a simple example of how to use Cora.
+
+36
+00:01:13,610 --> 00:01:15,539
+On Creaibo's website, download Cora,
+
+37
+00:01:15,539 --> 00:01:17,799
+then follow the installation instructions.
+
+38
+00:01:18,060 --> 00:01:18,573
+Once that's done,
+
+39
+00:01:18,573 --> 00:01:20,146
+click on the plugin list in the top right corner,
+
+40
+00:01:20,146 --> 00:01:20,820
+and then select Cora.
+
+41
+00:01:21,060 --> 00:01:22,420
+Okay, if the plugin doesn't trigger,
+
+42
+00:01:22,420 --> 00:01:24,180
+don't worry—just try refreshing the webpage
+
+43
+00:01:24,180 --> 00:01:25,260
+or restarting your browser.
+
+44
+00:01:25,830 --> 00:01:27,990
+So now, let me share my workflow with you all.
+
+45
+00:01:28,190 --> 00:01:29,855
+For example, I jot down my stories in Notion,
+
+46
+00:01:29,855 --> 00:01:31,560
+and once I capture them here with one click,
+
+47
+00:01:31,560 --> 00:01:33,013
+I can drag them straight into Creaibo
+
+48
+00:01:33,013 --> 00:01:34,350
+to co create with my Claude Agent.
+
+49
+00:01:34,480 --> 00:01:36,426
+So, once I've finished up the storyboards, scripts,
+
+50
+00:01:36,426 --> 00:01:37,805
+images, videos, and prompts in Cora,
+
+51
+00:01:37,805 --> 00:01:39,206
+I'll drop them into my Feishu docs
+
+52
+00:01:39,206 --> 00:01:40,360
+for easy team collaboration.
+
+53
+00:01:42,410 --> 00:01:43,835
+Once that's set up, I'll hop over to Lovart
+
+54
+00:01:43,835 --> 00:01:45,770
+and use my prompts to generate all sorts of asset images.
+
+55
+00:01:46,050 --> 00:01:47,320
+At this point, with Cora,
+
+56
+00:01:47,320 --> 00:01:50,580
+you can just drag and drop to sync it right back to Feishu.
+
+57
+00:01:50,580 --> 00:01:51,252
+Once it's finalized,
+
+58
+00:01:51,252 --> 00:01:53,376
+we then take the storyboards, prompts, character asset images,
+
+59
+00:01:53,376 --> 00:01:54,297
+and so on already in Cora,
+
+60
+00:01:54,297 --> 00:01:54,943
+and with one click,
+
+61
+00:01:54,943 --> 00:01:56,740
+pipe them over to Tapnow for automatic generation.
+
+62
+00:01:56,820 --> 00:01:58,819
+So, we can see this node has finished running. From here,
+
+63
+00:01:58,819 --> 00:02:00,091
+I'll go on to generate still frames
+
+64
+00:02:00,091 --> 00:02:01,218
+and the subsequent video clips.
+
+65
+00:02:03,070 --> 00:02:04,211
+But we're not done yet!
+
+66
+00:02:04,211 --> 00:02:07,064
+Good content isn't just about piecing assets together,
+
+67
+00:02:07,064 --> 00:02:09,709
+so I'll download them to CapCut for post production.
+
+68
+00:02:09,960 --> 00:02:11,181
+So right now, I can just one click
+
+69
+00:02:11,181 --> 00:02:12,920
+download the clips I just picked out in Tapnow.
+
+70
+00:02:14,310 --> 00:02:16,430
+Let's import into CapCut.
+
+71
+00:02:17,030 --> 00:02:18,531
+And I should also mention, in the future,
+
+72
+00:02:18,531 --> 00:02:20,211
+we'll integrate with local editing software
+
+73
+00:02:20,211 --> 00:02:21,150
+for asset preprocessing.
+
+74
+00:02:21,340 --> 00:02:23,238
+Now, this case just shows my own workflow,
+
+75
+00:02:23,238 --> 00:02:25,660
+but feel free to tweak it based on your own habits.
+
+76
+00:02:25,860 --> 00:02:28,293
+For instance, Cora already supports most AI creation tools,
+
+77
+00:02:28,293 --> 00:02:29,660
+with more to come in the future.
+
+78
+00:02:29,940 --> 00:02:31,900
+In future versions, all these transferred assets
+
+79
+00:02:31,900 --> 00:02:34,069
+will be automatically stored locally on your device
+
+80
+00:02:34,069 --> 00:02:35,000
+and managed—classified,
+
+81
+00:02:35,000 --> 00:02:36,780
+organized, and sorted—by the Creaibo agent.
+
+82
+00:02:37,070 --> 00:02:39,220
+The beta version is officially released.
+
+83
+00:02:39,220 --> 00:02:41,316
+You can install it from creaibo dot com
+
+84
+00:02:41,316 --> 00:02:43,950
+or by searching 'Cora' in your browser's app store.
+
+85
+00:02:44,200 --> 00:02:46,178
+So, Cora is just our new feature validation;
+
+86
+00:02:46,178 --> 00:02:47,788
+our ultimate goal is still to solve
+
+87
+00:02:47,788 --> 00:02:49,122
+the context handover problem
+
+88
+00:02:49,122 --> 00:02:50,640
+in AI powered creative scenarios.
+
+89
+00:02:50,930 --> 00:02:53,330
+making AI asset management more agentic.
+
+90
+00:02:53,490 --> 00:02:56,090
+Any questions or suggestions? Feel free to comment below.
+
+91
+00:02:56,400 --> 00:02:57,450
+We're also actively hiring,
+
+92
+00:02:57,450 --> 00:02:58,928
+so if you're into creation and love AI,
+
+93
+00:02:58,928 --> 00:02:59,637
+feel free to apply
+
+94
+00:02:59,637 --> 00:03:01,878
+and join us—check out our previous posts for the details
+
+95
+00:03:01,878 --> 00:03:02,159
+on how.
+
+96
+00:03:02,400 --> 00:03:03,830
+Finally, a question for you:
+
+97
+00:03:03,830 --> 00:03:06,291
+we use Codex and Claude Code for development.
+
+98
+00:03:06,291 --> 00:03:07,243
+Which is better?
+
+99
+00:03:07,243 --> 00:03:10,159
+Share your thoughts below, and we'll see you next time!
+

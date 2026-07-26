@@ -1,0 +1,304 @@
+1
+00:00:00,940 --> 00:00:05,930
+Well, after struggling for a long time and still not getting it done
+
+2
+00:00:05,930 --> 00:00:11,310
+So, should we move on to the responsive design for the new course section, right?
+
+3
+00:00:11,310 --> 00:00:13,330
+This responsive part is easy to write.
+
+4
+00:00:13,330 --> 00:00:15,050
+Now let's take a look
+
+5
+00:00:15,050 --> 00:00:19,920
+The left side of our new course delivery section occupies 64 percent, right?
+
+6
+00:00:19,920 --> 00:00:20,840
+right
+
+7
+00:00:20,840 --> 00:00:22,420
+What percentage is it, right?
+
+8
+00:00:22,420 --> 00:00:23,520
+And inside here, right
+
+9
+00:00:23,520 --> 00:00:24,760
+still two blocks
+
+10
+00:00:24,760 --> 00:00:27,640
+For the two blocks, is the layout 50%?
+
+11
+00:00:27,640 --> 00:00:30,460
+As I zoom the browser
+
+12
+00:00:30,460 --> 00:00:34,500
+Where does it change when scaled down to the tablet size?
+
+13
+00:00:38,280 --> 00:00:41,400
+Where exactly did it change?
+
+14
+00:00:44,200 --> 00:00:47,220
+The left-side 'New Customer Express' is currently at 64%
+
+15
+00:00:47,220 --> 00:00:49,560
+When the Trending tag drops down
+
+16
+00:00:49,560 --> 00:00:51,360
+How much has it changed
+
+17
+00:00:52,300 --> 00:00:55,559
+one hundred percent
+
+18
+00:00:55,559 --> 00:00:56,799
+It's just left with itself, right?
+
+19
+00:00:56,799 --> 00:00:57,819
+Has this changed
+
+20
+00:00:57,819 --> 00:00:59,979
+The inner one hasn't changed, right?
+
+21
+00:00:59,979 --> 00:01:02,979
+When I shrink it down to the mobile view
+
+22
+00:01:02,979 --> 00:01:04,050
+What changed
+
+23
+00:01:06,000 --> 00:01:10,820
+The inner element changes from 50% to 100%, right?
+
+24
+00:01:10,820 --> 00:01:12,420
+So it's just this part that changes, right?
+
+25
+00:01:12,420 --> 00:01:13,700
+The rest remains the same.
+
+26
+00:01:13,700 --> 00:01:16,550
+Let's see how to make changes, hmm
+
+27
+00:01:16,550 --> 00:01:21,930
+First, locate the outermost 64%
+
+28
+00:01:21,930 --> 00:01:23,900
+Is it for the PC end, right?
+
+29
+00:01:23,900 --> 00:01:26,229
+I'll just delete it, okay
+
+30
+00:01:26,229 --> 00:01:28,289
+Moving to the PC version
+
+31
+00:01:28,289 --> 00:01:31,569
+Let's write a new express delivery
+
+32
+00:01:31,569 --> 00:01:36,139
+So, is it 64% for me?
+
+33
+00:01:36,139 --> 00:01:41,559
+On my tablet and mobile, it's all 100%, right?
+
+34
+00:01:41,559 --> 00:01:43,499
+I haven't written it yet
+
+35
+00:01:43,499 --> 00:01:48,350
+Now, is it only the PC version that has been written and come to our page?
+
+36
+00:01:48,350 --> 00:01:51,590
+Refreshing F51 has no effect, right?
+
+37
+00:01:51,590 --> 00:01:55,810
+I'm scaling the browser to test the tablet view
+
+38
+00:01:55,810 --> 00:01:56,850
+Is it 100%
+
+39
+00:01:56,850 --> 00:01:58,630
+Because I didn't set it here
+
+40
+00:01:58,630 --> 00:02:01,810
+If not set, my block elements default to 100%, right?
+
+41
+00:02:01,810 --> 00:02:03,010
+So it can be omitted.
+
+42
+00:02:03,010 --> 00:02:04,930
+So for the tablet version, I don't need to do anything here, right?
+
+43
+00:02:04,930 --> 00:02:06,110
+Are there still two blocks
+
+44
+00:02:06,110 --> 00:02:10,310
+So now we just need to handle the mobile case
+
+45
+00:02:10,310 --> 00:02:15,140
+change both of them to 100%
+
+46
+00:02:15,140 --> 00:02:18,020
+So we only need to change it to 100% on mobile devices, right?
+
+47
+00:02:18,020 --> 00:02:18,630
+colloquial
+
+48
+00:02:18,630 --> 00:02:25,590
+So this 50% applies to both PC and tablet, right?
+
+49
+00:02:25,590 --> 00:02:28,250
+Then I'll put it in the global scope.
+
+50
+00:02:28,250 --> 00:02:31,150
+So can both of you share this, right?
+
+51
+00:02:31,150 --> 00:02:37,110
+Just keep it here and only when it's on mobile
+
+52
+00:02:37,790 --> 00:02:40,350
+When switching to mobile view
+
+53
+00:02:40,350 --> 00:02:45,800
+change this 50% to 100%
+
+54
+00:02:45,800 --> 00:02:46,940
+Is that okay?
+
+55
+00:02:46,940 --> 00:02:50,580
+The responsive design for this large section below is quite straightforward.
+
+56
+00:02:50,580 --> 00:02:52,980
+Refresh the page
+
+57
+00:02:53,520 --> 00:02:57,080
+CTRL+F5 is not coming over
+
+58
+00:02:57,080 --> 00:02:58,200
+Is it all good now, right?
+
+59
+00:02:58,200 --> 00:02:58,940
+Look,
+
+60
+00:02:58,940 --> 00:03:00,880
+On our PC side
+
+61
+00:03:00,880 --> 00:03:03,530
+The outermost is 64%
+
+62
+00:03:03,530 --> 00:03:08,210
+the inner content is 50% when shrinking to the tablet view
+
+63
+00:03:08,210 --> 00:03:09,830
+the outer layer becomes 100%
+
+64
+00:03:09,830 --> 00:03:12,840
+Is the inner part still 50% within the global scope?
+
+65
+00:03:12,840 --> 00:03:15,820
+Then shrink to 100% on the mobile end
+
+66
+00:03:15,820 --> 00:03:18,590
+Then it was changed to 100%, right?
+
+67
+00:03:18,590 --> 00:03:21,290
+It's the outer layer that's being modified.
+
+68
+00:03:21,290 --> 00:03:23,209
+the div is the outer layer
+
+69
+00:03:23,209 --> 00:03:24,489
+We've nested two layers
+
+70
+00:03:24,489 --> 00:03:28,949
+This is the display part that you see inside, uh
+
+71
+00:03:28,949 --> 00:03:32,980
+The outer one is our layout, right?
+
+72
+00:03:32,980 --> 00:03:34,900
+The outer part is for layout.
+
+73
+00:03:34,900 --> 00:03:38,100
+So, is this part of the responsive design finished now?
+
+74
+00:03:38,100 --> 00:03:39,340
+Looks good, right?
+
+75
+00:03:39,340 --> 00:03:39,980
+If it's okay
+
+76
+00:03:39,980 --> 00:03:40,560
+let's go
+

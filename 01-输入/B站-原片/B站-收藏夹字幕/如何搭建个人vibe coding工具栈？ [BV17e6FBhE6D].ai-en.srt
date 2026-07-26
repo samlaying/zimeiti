@@ -1,0 +1,688 @@
+1
+00:00:00,080 --> 00:00:03,160
+How to build an efficient, how to build an efficient personal Vibe coding tool stack?
+
+2
+00:00:03,160 --> 00:00:05,000
+Today, let me share with you in this video
+
+3
+00:00:05,000 --> 00:00:06,560
+What tools do I usually use
+
+4
+00:00:06,560 --> 00:00:09,080
+and how I combine them to form my own toolstack
+
+5
+00:00:09,080 --> 00:00:11,360
+and what benefits such a solution can bring
+
+6
+00:00:11,360 --> 00:00:12,480
+Since the second half of last year,
+
+7
+00:00:12,480 --> 00:00:15,260
+Clearly feeling that more and more non-technical students
+
+8
+00:00:15,260 --> 00:00:17,780
+start learning to use AI to build some of their own products
+
+9
+00:00:17,780 --> 00:00:19,260
+You might be able to incorporate this solution
+
+10
+00:00:19,260 --> 00:00:21,380
+also incorporate it into your own programming workflow
+
+11
+00:00:21,380 --> 00:00:22,480
+First, let's talk about tool selection
+
+12
+00:00:22,480 --> 00:00:23,800
+I generally use two tools
+
+13
+00:00:23,800 --> 00:00:24,600
+One is Claude Code
+
+14
+00:00:24,600 --> 00:00:25,480
+one is Cursor
+
+15
+00:00:25,480 --> 00:00:26,520
+To be more comprehensive
+
+16
+00:00:26,520 --> 00:00:29,540
+It's Claude Code, paired with an AI programming software
+
+17
+00:00:29,540 --> 00:00:30,600
+could be Cursor
+
+18
+00:00:30,600 --> 00:00:32,479
+or for example Windsurf
+
+19
+00:00:32,479 --> 00:00:34,360
+or VS Code, any of them will work
+
+20
+00:00:34,360 --> 00:00:36,240
+These three are pretty much similar in terms of overall experience
+
+21
+00:00:36,240 --> 00:00:38,560
+are currently the most mainstream three AI programming IDEs
+
+22
+00:00:38,560 --> 00:00:40,600
+I would choose to use different software
+
+23
+00:00:40,600 --> 00:00:41,160
+There are two reasons
+
+24
+00:00:41,160 --> 00:00:42,440
+First of all, different software
+
+25
+00:00:42,440 --> 00:00:44,720
+there are occasional opportunities to use different tools for free
+
+26
+00:00:44,720 --> 00:00:46,800
+allows you to use these software at a lower cost
+
+27
+00:00:46,800 --> 00:00:48,560
+Secondly, because of the nature of my content creation work,
+
+28
+00:00:48,560 --> 00:00:51,580
+I can test out these three mainstream programming IDEs.
+
+29
+00:00:51,580 --> 00:00:52,640
+the latest features
+
+30
+00:00:52,640 --> 00:00:54,000
+Then for most beginners
+
+31
+00:00:54,000 --> 00:00:55,860
+I think you can just choose whichever one you prefer
+
+32
+00:00:55,860 --> 00:00:57,180
+Here's how I have it set up
+
+33
+00:00:57,180 --> 00:00:59,300
+Here, I'll use Cursor to give you a quick demonstration
+
+34
+00:00:59,300 --> 00:01:01,060
+First, let's open the Cursor software
+
+35
+00:01:01,060 --> 00:01:03,020
+This is basically a typical Cursor interface.
+
+36
+00:01:03,020 --> 00:01:06,060
+Then, let's install a Claude Code plugin over here in the plugins section
+
+37
+00:01:06,060 --> 00:01:07,860
+Then install and enable the plugin
+
+38
+00:01:07,860 --> 00:01:09,140
+After that, you can see it in this section
+
+39
+00:01:09,140 --> 00:01:10,660
+see the running Claude Code
+
+40
+00:01:10,660 --> 00:01:13,140
+You can directly use the normal Claude Code functions here
+
+41
+00:01:13,140 --> 00:01:14,720
+such as viewing models
+
+42
+00:01:14,720 --> 00:01:15,920
+then start programming and so on
+
+43
+00:01:15,920 --> 00:01:18,120
+Then the rightmost section is Cursor
+
+44
+00:01:18,120 --> 00:01:19,240
+its native AI features
+
+45
+00:01:19,240 --> 00:01:22,500
+If I want to use its native features, such as the plan function
+
+46
+00:01:22,500 --> 00:01:23,280
+Debug feature
+
+47
+00:01:23,280 --> 00:01:25,560
+I can use it in this tab.
+
+48
+00:01:25,560 --> 00:01:27,880
+When encountering different programming scenarios,
+
+49
+00:01:27,880 --> 00:01:31,480
+I frequently switch between Claude Code and native functionalities.
+
+50
+00:01:31,480 --> 00:01:34,340
+For example, AI IDEs tend to lean more towards collaborative programming
+
+51
+00:01:34,340 --> 00:01:35,760
+has better human-computer interaction
+
+52
+00:01:35,760 --> 00:01:36,420
+human-computer interaction
+
+53
+00:01:36,420 --> 00:01:38,330
+and can assist you with automatic completion
+
+54
+00:01:38,330 --> 00:01:40,010
+Debugging is more convenient, etc.
+
+55
+00:01:40,010 --> 00:01:42,790
+Then Claude Code is more inclined towards fully automated programming
+
+56
+00:01:42,790 --> 00:01:45,520
+can handle longer, more complex tasks
+
+57
+00:01:45,520 --> 00:01:46,480
+Moreover, this set of tools
+
+58
+00:01:46,480 --> 00:01:48,920
+It can be used to write almost all common software projects.
+
+59
+00:01:48,920 --> 00:01:49,680
+not just web pages
+
+60
+00:01:49,680 --> 00:01:52,380
+Because many students in the group are asking how to develop apps
+
+61
+00:01:52,380 --> 00:01:54,260
+This set of tools can also be used for APP development
+
+62
+00:01:54,260 --> 00:01:55,140
+Normally, developing apps
+
+63
+00:01:55,140 --> 00:01:57,100
+all use Apple's professional programming software called Xcode
+
+64
+00:01:57,100 --> 00:01:58,060
+called Xcode
+
+65
+00:01:58,060 --> 00:01:59,000
+But my current approach is
+
+66
+00:01:59,000 --> 00:02:02,000
+Open this project folder directly with Cursor
+
+67
+00:02:02,000 --> 00:02:03,000
+You see
+
+68
+00:02:03,000 --> 00:02:05,160
+This is a basic template APP
+
+69
+00:02:05,160 --> 00:02:08,240
+The code in Xcode and Cursor is exactly the same.
+
+70
+00:02:08,240 --> 00:02:09,639
+When I use AI in Cursor
+
+71
+00:02:09,639 --> 00:02:11,620
+when modifying code through Claude Code
+
+72
+00:02:11,620 --> 00:02:13,140
+Xcode will synchronize these changes
+
+73
+00:02:13,140 --> 00:02:16,440
+Finally, I directly run the APP in Xcode.
+
+74
+00:02:16,440 --> 00:02:18,600
+Then you'll see the effect of this APP
+
+75
+00:02:18,600 --> 00:02:20,680
+This is just the simplest Hello World app.
+
+76
+00:02:20,680 --> 00:02:22,720
+The same approach can also be used to develop mini-programs.
+
+77
+00:02:22,720 --> 00:02:25,020
+These are the two core tools I currently use
+
+78
+00:02:25,020 --> 00:02:27,420
+Claude_Code, plus an AI programming software
+
+79
+00:02:27,420 --> 00:02:29,700
+Next, let's discuss the selection of models.
+
+80
+00:02:29,700 --> 00:02:30,820
+because once you have the tools
+
+81
+00:02:30,820 --> 00:02:32,240
+it's a matter of model selection
+
+82
+00:02:32,240 --> 00:02:33,240
+The first thing I want to mention is
+
+83
+00:02:33,240 --> 00:02:34,120
+If you have the conditions
+
+84
+00:02:34,120 --> 00:02:37,580
+I recommend using the Claude Code Opus model for the entire process.
+
+85
+00:02:37,580 --> 00:02:40,120
+This condition includes your own financial situation.
+
+86
+00:02:40,120 --> 00:02:42,180
+including your own financial conditions
+
+87
+00:02:42,180 --> 00:02:44,480
+Opus is probably the most powerful model for writing code at the moment.
+
+88
+00:02:44,480 --> 00:02:46,120
+but its limitations are truly numerous
+
+89
+00:02:46,120 --> 00:02:47,520
+Since the launch of Claude Code,
+
+90
+00:02:47,520 --> 00:02:48,680
+
+
+91
+00:02:48,680 --> 00:02:50,340
+it's no longer unlimited like before
+
+92
+00:02:50,340 --> 00:02:51,780
+The current restrictions are very strict
+
+93
+00:02:51,780 --> 00:02:52,500
+network restrictions
+
+94
+00:02:52,500 --> 00:02:53,380
+and price restrictions
+
+95
+00:02:53,380 --> 00:02:55,460
+I might exhaust it within three to four hours, or even less
+
+96
+00:02:55,460 --> 00:02:58,580
+the weekly quota for Opus is simply too expensive
+
+97
+00:02:58,580 --> 00:02:59,860
+So there's also a second solution
+
+98
+00:02:59,860 --> 00:03:03,300
+The second option is to use Opus for project planning
+
+99
+00:03:03,300 --> 00:03:03,900
+to make plans
+
+100
+00:03:03,900 --> 00:03:06,180
+Then use Sonnet to handle the project execution work
+
+101
+00:03:06,180 --> 00:03:07,200
+which is writing the actual code
+
+102
+00:03:07,200 --> 00:03:10,680
+only use the Opus model to tackle the most difficult and complex problems
+
+103
+00:03:10,680 --> 00:03:13,480
+Of course, there's one more point: what if you don't even have internet access?
+
+104
+00:03:13,480 --> 00:03:14,360
+The third option is
+
+105
+00:03:14,360 --> 00:03:15,600
+within Claude Code
+
+106
+00:03:15,600 --> 00:03:17,520
+to access domestic Chinese models
+
+107
+00:03:17,520 --> 00:03:19,060
+such as Zhipu GLM
+
+108
+00:03:19,060 --> 00:03:19,920
+like Mini Max
+
+109
+00:03:19,920 --> 00:03:20,700
+such as Kimi
+
+110
+00:03:20,700 --> 00:03:22,780
+All of them can be integrated into Claude Code, these models
+
+111
+00:03:22,780 --> 00:03:24,500
+can almost achieve 90% of the performance
+
+112
+00:03:24,500 --> 00:03:27,820
+Because the solution we adopted is a hybrid form of these two tools.
+
+113
+00:03:27,820 --> 00:03:29,220
+So the third point I want to discuss with you is
+
+114
+00:03:29,220 --> 00:03:31,100
+in what specific scenarios
+
+115
+00:03:31,100 --> 00:03:32,780
+what different tools should be used
+
+116
+00:03:32,780 --> 00:03:34,540
+This involves a lot of, a great deal of
+
+117
+00:03:34,540 --> 00:03:36,580
+subjective feelings and personal experience
+
+118
+00:03:36,580 --> 00:03:39,340
+Everyone should still rely on their own specific experiences during the programming process.
+
+119
+00:03:39,340 --> 00:03:40,200
+specific feelings
+
+120
+00:03:40,200 --> 00:03:41,460
+Just take it as a simple reference.
+
+121
+00:03:41,460 --> 00:03:44,020
+The first point is, when dealing with extremely complex bugs
+
+122
+00:03:44,020 --> 00:03:44,940
+During debugging,
+
+123
+00:03:44,940 --> 00:03:46,740
+I think Cursor's plan mode is more user-friendly.
+
+124
+00:03:46,740 --> 00:03:48,380
+The second aspect is grand architectural design.
+
+125
+00:03:48,380 --> 00:03:50,020
+I think Claude Code is the most powerful for this.
+
+126
+00:03:50,020 --> 00:03:51,660
+If you only want to use three or four prompts
+
+127
+00:03:51,660 --> 00:03:54,720
+and then construct a complete APP, or a full webpage
+
+128
+00:03:54,720 --> 00:03:57,800
+Claude Code is actually very good at this kind of from-scratch development.
+
+129
+00:03:57,800 --> 00:03:59,700
+The third one is UI and interface design.
+
+130
+00:03:59,700 --> 00:04:02,380
+For some reason, I feel that Claude Code is particularly strong when it comes to handling UI aspects
+
+131
+00:04:02,380 --> 00:04:04,260
+is slightly better than other models in this regard
+
+132
+00:04:04,260 --> 00:04:07,140
+The fourth one is the trivial little issues you often encounter in daily work.
+
+133
+00:04:07,140 --> 00:04:08,660
+minor details and simple tasks
+
+134
+00:04:08,660 --> 00:04:09,620
+It's up to you
+
+135
+00:04:09,620 --> 00:04:10,460
+Whichever one is fine
+
+136
+00:04:10,460 --> 00:04:11,300
+Whatever works best for you
+
+137
+00:04:11,300 --> 00:04:11,660
+Finally,
+
+138
+00:04:11,660 --> 00:04:14,600
+I'd like to offer some suggestions for inexperienced beginners
+
+139
+00:04:14,600 --> 00:04:16,220
+Because I have basically tried almost all
+
+140
+00:04:16,220 --> 00:04:18,800
+almost all the vibe coding tools on the market
+
+141
+00:04:18,800 --> 00:04:19,420
+programming tools
+
+142
+00:04:19,420 --> 00:04:20,940
+Then people in the group often ask me
+
+143
+00:04:20,940 --> 00:04:24,340
+Should I choose Claude Code, or Codex, or Cursor
+
+144
+00:04:24,340 --> 00:04:25,620
+or Windsurf, etc.
+
+145
+00:04:25,620 --> 00:04:26,140
+To be honest
+
+146
+00:04:26,140 --> 00:04:27,120
+My suggestion is
+
+147
+00:04:27,120 --> 00:04:29,140
+If you have never been exposed to vibe coding
+
+148
+00:04:29,140 --> 00:04:31,300
+If you have absolutely no programming experience whatsoever
+
+149
+00:04:31,300 --> 00:04:32,960
+I suggest you hold off on using these for now
+
+150
+00:04:32,960 --> 00:04:35,660
+should start with those that have a more user-friendly interface
+
+151
+00:04:35,660 --> 00:04:36,840
+programming assistant
+
+152
+00:04:36,840 --> 00:04:39,000
+such as Gemini AI Studio
+
+153
+00:04:39,000 --> 00:04:40,060
+such as VO
+
+154
+00:04:40,060 --> 00:04:41,800
+For example, software like Bolt
+
+155
+00:04:41,800 --> 00:04:43,260
+because its user interface is relatively simple
+
+156
+00:04:43,260 --> 00:04:45,640
+The guidance and tutorials for beginners are also well-designed.
+
+157
+00:04:45,640 --> 00:04:47,700
+You should start by using these platforms.
+
+158
+00:04:47,700 --> 00:04:50,000
+Once you fully understand the vibe coding workflow
+
+159
+00:04:50,000 --> 00:04:52,160
+and when you reach the limits of these software
+
+160
+00:04:52,160 --> 00:04:55,280
+then advance to tools like Claude Code, or Cursor, and Windsurf
+
+161
+00:04:55,280 --> 00:04:55,720
+such software
+
+162
+00:04:55,720 --> 00:04:56,440
+by that time
+
+163
+00:04:56,440 --> 00:04:59,100
+I think you should have a better understanding of how to collaborate with AI
+
+164
+00:04:59,100 --> 00:05:00,600
+as well as how to write prompts
+
+165
+00:05:00,600 --> 00:05:02,540
+to harness these professional AI programming tools
+
+166
+00:05:02,540 --> 00:05:03,900
+This is the tool stack I recommend
+
+167
+00:05:03,900 --> 00:05:06,100
+and it's also the actual tool stack I'm using
+
+168
+00:05:06,100 --> 00:05:07,660
+Hope this helps everyone
+
+169
+00:05:07,660 --> 00:05:08,380
+Alright, that's all for today's video.
+
+170
+00:05:08,380 --> 00:05:08,740
+I am the fourth type
+
+171
+00:05:08,740 --> 00:05:09,280
+Black-hearted Rain Xiaoxiao
+
+172
+00:05:09,280 --> 00:05:10,080
+I'm the fourth type of chimpanzee Li Chao, see you next time.
+

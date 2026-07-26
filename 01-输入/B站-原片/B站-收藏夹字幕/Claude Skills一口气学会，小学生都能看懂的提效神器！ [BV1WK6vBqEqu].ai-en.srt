@@ -1,0 +1,3516 @@
+1
+00:00:00,120 --> 00:00:02,566
+Lately, the 'agent skills' concept has gone viral online;
+
+2
+00:00:02,566 --> 00:00:05,239
+many folks have seen it and are talking about this new idea.
+
+3
+00:00:05,400 --> 00:00:07,080
+it can swiftly design web pages, make PPTs,
+
+4
+00:00:07,080 --> 00:00:08,720
+sort spreadsheets, and create animations.
+
+5
+00:00:08,920 --> 00:00:09,561
+but honestly,
+
+6
+00:00:09,561 --> 00:00:12,183
+using these skills still feels quite challenging
+
+7
+00:00:12,183 --> 00:00:13,360
+for newcomers like me
+
+8
+00:00:13,360 --> 00:00:15,821
+I myself haven't studied programming in a formal way,
+
+9
+00:00:15,821 --> 00:00:17,620
+but I am quite fond of AI programming.
+
+10
+00:00:17,620 --> 00:00:20,550
+I've been using many AI programming tools extensively
+
+11
+00:00:20,710 --> 00:00:22,110
+after some recent trial and error,
+
+12
+00:00:22,110 --> 00:00:24,301
+I've gained a few insights into this agent's skills
+
+13
+00:00:24,301 --> 00:00:25,590
+that I can share with you all
+
+14
+00:00:25,830 --> 00:00:27,609
+but the angle from which I share this
+
+15
+00:00:27,609 --> 00:00:28,974
+is mainly from the viewpoint
+
+16
+00:00:28,974 --> 00:00:31,120
+of someone with no coding experience at all
+
+17
+00:00:31,120 --> 00:00:33,190
+I hope that if you, too, have no coding experience,
+
+18
+00:00:33,190 --> 00:00:35,520
+then after watching my video you'll have learned much.
+
+19
+00:00:36,020 --> 00:00:37,427
+you can use the skills as well,
+
+20
+00:00:37,427 --> 00:00:39,820
+and even create your own custom skills if you wish
+
+21
+00:00:39,900 --> 00:00:40,939
+So first, let me mention that
+
+22
+00:00:40,939 --> 00:00:42,165
+when I was learning these skills,
+
+23
+00:00:42,165 --> 00:00:43,540
+I also took some notes along the way.
+
+24
+00:00:43,540 --> 00:00:45,644
+I've posted this note in my usual spot as before —
+
+25
+00:00:45,644 --> 00:00:48,100
+the AT+GC knowledge base under leader.ai that I've used
+
+26
+00:00:48,240 --> 00:00:49,688
+and I've placed it in Chapter Two
+
+27
+00:00:49,688 --> 00:00:51,532
+under AI local tools and study materials —
+
+28
+00:00:51,532 --> 00:00:53,199
+there's a Claude Code study note there
+
+29
+00:00:53,320 --> 00:00:56,635
+When using skills, we recommend you use Claude Code.
+
+30
+00:00:56,635 --> 00:01:00,340
+It was the first to introduce the concept of agent skills.
+
+31
+00:01:00,460 --> 00:01:03,317
+his approach to agent skills is the most cutting-edge,
+
+32
+00:01:03,317 --> 00:01:05,960
+and also the most supported and well-rounded one.
+
+33
+00:01:06,280 --> 00:01:07,744
+and if you use other AI programming tools,
+
+34
+00:01:07,744 --> 00:01:08,960
+they're quite similar in function
+
+35
+00:01:08,960 --> 00:01:10,225
+once you've mastered Claude Code,
+
+36
+00:01:10,225 --> 00:01:12,400
+the rest will come to you quite naturally and smoothly
+
+37
+00:01:12,540 --> 00:01:14,538
+So first, to use the editing scale in Claude Code,
+
+38
+00:01:14,538 --> 00:01:16,620
+you must first install Claude Code on your system.
+
+39
+00:01:16,760 --> 00:01:17,960
+How to install Claude Code then?
+
+40
+00:01:18,120 --> 00:01:19,003
+it has a GitHub link;
+
+41
+00:01:19,003 --> 00:01:21,399
+once you click it, you'll be taken to its website directly
+
+42
+00:01:21,400 --> 00:01:25,658
+In fact, there's a very straightforward way to install it.
+
+43
+00:01:25,658 --> 00:01:29,319
+He mentions here that it can be installed via NPM.
+
+44
+00:01:29,320 --> 00:01:30,737
+the most recommended approach below
+
+45
+00:01:30,737 --> 00:01:32,600
+is simply to copy and paste this code snippet.
+
+46
+00:01:32,640 --> 00:01:32,640
+Good.
+
+47
+00:01:33,040 --> 00:01:33,898
+Okay, so in the past,
+
+48
+00:01:33,898 --> 00:01:36,565
+many of these tutorials had rather complicated setup steps,
+
+49
+00:01:36,565 --> 00:01:37,740
+but now it's quite simple.
+
+50
+00:01:37,740 --> 00:01:39,696
+if you're on macOS, just copy this code snippet;
+
+51
+00:01:39,696 --> 00:01:41,820
+if you're on Windows, copy this code snippet as well
+
+52
+00:01:41,820 --> 00:01:42,594
+and then, this way,
+
+53
+00:01:42,594 --> 00:01:44,600
+your computer will automatically install it.
+
+54
+00:01:44,600 --> 00:01:46,226
+for instance, using my Windows setup,
+
+55
+00:01:46,226 --> 00:01:48,503
+I'll show you how it works—on my Windows machine,
+
+56
+00:01:48,503 --> 00:01:50,920
+I'll search for 'Powershellll' in the search bar here.
+
+57
+00:01:51,620 --> 00:01:51,620
+Okay.
+
+58
+00:01:51,820 --> 00:01:53,316
+the letters for 'Powershellll'
+
+59
+00:01:53,316 --> 00:01:54,967
+are spelled like this—right here
+
+60
+00:01:54,967 --> 00:01:56,258
+it's 'Windows Powershell';
+
+61
+00:01:56,258 --> 00:01:58,219
+then just copy this entire string over
+
+62
+00:02:00,350 --> 00:02:00,350
+Good
+
+63
+00:02:00,590 --> 00:02:02,430
+then paste it and hit Enter to proceed
+
+64
+00:02:02,510 --> 00:02:03,834
+Now, just be careful here—first,
+
+65
+00:02:03,834 --> 00:02:04,864
+make sure your computer
+
+66
+00:02:04,864 --> 00:02:06,880
+has a stable and working internet connection.
+
+67
+00:02:06,880 --> 00:02:08,929
+make sure your network can connect to websites
+
+68
+00:02:08,929 --> 00:02:09,643
+hosted overseas
+
+69
+00:02:09,643 --> 00:02:10,000
+as well
+
+70
+00:02:10,000 --> 00:02:10,400
+And then...
+
+71
+00:02:10,600 --> 00:02:12,314
+Another thing: before you install this,
+
+72
+00:02:12,314 --> 00:02:14,400
+make sure you've got these prerequisite apps.
+
+73
+00:02:14,400 --> 00:02:16,245
+usually, when we dabble in AT programming,
+
+74
+00:02:16,245 --> 00:02:17,367
+or if you've used Comify
+
+75
+00:02:17,367 --> 00:02:19,660
+before, we've often installed those tools already
+
+76
+00:02:19,660 --> 00:02:21,416
+for instance, install Node.js and Git first;
+
+77
+00:02:21,416 --> 00:02:22,731
+just click through the defaults
+
+78
+00:02:22,731 --> 00:02:24,260
+during their installation processes.
+
+79
+00:02:24,260 --> 00:02:24,260
+Okay.
+
+80
+00:02:24,740 --> 00:02:26,246
+Once you've installed cross code,
+
+81
+00:02:26,246 --> 00:02:27,329
+just press Enter here.
+
+82
+00:02:27,329 --> 00:02:29,353
+Now that it's installed, how do you open it?
+
+83
+00:02:29,353 --> 00:02:31,659
+There are several ways—let me explain them to you.
+
+84
+00:02:31,700 --> 00:02:35,715
+One option is to, say, open a new PowerShell window here
+
+85
+00:02:35,715 --> 00:02:39,730
+and then just type the command 'cloud' directly into it.
+
+86
+00:02:39,970 --> 00:02:39,970
+Good.
+
+87
+00:02:40,290 --> 00:02:41,970
+it will pop up a screen like this
+
+88
+00:02:41,970 --> 00:02:44,770
+and ask you whether you want to trust this file or not.
+
+89
+00:02:44,770 --> 00:02:46,073
+then we press '1' to confirm,
+
+90
+00:02:46,073 --> 00:02:48,300
+and it will bring us into this interface.
+
+91
+00:02:48,340 --> 00:02:50,012
+And you see this spot here—this icon, right?
+
+92
+00:02:50,012 --> 00:02:52,034
+That means you've successfully installed Color Code.
+
+93
+00:02:52,034 --> 00:02:53,822
+But this is just the first step of a long trip;
+
+94
+00:02:53,822 --> 00:02:55,028
+there's still a long way to go.
+
+95
+00:02:55,390 --> 00:02:57,792
+Then, another way to launch it is to search for 'CMD'
+
+96
+00:02:57,792 --> 00:03:00,241
+directly in the search box of this Windows interface
+
+97
+00:03:00,241 --> 00:03:00,760
+right here.
+
+98
+00:03:00,760 --> 00:03:02,874
+since this search box is on another screen,
+
+99
+00:03:02,874 --> 00:03:03,982
+it won't be captured;
+
+100
+00:03:03,982 --> 00:03:05,089
+type CMD and hit Enter
+
+101
+00:03:05,290 --> 00:03:08,530
+CMD — what pops up when you hit Enter is the Command Prompt;
+
+102
+00:03:08,530 --> 00:03:09,610
+that is indeed CMD.
+
+103
+00:03:09,610 --> 00:03:11,102
+then we type 'claude' here,
+
+104
+00:03:11,102 --> 00:03:12,714
+okay—it works the same way.
+
+105
+00:03:12,714 --> 00:03:14,624
+Press one, and it opens right up.
+
+106
+00:03:14,624 --> 00:03:15,937
+This is another method.
+
+107
+00:03:15,940 --> 00:03:17,121
+There's another simpler way
+
+108
+00:03:17,121 --> 00:03:19,529
+as well—if you're not used to typing in our search box,
+
+109
+00:03:19,529 --> 00:03:21,499
+just right-click on any folder you've opened
+
+110
+00:03:21,540 --> 00:03:23,880
+then it opens in the terminal
+
+111
+00:03:23,960 --> 00:03:26,600
+then, same thing—just type 'Claude' directly right there
+
+112
+00:03:29,240 --> 00:03:31,280
+it will start up, and then it does start up too
+
+113
+00:03:31,440 --> 00:03:33,640
+This launch is a bit different from the one we had before.
+
+114
+00:03:33,640 --> 00:03:35,882
+the previous launch started from your user folder,
+
+115
+00:03:35,882 --> 00:03:38,629
+while this one starts from a specific folder of your choice
+
+116
+00:03:38,790 --> 00:03:40,374
+if you only want to edit this folder,
+
+117
+00:03:40,374 --> 00:03:40,999
+just launch it
+
+118
+00:03:40,999 --> 00:03:43,190
+from within that folder—it'll be more convenient.
+
+119
+00:03:43,430 --> 00:03:43,430
+Okay
+
+120
+00:03:43,750 --> 00:03:46,438
+so I say this is just the first step of a long trip —
+
+121
+00:03:46,438 --> 00:03:47,885
+you've installed Claude code,
+
+122
+00:03:47,885 --> 00:03:49,747
+but you don't have the Claude model,
+
+123
+00:03:49,747 --> 00:03:51,919
+right? Then you can't use this tool at all.
+
+124
+00:03:51,920 --> 00:03:52,662
+So now I'll explain
+
+125
+00:03:52,662 --> 00:03:53,614
+how to set up our models
+
+126
+00:03:53,614 --> 00:03:55,360
+within our Claude code environment properly.
+
+127
+00:03:55,530 --> 00:03:57,770
+The first approach is to simply look for a Claude code
+
+128
+00:03:57,770 --> 00:03:58,890
+relay or intermediary site.
+
+129
+00:03:58,890 --> 00:04:00,972
+then these relay hubs are typically found in China,
+
+130
+00:04:00,972 --> 00:04:03,180
+where they perform some technical processing for you
+
+131
+00:04:03,180 --> 00:04:05,242
+I looked around, and I found a very cheap channel —
+
+132
+00:04:05,242 --> 00:04:07,219
+the converted amount in RMB works out quite low.
+
+133
+00:04:07,220 --> 00:04:08,587
+three to eight cents
+
+134
+00:04:08,587 --> 00:04:11,460
+could cover roughly a dollar's worth here
+
+135
+00:04:11,460 --> 00:04:12,519
+so it is indeed quite cheap;
+
+136
+00:04:12,519 --> 00:04:13,995
+if anyone knows of even cheaper options,
+
+137
+00:04:13,995 --> 00:04:14,979
+please share them with me
+
+138
+00:04:15,080 --> 00:04:15,080
+Okay.
+
+139
+00:04:15,320 --> 00:04:15,857
+So if you need it,
+
+140
+00:04:15,857 --> 00:04:17,279
+just click on this link to sign up right now.
+
+141
+00:04:17,279 --> 00:04:17,279
+Okay.
+
+142
+00:04:17,480 --> 00:04:18,483
+Once you're registered,
+
+143
+00:04:18,483 --> 00:04:20,535
+head over here and click this purchase link —
+
+144
+00:04:20,535 --> 00:04:22,359
+then you can buy according to your needs.
+
+145
+00:04:22,360 --> 00:04:23,337
+This one—once I bought it,
+
+146
+00:04:23,337 --> 00:04:24,471
+it worked quite well indeed;
+
+147
+00:04:24,471 --> 00:04:25,839
+I'll show you how to set it up soon.
+
+148
+00:04:25,840 --> 00:04:25,840
+Okay.
+
+149
+00:04:26,360 --> 00:04:27,504
+Then, there's another option:
+
+150
+00:04:27,504 --> 00:04:29,138
+you could buy some domestic alternatives
+
+151
+00:04:29,138 --> 00:04:30,119
+available on the market.
+
+152
+00:04:30,120 --> 00:04:32,882
+One is, for instance, the GLM model from Zhipu —
+
+153
+00:04:32,882 --> 00:04:35,889
+it has a great reputation and is quite affordable.
+
+154
+00:04:35,890 --> 00:04:37,493
+you can also buy it via this link —
+
+155
+00:04:37,493 --> 00:04:39,096
+I myself bought Zhipu AI's version
+
+156
+00:04:39,096 --> 00:04:40,369
+back when it was available.
+
+157
+00:04:41,090 --> 00:04:42,101
+on Zhipu AI's platform,
+
+158
+00:04:42,101 --> 00:04:44,170
+I recommend you purchase their token credits
+
+159
+00:04:44,170 --> 00:04:45,434
+I'm using the lightest-tier package
+
+160
+00:04:45,434 --> 00:04:46,410
+available on this platform
+
+161
+00:04:46,410 --> 00:04:48,159
+I'm not a heavy-duty coder myself;
+
+162
+00:04:48,159 --> 00:04:50,886
+I just use AI occasionally to help me with some tasks —
+
+163
+00:04:50,886 --> 00:04:52,739
+and this one works perfectly for me.
+
+164
+00:04:52,780 --> 00:04:53,895
+So this 'er' is one option.
+
+165
+00:04:53,895 --> 00:04:54,564
+Another is that
+
+166
+00:04:54,564 --> 00:04:56,930
+I recently found Volcano Engine is quite affordable.
+
+167
+00:04:56,930 --> 00:04:58,938
+They claim to support multiple models at once.
+
+168
+00:04:58,940 --> 00:04:59,420
+Indeed, yes
+
+169
+00:04:59,600 --> 00:05:00,120
+Back then,
+
+170
+00:05:00,120 --> 00:05:01,863
+we did run into that issue when Kimi first came out —
+
+171
+00:05:01,863 --> 00:05:02,868
+we noticed that for each model,
+
+172
+00:05:02,868 --> 00:05:04,879
+the one made by its own team tended to be of better quality.
+
+173
+00:05:04,880 --> 00:05:06,477
+would be better than those third-party ones
+
+174
+00:05:06,477 --> 00:05:07,220
+in terms of quality.
+
+175
+00:05:07,380 --> 00:05:08,576
+I haven't bought this one;
+
+176
+00:05:08,576 --> 00:05:10,324
+I'm not sure yet. But it's quite cheap,
+
+177
+00:05:10,324 --> 00:05:12,348
+so if folks want to get it, they can go ahead.
+
+178
+00:05:12,470 --> 00:05:13,901
+Indeed, I still recommend folks:
+
+179
+00:05:13,901 --> 00:05:16,670
+if you truly wish to experience this AI programming power,
+
+180
+00:05:16,750 --> 00:05:18,328
+if this model is quite smart,
+
+181
+00:05:18,328 --> 00:05:20,640
+you might want to try it out, just to see
+
+182
+00:05:20,640 --> 00:05:23,460
+go ahead and buy the authentic version of Claude.
+
+183
+00:05:23,460 --> 00:05:26,586
+right now, Claude still stands as the undisputed top choice
+
+184
+00:05:26,586 --> 00:05:28,420
+in the realm of programming tools.
+
+185
+00:05:28,570 --> 00:05:29,987
+and if you'd like to use
+
+186
+00:05:29,987 --> 00:05:32,290
+a more convenient domestic alternative
+
+187
+00:05:32,290 --> 00:05:32,290
+Okay.
+
+188
+00:05:32,680 --> 00:05:34,818
+once you've bought this, it doesn't mean
+
+189
+00:05:34,818 --> 00:05:38,000
+you can use it right away—you still need to do some setup
+
+190
+00:05:38,200 --> 00:05:40,519
+If you just want to use a fixed one here,
+
+191
+00:05:40,519 --> 00:05:42,580
+then you can follow the steps below
+
+192
+00:05:42,580 --> 00:05:44,230
+to pick a third-party model.
+
+193
+00:05:44,510 --> 00:05:45,961
+and if you have several, like me
+
+194
+00:05:45,961 --> 00:05:47,835
+who also have the Claude discount relay,
+
+195
+00:05:47,835 --> 00:05:48,726
+and Zhipu AI's GLM,
+
+196
+00:05:48,726 --> 00:05:50,460
+plus some other third-party channels
+
+197
+00:05:50,740 --> 00:05:53,340
+then I suggest you install a plugin called CC Switch
+
+198
+00:05:53,340 --> 00:05:54,340
+to make things work.
+
+199
+00:05:54,460 --> 00:05:55,700
+So how do you install this plugin?
+
+200
+00:05:55,860 --> 00:05:58,140
+just click on this link to the GitHub repository
+
+201
+00:05:59,670 --> 00:06:02,348
+look for it under the 'release' section here,
+
+202
+00:06:02,348 --> 00:06:04,029
+yes right here in this area
+
+203
+00:06:04,030 --> 00:06:04,955
+then scroll down a bit —
+
+204
+00:06:04,955 --> 00:06:05,960
+there are installers too.
+
+205
+00:06:05,960 --> 00:06:07,287
+For instance, if you're on Windows,
+
+206
+00:06:07,287 --> 00:06:09,098
+just look for the Windows installer directly.
+
+207
+00:06:09,300 --> 00:06:11,065
+if you're using a different OS,
+
+208
+00:06:11,065 --> 00:06:14,393
+there should be a matching installer as well—scroll down,
+
+209
+00:06:14,393 --> 00:06:15,226
+like this one
+
+210
+00:06:15,226 --> 00:06:17,010
+for Windows with the MSI file
+
+211
+00:06:17,170 --> 00:06:17,839
+Once it's installed,
+
+212
+00:06:17,839 --> 00:06:19,530
+you'll see an interface just like this one here.
+
+213
+00:06:19,530 --> 00:06:20,410
+Let me show you now.
+
+214
+00:06:20,730 --> 00:06:23,182
+within this tool you can easily manage all your APIs —
+
+215
+00:06:23,182 --> 00:06:25,449
+just click 'Start' on whichever one you wish to use
+
+216
+00:06:25,450 --> 00:06:27,554
+for instance, if I want to switch to Claud —
+
+217
+00:06:27,554 --> 00:06:28,684
+the one I just bought —
+
+218
+00:06:28,684 --> 00:06:31,440
+just click it to launch, and it'll switch over for you,
+
+219
+00:06:31,440 --> 00:06:32,740
+which is very convenient
+
+220
+00:06:33,140 --> 00:06:35,590
+and if you stick to just one model always
+
+221
+00:06:35,590 --> 00:06:35,590
+Okay
+
+222
+00:06:35,710 --> 00:06:37,319
+I'll show you later—there are more ways
+
+223
+00:06:37,319 --> 00:06:38,764
+where you can set your system-wide
+
+224
+00:06:38,764 --> 00:06:39,920
+defaults to a fixed option;
+
+225
+00:06:39,920 --> 00:06:40,869
+just set it to this one.
+
+226
+00:06:41,750 --> 00:06:43,277
+a specific model of this type.
+
+227
+00:06:43,277 --> 00:06:46,229
+If you want to add one, just click the plus sign right here.
+
+228
+00:06:46,450 --> 00:06:47,840
+then, for instance, the custom setup
+
+229
+00:06:47,840 --> 00:06:50,090
+we just mentioned—let me show you with a quick example.
+
+230
+00:06:50,250 --> 00:06:52,684
+since this third-party model is a bit more complex,
+
+231
+00:06:52,684 --> 00:06:55,070
+I'll elaborate a bit more on this one right here.
+
+232
+00:06:55,750 --> 00:06:57,854
+because this plugin already includes many model platforms
+
+233
+00:06:57,854 --> 00:06:58,630
+within its framework.
+
+234
+00:06:58,630 --> 00:07:01,390
+for instance, if you use Zhipu AI, or the GOM model here
+
+235
+00:07:01,540 --> 00:07:02,282
+then in this case,
+
+236
+00:07:02,282 --> 00:07:04,249
+you just need to enter your official API key,
+
+237
+00:07:04,249 --> 00:07:06,740
+since the request URL has already been filled in for you
+
+238
+00:07:06,860 --> 00:07:08,747
+like if you're using Kimi Care or similar ones—yes,
+
+239
+00:07:08,747 --> 00:07:10,900
+these are some of the top-tier domestic models out there
+
+240
+00:07:11,180 --> 00:07:12,726
+then just enter your API key in this field
+
+241
+00:07:12,726 --> 00:07:13,500
+right here as needed
+
+242
+00:07:13,700 --> 00:07:15,433
+but if you're using a custom setup,
+
+243
+00:07:15,433 --> 00:07:16,504
+you'll need to check,
+
+244
+00:07:16,504 --> 00:07:19,360
+and you have to manually enter the request URL yourself
+
+245
+00:07:19,400 --> 00:07:21,115
+For instance, if you're using this website,
+
+246
+00:07:21,115 --> 00:07:23,040
+this part here is actually just a prompt hint
+
+247
+00:07:23,560 --> 00:07:24,080
+a prompt.
+
+248
+00:07:24,360 --> 00:07:26,580
+so what does this website mean, exactly?
+
+249
+00:07:26,580 --> 00:07:29,027
+Well, these different channels you have here
+
+250
+00:07:29,027 --> 00:07:30,849
+each have varying credit limits.
+
+251
+00:07:30,850 --> 00:07:33,945
+For instance, here, my base balance is 19 dollars,
+
+252
+00:07:33,945 --> 00:07:35,940
+though I only topped up 15 RMB.
+
+253
+00:07:35,940 --> 00:07:36,670
+but in reality,
+
+254
+00:07:36,670 --> 00:07:39,225
+if I switch to this discounted channel down here,
+
+255
+00:07:39,225 --> 00:07:42,250
+it can be worth over 70 US dollars — that's quite a good deal
+
+256
+00:07:42,250 --> 00:07:42,250
+Good
+
+257
+00:07:42,450 --> 00:07:44,570
+and right next to it, there's this Service Status field here
+
+258
+00:07:44,570 --> 00:07:46,759
+and here you can see its success rate —
+
+259
+00:07:46,759 --> 00:07:49,660
+for instance, with our AWS discounted CC offering
+
+260
+00:07:49,740 --> 00:07:50,738
+like this one,
+
+261
+00:07:50,738 --> 00:07:54,580
+its success rate is roughly around 80 percent or so?
+
+262
+00:07:54,580 --> 00:07:55,751
+the official one does experience
+
+263
+00:07:55,751 --> 00:07:57,180
+some of these occasional instabilities
+
+264
+00:07:57,180 --> 00:07:58,871
+sometimes in the past it hit 100% as well,
+
+265
+00:07:58,871 --> 00:08:00,740
+so there could be slight fluctuations too
+
+266
+00:08:00,780 --> 00:08:02,740
+this one depends on what level of risk you are fine with
+
+267
+00:08:02,880 --> 00:08:04,685
+If you want absolutely no fluctuations,
+
+268
+00:08:04,685 --> 00:08:06,085
+use this most stable line—yes,
+
+269
+00:08:06,085 --> 00:08:07,680
+this one here is entirely stable.
+
+270
+00:08:07,680 --> 00:08:07,680
+Okay.
+
+271
+00:08:07,800 --> 00:08:08,537
+for different routes,
+
+272
+00:08:08,537 --> 00:08:10,160
+the addresses we need to fill vary somewhat
+
+273
+00:08:10,160 --> 00:08:12,190
+there is a usage guide right beneath this here.
+
+274
+00:08:12,190 --> 00:08:14,076
+Then, you'll need to create a new API key
+
+275
+00:08:14,076 --> 00:08:15,350
+right in this section here
+
+276
+00:08:15,350 --> 00:08:16,413
+if this is your first time,
+
+277
+00:08:16,413 --> 00:08:18,910
+there should be an option at the top to create a new API key
+
+278
+00:08:18,910 --> 00:08:19,310
+And then?
+
+279
+00:08:19,400 --> 00:08:21,560
+once created, be sure to copy your API key first
+
+280
+00:08:21,800 --> 00:08:23,529
+once copied, paste your API key
+
+281
+00:08:23,529 --> 00:08:25,720
+into our CC switch section right here.
+
+282
+00:08:25,720 --> 00:08:27,728
+then find this spot where there's an API key —
+
+283
+00:08:27,728 --> 00:08:29,280
+right-click and paste it in there.
+
+284
+00:08:29,280 --> 00:08:31,264
+Then, the other is your desired endpoint —
+
+285
+00:08:31,264 --> 00:08:33,943
+this request URL depends on which channel you're using.
+
+286
+00:08:33,943 --> 00:08:35,779
+Like, are you using Super Discount CC?
+
+287
+00:08:35,780 --> 00:08:38,549
+then this one is a bit more costly, as you can see here
+
+288
+00:08:38,909 --> 00:08:41,635
+but this higher cost is just compared to the site itself —
+
+289
+00:08:41,635 --> 00:08:43,788
+it's still way cheaper than the official site.
+
+290
+00:08:43,789 --> 00:08:45,819
+then there will be a base URL here,
+
+291
+00:08:45,819 --> 00:08:48,149
+and you just copy this string into it —
+
+292
+00:08:48,149 --> 00:08:50,359
+but where exactly should you paste it?
+
+293
+00:08:50,360 --> 00:08:53,640
+copy it into our CC switch, right into this request URL here
+
+294
+00:08:53,800 --> 00:08:55,733
+I'd suggest just using this one
+
+295
+00:08:55,733 --> 00:08:59,290
+right here—AWS Special CC is extremely affordable indeed.
+
+296
+00:08:59,290 --> 00:09:03,442
+and its base URL is this string here — the suffix is AWS.
+
+297
+00:09:03,442 --> 00:09:06,160
+Just cash in on the deal — 15 RMB, right?
+
+298
+00:09:06,160 --> 00:09:07,519
+That's about 15 yuan.
+
+299
+00:09:07,520 --> 00:09:08,591
+you can convert it to USD,
+
+300
+00:09:08,591 --> 00:09:10,650
+which would be around seventy to eighty dollars.
+
+301
+00:09:10,850 --> 00:09:12,395
+then, you should enter it right here
+
+302
+00:09:12,395 --> 00:09:14,648
+in this field—fill this spot with your request URL,
+
+303
+00:09:14,648 --> 00:09:16,769
+and input your API key in this other field here.
+
+304
+00:09:17,040 --> 00:09:18,481
+you can copy this part, once copied,
+
+305
+00:09:18,481 --> 00:09:19,880
+just paste it in this field here
+
+306
+00:09:19,880 --> 00:09:21,133
+I've already set this up,
+
+307
+00:09:21,133 --> 00:09:22,349
+so I won't configure it.
+
+308
+00:09:22,349 --> 00:09:25,260
+Click 'Add,' and there will be one—there will be this one.
+
+309
+00:09:25,420 --> 00:09:27,740
+In this spot here, you can also set a custom name for it.
+
+310
+00:09:27,740 --> 00:09:29,645
+right here you can type in the custom name
+
+311
+00:09:29,645 --> 00:09:30,780
+you'd like to use for it
+
+312
+00:09:31,020 --> 00:09:32,523
+Then, if you want to set up GLM,
+
+313
+00:09:32,523 --> 00:09:35,580
+just pick 'GLM' from the 'Zhipu GLM' option in the dropdown menu.
+
+314
+00:09:35,580 --> 00:09:37,779
+Then, for instance, we find the ZHIPU AI platform,
+
+315
+00:09:37,779 --> 00:09:40,120
+and then you can just copy your API key over here.
+
+316
+00:09:40,120 --> 00:09:41,878
+Copy it here, and once you've copied,
+
+317
+00:09:41,878 --> 00:09:43,787
+paste it into this CC Switch section.
+
+318
+00:09:43,787 --> 00:09:46,449
+Just enter your API key there, and that's all you need.
+
+319
+00:09:46,450 --> 00:09:46,770
+And then?
+
+320
+00:09:47,050 --> 00:09:47,970
+once back, it will work.
+
+321
+00:09:47,970 --> 00:09:50,661
+I also have a few more of these configured models here,
+
+322
+00:09:50,661 --> 00:09:51,166
+so you can
+
+323
+00:09:51,166 --> 00:09:53,792
+switch between them quickly—just pick whichever one
+
+324
+00:09:53,792 --> 00:09:54,600
+you want to use.
+
+325
+00:09:54,600 --> 00:09:56,642
+and it also has a nice feature here —
+
+326
+00:09:56,642 --> 00:09:59,989
+this plugin has something called 'enable failover' or similar.
+
+327
+00:09:59,990 --> 00:10:01,157
+Once you've enabled it, say,
+
+328
+00:10:01,157 --> 00:10:03,044
+for instance, if we take this one—like, say,
+
+329
+00:10:03,044 --> 00:10:05,380
+this Claude code model—it has just an 80% success rate.
+
+330
+00:10:05,380 --> 00:10:06,261
+though we got the perks,
+
+331
+00:10:06,261 --> 00:10:07,910
+its success rate is still quite low indeed
+
+332
+00:10:08,110 --> 00:10:09,061
+and if it doesn't work,
+
+333
+00:10:09,061 --> 00:10:10,731
+I'll fall back to this character model
+
+334
+00:10:10,731 --> 00:10:11,830
+called GLM automatically.
+
+335
+00:10:11,830 --> 00:10:14,190
+this plugin here, I think, is quite convenient to use
+
+336
+00:10:14,380 --> 00:10:17,341
+and it supports not just this Claude code, but also Open code,
+
+337
+00:10:17,341 --> 00:10:19,848
+and a few others that I've hidden here — like Code X,
+
+338
+00:10:19,848 --> 00:10:20,500
+for instance.
+
+339
+00:10:20,540 --> 00:10:21,520
+And then there's Gemini —
+
+340
+00:10:21,520 --> 00:10:22,459
+it is supported as well.
+
+341
+00:10:22,960 --> 00:10:23,120
+Good good
+
+342
+00:10:23,120 --> 00:10:25,595
+This is about our CC switch configuration method,
+
+343
+00:10:25,595 --> 00:10:27,864
+and there's another setup approach as well —
+
+344
+00:10:27,864 --> 00:10:29,050
+it comes in plugin form.
+
+345
+00:10:29,090 --> 00:10:31,654
+I used it quite a while back, this cod code router thing,
+
+346
+00:10:31,654 --> 00:10:32,249
+yeah, that one.
+
+347
+00:10:32,460 --> 00:10:33,234
+this one, in comparison,
+
+348
+00:10:33,234 --> 00:10:34,159
+feels less convenient than
+
+349
+00:10:34,159 --> 00:10:36,260
+the cc switch—those interested can explore it on their own.
+
+350
+00:10:36,260 --> 00:10:37,972
+I won't go into much detail here.
+
+351
+00:10:37,972 --> 00:10:39,217
+There's another approach:
+
+352
+00:10:39,217 --> 00:10:41,138
+if you're using just one fixed model
+
+353
+00:10:41,138 --> 00:10:42,799
+and never switch between models?
+
+354
+00:10:42,920 --> 00:10:44,040
+you wouldn't be like me,
+
+355
+00:10:44,040 --> 00:10:46,037
+hopping between this relayed Claude code,
+
+356
+00:10:46,037 --> 00:10:47,840
+then Zhipu AI, and then Kimii as well
+
+357
+00:10:47,840 --> 00:10:47,840
+Right?
+
+358
+00:10:48,280 --> 00:10:49,515
+then you can just go ahead
+
+359
+00:10:49,515 --> 00:10:51,179
+and tweak your system settings now
+
+360
+00:10:51,180 --> 00:10:52,692
+so how do you change this?
+
+361
+00:10:52,692 --> 00:10:54,204
+Well, you need to find your '
+
+362
+00:10:54,204 --> 00:10:56,996
+'user'—that is, your account—then locate this user
+
+363
+00:10:56,996 --> 00:10:59,150
+and find your username in the system
+
+364
+00:10:59,150 --> 00:11:02,049
+then there is a dot-cloud file, this folder,
+
+365
+00:11:02,049 --> 00:11:06,260
+and inside it there should be a file named settings-dot-json
+
+366
+00:11:06,460 --> 00:11:07,041
+If you don't have one,
+
+367
+00:11:07,041 --> 00:11:08,259
+just create a file like this one right here.
+
+368
+00:11:08,500 --> 00:11:11,420
+then copy this entire block of code in there
+
+369
+00:11:11,420 --> 00:11:13,206
+the whole block here, from line six
+
+370
+00:11:13,206 --> 00:11:15,540
+to line fifteen—yes, the ones with ampersands
+
+371
+00:11:15,540 --> 00:11:18,460
+at both ends—just copy this entire block into the file
+
+372
+00:11:18,600 --> 00:11:20,004
+once you've copied it in,
+
+373
+00:11:20,004 --> 00:11:21,846
+change your base URL to the one
+
+374
+00:11:21,846 --> 00:11:23,750
+for the model you intend to use
+
+375
+00:11:23,750 --> 00:11:26,383
+then, change your model field to the specific model
+
+376
+00:11:26,383 --> 00:11:27,331
+you intend to use —
+
+377
+00:11:27,331 --> 00:11:28,280
+that should do it
+
+378
+00:11:28,280 --> 00:11:30,324
+I wrote one before, but this setting now uses a plugin,
+
+379
+00:11:30,324 --> 00:11:31,560
+which is why it looks different
+
+380
+00:11:31,700 --> 00:11:33,637
+this setting isn't in that format
+
+381
+00:11:33,637 --> 00:11:35,859
+now—it's managed by that plugin instead.
+
+382
+00:11:35,920 --> 00:11:37,258
+Once you set it up like this,
+
+383
+00:11:37,258 --> 00:11:39,533
+there's another one here in the global Settings —
+
+384
+00:11:39,533 --> 00:11:41,131
+and there's one outside as well,
+
+385
+00:11:41,131 --> 00:11:42,039
+the 'user name' field.
+
+386
+00:11:42,040 --> 00:11:43,756
+and then there's this other spot
+
+387
+00:11:43,756 --> 00:11:46,760
+here — there's a file called 'pointcloud.json' in this case
+
+388
+00:11:47,000 --> 00:11:48,520
+find pointcloud json
+
+389
+00:11:48,520 --> 00:11:49,940
+and then there's one here
+
+390
+00:11:49,940 --> 00:11:52,100
+that starts with 'has'—once you open it,
+
+391
+00:11:52,100 --> 00:11:53,407
+you can search for it,
+
+392
+00:11:53,407 --> 00:11:54,089
+just find it.
+
+393
+00:11:54,090 --> 00:11:55,711
+just press Ctrl plus F,
+
+394
+00:11:55,711 --> 00:11:58,880
+then look for 'h a s' or something like that.
+
+395
+00:11:59,240 --> 00:12:00,440
+there's this one; set this parameter to true here
+
+396
+00:12:02,220 --> 00:12:03,617
+setting this parameter to true
+
+397
+00:12:03,617 --> 00:12:04,279
+means it skips—
+
+398
+00:12:04,279 --> 00:12:06,740
+—did you log in to the official cloud model provided?
+
+399
+00:12:06,740 --> 00:12:08,500
+this way, you pretend it's logged in already,
+
+400
+00:12:08,500 --> 00:12:10,180
+and then you can log in using other models
+
+401
+00:12:10,410 --> 00:12:13,650
+the example here uses the GLM-4.7 model from Zhipu AI.
+
+402
+00:12:13,810 --> 00:12:15,695
+And if you want to use a different model,
+
+403
+00:12:15,695 --> 00:12:18,430
+just swap out the base URL and the model name accordingly.
+
+404
+00:12:18,470 --> 00:12:19,693
+Once you've swapped it,
+
+405
+00:12:19,693 --> 00:12:23,030
+remember: one is inside the dot-Claude folder on your system.
+
+406
+00:12:23,350 --> 00:12:25,574
+there are quite detailed instructions here as well—like,
+
+407
+00:12:25,574 --> 00:12:26,990
+where exactly is this 'setting' file?
+
+408
+00:12:27,280 --> 00:12:29,324
+in your username dot Claude folder,
+
+409
+00:12:29,324 --> 00:12:31,188
+there is a file named 'setting',
+
+410
+00:12:31,188 --> 00:12:32,211
+followed by '.json';
+
+411
+00:12:32,211 --> 00:12:35,640
+you should modify this file according to the given format
+
+412
+00:12:35,950 --> 00:12:38,137
+and then there's another one outside this folder —
+
+413
+00:12:38,137 --> 00:12:39,824
+there's a file called dot-cloud.json,
+
+414
+00:12:39,824 --> 00:12:42,150
+and you should set the parameter inside it to true
+
+415
+00:12:42,260 --> 00:12:43,742
+if it's false, change it to true;
+
+416
+00:12:43,742 --> 00:12:45,038
+if the parameter isn't there,
+
+417
+00:12:45,038 --> 00:12:46,659
+just add a line with it — that's all
+
+418
+00:12:46,660 --> 00:12:46,660
+Okay
+
+419
+00:12:46,820 --> 00:12:48,660
+This is the way to edit config files.
+
+420
+00:12:48,900 --> 00:12:48,900
+Okay
+
+421
+00:12:49,180 --> 00:12:51,628
+Also, you can set this permanent variable
+
+422
+00:12:51,628 --> 00:12:52,914
+via the command line.
+
+423
+00:12:52,914 --> 00:12:55,180
+But newbies shouldn't do it this way.
+
+424
+00:12:55,620 --> 00:12:56,777
+if you set it this way, later on
+
+425
+00:12:56,777 --> 00:12:58,980
+you might find it hard to track how to revert the Settings
+
+426
+00:12:59,060 --> 00:12:59,060
+Okay
+
+427
+00:12:59,670 --> 00:13:00,573
+If you have some experience,
+
+428
+00:13:00,573 --> 00:13:01,454
+you can follow this method
+
+429
+00:13:01,454 --> 00:13:03,150
+to set it up—everyone can check it out themselves.
+
+430
+00:13:03,230 --> 00:13:03,230
+OK
+
+431
+00:13:03,430 --> 00:13:04,719
+Alright, now we've truly managed
+
+432
+00:13:04,719 --> 00:13:06,300
+to install this Claude code correctly.
+
+433
+00:13:06,300 --> 00:13:08,600
+then we're all set now and can start using it —
+
+434
+00:13:08,600 --> 00:13:11,100
+I've implemented an automatic failover system here
+
+435
+00:13:11,100 --> 00:13:13,253
+if my Fox code here, which uses this code
+
+436
+00:13:13,253 --> 00:13:14,726
+code relay, runs into issues,
+
+437
+00:13:14,726 --> 00:13:17,400
+I'll automatically switch over to GLM from ZhiPu
+
+438
+00:13:17,400 --> 00:13:19,618
+And then, I have some others here you can add in as well —
+
+439
+00:13:19,618 --> 00:13:21,599
+just click 'Add' if you want this one to be included
+
+440
+00:13:21,760 --> 00:13:23,609
+If you don't need it, you can just remove it.
+
+441
+00:13:23,609 --> 00:13:25,164
+So now there are four in total, right?
+
+442
+00:13:25,164 --> 00:13:26,299
+It can switch automatically.
+
+443
+00:13:26,300 --> 00:13:26,951
+Usually, only this
+
+444
+00:13:26,951 --> 00:13:28,715
+Claude has that issue—most domestic ones here
+
+445
+00:13:28,715 --> 00:13:29,980
+don't seem to have such problems.
+
+446
+00:13:30,160 --> 00:13:32,316
+Let's demonstrate some of the most basic features
+
+447
+00:13:32,316 --> 00:13:33,108
+here—for instance,
+
+448
+00:13:33,108 --> 00:13:35,432
+I'll just open it directly within our project folder
+
+449
+00:13:35,432 --> 00:13:35,880
+right now.
+
+450
+00:13:36,520 --> 00:13:36,520
+Okay.
+
+451
+00:13:36,640 --> 00:13:38,120
+Right-click to open in Terminal
+
+452
+00:13:39,480 --> 00:13:39,480
+Okay
+
+453
+00:13:39,720 --> 00:13:40,960
+then let us type in Claude.
+
+454
+00:13:47,090 --> 00:13:47,858
+and then he came in.
+
+455
+00:13:47,858 --> 00:13:48,856
+Once he was in, on our side,
+
+456
+00:13:48,856 --> 00:13:50,969
+it would prompt you to show where this file is located.
+
+457
+00:13:50,970 --> 00:13:51,290
+And then?
+
+458
+00:13:51,530 --> 00:13:52,731
+he said he used this model,
+
+459
+00:13:52,731 --> 00:13:55,216
+but in truth it's just a facade—no matter what you do,
+
+460
+00:13:55,216 --> 00:13:55,920
+just ignore it
+
+461
+00:13:55,920 --> 00:13:57,400
+once you've toggled this C switch on,
+
+462
+00:13:57,400 --> 00:13:58,880
+no matter which model you switch to
+
+463
+00:13:58,880 --> 00:14:00,238
+suppose we turn this off —
+
+464
+00:14:00,238 --> 00:14:02,085
+I just enable this Zhipu AI model.
+
+465
+00:14:02,085 --> 00:14:03,878
+For instance, this model is in use?
+
+466
+00:14:03,880 --> 00:14:07,240
+then, say, I open one more, and I type in this 'cloud' here
+
+467
+00:14:09,090 --> 00:14:09,090
+Okay.
+
+468
+00:14:09,290 --> 00:14:11,430
+it shows this one here too, the 'cloud solid' model —
+
+469
+00:14:11,430 --> 00:14:12,609
+but that is not true at all
+
+470
+00:14:12,610 --> 00:14:12,610
+He.
+
+471
+00:14:12,940 --> 00:14:15,740
+It is just a facade—you used this AI to trick it into that
+
+472
+00:14:15,860 --> 00:14:15,860
+Good
+
+473
+00:14:16,060 --> 00:14:18,300
+we can have a brief conversation with it.
+
+474
+00:14:19,020 --> 00:14:19,460
+Hi there.
+
+475
+00:14:20,080 --> 00:14:20,080
+Okay.
+
+476
+00:14:20,280 --> 00:14:21,312
+this one might lag a bit,
+
+477
+00:14:21,312 --> 00:14:22,675
+yeah—so when you look at my setup,
+
+478
+00:14:22,675 --> 00:14:24,493
+you'll notice it's a little different here.
+
+479
+00:14:24,493 --> 00:14:26,228
+For instance, it auto-replies with my name,
+
+480
+00:14:26,228 --> 00:14:26,558
+and then...
+
+481
+00:14:26,760 --> 00:14:29,073
+it said you can tell it if you have a question.
+
+482
+00:14:29,073 --> 00:14:30,746
+So how is this feature set up here?
+
+483
+00:14:30,746 --> 00:14:33,159
+There's a neat trick here: in 'cloud,' as shown here,
+
+484
+00:14:33,320 --> 00:14:35,114
+this trick I found online myself;
+
+485
+00:14:35,114 --> 00:14:36,745
+you can create a new file here
+
+486
+00:14:36,745 --> 00:14:39,139
+called 'Claude.md' with the name in uppercase
+
+487
+00:14:39,140 --> 00:14:41,841
+then, in here you'll see I gave it a command:
+
+488
+00:14:41,841 --> 00:14:45,360
+whenever it replies, it must address me as 'Amo' each time.
+
+489
+00:14:45,840 --> 00:14:47,512
+I also added some other Settings —
+
+490
+00:14:47,512 --> 00:14:49,285
+for instance, when I run batch tasks,
+
+491
+00:14:49,285 --> 00:14:51,160
+I want the progress to be visualized.
+
+492
+00:14:51,300 --> 00:14:53,030
+This is one of your global Settings.
+
+493
+00:14:53,030 --> 00:14:54,231
+Basically, your 'cloud' here
+
+494
+00:14:54,231 --> 00:14:56,129
+allows each user to customize their own
+
+495
+00:14:56,129 --> 00:14:57,979
+personal usage preferences and habits.
+
+496
+00:14:58,020 --> 00:14:58,740
+And then, moving on,
+
+497
+00:14:58,740 --> 00:15:00,460
+there are some common interaction commands
+
+498
+00:15:00,460 --> 00:15:02,988
+for instance, 'clear' can erase the context history,
+
+499
+00:15:02,988 --> 00:15:05,200
+and 'compact' can condense the context data
+
+500
+00:15:05,200 --> 00:15:06,192
+if you run into these while using it,
+
+501
+00:15:06,192 --> 00:15:07,240
+feel free to look them up on your own
+
+502
+00:15:07,320 --> 00:15:09,560
+Alright, let me now focus on explaining 'skills'.
+
+503
+00:15:09,560 --> 00:15:10,960
+this is the main highlight of our talk
+
+504
+00:15:10,960 --> 00:15:12,274
+but to work with these skills,
+
+505
+00:15:12,274 --> 00:15:14,857
+you need to set up quite a bit—especially for beginners,
+
+506
+00:15:14,857 --> 00:15:16,580
+there are still some barriers to clear
+
+507
+00:15:16,740 --> 00:15:16,740
+Okay.
+
+508
+00:15:17,020 --> 00:15:17,523
+and for 'skilz,'
+
+509
+00:15:17,523 --> 00:15:19,613
+the official team has some repositories—this one here;
+
+510
+00:15:19,613 --> 00:15:20,156
+let's open it
+
+511
+00:15:20,156 --> 00:15:20,660
+and show you.
+
+512
+00:15:20,660 --> 00:15:23,391
+Inside this repo, when you enter it, it looks like this.
+
+513
+00:15:23,391 --> 00:15:25,009
+Let's head back to the home page.
+
+514
+00:15:26,210 --> 00:15:27,776
+there are many other things in here,
+
+515
+00:15:27,776 --> 00:15:29,210
+but the main focus is on skills
+
+516
+00:15:29,210 --> 00:15:30,505
+once you click in, you'll see
+
+517
+00:15:30,505 --> 00:15:33,261
+the official team has built quite a few tools—like this one
+
+518
+00:15:33,261 --> 00:15:35,130
+for editing Word docs and handling PDFs?
+
+519
+00:15:35,220 --> 00:15:37,340
+These are some skills related to the skills here.
+
+520
+00:15:37,460 --> 00:15:39,249
+Then, these items here—you can download them all;
+
+521
+00:15:39,249 --> 00:15:40,620
+I've already downloaded them myself.
+
+522
+00:15:40,620 --> 00:15:42,560
+Once downloaded, you can place them in this
+
+523
+00:15:42,560 --> 00:15:44,128
+just 'Claude'—that's the username;
+
+524
+00:15:44,128 --> 00:15:45,990
+click on your username's 'Claude' folder
+
+525
+00:15:45,990 --> 00:15:47,999
+and create a new 'skills' folder inside it.
+
+526
+00:15:48,000 --> 00:15:49,811
+then you can place the downloaded skills
+
+527
+00:15:49,811 --> 00:15:51,080
+right into this folder here
+
+528
+00:15:51,200 --> 00:15:53,487
+most of these skills are already available online —
+
+529
+00:15:53,487 --> 00:15:54,859
+there are plenty of great ones,
+
+530
+00:15:54,859 --> 00:15:57,239
+including the site we showed you right at the start.
+
+531
+00:15:57,370 --> 00:15:59,370
+this site is skills.sh, right here.
+
+532
+00:15:59,370 --> 00:16:01,220
+this collection features many such skills,
+
+533
+00:16:01,220 --> 00:16:03,236
+and it also shows the global download counts
+
+534
+00:16:03,236 --> 00:16:04,200
+from users worldwide
+
+535
+00:16:04,240 --> 00:16:06,672
+if you've gathered someone else's scales,
+
+536
+00:16:06,672 --> 00:16:07,780
+just download them
+
+537
+00:16:07,780 --> 00:16:11,032
+and then simply place them directly into this folder
+
+538
+00:16:11,032 --> 00:16:11,720
+right here.
+
+539
+00:16:11,720 --> 00:16:12,386
+And then, for instance,
+
+540
+00:16:12,386 --> 00:16:13,943
+like this one—say I just open up any one of them
+
+541
+00:16:13,943 --> 00:16:14,960
+and show you what it looks like.
+
+542
+00:16:16,240 --> 00:16:17,148
+like this PDF file, right?
+
+543
+00:16:17,148 --> 00:16:17,547
+We open it,
+
+544
+00:16:17,547 --> 00:16:19,399
+and once it's open, there are many such files inside.
+
+545
+00:16:19,400 --> 00:16:19,760
+And then?
+
+546
+00:16:19,960 --> 00:16:21,535
+this is the 'skills' part; when used,
+
+547
+00:16:21,535 --> 00:16:23,589
+it gets called in exactly this manner here.
+
+548
+00:16:23,870 --> 00:16:26,047
+Then, if you want to install this on the website—say,
+
+549
+00:16:26,047 --> 00:16:28,432
+if you're after a specific one—you can just click on it
+
+550
+00:16:28,432 --> 00:16:28,909
+after that.
+
+551
+00:16:29,190 --> 00:16:31,557
+there's a code snippet at the top—just copy that code,
+
+552
+00:16:31,557 --> 00:16:34,060
+then paste it into the console and run the installation
+
+553
+00:16:34,060 --> 00:16:35,300
+This is quite easy.
+
+554
+00:16:35,440 --> 00:16:36,448
+for instance, I'll pick one
+
+555
+00:16:36,448 --> 00:16:38,279
+I haven't installed yet and show you how it works.
+
+556
+00:16:38,280 --> 00:16:41,357
+so suppose I want to install just one—like this one
+
+557
+00:16:41,357 --> 00:16:42,504
+called 'find skill.'
+
+558
+00:16:42,504 --> 00:16:45,822
+It seems to help you locate a particular trick or skill
+
+559
+00:16:45,822 --> 00:16:46,969
+in the skills list.
+
+560
+00:16:47,050 --> 00:16:47,050
+Okay.
+
+561
+00:16:47,170 --> 00:16:48,169
+Let's copy this first,
+
+562
+00:16:48,169 --> 00:16:50,929
+and then, say, I open CMD now — I'll demonstrate this for you.
+
+563
+00:16:50,970 --> 00:16:53,234
+if you want to install a specific skill,
+
+564
+00:16:53,234 --> 00:16:55,186
+say, one you found yourself online,
+
+565
+00:16:55,186 --> 00:16:56,311
+then just do this:
+
+566
+00:16:56,311 --> 00:16:56,659
+Ctrl + V
+
+567
+00:16:56,660 --> 00:16:57,700
+then, hit Enter
+
+568
+00:16:57,700 --> 00:16:58,970
+usually, the author of these skills
+
+569
+00:16:58,970 --> 00:17:00,540
+will tell you exactly how to install them
+
+570
+00:17:00,540 --> 00:17:01,503
+then, click 'OK' here,
+
+571
+00:17:01,503 --> 00:17:02,619
+then we click this one,
+
+572
+00:17:02,619 --> 00:17:04,699
+select 'Y'—yes, right?—and then hit 'Confirm'
+
+573
+00:17:04,900 --> 00:17:04,900
+Okay
+
+574
+00:17:05,060 --> 00:17:07,300
+it will then start cloning for you
+
+575
+00:17:07,500 --> 00:17:07,500
+OK.
+
+576
+00:17:07,660 --> 00:17:09,344
+here, there will be a prompt—'install'—and then
+
+577
+00:17:09,344 --> 00:17:11,527
+it will ask you, 'where to?'—just press Enter straight away;
+
+578
+00:17:11,527 --> 00:17:12,981
+keep hitting Enter all the way through,
+
+579
+00:17:12,981 --> 00:17:13,939
+and then hit Enter again.
+
+580
+00:17:14,140 --> 00:17:14,460
+And then?
+
+581
+00:17:14,460 --> 00:17:16,286
+just hit Enter all the way,
+
+582
+00:17:16,286 --> 00:17:18,720
+then it asks if you want to proceed —
+
+583
+00:17:18,720 --> 00:17:20,749
+press Enter, and that's it, done?
+
+584
+00:17:20,750 --> 00:17:21,489
+it's installed now,
+
+585
+00:17:21,489 --> 00:17:22,762
+and you have this 'skill' added.
+
+586
+00:17:22,762 --> 00:17:24,406
+For instance, if we go back to our folder
+
+587
+00:17:24,406 --> 00:17:26,789
+here, you'll see a new one called 'find skills' has appeared.
+
+588
+00:17:26,790 --> 00:17:29,709
+and this one we downloaded from that website has a symbol —
+
+589
+00:17:29,709 --> 00:17:30,427
+an arrow icon —
+
+590
+00:17:30,427 --> 00:17:32,580
+which looks quite different from the rest.
+
+591
+00:17:32,580 --> 00:17:34,325
+that is, if you created it yourself,
+
+592
+00:17:34,325 --> 00:17:35,733
+or if you went to this spot
+
+593
+00:17:35,733 --> 00:17:37,663
+and downloaded each one individually,
+
+594
+00:17:37,663 --> 00:17:39,050
+it's just a regular folder
+
+595
+00:17:39,090 --> 00:17:39,090
+Okay.
+
+596
+00:17:39,540 --> 00:17:40,631
+Then, how do we use it?
+
+597
+00:17:40,631 --> 00:17:43,259
+We open a terminal again and type in 'claude' as before.
+
+598
+00:17:43,860 --> 00:17:45,805
+If we proceed normally, say, you want it to help you
+
+599
+00:17:45,805 --> 00:17:46,740
+with some task or other?
+
+600
+00:17:46,740 --> 00:17:49,234
+and if you've installed these skills locally,
+
+601
+00:17:49,234 --> 00:17:50,765
+say, in your user directory,
+
+602
+00:17:50,765 --> 00:17:53,260
+there are quite a few of these skills there
+
+603
+00:17:53,420 --> 00:17:54,329
+it will automatically check
+
+604
+00:17:54,329 --> 00:17:55,980
+whether this task requires the use of this skill
+
+605
+00:17:55,980 --> 00:17:57,637
+If you need to perform a task, right?
+
+606
+00:17:57,637 --> 00:17:59,815
+If this task requires the use of these skills,
+
+607
+00:17:59,815 --> 00:18:01,448
+they will be automatically invoked
+
+608
+00:18:01,448 --> 00:18:03,130
+without you needing to prompt them.
+
+609
+00:18:03,130 --> 00:18:05,109
+If you want to force the use of this skill,
+
+610
+00:18:05,109 --> 00:18:06,005
+just type a slash —
+
+611
+00:18:06,005 --> 00:18:07,842
+for instance, right here we have one; say,
+
+612
+00:18:07,842 --> 00:18:10,199
+we need to make a PowerPoint presentation, alright?
+
+613
+00:18:10,200 --> 00:18:12,087
+or maybe you want to create something else,
+
+614
+00:18:12,087 --> 00:18:13,211
+like building a website —
+
+615
+00:18:13,211 --> 00:18:14,919
+perhaps a front-end web design project
+
+616
+00:18:14,960 --> 00:18:14,960
+Okay.
+
+617
+00:18:15,400 --> 00:18:16,728
+Okay, once you type a slash,
+
+618
+00:18:16,728 --> 00:18:19,080
+it will show you these—each of the items here,
+
+619
+00:18:19,080 --> 00:18:21,205
+every single folder you have in this list,
+
+620
+00:18:21,205 --> 00:18:22,760
+has a name associated with it.
+
+621
+00:18:22,960 --> 00:18:24,640
+for instance, we just type in a word
+
+622
+00:18:24,910 --> 00:18:26,566
+for instance, just pick one at random,
+
+623
+00:18:26,566 --> 00:18:29,190
+I'll do a quick demo—like 'meeting' or such, just type 'm e'
+
+624
+00:18:29,900 --> 00:18:30,220
+m one.
+
+625
+00:18:30,220 --> 00:18:30,780
+M1 look
+
+626
+00:18:30,780 --> 00:18:33,420
+that meeting, what insights, what analysis?
+
+627
+00:18:33,540 --> 00:18:34,340
+it shows up right now
+
+628
+00:18:34,340 --> 00:18:36,316
+Suppose we just randomly search for one,
+
+629
+00:18:36,316 --> 00:18:38,445
+like this thing called 'change glog,' right?
+
+630
+00:18:38,445 --> 00:18:39,762
+We just type in 'c h,' right?
+
+631
+00:18:39,762 --> 00:18:41,789
+And it will pop up the corresponding one.
+
+632
+00:18:41,790 --> 00:18:42,965
+then you press this Tab key,
+
+633
+00:18:42,965 --> 00:18:45,360
+and it will load in these, uh, skills for you right away
+
+634
+00:18:45,360 --> 00:18:48,041
+but in most cases, you don't need to type it out like this,
+
+635
+00:18:48,041 --> 00:18:49,712
+since it will automatically analyze
+
+636
+00:18:49,712 --> 00:18:51,240
+which skills your task requires.
+
+637
+00:18:51,520 --> 00:18:55,510
+For instance, let's find one—say, this particular web address
+
+638
+00:18:55,670 --> 00:18:57,820
+like this one, we can just tell it the task directly,
+
+639
+00:18:57,820 --> 00:18:59,309
+and then I might copy this URL to it
+
+640
+00:18:59,310 --> 00:18:59,510
+and then?
+
+641
+00:18:59,510 --> 00:19:04,630
+we tell him, for instance, to analyze and summarize this page
+
+642
+00:19:05,110 --> 00:19:17,010
+then use an HTML page to create a visual representation.
+
+643
+00:19:17,770 --> 00:19:17,770
+Okay
+
+644
+00:19:18,330 --> 00:19:20,284
+we can see he should call some skills
+
+645
+00:19:20,284 --> 00:19:22,450
+to carry out this task on his own accord
+
+646
+00:19:25,540 --> 00:19:28,340
+here, it asks you whether you want it to carry this out
+
+647
+00:19:28,340 --> 00:19:31,095
+here, I suggest that if you don't want to click this
+
+648
+00:19:31,095 --> 00:19:31,690
+by default,
+
+649
+00:19:31,690 --> 00:19:34,500
+you can use this command when you start the process
+
+650
+00:19:34,500 --> 00:19:36,100
+when we started up, didn't we type in 'cloud' as well?
+
+651
+00:19:36,200 --> 00:19:37,080
+You can use this one.
+
+652
+00:19:37,080 --> 00:19:38,491
+this one here is called 'cloud
+
+653
+00:19:38,491 --> 00:19:41,462
+dangerously' — or 'SKIP permission' — and it's a rather risky state
+
+654
+00:19:41,462 --> 00:19:43,536
+where 'cloud' takes over tasks automatically
+
+655
+00:19:43,536 --> 00:19:44,919
+without manual confirmation
+
+656
+00:19:44,920 --> 00:19:46,375
+and this one does carry some risk
+
+657
+00:19:46,375 --> 00:19:47,876
+indeed—what kind of risk, you ask?
+
+658
+00:19:47,876 --> 00:19:50,479
+Well, it might delete files on your computer without warning.
+
+659
+00:19:50,480 --> 00:19:52,800
+if it creates some things, that's generally fine, I suppose.
+
+660
+00:19:52,840 --> 00:19:54,860
+but if you didn't run it at first, when we start up,
+
+661
+00:19:54,860 --> 00:19:56,840
+just make sure to add it right here in this spot
+
+662
+00:19:56,940 --> 00:19:58,139
+if you didn't add that string of parameters
+
+663
+00:19:58,139 --> 00:19:58,893
+when you first launched it,
+
+664
+00:19:58,893 --> 00:19:59,620
+then you do it right here
+
+665
+00:19:59,620 --> 00:20:02,269
+I usually just click 2; then, for the same type of task
+
+666
+00:20:02,269 --> 00:20:04,459
+next time, it will automatically run for you
+
+667
+00:20:04,460 --> 00:20:04,460
+OK.
+
+668
+00:20:04,660 --> 00:20:05,940
+press 2 and it starts to run
+
+669
+00:20:06,960 --> 00:20:06,960
+OK
+
+670
+00:20:07,200 --> 00:20:09,315
+here it automatically called a tool
+
+671
+00:20:09,315 --> 00:20:11,370
+again—this one is Chrome DevTools,
+
+672
+00:20:11,370 --> 00:20:12,760
+and this one is an MCP
+
+673
+00:20:12,760 --> 00:20:16,280
+then it asks if you want to run it—just click '2' to proceed
+
+674
+00:20:16,520 --> 00:20:17,837
+in fact, you don't need this MCP
+
+675
+00:20:17,837 --> 00:20:19,359
+now — there are matching SKUs available
+
+676
+00:20:20,600 --> 00:20:23,271
+after a short wait, I clicked confirm a few times in between,
+
+677
+00:20:23,271 --> 00:20:24,720
+and it then generated it for me
+
+678
+00:20:24,720 --> 00:20:26,868
+Let's take a look—during the generation process,
+
+679
+00:20:26,868 --> 00:20:29,553
+I just noticed that it didn't seem to use any skills at all.
+
+680
+00:20:29,553 --> 00:20:31,029
+Let's check out the results first.
+
+681
+00:20:31,030 --> 00:20:32,228
+Take this one, open it up —
+
+682
+00:20:32,228 --> 00:20:33,474
+this is what it generated.
+
+683
+00:20:33,474 --> 00:20:35,439
+This is the look when no skills were used,
+
+684
+00:20:35,439 --> 00:20:36,878
+and it clearly looks terrible?
+
+685
+00:20:36,880 --> 00:20:39,160
+this is a classic AT-generated webpage?
+
+686
+00:20:39,160 --> 00:20:41,079
+this blue and purple look is quite ugly?
+
+687
+00:20:41,080 --> 00:20:43,990
+Alright, let's take a look now, since I just examined it —
+
+688
+00:20:43,990 --> 00:20:45,577
+indeed, I didn't see any skills
+
+689
+00:20:45,577 --> 00:20:47,429
+being used in this entire codebase.
+
+690
+00:20:47,590 --> 00:20:47,590
+Good
+
+691
+00:20:47,790 --> 00:20:49,490
+so if we want it to look more attractive,
+
+692
+00:20:49,490 --> 00:20:51,191
+or make it a bit more visually pleasing,
+
+693
+00:20:51,191 --> 00:20:52,340
+then we'd use these skills
+
+694
+00:20:52,340 --> 00:20:54,524
+so for instance, when we use front-end design,
+
+695
+00:20:54,524 --> 00:20:56,841
+we just type 'frontend' and then hit the Tab key —
+
+696
+00:20:56,841 --> 00:20:57,950
+and it auto-completes.
+
+697
+00:20:57,950 --> 00:21:00,590
+if the first result from typing slash isn't
+
+698
+00:21:00,590 --> 00:21:03,230
+it, just type slash again and then enter 'f'?
+
+699
+00:21:03,310 --> 00:21:04,710
+f r, and it should pop up then
+
+700
+00:21:04,710 --> 00:21:05,543
+then press 'table',
+
+701
+00:21:05,543 --> 00:21:06,769
+and then just say, 'Alright.'
+
+702
+00:21:06,890 --> 00:21:09,180
+I told him that the website he just made looked awful,
+
+703
+00:21:09,180 --> 00:21:10,404
+and asked him to redesign it
+
+704
+00:21:10,404 --> 00:21:12,810
+with a tech-inspired aesthetic and a clean, modern look.
+
+705
+00:21:12,970 --> 00:21:12,970
+Good
+
+706
+00:21:13,130 --> 00:21:14,221
+this time, we insisted
+
+707
+00:21:14,221 --> 00:21:16,120
+he must use Skilz for the design—yes,
+
+708
+00:21:16,120 --> 00:21:17,650
+let's check it out once more
+
+709
+00:21:19,590 --> 00:21:19,590
+Okay
+
+710
+00:21:19,830 --> 00:21:22,394
+A moment later, we see that he has regenerated this for us.
+
+711
+00:21:22,394 --> 00:21:24,029
+Let's take a look at the new page now.
+
+712
+00:21:24,430 --> 00:21:25,706
+this one has this 'tag' here —
+
+713
+00:21:25,706 --> 00:21:27,549
+let's double-click to open and check it
+
+714
+00:21:28,590 --> 00:21:31,950
+OK, this one looks clearly much more refined?
+
+715
+00:21:32,600 --> 00:21:33,896
+this is the classic one, right?
+
+716
+00:21:33,896 --> 00:21:36,099
+Everyone online has seen it a thousand times, right?
+
+717
+00:21:36,099 --> 00:21:37,049
+Those blue-purple ones
+
+718
+00:21:37,049 --> 00:21:38,190
+trained by AI—used in bulk
+
+719
+00:21:38,190 --> 00:21:39,858
+for training—those are quite outdated
+
+720
+00:21:39,860 --> 00:21:41,460
+Ah, this one clearly looks much more refined
+
+721
+00:21:41,740 --> 00:21:43,018
+including right at the start,
+
+722
+00:21:43,018 --> 00:21:44,616
+in the very beginning of the video,
+
+723
+00:21:44,616 --> 00:21:45,589
+I showed you a prompt
+
+724
+00:21:45,589 --> 00:21:47,630
+I wrote to give you an idea of what I meant
+
+725
+00:21:47,630 --> 00:21:48,859
+this prompt basically says that
+
+726
+00:21:48,859 --> 00:21:51,042
+I've been working on a website called Leader AI lately,
+
+727
+00:21:51,042 --> 00:21:52,550
+and it integrates some models as well.
+
+728
+00:21:52,710 --> 00:21:53,985
+help me design a homepage
+
+729
+00:21:53,985 --> 00:21:56,180
+with tech aesthetics and a minimalist vibe.
+
+730
+00:21:56,180 --> 00:21:57,944
+his aesthetic quality is top-notch
+
+731
+00:21:57,944 --> 00:22:00,020
+as well—this looks quite premium indeed
+
+732
+00:22:00,020 --> 00:22:00,020
+Right,
+
+733
+00:22:00,940 --> 00:22:02,662
+it has a tech vibe and is super sleek —
+
+734
+00:22:02,662 --> 00:22:04,572
+when you hover your mouse, there’s light,
+
+735
+00:22:04,572 --> 00:22:05,643
+see? those glow effects —
+
+736
+00:22:05,643 --> 00:22:07,740
+yeah, you can click on them too when you hover
+
+737
+00:22:07,740 --> 00:22:10,134
+there are also some small ones in the back —
+
+738
+00:22:10,134 --> 00:22:12,639
+those glowing green dots, they move around too
+
+739
+00:22:12,800 --> 00:22:14,561
+I think overall, this one is quite alright,
+
+740
+00:22:14,561 --> 00:22:15,608
+better than what you get
+
+741
+00:22:15,608 --> 00:22:17,441
+if you just generate it straight up, right?
+
+742
+00:22:17,441 --> 00:22:19,720
+This kind of output is definitely way more appealing.
+
+743
+00:22:19,720 --> 00:22:22,185
+Okay, so just now, in the demo we showed you,
+
+744
+00:22:22,185 --> 00:22:25,180
+it didn't automatically call those skills, mind you.
+
+745
+00:22:25,180 --> 00:22:26,772
+some of these cases, it might —
+
+746
+00:22:26,772 --> 00:22:29,426
+since it also uses natural language to analyze
+
+747
+00:22:29,426 --> 00:22:30,640
+if skills are needed
+
+748
+00:22:30,800 --> 00:22:32,560
+but its success rate is quite impressive.
+
+749
+00:22:32,600 --> 00:22:34,658
+for instance, if we want it to generate a PPT,
+
+750
+00:22:34,658 --> 00:22:36,716
+or to create a Word or Excel file like that,
+
+751
+00:22:36,716 --> 00:22:38,260
+it will definitely use this tool.
+
+752
+00:22:38,260 --> 00:22:38,688
+For instance, right now,
+
+753
+00:22:38,688 --> 00:22:39,700
+I think the design of this webpage is quite alright
+
+754
+00:22:39,820 --> 00:22:41,047
+the design is okay, right?
+
+755
+00:22:41,047 --> 00:22:43,699
+I'd like it to restructure this and turn it into a PPT?
+
+756
+00:22:43,700 --> 00:22:46,423
+so at this point I don't need to type a slash for it
+
+757
+00:22:46,423 --> 00:22:49,200
+to use the PPT skill—it should analyze automatically
+
+758
+00:22:49,200 --> 00:22:50,200
+Let's try this out.
+
+759
+00:22:50,630 --> 00:22:50,630
+Okay
+
+760
+00:22:50,830 --> 00:22:53,387
+Now I'll tell it, this design is quite good—please
+
+761
+00:22:53,387 --> 00:22:56,049
+reformat it into a multi-page PPT using this style,
+
+762
+00:22:56,049 --> 00:22:58,190
+and then output the full PPT file for me?
+
+763
+00:22:59,480 --> 00:22:59,480
+Okay
+
+764
+00:23:00,000 --> 00:23:02,050
+this time, I didn't type in that slash mark,
+
+765
+00:23:02,050 --> 00:23:04,150
+and then I just picked which skill to use —
+
+766
+00:23:04,150 --> 00:23:05,858
+it should default to the PPT skill,
+
+767
+00:23:05,858 --> 00:23:06,639
+let's try it out
+
+768
+00:23:07,660 --> 00:23:07,660
+Okay
+
+769
+00:23:07,900 --> 00:23:09,580
+It just told me this right here, isn't that so?
+
+770
+00:23:10,200 --> 00:23:11,504
+You see up here, alright,
+
+771
+00:23:11,504 --> 00:23:12,309
+Ah Zhen. Got it.
+
+772
+00:23:12,309 --> 00:23:15,760
+I'll use PPT skills to make a multi-page tech-aesthetic PPT.
+
+773
+00:23:15,760 --> 00:23:16,699
+Then, now call this skill.
+
+774
+00:23:16,699 --> 00:23:18,839
+Then, this skill gets loaded into the system automatically.
+
+775
+00:23:18,840 --> 00:23:21,231
+this time it was automatic — through natural language,
+
+776
+00:23:21,231 --> 00:23:23,760
+it analyzed and decided to invoke this skill on its own
+
+777
+00:23:23,840 --> 00:23:23,840
+Good.
+
+778
+00:23:24,340 --> 00:23:25,307
+so if it auto-invokes,
+
+779
+00:23:25,307 --> 00:23:27,980
+we don't need to use such commands to force it to trigger
+
+780
+00:23:27,980 --> 00:23:29,054
+if it didn't invoke it,
+
+781
+00:23:29,054 --> 00:23:31,084
+then at this point you can force the call
+
+782
+00:23:31,084 --> 00:23:32,620
+using the slash command format.
+
+783
+00:23:32,620 --> 00:23:32,620
+Okay
+
+784
+00:23:32,980 --> 00:23:34,060
+Let's check this part here —
+
+785
+00:23:34,060 --> 00:23:35,780
+we still need to confirm this whole process
+
+786
+00:23:35,780 --> 00:23:36,500
+We press two here
+
+787
+00:23:37,350 --> 00:23:37,350
+Okay
+
+788
+00:23:37,550 --> 00:23:38,436
+it will wait a bit,
+
+789
+00:23:38,436 --> 00:23:39,229
+then it will auto
+
+790
+00:23:39,550 --> 00:23:40,699
+it will then generate a PPT
+
+791
+00:23:40,699 --> 00:23:42,444
+and place it inside this folder of ours.
+
+792
+00:23:42,444 --> 00:23:44,189
+We might need to confirm it along the way.
+
+793
+00:23:45,070 --> 00:23:46,446
+once this PPT is fully generated,
+
+794
+00:23:46,446 --> 00:23:48,706
+we'll show everyone how we use that 'dangerous' method —
+
+795
+00:23:48,706 --> 00:23:50,750
+the one that skips all of these steps entirely
+
+796
+00:23:51,210 --> 00:23:52,290
+it auto-generates then.
+
+797
+00:23:52,290 --> 00:23:55,040
+This looks quite cool indeed, but in truth it is quite risky.
+
+798
+00:23:55,040 --> 00:23:56,812
+if you let it help you organize your files or such,
+
+799
+00:23:56,812 --> 00:23:58,160
+it might end up deleting them as well
+
+800
+00:23:58,320 --> 00:24:00,597
+but if we, but if we are generating some content,
+
+801
+00:24:00,597 --> 00:24:01,760
+then that's fine indeed
+
+802
+00:24:04,260 --> 00:24:04,260
+Good
+
+803
+00:24:04,460 --> 00:24:06,460
+this task did indeed take quite a while to run
+
+804
+00:24:06,460 --> 00:24:08,306
+since this was our first use of these skills,
+
+805
+00:24:08,306 --> 00:24:10,530
+it had to install some dependencies and such things,
+
+806
+00:24:10,530 --> 00:24:12,880
+but in the end it did manage to generate this PPT for me
+
+807
+00:24:12,880 --> 00:24:14,919
+Let's take a look at this PPT and open it up briefly.
+
+808
+00:24:15,200 --> 00:24:16,909
+This is the PPT it generated for me,
+
+809
+00:24:16,909 --> 00:24:19,840
+and its style matches quite closely with our website's look.
+
+810
+00:24:19,840 --> 00:24:22,720
+and this PPT we can see here — it is fully editable indeed
+
+811
+00:24:23,130 --> 00:24:25,568
+this one here — the 'skill' automatically does it for us,
+
+812
+00:24:25,568 --> 00:24:27,209
+and the style is pretty consistent.
+
+813
+00:24:27,330 --> 00:24:29,791
+and if you want to switch styles, edit the PPT further,
+
+814
+00:24:29,791 --> 00:24:31,650
+or convert it to PDF or similar formats,
+
+815
+00:24:31,650 --> 00:24:33,230
+this skill can handle all of that.
+
+816
+00:24:33,410 --> 00:24:34,660
+although for a single task
+
+817
+00:24:34,660 --> 00:24:36,488
+it might seem quite slow in execution,
+
+818
+00:24:36,488 --> 00:24:37,210
+this code here,
+
+819
+00:24:37,210 --> 00:24:38,330
+the code has one great perk:
+
+820
+00:24:38,330 --> 00:24:39,890
+you can run many, many instances at once —
+
+821
+00:24:39,890 --> 00:24:40,850
+as some folks do online
+
+822
+00:24:41,020 --> 00:24:43,161
+his computer had dozens of Claude code instances
+
+823
+00:24:43,161 --> 00:24:44,054
+running these tasks,
+
+824
+00:24:44,054 --> 00:24:45,260
+which was quite convenient.
+
+825
+00:24:45,540 --> 00:24:46,835
+so the tasks I covered today
+
+826
+00:24:46,835 --> 00:24:48,500
+are all quite basic and simple ones
+
+827
+00:24:48,500 --> 00:24:50,267
+And finally, let me add one more thing here —
+
+828
+00:24:50,267 --> 00:24:52,162
+the 'Claude dangerous skip permission' feature,
+
+829
+00:24:52,162 --> 00:24:54,376
+which allows it to take over all tasks automatically
+
+830
+00:24:54,376 --> 00:24:55,910
+without needing manual confirmation.
+
+831
+00:24:55,910 --> 00:24:57,072
+How do we run this?
+
+832
+00:24:57,072 --> 00:24:59,214
+Just right-click here in the folder
+
+833
+00:24:59,214 --> 00:25:00,989
+and open the terminal window.
+
+834
+00:25:01,870 --> 00:25:01,870
+Good
+
+835
+00:25:02,070 --> 00:25:04,472
+this time we won't type 'Claude'—just paste the 'diagnose'
+
+836
+00:25:04,472 --> 00:25:05,870
+command in and hit Enter instead
+
+837
+00:25:06,020 --> 00:25:08,145
+Note that if this tool is meant to help you organize files,
+
+838
+00:25:08,145 --> 00:25:10,380
+try to avoid using it, as it might accidentally delete things.
+
+839
+00:25:10,380 --> 00:25:13,240
+and files deleted via programs cannot be restored
+
+840
+00:25:13,240 --> 00:25:15,442
+if we want to generate some, or create new things altogether,
+
+841
+00:25:15,442 --> 00:25:16,040
+we can use this.
+
+842
+00:25:16,300 --> 00:25:16,300
+Okay
+
+843
+00:25:16,620 --> 00:25:18,389
+here, for instance, I copy this prompt phrase
+
+844
+00:25:18,389 --> 00:25:19,460
+I used to generate before
+
+845
+00:25:19,740 --> 00:25:21,499
+I'm building a site called Leader AI,
+
+846
+00:25:21,499 --> 00:25:24,259
+and it integrates a wide range of image and video models
+
+847
+00:25:24,259 --> 00:25:27,070
+to help me create a design with tech-inspired aesthetics.
+
+848
+00:25:27,150 --> 00:25:28,350
+a sleek, restrained site
+
+849
+00:25:28,350 --> 00:25:30,812
+Once we hit Enter, our hands are free — from here on out,
+
+850
+00:25:30,812 --> 00:25:32,909
+it will handle everything automatically for us.
+
+851
+00:25:33,470 --> 00:25:35,931
+this time I didn't ask it to load this skill,
+
+852
+00:25:35,931 --> 00:25:37,189
+yet it loaded it anyway
+
+853
+00:25:37,190 --> 00:25:39,790
+See, skill front-end design here.
+
+854
+00:25:39,990 --> 00:25:39,990
+Good.
+
+855
+00:25:40,190 --> 00:25:42,909
+then it designed a homepage with tech aesthetics
+
+856
+00:25:42,909 --> 00:25:44,836
+and a minimalist, restrained look.
+
+857
+00:25:44,836 --> 00:25:46,932
+In fact, this front-end design doesn't
+
+858
+00:25:46,932 --> 00:25:48,349
+always auto-load for you.
+
+859
+00:25:48,970 --> 00:25:50,583
+and if you want to force it to load,
+
+860
+00:25:50,583 --> 00:25:53,210
+just add a slash before this part — we showed that earlier.
+
+861
+00:25:54,210 --> 00:25:54,210
+OK
+
+862
+00:25:54,410 --> 00:25:54,415
+Wait a moment now, and it has already generated this file for me. This is the leader's home page—let's take a look, OK.
+
+863
+00:26:00,170 --> 00:26:00,170
+OK
+
+864
+00:26:00,330 --> 00:26:00,333
+this is the one he redesigned; the first version we made didn't look like this, OK
+
+865
+00:26:04,370 --> 00:26:04,370
+OK
+
+866
+00:26:04,570 --> 00:26:05,579
+this area is clickable too,
+
+867
+00:26:05,579 --> 00:26:07,210
+and it features some highlighted elements.
+
+868
+00:26:09,720 --> 00:26:09,720
+OK
+
+869
+00:26:10,040 --> 00:26:12,123
+and here, there are some matching animations;
+
+870
+00:26:12,123 --> 00:26:14,679
+I think the overall design aesthetic is quite on point
+
+871
+00:26:14,680 --> 00:26:14,680
+Good.
+
+872
+00:26:15,040 --> 00:26:17,429
+Okay, so this here is one of the very basic uses
+
+873
+00:26:17,429 --> 00:26:18,802
+I'll be explaining to you,
+
+874
+00:26:18,802 --> 00:26:21,089
+and there are many more advanced ones as well.
+
+875
+00:26:21,170 --> 00:26:22,392
+if you found this helpful,
+
+876
+00:26:22,392 --> 00:26:24,740
+feel free to give me a triple combo for support
+
+877
+00:26:24,780 --> 00:26:24,780
+Okay
+
+878
+00:26:25,140 --> 00:26:26,694
+So that's where we'll wrap up this video
+
+879
+00:26:26,694 --> 00:26:27,860
+for now—thank you all, goodbye!
+

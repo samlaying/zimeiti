@@ -1,0 +1,244 @@
+1
+00:00:00,000 --> 00:00:00,280
+Hey everyone,
+
+2
+00:00:00,280 --> 00:00:01,020
+I'm A Yue.
+
+3
+00:00:01,020 --> 00:00:04,560
+Today, I'm going to share a little tool for all you video creators out there.
+
+4
+00:00:04,560 --> 00:00:06,020
+The software is called Gap Gone.
+
+5
+00:00:06,020 --> 00:00:08,940
+It's specifically designed for quickly and roughly trimming down audio.
+
+6
+00:00:08,940 --> 00:00:10,020
+So, once you open an audio file,
+
+7
+00:00:10,020 --> 00:00:13,480
+The audio track is laid out just like lines of text, one after another.
+
+8
+00:00:13,480 --> 00:00:16,280
+This allows us to quickly make cuts just by using the mouse.
+
+9
+00:00:16,280 --> 00:00:17,620
+Press the spacebar to start playing.
+
+10
+00:00:17,620 --> 00:00:19,060
+Left-click anywhere,
+
+11
+00:00:19,060 --> 00:00:21,420
+and the playback will instantly jump to that spot.
+
+12
+00:00:21,420 --> 00:00:23,520
+Hold down the right mouse button and slide along the track.
+
+13
+00:00:23,520 --> 00:00:25,400
+You can get rid of any unwanted clips.
+
+14
+00:00:25,400 --> 00:00:28,460
+The deleted segments don't just vanish from the timeline.
+
+15
+00:00:28,460 --> 00:00:31,260
+Instead, it's just marked with a darker color to show that it's been deleted.
+
+16
+00:00:31,260 --> 00:00:33,340
+So, what if I delete too much?
+
+17
+00:00:33,340 --> 00:00:35,620
+You can just scroll with the middle mouse button on the track.
+
+18
+00:00:35,620 --> 00:00:38,080
+And just like that, you've undone the deletion.
+
+19
+00:00:38,080 --> 00:00:39,320
+For those of you who frequently create short-form video content,
+
+20
+00:00:39,320 --> 00:00:41,820
+you're probably used to going through your live streaming script and deleting things.
+
+21
+00:00:41,820 --> 00:00:45,120
+the silent parts of the audio to shorten the video's overall length.
+
+22
+00:00:45,120 --> 00:00:49,020
+In this software, you can just click the top-right corner to delete them all with a single click.
+
+23
+00:00:49,020 --> 00:00:50,700
+all the silent parts in the audio.
+
+24
+00:00:50,700 --> 00:00:53,340
+And it does this automatically.
+
+25
+00:00:54,220 --> 00:00:59,380
+Finally, just hit 'Export,' and you'll get the final, trimmed audio.
+
+26
+00:01:00,560 --> 00:01:02,920
+And that's not even counting this video.
+
+27
+00:01:02,920 --> 00:01:04,319
+I've already used it for three videos.
+
+28
+00:01:04,319 --> 00:01:06,399
+I've already used it to edit my audio.
+
+29
+00:01:06,399 --> 00:01:09,659
+So, I actually developed this software from scratch, all by myself, using web coding.
+
+30
+00:01:09,659 --> 00:01:10,379
+So, as you can see,
+
+31
+00:01:10,379 --> 00:01:13,900
+to build a simple editing software like this with the power of AI,
+
+32
+00:01:13,900 --> 00:01:15,240
+and it works perfectly fine.
+
+33
+00:01:15,240 --> 00:01:17,660
+I've already put the full source code up on GitHub.
+
+34
+00:01:17,660 --> 00:01:20,000
+So if you're interested, feel free to go check it out or even modify it for your own use.
+
+35
+00:01:20,000 --> 00:01:21,720
+So, why did I decide to make a piece of software like this?
+
+36
+00:01:21,720 --> 00:01:22,880
+Well, it's because I was looking for...
+
+37
+00:01:22,880 --> 00:01:24,920
+ways to make video production more efficient.
+
+38
+00:01:24,920 --> 00:01:27,200
+I've recently been experimenting with using a large language model,
+
+39
+00:01:27,200 --> 00:01:29,700
+to automatically edit the audio using a tool from Site A.
+
+40
+00:01:29,700 --> 00:01:32,180
+First, we use the Whisper model to transcribe the audio.
+
+41
+00:01:32,180 --> 00:01:33,700
+the text with timestamps.
+
+42
+00:01:33,700 --> 00:01:35,860
+Then, we feed this content into a large language model.
+
+43
+00:01:35,860 --> 00:01:39,520
+and have the large language model ultimately use the FFMPEG tool
+
+44
+00:01:39,520 --> 00:01:41,120
+to cut up the audio.
+
+45
+00:01:41,120 --> 00:01:42,640
+So, after a lot of trial and error,
+
+46
+00:01:42,640 --> 00:01:45,300
+But I found that it could never be 100% accurate.
+
+47
+00:01:45,300 --> 00:01:48,980
+So, my idea was to first create a strategy to at least guarantee a baseline level of efficiency.
+
+48
+00:01:48,980 --> 00:01:50,720
+And that's how this software came to be.
+
+49
+00:01:50,720 --> 00:01:54,260
+The entire audio track is laid out vertically, just like lines of text.
+
+50
+00:01:54,260 --> 00:01:56,200
+And all of this is to boost the overall efficiency of the interaction.
+
+51
+00:01:56,200 --> 00:01:59,540
+And let's be honest, the whole editing process is incredibly tedious.
+
+52
+00:01:59,540 --> 00:02:02,480
+So, it was absolutely, positively, 100% necessary to add a tiny little animation.
+
+53
+00:02:02,480 --> 00:02:03,880
+So, when you're deleting a section,
+
+54
+00:02:03,880 --> 00:02:07,040
+And that little peeling animation? That was added on purpose.
+
+55
+00:02:07,040 --> 00:02:08,660
+to make the whole experience less tedious.
+
+56
+00:02:08,660 --> 00:02:10,240
+So, that's all for this video.
+
+57
+00:02:10,240 --> 00:02:13,160
+I hope this can be helpful to all you fellow video creators out there.
+
+58
+00:02:13,160 --> 00:02:14,000
+Thanks for watching.
+
+59
+00:02:14,000 --> 00:02:15,750
+And in the future, if I have the time,
+
+60
+00:02:15,750 --> 00:02:17,610
+I might look into it a bit more.
+
+61
+00:02:17,610 --> 00:02:21,220
+on how to make large language models even more efficient.
+

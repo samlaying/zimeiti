@@ -1,0 +1,924 @@
+1
+00:00:00,100 --> 00:00:01,740
+There are numerous knowledge points about open-source large models
+
+2
+00:00:01,740 --> 00:00:05,380
+Today we've invited Kuntai to explain MOE to everyone
+
+3
+00:00:06,499 --> 00:00:08,719
+Well, if I had to summarize it in one sentence
+
+4
+00:00:08,719 --> 00:00:10,499
+The purpose of the ME model is actually quite simple
+
+5
+00:00:10,499 --> 00:00:12,779
+it aims to use the same computational resources
+
+6
+00:00:12,779 --> 00:00:15,710
+to train a much larger model, uh
+
+7
+00:00:15,710 --> 00:00:17,610
+First of all, the MOE model
+
+8
+00:00:17,610 --> 00:00:19,470
+translated into Chinese as the mixture of experts model
+
+9
+00:00:19,470 --> 00:00:21,990
+Want to know why we need to train a mixture of experts model?
+
+10
+00:00:21,990 --> 00:00:25,520
+Let's travel back to the era before the mixture of experts model
+
+11
+00:00:25,520 --> 00:00:27,640
+Suppose we are now large model trainers
+
+12
+00:00:27,640 --> 00:00:28,000
+Uh
+
+13
+00:00:28,000 --> 00:00:30,100
+The goal is to utilize the existing computational resources
+
+14
+00:00:30,100 --> 00:00:32,299
+train a model that is significantly smarter than existing models
+
+15
+00:00:32,299 --> 00:00:33,500
+shock the world with China
+
+16
+00:00:33,500 --> 00:00:35,420
+So how exactly should we do it?
+
+17
+00:00:35,420 --> 00:00:38,519
+At that time, there were roughly two widely recognized laws about large models.
+
+18
+00:00:38,519 --> 00:00:40,419
+The first law is called the model's skin law
+
+19
+00:00:40,419 --> 00:00:43,479
+which means that for every order of magnitude increase in model scale
+
+20
+00:00:43,479 --> 00:00:45,340
+the model may become slightly smarter
+
+21
+00:00:45,340 --> 00:00:48,520
+So the second, the second rule is that the computational requirements of the model
+
+22
+00:00:48,520 --> 00:00:50,540
+is roughly proportional to the number of model parameters
+
+23
+00:00:50,540 --> 00:00:51,940
+So this makes you think, right?
+
+24
+00:00:51,940 --> 00:00:52,680
+your intelligence
+
+25
+00:00:52,680 --> 00:00:54,660
+You need more parameters to make the model smarter
+
+26
+00:00:54,660 --> 00:00:57,060
+and more parameters mean more computational resources
+
+27
+00:00:57,060 --> 00:00:59,060
+Therefore, greater intelligence equals more computational resources.
+
+28
+00:00:59,060 --> 00:01:01,200
+So without purchasing more GPUs, we can't train smarter models
+
+29
+00:01:01,200 --> 00:01:03,260
+Oh, then we're stuck here, aren't we?
+
+30
+00:01:03,260 --> 00:01:04,180
+We only have so many GPUs
+
+31
+00:01:04,180 --> 00:01:06,560
+What should we do if we want to train a smarter model?
+
+32
+00:01:06,560 --> 00:01:08,780
+So is there any way we can break through this dilemma?
+
+33
+00:01:08,780 --> 00:01:12,750
+Yes, the solution is to design sparse architectures
+
+34
+00:01:12,750 --> 00:01:15,210
+find ways to increase the model scale while
+
+35
+00:01:15,210 --> 00:01:16,850
+without increasing the computational cost of the model
+
+36
+00:01:16,850 --> 00:01:17,530
+In that case
+
+37
+00:01:17,530 --> 00:01:19,250
+we can use the same number of GPUs
+
+38
+00:01:19,250 --> 00:01:21,280
+train a much larger model
+
+39
+00:01:21,280 --> 00:01:23,840
+Okay, so the next question is
+
+40
+00:01:23,840 --> 00:01:25,830
+How do we construct this sparsity?
+
+41
+00:01:25,830 --> 00:01:28,830
+Let's start with a brief introduction to the basic architecture of large models
+
+42
+00:01:28,830 --> 00:01:29,930
+is the transformers architecture
+
+43
+00:01:29,930 --> 00:01:32,290
+This architecture consists of a series of Transformer modules
+
+44
+00:01:32,290 --> 00:01:33,910
+stacked together like building blocks
+
+45
+00:01:33,910 --> 00:01:35,810
+There are just two modules in each block
+
+46
+00:01:35,810 --> 00:01:38,460
+the attention module and the feed-forward network module
+
+47
+00:01:38,525 --> 00:01:40,900
+The attention module is responsible for establishing
+
+48
+00:01:40,900 --> 00:01:42,380
+the interrelationships between words
+
+49
+00:01:42,380 --> 00:01:45,370
+while the feedforward network module performs in-depth understanding of the words themselves
+
+50
+00:01:45,370 --> 00:01:46,530
+For large models
+
+51
+00:01:46,530 --> 00:01:47,710
+feed-forward network module
+
+52
+00:01:47,710 --> 00:01:50,450
+that is, the number of parameters for this deep understanding of the words themselves
+
+53
+00:01:50,450 --> 00:01:52,169
+accounts for about 80% of the entire model
+
+54
+00:01:52,169 --> 00:01:53,009
+That is to say
+
+55
+00:01:53,009 --> 00:01:55,749
+as long as we can make this feedforward network module ten times more efficient
+
+56
+00:01:55,749 --> 00:01:57,209
+then with the same computational budget
+
+57
+00:01:57,209 --> 00:02:00,329
+the number of parameter models can roughly double to eight times the original wow
+
+58
+00:02:00,329 --> 00:02:01,100
+That's awesome
+
+59
+00:02:01,100 --> 00:02:02,860
+If we can use the same amount of model computational resources
+
+60
+00:02:02,860 --> 00:02:04,060
+train a model eight times larger
+
+61
+00:02:04,060 --> 00:02:06,600
+This is definitely going to shock the tech industry. Okay
+
+62
+00:02:06,880 --> 00:02:08,320
+So our goal is set
+
+63
+00:02:08,320 --> 00:02:10,440
+We want to sparsify the feedforward network modules
+
+64
+00:02:10,440 --> 00:02:11,620
+for example, sparsify it by tenfold
+
+65
+00:02:11,620 --> 00:02:13,060
+So how exactly do we do it?
+
+66
+00:02:13,060 --> 00:02:15,010
+The simplest approach is a two-step process
+
+67
+00:02:15,010 --> 00:02:17,170
+First, divide the parameters in the feedforward network module
+
+68
+00:02:17,170 --> 00:02:19,170
+evenly divide the parameters of each layer into ten parts
+
+69
+00:02:19,170 --> 00:02:20,350
+then create a selector
+
+70
+00:02:20,350 --> 00:02:22,480
+select one parameter from the ten partitions to execute
+
+71
+00:02:22,480 --> 00:02:23,960
+So if you also think this way
+
+72
+00:02:23,960 --> 00:02:24,860
+You're so smart
+
+73
+00:02:24,860 --> 00:02:25,940
+You've already designed it
+
+74
+00:02:25,940 --> 00:02:29,330
+The pioneer of mixture-of-experts models is called Switch Transformers
+
+75
+00:02:29,330 --> 00:02:31,630
+This is an extremely simplified version of the mixture of experts model.
+
+76
+00:02:31,630 --> 00:02:35,110
+Each set of parameters we mentioned earlier is called an expert.
+
+77
+00:02:35,110 --> 00:02:37,830
+So this approach of selecting one expert per layer
+
+78
+00:02:37,830 --> 00:02:39,270
+Can it be further optimized?
+
+79
+00:02:39,270 --> 00:02:40,560
+Of course it can
+
+80
+00:02:40,560 --> 00:02:41,960
+The core flaw of this approach
+
+81
+00:02:41,960 --> 00:02:44,960
+As you might imagine, some relatively general capabilities
+
+82
+00:02:44,960 --> 00:02:46,700
+for example, understanding the semantics of a sentence
+
+83
+00:02:46,700 --> 00:02:49,140
+is a capability required to solve many problems
+
+84
+00:02:49,140 --> 00:02:51,780
+So if only one expert is working at each layer,
+
+85
+00:02:51,780 --> 00:02:52,840
+This means
+
+86
+00:02:52,840 --> 00:02:53,860
+regardless of the expert
+
+87
+00:02:53,860 --> 00:02:56,420
+more or less forced to learn these generic capabilities
+
+88
+00:02:56,420 --> 00:02:57,420
+What a waste that is!
+
+89
+00:02:57,420 --> 00:02:59,880
+Different experts could have learned completely different things.
+
+90
+00:02:59,880 --> 00:03:02,500
+yet they end up being forced to learn these same generic capabilities
+
+91
+00:03:02,500 --> 00:03:03,930
+So we might as well do it this way
+
+92
+00:03:03,930 --> 00:03:06,190
+let some experts specialize in learning general capabilities
+
+93
+00:03:06,190 --> 00:03:07,670
+and then add some other experts
+
+94
+00:03:07,670 --> 00:03:09,110
+on the foundation of general capabilities
+
+95
+00:03:09,110 --> 00:03:10,810
+drawing strengths from various specialized domains
+
+96
+00:03:10,810 --> 00:03:11,870
+blossoming everywhere
+
+97
+00:03:11,870 --> 00:03:12,950
+Congratulations
+
+98
+00:03:12,950 --> 00:03:15,970
+You've just designed the two core technologies of Deep SG MoE
+
+99
+00:03:15,970 --> 00:03:17,750
+The first technique is the shared expert
+
+100
+00:03:17,750 --> 00:03:19,790
+which refers to the experts shared by all requests
+
+101
+00:03:19,790 --> 00:03:21,470
+We use it to learn general capabilities
+
+102
+00:03:21,470 --> 00:03:23,650
+The second technique is fine-grained experts
+
+103
+00:03:23,650 --> 00:03:25,130
+make the granularity of experts finer
+
+104
+00:03:25,130 --> 00:03:26,430
+thereby expanding the number of experts
+
+105
+00:03:26,430 --> 00:03:27,520
+blossom everywhere
+
+106
+00:03:27,520 --> 00:03:31,180
+So the trainers happily used the technology provided by Deep SME
+
+107
+00:03:31,180 --> 00:03:33,700
+sparsified the feedforward network module by a factor of ten
+
+108
+00:03:33,700 --> 00:03:35,940
+happily ran the training script
+
+109
+00:03:35,940 --> 00:03:38,279
+So what happened as a result?
+
+110
+00:03:38,279 --> 00:03:40,039
+Uh, the training suddenly crashed.
+
+111
+00:03:40,039 --> 00:03:41,579
+Millions of yuan went up in smoke.
+
+112
+00:03:41,579 --> 00:03:42,639
+promotions and salary increases are gone
+
+113
+00:03:42,639 --> 00:03:43,839
+or even lose their jobs
+
+114
+00:03:43,839 --> 00:03:45,730
+So why does the training crash?
+
+115
+00:03:45,730 --> 00:03:46,950
+This is actually because
+
+116
+00:03:46,950 --> 00:03:49,530
+The training process of the mixture of experts model is highly unstable.
+
+117
+00:03:49,530 --> 00:03:51,850
+Let's adopt the perspective of the expert selection module
+
+118
+00:03:51,850 --> 00:03:53,480
+Let's understand why this is the case
+
+119
+00:03:53,480 --> 00:03:55,640
+Let's say we are in a company
+
+120
+00:03:55,640 --> 00:03:57,790
+individual responsible for routing requests to experts
+
+121
+00:03:57,790 --> 00:03:58,870
+Then you realize that
+
+122
+00:03:58,870 --> 00:04:01,450
+Although all experts work at the same speed
+
+123
+00:04:01,450 --> 00:04:04,470
+but there are just a few experts whose capabilities grow very slowly
+
+124
+00:04:04,470 --> 00:04:07,440
+then gradually the output quality of these experts will become increasingly lower
+
+125
+00:04:07,440 --> 00:04:10,040
+then naturally we will gradually
+
+126
+00:04:10,040 --> 00:04:11,040
+assign tasks to others
+
+127
+00:04:11,040 --> 00:04:12,960
+After all, if the final output efficiency is poor
+
+128
+00:04:12,960 --> 00:04:14,180
+we ourselves would also be held accountable
+
+129
+00:04:14,180 --> 00:04:16,899
+then ultimately these weak experts become weaker and weaker
+
+130
+00:04:16,899 --> 00:04:17,620
+the less work they get
+
+131
+00:04:17,620 --> 00:04:18,500
+The less work they get, the weaker they become
+
+132
+00:04:18,500 --> 00:04:19,899
+eventually become the weakest experts
+
+133
+00:04:19,899 --> 00:04:21,920
+the overall intelligence of the entire model goes offline
+
+134
+00:04:21,920 --> 00:04:24,600
+In other words, the above process
+
+135
+00:04:24,600 --> 00:04:26,100
+is due to the training phase
+
+136
+00:04:26,100 --> 00:04:28,160
+the routing module aims to optimize model performance
+
+137
+00:04:28,160 --> 00:04:30,370
+while allocating all the training load to the stronger experts
+
+138
+00:04:30,370 --> 00:04:34,430
+resulting in weaker experts being increasingly less likely to be selected by the routing module
+
+139
+00:04:34,430 --> 00:04:36,070
+it becomes increasingly difficult to receive training workload
+
+140
+00:04:36,070 --> 00:04:37,290
+eventually stops learning
+
+141
+00:04:37,290 --> 00:04:39,310
+the overall intelligence of the model goes offline
+
+142
+00:04:39,310 --> 00:04:41,490
+So to solve this problem
+
+143
+00:04:41,490 --> 00:04:43,390
+The key is to design a mechanism
+
+144
+00:04:43,390 --> 00:04:46,060
+to balance the training load among different experts as evenly as possible
+
+145
+00:04:46,060 --> 00:04:47,780
+Well, this is actually a very deep topic
+
+146
+00:04:47,780 --> 00:04:48,760
+I won't go into detail
+
+147
+00:04:48,760 --> 00:04:50,520
+If you want to follow up on the research papers
+
+148
+00:04:50,520 --> 00:04:53,140
+STMOE and the lostfree balancing in the deep sic series of papers
+
+149
+00:04:53,140 --> 00:04:56,490
+free balancing is a great starting point
+
+150
+00:04:56,490 --> 00:04:59,410
+So let's assume that the model trainers have gone through all the hardships
+
+151
+00:04:59,410 --> 00:05:01,550
+finally solved the model's stability issues
+
+152
+00:05:01,550 --> 00:05:04,130
+They happily handed the model over to the inference engineers
+
+153
+00:05:04,130 --> 00:05:05,210
+and boasted
+
+154
+00:05:05,210 --> 00:05:05,710
+Oh
+
+155
+00:05:05,710 --> 00:05:08,210
+My model can achieve the same performance with just 1/10 of the computational resources
+
+156
+00:05:08,210 --> 00:05:10,250
+achieve the same performance as the largest model
+
+157
+00:05:10,250 --> 00:05:13,230
+Then the model trainer got very excited
+
+158
+00:05:13,230 --> 00:05:14,110
+ran a test
+
+159
+00:05:14,110 --> 00:05:15,830
+found it was completely not the case
+
+160
+00:05:15,830 --> 00:05:17,310
+This inference process is excruciatingly slow
+
+161
+00:05:17,310 --> 00:05:18,250
+not to mention ten times
+
+162
+00:05:18,250 --> 00:05:19,630
+twice the speed might even be a stretch
+
+163
+00:05:19,630 --> 00:05:21,710
+Why is the inference process so slow?
+
+164
+00:05:21,710 --> 00:05:25,210
+This is because the mixture of experts model is less friendly to the inference process
+
+165
+00:05:25,210 --> 00:05:27,730
+The reason is that during the training process
+
+166
+00:05:27,730 --> 00:05:30,370
+a large number of inputs are dumped into the model all at once
+
+167
+00:05:30,370 --> 00:05:32,780
+basically all experts will be assigned tasks
+
+168
+00:05:32,780 --> 00:05:35,860
+so reading one expert's weights can serve many tokens
+
+169
+00:05:35,860 --> 00:05:36,880
+very cost-effective
+
+170
+00:05:36,880 --> 00:05:38,530
+However, during the training process
+
+171
+00:05:38,530 --> 00:05:40,090
+especially during the decoding stage
+
+172
+00:05:40,090 --> 00:05:43,250
+each request generates only one new token at a time
+
+173
+00:05:43,250 --> 00:05:46,490
+Therefore, each request only activates a few experts per layer.
+
+174
+00:05:46,490 --> 00:05:48,290
+This situation frequently occurs
+
+175
+00:05:48,290 --> 00:05:50,130
+I read all the weights of one expert
+
+176
+00:05:50,130 --> 00:05:52,400
+resulting in only serving one token in this scenario
+
+177
+00:05:52,400 --> 00:05:55,100
+This results in the model spending most of its inference time
+
+178
+00:05:55,100 --> 00:05:56,980
+is spent on reading expert weights
+
+179
+00:05:56,980 --> 00:05:58,420
+rather than on actual computation
+
+180
+00:05:58,420 --> 00:06:00,289
+So the efficiency naturally drops.
+
+181
+00:06:00,289 --> 00:06:01,569
+To solve this problem
+
+182
+00:06:01,569 --> 00:06:03,329
+We need to optimize the inference engine
+
+183
+00:06:03,329 --> 00:06:04,549
+to improve inference performance
+
+184
+00:06:04,549 --> 00:06:07,060
+These optimizations primarily serve three core purposes
+
+185
+00:06:07,060 --> 00:06:09,120
+The first objective is to improve operator efficiency
+
+186
+00:06:09,120 --> 00:06:10,420
+the core open-source libraries
+
+187
+00:06:10,420 --> 00:06:11,120
+for example, DB Station
+
+188
+00:06:11,120 --> 00:06:14,789
+DBEP and the GPU kernel written by perplexity
+
+189
+00:06:14,789 --> 00:06:17,830
+The second core technology is the parallelization of communication and computation.
+
+190
+00:06:17,830 --> 00:06:20,490
+This optimization leverages the underlying mechanism of the graphics card.
+
+191
+00:06:20,490 --> 00:06:23,530
+As long as you can provide the graphics card with both communication load and computation load simultaneously
+
+192
+00:06:23,530 --> 00:06:26,530
+then the GPU can simultaneously perform computation and communication without interference
+
+193
+00:06:26,530 --> 00:06:29,550
+The core technique of this method is primarily dual batch overlap
+
+194
+00:06:29,550 --> 00:06:31,400
+Dual batch overlap
+
+195
+00:06:31,600 --> 00:06:32,520
+Figuratively speaking,
+
+196
+00:06:32,520 --> 00:06:35,120
+is to have two sets of requests alternate like a ping-pong game
+
+197
+00:06:35,120 --> 00:06:38,080
+switching back and forth between the inference and computation processes of large models
+
+198
+00:06:38,080 --> 00:06:39,940
+thereby ensuring as much as possible that within the same time period
+
+199
+00:06:39,940 --> 00:06:42,240
+there is computational load from one set of requests
+
+200
+00:06:42,240 --> 00:06:44,240
+while communication load comes from another set of requests
+
+201
+00:06:44,240 --> 00:06:45,360
+In this way
+
+202
+00:06:45,360 --> 00:06:47,440
+we may we can achieve as much as possible
+
+203
+00:06:47,440 --> 00:06:49,940
+simultaneously utilizing the hardware's computational and communication capabilities
+
+204
+00:06:49,940 --> 00:06:53,940
+Third, try to enable large-scale parallel processing of the same model as much as possible
+
+205
+00:06:53,940 --> 00:06:56,240
+then distribute across multiple cards to serve more requests
+
+206
+00:06:56,240 --> 00:06:58,760
+This representative method is called large-scale expert parallelism
+
+207
+00:06:58,760 --> 00:07:01,110
+also known as white expert parallel y's batch
+
+208
+00:07:01,110 --> 00:07:02,390
+The core of this technique is
+
+209
+00:07:02,390 --> 00:07:05,270
+to distribute the experts in the expert model across different GPUs
+
+210
+00:07:05,270 --> 00:07:07,750
+this way the entire model occupies more GPUs
+
+211
+00:07:07,750 --> 00:07:09,180
+can therefore handle higher loads
+
+212
+00:07:09,180 --> 00:07:12,080
+on average, the number of requests each expert receives increases
+
+213
+00:07:12,080 --> 00:07:14,620
+then reading the expert weights once can serve multiple requests
+
+214
+00:07:14,620 --> 00:07:15,660
+the efficiency is thus improved
+
+215
+00:07:15,660 --> 00:07:18,040
+At the same time, because the model is distributed across multiple GPUs
+
+216
+00:07:18,040 --> 00:07:20,080
+then the GPU memory usage of the model is reduced
+
+217
+00:07:20,080 --> 00:07:22,100
+more space is reserved for the kv cache
+
+218
+00:07:22,100 --> 00:07:24,000
+the inference batch size can be further increased
+
+219
+00:07:24,000 --> 00:07:26,180
+thereby further increasing the throughput
+
+220
+00:07:26,180 --> 00:07:28,700
+So you see, starting from saving computational power in the beginning
+
+221
+00:07:28,700 --> 00:07:29,920
+to the intermediate load balancing
+
+222
+00:07:29,920 --> 00:07:31,280
+to the final race for speed
+
+223
+00:07:31,280 --> 00:07:32,980
+the evolution of Mixture of Experts models
+
+224
+00:07:32,980 --> 00:07:34,460
+is essentially within limited resources
+
+225
+00:07:34,460 --> 00:07:36,500
+especially under the constraints of limited GPU resources
+
+226
+00:07:36,500 --> 00:07:39,160
+model trainers and inference engineers rack their brains
+
+227
+00:07:39,160 --> 00:07:40,260
+outsmarting the graphics cards
+
+228
+00:07:40,260 --> 00:07:42,409
+the history of squeezing every last bit of computing power
+
+229
+00:07:42,729 --> 00:07:43,729
+A very brilliant explanation
+
+230
+00:07:43,729 --> 00:07:46,069
+Thank you for the bandwidth
+
+231
+00:07:46,069 --> 00:07:47,140
+Thank you for the invitation, uncle
+

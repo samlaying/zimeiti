@@ -1,0 +1,140 @@
+1
+00:00:00,000 --> 00:00:01,240
+I'm about to cause an earthquake in the design world.
+
+2
+00:00:01,240 --> 00:00:04,100
+All thanks to Skill's insane reverse engineering feature for prompts.
+
+3
+00:00:04,100 --> 00:00:06,400
+Making it super easy for even complete beginners to create designs.
+
+4
+00:00:06,400 --> 00:00:08,420
+Before we start designing, we usually look for some reference cases.
+
+5
+00:00:08,420 --> 00:00:09,240
+This one looks pretty good.
+
+6
+00:00:09,240 --> 00:00:09,840
+Don't blink.
+
+7
+00:00:09,840 --> 00:00:10,840
+Now, watch me work my magic.
+
+8
+00:00:10,840 --> 00:00:13,460
+First, we're going to feed this reverse-engineered prompt into Skill.
+
+9
+00:00:13,460 --> 00:00:14,700
+And now, let's generate it.
+
+10
+00:00:15,700 --> 00:00:17,920
+And just like that, we've got our detailed prompt.
+
+11
+00:00:17,920 --> 00:00:20,440
+Here, the main visual element is the core of the entire image.
+
+12
+00:00:20,440 --> 00:00:22,880
+And now, let's change the design elements to fruits.
+
+13
+00:00:22,880 --> 00:00:24,720
+Let's go ahead and generate the skill.
+
+14
+00:00:24,720 --> 00:00:26,380
+This will then call upon the NANA AI model.
+
+15
+00:00:26,380 --> 00:00:29,200
+And just like that, the main visual of the poster has been changed to a fruit element.
+
+16
+00:00:29,200 --> 00:00:31,520
+And you can also have it generate four different versions for you.
+
+17
+00:00:31,520 --> 00:00:32,780
+giving you more options to choose from.
+
+18
+00:00:32,780 --> 00:00:34,920
+Of course, you can also specify your own custom settings.
+
+19
+00:00:34,920 --> 00:00:37,560
+Let's go ahead and select the landmark buildings from these cities.
+
+20
+00:00:37,560 --> 00:00:40,680
+Then, we'll change the main visual elements to these four landmark buildings.
+
+21
+00:00:40,680 --> 00:00:41,860
+Alright, let's go ahead and generate it.
+
+22
+00:00:41,860 --> 00:00:42,540
+See that?
+
+23
+00:00:42,540 --> 00:00:45,840
+Skill will interpret this as having those landmark buildings displayed inside a picture frame.
+
+24
+00:00:45,840 --> 00:00:49,120
+But what I really want is for *all* the visual elements to be replaced with landmark buildings.
+
+25
+00:00:49,120 --> 00:00:50,600
+At this point, all you have to do is tell Skill,
+
+26
+00:00:50,600 --> 00:00:52,880
+to change all the elements into landmark buildings.
+
+27
+00:00:52,880 --> 00:00:54,120
+Alright, let's hit generate again.
+
+28
+00:00:54,120 --> 00:00:54,760
+See that?
+
+29
+00:00:54,760 --> 00:00:56,120
+This is exactly the effect I was going for.
+
+30
+00:00:56,120 --> 00:00:57,960
+Then, you can go ahead and edit the text.
+
+31
+00:00:57,960 --> 00:00:59,880
+and you can easily change the text.
+
+32
+00:00:59,880 --> 00:01:02,240
+This method really makes the whole process super simple.
+
+33
+00:01:02,240 --> 00:01:04,750
+You can repeat this process for any other settings you want to tweak.
+
+34
+00:01:04,750 --> 00:01:05,830
+So, since you've made it this far,
+
+35
+00:01:05,830 --> 00:01:06,900
+So, go ahead and explore it for yourselves!
+

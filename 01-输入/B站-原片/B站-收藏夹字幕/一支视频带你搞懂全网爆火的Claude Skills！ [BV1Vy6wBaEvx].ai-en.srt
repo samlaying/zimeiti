@@ -1,0 +1,1208 @@
+1
+00:00:00,020 --> 00:00:02,600
+I believe everyone has recently seen the term
+
+2
+00:00:02,600 --> 00:00:03,860
+always see a term
+
+3
+00:00:03,860 --> 00:00:05,240
+cloud skills
+
+4
+00:00:05,240 --> 00:00:05,660
+Skills
+
+5
+00:00:05,660 --> 00:00:09,129
+Its current popularity is no less than that of the prompts PROMP back in the day.
+
+6
+00:00:09,129 --> 00:00:10,489
+So today in this video
+
+7
+00:00:10,489 --> 00:00:14,200
+I will give you a comprehensive understanding of what cloud skills really are
+
+8
+00:00:14,200 --> 00:00:16,260
+What tasks can it help us accomplish?
+
+9
+00:00:16,260 --> 00:00:18,760
+compared to prompts and MCP
+
+10
+00:00:18,760 --> 00:00:20,200
+what exactly is the difference
+
+11
+00:00:20,200 --> 00:00:22,200
+Why do I think its potential is enormous
+
+12
+00:00:22,200 --> 00:00:23,200
+Let's cut to the chase
+
+13
+00:00:23,200 --> 00:00:24,020
+Let's get started
+
+14
+00:00:24,020 --> 00:00:26,340
+First, let's briefly introduce in plain language
+
+15
+00:00:26,340 --> 00:00:27,680
+What are cloud skills
+
+16
+00:00:27,680 --> 00:00:29,080
+To help everyone understand,
+
+17
+00:00:29,080 --> 00:00:30,640
+Let's use a story as an example
+
+18
+00:00:30,640 --> 00:00:32,040
+For example, in the workplace,
+
+19
+00:00:32,040 --> 00:00:33,320
+You are the company's boss
+
+20
+00:00:33,320 --> 00:00:36,220
+AI is the top graduate you've recruited from a prestigious university
+
+21
+00:00:36,220 --> 00:00:37,640
+His IQ is very high
+
+22
+00:00:37,640 --> 00:00:39,200
+has strong comprehension skills
+
+23
+00:00:39,200 --> 00:00:40,060
+smooth-talking
+
+24
+00:00:40,060 --> 00:00:41,280
+can chat with you about anything
+
+25
+00:00:41,280 --> 00:00:42,580
+but when you actually ask him to do the work
+
+26
+00:00:42,580 --> 00:00:44,980
+His biggest issue is never about IQ
+
+27
+00:00:44,980 --> 00:00:47,600
+but is unfamiliar with your company's way of doing things
+
+28
+00:00:47,600 --> 00:00:49,440
+nor any practical experience
+
+29
+00:00:49,440 --> 00:00:52,400
+And the prompt is like you standing beside him
+
+30
+00:00:52,400 --> 00:00:54,120
+on-the-spot verbal instructions
+
+31
+00:00:54,120 --> 00:00:56,780
+He can complete the task according to your requirements every time.
+
+32
+00:00:56,780 --> 00:00:57,860
+The quality is also good.
+
+33
+00:00:57,860 --> 00:00:59,740
+But it naturally has a drawback
+
+34
+00:00:59,740 --> 00:01:01,800
+once you close this conversation
+
+35
+00:01:01,800 --> 00:01:03,900
+he forgets what you just talked about
+
+36
+00:01:03,900 --> 00:01:05,360
+so the prompt
+
+37
+00:01:05,360 --> 00:01:08,220
+targets the temporary instructions you currently provide
+
+38
+00:01:08,220 --> 00:01:10,160
+only takes effect in this round of conversation
+
+39
+00:01:10,160 --> 00:01:12,820
+But skills are more like on his first day at work
+
+40
+00:01:12,820 --> 00:01:17,140
+you gave him a very detailed internal company operations manual
+
+41
+00:01:17,140 --> 00:01:20,520
+
+
+42
+00:01:20,520 --> 00:01:22,860
+It is more like a Knowledge repository folder
+
+43
+00:01:22,860 --> 00:01:25,800
+which can include standardized scripts, templates
+
+44
+00:01:25,800 --> 00:01:26,980
+reference materials, etc.
+
+45
+00:01:26,980 --> 00:01:28,400
+This way, the AI can
+
+46
+00:01:28,400 --> 00:01:29,740
+can invoke it automatically
+
+47
+00:01:29,740 --> 00:01:32,760
+So you can think of skills as a toolkit for AI
+
+48
+00:01:32,760 --> 00:01:33,480
+skill pack
+
+49
+00:01:33,480 --> 00:01:36,040
+a reusable operational manual
+
+50
+00:01:36,040 --> 00:01:37,840
+teach it what tasks to perform
+
+51
+00:01:37,840 --> 00:01:40,420
+what tools to use and what standards to follow
+
+52
+00:01:40,420 --> 00:01:43,370
+This way, it can determine when to invoke them
+
+53
+00:01:43,370 --> 00:01:44,350
+where to invoke
+
+54
+00:01:44,350 --> 00:01:47,340
+These steps can all be automatically completed for you in the background.
+
+55
+00:01:47,340 --> 00:01:48,840
+Before the advent of cloud skills
+
+56
+00:01:48,840 --> 00:01:50,700
+When we perform some repetitive tasks
+
+57
+00:01:50,700 --> 00:01:51,600
+such as writing emails
+
+58
+00:01:51,600 --> 00:01:52,320
+make plans
+
+59
+00:01:52,320 --> 00:01:53,280
+when writing articles
+
+60
+00:01:53,280 --> 00:01:56,680
+Every time you chat with AI, you have to re-enter the prompts
+
+61
+00:01:56,680 --> 00:01:59,420
+The output results not only lack consistency
+
+62
+00:01:59,420 --> 00:02:00,980
+it also wastes a lot of our time
+
+63
+00:02:00,980 --> 00:02:02,280
+You might think
+
+64
+00:02:02,280 --> 00:02:05,400
+Can't we just use the project feature with prompt commands?
+
+65
+00:02:05,400 --> 00:02:07,960
+That's right, most people think the same way.
+
+66
+00:02:07,960 --> 00:02:10,440
+But in fact, there are two fundamental problems.
+
+67
+00:02:10,440 --> 00:02:13,040
+Firstly, these operational steps cannot be replicated.
+
+68
+00:02:13,040 --> 00:02:15,380
+For example, the next time you need to plan an activity
+
+69
+00:02:15,380 --> 00:02:17,560
+unless you plan it within this project
+
+70
+00:02:17,560 --> 00:02:19,800
+Otherwise, you'll have to repeat all the steps
+
+71
+00:02:19,800 --> 00:02:22,000
+organize all the matters that need attention
+
+72
+00:02:22,000 --> 00:02:23,300
+re-enter it into the AI
+
+73
+00:02:23,300 --> 00:02:24,340
+The second issue is
+
+74
+00:02:24,340 --> 00:02:26,720
+These planning steps cannot be stacked either
+
+75
+00:02:26,720 --> 00:02:29,520
+For example, you have a folder specifically for task A
+
+76
+00:02:29,520 --> 00:02:31,540
+another one is specifically for task B
+
+77
+00:02:31,540 --> 00:02:33,780
+but you cannot directly combine them
+
+78
+00:02:33,780 --> 00:02:35,100
+collaborate on new tasks
+
+79
+00:02:35,100 --> 00:02:38,260
+Because these two folders operate completely independently
+
+80
+00:02:38,260 --> 00:02:40,750
+so you have to open many different folders
+
+81
+00:02:40,750 --> 00:02:42,370
+
+
+82
+00:02:42,370 --> 00:02:43,790
+and the efficiency is also not high
+
+83
+00:02:43,790 --> 00:02:46,770
+And this is exactly why we need to use skills.
+
+84
+00:02:46,770 --> 00:02:48,590
+Unlike traditional project folders
+
+85
+00:02:48,590 --> 00:02:51,580
+cram all the processes and resources into a single project
+
+86
+00:02:51,580 --> 00:02:54,200
+Cloud will extract these processes
+
+87
+00:02:54,200 --> 00:02:55,840
+packaged into so-called skills
+
+88
+00:02:55,840 --> 00:02:56,920
+In skills
+
+89
+00:02:56,920 --> 00:02:59,020
+You can include all sorts of things
+
+90
+00:02:59,020 --> 00:03:00,230
+such as prompts
+
+91
+00:03:00,230 --> 00:03:01,330
+
+
+92
+00:03:01,330 --> 00:03:02,930
+
+
+93
+00:03:02,930 --> 00:03:03,470
+So,
+
+94
+00:03:03,470 --> 00:03:05,090
+In essence, skills are simply a
+
+95
+00:03:05,090 --> 00:03:08,080
+a folder that stores workflows and data centers
+
+96
+00:03:08,080 --> 00:03:10,000
+rather than just a simple text
+
+97
+00:03:10,000 --> 00:03:11,600
+Once you understand this logic,
+
+98
+00:03:11,600 --> 00:03:14,620
+you can use skills to create various workflows
+
+99
+00:03:14,620 --> 00:03:16,880
+such as a workflow to help you send mass emails
+
+100
+00:03:16,880 --> 00:03:18,980
+market research handbook
+
+101
+00:03:18,980 --> 00:03:21,420
+a template handbook for designing company bylaws
+
+102
+00:03:21,420 --> 00:03:22,560
+And most importantly,
+
+103
+00:03:22,560 --> 00:03:24,000
+they are not independent
+
+104
+00:03:24,000 --> 00:03:25,920
+can also be combined and used together
+
+105
+00:03:25,920 --> 00:03:26,880
+So this is why
+
+106
+00:03:26,880 --> 00:03:30,000
+I think skills are helping us achieve improvements in work efficiency
+
+107
+00:03:30,000 --> 00:03:31,420
+a core node
+
+108
+00:03:31,420 --> 00:03:32,820
+as long as you master this skill
+
+109
+00:03:32,820 --> 00:03:34,880
+your work efficiency and flexibility
+
+110
+00:03:34,880 --> 00:03:36,600
+will be significantly higher than before
+
+111
+00:03:36,600 --> 00:03:39,100
+And all you really need to do is one thing
+
+112
+00:03:39,100 --> 00:03:41,620
+those repetitive workflow tasks you usually perform
+
+113
+00:03:41,620 --> 00:03:43,920
+transform into replicable skills packages
+
+114
+00:03:43,920 --> 00:03:45,600
+and then when you need to use it
+
+115
+00:03:45,600 --> 00:03:47,280
+just give a command
+
+116
+00:03:47,280 --> 00:03:49,920
+So theoretically, all repetitive tasks
+
+117
+00:03:49,920 --> 00:03:52,160
+or some tasks that have been troubling you for a long time
+
+118
+00:03:52,160 --> 00:03:54,680
+In fact, all these tasks can be automated for you using skills.
+
+119
+00:03:54,680 --> 00:03:55,780
+high-quality completion
+
+120
+00:03:55,780 --> 00:03:57,960
+Another concept that often causes confusion is
+
+121
+00:03:57,960 --> 00:04:01,160
+the difference between skills and MCP project
+
+122
+00:04:01,160 --> 00:04:03,160
+Let's take cloud as an example
+
+123
+00:04:03,160 --> 00:04:05,320
+The cloud itself serves as the brain of AI
+
+124
+00:04:05,320 --> 00:04:07,280
+is the core of AI decision-making
+
+125
+00:04:07,280 --> 00:04:09,860
+skills are the instruction manual for cloud
+
+126
+00:04:09,860 --> 00:04:10,520
+Let me tell you
+
+127
+00:04:10,520 --> 00:04:12,380
+how to perform each specific task
+
+128
+00:04:12,380 --> 00:04:15,080
+While MCP is not responsible for teaching people how to work
+
+129
+00:04:15,080 --> 00:04:17,360
+He is only responsible for issuing access cards to people.
+
+130
+00:04:17,360 --> 00:04:19,100
+Because no matter how powerful the AI is
+
+131
+00:04:19,100 --> 00:04:20,870
+but if it doesn't have permission
+
+132
+00:04:20,870 --> 00:04:22,690
+cannot access your company's database
+
+133
+00:04:22,690 --> 00:04:24,610
+it simply cannot solve practical problems
+
+134
+00:04:24,610 --> 00:04:26,900
+And the MCP is like the access card
+
+135
+00:04:26,900 --> 00:04:29,340
+enables AI to securely connect to external systems
+
+136
+00:04:29,340 --> 00:04:31,240
+It can also incidentally invoke its capabilities
+
+137
+00:04:31,240 --> 00:04:32,570
+such as creating files
+
+138
+00:04:32,570 --> 00:04:33,690
+access the database
+
+139
+00:04:33,690 --> 00:04:36,910
+The project is a dedicated workspace for AI
+
+140
+00:04:36,910 --> 00:04:37,870
+can integrate skills
+
+141
+00:04:37,870 --> 00:04:41,530
+MCP tools and your existing Knowledge base
+
+142
+00:04:41,530 --> 00:04:43,830
+help you focus on completing a specific task
+
+143
+00:04:43,830 --> 00:04:44,350
+Believe it
+
+144
+00:04:44,350 --> 00:04:45,590
+After listening to the explanation above
+
+145
+00:04:45,590 --> 00:04:48,530
+Now you must clearly understand skills prompt
+
+146
+00:04:48,530 --> 00:04:50,970
+the difference between MCP and project
+
+147
+00:04:50,970 --> 00:04:52,640
+And this is exactly what's called the skills
+
+148
+00:04:52,640 --> 00:04:55,360
+the main reason for the recent high praise
+
+149
+00:04:55,360 --> 00:04:58,280
+Because you can tailor it according to your specific work needs
+
+150
+00:04:58,280 --> 00:04:59,620
+freely combine and match
+
+151
+00:04:59,620 --> 00:05:02,440
+You don't need to use all the tools in every process.
+
+152
+00:05:02,440 --> 00:05:04,440
+Because they are not competing with each other
+
+153
+00:05:04,440 --> 00:05:07,660
+What you're actually doing is building this workflow process
+
+154
+00:05:07,660 --> 00:05:10,720
+When we explain what we need to do to Cloud in plain language
+
+155
+00:05:10,720 --> 00:05:12,680
+At this point, it will start scanning
+
+156
+00:05:12,680 --> 00:05:15,500
+see which skill package can accomplish this task
+
+157
+00:05:15,500 --> 00:05:18,500
+and then find the skills related to your needs
+
+158
+00:05:18,500 --> 00:05:20,500
+after matching and invoking
+
+159
+00:05:20,500 --> 00:05:23,370
+with the pre-saved operational manual in the system
+
+160
+00:05:23,370 --> 00:05:24,990
+start helping you process tasks
+
+161
+00:05:24,990 --> 00:05:27,000
+The great thing about this design is that
+
+162
+00:05:27,000 --> 00:05:29,320
+
+
+163
+00:05:29,320 --> 00:05:32,220
+Moreover, a single task can simultaneously invoke multiple skills.
+
+164
+00:05:32,220 --> 00:05:33,980
+For example, we want it to help us
+
+165
+00:05:33,980 --> 00:05:36,670
+First, analyze a two-hour podcast video
+
+166
+00:05:36,670 --> 00:05:39,660
+and then generate a related presentation PPT for us
+
+167
+00:05:39,660 --> 00:05:42,500
+At this point, Cloud will find in its skills package
+
+168
+00:05:42,500 --> 00:05:43,980
+can match the analysis of the video
+
+169
+00:05:43,980 --> 00:05:46,560
+and the two skills needed to generate the PPT
+
+170
+00:05:46,560 --> 00:05:48,080
+Do you know what this means?
+
+171
+00:05:48,080 --> 00:05:50,440
+That is to say, the more types of skills you have
+
+172
+00:05:50,440 --> 00:05:52,420
+the more things it can help you do
+
+173
+00:05:52,420 --> 00:05:53,480
+If possible
+
+174
+00:05:53,480 --> 00:05:56,300
+You can invoke a large number of skills for a single task.
+
+175
+00:05:56,300 --> 00:05:58,140
+Additionally, I've summarized for everyone
+
+176
+00:05:58,140 --> 00:06:02,040
+Currently, there are three types of skills available on Cloud for you to use.
+
+177
+00:06:02,040 --> 00:06:04,940
+First, if you've never heard of skills before
+
+178
+00:06:04,940 --> 00:06:06,360
+Then I suggest you start off by
+
+179
+00:06:06,360 --> 00:06:08,520
+you don't need to create your own skills right away
+
+180
+00:06:08,520 --> 00:06:11,720
+You can first try out ANEROBIC, the parent company of cloud
+
+181
+00:06:11,720 --> 00:06:13,960
+The official has open-sourced a skills repository
+
+182
+00:06:13,960 --> 00:06:16,820
+The repository contains many highly practical skills.
+
+183
+00:06:16,820 --> 00:06:18,520
+You just need to go to the function in Settings
+
+184
+00:06:18,520 --> 00:06:19,580
+Here, just make sure that
+
+185
+00:06:19,580 --> 00:06:22,900
+The code execution and file creation functions here are already enabled
+
+186
+00:06:22,900 --> 00:06:24,860
+you can control the cloud right here
+
+187
+00:06:24,860 --> 00:06:26,860
+which skills to use in the chat
+
+188
+00:06:26,860 --> 00:06:28,180
+When you scroll down
+
+189
+00:06:28,180 --> 00:06:30,700
+Your custom skills will be displayed here
+
+190
+00:06:30,700 --> 00:06:33,000
+When you click on the example skill next to it
+
+191
+00:06:33,000 --> 00:06:36,180
+This is the official cloud open-source skills repository
+
+192
+00:06:36,180 --> 00:06:39,100
+Skills designed for various workflows
+
+193
+00:06:39,100 --> 00:06:42,230
+I personally don't recommend you open too many skills at once
+
+194
+00:06:42,230 --> 00:06:43,750
+because having too many skills enabled
+
+195
+00:06:43,750 --> 00:06:46,590
+Cloud may make mistakes when executing workflows
+
+196
+00:06:46,590 --> 00:06:49,460
+You just need to open those that you actually need to use.
+
+197
+00:06:49,460 --> 00:06:50,840
+Also, let me tell you
+
+198
+00:06:50,840 --> 00:06:52,920
+If you want to use the cloud skills feature
+
+199
+00:06:52,920 --> 00:06:54,900
+you need to at least subscribe to their
+
+200
+00:06:54,900 --> 00:06:56,640
+the $20 Pro plan is required
+
+201
+00:06:56,640 --> 00:06:59,440
+Also, there is no Chinese option in the Cloud Settings.
+
+202
+00:06:59,440 --> 00:07:01,600
+So if you find English difficult to understand,
+
+203
+00:07:01,600 --> 00:07:03,860
+you can download an immersive translation plugin
+
+204
+00:07:03,860 --> 00:07:05,340
+you can directly view the Chinese version
+
+205
+00:07:05,340 --> 00:07:07,700
+Additionally, the officially open-source skills repository
+
+206
+00:07:07,700 --> 00:07:09,860
+The URL has also been provided in the description box for you.
+
+207
+00:07:09,860 --> 00:07:12,100
+The second type is what we just mentioned
+
+208
+00:07:12,100 --> 00:07:13,130
+custom skills
+
+209
+00:07:13,130 --> 00:07:16,210
+that is, the skills you create based on your personal needs
+
+210
+00:07:16,210 --> 00:07:18,210
+This can be your own workflow
+
+211
+00:07:18,210 --> 00:07:19,780
+template of instruction resources
+
+212
+00:07:19,780 --> 00:07:21,300
+even code scripts
+
+213
+00:07:21,300 --> 00:07:23,720
+you just need to follow the official required format
+
+214
+00:07:23,720 --> 00:07:26,400
+prepare your own skills file and upload it
+
+215
+00:07:26,400 --> 00:07:27,940
+you can successfully activate them
+
+216
+00:07:27,940 --> 00:07:29,760
+If you're not a professional programmer
+
+217
+00:07:29,760 --> 00:07:30,440
+no problem
+
+218
+00:07:30,440 --> 00:07:32,500
+You just need to enable the skill creator here
+
+219
+00:07:32,500 --> 00:07:35,340
+which means letting skills teach you how to create skills
+
+220
+00:07:35,340 --> 00:07:38,780
+The third type is the skills on third-party community platforms.
+
+221
+00:07:38,780 --> 00:07:41,020
+Now on GITHUB, there are also many cloud
+
+222
+00:07:41,020 --> 00:07:42,600
+skills created by users themselves
+
+223
+00:07:42,600 --> 00:07:44,840
+some have been favorited thousands of times
+
+224
+00:07:44,840 --> 00:07:47,040
+Its advantage is the wide variety of options available
+
+225
+00:07:47,040 --> 00:07:48,480
+compared to the categories provided officially
+
+226
+00:07:48,480 --> 00:07:49,960
+Here you can find many
+
+227
+00:07:49,960 --> 00:07:51,980
+skills tailored for niche needs
+
+228
+00:07:51,980 --> 00:07:53,600
+However, here we also need to remind everyone
+
+229
+00:07:53,600 --> 00:07:56,620
+When using these community skills, be mindful of security
+
+230
+00:07:56,620 --> 00:07:59,740
+Moreover, there is no clear evaluation system for the skills here.
+
+231
+00:07:59,740 --> 00:08:01,320
+According to aerobic
+
+232
+00:08:01,320 --> 00:08:02,780
+once you enable skills
+
+233
+00:08:02,780 --> 00:08:04,180
+as long as the context is appropriate
+
+234
+00:08:04,180 --> 00:08:05,640
+it will be triggered automatically
+
+235
+00:08:05,640 --> 00:08:06,940
+So my suggestion is
+
+236
+00:08:06,940 --> 00:08:09,400
+add the following custom command in the Settings
+
+237
+00:08:09,400 --> 00:08:11,220
+add it to your personal preferences here
+
+238
+00:08:11,220 --> 00:08:14,360
+ensure that Cloud activates the correct skills when responding
+
+239
+00:08:14,360 --> 00:08:17,060
+Similarly, this custom command is also placed in the description field.
+
+240
+00:08:17,060 --> 00:08:18,640
+Just now we introduced to everyone
+
+241
+00:08:18,640 --> 00:08:20,600
+the many functions that skills can perform
+
+242
+00:08:20,600 --> 00:08:23,720
+So when do we really need to create skills?
+
+243
+00:08:23,720 --> 00:08:26,940
+I suggest you ask yourself these three key questions
+
+244
+00:08:26,940 --> 00:08:29,500
+First, is this task highly repetitive?
+
+245
+00:08:29,500 --> 00:08:32,000
+Do you need to do this every time you interact with the AI?
+
+246
+00:08:32,000 --> 00:08:34,340
+have to keep repeating the same instructions
+
+247
+00:08:34,340 --> 00:08:36,120
+sending the same prompt every time
+
+248
+00:08:36,120 --> 00:08:36,760
+The second point
+
+249
+00:08:36,760 --> 00:08:38,880
+In reality, do you also need to train someone
+
+250
+00:08:38,880 --> 00:08:40,840
+to familiarize with this process and standard
+
+251
+00:08:40,840 --> 00:08:43,840
+Third, does the AI's output for you each time
+
+252
+00:08:43,840 --> 00:08:46,780
+requires ensuring quality or format consistency
+
+253
+00:08:46,780 --> 00:08:48,180
+If the above three questions
+
+254
+00:08:48,180 --> 00:08:49,440
+you have two options
+
+255
+00:08:49,440 --> 00:08:51,510
+then I would suggest you design your skills
+
+256
+00:08:51,510 --> 00:08:54,700
+Additionally, if you're using the $20 per month Pro version
+
+257
+00:08:54,700 --> 00:08:57,000
+It has a weekly usage limit.
+
+258
+00:08:57,000 --> 00:08:58,020
+So I suggest that
+
+259
+00:08:58,020 --> 00:09:01,160
+you only create skills for your most frequently used workflows
+
+260
+00:09:01,160 --> 00:09:02,540
+avoid wasting tokens
+
+261
+00:09:02,540 --> 00:09:03,360
+Although skills
+
+262
+00:09:03,360 --> 00:09:06,500
+Initially, it was just a small functional module within the cloud.
+
+263
+00:09:06,500 --> 00:09:07,620
+but in recent months
+
+264
+00:09:07,620 --> 00:09:10,180
+More and more people find it particularly useful
+
+265
+00:09:10,180 --> 00:09:11,700
+so codex cursor
+
+266
+00:09:11,700 --> 00:09:15,590
+Open cos these AI programming tools have gradually started supporting skills
+
+267
+00:09:15,590 --> 00:09:17,470
+And on December 18th last year,
+
+268
+00:09:17,470 --> 00:09:19,730
+Aerobatic also officially released Agent Skills
+
+269
+00:09:19,730 --> 00:09:21,350
+released as an open standard
+
+270
+00:09:21,350 --> 00:09:23,150
+To be honest, I still feel that
+
+271
+00:09:23,150 --> 00:09:25,280
+The value of skills is greatly underestimated.
+
+272
+00:09:25,280 --> 00:09:27,740
+For example, you can build a data analysis tool
+
+273
+00:09:27,740 --> 00:09:31,180
+This way, it can assist you from data collection to data analysis
+
+274
+00:09:31,180 --> 00:09:32,660
+and finally generate charts
+
+275
+00:09:32,660 --> 00:09:36,120
+reduce the workload from 3 to 4 hours down to about 10 minutes
+
+276
+00:09:36,120 --> 00:09:39,220
+Or you can also create a tool that helps summarize long videos
+
+277
+00:09:39,220 --> 00:09:40,180
+summarization tool
+
+278
+00:09:40,180 --> 00:09:42,320
+especially for those one-to-two-hour podcasts
+
+279
+00:09:42,320 --> 00:09:44,780
+You don't need to watch them from beginning to end
+
+280
+00:09:44,780 --> 00:09:47,520
+You just need to use skills to build a workflow for you
+
+281
+00:09:47,520 --> 00:09:50,180
+can summarize all the core points in the video
+
+282
+00:09:50,180 --> 00:09:51,480
+What are the key points inside
+
+283
+00:09:51,480 --> 00:09:53,040
+are worth focusing on
+
+284
+00:09:53,040 --> 00:09:55,000
+Whether you are a professional programmer
+
+285
+00:09:55,000 --> 00:09:58,300
+turn your experience and workflows into various skills
+
+286
+00:09:58,300 --> 00:10:00,340
+or a programming novice like me
+
+287
+00:10:00,340 --> 00:10:03,180
+encapsulate your work requirements into skills
+
+288
+00:10:03,180 --> 00:10:04,460
+for future use
+
+289
+00:10:04,460 --> 00:10:07,000
+I think the potential of skills is enormous.
+
+290
+00:10:07,000 --> 00:10:10,540
+Just as MCP has transformed the way we design AI workflows
+
+291
+00:10:10,540 --> 00:10:12,100
+just like with AI agents
+
+292
+00:10:12,100 --> 00:10:15,300
+And I think it's not just Cloud, other large language models
+
+293
+00:10:15,300 --> 00:10:17,660
+will likely adopt this concept very soon
+
+294
+00:10:17,660 --> 00:10:18,780
+So in the next few days
+
+295
+00:10:18,780 --> 00:10:21,880
+I will continue to delve deeper into the usage of cloud skills
+
+296
+00:10:21,880 --> 00:10:24,500
+and then share with you how to practice step by step
+
+297
+00:10:24,500 --> 00:10:27,300
+help you transform from a novice to a master of practical skills
+
+298
+00:10:27,300 --> 00:10:28,900
+If you haven't subscribed to the channel yet,
+
+299
+00:10:28,900 --> 00:10:30,160
+Follow us now
+
+300
+00:10:30,160 --> 00:10:31,940
+If you found this video helpful
+
+301
+00:10:31,940 --> 00:10:33,060
+Welcome to like and subscribe to the channel
+
+302
+00:10:33,060 --> 00:10:34,720
+See you in the next video, bye-bye
+

@@ -1,0 +1,924 @@
+1
+00:00:00,040 --> 00:00:01,980
+Inspired by Karpathy
+
+2
+00:00:01,980 --> 00:00:03,800
+I spent half an hour
+
+3
+00:00:03,800 --> 00:00:05,920
+vibecoded an RSS reader
+
+4
+00:00:09,070 --> 00:00:10,690
+you can see all the blogs
+
+5
+00:00:10,690 --> 00:00:12,290
+And it updates information daily.
+
+6
+00:00:12,290 --> 00:00:14,050
+I also added three features to it
+
+7
+00:00:14,050 --> 00:00:17,500
+AI-generated summaries and Chinese translation
+
+8
+00:00:17,500 --> 00:00:20,980
+and discuss with it in the AI window using a large model
+
+9
+00:00:20,980 --> 00:00:24,940
+A few days ago, Karpathy posted on X, formerly known as Twitter, saying
+
+10
+00:00:24,940 --> 00:00:28,460
+He found that websites are now flooded with a lot of useless junk information
+
+11
+00:00:28,460 --> 00:00:30,180
+especially regarding AI news
+
+12
+00:00:30,180 --> 00:00:33,160
+He himself is also using RSS more and more frequently
+
+13
+00:00:33,160 --> 00:00:35,460
+Here lies high-quality long-form content.
+
+14
+00:00:35,460 --> 00:00:38,720
+rather than those provocative, false and exaggerated contents
+
+15
+00:00:38,720 --> 00:00:41,740
+He also urged that we should restore RSS as soon as possible.
+
+16
+00:00:41,740 --> 00:00:43,880
+because it's open and customizable
+
+17
+00:00:43,880 --> 00:00:47,260
+He recommended in the post that we can download an RSS reader
+
+18
+00:00:47,260 --> 00:00:48,580
+You can download the client
+
+19
+00:00:48,580 --> 00:00:50,180
+or customize one yourself through vibecoding
+
+20
+00:00:50,180 --> 00:00:51,260
+He also provided a link
+
+21
+00:00:51,260 --> 00:00:54,940
+This link contains the 92 most popular blogs in 2025
+
+22
+00:00:54,940 --> 00:00:56,860
+RSS feed list
+
+23
+00:00:56,860 --> 00:00:58,380
+Perhaps many people, like me,
+
+24
+00:00:58,380 --> 00:01:00,160
+also not quite understand what RSS is
+
+25
+00:01:00,160 --> 00:01:03,520
+It's somewhat similar to an electronic newspaper box
+
+26
+00:01:03,520 --> 00:01:04,920
+which blog you subscribed to
+
+27
+00:01:04,920 --> 00:01:06,340
+It delivers new articles to you every day
+
+28
+00:01:06,340 --> 00:01:08,760
+to your RSS reader
+
+29
+00:01:08,760 --> 00:01:10,839
+Just like delivering to your mailbox
+
+30
+00:01:10,839 --> 00:01:12,639
+You don't need to jump to other websites
+
+31
+00:01:12,639 --> 00:01:15,350
+You can complete all your article reading right within the reader
+
+32
+00:01:15,350 --> 00:01:17,890
+You can also star mark good articles
+
+33
+00:01:17,890 --> 00:01:19,200
+build your own knowledge base
+
+34
+00:01:19,200 --> 00:01:21,320
+So today in this video I'd like to share how I
+
+35
+00:01:21,320 --> 00:01:24,960
+How to handcraft and deploy this RSS reader
+
+36
+00:01:24,960 --> 00:01:26,940
+How to import information from GitHub
+
+37
+00:01:26,940 --> 00:01:29,800
+how to use it daily, these three aspects to share
+
+38
+00:01:29,800 --> 00:01:33,200
+The tool I use for vibeCODING is Google AI Studio
+
+39
+00:01:33,200 --> 00:01:35,180
+I think it's the most suitable for beginners
+
+40
+00:01:35,180 --> 00:01:37,140
+Because it can help you using natural language
+
+41
+00:01:37,140 --> 00:01:38,700
+you create the tool you want
+
+42
+00:01:38,700 --> 00:01:42,720
+Modifications during the process are also made using natural language, and the final output has a visually appealing front-end interface.
+
+43
+00:01:42,720 --> 00:01:44,700
+After opening Google AI Studio
+
+44
+00:01:44,700 --> 00:01:46,100
+Click on this build
+
+45
+00:01:46,100 --> 00:01:49,300
+build is for creating this type of application, and this area is for development
+
+46
+00:01:49,300 --> 00:01:50,960
+Before we do anything
+
+47
+00:01:50,960 --> 00:01:53,320
+We need to configure the API key first
+
+48
+00:01:53,320 --> 00:01:54,440
+It is essentially a key
+
+49
+00:01:54,440 --> 00:01:57,300
+It can unlock Gemini and all Google
+
+50
+00:01:57,300 --> 00:02:00,600
+a gateway to AI permissions
+
+51
+00:02:00,600 --> 00:02:02,760
+Of course, using this key costs money.
+
+52
+00:02:02,760 --> 00:02:05,550
+every time you call Google's AI functions
+
+53
+00:02:05,550 --> 00:02:07,570
+it will deduct money from your account
+
+54
+00:02:07,570 --> 00:02:08,490
+We click to open
+
+55
+00:02:08,490 --> 00:02:11,520
+Actually, I've already configured an API key here
+
+56
+00:02:11,520 --> 00:02:12,920
+
+
+57
+00:02:12,920 --> 00:02:14,060
+If you want to obtain it
+
+58
+00:02:14,060 --> 00:02:15,440
+If you want to create one
+
+59
+00:02:15,440 --> 00:02:17,560
+There is a 'Create API Key' option in the upper right corner
+
+60
+00:02:17,560 --> 00:02:18,390
+click
+
+61
+00:02:18,390 --> 00:02:19,750
+You can name it
+
+62
+00:02:19,750 --> 00:02:21,850
+Then select the project to import
+
+63
+00:02:21,850 --> 00:02:23,390
+You can create a new project
+
+64
+00:02:23,390 --> 00:02:26,040
+For example, project03, create a project
+
+65
+00:02:26,040 --> 00:02:32,400
+So your API key is under this project, specifically for this reader
+
+66
+00:02:32,400 --> 00:02:34,320
+We create the key
+
+67
+00:02:34,320 --> 00:02:36,460
+Look, this is what we just created
+
+68
+00:02:36,460 --> 00:02:38,140
+Set up billing information for it
+
+69
+00:02:38,140 --> 00:02:40,300
+Because if you design it as a free tier
+
+70
+00:02:40,300 --> 00:02:42,010
+Many features are unavailable to you.
+
+71
+00:02:42,010 --> 00:02:43,590
+Let's set up the payment information
+
+72
+00:02:43,590 --> 00:02:44,810
+Add billing account
+
+73
+00:02:44,810 --> 00:02:46,190
+This is one of Me accounts
+
+74
+00:02:46,190 --> 00:02:47,090
+Settings completed
+
+75
+00:02:47,090 --> 00:02:48,450
+If you just couldn't select
+
+76
+00:02:48,450 --> 00:02:49,920
+like this first in Me
+
+77
+00:02:49,920 --> 00:02:53,520
+because you haven't set up a billing account in the Google Cloud console
+
+78
+00:02:53,520 --> 00:02:55,770
+You need to click on this Google Cloud billing console
+
+79
+00:02:55,770 --> 00:02:57,610
+Look, this is what I created
+
+80
+00:02:57,610 --> 00:02:58,930
+If you don't have an account here
+
+81
+00:02:58,930 --> 00:03:02,400
+You need to click on 'Create Account' first, and as for the payment method
+
+82
+00:03:02,400 --> 00:03:03,820
+You need to add it here
+
+83
+00:03:03,820 --> 00:03:05,290
+Since I've already added it
+
+84
+00:03:05,290 --> 00:03:06,530
+so I'll just submit and
+
+85
+00:03:06,530 --> 00:03:08,190
+Enable the billing function and you're good to go
+
+86
+00:03:08,190 --> 00:03:09,330
+If you don't have one
+
+87
+00:03:09,330 --> 00:03:11,370
+You need to use a Visa card to submit it
+
+88
+00:03:11,370 --> 00:03:12,250
+After the configuration is complete
+
+89
+00:03:12,250 --> 00:03:14,900
+Let's go back to this Google AI Studio
+
+90
+00:03:14,900 --> 00:03:16,140
+back to our build
+
+91
+00:03:16,140 --> 00:03:17,340
+If your English is not particularly good
+
+92
+00:03:17,340 --> 00:03:18,380
+If you want to switch between Chinese and English
+
+93
+00:03:18,380 --> 00:03:19,360
+as usual
+
+94
+00:03:19,360 --> 00:03:22,340
+Click on the immersive translation at the top of this browser
+
+95
+00:03:22,340 --> 00:03:23,500
+Just translate it
+
+96
+00:03:23,500 --> 00:03:24,660
+you'll understand
+
+97
+00:03:24,660 --> 00:03:26,460
+what all this does
+
+98
+00:03:26,460 --> 00:03:29,260
+You just normally input your idea in this 'describe your idea' section
+
+99
+00:03:29,260 --> 00:03:31,040
+Just input what you want it to do
+
+100
+00:03:31,040 --> 00:03:33,720
+I actually wanted it to create a local client at the very beginning
+
+101
+00:03:33,720 --> 00:03:36,160
+so I told Me my computer model
+
+102
+00:03:36,160 --> 00:03:39,020
+as well as my goal, I told him what I wanted to achieve
+
+103
+00:03:39,020 --> 00:03:40,600
+This is my prompt
+
+104
+00:03:40,600 --> 00:03:43,820
+Then he started to think about building the architecture
+
+105
+00:03:43,820 --> 00:03:44,680
+writing code
+
+106
+00:03:44,680 --> 00:03:47,840
+This process will take approximately 3 minutes.
+
+107
+00:03:47,840 --> 00:03:50,960
+Then you will see the Preview on the right side
+
+108
+00:03:50,960 --> 00:03:55,240
+it will display the already built interface, and you can proceed with testing
+
+109
+00:03:55,240 --> 00:03:58,300
+For example, I click this 'upload source' button
+
+110
+00:04:01,419 --> 00:04:03,110
+
+
+111
+00:04:03,110 --> 00:04:04,630
+paste it in here
+
+112
+00:04:04,630 --> 00:04:07,070
+Then you click on each channel
+
+113
+00:04:07,070 --> 00:04:10,430
+You'll find that no content is displayed
+
+114
+00:04:10,430 --> 00:04:12,930
+No content will be displayed even if you click refresh
+
+115
+00:04:12,930 --> 00:04:15,030
+Its functionality currently has some flaws
+
+116
+00:04:15,030 --> 00:04:18,209
+I then described this issue to the AI in the left chat window
+
+117
+00:04:18,209 --> 00:04:20,149
+Continue adjusting and fixing
+
+118
+00:04:20,428 --> 00:04:23,149
+Repeat the previous step to test
+
+119
+00:04:23,149 --> 00:04:28,229
+This time it refreshed and displayed all the content source links.
+
+120
+00:04:28,510 --> 00:04:32,240
+but I noticed many contents are only partially displayed
+
+121
+00:04:32,240 --> 00:04:33,680
+incomplete display
+
+122
+00:04:33,680 --> 00:04:35,400
+I need to click on this view to see the full content
+
+123
+00:04:35,400 --> 00:04:38,410
+original source
+
+124
+00:04:38,410 --> 00:04:39,530
+I don't want this
+
+125
+00:04:39,530 --> 00:04:41,930
+I'll go back to the chat window and tell him
+
+126
+00:04:41,930 --> 00:04:44,850
+I want to directly view it in this reader
+
+127
+00:04:44,850 --> 00:04:45,950
+can see the full content inside
+
+128
+00:04:45,950 --> 00:04:47,910
+Adding two more features would make it more convenient
+
+129
+00:04:47,910 --> 00:04:49,130
+one is AI summarization
+
+130
+00:04:49,130 --> 00:04:50,270
+one is AI chat
+
+131
+00:04:50,270 --> 00:04:52,120
+Soon he had it ready again
+
+132
+00:04:52,120 --> 00:04:54,560
+This time, ensuring all functions work properly while
+
+133
+00:04:54,560 --> 00:04:57,300
+also added an AI summarization feature
+
+134
+00:04:57,300 --> 00:05:01,370
+Click on AI and it will summarize what this article is about
+
+135
+00:05:01,370 --> 00:05:03,860
+but I found its summary incomplete
+
+136
+00:05:03,860 --> 00:05:06,980
+Continue posting this issue in the chat window
+
+137
+00:05:06,980 --> 00:05:08,030
+tell it to modify
+
+138
+00:05:08,030 --> 00:05:10,910
+and send him a screenshot of the problematic part
+
+139
+00:05:10,910 --> 00:05:13,590
+The AI summary feature is working properly now.
+
+140
+00:05:13,590 --> 00:05:17,139
+Additionally, a discuss button has been added.
+
+141
+00:05:17,139 --> 00:05:18,900
+I can discuss in this window with the Gemini-based
+
+142
+00:05:18,900 --> 00:05:23,540
+the model to discuss this article
+
+143
+00:05:23,540 --> 00:05:24,540
+question
+
+144
+00:05:24,540 --> 00:05:26,980
+Now the basic features I wanted are all implemented
+
+145
+00:05:26,980 --> 00:05:29,300
+But the page isn't that aesthetically pleasing yet
+
+146
+00:05:29,300 --> 00:05:31,640
+For example, when I'm chatting with the AI
+
+147
+00:05:31,640 --> 00:05:33,360
+Other windows are taking up too much space
+
+148
+00:05:33,360 --> 00:05:36,720
+I need a button that can collapse unused idle windows.
+
+149
+00:05:36,720 --> 00:05:38,180
+After making the modifications
+
+150
+00:05:38,180 --> 00:05:40,240
+This feature was quickly implemented.
+
+151
+00:05:40,240 --> 00:05:41,720
+In addition to the previous features
+
+152
+00:05:41,720 --> 00:05:43,880
+I also added a translation feature
+
+153
+00:05:43,880 --> 00:05:45,440
+can translate English into Chinese
+
+154
+00:05:45,440 --> 00:05:46,980
+Just click here
+
+155
+00:05:46,980 --> 00:05:49,300
+Because all these recommended by Karpathy
+
+156
+00:05:49,300 --> 00:05:50,880
+the articles are basically all in English
+
+157
+00:05:50,880 --> 00:05:52,409
+we find it a bit difficult to read
+
+158
+00:05:52,409 --> 00:05:54,589
+With this conversion, it becomes much easier to use.
+
+159
+00:05:54,589 --> 00:05:56,769
+But this consumes a lot of TOKENS
+
+160
+00:05:56,769 --> 00:05:58,889
+For example, I tried twice
+
+161
+00:05:58,889 --> 00:06:01,150
+he finally helped me successfully implement this function
+
+162
+00:06:01,150 --> 00:06:03,550
+He implemented some optimization solutions, how smart!
+
+163
+00:06:03,550 --> 00:06:05,350
+You just need to tell him what result you want
+
+164
+00:06:05,350 --> 00:06:06,430
+As for the specific methods, he will figure them out.
+
+165
+00:06:06,430 --> 00:06:07,830
+If you like this article
+
+166
+00:06:07,830 --> 00:06:09,010
+You can click a star
+
+167
+00:06:09,010 --> 00:06:12,809
+You can find it in this starred section
+
+168
+00:06:12,809 --> 00:06:14,069
+you find
+
+169
+00:06:14,069 --> 00:06:17,830
+Then all the articles you've favorited will appear here
+
+170
+00:06:17,830 --> 00:06:19,990
+For example, if I select another article and like this one
+
+171
+00:06:19,990 --> 00:06:21,280
+I'll bookmark it with a star
+
+172
+00:06:21,280 --> 00:06:23,040
+Here are two articles now.
+
+173
+00:06:23,040 --> 00:06:26,040
+Over time, these will all be articles you like
+
+174
+00:06:26,040 --> 00:06:29,120
+You can periodically organize and summarize it
+
+175
+00:06:29,120 --> 00:06:31,560
+as well as sharing your thoughts
+
+176
+00:06:31,560 --> 00:06:34,110
+You can store it here as your own Knowledge base.
+
+177
+00:06:34,110 --> 00:06:36,510
+Because this tool was just developed today,
+
+178
+00:06:36,510 --> 00:06:38,110
+More features can be added in the future
+
+179
+00:06:38,110 --> 00:06:40,900
+For example, all the content you've starred
+
+180
+00:06:40,900 --> 00:06:42,540
+aggregate into a single window
+
+181
+00:06:42,540 --> 00:06:44,010
+Generate a new article
+
+182
+00:06:44,010 --> 00:06:46,930
+With AI, all these functions can be achieved.
+
+183
+00:06:46,930 --> 00:06:52,250
+Finally, it's time for deployment. Here, there's a symbol that looks like a clock.
+
+184
+00:06:52,250 --> 00:06:55,230
+Click on this, and you can see all the historical versions
+
+185
+00:06:55,230 --> 00:06:56,470
+a few hours ago
+
+186
+00:06:56,470 --> 00:06:57,990
+what changes you asked it to make
+
+187
+00:06:57,990 --> 00:06:59,220
+It's all saved here
+
+188
+00:06:59,220 --> 00:07:00,680
+If you find that things have gotten messed up
+
+189
+00:07:00,680 --> 00:07:02,380
+you want to return to the previous version
+
+190
+00:07:02,380 --> 00:07:05,080
+then you can use this feature to perform the rollback
+
+191
+00:07:05,080 --> 00:07:06,320
+If you want to deploy it,
+
+192
+00:07:06,320 --> 00:07:07,780
+For You
+
+193
+00:07:07,780 --> 00:07:08,620
+If you're a beginner
+
+194
+00:07:08,620 --> 00:07:10,180
+you want to boost your confidence
+
+195
+00:07:10,180 --> 00:07:13,320
+just use Google's native, built-in deployment app
+
+196
+00:07:13,320 --> 00:07:15,090
+Click to select a project
+
+197
+00:07:15,090 --> 00:07:18,030
+Because I've already deployed it once before.
+
+198
+00:07:18,030 --> 00:07:19,470
+If I want to redeploy it again
+
+199
+00:07:19,470 --> 00:07:22,849
+I'll click this re-deploy APP
+
+200
+00:07:22,849 --> 00:07:24,740
+Then it will redeploy for me again
+
+201
+00:07:24,740 --> 00:07:27,940
+Actually, deploying on Google has both advantages and disadvantages
+
+202
+00:07:27,940 --> 00:07:30,850
+The advantage is simplicity—it's a one-click deployment.
+
+203
+00:07:30,850 --> 00:07:36,230
+You don't need to worry about your API being exposed on the website and being taken by others
+
+204
+00:07:36,230 --> 00:07:37,350
+and consume your credits
+
+205
+00:07:37,350 --> 00:07:38,550
+It is highly secure
+
+206
+00:07:38,550 --> 00:07:40,110
+Google has a security system
+
+207
+00:07:40,110 --> 00:07:41,510
+is to protect your API
+
+208
+00:07:41,510 --> 00:07:44,520
+The downside is, you can't switch to other large models
+
+209
+00:07:44,520 --> 00:07:46,180
+All the features we are currently developing
+
+210
+00:07:46,180 --> 00:07:48,760
+are all based on the Gemini model
+
+211
+00:07:48,760 --> 00:07:50,220
+But if you want to switch to Claude
+
+212
+00:07:50,220 --> 00:07:51,780
+You can't switch to OpenAI
+
+213
+00:07:51,780 --> 00:07:54,150
+Because it's a pre-packaged system
+
+214
+00:07:54,150 --> 00:07:55,870
+That's why Google made it easy
+
+215
+00:07:55,870 --> 00:07:57,150
+you're relying on its model
+
+216
+00:07:57,150 --> 00:07:59,090
+it won't be easy for you to switch later
+
+217
+00:07:59,090 --> 00:08:00,270
+For us beginners
+
+218
+00:08:00,270 --> 00:08:01,960
+We just want to practice first
+
+219
+00:08:01,960 --> 00:08:03,400
+Get it done first
+
+220
+00:08:03,400 --> 00:08:05,600
+so we just use whatever is simplest to get it done first
+
+221
+00:08:05,600 --> 00:08:07,320
+and then gradually explore those more complex ones
+
+222
+00:08:07,320 --> 00:08:09,370
+
+
+223
+00:08:09,370 --> 00:08:13,690
+then enter this URL in the browser address bar
+
+224
+00:08:13,690 --> 00:08:14,730
+This way you can get in
+
+225
+00:08:14,730 --> 00:08:15,390
+this URL
+
+226
+00:08:15,390 --> 00:08:17,690
+So when you want to use this again in the future
+
+227
+00:08:17,690 --> 00:08:19,730
+
+
+228
+00:08:19,730 --> 00:08:21,210
+without having to go into Google AI Studio every time
+
+229
+00:08:21,210 --> 00:08:24,030
+press a bunch of buttons to open it
+
+230
+00:08:24,030 --> 00:08:24,950
+it's quite convenient
+
+231
+00:08:24,950 --> 00:08:27,520
+Remember to like, favorite, share and Follow!
+

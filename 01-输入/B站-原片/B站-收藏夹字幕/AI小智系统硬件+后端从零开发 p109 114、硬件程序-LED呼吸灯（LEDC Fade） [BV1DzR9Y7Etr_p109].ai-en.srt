@@ -1,0 +1,1472 @@
+1
+00:00:01,320 --> 00:00:04,320
+Alright, in this lesson, we're going to talk about the breathing light.
+
+2
+00:00:04,320 --> 00:00:06,160
+That is, the gradual change of an LED.
+
+3
+00:00:06,160 --> 00:00:08,709
+In the case of STM32,
+
+4
+00:00:08,709 --> 00:00:11,169
+we need to manually control it through the M4
+
+5
+00:00:11,169 --> 00:00:13,149
+CPU using a program,
+
+6
+00:00:13,149 --> 00:00:13,589
+to run it.
+
+7
+00:00:13,589 --> 00:00:15,480
+This requires some of the CPU's time.
+
+8
+00:00:15,480 --> 00:00:17,320
+However, with the ESP32,
+
+9
+00:00:17,320 --> 00:00:18,600
+it has a built-in LEDC feature.
+
+10
+00:00:18,600 --> 00:00:20,660
+There's one called gradient
+
+11
+00:00:20,660 --> 00:00:22,320
+Hardware gradient is a hardware gradient
+
+12
+00:00:22,320 --> 00:00:25,950
+It transitions without the need for our CPU to get involved
+
+13
+00:00:25,950 --> 00:00:29,100
+Once the interface is completed, it generates an interrupt
+
+14
+00:00:29,100 --> 00:00:31,940
+For example, we can use this method
+
+15
+00:00:31,940 --> 00:00:33,660
+First, let's add this method
+
+16
+00:00:33,660 --> 00:00:36,220
+In this
+
+17
+00:00:37,300 --> 00:00:39,140
+In the LD dot H file
+
+18
+00:00:39,140 --> 00:00:40,960
+We add this method in
+
+19
+00:00:40,960 --> 00:00:42,280
+Let's take a look.
+
+20
+00:00:42,280 --> 00:00:44,100
+This is quite simple.
+
+21
+00:00:56,900 --> 00:01:00,020
+Here, we aim to unify all our LED controls.
+
+22
+00:01:00,020 --> 00:01:01,700
+All of these functions are required.
+
+23
+00:01:01,700 --> 00:01:03,140
+If not, just leave it blank.
+
+24
+00:01:03,140 --> 00:01:05,150
+Just leave it empty if that's the case.
+
+25
+00:01:05,150 --> 00:01:07,430
+We don't have anything here.
+
+26
+00:01:07,430 --> 00:01:08,470
+The LED is set up like this.
+
+27
+00:01:08,470 --> 00:01:11,040
+The same goes for other LEDs.
+
+28
+00:01:11,040 --> 00:01:12,280
+Without these controls
+
+29
+00:01:12,280 --> 00:01:14,840
+you can just leave the function control blank
+
+30
+00:01:14,840 --> 00:01:15,840
+Now, let's take a look
+
+31
+00:01:15,840 --> 00:01:19,820
+at how we implement the start of the gradient method
+
+32
+00:01:19,820 --> 00:01:22,080
+First, this is where we start the gradient
+
+33
+00:01:22,080 --> 00:01:26,990
+going from off to the brightest
+
+34
+00:01:26,990 --> 00:01:28,270
+The brightest value
+
+35
+00:01:28,270 --> 00:01:29,250
+We can set it up.
+
+36
+00:01:29,250 --> 00:01:30,190
+from 0 to 100
+
+37
+00:01:30,190 --> 00:01:32,680
+We can set this parameter through this.
+
+38
+00:01:32,680 --> 00:01:36,190
+Or you can make it gradually reach 80% and then stop.
+
+39
+00:01:36,190 --> 00:01:37,290
+Breathe to 80%.
+
+40
+00:01:37,290 --> 00:01:39,410
+Then it starts to decrease, right?
+
+41
+00:01:39,410 --> 00:01:40,200
+This works too.
+
+42
+00:01:40,200 --> 00:01:42,560
+This one here refers to the number of interface cycles.
+
+43
+00:01:42,560 --> 00:01:45,640
+That is, you can use this value to set
+
+44
+00:01:45,640 --> 00:01:48,760
+how many times it breathes, right?
+
+45
+00:01:48,760 --> 00:01:49,400
+How many times it breathes.
+
+46
+00:01:49,400 --> 00:01:52,289
+But this breath goes from dark to light
+
+47
+00:01:52,289 --> 00:01:53,729
+and then from light to dark
+
+48
+00:01:53,729 --> 00:01:55,309
+This counts as one breath
+
+49
+00:01:55,309 --> 00:01:59,810
+Then, this is the duration of our breath
+
+50
+00:01:59,810 --> 00:02:03,100
+that is, how long it takes to go from dark to light
+
+51
+00:02:03,100 --> 00:02:04,980
+and how long it takes to go from light to dark
+
+52
+00:02:04,980 --> 00:02:06,680
+This is the same duration for both
+
+53
+00:02:06,680 --> 00:02:09,720
+And this point is our gradual transition
+
+54
+00:02:09,720 --> 00:02:11,320
+from light
+
+55
+00:02:11,320 --> 00:02:14,060
+Whether it's transitioning from dark to light or from light to dark on the interface
+
+56
+00:02:14,060 --> 00:02:17,660
+We usually start with a transition from dark to light, right?
+
+57
+00:02:17,660 --> 00:02:20,200
+So let's set it to this.
+
+58
+00:02:20,200 --> 00:02:21,100
+Setting it to true will do
+
+59
+00:02:21,100 --> 00:02:23,830
+If set to true, it will go upwards.
+
+60
+00:02:23,830 --> 00:02:25,290
+From dark to light
+
+61
+00:02:25,290 --> 00:02:27,230
+And this is the stop screen
+
+62
+00:02:27,230 --> 00:02:30,240
+This is our method
+
+63
+00:02:30,240 --> 00:02:33,740
+Then we need to add some member variables
+
+64
+00:02:33,740 --> 00:02:36,960
+We'll place this member variable here.
+
+65
+00:02:36,960 --> 00:02:37,960
+Let's add it here.
+
+66
+00:02:37,960 --> 00:02:40,000
+We'll copy this over.
+
+67
+00:02:40,000 --> 00:02:42,920
+First, we'll reuse this method.
+
+68
+00:02:42,920 --> 00:02:43,560
+Override it.
+
+69
+00:02:43,560 --> 00:02:46,220
+We'll write our method in this public section, which is currently empty.
+
+70
+00:02:46,220 --> 00:02:49,390
+Then we'll select the member variable and move it to the private section.
+
+71
+00:02:49,390 --> 00:02:52,770
+I'll also copy this member variable over.
+
+72
+00:02:53,350 --> 00:02:54,310
+And place it here.
+
+73
+00:02:56,910 --> 00:02:57,510
+Let's take a look.
+
+74
+00:02:57,510 --> 00:02:59,870
+This is about adding a header file.
+
+75
+00:03:00,079 --> 00:03:02,239
+This is our mutex lock.
+
+76
+00:03:02,239 --> 00:03:03,619
+Because when we operate,
+
+77
+00:03:03,619 --> 00:03:05,860
+on the same LED, right?
+
+78
+00:03:05,860 --> 00:03:06,920
+This is the hardware resource.
+
+79
+00:03:06,920 --> 00:03:10,380
+There are multiple threads operating on the same resource, right?
+
+80
+00:03:10,380 --> 00:03:12,739
+So we need to add a mutex lock to manage it.
+
+81
+00:03:12,739 --> 00:03:14,279
+And this is the breathing rate.
+
+82
+00:03:14,279 --> 00:03:15,239
+We need to record it here
+
+83
+00:03:15,239 --> 00:03:17,379
+It's the setting you access through here.
+
+84
+00:03:17,379 --> 00:03:18,479
+These are the breath counts, right?
+
+85
+00:03:18,479 --> 00:03:19,820
+We need to record it here
+
+86
+00:03:19,820 --> 00:03:20,380
+Then
+
+87
+00:03:20,380 --> 00:03:22,980
+This is the highest brightness value for the breath
+
+88
+00:03:22,980 --> 00:03:23,740
+Duty cycle
+
+89
+00:03:23,740 --> 00:03:26,100
+Here we directly calculate and save it as a slingshot ratio
+
+90
+00:03:26,100 --> 00:03:28,380
+Because we ultimately set the duty cycle
+
+91
+00:03:28,380 --> 00:03:31,340
+We input a percentage of brightness, right?
+
+92
+00:03:31,340 --> 00:03:34,839
+So, for user convenience, we use percentages.
+
+93
+00:03:34,839 --> 00:03:36,560
+But in practice, we also need to pass it as a single value.
+
+94
+00:03:36,560 --> 00:03:39,040
+When you go into the settings, do you need to use a single brush stroke?
+
+95
+00:03:39,040 --> 00:03:42,470
+And here, it indicates whether it's turned on to bright.
+
+96
+00:03:42,470 --> 00:03:43,950
+If it goes from dim to bright, it's true, right?
+
+97
+00:03:43,950 --> 00:03:46,590
+Initially, the default is set to turn on to bright, isn't it?
+
+98
+00:03:46,590 --> 00:03:49,350
+Then, the breathing time is from dim to bright.
+
+99
+00:03:49,350 --> 00:03:51,520
+And from bright to dim.
+
+100
+00:03:51,520 --> 00:03:54,200
+Once we have this member variable set up,
+
+101
+00:03:54,200 --> 00:03:55,540
+let's write the method.
+
+102
+00:03:55,540 --> 00:03:58,149
+Before writing the method, we need to initialize.
+
+103
+00:03:58,149 --> 00:03:59,149
+How do we initialize?
+
+104
+00:03:59,149 --> 00:04:00,949
+We can simply copy this over, it’s pretty straightforward.
+
+105
+00:04:00,949 --> 00:04:03,960
+It’s all about calling the API.
+
+106
+00:04:03,960 --> 00:04:04,740
+There’s no real challenge there.
+
+107
+00:04:04,740 --> 00:04:05,840
+You don’t need to memorize this.
+
+108
+00:04:05,840 --> 00:04:07,380
+This is just a static part.
+
+109
+00:04:07,380 --> 00:04:08,880
+You just need to write it once
+
+110
+00:04:08,880 --> 00:04:11,930
+and you can come over and copy it later.
+
+111
+00:04:12,690 --> 00:04:13,490
+Let's take a look.
+
+112
+00:04:13,490 --> 00:04:16,029
+First, install the LEDC fade service
+
+113
+00:04:16,029 --> 00:04:17,610
+Then, the value passed in
+
+114
+00:04:17,610 --> 00:04:19,709
+usually passing zero means
+
+115
+00:04:19,709 --> 00:04:21,550
+if you're interested, you can learn more about it
+
+116
+00:04:21,550 --> 00:04:25,490
+here, it's about how you decide
+
+117
+00:04:25,490 --> 00:04:28,450
+how its callback function is based on
+
+118
+00:04:28,450 --> 00:04:33,030
+For example, if you want to base it on the hardware ISR interrupt,
+
+119
+00:04:33,030 --> 00:04:37,310
+then you must place this callback function,
+
+120
+00:04:37,310 --> 00:04:41,670
+in what's called the i ram,
+
+121
+00:04:41,670 --> 00:04:43,750
+which means in the designated ram,
+
+122
+00:04:43,750 --> 00:04:44,990
+otherwise,
+
+123
+00:04:44,990 --> 00:04:49,350
+since ISR has strict requirements,
+
+124
+00:04:49,350 --> 00:04:52,429
+you cannot introduce delays in the interrupt callback,
+
+125
+00:04:52,429 --> 00:04:53,889
+meaning there should be no delays,
+
+126
+00:04:53,889 --> 00:04:57,110
+and ISR is a hardware interrupt.
+
+127
+00:04:57,110 --> 00:05:00,330
+It's not like a regular task interruption.
+
+128
+00:05:00,330 --> 00:05:01,270
+When a task is interrupted,
+
+129
+00:05:01,270 --> 00:05:02,630
+you are operating normally.
+
+130
+00:05:02,630 --> 00:05:06,690
+Then your ISR might be in what's called sleep mode.
+
+131
+00:05:06,690 --> 00:05:08,410
+Sleep mode can also generate interruptions.
+
+132
+00:05:08,410 --> 00:05:10,430
+For example, if an interruption occurs in sleep mode,
+
+133
+00:05:10,430 --> 00:05:13,010
+if your code is not inside the ISR,
+
+134
+00:05:13,010 --> 00:05:15,600
+if it's in the flash memory,
+
+135
+00:05:15,600 --> 00:05:16,860
+the flash will be in sleep mode too.
+
+136
+00:05:16,860 --> 00:05:17,940
+You won't be able to call it there.
+
+137
+00:05:17,940 --> 00:05:19,740
+So your system might crash.
+
+138
+00:05:19,740 --> 00:05:21,340
+If we pass in zero here,
+
+139
+00:05:21,340 --> 00:05:23,660
+it can be excluded from the IS to R.
+
+140
+00:05:23,660 --> 00:05:25,350
+But it will issue a warning later.
+
+141
+00:05:25,350 --> 00:05:26,510
+We can follow this.
+
+142
+00:05:26,510 --> 00:05:28,990
+And this is our interface here,
+
+143
+00:05:28,990 --> 00:05:30,790
+First, this is uh,
+
+144
+00:05:30,790 --> 00:05:33,130
+equivalent to installing our LED interface service.
+
+145
+00:05:33,130 --> 00:05:37,460
+Then, this is where we set up our callback.
+
+146
+00:05:37,460 --> 00:05:38,640
+This callback function
+
+147
+00:05:38,640 --> 00:05:41,580
+is written using a lambda expression.
+
+148
+00:05:41,580 --> 00:05:45,400
+The prototype for this callback is here.
+
+149
+00:05:45,400 --> 00:05:45,960
+You can take a look.
+
+150
+00:05:45,960 --> 00:05:46,560
+It looks like this:
+
+151
+00:05:46,560 --> 00:05:48,160
+It returns a boolean.
+
+152
+00:05:48,160 --> 00:05:50,040
+And the parameter passed in is this single item.
+
+153
+00:05:50,040 --> 00:05:52,820
+This refers to our object.
+
+154
+00:05:52,820 --> 00:05:54,320
+Let's take a look then.
+
+155
+00:05:54,320 --> 00:05:57,920
+Here, we've converted it into this.
+
+156
+00:05:57,920 --> 00:05:59,220
+We force the conversion here.
+
+157
+00:05:59,220 --> 00:06:01,680
+Then, the LED can be called here.
+
+158
+00:06:01,680 --> 00:06:03,540
+We need to use the number of times we mentioned earlier, right?
+
+159
+00:06:03,540 --> 00:06:06,040
+That number is the number of times it blinks.
+
+160
+00:06:06,040 --> 00:06:07,220
+It's also the number of times for the fading effect.
+
+161
+00:06:07,220 --> 00:06:08,409
+Or the number of times for the breathing effect.
+
+162
+00:06:08,409 --> 00:06:12,960
+For this session, when setting it up,
+
+163
+00:06:12,960 --> 00:06:15,360
+Later, when we check the settings, we'll multiply it by two.
+
+164
+00:06:15,360 --> 00:06:17,540
+That means we just need to subtract here.
+
+165
+00:06:17,540 --> 00:06:19,840
+Subtract once every time we enter.
+
+166
+00:06:19,840 --> 00:06:20,740
+When we subtract once,
+
+167
+00:06:20,740 --> 00:06:23,500
+we check if it equals zero here.
+
+168
+00:06:23,500 --> 00:06:25,400
+If it does, we just stop, right?
+
+169
+00:06:25,400 --> 00:06:27,140
+If it doesn't equal zero,
+
+170
+00:06:27,140 --> 00:06:29,940
+we'll just flip it around.
+
+171
+00:06:29,940 --> 00:06:30,520
+Flip it around.
+
+172
+00:06:30,520 --> 00:06:32,579
+Just now it was from dark to light
+
+173
+00:06:32,579 --> 00:06:33,879
+Now it's from dark
+
+174
+00:06:33,879 --> 00:06:34,539
+to light, right?
+
+175
+00:06:34,539 --> 00:06:36,759
+This is where you set it up by calling this method
+
+176
+00:06:36,759 --> 00:06:39,100
+to handle it here
+
+177
+00:06:39,100 --> 00:06:41,950
+the speed is passed in beforehand
+
+178
+00:06:41,950 --> 00:06:43,830
+the speed mode and its channel are fine
+
+179
+00:06:43,830 --> 00:06:45,150
+and the reason is passed afterward
+
+180
+00:06:45,150 --> 00:06:48,830
+Are you going from dark to light or from light to dark now?
+
+181
+00:06:48,830 --> 00:06:52,310
+Here, we're not talking about that.
+
+182
+00:06:52,310 --> 00:06:54,550
+If we're transitioning from dark to light here,
+
+183
+00:06:54,550 --> 00:06:57,980
+you need to determine your final destination.
+
+184
+00:06:57,980 --> 00:06:59,680
+This is about setting its target value.
+
+185
+00:06:59,680 --> 00:07:01,380
+This is where you set the target value
+
+186
+00:07:01,380 --> 00:07:04,860
+So if you're transitioning from dark to light,
+
+187
+00:07:04,860 --> 00:07:06,620
+your goal is to achieve brightness.
+
+188
+00:07:06,620 --> 00:07:09,330
+When it comes to brightness, you can see the measurement.
+
+189
+00:07:09,330 --> 00:07:12,230
+The target duty cycle is what we're aiming for, right?
+
+190
+00:07:12,230 --> 00:07:13,610
+If we're talking about going from bright to dark
+
+191
+00:07:13,610 --> 00:07:14,810
+your target value is zero
+
+192
+00:07:14,810 --> 00:07:15,970
+we default to zero here
+
+193
+00:07:15,970 --> 00:07:18,900
+of course, you can also stop breathing when it's not zero
+
+194
+00:07:18,900 --> 00:07:21,340
+but generally, we breathe down to zero, right?
+
+195
+00:07:21,340 --> 00:07:24,750
+then this person inputs the time into the system
+
+196
+00:07:24,750 --> 00:07:26,299
+the breathing time is inputted
+
+197
+00:07:26,299 --> 00:07:28,279
+and the hardware controls it for us
+
+198
+00:07:28,279 --> 00:07:30,119
+and then it starts again, right?
+
+199
+00:07:30,119 --> 00:07:31,239
+Let's start the next round.
+
+200
+00:07:31,239 --> 00:07:32,760
+Is this inside the callback?
+
+201
+00:07:32,760 --> 00:07:34,960
+What we need to do in the callback is
+
+202
+00:07:34,960 --> 00:07:37,120
+to move on to the next breathing cycle, right?
+
+203
+00:07:37,120 --> 00:07:39,680
+So we do it this way here.
+
+204
+00:07:39,680 --> 00:07:41,180
+Just now it was from dark to light.
+
+205
+00:07:41,180 --> 00:07:43,100
+So now it will be from light to dark.
+
+206
+00:07:43,100 --> 00:07:45,700
+Then we just call it to start the breathing process.
+
+207
+00:07:45,700 --> 00:07:48,500
+The value passed in is in a non-blocking manner.
+
+208
+00:07:48,500 --> 00:07:49,720
+There's no need to wait here.
+
+209
+00:07:49,720 --> 00:07:51,060
+Since this is hardware-related,
+
+210
+00:07:51,060 --> 00:07:52,550
+There's no need to wait here either.
+
+211
+00:07:52,550 --> 00:07:54,380
+The discount will be interrupted shortly.
+
+212
+00:07:54,380 --> 00:07:57,220
+Then, this is where we register our callback function.
+
+213
+00:07:57,220 --> 00:07:57,980
+Register it directly.
+
+214
+00:07:57,980 --> 00:07:59,700
+Then pass the callback in.
+
+215
+00:07:59,700 --> 00:08:01,340
+And pass this in as well.
+
+216
+00:08:01,340 --> 00:08:02,450
+That's it.
+
+217
+00:08:02,450 --> 00:08:03,690
+This is our initialization.
+
+218
+00:08:03,690 --> 00:08:04,310
+Just like this.
+
+219
+00:08:04,310 --> 00:08:06,690
+Then let's implement this method.
+
+220
+00:08:06,690 --> 00:08:10,169
+We'll just copy this method over.
+
+221
+00:08:10,489 --> 00:08:13,309
+Here, let's implement it directly.
+
+222
+00:08:13,309 --> 00:08:14,349
+First off,
+
+223
+00:08:14,349 --> 00:08:18,820
+The first one is the start of this breathing process.
+
+224
+00:08:18,820 --> 00:08:21,840
+The parameters passed in are the ones we discussed earlier.
+
+225
+00:08:21,840 --> 00:08:22,400
+The parameters passed in are
+
+226
+00:08:22,400 --> 00:08:25,260
+Then let's add this
+
+227
+00:08:26,260 --> 00:08:27,480
+import it
+
+228
+00:08:27,480 --> 00:08:29,100
+compile it
+
+229
+00:08:31,200 --> 00:08:32,140
+let's take a look
+
+230
+00:08:32,140 --> 00:08:33,840
+we added a lock here, right?
+
+231
+00:08:33,840 --> 00:08:34,679
+didn't we add a lock?
+
+232
+00:08:34,679 --> 00:08:36,299
+let's see where it's showing an error
+
+233
+00:08:36,299 --> 00:08:38,200
+oh, it's showing an error here
+
+234
+00:08:38,200 --> 00:08:40,840
+it might be that the header file is missing
+
+235
+00:08:40,840 --> 00:08:42,320
+Because this initial setting is only added here
+
+236
+00:08:42,320 --> 00:08:44,600
+So LDC has already been added
+
+237
+00:08:44,600 --> 00:08:47,050
+Which means the initial setting added earlier was incorrect
+
+238
+00:08:47,050 --> 00:08:48,510
+So I removed it
+
+239
+00:08:48,510 --> 00:08:49,370
+Now let's take a look
+
+240
+00:08:49,370 --> 00:08:51,920
+This is where we start this uh
+
+241
+00:08:51,920 --> 00:08:54,120
+This is where we start the breathing process
+
+242
+00:08:54,120 --> 00:08:55,760
+First, we need to stop this
+
+243
+00:08:55,760 --> 00:08:57,700
+We need to stop the previous one
+
+244
+00:08:57,700 --> 00:08:59,920
+Of course, we need to acquire the lock first, right?
+
+245
+00:08:59,920 --> 00:09:02,160
+After we get the lock,
+
+246
+00:09:02,160 --> 00:09:05,280
+we need to stop any ongoing breathing process if there was one before,
+
+247
+00:09:05,280 --> 00:09:06,480
+we need to stop it.
+
+248
+00:09:06,480 --> 00:09:09,200
+Then, here in the settings, save this.
+
+249
+00:09:09,200 --> 00:09:10,840
+We save our target value,
+
+250
+00:09:10,840 --> 00:09:12,460
+which is the brightness level of your breathing,
+
+251
+00:09:12,460 --> 00:09:15,020
+and save the target brightness level, right?
+
+252
+00:09:15,020 --> 00:09:17,140
+When saving, it directly stores the duty cycle.
+
+253
+00:09:17,140 --> 00:09:19,670
+Similarly, we need to subtract one from this spot as well.
+
+254
+00:09:26,160 --> 00:09:30,400
+Then, this part here is our
+
+255
+00:09:31,760 --> 00:09:33,780
+We multiply the number of times by two.
+
+256
+00:09:33,780 --> 00:09:36,520
+It's like transitioning from light to dark,
+
+257
+00:09:36,520 --> 00:09:37,420
+then back to light again.
+
+258
+00:09:37,420 --> 00:09:38,540
+Then we count it as one breath.
+
+259
+00:09:38,540 --> 00:09:39,340
+But if you keep pressing,
+
+260
+00:09:39,340 --> 00:09:42,060
+it's like you're transitioning from light to dark,
+
+261
+00:09:42,060 --> 00:09:45,180
+or pressing the light to count it as two, right?
+
+262
+00:09:45,180 --> 00:09:47,700
+Usually, we calculate it once, right?
+
+263
+00:09:47,700 --> 00:09:49,380
+This is kind of like a cycle.
+
+264
+00:09:49,380 --> 00:09:51,700
+Then, this way, everyone's timing is saved.
+
+265
+00:09:51,700 --> 00:09:54,319
+And then, its
+
+266
+00:09:54,319 --> 00:09:57,099
+our breathing direction, right?
+
+267
+00:09:57,099 --> 00:09:59,119
+Then here, we start breathing.
+
+268
+00:09:59,119 --> 00:10:02,670
+The settings in the callback are the same as the ones just mentioned.
+
+269
+00:10:02,670 --> 00:10:04,550
+This is our starting point.
+
+270
+00:10:04,550 --> 00:10:06,330
+And stopping is pretty simple too.
+
+271
+00:10:06,330 --> 00:10:08,250
+Once you get the lock, just stop.
+
+272
+00:10:08,250 --> 00:10:10,410
+Call this method with these values.
+
+273
+00:10:10,410 --> 00:10:14,550
+Let's test this test code as well.
+
+274
+00:10:14,550 --> 00:10:16,090
+Another thing is this part.
+
+275
+00:10:16,090 --> 00:10:19,450
+We also need to acquire the lock here.
+
+276
+00:10:19,450 --> 00:10:21,630
+We need to acquire the lock in this section.
+
+277
+00:10:21,630 --> 00:10:22,770
+Right here.
+
+278
+00:10:22,770 --> 00:10:25,330
+If we want to close, we definitely need to acquire the lock first.
+
+279
+00:10:25,330 --> 00:10:28,770
+Then stop the breathing light before closing.
+
+280
+00:10:28,770 --> 00:10:29,440
+That's how it is.
+
+281
+00:10:29,440 --> 00:10:31,080
+And opening it is the same process.
+
+282
+00:10:31,080 --> 00:10:31,820
+Start with the breath lock.
+
+283
+00:10:31,820 --> 00:10:35,790
+First, stop the breath light, and then turn it on.
+
+284
+00:10:35,790 --> 00:10:37,850
+Adjusting the brightness follows the same method.
+
+285
+00:10:37,850 --> 00:10:40,170
+All these require using the lock function.
+
+286
+00:10:40,170 --> 00:10:41,830
+This is the hardware resource.
+
+287
+00:10:42,250 --> 00:10:46,300
+After we've made the changes,
+
+288
+00:10:46,300 --> 00:10:47,420
+let's test it out.
+
+289
+00:10:47,420 --> 00:10:48,300
+How do we test it?
+
+290
+00:10:48,300 --> 00:10:49,520
+It's just as simple.
+
+291
+00:10:49,520 --> 00:10:52,120
+Inside the CPP section of this app,
+
+292
+00:10:52,120 --> 00:10:54,260
+In the run method,
+
+293
+00:10:55,760 --> 00:10:59,020
+We were gradually changing the variable just now,
+
+294
+00:10:59,020 --> 00:11:02,260
+That's just testing its brightness setting.
+
+295
+00:11:02,260 --> 00:11:04,440
+Now let's comment out this method,
+
+296
+00:11:04,440 --> 00:11:09,480
+Here we'll directly use this to get the LED after,
+
+297
+00:11:09,480 --> 00:11:11,630
+Start the breathing input
+
+298
+00:11:11,630 --> 00:11:14,960
+This is the brightest level you can breathe to.
+
+299
+00:11:14,960 --> 00:11:17,160
+We'll set the brightest at 100%, okay?
+
+300
+00:11:17,160 --> 00:11:19,569
+And this represents our breathing rate.
+
+301
+00:11:19,569 --> 00:11:21,529
+This is 200 milliseconds.
+
+302
+00:11:21,529 --> 00:11:24,030
+It takes 200 milliseconds from pressing to lighting up.
+
+303
+00:11:24,030 --> 00:11:25,370
+And 200 milliseconds from bright to dim.
+
+304
+00:11:25,370 --> 00:11:26,750
+Of course, that's quite fast.
+
+305
+00:11:26,750 --> 00:11:27,850
+I'll set it to 500.
+
+306
+00:11:27,850 --> 00:11:30,480
+And this is our setting, right?
+
+307
+00:11:30,480 --> 00:11:32,760
+So, he did it online
+
+308
+00:11:32,760 --> 00:11:34,940
+The first time was for online review, right?
+
+309
+00:11:34,940 --> 00:11:35,960
+From dark to light
+
+310
+00:11:35,960 --> 00:11:38,940
+Now let's download it and take a look.
+
+311
+00:11:40,060 --> 00:11:41,710
+Alright, let's check out the result
+
+312
+00:11:41,710 --> 00:11:45,010
+This effect is completely different from the previous one, it's like a breathing effect
+
+313
+00:11:45,010 --> 00:11:46,070
+This is a gradient
+
+314
+00:11:46,070 --> 00:11:48,110
+It's a very smooth gradient
+
+315
+00:11:48,110 --> 00:11:51,199
+We just followed this step, right
+
+316
+00:11:51,199 --> 00:11:52,959
+It's ten 10% increments of brightness
+
+317
+00:11:52,959 --> 00:11:54,879
+So, it jumps quite severely, right?
+
+318
+00:11:54,879 --> 00:11:56,619
+Now, it's very smooth
+
+319
+00:11:56,619 --> 00:11:58,279
+Let's watch it again
+
+320
+00:12:00,900 --> 00:12:01,420
+Right?
+
+321
+00:12:01,420 --> 00:12:02,440
+It goes from dark to light
+
+322
+00:12:02,440 --> 00:12:03,460
+Then from light to dark
+
+323
+00:12:03,460 --> 00:12:04,500
+You can count them
+
+324
+00:12:04,500 --> 00:12:05,320
+It's five times
+
+325
+00:12:05,320 --> 00:12:06,780
+You can set it up five times here.
+
+326
+00:12:06,780 --> 00:12:08,260
+We set it to five times, didn't we?
+
+327
+00:12:08,260 --> 00:12:09,980
+You can set it multiple times, no problem.
+
+328
+00:12:09,980 --> 00:12:12,240
+This is essentially the way a breathing light works
+
+329
+00:12:12,240 --> 00:12:14,400
+It’s handled by the hardware
+
+330
+00:12:14,400 --> 00:12:15,720
+Let’s go over it again
+
+331
+00:12:15,720 --> 00:12:17,840
+The principle here is quite simple
+
+332
+00:12:17,840 --> 00:12:21,160
+Writing the code for this is actually quite straightforward
+
+333
+00:12:21,160 --> 00:12:22,990
+It’s relatively simple for us
+
+334
+00:12:22,990 --> 00:12:25,210
+First, you register this service, right
+
+335
+00:12:25,210 --> 00:12:27,670
+The breathing flash
+
+336
+00:12:27,670 --> 00:12:29,830
+This is called the gradient service
+
+337
+00:12:29,830 --> 00:12:32,510
+Then we register a callback function
+
+338
+00:12:32,510 --> 00:12:34,500
+Because after the breathing completes
+
+339
+00:12:34,500 --> 00:12:37,280
+We just set it up for one time.
+
+340
+00:12:37,280 --> 00:12:40,849
+This place has just set the start of a gradient
+
+341
+00:12:40,849 --> 00:12:42,609
+The gradient reaches its target value
+
+342
+00:12:42,609 --> 00:12:45,069
+Here, didn't we set the duty cycle for this target?
+
+343
+00:12:45,069 --> 00:12:46,689
+After setting this up,
+
+344
+00:12:46,689 --> 00:12:47,989
+It generates an interrupt
+
+345
+00:12:47,989 --> 00:12:49,520
+It calls this function
+
+346
+00:12:49,520 --> 00:12:50,640
+From here
+
+347
+00:12:50,640 --> 00:12:52,730
+We determine what event it is
+
+348
+00:12:52,730 --> 00:12:55,250
+After the event is the end event
+
+349
+00:12:55,250 --> 00:12:56,970
+We get our LED object
+
+350
+00:12:56,970 --> 00:13:00,560
+Then we decrement the breathing count
+
+351
+00:13:00,560 --> 00:13:01,620
+After decrementing
+
+352
+00:13:01,620 --> 00:13:03,120
+If it equals zero
+
+353
+00:13:03,120 --> 00:13:04,240
+It stops directly
+
+354
+00:13:04,240 --> 00:13:05,160
+If it’s not zero
+
+355
+00:13:05,160 --> 00:13:07,910
+We continue with the next breath, right
+
+356
+00:13:07,910 --> 00:13:10,010
+For the next breath, we just reverse it
+
+357
+00:13:10,010 --> 00:13:11,750
+We went from dim to bright last time
+
+358
+00:13:11,750 --> 00:13:13,590
+Now we go from bright to dim, right
+
+359
+00:13:13,590 --> 00:13:15,520
+Let's set the target value here.
+
+360
+00:13:15,520 --> 00:13:16,940
+To zero, right
+
+361
+00:13:16,940 --> 00:13:19,000
+And it’s the same duration here
+
+362
+00:13:19,000 --> 00:13:20,440
+Let's set the time the same as before.
+
+363
+00:13:20,440 --> 00:13:26,300
+Then we enter the start of the next breathing gradient
+
+364
+00:13:26,300 --> 00:13:27,780
+The next time it reaches the target value
+
+365
+00:13:27,780 --> 00:13:29,100
+It comes in again, right
+
+366
+00:13:29,100 --> 00:13:31,720
+That’s the process
+
+367
+00:13:31,720 --> 00:13:32,900
+Pretty simple
+
+368
+00:13:32,900 --> 00:13:34,080
+Alright, that’s it for this lesson
+

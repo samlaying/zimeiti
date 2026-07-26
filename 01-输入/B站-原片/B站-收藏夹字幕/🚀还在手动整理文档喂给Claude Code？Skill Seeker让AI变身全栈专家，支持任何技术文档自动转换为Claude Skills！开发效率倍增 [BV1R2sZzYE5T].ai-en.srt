@@ -1,0 +1,1100 @@
+1
+00:00:02,520 --> 00:00:04,900
+Anthropic has recently been intensively releasing new features
+
+2
+00:00:04,900 --> 00:00:07,220
+especially the Agent Skills released a few days ago
+
+3
+00:00:07,220 --> 00:00:08,860
+and Claude Code Web
+
+4
+00:00:08,860 --> 00:00:10,460
+for AI Coding scenarios
+
+5
+00:00:10,460 --> 00:00:12,080
+These features are very helpful
+
+6
+00:00:12,080 --> 00:00:13,940
+especially the Agent Skills feature
+
+7
+00:00:13,940 --> 00:00:17,620
+It is widely regarded as a major breakthrough in the field of AI customization.
+
+8
+00:00:17,620 --> 00:00:21,420
+because the Skills feature allows Claude to load custom instructions
+
+9
+00:00:21,420 --> 00:00:22,580
+scripts and resources
+
+10
+00:00:22,580 --> 00:00:25,280
+making it perform better in specific tasks
+
+11
+00:00:25,280 --> 00:00:27,920
+compared to the previously released MCP feature by Anthropic
+
+12
+00:00:27,920 --> 00:00:30,720
+because MCP preloads thousands of tokens
+
+13
+00:00:30,720 --> 00:00:32,800
+to describe all possible capabilities
+
+14
+00:00:32,800 --> 00:00:36,940
+while Skills only require loading descriptions of 30-50 tokens
+
+15
+00:00:36,940 --> 00:00:40,300
+only pulls the complete information when specific functionality is needed
+
+16
+00:00:40,300 --> 00:00:41,420
+so in theory
+
+17
+00:00:41,420 --> 00:00:43,940
+Agent Skills have unlimited capacity
+
+18
+00:00:43,940 --> 00:00:47,330
+Compared to MCP, Agent Skills only requires a Markdown file
+
+19
+00:00:47,330 --> 00:00:49,330
+along with other optional resources
+
+20
+00:00:49,330 --> 00:00:52,050
+whereas MCP requires multiple component architectures
+
+21
+00:00:52,050 --> 00:00:56,410
+so its complexity is far greater than that of Agent Skills
+
+22
+00:00:56,410 --> 00:00:58,850
+So after the release of Agent Skills, it has received widespread acclaim
+
+23
+00:00:58,850 --> 00:01:01,400
+Everyone is creating their own Skills
+
+24
+00:01:01,400 --> 00:01:04,599
+like when we use Claude's built-in Skills Creator
+
+25
+00:01:04,599 --> 00:01:07,980
+this Skill, when creating our own Skills
+
+26
+00:01:07,980 --> 00:01:09,420
+The results are not very satisfactory
+
+27
+00:01:09,420 --> 00:01:12,430
+The created Skills may not meet our requirements
+
+28
+00:01:12,430 --> 00:01:16,810
+So in this video, we'll demonstrate an open-source Skills generation project
+
+29
+00:01:16,810 --> 00:01:17,789
+Skill Seeker
+
+30
+00:01:17,789 --> 00:01:19,949
+It is a powerful automation tool
+
+31
+00:01:19,949 --> 00:01:23,240
+specifically designed to convert any document, website, or PDF file into a Claude AI skill pack
+
+32
+00:01:23,240 --> 00:01:25,100
+convert it into a Claude AI skill pack
+
+33
+00:01:25,100 --> 00:01:26,780
+It addresses a key pain point
+
+34
+00:01:26,780 --> 00:01:29,000
+that is manually creating Claude Skills
+
+35
+00:01:29,000 --> 00:01:30,930
+requires a relatively long time
+
+36
+00:01:30,930 --> 00:01:32,990
+for reading and summarizing documents
+
+37
+00:01:32,990 --> 00:01:34,230
+With this tool, the process can be automatically completed in just a few minutes to
+
+38
+00:01:34,230 --> 00:01:38,780
+automatically complete the entire process in just over ten minutes
+
+39
+00:01:38,780 --> 00:01:39,860
+So with this tool
+
+40
+00:01:39,860 --> 00:01:43,130
+The cost of learning any open-source project is reduced to zero.
+
+41
+00:01:43,130 --> 00:01:45,490
+Moreover, I used this tool to create a system that can process the code written by Claude Code
+
+42
+00:01:45,490 --> 00:01:47,450
+can convert the code written by Cloud Code
+
+43
+00:01:47,450 --> 00:01:50,140
+code review by Codex CLI
+
+44
+00:01:50,140 --> 00:01:53,980
+Then, the Claude Code will optimize the code based on the review results from Codex CLI
+
+45
+00:01:53,980 --> 00:01:56,060
+Skill for code optimization
+
+46
+00:01:56,060 --> 00:01:59,080
+and I also used this tool to create one that supports Microsoft's AutoGen framework
+
+47
+00:01:59,080 --> 00:02:01,620
+to generate a Skill for agent code
+
+48
+00:02:01,620 --> 00:02:03,820
+a Skill for agent code
+
+49
+00:02:03,820 --> 00:02:06,920
+Like this, we can input requirements in Claude Code
+
+50
+00:02:06,920 --> 00:02:10,340
+Then, Claude Code will automatically invoke the AutoGen framework for us
+
+51
+00:02:10,340 --> 00:02:12,130
+generate agent code for us
+
+52
+00:02:12,130 --> 00:02:12,490
+Okay
+
+53
+00:02:12,490 --> 00:02:17,020
+This video will provide a detailed demonstration of how to use the open-source tool Skill Seeker.
+
+54
+00:02:17,020 --> 00:02:20,600
+and test the effectiveness of using this project to generate Skills
+
+55
+00:02:20,600 --> 00:02:21,780
+Before the demonstration
+
+56
+00:02:21,780 --> 00:02:25,080
+Let's first take a look at Skill Seeker, its concept and advantages
+
+57
+00:02:25,080 --> 00:02:27,020
+It is a powerful automated tool
+
+58
+00:02:27,020 --> 00:02:31,320
+specifically designed to convert any document or website into a skill package usable by Claude AI
+
+59
+00:02:31,320 --> 00:02:32,680
+It employs intelligent web crawling
+
+60
+00:02:32,680 --> 00:02:35,520
+three core technologies of AI enhancement and automatic packaging
+
+61
+00:02:35,520 --> 00:02:37,900
+without the need for us to read and manually organize the documents
+
+62
+00:02:37,900 --> 00:02:41,060
+can automatically create high-quality Claude Skills
+
+63
+00:02:41,060 --> 00:02:43,440
+In this way, we can significantly save time
+
+64
+00:02:43,440 --> 00:02:45,260
+and achieve high-quality output
+
+65
+00:02:45,260 --> 00:02:47,440
+and it is applicable to any document website
+
+66
+00:02:47,440 --> 00:02:49,660
+supports all major programming languages
+
+67
+00:02:49,660 --> 00:02:52,380
+We can also convert PDFs into Skills
+
+68
+00:02:52,380 --> 00:02:54,420
+Now let's take a look at its core advantages
+
+69
+00:02:54,420 --> 00:02:57,519
+First, it extracts web content through a crawler engine
+
+70
+00:02:57,519 --> 00:02:59,879
+It supports any document website structure
+
+71
+00:02:59,879 --> 00:03:01,820
+can automatically identify page structures
+
+72
+00:03:01,820 --> 00:03:03,420
+intelligently filters irrelevant content
+
+73
+00:03:03,420 --> 00:03:05,060
+Supports custom selectors
+
+74
+00:03:05,060 --> 00:03:07,510
+Compatible with 99% of document websites
+
+75
+00:03:07,510 --> 00:03:11,490
+It uses Claude AI to transform basic content into professional-level guides
+
+76
+00:03:11,490 --> 00:03:13,630
+can extract the best code examples
+
+77
+00:03:13,630 --> 00:03:15,459
+generate quick reference guides
+
+78
+00:03:15,459 --> 00:03:16,910
+Adding usage scenarios
+
+79
+00:03:16,910 --> 00:03:19,830
+It also includes both local and API usage options.
+
+80
+00:03:19,830 --> 00:03:21,970
+and its intelligent download system
+
+81
+00:03:21,970 --> 00:03:24,030
+Scrape once and rebuild anytime
+
+82
+00:03:24,030 --> 00:03:25,400
+Supports rapid iteration
+
+83
+00:03:25,400 --> 00:03:27,500
+It also features intelligent content classification
+
+84
+00:03:27,500 --> 00:03:30,040
+can automatically identify and organize document content
+
+85
+00:03:30,040 --> 00:03:31,540
+create a clear structure
+
+86
+00:03:31,540 --> 00:03:33,460
+It also features code language detection
+
+87
+00:03:33,460 --> 00:03:35,260
+can automatically identify programming languages
+
+88
+00:03:35,260 --> 00:03:37,000
+add syntax highlighting tags
+
+89
+00:03:37,000 --> 00:03:38,800
+Finally, it features one-click packaging and deployment
+
+90
+00:03:38,800 --> 00:03:40,940
+can automatically generate Claude and Claude Code
+
+91
+00:03:40,940 --> 00:03:42,700
+ready-to-use ZIP skill package
+
+92
+00:03:42,700 --> 00:03:44,440
+with a complete directory structure
+
+93
+00:03:44,440 --> 00:03:45,360
+ready to use
+
+94
+00:03:45,360 --> 00:03:46,930
+It can be completed in just 5-10 seconds
+
+95
+00:03:46,930 --> 00:03:49,510
+Its detailed workflow is divided into four stages
+
+96
+00:03:49,510 --> 00:03:51,290
+The first stage is intelligent crawling
+
+97
+00:03:51,290 --> 00:03:54,920
+Utilize an advanced web crawler to automatically access all pages of a documentation website
+
+98
+00:03:54,920 --> 00:03:57,510
+identifies the main content areas through intelligent algorithms
+
+99
+00:03:57,510 --> 00:03:59,590
+and thus extracting the clean document
+
+100
+00:03:59,590 --> 00:04:01,310
+The second stage is intelligent categorization
+
+101
+00:04:01,310 --> 00:04:03,590
+conduct in-depth analysis of the extracted content
+
+102
+00:04:03,590 --> 00:04:06,960
+automatically categorize documents into different thematic categories
+
+103
+00:04:06,960 --> 00:04:09,240
+The third stage is AI deep enhancement
+
+104
+00:04:09,240 --> 00:04:12,200
+Claude AI will conduct in-depth analysis of the extracted document content
+
+105
+00:04:12,200 --> 00:04:13,460
+identify best practices
+
+106
+00:04:13,460 --> 00:04:15,040
+extract key code examples
+
+107
+00:04:15,040 --> 00:04:16,519
+generate usage scenario descriptions
+
+108
+00:04:16,519 --> 00:04:18,959
+and create comprehensive Skill files
+
+109
+00:04:18,959 --> 00:04:21,560
+The fourth stage is automatic packaging and deployment
+
+110
+00:04:21,560 --> 00:04:25,870
+Package all the content according to Claude Skill's technical standards
+
+111
+00:04:25,870 --> 00:04:29,650
+Finally, it generates a ZIP file that can be directly uploaded to Claude.
+
+112
+00:04:29,650 --> 00:04:30,930
+So using this tool
+
+113
+00:04:30,930 --> 00:04:33,970
+we can package any open-source project or framework
+
+114
+00:04:33,970 --> 00:04:35,340
+packaged into Skills
+
+115
+00:04:35,340 --> 00:04:35,660
+Okay
+
+116
+00:04:35,660 --> 00:04:39,520
+Now, let's proceed to demonstrate and test in detail how Skill Seeker is used
+
+117
+00:04:39,520 --> 00:04:42,180
+and we use it in combination with actual open-source
+
+118
+00:04:42,180 --> 00:04:43,470
+project to create Skills
+
+119
+00:04:43,470 --> 00:04:45,110
+Using this project is very simple
+
+120
+00:04:45,110 --> 00:04:48,300
+We just need to follow the official commands and execute them.
+
+121
+00:04:48,300 --> 00:04:51,520
+First, we need to clone this project locally
+
+122
+00:04:51,520 --> 00:04:53,340
+We directly open the terminal command line
+
+123
+00:04:53,340 --> 00:04:54,980
+Windows users open CMD
+
+124
+00:04:54,980 --> 00:04:58,060
+Use the git clone command to clone this project to your local machine.
+
+125
+00:04:58,060 --> 00:04:59,400
+I have already cloned it here
+
+126
+00:04:59,400 --> 00:05:02,940
+Then we use the cd command to navigate into the project directory
+
+127
+00:05:02,940 --> 00:05:04,600
+Then we execute this command
+
+128
+00:05:04,600 --> 00:05:06,840
+We can directly execute this command
+
+129
+00:05:06,840 --> 00:05:10,220
+Then follow its prompts step by step to proceed
+
+130
+00:05:10,220 --> 00:05:11,830
+I have already completed the installation here
+
+131
+00:05:11,830 --> 00:05:12,790
+After that
+
+132
+00:05:12,790 --> 00:05:16,170
+we can directly use natural language in Claude Code
+
+133
+00:05:16,170 --> 00:05:19,010
+plus the specified document website link
+
+134
+00:05:19,010 --> 00:05:22,060
+it can automatically generate Skills for us
+
+135
+00:05:22,060 --> 00:05:22,380
+Okay
+
+136
+00:05:22,380 --> 00:05:26,200
+Next, we can find an open-source agent framework, CrewAI
+
+137
+00:05:26,200 --> 00:05:28,480
+then we locate its documentation website
+
+138
+00:05:28,480 --> 00:05:31,309
+Using Skill Seeker in Claude Code
+
+139
+00:05:31,309 --> 00:05:34,189
+Create a Skill based on CrewAI's documentation
+
+140
+00:05:34,189 --> 00:05:36,089
+Now let's return to the terminal command line
+
+141
+00:05:36,089 --> 00:05:37,840
+We open Claude Code
+
+142
+00:05:37,840 --> 00:05:41,180
+In Claude Code, we directly input natural language descriptions
+
+143
+00:05:41,180 --> 00:05:43,180
+plus the link just mentioned
+
+144
+00:05:43,180 --> 00:05:45,900
+
+
+145
+00:05:45,900 --> 00:05:47,300
+like this natural language description
+
+146
+00:05:47,300 --> 00:05:49,340
+You can also directly describe it in Chinese.
+
+147
+00:05:49,340 --> 00:05:50,810
+Then we directly execute it
+
+148
+00:05:50,810 --> 00:05:51,810
+Here we can see
+
+149
+00:05:51,810 --> 00:05:55,669
+It starts crawling the official CrewAI documentation, capturing these contents
+
+150
+00:05:55,669 --> 00:05:56,909
+Here we can see
+
+151
+00:05:56,909 --> 00:06:00,120
+It breaks down our task into four subtasks
+
+152
+00:06:00,120 --> 00:06:02,820
+The first subtask is to create a configuration file
+
+153
+00:06:02,820 --> 00:06:05,760
+The second sub-task is to evaluate the number of pages
+
+154
+00:06:05,760 --> 00:06:09,300
+The third subtask is to crawl the CrewAI documentation
+
+155
+00:06:09,300 --> 00:06:12,650
+The fourth subtask is to package it into a ZIP file.
+
+156
+00:06:12,650 --> 00:06:13,550
+
+
+157
+00:06:13,550 --> 00:06:18,130
+These four subtasks will be automatically completed by it.
+
+158
+00:06:18,570 --> 00:06:20,870
+As you can see here, it automatically opened a terminal
+
+159
+00:06:20,870 --> 00:06:23,210
+We allow it to execute here
+
+160
+00:06:24,580 --> 00:06:27,500
+The task executed by this terminal is to crawl these documents
+
+161
+00:06:27,500 --> 00:06:29,460
+Then it opens another terminal here
+
+162
+00:06:29,460 --> 00:06:31,120
+We directly allow it to execute
+
+163
+00:06:31,120 --> 00:06:33,560
+Then here it opens another terminal again
+
+164
+00:06:33,560 --> 00:06:38,490
+we let it execute
+
+165
+00:06:38,490 --> 00:06:41,930
+After waiting for about seven or eight minutes
+
+166
+00:06:41,930 --> 00:06:43,350
+These tasks have been completed
+
+167
+00:06:43,350 --> 00:06:47,440
+It has already transformed the CrewAI agent framework into a Skill.
+
+168
+00:06:47,440 --> 00:06:50,780
+and packaged the created Skill into a ZIP file
+
+169
+00:06:50,780 --> 00:06:52,280
+placed in this path
+
+170
+00:06:52,280 --> 00:06:55,300
+Next, we can go to the Claude AI web version
+
+171
+00:06:55,300 --> 00:06:57,600
+Here in Skills, we click upload
+
+172
+00:06:57,600 --> 00:07:00,840
+then locate the CrewAI ZIP file it created
+
+173
+00:07:00,840 --> 00:07:01,740
+click upload
+
+174
+00:07:01,740 --> 00:07:03,440
+Here it shows the upload is successful
+
+175
+00:07:03,440 --> 00:07:06,020
+Here the CrewAI Skill is displayed
+
+176
+00:07:06,020 --> 00:07:08,560
+Then we test the effect of this Skill
+
+177
+00:07:08,560 --> 00:07:10,160
+Enter this default dialog box
+
+178
+00:07:10,160 --> 00:07:12,320
+We directly run its default prompt
+
+179
+00:07:12,320 --> 00:07:15,960
+Let's see if it can generate these project codes for CrewAI.
+
+180
+00:07:15,960 --> 00:07:16,200
+Okay
+
+181
+00:07:16,200 --> 00:07:19,140
+Here it prompts that it will use CrewAI
+
+182
+00:07:19,140 --> 00:07:22,360
+Create an intelligent system for AI Research
+
+183
+00:07:23,290 --> 00:07:25,210
+After waiting for a few minutes
+
+184
+00:07:25,210 --> 00:07:27,030
+Here it uses CrewAI
+
+185
+00:07:27,030 --> 00:07:29,320
+successfully created an agent for us
+
+186
+00:07:29,320 --> 00:07:32,100
+And here it also shows the demo of this agent
+
+187
+00:07:32,100 --> 00:07:34,520
+and it also provides the specific usage instructions here
+
+188
+00:07:34,520 --> 00:07:36,080
+including entering the project directory
+
+189
+00:07:36,080 --> 00:07:37,460
+Install the required dependencies
+
+190
+00:07:37,460 --> 00:07:38,700
+Settings API Key
+
+191
+00:07:38,700 --> 00:07:40,300
+then launch this agent
+
+192
+00:07:40,300 --> 00:07:43,200
+It provides very comprehensive documentation here
+
+193
+00:07:43,200 --> 00:07:46,100
+Just like this, we have successfully implemented the use of Skill Seeker
+
+194
+00:07:46,100 --> 00:07:48,180
+based on the official CrewAI documentation
+
+195
+00:07:48,180 --> 00:07:51,210
+fully automatically generated the CrewAI Skill for us
+
+196
+00:07:51,210 --> 00:07:51,530
+Okay
+
+197
+00:07:51,530 --> 00:07:54,750
+What we just tested was the CrewAI Skill used in Claude AI.
+
+198
+00:07:54,750 --> 00:07:56,000
+CrewAI Skill
+
+199
+00:07:56,000 --> 00:07:58,200
+Next, we can also install the CrewAI Skill
+
+200
+00:07:58,200 --> 00:08:00,380
+Install directly into Claude Code
+
+201
+00:08:00,380 --> 00:08:00,920
+In this way
+
+202
+00:08:00,920 --> 00:08:04,160
+we can directly use CrewAI in Claude Code
+
+203
+00:08:04,160 --> 00:08:06,000
+generate agent code for us
+
+204
+00:08:06,000 --> 00:08:09,360
+To use this Skill in Claude Code is also very simple
+
+205
+00:08:09,360 --> 00:08:11,840
+We can open a new terminal command line
+
+206
+00:08:11,840 --> 00:08:13,120
+Then use this command
+
+207
+00:08:13,120 --> 00:08:17,580
+In the user-level commands of Claude Code, under the Skills folder
+
+208
+00:08:17,580 --> 00:08:19,340
+Create a CrewAI folder
+
+209
+00:08:19,340 --> 00:08:20,620
+We can just run it directly
+
+210
+00:08:20,620 --> 00:08:23,100
+Next we need to locate the Skill Seeker
+
+211
+00:08:23,100 --> 00:08:26,570
+the project path for the CrewAI Skill created for us
+
+212
+00:08:26,570 --> 00:08:28,270
+that is, under this path
+
+213
+00:08:28,270 --> 00:08:30,290
+Then we can use the cp command
+
+214
+00:08:30,290 --> 00:08:32,150
+all the contents in the folder
+
+215
+00:08:32,150 --> 00:08:35,760
+copy to the folder we just created
+
+216
+00:08:35,760 --> 00:08:38,000
+Then we can directly execute this command
+
+217
+00:08:38,000 --> 00:08:40,400
+Then we can reopen Claude Code
+
+218
+00:08:40,400 --> 00:08:43,558
+Then we will list all the Skills
+
+219
+00:08:43,558 --> 00:08:44,019
+Okay
+
+220
+00:08:44,019 --> 00:08:46,299
+Here it lists all the Skills
+
+221
+00:08:46,299 --> 00:08:48,890
+including the CrewAI we just created
+
+222
+00:08:48,890 --> 00:08:52,090
+Moreover, we can also test it in VS Code using the Claude Code extension plugin.
+
+223
+00:08:52,090 --> 00:08:56,210
+Alright, next we can type a forward slash in the input box
+
+224
+00:08:56,210 --> 00:08:59,000
+then enter CrewAI and run
+
+225
+00:08:59,000 --> 00:09:02,840
+we can then use the CrewAI Skill in Claude Code
+
+226
+00:09:02,840 --> 00:09:06,220
+create an intelligent agent project based on CrewAI for us
+
+227
+00:09:06,220 --> 00:09:07,940
+Here it provides several examples
+
+228
+00:09:07,940 --> 00:09:10,160
+Now here, we can have it create a
+
+229
+00:09:10,160 --> 00:09:11,840
+a new CrewAI agent project
+
+230
+00:09:11,840 --> 00:09:15,360
+Here we directly input 1 to have it create a new CrewAI project
+
+231
+00:09:15,360 --> 00:09:19,089
+Here it prompts that it will create a new CrewAI project
+
+232
+00:09:19,449 --> 00:09:22,569
+Here it indicates that the project has been successfully created
+
+233
+00:09:22,569 --> 00:09:24,940
+Here is the file structure of the project listed
+
+234
+00:09:24,940 --> 00:09:27,180
+and provides us with the specific usage instructions
+
+235
+00:09:27,180 --> 00:09:29,760
+including setting the API Key and launching the project
+
+236
+00:09:29,760 --> 00:09:32,800
+Next, let's take a look at the project it has created for us
+
+237
+00:09:32,800 --> 00:09:35,940
+Here are the complete project files for CrewAI
+
+238
+00:09:35,940 --> 00:09:37,920
+Here are the Agents it created
+
+239
+00:09:37,920 --> 00:09:40,350
+Here are the agents he created
+
+240
+00:09:40,350 --> 00:09:42,630
+And detailed comments have been added here.
+
+241
+00:09:42,630 --> 00:09:45,370
+Then in this file, we can set our API Key
+
+242
+00:09:45,370 --> 00:09:47,760
+and the setup method for ollama is also provided here
+
+243
+00:09:47,760 --> 00:09:50,060
+Here is the project's documentation.
+
+244
+00:09:50,060 --> 00:09:51,640
+including creating a virtual environment
+
+245
+00:09:51,640 --> 00:09:53,120
+install these dependencies
+
+246
+00:09:53,120 --> 00:09:55,900
+Settings API Key and the project structure
+
+247
+00:09:55,900 --> 00:09:57,660
+Just like this, we've achieved it
+
+248
+00:09:57,660 --> 00:10:01,720
+There is absolutely no need for us to read the official CrewAI documentation ourselves.
+
+249
+00:10:01,720 --> 00:10:04,010
+then simply use Skill Seeker
+
+250
+00:10:04,010 --> 00:10:07,180
+generate the Skill based on the official documentation of CrewAI
+
+251
+00:10:07,180 --> 00:10:10,340
+Then we can invoke this Skill in Claude Code
+
+252
+00:10:10,340 --> 00:10:11,920
+to automatically generate for us
+
+253
+00:10:11,920 --> 00:10:14,780
+a multi-agent system based on the CrewAI framework
+
+254
+00:10:14,780 --> 00:10:17,940
+In the past, we needed to read the official documentation of CrewAI
+
+255
+00:10:17,940 --> 00:10:20,840
+familiarize with CrewAI's code and usage
+
+256
+00:10:20,840 --> 00:10:22,580
+then we can use CrewAI
+
+257
+00:10:22,580 --> 00:10:24,780
+create our own AI agents
+
+258
+00:10:24,780 --> 00:10:26,460
+but now with Skill Seeker
+
+259
+00:10:26,460 --> 00:10:29,960
+to generate the corresponding Skill
+
+260
+00:10:29,960 --> 00:10:34,000
+then we upload it to Claude AI, or install it into Claude Code
+
+261
+00:10:34,000 --> 00:10:35,720
+we can use this Skill
+
+262
+00:10:35,720 --> 00:10:38,160
+to generate complete and functional project code for us
+
+263
+00:10:38,160 --> 00:10:39,680
+for any open-source project
+
+264
+00:10:39,680 --> 00:10:41,860
+we can all use Skill Seeker
+
+265
+00:10:41,860 --> 00:10:45,040
+Generate corresponding Skills for us based on the official documentation
+
+266
+00:10:45,040 --> 00:10:47,960
+This way can greatly save our learning time
+
+267
+00:10:47,960 --> 00:10:50,580
+thereby significantly improving our work efficiency
+
+268
+00:10:50,580 --> 00:10:52,620
+The code and instructions used in this video
+
+269
+00:10:52,620 --> 00:10:55,680
+I will put them in the description section below the video, or in the comment section
+
+270
+00:10:55,680 --> 00:10:57,960
+If you cannot find it below the video
+
+271
+00:10:57,960 --> 00:10:59,640
+or visit my blog
+
+272
+00:10:59,640 --> 00:11:01,560
+to find the notes corresponding to this video
+
+273
+00:11:01,560 --> 00:11:03,560
+That's all for this video
+
+274
+00:11:03,560 --> 00:11:05,760
+Welcome to like, follow, and share
+
+275
+00:11:05,760 --> 00:11:07,000
+Thank you for watching
+

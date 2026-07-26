@@ -1,0 +1,348 @@
+1
+00:00:00,000 --> 00:00:02,760
+Hey Skill enthusiasts, an essential open-source Skill manager is here! I'm sure we've all been there: after installing a bunch of Skills...
+
+2
+00:00:02,760 --> 00:00:04,320
+and have no idea where the Skill went.
+
+3
+00:00:04,320 --> 00:00:05,680
+And you end up installing a ton of them.
+
+4
+00:00:05,680 --> 00:00:06,560
+You want to manage them, but you just don't know how.
+
+5
+00:00:06,560 --> 00:00:07,580
+and have no idea how to manage them.
+
+6
+00:00:07,580 --> 00:00:09,780
+Even I myself have iterated on my Skills a lot.
+
+7
+00:00:09,780 --> 00:00:12,040
+So, how do you handle version control for each and every Skill?
+
+8
+00:00:12,040 --> 00:00:14,880
+I've got a Skill on my Mac mini,
+
+9
+00:00:14,880 --> 00:00:18,000
+and the ones on my MacBook Air.
+
+10
+00:00:18,000 --> 00:00:19,480
+But that process is riddled with problems.
+
+11
+00:00:19,480 --> 00:00:21,380
+So, is it possible to build a Skill manager?
+
+12
+00:00:21,380 --> 00:00:22,440
+Based on Uncle Huang's own experience
+
+13
+00:00:22,440 --> 00:00:25,080
+and based on the needs of the many users in our community,
+
+14
+00:00:25,080 --> 00:00:27,410
+So, Uncle Huang has open-sourced this Skill manager.
+
+15
+00:00:27,410 --> 00:00:30,530
+So, let's do a quick rundown of what this manager can do.
+
+16
+00:00:30,530 --> 00:00:33,340
+Alright, so first off, once we open it up...
+
+17
+00:00:33,340 --> 00:00:35,040
+It can perform a quick, one-click scan,
+
+18
+00:00:35,040 --> 00:00:36,400
+in less than a second.
+
+19
+00:00:36,400 --> 00:00:39,660
+It scans your entire computer and pulls up every single skill you have.
+
+20
+00:00:39,660 --> 00:00:42,300
+This includes both global and project-level skills.
+
+21
+00:00:42,300 --> 00:00:43,460
+And we can filter all of them.
+
+22
+00:00:43,460 --> 00:00:45,940
+Whether it's for Claude Code, or Cursor,
+
+23
+00:00:45,940 --> 00:00:47,940
+or Codex, or openclaw.
+
+24
+00:00:47,940 --> 00:00:50,900
+We can also sort them into different categories.
+
+25
+00:00:50,900 --> 00:00:55,269
+And for each Skill, we can take a detailed look at it.
+
+26
+00:00:55,269 --> 00:00:57,709
+This includes keeping a version history for it.
+
+27
+00:00:57,709 --> 00:00:59,389
+We can create a snapshot.
+
+28
+00:00:59,389 --> 00:01:03,560
+So, it's basically like Git, handling version control for the entire Skill.
+
+29
+00:01:03,560 --> 00:01:06,080
+Alright, see? It's just taken a version snapshot right there.
+
+30
+00:01:06,080 --> 00:01:07,840
+So, if you run into a problem next time,
+
+31
+00:01:07,840 --> 00:01:09,660
+then you can just roll it back.
+
+32
+00:01:09,660 --> 00:01:11,360
+So, let's say you've installed a ton of skills.
+
+33
+00:01:11,360 --> 00:01:12,720
+and you want to streamline them,
+
+34
+00:01:12,720 --> 00:01:15,420
+You can click to select, or select multiple items at once.
+
+35
+00:01:15,420 --> 00:01:18,340
+And then, for example, let's say I don't want this one.
+
+36
+00:01:18,340 --> 00:01:23,720
+So, you can select multiple ones, and then just click delete.
+
+37
+00:01:23,720 --> 00:01:26,300
+So, when you delete something, it doesn't actually get removed permanently. Instead, it goes into the Recycle Bin.
+
+38
+00:01:26,300 --> 00:01:27,870
+and it will be kept there for seven days.
+
+39
+00:01:27,870 --> 00:01:30,390
+for 7 days. So, you don't have to worry about accidentally deleting the wrong one.
+
+40
+00:01:30,390 --> 00:01:34,690
+So, as you can see, these are some of the various skills I have in my Recycle Bin.
+
+41
+00:01:34,690 --> 00:01:35,970
+If you want to delete it right away,
+
+42
+00:01:35,970 --> 00:01:37,330
+you can click 'Delete Permanently'.
+
+43
+00:01:37,330 --> 00:01:38,210
+Or, you can just leave it be.
+
+44
+00:01:38,210 --> 00:01:38,850
+After 7 days,
+
+45
+00:01:38,850 --> 00:01:42,749
+it will automatically process all the skills in the Recycle Bin, and then...
+
+46
+00:01:42,749 --> 00:01:45,140
+We also have a similarity detection feature.
+
+47
+00:01:45,140 --> 00:01:48,780
+Because you might have several similar skills installed at the same time.
+
+48
+00:01:48,780 --> 00:01:51,120
+So, in a situation like this, actually, CC...
+
+49
+00:01:51,120 --> 00:01:53,520
+and you're not sure which one to call.
+
+50
+00:01:53,520 --> 00:01:55,740
+So, to tackle this, we've built in a similarity detection feature.
+
+51
+00:01:55,740 --> 00:01:56,980
+And you'll be able to see, like,
+
+52
+00:01:56,980 --> 00:01:59,500
+and see which Skills are closely related.
+
+53
+00:01:59,500 --> 00:02:02,620
+For example, these three are all related to email.
+
+54
+00:02:02,620 --> 00:02:05,320
+See? You can then take action on some of them.
+
+55
+00:02:05,320 --> 00:02:06,920
+And we've also included a dashboard in here.
+
+56
+00:02:06,920 --> 00:02:08,160
+This way, you can quickly see
+
+57
+00:02:08,160 --> 00:02:12,380
+and which modules your current Skills are being used in.
+
+58
+00:02:12,380 --> 00:02:14,560
+So you can see everything clearly and at a glance.
+
+59
+00:02:14,560 --> 00:02:16,760
+And on top of that, we've also built in a synchronization mechanism.
+
+60
+00:02:16,760 --> 00:02:18,440
+All you have to do is use a repository.
+
+61
+00:02:18,440 --> 00:02:21,720
+and you'll be able to upload your local Skills to it.
+
+62
+00:02:21,720 --> 00:02:24,000
+and then download them onto your other devices.
+
+63
+00:02:24,000 --> 00:02:26,360
+See, right here we can just click on 'Get Help'.
+
+64
+00:02:26,360 --> 00:02:28,120
+and download them from there.
+
+65
+00:02:28,120 --> 00:02:31,100
+As you can see, hey, there are various dimensions to it.
+
+66
+00:02:31,100 --> 00:02:32,560
+So we can take all of that into consideration.
+
+67
+00:02:32,560 --> 00:02:36,220
+So, which ones exactly do I need to download and save to my local machine?
+
+68
+00:02:36,220 --> 00:02:38,000
+So, right here in our GitHub repository...
+
+69
+00:02:38,000 --> 00:02:43,030
+If we scroll down, you'll see that under 'Tools', there's something called Skillhub.
+
+70
+00:02:43,030 --> 00:02:45,250
+All you have to do is take this command line,
+
+71
+00:02:45,250 --> 00:02:47,430
+Then, open up any terminal window.
+
+72
+00:02:47,430 --> 00:02:48,510
+and paste it in.
+
+73
+00:02:48,510 --> 00:02:50,550
+and it'll automatically finish downloading.
+
+74
+00:02:50,550 --> 00:02:53,420
+Then, go back to the browser window from earlier.
+
+75
+00:02:53,420 --> 00:02:56,600
+to help you scan your entire computer.
+
+76
+00:02:56,600 --> 00:02:58,560
+and perform a full system scan for your Skills.
+
+77
+00:02:58,560 --> 00:03:00,430
+to help you manage them more conveniently.
+
+78
+00:03:00,430 --> 00:03:03,890
+Of course, sometimes you might be thinking, 'Hey, what if I close this browser window?'
+
+79
+00:03:03,890 --> 00:03:04,890
+But that's no problem.
+
+80
+00:03:04,890 --> 00:03:05,710
+to start it up again.
+
+81
+00:03:05,710 --> 00:03:06,930
+All you have to do is enter this command.
+
+82
+00:03:06,930 --> 00:03:09,670
+Just type this command directly into your terminal.
+
+83
+00:03:09,670 --> 00:03:11,630
+and it'll launch right up.
+
+84
+00:03:11,630 --> 00:03:14,750
+So, this entire Skill manager is completely open-source.
+
+85
+00:03:14,750 --> 00:03:19,180
+Feel free to check out my GitHub repository, and don't forget to give it a like or a fork.
+
+86
+00:03:19,180 --> 00:03:21,060
+Alright, that's all for today's content from your Uncle Huang.
+
+87
+00:03:21,060 --> 00:03:22,820
+See you in the next one.
+

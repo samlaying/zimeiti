@@ -1,0 +1,652 @@
+1
+00:00:00,040 --> 00:00:02,180
+If a model can only create demos from scratch
+
+2
+00:00:02,180 --> 00:00:03,840
+It cannot yet be considered an engineering tool
+
+3
+00:00:03,840 --> 00:00:06,500
+This time, I received an invitation to the beta test of MiniMax M2.5.
+
+4
+00:00:06,500 --> 00:00:08,540
+I decided to do something a bit risky
+
+5
+00:00:08,540 --> 00:00:11,620
+I want to integrate it into a product I'm currently developing called HaoHuo APP.
+
+6
+00:00:11,620 --> 00:00:12,520
+GoodsAPP
+
+7
+00:00:12,520 --> 00:00:13,860
+This is not a test project
+
+8
+00:00:13,860 --> 00:00:15,560
+This is a real SpringBoot backend
+
+9
+00:00:15,560 --> 00:00:17,200
+the actual database structure
+
+10
+00:00:17,200 --> 00:00:18,560
+real business logic
+
+11
+00:00:18,560 --> 00:00:21,400
+It must not disrupt the existing structure on any premise
+
+12
+00:00:21,400 --> 00:00:24,020
+generate a complete admin management backend for me
+
+13
+00:00:24,020 --> 00:00:25,920
+If he misunderstands a single field
+
+14
+00:00:25,920 --> 00:00:27,420
+the entire system would collapse
+
+15
+00:00:27,420 --> 00:00:29,540
+So in today's video, we won't discuss parameters
+
+16
+00:00:29,540 --> 00:00:30,700
+nor benchmark scores
+
+17
+00:00:30,700 --> 00:00:31,940
+I only test one thing
+
+18
+00:00:31,940 --> 00:00:35,140
+whether MiniMax M2.5 can take over real-world projects
+
+19
+00:00:35,140 --> 00:00:38,220
+enhance the efficiency of actual development work
+
+20
+00:00:38,570 --> 00:00:42,630
+The HaoHuo APP currently has a complete backend system.
+
+21
+00:00:42,630 --> 00:00:43,370
+SpringBoot, MySQL, MongoDB, Redis
+
+22
+00:00:43,370 --> 00:00:43,810
+MySQL
+
+23
+00:00:43,810 --> 00:00:45,010
+MongoDB Redis
+
+24
+00:00:45,010 --> 00:00:47,770
+Now, the friend circle leaderboard for clocking in
+
+25
+00:00:47,770 --> 00:00:50,370
+These milestone features are now running perfectly.
+
+26
+00:00:50,370 --> 00:00:54,040
+What it lacks now is a fully operational admin management backend.
+
+27
+00:00:54,040 --> 00:00:56,860
+The following are some of the features we are going to develop this time.
+
+28
+00:00:56,860 --> 00:00:59,140
+The development tool used this time is OpenCode
+
+29
+00:00:59,140 --> 00:01:00,060
+I have already installed it
+
+30
+00:01:00,060 --> 00:01:03,720
+Now, we need to integrate this MiniMax M2.5.
+
+31
+00:01:03,720 --> 00:01:05,239
+When I was making the video,
+
+32
+00:01:05,239 --> 00:01:06,920
+It is still in the beta testing stage
+
+33
+00:01:06,920 --> 00:01:07,720
+As you can see
+
+34
+00:01:11,630 --> 00:01:14,130
+Here, we have pre-purchased the Coding Plan
+
+35
+00:01:14,130 --> 00:01:16,600
+It is quite comfortable for daily development.
+
+36
+00:01:16,600 --> 00:01:19,100
+Here, it supports so many development tools
+
+37
+00:01:19,100 --> 00:01:20,540
+We locate OpenCode
+
+38
+00:01:20,540 --> 00:01:22,850
+
+
+39
+00:01:22,850 --> 00:01:24,930
+Now, let's casually write some prompts
+
+40
+00:01:24,930 --> 00:01:26,510
+as long as we can see a normal response
+
+41
+00:01:26,510 --> 00:01:28,000
+indicates successful installation
+
+42
+00:01:28,000 --> 00:01:30,180
+We open OpenCode in the root directory of the project
+
+43
+00:01:30,180 --> 00:01:32,780
+First, we need to enter the /init command
+
+44
+00:01:32,780 --> 00:01:35,420
+let OpenCode build an index for the entire project
+
+45
+00:01:35,420 --> 00:01:37,540
+You can see it's responding in English here.
+
+46
+00:01:37,540 --> 00:01:38,419
+But it doesn't matter
+
+47
+00:01:38,419 --> 00:01:39,699
+we can uh ask him to
+
+48
+00:01:39,699 --> 00:01:42,539
+Please try to respond to us in Chinese
+
+49
+00:01:42,539 --> 00:01:46,100
+Then, I had it regenerate this agents.md
+
+50
+00:01:46,100 --> 00:01:47,340
+After the execution is completed
+
+51
+00:01:47,340 --> 00:01:49,100
+we enter this prompt
+
+52
+00:01:49,100 --> 00:01:50,390
+Then start the execution
+
+53
+00:01:50,390 --> 00:01:53,370
+First, it will create a detailed development plan.
+
+54
+00:01:53,370 --> 00:01:56,550
+For this step, I recommend that you can pause and take a look
+
+55
+00:01:56,550 --> 00:01:59,570
+compare it with your own expectations to see if they are consistent
+
+56
+00:01:59,570 --> 00:02:01,670
+I think his understanding is completely correct
+
+57
+00:02:01,670 --> 00:02:03,610
+So I let it continue executing
+
+58
+00:02:03,610 --> 00:02:05,990
+Next, it will create a to-do list
+
+59
+00:02:05,990 --> 00:02:09,169
+break down this massive task into multiple smaller tasks
+
+60
+00:02:09,169 --> 00:02:12,740
+At the same time, it can also track the execution status of tasks.
+
+61
+00:02:12,740 --> 00:02:15,440
+Now, it will execute according to this sequence.
+
+62
+00:02:15,440 --> 00:02:17,100
+Once a step is completed, it will be marked.
+
+63
+00:02:17,100 --> 00:02:19,660
+As you can see, the MiniMax M2.5
+
+64
+00:02:19,660 --> 00:02:21,060
+The execution speed is still very fast
+
+65
+00:02:21,060 --> 00:02:21,800
+entity class
+
+66
+00:02:21,800 --> 00:02:22,540
+Controller
+
+67
+00:02:22,540 --> 00:02:24,370
+and the data access layer
+
+68
+00:02:24,370 --> 00:02:26,890
+The code for the Service layer will be generated shortly.
+
+69
+00:02:26,890 --> 00:02:28,730
+He then proceeded to compile the backend
+
+70
+00:02:28,730 --> 00:02:30,110
+then an issue was detected here
+
+71
+00:02:30,110 --> 00:02:30,970
+OpenCode can also automatically read
+
+72
+00:02:30,970 --> 00:02:33,720
+an error message in the console
+
+73
+00:02:33,720 --> 00:02:34,920
+then automatically corrects itself
+
+74
+00:02:34,920 --> 00:02:36,100
+without us having to worry at all
+
+75
+00:02:36,100 --> 00:02:38,700
+OK, now the entire project has been successfully compiled.
+
+76
+00:02:38,700 --> 00:02:40,340
+It starts working on the front-end project
+
+77
+00:02:40,340 --> 00:02:41,960
+The speed at which it generates is also extremely fast
+
+78
+00:02:41,960 --> 00:02:44,180
+and there were no issues encountered during the process
+
+79
+00:02:44,180 --> 00:02:46,660
+Next, we will proceed to compile and run
+
+80
+00:02:46,660 --> 00:02:47,820
+both the front-end and back-end projects
+
+81
+00:02:47,820 --> 00:02:49,300
+tested the backend API
+
+82
+00:02:49,300 --> 00:02:50,720
+found it's a 403 error
+
+83
+00:02:50,720 --> 00:02:52,640
+Here he provided me with a fix suggestion
+
+84
+00:02:52,640 --> 00:02:54,280
+and reminded me to note that
+
+85
+00:02:54,280 --> 00:02:57,410
+This is due to a configuration issue at the system authentication level.
+
+86
+00:02:57,410 --> 00:03:00,090
+Well, I think it's currently in the development and testing phase, right?
+
+87
+00:03:00,090 --> 00:03:01,370
+just let it pass directly
+
+88
+00:03:01,370 --> 00:03:04,300
+Normally, user authentication should be required here.
+
+89
+00:03:04,300 --> 00:03:07,240
+Later on, I had it generate some test data by itself.
+
+90
+00:03:07,240 --> 00:03:09,600
+Here, he demonstrates a strong familiarity with the existing database field definitions of the entire project.
+
+91
+00:03:09,600 --> 00:03:11,440
+The database field definitions were still very familiar.
+
+92
+00:03:11,440 --> 00:03:15,580
+Therefore, the generation and insertion of this test data were very rapid.
+
+93
+00:03:15,580 --> 00:03:19,300
+Now, let's go to the browser and take a look at its overall performance.
+
+94
+00:03:19,300 --> 00:03:20,900
+First is this data dashboard
+
+95
+00:03:20,900 --> 00:03:22,800
+total number of users including today's check-ins and active
+
+96
+00:03:22,800 --> 00:03:26,050
+The trend curve has been rendered correctly.
+
+97
+00:03:26,050 --> 00:03:27,330
+The data is not fake data
+
+98
+00:03:27,330 --> 00:03:30,000
+but are queried and aggregated from our existing database.
+
+99
+00:03:30,000 --> 00:03:30,660
+The statistics have been calculated
+
+100
+00:03:30,660 --> 00:03:31,360
+Next,
+
+101
+00:03:31,360 --> 00:03:33,600
+Let's take a look at this user management module
+
+102
+00:03:33,600 --> 00:03:35,160
+This list supports pagination.
+
+103
+00:03:35,160 --> 00:03:37,459
+including the search and filter functions at the top are also available
+
+104
+00:03:37,459 --> 00:03:38,899
+Click on this user details
+
+105
+00:03:38,899 --> 00:03:41,120
+You can see the user's registration information at that time
+
+106
+00:03:41,120 --> 00:03:43,260
+check-in records and recent active time
+
+107
+00:03:43,260 --> 00:03:45,880
+These fields are perfectly aligned with our existing database structure.
+
+108
+00:03:45,880 --> 00:03:47,120
+Ah
+
+109
+00:03:47,120 --> 00:03:49,660
+Now, I will proceed to conduct a real functional verification.
+
+110
+00:03:49,660 --> 00:03:51,160
+I will select one of the test accounts
+
+111
+00:03:51,160 --> 00:03:52,480
+Then we click disable
+
+112
+00:03:52,480 --> 00:03:54,240
+Next, let's go to the iOS side
+
+113
+00:03:54,240 --> 00:03:56,740
+Then log in again with this account
+
+114
+00:03:56,740 --> 00:03:58,740
+As you can see, it's now unable to log in
+
+115
+00:03:58,740 --> 00:03:59,960
+Prompt indicating account anomaly
+
+116
+00:03:59,960 --> 00:04:02,060
+Our backend
+
+117
+00:04:02,060 --> 00:04:02,900
+modification of the status field
+
+118
+00:04:02,900 --> 00:04:03,480
+can already genuinely affect our
+
+119
+00:04:03,480 --> 00:04:06,400
+the existing business logic on the frontend
+
+120
+00:04:06,400 --> 00:04:08,120
+This step, I think, is very crucial
+
+121
+00:04:08,120 --> 00:04:10,900
+it's not just creating an independent backend feature
+
+122
+00:04:10,900 --> 00:04:13,240
+but can truly integrate into
+
+123
+00:04:13,240 --> 00:04:14,840
+our existing system
+
+124
+00:04:14,840 --> 00:04:17,640
+Next, we will test the content moderation.
+
+125
+00:04:17,640 --> 00:04:20,500
+I am opening the list of active friends in the backend
+
+126
+00:04:20,500 --> 00:04:22,180
+Here, I have prepared in advance a test content containing
+
+127
+00:04:22,180 --> 00:04:24,480
+a test content containing uncivilized language
+
+128
+00:04:24,480 --> 00:04:26,370
+Now we will click to delete
+
+129
+00:04:26,370 --> 00:04:28,290
+Next, we'll go to the iOS side again
+
+130
+00:04:28,290 --> 00:04:30,290
+Then refresh the page of the Live Friends Circle
+
+131
+00:04:30,290 --> 00:04:32,650
+You can see that the previous post has disappeared
+
+132
+00:04:32,650 --> 00:04:35,060
+and other functionalities are also available
+
+133
+00:04:35,060 --> 00:04:36,060
+the overall development outcome
+
+134
+00:04:36,060 --> 00:04:37,660
+I think it's done quite well.
+
+135
+00:04:37,660 --> 00:04:38,780
+Overall, it runs smoothly
+
+136
+00:04:38,780 --> 00:04:40,980
+This is no longer just about generating an interface
+
+137
+00:04:40,980 --> 00:04:44,140
+but has accomplished a genuine system-level integration
+
+138
+00:04:44,140 --> 00:04:45,580
+from an understanding of the database structure
+
+139
+00:04:45,580 --> 00:04:46,540
+to API calls
+
+140
+00:04:46,540 --> 00:04:48,960
+to the control of permissions and states
+
+141
+00:04:48,960 --> 00:04:51,420
+I think the entire chain has achieved a perfect closed loop.
+
+142
+00:04:51,420 --> 00:04:52,360
+At this point
+
+143
+00:04:52,360 --> 00:04:55,000
+One thing I'm quite certain about is that MiniMax M2.5
+
+144
+00:04:55,000 --> 00:04:55,960
+in this project
+
+145
+00:04:55,960 --> 00:04:57,840
+It not only helped us write the code
+
+146
+00:04:57,840 --> 00:05:01,040
+but truly took over the entire engineering task
+
+147
+00:05:01,040 --> 00:05:02,000
+By the way
+
+148
+00:05:02,000 --> 00:05:03,960
+the recently popular OpenClaw lobster
+
+149
+00:05:03,960 --> 00:05:06,850
+can also directly reuse MiniMax's Coding Plan
+
+150
+00:05:06,850 --> 00:05:08,010
+the same Plan
+
+151
+00:05:08,010 --> 00:05:09,810
+we can use it for daily development
+
+152
+00:05:09,810 --> 00:05:11,550
+can also run this big lobster
+
+153
+00:05:11,550 --> 00:05:12,990
+truly achieved a one-time payment
+
+154
+00:05:12,990 --> 00:05:13,980
+multi-scenario usage
+
+155
+00:05:13,980 --> 00:05:15,240
+The cost-performance ratio is still quite high.
+
+156
+00:05:15,240 --> 00:05:17,300
+Additionally, everyone can use my exclusive link
+
+157
+00:05:17,300 --> 00:05:18,940
+can enjoy a 12% discount
+
+158
+00:05:18,940 --> 00:05:21,520
+The campaign will run until the end of February.
+
+159
+00:05:21,520 --> 00:05:23,260
+The link has been placed in the comment section.
+
+160
+00:05:23,260 --> 00:05:25,620
+OK, so that's all the content of this video
+
+161
+00:05:25,620 --> 00:05:26,380
+Thank you for watching
+
+162
+00:05:26,380 --> 00:05:27,440
+See you in the next video
+
+163
+00:05:27,440 --> 00:05:28,080
+peace
+

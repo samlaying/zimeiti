@@ -1,0 +1,392 @@
+1
+00:00:00,000 --> 00:00:02,660
+The essence of excuse actually lies in refinement rather than quantity.
+
+2
+00:00:02,660 --> 00:00:05,180
+Actually, it all started back on November 28th last year
+
+3
+00:00:05,180 --> 00:00:08,260
+Uncle Huang started updating in his own community
+
+4
+00:00:08,260 --> 00:00:10,360
+the first lesson on Cloud Agent Skills
+
+5
+00:00:10,360 --> 00:00:12,830
+over a month earlier than the viral popularity of SQ use in the market
+
+6
+00:00:12,830 --> 00:00:14,550
+so the time I spent on QQ
+
+7
+00:00:14,550 --> 00:00:16,059
+possibly exceeding 100 hours
+
+8
+00:00:16,059 --> 00:00:17,599
+Actually, my deepest realization is
+
+9
+00:00:17,599 --> 00:00:20,919
+In reality, there are only a few SQS that I frequently use.
+
+10
+00:00:20,919 --> 00:00:23,500
+none of which I haven't meticulously refined
+
+11
+00:00:23,500 --> 00:00:24,500
+Let me give you two examples
+
+12
+00:00:24,500 --> 00:00:27,260
+you'll see just how big the difference is between a demo and a polished product
+
+13
+00:00:27,260 --> 00:00:28,120
+and where the differences lie
+
+14
+00:00:28,120 --> 00:00:30,400
+The first one is my interview writing skills
+
+15
+00:00:30,400 --> 00:00:32,540
+Actually, the articles for my current public account
+
+16
+00:00:32,540 --> 00:00:35,200
+most of them are written with the help of this skill
+
+17
+00:00:35,200 --> 00:00:37,789
+Its core logic is that the AI
+
+18
+00:00:37,789 --> 00:00:39,229
+as a business interview journalist
+
+19
+00:00:39,229 --> 00:00:39,929
+sitting across from me
+
+20
+00:00:39,929 --> 00:00:41,629
+keep asking me questions
+
+21
+00:00:41,629 --> 00:00:44,169
+finally summarizing my responses on their own
+
+22
+00:00:44,169 --> 00:00:45,840
+and generate a viral article
+
+23
+00:00:45,840 --> 00:00:48,500
+So this skill, I've actually revised it many times
+
+24
+00:00:48,500 --> 00:00:50,000
+The most important versions are as follows
+
+25
+00:00:50,000 --> 00:00:51,760
+The first version is that I often find myself using it
+
+26
+00:00:51,760 --> 00:00:53,360
+find it tends to nitpick
+
+27
+00:00:53,360 --> 00:00:55,920
+He kept asking me repeatedly about some minor details
+
+28
+00:00:55,920 --> 00:00:58,820
+However, these detailed issues might deviate from the main topic.
+
+29
+00:00:58,820 --> 00:00:59,820
+So later I optimized it
+
+30
+00:00:59,820 --> 00:01:00,860
+let him add a mechanism
+
+31
+00:01:00,860 --> 00:01:02,340
+After we've been talking for a while
+
+32
+00:01:02,340 --> 00:01:04,040
+he reviews our content himself
+
+33
+00:01:04,040 --> 00:01:05,920
+whether it deviates from the main direction
+
+34
+00:01:05,920 --> 00:01:06,920
+and give me some advice
+
+35
+00:01:06,920 --> 00:01:10,160
+what topics our conversation today could cover
+
+36
+00:01:10,160 --> 00:01:11,040
+After selecting one
+
+37
+00:01:11,040 --> 00:01:12,240
+he would continue to ask further questions
+
+38
+00:01:12,240 --> 00:01:13,280
+The second major iteration
+
+39
+00:01:13,280 --> 00:01:16,460
+I gave him the page views of several articles I wrote in the past
+
+40
+00:01:16,460 --> 00:01:19,100
+he then optimized it based on the readership data himself
+
+41
+00:01:19,100 --> 00:01:21,280
+his strategy for writing viral content
+
+42
+00:01:21,280 --> 00:01:25,070
+The third optimization was yesterday when I again provided the
+
+43
+00:01:25,070 --> 00:01:26,590
+the community sales were given to him
+
+44
+00:01:26,590 --> 00:01:29,570
+He further optimized it based on sales performance
+
+45
+00:01:29,570 --> 00:01:30,970
+a significant optimization
+
+46
+00:01:30,970 --> 00:01:33,670
+So now he provides me with three strategies for each article
+
+47
+00:01:33,670 --> 00:01:34,530
+He always asks me,
+
+48
+00:01:34,530 --> 00:01:35,530
+Do you want high conversion
+
+49
+00:01:35,530 --> 00:01:36,390
+high readership
+
+50
+00:01:36,390 --> 00:01:38,740
+it's still about the content direction of a balanced strategy
+
+51
+00:01:38,740 --> 00:01:40,340
+So the skill is just like this
+
+52
+00:01:40,340 --> 00:01:41,280
+The more you use it, the better it gets
+
+53
+00:01:41,280 --> 00:01:42,140
+the more you use it
+
+54
+00:01:42,140 --> 00:01:43,020
+Let me give another example
+
+55
+00:01:43,020 --> 00:01:44,880
+Remember Huangshu has a website called Noise Reduction
+
+56
+00:01:44,880 --> 00:01:48,840
+He entirely uses skills to help me capture information sources
+
+57
+00:01:48,840 --> 00:01:51,220
+then rewrite and upload to the Feishu multi-dimensional table
+
+58
+00:01:51,220 --> 00:01:52,900
+then synchronize to the front-end webpage
+
+59
+00:01:52,900 --> 00:01:55,539
+This is yet another version that I've optimized extensively
+
+60
+00:01:55,539 --> 00:01:57,439
+including scraping and processing strategies
+
+61
+00:01:57,439 --> 00:01:59,560
+At first, it was still quite a heavy workload
+
+62
+00:01:59,560 --> 00:02:01,100
+I broke it down into two skills
+
+63
+00:02:01,100 --> 00:02:02,360
+Each dead SKU is refined separately
+
+64
+00:02:02,360 --> 00:02:04,980
+After refining them, I finally combined these two SKUs into one SKU.
+
+65
+00:02:04,980 --> 00:02:07,200
+Next, I plan to turn it into a cloud-based
+
+66
+00:02:07,200 --> 00:02:09,500
+a fully automated scheduled running skill
+
+67
+00:02:09,500 --> 00:02:12,520
+So you can see, I've iterated through many versions in the middle of this process.
+
+68
+00:02:12,520 --> 00:02:15,180
+We actually take another look at many demos on the market
+
+69
+00:02:15,180 --> 00:02:17,760
+I think they can provide us with a lot of creative ideas.
+
+70
+00:02:17,760 --> 00:02:18,880
+This is really great.
+
+71
+00:02:18,880 --> 00:02:20,480
+But if we use it ourselves
+
+72
+00:02:20,480 --> 00:02:23,120
+It must be deeply integrated with our actual work
+
+73
+00:02:23,120 --> 00:02:24,260
+deep integration
+
+74
+00:02:24,260 --> 00:02:27,040
+we can only invest a lot of effort in it
+
+75
+00:02:27,040 --> 00:02:29,520
+continuously optimize it in depth
+
+76
+00:02:29,520 --> 00:02:32,280
+optimized to be highly consistent with your own SOP
+
+77
+00:02:32,280 --> 00:02:33,480
+QS in 2026
+
+78
+00:02:33,480 --> 00:02:35,960
+will definitely become a very popular
+
+79
+00:02:35,960 --> 00:02:37,180
+a de facto standard
+
+80
+00:02:37,180 --> 00:02:40,040
+completely through verbal commands can automate our SOP work
+
+81
+00:02:40,040 --> 00:02:41,500
+fully automated completion
+
+82
+00:02:41,500 --> 00:02:44,140
+It is highly efficient for productivity improvement.
+
+83
+00:02:44,140 --> 00:02:46,190
+but at the same time, we need to pay attention to the skill
+
+84
+00:02:46,190 --> 00:02:48,710
+Its core lies in whether it can integrate deeply with your workflow
+
+85
+00:02:48,710 --> 00:02:49,900
+deep integration
+
+86
+00:02:49,900 --> 00:02:52,040
+so that you can reap substantial rewards from it
+
+87
+00:02:52,040 --> 00:02:54,980
+thereby encouraging you to invest more time and effort into optimizing it
+
+88
+00:02:54,980 --> 00:02:57,269
+rather than just leaving it aside after creating it
+
+89
+00:02:57,269 --> 00:02:57,829
+If that's the case
+
+90
+00:02:57,829 --> 00:02:58,789
+That would indeed be a great pity
+
+91
+00:02:58,789 --> 00:03:00,949
+it offers relatively little benefit to yourself
+
+92
+00:03:00,949 --> 00:03:03,609
+I wonder if you have any thoughts on Uncle Huang's sharing today
+
+93
+00:03:03,609 --> 00:03:04,869
+Welcome to exchange in the comment section
+
+94
+00:03:04,869 --> 00:03:06,579
+Uncle Huang has been updating less frequently on Abi recently.
+
+95
+00:03:06,579 --> 00:03:09,079
+I will resume my updates after I return to my country.
+
+96
+00:03:09,079 --> 00:03:10,919
+and will persist with daily noon
+
+97
+00:03:10,919 --> 00:03:14,820
+Live demonstrations of cloud agent skills to accompany everyone during meals, okay
+
+98
+00:03:14,820 --> 00:03:16,360
+See you in the next episode
+

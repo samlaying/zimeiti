@@ -1,0 +1,1372 @@
+1
+00:00:00,000 --> 00:00:00,200
+Hello everyone
+
+2
+00:00:00,200 --> 00:00:00,640
+I am a reporter
+
+3
+00:00:00,640 --> 00:00:02,560
+Today I will introduce a very useful tool
+
+4
+00:00:02,560 --> 00:00:03,680
+agent-browser
+
+5
+00:00:03,680 --> 00:00:04,640
+Ancient brother
+
+6
+00:00:04,640 --> 00:00:07,800
+It is a project built by a Vercel engineer over the weekend.
+
+7
+00:00:07,800 --> 00:00:10,190
+It supports both headful and headless modes.
+
+8
+00:00:10,190 --> 00:00:14,870
+Compared to Playwright MCP, it significantly reduces context usage.
+
+9
+00:00:14,870 --> 00:00:17,640
+Its latest version supports CDP mode.
+
+10
+00:00:17,640 --> 00:00:20,380
+can connect to any running browser
+
+11
+00:00:20,380 --> 00:00:22,620
+I conducted a series of experiments with it
+
+12
+00:00:22,620 --> 00:00:26,110
+for example, invoking agent-browser within an AI programming tool
+
+13
+00:00:26,110 --> 00:00:29,560
+have it search for relevant News about Claude Cowork
+
+14
+00:00:29,560 --> 00:00:31,700
+then help me write a post
+
+15
+00:00:31,700 --> 00:00:35,860
+and it automatically posts it on Xiaohongshu for me the whole time
+
+16
+00:00:35,860 --> 00:00:38,220
+This is the initial prompt I gave it
+
+17
+00:00:38,220 --> 00:00:40,280
+Then it will start debugging
+
+18
+00:00:40,280 --> 00:00:41,060
+On the right side
+
+19
+00:00:41,060 --> 00:00:44,620
+We can see that it fills the searched information into the backend of a certain note management platform.
+
+20
+00:00:44,620 --> 00:00:48,390
+then let it generate images
+
+21
+00:00:48,390 --> 00:00:50,890
+Then it starts writing the title
+
+22
+00:00:50,890 --> 00:00:52,130
+write the main content
+
+23
+00:00:52,130 --> 00:00:53,810
+Finally, it gets published.
+
+24
+00:00:53,810 --> 00:00:55,070
+In this image
+
+25
+00:00:55,070 --> 00:00:57,519
+All the text is concentrated on the left side.
+
+26
+00:00:57,519 --> 00:01:00,219
+This might be related to its current state
+
+27
+00:01:00,219 --> 00:01:01,940
+It's related to inaccurate positioning
+
+28
+00:01:01,940 --> 00:01:03,820
+Further optimizations can be made later.
+
+29
+00:01:03,820 --> 00:01:06,180
+I also had it help me directly post on X.
+
+30
+00:01:06,180 --> 00:01:08,530
+We see it being given a task first
+
+31
+00:01:08,730 --> 00:01:11,170
+then it searches
+
+32
+00:01:11,170 --> 00:01:12,630
+Then it searches for enough information
+
+33
+00:01:12,630 --> 00:01:14,650
+started writing the key points for Cowork
+
+34
+00:01:14,650 --> 00:01:17,470
+Then it once again uses the CDP mode to
+
+35
+00:01:17,470 --> 00:01:21,960
+to use the browser where I'm already logged in
+
+36
+00:01:21,960 --> 00:01:24,440
+then post the content inside
+
+37
+00:01:24,440 --> 00:01:25,480
+After the post is successfully published,
+
+38
+00:01:25,480 --> 00:01:26,640
+it will also verify
+
+39
+00:01:26,640 --> 00:01:29,240
+check if it is officially published, and after it succeeds
+
+40
+00:01:29,240 --> 00:01:30,380
+assign it complex tasks
+
+41
+00:01:30,380 --> 00:01:33,380
+It needs to search for news
+
+42
+00:01:33,380 --> 00:01:36,080
+Second, it needs to write an article
+
+43
+00:01:36,080 --> 00:01:40,440
+and also needs to generate an image in Replicate
+
+44
+00:01:40,440 --> 00:01:42,570
+It listed 4 tasks
+
+45
+00:01:42,570 --> 00:01:43,930
+After searching for the news
+
+46
+00:01:43,930 --> 00:01:45,530
+it starts generating the image
+
+47
+00:01:45,530 --> 00:01:46,770
+Then it writes the article
+
+48
+00:01:46,770 --> 00:01:48,950
+It is downloading images, and at the same time,
+
+49
+00:01:48,950 --> 00:01:51,130
+it also made multiple attempts
+
+50
+00:01:51,130 --> 00:01:54,140
+The article it generated has some minor issues
+
+51
+00:01:54,140 --> 00:01:59,080
+Currently, it's not very familiar with the article editor on platform X.
+
+52
+00:01:59,080 --> 00:02:02,420
+It tried multiple ways to fill in the content
+
+53
+00:02:02,420 --> 00:02:05,800
+For example, what we see now is filling in content using JavaScript.
+
+54
+00:02:05,800 --> 00:02:06,620
+After filling in
+
+55
+00:02:06,620 --> 00:02:11,190
+it finds that the publish button never lights up
+
+56
+00:02:11,190 --> 00:02:13,110
+So then it tried again
+
+57
+00:02:13,110 --> 00:02:15,270
+entering the article content via the type command
+
+58
+00:02:15,270 --> 00:02:18,590
+However, in the end, this article still wasn't published.
+
+59
+00:02:18,590 --> 00:02:19,530
+because there was an issue
+
+60
+00:02:19,530 --> 00:02:22,750
+For example, let's look at the title here 'Claude Cowork'
+
+61
+00:02:22,750 --> 00:02:24,740
+It has two question marks
+
+62
+00:02:24,740 --> 00:02:27,780
+There are still significant issues with the formatting.
+
+63
+00:02:27,780 --> 00:02:31,840
+I also asked it to generate three posts for me on platform X
+
+64
+00:02:31,840 --> 00:02:34,020
+write more friendly comments
+
+65
+00:02:34,020 --> 00:02:37,230
+And I reminded it not to comment on promotional tweets.
+
+66
+00:02:37,230 --> 00:02:41,360
+After opening the page, it checked and found on my page
+
+67
+00:02:41,360 --> 00:02:42,780
+Found 4 posts
+
+68
+00:02:42,780 --> 00:02:44,220
+One of them is an advertisement
+
+69
+00:02:44,220 --> 00:02:46,460
+Then it started to comment.
+
+70
+00:02:46,460 --> 00:02:47,980
+when the second comment was made
+
+71
+00:02:47,980 --> 00:02:49,520
+There was a problem
+
+72
+00:02:49,520 --> 00:02:51,360
+The post was not successfully sent here
+
+73
+00:02:51,360 --> 00:02:54,040
+Then this is the comment on the third post
+
+74
+00:02:54,040 --> 00:02:58,280
+I also used agent-browser to help me debug the page
+
+75
+00:02:58,280 --> 00:03:00,340
+This is a simple application
+
+76
+00:03:00,340 --> 00:03:03,090
+The backend uses Convex.
+
+77
+00:03:03,090 --> 00:03:07,430
+First, I'll have agent-browser test it
+
+78
+00:03:07,430 --> 00:03:09,450
+on this platform
+
+79
+00:03:09,450 --> 00:03:12,130
+to click and add a to-do
+
+80
+00:03:12,130 --> 00:03:15,070
+and then perform some deletion operations
+
+81
+00:03:15,070 --> 00:03:16,130
+complete action
+
+82
+00:03:16,130 --> 00:03:19,410
+It added some to-dos, which is pretty good.
+
+83
+00:03:19,410 --> 00:03:22,339
+Then, provide it with the Convex backend information.
+
+84
+00:03:22,339 --> 00:03:23,130
+tell it
+
+85
+00:03:23,130 --> 00:03:25,290
+Let agent-browser check the information
+
+86
+00:03:25,290 --> 00:03:26,930
+and provide me with a detailed report
+
+87
+00:03:26,930 --> 00:03:29,110
+It will browse the health page
+
+88
+00:03:29,110 --> 00:03:30,610
+functions page
+
+89
+00:03:30,610 --> 00:03:34,510
+In the end, it will provide a relatively detailed report.
+
+90
+00:03:34,510 --> 00:03:36,410
+I also had agent-browser operate on the Gemini platform
+
+91
+00:03:36,410 --> 00:03:39,860
+Enter AI drawing prompts
+
+92
+00:03:39,860 --> 00:03:42,200
+and generate cute little cats
+
+93
+00:03:42,200 --> 00:03:44,360
+This is also a limitation of the Gemini platform.
+
+94
+00:03:44,360 --> 00:03:48,280
+Often when it asks it to generate some images, the images
+
+95
+00:03:48,280 --> 00:03:52,050
+Sometimes it may only display the prompt first
+
+96
+00:03:52,050 --> 00:03:53,550
+style descriptions, etc.
+
+97
+00:03:53,550 --> 00:03:55,990
+Then I'll give the AI another prompt here
+
+98
+00:03:55,990 --> 00:03:58,840
+let it refine further, and then it can generate something this cute
+
+99
+00:03:58,840 --> 00:04:00,500
+It can generate like this
+
+100
+00:04:00,500 --> 00:04:03,370
+5 cute kitten avatars
+
+101
+00:04:03,370 --> 00:04:06,550
+Next, I had the AI open a new page on the Gemini interface
+
+102
+00:04:06,550 --> 00:04:07,860
+select DeepResearch
+
+103
+00:04:07,860 --> 00:04:11,620
+Through comprehensive research on Claude Cowork
+
+104
+00:04:11,620 --> 00:04:13,120
+let Gemini generate the report
+
+105
+00:04:13,120 --> 00:04:16,560
+We can see it fumbling around here for a bit
+
+106
+00:04:16,560 --> 00:04:18,380
+finally found the tools button
+
+107
+00:04:18,380 --> 00:04:20,760
+then select in-depth research
+
+108
+00:04:20,760 --> 00:04:23,239
+and we can see
+
+109
+00:04:23,239 --> 00:04:25,430
+The prompt here is problematic
+
+110
+00:04:25,430 --> 00:04:27,730
+because of Claude Opus 4.5's knowledge base issue
+
+111
+00:04:27,730 --> 00:04:29,980
+It doesn't know that Claude Cowork has been released
+
+112
+00:04:29,980 --> 00:04:35,310
+so the prompt it writes here is still Claude Code
+
+113
+00:04:35,310 --> 00:04:37,630
+So I have to interrupt it here
+
+114
+00:04:37,630 --> 00:04:40,700
+then instruct it to conduct research on Claude Cowork
+
+115
+00:04:40,700 --> 00:04:42,760
+After that, it successfully completed the operation
+
+116
+00:04:42,760 --> 00:04:46,210
+Then, I had it open a new Gemini page
+
+117
+00:04:46,210 --> 00:04:48,830
+use the Canvas feature in the Gemini tool
+
+118
+00:04:48,830 --> 00:04:53,200
+Because I had previously observed that it was searching for DeepResearch
+
+119
+00:04:53,200 --> 00:04:54,980
+the tools took a long time to locate
+
+120
+00:04:54,980 --> 00:04:58,020
+So here I explicitly tell it
+
+121
+00:04:58,020 --> 00:05:00,800
+use the Canvas feature in the tool
+
+122
+00:05:00,800 --> 00:05:02,800
+so it can find it more quickly
+
+123
+00:05:02,800 --> 00:05:05,950
+have it generate an exquisite award-winning webpage
+
+124
+00:05:05,950 --> 00:05:08,770
+The theme of the page is a party on Mars
+
+125
+00:05:08,770 --> 00:05:11,390
+Here are the prompts generated by Claude Opus 4.5
+
+126
+00:05:11,390 --> 00:05:13,050
+The content is still very rich
+
+127
+00:05:13,050 --> 00:05:15,230
+finally generated
+
+128
+00:05:15,230 --> 00:05:18,570
+This webpage is also very good
+
+129
+00:05:18,570 --> 00:05:22,670
+Moreover, this is only generated by the Gemini 3 Flash Thinking mode.
+
+130
+00:05:22,670 --> 00:05:27,700
+Next, I directly sent the 5 voxel art prompts to the AI, instructing it to open 5 Gemini pages.
+
+131
+00:05:27,700 --> 00:05:30,520
+tell it to open five GMA pages
+
+132
+00:05:30,520 --> 00:05:35,690
+Use the Canvas in the tools to generate 5 different pages
+
+133
+00:05:35,690 --> 00:05:39,210
+We can see that it also completes the tasks one by one here.
+
+134
+00:05:39,210 --> 00:05:41,520
+Finally, it informed me that all 5 tasks were completed.
+
+135
+00:05:41,520 --> 00:05:44,400
+Although invoking agent-browser within AI
+
+136
+00:05:44,400 --> 00:05:48,080
+It will try one by one
+
+137
+00:05:48,080 --> 00:05:49,560
+requires multiple steps
+
+138
+00:05:49,560 --> 00:05:52,480
+
+
+139
+00:05:52,480 --> 00:05:53,120
+leave it to it
+
+140
+00:05:53,120 --> 00:05:55,300
+we don't care about its processing time
+
+141
+00:05:55,300 --> 00:05:58,120
+is still very good
+
+142
+00:05:58,120 --> 00:06:01,420
+For example, a sequence of 5 prompts like this
+
+143
+00:06:01,420 --> 00:06:03,340
+let it converse on Gemini
+
+144
+00:06:03,340 --> 00:06:04,940
+If I were to click it myself
+
+145
+00:06:04,940 --> 00:06:07,100
+
+
+146
+00:06:07,100 --> 00:06:08,800
+while opening a new page
+
+147
+00:06:08,800 --> 00:06:11,600
+Pasting it in is still quite troublesome
+
+148
+00:06:11,600 --> 00:06:13,880
+Perhaps later for testing some large models
+
+149
+00:06:13,880 --> 00:06:18,150
+I'm considering using this method, which will definitely improve my efficiency.
+
+150
+00:06:18,150 --> 00:06:20,370
+In the end, it informed me that five tasks were completed.
+
+151
+00:06:20,370 --> 00:06:23,120
+I took a look, and actually
+
+152
+00:06:23,120 --> 00:06:25,300
+One task was not completed
+
+153
+00:06:25,300 --> 00:06:28,760
+This is the cloud dock generated by Gemini 3 Flash Thinking
+
+154
+00:06:28,760 --> 00:06:30,730
+steam airship
+
+155
+00:06:30,890 --> 00:06:32,850
+is still very vivid
+
+156
+00:06:32,850 --> 00:06:36,490
+Then I asked agent-browser to summarize Simon
+
+157
+00:06:36,490 --> 00:06:39,110
+key points of all articles in January 2026
+
+158
+00:06:39,110 --> 00:06:42,150
+It quickly started helping me make a plan
+
+159
+00:06:42,150 --> 00:06:43,850
+and read them one by one
+
+160
+00:06:43,850 --> 00:06:46,100
+ultimately providing detailed article summaries
+
+161
+00:06:46,100 --> 00:06:49,000
+This kind of repetitive and somewhat tedious task
+
+162
+00:06:49,000 --> 00:06:51,020
+For agent-browser
+
+163
+00:06:51,020 --> 00:06:52,680
+It's really very convenient to use
+
+164
+00:06:52,680 --> 00:06:54,740
+After that, I conducted a test
+
+165
+00:06:54,740 --> 00:06:57,700
+have it connect via CDP mode
+
+166
+00:06:57,700 --> 00:07:00,120
+log in to JD.com and Taobao websites
+
+167
+00:07:00,120 --> 00:07:01,200
+search on both platforms
+
+168
+00:07:01,200 --> 00:07:03,920
+the prices of DJI Pocket 3 from the top three highest-selling stores
+
+169
+00:07:03,920 --> 00:07:05,570
+compile into a table
+
+170
+00:07:05,570 --> 00:07:10,240
+So we can see that it searches for the sales of pocket 3
+
+171
+00:07:10,240 --> 00:07:11,740
+it is still relatively convenient
+
+172
+00:07:11,740 --> 00:07:14,240
+However, when attempting to fill in the table here
+
+173
+00:07:14,240 --> 00:07:17,010
+it encountered a very big problem
+
+174
+00:07:17,010 --> 00:07:21,430
+This is also a current limitation of agent-browser
+
+175
+00:07:21,430 --> 00:07:24,310
+When you ask it to complete an unfamiliar task
+
+176
+00:07:24,310 --> 00:07:27,970
+It's best to first observe what steps it has taken
+
+177
+00:07:27,970 --> 00:07:29,350
+on which issues it encountered
+
+178
+00:07:29,350 --> 00:07:34,770
+some operations, back-and-forth issues
+
+179
+00:07:34,770 --> 00:07:36,530
+After it completes the task
+
+180
+00:07:36,530 --> 00:07:38,610
+You can have it summarize
+
+181
+00:07:38,610 --> 00:07:40,250
+what issues occurred during the process
+
+182
+00:07:40,250 --> 00:07:41,860
+how to optimize in the future
+
+183
+00:07:41,860 --> 00:07:44,720
+Now, let's take a closer look at agent-browser
+
+184
+00:07:44,720 --> 00:07:47,000
+It controls the browser through code
+
+185
+00:07:47,000 --> 00:07:48,760
+Automate repetitive tasks
+
+186
+00:07:48,760 --> 00:07:50,780
+give time back to creativity
+
+187
+00:07:50,780 --> 00:07:52,920
+It can help us automate form filling
+
+188
+00:07:52,920 --> 00:07:55,800
+web testing and UI automation
+
+189
+00:07:55,800 --> 00:08:00,000
+I just introduced a test of the Todo application
+
+190
+00:08:00,000 --> 00:08:03,700
+Additionally, it can assist us with data collection and web crawling.
+
+191
+00:08:03,700 --> 00:08:07,300
+Just now, we demonstrated the data collection from JD.com and Taobao.
+
+192
+00:08:07,300 --> 00:08:11,200
+Especially, because platforms like JD.com and Taobao
+
+193
+00:08:11,200 --> 00:08:15,870
+It has very strong anti-scraping measures.
+
+194
+00:08:15,870 --> 00:08:20,540
+so we find it more effective to use tools like agent-browser
+
+195
+00:08:20,540 --> 00:08:24,360
+using those usual scripts
+
+196
+00:08:24,360 --> 00:08:25,880
+that would be a bit troublesome
+
+197
+00:08:25,880 --> 00:08:27,559
+As for fun scenarios,
+
+198
+00:08:27,559 --> 00:08:30,199
+It can help you automate social media tasks
+
+199
+00:08:30,199 --> 00:08:35,620
+I just demonstrated posting comments on Xiaohongshu or X.
+
+200
+00:08:35,620 --> 00:08:39,250
+It can also help you automate some gaming tasks
+
+201
+00:08:39,250 --> 00:08:40,850
+In efficiency scenarios
+
+202
+00:08:40,850 --> 00:08:46,760
+can help you automate workflows, batch export reports, and automatically download email attachments
+
+203
+00:08:46,760 --> 00:08:48,680
+batch account management
+
+204
+00:08:48,680 --> 00:08:50,660
+price and inventory monitoring
+
+205
+00:08:50,660 --> 00:08:52,910
+website health checks, etc.
+
+206
+00:08:52,910 --> 00:08:56,480
+As for the CDP mode, it requires the user to be in a logged-in state.
+
+207
+00:08:56,480 --> 00:08:58,700
+can utilize an existing Chrome session
+
+208
+00:08:58,700 --> 00:09:00,720
+The installation of agent-browser is very simple
+
+209
+00:09:00,720 --> 00:09:02,900
+First, run this command
+
+210
+00:09:02,900 --> 00:09:05,050
+Then run this command
+
+211
+00:09:05,050 --> 00:09:07,870
+Its core highlight is its high-performance architecture.
+
+212
+00:09:07,870 --> 00:09:11,490
+uses a Rust CLI and a Node.js daemon process
+
+213
+00:09:11,490 --> 00:09:15,950
+Moreover, it is specifically optimized for large language models.
+
+214
+00:09:15,950 --> 00:09:19,910
+Its modes are snapshot mode and reference mode.
+
+215
+00:09:19,910 --> 00:09:21,810
+After installing agent-browser
+
+216
+00:09:21,810 --> 00:09:25,130
+We can first run it with this command
+
+217
+00:09:25,130 --> 00:09:27,630
+see what output it produces
+
+218
+00:09:27,630 --> 00:09:30,870
+Then for the snapshot, it's essentially a capture of the current state.
+
+219
+00:09:30,870 --> 00:09:33,830
+It can retrieve accessibility numbers and references
+
+220
+00:09:33,830 --> 00:09:35,910
+Here are refs like @e1, @e2
+
+221
+00:09:35,910 --> 00:09:41,030
+represents where its reference location is
+
+222
+00:09:41,030 --> 00:09:42,370
+The accessibility tree
+
+223
+00:09:42,370 --> 00:09:46,120
+It is semantically structured and generated by the browser based on the DOM.
+
+224
+00:09:46,120 --> 00:09:49,280
+Designed specifically for assistive technologies such as screen readers
+
+225
+00:09:49,280 --> 00:09:52,790
+It differs from traditional DOM CSS selectors.
+
+226
+00:09:52,790 --> 00:09:55,590
+It only contains meaningful interactive elements
+
+227
+00:09:55,590 --> 00:09:56,890
+such as buttons
+
+228
+00:09:56,890 --> 00:09:58,610
+links, input boxes
+
+229
+00:09:58,610 --> 00:10:01,880
+When I run this command in the terminal
+
+230
+00:10:01,880 --> 00:10:04,010
+the following response will appear
+
+231
+00:10:04,010 --> 00:10:06,650
+When running the snapshot
+
+232
+00:10:06,650 --> 00:10:08,470
+the following content will appear
+
+233
+00:10:08,470 --> 00:10:10,290
+Let's take a look, it's very simple
+
+234
+00:10:10,290 --> 00:10:12,099
+what are the links
+
+235
+00:10:12,099 --> 00:10:13,879
+what are the headings
+
+236
+00:10:13,879 --> 00:10:15,139
+Such a design
+
+237
+00:10:15,139 --> 00:10:16,939
+It is very AI-friendly
+
+238
+00:10:16,939 --> 00:10:19,219
+Let's take a brief look at its core commands
+
+239
+00:10:19,219 --> 00:10:21,200
+What are the click inputs
+
+240
+00:10:21,200 --> 00:10:24,960
+as well as taking screenshot snapshots to capture information
+
+241
+00:10:24,960 --> 00:10:27,840
+For advanced features
+
+242
+00:10:27,840 --> 00:10:29,660
+Example: Save login status, skip repeated logins. It has a semantic locator.
+
+243
+00:10:29,660 --> 00:10:31,690
+It uses find
+
+244
+00:10:31,690 --> 00:10:32,630
+and cookies
+
+245
+00:10:32,630 --> 00:10:33,710
+Let me explain
+
+246
+00:10:33,710 --> 00:10:35,970
+We can save the login state
+
+247
+00:10:35,970 --> 00:10:37,330
+skip repeated logins
+
+248
+00:10:37,330 --> 00:10:39,940
+For example, the first login looks like this
+
+249
+00:10:39,940 --> 00:10:42,460
+After manually completing the login,
+
+250
+00:10:42,460 --> 00:10:46,800
+you can save cookies and storage via stay save
+
+251
+00:10:46,800 --> 00:10:49,260
+After that, you can directly load the state
+
+252
+00:10:49,260 --> 00:10:50,660
+no need to log in again
+
+253
+00:10:50,660 --> 00:10:51,480
+agent-browser
+
+254
+00:10:51,480 --> 00:10:54,790
+It also supports running multiple isolated browser instances
+
+255
+00:10:54,790 --> 00:10:58,740
+Each session has independent cookie storage and authentication status.
+
+256
+00:10:58,740 --> 00:11:01,480
+It also supports real-time streaming preview
+
+257
+00:11:01,480 --> 00:11:03,990
+Let me highlight the CDP mode
+
+258
+00:11:03,990 --> 00:11:06,950
+It can connect to an existing browser
+
+259
+00:11:06,950 --> 00:11:10,430
+In AI programming tools, using agent-browser is very convenient.
+
+260
+00:11:10,430 --> 00:11:12,800
+You can also directly prompt it to say
+
+261
+00:11:12,800 --> 00:11:15,500
+Test the login process using agent-browser
+
+262
+00:11:15,500 --> 00:11:17,860
+Let it first run agent-browser --help
+
+263
+00:11:17,860 --> 00:11:19,300
+View available commands
+
+264
+00:11:19,300 --> 00:11:22,000
+There is a great For You feature when using agent-browser
+
+265
+00:11:22,000 --> 00:11:24,200
+which is using -i
+
+266
+00:11:24,200 --> 00:11:27,230
+-i means to display only interactive elements
+
+267
+00:11:27,230 --> 00:11:29,510
+including buttons, links, input fields
+
+268
+00:11:29,510 --> 00:11:31,550
+It helps you save a significant amount of context.
+
+269
+00:11:31,550 --> 00:11:33,430
+Now let's look at agent-browser
+
+270
+00:11:33,430 --> 00:11:35,540
+The difference between it and some other solutions
+
+271
+00:11:35,540 --> 00:11:37,960
+For example, Playwright, native scripts
+
+272
+00:11:37,960 --> 00:11:42,420
+Developers need to write test scripts themselves, which is fully controllable
+
+273
+00:11:42,420 --> 00:11:44,090
+but requires programming skills
+
+274
+00:11:44,090 --> 00:11:46,390
+As just mentioned, Playwright MCP is accessed and formed in the form of MCP.
+
+275
+00:11:46,390 --> 00:11:49,390
+It ends with MCP as the full form
+
+276
+00:11:49,390 --> 00:11:52,650
+may result in a significant amount of DOM context
+
+277
+00:11:52,650 --> 00:11:53,910
+Here it must be pointed out
+
+278
+00:11:53,910 --> 00:11:54,930
+Claude Code
+
+279
+00:11:54,930 --> 00:11:59,989
+Recently, the MCP tool search feature has been rolled out.
+
+280
+00:11:59,989 --> 00:12:04,700
+This tool search allows Claude Code, when the MCP tool occupies too much context,
+
+281
+00:12:04,700 --> 00:12:07,100
+dynamically load tools into the context
+
+282
+00:12:07,100 --> 00:12:08,580
+This is for MCP
+
+283
+00:12:08,580 --> 00:12:12,560
+There are some requirements for both the server and the client.
+
+284
+00:12:12,560 --> 00:12:15,340
+Some users have reported that after using agent-browser,
+
+285
+00:12:15,340 --> 00:12:17,260
+efficiency has been significantly improved
+
+286
+00:12:17,260 --> 00:12:20,579
+Let's take another look at agent-browser and Playwright MCP
+
+287
+00:12:20,579 --> 00:12:23,699
+a detailed, comparative analysis
+
+288
+00:12:23,699 --> 00:12:26,199
+Because in current browser automation,
+
+289
+00:12:26,199 --> 00:12:31,610
+TOKEN is primarily spent on page display and action feedback.
+
+290
+00:12:31,610 --> 00:12:35,070
+agent-browser uses streamlined snapshots
+
+291
+00:12:35,070 --> 00:12:37,110
+and the refs operation mode
+
+292
+00:12:37,110 --> 00:12:40,530
+This means that large chunks of information only appear when necessary
+
+293
+00:12:40,530 --> 00:12:43,170
+instead of bringing a snapshot every time
+
+294
+00:12:43,170 --> 00:12:45,490
+to help it slim down significantly
+
+295
+00:12:45,490 --> 00:12:47,530
+As for Playwright MCP,
+
+296
+00:12:47,530 --> 00:12:50,770
+It means that after many actions, the response will include some form of page representation
+
+297
+00:12:50,770 --> 00:12:53,620
+you will attach some form of page representation
+
+298
+00:12:53,620 --> 00:12:56,220
+thereby pushing the token higher
+
+299
+00:12:56,220 --> 00:12:59,569
+Finally, let me introduce the agent-browser CDP mode
+
+300
+00:12:59,569 --> 00:12:59,869
+Uh
+
+301
+00:12:59,869 --> 00:13:02,129
+
+
+302
+00:13:02,129 --> 00:13:05,529
+During actual operation, I encountered some issues
+
+303
+00:13:05,529 --> 00:13:08,069
+Later, after troubleshooting
+
+304
+00:13:08,269 --> 00:13:11,149
+Finally, let's take a look at how to resolve it.
+
+305
+00:13:11,149 --> 00:13:13,080
+First of all, it's very important to note that
+
+306
+00:13:13,080 --> 00:13:15,160
+Due to Chrome's security restrictions
+
+307
+00:13:15,160 --> 00:13:18,510
+when only using the remote debugging port
+
+308
+00:13:18,510 --> 00:13:22,150
+Chrome strongly recommends using a non-default userdatadir
+
+309
+00:13:22,150 --> 00:13:24,050
+So how can this issue be resolved?
+
+310
+00:13:24,050 --> 00:13:26,760
+Because I have two Google profiles
+
+311
+00:13:26,760 --> 00:13:30,540
+So first, which profile do I want
+
+312
+00:13:30,540 --> 00:13:33,410
+First, I'll let the AI
+
+313
+00:13:33,410 --> 00:13:38,530
+Help me locate which profiles are available using this command
+
+314
+00:13:38,530 --> 00:13:41,590
+Then I select, for example, the default profile
+
+315
+00:13:41,590 --> 00:13:42,450
+then tell it
+
+316
+00:13:43,530 --> 00:13:49,680
+
+
+317
+00:13:49,680 --> 00:13:51,660
+Here a new directory is created
+
+318
+00:13:51,660 --> 00:13:54,140
+
+
+319
+00:13:54,140 --> 00:13:55,480
+
+
+320
+00:13:55,480 --> 00:13:58,820
+It can retain the previous cookies
+
+321
+00:13:58,820 --> 00:14:00,900
+various plugin information
+
+322
+00:14:00,900 --> 00:14:01,900
+After that,
+
+323
+00:14:01,900 --> 00:14:05,260
+The second step is to launch Chrome with remote debugging enabled
+
+324
+00:14:05,260 --> 00:14:08,230
+First, close the currently running Chrome browser
+
+325
+00:14:08,230 --> 00:14:10,630
+Then, start Chrome
+
+326
+00:14:10,630 --> 00:14:14,090
+Here, you can choose the default yourself
+
+327
+00:14:14,090 --> 00:14:16,210
+and this user data dir
+
+328
+00:14:16,210 --> 00:14:19,450
+
+
+329
+00:14:19,450 --> 00:14:22,470
+You can use this command to verify whether it was successful.
+
+330
+00:14:22,470 --> 00:14:25,800
+After that, we can use agent-browser
+
+331
+00:14:25,800 --> 00:14:28,320
+to call the CDP mode
+
+332
+00:14:28,320 --> 00:14:30,580
+If the port is not listening
+
+333
+00:14:30,580 --> 00:14:33,040
+We can check it using this command line.
+
+334
+00:14:33,040 --> 00:14:34,840
+
+
+335
+00:14:34,840 --> 00:14:36,880
+If you're interested, you can follow it
+
+336
+00:14:36,880 --> 00:14:39,000
+That's all for today's introduction to the agent-browser tool.
+
+337
+00:14:39,000 --> 00:14:40,380
+the tool angel browser
+
+338
+00:14:40,380 --> 00:14:43,020
+With this tool, you don't need to dive too deep
+
+339
+00:14:43,020 --> 00:14:47,860
+You just need to tell the AI programming tool such commands
+
+340
+00:14:47,860 --> 00:14:52,079
+
+
+341
+00:14:52,079 --> 00:14:54,459
+place it in your AI programming tool
+
+342
+00:14:54,459 --> 00:14:57,640
+it will understand how to operate agent-browser
+
+343
+00:14:57,640 --> 00:14:59,980
+It is quite convenient to use.
+

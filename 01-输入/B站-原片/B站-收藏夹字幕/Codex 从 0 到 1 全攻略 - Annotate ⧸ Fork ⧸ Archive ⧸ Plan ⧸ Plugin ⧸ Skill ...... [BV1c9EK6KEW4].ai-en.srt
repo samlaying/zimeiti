@@ -1,0 +1,5532 @@
+1
+00:00:00,220 --> 00:00:02,800
+Today, we're going to talk about the one and only, Codex.
+
+2
+00:00:02,800 --> 00:00:05,160
+I'm sure you've all heard of this software by now.
+
+3
+00:00:05,160 --> 00:00:06,840
+This is OpenAI's flagship product.
+
+4
+00:00:06,840 --> 00:00:08,710
+It's a direct competitor to Anthropic's Claude Code.
+
+5
+00:00:08,710 --> 00:00:10,410
+Codex is capable of doing a whole lot of things.
+
+6
+00:00:10,410 --> 00:00:12,110
+It doesn't just help you write code,
+
+7
+00:00:12,110 --> 00:00:12,830
+debug issues,
+
+8
+00:00:12,830 --> 00:00:13,670
+run tests,
+
+9
+00:00:13,670 --> 00:00:15,550
+It can also manage Git and control your browser.
+
+10
+00:00:15,550 --> 00:00:17,880
+It can even directly control your computer to complete all sorts of tasks.
+
+11
+00:00:17,880 --> 00:00:18,700
+It's incredibly powerful.
+
+12
+00:00:18,700 --> 00:00:21,460
+But the more features there are, the harder it is to know where to start.
+
+13
+00:00:21,460 --> 00:00:24,440
+So in this video, I'm going to walk you through everything systematically.
+
+14
+00:00:24,440 --> 00:00:25,960
+the most essential features of Codex,
+
+15
+00:00:25,960 --> 00:00:28,680
+and help you build a solid framework for using it.
+
+16
+00:00:28,680 --> 00:00:30,800
+The entire video is divided into three parts.
+
+17
+00:00:30,800 --> 00:00:32,479
+The first part is the fundamentals.
+
+18
+00:00:32,479 --> 00:00:34,499
+and will mainly get you started with Codex quickly.
+
+19
+00:00:34,499 --> 00:00:38,420
+We'll also cover some key configurations and common pitfalls to watch out for.
+
+20
+00:00:38,420 --> 00:00:40,120
+Part two is the advanced section.
+
+21
+00:00:40,120 --> 00:00:41,660
+focusing on version control,
+
+22
+00:00:41,660 --> 00:00:42,400
+and session management,
+
+23
+00:00:42,400 --> 00:00:45,280
+and how to more effectively organize and progress your development tasks.
+
+24
+00:00:45,280 --> 00:00:47,100
+Part three is the Extensions section.
+
+25
+00:00:47,100 --> 00:00:49,520
+We'll explore how to use plugins and skills,
+
+26
+00:00:49,520 --> 00:00:51,080
+automation, and mobile, to further push the boundaries of what Codex can do.
+
+27
+00:00:51,080 --> 00:00:53,480
+to further push the boundaries of what Codex can do.
+
+28
+00:00:53,480 --> 00:00:55,360
+I've listed all the features and their corresponding timestamps.
+
+29
+00:00:55,360 --> 00:00:56,400
+I've listed them all in the table of contents.
+
+30
+00:00:56,400 --> 00:00:57,840
+Feel free to adjust it to your needs.
+
+31
+00:00:57,840 --> 00:00:59,000
+Alright, let's dive right in.
+
+32
+00:00:59,000 --> 00:01:00,800
+Let's get started.
+
+33
+00:01:01,080 --> 00:01:04,180
+Alright, the first thing we need to do is get Codex installed on our computer.
+
+34
+00:01:04,180 --> 00:01:06,289
+We can open this page.
+
+35
+00:01:06,289 --> 00:01:09,449
+Just go to https://chatgpt.com/zh-Hans-CN/codex/, click the download button right there, and you'll get Codex.
+
+36
+00:01:09,449 --> 00:01:10,289
+Once the download is complete,
+
+37
+00:01:10,289 --> 00:01:11,490
+Let's go ahead and open it.
+
+38
+00:01:11,490 --> 00:01:14,350
+The installation process is just like any other regular software.
+
+39
+00:01:14,350 --> 00:01:16,110
+For example, I'm on macOS.
+
+40
+00:01:16,110 --> 00:01:19,210
+Just drag the Codex icon into your Applications folder.
+
+41
+00:01:19,210 --> 00:01:21,090
+And just like that, the installation is complete.
+
+42
+00:01:22,320 --> 00:01:23,320
+Alright, now that it's installed,
+
+43
+00:01:23,320 --> 00:01:25,370
+Alright, let's open up Codex.
+
+44
+00:01:25,690 --> 00:01:27,070
+Once Codex is open,
+
+45
+00:01:27,070 --> 00:01:29,170
+The first thing it's going to do is prompt us to log in.
+
+46
+00:01:29,170 --> 00:01:30,970
+So, it gives us two options here.
+
+47
+00:01:30,970 --> 00:01:33,670
+The first one is to log in with your ChatGPT account.
+
+48
+00:01:33,670 --> 00:01:35,770
+This requires you to subscribe to a ChatGPT plan.
+
+49
+00:01:35,770 --> 00:01:38,380
+ChatGPT offers a variety of plans.
+
+50
+00:01:38,380 --> 00:01:41,780
+The most common ones are the ones I'm showing on my screen right now.
+
+51
+00:01:41,780 --> 00:01:44,460
+These are mainly the free version and the Plus plan.
+
+52
+00:01:44,460 --> 00:01:46,430
+the Plus and Pro plans.
+
+53
+00:01:46,430 --> 00:01:48,350
+So, as you can see on the screen, these are the different plans.
+
+54
+00:01:48,350 --> 00:01:50,410
+And the price goes up as you move from left to right.
+
+55
+00:01:50,410 --> 00:01:53,370
+And of course, the overall Codex credit you get also increases with each one.
+
+56
+00:01:53,370 --> 00:01:54,390
+So, as it stands,
+
+57
+00:01:54,390 --> 00:01:56,930
+The Codex quota for the Free and Go plans should be pretty much the same.
+
+58
+00:01:56,930 --> 00:01:59,750
+But once you get to the Plus plan, the allowance sees a significant jump.
+
+59
+00:01:59,750 --> 00:02:01,530
+And the Pro plan, naturally, gives you even more.
+
+60
+00:02:01,530 --> 00:02:02,490
+It's worth mentioning that
+
+61
+00:02:02,490 --> 00:02:05,930
+Even if you're on the free plan, the system still gives you a certain amount of Codex credit.
+
+62
+00:02:05,930 --> 00:02:07,670
+It's just that this allowance is incredibly small.
+
+63
+00:02:07,670 --> 00:02:09,520
+It's barely enough to get your feet wet.
+
+64
+00:02:09,520 --> 00:02:12,480
+So, if you really want to get the hang of it and see what it's truly capable of,
+
+65
+00:02:12,480 --> 00:02:14,800
+I'd recommend starting with the Plus plan.
+
+66
+00:02:14,800 --> 00:02:16,420
+It's twenty dollars a month.
+
+67
+00:02:16,420 --> 00:02:18,340
+The amount of available resources is pretty moderate.
+
+68
+00:02:18,340 --> 00:02:19,780
+Besides the subscription plans,
+
+69
+00:02:19,780 --> 00:02:22,540
+OpenAI also offers another option to use Codex.
+
+70
+00:02:22,540 --> 00:02:24,220
+And that is to use the API directly.
+
+71
+00:02:24,220 --> 00:02:26,630
+And that corresponds to this option right here: 'Sign in another way'.
+
+72
+00:02:26,630 --> 00:02:30,050
+After you click that, it'll prompt you to enter your OpenAI API key.
+
+73
+00:02:30,050 --> 00:02:32,770
+Generally speaking, using the API isn't as cost-effective as getting a subscription plan.
+
+74
+00:02:32,770 --> 00:02:35,750
+Plus, the barrier to entry for getting this API key is a bit high.
+
+75
+00:02:35,750 --> 00:02:37,890
+Usually, you'll need an international credit card for that.
+
+76
+00:02:37,890 --> 00:02:41,200
+So, I'd recommend just subscribing to a plan to use Codex.
+
+77
+00:02:41,200 --> 00:02:42,540
+Now, for the actual login process...
+
+78
+00:02:42,540 --> 00:02:43,660
+So I'm not going to show that part here.
+
+79
+00:02:43,660 --> 00:02:47,029
+From here, you can choose the login method that works best for you.
+
+80
+00:02:47,309 --> 00:02:48,489
+Alright, once you're logged in,
+
+81
+00:02:48,489 --> 00:02:51,420
+So, the first thing you'll see is an interface that looks something like this.
+
+82
+00:02:51,420 --> 00:02:54,480
+First, Codex will ask what we do for a living.
+
+83
+00:02:54,480 --> 00:02:57,470
+Just go ahead and choose the option that best fits your situation.
+
+84
+00:02:57,470 --> 00:03:00,690
+Then, Codex will prompt you to import settings from Claude Code and Cursor.
+
+85
+00:03:00,690 --> 00:03:02,870
+and import their related configurations into Codex.
+
+86
+00:03:02,870 --> 00:03:03,900
+We'll skip this for now.
+
+87
+00:03:03,900 --> 00:03:07,160
+Then Codex asks us if we want to try the mobile version.
+
+88
+00:03:07,160 --> 00:03:09,510
+We'll just click on 'Setup Later'.
+
+89
+00:03:09,510 --> 00:03:11,750
+I'll show you how this works in a bit.
+
+90
+00:03:11,750 --> 00:03:13,430
+So let's not worry about that for now.
+
+91
+00:03:13,430 --> 00:03:17,090
+Alright, so now we're officially in the Codex interface.
+
+92
+00:03:17,090 --> 00:03:18,390
+We're all set to start using it now.
+
+93
+00:03:18,390 --> 00:03:20,130
+Let's just say hi to it.
+
+94
+00:03:20,130 --> 00:03:22,935
+Let's see if it's working properly.
+
+95
+00:03:24,900 --> 00:03:27,820
+As you can see, Codex is up and running.
+
+96
+00:03:27,820 --> 00:03:30,279
+Alright, next I'm going to walk you through building a to-do list app.
+
+97
+00:03:30,279 --> 00:03:32,239
+And as we build this to-do app,
+
+98
+00:03:32,239 --> 00:03:34,470
+I'll walk you through all of Codex's different features.
+
+99
+00:03:34,470 --> 00:03:36,390
+First, we need to create a new directory.
+
+100
+00:03:36,390 --> 00:03:38,090
+to store our software code.
+
+101
+00:03:38,090 --> 00:03:39,810
+Let's open up Finder.
+
+102
+00:03:39,810 --> 00:03:42,030
+And create a new folder right here.
+
+103
+00:03:42,030 --> 00:03:44,459
+Let's call it 'Mark Notes'.
+
+104
+00:03:44,459 --> 00:03:46,559
+And now, let's head back to Codex.
+
+105
+00:03:46,559 --> 00:03:49,110
+Click on 'Work in the Project'.
+
+106
+00:03:49,390 --> 00:03:52,370
+Then, click on "Use an existing folder".
+
+107
+00:03:52,370 --> 00:03:54,210
+In the pop-up dialog box,
+
+108
+00:03:54,210 --> 00:03:56,330
+Select the folder we just created.
+
+109
+00:03:56,330 --> 00:03:58,930
+And then, click on 'Open'.
+
+110
+00:03:58,930 --> 00:04:02,170
+And you'll see that Codex has renamed the project directory to 'Mark Notes'.
+
+111
+00:04:02,170 --> 00:04:03,370
+This means that from now on, Codex
+
+112
+00:04:03,370 --> 00:04:05,810
+will place the code inside this folder.
+
+113
+00:04:05,810 --> 00:04:08,650
+Alright, with that, all the preparatory work is now complete.
+
+114
+00:04:08,650 --> 00:04:09,950
+Now, we can start making our requests.
+
+115
+00:04:09,950 --> 00:04:14,060
+So, for example, our requirement is to build a note-taking app using HTML.
+
+116
+00:04:14,060 --> 00:04:16,240
+The interface should be split into two sections, left and right.
+
+117
+00:04:16,240 --> 00:04:17,380
+The left side is the list of notes,
+
+118
+00:04:17,380 --> 00:04:19,149
+and the right side is for the note's content.
+
+119
+00:04:19,149 --> 00:04:21,649
+Finally, we'll remind it to make sure it runs proper tests.
+
+120
+00:04:21,649 --> 00:04:23,650
+Then, hit Enter to submit.
+
+121
+00:04:23,930 --> 00:04:26,330
+And that's when Codex will get to work.
+
+122
+00:04:26,330 --> 00:04:28,320
+And you can see it's just churning out code for us like crazy.
+
+123
+00:04:28,320 --> 00:04:30,080
+Of course, it's not actually this fast in a real-world scenario.
+
+124
+00:04:30,080 --> 00:04:31,540
+So, to save you all some time,
+
+125
+00:04:31,540 --> 00:04:32,740
+I've sped this part up.
+
+126
+00:04:32,740 --> 00:04:33,920
+The rest of the process, including the questions that follow,
+
+127
+00:04:33,920 --> 00:04:35,870
+have also been sped up to varying degrees.
+
+128
+00:04:35,870 --> 00:04:38,000
+Just so you know.
+
+129
+00:04:38,000 --> 00:04:39,480
+Alright, Codex has paused.
+
+130
+00:04:39,480 --> 00:04:42,080
+It suggests that it wants to build a local server.
+
+131
+00:04:42,080 --> 00:04:44,440
+Let's test out the HTML notes.
+
+132
+00:04:44,440 --> 00:04:46,020
+So, we have three options here.
+
+133
+00:04:46,020 --> 00:04:47,360
+The first option is 'Yes'.
+
+134
+00:04:47,360 --> 00:04:48,660
+This is pretty straightforward.
+
+135
+00:04:48,660 --> 00:04:51,460
+Basically, all you have to do is start up the local server, and you're good to go.
+
+136
+00:04:51,460 --> 00:04:54,320
+But in the future, if Codex makes a similar request,
+
+137
+00:04:54,320 --> 00:04:56,150
+we'll have to grant it permission again.
+
+138
+00:04:56,150 --> 00:04:58,870
+The second option means we're not just agreeing,
+
+139
+00:04:58,870 --> 00:05:03,640
+And for code like this that starts a local server, it can just run it directly from now on.
+
+140
+00:05:03,640 --> 00:05:05,460
+It won't need our authorization anymore.
+
+141
+00:05:05,460 --> 00:05:07,580
+The second option, you can think of it as 'disagree'.
+
+142
+00:05:07,580 --> 00:05:08,880
+It's not actually a button.
+
+143
+00:05:08,880 --> 00:05:10,220
+It's actually an input box.
+
+144
+00:05:10,220 --> 00:05:12,060
+Let's click on it and see.
+
+145
+00:05:12,060 --> 00:05:15,300
+Here, we can tell Codex how we want it to handle the task.
+
+146
+00:05:15,300 --> 00:05:16,820
+For instance, you could just have it check the code,
+
+147
+00:05:16,820 --> 00:05:18,920
+or start a local server, or anything like that.
+
+148
+00:05:18,920 --> 00:05:20,560
+Of course, if you don't agree with that,
+
+149
+00:05:20,560 --> 00:05:23,480
+And if you can't even be bothered to tell Codex why,
+
+150
+00:05:23,480 --> 00:05:26,810
+Or, you can just click the 'skip' button right here.
+
+151
+00:05:26,810 --> 00:05:29,570
+So this is basically Codex's toned-down version of a fourth option.
+
+152
+00:05:29,570 --> 00:05:31,730
+Alright, so we've covered all the available options.
+
+153
+00:05:31,730 --> 00:05:35,230
+So for this, we'll just go with the first option, 'Yes'.
+
+154
+00:05:37,240 --> 00:05:39,040
+And then, Codex asks for our permission to access it.
+
+155
+00:05:39,040 --> 00:05:41,520
+the newly created local server.
+
+156
+00:05:41,520 --> 00:05:44,120
+We'll agree to that as well.
+
+157
+00:05:58,540 --> 00:06:01,420
+And now, Codex has finished its job.
+
+158
+00:06:01,420 --> 00:06:03,260
+As you can see, the most important file in here...
+
+159
+00:06:03,260 --> 00:06:05,330
+is this one: index.html.
+
+160
+00:06:05,330 --> 00:06:08,090
+We can click to preview how it looks.
+
+161
+00:06:08,090 --> 00:06:10,750
+So, this is the note-taking app that Codex built.
+
+162
+00:06:10,750 --> 00:06:12,250
+It looks pretty standard.
+
+163
+00:06:12,250 --> 00:06:14,720
+You can find all the basic functions right here.
+
+164
+00:06:14,720 --> 00:06:17,360
+Of course, some of you might be thinking that this preview area is a bit too small.
+
+165
+00:06:17,360 --> 00:06:18,180
+and want to make it a bit bigger.
+
+166
+00:06:18,180 --> 00:06:19,600
+And of course, you can do that.
+
+167
+00:06:19,600 --> 00:06:21,370
+So let's go ahead and click this.
+
+168
+00:06:21,370 --> 00:06:23,630
+And just like that, the left panel is tucked away.
+
+169
+00:06:23,630 --> 00:06:25,570
+This gives us a lot more space for the preview.
+
+170
+00:06:25,570 --> 00:06:28,570
+But this bottom area here, it's also a bit of an eyesore.
+
+171
+00:06:28,570 --> 00:06:29,990
+So, can we hide it?
+
+172
+00:06:29,990 --> 00:06:31,510
+Actually, you can.
+
+173
+00:06:31,510 --> 00:06:33,770
+We can click on the three dots right here.
+
+174
+00:06:33,770 --> 00:06:36,970
+Then just select 'Hide Composer', and you're all set.
+
+175
+00:06:36,970 --> 00:06:39,399
+See? That's much better.
+
+176
+00:06:39,399 --> 00:06:41,199
+So, let's say at this point,
+
+177
+00:06:41,199 --> 00:06:45,670
+You're looking at these two notes on the interface, and you find them really distracting.
+
+178
+00:06:45,670 --> 00:06:47,539
+and you want to get rid of them.
+
+179
+00:06:47,539 --> 00:06:49,519
+And this is actually pretty simple, too.
+
+180
+00:06:49,519 --> 00:06:51,339
+So, we just need to keep asking follow-up questions.
+
+181
+00:06:51,339 --> 00:06:52,519
+Alright, since we're going to ask for more,
+
+182
+00:06:52,519 --> 00:06:55,909
+So, we need to bring the left sidebar back.
+
+183
+00:06:55,909 --> 00:06:57,329
+This is actually pretty simple.
+
+184
+00:06:57,329 --> 00:06:59,349
+Let's click this button one more time.
+
+185
+00:06:59,349 --> 00:07:01,310
+And the left sidebar is back.
+
+186
+00:07:01,310 --> 00:07:02,390
+And now we can just type in the input box.
+
+187
+00:07:02,390 --> 00:07:05,430
+and type in our question.
+
+188
+00:07:05,430 --> 00:07:08,210
+Let's get rid of the two notes in the top-left corner.
+
+189
+00:07:08,210 --> 00:07:10,480
+Yeah, that's definitely doable.
+
+190
+00:07:10,480 --> 00:07:14,280
+But for now, I want to show you guys another way to do it.
+
+191
+00:07:14,280 --> 00:07:15,960
+One that's more precise.
+
+192
+00:07:15,960 --> 00:07:17,210
+An even more convenient method.
+
+193
+00:07:17,210 --> 00:07:19,330
+We can click on this icon.
+
+194
+00:07:19,330 --> 00:07:20,740
+It's called 'annotate'.
+
+195
+00:07:20,740 --> 00:07:23,540
+Then, we can directly select the 'Two-parent Notes' section here.
+
+196
+00:07:23,540 --> 00:07:26,620
+Once selected, we can type in our suggestions for this area.
+
+197
+00:07:26,620 --> 00:07:27,720
+It's that simple.
+
+198
+00:07:27,720 --> 00:07:29,740
+Our instruction is simple: just remove those two words.
+
+199
+00:07:29,740 --> 00:07:32,040
+And then we submit the request. Alright.
+
+200
+00:07:32,040 --> 00:07:34,770
+As you can see, the request has been successfully submitted.
+
+201
+00:07:34,770 --> 00:07:37,470
+As you can see, it sent over two pieces of content in total.
+
+202
+00:07:37,470 --> 00:07:40,070
+One of them is a screenshot of the interface.
+
+203
+00:07:40,070 --> 00:07:43,429
+And the other one is our specific request.
+
+204
+00:07:43,429 --> 00:07:44,809
+So, once it gets the request,
+
+205
+00:07:44,809 --> 00:07:46,829
+Codex gets to work.
+
+206
+00:07:46,829 --> 00:07:49,609
+It should then remove this section.
+
+207
+00:07:49,609 --> 00:07:51,669
+Let's give it a moment.
+
+208
+00:07:56,780 --> 00:07:59,100
+Alright, Codex is done.
+
+209
+00:07:59,100 --> 00:08:01,540
+Let's open the preview area again.
+
+210
+00:08:01,540 --> 00:08:03,020
+Let's see how it turned out.
+
+211
+00:08:03,630 --> 00:08:07,670
+As you can see, that area from before is now completely gone.
+
+212
+00:08:07,670 --> 00:08:09,650
+Codex has already fixed the problem for us.
+
+213
+00:08:09,650 --> 00:08:13,270
+So, it looks like this annotate function is actually pretty handy.
+
+214
+00:08:13,270 --> 00:08:16,230
+Alright, let's just poke around this note-taking app a bit.
+
+215
+00:08:16,230 --> 00:08:18,320
+Let's see if there are any other issues we need to fix.
+
+216
+00:08:18,320 --> 00:08:19,900
+Looks like there's definitely a bug here.
+
+217
+00:08:19,900 --> 00:08:21,940
+When I click the plus button,
+
+218
+00:08:21,940 --> 00:08:24,370
+The idea is that it should add a new note.
+
+219
+00:08:24,370 --> 00:08:27,370
+But when I actually click it, nothing happens.
+
+220
+00:08:27,370 --> 00:08:29,510
+Looks like a bug.
+
+221
+00:08:29,510 --> 00:08:32,570
+So, let's tell Codex about this problem.
+
+222
+00:08:33,429 --> 00:08:34,948
+We need to tell Codex
+
+223
+00:08:34,948 --> 00:08:36,349
+After clicking the add button,
+
+224
+00:08:36,349 --> 00:08:39,149
+The note list area isn't responding at all.
+
+225
+00:08:39,149 --> 00:08:40,409
+Please investigate the cause.
+
+226
+00:08:40,409 --> 00:08:42,655
+I'll make the changes once I've confirmed it.
+
+227
+00:08:56,440 --> 00:08:58,560
+Alright, Codex has finished troubleshooting.
+
+228
+00:08:58,560 --> 00:08:59,720
+just as we asked.
+
+229
+00:08:59,720 --> 00:09:01,440
+Instead of jumping straight into changing the code,
+
+230
+00:09:01,440 --> 00:09:03,610
+Instead, it first provided a diagnostic result.
+
+231
+00:09:03,610 --> 00:09:04,610
+It suspects that the issue is most likely...
+
+232
+00:09:04,610 --> 00:09:08,390
+It's because of the local storage on the current page.
+
+233
+00:09:08,390 --> 00:09:11,380
+In other words, local storage has been disabled.
+
+234
+00:09:11,580 --> 00:09:13,340
+Yep, that's exactly it.
+
+235
+00:09:13,340 --> 00:09:15,780
+In other words, it's the preview pane on the right side of Codex.
+
+236
+00:09:15,780 --> 00:09:16,860
+There are some security restrictions.
+
+237
+00:09:16,860 --> 00:09:19,099
+This prevents certain features from working properly.
+
+238
+00:09:19,099 --> 00:09:21,759
+But if we switch over to a separate browser window,
+
+239
+00:09:21,759 --> 00:09:23,219
+And just like that, the problem is gone.
+
+240
+00:09:23,219 --> 00:09:25,259
+Don't believe me? Let's give it a try.
+
+241
+00:09:29,360 --> 00:09:32,760
+See? Now, if we click the 'add' button again...
+
+242
+00:09:32,760 --> 00:09:34,290
+See? It's working perfectly now.
+
+243
+00:09:34,290 --> 00:09:37,230
+Since the user is using our software in a real browser,
+
+244
+00:09:37,230 --> 00:09:39,370
+and not within Codex's preview area.
+
+245
+00:09:39,370 --> 00:09:41,190
+So, that's not even an issue to begin with.
+
+246
+00:09:41,190 --> 00:09:42,740
+So naturally, there's nothing to fix.
+
+247
+00:09:42,740 --> 00:09:45,540
+I'm not sure if this is a bug in Codex, or a feature.
+
+248
+00:09:45,540 --> 00:09:48,180
+But I'm pretty sure OpenAI designed it as a feature.
+
+249
+00:09:48,180 --> 00:09:50,560
+But in practice, it really does feel a bit like a bug.
+
+250
+00:09:50,560 --> 00:09:52,300
+So, if you're also building an external application,
+
+251
+00:09:52,300 --> 00:09:54,060
+So you'll definitely want to pay close attention to this.
+
+252
+00:09:54,060 --> 00:09:55,770
+Don't be fooled by the preview pane.
+
+253
+00:09:55,770 --> 00:09:57,270
+Now that we know the reason,
+
+254
+00:09:57,270 --> 00:09:58,790
+So, to avoid these limitations,
+
+255
+00:09:58,790 --> 00:10:01,330
+So, for the rest of this, we'll be working in a separate browser window.
+
+256
+00:10:01,330 --> 00:10:02,250
+to run the tests.
+
+257
+00:10:02,250 --> 00:10:03,070
+So, at this point, this most basic note-taking app...
+
+258
+00:10:03,070 --> 00:10:06,589
+So, even if we get it to run successfully,
+
+259
+00:10:06,589 --> 00:10:09,209
+Now, I want to circle back and talk about a detail we just ran into.
+
+260
+00:10:09,209 --> 00:10:12,570
+This is a request that Codex made.
+
+261
+00:10:12,570 --> 00:10:13,710
+Now, some of you might be wondering,
+
+262
+00:10:13,710 --> 00:10:17,050
+What if I give Codex a task and then go off to do something else?
+
+263
+00:10:17,050 --> 00:10:18,650
+and didn't realize it was waiting for my authorization.
+
+264
+00:10:18,650 --> 00:10:21,795
+That way, Codex won't just be stuck there waiting forever.
+
+265
+00:10:21,819 --> 00:10:23,579
+and when I get back, I find it hasn't done anything.
+
+266
+00:10:23,579 --> 00:10:25,230
+Just a huge waste of time.
+
+267
+00:10:25,230 --> 00:10:27,410
+So, is there a way to let it make decisions on its own?
+
+268
+00:10:27,410 --> 00:10:28,830
+Stop asking me for everything.
+
+269
+00:10:28,830 --> 00:10:31,130
+After all, no one wants to babysit it while it's working.
+
+270
+00:10:31,130 --> 00:10:32,280
+That would be way too exhausting.
+
+271
+00:10:32,280 --> 00:10:35,140
+Exactly, having to watch it all the time is a real pain.
+
+272
+00:10:35,140 --> 00:10:39,480
+Well, actually, Codex has already thought of that for us. The solution is right below the input box.
+
+273
+00:10:39,480 --> 00:10:43,490
+Alright, as you can see, there are three permission options here in total.
+
+274
+00:10:43,490 --> 00:10:46,690
+The first one is what we've just been using, the 'default permissions'.
+
+275
+00:10:46,690 --> 00:10:48,030
+In this mode,
+
+276
+00:10:48,030 --> 00:10:50,950
+If Codex needs to modify files outside of the project directory,
+
+277
+00:10:50,950 --> 00:10:53,730
+or needs to execute commands that could pose a security risk,
+
+278
+00:10:53,730 --> 00:10:55,839
+it will dutifully pop up a reminder.
+
+279
+00:10:55,839 --> 00:10:57,519
+Only after you give it the green light,
+
+280
+00:10:57,519 --> 00:10:59,580
+that it will continue with the task.
+
+281
+00:10:59,580 --> 00:11:01,960
+The upside of this mode is that it's absolutely safe.
+
+282
+00:11:01,960 --> 00:11:03,320
+Everything is under your control.
+
+283
+00:11:03,320 --> 00:11:04,800
+But the drawbacks are also very obvious.
+
+284
+00:11:04,800 --> 00:11:06,220
+Basically, it's completely dependent on you.
+
+285
+00:11:06,220 --> 00:11:08,170
+You have to be there to give it permission at all times.
+
+286
+00:11:08,170 --> 00:11:09,990
+The second one is Auto-Review.
+
+287
+00:11:09,990 --> 00:11:11,430
+In other words, auto-review.
+
+288
+00:11:11,430 --> 00:11:12,910
+This mode is pretty smart.
+
+289
+00:11:12,910 --> 00:11:16,350
+It introduces an agent dedicated to security reviews.
+
+290
+00:11:16,350 --> 00:11:18,670
+So, when Codex is about to perform an action,
+
+291
+00:11:18,670 --> 00:11:20,770
+This agent will first act as your gatekeeper.
+
+292
+00:11:20,770 --> 00:11:22,150
+If it's safe, it gets the green light.
+
+293
+00:11:22,150 --> 00:11:23,420
+and dangerous ones are blocked outright.
+
+294
+00:11:23,420 --> 00:11:26,640
+Only in very rare cases, when it's genuinely uncertain,
+
+295
+00:11:26,640 --> 00:11:28,320
+that it will pop up a window and ask you to make the call.
+
+296
+00:11:28,320 --> 00:11:30,420
+The third option is 'Full Access'.
+
+297
+00:11:30,420 --> 00:11:31,220
+As the name suggests,
+
+298
+00:11:31,220 --> 00:11:33,280
+This is basically the 'go wild' mode.
+
+299
+00:11:33,280 --> 00:11:36,100
+It automatically approves everything, letting Codex do whatever it wants.
+
+300
+00:11:36,100 --> 00:11:37,420
+You don't have to lift a finger.
+
+301
+00:11:37,420 --> 00:11:39,460
+This mode is definitely the most hands-off, that's for sure.
+
+302
+00:11:39,460 --> 00:11:41,230
+But that comes with its own risks.
+
+303
+00:11:41,230 --> 00:11:43,170
+What if it accidentally deletes some important data?
+
+304
+00:11:43,170 --> 00:11:44,710
+and you won't be able to stop it.
+
+305
+00:11:44,710 --> 00:11:47,750
+Now, the GPT-4o model is generally very reliable,
+
+306
+00:11:47,750 --> 00:11:49,250
+It generally won't do anything reckless.
+
+307
+00:11:49,250 --> 00:11:51,090
+But, as a responsible content creator,
+
+308
+00:11:51,090 --> 00:11:52,430
+But I still have to give you all a heads-up.
+
+309
+00:11:52,430 --> 00:11:55,030
+This mode has no safety checks whatsoever.
+
+310
+00:11:55,030 --> 00:11:56,850
+So think twice before you turn it on.
+
+311
+00:11:56,850 --> 00:11:58,230
+So, all things considered,
+
+312
+00:11:58,230 --> 00:11:59,770
+So, among these three modes,
+
+313
+00:11:59,770 --> 00:12:03,740
+Auto-review strikes the best balance between efficiency and security.
+
+314
+00:12:03,740 --> 00:12:05,720
+To avoid getting these pop-ups constantly later on,
+
+315
+00:12:05,720 --> 00:12:06,780
+It's asking us to click 'Agree'.
+
+316
+00:12:06,780 --> 00:12:07,980
+For the following demonstration,
+
+317
+00:12:07,980 --> 00:12:11,140
+So let's just switch everything over to auto-review mode.
+
+318
+00:12:11,140 --> 00:12:13,380
+Since we're on the topic of permission settings here,
+
+319
+00:12:13,380 --> 00:12:15,180
+Since we're on the topic, let's take a quick look.
+
+320
+00:12:15,180 --> 00:12:17,500
+So, what other settings are there next to the input box?
+
+321
+00:12:17,500 --> 00:12:21,220
+First, take a look at what's shown here: 5.5 and medium.
+
+322
+00:12:21,220 --> 00:12:24,260
+This means we're currently using the GPT-5.5 model.
+
+323
+00:12:24,260 --> 00:12:26,140
+The thinking depth is set to medium.
+
+324
+00:12:26,140 --> 00:12:27,160
+or medium, in other words.
+
+325
+00:12:27,160 --> 00:12:28,680
+If we click on it, we can see the thinking depth.
+
+326
+00:12:28,680 --> 00:12:30,840
+and it's fully adjustable.
+
+327
+00:12:30,840 --> 00:12:35,150
+It's divided into four levels: low, medium, high, and extra high.
+
+328
+00:12:35,150 --> 00:12:36,430
+The higher the depth of thought,
+
+329
+00:12:36,430 --> 00:12:38,450
+the longer Codex will take to process.
+
+330
+00:12:38,450 --> 00:12:40,390
+and the more tokens it will consume.
+
+331
+00:12:40,390 --> 00:12:43,780
+But generally speaking, the code it generates will also be of higher quality.
+
+332
+00:12:43,780 --> 00:12:45,460
+Besides adjusting the depth of thought,
+
+333
+00:12:45,460 --> 00:12:47,670
+We can also switch models right here.
+
+334
+00:12:47,670 --> 00:12:49,910
+In the dropdown list, besides GPT 5.5,
+
+335
+00:12:49,910 --> 00:12:52,530
+as well as GPT 5.4 and a whole series of other models.
+
+336
+00:12:52,530 --> 00:12:55,900
+So, you can pick one based on the specific difficulty of the task at hand.
+
+337
+00:12:55,900 --> 00:12:59,460
+And finally, you can also adjust the model's output speed right here.
+
+338
+00:12:59,460 --> 00:13:01,000
+Right now, it's set to 'standard'.
+
+339
+00:13:01,000 --> 00:13:02,520
+So, that's the standard speed.
+
+340
+00:13:02,520 --> 00:13:04,410
+And right next to it, there's a 'fast' option.
+
+341
+00:13:04,410 --> 00:13:05,830
+Once you enable the fast mode,
+
+342
+00:13:05,830 --> 00:13:08,750
+The generation speed will increase to 1.5 times the original.
+
+343
+00:13:08,750 --> 00:13:12,250
+But the trade-off is that your token consumption will also go up accordingly.
+
+344
+00:13:12,250 --> 00:13:14,890
+The exact amount of this increase depends on the model you're using.
+
+345
+00:13:14,890 --> 00:13:17,330
+For instance, with the 6PT5.5 model,
+
+346
+00:13:17,330 --> 00:13:18,890
+If you enable fast mode,
+
+347
+00:13:18,890 --> 00:13:22,860
+the token consumption will be exactly double that of the standard mode.
+
+348
+00:13:22,860 --> 00:13:24,520
+So, if money is no object for you,
+
+349
+00:13:24,520 --> 00:13:25,300
+and you've got plenty of tokens,
+
+350
+00:13:25,300 --> 00:13:27,860
+Then you can definitely turn on the fast mode.
+
+351
+00:13:27,860 --> 00:13:30,740
+This way, Codex will work much faster.
+
+352
+00:13:31,000 --> 00:13:33,500
+Alright, that's all we're going to cover for the input box configuration for now.
+
+353
+00:13:33,500 --> 00:13:35,900
+Alright, so our first version of the note-taking app is now up and running.
+
+354
+00:13:35,900 --> 00:13:37,520
+We've got the most basic functions up and running.
+
+355
+00:13:37,520 --> 00:13:41,460
+But to prevent things from getting messy when we add new features later,
+
+356
+00:13:41,460 --> 00:13:44,860
+So, it's a good idea to use Git to save our current version first.
+
+357
+00:13:44,860 --> 00:13:47,220
+This way, even if something goes wrong down the line,
+
+358
+00:13:47,220 --> 00:13:49,720
+we can also roll back to a working version at any time.
+
+359
+00:13:49,720 --> 00:13:50,680
+Just to be on the safe side.
+
+360
+00:13:50,680 --> 00:13:53,480
+In Codex, pulling up the terminal is super convenient.
+
+361
+00:13:53,480 --> 00:13:55,220
+We don't have to click through any menus.
+
+362
+00:13:55,220 --> 00:13:57,660
+Just hit the shortcut key, Command+J+I.
+
+363
+00:13:57,660 --> 00:14:01,320
+And as you can see, the terminal panel on the right just pops right up.
+
+364
+00:14:01,320 --> 00:14:05,010
+In here, we're going to enter a few standard Git commands one by one.
+
+365
+00:14:05,010 --> 00:14:07,690
+First, we'll run 'git init' to initialize the current project directory as a Git repository.
+
+366
+00:14:07,690 --> 00:14:11,230
+to initialize the current project directory as a Git repository.
+
+367
+00:14:11,230 --> 00:14:13,710
+Next, we're going to run git add.
+
+368
+00:14:13,710 --> 00:14:16,750
+This adds all the relevant files to the staging area.
+
+369
+00:14:16,750 --> 00:14:18,870
+And finally, we'll run git commit.
+
+370
+00:14:18,870 --> 00:14:22,260
+to commit our first set of changes. Alright.
+
+371
+00:14:22,260 --> 00:14:23,400
+Alright, once that's done,
+
+372
+00:14:23,400 --> 00:14:25,700
+And just like that, our code is safely backed up.
+
+373
+00:14:25,700 --> 00:14:27,520
+Now we can proceed with confidence.
+
+374
+00:14:27,520 --> 00:14:29,300
+to continue iterating on our product.
+
+375
+00:14:29,300 --> 00:14:30,420
+Once you're done with the terminal,
+
+376
+00:14:30,420 --> 00:14:31,520
+so it's not in the way.
+
+377
+00:14:31,520 --> 00:14:33,860
+All we have to do is press the same shortcut key again.
+
+378
+00:14:33,860 --> 00:14:36,060
+and Command+J will close it right up.
+
+379
+00:14:36,060 --> 00:14:38,730
+See? You can use a hotkey to open and close the terminal.
+
+380
+00:14:38,730 --> 00:14:40,730
+You never have to take your hands off the keyboard.
+
+381
+00:14:40,730 --> 00:14:42,450
+The whole process is incredibly smooth.
+
+382
+00:14:42,450 --> 00:14:43,730
+Which is also super convenient.
+
+383
+00:14:43,730 --> 00:14:45,250
+So, we've just built something with Codex.
+
+384
+00:14:45,250 --> 00:14:47,190
+a basic, functional note-taking app.
+
+385
+00:14:47,190 --> 00:14:50,089
+And we even committed a working version to Git.
+
+386
+00:14:50,089 --> 00:14:52,589
+So, let's continue to iterate on this note-taking app.
+
+387
+00:14:52,589 --> 00:14:55,010
+Let's make it more powerful and better-looking.
+
+388
+00:14:55,010 --> 00:14:57,210
+So, let's say you take a look at the note-taking app at this point.
+
+389
+00:14:57,210 --> 00:14:59,210
+and you feel that the color scheme isn't quite right.
+
+390
+00:14:59,210 --> 00:15:01,210
+There are a lot of green elements in here.
+
+391
+00:15:01,210 --> 00:15:02,370
+and you're not a big fan of green.
+
+392
+00:15:02,370 --> 00:15:04,290
+How about we try blue?
+
+393
+00:15:04,290 --> 00:15:06,210
+So, what should you do in this situation?
+
+394
+00:15:06,210 --> 00:15:07,090
+It's pretty simple.
+
+395
+00:15:07,090 --> 00:15:09,430
+You can just ask follow-up questions right here.
+
+396
+00:15:09,430 --> 00:15:12,410
+For instance, we could make a request like this.
+
+397
+00:15:13,130 --> 00:15:16,450
+But let's not send this request just yet.
+
+398
+00:15:16,450 --> 00:15:17,550
+Ah, but why is that?
+
+399
+00:15:17,550 --> 00:15:18,810
+Take a closer look.
+
+400
+00:15:18,810 --> 00:15:22,380
+In our last message, we had Codex troubleshoot the issue.
+
+401
+00:15:22,380 --> 00:15:23,460
+But to be honest,
+
+402
+00:15:23,460 --> 00:15:24,900
+But that's not really an issue.
+
+403
+00:15:24,900 --> 00:15:27,420
+It's just that the preview area in Codex has some limitations.
+
+404
+00:15:28,960 --> 00:15:31,960
+This troubleshooting process not only takes up the model's context window,
+
+405
+00:15:31,960 --> 00:15:35,480
+And it might even affect Codex's future executions.
+
+406
+00:15:35,480 --> 00:15:38,320
+It might just keep trying to fix the issue.
+
+407
+00:15:38,320 --> 00:15:40,770
+ending up breaking a page that was perfectly fine to begin with.
+
+408
+00:15:40,770 --> 00:15:43,370
+Although, to be fair, the chances of that happening are probably pretty low.
+
+409
+00:15:43,370 --> 00:15:46,010
+But if it's something we can avoid, we should definitely try to.
+
+410
+00:15:46,010 --> 00:15:48,380
+After all, this message is pretty much useless anyway.
+
+411
+00:15:48,380 --> 00:15:50,280
+So, what should we do?
+
+412
+00:15:50,280 --> 00:15:51,720
+There is a way.
+
+413
+00:15:51,720 --> 00:15:54,700
+And that is to just edit the last message.
+
+414
+00:15:54,700 --> 00:15:56,620
+See, there's an edit button right here.
+
+415
+00:15:56,620 --> 00:16:00,040
+We can just click on it, and that lets us edit the message directly.
+
+416
+00:16:00,040 --> 00:16:02,140
+Alright, let's give it a try.
+
+417
+00:16:03,940 --> 00:16:05,300
+Submit.
+
+418
+00:16:06,010 --> 00:16:09,110
+See? The original requirement has been replaced with our new one.
+
+419
+00:16:09,110 --> 00:16:09,790
+And just like that,
+
+420
+00:16:09,790 --> 00:16:12,920
+And just like that, the original message about troubleshooting the issue is gone.
+
+421
+00:16:12,920 --> 00:16:13,800
+Now that it's gone,
+
+422
+00:16:13,800 --> 00:16:15,940
+it will no longer take up the model's context window.
+
+423
+00:16:15,940 --> 00:16:19,070
+nor will it have any effect on Codex's subsequent operations.
+
+424
+00:16:19,070 --> 00:16:22,360
+So, as you can see, this feature is actually pretty useful in a lot of situations.
+
+425
+00:16:22,360 --> 00:16:23,560
+However, it's worth noting that
+
+426
+00:16:23,560 --> 00:16:25,960
+Codex only allows you to edit the very last message.
+
+427
+00:16:25,960 --> 00:16:27,760
+As for the messages that are even further back,
+
+428
+00:16:27,760 --> 00:16:30,340
+it doesn't actually let us edit them.
+
+429
+00:16:30,340 --> 00:16:33,180
+So, for all the messages further up the list, you won't see an edit button.
+
+430
+00:16:33,180 --> 00:16:35,260
+So, what if you want to edit an even earlier message?
+
+431
+00:16:35,260 --> 00:16:39,900
+One workaround is to use the 'fork' function, which we'll cover later on.
+
+432
+00:16:39,900 --> 00:16:42,220
+For now, you don't need to worry too much about it.
+
+433
+00:16:42,450 --> 00:16:44,790
+Alright, Codex has finished the task.
+
+434
+00:16:44,790 --> 00:16:47,590
+Let's see how it turned out.
+
+435
+00:16:47,590 --> 00:16:48,720
+Not bad.
+
+436
+00:16:48,720 --> 00:16:51,820
+Alright, let's go ahead and add the changes from this part to Git as well.
+
+437
+00:16:51,820 --> 00:16:54,100
+Before, we were using the command line to work with Git.
+
+438
+00:16:54,100 --> 00:16:56,620
+This method is precise and universally applicable.
+
+439
+00:16:56,620 --> 00:17:01,360
+But actually, Codex also has some built-in Git functions that we can use.
+
+440
+00:17:01,360 --> 00:17:04,420
+For example, we can start by clicking on this icon.
+
+441
+00:17:05,569 --> 00:17:09,170
+And in here, you'll find an area called 'Environment'.
+
+442
+00:17:09,170 --> 00:17:11,949
+This is all closely tied to how you use Git.
+
+443
+00:17:11,949 --> 00:17:14,589
+We can click on the 'changes' button right here.
+
+444
+00:17:14,589 --> 00:17:18,589
+And then, in this dropdown, you'll want to select the 'unstaged' option.
+
+445
+00:17:18,589 --> 00:17:21,150
+What you're seeing here are all the changes that haven't been committed yet.
+
+446
+00:17:21,150 --> 00:17:22,369
+the code that's in the staging area.
+
+447
+00:17:22,369 --> 00:17:25,530
+So, this is basically what Codex just changed.
+
+448
+00:17:25,530 --> 00:17:27,410
+If you think there's a problem with a specific line,
+
+449
+00:17:27,410 --> 00:17:29,050
+You can click the plus sign next to it.
+
+450
+00:17:29,050 --> 00:17:30,250
+Enter your request.
+
+451
+00:17:30,250 --> 00:17:31,350
+Once you've entered your request,
+
+452
+00:17:31,350 --> 00:17:33,470
+You can click the 'comment' button right here.
+
+453
+00:17:33,470 --> 00:17:35,730
+and have Codex make the corresponding changes.
+
+454
+00:17:35,730 --> 00:17:38,090
+But for now, we're not going to make any changes here.
+
+455
+00:17:38,090 --> 00:17:40,010
+Codex has done a great job with the task.
+
+456
+00:17:40,010 --> 00:17:41,850
+So, let's uncomment this line.
+
+457
+00:17:41,850 --> 00:17:44,490
+And using 'git commit' will submit these changes.
+
+458
+00:17:44,490 --> 00:17:45,970
+So, how do we do that?
+
+459
+00:17:45,970 --> 00:17:46,770
+It's pretty simple.
+
+460
+00:17:46,770 --> 00:17:49,250
+Just click the commit button right here.
+
+461
+00:17:49,250 --> 00:17:51,490
+Just type in the commit message, and you're good to go.
+
+462
+00:17:51,490 --> 00:17:55,400
+So our commit message will be: 'Change the overall theme to blue.'
+
+463
+00:17:55,400 --> 00:17:57,420
+And then click 'continue'.
+
+464
+00:17:57,420 --> 00:18:01,210
+And now, Codex will commit all the pending changes.
+
+465
+00:18:01,210 --> 00:18:02,450
+Alright, it's done.
+
+466
+00:18:02,450 --> 00:18:03,590
+Let's verify it.
+
+467
+00:18:03,590 --> 00:18:06,770
+First, press Command and the tilde key to open the terminal.
+
+468
+00:18:06,770 --> 00:18:08,470
+And then, run git log.
+
+469
+00:18:08,470 --> 00:18:10,480
+to check the Git commit history.
+
+470
+00:18:10,480 --> 00:18:12,990
+And you can see our commit has indeed gone through.
+
+471
+00:18:12,990 --> 00:18:14,030
+Once that's confirmed,
+
+472
+00:18:14,030 --> 00:18:16,470
+Let's press 'q' to exit the git log.
+
+473
+00:18:16,470 --> 00:18:19,639
+Then press Command and H to hide the terminal.
+
+474
+00:18:19,639 --> 00:18:22,439
+And with that, this feature is officially done.
+
+475
+00:18:22,439 --> 00:18:23,779
+Let's say at this point,
+
+476
+00:18:23,779 --> 00:18:26,519
+And you feel like the blue theme isn't that great either.
+
+477
+00:18:26,519 --> 00:18:27,780
+The more I look at it, the more I hate it.
+
+478
+00:18:27,780 --> 00:18:29,860
+How about we try a different one?
+
+479
+00:18:29,860 --> 00:18:30,640
+Sure thing.
+
+480
+00:18:30,640 --> 00:18:32,140
+Let's just submit the request directly.
+
+481
+00:18:32,140 --> 00:18:34,340
+Change the overall color scheme to purple.
+
+482
+00:18:34,340 --> 00:18:36,909
+After that's done, let's do another git commit.
+
+483
+00:18:36,909 --> 00:18:38,789
+Right, this time we're not going to handle git ourselves.
+
+484
+00:18:38,789 --> 00:18:39,849
+Manually using Git is a bit of a hassle.
+
+485
+00:18:39,849 --> 00:18:41,549
+Let's just have Codex handle it directly.
+
+486
+00:18:41,549 --> 00:18:42,489
+Before we commit,
+
+487
+00:18:42,489 --> 00:18:44,109
+And Codex gets to work.
+
+488
+00:18:44,109 --> 00:18:46,189
+Alright, let's give it a moment.
+
+489
+00:18:47,960 --> 00:18:48,880
+Alright, it's done.
+
+490
+00:18:48,880 --> 00:18:51,900
+Let's see the final result. Not bad.
+
+491
+00:18:51,900 --> 00:18:53,540
+And it did change to purple.
+
+492
+00:18:53,540 --> 00:18:57,480
+But, how should I put it... you still don't quite like it, do you?
+
+493
+00:18:57,480 --> 00:18:58,680
+But then you think, 'Ah, forget it.'
+
+494
+00:18:58,680 --> 00:19:01,870
+You know what? Maybe I'll just change it back to the original green.
+
+495
+00:19:01,870 --> 00:19:03,590
+Of course, that's possible.
+
+496
+00:19:03,590 --> 00:19:04,430
+As usual, you can just type it directly into the input box.
+
+497
+00:19:04,430 --> 00:19:07,390
+what you're asking for.
+
+498
+00:19:07,390 --> 00:19:09,210
+Just change it back to the original green.
+
+499
+00:19:09,210 --> 00:19:10,950
+This should definitely work.
+
+500
+00:19:10,950 --> 00:19:13,050
+The only problem is, this would make the model run all over again.
+
+501
+00:19:13,050 --> 00:19:14,410
+It's a bit of a waste of tokens.
+
+502
+00:19:14,410 --> 00:19:16,810
+So, we're not going to use this method.
+
+503
+00:19:16,810 --> 00:19:18,510
+Actually, our original state was the green one.
+
+504
+00:19:18,510 --> 00:19:19,410
+So, let's use Git to roll the code back to the green commit.
+
+505
+00:19:19,410 --> 00:19:22,190
+That version will do just fine.
+
+506
+00:19:22,190 --> 00:19:25,330
+However, this approach does have its drawbacks.
+
+507
+00:19:25,330 --> 00:19:26,710
+So, the code has been rolled back, that's for sure.
+
+508
+00:19:26,710 --> 00:19:29,430
+But the session's context is still stuck on the previous color scheme.
+
+509
+00:19:29,430 --> 00:19:32,390
+So, what if we want to repeat that within the current session?
+
+510
+00:19:32,390 --> 00:19:35,630
+Codex might think that the current color scheme is purple.
+
+511
+00:19:35,630 --> 00:19:38,750
+This could negatively impact the performance of any subsequent tasks.
+
+512
+00:19:39,950 --> 00:19:42,980
+So, can we roll back both the session and the code at the same time?
+
+513
+00:19:42,980 --> 00:19:45,600
+We just want to roll back to the version before we changed it to blue.
+
+514
+00:19:45,600 --> 00:19:48,690
+So, this version, right here. If there's a rollback function,
+
+515
+00:19:48,690 --> 00:19:50,610
+So it should be right next to this message.
+
+516
+00:19:50,610 --> 00:19:52,850
+There are some corresponding icons.
+
+517
+00:19:52,850 --> 00:19:54,910
+Let's see if we can find it.
+
+518
+00:19:54,910 --> 00:19:57,010
+Oh, there really is an icon. It looks kinda like it.
+
+519
+00:19:57,010 --> 00:19:58,470
+But it's not called 'rollback'.
+
+520
+00:19:58,470 --> 00:19:59,750
+It's called 'fork'.
+
+521
+00:19:59,750 --> 00:20:02,230
+So, 'fork' means that it's based on the current session.
+
+522
+00:20:02,230 --> 00:20:03,630
+and create a new copy from that point.
+
+523
+00:20:03,630 --> 00:20:06,950
+This new session will only include messages up to the one you've currently selected.
+
+524
+00:20:06,950 --> 00:20:08,820
+None of the subsequent messages will be included.
+
+525
+00:20:08,820 --> 00:20:11,140
+This is exactly what we're looking for.
+
+526
+00:20:11,140 --> 00:20:14,620
+So, what we want is for the session to stop right at the current message.
+
+527
+00:20:14,620 --> 00:20:16,100
+Since the session has changed,
+
+528
+00:20:16,100 --> 00:20:18,240
+So, will the code also automatically roll back?
+
+529
+00:20:18,240 --> 00:20:19,520
+Maybe it'll work, who knows.
+
+530
+00:20:19,520 --> 00:20:20,560
+Let's give it a shot.
+
+531
+00:20:20,560 --> 00:20:22,500
+First, let's click on this fork icon.
+
+532
+00:20:22,500 --> 00:20:24,520
+And two options pop up for us to choose from.
+
+533
+00:20:24,520 --> 00:20:26,260
+The first one is 'fork into local'.
+
+534
+00:20:26,260 --> 00:20:28,719
+and the other is 'fork into new workspace'.
+
+535
+00:20:28,719 --> 00:20:32,940
+The main difference between these two options is where the code for the new session will be stored.
+
+536
+00:20:32,940 --> 00:20:35,500
+The first option will continue using the current directory
+
+537
+00:20:35,500 --> 00:20:37,240
+as the storage location for the new session's code.
+
+538
+00:20:37,240 --> 00:20:39,820
+while the second option will create a new directory.
+
+539
+00:20:39,820 --> 00:20:41,670
+to store the code for the new session.
+
+540
+00:20:41,670 --> 00:20:43,390
+You might be feeling a bit lost right now,
+
+541
+00:20:43,390 --> 00:20:43,990
+But don't worry.
+
+542
+00:20:43,990 --> 00:20:45,730
+Let me show you, and it'll all make sense.
+
+543
+00:20:45,730 --> 00:20:46,830
+Before we get into the demo,
+
+544
+00:20:46,830 --> 00:20:48,450
+First, let's open up the sidebar.
+
+545
+00:20:48,450 --> 00:20:50,600
+This way, you'll get a better view.
+
+546
+00:20:50,600 --> 00:20:51,820
+Alright, the sidebar is open now.
+
+547
+00:20:51,820 --> 00:20:54,120
+Let's go ahead and click on this fork icon again.
+
+548
+00:20:55,160 --> 00:20:56,280
+And then, select the first option.
+
+549
+00:20:56,280 --> 00:20:58,810
+fork into local
+
+550
+00:20:59,690 --> 00:21:03,050
+As you can see, Codex has indeed created a new session for us.
+
+551
+00:21:03,050 --> 00:21:05,030
+And it's clearly marked right here.
+
+552
+00:21:05,030 --> 00:21:08,050
+This session is basically a copy of the other one.
+
+553
+00:21:08,050 --> 00:21:10,730
+Now, let's see if the code has been rolled back as well.
+
+554
+00:21:10,730 --> 00:21:11,610
+This is pretty straightforward.
+
+555
+00:21:11,610 --> 00:21:12,570
+We don't have to write any code.
+
+556
+00:21:12,570 --> 00:21:14,370
+We can just look at the final result.
+
+557
+00:21:14,370 --> 00:21:16,920
+Now, let's see if the page's color has changed.
+
+558
+00:21:16,920 --> 00:21:19,600
+As you can see, the page is still purple.
+
+559
+00:21:19,600 --> 00:21:22,020
+So, the code was never rolled back at all.
+
+560
+00:21:22,020 --> 00:21:22,700
+Exactly.
+
+561
+00:21:22,700 --> 00:21:25,750
+So, that's the thing about the 'fork into local' option.
+
+562
+00:21:25,750 --> 00:21:27,710
+It only processes the session's content.
+
+563
+00:21:27,710 --> 00:21:30,040
+It won't make any changes to the actual code at all.
+
+564
+00:21:30,040 --> 00:21:31,960
+But thankfully, we're using Git.
+
+565
+00:21:31,960 --> 00:21:33,860
+We can use Git to roll back the code.
+
+566
+00:21:33,860 --> 00:21:36,820
+First, let's open the terminal by pressing Command + J.
+
+567
+00:21:36,820 --> 00:21:38,949
+Then, we'll run the command 'git log'.
+
+568
+00:21:38,949 --> 00:21:41,729
+Let's figure out which commit we want to roll the code back to.
+
+569
+00:21:41,729 --> 00:21:43,409
+This should be the one.
+
+570
+00:21:43,409 --> 00:21:47,109
+Next, let's copy the hash value for this commit.
+
+571
+00:21:48,820 --> 00:21:51,040
+Finally, let's run this command.
+
+572
+00:21:51,440 --> 00:21:54,940
+And just like that, the code is rolled back to the version from that session.
+
+573
+00:21:54,940 --> 00:21:57,740
+Alright, let's head back to the browser and refresh the page.
+
+574
+00:21:57,740 --> 00:21:58,540
+Exactly.
+
+575
+00:21:58,540 --> 00:22:00,600
+Yep, it's definitely the green version from the very beginning.
+
+576
+00:22:00,600 --> 00:22:02,160
+Of course, the green isn't super obvious.
+
+577
+00:22:02,160 --> 00:22:03,720
+Only a few of the modules are green.
+
+578
+00:22:03,720 --> 00:22:06,060
+I'm having a bit of trouble describing this color scheme.
+
+579
+00:22:06,060 --> 00:22:08,380
+But in any case, the rollback was definitely successful.
+
+580
+00:22:08,380 --> 00:22:10,000
+I'm sure you can all see that.
+
+581
+00:22:10,000 --> 00:22:11,940
+So this is the 'fork into local' option.
+
+582
+00:22:11,940 --> 00:22:12,920
+So, by working with Git, we can get both the session and the code...
+
+583
+00:22:12,920 --> 00:22:16,080
+so that we can roll back both the session and the code to a previous state.
+
+584
+00:22:16,080 --> 00:22:19,460
+Alright, so there was another option just now, called 'fork into new worktree'.
+
+585
+00:22:19,460 --> 00:22:21,160
+So, what's that option for?
+
+586
+00:22:21,160 --> 00:22:22,560
+So, let's give it a try.
+
+587
+00:22:22,560 --> 00:22:25,440
+Alright, let's go back to the previous session.
+
+588
+00:22:27,120 --> 00:22:28,760
+Click on this fork icon.
+
+589
+00:22:28,760 --> 00:22:31,970
+And then select 'fork into new worktree'.
+
+590
+00:22:32,650 --> 00:22:35,750
+Notice how Codex has created a new session for us.
+
+591
+00:22:35,750 --> 00:22:38,180
+And it's a lot like 'fork into local'.
+
+592
+00:22:38,180 --> 00:22:40,480
+And this new session has been marked as well.
+
+593
+00:22:40,480 --> 00:22:43,030
+It's simply copied over from another session.
+
+594
+00:22:43,030 --> 00:22:47,380
+Everything seems pretty much the same as that 'fork into local' command.
+
+595
+00:22:47,380 --> 00:22:49,640
+So, what exactly has changed?
+
+596
+00:22:49,640 --> 00:22:51,840
+The answer lies in our current session.
+
+597
+00:22:51,840 --> 00:22:53,800
+The project directory it's pointing to has changed.
+
+598
+00:22:53,800 --> 00:22:55,240
+If you don't believe me, let's open up the terminal.
+
+599
+00:22:55,240 --> 00:22:58,990
+Let's type in 'pwd'. This command is used to display the current location.
+
+600
+00:22:58,990 --> 00:23:02,000
+So, as you can see, this is our current location.
+
+601
+00:23:02,000 --> 00:23:03,800
+the session I forked at the very beginning.
+
+602
+00:23:03,800 --> 00:23:05,560
+So, we're not actually operating in this directory.
+
+603
+00:23:05,560 --> 00:23:06,360
+If you don't believe me,
+
+604
+00:23:06,360 --> 00:23:09,360
+Let's go back to the session we forked at the very beginning.
+
+605
+00:23:09,360 --> 00:23:12,170
+Similarly, let's open the terminal and run 'pwd'.
+
+606
+00:23:12,170 --> 00:23:15,170
+As you can see, the project directories for these two are different.
+
+607
+00:23:15,170 --> 00:23:17,070
+I'll put both of these addresses up on the screen.
+
+608
+00:23:17,070 --> 00:23:19,530
+This way, you can see it more clearly.
+
+609
+00:23:19,530 --> 00:23:22,790
+So, this is one of the features of 'fork into new worktree'.
+
+610
+00:23:22,790 --> 00:23:24,510
+It will create a new session for the forked branch,
+
+611
+00:23:24,510 --> 00:23:26,120
+and create a corresponding new directory for it.
+
+612
+00:23:26,120 --> 00:23:28,560
+This means the new and old sessions are working on different codebases.
+
+613
+00:23:28,560 --> 00:23:30,060
+So they don't interfere with each other.
+
+614
+00:23:30,060 --> 00:23:30,960
+This is perfect for working in two separate sessions.
+
+615
+00:23:30,960 --> 00:23:33,760
+to work on two different features separately.
+
+616
+00:23:33,760 --> 00:23:36,000
+And once you're done, you can just merge them all together.
+
+617
+00:23:36,000 --> 00:23:38,080
+So, why is it called a 'worktree'?
+
+618
+00:23:38,080 --> 00:23:41,060
+That's because it's implemented using git worktree.
+
+619
+00:23:41,060 --> 00:23:43,260
+This is a feature of Git.
+
+620
+00:23:43,260 --> 00:23:44,580
+Now, if I were to explain this in detail...
+
+621
+00:23:44,580 --> 00:23:45,620
+that would take another few minutes to explain.
+
+622
+00:23:45,620 --> 00:23:47,220
+But this video is all about Codex,
+
+623
+00:23:47,220 --> 00:23:48,200
+not to get sidetracked on other things.
+
+624
+00:23:48,200 --> 00:23:50,610
+So, we'll just skip over git worktree for now.
+
+625
+00:23:50,610 --> 00:23:52,760
+If you're interested, you can look that up on your own.
+
+626
+00:23:52,760 --> 00:23:54,340
+Another thing worth mentioning is
+
+627
+00:23:54,340 --> 00:23:55,720
+fork into new worktree.
+
+628
+00:23:55,720 --> 00:23:57,000
+And it won't roll back your code either.
+
+629
+00:23:57,000 --> 00:23:59,760
+It simply takes all the code from the current project directory,
+
+630
+00:23:59,760 --> 00:24:01,020
+and copies them into a new directory.
+
+631
+00:24:01,020 --> 00:24:02,050
+And that's it.
+
+632
+00:24:02,050 --> 00:24:04,690
+Alright, so those are the two ways to fork a session.
+
+633
+00:24:04,690 --> 00:24:05,550
+So, to recap.
+
+634
+00:24:05,550 --> 00:24:08,810
+Both of these options will copy the session up to the selected message.
+
+635
+00:24:08,810 --> 00:24:10,870
+And neither of them will roll back your code for you.
+
+636
+00:24:10,870 --> 00:24:13,639
+The only difference between them is simply the location of the code.
+
+637
+00:24:13,639 --> 00:24:16,199
+The 'local' option continues to use the original directory.
+
+638
+00:24:16,199 --> 00:24:19,899
+while 'new worktree' creates a completely new, isolated directory.
+
+639
+00:24:19,899 --> 00:24:21,620
+So, that's the main difference.
+
+640
+00:24:21,620 --> 00:24:23,880
+So, regardless of which forking method you use,
+
+641
+00:24:23,880 --> 00:24:25,280
+neither of which will change the original code.
+
+642
+00:24:25,280 --> 00:24:28,030
+In fact, Codex also shows this right on the interface.
+
+643
+00:24:28,030 --> 00:24:30,390
+We can go back to the initial session.
+
+644
+00:24:30,390 --> 00:24:33,910
+And then, just click on the fork icon right here.
+
+645
+00:24:33,910 --> 00:24:35,889
+Did you catch that part?
+
+646
+00:24:36,209 --> 00:24:39,589
+So basically, what it's saying is that 'fork' is only for the conversation.
+
+647
+00:24:39,589 --> 00:24:40,649
+and it won't roll back the code.
+
+648
+00:24:40,649 --> 00:24:42,109
+Yeah, that's a bit of a roundabout way of saying it.
+
+649
+00:24:42,109 --> 00:24:43,540
+But yeah, that's basically what it means.
+
+650
+00:24:43,540 --> 00:24:45,420
+Alright, we've finally covered the fork function.
+
+651
+00:24:45,420 --> 00:24:48,520
+For now, we just need the first one, the 'fork into local' session.
+
+652
+00:24:48,520 --> 00:24:50,300
+The other one is 'fork into worktree'.
+
+653
+00:24:50,300 --> 00:24:51,460
+We don't need that for now.
+
+654
+00:24:51,460 --> 00:24:53,380
+So, can we just delete this session?
+
+655
+00:24:53,380 --> 00:24:55,140
+But to be precise,
+
+656
+00:24:55,140 --> 00:24:59,300
+So, when it comes to this session, there's a bit of a difference between archiving and deleting.
+
+657
+00:24:59,300 --> 00:25:02,400
+So, you can think of archiving as just temporarily hiding it.
+
+658
+00:25:02,400 --> 00:25:04,680
+Deleting, on the other hand, means it's gone for good.
+
+659
+00:25:04,680 --> 00:25:05,830
+Alright, let's give it a try.
+
+660
+00:25:05,830 --> 00:25:08,670
+Let's just click the icon next to the session.
+
+661
+00:25:08,670 --> 00:25:10,230
+And then click 'confirm'.
+
+662
+00:25:10,230 --> 00:25:11,780
+And the session gets archived.
+
+663
+00:25:11,780 --> 00:25:13,920
+See? The session is gone.
+
+664
+00:25:13,920 --> 00:25:15,660
+But unlike deleting it,
+
+665
+00:25:15,660 --> 00:25:17,780
+we can still get this session back.
+
+666
+00:25:17,780 --> 00:25:19,660
+First, let's press Command and comma.
+
+667
+00:25:19,660 --> 00:25:21,040
+and open the settings panel.
+
+668
+00:25:21,040 --> 00:25:23,920
+Then, click on 'Archive chats' inside.
+
+669
+00:25:23,920 --> 00:25:26,750
+And right here, we can see all the archived chats.
+
+670
+00:25:26,750 --> 00:25:29,150
+We can unarchive the conversation.
+
+671
+00:25:29,150 --> 00:25:30,930
+Or, you can permanently delete the session.
+
+672
+00:25:30,930 --> 00:25:34,350
+So, as you can see, there's a bit of a difference between deleting and archiving.
+
+673
+00:25:34,350 --> 00:25:37,090
+So that's all for the archiving feature.
+
+674
+00:25:37,090 --> 00:25:38,990
+So, from what we've done so far,
+
+675
+00:25:38,990 --> 00:25:41,730
+So, as we can see, this step is actually pretty important.
+
+676
+00:25:41,730 --> 00:25:43,030
+So, since it's so important,
+
+677
+00:25:43,030 --> 00:25:45,690
+So, can we get Codex to do something every time it finishes writing code?
+
+678
+00:25:45,690 --> 00:25:48,100
+to automatically make a Git commit?
+
+679
+00:25:48,100 --> 00:25:51,260
+That way, we don't have to go through the hassle of doing it manually every single time.
+
+680
+00:25:51,260 --> 00:25:52,420
+Of course, that's possible.
+
+681
+00:25:52,420 --> 00:25:55,540
+So, one way to do this is to just type it directly into the input box.
+
+682
+00:25:55,540 --> 00:25:58,289
+to tell Codex that after it's done with any code changes,
+
+683
+00:25:58,289 --> 00:26:00,130
+to make a git commit.
+
+684
+00:26:00,130 --> 00:26:02,010
+And then, just submit the request.
+
+685
+00:26:02,010 --> 00:26:03,630
+This way, in any subsequent operations,
+
+686
+00:26:03,630 --> 00:26:05,950
+Codex will definitely do exactly as we've instructed.
+
+687
+00:26:05,950 --> 00:26:09,080
+So, every time you finish writing some code, it's followed by a Git commit.
+
+688
+00:26:09,080 --> 00:26:11,120
+However, there's a major drawback to this method.
+
+689
+00:26:11,120 --> 00:26:13,660
+And that is, it only takes effect within the current session.
+
+690
+00:26:13,660 --> 00:26:15,860
+So, if we start a new session,
+
+691
+00:26:15,860 --> 00:26:18,219
+then Codex will completely forget about it.
+
+692
+00:26:18,219 --> 00:26:21,259
+So, what we need is a solution that works across sessions.
+
+693
+00:26:21,259 --> 00:26:22,999
+Even in a new session,
+
+694
+00:26:22,999 --> 00:26:25,860
+Codex can also help us with Git commits.
+
+695
+00:26:25,860 --> 00:26:26,880
+So, is that even possible?
+
+696
+00:26:26,880 --> 00:26:27,920
+Of course, it can.
+
+697
+00:26:27,920 --> 00:26:29,180
+And this is the agents.md file.
+
+698
+00:26:29,180 --> 00:26:31,429
+And this is where that file comes into play.
+
+699
+00:26:31,429 --> 00:26:33,189
+So, to put it simply, agents.md...
+
+700
+00:26:33,189 --> 00:26:36,270
+It's basically a configuration file that you place in the root directory of your project.
+
+701
+00:26:36,270 --> 00:26:38,830
+So, whenever Codex starts a new session,
+
+702
+00:26:38,830 --> 00:26:40,530
+it will automatically read this file.
+
+703
+00:26:40,530 --> 00:26:43,280
+and it will execute the contents as if they were its own instructions.
+
+704
+00:26:43,280 --> 00:26:47,360
+So, all we need to do is write our Git commit requirements into this file.
+
+705
+00:26:47,360 --> 00:26:49,360
+No matter how many new sessions we start,
+
+706
+00:26:49,360 --> 00:26:51,320
+Codex will remember that.
+
+707
+00:26:51,320 --> 00:26:53,660
+First, let's delete the original request.
+
+708
+00:26:53,660 --> 00:26:54,889
+We don't need this anymore.
+
+709
+00:26:54,889 --> 00:26:59,150
+Then, we'll click here to open this project directory in VSCode.
+
+710
+00:26:59,150 --> 00:27:01,690
+Let's create a new file in the root directory.
+
+711
+00:27:01,690 --> 00:27:04,500
+Let's name it agents.md.
+
+712
+00:27:05,220 --> 00:27:06,980
+And then, we'll write inside this file.
+
+713
+00:27:06,980 --> 00:27:08,660
+Every time you finish making changes to the code,
+
+714
+00:27:08,660 --> 00:27:10,620
+you need to make a git commit.
+
+715
+00:27:10,620 --> 00:27:12,860
+And just like that, the agents.md file has been created.
+
+716
+00:27:12,860 --> 00:27:14,690
+Let's go ahead and close VSCode.
+
+717
+00:27:14,690 --> 00:27:16,370
+Now, let's put it to the test.
+
+718
+00:27:16,370 --> 00:27:18,230
+and see if agents.md will actually take effect.
+
+719
+00:27:18,230 --> 00:27:21,530
+First, let's create a new session.
+
+720
+00:27:23,860 --> 00:27:25,620
+Then, we'll submit the request.
+
+721
+00:27:25,620 --> 00:27:28,600
+Add a theme toggle option in the bottom-left corner.
+
+722
+00:27:28,600 --> 00:27:32,199
+This will allow users to switch between light mode and dark mode.
+
+723
+00:27:32,199 --> 00:27:33,159
+Press Enter to submit.
+
+724
+00:27:33,159 --> 00:27:35,439
+Let's get Codex to work.
+
+725
+00:27:46,800 --> 00:27:48,540
+Alright, Codex is done.
+
+726
+00:27:48,540 --> 00:27:50,400
+Let's see how it turned out.
+
+727
+00:27:50,640 --> 00:27:54,020
+And sure enough, you can see a theme toggle button has appeared in the bottom-left corner.
+
+728
+00:27:54,020 --> 00:27:55,800
+Let's click on the corresponding theme.
+
+729
+00:27:55,800 --> 00:27:59,360
+and switch between the light and dark modes.
+
+730
+00:27:59,360 --> 00:28:00,800
+Looks absolutely perfect.
+
+731
+00:28:00,800 --> 00:28:02,680
+So, what we're most concerned about right now is...
+
+732
+00:28:02,680 --> 00:28:05,500
+So, did Codex actually perform the Git commit for us?
+
+733
+00:28:05,500 --> 00:28:10,080
+Alright, let's press Command+J to open the terminal, and run 'git log' to check it out.
+
+734
+00:28:11,650 --> 00:28:14,490
+And look, there's indeed a new commit right here.
+
+735
+00:28:14,490 --> 00:28:17,070
+And the message was written by Codex itself.
+
+736
+00:28:17,070 --> 00:28:19,370
+This proves that the agents.md file is actually working.
+
+737
+00:28:19,370 --> 00:28:21,610
+Even in a completely new session,
+
+738
+00:28:21,610 --> 00:28:23,430
+And Codex followed our instructions.
+
+739
+00:28:23,430 --> 00:28:25,530
+After the code modifications are complete,
+
+740
+00:28:25,530 --> 00:28:27,679
+and automatically made a Git commit.
+
+741
+00:28:27,679 --> 00:28:30,339
+So that's the basic usage of the agents.md file.
+
+742
+00:28:30,339 --> 00:28:32,750
+But of course, it can do so much more than just that.
+
+743
+00:28:32,750 --> 00:28:34,990
+For instance, you can specify the code style within it,
+
+744
+00:28:34,990 --> 00:28:35,810
+naming conventions,
+
+745
+00:28:35,810 --> 00:28:36,790
+technical stack requirements,
+
+746
+00:28:36,790 --> 00:28:39,170
+or even an introduction to your project's background, and so on.
+
+747
+00:28:39,170 --> 00:28:41,130
+So, every time Codex starts a new session,
+
+748
+00:28:41,130 --> 00:28:42,690
+it will read all these files.
+
+749
+00:28:42,690 --> 00:28:45,110
+This way, it will have a much better understanding of your project.
+
+750
+00:28:45,110 --> 00:28:47,230
+and the results it provides will be more accurate.
+
+751
+00:28:47,230 --> 00:28:49,310
+So, you could say, the better your agents.md file is written,
+
+752
+00:28:49,310 --> 00:28:51,389
+the smoother Codex will work for you.
+
+753
+00:28:51,389 --> 00:28:52,769
+But there's something you need to keep in mind.
+
+754
+00:28:52,769 --> 00:28:56,440
+Codex will only commit the code changes that are specific to the current task.
+
+755
+00:28:56,440 --> 00:28:58,160
+the agents.md file we created at the very beginning,
+
+756
+00:28:58,160 --> 00:29:00,500
+isn't part of the current requirement.
+
+757
+00:29:00,500 --> 00:29:03,840
+So, that's why Codex didn't commit it just now.
+
+758
+00:29:03,840 --> 00:29:05,320
+Let's click on 'changes' here.
+
+759
+00:29:06,560 --> 00:29:07,760
+Then, select 'unstaged'.
+
+760
+00:29:07,760 --> 00:29:11,120
+And you'll see that the content of agents.md hasn't been committed yet.
+
+761
+00:29:11,120 --> 00:29:12,940
+No worries, let's get this committed.
+
+762
+00:29:12,940 --> 00:29:15,040
+First, let's go ahead and click this commit button.
+
+763
+00:29:15,040 --> 00:29:18,219
+Then, just type in the commit message right in here.
+
+764
+00:29:18,219 --> 00:29:20,110
+Then, click 'continue'.
+
+765
+00:29:20,310 --> 00:29:23,170
+And just like that, the changes will be committed to Git.
+
+766
+00:29:23,170 --> 00:29:24,290
+Alright, everything went smoothly.
+
+767
+00:29:24,290 --> 00:29:26,010
+Let's start a new session.
+
+768
+00:29:26,010 --> 00:29:28,710
+Let's keep iterating on the note-taking app.
+
+769
+00:29:32,380 --> 00:29:35,600
+Right now, this software is essentially just an HTML file.
+
+770
+00:29:35,600 --> 00:29:37,100
+and can only be opened in a browser.
+
+771
+00:29:37,100 --> 00:29:37,840
+That's not very convenient.
+
+772
+00:29:37,840 --> 00:29:40,760
+So, we want to turn it into a proper desktop client.
+
+773
+00:29:40,760 --> 00:29:43,180
+This way, users can just double-click the icon to open it.
+
+774
+00:29:43,180 --> 00:29:45,909
+just like opening Codex in VS Code.
+
+775
+00:29:45,909 --> 00:29:48,029
+So, for the desktop client...
+
+776
+00:29:48,029 --> 00:29:50,729
+And Electron is a very popular choice for that.
+
+777
+00:29:50,729 --> 00:29:54,530
+And while we're at it, we can also bring in React and TypeScript.
+
+778
+00:29:54,530 --> 00:29:56,510
+Let's clean up the project structure.
+
+779
+00:29:56,510 --> 00:29:58,130
+This will make it easier to iterate on later.
+
+780
+00:29:58,130 --> 00:30:01,260
+So, let's just send our requirements directly to Codex.
+
+781
+00:30:01,260 --> 00:30:04,300
+Convert the web app into a desktop client.
+
+782
+00:30:04,300 --> 00:30:06,380
+For the tech stack, we'll use Electron, plus React.
+
+783
+00:30:06,380 --> 00:30:07,780
+And let's throw in TypeScript as well.
+
+784
+00:30:07,780 --> 00:30:08,760
+And be sure to run some tests.
+
+785
+00:30:08,760 --> 00:30:11,810
+and make sure all the core functions are working properly.
+
+786
+00:30:11,810 --> 00:30:13,710
+But keep in mind, this is a pretty big project.
+
+787
+00:30:13,710 --> 00:30:16,230
+So, it's best to have Codex create a rule for us first.
+
+788
+00:30:16,230 --> 00:30:18,710
+Once we've confirmed the rules are correct, we'll let it run.
+
+789
+00:30:18,710 --> 00:30:19,730
+To do that,
+
+790
+00:30:19,730 --> 00:30:21,550
+We can click the plus sign right here.
+
+791
+00:30:21,550 --> 00:30:23,290
+and then select 'plan mode'.
+
+792
+00:30:23,290 --> 00:30:25,750
+And just like that, Codex is in plan mode.
+
+793
+00:30:25,750 --> 00:30:27,990
+And you can see that from the icon, too.
+
+794
+00:30:27,990 --> 00:30:29,190
+In this mode,
+
+795
+00:30:29,190 --> 00:30:31,630
+Codex will first create a plan, and then write the code.
+
+796
+00:30:31,630 --> 00:30:33,570
+Alright, let's give it a shot.
+
+797
+00:30:33,570 --> 00:30:35,550
+As you can see, Codex has started working.
+
+798
+00:30:35,550 --> 00:30:38,050
+Alright, let's give it a moment.
+
+799
+00:30:42,520 --> 00:30:44,600
+Alright, it's going to ask us a few questions now.
+
+800
+00:30:44,600 --> 00:30:46,920
+Let's go ahead and make our selection.
+
+801
+00:30:46,920 --> 00:30:48,960
+First, where should the data be stored?
+
+802
+00:30:48,960 --> 00:30:51,760
+Let's just put it in a file.
+
+803
+00:30:53,820 --> 00:30:58,180
+And then, we just need it delivered to a point where it's ready for development and execution.
+
+804
+00:30:58,750 --> 00:31:01,790
+After that, Codex will get back to work.
+
+805
+00:31:03,070 --> 00:31:07,590
+As you can see, Codex is now starting to write the plan for us.
+
+806
+00:31:08,720 --> 00:31:11,560
+Let's just wait a little longer.
+
+807
+00:31:11,560 --> 00:31:14,800
+It's still in the process of stress testing.
+
+808
+00:31:17,740 --> 00:31:19,200
+Alright, it's done.
+
+809
+00:31:19,200 --> 00:31:24,300
+Let's take a look at the plan itself. It's actually quite comprehensive.
+
+810
+00:31:24,300 --> 00:31:27,440
+including various testing scenarios.
+
+811
+00:31:27,440 --> 00:31:30,180
+The architectural design is also laid out in great detail.
+
+812
+00:31:30,180 --> 00:31:31,580
+Then, Codex asks us,
+
+813
+00:31:31,580 --> 00:31:35,150
+So, should we go ahead and implement the code according to this plan?
+
+814
+00:31:35,150 --> 00:31:36,990
+So, it's giving us two options in total.
+
+815
+00:31:36,990 --> 00:31:40,200
+The first option is to just go ahead and agree.
+
+816
+00:31:40,200 --> 00:31:41,860
+and just start implementing the plan.
+
+817
+00:31:41,860 --> 00:31:44,760
+The second option is for if you're not satisfied with this plan.
+
+818
+00:31:44,760 --> 00:31:46,120
+you can just state your requirements.
+
+819
+00:31:46,120 --> 00:31:50,190
+In the text box, you can tell Codex what changes to make.
+
+820
+00:31:50,190 --> 00:31:51,950
+And then Codex will make the changes based on your feedback.
+
+821
+00:31:51,950 --> 00:31:54,370
+and generate a new plan.
+
+822
+00:31:54,370 --> 00:31:58,170
+So, we're not going to make any further changes to the plan here.
+
+823
+00:31:58,170 --> 00:31:59,550
+So let's just go ahead and approve it.
+
+824
+00:31:59,550 --> 00:32:02,820
+Alright, let's have Codex write the code for us based on this plan.
+
+825
+00:32:02,820 --> 00:32:03,380
+Alright.
+
+826
+00:32:03,380 --> 00:32:05,100
+Alright, Codex is getting to work now.
+
+827
+00:32:05,100 --> 00:32:07,010
+We'll need to wait for a little bit.
+
+828
+00:32:07,010 --> 00:32:08,570
+So, while we're waiting,
+
+829
+00:32:08,570 --> 00:32:11,310
+We can just chat with Codex about whatever we want.
+
+830
+00:32:11,310 --> 00:32:17,170
+We can type '-side' into the input box to open the side chat.
+
+831
+00:32:17,170 --> 00:32:20,330
+And in here, we can just ask Codex anything, bring up other topics.
+
+832
+00:32:20,330 --> 00:32:24,110
+These questions won't affect the task Codex is running on the left.
+
+833
+00:32:24,110 --> 00:32:26,190
+For instance, we could ask it something.
+
+834
+00:32:26,190 --> 00:32:29,470
+So, what other basic features do you think this note-taking app needs?
+
+835
+00:32:30,070 --> 00:32:31,590
+Submit.
+
+836
+00:32:38,220 --> 00:32:41,020
+Alright, Codex has given us a few viable options.
+
+837
+00:32:41,020 --> 00:32:43,000
+So, as you can see, while we're in the side chat,
+
+838
+00:32:43,000 --> 00:32:45,910
+The task execution on the left side in Codex wasn't interrupted at all.
+
+839
+00:32:45,910 --> 00:32:49,510
+And that right there is a really important feature of Side Chat.
+
+840
+00:32:49,510 --> 00:32:52,370
+Basically, it lets users, while Codex is in the middle of a task,
+
+841
+00:32:52,370 --> 00:32:54,230
+to ask some more lightweight questions.
+
+842
+00:32:54,230 --> 00:32:56,830
+And while Codex is answering these lighter questions,
+
+843
+00:32:56,830 --> 00:32:59,389
+without interrupting the main task on the left.
+
+844
+00:32:59,389 --> 00:33:02,369
+So, that's the main feature of the Side Chat function.
+
+845
+00:33:02,369 --> 00:33:04,300
+Alright, that's all we have for this part for now.
+
+846
+00:33:04,300 --> 00:33:06,720
+This architectural overhaul is quite a bit of work.
+
+847
+00:33:06,720 --> 00:33:08,300
+Codex still isn't finished.
+
+848
+00:33:08,300 --> 00:33:10,980
+Let's just be patient and wait a little longer.
+
+849
+00:33:25,660 --> 00:33:28,340
+Alright, looks like Codex has finished the task.
+
+850
+00:33:28,340 --> 00:33:31,060
+It's prompting us to use the command 'npm run dev'.
+
+851
+00:33:31,060 --> 00:33:34,390
+and that will start up the Electron app.
+
+852
+00:33:34,390 --> 00:33:35,550
+Alright, let's give it a shot.
+
+853
+00:33:35,550 --> 00:33:37,650
+First, press Command and the spacebar to open up a terminal.
+
+854
+00:33:37,650 --> 00:33:41,050
+Then, type in the command 'npm run dev' and hit Enter.
+
+855
+00:33:41,710 --> 00:33:44,490
+And just like that, the Electron app is up and running.
+
+856
+00:33:44,490 --> 00:33:47,330
+But it looks like there might be a problem.
+
+857
+00:33:47,330 --> 00:33:50,350
+It's basically just a blank screen.
+
+858
+00:33:50,350 --> 00:33:54,170
+Let's open up the console and see if there are any error messages.
+
+859
+00:33:58,620 --> 00:34:00,080
+Yep, there are definitely some errors.
+
+860
+00:34:00,080 --> 00:34:04,540
+Alright, we'll need Codex to help us fix this.
+
+861
+00:34:04,540 --> 00:34:06,940
+Alright, let's get back to Codex.
+
+862
+00:34:07,779 --> 00:34:09,679
+First, let's shut down this process.
+
+863
+00:34:09,679 --> 00:34:11,819
+And then, let's close the terminal.
+
+864
+00:34:11,819 --> 00:34:14,690
+And now, let's tell it what we want.
+
+865
+00:34:14,690 --> 00:34:16,690
+After launching, the console shows an error on a blank white screen.
+
+866
+00:34:16,690 --> 00:34:18,770
+It seems your previous testing wasn't thorough enough.
+
+867
+00:34:18,770 --> 00:34:19,590
+Please fix it.
+
+868
+00:34:19,590 --> 00:34:23,330
+And make sure to test it thoroughly after the fix before handing it back to me.
+
+869
+00:34:28,699 --> 00:34:31,440
+Codex agrees with me.
+
+870
+00:34:31,440 --> 00:34:36,020
+Let's wait for Codex to fix this error, and then we'll try again.
+
+871
+00:34:44,779 --> 00:34:47,059
+Looks like Codex has fixed it.
+
+872
+00:34:47,059 --> 00:34:51,429
+So, let's see how it works after the fix.
+
+873
+00:34:51,429 --> 00:34:53,109
+Alright, let's open up the terminal again.
+
+874
+00:34:53,109 --> 00:34:55,629
+And then, we'll run this command.
+
+875
+00:34:57,000 --> 00:34:59,000
+Alright, looks like it's working fine this time.
+
+876
+00:34:59,000 --> 00:35:00,820
+Adding notes works too.
+
+877
+00:35:00,820 --> 00:35:02,880
+We can also just type in any title we want here.
+
+878
+00:35:02,880 --> 00:35:08,649
+The content works fine, and switching themes is no problem either.
+
+879
+00:35:09,129 --> 00:35:11,029
+Looks pretty much perfect.
+
+880
+00:35:11,029 --> 00:35:13,169
+All the features are working as expected.
+
+881
+00:35:13,169 --> 00:35:16,729
+Alright, let's get back to Codex.
+
+882
+00:35:17,880 --> 00:35:21,360
+First, let's press Control+C to kill this process.
+
+883
+00:35:21,360 --> 00:35:24,410
+And then, let's collapse the terminal.
+
+884
+00:35:24,410 --> 00:35:26,050
+and switched it to an Electron framework.
+
+885
+00:35:26,050 --> 00:35:28,170
+Alright, let's go ahead and add a new feature.
+
+886
+00:35:28,170 --> 00:35:32,629
+So, our new requirement is to add Markdown support to this note-taking app.
+
+887
+00:35:32,629 --> 00:35:33,369
+Specifically, we need it in the top-right corner of the editor.
+
+888
+00:35:33,369 --> 00:35:36,990
+to add two buttons for switching between modes.
+
+889
+00:35:36,990 --> 00:35:39,710
+So, what if I want to start a new line right now?
+
+890
+00:35:39,710 --> 00:35:41,510
+Just hitting Enter won't work, of course.
+
+891
+00:35:41,510 --> 00:35:42,730
+Pressing Enter just submits it.
+
+892
+00:35:42,730 --> 00:35:45,130
+The right way to do it is to press Shift plus Enter.
+
+893
+00:35:45,130 --> 00:35:47,290
+See? That's how you hit Enter.
+
+894
+00:35:47,290 --> 00:35:49,830
+Let's continue by entering the task details.
+
+895
+00:35:49,830 --> 00:35:51,310
+First, we have the edit mode.
+
+896
+00:35:51,310 --> 00:35:52,530
+Displays all the text content.
+
+897
+00:35:52,530 --> 00:35:55,180
+and it will highlight the Markdown syntax within it.
+
+898
+00:35:55,180 --> 00:35:57,880
+And then, there's also the preview mode.
+
+899
+00:35:57,880 --> 00:36:00,620
+This is where you see the rendered output of the Markdown.
+
+900
+00:36:00,620 --> 00:36:02,940
+Now, hit Enter again.
+
+901
+00:36:04,169 --> 00:36:06,289
+Alright, you can see Codex has started working.
+
+902
+00:36:06,289 --> 00:36:07,589
+While it's working,
+
+903
+00:36:07,589 --> 00:36:09,729
+Let's create a new session.
+
+904
+00:36:09,729 --> 00:36:13,115
+Let's have it work on another, unrelated task.
+
+905
+00:36:19,540 --> 00:36:23,320
+So, our new task is to generate a logo for our notes project.
+
+906
+00:36:23,320 --> 00:36:24,899
+in SVG format.
+
+907
+00:36:24,899 --> 00:36:27,800
+As you can see, both sessions are now running.
+
+908
+00:36:27,800 --> 00:36:29,480
+Let's say, at this point, you suddenly have an idea.
+
+909
+00:36:29,480 --> 00:36:31,540
+Our note-taking app has both a light and a dark mode.
+
+910
+00:36:31,540 --> 00:36:34,060
+The logo needs to be clearly visible in both modes.
+
+911
+00:36:34,060 --> 00:36:35,560
+We'd better give Codex a little reminder.
+
+912
+00:36:35,560 --> 00:36:39,740
+Just so it doesn't forget, let's send the request.
+
+913
+00:36:39,740 --> 00:36:42,020
+But it looks like the request didn't go through.
+
+914
+00:36:42,020 --> 00:36:43,440
+It seems to be stuck here.
+
+915
+00:36:43,440 --> 00:36:44,020
+Exactly.
+
+916
+00:36:44,020 --> 00:36:45,120
+By default,
+
+917
+00:36:45,120 --> 00:36:46,840
+Only after the previous request is completed,
+
+918
+00:36:46,840 --> 00:36:49,029
+will Codex move on to the next request.
+
+919
+00:36:49,029 --> 00:36:51,169
+But by then, it's a bit too late.
+
+920
+00:36:51,169 --> 00:36:52,769
+After all, the logo has already been generated.
+
+921
+00:36:52,769 --> 00:36:55,649
+So, can we send this information to Codex right now?
+
+922
+00:36:55,649 --> 00:36:58,540
+How can we make it aware of this before it generates the logo?
+
+923
+00:36:58,540 --> 00:36:59,420
+Sure thing.
+
+924
+00:36:59,420 --> 00:37:01,240
+See this 'steer' button right here?
+
+925
+00:37:01,240 --> 00:37:04,320
+With a single click, our request will be sent to Codex immediately.
+
+926
+00:37:04,320 --> 00:37:06,320
+And just like that, we've achieved our goal.
+
+927
+00:37:06,320 --> 00:37:08,500
+Codex is still running.
+
+928
+00:37:08,500 --> 00:37:11,240
+Let's give it a moment.
+
+929
+00:37:22,040 --> 00:37:24,320
+Alright, as you can see, the logo has been generated.
+
+930
+00:37:24,320 --> 00:37:26,240
+Let's switch back to our original session.
+
+931
+00:37:26,240 --> 00:37:28,470
+Let's see how it's doing.
+
+932
+00:37:28,590 --> 00:37:30,090
+Looks like it's still running.
+
+933
+00:37:30,090 --> 00:37:34,230
+So, it looks like we'll have to wait a little bit longer.
+
+934
+00:37:51,460 --> 00:37:53,420
+Alright, both tasks are done.
+
+935
+00:37:53,420 --> 00:37:55,900
+Alright, let's just open up the app and see how it turned out.
+
+936
+00:37:55,900 --> 00:37:58,220
+First, we need to open the terminal.
+
+937
+00:37:58,220 --> 00:38:00,240
+And then, we'll run npm start.
+
+938
+00:38:00,240 --> 00:38:02,540
+Opening the Electron app.
+
+939
+00:38:02,540 --> 00:38:04,140
+Looks like there's a bit of an issue here.
+
+940
+00:38:04,140 --> 00:38:06,680
+The logo didn't load successfully.
+
+941
+00:38:06,680 --> 00:38:09,800
+So, we need to let Codex know about this.
+
+942
+00:38:09,800 --> 00:38:17,440
+Alright, first, let's shut down this Electron app.
+
+943
+00:38:17,440 --> 00:38:20,160
+First, let's see if the logo file is actually there.
+
+944
+00:38:21,900 --> 00:38:25,110
+So the logo is definitely in the public folder.
+
+945
+00:38:25,110 --> 00:38:27,890
+So, it's probably not a 'file not found' error.
+
+946
+00:38:27,890 --> 00:38:31,030
+Could it be an issue with the SVG file's format?
+
+947
+00:38:31,030 --> 00:38:33,750
+Let's head over to Finder and check it out.
+
+948
+00:38:34,360 --> 00:38:36,460
+Let's open the public folder.
+
+949
+00:38:36,460 --> 00:38:39,700
+So it looks like there's nothing wrong with the SVG file's format either.
+
+950
+00:38:39,700 --> 00:38:42,130
+After all, Finder is rendering it just fine.
+
+951
+00:38:42,130 --> 00:38:44,810
+Most likely, it's an issue with how Electron is loading the SVG file.
+
+952
+00:38:44,810 --> 00:38:48,050
+The method for loading this SVG file is the problem.
+
+953
+00:38:48,050 --> 00:38:50,510
+Alright, let's have Codex fix it.
+
+954
+00:38:50,510 --> 00:38:52,350
+First, press Command + J.
+
+955
+00:38:52,350 --> 00:38:54,640
+Let's bring up the session list.
+
+956
+00:38:54,640 --> 00:38:58,160
+Then, select the session for generating the logo.
+
+957
+00:38:59,260 --> 00:39:02,500
+And then, in here, we'll type in our specific question.
+
+958
+00:39:04,080 --> 00:39:06,420
+The logo isn't showing up.
+
+959
+00:39:06,420 --> 00:39:09,100
+After we submit it,
+
+960
+00:39:09,100 --> 00:39:12,420
+And Codex starts troubleshooting the issue for us.
+
+961
+00:39:12,420 --> 00:39:14,860
+Let's just wait a little longer.
+
+962
+00:39:23,140 --> 00:39:24,020
+And the fix is complete.
+
+963
+00:39:24,020 --> 00:39:27,300
+Alright, let's launch the app again and see how it turned out.
+
+964
+00:39:28,710 --> 00:39:31,710
+First, open up the terminal and run 'npm start'.
+
+965
+00:39:32,680 --> 00:39:36,690
+Alright, looks like the logo is showing up successfully this time.
+
+966
+00:39:36,890 --> 00:39:39,750
+We can also just click around and check out some of the other features.
+
+967
+00:39:39,750 --> 00:39:42,850
+Let's see if everything's running smoothly.
+
+968
+00:39:44,160 --> 00:39:49,320
+For Markdown, let's just type in a few keywords.
+
+969
+00:39:49,320 --> 00:39:52,600
+Let's see if the syntax highlighting is working properly.
+
+970
+00:39:53,730 --> 00:39:56,790
+It seems like everything is working as expected.
+
+971
+00:39:56,790 --> 00:40:00,650
+All the different formats are displayed perfectly.
+
+972
+00:40:03,640 --> 00:40:05,940
+So, as you can see, the preview looks good too.
+
+973
+00:40:05,940 --> 00:40:08,020
+And that's all for this requirement.
+
+974
+00:40:08,020 --> 00:40:10,220
+Alright, let's get back to Codex.
+
+975
+00:40:10,220 --> 00:40:11,920
+Let's keep iterating on it.
+
+976
+00:40:14,940 --> 00:40:18,020
+So far, we've only covered the basic capabilities of Codex.
+
+977
+00:40:18,020 --> 00:40:20,010
+Next up, let's talk about plugins.
+
+978
+00:40:20,010 --> 00:40:23,130
+You can think of a plugin as an add-on for Codex.
+
+979
+00:40:23,130 --> 00:40:24,870
+This gives Codex the corresponding capabilities.
+
+980
+00:40:24,870 --> 00:40:27,000
+and help Codex do more things.
+
+981
+00:40:27,000 --> 00:40:29,060
+I know that might sound a bit abstract.
+
+982
+00:40:29,060 --> 00:40:31,540
+Let's see it in action.
+
+983
+00:40:31,540 --> 00:40:34,120
+First, let's open up the sidebar.
+
+984
+00:40:34,390 --> 00:40:36,649
+and then click on 'plugins' inside.
+
+985
+00:40:36,649 --> 00:40:39,669
+And right here, we can see all the available plugins.
+
+986
+00:40:39,669 --> 00:40:41,649
+Some of them can control your computer,
+
+987
+00:40:41,649 --> 00:40:43,409
+ones for controlling Chrome,
+
+988
+00:40:43,409 --> 00:40:45,470
+There are also ones for editing Excel.
+
+989
+00:40:45,470 --> 00:40:47,750
+There are also some for creating PowerPoint presentations.
+
+990
+00:40:47,750 --> 00:40:49,730
+If there's a checkmark next to the plugin,
+
+991
+00:40:49,730 --> 00:40:52,290
+That means the plugin is already installed.
+
+992
+00:40:52,290 --> 00:40:54,090
+If a plugin isn't installed,
+
+993
+00:40:54,090 --> 00:40:55,450
+you'll see a plus sign next to it.
+
+994
+00:40:55,450 --> 00:40:57,630
+We can just click the plus sign to install it.
+
+995
+00:40:57,630 --> 00:40:59,210
+Let's just click on a plugin at random.
+
+996
+00:40:59,210 --> 00:41:00,810
+Let's see what's inside.
+
+997
+00:41:00,810 --> 00:41:03,610
+For example, we can click on this plugin called Gmail.
+
+998
+00:41:03,610 --> 00:41:06,090
+As you can see, the plugin is made up of three components.
+
+999
+00:41:06,090 --> 00:41:07,210
+One of them is an app,
+
+1000
+00:41:07,210 --> 00:41:08,260
+And the other two are skills.
+
+1001
+00:41:08,260 --> 00:41:11,819
+This app is what connects Codex and Gmail.
+
+1002
+00:41:11,819 --> 00:41:13,679
+It comes with a lot of tools.
+
+1003
+00:41:13,679 --> 00:41:15,379
+Of course, Codex doesn't actually call them 'tools'.
+
+1004
+00:41:15,379 --> 00:41:16,819
+Codex calls them 'actions'.
+
+1005
+00:41:16,819 --> 00:41:19,779
+But in essence, these are just individual tools.
+
+1006
+00:41:19,779 --> 00:41:21,640
+It's pretty much like the tools in MCP.
+
+1007
+00:41:21,640 --> 00:41:23,860
+Let's compare it with 'apply labels to emails'.
+
+1008
+00:41:23,860 --> 00:41:26,340
+So, this one is for labeling emails.
+
+1009
+00:41:26,340 --> 00:41:29,210
+Archive emails, which is used for archiving emails.
+
+1010
+00:41:29,210 --> 00:41:32,130
+In total, this app provides 24 tools just like these.
+
+1011
+00:41:32,130 --> 00:41:33,370
+Besides the app,
+
+1012
+00:41:33,370 --> 00:41:35,950
+This plugin also provides two skills.
+
+1013
+00:41:35,950 --> 00:41:37,390
+So basically, you can think of a Skill
+
+1014
+00:41:37,390 --> 00:41:39,610
+as an instruction manual for the large model.
+
+1015
+00:41:39,610 --> 00:41:41,950
+Take the Gmail skill, for instance.
+
+1016
+00:41:41,950 --> 00:41:44,529
+It spells out exactly how to summarize the content of an email,
+
+1017
+00:41:44,529 --> 00:41:46,129
+how to draft a reply,
+
+1018
+00:41:46,129 --> 00:41:48,880
+and which tools to use in which situations, and so on.
+
+1019
+00:41:48,880 --> 00:41:51,520
+And this skill, called 'inbox triage',
+
+1020
+00:41:51,520 --> 00:41:54,480
+is to tell the large model how to categorize emails.
+
+1021
+00:41:54,480 --> 00:41:56,560
+For instance, which emails are urgent,
+
+1022
+00:41:56,560 --> 00:41:58,460
+which ones need a reply, and so on.
+
+1023
+00:41:58,460 --> 00:42:00,200
+If you're interested in learning more about skills,
+
+1024
+00:42:00,200 --> 00:42:01,760
+you can check out my video.
+
+1025
+00:42:01,760 --> 00:42:05,240
+I'll explain everything about how to use skills and how they work in one go.
+
+1026
+00:42:05,240 --> 00:42:08,620
+So, the Gmail app itself only consists of these three components.
+
+1027
+00:42:08,620 --> 00:42:10,880
+So, if we choose to install the Gmail plugin,
+
+1028
+00:42:10,880 --> 00:42:13,340
+So, basically, you're just installing these three components.
+
+1029
+00:42:13,340 --> 00:42:16,060
+So, when the user wants Codex to do something with Gmail,
+
+1030
+00:42:16,060 --> 00:42:18,280
+the GPT model will then find these three components
+
+1031
+00:42:18,280 --> 00:42:21,600
+and then use their capabilities and instructions to fulfill the user's request.
+
+1032
+00:42:21,600 --> 00:42:23,080
+So, that's basically how it works.
+
+1033
+00:42:23,080 --> 00:42:25,320
+Let's look at a specific example.
+
+1034
+00:42:25,320 --> 00:42:27,470
+For example, let's say we have 'presentations'.
+
+1035
+00:42:27,470 --> 00:42:29,730
+This plugin is for creating PowerPoint presentations.
+
+1036
+00:42:29,730 --> 00:42:30,710
+It only has one component.
+
+1037
+00:42:30,710 --> 00:42:33,560
+And that would be this skill, called 'presentations'.
+
+1038
+00:42:33,560 --> 00:42:35,800
+This skill gives you a detailed breakdown of what to do.
+
+1039
+00:42:35,800 --> 00:42:37,830
+to create a high-quality presentation.
+
+1040
+00:42:37,830 --> 00:42:41,710
+So now, let's try using this plugin called 'presentations'.
+
+1041
+00:42:41,710 --> 00:42:43,330
+to get what we need done.
+
+1042
+00:42:43,330 --> 00:42:44,730
+Alright, let's start a new session.
+
+1043
+00:42:44,730 --> 00:42:46,070
+And now, let's type in our request.
+
+1044
+00:42:46,070 --> 00:42:48,070
+Create a PowerPoint presentation for this note-taking app.
+
+1045
+00:42:48,070 --> 00:42:51,050
+to introduce its product design and technical architecture.
+
+1046
+00:42:51,050 --> 00:42:51,970
+Once you submit it,
+
+1047
+00:42:51,970 --> 00:42:54,330
+Codex will then find what we mentioned earlier.
+
+1048
+00:42:54,330 --> 00:42:56,910
+the plugin called 'presentations'
+
+1049
+00:42:56,910 --> 00:42:59,830
+and use the capabilities provided by that plugin to create the PowerPoint.
+
+1050
+00:42:59,830 --> 00:43:02,990
+Of course, if you're worried that Codex might not find this plugin,
+
+1051
+00:43:02,990 --> 00:43:04,290
+Or, if I got it wrong,
+
+1052
+00:43:04,290 --> 00:43:05,790
+You can explicitly tell Codex
+
+1053
+00:43:05,790 --> 00:43:08,330
+to use this plugin called 'presentations'.
+
+1054
+00:43:08,330 --> 00:43:11,750
+All you have to do is type an @ symbol at the very beginning of your task.
+
+1055
+00:43:11,750 --> 00:43:14,100
+Then, type in 'presentations' and hit Enter.
+
+1056
+00:43:14,100 --> 00:43:17,420
+This way, Codex will definitely use the 'presentations' plugin.
+
+1057
+00:43:17,420 --> 00:43:18,850
+Time to make a PPT.
+
+1058
+00:43:18,850 --> 00:43:20,430
+But it's fine if you don't add it, though.
+
+1059
+00:43:20,430 --> 00:43:23,090
+Codex will find the plugin automatically anyway.
+
+1060
+00:43:23,090 --> 00:43:25,890
+So, we'll just get rid of it for now.
+
+1061
+00:43:25,890 --> 00:43:27,570
+Alright, let's commit.
+
+1062
+00:43:27,570 --> 00:43:29,830
+As you can see, Codex has started working.
+
+1063
+00:43:29,830 --> 00:43:32,210
+Let's give it a moment.
+
+1064
+00:43:52,900 --> 00:43:53,940
+Codex is done.
+
+1065
+00:43:53,940 --> 00:43:55,860
+Let's open it up and see.
+
+1066
+00:44:02,280 --> 00:44:03,560
+Nothing too fancy, but it gets the job done.
+
+1067
+00:44:03,560 --> 00:44:06,180
+But there's actually still a lot of room for improvement here.
+
+1068
+00:44:06,180 --> 00:44:08,260
+But it's a decent starting point nonetheless.
+
+1069
+00:44:08,260 --> 00:44:11,120
+So, we can build upon this and make some further improvements.
+
+1070
+00:44:15,620 --> 00:44:19,770
+This plugin, called Presentations, isn't particularly impressive.
+
+1071
+00:44:19,770 --> 00:44:21,130
+Alright, let me introduce you to OpenAI.
+
+1072
+00:44:21,130 --> 00:44:24,170
+two very practical plugins that it provides.
+
+1073
+00:44:24,170 --> 00:44:26,330
+One is called Computer Use,
+
+1074
+00:44:26,330 --> 00:44:27,560
+for controlling your computer.
+
+1075
+00:44:27,560 --> 00:44:28,980
+and the other is called Chrome.
+
+1076
+00:44:28,980 --> 00:44:31,320
+to control the Chrome browser.
+
+1077
+00:44:31,320 --> 00:44:34,100
+Let's start by trying out the Chrome plugin.
+
+1078
+00:44:34,100 --> 00:44:37,220
+Let's head over to the plugin management section.
+
+1079
+00:44:38,340 --> 00:44:43,580
+Then, click the plus sign next to Chrome to install the plugin.
+
+1080
+00:44:44,770 --> 00:44:47,290
+Click 'Install for Chrome'.
+
+1081
+00:44:47,290 --> 00:44:47,930
+Alright, it's installed.
+
+1082
+00:44:47,930 --> 00:44:49,250
+Then, Codex prompts us,
+
+1083
+00:44:49,250 --> 00:44:52,610
+So, we also need to install the corresponding extension on Chrome. Alright.
+
+1084
+00:44:52,610 --> 00:44:56,205
+So, let's just follow its instructions to install the extension.
+
+1085
+00:45:01,520 --> 00:45:03,240
+Alright, with everything set up,
+
+1086
+00:45:03,240 --> 00:45:06,260
+So, let's give the Chrome extension a try.
+
+1087
+00:45:06,260 --> 00:45:09,240
+We can just click the button right next to it.
+
+1088
+00:45:09,240 --> 00:45:10,080
+And just like that,
+
+1089
+00:45:10,080 --> 00:45:12,440
+Codex will then initialize one for us.
+
+1090
+00:45:12,440 --> 00:45:15,390
+Let's use the request it's provided for us.
+
+1091
+00:45:15,390 --> 00:45:18,290
+We can just get rid of the rest of it.
+
+1092
+00:45:18,290 --> 00:45:20,070
+So, for our specific requirements,
+
+1093
+00:45:20,070 --> 00:45:23,290
+So, the first step is to open the Product Hunt homepage.
+
+1094
+00:45:23,290 --> 00:45:27,790
+Then, find the three most popular, newly launched products from today.
+
+1095
+00:45:27,790 --> 00:45:29,290
+and summarize the key features of each.
+
+1096
+00:45:29,290 --> 00:45:31,760
+and include the links to them.
+
+1097
+00:45:31,760 --> 00:45:34,349
+Alright, let's hand it over.
+
+1098
+00:45:34,349 --> 00:45:35,909
+So you can see it more clearly,
+
+1099
+00:45:35,909 --> 00:45:38,420
+Let me just shrink Codex down a bit.
+
+1100
+00:45:38,420 --> 00:45:40,540
+and bring up the Chrome browser.
+
+1101
+00:45:40,540 --> 00:45:41,540
+This way,
+
+1102
+00:45:41,540 --> 00:45:43,220
+so you can all see it more clearly.
+
+1103
+00:45:43,220 --> 00:45:45,820
+So, how exactly does Codex get the job done?
+
+1104
+00:45:46,110 --> 00:45:48,990
+As you can see, Codex has created a tab group.
+
+1105
+00:45:48,990 --> 00:45:51,850
+This tab group is specifically for solving our problem.
+
+1106
+00:45:51,850 --> 00:45:56,260
+Then, within this tab group, it navigated to the Product Hunt homepage.
+
+1107
+00:45:56,260 --> 00:45:59,620
+And here we have the three hottest newly launched products of the day.
+
+1108
+00:45:59,620 --> 00:46:01,980
+And I'm sure Codex has seen it too.
+
+1109
+00:46:04,660 --> 00:46:08,200
+And as you can see, Codex is now opening up another tab.
+
+1110
+00:46:08,200 --> 00:46:10,400
+So this looks like the first product.
+
+1111
+00:46:10,400 --> 00:46:12,660
+It's a website related to Brew.
+
+1112
+00:46:12,660 --> 00:46:15,600
+And now it's opened another one.
+
+1113
+00:46:15,600 --> 00:46:17,800
+Alright, we're just gonna let it do its thing now.
+
+1114
+00:46:17,800 --> 00:46:20,560
+Codex will probably check out a few more web pages.
+
+1115
+00:46:20,560 --> 00:46:22,840
+So let's just wait here for a moment.
+
+1116
+00:46:22,840 --> 00:46:26,920
+I'm sure it'll be able to search all the product pages in a moment.
+
+1117
+00:46:26,920 --> 00:46:29,600
+and then give us some pretty useful feedback.
+
+1118
+00:46:29,600 --> 00:46:32,340
+Let's just wait for a moment.
+
+1119
+00:46:41,560 --> 00:46:43,660
+Alright, Codex has summarized it for us.
+
+1120
+00:46:43,660 --> 00:46:46,430
+And this is pretty much the result we were looking for.
+
+1121
+00:46:46,430 --> 00:46:49,790
+So, that's how you use the Chrome extension.
+
+1122
+00:46:49,790 --> 00:46:52,670
+Alright, let's maximize Codex again.
+
+1123
+00:46:52,670 --> 00:46:56,930
+Alright, next up, let's take a look at how to use the Computer Use plugin.
+
+1124
+00:46:56,930 --> 00:46:58,970
+how to use this plugin.
+
+1125
+00:46:58,970 --> 00:47:00,960
+This one is for controlling your computer.
+
+1126
+00:47:00,960 --> 00:47:02,600
+Similarly, we click on the plus sign.
+
+1127
+00:47:02,600 --> 00:47:05,680
+Then, go ahead and install it.
+
+1128
+00:47:10,400 --> 00:47:11,460
+Installation complete.
+
+1129
+00:47:11,460 --> 00:47:13,500
+Let's give it a try.
+
+1130
+00:47:13,500 --> 00:47:15,620
+It's similar to how you'd use Chrome.
+
+1131
+00:47:15,620 --> 00:47:19,700
+We can also click the small icon next to 'Computer Use'.
+
+1132
+00:47:19,700 --> 00:47:23,360
+And just like that, it will start a related Computer Use session.
+
+1133
+00:47:23,360 --> 00:47:25,460
+First, let's delete this last part of the text.
+
+1134
+00:47:25,460 --> 00:47:28,029
+Because it's not really relevant to the request we're actually making.
+
+1135
+00:47:28,029 --> 00:47:29,029
+And then let's make a small change.
+
+1136
+00:47:29,029 --> 00:47:32,469
+The directory corresponding to the request.
+
+1137
+00:47:32,469 --> 00:47:35,160
+Right now, we're in the 'Mark Notes' folder.
+
+1138
+00:47:35,160 --> 00:47:37,740
+But the request we actually want to make...
+
+1139
+00:47:37,740 --> 00:47:39,680
+It doesn't really have much to do with this project.
+
+1140
+00:47:39,680 --> 00:47:42,750
+So we're just going to choose "Don't work in the project."
+
+1141
+00:47:42,750 --> 00:47:46,130
+So basically, this is just a random request we're making.
+
+1142
+00:47:46,130 --> 00:47:52,500
+This way, it won't be tied to any specific project directory. And now, we can officially start entering our requests.
+
+1143
+00:47:52,500 --> 00:47:55,680
+So, the request is: 'Please open the calendar app on my computer.'
+
+1144
+00:47:55,680 --> 00:47:58,340
+Create a new event for May 28th at 10 AM.
+
+1145
+00:47:58,340 --> 00:48:02,940
+The title will be 'Discussing the Future Design of Mark Notes'.
+
+1146
+00:48:02,940 --> 00:48:04,300
+Yep, just like that.
+
+1147
+00:48:04,300 --> 00:48:07,150
+Now, let's have Codex operate the calendar application.
+
+1148
+00:48:07,150 --> 00:48:08,550
+And just like before,
+
+1149
+00:48:08,550 --> 00:48:09,970
+Let's minimize Codex.
+
+1150
+00:48:09,970 --> 00:48:12,420
+and reveal the calendar app.
+
+1151
+00:48:12,420 --> 00:48:14,780
+This way, you can all see it more clearly.
+
+1152
+00:48:14,780 --> 00:48:18,420
+So, how does Codex actually operate our calendar software?
+
+1153
+00:48:20,980 --> 00:48:24,820
+Alright, so the first thing Codex does is ask us for permission to use the calendar application.
+
+1154
+00:48:24,820 --> 00:48:26,300
+We'll grant it access.
+
+1155
+00:48:29,200 --> 00:48:31,160
+And as you can see, Codex is now in action.
+
+1156
+00:48:31,160 --> 00:48:33,400
+So this is Codex's mouse cursor.
+
+1157
+00:48:33,400 --> 00:48:36,680
+It's a completely separate system from the mouse we're actually using.
+
+1158
+00:48:36,680 --> 00:48:38,900
+They don't interfere with each other at all.
+
+1159
+00:48:38,900 --> 00:48:41,740
+And then, Codex starts controlling the mouse.
+
+1160
+00:48:41,740 --> 00:48:44,050
+to get the job done for us.
+
+1161
+00:48:44,050 --> 00:48:46,110
+Now, it needs us to confirm.
+
+1162
+00:48:46,110 --> 00:48:48,350
+So, it's asking if we're sure we want to create this schedule.
+
+1163
+00:48:48,350 --> 00:48:49,690
+That's a bit wordy.
+
+1164
+00:48:49,690 --> 00:48:51,030
+Of course, we're confirming.
+
+1165
+00:48:51,030 --> 00:48:53,250
+Let's give it a reply.
+
+1166
+00:49:04,160 --> 00:49:07,820
+Alright, it looks like Codex has done what we asked.
+
+1167
+00:49:07,820 --> 00:49:09,800
+Alright, let's take a look.
+
+1168
+00:49:10,620 --> 00:49:13,140
+Looks like the title and time slot for this schedule...
+
+1169
+00:49:13,140 --> 00:49:14,620
+Everything is just as we requested.
+
+1170
+00:49:14,620 --> 00:49:15,980
+Alright, then we're all set.
+
+1171
+00:49:15,980 --> 00:49:18,120
+Alright, let's maximize Codex again.
+
+1172
+00:49:18,120 --> 00:49:20,480
+So, this is basically the Computer Use feature.
+
+1173
+00:49:20,480 --> 00:49:22,420
+So, that's how you use this plugin.
+
+1174
+00:49:22,420 --> 00:49:23,360
+It's worth mentioning that
+
+1175
+00:49:23,360 --> 00:49:27,040
+Codex uses its own separate virtual mouse, so it won't interfere with your actual mouse at all.
+
+1176
+00:49:27,040 --> 00:49:29,100
+I just brought the calendar app to the front.
+
+1177
+00:49:29,100 --> 00:49:30,180
+I'm just doing this for demonstration purposes.
+
+1178
+00:49:30,180 --> 00:49:33,420
+In fact, you can just let it work quietly in the background.
+
+1179
+00:49:33,420 --> 00:49:34,760
+and just carry on with whatever you were doing.
+
+1180
+00:49:34,760 --> 00:49:36,340
+You can even browse the web or watch videos.
+
+1181
+00:49:36,340 --> 00:49:39,340
+It won't slow you down at all. Alright, that's everything on Computer Use.
+
+1182
+00:49:39,340 --> 00:49:42,390
+Alright, next up, let's see how to use Skills.
+
+1183
+00:49:42,390 --> 00:49:43,510
+So, if you want to browse the skills,
+
+1184
+00:49:43,510 --> 00:49:45,950
+we first have to open up the plugins.
+
+1185
+00:49:45,950 --> 00:49:47,710
+And then, click on 'Skills' in here.
+
+1186
+00:49:47,710 --> 00:49:49,760
+And you'll see a list of available skills.
+
+1187
+00:49:49,760 --> 00:49:51,560
+Actually, when we were using plugins earlier,
+
+1188
+00:49:51,560 --> 00:49:53,200
+we've actually already been using skills indirectly.
+
+1189
+00:49:53,200 --> 00:49:54,920
+Because whether it's for presentations,
+
+1190
+00:49:54,920 --> 00:49:56,590
+computer use, or even Chrome,
+
+1191
+00:49:56,590 --> 00:49:59,330
+The core component for all these plugins is the Skill.
+
+1192
+00:49:59,330 --> 00:50:02,100
+You can find all of them under the 'Skills' tab.
+
+1193
+00:50:02,100 --> 00:50:04,420
+So, when we install the corresponding plugins,
+
+1194
+00:50:04,420 --> 00:50:07,320
+the related skills will be installed along with it.
+
+1195
+00:50:07,320 --> 00:50:09,960
+So, that's where we can find all these skills.
+
+1196
+00:50:09,960 --> 00:50:11,760
+However, there is one ace-in-the-hole skill.
+
+1197
+00:50:11,760 --> 00:50:14,120
+It's listed separately under the 'skill' tab.
+
+1198
+00:50:14,120 --> 00:50:16,520
+And it doesn't have a corresponding plugin.
+
+1199
+00:50:16,520 --> 00:50:18,640
+And that skill is imagegen.
+
+1200
+00:50:18,640 --> 00:50:20,350
+And it's used for generating images.
+
+1201
+00:50:20,350 --> 00:50:23,490
+I'm sure you've all heard about GPT's image generation capabilities by now.
+
+1202
+00:50:23,490 --> 00:50:24,250
+Not only are they beautiful,
+
+1203
+00:50:24,250 --> 00:50:25,760
+and it's also very affordable.
+
+1204
+00:50:25,760 --> 00:50:28,820
+Now, let's use a skill to create an image.
+
+1205
+00:50:28,820 --> 00:50:31,860
+Let's start a new session under the Mark Notes project.
+
+1206
+00:50:31,860 --> 00:50:33,700
+Then, we'll input our request.
+
+1207
+00:50:33,700 --> 00:50:36,740
+Generate a promotional poster image for the note-taking app.
+
+1208
+00:50:36,740 --> 00:50:39,480
+Make sure to use the actual software screenshots I provided.
+
+1209
+00:50:39,480 --> 00:50:42,920
+Next, we need to provide Codex with the corresponding software screenshots.
+
+1210
+00:50:42,920 --> 00:50:46,240
+First, let's press Command + Space to open the terminal.
+
+1211
+00:50:47,810 --> 00:50:53,330
+Then, run the command 'npm start' to launch our note-taking app.
+
+1212
+00:50:55,000 --> 00:50:58,560
+Alright, let's head back to Codex and click the plus sign.
+
+1213
+00:50:59,280 --> 00:51:02,800
+And then, find the option that says 'attach electron'.
+
+1214
+00:51:02,800 --> 00:51:04,000
+So, the Electron here is basically...
+
+1215
+00:51:04,000 --> 00:51:06,870
+our Mark Notes software.
+
+1216
+00:51:06,870 --> 00:51:09,270
+Our note-taking app is built with Electron.
+
+1217
+00:51:09,270 --> 00:51:11,150
+So, from Codex's perspective,
+
+1218
+00:51:11,150 --> 00:51:13,570
+So, this notes app is called Electron.
+
+1219
+00:51:13,570 --> 00:51:15,720
+Let's go ahead and click on this option.
+
+1220
+00:51:15,720 --> 00:51:16,880
+Once we click on it,
+
+1221
+00:51:16,880 --> 00:51:19,680
+Codex is asking us if we want to enable this feature.
+
+1222
+00:51:19,680 --> 00:51:21,380
+We'll click 'enable'.
+
+1223
+00:51:21,380 --> 00:51:25,710
+And just like that, the screenshot of our Mark Notes is right there in the chat box.
+
+1224
+00:51:25,710 --> 00:51:27,660
+This way, when Codex is designing the poster,
+
+1225
+00:51:27,660 --> 00:51:30,680
+it can work based on a real screenshot of the software.
+
+1226
+00:51:30,680 --> 00:51:32,020
+Pretty convenient, right?
+
+1227
+00:51:32,020 --> 00:51:34,710
+Just click the button, and it'll paste the screenshot right in.
+
+1228
+00:51:34,710 --> 00:51:37,110
+But that's not even the most convenient part.
+
+1229
+00:51:37,110 --> 00:51:38,710
+Codex also provides a hotkey for this.
+
+1230
+00:51:38,710 --> 00:51:40,750
+Just one press and you can send over the screenshot.
+
+1231
+00:51:40,750 --> 00:51:42,370
+Let me show you how it works.
+
+1232
+00:51:42,370 --> 00:51:45,530
+The screenshot we gave Codex earlier was for the light mode.
+
+1233
+00:51:45,530 --> 00:51:48,010
+Now, I'm sending Codex a screenshot in dark mode.
+
+1234
+00:51:48,010 --> 00:51:51,520
+Alright, let's go back to Mark Notes and switch it to dark mode.
+
+1235
+00:51:51,520 --> 00:51:52,760
+And here's the key part.
+
+1236
+00:51:52,760 --> 00:51:53,980
+Press the left and right Command keys at the same time.
+
+1237
+00:51:53,980 --> 00:51:57,250
+And just like that, we've got a screenshot of MarkNote in dark mode.
+
+1238
+00:51:57,250 --> 00:51:58,970
+And I've sent that over to Codex as well.
+
+1239
+00:51:58,970 --> 00:52:01,130
+This is definitely way more convenient.
+
+1240
+00:52:01,130 --> 00:52:05,110
+Alright, so now Codex has screenshots for both light and dark modes.
+
+1241
+00:52:05,110 --> 00:52:07,030
+Alright, let's have it start making the poster.
+
+1242
+00:52:07,030 --> 00:52:08,290
+Submit.
+
+1243
+00:52:14,180 --> 00:52:15,620
+First, we can see that
+
+1244
+00:52:15,620 --> 00:52:17,580
+Codex will use ImageGen.
+
+1245
+00:52:17,580 --> 00:52:21,080
+This is the skill we mentioned earlier, and we're going to use it to create this promotional poster.
+
+1246
+00:52:21,080 --> 00:52:22,800
+Alright, let's just give it a moment.
+
+1247
+00:52:22,800 --> 00:52:25,400
+Let's see what it comes up with.
+
+1248
+00:52:33,140 --> 00:52:35,220
+Alright, it's done. I think it's pretty decent.
+
+1249
+00:52:35,220 --> 00:52:37,180
+And it did base it on our screenshot.
+
+1250
+00:52:37,180 --> 00:52:39,580
+So, what do you think?
+
+1251
+00:52:42,660 --> 00:52:44,960
+Besides using the skills that Codex installs for us,
+
+1252
+00:52:44,960 --> 00:52:46,960
+We can also create our own skills.
+
+1253
+00:52:46,960 --> 00:52:49,620
+Let's press Command+J to start a new session.
+
+1254
+00:52:49,620 --> 00:52:51,650
+And then, we'll input our task.
+
+1255
+00:52:51,790 --> 00:52:53,610
+Write a code review skill.
+
+1256
+00:52:53,610 --> 00:52:55,310
+to be used specifically for the current project.
+
+1257
+00:52:55,310 --> 00:52:58,550
+This skill should include the following rules.
+
+1258
+00:52:58,700 --> 00:53:00,580
+Alright, let's commit it.
+
+1259
+00:53:12,780 --> 00:53:14,820
+As you can see, the skill is now ready.
+
+1260
+00:53:15,820 --> 00:53:19,170
+We'll just call it 'marknotes-code-review'.
+
+1261
+00:53:19,370 --> 00:53:23,170
+Alright, let's press Command + J, L, N to start a new session.
+
+1262
+00:53:23,170 --> 00:53:24,990
+Let's see how this skill works.
+
+1263
+00:53:24,990 --> 00:53:27,270
+First, let's add this skill.
+
+1264
+00:53:27,270 --> 00:53:29,450
+And then, we can make our request.
+
+1265
+00:53:29,450 --> 00:53:32,270
+Check the current project's code for any issues.
+
+1266
+00:53:33,310 --> 00:53:35,110
+Alright, we're good to go.
+
+1267
+00:53:40,060 --> 00:53:42,120
+Alright, the results are in. Now, we can also have Codex...
+
+1268
+00:53:42,120 --> 00:53:45,340
+to modify the code based on the review results.
+
+1269
+00:53:45,340 --> 00:53:48,060
+Alright, I won't go any further with this demonstration.
+
+1270
+00:53:48,060 --> 00:53:50,220
+Our note-taking app is being iterated on daily.
+
+1271
+00:53:50,220 --> 00:53:51,560
+The code gets updated daily.
+
+1272
+00:53:51,560 --> 00:53:54,420
+So, it's a good idea to have a daily, scheduled check for our code.
+
+1273
+00:53:54,420 --> 00:53:55,790
+to see if there are any issues.
+
+1274
+00:53:55,790 --> 00:53:58,930
+This is exactly the kind of scenario that's perfect for setting up a scheduled task to handle.
+
+1275
+00:53:58,930 --> 00:54:01,080
+And Codex offers this exact feature.
+
+1276
+00:54:01,080 --> 00:54:04,400
+So, let's click on these three dots right here.
+
+1277
+00:54:04,720 --> 00:54:07,300
+Then, click on 'add automation'.
+
+1278
+00:54:07,300 --> 00:54:09,680
+So, we're adding a scheduled task.
+
+1279
+00:54:10,589 --> 00:54:12,809
+This is where you enter the title for the automation task.
+
+1280
+00:54:12,809 --> 00:54:14,609
+Codex has already filled this in for us.
+
+1281
+00:54:14,609 --> 00:54:16,989
+So, here's what you fill in when you're setting up the scheduled task.
+
+1282
+00:54:16,989 --> 00:54:18,930
+So, here's the request we need to send to Codex.
+
+1283
+00:54:18,930 --> 00:54:20,010
+Our request is to check the code in the current project.
+
+1284
+00:54:20,010 --> 00:54:23,250
+and report any issues.
+
+1285
+00:54:23,250 --> 00:54:24,970
+And below that, we have the execution environment.
+
+1286
+00:54:24,970 --> 00:54:26,910
+There are three options in total.
+
+1287
+00:54:26,910 --> 00:54:29,950
+They are: local, worktree, and chats.
+
+1288
+00:54:29,950 --> 00:54:33,950
+The 'local' option runs scheduled tasks within a specific project directory.
+
+1289
+00:54:33,950 --> 00:54:37,270
+A 'worktree' is a new worktree created based on an existing project directory.
+
+1290
+00:54:37,270 --> 00:54:39,800
+The scheduled task will then run inside this new worktree.
+
+1291
+00:54:39,800 --> 00:54:41,840
+We've covered the concept of a worktree before.
+
+1292
+00:54:41,840 --> 00:54:43,260
+It's a concept in Git.
+
+1293
+00:54:43,260 --> 00:54:44,860
+If you're still a bit confused about this,
+
+1294
+00:54:44,860 --> 00:54:47,370
+You can ignore that for now; we won't be using this option here.
+
+1295
+00:54:47,370 --> 00:54:49,010
+Chats is the execution environment.
+
+1296
+00:54:49,010 --> 00:54:50,730
+It's not tied to any specific project directory.
+
+1297
+00:54:50,730 --> 00:54:53,570
+Remember when we used the Chrome plugin to search the web earlier?
+
+1298
+00:54:53,570 --> 00:54:55,890
+We were actually using the Chats environment.
+
+1299
+00:54:55,890 --> 00:54:57,570
+So, for our purposes, the 'local' option is the best fit here.
+
+1300
+00:54:57,570 --> 00:54:58,730
+After all, for our scheduled task,
+
+1301
+00:54:58,730 --> 00:55:00,970
+The goal is to scan the project code for the Mark Notes app.
+
+1302
+00:55:00,970 --> 00:55:04,090
+So, it absolutely has to be tied to a specific project directory.
+
+1303
+00:55:04,090 --> 00:55:05,170
+Let's select 'local'.
+
+1304
+00:55:06,570 --> 00:55:09,410
+And then, in here, we're going to select Mark Notes.
+
+1305
+00:55:09,740 --> 00:55:11,560
+And over here, we have the frequency.
+
+1306
+00:55:11,560 --> 00:55:12,860
+We'll go with 'daily'.
+
+1307
+00:55:12,860 --> 00:55:15,340
+As for the specific time, let's just keep it at 9 o'clock.
+
+1308
+00:55:15,340 --> 00:55:17,140
+So basically, this is our scheduled task.
+
+1309
+00:55:17,140 --> 00:55:19,340
+to start at 9 AM every day.
+
+1310
+00:55:19,360 --> 00:55:22,560
+Next, let's select the model. We'll go with GPT-5.5 for the inference strength.
+
+1311
+00:55:22,560 --> 00:55:26,000
+We'll just stick with the current 'medium' setting.
+
+1312
+00:55:26,000 --> 00:55:28,400
+Then, we'll click 'save'.
+
+1313
+00:55:29,520 --> 00:55:31,760
+Now, let's open the sidebar on the left again.
+
+1314
+00:55:32,970 --> 00:55:34,850
+And there we can see 'Automations'.
+
+1315
+00:55:34,850 --> 00:55:35,690
+And there's an extra '1' in here.
+
+1316
+00:55:35,690 --> 00:55:38,960
+After clicking on it, you can see the scheduled task we just created.
+
+1317
+00:55:38,960 --> 00:55:41,140
+It will start running at 9 AM every day.
+
+1318
+00:55:41,140 --> 00:55:43,460
+Each time it runs, it will create a new session.
+
+1319
+00:55:43,460 --> 00:55:47,080
+We can click this button to run a test of the scheduled task.
+
+1320
+00:55:47,990 --> 00:55:50,210
+And you can see a new session has been created.
+
+1321
+00:55:50,210 --> 00:55:52,310
+This is what's used to run scheduled tasks.
+
+1322
+00:55:52,310 --> 00:55:54,510
+Let's open it up and take a look.
+
+1323
+00:55:56,660 --> 00:55:59,180
+Alright, as you can see, the scheduled task is now complete.
+
+1324
+00:55:59,180 --> 00:56:01,980
+And it will run just like this every day from now on.
+
+1325
+00:56:01,980 --> 00:56:03,900
+And that's the scheduled task.
+
+1326
+00:56:03,900 --> 00:56:05,300
+And finally, I want to talk about
+
+1327
+00:56:05,300 --> 00:56:07,160
+Now, for a really practical feature of Codex.
+
+1328
+00:56:07,160 --> 00:56:09,069
+And that is Codex mobile.
+
+1329
+00:56:09,069 --> 00:56:14,069
+Basically, it means we can use our phones to control Codex and have it complete tasks for us.
+
+1330
+00:56:14,069 --> 00:56:17,380
+Let's go ahead and tap on Codex mobile right here.
+
+1331
+00:56:17,860 --> 00:56:20,480
+And then, click 'get started'.
+
+1332
+00:56:20,960 --> 00:56:22,240
+And then, tap 'Allow'.
+
+1333
+00:56:22,240 --> 00:56:24,920
+This will let your phone control this computer.
+
+1334
+00:56:25,360 --> 00:56:26,520
+And then, click 'done'.
+
+1335
+00:56:27,640 --> 00:56:28,860
+After you've clicked 'done',
+
+1336
+00:56:28,860 --> 00:56:32,890
+Codex should then display a QR code for you.
+
+1337
+00:56:32,890 --> 00:56:35,210
+If the QR code doesn't show up for you, like what happened to me,
+
+1338
+00:56:35,210 --> 00:56:37,210
+You can click on the phone icon right here.
+
+1339
+00:56:37,210 --> 00:56:38,990
+And just like that, the QR code appears.
+
+1340
+00:56:38,990 --> 00:56:41,190
+Next, we'll need to open our phone's camera.
+
+1341
+00:56:41,190 --> 00:56:42,410
+and scan this QR code.
+
+1342
+00:56:42,410 --> 00:56:45,930
+And that will take us to the Codex page on ChatGPT.
+
+1343
+00:56:45,930 --> 00:56:49,470
+And from here, we can start sending commands to the Codex on our computer.
+
+1344
+00:56:49,470 --> 00:56:51,810
+For example, let's say we want it to do something with our calendar.
+
+1345
+00:56:51,810 --> 00:56:52,910
+Do you remember what we did with the calendar earlier?
+
+1346
+00:56:52,910 --> 00:56:55,510
+created an event.
+
+1347
+00:56:55,510 --> 00:56:58,080
+Let's title it 'Discussing the Next Steps for Mark Notes Design'.
+
+1348
+00:56:58,080 --> 00:57:00,680
+Now, let's send another command from our phone.
+
+1349
+00:57:00,680 --> 00:57:02,160
+and have it remove this calendar event.
+
+1350
+00:57:02,160 --> 00:57:04,320
+Let's click on the chat.
+
+1351
+00:57:06,500 --> 00:57:09,460
+And then, we'll click here.
+
+1352
+00:57:09,460 --> 00:57:13,260
+Look for the 'Computer Use' option in there.
+
+1353
+00:57:14,419 --> 00:57:17,859
+Next, we need to type in our request.
+
+1354
+00:57:18,610 --> 00:57:23,190
+Our request is to take the event on May 28th in the calendar...
+
+1355
+00:57:23,190 --> 00:57:25,660
+delete the schedule for the Mark Notes discussion.
+
+1356
+00:57:25,660 --> 00:57:27,540
+Once it's written, don't rush to submit it just yet.
+
+1357
+00:57:27,540 --> 00:57:31,000
+Alright, as you can see, we're now in the MarkNote project directory.
+
+1358
+00:57:31,000 --> 00:57:32,120
+But our request actually has nothing to do with this project's...
+
+1359
+00:57:32,120 --> 00:57:34,320
+the code itself doesn't really have anything to do with it.
+
+1360
+00:57:34,320 --> 00:57:36,020
+We just want to work with the calendar app.
+
+1361
+00:57:36,020 --> 00:57:38,780
+So, we need to click on the settings button again.
+
+1362
+00:57:38,780 --> 00:57:42,060
+Then, we'll choose to not use a project.
+
+1363
+00:57:42,060 --> 00:57:43,620
+Alright, with that, everything's set.
+
+1364
+00:57:43,620 --> 00:57:45,700
+We submit the request.
+
+1365
+00:57:51,300 --> 00:57:51,940
+First, Codex asks for our permission to proceed.
+
+1366
+00:57:51,940 --> 00:57:54,900
+this calendar software.
+
+1367
+00:57:54,900 --> 00:57:56,500
+We'll grant it.
+
+1368
+00:57:58,220 --> 00:58:01,680
+Then, Codex asks us again if we're sure we want to delete this event.
+
+1369
+00:58:01,680 --> 00:58:03,460
+We'll confirm.
+
+1370
+00:58:06,560 --> 00:58:08,820
+And then Codex starts taking control of the computer.
+
+1371
+00:58:08,820 --> 00:58:11,160
+Let me show you what's happening on the computer.
+
+1372
+00:58:11,160 --> 00:58:13,580
+See? There's a mouse cursor on the calendar now.
+
+1373
+00:58:13,580 --> 00:58:16,680
+It's now controlling the computer to delete this calendar event.
+
+1374
+00:58:17,620 --> 00:58:19,100
+Alright, it's deleted.
+
+1375
+00:58:19,100 --> 00:58:23,279
+And just like that, we're controlling the computer with our phone.
+
+1376
+00:58:23,279 --> 00:58:24,919
+Pretty convenient, right?
+
+1377
+00:58:24,919 --> 00:58:27,119
+This way, you can use Codex even when you're on the go.
+
+1378
+00:58:27,119 --> 00:58:28,799
+to get all sorts of things done.
+
+1379
+00:58:28,799 --> 00:58:31,890
+Alright, and that's a wrap for this video.
+
+1380
+00:58:31,890 --> 00:58:32,770
+This is Mark, breaking down the most hardcore tech in the simplest terms.
+
+1381
+00:58:32,770 --> 00:58:35,190
+tech.
+
+1382
+00:58:35,190 --> 00:58:36,490
+See you in the next one.
+
+1383
+00:58:36,490 --> 00:58:37,160
+Bye-bye.
+

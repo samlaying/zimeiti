@@ -1,0 +1,960 @@
+1
+00:00:00,000 --> 00:00:01,320
+Challenge to do 100 things with AI
+
+2
+00:00:01,320 --> 00:00:02,140
+Episode 34
+
+3
+00:00:02,140 --> 00:00:04,900
+The all-in-one model in the photo editing world, Nano Banana
+
+4
+00:00:04,900 --> 00:00:06,640
+In this video, I have compiled eight major categories
+
+5
+00:00:06,640 --> 00:00:09,020
+a total of 80 use cases for the NANOBANA model
+
+6
+00:00:09,020 --> 00:00:11,280
+and packaged all their usage methods and prompt words
+
+7
+00:00:11,280 --> 00:00:12,540
+share for free with everyone
+
+8
+00:00:12,540 --> 00:00:13,740
+After watching this video
+
+9
+00:00:13,740 --> 00:00:15,900
+I believe you can grasp by analogy
+
+10
+00:00:15,900 --> 00:00:18,039
+all the applications of AI drawing in various industries
+
+11
+00:00:18,039 --> 00:00:19,179
+Let's get started
+
+12
+00:00:19,179 --> 00:00:21,480
+Let's start with the most basic usage: text-to-image generation
+
+13
+00:00:21,480 --> 00:00:24,300
+First, you need to open a platform that supports the NANOBANA model.
+
+14
+00:00:24,300 --> 00:00:25,810
+Here I recommend you use Love Art
+
+15
+00:00:25,810 --> 00:00:28,910
+Lab Art has completed full optimization of the Nano Banana model
+
+16
+00:00:28,910 --> 00:00:30,850
+For example, failure to generate images on other platforms
+
+17
+00:00:30,850 --> 00:00:32,689
+blurry or 400 error issues
+
+18
+00:00:32,689 --> 00:00:33,900
+have been perfectly resolved
+
+19
+00:00:33,900 --> 00:00:35,220
+Open the Love Art Home
+
+20
+00:00:35,220 --> 00:00:37,740
+Click on the language option in the upper right corner and change it to Chinese
+
+21
+00:00:37,740 --> 00:00:39,740
+Then click on 'New Project' in the lower left corner
+
+22
+00:00:39,740 --> 00:00:42,680
+Click on this smart agent block at the bottom of the dialog box on the new page
+
+23
+00:00:42,680 --> 00:00:44,140
+Select the Nano Banana model
+
+24
+00:00:44,140 --> 00:00:44,700
+Ok
+
+25
+00:00:44,700 --> 00:00:46,380
+Now all our subsequent operations
+
+26
+00:00:46,380 --> 00:00:48,460
+are all based on the Nano Banana model
+
+27
+00:00:48,460 --> 00:00:51,100
+The most basic text-to-image generation is also the simplest
+
+28
+00:00:51,100 --> 00:00:53,660
+As long as you can clearly describe the subject style of the image
+
+29
+00:00:53,660 --> 00:00:54,340
+lighting and composition
+
+30
+00:00:54,340 --> 00:00:56,460
+all the details, and you can create a great tattoo design
+
+31
+00:00:56,460 --> 00:01:00,240
+All of these, like this and this, are created through text-to-image generation.
+
+32
+00:01:00,240 --> 00:01:01,340
+As long as your imagination is sufficient
+
+33
+00:01:01,340 --> 00:01:01,880
+can speak
+
+34
+00:01:01,880 --> 00:01:04,480
+Isn't it very simple to use Nano Banana for AI drawing?
+
+35
+00:01:04,480 --> 00:01:06,830
+Next is the highlight beyond basics - image-to-image generation
+
+36
+00:01:06,830 --> 00:01:08,270
+The remaining video is quite lengthy
+
+37
+00:01:08,270 --> 00:01:09,990
+It is recommended to favorite it first and then watch it later
+
+38
+00:01:09,990 --> 00:01:10,830
+If you're in a hurry
+
+39
+00:01:10,830 --> 00:01:12,330
+I also created a timeline navigation for everyone
+
+40
+00:01:12,330 --> 00:01:14,780
+allows you to skip to sections of interest
+
+41
+00:01:14,780 --> 00:01:16,560
+Let's go through them one by one according to the categories.
+
+42
+00:01:16,560 --> 00:01:19,140
+The first category is what made Nano Banana most famous—character
+
+43
+00:01:19,140 --> 00:01:20,580
+IP derivative design category
+
+44
+00:01:20,580 --> 00:01:21,840
+upload an original Anime image
+
+45
+00:01:21,840 --> 00:01:22,640
+Enter the prompt
+
+46
+00:01:22,640 --> 00:01:25,180
+you can then transform this anime character into a highly detailed figurine
+
+47
+00:01:25,180 --> 00:01:26,110
+highly detailed figurine
+
+48
+00:01:26,110 --> 00:01:27,310
+You can also add a hanging ring to it
+
+49
+00:01:27,310 --> 00:01:28,030
+make it into a keychain
+
+50
+00:01:28,030 --> 00:01:29,190
+then add some accessories
+
+51
+00:01:29,190 --> 00:01:30,020
+packaging
+
+52
+00:01:30,020 --> 00:01:31,400
+or even more abstractly
+
+53
+00:01:31,400 --> 00:01:32,600
+made into Russian nesting dolls
+
+54
+00:01:32,600 --> 00:01:34,160
+Anime character restoration is well done
+
+55
+00:01:34,160 --> 00:01:36,500
+What about real-world characters? They are no exception.
+
+56
+00:01:36,500 --> 00:01:38,840
+Look at the character extracted from this scene
+
+57
+00:01:38,840 --> 00:01:40,080
+also made into a figurine
+
+58
+00:01:40,080 --> 00:01:41,550
+It can also be placed on your desk.
+
+59
+00:01:41,550 --> 00:01:42,750
+You can also make some extensions
+
+60
+00:01:42,750 --> 00:01:44,490
+pose this figurine in different stances
+
+61
+00:01:44,490 --> 00:01:45,650
+or create some derivative products
+
+62
+00:01:45,650 --> 00:01:47,270
+such as chibi-style backpack charms
+
+63
+00:01:47,270 --> 00:01:47,870
+As you can see
+
+64
+00:01:47,870 --> 00:01:49,950
+whether it's characters from the 2D world or real-life individuals
+
+65
+00:01:49,950 --> 00:01:51,290
+can all be easily handled
+
+66
+00:01:51,290 --> 00:01:54,590
+What about animals and other objects? That works too.
+
+67
+00:01:54,590 --> 00:01:56,610
+
+
+68
+00:01:56,610 --> 00:01:58,790
+Design this dragon fruit into a Pokémon as well
+
+69
+00:01:58,790 --> 00:02:01,290
+Then package them into blind boxes and put them on the shelves
+
+70
+00:02:01,290 --> 00:02:02,210
+Is that all
+
+71
+00:02:02,210 --> 00:02:02,960
+Not really
+
+72
+00:02:02,960 --> 00:02:05,140
+I can even make this original Pokémon character
+
+73
+00:02:05,140 --> 00:02:06,440
+undergo three evolutions
+
+74
+00:02:06,440 --> 00:02:07,820
+and expand his worldview
+
+75
+00:02:07,820 --> 00:02:09,539
+and then assemble a new set of blind box toys
+
+76
+00:02:09,539 --> 00:02:11,110
+How about putting it on the shelf
+
+77
+00:02:11,110 --> 00:02:14,410
+Next, let's look at the second major category: style transformation and artistic creation
+
+78
+00:02:14,410 --> 00:02:16,230
+This is a drawing by a kindergarten child.
+
+79
+00:02:16,230 --> 00:02:17,650
+This is a masterpiece draft by a skilled artist
+
+80
+00:02:17,650 --> 00:02:20,480
+Easily add colors with Nano Banana to complete it effortlessly
+
+81
+00:02:20,480 --> 00:02:21,860
+Guess who this is
+
+82
+00:02:21,860 --> 00:02:22,580
+Gravel ground
+
+83
+00:02:22,580 --> 00:02:24,040
+and the Anime's gravel ground
+
+84
+00:02:24,040 --> 00:02:25,280
+Gravel land under the starry sky
+
+85
+00:02:25,280 --> 00:02:26,480
+sand and stone in the game console
+
+86
+00:02:26,480 --> 00:02:27,500
+sandy terrain in travel
+
+87
+00:02:27,500 --> 00:02:28,980
+double-exposed sandy ground
+
+88
+00:02:28,980 --> 00:02:30,360
+stainless steel sand and gravel ground
+
+89
+00:02:30,360 --> 00:02:32,720
+You can also integrate the sandy terrain into various other scenarios
+
+90
+00:02:32,720 --> 00:02:33,580
+made into fridge magnets
+
+91
+00:02:33,580 --> 00:02:34,520
+Stick it on the refrigerator
+
+92
+00:02:34,520 --> 00:02:36,580
+You can even take Sha Wujing to a studio
+
+93
+00:02:36,580 --> 00:02:37,960
+take a set of personal portraits
+
+94
+00:02:37,960 --> 00:02:40,040
+The third category: scenarios and Space design
+
+95
+00:02:40,040 --> 00:02:41,560
+Look, this is the most common
+
+96
+00:02:41,560 --> 00:02:43,530
+a casually taken photo at a bare construction site
+
+97
+00:02:43,530 --> 00:02:46,090
+I can have Nano Banana repaint the walls for me
+
+98
+00:02:46,090 --> 00:02:46,950
+laying the floor
+
+99
+00:02:46,950 --> 00:02:48,130
+then arrange the furniture
+
+100
+00:02:48,130 --> 00:02:50,570
+You can also review it from a different perspective.
+
+101
+00:02:50,570 --> 00:02:52,410
+This is a casually photographed church
+
+102
+00:02:52,410 --> 00:02:53,890
+First, remove the passersby from the scene
+
+103
+00:02:53,890 --> 00:02:55,870
+Replace the chair on the left with a pine tree
+
+104
+00:02:55,870 --> 00:02:57,390
+Then let this church go through
+
+105
+00:02:57,390 --> 00:03:01,550
+autumn, winter, spring, summer, and then take a look at the summer mornings
+
+106
+00:03:01,550 --> 00:03:02,910
+dusk and night
+
+107
+00:03:02,910 --> 00:03:04,010
+seen from the side too much
+
+108
+00:03:04,010 --> 00:03:05,350
+Now let's look at the front of the church
+
+109
+00:03:05,350 --> 00:03:07,350
+You can also stretch the image a bit
+
+110
+00:03:07,350 --> 00:03:08,190
+fly up to the sky
+
+111
+00:03:08,190 --> 00:03:08,710
+Let's take another look
+
+112
+00:03:08,710 --> 00:03:10,270
+Besides these buildings and renovations
+
+113
+00:03:10,270 --> 00:03:12,050
+Actually, it can also be used in your own home
+
+114
+00:03:12,050 --> 00:03:13,720
+Help me clean up this living room
+
+115
+00:03:13,720 --> 00:03:16,160
+Help me restore this moldy orange to freshness
+
+116
+00:03:16,160 --> 00:03:17,740
+Help me finish the braised pork rice in front of me
+
+117
+00:03:17,740 --> 00:03:20,160
+Look, there are still some colored grains of rice left.
+
+118
+00:03:20,160 --> 00:03:22,480
+and even added a used napkin
+
+119
+00:03:22,480 --> 00:03:23,440
+It's time to pay after the meal
+
+120
+00:03:23,440 --> 00:03:24,340
+Insufficient balance
+
+121
+00:03:24,340 --> 00:03:27,120
+Change the balance in my account to 100 million
+
+122
+00:03:27,120 --> 00:03:28,660
+The fourth major highlight is here
+
+123
+00:03:28,660 --> 00:03:30,140
+E-commerce and visual design
+
+124
+00:03:30,140 --> 00:03:32,580
+The most commonly used ones are product posters
+
+125
+00:03:32,580 --> 00:03:34,130
+Another one is model outfit changes
+
+126
+00:03:34,130 --> 00:03:36,690
+When using the NANOBANA model in lab art
+
+127
+00:03:36,690 --> 00:03:39,320
+In fact, you can click the plus sign to upload multiple images.
+
+128
+00:03:39,320 --> 00:03:41,440
+Look, this is a rather ordinary product
+
+129
+00:03:41,440 --> 00:03:43,520
+upload another Chanel perfume poster
+
+130
+00:03:43,520 --> 00:03:45,580
+we can generate a new version of our product
+
+131
+00:03:45,580 --> 00:03:47,630
+a new poster inspired by the Chanel advertisement
+
+132
+00:03:47,630 --> 00:03:49,310
+This is a plain-colored T-shirt
+
+133
+00:03:49,310 --> 00:03:51,470
+This is a T-shirt printed with my logo.
+
+134
+00:03:51,470 --> 00:03:52,570
+
+
+135
+00:03:52,570 --> 00:03:54,810
+We can first use prompts to directly generate a character
+
+136
+00:03:54,810 --> 00:03:56,630
+
+
+137
+00:03:56,630 --> 00:03:58,050
+then find another reference
+
+138
+00:03:58,050 --> 00:04:00,450
+directly generate a new e-commerce cover
+
+139
+00:04:00,450 --> 00:04:02,650
+You can even bring your own product over
+
+140
+00:04:02,650 --> 00:04:04,830
+generate a detail-deconstructed display image with one click
+
+141
+00:04:04,830 --> 00:04:05,490
+In addition
+
+142
+00:04:05,490 --> 00:04:07,360
+If you like the style of this poster
+
+143
+00:04:07,360 --> 00:04:08,820
+like the font of this text
+
+144
+00:04:08,820 --> 00:04:10,360
+also want to add your own product
+
+145
+00:04:10,360 --> 00:04:12,560
+then you can blend these three images together
+
+146
+00:04:12,560 --> 00:04:14,120
+generate a new result
+
+147
+00:04:14,120 --> 00:04:15,360
+After viewing the product poster
+
+148
+00:04:15,360 --> 00:04:16,399
+looking at model outfit changes
+
+149
+00:04:16,399 --> 00:04:17,399
+That's easy
+
+150
+00:04:17,399 --> 00:04:19,140
+you just upload your own model
+
+151
+00:04:19,140 --> 00:04:21,250
+Then hand over the outfit coordination to it
+
+152
+00:04:21,250 --> 00:04:23,250
+The clothes are effortlessly fitted onto the model.
+
+153
+00:04:23,250 --> 00:04:24,870
+Changing to another outfit is also no problem
+
+154
+00:04:24,870 --> 00:04:27,690
+Of course, if you want to keep the environment unchanged, that's also possible.
+
+155
+00:04:27,690 --> 00:04:28,690
+Change to another set
+
+156
+00:04:28,690 --> 00:04:30,530
+Then we can also base it on the existing outfit combinations
+
+157
+00:04:30,530 --> 00:04:32,980
+have the model change into different poses for photos
+
+158
+00:04:32,980 --> 00:04:33,780
+remove the background
+
+159
+00:04:33,780 --> 00:04:34,860
+generate a new poster
+
+160
+00:04:34,860 --> 00:04:37,100
+or have the four of them take a group photo together
+
+161
+00:04:37,100 --> 00:04:37,820
+Category 5
+
+162
+00:04:37,820 --> 00:04:39,580
+Photo Restoration and Portrait Enhancement
+
+163
+00:04:39,580 --> 00:04:41,460
+This category is even more practical.
+
+164
+00:04:41,460 --> 00:04:43,320
+First and foremost is the restoration of old photos
+
+165
+00:04:43,320 --> 00:04:45,120
+You see, whether it's cracks or blurriness
+
+166
+00:04:45,120 --> 00:04:45,940
+wrinkles and fading
+
+167
+00:04:45,940 --> 00:04:47,000
+All can be repaired
+
+168
+00:04:47,000 --> 00:04:49,020
+And those blurry expressions on your phone
+
+169
+00:04:49,020 --> 00:04:51,060
+Even distorted waste photos can be fixed for you
+
+170
+00:04:51,060 --> 00:04:52,940
+
+
+171
+00:04:52,940 --> 00:04:53,380
+angle
+
+172
+00:04:53,380 --> 00:04:54,300
+awkward poses
+
+173
+00:04:54,300 --> 00:04:55,760
+Fix the weird ones
+
+174
+00:04:55,760 --> 00:04:56,820
+As for removing passersby
+
+175
+00:04:56,820 --> 00:04:58,220
+That's basic operation.
+
+176
+00:04:58,220 --> 00:05:00,890
+You can also achieve full-body slimming with just one click.
+
+177
+00:05:00,890 --> 00:05:02,710
+even for someone like Liangzi with a big suspender
+
+178
+00:05:02,710 --> 00:05:03,790
+can also slim him down
+
+179
+00:05:03,790 --> 00:05:05,780
+Take a photo and make a set of ID photos for you
+
+180
+00:05:05,780 --> 00:05:06,880
+travel through a parallel universe
+
+181
+00:05:06,880 --> 00:05:08,240
+or take a photo with a celebrity
+
+182
+00:05:08,240 --> 00:05:09,680
+can also strike different poses
+
+183
+00:05:09,680 --> 00:05:10,860
+all depends on your imagination
+
+184
+00:05:10,860 --> 00:05:11,440
+Category 6
+
+185
+00:05:11,440 --> 00:05:12,980
+Film & TV and Anime related
+
+186
+00:05:12,980 --> 00:05:14,520
+First and foremost, the most valuable aspect is
+
+187
+00:05:14,520 --> 00:05:15,720
+You can use text descriptions
+
+188
+00:05:15,720 --> 00:05:17,720
+to help you draft the storyboard for your video
+
+189
+00:05:17,720 --> 00:05:19,980
+Then you can directly use this storyboard draft
+
+190
+00:05:19,980 --> 00:05:21,480
+apply a character you specify
+
+191
+00:05:21,480 --> 00:05:23,440
+directly produce the storyboard you envision
+
+192
+00:05:23,440 --> 00:05:25,680
+and even connect it into a video
+
+193
+00:05:26,450 --> 00:05:28,210
+or take an existing photo
+
+194
+00:05:28,210 --> 00:05:30,550
+convert to different camera angles and various shot sizes
+
+195
+00:05:30,550 --> 00:05:32,610
+Of course, if you have an existing character IP
+
+196
+00:05:32,610 --> 00:05:34,890
+You can also use it to directly generate several story shots
+
+197
+00:05:34,890 --> 00:05:36,980
+then connecting them into a video works quite well
+
+198
+00:05:36,980 --> 00:05:38,640
+For an Anime character
+
+199
+00:05:38,640 --> 00:05:41,400
+You can directly design it as a pixel-style game character
+
+200
+00:05:41,400 --> 00:05:44,480
+or have him step out of the UGC Anime and take a photo with the Shanghai Bund
+
+201
+00:05:44,480 --> 00:05:46,980
+You can also bring your favorite anime characters into reality
+
+202
+00:05:46,980 --> 00:05:48,940
+directly generate their real-life cosplay
+
+203
+00:05:48,940 --> 00:05:50,680
+and their OOTD
+
+204
+00:05:50,680 --> 00:05:54,220
+Conversely, you can also bring your favorite real-life characters into Anime
+
+205
+00:05:54,220 --> 00:05:55,880
+and then generate its four-panel Comics
+
+206
+00:05:55,880 --> 00:05:58,020
+The seventh category: information and computation
+
+207
+00:05:58,020 --> 00:05:59,420
+You can use it to solve problems
+
+208
+00:06:00,500 --> 00:06:01,700
+Summarize an article
+
+209
+00:06:01,700 --> 00:06:03,340
+process data and generate charts
+
+210
+00:06:03,340 --> 00:06:04,460
+Create molecular mechanisms
+
+211
+00:06:04,460 --> 00:06:06,430
+Create a 3D heatmap
+
+212
+00:06:06,430 --> 00:06:07,710
+generate spatiotemporal maps
+
+213
+00:06:07,710 --> 00:06:09,190
+generate 3D schematic diagram
+
+214
+00:06:09,190 --> 00:06:11,270
+Create a mind map based on meeting minutes
+
+215
+00:06:11,270 --> 00:06:12,460
+create personal business cards
+
+216
+00:06:12,460 --> 00:06:14,560
+No matter what kind of large chunks of information
+
+217
+00:06:14,560 --> 00:06:15,760
+you give it to Duo Banana
+
+218
+00:06:15,760 --> 00:06:17,780
+it can provide feedback according to your needs
+
+219
+00:06:17,780 --> 00:06:19,060
+a suitable result
+
+220
+00:06:19,060 --> 00:06:21,260
+The last category involves some fun content
+
+221
+00:06:21,260 --> 00:06:22,860
+For example, building a city with LEGO
+
+222
+00:06:22,860 --> 00:06:23,840
+design a keycap
+
+223
+00:06:23,840 --> 00:06:25,320
+spoof a Film & TV scene
+
+224
+00:06:25,320 --> 00:06:27,060
+add a VR system to your car
+
+225
+00:06:27,060 --> 00:06:28,400
+Create an ancient treasure map
+
+226
+00:06:28,400 --> 00:06:29,720
+turn fruits into glass
+
+227
+00:06:29,720 --> 00:06:30,920
+and Liangzi
+
+228
+00:06:30,920 --> 00:06:32,120
+find a wife for Liangzi
+
+229
+00:06:32,120 --> 00:06:33,620
+Deconstruct Liangzi's big suspenders
+
+230
+00:06:33,620 --> 00:06:34,780
+Turn Liangzi into a badge
+
+231
+00:06:34,780 --> 00:06:37,410
+Next, let's create a 3D model of Liangzi.
+
+232
+00:06:37,410 --> 00:06:38,330
+That's all for this video
+
+233
+00:06:38,330 --> 00:06:40,330
+I have summarized all the above usage methods
+
+234
+00:06:40,330 --> 00:06:41,090
+
+
+235
+00:06:41,090 --> 00:06:42,110
+
+
+236
+00:06:42,110 --> 00:06:43,400
+share for free with everyone
+
+237
+00:06:43,400 --> 00:06:44,560
+If you also like my video
+
+238
+00:06:44,560 --> 00:06:45,660
+Remember to like, follow, and favorite
+
+239
+00:06:45,660 --> 00:06:46,500
+I'm Bob, your classmate.
+
+240
+00:06:46,500 --> 00:06:47,760
+See you in the next episode
+

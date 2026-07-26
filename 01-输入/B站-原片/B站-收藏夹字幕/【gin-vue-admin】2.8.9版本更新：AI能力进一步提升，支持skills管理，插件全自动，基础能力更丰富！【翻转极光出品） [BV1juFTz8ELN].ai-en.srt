@@ -1,0 +1,1156 @@
+1
+00:00:00,460 --> 00:00:00,740
+Hello
+
+2
+00:00:00,740 --> 00:00:01,060
+Hello everyone
+
+3
+00:00:01,060 --> 00:00:02,240
+I'm Qimiao, uh
+
+4
+00:00:02,240 --> 00:00:04,540
+In this episode, let's introduce GVA
+
+5
+00:00:04,540 --> 00:00:06,700
+the updates in version 2.8.9
+
+6
+00:00:06,700 --> 00:00:08,080
+Updates in version 2.8.9
+
+7
+00:00:08,080 --> 00:00:09,440
+Let's take a brief look first
+
+8
+00:00:09,440 --> 00:00:11,480
+The first improvement is the optimization of the AI experience
+
+9
+00:00:11,480 --> 00:00:12,890
+Adjusted AI usage methods
+
+10
+00:00:12,890 --> 00:00:15,490
+This adjustment was actually made in the backend.
+
+11
+00:00:15,490 --> 00:00:19,090
+I reduced the mutual calls between AI microservices.
+
+12
+00:00:19,090 --> 00:00:22,579
+accelerated the overall AI process
+
+13
+00:00:22,579 --> 00:00:22,939
+Uh
+
+14
+00:00:22,939 --> 00:00:23,859
+in your usage
+
+15
+00:00:23,859 --> 00:00:26,579
+Actually, there's no need for any significant adjustments
+
+16
+00:00:26,579 --> 00:00:30,240
+Mainly, I've made some changes in the backend.
+
+17
+00:00:30,240 --> 00:00:32,380
+Then there's the AI Pass, um
+
+18
+00:00:32,380 --> 00:00:35,020
+Previously, the AI pass in the plugin marketplace required an application.
+
+19
+00:00:35,020 --> 00:00:38,550
+Now in version 2.8.9, there is a new AI pass called AIRPODS
+
+20
+00:00:38,550 --> 00:00:40,890
+It will be automatically provided to you when you enter the page
+
+21
+00:00:40,890 --> 00:00:41,750
+No need to apply anymore
+
+22
+00:00:41,750 --> 00:00:42,110
+Um
+
+23
+00:00:42,110 --> 00:00:45,420
+In subsequent version 2.8.9, you'll need to use the new AI Pass.
+
+24
+00:00:45,420 --> 00:00:46,660
+You can just make the changes yourself.
+
+25
+00:00:46,660 --> 00:00:48,100
+This is the fast one
+
+26
+00:00:48,100 --> 00:00:49,880
+The fast old one can still be used.
+
+27
+00:00:49,880 --> 00:00:50,980
+Versions before 2.8.9 can also be used
+
+28
+00:00:50,980 --> 00:00:53,120
+but it's the slower AI, okay
+
+29
+00:00:53,120 --> 00:00:58,190
+These are things that everyone gradually experiences
+
+30
+00:00:58,190 --> 00:00:59,670
+It won't have a real impact
+
+31
+00:00:59,670 --> 00:01:02,269
+The third is the 2.5 version of the plugin
+
+32
+00:01:02,269 --> 00:01:04,589
+Plugins now support automatic installation
+
+33
+00:01:04,589 --> 00:01:05,309
+deleted
+
+34
+00:01:05,309 --> 00:01:07,220
+You can also see all the things installed by the plugin.
+
+35
+00:01:07,220 --> 00:01:08,880
+Then the V2 version of the plugin
+
+36
+00:01:08,880 --> 00:01:12,080
+just need a single sentence to confirm
+
+37
+00:01:12,080 --> 00:01:13,180
+Upgrade to version 2.5
+
+38
+00:01:13,180 --> 00:01:15,550
+Plugin authors need to, uh, upgrade this
+
+39
+00:01:15,550 --> 00:01:18,960
+and uh then then that that that uh
+
+40
+00:01:18,960 --> 00:01:20,280
+We'll show you one in a moment
+
+41
+00:01:20,280 --> 00:01:21,800
+a demonstration of the V2.5 plugin
+
+42
+00:01:21,800 --> 00:01:23,120
+Now there's no need to add any code either
+
+43
+00:01:23,120 --> 00:01:24,520
+Just need to put the zip file in
+
+44
+00:01:24,520 --> 00:01:25,920
+Simply install it and it's ready to use
+
+45
+00:01:25,920 --> 00:01:27,120
+No need to add another line yourself
+
+46
+00:01:27,120 --> 00:01:29,200
+things like comments or anything like that
+
+47
+00:01:29,200 --> 00:01:30,360
+Another feature that has been added is
+
+48
+00:01:30,360 --> 00:01:31,120
+login log feature
+
+49
+00:01:31,120 --> 00:01:33,040
+Another one is the API call token issuance.
+
+50
+00:01:33,040 --> 00:01:34,800
+this token template thing
+
+51
+00:01:34,800 --> 00:01:38,850
+This makes it convenient for everyone to use it to develop backend APIs
+
+52
+00:01:38,850 --> 00:01:40,930
+and then expose it for others to use
+
+53
+00:01:40,930 --> 00:01:43,659
+Then, the template has added a tag validation
+
+54
+00:01:43,659 --> 00:01:48,240
+Often, some friends would on the page, uh,
+
+55
+00:01:48,240 --> 00:01:49,000
+on the page
+
+56
+00:01:49,000 --> 00:01:51,619
+then click on that tag
+
+57
+00:01:51,619 --> 00:01:52,659
+clicking and suddenly turning white
+
+58
+00:01:52,659 --> 00:01:53,419
+No idea what's going on.
+
+59
+00:01:53,419 --> 00:01:56,400
+Actually, it's because there are multiple DOMs under this template
+
+60
+00:01:56,400 --> 00:01:59,160
+resulting in the failure of the VOE UGC Anime function
+
+61
+00:01:59,160 --> 00:02:01,519
+So we've added a check
+
+62
+00:02:01,519 --> 00:02:02,339
+when it fails
+
+63
+00:02:02,339 --> 00:02:04,499
+a pop-up alert will appear to inform you
+
+64
+00:02:04,499 --> 00:02:06,010
+Make this change and it'll be good
+
+65
+00:02:06,010 --> 00:02:07,690
+Another one is skills management.
+
+66
+00:02:07,690 --> 00:02:12,430
+Our GVA must always keep up with the development of AI
+
+67
+00:02:12,430 --> 00:02:14,500
+to enhance our capabilities
+
+68
+00:02:14,500 --> 00:02:18,359
+We are always committed to developing for AI.
+
+69
+00:02:18,359 --> 00:02:21,899
+To create the framework that understands AI best and is best understood by AI, haha, good.
+
+70
+00:02:21,899 --> 00:02:24,059
+So this is a brief overview
+
+71
+00:02:24,059 --> 00:02:26,619
+Now let's officially take a look at a few features.
+
+72
+00:02:26,619 --> 00:02:27,659
+Let's skip these two
+
+73
+00:02:27,659 --> 00:02:28,459
+we won't demonstrate that
+
+74
+00:02:28,459 --> 00:02:30,730
+Now let's take a look at this 2.5 version
+
+75
+00:02:30,730 --> 00:02:33,090
+Now, our plugin system's plugin
+
+76
+00:02:33,090 --> 00:02:37,210
+At the bottom of the installation page, you can see which plugins we've installed.
+
+77
+00:02:37,210 --> 00:02:38,760
+For example, this one, right?
+
+78
+00:02:38,760 --> 00:02:42,219
+Uh, that is... Which plugin is this again?
+
+79
+00:02:42,219 --> 00:02:43,899
+This is that demo plugin of ours.
+
+80
+00:02:43,899 --> 00:02:46,179
+that is, with the email plugin
+
+81
+00:02:46,179 --> 00:02:48,440
+that that that that that that
+
+82
+00:02:48,440 --> 00:02:50,000
+This small functional plugin, right?
+
+83
+00:02:50,000 --> 00:02:50,840
+Which one is site-wide
+
+84
+00:02:50,840 --> 00:02:51,660
+Which one is the backend?
+
+85
+00:02:51,660 --> 00:02:53,700
+Let's first demonstrate the uninstallation of the plugin
+
+86
+00:02:53,700 --> 00:02:56,720
+Let's take a look at the backend
+
+87
+00:02:56,720 --> 00:02:58,880
+There is a plugin here
+
+88
+00:02:58,880 --> 00:03:02,100
+Now we are on the plugin installation page
+
+89
+00:03:02,100 --> 00:03:02,740
+The frontend also has it
+
+90
+00:03:02,740 --> 00:03:07,120
+The front end also needs to check, there's also this, uh,
+
+91
+00:03:07,120 --> 00:03:09,760
+in the plugin ping
+
+92
+00:03:09,760 --> 00:03:11,540
+There's also this plugin, right?
+
+93
+00:03:11,540 --> 00:03:13,580
+Then we now click delete
+
+94
+00:03:13,580 --> 00:03:15,040
+get rid of it
+
+95
+00:03:15,040 --> 00:03:15,760
+after that
+
+96
+00:03:15,760 --> 00:03:16,480
+It's gone now.
+
+97
+00:03:16,480 --> 00:03:17,860
+The frontend will also be removed
+
+98
+00:03:17,860 --> 00:03:19,520
+This backend plugin will also be removed
+
+99
+00:03:19,520 --> 00:03:20,280
+It will be done automatically
+
+100
+00:03:20,280 --> 00:03:22,260
+and there's an injection in here that will be gone
+
+101
+00:03:22,260 --> 00:03:22,940
+will be gone
+
+102
+00:03:22,940 --> 00:03:25,679
+Next, we will demonstrate the plugin installation.
+
+103
+00:03:25,679 --> 00:03:26,479
+During installation
+
+104
+00:03:26,479 --> 00:03:27,279
+Let's restart now
+
+105
+00:03:27,279 --> 00:03:28,530
+Let's restart first
+
+106
+00:03:28,530 --> 00:03:29,810
+After the restart
+
+107
+00:03:29,810 --> 00:03:33,050
+You can see the announcement management of our previous plugin system
+
+108
+00:03:33,050 --> 00:03:34,200
+This is already gone
+
+109
+00:03:34,200 --> 00:03:34,600
+See
+
+110
+00:03:34,600 --> 00:03:35,360
+The external one is no longer there
+
+111
+00:03:35,360 --> 00:03:36,520
+Because the menu was not entered
+
+112
+00:03:36,520 --> 00:03:37,800
+So you can still see one here
+
+113
+00:03:37,800 --> 00:03:41,280
+Now we just need to install it
+
+114
+00:03:47,360 --> 00:03:48,540
+Just drag it over
+
+115
+00:03:48,540 --> 00:03:50,520
+Just drag it over from here
+
+116
+00:03:51,260 --> 00:03:52,940
+Ah, in this way it's installed.
+
+117
+00:03:52,940 --> 00:03:55,580
+After installation, you can see the backend is the backend
+
+118
+00:03:55,580 --> 00:03:57,140
+It will be automatically installed for you here.
+
+119
+00:03:57,140 --> 00:03:59,420
+Then the plugin will be automatically registered here
+
+120
+00:03:59,420 --> 00:04:01,620
+We no longer need to do this manually.
+
+121
+00:04:01,620 --> 00:04:03,140
+Now you just need to update it
+
+122
+00:04:03,140 --> 00:04:04,640
+update the backend
+
+123
+00:04:04,640 --> 00:04:06,700
+You'll notice that our previous
+
+124
+00:04:06,700 --> 00:04:08,200
+The installed content is back again.
+
+125
+00:04:08,200 --> 00:04:09,960
+This is our 2.5 version plugin
+
+126
+00:04:09,960 --> 00:04:12,550
+Finally, there's no need to add that line of code anymore.
+
+127
+00:04:12,550 --> 00:04:13,970
+Ah, I was just being lazy back then.
+
+128
+00:04:13,970 --> 00:04:15,750
+It's also because I was lazy.
+
+129
+00:04:15,750 --> 00:04:19,130
+You see, now we have the API paths listed, right?
+
+130
+00:04:19,130 --> 00:04:21,970
+Then we have how many menus, right
+
+131
+00:04:21,970 --> 00:04:24,570
+How many of these functional things are there?
+
+132
+00:04:24,570 --> 00:04:26,409
+will all be listed uh
+
+133
+00:04:26,409 --> 00:04:28,169
+This is the original page.
+
+134
+00:04:28,169 --> 00:04:30,009
+Here this is the Home page
+
+135
+00:04:30,009 --> 00:04:33,040
+This plugin is a built-in demo plugin for the system
+
+136
+00:04:33,040 --> 00:04:35,940
+So it has some slight differences compared to regular plugins.
+
+137
+00:04:35,940 --> 00:04:37,280
+so just ignore it
+
+138
+00:04:37,280 --> 00:04:41,030
+Your experience during actual usage will be just as good as what you saw earlier
+
+139
+00:04:41,030 --> 00:04:44,370
+Next, let's take a look at the login log feature
+
+140
+00:04:44,370 --> 00:04:46,770
+The demonstration of this feature is actually quite straightforward.
+
+141
+00:04:46,770 --> 00:04:50,970
+The login log is actually a capability that was previously lacking.
+
+142
+00:04:50,970 --> 00:04:52,610
+It's just been added now.
+
+143
+00:04:52,610 --> 00:04:55,070
+There is a login log in our system tools
+
+144
+00:04:55,070 --> 00:04:57,440
+Here's every single login record, right?
+
+145
+00:04:57,440 --> 00:05:00,480
+All this device information and stuff will be recorded.
+
+146
+00:05:00,480 --> 00:05:07,090
+Then there's our API token issuance
+
+147
+00:05:07,090 --> 00:05:08,090
+Previously,
+
+148
+00:05:08,090 --> 00:05:10,690
+this API token
+
+149
+00:05:10,690 --> 00:05:11,830
+this position
+
+150
+00:05:11,830 --> 00:05:16,719
+Some friends mentioned that they want to share an API with others
+
+151
+00:05:16,719 --> 00:05:19,040
+expose a segment of our API
+
+152
+00:05:19,040 --> 00:05:21,520
+However, they don't want to show them the backend for login
+
+153
+00:05:21,520 --> 00:05:23,240
+So this is where you can issue it
+
+154
+00:05:23,240 --> 00:05:25,020
+Select a user when issuing
+
+155
+00:05:25,020 --> 00:05:28,470
+Just select the corresponding role and issue it for them.
+
+156
+00:05:28,470 --> 00:05:29,910
+After signing, there will be a token.
+
+157
+00:05:29,910 --> 00:05:30,790
+Take note of it yourselves
+
+158
+00:05:30,790 --> 00:05:32,550
+Actually, it's not a big deal if you don't jot this down here
+
+159
+00:05:32,550 --> 00:05:34,169
+because we also have a CRUD demonstration
+
+160
+00:05:34,169 --> 00:05:35,169
+in the demo of cod
+
+161
+00:05:35,169 --> 00:05:37,569
+you can put this token in the header
+
+162
+00:05:37,569 --> 00:05:41,169
+or put this token in the cookie
+
+163
+00:05:41,169 --> 00:05:41,529
+both are acceptable
+
+164
+00:05:41,529 --> 00:05:43,330
+Both methods are stored for you
+
+165
+00:05:43,330 --> 00:05:47,270
+You can take them and use them directly for the clients
+
+166
+00:05:47,270 --> 00:05:48,510
+The client will know how to use it
+
+167
+00:05:48,510 --> 00:05:52,060
+Okay, this is the API demonstration feature.
+
+168
+00:05:52,060 --> 00:05:55,120
+Another feature is the single DOM detection under the template
+
+169
+00:05:55,120 --> 00:05:56,580
+Let me demonstrate this for you.
+
+170
+00:05:56,580 --> 00:05:57,660
+Let's say
+
+171
+00:05:57,660 --> 00:06:00,320
+Let's take the plugin we just installed as an example.
+
+172
+00:06:00,320 --> 00:06:02,540
+Suppose you can see there is a DOM here, right?
+
+173
+00:06:02,540 --> 00:06:03,560
+there is a div
+
+174
+00:06:03,560 --> 00:06:05,350
+Now let's add another div
+
+175
+00:06:05,350 --> 00:06:09,960
+Add another div1122 under the template
+
+176
+00:06:09,960 --> 00:06:11,780
+Now save and return to the page
+
+177
+00:06:11,780 --> 00:06:12,660
+you will find that
+
+178
+00:06:12,660 --> 00:06:14,310
+we refresh and uh
+
+179
+00:06:14,310 --> 00:06:19,070
+Enter the previously developed page
+
+180
+00:06:22,900 --> 00:06:25,769
+Hey, look, it will tell you
+
+181
+00:06:25,769 --> 00:06:29,129
+it says there are multiple root nodes here
+
+182
+00:06:29,129 --> 00:06:31,799
+and then tell you how to fix it
+
+183
+00:06:31,799 --> 00:06:33,159
+Hey why is that
+
+184
+00:06:33,159 --> 00:06:34,719
+Because in the case of multiple root nodes
+
+185
+00:06:34,719 --> 00:06:35,559
+We are not fixing it now
+
+186
+00:06:35,559 --> 00:06:38,239
+Look, I jump and the screen goes blank, right?
+
+187
+00:06:38,239 --> 00:06:41,410
+This is the most, most, most important reason for it.
+
+188
+00:06:41,410 --> 00:06:42,890
+So now when we enter the page
+
+189
+00:06:42,890 --> 00:06:44,090
+will perform a check
+
+190
+00:06:44,090 --> 00:06:45,170
+After the detection is completed
+
+191
+00:06:45,170 --> 00:06:46,210
+just give it a
+
+192
+00:06:46,210 --> 00:06:47,850
+After you come back, follow this prompt
+
+193
+00:06:47,850 --> 00:06:48,430
+delete it
+
+194
+00:06:48,430 --> 00:06:50,130
+After deleting it, this prompt won't appear anymore, right?
+
+195
+00:06:50,130 --> 00:06:51,010
+This prompt will no longer appear
+
+196
+00:06:51,010 --> 00:06:52,720
+Then the previous white screen issue won't occur either
+
+197
+00:06:52,720 --> 00:06:56,320
+This is to prevent everyone from making such incorrect coding behaviors.
+
+198
+00:06:56,320 --> 00:06:59,700
+Okay, another final and quite significant one.
+
+199
+00:06:59,700 --> 00:07:01,990
+Well, actually this is not very
+
+200
+00:07:01,990 --> 00:07:05,030
+It's not that I've provided you with some capabilities
+
+201
+00:07:05,030 --> 00:07:07,550
+This is a capability I've opened up called skills management
+
+202
+00:07:07,550 --> 00:07:11,630
+Now skills have become an essential part of AI development
+
+203
+00:07:11,630 --> 00:07:12,910
+a necessary step
+
+204
+00:07:12,910 --> 00:07:14,650
+So we can do a good job here
+
+205
+00:07:14,650 --> 00:07:15,950
+some global constraints of scales
+
+206
+00:07:15,950 --> 00:07:17,560
+For example, in this constraint here
+
+207
+00:07:17,560 --> 00:07:19,720
+The Go diagram will ultimately interact with JS's Qisen
+
+208
+00:07:19,720 --> 00:07:21,800
+Just write this to supplement the unified constraints and specifications of the tool, right?
+
+209
+00:07:21,800 --> 00:07:22,840
+We can just save it directly
+
+210
+00:07:22,840 --> 00:07:23,720
+After saving
+
+211
+00:07:23,720 --> 00:07:25,150
+After synchronization is complete
+
+212
+00:07:25,150 --> 00:07:27,350
+You'll find that I'll help you
+
+213
+00:07:27,350 --> 00:07:31,140
+I will help you under the main body of GVA
+
+214
+00:07:31,140 --> 00:07:33,040
+I'll open a new window
+
+215
+00:07:33,040 --> 00:07:34,640
+Open another uh
+
+216
+00:07:34,640 --> 00:07:35,580
+Look at this
+
+217
+00:07:35,580 --> 00:07:38,050
+Look at this
+
+218
+00:07:38,050 --> 00:07:40,370
+This is to create SCALLS for you under the ontology
+
+219
+00:07:40,370 --> 00:07:42,610
+and its global constraints
+
+220
+00:07:42,610 --> 00:07:44,790
+And then, some friends
+
+221
+00:07:44,790 --> 00:07:46,510
+Actually, you would spend some time learning these scales
+
+222
+00:07:46,510 --> 00:07:48,550
+may still take you a little more time
+
+223
+00:07:48,550 --> 00:07:50,460
+I just helped you save that little bit of time
+
+224
+00:07:50,460 --> 00:07:51,820
+You can create a skill here
+
+225
+00:07:51,820 --> 00:07:53,660
+I'll tell you what's inside this skill creation
+
+226
+00:07:53,660 --> 00:07:54,500
+What are these functions for?
+
+227
+00:07:54,500 --> 00:07:56,620
+For example, let's call it code code
+
+228
+00:07:56,620 --> 00:07:57,970
+The name is Test
+
+229
+00:07:57,970 --> 00:08:01,490
+At this point, I will automatically create a scales template for you.
+
+230
+00:08:01,490 --> 00:08:02,110
+See
+
+231
+00:08:02,110 --> 00:08:03,410
+What do you want to do here
+
+232
+00:08:03,410 --> 00:08:04,190
+Right, uh
+
+233
+00:08:04,190 --> 00:08:07,030
+The content written here
+
+234
+00:08:07,030 --> 00:08:10,350
+Then, uh, what each field does
+
+235
+00:08:10,350 --> 00:08:11,450
+I've told you everything
+
+236
+00:08:11,450 --> 00:08:14,430
+You write according to this standard
+
+237
+00:08:14,430 --> 00:08:17,300
+skills can be used directly
+
+238
+00:08:17,300 --> 00:08:19,540
+And there will also be title instructions here
+
+239
+00:08:19,540 --> 00:08:21,100
+how you should use it
+
+240
+00:08:21,100 --> 00:08:23,780
+I can add them all in for you, yes
+
+241
+00:08:23,780 --> 00:08:27,470
+Some main content has been pre-scheduled for you in advance.
+
+242
+00:08:27,470 --> 00:08:29,330
+Then if you need to write a script
+
+243
+00:08:29,330 --> 00:08:31,290
+Scripts can also be created here
+
+244
+00:08:31,290 --> 00:08:33,340
+These scripts will also
+
+245
+00:08:33,340 --> 00:08:36,640
+It means you only need to operate from the page.
+
+246
+00:08:36,640 --> 00:08:41,169
+What he created must be a usable
+
+247
+00:08:41,169 --> 00:08:42,690
+it must be a usable thing
+
+248
+00:08:42,690 --> 00:08:45,610
+it must be something that the AI recognizes
+
+249
+00:08:47,940 --> 00:08:50,180
+Save this
+
+250
+00:08:50,180 --> 00:08:51,700
+In this way, these contents will be available
+
+251
+00:08:51,700 --> 00:08:52,540
+Then after saving it
+
+252
+00:08:52,540 --> 00:08:53,660
+We save the configuration
+
+253
+00:08:53,660 --> 00:08:55,100
+Then synchronize
+
+254
+00:08:55,100 --> 00:08:57,300
+All these SCALLS will be created for you
+
+255
+00:08:57,300 --> 00:08:58,980
+For example, there are these things in the code, right
+
+256
+00:08:58,980 --> 00:09:00,100
+This is what we just wrote
+
+257
+00:09:00,100 --> 00:09:01,900
+a script for each of the scales
+
+258
+00:09:01,900 --> 00:09:03,320
+The format has also been fully organized for you.
+
+259
+00:09:03,320 --> 00:09:05,900
+Then, the scripts you wrote will be placed under the script.
+
+260
+00:09:05,900 --> 00:09:07,780
+
+
+261
+00:09:07,780 --> 00:09:09,540
+You just need to write it here, alright
+
+262
+00:09:09,540 --> 00:09:10,540
+it will tell you
+
+263
+00:09:10,540 --> 00:09:11,420
+I will call it now
+
+264
+00:09:11,420 --> 00:09:12,660
+what to do at this time
+
+265
+00:09:12,660 --> 00:09:15,390
+This is a SCALLS approach
+
+266
+00:09:15,390 --> 00:09:16,630
+writing method
+
+267
+00:09:16,630 --> 00:09:18,750
+ensure that you can achieve with minimal learning effort
+
+268
+00:09:18,750 --> 00:09:20,620
+to create a scale that better suits your own needs
+
+269
+00:09:20,620 --> 00:09:22,060
+In future versions
+
+270
+00:09:22,060 --> 00:09:24,570
+JVA will also create many
+
+271
+00:09:24,570 --> 00:09:26,930
+this scale that helps everyone write code
+
+272
+00:09:26,930 --> 00:09:29,170
+or incorporate scales that help improve work efficiency
+
+273
+00:09:29,170 --> 00:09:32,510
+This will further deepen the integration between our framework and AI.
+
+274
+00:09:32,510 --> 00:09:35,850
+Of course, if you want to provide me with some Scouts
+
+275
+00:09:35,850 --> 00:09:39,270
+You are also very welcome to submit PRs on GitHub.
+
+276
+00:09:39,270 --> 00:09:40,310
+I think it's good
+
+277
+00:09:40,310 --> 00:09:41,950
+I will include all of them for you
+
+278
+00:09:41,950 --> 00:09:44,430
+You can also submit to the plugin marketplace if you want to make money.
+
+279
+00:09:44,430 --> 00:09:45,590
+No, no, it's all not possible, not possible.
+
+280
+00:09:45,590 --> 00:09:48,670
+Alright then, that's all for this episode
+
+281
+00:09:48,670 --> 00:09:49,470
+That's all for now
+
+282
+00:09:49,470 --> 00:09:50,070
+That's all.
+
+283
+00:09:50,070 --> 00:09:54,450
+We will further integrate the framework with AI in the future
+
+284
+00:09:54,450 --> 00:09:58,490
+We aim to make it more AI-savvy and AI-aware
+
+285
+00:09:58,490 --> 00:09:59,390
+a more intelligent framework
+
+286
+00:09:59,390 --> 00:10:03,450
+make this JVA the best technical framework for development in the AI era
+
+287
+00:10:03,450 --> 00:10:05,680
+the best technical framework
+
+288
+00:10:05,680 --> 00:10:08,500
+That's all for this episode.
+
+289
+00:10:08,500 --> 00:10:09,940
+See you in the next episode
+

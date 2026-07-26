@@ -1,0 +1,288 @@
+1
+00:00:00,000 --> 00:00:02,780
+Let me introduce an open-source project called INFOGRAPHIC
+
+2
+00:00:02,780 --> 00:00:05,760
+This project mainly helps us generate
+
+3
+00:00:05,760 --> 00:00:08,660
+similar to those templates in PowerPoint
+
+4
+00:00:08,660 --> 00:00:10,660
+It can convert a piece of text into
+
+5
+00:00:10,660 --> 00:00:14,060
+such structured graphics
+
+6
+00:00:14,060 --> 00:00:16,480
+somewhat similar to the things we draw in our PPT
+
+7
+00:00:16,480 --> 00:00:17,440
+It was quite popular back then.
+
+8
+00:00:17,440 --> 00:00:18,300
+4000 stars
+
+9
+00:00:18,300 --> 00:00:21,200
+The latest version is 0.2.12.
+
+10
+00:00:21,200 --> 00:00:23,080
+This version is also licensed under the MIT protocol
+
+11
+00:00:23,080 --> 00:00:25,540
+can be used commercially for free
+
+12
+00:00:25,540 --> 00:00:27,100
+Let's take a look at it
+
+13
+00:00:27,100 --> 00:00:29,500
+It currently supports a wide variety of charts
+
+14
+00:00:29,500 --> 00:00:30,660
+You can see, uh
+
+15
+00:00:30,660 --> 00:00:32,980
+It's called the Infographic Template Library
+
+16
+00:00:32,980 --> 00:00:34,260
+This is mainly used for creating PPTs.
+
+17
+00:00:34,260 --> 00:00:37,269
+There are various types of such charts, all very visually appealing.
+
+18
+00:00:37,269 --> 00:00:39,489
+This is similar to a word cloud
+
+19
+00:00:39,489 --> 00:00:41,389
+This effect belongs to the comparison type.
+
+20
+00:00:41,389 --> 00:00:42,709
+There are various comparison effects.
+
+21
+00:00:42,709 --> 00:00:45,109
+This is also a comparative approach through inheritance
+
+22
+00:00:45,109 --> 00:00:46,550
+This is a four-quadrant chart
+
+23
+00:00:46,550 --> 00:00:48,070
+also a comparative SWOT diagram
+
+24
+00:00:48,070 --> 00:00:50,270
+This is the mind map hierarchical type
+
+25
+00:00:50,270 --> 00:00:51,530
+This is also a hierarchical tree.
+
+26
+00:00:51,530 --> 00:00:54,700
+This is what it calls a list list.
+
+27
+00:00:54,700 --> 00:00:56,660
+This is a tabular list.
+
+28
+00:00:56,660 --> 00:00:59,960
+
+
+29
+00:00:59,960 --> 00:01:01,800
+This one is a bit like a dashboard.
+
+30
+00:01:03,000 --> 00:01:04,180
+This one is somewhat like a trend
+
+31
+00:01:04,180 --> 00:01:07,600
+This is a four-quadrant chart type, and this is a circular one.
+
+32
+00:01:07,600 --> 00:01:08,960
+This is a sequence
+
+33
+00:01:08,960 --> 00:01:11,980
+This is a funnel map snake sequence
+
+34
+00:01:11,980 --> 00:01:14,669
+This is the online time series.
+
+35
+00:01:14,669 --> 00:01:16,849
+The entire structure has a total of 200
+
+36
+00:01:16,849 --> 00:01:18,429
+There are 236 templates
+
+37
+00:01:18,429 --> 00:01:20,890
+and you can customize the templates within it
+
+38
+00:01:20,890 --> 00:01:23,530
+Its main utility is that it can integrate with large models
+
+39
+00:01:23,530 --> 00:01:25,710
+through JSON representation
+
+40
+00:01:25,710 --> 00:01:28,290
+That is similar to defining some JSON data.
+
+41
+00:01:28,290 --> 00:01:31,630
+define which template type you want to use
+
+42
+00:01:31,630 --> 00:01:34,170
+You can define things like length,
+
+43
+00:01:34,170 --> 00:01:35,610
+or color or style
+
+44
+00:01:35,610 --> 00:01:37,050
+it can then display it for you
+
+45
+00:01:37,050 --> 00:01:39,700
+So it's very capable of transforming a lot of our text
+
+46
+00:01:39,700 --> 00:01:41,600
+can be converted into PPT templates
+
+47
+00:01:41,600 --> 00:01:42,860
+This is very convenient
+
+48
+00:01:42,860 --> 00:01:45,500
+Currently, this project also supports it
+
+49
+00:01:45,500 --> 00:01:48,620
+This project natively supports the integration within Cloud Code
+
+50
+00:01:48,620 --> 00:01:49,980
+integration of skills
+
+51
+00:01:49,980 --> 00:01:51,910
+can be integrated with Cloud Code
+
+52
+00:01:51,910 --> 00:01:54,050
+enable it to generate similar graphics
+
+53
+00:01:54,050 --> 00:01:56,050
+Currently, we can also see this project
+
+54
+00:01:56,050 --> 00:01:57,070
+the define project
+
+55
+00:01:57,070 --> 00:02:00,680
+Currently, it is also integrating the INFORMATION GRAPHIC project.
+
+56
+00:02:00,680 --> 00:02:01,900
+After the integration is complete
+
+57
+00:02:01,900 --> 00:02:03,440
+It can also utilize large models
+
+58
+00:02:03,440 --> 00:02:05,100
+have it generate a variety of
+
+59
+00:02:05,100 --> 00:02:07,390
+these very beautiful structured graphics
+
+60
+00:02:07,390 --> 00:02:08,610
+If you can generate this graphic
+
+61
+00:02:08,610 --> 00:02:10,330
+combined with what we previously introduced to everyone
+
+62
+00:02:10,330 --> 00:02:11,450
+a PowerPoint template
+
+63
+00:02:13,250 --> 00:02:15,500
+then it can be customized to generate
+
+64
+00:02:15,500 --> 00:02:17,500
+various PPTs in our enterprise
+
+65
+00:02:17,500 --> 00:02:20,120
+Alright, let me briefly introduce this project.
+
+66
+00:02:20,120 --> 00:02:22,120
+
+
+67
+00:02:22,120 --> 00:02:23,720
+written in app script
+
+68
+00:02:23,720 --> 00:02:26,350
+using JavaScript or TypeScript for development
+
+69
+00:02:26,350 --> 00:02:28,350
+It is also a frontend-oriented application.
+
+70
+00:02:28,350 --> 00:02:31,730
+It can also be saved as an image or vector-like graphics.
+
+71
+00:02:31,730 --> 00:02:32,750
+It is capable of all these.
+
+72
+00:02:32,750 --> 00:02:35,760
+Alright, that concludes our introduction to this project today.
+
