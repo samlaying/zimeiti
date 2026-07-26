@@ -1,21 +1,4 @@
-我重新按你的需求筛了一下：你要的不是「公众号发布工具」，而是：
 
-> **公众号爆文写作方法论 → 沉淀成 Claude Skill / Prompt / SOP，让 AI 像一个成熟公众号作者一样写文章。**
-
-目前 GitHub 上**没有一个特别成熟的“公众号爆文 Skill”**，但有一些接近的项目可以组合借鉴：
-
-* 内容营销 Skill
-* Copywriting Skill
-* Blog Writing Agent
-* Social Media Writing Skill
-
-例如：
-
-* [claude-marketing](https://github.com/thatrebeccarae/claude-marketing?utm_source=chatgpt.com)：包含内容营销、内容工作流等 Claude Code Skills。([GitHub][1])
-* [ai-marketing-claude-code-skills](https://github.com/BrianRWagner/ai-marketing-claude-code-skills?utm_source=chatgpt.com)：把营销方法论包装成 Agent Skill，而不是简单 Prompt。([GitHub][2])
-* [skills](https://github.com/boraoztunc/skills?utm_source=chatgpt.com)：里面有 copywriting、copy-editing、stop-slop 等写作 Skill。([GitHub][3])
-
-但是如果目标是**微信公众号爆文**，我建议自己做一个 Skill，结构应该类似下面。
 
 ---
 
